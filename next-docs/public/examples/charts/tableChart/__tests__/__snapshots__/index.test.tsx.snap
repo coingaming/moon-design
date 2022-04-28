@@ -5,7 +5,7 @@ exports[`Table Chart renders 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="sc-jLOYlT gpMmQx"
+    className="sc-gPKDLW fDKba"
     style={
       Object {
         "height": 446,
@@ -13,14 +13,14 @@ exports[`Table Chart renders 1`] = `
     }
   >
     <div
-      className="sc-gRFyCy ehwOQZ"
+      className="sc-ksWjrO emcCVh"
     >
       <button
-        className="sc-knTjpY bDaUFQ"
+        className="sc-jJUdvr gntKQP"
         onClick={[Function]}
       >
         <svg
-          className="sc-dmRaPn sc-WJksd  bObsJK"
+          className="sc-dmRaPn sc-hwByLP  iCgBEX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -35,7 +35,7 @@ exports[`Table Chart renders 1`] = `
       </button>
       <div />
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -56,7 +56,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -78,10 +78,10 @@ exports[`Table Chart renders 1`] = `
       </button>
     </div>
     <div
-      className="sc-eBhLNR fJtVOK"
+      className="sc-kHMNun hXkBpu"
     >
       <div
-        className="sc-bPnocz gnORSC"
+        className="sc-iUjRoI fDCzcC"
       >
         <svg
           fill="none"
@@ -220,23 +220,23 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="sc-cyxtte sc-eLHYIy NqnlD fpdcDO"
+        className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
         size={20}
       >
         Top Players
       </p>
       <div
-        className="sc-hxCwtQ"
+        className="sc-fXPgIJ"
       >
         <div
-          className="sc-gZRyEk dprbRC"
+          className="sc-eBhLNR yyKIN"
         >
           <button
-            className="sc-gbFqDM feJVjQ"
+            className="sc-hxCwtQ gjgraJ"
             onClick={[Function]}
           >
             <p
-              className="sc-cyxtte sc-jjavrh eznmfj dzaBHE"
+              className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
               size={14}
             >
               by GGR
@@ -262,27 +262,27 @@ exports[`Table Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="sc-kjqWtN kxnXkD"
+      className="sc-egFLrJ hqnlEW"
     >
       <div
-        className="sc-jJUdvr fHNapw"
+        className="sc-cuQNSp gZBYKS"
       >
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             1
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             <span
               style={
@@ -300,131 +300,131 @@ exports[`Table Chart renders 1`] = `
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             2
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             C593088487
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             3
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             C593088487
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             4
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             C593088487
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             5
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             C593088487
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
@@ -433,7 +433,7 @@ exports[`Table Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-jLOYlT gpMmQx"
+    className="sc-gPKDLW fDKba"
     style={
       Object {
         "height": 446,
@@ -441,10 +441,10 @@ exports[`Table Chart renders 1`] = `
     }
   >
     <div
-      className="sc-gRFyCy ehwOQZ"
+      className="sc-ksWjrO emcCVh"
     >
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <div
@@ -460,7 +460,7 @@ exports[`Table Chart renders 1`] = `
       </button>
       <div />
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -481,7 +481,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -503,10 +503,10 @@ exports[`Table Chart renders 1`] = `
       </button>
     </div>
     <div
-      className="sc-eBhLNR fJtVOK"
+      className="sc-kHMNun hXkBpu"
     >
       <div
-        className="sc-bPnocz gnORSC"
+        className="sc-iUjRoI fDCzcC"
       >
         <svg
           fill="none"
@@ -672,23 +672,23 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="sc-cyxtte sc-eLHYIy NqnlD fpdcDO"
+        className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
         size={20}
       >
         Top Suppliers
       </p>
       <div
-        className="sc-hxCwtQ"
+        className="sc-fXPgIJ"
       >
         <div
-          className="sc-gZRyEk dprbRC"
+          className="sc-eBhLNR yyKIN"
         >
           <button
-            className="sc-gbFqDM feJVjQ"
+            className="sc-hxCwtQ gjgraJ"
             onClick={[Function]}
           >
             <p
-              className="sc-cyxtte sc-jjavrh eznmfj dzaBHE"
+              className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
               size={14}
             >
               by GGR
@@ -714,30 +714,30 @@ exports[`Table Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="sc-kjqWtN kxnXkD"
+      className="sc-egFLrJ hqnlEW"
     >
       <div
-        className="sc-jJUdvr fHNapw"
+        className="sc-cuQNSp gZBYKS"
       >
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             1
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             <svg
-              className="sc-khrHlC lcQvTG"
+              className="sc-iBPSDD eKmMTM"
               fill="none"
               height="24px"
               viewBox="0 0 24 23"
@@ -756,7 +756,7 @@ exports[`Table Chart renders 1`] = `
               />
             </svg>
             <p
-              className="sc-cyxtte eznmfj"
+              className="sc-jveewi dbvQYG"
               size={14}
             >
               Sportsbet
@@ -764,34 +764,34 @@ exports[`Table Chart renders 1`] = `
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             2
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             <svg
-              className="sc-iBPSDD eKmMTM"
+              className="sc-bWUTjH jKsVie"
               height="24px"
               viewBox="0 0 42 41"
               width="24px"
@@ -826,7 +826,7 @@ exports[`Table Chart renders 1`] = `
               </g>
             </svg>
             <p
-              className="sc-cyxtte eznmfj"
+              className="sc-jveewi dbvQYG"
               size={14}
             >
               Hub88
@@ -834,34 +834,34 @@ exports[`Table Chart renders 1`] = `
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             3
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             <svg
-              className="sc-eNohxl gzKmhU"
+              className="sc-YLmAF khnLkf"
               fill="none"
               height="24px"
               viewBox="0 0 198 263"
@@ -874,7 +874,7 @@ exports[`Table Chart renders 1`] = `
               />
             </svg>
             <p
-              className="sc-cyxtte eznmfj"
+              className="sc-jveewi dbvQYG"
               size={14}
             >
               Bitcasino
@@ -882,34 +882,34 @@ exports[`Table Chart renders 1`] = `
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             4
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             <svg
-              className="sc-gfrqJO grhmqf"
+              className="sc-jiXIMO gMBkIk"
               fill="none"
               height="24px"
               viewBox="0 0 26 31"
@@ -924,7 +924,7 @@ exports[`Table Chart renders 1`] = `
               />
             </svg>
             <p
-              className="sc-cyxtte eznmfj"
+              className="sc-jveewi dbvQYG"
               size={14}
             >
               Luckyslots
@@ -932,34 +932,34 @@ exports[`Table Chart renders 1`] = `
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             5
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             <svg
-              className="sc-iKKmqK jUWkRG"
+              className="sc-ezBCZe gUHCbV"
               fill="none"
               height="24px"
               viewBox="0 0 20 30"
@@ -976,7 +976,7 @@ exports[`Table Chart renders 1`] = `
               />
             </svg>
             <p
-              className="sc-cyxtte eznmfj"
+              className="sc-jveewi dbvQYG"
               size={14}
             >
               Slots
@@ -984,11 +984,11 @@ exports[`Table Chart renders 1`] = `
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
@@ -997,7 +997,7 @@ exports[`Table Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-jLOYlT gpMmQx"
+    className="sc-gPKDLW fDKba"
     style={
       Object {
         "height": 446,
@@ -1005,14 +1005,14 @@ exports[`Table Chart renders 1`] = `
     }
   >
     <div
-      className="sc-gRFyCy ehwOQZ"
+      className="sc-ksWjrO emcCVh"
     >
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-dmRaPn sc-WJksd  bObsJK"
+          className="sc-dmRaPn sc-hwByLP  iCgBEX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1027,7 +1027,7 @@ exports[`Table Chart renders 1`] = `
       </button>
       <div />
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -1048,7 +1048,7 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </button>
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -1070,10 +1070,10 @@ exports[`Table Chart renders 1`] = `
       </button>
     </div>
     <div
-      className="sc-eBhLNR fJtVOK"
+      className="sc-kHMNun hXkBpu"
     >
       <div
-        className="sc-bPnocz gnORSC"
+        className="sc-iUjRoI fDCzcC"
       >
         <svg
           fill="none"
@@ -1233,23 +1233,23 @@ exports[`Table Chart renders 1`] = `
         </svg>
       </div>
       <p
-        className="sc-cyxtte sc-eLHYIy NqnlD fpdcDO"
+        className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
         size={20}
       >
         Top Games
       </p>
       <div
-        className="sc-hxCwtQ"
+        className="sc-fXPgIJ"
       >
         <div
-          className="sc-gZRyEk dprbRC"
+          className="sc-eBhLNR yyKIN"
         >
           <button
-            className="sc-gbFqDM feJVjQ"
+            className="sc-hxCwtQ gjgraJ"
             onClick={[Function]}
           >
             <p
-              className="sc-cyxtte sc-jjavrh eznmfj dzaBHE"
+              className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
               size={14}
             >
               by GGR
@@ -1275,39 +1275,39 @@ exports[`Table Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="sc-kjqWtN kxnXkD"
+      className="sc-egFLrJ hqnlEW"
     >
       <div
-        className="sc-jJUdvr fHNapw"
+        className="sc-cuQNSp gZBYKS"
       >
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             1
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             <div
-              className="sc-ctuRtO hfIBYK"
+              className="sc-dpRLZP kTnxyN"
             >
               <div
-                className="sc-dpRLZP kvpDHH"
+                className="sc-bgnbwU iRwdmo"
                 size="xsmall"
               />
             </div>
             <div>
               <p
-                className="sc-cyxtte eznmfj"
+                className="sc-jveewi dbvQYG"
                 size={14}
               >
                 <span
@@ -1325,7 +1325,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="sc-cyxtte izVCUn"
+                className="sc-jveewi juLioi"
                 color="trunks.100"
                 size={12}
               >
@@ -1335,43 +1335,43 @@ exports[`Table Chart renders 1`] = `
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             2
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             <div
-              className="sc-ctuRtO hfIBYK"
+              className="sc-dpRLZP kTnxyN"
             >
               <div
-                className="sc-dpRLZP enKA-DH"
+                className="sc-bgnbwU jtPnbQ"
                 size="xsmall"
               />
             </div>
             <div>
               <p
-                className="sc-cyxtte eznmfj"
+                className="sc-jveewi dbvQYG"
                 size={14}
               >
                 <span
@@ -1389,7 +1389,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="sc-cyxtte izVCUn"
+                className="sc-jveewi juLioi"
                 color="trunks.100"
                 size={12}
               >
@@ -1399,43 +1399,43 @@ exports[`Table Chart renders 1`] = `
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             3
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             <div
-              className="sc-ctuRtO hfIBYK"
+              className="sc-dpRLZP kTnxyN"
             >
               <div
-                className="sc-dpRLZP GVWnb"
+                className="sc-bgnbwU eopWZs"
                 size="xsmall"
               />
             </div>
             <div>
               <p
-                className="sc-cyxtte eznmfj"
+                className="sc-jveewi dbvQYG"
                 size={14}
               >
                 <span
@@ -1453,7 +1453,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="sc-cyxtte izVCUn"
+                className="sc-jveewi juLioi"
                 color="trunks.100"
                 size={12}
               >
@@ -1463,43 +1463,43 @@ exports[`Table Chart renders 1`] = `
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             4
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             <div
-              className="sc-ctuRtO hfIBYK"
+              className="sc-dpRLZP kTnxyN"
             >
               <div
-                className="sc-dpRLZP gMgrsn"
+                className="sc-bgnbwU elQTSo"
                 size="xsmall"
               />
             </div>
             <div>
               <p
-                className="sc-cyxtte eznmfj"
+                className="sc-jveewi dbvQYG"
                 size={14}
               >
                 <span
@@ -1517,7 +1517,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="sc-cyxtte izVCUn"
+                className="sc-jveewi juLioi"
                 color="trunks.100"
                 size={12}
               >
@@ -1527,43 +1527,43 @@ exports[`Table Chart renders 1`] = `
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             5
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             <div
-              className="sc-ctuRtO hfIBYK"
+              className="sc-dpRLZP kTnxyN"
             >
               <div
-                className="sc-dpRLZP hFreXr"
+                className="sc-bgnbwU frqsow"
                 size="xsmall"
               />
             </div>
             <div>
               <p
-                className="sc-cyxtte eznmfj"
+                className="sc-jveewi dbvQYG"
                 size={14}
               >
                 <span
@@ -1581,7 +1581,7 @@ exports[`Table Chart renders 1`] = `
                 </span>
               </p>
               <p
-                className="sc-cyxtte izVCUn"
+                className="sc-jveewi juLioi"
                 color="trunks.100"
                 size={12}
               >
@@ -1591,11 +1591,11 @@ exports[`Table Chart renders 1`] = `
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,222.405
           </div>
@@ -1608,7 +1608,7 @@ exports[`Table Chart renders 1`] = `
 
 exports[`Table Chart renders Active 1`] = `
 <div
-  className="sc-fgiXzq EbhqA"
+  className="sc-gcFSfr dKaiSe"
   style={
     Object {
       "flexWrap": "nowrap",
@@ -1616,7 +1616,7 @@ exports[`Table Chart renders Active 1`] = `
   }
 >
   <div
-    className="sc-jLOYlT gpMmQx"
+    className="sc-gPKDLW fDKba"
     style={
       Object {
         "height": 446,
@@ -1624,14 +1624,14 @@ exports[`Table Chart renders Active 1`] = `
     }
   >
     <div
-      className="sc-gRFyCy ehwOQZ"
+      className="sc-ksWjrO emcCVh"
     >
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-dmRaPn sc-WJksd  bObsJK"
+          className="sc-dmRaPn sc-hwByLP  iCgBEX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1646,7 +1646,7 @@ exports[`Table Chart renders Active 1`] = `
       </button>
       <div />
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -1667,7 +1667,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </button>
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -1689,10 +1689,10 @@ exports[`Table Chart renders Active 1`] = `
       </button>
     </div>
     <div
-      className="sc-eBhLNR fJtVOK"
+      className="sc-kHMNun hXkBpu"
     >
       <div
-        className="sc-bPnocz gnORSC"
+        className="sc-iUjRoI fDCzcC"
       >
         <svg
           fill="none"
@@ -1833,23 +1833,23 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-cyxtte sc-eLHYIy NqnlD fpdcDO"
+        className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
         size={20}
       >
         Yesterday
       </p>
       <div
-        className="sc-hxCwtQ"
+        className="sc-fXPgIJ"
       >
         <div
-          className="sc-gZRyEk dprbRC"
+          className="sc-eBhLNR yyKIN"
         >
           <button
-            className="sc-gbFqDM feJVjQ"
+            className="sc-hxCwtQ gjgraJ"
             onClick={[Function]}
           >
             <p
-              className="sc-cyxtte sc-jjavrh eznmfj dzaBHE"
+              className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
               size={14}
             >
               by all devices
@@ -1875,157 +1875,157 @@ exports[`Table Chart renders Active 1`] = `
       </div>
     </div>
     <div
-      className="sc-kjqWtN kxnXkD"
+      className="sc-egFLrJ hqnlEW"
     >
       <div
-        className="sc-jJUdvr fHNapw"
+        className="sc-cuQNSp gZBYKS"
       >
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             1
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Active players
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             2,786
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             2
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Turnover
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             €8,765.45
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             3
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             GGR
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             15,873.98
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             4
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Bets
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,763
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             5
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Margin
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             5.38%
           </div>
@@ -2034,7 +2034,7 @@ exports[`Table Chart renders Active 1`] = `
     </div>
   </div>
   <div
-    className="sc-jLOYlT eGTFHS"
+    className="sc-gPKDLW lvlym"
     style={
       Object {
         "height": 446,
@@ -2042,14 +2042,14 @@ exports[`Table Chart renders Active 1`] = `
     }
   >
     <div
-      className="sc-gRFyCy ehwOQZ"
+      className="sc-ksWjrO emcCVh"
     >
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-dmRaPn sc-WJksd  bObsJK"
+          className="sc-dmRaPn sc-hwByLP  iCgBEX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2064,7 +2064,7 @@ exports[`Table Chart renders Active 1`] = `
       </button>
       <div />
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -2085,7 +2085,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </button>
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -2107,10 +2107,10 @@ exports[`Table Chart renders Active 1`] = `
       </button>
     </div>
     <div
-      className="sc-eBhLNR dpMYMP"
+      className="sc-kHMNun iOEVhm"
     >
       <div
-        className="sc-bPnocz gnORSC"
+        className="sc-iUjRoI fDCzcC"
       >
         <svg
           fill="none"
@@ -2250,23 +2250,23 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-cyxtte sc-eLHYIy NqnlD fpdcDO"
+        className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
         size={20}
       >
         Today
       </p>
       <div
-        className="sc-hxCwtQ"
+        className="sc-fXPgIJ"
       >
         <div
-          className="sc-gZRyEk dprbRC"
+          className="sc-eBhLNR yyKIN"
         >
           <button
-            className="sc-gbFqDM feJVjQ"
+            className="sc-hxCwtQ gjgraJ"
             onClick={[Function]}
           >
             <p
-              className="sc-cyxtte sc-jjavrh eznmfj dzaBHE"
+              className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
               size={14}
             >
               by all devices
@@ -2292,157 +2292,157 @@ exports[`Table Chart renders Active 1`] = `
       </div>
     </div>
     <div
-      className="sc-kjqWtN biUErH"
+      className="sc-egFLrJ jbCWvc"
     >
       <div
-        className="sc-jJUdvr fHNapw"
+        className="sc-cuQNSp gZBYKS"
       >
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             1
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Active players
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             2,786
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             2
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Turnover
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             €8,765.45
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             3
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             GGR
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             15,873.98
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             4
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Bets
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,763
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             5
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Margin
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             5.38%
           </div>
@@ -2458,7 +2458,7 @@ exports[`Table Chart renders Loading 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="sc-jLOYlT gpMmQx"
+    className="sc-gPKDLW fDKba"
     style={
       Object {
         "height": 446,
@@ -2466,14 +2466,14 @@ exports[`Table Chart renders Loading 1`] = `
     }
   >
     <div
-      className="sc-gRFyCy ehwOQZ"
+      className="sc-ksWjrO emcCVh"
     >
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-dmRaPn sc-WJksd  bObsJK"
+          className="sc-dmRaPn sc-hwByLP  iCgBEX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2488,7 +2488,7 @@ exports[`Table Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -2509,7 +2509,7 @@ exports[`Table Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -2531,10 +2531,10 @@ exports[`Table Chart renders Loading 1`] = `
       </button>
     </div>
     <div
-      className="sc-eBhLNR fJtVOK"
+      className="sc-kHMNun hXkBpu"
     >
       <div
-        className="sc-bPnocz gnORSC"
+        className="sc-iUjRoI fDCzcC"
       >
         <svg
           fill="none"
@@ -2675,23 +2675,23 @@ exports[`Table Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="sc-cyxtte sc-eLHYIy NqnlD fpdcDO"
+        className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
         size={20}
       >
         Yesterday
       </p>
       <div
-        className="sc-hxCwtQ"
+        className="sc-fXPgIJ"
       >
         <div
-          className="sc-gZRyEk dprbRC"
+          className="sc-eBhLNR yyKIN"
         >
           <button
-            className="sc-gbFqDM feJVjQ"
+            className="sc-hxCwtQ gjgraJ"
             onClick={[Function]}
           >
             <p
-              className="sc-cyxtte sc-jjavrh eznmfj dzaBHE"
+              className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
               size={14}
             >
               by all devices
@@ -2717,7 +2717,7 @@ exports[`Table Chart renders Loading 1`] = `
       </div>
     </div>
     <div
-      className="sc-cmYlSf gdSFRj"
+      className="sc-bSGZAx edLvBc"
     >
       <svg
         fill="none"
@@ -2759,7 +2759,7 @@ exports[`Table Chart renders Loading 1`] = `
         />
       </svg>
       <p
-        className="sc-cyxtte sc-fjsWye iEcZNQ hFxEuT"
+        className="sc-jveewi sc-hNDnKS bNVltx gRhIuT"
         color="trunks.100"
         size={14}
       >
@@ -2768,7 +2768,7 @@ exports[`Table Chart renders Loading 1`] = `
     </div>
   </div>
   <div
-    className="sc-jLOYlT gpMmQx"
+    className="sc-gPKDLW fDKba"
     style={
       Object {
         "height": 446,
@@ -2776,14 +2776,14 @@ exports[`Table Chart renders Loading 1`] = `
     }
   >
     <div
-      className="sc-gRFyCy ehwOQZ"
+      className="sc-ksWjrO emcCVh"
     >
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-dmRaPn sc-WJksd  bObsJK"
+          className="sc-dmRaPn sc-hwByLP  iCgBEX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2798,7 +2798,7 @@ exports[`Table Chart renders Loading 1`] = `
       </button>
       <div />
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -2819,7 +2819,7 @@ exports[`Table Chart renders Loading 1`] = `
         </svg>
       </button>
       <button
-        className="sc-knTjpY bqFlgK"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
@@ -2841,10 +2841,10 @@ exports[`Table Chart renders Loading 1`] = `
       </button>
     </div>
     <div
-      className="sc-eBhLNR fJtVOK"
+      className="sc-kHMNun hXkBpu"
     >
       <div
-        className="sc-bPnocz gnORSC"
+        className="sc-iUjRoI fDCzcC"
       >
         <svg
           fill="none"
@@ -2985,23 +2985,23 @@ exports[`Table Chart renders Loading 1`] = `
         </svg>
       </div>
       <p
-        className="sc-cyxtte sc-eLHYIy NqnlD fpdcDO"
+        className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
         size={20}
       >
         Yesterday
       </p>
       <div
-        className="sc-hxCwtQ"
+        className="sc-fXPgIJ"
       >
         <div
-          className="sc-gZRyEk dprbRC"
+          className="sc-eBhLNR yyKIN"
         >
           <button
-            className="sc-gbFqDM feJVjQ"
+            className="sc-hxCwtQ gjgraJ"
             onClick={[Function]}
           >
             <p
-              className="sc-cyxtte sc-jjavrh eznmfj dzaBHE"
+              className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
               size={14}
             >
               by all devices
@@ -3027,157 +3027,157 @@ exports[`Table Chart renders Loading 1`] = `
       </div>
     </div>
     <div
-      className="sc-kjqWtN kxnXkD"
+      className="sc-egFLrJ hqnlEW"
     >
       <div
-        className="sc-jJUdvr fHNapw"
+        className="sc-cuQNSp gZBYKS"
       >
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             1
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Active players
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             2,786
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             2
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Turnover
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             €8,765.45
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             3
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             GGR
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             15,873.98
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             4
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Bets
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             6,763
           </div>
         </div>
         <div
-          className="sc-jrVuhE hQcWPD"
+          className="sc-frlyyo gsUchK"
           opacity={0}
         >
           <span
-            className="sc-ksWjrO ebtCJy"
+            className="sc-gA-DJDv jqLrQd"
           >
             5
           </span>
         </div>
         <div
-          className="sc-jrVuhE jruaOk"
+          className="sc-frlyyo hkOBxp"
           opacity={0}
         >
           <div
-            className="sc-gPKDLW UCOsY"
+            className="sc-jwYuju dYBsZB"
           >
             Margin
           </div>
         </div>
         <div
-          className="sc-jrVuhE dgICDg"
+          className="sc-frlyyo htthYZ"
           opacity={0}
         >
           <div
-            className="sc-hwByLP Hxyj"
+            className="sc-evnJpU iVWPzV"
           >
             5.38%
           </div>
