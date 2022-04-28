@@ -2,11 +2,10 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
-import Fill from '../../public/examples/tabs/Fill';
-import FillContainer from '../../public/examples/tabs/FillContainer';
-import IsTop from '../../public/examples/tabs/IsTop';
+import HorizontalVariants from "../../public/examples/tabs/HorizontalVariants";
 import Small from '../../public/examples/tabs/Small';
 import Variant from '../../public/examples/tabs/Variant';
+import VerticalVariants from "../../public/examples/tabs/VerticalVariants";
 import useExamples from '../../utils/useExamples';
 
 const PageTabsNew = () => {
@@ -20,50 +19,32 @@ const PageTabsNew = () => {
           same context.
         </p>
         <p className="text-lg mt-4">
-          By default, tabs will provide an accessible skip link, and overflow
-          with horizontal scrolling.
-        </p>
-        <p className="text-lg mt-4">
-          TabLink or TabLinkFill components provides the tab interaction. The
-          components renders as an anchor tag, accepting the standard
-          attributes. You also can wrap these components in custom Link
-          component for a specific router.
-        </p>
-        <p className="text-lg mt-8">
-          Below provides examples of different Tabs types:
+          Each tab should contain content that is distinct from other tabs in a set. For example, tabs can present different sections of news, different genres of music, or different themes of documents.
         </p>
       </section>
 
       {/* Default */}
       <section className="mt-4">
         <Preview
-          title="Underline"
+          title="Default"
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
-      <section className="mt-8">
+      <section className="mt-4">
         <Preview
-          title="Overline"
-          preview={<IsTop />}
-          code={examples ? examples.IsTop : 'Loading'}
+          title="Horizontal variants"
+          preview={<HorizontalVariants />}
+          code={examples ? examples.HorizontalVariants : 'Loading'}
         />
       </section>
 
       <section className="mt-8">
         <Preview
-          title="Filled"
-          preview={<Fill />}
-          code={examples ? examples.Fill : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Segment control"
-          preview={<FillContainer />}
-          code={examples ? examples.FillContainer : 'Loading'}
+          title="Vertical variants"
+          preview={<VerticalVariants />}
+          code={examples ? examples.VerticalVariants : 'Loading'}
         />
       </section>
 
