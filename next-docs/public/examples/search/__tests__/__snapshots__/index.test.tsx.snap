@@ -71,7 +71,7 @@ exports[`Search renders 1`] = `
         className="sc-gvSjmx cEruER"
       >
         <ul
-          className="sc-KiOns FBhwI"
+          className="sc-jiGprZ bbtZLY"
         >
           <li>
             <span>
@@ -142,7 +142,7 @@ exports[`Search renders Loading State 1`] = `
         className="sc-gvSjmx cEruER"
       >
         <ul
-          className="sc-jiGprZ bbtZLY"
+          className="sc-cYmoNK dBsdFl"
         >
           <li>
             Loading...

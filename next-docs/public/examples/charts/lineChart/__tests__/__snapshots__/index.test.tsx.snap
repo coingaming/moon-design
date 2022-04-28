@@ -2,7 +2,7 @@
 
 exports[`Line Chart renders 1`] = `
 <div
-  className="sc-jdHRdX npOLB"
+  className="sc-flkpTi ggWTKB"
   style={
     Object {
       "height": 526,
@@ -10,14 +10,14 @@ exports[`Line Chart renders 1`] = `
   }
 >
   <div
-    className="sc-flkpTi biqTUF"
+    className="sc-dluQYU jfhcIJ"
   >
     <button
-      className="sc-fXywWY bNCLnM"
+      className="sc-jdHRdX eOQqBq"
       onClick={[Function]}
     >
       <svg
-        className="sc-dmRaPn sc-dluQYU  fGWMTD"
+        className="sc-dmRaPn sc-ehRLEV  gZHvhf"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -32,7 +32,7 @@ exports[`Line Chart renders 1`] = `
     </button>
     <div />
     <button
-      className="sc-fXywWY btsFGq"
+      className="sc-jdHRdX eGcgoE"
       onClick={[Function]}
     >
       <svg
@@ -53,7 +53,7 @@ exports[`Line Chart renders 1`] = `
       </svg>
     </button>
     <button
-      className="sc-fXywWY btsFGq"
+      className="sc-jdHRdX eGcgoE"
       onClick={[Function]}
     >
       <svg
@@ -75,10 +75,10 @@ exports[`Line Chart renders 1`] = `
     </button>
   </div>
   <div
-    className="sc-kHDMMf THdzg"
+    className="sc-hHCpMn bfuEnx"
   >
     <div
-      className="sc-ewkqZ kcjwrq"
+      className="sc-cjglHy jIwZgD"
     >
       <svg
         fill="none"
@@ -146,23 +146,23 @@ exports[`Line Chart renders 1`] = `
       </svg>
     </div>
     <p
-      className="sc-gqUUDT sc-cVusLo oEdiy hqzDVy"
+      className="sc-cyxtte sc-ewkqZ NqnlD cMrUug"
       size={20}
     >
       KPI Overview
     </p>
     <div
-      className="sc-cjglHy"
+      className="sc-kHDMMf"
     >
       <div
-        className="sc-cYmoNK hITqsL"
+        className="sc-hogtv iGKPuY"
       >
         <button
-          className="sc-jiGprZ fAsfna"
+          className="sc-cYmoNK dfUWzf"
           onClick={[Function]}
         >
           <p
-            className="sc-gqUUDT sc-KiOns cmPnmS iqLwNZ"
+            className="sc-cyxtte sc-jiGprZ eznmfj bktpfF"
             size={14}
           >
             by all devices
@@ -188,102 +188,102 @@ exports[`Line Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-bsVkav dTULXB"
+    className="sc-iPTsoC dGsWmM"
   >
     <div
-      className="sc-iPTsoC cjCTcc"
+      className="sc-bbMrut ibDyXc"
     >
       <button
-        className="sc-bbMrut jNnxik"
+        className="sc-iyKzIA eTwa-dX"
         onClick={[Function]}
       >
         <div
-          className="sc-iyKzIA cEdNx"
+          className="sc-dEgOyr frwDBm"
           color="frieza.100"
         />
         <div
-          className="sc-dEgOyr iPAlmC"
+          className="sc-lbeWMy cmuKzI"
         >
           Active players
         </div>
         <div
-          className="sc-lbeWMy fRROdm"
+          className="sc-mGooh bfvbuc"
         >
           3,174
         </div>
       </button>
       <button
-        className="sc-bbMrut jNnxik"
+        className="sc-iyKzIA eTwa-dX"
         onClick={[Function]}
       >
         <div
-          className="sc-iyKzIA bPOzyj"
+          className="sc-dEgOyr dLRpZg"
           color="krillin.100"
         />
         <div
-          className="sc-dEgOyr iPAlmC"
+          className="sc-lbeWMy cmuKzI"
         >
           Turnover
         </div>
         <div
-          className="sc-lbeWMy fRROdm"
+          className="sc-mGooh bfvbuc"
         >
           12,174.23
         </div>
       </button>
       <button
-        className="sc-bbMrut jUbYFu"
+        className="sc-iyKzIA jTdknZ"
         onClick={[Function]}
       >
         <div
-          className="sc-iyKzIA bTWnZx"
+          className="sc-dEgOyr ddpnSO"
           color="roshi.100"
         />
         <div
-          className="sc-dEgOyr iPAlmC"
+          className="sc-lbeWMy cmuKzI"
         >
           GGR
         </div>
         <div
-          className="sc-lbeWMy fRROdm"
+          className="sc-mGooh bfvbuc"
         >
           12,174.23
         </div>
       </button>
       <button
-        className="sc-bbMrut jNnxik"
+        className="sc-iyKzIA eTwa-dX"
         onClick={[Function]}
       >
         <div
-          className="sc-iyKzIA jhwpEk"
+          className="sc-dEgOyr bndHVD"
           color="whis.100"
         />
         <div
-          className="sc-dEgOyr iPAlmC"
+          className="sc-lbeWMy cmuKzI"
         >
           Bets
         </div>
         <div
-          className="sc-lbeWMy fRROdm"
+          className="sc-mGooh bfvbuc"
         >
           3,174
         </div>
       </button>
       <button
-        className="sc-bbMrut jUbYFu"
+        className="sc-iyKzIA jTdknZ"
         onClick={[Function]}
       >
         <div
-          className="sc-iyKzIA jGvfOJ"
+          className="sc-dEgOyr ePrkRC"
           color="chiChi.100"
         />
         <div
-          className="sc-dEgOyr iPAlmC"
+          className="sc-lbeWMy cmuKzI"
         >
           Margin
         </div>
         <div
-          className="sc-lbeWMy fRROdm"
+          className="sc-mGooh bfvbuc"
         >
           5.38%
         </div>
@@ -291,7 +291,7 @@ exports[`Line Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="recharts-responsive-container sc-mGooh cmhTVY"
+    className="recharts-responsive-container sc-hJEwCo jrLYnS"
     style={
       Object {
         "height": "100%",
@@ -317,7 +317,7 @@ exports[`Line Chart renders Loading 1`] = `
     }
   >
     <div
-      className="sc-jdHRdX npOLB"
+      className="sc-flkpTi ggWTKB"
       style={
         Object {
           "height": 526,
@@ -325,14 +325,14 @@ exports[`Line Chart renders Loading 1`] = `
       }
     >
       <div
-        className="sc-flkpTi biqTUF"
+        className="sc-dluQYU jfhcIJ"
       >
         <button
-          className="sc-fXywWY bNCLnM"
+          className="sc-jdHRdX eOQqBq"
           onClick={[Function]}
         >
           <svg
-            className="sc-dmRaPn sc-dluQYU  fGWMTD"
+            className="sc-dmRaPn sc-ehRLEV  gZHvhf"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -347,7 +347,7 @@ exports[`Line Chart renders Loading 1`] = `
         </button>
         <div />
         <button
-          className="sc-fXywWY btsFGq"
+          className="sc-jdHRdX eGcgoE"
           onClick={[Function]}
         >
           <svg
@@ -368,7 +368,7 @@ exports[`Line Chart renders Loading 1`] = `
           </svg>
         </button>
         <button
-          className="sc-fXywWY btsFGq"
+          className="sc-jdHRdX eGcgoE"
           onClick={[Function]}
         >
           <svg
@@ -390,10 +390,10 @@ exports[`Line Chart renders Loading 1`] = `
         </button>
       </div>
       <div
-        className="sc-kHDMMf THdzg"
+        className="sc-hHCpMn bfuEnx"
       >
         <div
-          className="sc-ewkqZ kcjwrq"
+          className="sc-cjglHy jIwZgD"
         >
           <svg
             fill="none"
@@ -461,23 +461,23 @@ exports[`Line Chart renders Loading 1`] = `
           </svg>
         </div>
         <p
-          className="sc-gqUUDT sc-cVusLo oEdiy hqzDVy"
+          className="sc-cyxtte sc-ewkqZ NqnlD cMrUug"
           size={20}
         >
           KPI Overview
         </p>
         <div
-          className="sc-cjglHy"
+          className="sc-kHDMMf"
         >
           <div
-            className="sc-cYmoNK hITqsL"
+            className="sc-hogtv iGKPuY"
           >
             <button
-              className="sc-jiGprZ fAsfna"
+              className="sc-cYmoNK dfUWzf"
               onClick={[Function]}
             >
               <p
-                className="sc-gqUUDT sc-KiOns cmPnmS iqLwNZ"
+                className="sc-cyxtte sc-jiGprZ eznmfj bktpfF"
                 size={14}
               >
                 by all devices
@@ -503,7 +503,7 @@ exports[`Line Chart renders Loading 1`] = `
         </div>
       </div>
       <div
-        className="sc-dPeOBy iKuOeo"
+        className="sc-hEKtJR kdCyfT"
       >
         <svg
           fill="none"
@@ -521,7 +521,7 @@ exports[`Line Chart renders Loading 1`] = `
           />
         </svg>
         <p
-          className="sc-gqUUDT sc-hHCpMn ZoHHJ jZYPGj"
+          className="sc-cyxtte sc-dPeOBy iEcZNQ fZmPgK"
           color="trunks.100"
           size={14}
         >
@@ -538,7 +538,7 @@ exports[`Line Chart renders Loading 1`] = `
     }
   >
     <div
-      className="sc-jdHRdX npOLB"
+      className="sc-flkpTi ggWTKB"
       style={
         Object {
           "height": 526,
@@ -546,14 +546,14 @@ exports[`Line Chart renders Loading 1`] = `
       }
     >
       <div
-        className="sc-flkpTi biqTUF"
+        className="sc-dluQYU jfhcIJ"
       >
         <button
-          className="sc-fXywWY bNCLnM"
+          className="sc-jdHRdX eOQqBq"
           onClick={[Function]}
         >
           <svg
-            className="sc-dmRaPn sc-dluQYU  fGWMTD"
+            className="sc-dmRaPn sc-ehRLEV  gZHvhf"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -568,7 +568,7 @@ exports[`Line Chart renders Loading 1`] = `
         </button>
         <div />
         <button
-          className="sc-fXywWY btsFGq"
+          className="sc-jdHRdX eGcgoE"
           onClick={[Function]}
         >
           <svg
@@ -589,7 +589,7 @@ exports[`Line Chart renders Loading 1`] = `
           </svg>
         </button>
         <button
-          className="sc-fXywWY btsFGq"
+          className="sc-jdHRdX eGcgoE"
           onClick={[Function]}
         >
           <svg
@@ -611,10 +611,10 @@ exports[`Line Chart renders Loading 1`] = `
         </button>
       </div>
       <div
-        className="sc-kHDMMf THdzg"
+        className="sc-hHCpMn bfuEnx"
       >
         <div
-          className="sc-ewkqZ kcjwrq"
+          className="sc-cjglHy jIwZgD"
         >
           <svg
             fill="none"
@@ -682,23 +682,23 @@ exports[`Line Chart renders Loading 1`] = `
           </svg>
         </div>
         <p
-          className="sc-gqUUDT sc-cVusLo oEdiy hqzDVy"
+          className="sc-cyxtte sc-ewkqZ NqnlD cMrUug"
           size={20}
         >
           KPI Overview
         </p>
         <div
-          className="sc-cjglHy"
+          className="sc-kHDMMf"
         >
           <div
-            className="sc-cYmoNK hITqsL"
+            className="sc-hogtv iGKPuY"
           >
             <button
-              className="sc-jiGprZ fAsfna"
+              className="sc-cYmoNK dfUWzf"
               onClick={[Function]}
             >
               <p
-                className="sc-gqUUDT sc-KiOns cmPnmS iqLwNZ"
+                className="sc-cyxtte sc-jiGprZ eznmfj bktpfF"
                 size={14}
               >
                 by all devices
@@ -724,102 +724,102 @@ exports[`Line Chart renders Loading 1`] = `
         </div>
       </div>
       <div
-        className="sc-bsVkav dTULXB"
+        className="sc-iPTsoC dGsWmM"
       >
         <div
-          className="sc-iPTsoC cjCTcc"
+          className="sc-bbMrut ibDyXc"
         >
           <button
-            className="sc-bbMrut jNnxik"
+            className="sc-iyKzIA eTwa-dX"
             onClick={[Function]}
           >
             <div
-              className="sc-iyKzIA cEdNx"
+              className="sc-dEgOyr frwDBm"
               color="frieza.100"
             />
             <div
-              className="sc-dEgOyr iPAlmC"
+              className="sc-lbeWMy cmuKzI"
             >
               Active players
             </div>
             <div
-              className="sc-lbeWMy fRROdm"
+              className="sc-mGooh bfvbuc"
             >
               3,174
             </div>
           </button>
           <button
-            className="sc-bbMrut jNnxik"
+            className="sc-iyKzIA eTwa-dX"
             onClick={[Function]}
           >
             <div
-              className="sc-iyKzIA bPOzyj"
+              className="sc-dEgOyr dLRpZg"
               color="krillin.100"
             />
             <div
-              className="sc-dEgOyr iPAlmC"
+              className="sc-lbeWMy cmuKzI"
             >
               Turnover
             </div>
             <div
-              className="sc-lbeWMy fRROdm"
+              className="sc-mGooh bfvbuc"
             >
               12,174.23
             </div>
           </button>
           <button
-            className="sc-bbMrut jUbYFu"
+            className="sc-iyKzIA jTdknZ"
             onClick={[Function]}
           >
             <div
-              className="sc-iyKzIA bTWnZx"
+              className="sc-dEgOyr ddpnSO"
               color="roshi.100"
             />
             <div
-              className="sc-dEgOyr iPAlmC"
+              className="sc-lbeWMy cmuKzI"
             >
               GGR
             </div>
             <div
-              className="sc-lbeWMy fRROdm"
+              className="sc-mGooh bfvbuc"
             >
               12,174.23
             </div>
           </button>
           <button
-            className="sc-bbMrut jNnxik"
+            className="sc-iyKzIA eTwa-dX"
             onClick={[Function]}
           >
             <div
-              className="sc-iyKzIA jhwpEk"
+              className="sc-dEgOyr bndHVD"
               color="whis.100"
             />
             <div
-              className="sc-dEgOyr iPAlmC"
+              className="sc-lbeWMy cmuKzI"
             >
               Bets
             </div>
             <div
-              className="sc-lbeWMy fRROdm"
+              className="sc-mGooh bfvbuc"
             >
               3,174
             </div>
           </button>
           <button
-            className="sc-bbMrut jUbYFu"
+            className="sc-iyKzIA jTdknZ"
             onClick={[Function]}
           >
             <div
-              className="sc-iyKzIA jGvfOJ"
+              className="sc-dEgOyr ePrkRC"
               color="chiChi.100"
             />
             <div
-              className="sc-dEgOyr iPAlmC"
+              className="sc-lbeWMy cmuKzI"
             >
               Margin
             </div>
             <div
-              className="sc-lbeWMy fRROdm"
+              className="sc-mGooh bfvbuc"
             >
               5.38%
             </div>
@@ -827,7 +827,7 @@ exports[`Line Chart renders Loading 1`] = `
         </div>
       </div>
       <div
-        className="recharts-responsive-container sc-mGooh cmhTVY"
+        className="recharts-responsive-container sc-hJEwCo jrLYnS"
         style={
           Object {
             "height": "100%",
