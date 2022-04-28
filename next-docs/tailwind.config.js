@@ -164,7 +164,7 @@ module.exports = {
       addComponents({
         '.btn-primary': {
           color: 'var(--goten)',
-          backgroundColor: `rgba(var(--piccolo), 1)`,
+          backgroundColor: `var(--piccolo)`,
         },
         '.btn-secondary': {
           color: 'var(--bulma)',
@@ -184,7 +184,7 @@ module.exports = {
           perspective: '1000px',
         },
         '.anim-pulse': {
-          boxShadow: '0 0 0 0 rgba(var(--piccolo), 1)',
+          boxShadow: '0 0 0 0 var(--piccolo)',
         },
       });
     }),

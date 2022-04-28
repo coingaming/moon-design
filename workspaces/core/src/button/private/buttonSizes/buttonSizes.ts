@@ -4,6 +4,7 @@ import largePadding from './largePadding';
 import mediumPadding from './mediumPadding';
 import smallPadding from './smallPadding';
 import xLargePadding from './xLargePadding';
+import xSmallPadding from './xSmallPadding';
 import type { ButtonProps } from '../../Button';
 
 const buttonSizes = ({
@@ -13,6 +14,12 @@ const buttonSizes = ({
   iconRight,
   iconOnly,
 }: ButtonProps): string => {
+  if (size === Size.XSMALL) {
+    return classNames(
+      xSmallPadding({ icon, iconLeft, iconRight, iconOnly }),
+      'gap-1 text-xs'
+    );
+  }
   if (size === Size.SMALL) {
     return classNames(
       smallPadding({ icon, iconLeft, iconRight, iconOnly }),

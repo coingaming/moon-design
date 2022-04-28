@@ -74,11 +74,17 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
             <span
               className={classNames(
                 'w-6 h-6 rounded-interactive transition duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color]',
-                !disabled && isChecked
-                  ? 'hover:bg-piccolo/[.12]'
-                  : 'hover:bg-trunks/[.12]',
-                !disabled && isHover && isChecked && 'bg-piccolo/[.12]',
-                !disabled && isHover && !isChecked && 'bg-trunks/[.12]'
+                isChecked ? 'hover:bg-piccolo/[.12]' : 'hover:bg-trunks/[.12]',
+                !disabled &&
+                  !readOnly &&
+                  isHover &&
+                  isChecked &&
+                  'bg-piccolo/[.12]',
+                !disabled &&
+                  !readOnly &&
+                  isHover &&
+                  !isChecked &&
+                  'bg-trunks/[.12]'
               )}
             />
             <input
