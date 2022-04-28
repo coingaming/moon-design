@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconUser } from '@heathmont/moon-assets';
+import { GenericUser } from '@heathmont/moon-icons';
 import { ColorProps } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
@@ -122,7 +122,7 @@ const Avatar: React.FC<AvatarProps> = (props) => {
   return (
     <Container>
       <AvatarWrapper {...props}>
-        {name || <IconUser color={color} />}
+        {name || <GenericUser fontSize={rem(23)} color={color}/> }
       </AvatarWrapper>
       {statusOrigin && <StatusWrapper {...props} />}
     </Container>

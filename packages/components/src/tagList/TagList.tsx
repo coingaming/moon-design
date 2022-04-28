@@ -1,4 +1,4 @@
-import { IconCopy } from '@heathmont/moon-assets';
+import { FilesCopy } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Bubble from '../bubble/Bubble';
@@ -95,7 +95,7 @@ export const CopyButton = styled.button(({ theme }) => ({
   justifyContent: 'center',
   position: 'relative',
 
-  [IconCopy]: {
+  [FilesCopy]: {
     height: rem(16),
   },
 
@@ -119,7 +119,7 @@ export const CopyButton = styled.button(({ theme }) => ({
     [CopyBubble]: {
       opacity: 1,
     },
-    [IconCopy]: {
+    [FilesCopy]: {
       color: theme.color.piccolo[100],
     },
     '&::before': {

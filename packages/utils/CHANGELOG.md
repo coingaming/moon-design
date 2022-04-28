@@ -1,5 +1,13 @@
 # Change Log
 
+## 8.4.1
+
+### Patch Changes
+
+- Clubhouse icon fix
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.4.1
+
 ## 8.4.0
 
 ### Minor Changes

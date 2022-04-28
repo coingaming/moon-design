@@ -21,7 +21,7 @@ exports[`Checkbox renders 1`] = `
       />
     </span>
     <p
-      className="sc-MEQRl gxlZpr"
+      className="sc-cyxtte eznmfj"
       size={14}
     >
       I agree to receive bonus & marketing emails.
@@ -52,7 +52,7 @@ exports[`Checkbox renders Checked 1`] = `
       />
     </span>
     <p
-      className="sc-MEQRl gxlZpr"
+      className="sc-cyxtte eznmfj"
       size={14}
     >
       I agree to receive bonus & marketing emails.
@@ -83,7 +83,7 @@ exports[`Checkbox renders Disabled 1`] = `
       />
     </span>
     <p
-      className="sc-MEQRl gxlZpr"
+      className="sc-cyxtte eznmfj"
       size={14}
     >
       I agree to receive bonus & marketing emails.
@@ -129,7 +129,7 @@ exports[`Checkbox renders Reverse direction 1`] = `
     className="sc-hZiMVj fzhDfN"
   >
     <p
-      className="sc-MEQRl gxlZpr"
+      className="sc-cyxtte eznmfj"
       size={14}
     >
       I agree to receive bonus & marketing emails.

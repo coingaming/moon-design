@@ -2,7 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <p
-  className="sc-MEQRl cwRqwa"
+  className="sc-cyxtte jfFmTu"
 >
   Text
 </p>
@@ -13,24 +13,24 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-MEQRl cwRqwa"
+    className="sc-cyxtte jfFmTu"
   >
     Default color is Bulma
   </p>
   <p
-    className="sc-MEQRl yeASn"
+    className="sc-cyxtte hgSxpH"
     color="piccolo.100"
   >
     Piccolo
   </p>
   <p
-    className="sc-MEQRl gRumhh"
+    className="sc-cyxtte ckMzfF"
     color="trunks.100"
   >
     Trunks
   </p>
   <p
-    className="sc-MEQRl kvrOFv"
+    className="sc-cyxtte fOKbDT"
     color="krillin.100"
   >
     Krillin
@@ -43,12 +43,12 @@ exports[`Caption renders font-weight 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-MEQRl cwRqwa"
+    className="sc-cyxtte jfFmTu"
   >
     Default font-weight is regular
   </p>
   <p
-    className="sc-MEQRl bKhKUA"
+    className="sc-cyxtte bGagBw"
   >
     Font-weight is bold
   </p>
@@ -60,12 +60,12 @@ exports[`Caption renders line height 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-MEQRl cwRqwa"
+    className="sc-cyxtte jfFmTu"
   >
     Line-height is pre-calculated
   </p>
   <p
-    className="sc-MEQRl gYItXP"
+    className="sc-cyxtte erSfSn"
   >
     Custon line-height
   </p>
@@ -77,17 +77,17 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-MEQRl cwRqwa"
+    className="sc-cyxtte jfFmTu"
   >
     Paragraph is a default tag
   </p>
   <span
-    className="sc-MEQRl cwRqwa"
+    className="sc-cyxtte jfFmTu"
   >
     Span tag
   </span>
   <label
-    className="sc-MEQRl cwRqwa"
+    className="sc-cyxtte jfFmTu"
   >
     Label tag
   </label>
@@ -99,18 +99,18 @@ exports[`Caption renders sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-MEQRl cwRqwa"
+    className="sc-cyxtte jfFmTu"
   >
     Default font-size is 16px
   </p>
   <p
-    className="sc-MEQRl gRmjPx"
+    className="sc-cyxtte ckEwNV"
     size={24}
   >
     Size is 24px
   </p>
   <p
-    className="sc-MEQRl gCHaRN"
+    className="sc-cyxtte cbdYMl"
     size={48}
   >
     Size is 48px
@@ -123,17 +123,17 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-MEQRl cwRqwa"
+    className="sc-cyxtte jfFmTu"
   >
     Text-align is not specified
   </p>
   <p
-    className="sc-MEQRl cefnZJ"
+    className="sc-cyxtte fGFOqp"
   >
     Centered Text
   </p>
   <p
-    className="sc-MEQRl frMXDq"
+    className="sc-cyxtte cKWJxO"
   >
     Right alignment
   </p>
@@ -145,12 +145,12 @@ exports[`Caption renders underline 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-MEQRl cwRqwa"
+    className="sc-cyxtte jfFmTu"
   >
     Default text-decoration is none
   </p>
   <p
-    className="sc-MEQRl gSHVNr"
+    className="sc-cyxtte creTHP"
   >
     Underline Text
   </p>
@@ -162,12 +162,12 @@ exports[`Caption renders uppercase 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-MEQRl cwRqwa"
+    className="sc-cyxtte jfFmTu"
   >
     Default text-transform is none
   </p>
   <p
-    className="sc-MEQRl kjmwuJ"
+    className="sc-cyxtte dBUrIB"
   >
     Uppercase Text
   </p>
