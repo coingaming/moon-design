@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
+import PropsTable from "../../../components/PropsTable";
 import Default from '../../../public/examples/dialog/dialogOverlay/Default';
 import useExamples from '../../../utils/useExamples';
 
@@ -36,6 +37,26 @@ export default function PageDialogOverlay() {
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
+
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'isOpen',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Is dialog open',
+          },
+          {
+            name: 'onDismiss',
+            type: '',
+            required: false,
+            default: '',
+            description: '',
+          },
+        ]}
+      />
     </>
   );
 }

@@ -2,10 +2,10 @@
 
 exports[`Pagination renders 1`] = `
 <div
-  className="sc-cjglHy hPNsGj"
+  className="sc-bPnocz hCQuxe"
 >
   <div
-    className="sc-hHCpMn kdavLS"
+    className="sc-eBhLNR bWfIox"
   >
     <ul>
       <li
@@ -20,14 +20,14 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-            className="sc-fVmPpc cQdapn"
+            className="sc-lfVKn iEQMUM"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Previous
             <div
-              className="sc-dhmRnH jblYoe"
+              className="sc-hRFsLf jLdnUe"
             />
           </button>
         </a>
@@ -130,14 +130,14 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-            className="sc-fVmPpc cQdapn"
+            className="sc-lfVKn iEQMUM"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
           >
             Next
             <div
-              className="sc-dhmRnH jblYoe"
+              className="sc-hRFsLf jLdnUe"
             />
           </button>
         </a>

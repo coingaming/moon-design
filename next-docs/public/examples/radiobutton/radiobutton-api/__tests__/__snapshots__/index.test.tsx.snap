@@ -13,7 +13,7 @@ exports[`Radiobutton API renders 1`] = `
     className="mb-2"
   >
     <label
-      className="sc-ebPQXL eFwSHP"
+      className="sc-kRjaKC kphxvH"
       id="age1"
     >
       <div
@@ -29,16 +29,16 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="0 - 30"
-            className="sc-dGBNLl iDFAlu"
+            className="sc-hYzwfJ bGDaip"
             id="age1"
             name="age"
             type="radio"
           />
           <span
-            className="sc-bIStaS faLyhN"
+            className="sc-eRerso kXJzpv"
           >
             <div
-              className="sc-hGxJNH cwSeMo"
+              className="sc-bWUTjH kCtAA-d"
             />
           </span>
         </span>
@@ -49,7 +49,7 @@ exports[`Radiobutton API renders 1`] = `
     className="mb-2"
   >
     <label
-      className="sc-ebPQXL eFwSHP"
+      className="sc-kRjaKC kphxvH"
       id="age2"
     >
       <div
@@ -65,16 +65,16 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="0 - 30"
-            className="sc-dGBNLl iDFAlu"
+            className="sc-hYzwfJ bGDaip"
             id="age2"
             name="age"
             type="radio"
           />
           <span
-            className="sc-bIStaS faLyhN"
+            className="sc-eRerso kXJzpv"
           >
             <div
-              className="sc-hGxJNH cwSeMo"
+              className="sc-bWUTjH kCtAA-d"
             />
           </span>
         </span>
@@ -85,7 +85,7 @@ exports[`Radiobutton API renders 1`] = `
     className="mb-2"
   >
     <label
-      className="sc-ebPQXL eFwSHP"
+      className="sc-kRjaKC kphxvH"
       id="age3"
     >
       <div
@@ -101,16 +101,16 @@ exports[`Radiobutton API renders 1`] = `
         >
           <input
             aria-label="61 - 100"
-            className="sc-dGBNLl iDFAlu"
+            className="sc-hYzwfJ bGDaip"
             id="age3"
             name="age"
             type="radio"
           />
           <span
-            className="sc-bIStaS faLyhN"
+            className="sc-eRerso kXJzpv"
           >
             <div
-              className="sc-hGxJNH cwSeMo"
+              className="sc-bWUTjH kCtAA-d"
             />
           </span>
         </span>

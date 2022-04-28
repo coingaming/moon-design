@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
+import PropsTable from "../../../components/PropsTable";
 import Default from '../../../public/examples/progress/circular/Default';
 import Rtl from '../../../public/examples/progress/circular/Rtl';
 import useExamples from '../../../utils/useExamples';
@@ -43,6 +44,33 @@ export default function PageProgressLinear() {
           code={examples ? examples.Rtl : 'Loading'}
         />
       </section>
+
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'value',
+            type: 'number',
+            required: false,
+            default: '-',
+            description: 'Progress value',
+          },
+          {
+            name: 'fontSize',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Circular progress size',
+          },
+          {
+            name: 'strokeWidth',
+            type: 'number',
+            required: false,
+            default: '-',
+            description: 'Circular progress stroke width',
+          },
+        ]}
+      />
     </>
   );
 }

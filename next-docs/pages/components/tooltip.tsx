@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import PropsTable from "../../components/PropsTable";
 import Default from '../../public/examples/tooltip/Default';
 import useExamples from '../../utils/useExamples';
 
@@ -23,6 +24,26 @@ export default function PageTooltip() {
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
+
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'children',
+            type: 'ReactNode',
+            required: false,
+            default: '-',
+            description: 'What to display inside tooltip',
+          },
+          {
+            name: 'onClick',
+            type: 'MouseEventHandler',
+            required: false,
+            default: '-',
+            description: 'What happens when you click on tooltip',
+          },
+        ]}
+      />
     </>
   );
 }

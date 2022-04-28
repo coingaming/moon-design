@@ -2,7 +2,7 @@
 
 exports[`Loader renders 1`] = `
 <div
-  className="sc-fgiXzq EbhqA"
+  className="sc-hSygng bxsdxH"
 >
   <div
     className="sc-jVZirl kcfYaQ"
@@ -18,7 +18,7 @@ exports[`Loader renders 1`] = `
 
 exports[`Loader renders with different colours 1`] = `
 <div
-  className="sc-fgiXzq EbhqA"
+  className="sc-hSygng bxsdxH"
 >
   <div
     className="sc-jVZirl kcfYaQ"
@@ -64,7 +64,7 @@ exports[`Loader renders with different colours 1`] = `
 
 exports[`Loader renders with sizes 1`] = `
 <div
-  className="sc-fgiXzq EbhqA"
+  className="sc-hSygng bxsdxH"
 >
   <div
     className="sc-jVZirl kJbrMt"
