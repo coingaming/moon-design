@@ -1,5 +1,5 @@
 import { ColorProps } from '@heathmont/moon-themes';
-import Size from '../../private/enums/Size';
+import Size from '../../../private/enums/Size';
 
 type LabelProps = {
   color?: ColorProps;

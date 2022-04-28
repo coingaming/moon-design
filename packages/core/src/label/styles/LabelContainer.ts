@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import setFontSize from '../utils/setFontSize';
 import setLetterSpacing from '../utils/setLetterSpacing';
 import setPadding from '../utils/setPadding';
-import type LabelProps from '../types/LabelProps';
+import type LabelProps from '../private/types/LabelProps';
 
 const LabelContainer = styled.span<LabelProps>(
   ({ theme: { newTokens } }) => ({

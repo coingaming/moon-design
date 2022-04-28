@@ -1,7 +1,7 @@
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Size from '../../private/enums/Size';
-import IconProps from '../types/IconProps';
+import IconProps from '../private/types/IconProps';
 
 const IconLeftWrapper = styled.span<IconProps>(({ size }) => ({
   marginInlineEnd: rem(4),

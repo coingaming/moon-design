@@ -2,7 +2,7 @@ import React from 'react';
 import IconLeftWrapper from './styles/IconLeftWrapper';
 import IconRightWrapper from './styles/IconRightWrapper';
 import LabelContainer from './styles/LabelContainer';
-import type LabelProps from './types/LabelProps';
+import type LabelProps from './private/types/LabelProps';
 
 const Label: React.FC<LabelProps> = ({
   children,
