@@ -1,9 +1,10 @@
 import React from 'react';
 import { Tabs, TabLink } from '@heathmont/moon-core';
 
-const Example = () => (
+const Example = ({ isVertical }: { isVertical?: boolean }) => (
   <Tabs
     id="nav-test-id-1"
+    isVertical={isVertical}
     items={[
       <TabLink href="#2">Featured</TabLink>,
       <TabLink href="#3">Today</TabLink>,

@@ -8,13 +8,11 @@ type Props = {
   paddingSize?: string;
 };
 
-const Container = styled.a<Props>(({ theme, paddingSize, isTop }) => [
+const Container = styled.a<Props>(({ theme, size, isTop }) => [
   {
     display: 'flex',
     alignItems: 'center',
-    padding: rem(8),
-    paddingTop: isTop ? paddingSize : 0,
-    paddingBottom: isTop ? 0 : paddingSize,
+    padding: size === 'small' ? `${rem(4)} ${rem(8)}` : `${rem(8)} ${rem(12)}`,
     position: 'relative',
     margin: 0,
     fontSize: rem(14),
@@ -22,11 +20,12 @@ const Container = styled.a<Props>(({ theme, paddingSize, isTop }) => [
     fontFamily: 'inherit',
     backgroundColor: 'transparent',
     color: theme.colorNew.bulma,
-    transition: `color ${theme.newTokens.transition.default}`,
+    transition: `all ${theme.newTokens.transition.default}s`,
     textDecoration: 'none',
     border: 0,
     appearance: 'none',
-    '&:after': {
+    cursor: 'pointer',
+    '&::after': {
       content: '""',
       position: 'absolute',
       height: rem(2),
@@ -36,19 +35,12 @@ const Container = styled.a<Props>(({ theme, paddingSize, isTop }) => [
       bottom: isTop ? 'auto' : 0,
       margin: '0 auto',
       backgroundColor: theme.colorNew.piccolo,
-      transform: 'scaleX(0)',
-      transition: `transform ${theme.newTokens.transition.default}`,
-    },
-    '&:hover, &:focus, &:active, &.active, &[aria-current=page]': {
-      color: theme.colorNew.piccolo,
-      cursor: 'pointer',
-      '&:after': {
-        transform: 'scaleX(1)',
-      },
-    },
+      opacity: 0,
+      transition: `all ${theme.newTokens.transition.slow}s`,
+    }
   },
   isTop && {
-    '&:after': {
+    '&::after': {
       top: '0',
     },
   },

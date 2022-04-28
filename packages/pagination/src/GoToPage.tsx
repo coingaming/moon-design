@@ -1,6 +1,6 @@
 import React, { useState, FormEvent, ChangeEvent } from 'react';
-import { IconChevronRight } from '@heathmont/moon-assets';
 import { TextInput } from '@heathmont/moon-components';
+import { ControlsChevronRight } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
@@ -90,7 +90,7 @@ const GoToPage: React.FC<GoToPageProps> = ({
       {children}
       <TextInput value={value} pattern="\d+" onChange={handleChange} />
       <CircleButton type="submit">
-        <IconChevronRight />
+        <ControlsChevronRight fontSize={rem(23)}/>
       </CircleButton>
     </Form>
   );

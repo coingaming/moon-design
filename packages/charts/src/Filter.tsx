@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { IconChevronDownRounded } from '@heathmont/moon-assets';
 import { FilterDropdown } from '@heathmont/moon-components';
 import { Text } from '@heathmont/moon-core';
+import { ControlsChevronDown } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 import { useClickAway, useKey } from 'react-use';
 import styled from 'styled-components';
@@ -64,7 +64,7 @@ const Filter: React.FC<Props> = ({ forceOpen = false, title, children }) => {
     <Container ref={ref}>
       <Toggle isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}>
         <Title size={14}>{title}</Title>
-        <IconChevronDownRounded />
+        <ControlsChevronDown fontSize={rem(23)}/>
       </Toggle>
       {isOpen && (
         <DropdownWrapper>

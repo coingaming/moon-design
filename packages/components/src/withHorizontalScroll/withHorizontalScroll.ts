@@ -109,14 +109,18 @@ const showHideIndicator = (
   const lastVisibleIndex = findLastVisibleIndex(itemRefs);
   setFirstVisibleIndex(firstVisibleIndex);
   setLastVisibleIndex(lastVisibleIndex);
-  if (lastVisibleIndex === -1 && firstVisibleIndex === -1) {
-    setLeftIndicator(false);
-    setRightIndicator(false);
-  }
   lastVisibleIndex < itemRefs.length - 1
     ? setRightIndicator(true)
     : setRightIndicator(false);
   firstVisibleIndex > 0 ? setLeftIndicator(true) : setLeftIndicator(false);
+  if (firstVisibleIndex === -1) {
+    itemRefs.length > 0 ?
+    setLeftIndicator(true) : setLeftIndicator(false)
+  }
+  if (lastVisibleIndex === -1) {
+    itemRefs.length > 0 ?
+    setRightIndicator(true) : setRightIndicator(false)
+  }
 };
 
 export const withHorizontalScroll = (options: Options): any => {
