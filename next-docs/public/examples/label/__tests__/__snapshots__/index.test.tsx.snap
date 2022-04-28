@@ -5,18 +5,18 @@ exports[`Label renders with different Colours 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-cMOycp bzUSzv"
+    className="sc-kjMGqw igMeBZ"
   >
     Xsmall
   </span>
   <span
-    className="sc-cMOycp jvVTPJ"
+    className="sc-kjMGqw fOAAFv"
     color="piccolo.100"
   >
     Xsmall
   </span>
   <span
-    className="sc-cMOycp bHTRuE"
+    className="sc-kjMGqw xPVvK"
     color="goten.100"
   >
     Xsmall
@@ -29,12 +29,12 @@ exports[`Label renders with different LetterCases 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-cMOycp bzUSzv"
+    className="sc-kjMGqw igMeBZ"
   >
     Default
   </span>
   <span
-    className="sc-cMOycp guZSav"
+    className="sc-kjMGqw jijOud"
   >
     Lowercase
   </span>
@@ -46,13 +46,13 @@ exports[`Label renders with different Sizes 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-cMOycp jXHRrL"
+    className="sc-kjMGqw inSAPB"
     size="twoxsmall"
   >
     Twoxsmall
   </span>
   <span
-    className="sc-cMOycp bzUSzv"
+    className="sc-kjMGqw igMeBZ"
   >
     Xsmall
   </span>
@@ -67,17 +67,17 @@ exports[`Label renders with different SizesList 1`] = `
     className="flex justify-around items-center w-full mb-4"
   >
     <span
-      className="sc-cMOycp jXHRrL"
+      className="sc-kjMGqw inSAPB"
       size="twoxsmall"
     >
       Twoxsmall
     </span>
     <span
-      className="sc-cMOycp fgLBQH"
+      className="sc-kjMGqw fDZnqp"
       size="twoxsmall"
     >
       <span
-        className="sc-gZVZiL lkGbAt"
+        className="sc-dhyxXW fPCvhH"
         size="twoxsmall"
       >
         <svg
@@ -99,12 +99,12 @@ exports[`Label renders with different SizesList 1`] = `
       Twoxsmall
     </span>
     <span
-      className="sc-cMOycp kxFKdD"
+      className="sc-kjMGqw cxEmYx"
       size="twoxsmall"
     >
       Twoxsmall
       <span
-        className="sc-kjMGqw joefLP"
+        className="sc-gZVZiL hyOPqu"
         size="twoxsmall"
       >
         <svg
@@ -125,11 +125,11 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
     </span>
     <span
-      className="sc-cMOycp iBVBMb"
+      className="sc-kjMGqw hBsZPR"
       size="twoxsmall"
     >
       <span
-        className="sc-gZVZiL lkGbAt"
+        className="sc-dhyxXW fPCvhH"
         size="twoxsmall"
       >
         <svg
@@ -150,7 +150,7 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
       Twoxsmall
       <span
-        className="sc-kjMGqw joefLP"
+        className="sc-gZVZiL hyOPqu"
         size="twoxsmall"
       >
         <svg
@@ -175,15 +175,15 @@ exports[`Label renders with different SizesList 1`] = `
     className="flex justify-around items-center w-full"
   >
     <span
-      className="sc-cMOycp bzUSzv"
+      className="sc-kjMGqw igMeBZ"
     >
       Xsmall
     </span>
     <span
-      className="sc-cMOycp iZlglD"
+      className="sc-kjMGqw cKdqDB"
     >
       <span
-        className="sc-gZVZiL hFvenc"
+        className="sc-dhyxXW kqNgeG"
       >
         <svg
           className="sc-iqGgem kFrdPd"
@@ -204,11 +204,11 @@ exports[`Label renders with different SizesList 1`] = `
       Xsmall
     </span>
     <span
-      className="sc-cMOycp WqjKz"
+      className="sc-kjMGqw iNeCmp"
     >
       Xsmall
       <span
-        className="sc-kjMGqw bJtpBK"
+        className="sc-gZVZiL fqCDPf"
       >
         <svg
           className="sc-jgbSNz dkSHDR"
@@ -228,10 +228,10 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
     </span>
     <span
-      className="sc-cMOycp feyqqP"
+      className="sc-kjMGqw Xhkkh"
     >
       <span
-        className="sc-gZVZiL hFvenc"
+        className="sc-dhyxXW kqNgeG"
       >
         <svg
           className="sc-iqGgem kFrdPd"
@@ -251,7 +251,7 @@ exports[`Label renders with different SizesList 1`] = `
       </span>
       Xsmall
       <span
-        className="sc-kjMGqw bJtpBK"
+        className="sc-gZVZiL fqCDPf"
       >
         <svg
           className="sc-jgbSNz dkSHDR"
