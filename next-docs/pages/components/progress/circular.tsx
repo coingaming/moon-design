@@ -51,7 +51,7 @@ export default function PageProgressLinear() {
           {
             name: 'value',
             type: 'number',
-            required: false,
+            required: true,
             default: '-',
             description: 'Progress value',
           },
@@ -66,7 +66,7 @@ export default function PageProgressLinear() {
             name: 'strokeWidth',
             type: 'number',
             required: false,
-            default: '-',
+            default: '12',
             description: 'Circular progress stroke width',
           },
         ]}
