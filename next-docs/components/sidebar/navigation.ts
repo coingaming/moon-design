@@ -9,6 +9,7 @@ const navigation = [
   { name: 'Tokens', href: '/tokens' },
   { name: 'Icons', href: '/icons' },
   { name: 'Transform SVG', href: '/transform-icon' },
+  { name: 'Manifest', href: '/manifest' },
   {
     name: 'Components',
     children: [

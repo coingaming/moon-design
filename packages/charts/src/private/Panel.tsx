@@ -1,6 +1,6 @@
 import React from 'react';
-import { IconRefresh, IconDownload, IconExpand } from '@heathmont/moon-assets';
 import { Loader } from '@heathmont/moon-core';
+import { ArrowsUpdate,GenericDownload,ControlsDiagonalsOutsight } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
@@ -81,7 +81,7 @@ const Header = styled.div(({ theme }) => ({
   minHeight: rem(24),
 }));
 
-const IconRefreshStyled = styled(IconRefresh)({
+const IconRefreshStyled = styled(ArrowsUpdate)({
   transform: 'rotate(90deg)',
 });
 
@@ -122,12 +122,12 @@ export const Panel: React.FC<Props> = ({
       <div />
       {onShare && (
         <Button onClick={() => onShare()}>
-          <IconDownload />
+          <GenericDownload fontSize={rem(22)}/>
         </Button>
       )}
       {onExpand && (
         <Button onClick={() => onExpand()}>
-          <IconExpand />
+          <ControlsDiagonalsOutsight fontSize={rem(22)}/>
         </Button>
       )}
     </Header>

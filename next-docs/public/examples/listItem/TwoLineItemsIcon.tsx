@@ -1,6 +1,7 @@
 import React from 'react';
-import { IconClaps } from '@heathmont/moon-assets';
+import { GenericLike } from '@heathmont/moon-icons';
 import { ListItem } from '@heathmont/moon-core';
+import { rem } from "@heathmont/moon-utils";
 
 const SubText: React.FC = () => (
   <>Lorem Ipsum is simply dummy text of the printing and typesetting industry</>
@@ -11,7 +12,7 @@ const Example = () => (
     <div className="w-72 m-0.5">
       <ListItem
         backgroundColor="goku.100"
-        elementLeft={<IconClaps />}
+        elementLeft={<GenericLike fontSize={rem(23)}/>}
         subtext={<SubText />}
       >
         Two lines item
@@ -20,7 +21,7 @@ const Example = () => (
     <div className="w-72 m-0.5">
       <ListItem
         backgroundColor="goku.100"
-        elementRight={<IconClaps />}
+        elementRight={<GenericLike fontSize={rem(23)}/>}
         subtext={<SubText />}
       >
         Two lines item
@@ -29,8 +30,8 @@ const Example = () => (
     <div className="w-72 m-0.5">
       <ListItem
         backgroundColor="goku.100"
-        elementLeft={<IconClaps />}
-        elementRight={<IconClaps />}
+        elementLeft={<GenericLike fontSize={rem(23)}/>}
+        elementRight={<GenericLike fontSize={rem(23)}/>}
         subtext={<SubText />}
       >
         Two lines item
