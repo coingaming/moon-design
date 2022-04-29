@@ -86,14 +86,14 @@ export default function PageCarousel() {
           },
           {
             name: 'scrollToLeftButton',
-            type: '',
+            type: '({ scrollToStep, disabled }: { { scrollToStep: function, disabled: boolean } }) => React.ReactElement',
             required: false,
             default: '',
             description: 'Scroll to left button',
           },
           {
             name: 'scrollToRightButton',
-            type: '',
+            type: '({ scrollToStep, disabled }: { { scrollToStep: function, disabled: boolean } }) => React.ReactElement',
             required: false,
             default: '',
             description: 'Scroll to right button',

@@ -50,10 +50,10 @@ export default function PageDialogOverlay() {
           },
           {
             name: 'onDismiss',
-            type: '',
+            type: 'function',
             required: false,
-            default: '',
-            description: '',
+            default: '-',
+            description: 'Function that triggers on dismissing dialog',
           },
         ]}
       />
