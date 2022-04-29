@@ -6,7 +6,7 @@ const Example = () => {
   return (
     <Checkbox
       checked={isChecked}
-      label="I agree to receive bonus &amp; marketing emails."
+      label="Checkbox with checked state by default"
       onClick={() => setIsChecked(!isChecked)}
     />
   );
