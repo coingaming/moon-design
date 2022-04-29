@@ -1,13 +1,14 @@
 import React from 'react';
-import { create } from 'react-test-renderer';
 import 'jest-styled-components';
-import { IconCurrencyBtc } from '@heathmont/moon-assets';
+import { ShopCrypto } from '@heathmont/moon-icons';
+import { create } from 'react-test-renderer';
 import { sportsbetDark, ThemeProvider } from '@heathmont/moon-themes';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={sportsbetDark}>{component}</ThemeProvider>
 );
 
+import { rem } from "@heathmont/moon-utils";
 import Card from '../Card';
 
 describe('Card', () => {
@@ -40,7 +41,7 @@ describe('Card', () => {
     test('renders as front with backgroundIcon', () => {
       const card = create(
         renderWithTheme(
-          <Card template="front" backgroundIcon={<IconCurrencyBtc />}>
+          <Card template="front" backgroundIcon={<ShopCrypto fontSize={rem(16)}/>}>
             <p>Some content</p>
           </Card>
         )

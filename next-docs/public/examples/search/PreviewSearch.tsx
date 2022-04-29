@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Search } from '@heathmont/moon-core';
-import { IconProfile } from '@heathmont/moon-assets';
+import { GenericUser } from '@heathmont/moon-icons';
+import { rem } from "@heathmont/moon-utils";
 
 const Dropdown = styled.ul(({ theme: { newTokens } }) => ({
   display: 'flex',
@@ -40,17 +41,17 @@ const Example = () => {
               <li
                 style={{ display: 'flex', gap: '10px', alignItems: 'center' }}
               >
-                <IconProfile /> First Game
+                <GenericUser fontSize={rem(23)}/> First Game
               </li>
               <li
                 style={{ display: 'flex', gap: '10px', alignItems: 'center' }}
               >
-                <IconProfile /> Second Game
+                <GenericUser fontSize={rem(23)}/> Second Game
               </li>
               <li
                 style={{ display: 'flex', gap: '10px', alignItems: 'center' }}
               >
-                <IconProfile /> Third Game
+                <GenericUser fontSize={rem(23)}/> Third Game
               </li>
             </Dropdown>
           ) : (

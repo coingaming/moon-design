@@ -6,19 +6,13 @@ import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
 import Default from '../Default';
-import Caption from '../Caption';
 import Sizes from '../Sizes';
 import Theme from '../Theme';
-import ThemeCaption from '../ThemeCaption';
+import Disabled from "../Disabled";
+import Buttons from "../Buttons";
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
-
-const renderWithThemeRTL = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>
-    <div dir="rtl">{component}</div>
-  </ThemeProvider>
 );
 
 describe('Switch', () => {
@@ -27,17 +21,6 @@ describe('Switch', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders RTL', () => {
-    const testRenderer = renderer.create(
-      renderWithThemeRTL(<Default isRtl={true} />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders with Caption', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Caption />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
 
   it('renders different Sizes', () => {
     const testRenderer = renderer.create(renderWithTheme(<Sizes />));
@@ -49,8 +32,13 @@ describe('Switch', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders Theme variant with Caption', () => {
-    const testRenderer = renderer.create(renderWithTheme(<ThemeCaption />));
+  it('renders Disabled state', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders Buttons', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Buttons />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

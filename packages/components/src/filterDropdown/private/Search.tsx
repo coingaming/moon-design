@@ -1,5 +1,5 @@
 import React, { ChangeEvent, useState } from 'react';
-import { IconSearch } from '@heathmont/moon-assets';
+import { GenericSearch } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
@@ -26,7 +26,7 @@ const SearchInput = styled.input(({ theme }) => ({
   },
 }));
 
-const Icon = styled(IconSearch as any)(({ theme }) => ({
+const Icon = styled(GenericSearch as any)(({ theme }) => ({
   position: 'absolute',
   color: theme.color.trunks[100],
   width: rem(16),

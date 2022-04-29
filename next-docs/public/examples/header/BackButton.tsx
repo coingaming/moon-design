@@ -1,10 +1,11 @@
 import React from 'react';
 import { Header } from '@heathmont/moon-core';
-import { IconArrowLeft } from '@heathmont/moon-assets';
+import { ArrowsLeft } from '@heathmont/moon-icons';
+import { rem } from "@heathmont/moon-utils";
 
 const Example = () => (
   <div className="flex justify-around items-center w-full">
-    <Header backButton={<IconArrowLeft />}>Title</Header>
+    <Header backButton={<ArrowsLeft fontSize={rem(23)}/>}>Title</Header>
   </div>
 );
 

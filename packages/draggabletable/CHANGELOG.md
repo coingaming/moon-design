@@ -1,5 +1,19 @@
 # Change Log
 
+## 8.5.0
+
+### Minor Changes
+
+- xs button, copy code, icons, caroseul arrows fix
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.5.0
+  - @heathmont/moon-table@8.5.0
+  - @heathmont/moon-themes@8.5.0
+  - @heathmont/moon-utils@8.5.0
+
 ## 8.4.1
 
 ### Patch Changes
