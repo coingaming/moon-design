@@ -5,6 +5,14 @@ import styled from "styled-components";
 const Wrapper = styled.div({
   position: 'relative',
   cursor: 'pointer',
+  '& .tooltip-content': {
+    display: 'none'
+  },
+  '&:hover': {
+    '& .tooltip-content': {
+      display: 'block'
+    },
+  }
 });
 
 const Content = styled.div<{ position: any }>(
@@ -65,7 +73,7 @@ const Tooltip:React.FC<{
 }> = ({ content, position, children }) => {
   return (<Wrapper>
     {children}
-    <Content position={position ?? 'top'}>{content}</Content>
+    <Content className='tooltip-content' position={position ?? 'top'}>{content}</Content>
   </Wrapper>);
 };
 
