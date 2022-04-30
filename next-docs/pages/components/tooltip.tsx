@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import Default from '../../public/examples/tooltip/Default';
+import Positions from "../../public/examples/tooltip/Positions";
 import useExamples from '../../utils/useExamples';
 
 export default function PageTooltip() {
@@ -21,6 +22,15 @@ export default function PageTooltip() {
           title="Default"
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      {/* Positions */}
+      <section className="mt-8">
+        <Preview
+          title="Positions"
+          preview={<Positions />}
+          code={examples ? examples.Positions : 'Loading'}
         />
       </section>
     </>
