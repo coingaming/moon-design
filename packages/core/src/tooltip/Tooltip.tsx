@@ -10,13 +10,13 @@ const Wrapper = styled.div({
   },
   '&:hover': {
     '& .tooltip-content': {
-      display: 'block'
+      display: 'flex'
     },
   }
 });
 
-const Content = styled.div<{ position: any }>(
-  ({ position, theme }) => ({
+const Content = styled.div<{ position: 'top' | 'bottom' | 'left' | 'right', show?: boolean }>(
+  ({ position, show, theme }) => ({
     position: 'absolute',
     top: position === 'top' ? 0 : position === 'bottom' ? '100%' : '50%',
     left: position === 'left' ? 0 : position === 'right' ? '100%' : '50%',
@@ -27,7 +27,7 @@ const Content = styled.div<{ position: any }>(
       position === 'left' || position === 'right' ? '-50%' :
         position === 'top' ? 'calc(-100% - 5px)' : '5px'
     })`,
-    display: 'flex',
+    display: `flex ${show ? '!important' : ''}`,
     alignItems: 'center',
     justifyContent: 'center',
     textAlign: 'center',
@@ -69,11 +69,18 @@ const Content = styled.div<{ position: any }>(
 const Tooltip:React.FC<{
   content: React.ReactElement,
   children: React.ReactElement,
-  position?: 'top' | 'bottom' | 'left' | 'right'
-}> = ({ content, position, children }) => {
+  position?: 'top' | 'bottom' | 'left' | 'right',
+  show?: boolean,
+}> = ({ content, show, position, children }) => {
   return (<Wrapper>
     {children}
-    <Content className='tooltip-content' position={position ?? 'top'}>{content}</Content>
+    <Content
+      className='tooltip-content'
+      position={position ?? 'top'}
+      show={show}
+    >
+      {content}
+    </Content>
   </Wrapper>);
 };
 

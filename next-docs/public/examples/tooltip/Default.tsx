@@ -6,6 +6,13 @@ const Example = () => (
     <Tooltip content={(<Text size={10}>Tooltip content</Text>)}>
       <Text size={14}>Text with font size 14</Text>
     </Tooltip>
+
+    <Tooltip
+      content={(<Text size={10}>Persistent tooltip</Text>)}
+      show={true}
+    >
+      <Text size={14}>Always visible</Text>
+    </Tooltip>
   </div>
 );
 
