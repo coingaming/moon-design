@@ -10,6 +10,7 @@ const Tooltip:React.FC<{
   fixed?: boolean,
 }> = ({ content, show, position, children, fixed }) => {
   const [wrapperRef, setWrapperRef] = useState<any>(null);
+  const [shouldShow, setShouldShow] = useState<boolean>(show);
 
   return (<Wrapper
     ref={element => setWrapperRef(element)}
@@ -18,7 +19,7 @@ const Tooltip:React.FC<{
     <Content
       position={position ?? 'top'}
       relativeRect={wrapperRef?.getBoundingClientRect()}
-      show={fixed || show}
+      show={shouldShow}
       fixed={fixed}
     >{content}</Content>
   </Wrapper>);
