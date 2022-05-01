@@ -42,6 +42,20 @@ const Tooltip:React.FC<{
     if (wrapperRef && !relativeRect) setRelativeRect(wrapperRef.getBoundingClientRect());
   }, [wrapperRef]);
 
+  useEffect(() => {
+    if (!show) {
+      const hideTooltip = () => setShouldShow(false);
+
+      window.addEventListener("scroll", hideTooltip);
+      window.addEventListener("resize", hideTooltip);
+
+      return () => {
+        window.removeEventListener("scroll", hideTooltip);
+        window.removeEventListener("resize", hideTooltip);
+      }
+    }
+  }, []);
+
   return (<Wrapper
     ref={element => setWrapperRef(element)}
     onMouseEnter={() => {
