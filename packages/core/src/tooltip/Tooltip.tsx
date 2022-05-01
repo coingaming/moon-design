@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useRef, useState} from 'react';
 import Content from './styles/Content';
 import Wrapper from './styles/Wrapper';
 
@@ -9,14 +9,16 @@ const Tooltip:React.FC<{
   show?: boolean,
   fixed?: boolean,
 }> = ({ content, show, position, children, fixed }) => {
-  //const contentRef = React.useRef(null);
-  //console.log('contentRef', contentRef)
-  return (<Wrapper>
-    <div /*ref={contentRef}*/>{children}</div>
+  const [wrapperRef, setWrapperRef] = useState<any>(null);
+
+  return (<Wrapper
+    ref={element => setWrapperRef(element)}
+  >
+    {children}
     <Content
       position={position ?? 'top'}
-      //relativeRect={contentRef?.current?.getBoundingClientRect()}
-      show={show}
+      relativeRect={wrapperRef?.getBoundingClientRect()}
+      show={fixed || show}
       fixed={fixed}
     >{content}</Content>
   </Wrapper>);

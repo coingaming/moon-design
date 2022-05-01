@@ -1,12 +1,51 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import {rem} from "@heathmont/moon-utils";
+import * as ReactDOM from 'react-dom';
 import styled from "styled-components";
 
-const TooltipContent = styled.div<{ position: 'top' | 'bottom' | 'left' | 'right', show?: boolean }>(
-  ({ position, show, theme }) => ({
-    position: 'absolute',
-    top: position === 'top' ? 0 : position === 'bottom' ? '100%' : '50%',
-    left: position === 'left' ? 0 : position === 'right' ? '100%' : '50%',
+function resolvePositionTop (
+  position: 'top' | 'bottom' | 'left' | 'right',
+  fixedCoords?: { x: number, y: number } | null,
+): string {
+  let value = '50%';
+
+  if (fixedCoords) {
+    value = `${fixedCoords.y}px`;
+  }
+  else {
+    if (position === 'top') value = '0';
+    else if (position === 'bottom') value = '100%';
+  }
+
+  return value;
+}
+
+function resolvePositionLeft (
+  position: 'top' | 'bottom' | 'left' | 'right',
+  fixedCoords?: { x: number, y: number } | null,
+): string {
+  let value = '50%';
+
+  if (fixedCoords) {
+    value = `${fixedCoords.x}px`;
+  }
+  else {
+    if (position === 'left') value = '0';
+    else if (position === 'right') value = '100%';
+  }
+
+  return value;
+}
+
+const TooltipContent = styled.div<{
+  position: 'top' | 'bottom' | 'left' | 'right',
+  show?: boolean,
+  fixedCoords?: { x: number, y: number } | null,
+}>(
+  ({ position, show, fixedCoords, theme }) => ({
+    position: fixedCoords ? 'fixed' : 'absolute',
+    top: resolvePositionTop(position, fixedCoords),
+    left: resolvePositionLeft(position, fixedCoords),
     transform: `translate(${
       position === 'top' || position === 'bottom' ? '-50%' :
         position === 'left' ? 'calc(-100% - 5px)' : '5px'
@@ -55,18 +94,38 @@ const TooltipContent = styled.div<{ position: 'top' | 'bottom' | 'left' | 'right
 
 const Content:React.FC<{
   children: React.ReactElement,
+  position: 'top' | 'bottom' | 'left' | 'right',
   relativeRect?: any,
-  position?: 'top' | 'bottom' | 'left' | 'right',
   show?: boolean,
   fixed?: boolean
 }> = ({ show, fixed, position, children, relativeRect }) => {
-  //const rootElemRef = React.useRef(document.getElementsByTagName('body')[0]);
-  //console.log('relativeRect', relativeRect);
-  //console.log('rootElemRef', rootElemRef)
-  return (<TooltipContent
+  const [existingRect, setExistingRect] = useState<{ x: number, y: number, width: number, height: number } | null>(null);
+  const [portalRoot, setPortalRoot] = useState<HTMLBodyElement | null>(null);
+if (fixed) console.log('existingRect', existingRect)
+  const component = (<TooltipContent
     position={position}
     show={show}
-  >{children}</TooltipContent>)
+    fixedCoords={fixed ? {
+      x: existingRect?.x + (position === 'right' ? existingRect?.width : existingRect?.width / 2),
+      y: existingRect?.y
+    } : null}
+  >{children}</TooltipContent>);
+
+  useEffect(() => {
+    const rootElement = document.getElementsByTagName('body')[0];
+
+    if (!existingRect && relativeRect && rootElement) {
+      console.log('relativeRect', relativeRect)
+      setPortalRoot(rootElement);
+      setExistingRect(relativeRect);
+    }
+  }, [relativeRect])
+
+  if (fixed && existingRect && portalRoot) {
+    return ReactDOM.createPortal(component, portalRoot);
+  }
+
+  return component;
 };
 
 export default Content;
