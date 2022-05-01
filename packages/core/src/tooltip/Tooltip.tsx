@@ -1,7 +1,21 @@
 import React, {useEffect, useState} from 'react';
 import { Text } from '@heathmont/moon-core';
+import {rem} from "@heathmont/moon-utils";
+import styled from "styled-components";
 import Content from './styles/Content';
 import Wrapper from './styles/Wrapper';
+
+const ContentWrapper = styled.div({
+  display: 'flex',
+  alignItems: 'center'
+});
+const IconWrapper = styled.div({
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  marginLeft: rem(4),
+  marginRight: rem(12)
+});
 
 const Tooltip:React.FC<{
   children: React.ReactElement,
@@ -47,9 +61,12 @@ const Tooltip:React.FC<{
       position={position ?? 'top'}
       relativeRect={relativeRect}
       show={shouldShow}
-      fixed={fixed}
+      fixed={fixed && !show}
     >
-      { content ?? <Text size={12}>{text}</Text>}
+      { content ?? (<ContentWrapper>
+        { icon ? <IconWrapper>{icon}</IconWrapper> : ''}
+        <Text size={12}>{text}</Text>
+      </ContentWrapper>)}
     </Content>
   </Wrapper>);
 };

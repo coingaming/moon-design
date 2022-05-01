@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import Content from "../../public/examples/tooltip/Content";
 import Default from '../../public/examples/tooltip/Default';
 import Positions from "../../public/examples/tooltip/Positions";
 import useExamples from '../../utils/useExamples';
@@ -22,6 +23,15 @@ export default function PageTooltip() {
           title="Default"
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      {/* Custom content */}
+      <section className="mt-8">
+        <Preview
+          title="Custom content"
+          preview={<Content />}
+          code={examples ? examples.Content : 'Loading'}
         />
       </section>
 

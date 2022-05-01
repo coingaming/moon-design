@@ -75,12 +75,17 @@ const Position = styled.div<{
       position: 'absolute',
       top: position === 'top' ? '100%' : position === 'bottom' ? 0 : '50%',
       left: position === 'left' ? '100%' : position === 'right' ? 0 : '50%',
+      '-webkit-filter': `drop-shadow(
+      ${position === 'left' ? 2 : position === 'right' ? -1 : 0}px
+      ${position === 'top' ? 2 : position === 'bottom' ? -1 : 0}px
+      0px
+      ${rgba(theme.colorNew.popo, 0.15)})`,
       transform: `translate(${
         position === 'top' || position === 'bottom' ? '-50%' :
-          position === 'left' ? '-1px' : '-5px'
+          position === 'left' ? '-1px' : '-4px'
       }, ${
         position === 'left' || position === 'right' ? '-50%' :
-          position === 'top' ? 'calc(100% - 6px)' : '-5px'
+          position === 'top' ? 'calc(100% - 6px)' : '-4px'
       })`,
       width: 0,
       height: 0,
