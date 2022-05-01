@@ -13,6 +13,13 @@ const Example = () => (
     >
       <Text size={14}>Always visible</Text>
     </Tooltip>
+
+    <Tooltip
+      content={(<Text size={10}>No overflow control</Text>)}
+      fixed={true}
+    >
+      <Text size={14}>Position fixed</Text>
+    </Tooltip>
   </div>
 );
 
