@@ -7,7 +7,7 @@ const Content:React.FC<{
   position: 'top' | 'bottom' | 'left' | 'right',
   relativeRect?: { x: number, y: number, width: number, height: number },
   show?: boolean,
-  fixed?: boolean
+  fixed?: boolean,
 }> = ({ show, fixed, position, children, relativeRect }) => {
   const [existingRect, setExistingRect] = useState<{ x: number, y: number, width: number, height: number } | undefined>(undefined);
   const [portalRoot, setPortalRoot] = useState<HTMLBodyElement | null>(null);

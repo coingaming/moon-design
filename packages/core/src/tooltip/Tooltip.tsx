@@ -1,20 +1,30 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useEffect, useState} from 'react';
+import { Text } from '@heathmont/moon-core';
 import Content from './styles/Content';
 import Wrapper from './styles/Wrapper';
 
 const Tooltip:React.FC<{
-  content: React.ReactElement,
   children: React.ReactElement,
+  text?: string,
+  icon?: React.ReactElement,
+  content?: React.ReactElement,
   position?: 'top' | 'bottom' | 'left' | 'right',
   show?: boolean,
   fixed?: boolean,
-}> = ({ content, show, position, children, fixed }) => {
+}> = ({
+  content,
+  text,
+  icon,
+  show,
+  position,
+  children,
+  fixed = true
+}) => {
   const [wrapperRef, setWrapperRef] = useState<any>(null);
   const [relativeRect, setRelativeRect] = useState<{ x: number, y: number, width: number, height: number } | undefined>(undefined);
   const [shouldShow, setShouldShow] = useState<boolean>(!!show);
 
   useEffect(() => {
-    console.log('useEffect > wrapperRef?.getBoundingClientRect()', wrapperRef?.getBoundingClientRect())
     if (wrapperRef && !relativeRect) setRelativeRect(wrapperRef.getBoundingClientRect());
   }, [wrapperRef]);
 
@@ -38,7 +48,9 @@ const Tooltip:React.FC<{
       relativeRect={relativeRect}
       show={shouldShow}
       fixed={fixed}
-    >{content}</Content>
+    >
+      { content ?? <Text size={12}>{text}</Text>}
+    </Content>
   </Wrapper>);
 };
 

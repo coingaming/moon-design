@@ -1,4 +1,5 @@
 import {rem} from "@heathmont/moon-utils";
+import rgba from "polished/lib/color/rgba";
 import styled from "styled-components";
 
 function resolvePositionTop (
@@ -52,16 +53,21 @@ const Position = styled.div<{
         position === 'top' ? 'calc(-100% - 5px)' : '5px'
     })`,
     display: show ? 'flex !important' : 'none',
+    boxShadow: `0px 6px 6px -6px ${
+      rgba(theme.colorNew.popo, 0.16)
+    }, 0px 0px 1px ${
+      rgba(theme.colorNew.popo, 0.4)
+    }`,
     alignItems: 'center',
     justifyContent: 'center',
     textAlign: 'center',
     whiteSpace: 'nowrap',
-    padding: `${rem(2)} ${rem(6)}`,
+    padding: `${rem(12)}`,
     borderRadius: `${rem(4)}`,
-    backgroundColor: theme.colorNew.piccolo,
-    color: theme.colorNew.goten,
+    backgroundColor: theme.colorNew.goten,
+    color: theme.colorNew.popo,
     '& *': {
-      color: theme.colorNew.goten,
+      color: theme.colorNew.popo,
     },
     '&::before': {
       content: '""',
@@ -78,13 +84,13 @@ const Position = styled.div<{
       })`,
       width: 0,
       height: 0,
-      borderLeft: position === 'left' ? `5px solid ${theme.colorNew.piccolo}` :
+      borderLeft: position === 'left' ? `5px solid ${theme.colorNew.goten}` :
         position === 'right' ? 'initial' : '5px solid transparent',
-      borderRight: position === 'right' ? `5px solid ${theme.colorNew.piccolo}` :
+      borderRight: position === 'right' ? `5px solid ${theme.colorNew.goten}` :
         position === 'left' ? 'initial' : '5px solid transparent',
-      borderTop: position === 'top' ? `5px solid ${theme.colorNew.piccolo}` :
+      borderTop: position === 'top' ? `5px solid ${theme.colorNew.goten}` :
         position === 'bottom' ? 'initial' : '5px solid transparent',
-      borderBottom: position === 'bottom' ? `5px solid ${theme.colorNew.piccolo}` :
+      borderBottom: position === 'bottom' ? `5px solid ${theme.colorNew.goten}` :
         position === 'top' ? 'initial' : '5px solid transparent',
     }
   })
