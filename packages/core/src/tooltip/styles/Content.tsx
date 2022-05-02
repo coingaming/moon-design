@@ -32,6 +32,7 @@ const Content:React.FC<{
     }
   }, [relativeRect])
 
+  // Fixed tooltips are rendered as children of <body>
   if (fixed && existingRect && portalRoot) {
     return ReactDOM.createPortal(component, portalRoot);
   }

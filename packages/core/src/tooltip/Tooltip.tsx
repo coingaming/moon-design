@@ -35,7 +35,12 @@ const Tooltip:React.FC<{
   fixed = true
 }) => {
   const [wrapperRef, setWrapperRef] = useState<any>(null);
-  const [relativeRect, setRelativeRect] = useState<{ x: number, y: number, width: number, height: number } | undefined>(undefined);
+  const [relativeRect, setRelativeRect] = useState<{
+    x: number,
+    y: number,
+    width: number,
+    height: number
+  } | undefined>(undefined);
   const [shouldShow, setShouldShow] = useState<boolean>(!!show);
 
   useEffect(() => {
@@ -43,6 +48,7 @@ const Tooltip:React.FC<{
   }, [wrapperRef]);
 
   useEffect(() => {
+    // If tooltip isn't persistently shown, hide it on window resize and scroll events
     if (!show) {
       const hideTooltip = () => setShouldShow(false);
 
