@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react';
-import { IconChevronDownRounded } from '@heathmont/moon-assets';
 import { FilterDropdown, SingleItemSelect } from '@heathmont/moon-components';
 import { Button } from '@heathmont/moon-core';
+import { ControlsChevronDown } from '@heathmont/moon-icons';
+import { rem } from "@heathmont/moon-utils";
 import styled from 'styled-components';
 import useClickAway from './__private__/useClickAway';
 
@@ -66,7 +67,7 @@ const ChangePageSize = ({
         onClick={() => setIsOpen(!isOpen)}
       >
         {children}
-        <IconChevronDownRounded />
+        <ControlsChevronDown fontSize={rem(23)}/>
       </ButtonDefault>
       {isOpen && (
         <Dropdown test-id="dropdown">

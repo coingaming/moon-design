@@ -313,6 +313,17 @@ exports[`Button renders different sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
+    className="sc-eqKtKx glWcaR"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="xsmall"
+  >
+    xSmall
+    <div
+      className="sc-dDaJoQ dqCRYK"
+    />
+  </button>
+  <button
     className="sc-eqKtKx iiKITB"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}

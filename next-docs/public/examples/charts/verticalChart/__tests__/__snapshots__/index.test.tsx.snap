@@ -5,7 +5,7 @@ exports[`Table Chart renders Active 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="sc-knTjpY jCfrJz"
+    className="sc-gPKDLW fDKba"
     style={
       Object {
         "height": 446,
@@ -13,14 +13,14 @@ exports[`Table Chart renders Active 1`] = `
     }
   >
     <div
-      className="sc-jLOYlT ezGncR"
+      className="sc-ksWjrO emcCVh"
     >
       <button
-        className="sc-bSGZAx fYVUqX"
+        className="sc-jJUdvr gntKQP"
         onClick={[Function]}
       >
         <svg
-          className="sc-kZPSHH sc-gRFyCy  loyRgj"
+          className="sc-dmRaPn sc-hwByLP  iCgBEX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -28,64 +28,60 @@ exports[`Table Chart renders Active 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            clipRule="evenodd"
-            d="M9.638 2.493a1 1 0 011.369-.355l5 2.938a1 1 0 01.328 1.411l-3 4.562a1 1 0 11-1.67-1.098l1.858-2.827C8.67 8.048 5 12.314 5 17.438c0 5.799 4.701 10.5 10.5 10.5S26 23.237 26 17.438c0-3.075-1.32-5.84-3.428-7.761a1 1 0 111.348-1.478A12.47 12.47 0 0128 17.438c0 6.903-5.596 12.5-12.5 12.5S3 24.34 3 17.438c0-5.855 4.025-10.77 9.458-12.128L9.993 3.862a1 1 0 01-.355-1.369z"
+            d="M12.556 6.068a.5.5 0 00-.503.864l.503-.864zM16 8.652l.417.276a.5.5 0 00-.165-.708L16 8.652zm-2.634 3.065a.5.5 0 00.833.553l-.833-.553zm8.695-1.238a.5.5 0 00-.67.742l.67-.742zM12.053 6.932l3.695 2.152.504-.864-3.696-2.152-.503.864zm3.53 1.444l-2.217 3.341.833.553 2.218-3.342-.834-.552zm8.417 8.7C24 21.448 20.422 25 16 25v1c4.966 0 9-3.991 9-8.924h-1zM16 25c-4.422 0-8-3.552-8-7.924H7C7 22.009 11.034 26 16 26v-1zm-8-7.924c0-4.372 3.578-7.924 8-7.924v-1c-4.966 0-9 3.991-9 8.924h1zm13.39-5.855A7.868 7.868 0 0124 17.076h1a8.869 8.869 0 00-2.94-6.597l-.67.742z"
             fill="currentColor"
-            fillRule="evenodd"
           />
         </svg>
       </button>
       <div />
       <button
-        className="sc-bSGZAx gtcMal"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-cWAxUP"
+          className="sc-gUAEMC"
           fill="none"
+          fontSize="1.375rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            clipRule="evenodd"
-            d="M3 19a1 1 0 011 1v5a3 3 0 003 3h18a3 3 0 003-3v-5a1 1 0 112 0v5a5 5 0 01-5 5H7a5 5 0 01-5-5v-5a1 1 0 011-1z"
-            fill="currentColor"
-            fillRule="evenodd"
-          />
-          <path
-            clipRule="evenodd"
-            d="M16.707 23.707a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L15 20.586V3a1 1 0 112 0v17.586l4.293-4.293a1 1 0 011.414 1.414l-6 6z"
-            fill="currentColor"
-            fillRule="evenodd"
+            d="M16 6.5v14.616m0 0l-4.385-4.385M16 21.115l4.385-4.384M6.5 18.923v3.654A2.923 2.923 0 009.423 25.5h13.154a2.923 2.923 0 002.923-2.923v-3.654"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </button>
       <button
-        className="sc-bSGZAx gtcMal"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-dMLzBS"
+          className="sc-jfmDQi"
           fill="none"
+          fontSize="1.375rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M2 11a1 1 0 102 0V5.41L14.586 16 4 26.59V21a1 1 0 10-2 0v8a1 1 0 001 1h8a1 1 0 100-2H5.419L16 17.415 26.581 28H21a1 1 0 100 2h8a1 1 0 001-1v-8a1 1 0 10-2 0v5.59L17.414 16 28 5.41V11a1 1 0 102 0V3a1 1 0 00-1-1h-8a1 1 0 100 2h5.581L16 14.585 5.419 4H11a1 1 0 100-2H3a1 1 0 00-1 1v8z"
-            fill="currentColor"
+            d="M6.5 12.832V6.5h6.334m-6.33 0l18.998 19m-6.334-.005H25.5v-6.332m0-6.331V6.5h-6.334m6.33 0L6.5 25.5m6.334-.005H6.501v-6.332"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </button>
     </div>
     <div
-      className="sc-hxCwtQ OnRJE"
+      className="sc-kHMNun hXkBpu"
     >
       <div
-        className="sc-eLHYIy fGUHIg"
+        className="sc-iUjRoI fDCzcC"
       >
         <svg
           fill="none"
@@ -156,40 +152,41 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-dAEBNM sc-edwNYl eySvuV bCALDv"
+        className="sc-fiMvTd sc-cmYlSf bUXgsc hqBrTw"
         size={20}
       >
         Top Countries
       </p>
       <div
-        className="sc-bPnocz"
+        className="sc-fXPgIJ"
       >
         <div
-          className="sc-gbFqDM ipLwql"
+          className="sc-eBhLNR yyKIN"
         >
           <button
-            className="sc-jjavrh eORxeC"
+            className="sc-hxCwtQ gjgraJ"
             onClick={[Function]}
           >
             <p
-              className="sc-dAEBNM sc-jSPclO jKsTmR bnNqLc"
+              className="sc-fiMvTd sc-bPnocz dnJsJs kJDCRP"
               size={14}
             >
               by GGR
             </p>
             <svg
-              className="sc-cmvVVv"
+              className="sc-efBctP"
               fill="none"
+              fontSize="1.4375rem"
               height="1em"
               viewBox="0 0 32 32"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                clipRule="evenodd"
-                d="M2.273 9.34a.933.933 0 011.32 0L16 21.747 28.407 9.34a.933.933 0 111.32 1.32L16.66 23.727a.933.933 0 01-1.32 0L2.273 10.66a.933.933 0 010-1.32z"
-                fill="currentColor"
-                fillRule="evenodd"
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </button>
@@ -197,40 +194,40 @@ exports[`Table Chart renders Active 1`] = `
       </div>
     </div>
     <div
-      className="sc-kjqWtN kBviOa"
+      className="sc-iCxJSg xIggz"
     >
       <div
-        className="sc-hwByLP bosUgZ"
+        className="sc-bySYJV ceEsps"
       >
         <div
-          className="sc-jrVuhE kFirvt"
+          className="sc-cuQNSp dnkGqT"
         >
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               1
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Estonia
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-frlyyo gUtBMv"
+              className="sc-jvdzsS hjDdZC"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -242,40 +239,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               120
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               2
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Russia
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-frlyyo gUtBMv"
+              className="sc-jvdzsS hjDdZC"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -287,40 +284,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               100
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               3
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Belarus
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-frlyyo gUtBMv"
+              className="sc-jvdzsS hjDdZC"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -332,40 +329,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               80
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               4
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Argentina
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-frlyyo gUtBMv"
+              className="sc-jvdzsS hjDdZC"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -377,40 +374,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               60
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               5
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               USA
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-frlyyo gUtBMv"
+              className="sc-jvdzsS hjDdZC"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -422,10 +419,10 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               40
             </div>
@@ -435,7 +432,7 @@ exports[`Table Chart renders Active 1`] = `
     </div>
   </div>
   <div
-    className="sc-knTjpY jCfrJz"
+    className="sc-gPKDLW fDKba"
     style={
       Object {
         "height": 446,
@@ -443,14 +440,14 @@ exports[`Table Chart renders Active 1`] = `
     }
   >
     <div
-      className="sc-jLOYlT ezGncR"
+      className="sc-ksWjrO emcCVh"
     >
       <button
-        className="sc-bSGZAx gtcMal"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <div
-          className="sc-kEDQaP gOkFea"
+          className="sc-eyHTTJ etynUm"
           color="piccolo.100"
           size="twoxsmall"
         >
@@ -462,55 +459,53 @@ exports[`Table Chart renders Active 1`] = `
       </button>
       <div />
       <button
-        className="sc-bSGZAx gtcMal"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-cWAxUP"
+          className="sc-gUAEMC"
           fill="none"
+          fontSize="1.375rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            clipRule="evenodd"
-            d="M3 19a1 1 0 011 1v5a3 3 0 003 3h18a3 3 0 003-3v-5a1 1 0 112 0v5a5 5 0 01-5 5H7a5 5 0 01-5-5v-5a1 1 0 011-1z"
-            fill="currentColor"
-            fillRule="evenodd"
-          />
-          <path
-            clipRule="evenodd"
-            d="M16.707 23.707a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L15 20.586V3a1 1 0 112 0v17.586l4.293-4.293a1 1 0 011.414 1.414l-6 6z"
-            fill="currentColor"
-            fillRule="evenodd"
+            d="M16 6.5v14.616m0 0l-4.385-4.385M16 21.115l4.385-4.384M6.5 18.923v3.654A2.923 2.923 0 009.423 25.5h13.154a2.923 2.923 0 002.923-2.923v-3.654"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </button>
       <button
-        className="sc-bSGZAx gtcMal"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-dMLzBS"
+          className="sc-jfmDQi"
           fill="none"
+          fontSize="1.375rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M2 11a1 1 0 102 0V5.41L14.586 16 4 26.59V21a1 1 0 10-2 0v8a1 1 0 001 1h8a1 1 0 100-2H5.419L16 17.415 26.581 28H21a1 1 0 100 2h8a1 1 0 001-1v-8a1 1 0 10-2 0v5.59L17.414 16 28 5.41V11a1 1 0 102 0V3a1 1 0 00-1-1h-8a1 1 0 100 2h5.581L16 14.585 5.419 4H11a1 1 0 100-2H3a1 1 0 00-1 1v8z"
-            fill="currentColor"
+            d="M6.5 12.832V6.5h6.334m-6.33 0l18.998 19m-6.334-.005H25.5v-6.332m0-6.331V6.5h-6.334m6.33 0L6.5 25.5m6.334-.005H6.501v-6.332"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </button>
     </div>
     <div
-      className="sc-hxCwtQ OnRJE"
+      className="sc-kHMNun hXkBpu"
     >
       <div
-        className="sc-eLHYIy fGUHIg"
+        className="sc-iUjRoI fDCzcC"
       >
         <svg
           fill="none"
@@ -581,40 +576,41 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-dAEBNM sc-edwNYl eySvuV bCALDv"
+        className="sc-fiMvTd sc-cmYlSf bUXgsc hqBrTw"
         size={20}
       >
         Top Countries
       </p>
       <div
-        className="sc-bPnocz"
+        className="sc-fXPgIJ"
       >
         <div
-          className="sc-gbFqDM ipLwql"
+          className="sc-eBhLNR yyKIN"
         >
           <button
-            className="sc-jjavrh eORxeC"
+            className="sc-hxCwtQ gjgraJ"
             onClick={[Function]}
           >
             <p
-              className="sc-dAEBNM sc-jSPclO jKsTmR bnNqLc"
+              className="sc-fiMvTd sc-bPnocz dnJsJs kJDCRP"
               size={14}
             >
               by GGR
             </p>
             <svg
-              className="sc-cmvVVv"
+              className="sc-efBctP"
               fill="none"
+              fontSize="1.4375rem"
               height="1em"
               viewBox="0 0 32 32"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                clipRule="evenodd"
-                d="M2.273 9.34a.933.933 0 011.32 0L16 21.747 28.407 9.34a.933.933 0 111.32 1.32L16.66 23.727a.933.933 0 01-1.32 0L2.273 10.66a.933.933 0 010-1.32z"
-                fill="currentColor"
-                fillRule="evenodd"
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </button>
@@ -622,43 +618,43 @@ exports[`Table Chart renders Active 1`] = `
       </div>
     </div>
     <div
-      className="sc-kjqWtN kBviOa"
+      className="sc-iCxJSg xIggz"
     >
       <div
-        className="sc-hwByLP bosUgZ"
+        className="sc-bySYJV ceEsps"
       >
         <div
-          className="sc-jrVuhE kFirvt"
+          className="sc-cuQNSp dnkGqT"
         >
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               1
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Estonia
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-jwYuju iCEaBQ"
+              className="sc-gYgiyK exCnyA"
             />
             <div
-              className="sc-frlyyo cwA-dIx"
+              className="sc-jvdzsS gLHXNE"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -670,43 +666,43 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               120
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               2
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Russia
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-jwYuju iCEaBQ"
+              className="sc-gYgiyK exCnyA"
             />
             <div
-              className="sc-frlyyo cwA-dIx"
+              className="sc-jvdzsS gLHXNE"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -718,43 +714,43 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               100
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               3
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Belarus
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-jwYuju iCEaBQ"
+              className="sc-gYgiyK exCnyA"
             />
             <div
-              className="sc-frlyyo cwA-dIx"
+              className="sc-jvdzsS gLHXNE"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -766,43 +762,43 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               20
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               4
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Argentina
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-jwYuju iCEaBQ"
+              className="sc-gYgiyK exCnyA"
             />
             <div
-              className="sc-frlyyo fuqjfV"
+              className="sc-jvdzsS hEWhLc"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -814,43 +810,43 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               -60
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               5
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               USA
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-jwYuju iCEaBQ"
+              className="sc-gYgiyK exCnyA"
             />
             <div
-              className="sc-frlyyo fuqjfV"
+              className="sc-jvdzsS hEWhLc"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -862,10 +858,10 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               -80
             </div>
@@ -875,7 +871,7 @@ exports[`Table Chart renders Active 1`] = `
     </div>
   </div>
   <div
-    className="sc-knTjpY jCfrJz"
+    className="sc-gPKDLW fDKba"
     style={
       Object {
         "height": 446,
@@ -883,14 +879,14 @@ exports[`Table Chart renders Active 1`] = `
     }
   >
     <div
-      className="sc-jLOYlT ezGncR"
+      className="sc-ksWjrO emcCVh"
     >
       <button
-        className="sc-bSGZAx gtcMal"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-kZPSHH sc-gRFyCy  loyRgj"
+          className="sc-dmRaPn sc-hwByLP  iCgBEX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -898,64 +894,60 @@ exports[`Table Chart renders Active 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            clipRule="evenodd"
-            d="M9.638 2.493a1 1 0 011.369-.355l5 2.938a1 1 0 01.328 1.411l-3 4.562a1 1 0 11-1.67-1.098l1.858-2.827C8.67 8.048 5 12.314 5 17.438c0 5.799 4.701 10.5 10.5 10.5S26 23.237 26 17.438c0-3.075-1.32-5.84-3.428-7.761a1 1 0 111.348-1.478A12.47 12.47 0 0128 17.438c0 6.903-5.596 12.5-12.5 12.5S3 24.34 3 17.438c0-5.855 4.025-10.77 9.458-12.128L9.993 3.862a1 1 0 01-.355-1.369z"
+            d="M12.556 6.068a.5.5 0 00-.503.864l.503-.864zM16 8.652l.417.276a.5.5 0 00-.165-.708L16 8.652zm-2.634 3.065a.5.5 0 00.833.553l-.833-.553zm8.695-1.238a.5.5 0 00-.67.742l.67-.742zM12.053 6.932l3.695 2.152.504-.864-3.696-2.152-.503.864zm3.53 1.444l-2.217 3.341.833.553 2.218-3.342-.834-.552zm8.417 8.7C24 21.448 20.422 25 16 25v1c4.966 0 9-3.991 9-8.924h-1zM16 25c-4.422 0-8-3.552-8-7.924H7C7 22.009 11.034 26 16 26v-1zm-8-7.924c0-4.372 3.578-7.924 8-7.924v-1c-4.966 0-9 3.991-9 8.924h1zm13.39-5.855A7.868 7.868 0 0124 17.076h1a8.869 8.869 0 00-2.94-6.597l-.67.742z"
             fill="currentColor"
-            fillRule="evenodd"
           />
         </svg>
       </button>
       <div />
       <button
-        className="sc-bSGZAx gtcMal"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-cWAxUP"
+          className="sc-gUAEMC"
           fill="none"
+          fontSize="1.375rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            clipRule="evenodd"
-            d="M3 19a1 1 0 011 1v5a3 3 0 003 3h18a3 3 0 003-3v-5a1 1 0 112 0v5a5 5 0 01-5 5H7a5 5 0 01-5-5v-5a1 1 0 011-1z"
-            fill="currentColor"
-            fillRule="evenodd"
-          />
-          <path
-            clipRule="evenodd"
-            d="M16.707 23.707a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L15 20.586V3a1 1 0 112 0v17.586l4.293-4.293a1 1 0 011.414 1.414l-6 6z"
-            fill="currentColor"
-            fillRule="evenodd"
+            d="M16 6.5v14.616m0 0l-4.385-4.385M16 21.115l4.385-4.384M6.5 18.923v3.654A2.923 2.923 0 009.423 25.5h13.154a2.923 2.923 0 002.923-2.923v-3.654"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </button>
       <button
-        className="sc-bSGZAx gtcMal"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-dMLzBS"
+          className="sc-jfmDQi"
           fill="none"
+          fontSize="1.375rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M2 11a1 1 0 102 0V5.41L14.586 16 4 26.59V21a1 1 0 10-2 0v8a1 1 0 001 1h8a1 1 0 100-2H5.419L16 17.415 26.581 28H21a1 1 0 100 2h8a1 1 0 001-1v-8a1 1 0 10-2 0v5.59L17.414 16 28 5.41V11a1 1 0 102 0V3a1 1 0 00-1-1h-8a1 1 0 100 2h5.581L16 14.585 5.419 4H11a1 1 0 100-2H3a1 1 0 00-1 1v8z"
-            fill="currentColor"
+            d="M6.5 12.832V6.5h6.334m-6.33 0l18.998 19m-6.334-.005H25.5v-6.332m0-6.331V6.5h-6.334m6.33 0L6.5 25.5m6.334-.005H6.501v-6.332"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </button>
     </div>
     <div
-      className="sc-hxCwtQ OnRJE"
+      className="sc-kHMNun hXkBpu"
     >
       <div
-        className="sc-eLHYIy fGUHIg"
+        className="sc-iUjRoI fDCzcC"
       >
         <svg
           fill="none"
@@ -1026,40 +1018,41 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-dAEBNM sc-edwNYl eySvuV bCALDv"
+        className="sc-fiMvTd sc-cmYlSf bUXgsc hqBrTw"
         size={20}
       >
         Top Countries
       </p>
       <div
-        className="sc-bPnocz"
+        className="sc-fXPgIJ"
       >
         <div
-          className="sc-gbFqDM ipLwql"
+          className="sc-eBhLNR yyKIN"
         >
           <button
-            className="sc-jjavrh eORxeC"
+            className="sc-hxCwtQ gjgraJ"
             onClick={[Function]}
           >
             <p
-              className="sc-dAEBNM sc-jSPclO jKsTmR bnNqLc"
+              className="sc-fiMvTd sc-bPnocz dnJsJs kJDCRP"
               size={14}
             >
               by GGR
             </p>
             <svg
-              className="sc-cmvVVv"
+              className="sc-efBctP"
               fill="none"
+              fontSize="1.4375rem"
               height="1em"
               viewBox="0 0 32 32"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                clipRule="evenodd"
-                d="M2.273 9.34a.933.933 0 011.32 0L16 21.747 28.407 9.34a.933.933 0 111.32 1.32L16.66 23.727a.933.933 0 01-1.32 0L2.273 10.66a.933.933 0 010-1.32z"
-                fill="currentColor"
-                fillRule="evenodd"
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </button>
@@ -1067,40 +1060,40 @@ exports[`Table Chart renders Active 1`] = `
       </div>
     </div>
     <div
-      className="sc-kjqWtN kBviOa"
+      className="sc-iCxJSg xIggz"
     >
       <div
-        className="sc-hwByLP bosUgZ"
+        className="sc-bySYJV ceEsps"
       >
         <div
-          className="sc-jrVuhE kFirvt"
+          className="sc-cuQNSp dnkGqT"
         >
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               1
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Estonia
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-frlyyo jhqpR"
+              className="sc-jvdzsS bSDOes"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -1112,40 +1105,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               -40
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               2
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Russia
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-frlyyo jhqpR"
+              className="sc-jvdzsS bSDOes"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -1157,40 +1150,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               -60
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               3
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Belarus
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-frlyyo jhqpR"
+              className="sc-jvdzsS bSDOes"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -1202,40 +1195,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               -80
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               4
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               Argentina
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-frlyyo jhqpR"
+              className="sc-jvdzsS bSDOes"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -1247,40 +1240,40 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               -100
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <span
-              className="sc-gPKDLW faoaGp"
+              className="sc-gA-DJDv jqLrQd"
             >
               5
             </span>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-jJUdvr fXiHDy"
+              className="sc-jwYuju dYBsZB"
             >
               USA
             </div>
           </div>
           <div
-            className="sc-WJksd hFSEzO"
+            className="sc-frlyyo gelPeQ"
           >
             <div
-              className="sc-frlyyo jhqpR"
+              className="sc-jvdzsS bSDOes"
             >
               <div
-                className="sc-cuQNSp edxvlN"
+                className="sc-gyIOMT BVnai"
                 style={
                   Object {
                     "background": "#ff4e64",
@@ -1292,10 +1285,10 @@ exports[`Table Chart renders Active 1`] = `
             </div>
           </div>
           <div
-            className="sc-WJksd fYTdlB"
+            className="sc-frlyyo cvYMYj"
           >
             <div
-              className="sc-ksWjrO iKBZvf"
+              className="sc-evnJpU iVWPzV"
             >
               -120
             </div>
@@ -1312,7 +1305,7 @@ exports[`Table Chart renders NoData 1`] = `
   className="w-full flex flex-row gap-36"
 >
   <div
-    className="sc-knTjpY jCfrJz"
+    className="sc-gPKDLW fDKba"
     style={
       Object {
         "height": 446,
@@ -1320,14 +1313,14 @@ exports[`Table Chart renders NoData 1`] = `
     }
   >
     <div
-      className="sc-jLOYlT ezGncR"
+      className="sc-ksWjrO emcCVh"
     >
       <button
-        className="sc-bSGZAx fYVUqX"
+        className="sc-jJUdvr gntKQP"
         onClick={[Function]}
       >
         <svg
-          className="sc-kZPSHH sc-gRFyCy  loyRgj"
+          className="sc-dmRaPn sc-hwByLP  iCgBEX"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1335,64 +1328,60 @@ exports[`Table Chart renders NoData 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            clipRule="evenodd"
-            d="M9.638 2.493a1 1 0 011.369-.355l5 2.938a1 1 0 01.328 1.411l-3 4.562a1 1 0 11-1.67-1.098l1.858-2.827C8.67 8.048 5 12.314 5 17.438c0 5.799 4.701 10.5 10.5 10.5S26 23.237 26 17.438c0-3.075-1.32-5.84-3.428-7.761a1 1 0 111.348-1.478A12.47 12.47 0 0128 17.438c0 6.903-5.596 12.5-12.5 12.5S3 24.34 3 17.438c0-5.855 4.025-10.77 9.458-12.128L9.993 3.862a1 1 0 01-.355-1.369z"
+            d="M12.556 6.068a.5.5 0 00-.503.864l.503-.864zM16 8.652l.417.276a.5.5 0 00-.165-.708L16 8.652zm-2.634 3.065a.5.5 0 00.833.553l-.833-.553zm8.695-1.238a.5.5 0 00-.67.742l.67-.742zM12.053 6.932l3.695 2.152.504-.864-3.696-2.152-.503.864zm3.53 1.444l-2.217 3.341.833.553 2.218-3.342-.834-.552zm8.417 8.7C24 21.448 20.422 25 16 25v1c4.966 0 9-3.991 9-8.924h-1zM16 25c-4.422 0-8-3.552-8-7.924H7C7 22.009 11.034 26 16 26v-1zm-8-7.924c0-4.372 3.578-7.924 8-7.924v-1c-4.966 0-9 3.991-9 8.924h1zm13.39-5.855A7.868 7.868 0 0124 17.076h1a8.869 8.869 0 00-2.94-6.597l-.67.742z"
             fill="currentColor"
-            fillRule="evenodd"
           />
         </svg>
       </button>
       <div />
       <button
-        className="sc-bSGZAx gtcMal"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-cWAxUP"
+          className="sc-gUAEMC"
           fill="none"
+          fontSize="1.375rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            clipRule="evenodd"
-            d="M3 19a1 1 0 011 1v5a3 3 0 003 3h18a3 3 0 003-3v-5a1 1 0 112 0v5a5 5 0 01-5 5H7a5 5 0 01-5-5v-5a1 1 0 011-1z"
-            fill="currentColor"
-            fillRule="evenodd"
-          />
-          <path
-            clipRule="evenodd"
-            d="M16.707 23.707a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L15 20.586V3a1 1 0 112 0v17.586l4.293-4.293a1 1 0 011.414 1.414l-6 6z"
-            fill="currentColor"
-            fillRule="evenodd"
+            d="M16 6.5v14.616m0 0l-4.385-4.385M16 21.115l4.385-4.384M6.5 18.923v3.654A2.923 2.923 0 009.423 25.5h13.154a2.923 2.923 0 002.923-2.923v-3.654"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </button>
       <button
-        className="sc-bSGZAx gtcMal"
+        className="sc-jJUdvr gygpbN"
         onClick={[Function]}
       >
         <svg
-          className="sc-dMLzBS"
+          className="sc-jfmDQi"
           fill="none"
+          fontSize="1.375rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M2 11a1 1 0 102 0V5.41L14.586 16 4 26.59V21a1 1 0 10-2 0v8a1 1 0 001 1h8a1 1 0 100-2H5.419L16 17.415 26.581 28H21a1 1 0 100 2h8a1 1 0 001-1v-8a1 1 0 10-2 0v5.59L17.414 16 28 5.41V11a1 1 0 102 0V3a1 1 0 00-1-1h-8a1 1 0 100 2h5.581L16 14.585 5.419 4H11a1 1 0 100-2H3a1 1 0 00-1 1v8z"
-            fill="currentColor"
+            d="M6.5 12.832V6.5h6.334m-6.33 0l18.998 19m-6.334-.005H25.5v-6.332m0-6.331V6.5h-6.334m6.33 0L6.5 25.5m6.334-.005H6.501v-6.332"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
           />
         </svg>
       </button>
     </div>
     <div
-      className="sc-hxCwtQ OnRJE"
+      className="sc-kHMNun hXkBpu"
     >
       <div
-        className="sc-eLHYIy fGUHIg"
+        className="sc-iUjRoI fDCzcC"
       >
         <svg
           fill="none"
@@ -1463,40 +1452,41 @@ exports[`Table Chart renders NoData 1`] = `
         </svg>
       </div>
       <p
-        className="sc-dAEBNM sc-edwNYl eySvuV bCALDv"
+        className="sc-fiMvTd sc-cmYlSf bUXgsc hqBrTw"
         size={20}
       >
         Top Countries
       </p>
       <div
-        className="sc-bPnocz"
+        className="sc-fXPgIJ"
       >
         <div
-          className="sc-gbFqDM ipLwql"
+          className="sc-eBhLNR yyKIN"
         >
           <button
-            className="sc-jjavrh eORxeC"
+            className="sc-hxCwtQ gjgraJ"
             onClick={[Function]}
           >
             <p
-              className="sc-dAEBNM sc-jSPclO jKsTmR bnNqLc"
+              className="sc-fiMvTd sc-bPnocz dnJsJs kJDCRP"
               size={14}
             >
               by GGR
             </p>
             <svg
-              className="sc-cmvVVv"
+              className="sc-efBctP"
               fill="none"
+              fontSize="1.4375rem"
               height="1em"
               viewBox="0 0 32 32"
               width="1em"
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                clipRule="evenodd"
-                d="M2.273 9.34a.933.933 0 011.32 0L16 21.747 28.407 9.34a.933.933 0 111.32 1.32L16.66 23.727a.933.933 0 01-1.32 0L2.273 10.66a.933.933 0 010-1.32z"
-                fill="currentColor"
-                fillRule="evenodd"
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
               />
             </svg>
           </button>
@@ -1504,10 +1494,10 @@ exports[`Table Chart renders NoData 1`] = `
       </div>
     </div>
     <div
-      className="sc-kjqWtN kBviOa"
+      className="sc-iCxJSg xIggz"
     >
       <div
-        className="sc-fjsWye fAlGpJ"
+        className="sc-bSGZAx edLvBc"
       >
         <svg
           fill="none"
@@ -1549,7 +1539,7 @@ exports[`Table Chart renders NoData 1`] = `
           />
         </svg>
         <p
-          className="sc-dAEBNM sc-eBhLNR iLVnBu fptQLY"
+          className="sc-fiMvTd sc-hNDnKS bmlRYT gRhIuT"
           color="trunks.100"
           size={14}
         >

@@ -7,8 +7,8 @@ import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
 import Colours from '../Colours';
 import Sizes from '../Sizes';
-import SizesList from '../SizesList';
-import LetterCases from "../LetterCases";
+import Icons from '../Icons';
+import LetterCases from '../LetterCases';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -25,8 +25,8 @@ describe('Label', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders with different SizesList', () => {
-    const testRenderer = renderer.create(renderWithTheme(<SizesList />));
+  it('renders with different Icons', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Icons />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

@@ -14,10 +14,19 @@ export interface TabLinkProps {
 
 const ElementLeftWrapper = styled.div({
   marginInlineEnd: rem(8),
+  '& > svg': {
+    width: rem(15),
+    height: rem(15),
+    margin: rem(4.5)
+  }
 });
 
 const CountWrapper = styled.span({
   marginInlineStart: rem(8),
+  width: rem(24),
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center'
 });
 
 const TabLink: React.FC<TabLinkProps> = ({
@@ -32,7 +41,6 @@ const TabLink: React.FC<TabLinkProps> = ({
     size={size}
     isTop={isTop}
     href={href}
-    paddingSize={size === 'small' ? rem(2) : rem(6)}
   >
     {elementLeft && <ElementLeftWrapper>{elementLeft}</ElementLeftWrapper>}
     {children}

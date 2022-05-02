@@ -38,14 +38,7 @@ const TabLink = styled.a<TabLinkProps>(({ theme, fullWidth }) => [
       backgroundColor: theme.color.piccolo[100],
       transform: 'scaleX(0)',
       transition: `transform ${theme.transitionDuration.default}s ease`,
-    },
-    '&:hover, &:focus, &:active, &.active, &[aria-current=page]': {
-      color: theme.color.bulma[100],
-      cursor: 'pointer',
-      '&:after': {
-        transform: 'scaleX(1)',
-      },
-    },
+    }
   },
 ]);
 

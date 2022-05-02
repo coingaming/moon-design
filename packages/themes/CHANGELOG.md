@@ -1,5 +1,11 @@
 # Change Log
 
+## 8.5.0
+
+### Minor Changes
+
+- xs button, copy code, icons, caroseul arrows fix
+
 ## 8.4.1
 
 ### Patch Changes

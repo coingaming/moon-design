@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { IconChevronRight } from '@heathmont/moon-assets';
+import { ControlsChevronRight } from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
@@ -44,7 +44,7 @@ const Toggle: React.FC<ToggleProps> = (props) => {
     <ToggleWrapper>
       <Header>
         <Switch open={open} onClick={() => setOpen(!open)}>
-          <IconChevronRight color="trunks.100" />
+          <ControlsChevronRight fontSize={rem(23)} color="trunks.100"/>
         </Switch>
         {header}
       </Header>
