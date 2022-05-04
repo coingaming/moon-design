@@ -82,7 +82,7 @@ const Button: React.FC<ButtonProps> = ({
       <div
         className={classNames(
           'z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]',
-          isHover && 'bg-[#00000012]'
+          isHover && 'bg-bulma/[.07]'
         )}
       />
     </ButtonComponent>

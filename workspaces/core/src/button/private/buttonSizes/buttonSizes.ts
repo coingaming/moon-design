@@ -17,31 +17,31 @@ const buttonSizes = ({
   if (size === Size.XSMALL) {
     return classNames(
       xSmallPadding({ icon, iconLeft, iconRight, iconOnly }),
-      'gap-1 text-xs'
+      'gap-1 text-xs rounded-moon-xs'
     );
   }
   if (size === Size.SMALL) {
     return classNames(
       smallPadding({ icon, iconLeft, iconRight, iconOnly }),
-      'gap-1 text-sm'
+      'gap-1 text-sm rounded-moon-sm'
     );
   }
   if (size === Size.MEDIUM) {
     return classNames(
       mediumPadding({ icon, iconLeft, iconRight, iconOnly }),
-      'gap-2 text-sm'
+      'gap-2 text-sm rounded-moon-sm'
     );
   }
   if (size === Size.LARGE) {
     return classNames(
       largePadding({ icon, iconLeft, iconRight, iconOnly }),
-      'gap-2 text-base'
+      'gap-2 text-base rounded-moon-sm'
     );
   }
   if (size === Size.XLARGE) {
     return classNames(
       xLargePadding({ icon, iconLeft, iconRight, iconOnly }),
-      'gap-2 text-base'
+      'gap-2 text-base rounded-moon-md'
     );
   }
   return '';

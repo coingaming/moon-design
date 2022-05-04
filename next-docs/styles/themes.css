@@ -51,3 +51,15 @@
 .fonts {
   --averta: 'Averta Std';
 }
+
+.border-radius {
+  --radius-xs: 4px; /* -> rem*/
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+}
+
+.opacity {
+  --opacity-moon: 0.32;
+}

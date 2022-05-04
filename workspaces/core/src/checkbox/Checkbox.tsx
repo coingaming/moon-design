@@ -35,7 +35,7 @@ const Animation: React.FC<AnimationProps> = ({ checked }) => {
       className={classNames(
         'w-8 h-8 rounded-full transition duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] scale-0 opacity-30',
         prevChecked !== checked
-          ? 'animate-[explode_0.7s_cubic-bezier(0.7,0.7,0.7,1)_1]'
+          ? 'animate-[explode_0.7s_cubic-bezier(0.7,0.7,0.7,1)_1] rounded-moon-xs'
           : '',
         checked ? 'bg-piccolo/[.12]' : 'bg-bulma/[.12]'
       )}
@@ -73,7 +73,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
           <span className={classNames('me-2 relative block')}>
             <span
               className={classNames(
-                'w-6 h-6 rounded-interactive transition duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color]',
+                'w-6 h-6 rounded-moon-xs transition duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color]',
                 isChecked ? 'hover:bg-piccolo/[.12]' : 'hover:bg-trunks/[.12]',
                 !disabled &&
                   !readOnly &&
@@ -95,7 +95,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
               ref={ref}
               checked={isChecked}
               className={classNames(
-                'appearance-none h-4 w-4 rounded-interactive focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer',
+                'appearance-none h-4 w-4 rounded-moon-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer',
                 isChecked
                   ? 'bg-piccolo shadow-none'
                   : 'shadow-[0_0_0_1px_inset] shadow-trunks',

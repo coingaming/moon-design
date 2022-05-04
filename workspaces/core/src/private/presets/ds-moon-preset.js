@@ -18,15 +18,32 @@ module.exports = {
           'var(--averta) -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
       },
       borderRadius: {
-        interactive: '8px',
+        'moon-xs': 'var(--radius-xs)',
+        'moon-sm': 'var(--radius-sm)',
+        'moon-md': 'var(--radius-md)',
+        'moon-lg': 'var(--radius-lg)',
+        'moon-full': 'var(--radius-full)',
       },
-      borderWidth: {
-        interactive: '2px',
+      zIndex: {
+        1: '1',
+        5: '5',
+        10000: '10000',
       },
       boxShadow: {
         inset: '0 0 0 1px rgb(var(--piccolo)) inset',
         interactive: '0 0 0 2px  rgb(var(--piccolo)) inset',
         focus: `0 0 0 4px rgba(var(--piccolo), .13)`,
+        'moon-sm':
+          '0 6px 6px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
+        'moon-md':
+          '0 12px 12px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
+        'moon-lg':
+          '0 8px 24px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
+        'moon-xl':
+          '0 32px 32px -8px rgba(0, 0, 0, 0.08), 0 0 32px -8px rgba(0, 0, 0, 0.12), 0 0 1px rgba(0, 0, 0, 0.2)',
+      },
+      opacity: {
+        moon: 'var(--opacity-moon)',
       },
       keyframes: {
         error: {
