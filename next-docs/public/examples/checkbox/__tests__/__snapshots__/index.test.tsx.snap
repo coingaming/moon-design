@@ -1,35 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Checkbox renders 1`] = `
-<label
-  className="sc-eZkcaX iVvJBb"
->
-  <input
-    className="sc-hQikvm eJmwLN"
-    onClick={[Function]}
-    type="checkbox"
-  />
-  <div
-    className="sc-hZiMVj fzhDfN"
-  >
-    <span
-      className="sc-dDaJoQ kZibGa"
-    >
-      <div
-        checked={false}
-        className="sc-McAUB bUcIWF"
-      />
-    </span>
-    <p
-      className="sc-jveewi dbvQYG"
-      size={14}
-    >
-      I agree to receive bonus & marketing emails.
-    </p>
-  </div>
-</label>
-`;
-
 exports[`Checkbox renders Checked 1`] = `
 <label
   className="sc-eZkcaX iVvJBb"
@@ -55,7 +25,7 @@ exports[`Checkbox renders Checked 1`] = `
       className="sc-jveewi dbvQYG"
       size={14}
     >
-      I agree to receive bonus & marketing emails.
+      Checkbox with checked state by default
     </p>
   </div>
 </label>
@@ -86,7 +56,7 @@ exports[`Checkbox renders Disabled 1`] = `
       className="sc-jveewi dbvQYG"
       size={14}
     >
-      I agree to receive bonus & marketing emails.
+      Disabled Checkbox
     </p>
   </div>
 </label>
@@ -116,7 +86,38 @@ exports[`Checkbox renders No label 1`] = `
 </label>
 `;
 
-exports[`Checkbox renders Reverse direction 1`] = `
+exports[`Checkbox renders Read only 1`] = `
+<label
+  className="sc-eZkcaX iVvJBb"
+>
+  <input
+    className="sc-hQikvm eJmwLN"
+    onClick={[Function]}
+    readOnly={true}
+    type="checkbox"
+  />
+  <div
+    className="sc-hZiMVj fzhDfN"
+  >
+    <span
+      className="sc-dDaJoQ kZibGa"
+    >
+      <div
+        checked={false}
+        className="sc-McAUB bUcIWF"
+      />
+    </span>
+    <p
+      className="sc-jveewi dbvQYG"
+      size={14}
+    >
+      Readonly checkbox
+    </p>
+  </div>
+</label>
+`;
+
+exports[`Checkbox renders default 1`] = `
 <label
   className="sc-eZkcaX iVvJBb"
 >
@@ -128,12 +129,6 @@ exports[`Checkbox renders Reverse direction 1`] = `
   <div
     className="sc-hZiMVj fzhDfN"
   >
-    <p
-      className="sc-jveewi dbvQYG"
-      size={14}
-    >
-      I agree to receive bonus & marketing emails.
-    </p>
     <span
       className="sc-dDaJoQ kZibGa"
     >
@@ -142,6 +137,12 @@ exports[`Checkbox renders Reverse direction 1`] = `
         className="sc-McAUB bUcIWF"
       />
     </span>
+    <p
+      className="sc-jveewi dbvQYG"
+      size={14}
+    >
+      Default Checkbox
+    </p>
   </div>
 </label>
 `;
