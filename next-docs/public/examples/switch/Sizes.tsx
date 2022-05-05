@@ -9,7 +9,7 @@ const Example = () => {
     <div className="flex gap-20 items-center">
       <Switch
         id="test-switch-1"
-        size="2xs"
+        size="twoxsmall"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
@@ -17,7 +17,7 @@ const Example = () => {
       />
       <Switch
         id="test-switch-2"
-        size="xs"
+        size="xsmall"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
@@ -25,7 +25,6 @@ const Example = () => {
       />
       <Switch
         id="test-switch-3"
-        size="sm"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)

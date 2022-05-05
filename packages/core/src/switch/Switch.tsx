@@ -1,12 +1,13 @@
 import React from 'react';
 import { uniqueId } from '@heathmont/moon-utils';
-import {Text} from "../index";
 import Inline from '../inline/Inline';
-import {Size} from "./private/Size";
-import ButtonLabels from "./styles/ButtonLabels";
-import Input from "./styles/Input";
-import Label from "./styles/Label";
-import Slider from "./styles/Slider";
+import Size from '../private/enums/Size';
+import Text from '../text/Text';
+import ButtonLabels from './styles/ButtonLabels';
+import Input from './styles/Input';
+import Label from './styles/Label';
+import Slider from './styles/Slider';
+import type SwitchProps from './private/types/SwitchProps';
 
 const switchWidthProperty = '--switch-width';
 const switchWidth = `var(${switchWidthProperty})`;
@@ -14,36 +15,18 @@ const switchWidth = `var(${switchWidthProperty})`;
 const switchHeightProperty = '--switch-height';
 const switchHeight = `var(${switchHeightProperty})`;
 
-type HTMLInputProps = React.InputHTMLAttributes<HTMLInputElement>;
-
-export type SwitchProps = {
-  checked?: boolean;
-  disabled?: boolean;
-  className?: string;
-  colorScheme?: boolean;
-  id?: HTMLInputProps['id'];
-  onChange?: (e: React.ChangeEvent<HTMLInputElement>) => void;
-  size?: Size;
-  isRtl?: boolean;
-  buttons?: {
-    onLabel: string;
-    offLabel: string;
-  }
-};
-
 const Switch: React.FC<SwitchProps> = ({
   className,
-  checked = false,
-  disabled = false,
+  checked,
+  disabled,
   colorScheme,
   id,
   isRtl,
-  size = 'sm',
+  size = Size.SMALL,
   buttons,
   ...props
 }) => {
   const autoId = id || `Switch-${uniqueId()}`;
-
   const labelProps = {
     switchHeightProperty,
     switchWidthProperty,
@@ -52,9 +35,8 @@ const Switch: React.FC<SwitchProps> = ({
     className,
     size,
     disabled,
-    button: !!buttons
+    button: !!buttons,
   };
-
   const inputProps = {
     switchWidth,
     id: autoId,
@@ -64,9 +46,8 @@ const Switch: React.FC<SwitchProps> = ({
     button: !!buttons,
     isRtl,
     ...props,
-    onChange: props.onChange && !disabled ? props.onChange : () => {}
+    onChange: props.onChange && !disabled ? props.onChange : () => {},
   };
-
   const sliderProps = {
     colorScheme,
     isRtl,
@@ -74,9 +55,8 @@ const Switch: React.FC<SwitchProps> = ({
     size,
     button: !!buttons,
     switchHeight,
-    switchWidth
+    switchWidth,
   };
-
   return (
     <Inline
       space="small"
@@ -86,12 +66,12 @@ const Switch: React.FC<SwitchProps> = ({
       <Label {...labelProps}>
         <Input {...inputProps} />
         <Slider {...sliderProps}>
-          {
-            !!buttons && (<ButtonLabels>
-              <Text>{buttons.offLabel}</Text>
-              <Text>{buttons.onLabel}</Text>
-            </ButtonLabels>)
-          }
+          {!!buttons && (
+            <ButtonLabels>
+              <Text size={14}>{buttons.offLabel}</Text>
+              <Text size={14}>{buttons.onLabel}</Text>
+            </ButtonLabels>
+          )}
         </Slider>
       </Label>
     </Inline>
