@@ -421,61 +421,6 @@ exports[`Button renders different variants 1`] = `
 </div>
 `;
 
-exports[`Button renders different variants RTL 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    className="flex justify-around w-full items-center"
-  >
-    <button
-      className="sc-eqKtKx oytqc"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      size="medium"
-    >
-      Primary is default
-      <div
-        className="sc-dDaJoQ dqCRYK"
-      />
-    </button>
-    <button
-      className="sc-eqKtKx kVNEMb"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      size="medium"
-    >
-      Secondary
-      <div
-        className="sc-dDaJoQ dqCRYK"
-      />
-    </button>
-    <button
-      className="sc-eqKtKx BuPjx"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      size="medium"
-    >
-      Tertiary
-      <div
-        className="sc-dDaJoQ dqCRYK"
-      />
-    </button>
-    <button
-      className="sc-eqKtKx dwPcUo"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      size="medium"
-    >
-      Ghost
-      <div
-        className="sc-dDaJoQ dqCRYK"
-      />
-    </button>
-  </div>
-</div>
-`;
-
 exports[`Button renders disabled state 1`] = `
 <div
   className="flex justify-around w-full items-center"

@@ -51,7 +51,7 @@ const ForDevelopers = () => {
         <NavItem href="https://github.com/coingaming/moon-design">
           Github
         </NavItem>
-        <NavItem href="getting-started">Getting Started</NavItem>
+        <NavItem href="gettingStarted">Getting Started</NavItem>
         <NavItem href="tokens">Design Tokens</NavItem>
         <NavItem href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts">
           Creating Themes
