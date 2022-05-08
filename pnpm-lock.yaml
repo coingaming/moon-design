@@ -126,6 +126,7 @@ importers:
       identity-obj-proxy: ^3.0.0
       jest: 27.4.7
       jest-environment-jsdom: ^27.4.6
+      kbar: ^0.1.0-beta.34
       lodash: ^4.17.21
       next: 12.1.0
       next-transpile-modules: 9.0.0
@@ -171,6 +172,7 @@ importers:
       identity-obj-proxy: 3.0.0
       jest: 27.4.7
       jest-environment-jsdom: 27.4.6
+      kbar: 0.1.0-beta.34_react-dom@17.0.2+react@17.0.2
       lodash: 4.17.21
       next: 12.1.0_1fa2ab88872798083119a424838d7305
       next-transpile-modules: 9.0.0
@@ -4805,6 +4807,10 @@ packages:
     resolution: {integrity: sha512-GHuDRO12Sypu2cV70d1dkA2EUmXHgntrzbpvOB+Qy+49ypNfGgFQIC2fhhXbnyrJRynDCAARsT7Ou0M6hirpfw==}
     dev: true
 
+  /command-score/0.1.2:
+    resolution: {integrity: sha1-uYatfowL66F1UqVmNsRK44Nj04E=}
+    dev: false
+
   /commander/2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
 
@@ -8497,6 +8503,21 @@ packages:
       object.assign: 4.1.2
     dev: true
 
+  /kbar/0.1.0-beta.34_react-dom@17.0.2+react@17.0.2:
+    resolution: {integrity: sha512-WUzGt/9Dq4a1RKLA7g9xuBOz3Hk/PB3zXFMKaolPBVZjDwn/Pc4+1jcdiVg1H1HB9nuPJwF2fuospl/Czm/Bmw==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0
+      react-dom: ^16.0.0 || ^17.0.0
+    dependencies:
+      '@reach/portal': 0.16.2_react-dom@17.0.2+react@17.0.2
+      command-score: 0.1.2
+      fast-equals: 2.0.3
+      react: 17.0.2
+      react-dom: 17.0.2_react@17.0.2
+      react-virtual: 2.10.4_react@17.0.2
+      tiny-invariant: 1.2.0
+    dev: false
+
   /kind-of/2.0.1:
     resolution: {integrity: sha1-AY7HpM5+OobLkUG+UZ0kyPqpgbU=}
     engines: {node: '>=0.10.0'}
@@ -10245,6 +10266,15 @@ packages:
       tslib: 2.3.1
     dev: false
 
+  /react-virtual/2.10.4_react@17.0.2:
+    resolution: {integrity: sha512-Ir6+oPQZTVHfa6+JL9M7cvMILstFZH/H3jqeYeKI4MSUX+rIruVwFC6nGVXw9wqAw8L0Kg2KvfXxI85OvYQdpQ==}
+    peerDependencies:
+      react: ^16.6.3 || ^17.0.0
+    dependencies:
+      '@reach/observe-rect': 1.2.0
+      react: 17.0.2
+    dev: false
+
   /react/17.0.2:
     resolution: {integrity: sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==}
     engines: {node: '>=0.10.0'}
@@ -11611,6 +11641,10 @@ packages:
   /through/2.3.8:
     resolution: {integrity: sha1-DdTJ/6q8NXlgsbckEV1+Doai4fU=}
     dev: true
+
+  /tiny-invariant/1.2.0:
+    resolution: {integrity: sha512-1Uhn/aqw5C6RI4KejVeTg6mIS7IqxnLJ8Mv2tV5rTc0qWobay7pDUz6Wi392Cnc8ak1H0F2cjoRzb2/AW4+Fvg==}
+    dev: false
 
   /tiny-warning/1.0.3:
     resolution: {integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==}
