@@ -1,14 +1,19 @@
 import React from "react";
 import {KBarResults, useMatches} from "kbar";
+import styles from "./BarResults.module.css";
 
 export const BarResults = () => {
   const { results } = useMatches();
-console.log('kBarResults > results', results)
-  return (<KBarResults
-    items={results}
-    onRender={({ item, active }: { item: any, active: boolean}) =>
-      typeof item === "string" ? (<div>{item}</div>) : (<div
-        style={{ background: active ? "#eee" : "transparent" }}
-      >{item.name}</div>)}
-  />)
+
+  return (<div className={styles.wrapper}>
+    <KBarResults
+      items={results}
+      onRender={({ item, active }: { item: any, active: boolean}) =>
+        typeof item === "string" ? (<div
+          className={`${styles.item} ${active ? styles.activeItem :''}`}
+        >{item}</div>) : (<div
+          className={`${styles.item} ${active ? styles.activeItem :''}`}
+        >{item.name}</div>)}
+    />
+  </div>)
 }

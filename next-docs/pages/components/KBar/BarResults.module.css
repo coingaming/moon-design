@@ -1,12 +1,23 @@
-.input {
+.wrapper {
   font-family: 'Averta Std', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: #fff;
   color: rgb(153, 156, 160);
   border-radius: 0.5rem;
-  border: 0.125rem solid transparent;
-  padding: 0.5rem 2rem;
-  min-width: 350px;
+  padding: 0.25rem 0.5rem;
   box-shadow: 0 0 10px 1px #33333333;
-  outline: none;
+  font-size: 1.4rem;
+  margin-top: 10px;
+}
+
+.item {
+  padding: 0.25rem;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.activeItem {
+  border-bottom: 1px solid #333;
+  color: #333;
 }
