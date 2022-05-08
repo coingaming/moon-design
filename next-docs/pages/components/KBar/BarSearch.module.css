@@ -1,0 +1,14 @@
+.wrapper {
+  font-family: 'Averta Std', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+.input {
+  background-color: #fff;
+  color: rgb(153, 156, 160);
+  border-radius: 0.5rem;
+  border: 0.125rem solid transparent;
+  padding: 0.5rem 2rem;
+  min-width: 350px;
+  box-shadow: 0 0 10px 1px #33333333;
+  outline: none;
+}

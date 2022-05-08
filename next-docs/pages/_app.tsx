@@ -7,14 +7,14 @@ import {
   KBarProvider,
   KBarPortal,
   KBarPositioner,
-  KBarAnimator,
-  KBarSearch
+  KBarAnimator
 } from 'kbar';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import Layout from '../components/Layout';
 import { DocsThemeProvider } from '../components/themes/DocsThemeProvider';
-import { BarResults } from './components/BarResults';
+import { BarResults } from './components/KBar/BarResults';
+import {BarSearch} from "./components/KBar/BarSearch";
 import type { AppProps } from 'next/app';
 
 type GetLayout = (page: ReactNode) => ReactChild & ReactNode;
@@ -60,7 +60,7 @@ function MyApp({ Component, pageProps }: MyAppProps) {
         <KBarPortal>
           <KBarPositioner>
             <KBarAnimator>
-              <KBarSearch />
+              <BarSearch />
               <BarResults />
             </KBarAnimator>
           </KBarPositioner>
