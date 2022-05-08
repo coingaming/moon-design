@@ -1,4 +1,4 @@
-import React, {ReactChild, ReactNode, useMemo} from 'react';
+import React, {ReactChild, ReactNode, useEffect, useMemo} from 'react';
 import '../styles/globals.css';
 import '../styles/reset.css';
 import '../styles/themes.css';
@@ -7,7 +7,8 @@ import {
   KBarProvider,
   KBarPortal,
   KBarPositioner,
-  KBarAnimator
+  KBarAnimator,
+  useRegisterActions
 } from 'kbar';
 import { NextPage } from 'next';
 import Head from 'next/head';
@@ -56,9 +57,9 @@ function MyApp({ Component, pageProps }: MyAppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <KBarProvider actions={kBarActions}>
+      <KBarProvider actions={[]}>
         <KBarPortal>
-          <KBarPositioner>
+          <KBarPositioner style={{ zIndex: 9999 }}>
             <KBarAnimator>
               <BarSearch />
               <BarResults />
