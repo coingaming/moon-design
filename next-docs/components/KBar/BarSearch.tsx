@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from "react";
 import {KBarSearch, useRegisterActions} from "kbar";
 import {useRouter} from "next/router";
-import navigation from "../../../components/sidebar/navigation";
+import navigation from "../sidebar/navigation";
 import styles from "./BarSearch.module.css";
 
 interface KBarItem {
