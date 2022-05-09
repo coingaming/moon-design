@@ -14,7 +14,7 @@ import TextInputTypes from './types/TextInputTypes';
 interface TextInputPasswordProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
-  inputSize: TextInputSizeType | string;
+  inputSize?: TextInputSizeType | string;
   label?: JSX.Element | string;
   type: TextInputTypes | string;
   placeholder?: string;
@@ -35,7 +35,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
   (props, ref) => {
     const {
       id,
-      inputSize,
+      inputSize = Size.MEDIUM,
       type,
       disabled,
       placeholder = ' ',

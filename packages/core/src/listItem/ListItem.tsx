@@ -15,6 +15,7 @@ export type ListItemProps = {
   isMeta?: boolean;
   subtext?: React.ReactElement;
   size?: 'medium' | 'large';
+  children?: React.ReactNode;
 };
 
 const MainWrapper = styled.div({

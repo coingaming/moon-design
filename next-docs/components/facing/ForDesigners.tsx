@@ -50,7 +50,7 @@ const ForDesigners = () => {
         <NavItem href="https://www.figma.com/community/file/1002945721703152933">
           Figma
         </NavItem>
-        <NavItem href="getting-started">Getting Started</NavItem>
+        <NavItem href="gettingStarted">Getting Started</NavItem>
         {/* <NavItem>Visual Language</NavItem> */}
         <NavItem href="typography">Typography</NavItem>
         <NavItem href="colours">Colour Convention</NavItem>

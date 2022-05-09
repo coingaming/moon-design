@@ -96,7 +96,7 @@ const PageLabel = () => {
             name: 'color',
             type: 'ColorProps',
             required: false,
-            default: 'goten.100',
+            default: 'gohan.100',
             description: 'Text color',
           },
           {

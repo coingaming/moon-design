@@ -9,6 +9,7 @@ type FilterDropdownProps = {
   onSearchChange?: (value: string) => void;
   minWidth?: number | string;
   width?: number | string;
+  children?: React.ReactNode;
 };
 
 const FilterDropdownWrapper = styled.div(({ theme }) => ({

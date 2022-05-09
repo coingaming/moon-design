@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
+import Size from '../../private/enums/Size';
 import Container from '../styles/Container';
 import Inner from '../styles/Inner';
 import LabelInner from '../styles/LabelInner';
@@ -11,7 +12,7 @@ import TextInputTypes from './types/TextInputTypes';
 interface TextInputMediumProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
-  inputSize: TextInputSizeType | string;
+  inputSize?: TextInputSizeType | string;
   label?: JSX.Element | string;
   type: TextInputTypes | string;
   placeholder?: string;
@@ -31,7 +32,7 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
   (props, ref) => {
     const {
       id,
-      inputSize,
+      inputSize = Size.MEDIUM,
       type,
       disabled,
       placeholder = ' ',

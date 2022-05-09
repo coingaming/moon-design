@@ -1,61 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Checkbox renders 1`] = `
-<label
-  className="sc-eZkcaX iVvJBb"
->
-  <input
-    className="sc-hQikvm eJmwLN"
-    onClick={[Function]}
-    type="checkbox"
-  />
-  <div
-    className="sc-hZiMVj fzhDfN"
-  >
-    <span
-      className="sc-dDaJoQ kZibGa"
-    >
-      <div
-        checked={false}
-        className="sc-McAUB bUcIWF"
-      />
-    </span>
-    <p
-      className="sc-jveewi dbvQYG"
-      size={14}
-    >
-      I agree to receive bonus & marketing emails.
-    </p>
-  </div>
-</label>
-`;
-
 exports[`Checkbox renders Checked 1`] = `
 <label
-  className="sc-eZkcaX iVvJBb"
+  className="sc-gFeNAA fnPTuj"
 >
   <input
     checked={true}
-    className="sc-hQikvm eJmwLN"
+    className="sc-kxCoLp hxbKpC"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-hZiMVj fzhDfN"
+    className="sc-ciicml bpqhVu"
   >
     <span
-      className="sc-dDaJoQ kZibGa"
+      className="sc-eZgkGA kLWXuq"
     >
       <div
         checked={true}
-        className="sc-McAUB gEVtAg"
+        className="sc-iDRUQT ikvNIX"
       />
     </span>
     <p
-      className="sc-jveewi dbvQYG"
+      className="sc-cQIpJi llFRTU"
       size={14}
     >
-      I agree to receive bonus & marketing emails.
+      Checkbox with checked state by default
     </p>
   </div>
 </label>
@@ -63,30 +33,30 @@ exports[`Checkbox renders Checked 1`] = `
 
 exports[`Checkbox renders Disabled 1`] = `
 <label
-  className="sc-eZkcaX iVvJBb"
+  className="sc-gFeNAA fnPTuj"
 >
   <input
-    className="sc-hQikvm eJmwLN"
+    className="sc-kxCoLp hxbKpC"
     disabled={true}
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-hZiMVj fzhDfN"
+    className="sc-ciicml bpqhVu"
   >
     <span
-      className="sc-dDaJoQ kZibGa"
+      className="sc-eZgkGA kLWXuq"
     >
       <div
         checked={false}
-        className="sc-McAUB bUcIWF"
+        className="sc-iDRUQT iHmewq"
       />
     </span>
     <p
-      className="sc-jveewi dbvQYG"
+      className="sc-cQIpJi llFRTU"
       size={14}
     >
-      I agree to receive bonus & marketing emails.
+      Disabled Checkbox
     </p>
   </div>
 </label>
@@ -94,54 +64,85 @@ exports[`Checkbox renders Disabled 1`] = `
 
 exports[`Checkbox renders No label 1`] = `
 <label
-  className="sc-eZkcaX iVvJBb"
+  className="sc-gFeNAA fnPTuj"
 >
   <input
-    className="sc-hQikvm eJmwLN"
+    className="sc-kxCoLp hxbKpC"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-hZiMVj fzhDfN"
+    className="sc-ciicml bpqhVu"
   >
     <span
-      className="sc-dDaJoQ kZibGa"
+      className="sc-eZgkGA kLWXuq"
     >
       <div
         checked={false}
-        className="sc-McAUB bUcIWF"
+        className="sc-iDRUQT iHmewq"
       />
     </span>
   </div>
 </label>
 `;
 
-exports[`Checkbox renders Reverse direction 1`] = `
+exports[`Checkbox renders Read only 1`] = `
 <label
-  className="sc-eZkcaX iVvJBb"
+  className="sc-gFeNAA fnPTuj"
 >
   <input
-    className="sc-hQikvm eJmwLN"
+    className="sc-kxCoLp hxbKpC"
+    onClick={[Function]}
+    readOnly={true}
+    type="checkbox"
+  />
+  <div
+    className="sc-ciicml bpqhVu"
+  >
+    <span
+      className="sc-eZgkGA kLWXuq"
+    >
+      <div
+        checked={false}
+        className="sc-iDRUQT iHmewq"
+      />
+    </span>
+    <p
+      className="sc-cQIpJi llFRTU"
+      size={14}
+    >
+      Readonly checkbox
+    </p>
+  </div>
+</label>
+`;
+
+exports[`Checkbox renders default 1`] = `
+<label
+  className="sc-gFeNAA fnPTuj"
+>
+  <input
+    className="sc-kxCoLp hxbKpC"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-hZiMVj fzhDfN"
+    className="sc-ciicml bpqhVu"
   >
-    <p
-      className="sc-jveewi dbvQYG"
-      size={14}
-    >
-      I agree to receive bonus & marketing emails.
-    </p>
     <span
-      className="sc-dDaJoQ kZibGa"
+      className="sc-eZgkGA kLWXuq"
     >
       <div
         checked={false}
-        className="sc-McAUB bUcIWF"
+        className="sc-iDRUQT iHmewq"
       />
     </span>
+    <p
+      className="sc-cQIpJi llFRTU"
+      size={14}
+    >
+      Default Checkbox
+    </p>
   </div>
 </label>
 `;

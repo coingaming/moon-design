@@ -5697,7 +5697,6 @@ exports[`Table renders 1`] = `
           }
         }
       >
-        
         <div
           className="resizer "
           draggable={false}
@@ -5729,7 +5728,6 @@ exports[`Table renders 1`] = `
           }
         }
       >
-        
         <div
           className="resizer "
           draggable={false}
@@ -5757,7 +5755,6 @@ exports[`Table renders 1`] = `
           }
         }
       >
-        
         <div
           className="resizer "
           draggable={false}
@@ -5785,7 +5782,6 @@ exports[`Table renders 1`] = `
           }
         }
       >
-        
         <div
           className="resizer "
           draggable={false}
@@ -5813,7 +5809,6 @@ exports[`Table renders 1`] = `
           }
         }
       >
-        
         <div
           className="resizer "
           draggable={false}
@@ -5841,7 +5836,6 @@ exports[`Table renders 1`] = `
           }
         }
       >
-        
         <div
           className="resizer "
           draggable={false}
@@ -5873,7 +5867,6 @@ exports[`Table renders 1`] = `
           }
         }
       >
-        
         <div
           className="resizer "
           draggable={false}
@@ -6042,7 +6035,6 @@ exports[`Table renders Calendar 1`] = `
           }
         }
       >
-        
         <div
           className="resizer "
           draggable={false}

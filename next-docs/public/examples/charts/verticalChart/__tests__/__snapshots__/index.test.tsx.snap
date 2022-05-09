@@ -152,7 +152,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
+        className="sc-fiMvTd sc-cmYlSf bUXgsc hqBrTw"
         size={20}
       >
         Top Countries
@@ -168,7 +168,7 @@ exports[`Table Chart renders Active 1`] = `
             onClick={[Function]}
           >
             <p
-              className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
+              className="sc-fiMvTd sc-bPnocz dnJsJs kJDCRP"
               size={14}
             >
               by GGR
@@ -447,7 +447,7 @@ exports[`Table Chart renders Active 1`] = `
         onClick={[Function]}
       >
         <div
-          className="sc-gKsSvo kDKFEx"
+          className="sc-eyHTTJ etynUm"
           color="piccolo.100"
           size="twoxsmall"
         >
@@ -576,7 +576,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
+        className="sc-fiMvTd sc-cmYlSf bUXgsc hqBrTw"
         size={20}
       >
         Top Countries
@@ -592,7 +592,7 @@ exports[`Table Chart renders Active 1`] = `
             onClick={[Function]}
           >
             <p
-              className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
+              className="sc-fiMvTd sc-bPnocz dnJsJs kJDCRP"
               size={14}
             >
               by GGR
@@ -1018,7 +1018,7 @@ exports[`Table Chart renders Active 1`] = `
         </svg>
       </div>
       <p
-        className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
+        className="sc-fiMvTd sc-cmYlSf bUXgsc hqBrTw"
         size={20}
       >
         Top Countries
@@ -1034,7 +1034,7 @@ exports[`Table Chart renders Active 1`] = `
             onClick={[Function]}
           >
             <p
-              className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
+              className="sc-fiMvTd sc-bPnocz dnJsJs kJDCRP"
               size={14}
             >
               by GGR
@@ -1452,7 +1452,7 @@ exports[`Table Chart renders NoData 1`] = `
         </svg>
       </div>
       <p
-        className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
+        className="sc-fiMvTd sc-cmYlSf bUXgsc hqBrTw"
         size={20}
       >
         Top Countries
@@ -1468,7 +1468,7 @@ exports[`Table Chart renders NoData 1`] = `
             onClick={[Function]}
           >
             <p
-              className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
+              className="sc-fiMvTd sc-bPnocz dnJsJs kJDCRP"
               size={14}
             >
               by GGR
@@ -1539,7 +1539,7 @@ exports[`Table Chart renders NoData 1`] = `
           />
         </svg>
         <p
-          className="sc-jveewi sc-hNDnKS bNVltx gRhIuT"
+          className="sc-fiMvTd sc-hNDnKS bmlRYT gRhIuT"
           color="trunks.100"
           size={14}
         >

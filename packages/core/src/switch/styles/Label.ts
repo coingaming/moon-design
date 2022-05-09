@@ -15,8 +15,12 @@ const Label = styled.label<SliderProps>(
     switchHeightProperty,
     switchWidthProperty,
   }) => ({
-    [switchWidthProperty]: size ? setLabelWidth(size, button) : rem(64),
-    [switchHeightProperty]: size ? setLabelHeight(size, button) : rem(32),
+    [switchWidthProperty as string]: size
+      ? setLabelWidth(size, button)
+      : rem(64),
+    [switchHeightProperty as string]: size
+      ? setLabelHeight(size, button)
+      : rem(32),
     cursor: disabled ? 'not-allowed' : 'pointer',
     opacity: disabled ? newTokens.opacity : 1,
     position: 'relative',

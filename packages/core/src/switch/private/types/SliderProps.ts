@@ -1,13 +1,8 @@
 import { Theme } from '@heathmont/moon-themes';
-import SwitchSize from './SwitchSize';
+import type Props from './Props';
 
-type SliderProps = {
-  colorScheme?: boolean;
-  checked?: boolean;
-  disabled?: boolean;
-  size?: SwitchSize;
+type SliderProps = Props & {
   button?: boolean;
-  isRtl?: boolean;
   switchHeight?: string;
   switchWidth?: string;
   switchHeightProperty?: string;
