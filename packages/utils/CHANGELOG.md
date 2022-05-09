@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.0.0
+
+### Major Changes
+
+- React 18
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.0.0
+
 ## 8.5.0
 
 ### Minor Changes

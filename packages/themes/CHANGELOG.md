@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.0.0
+
+### Major Changes
+
+- React 18
+
 ## 8.5.0
 
 ### Minor Changes

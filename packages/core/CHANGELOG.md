@@ -1,5 +1,20 @@
 # Change Log
 
+## 9.0.0
+
+### Major Changes
+
+- React 18
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.0.0
+  - @heathmont/moon-components@9.0.0
+  - @heathmont/moon-icons@9.0.0
+  - @heathmont/moon-themes@9.0.0
+  - @heathmont/moon-utils@9.0.0
+
 ## 8.5.0
 
 ### Minor Changes
