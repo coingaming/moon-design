@@ -25,7 +25,7 @@
 
 Thanks to [changeset](https://github.com/changesets/changesets), we can generate version bumps automatically.
 
-1. Ensure that `develop` branch is up to date with `master`. 
+1. Ensure that `develop` branch is up to date with `master`.
 2. Run `pnpm changeset` in the root of the repository and follow CLI instructions to generate a new changeset.
 3. Run `pnpm changeset version` command. This will bump the versions of the packages previously specified with pnpm changeset (and any dependents of those) and update the changelog files.
 4. Run `pnpm install`. This will update the lockfile and rebuild packages.
@@ -37,7 +37,7 @@ Thanks to [changeset](https://github.com/changesets/changesets), we can generate
 9. Tag a version and push your tag (`git tag vX.X.X` and `git push && git push --tags`)
 10. Communicate the release to the team!
 
-## Prerelease Process 
+## Prerelease Process
 
 You might want to release a version of your packages before you do an actual release, Changesets lets you do this but there are some caveats because of the complexity that monorepos add that are important to understand.
 
@@ -98,11 +98,7 @@ To update/add icons run: `yarn assets build`
 
 ### Commits
 
-Commits follow the [Angular Commit Message Format](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines). When committing changes, make use of the [Commitizen](https://github.com/commitizen/cz-cli) CLI to generate consistent commit messages:
-
-```
-pnpn run commit
-```
+Commits follow the [Angular Commit Message Format](https://github.com/angular/angular.js/blob/master/DEVELOPERS.md#-git-commit-guidelines).
 
 ### Branches
 
@@ -178,7 +174,7 @@ Linting will catch any further non-formatting issues:
 
 Before contributing new component in design system need to determine should it be put to core package or should be created new package for this component. For this you need follow the rule: if the components has complicated logic or some external dependencies - for it should be created new package.
 
-Please stick to a directory style to make things visually easier to track new component: 
+Please stick to a directory style to make things visually easier to track new component:
 - the new component should be placed in separate folder and be given corresponding name (more details about the naming below);
 - styled component shoud be placed in `styles` folder.  But only the ones used for this folder component. If any component down the tree needs styled stuff, they should have their own folder for it;
 - all component's logic better to moove to the hook and create a folder or file with the hook name;

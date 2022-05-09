@@ -13,11 +13,6 @@
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "publish:packages": "pnpm publish --no-git-checks -r --filter ./packages --access public"
   },
-  "config": {
-    "commitizen": {
-      "path": "cz-conventional-changelog"
-    }
-  },
   "eslintConfig": {
     "root": true,
     "extends": [
@@ -69,7 +64,6 @@
     "barrelsby": "2.2.0",
     "chokidar-cli": "3.0.0",
     "commander": "4.0.1",
-    "commitizen": "4.0.3",
     "concurrently": "4.1.2",
     "cz-conventional-changelog": "3.0.2",
     "eslint": "7.18.0",

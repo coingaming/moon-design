@@ -30,7 +30,6 @@ importers:
       barrelsby: 2.2.0
       chokidar-cli: 3.0.0
       commander: 4.0.1
-      commitizen: 4.0.3
       concurrently: 4.1.2
       cz-conventional-changelog: 3.0.2
       eslint: 7.18.0
@@ -72,7 +71,6 @@ importers:
       barrelsby: 2.2.0
       chokidar-cli: 3.0.0
       commander: 4.0.1
-      commitizen: 4.0.3
       concurrently: 4.1.2
       cz-conventional-changelog: 3.0.2
       eslint: 7.18.0
@@ -370,7 +368,7 @@ importers:
     specifiers:
       '@heathmont/moon-themes': workspace:^9.0.0
       '@heathmont/moon-utils': workspace:^9.0.0
-      '@types/node': 13.13.52
+      '@types/node': 17.0.31
       '@types/ramda': 0.26.44
       '@types/rimraf': 2.0.5
       argparse: 2.0.1
@@ -385,7 +383,7 @@ importers:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
     devDependencies:
-      '@types/node': 13.13.52
+      '@types/node': 17.0.31
       '@types/ramda': 0.26.44
       '@types/rimraf': 2.0.5
       argparse: 2.0.1
@@ -3317,7 +3315,7 @@ packages:
     resolution: {integrity: sha512-w+LsMxKyYQm347Otw+IfBXOv9UWVjpHpCDdbBMt8Kz/xbvCYNjP+0qPh91Km3iKfSRLBB0P7fAMf0KHrPu+MyA==}
     dependencies:
       '@types/minimatch': 3.0.5
-      '@types/node': 16.9.1
+      '@types/node': 17.0.31
     dev: true
 
   /@types/graceful-fs/4.1.5:
@@ -3402,12 +3400,12 @@ packages:
     resolution: {integrity: sha512-hcTWqk7DR/HrN9Xe7AlJwuCaL13Vcd9/g/T54YrJz4Q3ESM5mr33YCzW2bOfzSIc3aZMeGBvbLGvgN6mIJ0I5Q==}
     dev: true
 
-  /@types/node/13.13.52:
-    resolution: {integrity: sha512-s3nugnZumCC//n4moGGe6tkNMyYEdaDBitVjwPxXmR5lnMG5dHePinH2EdxkG3Rh1ghFHHixAG4NJhpJW1rthQ==}
-    dev: true
-
   /@types/node/16.9.1:
     resolution: {integrity: sha512-QpLcX9ZSsq3YYUUnD3nFDY8H7wctAhQj/TFKL8Ya8v5fMm3CFXxo8zStsLAl780ltoYoo1WvKUVGBQK+1ifr7g==}
+
+  /@types/node/17.0.31:
+    resolution: {integrity: sha512-AR0x5HbXGqkEx9CadRH3EBYx/VkiUgZIhP4wvPn/+5KIsgpNoyFaRlVe0Zlx9gRtg8fA06a9tskE2MSN7TcG4Q==}
+    dev: true
 
   /@types/normalize-package-data/2.4.1:
     resolution: {integrity: sha512-Gj7cI7z+98M282Tqmp2K5EIsoouUEzbBJhQQzDE3jSIRk6r9gsz0oUokqIUR4u1R3dMHo0pDHM7sNOHyhulypw==}
@@ -3495,7 +3493,7 @@ packages:
     resolution: {integrity: sha512-YyP+VfeaqAyFmXoTh3HChxOQMyjByRMsHU7kc5KOJkSlXudhMhQIALbYV7rHh/l8d2lX3VUQzprrcAgWdRuU8g==}
     dependencies:
       '@types/glob': 7.1.4
-      '@types/node': 16.9.1
+      '@types/node': 17.0.31
     dev: true
 
   /@types/scheduler/0.16.2:

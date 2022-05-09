@@ -22,7 +22,7 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "devDependencies": {
-    "@types/node": "13.13.52",
+    "@types/node": "17.0.31",
     "@types/ramda": "0.26.44",
     "@types/rimraf": "2.0.5",
     "argparse": "2.0.1",
