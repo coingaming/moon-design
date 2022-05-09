@@ -1,7 +1,7 @@
 import styled from 'styled-components';
-import { LoaderProps } from '../Loader';
-import setColor from '../private/setColor';
-import setSize from '../private/setSize';
+import setColor from '../private/utils/setColor';
+import setSize from '../private/utils/setSize';
+import type LoaderProps from '../private/types/LoaderProps';
 
 const LoaderWrapper = styled.div<LoaderProps>(({ color, theme, size }) => ({
   position: 'relative',

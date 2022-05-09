@@ -149,7 +149,7 @@ exports[`Geo Map Chart renders 1`] = `
       </svg>
     </div>
     <p
-      className="sc-jveewi sc-cmYlSf fZDfgK hqBrTw"
+      className="sc-fiMvTd sc-cmYlSf bUXgsc hqBrTw"
       size={20}
     >
       Top Countries
@@ -165,7 +165,7 @@ exports[`Geo Map Chart renders 1`] = `
           onClick={[Function]}
         >
           <p
-            className="sc-jveewi sc-bPnocz dbvQYG kJDCRP"
+            className="sc-fiMvTd sc-bPnocz dnJsJs kJDCRP"
             size={14}
           >
             by GGR

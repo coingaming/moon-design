@@ -1,5 +1,5 @@
 import { useTheme } from '@heathmont/moon-themes';
-import type { ButtonProps } from '../../Button';
+import type ButtonProps from '../../private/types/ButtonProps';
 
 const buttonVariants = ({ variant }: ButtonProps) => {
   const theme = useTheme();

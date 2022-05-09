@@ -1,5 +1,5 @@
 import { ReactNode, useCallback, useEffect, useState } from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import VisionLayout from '../components/VisionLayout';
 import testimonial_1 from '../public/testimonial_1.png';
 import testimonial_2 from '../public/testimonial_2.png';

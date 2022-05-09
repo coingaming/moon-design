@@ -1,29 +1,30 @@
 import { rem } from '@heathmont/moon-utils';
-import { Size } from './Size';
+import Size from '../../../private/enums/Size';
+import type SizeProps from '../types/SizeProps';
 
-const setSize = (size?: Size) => {
+const setSize = (size?: SizeProps) => {
   switch (size) {
-    case 'twoxsmall':
+    case Size.TWOXSMALL:
       return {
         size: rem(16),
         border: rem(2),
       };
-    case 'xsmall':
+    case Size.XSMALL:
       return {
         size: rem(24),
         border: rem(2),
       };
-    case 'small':
+    case Size.SMALL:
       return {
         size: rem(32),
         border: rem(2),
       };
-    case 'medium':
+    case Size.MEDIUM:
       return {
         size: rem(40),
         border: rem(4),
       };
-    case 'large':
+    case Size.LARGE:
       return {
         size: rem(48),
         border: rem(4),

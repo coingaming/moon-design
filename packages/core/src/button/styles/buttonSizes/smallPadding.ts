@@ -1,5 +1,5 @@
 import { rem } from '@heathmont/moon-utils';
-import type { ButtonProps } from '../../Button';
+import type ButtonProps from '../../private/types/ButtonProps';
 
 const smallPadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
   if (icon === 'left' || iconLeft) {
