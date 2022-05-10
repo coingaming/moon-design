@@ -8,12 +8,12 @@ const SubText: React.FC = () => (
 const Example = () => (
   <div className="flex justify-around items-center w-full flex-wrap">
     <div className="m-0.5">
-      <ListItem backgroundColor="goku.100" subtext={<SubText />}>
+      <ListItem size="large" backgroundColor="goku.100" subtext={<SubText />}>
         Large
       </ListItem>
     </div>
     <div className="m-0.5">
-      <ListItem size="medium" backgroundColor="goku.100" subtext={<SubText />}>
+      <ListItem backgroundColor="goku.100" subtext={<SubText />}>
         Medium
       </ListItem>
     </div>
