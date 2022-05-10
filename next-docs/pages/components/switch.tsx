@@ -1,4 +1,5 @@
 import Preview from '../../components/codePreview/Preview';
+import PropsTable from "../../components/PropsTable";
 import Buttons from "../../public/examples/switch/Buttons";
 import Default from '../../public/examples/switch/Default';
 import Disabled from "../../public/examples/switch/Disabled";
@@ -72,6 +73,54 @@ export default function PageSwitch({ isRtl }: Props) {
           code={examples ? examples.Rtl : 'Loading'}
         />
       </section>
+
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'id',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: `Unique element's identifier`,
+          },
+          {
+            name: 'checked',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: `Is switch checked/unchecked`,
+          },
+          {
+            name: 'onChange',
+            type: 'React.ChangeEvent',
+            required: false,
+            default: '-',
+            description: `Event that happens when you click on the switch`,
+          },
+          {
+            name: 'captionUnchecked',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: `Displayed text when unchecked`,
+          },
+          {
+            name: 'captionChecked',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: `Displayed text when checked`,
+          },
+          {
+            name: 'isRtl',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: `-`,
+          },
+        ]}
+      />
     </>
   );
 }

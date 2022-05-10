@@ -143,7 +143,7 @@ const StyledChip = styled.button<StyledChipProps>(
       background: isActive
         ? rgba(theme.colorNew.piccolo, 0.12)
         : theme.colorNew.gohan,
-      color: isActive ? theme.colorNew.piccolo : theme.colorNew.popo,
+      color: isActive ? theme.colorNew.piccolo : theme.colorNew.bulma,
       cursor: 'pointer',
       ...determineBorder(theme, isActive, isStroke),
     }),

@@ -10,7 +10,7 @@ const boxShadow =
 const color = {
   piccolo: {
     120: '#e5e5e5',
-    100: '#ffffff',
+    100: '#4e46b4',
     80: '#e5e5e5',
   },
   hit: {
@@ -34,7 +34,7 @@ const color = {
     10: '#0b0b0b',
   },
   goten: {
-    100: '#000000',
+    100: '#ffffff',
   },
   bulma: {
     100: '#ffffff',

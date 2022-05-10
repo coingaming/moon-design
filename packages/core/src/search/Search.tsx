@@ -31,6 +31,7 @@ export interface SearchProps {
   onSubmit?: (e: React.FormEvent<HTMLFormElement>) => void;
   placeholder?: string;
   query?: string;
+  omitResults?: boolean;
   results?: JSX.Element;
   size?: SearchInputSize;
 }
@@ -50,6 +51,7 @@ const Search: React.FC<SearchProps> = ({
   query = '',
   results,
   size = 'medium',
+  omitResults = false,
   ...props
 }) => {
   const [searchStr, setSearchStr] = useState(query);
@@ -89,44 +91,49 @@ const Search: React.FC<SearchProps> = ({
 
   const closePopup = () => setIsActive(false);
 
+  const SearchElement = (<SearchForm
+    onSubmit={(e)=>{
+      e.preventDefault();
+
+      if (onSubmit && e) onSubmit(e)
+    }}
+    noValidate
+  >
+    <SearchBox $size={size}>
+      <SearchInput
+        $size={size}
+        autoComplete="off"
+        hasBorder={hasBorder}
+        onBlur={handleBlur}
+        onChange={searchChange}
+        onFocus={handleFocus}
+        onKeyDown={onKeyDown}
+        onKeyUp={onKeyUp}
+        placeholder={placeholder}
+        ref={search}
+        required
+        type="text"
+        value={searchStr}
+        {...props}
+      />
+      <SearchInputIcon $size={size} />
+      {searchStr && (
+        <SearchClearButton type='button' onClick={clearSearch} tabIndex="-1">
+          <SearchClearIcon />
+        </SearchClearButton>
+      )}
+      <input type="submit" hidden />
+    </SearchBox>
+  </SearchForm>);
+
+  if (omitResults) return (SearchElement);
+
   return (
     <Popup
       closeButton={closeButton}
       closePopup={closePopup}
       isActive={isActive}
-      title={
-        <SearchForm onSubmit={(e)=>{
-          e.preventDefault();
-
-          if (onSubmit && e) onSubmit(e)
-        }} noValidate>
-          <SearchBox $size={size}>
-            <SearchInput
-              $size={size}
-              autoComplete="off"
-              hasBorder={hasBorder}
-              onBlur={handleBlur}
-              onChange={searchChange}
-              onFocus={handleFocus}
-              onKeyDown={onKeyDown}
-              onKeyUp={onKeyUp}
-              placeholder={placeholder}
-              ref={search}
-              required
-              type="text"
-              value={searchStr}
-              {...props}
-            />
-            <SearchInputIcon $size={size} />
-            {searchStr && (
-              <SearchClearButton type='button' onClick={clearSearch} tabIndex="-1">
-                <SearchClearIcon />
-              </SearchClearButton>
-            )}
-            <input type="submit" hidden />
-          </SearchBox>
-        </SearchForm>
-      }
+      title={SearchElement}
     >
       {results && <Results>{results}</Results>}
     </Popup>
