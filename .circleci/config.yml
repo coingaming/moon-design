@@ -123,7 +123,7 @@ jobs:
       - persist_to_workspace:
           root: ./
           paths:
-            - packages/*/lib/*
+            - packages/**
 
   build_docs:
     <<: *default
@@ -137,7 +137,7 @@ jobs:
       - persist_to_workspace:
           root: ./
           paths:
-            - packages/*/lib/*
+            - next-docs/**
 
   build_docs_and_push:
     <<: *default
