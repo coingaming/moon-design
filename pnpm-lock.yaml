@@ -515,8 +515,8 @@ importers:
 
   workspaces/core:
     specifiers:
-      '@heathmont/moon-icons': workspace:^8.4.1
-      '@heathmont/moon-utils': workspace:^8.4.1
+      '@heathmont/moon-icons': workspace:^8.5.0
+      '@heathmont/moon-utils': workspace:^8.5.0
     dependencies:
       '@heathmont/moon-icons': link:../../packages/icons
       '@heathmont/moon-utils': link:../../packages/utils
