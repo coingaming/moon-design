@@ -2,16 +2,16 @@
   "private": true,
   "name": "moon-design",
   "scripts": {
-    "watch": "pnpm --filter ./packages --parallel -r run chokidar ",
-    "next": "pnpm run --filter next-docs",
+    "watch": "pnpm run --filter=./packages/** --parallel -r chokidar ",
+    "next": "pnpm run --filter=next-docs",
     "commit": "git-cz",
-    "build": "pnpm -r run build --filter ./packages",
+    "build": "pnpm run --filter=./packages/** -r build",
     "clean": "rimraf packages/**/lib && pnpm run clean:docs",
     "clean:docs": "rimraf next-docs/{lib,dist,.cache}",
     "nuke": "pnpm run clean && rimraf next-docs/.next/ && rimraf packages/**/node_modules/ && rimraf next-docs/node_modules/ && rimraf node_modules/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
-    "publish:packages": "pnpm publish --no-git-checks -r --filter ./packages --access public"
+    "publish:packages": "pnpm publish --no-git-checks -r --filter=./packages/** --access public"
   },
   "config": {
     "commitizen": {
