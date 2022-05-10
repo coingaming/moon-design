@@ -116,28 +116,28 @@ jobs:
     steps:
       - checkout
       - attach_workspace:
-          at: ./
+          at: .
       - run:
           name: Running build
           command: pnpm run build
       - persist_to_workspace:
-          root: ./
+          root: .
           paths:
-            - packages/**
+            - packages/*/lib/*
 
   build_docs:
     <<: *default
     steps:
       - checkout
       - attach_workspace:
-          at: ./
+          at: .
       - run:
           name: Running next build
           command: pnpm run next build
       - persist_to_workspace:
-          root: ./
+          root: .
           paths:
-            - packages/**
+            - packages/*/lib/*
 
   build_docs_and_push:
     <<: *default
