@@ -121,7 +121,7 @@ jobs:
           name: Running build
           command: pnpm run build
       - persist_to_workspace:
-          root: .
+          root: ./
           paths:
             - packages/*/lib/**
 
