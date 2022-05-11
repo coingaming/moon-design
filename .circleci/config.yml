@@ -174,7 +174,7 @@ jobs:
       - attach_workspace:
           at: ./
       - *install_npm_token
-      - run: pnpm run publish:packages
+      - run: pnpm run publish:packages && pnpm run publish:workspaces
       - run:
           name: 'Update `develop` with `master`'
           command: |

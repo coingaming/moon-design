@@ -13,7 +13,8 @@
     "nuke": "pnpm run clean && rimraf next-docs/.next/ && rimraf packages/**/node_modules/ && rimraf next-docs/node_modules/ && rimraf node_modules/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
-    "publish:packages": "pnpm publish --no-git-checks -r --filter ./packages --access public"
+    "publish:packages": "pnpm publish --no-git-checks -r --filter ./packages --access public",
+    "publish:workspaces": "pnpm publish --no-git-checks -r --filter ./workspaces --access public"
   },
   "config": {
     "commitizen": {
