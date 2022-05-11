@@ -23,7 +23,7 @@ const LabelContainer = styled.span<LabelProps>(
   }),
   /* If a color or backgroundColor is set, override the modifier styles. */
   ({ color, backgroundColor, theme }) => ({
-    color: color ? themed('color', color)(theme) : theme.colorNew.goten,
+    color: color ? themed('color', color)(theme) : theme.colorNew.gohan,
     backgroundColor: backgroundColor
       ? themed('color', backgroundColor)(theme)
       : theme.colorNew.bulma,

@@ -1,5 +1,19 @@
 # Change Log
 
+## 8.6.0
+
+### Minor Changes
+
+- tailwind release
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.6.0
+  - @heathmont/moon-components@8.6.0
+  - @heathmont/moon-table@8.6.0
+  - @heathmont/moon-utils@8.6.0
+
 ## 8.5.0
 
 ### Minor Changes

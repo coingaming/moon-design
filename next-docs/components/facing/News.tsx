@@ -26,7 +26,7 @@ const News = () => (
     />
 
     <CardArticle
-      href="/getting-started"
+      href="/gettingStarted"
       title="Learn how to get Moon Design System up and running in your project."
       section=".tools"
     />

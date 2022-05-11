@@ -1,5 +1,11 @@
 # Change Log
 
+## 8.6.0
+
+### Minor Changes
+
+- tailwind release
+
 ## 8.5.0
 
 ### Minor Changes

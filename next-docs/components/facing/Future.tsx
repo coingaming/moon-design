@@ -5,7 +5,7 @@ import imageFuture from '../../public/future.png';
 import TopRightArrowIcon from '../icons/TopRightArrowIcon';
 
 const Future = () => (
-  <Link href="/how-to-contribute">
+  <Link href="/howToContribute">
     <a className="max-w-screen-lg group block relative rounded-lg p-11">
       <h2 className="relative text-white text-5xl tracking-tight z-10">
         Want to contribute?

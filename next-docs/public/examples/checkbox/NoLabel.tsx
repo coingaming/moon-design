@@ -1,7 +1,5 @@
 import { Checkbox } from '@heathmont/moon-core';
 
-const NoLabel = () => (
-  <Checkbox />
-);
+const Example = () => <Checkbox />;
 
-export default NoLabel;
+export default Example;

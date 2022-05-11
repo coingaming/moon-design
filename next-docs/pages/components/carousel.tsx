@@ -1,6 +1,7 @@
 // @ts-nocheck
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import PropsTable from "../../components/PropsTable";
 import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
 import Default from '../../public/examples/carousel/Default';
 import Rtl from '../../public/examples/carousel/Rtl';
@@ -65,6 +66,40 @@ export default function PageCarousel() {
           code={examples ? examples.VisibleIndex : 'Loading'}
         />
       </section>
+
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'space',
+            type: 'xlarge |',
+            required: false,
+            default: '',
+            description: '-',
+          },
+          {
+            name: 'items',
+            type: 'React.ReactNode',
+            required: false,
+            default: '',
+            description: 'Items to display inside carousel',
+          },
+          {
+            name: 'scrollToLeftButton',
+            type: '({ scrollToStep, disabled }: { { scrollToStep: function, disabled: boolean } }) => React.ReactElement',
+            required: false,
+            default: '',
+            description: 'Scroll to left button',
+          },
+          {
+            name: 'scrollToRightButton',
+            type: '({ scrollToStep, disabled }: { { scrollToStep: function, disabled: boolean } }) => React.ReactElement',
+            required: false,
+            default: '',
+            description: 'Scroll to right button',
+          },
+        ]}
+      />
     </>
   );
 }

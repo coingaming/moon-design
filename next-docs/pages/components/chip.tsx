@@ -4,9 +4,9 @@ import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chip/Active';
 import Icons from '../../public/examples/chip/Icons';
+import IconsWithStroke from '../../public/examples/chip/IconsWithStroke';
 import Sizes from '../../public/examples/chip/Sizes';
 import Stroke from '../../public/examples/chip/Stroke';
-import WithStroke from '../../public/examples/chip/WithStroke';
 import useExamples from '../../utils/useExamples';
 
 const PageChip = () => {
@@ -84,8 +84,8 @@ const PageChip = () => {
         <Preview
           title="Icons with isStroke"
           isGrayBg
-          preview={<WithStroke />}
-          code={examples ? examples.WithStroke : 'Loading'}
+          preview={<IconsWithStroke />}
+          code={examples ? examples.IconsWithStroke : 'Loading'}
         />
       </section>
 

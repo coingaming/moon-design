@@ -1,7 +1,5 @@
 import { Checkbox } from '@heathmont/moon-core';
 
-const Example = () => (
-  <Checkbox disabled label="I agree to receive bonus & marketing emails." />
-);
+const Example = () => <Checkbox disabled label="Disabled Checkbox" />;
 
 export default Example;
