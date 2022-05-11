@@ -3,6 +3,7 @@ import '../styles/globals.css';
 import '../styles/reset.css';
 import '../styles/themes.css';
 import '../styles/custom.css';
+// import '@moon/core/lib/loader/styles.css';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import Layout from '../components/Layout';

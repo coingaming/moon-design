@@ -1,0 +1,28 @@
+{
+  "name": "@moon/core",
+  "sideEffects": false,
+  "version": "8.5.0",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": "https://github.com/coingaming/moon-design",
+  "author": "Yolo Group",
+  "license": "MIT",
+  "scripts": {
+    "build": "pnpm run build:index && pnpm run build:code",
+    "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
+    "build:code": "tsc --project tsconfig.json",
+    "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
+  },
+  "dependencies": {
+    "@heathmont/moon-utils": "workspace:^8.5.0",
+    "@heathmont/moon-icons": "workspace:^8.5.0"
+  },
+  "peerDependencies": {
+    "react": ">= 17.0.2",
+    "react-dom": ">= 17.0.2"
+  }
+}

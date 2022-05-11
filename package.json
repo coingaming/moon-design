@@ -5,7 +5,9 @@
     "watch": "pnpm --filter ./packages --parallel -r run chokidar ",
     "next": "pnpm run --filter next-docs",
     "commit": "git-cz",
-    "build": "pnpm -r run build --filter ./packages",
+    "build": "pnpm run build:legacy && pnpm run build:tailwind",
+    "build:legacy": "pnpm -r run build --filter ./packages",
+    "build:tailwind": "pnpm -r run build --filter ./workspaces",
     "clean": "rimraf packages/**/lib && pnpm run clean:docs",
     "clean:docs": "rimraf next-docs/{lib,dist,.cache}",
     "nuke": "pnpm run clean && rimraf next-docs/.next/ && rimraf packages/**/node_modules/ && rimraf next-docs/node_modules/ && rimraf node_modules/",
@@ -88,7 +90,8 @@
     "react-test-renderer": "^17.0.2",
     "rimraf": "3.0.0",
     "styled-components": "5.3.5",
-    "typescript": "4.1.3"
+    "typescript": "4.1.3",
+    "typescript-plugin-css-modules": "3.4.0"
   },
   "resolutions": {
     "@types/react": "16.9.9",
