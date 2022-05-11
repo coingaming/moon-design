@@ -1,5 +1,16 @@
 # Change Log
 
+## 8.6.0
+
+### Minor Changes
+
+- tailwind release
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.6.0
+
 ## 8.5.0
 
 ### Minor Changes
