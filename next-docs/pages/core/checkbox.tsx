@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Checkbox } from '@moon/core';
+import { Checkbox } from '@heathmont/moon-core-tw';
 
 export default function PageAccordion() {
   const [isChecked, setIsChecked] = useState(true);
