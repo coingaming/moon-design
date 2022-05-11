@@ -1,6 +1,6 @@
 import React from 'react';
+import { Button } from '@heathmont/moon-core-tw';
 import { GenericSettings } from '@heathmont/moon-icons';
-import { Button } from '@moon/core';
 
 const PageButton = () => {
   return (

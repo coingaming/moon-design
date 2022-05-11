@@ -1,7 +1,7 @@
 {
-  "name": "@moon/core",
+  "name": "@heathmont/moon-core-tw",
   "sideEffects": false,
-  "version": "8.6.0",
+  "version": "8.7.0",
   "files": [
     "lib"
   ],
@@ -18,8 +18,8 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-utils": "workspace:^8.6.0",
-    "@heathmont/moon-icons": "workspace:^8.6.0"
+    "@heathmont/moon-utils": "workspace:^8.7.0",
+    "@heathmont/moon-icons": "workspace:^8.7.0"
   },
   "peerDependencies": {
     "react": ">= 17.0.2",

@@ -1,5 +1,16 @@
 # Change Log
 
+## 8.7.0
+
+### Minor Changes
+
+-
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.7.0
+
 ## 8.6.0
 
 ### Minor Changes
