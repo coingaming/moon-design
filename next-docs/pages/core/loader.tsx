@@ -1,5 +1,5 @@
 import React from 'react';
-import { Loader } from '@moon/core';
+import { Loader } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   return (

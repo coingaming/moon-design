@@ -3,9 +3,11 @@ module.exports = {
     './public/**/*.{js,ts,jsx,tsx}',
     './pages/**/*.{js,ts,jsx,tsx}',
     './components/**/*.{js,ts,jsx,tsx}',
-    './node_modules/@moon/core/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@heathmont/moon-core-tw/**/*.{js,ts,jsx,tsx}',
   ],
-  presets: [require('@moon/core/src/private/presets/ds-moon-preset')],
+  presets: [
+    require('@heathmont/moon-core-tw/src/private/presets/ds-moon-preset'),
+  ],
   theme: {
     extend: {
       colors: {
