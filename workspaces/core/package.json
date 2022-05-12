@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-core-tw",
   "sideEffects": false,
-  "version": "8.7.0",
+  "version": "8.7.1",
   "files": [
     "lib"
   ],
@@ -14,13 +14,12 @@
   "scripts": {
     "build": "pnpm run build:index && pnpm run build:code",
     "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
-    "build:code": "tsc --project tsconfig.json",
+    "build:code": "pnpm run build:js:es && pnpm run build:js:commonjs",
+    "build:js:commonjs": "tsc --project tsconfig.cjs.json",
+    "build:js:es": "tsc --project tsconfig.esm.json",
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
-  "dependencies": {
-    "@heathmont/moon-utils": "workspace:^8.7.0",
-    "@heathmont/moon-icons": "workspace:^8.7.0"
-  },
+  "dependencies": {},
   "peerDependencies": {
     "react": ">= 17.0.2",
     "react-dom": ">= 17.0.2"

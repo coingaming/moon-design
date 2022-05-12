@@ -1,5 +1,16 @@
 # Change Log
 
+## 8.7.1
+
+### Patch Changes
+
+- fix build
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@8.7.1
+  - @heathmont/moon-components@8.7.1
+  - @heathmont/moon-themes@8.7.1
+  - @heathmont/moon-utils@8.7.1
+
 ## 8.7.0
 
 ### Minor Changes
