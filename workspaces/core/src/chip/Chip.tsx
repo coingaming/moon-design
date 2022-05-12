@@ -60,7 +60,7 @@ const Chip: React.FC<ChipProps> = ({
           iconOnly ? 'center' : 'space-between',
           size == 'small' ? 'h-8 gap-1' : 'h-10 gap-2',
           determinePadding(size, iconLeft, iconRight, iconOnly),
-          isActive ? 'bg-piccolo/[.12] text-piccolo' : 'bg-gohan text-popo',
+          isActive ? 'bg-piccolo/[.12] text-piccolo' : 'bg-gohan text-bulma',
           isStroke && 'hover:shadow-interactive',
           isActive && isStroke && 'shadow-interactive',
           'hover:bg-piccolo/[.12] hover:text-piccolo'

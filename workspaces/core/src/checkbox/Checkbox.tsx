@@ -65,7 +65,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
         <label
           htmlFor={id}
           className={classNames(
-            'flex items-center text-sm text-bulma-100 cursor-pointer ',
+            'flex items-center text-sm text-bulma cursor-pointer ',
             disabled && 'opacity-25 cursor-not-allowed select-none',
             readOnly && 'cursor-not-allowed select-none'
           )}
