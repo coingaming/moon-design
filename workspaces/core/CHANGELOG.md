@@ -1,5 +1,11 @@
 # @heathmont/moon-core-tw
 
+## 8.8.0
+
+### Minor Changes
+
+-
+
 ## 8.7.2
 
 ### Patch Changes
