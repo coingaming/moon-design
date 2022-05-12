@@ -23,6 +23,7 @@ aliases:
       paths:
         - node_modules
         - packages/*/node_modules/*
+        - workspaces/*/node_modules/*
         - next-docs/node_modules/*
 
   install_npm_token: &install_npm_token
@@ -94,6 +95,7 @@ jobs:
             - docs/node_modules/*
             - next-docs/node_modules/*
             - packages/*/node_modules/*
+            - workspaces/*/node_modules/*
 
   lint:
     <<: *default
@@ -124,6 +126,7 @@ jobs:
           root: ./
           paths:
             - packages/*/lib/*
+            - workspaces/*/lib/*
 
   build_docs:
     <<: *default
@@ -138,6 +141,7 @@ jobs:
           root: ./
           paths:
             - packages/*/lib/*
+            - workspaces/*/lib/*
 
   build_docs_and_push:
     <<: *default
