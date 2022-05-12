@@ -1,5 +1,28 @@
 # Change Log
 
+## 8.7.1
+
+### Patch Changes
+
+- fix build
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@8.7.1
+  - @heathmont/moon-core-tw@8.7.1
+  - @heathmont/moon-accordion@8.7.1
+  - @heathmont/moon-charts@8.7.1
+  - @heathmont/moon-components@8.7.1
+  - @heathmont/moon-core@8.7.1
+  - @heathmont/moon-datepicker@8.7.1
+  - @heathmont/moon-draggabletable@8.7.1
+  - @heathmont/moon-icons@8.7.1
+  - @heathmont/moon-pagination@8.7.1
+  - @heathmont/moon-popover@8.7.1
+  - @heathmont/moon-select@8.7.1
+  - @heathmont/moon-sidebar@8.7.1
+  - @heathmont/moon-table@8.7.1
+  - @heathmont/moon-themes@8.7.1
+  - @heathmont/moon-utils@8.7.1
+
 ## 8.7.0
 
 ### Minor Changes
