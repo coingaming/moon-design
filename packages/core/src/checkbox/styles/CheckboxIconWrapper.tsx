@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Text } from '@heathmont/moon-core';
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
 import styled, { css, keyframes } from 'styled-components';
+import { Text } from '../../';
 
 interface Props {
   checked?: boolean;
@@ -13,7 +13,10 @@ interface Props {
 /**
  * Border radius calculation
  */
-const calcBorderRadius = (interactiveValue: number, fallbackValue: number) => {
+const calcBorderRadius = (
+  interactiveValue: string | number,
+  fallbackValue: string | number
+) => {
   let value = fallbackValue;
   if (
     interactiveValue === 0 ||
@@ -66,8 +69,6 @@ const Box = styled.span(({ theme }) => ({
   ),
   width: rem(24),
   height: rem(24),
-  minWidth: rem(24),
-  minHeight: rem(24),
   position: 'relative',
   transition: 'background-color 0.4s',
   zIndex: 2,

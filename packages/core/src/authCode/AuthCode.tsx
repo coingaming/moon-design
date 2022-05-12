@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import { TextInput, Text } from '@heathmont/moon-core';
-import { TextInputProps } from '..';
+import { TextInput, TextInputProps, Text } from '../';
 import Container from './styles/Container';
 import InputWrapper from './styles/InputWrapper';
 import MessageWrapper from './styles/MessageWrapper';
@@ -8,9 +7,9 @@ import MessageWrapper from './styles/MessageWrapper';
 export interface AuthCodeProps {
   onSubmit?: (value: string) => any;
   onChange?: (value: string) => any;
-  inputProps?: TextInputProps,
+  inputProps?: TextInputProps;
   isRtl?: boolean;
-  placeholder?: string | number;
+  placeholder?: string;
   errorMessage?: string;
   onlyDigits?: boolean;
   length?: number;
@@ -27,7 +26,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   placeholder = '',
   errorMessage = '',
   onlyDigits = false,
-  length = 6
+  length = 6,
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
   const isXLarge = inputProps?.inputSize === 'xlarge';
@@ -43,7 +42,9 @@ const AuthCode: React.FC<AuthCodeProps> = ({
 
       // When user presses delete or backspace remove the latest value
       if (keyCode === 8 || keyCode === 46) {
-        const filledValues = authCodeParts.filter((filledValue) => !!filledValue);
+        const filledValues = authCodeParts.filter(
+          (filledValue) => !!filledValue
+        );
 
         filledValues.pop();
 
@@ -54,7 +55,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
         setAuthCodeParts(filledValues);
       }
     },
-    [authCodeParts],
+    [authCodeParts]
   );
 
   const handleInputChange = (val: string, index: number) => {
@@ -62,10 +63,9 @@ const AuthCode: React.FC<AuthCodeProps> = ({
     const alphaNumericRegEx = /[a-z0-9]*/;
     // When user pastes full value we want to fill out every input
     if (
-      val?.length === length && (
-        (onlyDigits && numericRegEx.test(val)) ||
-        (!onlyDigits && alphaNumericRegEx.test(val))
-      )
+      val?.length === length &&
+      ((onlyDigits && numericRegEx.test(val)) ||
+        (!onlyDigits && alphaNumericRegEx.test(val)))
     ) {
       return setAuthCodeParts(val.split(''));
     }
@@ -74,8 +74,13 @@ const AuthCode: React.FC<AuthCodeProps> = ({
     // We want to keep only the last value and override the previous
     if (val?.length > 1) val = val[val.length - 1];
 
-    if ((onlyDigits && numericRegEx.test(val)) || (!onlyDigits && alphaNumericRegEx.test(val))) {
-      setAuthCodeParts((oldValue) => oldValue.map((e, i) => (i !== index ? e : val)));
+    if (
+      (onlyDigits && numericRegEx.test(val)) ||
+      (!onlyDigits && alphaNumericRegEx.test(val))
+    ) {
+      setAuthCodeParts((oldValue) =>
+        oldValue.map((e, i) => (i !== index ? e : val))
+      );
     }
 
     return true;
@@ -84,10 +89,12 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   const handleFocus = () => {
     const filledValues = authCodeParts.filter((filledValue) => !!filledValue);
 
-    if (filledValues.length && inputRefs[`${refPrefix}${filledValues.length}`]) {
+    if (
+      filledValues.length &&
+      inputRefs[`${refPrefix}${filledValues.length}`]
+    ) {
       inputRefs[`${refPrefix}${filledValues.length}`].current?.focus();
-    }
-    else {
+    } else {
       inputRefs[`${refPrefix}0`].current?.focus();
     }
   };
@@ -118,7 +125,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
 
     // Depending on the length of AuthCode we generate initial empty-string values for every input
     if (length) {
-      for (let i = 0; i < length; i ++) {
+      for (let i = 0; i < length; i++) {
         inputRefs[`${refPrefix}${i}`] = React.createRef();
         startValue.push('');
       }
@@ -129,18 +136,15 @@ const AuthCode: React.FC<AuthCodeProps> = ({
 
   return (
     <Container dir={dir} errorState={!!errorMessage}>
-      {authCodeParts.map((value , i) => (
-        <InputWrapper
-          key={`auth-code-input-${i}`}
-          isXLarge={isXLarge}
-        >
+      {authCodeParts.map((value, i) => (
+        <InputWrapper key={`auth-code-input-${i}`} isXLarge={isXLarge}>
           <TextInput
             id={`auth-code-part-${i}`}
             key={`auth-code-part-${i}`}
             value={onlyDigits ? Number(value) : value}
             placeholder={placeholder}
-            isXLarge={isXLarge}
             dir={dir}
+            inputSize="xlarge"
             ref={inputRefs[`${refPrefix}${i}`]}
             onChange={(ev: any) => handleInputChange(ev.target.value, i)}
             // Disabled if the previous input doesn't have value or if the following input has value
@@ -154,9 +158,13 @@ const AuthCode: React.FC<AuthCodeProps> = ({
         </InputWrapper>
       ))}
 
-      {!!errorMessage && (<MessageWrapper>
-        <Text size={12} color='chiChi.100'>{errorMessage}</Text>
-      </MessageWrapper>)}
+      {!!errorMessage && (
+        <MessageWrapper>
+          <Text size={12} color="chiChi.100">
+            {errorMessage}
+          </Text>
+        </MessageWrapper>
+      )}
     </Container>
   );
 };
