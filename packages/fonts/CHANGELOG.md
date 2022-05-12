@@ -1,5 +1,11 @@
 # Change Log
 
+## 8.7.2
+
+### Patch Changes
+
+- fix circleci
+
 ## 8.7.1
 
 ### Patch Changes

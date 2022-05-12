@@ -1,5 +1,14 @@
 # Change Log
 
+## 8.7.2
+
+### Patch Changes
+
+- fix circleci
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.7.2
+  - @heathmont/moon-utils@8.7.2
+
 ## 8.7.1
 
 ### Patch Changes
