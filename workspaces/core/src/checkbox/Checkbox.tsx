@@ -1,7 +1,7 @@
 import React, { forwardRef, useState, useEffect } from 'react';
-import { GenericCheckAlternative } from '@heathmont/moon-icons';
-import { inlineSvg } from '@heathmont/moon-utils';
+import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
 import classNames from '../private/utils/classnames';
+import inlineSvg from '../private/utils/inlineSvg/inlineSvg';
 
 export interface CheckboxProps {
   id: string;
