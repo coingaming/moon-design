@@ -123,9 +123,10 @@ jobs:
           name: Running build
           command: pnpm run build
       - persist_to_workspace:
+          root: ./
           paths:
-            - packages/*/lib/**
-            - workspaces/*/lib/**
+            - packages/*/lib/*
+            - workspaces/*/lib/*
 
   build_docs:
     <<: *default
