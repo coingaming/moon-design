@@ -1,5 +1,35 @@
 # Change Log
 
+## 8.8.0
+
+### Minor Changes
+
+-
+
+## 8.7.2
+
+### Patch Changes
+
+- fix circleci
+
+## 8.7.1
+
+### Patch Changes
+
+- fix build
+
+## 8.7.0
+
+### Minor Changes
+
+-
+
+## 8.6.0
+
+### Minor Changes
+
+- tailwind release
+
 ## 8.5.0
 
 ### Minor Changes
