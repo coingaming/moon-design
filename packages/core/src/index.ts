@@ -38,12 +38,6 @@ export { default as listItemStyleTypeNone } from './inline/listItemStyleTypeNone
 export * from './inline/listItemStyleTypeNone';
 export { default as Label } from './label/Label';
 export * from './label/Label';
-export { default as setFontSize } from './label/utils/setFontSize';
-export * from './label/utils/setFontSize';
-export { default as setLetterSpacing } from './label/utils/setLetterSpacing';
-export * from './label/utils/setLetterSpacing';
-export { default as setPadding } from './label/utils/setPadding';
-export * from './label/utils/setPadding';
 export { default as ListItem } from './listItem/ListItem';
 export * from './listItem/ListItem';
 export { default as Loader } from './loader/Loader';

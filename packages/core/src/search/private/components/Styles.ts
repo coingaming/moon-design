@@ -1,7 +1,7 @@
-import { Button } from '@heathmont/moon-core';
 import { Theme } from '@heathmont/moon-themes';
 import { mq, media } from '@heathmont/moon-utils';
 import styled, { CSSObject } from 'styled-components';
+import { Button } from '../../../';
 import { zIndex } from './settings';
 
 const focusOutsideSearchPopup = '.popup:not(:focus-within)';

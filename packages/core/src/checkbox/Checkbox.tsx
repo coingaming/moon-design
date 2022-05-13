@@ -2,6 +2,7 @@ import React, { forwardRef, useState } from 'react';
 import CheckboxIconWrapper from './styles/CheckboxIconWrapper';
 import CheckboxInput from './styles/CheckboxInput';
 import CheckboxLabel from './styles/CheckboxLabel';
+import type Variants from './private/Variants';
 
 export interface CheckboxProps {
   disabled?: boolean;

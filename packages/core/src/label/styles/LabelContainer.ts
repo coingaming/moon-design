@@ -1,8 +1,8 @@
 import { rem, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
-import setFontSize from '../utils/setFontSize';
-import setLetterSpacing from '../utils/setLetterSpacing';
-import setPadding from '../utils/setPadding';
+import setFontSize from '../private/utils/setFontSize';
+import setLetterSpacing from '../private/utils/setLetterSpacing';
+import setPadding from '../private/utils/setPadding';
 import type LabelProps from '../private/types/LabelProps';
 
 const LabelContainer = styled.span<LabelProps>(

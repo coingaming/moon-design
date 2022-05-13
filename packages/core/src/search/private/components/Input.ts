@@ -1,6 +1,5 @@
 // @ts-nocheck
 import React from 'react';
-import { Button } from '@heathmont/moon-core';
 import {
   GenericClose,
   GenericMenu,
@@ -8,6 +7,7 @@ import {
 } from '@heathmont/moon-icons';
 import { mq, rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
+import { Button } from '../../../';
 import { inputConfig, zIndex } from './settings';
 
 const { borderWidth, padding } = inputConfig;

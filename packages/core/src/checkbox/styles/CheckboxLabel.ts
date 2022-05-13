@@ -1,5 +1,6 @@
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
+import type Variants from '../private/Variants';
 
 interface CheckboxLabelProps {
   variant?: Variants;

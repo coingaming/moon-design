@@ -12,7 +12,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "target": "es5"
+    "target": "es2016"
   },
   "paths": {
     "@heathmont/moon-*": ["./packages/*/lib", "./next-docs"]

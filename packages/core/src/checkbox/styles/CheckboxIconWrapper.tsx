@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Text } from '@heathmont/moon-core';
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
 import styled, { css, keyframes } from 'styled-components';
+import { Text } from '../../';
 
 interface Props {
   checked?: boolean;
@@ -13,7 +13,10 @@ interface Props {
 /**
  * Border radius calculation
  */
-const calcBorderRadius = (interactiveValue: number, fallbackValue: number) => {
+const calcBorderRadius = (
+  interactiveValue: number | string,
+  fallbackValue: number | string
+) => {
   let value = fallbackValue;
   if (
     interactiveValue === 0 ||
