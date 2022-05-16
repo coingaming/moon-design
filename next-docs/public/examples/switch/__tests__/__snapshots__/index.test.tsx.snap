@@ -12,7 +12,6 @@ exports[`Switch renders 1`] = `
 >
   <label
     className="sc-gqUUDT kiGojW"
-    disabled={false}
     size="small"
   >
     <input
@@ -25,13 +24,8 @@ exports[`Switch renders 1`] = `
     />
     <span
       checked={true}
-<<<<<<< HEAD
-      className="sc-imZoBe codXWL"
+      className="sc-khrHlC dDUPxQ"
       size="small"
-=======
-      className="sc-khrHlC iXtMCL"
-      size="sm"
->>>>>>> d7003c6ba82321c17491a2a830ed96b80b233e96
     />
   </label>
 </div>
@@ -51,8 +45,7 @@ exports[`Switch renders Buttons 1`] = `
     }
   >
     <label
-      className="sc-gqUUDT dUUges"
-      disabled={false}
+      className="sc-gqUUDT etilyz"
       size="medium"
     >
       <input
@@ -65,24 +58,21 @@ exports[`Switch renders Buttons 1`] = `
       />
       <span
         checked={true}
-<<<<<<< HEAD
-        className="sc-imZoBe bIZirg"
+        className="sc-khrHlC iJPBD"
         size="medium"
-=======
-        className="sc-khrHlC bhUeiA"
-        size="md"
->>>>>>> d7003c6ba82321c17491a2a830ed96b80b233e96
       >
         <span
           className="sc-dOAxzV boWUFJ"
         >
           <p
-            className="sc-cQIpJi grZAKh"
+            className="sc-cQIpJi llFRTU"
+            size={14}
           >
             Off
           </p>
           <p
-            className="sc-cQIpJi grZAKh"
+            className="sc-cQIpJi llFRTU"
+            size={14}
           >
             On
           </p>
@@ -100,8 +90,7 @@ exports[`Switch renders Buttons 1`] = `
     }
   >
     <label
-      className="sc-gqUUDT cjazYH"
-      disabled={false}
+      className="sc-gqUUDT juXimc"
       size="large"
     >
       <input
@@ -114,24 +103,21 @@ exports[`Switch renders Buttons 1`] = `
       />
       <span
         checked={true}
-<<<<<<< HEAD
-        className="sc-imZoBe bIZirg"
+        className="sc-khrHlC iJPBD"
         size="large"
-=======
-        className="sc-khrHlC bhUeiA"
-        size="lg"
->>>>>>> d7003c6ba82321c17491a2a830ed96b80b233e96
       >
         <span
           className="sc-dOAxzV boWUFJ"
         >
           <p
-            className="sc-cQIpJi grZAKh"
+            className="sc-cQIpJi llFRTU"
+            size={14}
           >
             Off
           </p>
           <p
-            className="sc-cQIpJi grZAKh"
+            className="sc-cQIpJi llFRTU"
+            size={14}
           >
             On
           </p>
@@ -156,7 +142,7 @@ exports[`Switch renders Disabled state 1`] = `
     }
   >
     <label
-      className="sc-gqUUDT fbRPPY"
+      className="sc-gqUUDT ePYOFf"
       disabled={true}
       size="small"
     >
@@ -170,13 +156,8 @@ exports[`Switch renders Disabled state 1`] = `
       />
       <span
         checked={true}
-<<<<<<< HEAD
-        className="sc-imZoBe codXWL"
+        className="sc-khrHlC dDUPxQ"
         size="small"
-=======
-        className="sc-khrHlC iXtMCL"
-        size="sm"
->>>>>>> d7003c6ba82321c17491a2a830ed96b80b233e96
       />
     </label>
   </div>
@@ -190,7 +171,7 @@ exports[`Switch renders Disabled state 1`] = `
     }
   >
     <label
-      className="sc-gqUUDT fbRPPY"
+      className="sc-gqUUDT ePYOFf"
       disabled={true}
       size="small"
     >
@@ -204,13 +185,8 @@ exports[`Switch renders Disabled state 1`] = `
       />
       <span
         checked={false}
-<<<<<<< HEAD
-        className="sc-imZoBe iPejPr"
+        className="sc-khrHlC itJCuw"
         size="small"
-=======
-        className="sc-khrHlC jagbOf"
-        size="sm"
->>>>>>> d7003c6ba82321c17491a2a830ed96b80b233e96
       />
     </label>
   </div>
@@ -232,7 +208,6 @@ exports[`Switch renders Theme variant 1`] = `
   >
     <label
       className="sc-gqUUDT jLXksI"
-      disabled={false}
       size="twoxsmall"
     >
       <input
@@ -245,13 +220,8 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-<<<<<<< HEAD
-        className="sc-imZoBe fdFkSl"
+        className="sc-khrHlC fa-dikk"
         size="twoxsmall"
-=======
-        className="sc-khrHlC hRcSLq"
-        size="2xs"
->>>>>>> d7003c6ba82321c17491a2a830ed96b80b233e96
       />
     </label>
   </div>
@@ -266,7 +236,6 @@ exports[`Switch renders Theme variant 1`] = `
   >
     <label
       className="sc-gqUUDT fNMaSn"
-      disabled={false}
       size="xsmall"
     >
       <input
@@ -279,13 +248,8 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-<<<<<<< HEAD
-        className="sc-imZoBe jvSyUs"
+        className="sc-khrHlC bdjqyn"
         size="xsmall"
-=======
-        className="sc-khrHlC UQFTr"
-        size="xs"
->>>>>>> d7003c6ba82321c17491a2a830ed96b80b233e96
       />
     </label>
   </div>
@@ -300,7 +264,6 @@ exports[`Switch renders Theme variant 1`] = `
   >
     <label
       className="sc-gqUUDT kiGojW"
-      disabled={false}
       size="small"
     >
       <input
@@ -313,13 +276,8 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-<<<<<<< HEAD
-        className="sc-imZoBe jvSyUs"
+        className="sc-khrHlC iFuwyw"
         size="small"
-=======
-        className="sc-khrHlC UQFTr"
-        size="sm"
->>>>>>> d7003c6ba82321c17491a2a830ed96b80b233e96
       />
     </label>
   </div>
@@ -341,7 +299,6 @@ exports[`Switch renders different Sizes 1`] = `
   >
     <label
       className="sc-gqUUDT jLXksI"
-      disabled={false}
       size="twoxsmall"
     >
       <input
@@ -354,13 +311,8 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-<<<<<<< HEAD
-        className="sc-imZoBe iltJZy"
+        className="sc-khrHlC dlxiQA"
         size="twoxsmall"
-=======
-        className="sc-khrHlC HPTpi"
-        size="2xs"
->>>>>>> d7003c6ba82321c17491a2a830ed96b80b233e96
       />
     </label>
   </div>
@@ -375,7 +327,6 @@ exports[`Switch renders different Sizes 1`] = `
   >
     <label
       className="sc-gqUUDT fNMaSn"
-      disabled={false}
       size="xsmall"
     >
       <input
@@ -388,13 +339,8 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-<<<<<<< HEAD
-        className="sc-imZoBe codXWL"
+        className="sc-khrHlC lmxqEL"
         size="xsmall"
-=======
-        className="sc-khrHlC iXtMCL"
-        size="xs"
->>>>>>> d7003c6ba82321c17491a2a830ed96b80b233e96
       />
     </label>
   </div>
@@ -409,7 +355,6 @@ exports[`Switch renders different Sizes 1`] = `
   >
     <label
       className="sc-gqUUDT kiGojW"
-      disabled={false}
       size="small"
     >
       <input
@@ -422,13 +367,8 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-<<<<<<< HEAD
-        className="sc-imZoBe codXWL"
+        className="sc-khrHlC dDUPxQ"
         size="small"
-=======
-        className="sc-khrHlC iXtMCL"
-        size="sm"
->>>>>>> d7003c6ba82321c17491a2a830ed96b80b233e96
       />
     </label>
   </div>
