@@ -18,11 +18,13 @@ module.exports = {
           'var(--averta) -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
       },
       borderRadius: {
-        'moon-xs': 'var(--radius-xs)',
-        'moon-sm': 'var(--radius-sm)',
-        'moon-md': 'var(--radius-md)',
-        'moon-lg': 'var(--radius-lg)',
-        'moon-full': 'var(--radius-full)',
+        'moon-i-xs': 'var(--radius-i-xs)',
+        'moon-i-sm': 'var(--radius-i-sm)',
+        'moon-i-md': 'var(--radius-i-md)',
+        'moon-s-xs': 'var(--radius-s-xs)',
+        'moon-s-sm': 'var(--radius-s-sm)',
+        'moon-s-md': 'var(--radius-s-md)',
+        'moon-s-lg': 'var(--radius-s-lg)',
       },
       zIndex: {
         1: '1',

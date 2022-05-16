@@ -56,7 +56,7 @@ const Chip: React.FC<ChipProps> = ({
     <>
       <button
         className={classNames(
-          'z-0 overflow-hidden flex flex-row items-center text-sm relative rounded-moon-sm cursor-pointer ease-in-out duration-75',
+          'z-0 overflow-hidden flex flex-row items-center text-sm relative rounded-moon-i-sm cursor-pointer ease-in-out duration-75',
           iconOnly ? 'center' : 'space-between',
           size == 'small' ? 'h-8 gap-1' : 'h-10 gap-2',
           determinePadding(size, iconLeft, iconRight, iconOnly),

@@ -21,6 +21,9 @@ export default function PageAccordion() {
           <Checkbox
             checked={isChecked}
             onClick={() => setIsChecked(!isChecked)}
+            onChange={() => {
+              console.log('isChecked:', isChecked);
+            }}
             label="I agree to receive bonus & marketing emails."
             id="checkbox2"
           />
