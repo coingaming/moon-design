@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
+import PropsTable from "../../../components/PropsTable";
 import Default from '../../../public/examples/dialog/dialogContent/Default';
 import useExamples from '../../../utils/useExamples';
 
@@ -36,6 +37,33 @@ export default function PageDialogContent() {
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
+
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: '',
+            type: 'twoxsmall | xsmall',
+            required: false,
+            default: 'xsmall',
+            description: 'Size for label',
+          },
+          {
+            name: 'position',
+            type: 'TOP | CENTER',
+            required: false,
+            default: '-',
+            description: ' ',
+          },
+          {
+            name: 'maxWidth',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: ' ',
+          },
+        ]}
+      />
     </>
   );
 }

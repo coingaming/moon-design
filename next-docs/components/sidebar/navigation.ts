@@ -11,6 +11,15 @@ const navigation = [
   { name: 'Transform SVG', href: '/transformIcon' },
   { name: 'Manifest', href: '/manifest' },
   {
+    name: 'Core',
+    children: [
+      { name: 'Button', href: '/core/button' },
+      { name: 'Loader', href: '/core/loader' },
+      { name: 'Chip', href: '/core/chip' },
+      { name: 'Checkbox', href: '/core/checkbox' },
+    ],
+  },
+  {
     name: 'Components',
     children: [
       { name: 'Accordion', href: '/components/accordion' },

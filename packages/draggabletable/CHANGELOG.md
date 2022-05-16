@@ -1,5 +1,69 @@
 # Change Log
 
+## 8.8.0
+
+### Minor Changes
+
+-
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.8.0
+  - @heathmont/moon-table@8.8.0
+  - @heathmont/moon-themes@8.8.0
+  - @heathmont/moon-utils@8.8.0
+
+## 8.7.2
+
+### Patch Changes
+
+- fix circleci
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.7.2
+  - @heathmont/moon-table@8.7.2
+  - @heathmont/moon-themes@8.7.2
+  - @heathmont/moon-utils@8.7.2
+
+## 8.7.1
+
+### Patch Changes
+
+- fix build
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.7.1
+  - @heathmont/moon-table@8.7.1
+  - @heathmont/moon-themes@8.7.1
+  - @heathmont/moon-utils@8.7.1
+
+## 8.7.0
+
+### Minor Changes
+
+-
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.7.0
+  - @heathmont/moon-table@8.7.0
+  - @heathmont/moon-themes@8.7.0
+  - @heathmont/moon-utils@8.7.0
+
+## 8.6.0
+
+### Minor Changes
+
+- tailwind release
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@8.6.0
+  - @heathmont/moon-components@8.6.0
+  - @heathmont/moon-table@8.6.0
+  - @heathmont/moon-utils@8.6.0
+
 ## 8.5.0
 
 ### Minor Changes

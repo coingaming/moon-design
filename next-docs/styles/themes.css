@@ -1,277 +1,67 @@
 .support-colors {
-  --krillin: #ffb319;
-  --krillin-60: #ffc652;
-  --krillin-10: #ffd98d;
+  --krillin: 255 179 25; /* #ffb319 */
+  --krillin-60: 255 198 82; /* #ffc652 */
+  --krillin-10: 255 217 141; /* #ffd98d */
 
-  --chichi: #ff4e64;
-  --chichi-60: #ff7687;
-  --chichi-10: #ff96a3;
+  --chichi: 255 78 100; /* #ff4e64 */
+  --chichi-60: 255 118 135; /* #ff7687 */
+  --chichi-10: 255 150 163; /* #ff96a3 */
 
-  --roshi: #4ad15f;
-  --roshi-60: #64dc77;
-  --roshi-10: #7ff291;
+  --roshi: 74 209 95; /* #4ad15f */
+  --roshi-60: 100 220 119; /* #64dc77 */
+  --roshi-10: 127 242 145; /* #7ff291 */
 
-  --dodoria: #d33030;
-  --dodoria-60: #db4e4e;
-  --dodoria-10: #f06767;
+  --dodoria: 211 48 48; /* #d33030 */
+  --dodoria-60: 219 78 78; /* #db4e4e */
+  --dodoria-10: 240 103 103; /* #f06767 */
 
-  --cell: #95f1d5;
-  --cell-60: #a2fadf;
-  --cell-10: #bfffec;
+  --cell: 149 241 213; /* #95f1d5 */
+  --cell-60: 162 250 223; /* #a2fadf */
+  --cell-10: 191 255 236; /* #bfffec */
 
-  --raditz: #b3804a;
-  --raditz-60: #c1915d;
-  --raditz-10: #d6a979;
+  --raditz: 179 128 74; /* #b3804a */
+  --raditz-60: 193 145 93; /* #c1915d */
+  --raditz-10: 214 169 121; /* #d6a979 */
 
-  --whis: #3448f0;
-  --whis-60: #6777f8;
-  --whis-10: #8490f9;
+  --whis: 52 72 240; /* #3448f0 */
+  --whis-60: 103 119 248; /* #6777f8 */
+  --whis-10: 132 144 249; /* #8490f9 */
 
-  --frieza: #5c33cf;
-  --frieza-60: #734dde;
-  --frieza-10: #9271ef;
+  --frieza: 92 51 207; /* #5c33cf */
+  --frieza-60: 115 77 222; /* #734dde */
+  --frieza-10: 146 113 239; /* #9271ef */
 
-  --nappa: #725550;
-  --nappa-60: #856a66;
-  --nappa-10: #a18681;
+  --nappa: 114 85 80; /* #725550 */
+  --nappa-60: 133 106 102; /* #856a66 */
+  --nappa-10: 161 134 129; /* #a18681 */
 }
 
 .theme-moon-dark {
-  --piccolo-120: #e5e5e5;
-  --piccolo: #4e46b4;
-  --piccolo-80: #e5e5e5;
-
-  --hit-120: #292929;
-  --hit: #0b0b0b;
-  --hit-80: #292929;
-
-  --beerus: #1f1f1f;
-
-  --goku: #0b0b0b;
-  --goku-80: #000000;
-  --goku-40: #000000;
-  --goku-10: #000000;
-
-  --gohan: #1f1f1f;
-  --gohan-80: #292929;
-  --gohan-40: #292929;
-  --gohan-10: #0b0b0b;
-
-  --bulma: #ffffff;
-
-  --trunks: #999ca0;
-
-  --goten: #ffffff;
-
-  --popo: #000000;
+  --piccolo: 78 70 180; /* #4e46b4 */
+  --hit: 64 166 159; /* #40a69f */
+  --beerus: 235 235 235; /* #ebebeb */
+  --goku: 245 245 245; /* #f5f5f5 */
+  --gohan: 255 255 255; /* #ffffff */
+  --bulma: 0 0 0; /* #000000 */
+  --trunks: 153 156 160;
+  --goten: 255 255 255; /* #ffffff */
+  --popo: 0 0 0; /* #000000 */
 }
 
-.theme-moon-light {
-  --piccolo-120: #292929;
-  --piccolo: #4e46b4;
-  --piccolo-80: #292929;
-
-  --hit-120: #e5e5e5;
-  --hit: #40a69f;
-  --hit-80: #e5e5e5;
-
-  --beerus: #ebebeb;
-
-  --goku: #f5f5f5;
-  --goku-80: #f5f5f5;
-  --goku-40: #f5f5f5;
-  --goku-10: #f5f5f5;
-
-  --gohan: #ffffff;
-  --gohan-80: #f5f5f5;
-  --gohan-40: #f5f5f5;
-  --gohan-10: #ffffff;
-
-  --bulma: #000000;
-
-  --trunks: #999ca0;
-
-  --goten: #ffffff;
-
-  --popo: #000000;
+.fonts {
+  --averta: 'Averta Std';
 }
 
-.theme-bitcasino-dark {
-  --piccolo-120: #f54100;
-  --piccolo: #ff4f0f;
-  --piccolo-80: #fa642e;
-
-  --hit-120: #572385;
-  --hit: #642e94;
-  --hit-80: #7139a2;
-
-  --beerus: #521b81;
-
-  --goku: #24033f;
-  --goku-80: #320854;
-  --goku-40: #4c1a75;
-  --goku-10: #65348d;
-
-  --gohan: #3e0d68;
-  --gohan-80: #4b1679;
-  --gohan-40: #642e94;
-  --gohan-10: #7e48ad;
-
-  --goten: #ffffff;
-
-  --bulma: #ffffff;
-
-  --trunks: #a18eb4;
-
-  --popo: #000000;
+.border-radius {
+  --radius-i-xs: 0.25rem;
+  --radius-i-sm: 0.5rem;
+  --radius-i-md: 0.75rem;
+  --radius-s-xs: 0.25rem;
+  --radius-s-sm: 0.5rem;
+  --radius-s-md: 0.75rem;
+  --radius-s-lg: 1rem;
 }
 
-.theme-bitcasino-light {
-  --piccolo-120: #f54100;
-  --piccolo: #ff4f0f;
-  --piccolo-80: #fa642e;
-
-  --hit-120: #d9e3e8;
-  --hit: #e3eaed;
-  --hit-80: #edf1f3;
-
-  --beerus: #eaeef0;
-
-  --goku: #f3f5f6;
-  --goku-80: #eaeef0;
-  --goku-40: #d8e0e3;
-  --goku-10: #c5d2d8;
-
-  --gohan: #ffffff;
-  --gohan-80: #f7f7f7;
-  --gohan-40: #e8e8e8;
-  --gohan-10: #d9d9d9;
-
-  --goten: #ffffff;
-
-  --bulma: #0f161f;
-
-  --trunks: #8697a2;
-
-  --popo: #000000;
-}
-
-.theme-betadda-dark {
-  --piccolo-120: #e68a2e;
-  --piccolo: #ff9933;
-  --piccolo-80: #ffa347;
-
-  --hit-120: #19930e;
-  --hit: #1ca30f;
-  --hit-80: #33ac27;
-
-  --beerus: #40464f;
-
-  --goku: #272e37;
-  --goku-80: #353c44;
-  --goku-40: #4c5159;
-  --goku-10: #62676d;
-
-  --gohan: #1a212a;
-  --gohan-80: #31373f;
-  --gohan-40: #5f646a;
-  --gohan-10: #8c9095;
-
-  --goten: #ffffff;
-
-  --bulma: #ffffff;
-
-  --trunks: #97a2ae;
-
-  --popo: #000000;
-}
-
-.theme-betadda-light {
-  --piccolo-120: #e68a2e;
-  --piccolo: #ff9933;
-  --piccolo-80: #ffa347;
-
-  --hit-120: #19930e;
-  --hit: #1ca30f;
-  --hit-80: #33ac27;
-
-  --beerus: #e4e6e9;
-
-  --goku: #ffffff;
-  --goku-80: #f1f2f3;
-  --goku-40: #e0e3e6;
-  --goku-10: #ced4d9;
-
-  --gohan: #f2f3f7;
-  --gohan-80: #e8e9ed;
-  --gohan-40: #dfe0e3;
-  --gohan-10: #d5d6d9;
-
-  --goten: #ffffff;
-
-  --bulma: #1a212a;
-
-  --trunks: #63717b;
-
-  --popo: #000000;
-}
-
-.theme-sportsbet-dark {
-  --piccolo-120: #02c054;
-  --piccolo: #0ccf61;
-  --piccolo-80: #18dc6d;
-
-  --hit-120: #2d3139;
-  --hit: #393e47;
-  --hit-80: #454a54;
-
-  --beerus: #31373f;
-
-  --goku: #232a33;
-  --goku-80: #353c44;
-  --goku-40: #4c5159;
-  --goku-10: #62676d;
-
-  --gohan: #1a212a;
-  --gohan-80: #31373f;
-  --gohan-40: #5f646a;
-  --gohan-10: #8c9095;
-
-  --goten: #ffffff;
-
-  --bulma: #ffffff;
-
-  --trunks: #8697a2;
-
-  --popo: #000000;
-}
-
-.theme-sportsbet-light {
-  --piccolo-120: #02c054;
-  --piccolo: #0ccf61;
-  --piccolo-80: #18dc6d;
-
-  --hit-120: #d6d8db;
-  --hit: #dfe0e2;
-  --hit-80: #e7e8e9;
-
-  --beerus: #e6e6e6;
-
-  --goku: #ffffff;
-  --goku-80: #f1f2f3;
-  --goku-40: #e0e3e6;
-  --goku-10: #ced4d9;
-
-  --gohan: #f7f7f7;
-  --gohan-80: #f0f0f0;
-  --gohan-40: #e0e0e0;
-  --gohan-10: #d1d1d1;
-
-  --goten: #ffffff;
-
-  --bulma: #1a212a;
-
-  --trunks: #607680;
-
-  --popo: #000000;
+.opacity {
+  --opacity-moon: 0.32;
 }
