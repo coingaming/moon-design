@@ -1,32 +1,11 @@
 import React, { useState } from 'react';
 import Hover from '../hover/Hover';
 import Size from '../private/enums/Size';
-import AnimationContent from './private/buttonAnimations/AnimationContent';
+import AnimationContent from './styles/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
-
-type ButtonSizes =
-  | Size.XSMALL
-  | Size.SMALL
-  | Size.MEDIUM
-  | Size.LARGE
-  | Size.XLARGE;
-type ButtonVariants = 'primary' | 'secondary' | 'tertiary' | 'ghost';
-type ButtonIcons = 'left' | 'right' | 'only';
-type ButtonAnimations = 'progress' | 'success' | 'error' | 'pulse';
-
-export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: ButtonVariants;
-  size?: ButtonSizes | 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge';
-  icon?: ButtonIcons;
-  animation?: ButtonAnimations;
-  iconSize?: number;
-  iconLeft?: JSX.Element | boolean;
-  iconRight?: JSX.Element | boolean;
-  iconOnly?: JSX.Element | boolean;
-  disabled?: boolean;
-  fullWidth?: boolean;
-}
+import type ButtonProps from './private/types/ButtonProps';
+import type ButtonSizesProps from './private/types/ButtonSizesProps';
+import type ButtonVariantsProps from './private/types/ButtonVariantsProps';
 
 const Button: React.FC<ButtonProps> = ({
   children,
@@ -48,8 +27,8 @@ const Button: React.FC<ButtonProps> = ({
   const setIconSize = size === Size.XSMALL ? 16 : iconSize;
   return (
     <ButtonComponent
-      size={size as ButtonSizes}
-      variant={variant as ButtonVariants}
+      size={size as ButtonSizesProps}
+      variant={variant as ButtonVariantsProps}
       icon={icon}
       iconSize={setIconSize}
       iconLeft={iconLeft}

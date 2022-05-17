@@ -37,6 +37,7 @@ type Props = {
   backgroundColor?: ColorNames;
   minWidth?: number;
   maxWidth?: number;
+  children?: React.ReactNode;
 };
 
 const Popover: React.FC<Props> = ({

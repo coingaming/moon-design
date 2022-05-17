@@ -2,23 +2,23 @@
 
 exports[`TabLinkFill renders 1`] = `
 <a
-  className="sc-dIZBxk kWoA-Dt tab-link-fill"
+  className="sc-hMtawp kxxgXY tab-link-fill"
 />
 `;
 
 exports[`TabLinkFill renders Href 1`] = `
 <a
-  className="sc-dIZBxk kWoA-Dt tab-link-fill"
+  className="sc-hMtawp kxxgXY tab-link-fill"
   href="www.google.com"
 />
 `;
 
 exports[`TabLinkFill renders count 1`] = `
 <a
-  className="sc-dIZBxk kWoA-Dt tab-link-fill"
+  className="sc-hMtawp kxxgXY tab-link-fill"
 >
   <span
-    className="sc-khrHlC qICXw"
+    className="sc-bKOxAn eUwBnz"
   >
     2
   </span>
@@ -27,10 +27,10 @@ exports[`TabLinkFill renders count 1`] = `
 
 exports[`TabLinkFill renders element left 1`] = `
 <a
-  className="sc-dIZBxk kWoA-Dt tab-link-fill"
+  className="sc-hMtawp kxxgXY tab-link-fill"
 >
   <div
-    className="sc-MEQRl fURVHq"
+    className="sc-eEXVIU jwnWcz"
   >
     <span>
       Element
@@ -41,13 +41,13 @@ exports[`TabLinkFill renders element left 1`] = `
 
 exports[`TabLinkFill renders isTop 1`] = `
 <a
-  className="sc-dIZBxk kWoA-Dt tab-link-fill"
+  className="sc-hMtawp kxxgXY tab-link-fill"
 />
 `;
 
 exports[`TabLinkFill renders size 1`] = `
 <a
-  className="sc-dIZBxk iROOFM tab-link-fill"
+  className="sc-hMtawp chmibV tab-link-fill"
   size="small"
 />
 `;

@@ -8,6 +8,7 @@ type ChipProps = {
   iconLeft?: React.ReactElement;
   iconRight?: React.ReactElement;
   size?: 'small' | 'medium';
+  children?: React.ReactNode;
 };
 
 const StyledChip = styled.button<ChipProps>(({ isActive, size, theme }) => [

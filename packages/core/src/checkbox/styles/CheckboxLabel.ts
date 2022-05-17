@@ -1,11 +1,8 @@
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
+import type VariantProps from '../private/types/VariantProps';
 
-interface CheckboxLabelProps {
-  variant?: Variants;
-}
-
-const CheckboxLabel = styled.label<CheckboxLabelProps>(
+const CheckboxLabel = styled.label<{ variant?: VariantProps }>(
   {
     display: 'inline-block',
     position: 'relative',

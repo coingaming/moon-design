@@ -1,10 +1,10 @@
 import styled from 'styled-components';
-import errorAnimation from '../private/buttonAnimations/errorAnimation';
-import pulseAnimation from '../private/buttonAnimations/pulseAnimation';
-import buttonSizes from '../private/buttonSizes/buttonSizes';
-import buttonCommonStyles from '../private/buttonStyles/buttonCommonStyles';
-import buttonVariants from '../private/buttonStyles/buttonVariants';
-import type { ButtonProps } from '../Button';
+import errorAnimation from '../styles/buttonAnimations/errorAnimation';
+import pulseAnimation from '../styles/buttonAnimations/pulseAnimation';
+import buttonSizes from '../styles/buttonSizes/buttonSizes';
+import buttonCommonStyles from '../styles/buttonStyles/buttonCommonStyles';
+import buttonVariants from '../styles/buttonStyles/buttonVariants';
+import type ButtonProps from '../private/types/ButtonProps';
 
 const ButtonComponent = styled.button<ButtonProps>(
   ({
