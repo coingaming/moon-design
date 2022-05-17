@@ -11,7 +11,7 @@ const Menu = styled.div(({ theme }) => ({
   padding: 0,
   left: 0,
   top: '100%',
-  borderRadius: theme.newTokens.borderRadius.medium,
+  borderRadius: theme.newTokens.borderRadius.surface.small,
   boxShadow: theme.newTokens.boxShadow.large,
   marginTop: rem(8),
 }));

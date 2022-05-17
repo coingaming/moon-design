@@ -93,8 +93,10 @@ const TableWrapper = styled.div<{
                   display: 'none',
                 },
                 '& + div': {
-                  borderTopLeftRadius: theme.newTokens.borderRadius.medium,
-                  borderBottomLeftRadius: theme.newTokens.borderRadius.medium,
+                  borderTopLeftRadius:
+                    theme.newTokens.borderRadius.surface.small,
+                  borderBottomLeftRadius:
+                    theme.newTokens.borderRadius.surface.small,
                 },
               },
             },
