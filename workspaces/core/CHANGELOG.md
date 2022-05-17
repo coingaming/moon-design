@@ -1,5 +1,11 @@
 # @heathmont/moon-core-tw
 
+## 8.9.0
+
+### Minor Changes
+
+- TW config, moneyball theme and logo, image opts
+
 ## 8.8.0
 
 ### Minor Changes

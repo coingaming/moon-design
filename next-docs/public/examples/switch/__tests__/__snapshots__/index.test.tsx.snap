@@ -24,7 +24,7 @@ exports[`Switch renders 1`] = `
     />
     <span
       checked={true}
-      className="sc-khrHlC dDUPxQ"
+      className="sc-hoIcGJ dqSQgy"
       size="small"
     />
   </label>
@@ -58,7 +58,7 @@ exports[`Switch renders Buttons 1`] = `
       />
       <span
         checked={true}
-        className="sc-khrHlC iJPBD"
+        className="sc-hoIcGJ fHIkkx"
         size="medium"
       >
         <span
@@ -103,7 +103,7 @@ exports[`Switch renders Buttons 1`] = `
       />
       <span
         checked={true}
-        className="sc-khrHlC iJPBD"
+        className="sc-hoIcGJ fHIkkx"
         size="large"
       >
         <span
@@ -156,7 +156,7 @@ exports[`Switch renders Disabled state 1`] = `
       />
       <span
         checked={true}
-        className="sc-khrHlC dDUPxQ"
+        className="sc-hoIcGJ dqSQgy"
         size="small"
       />
     </label>
@@ -185,7 +185,7 @@ exports[`Switch renders Disabled state 1`] = `
       />
       <span
         checked={false}
-        className="sc-khrHlC itJCuw"
+        className="sc-hoIcGJ kMeKDm"
         size="small"
       />
     </label>
@@ -220,7 +220,7 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-        className="sc-khrHlC fa-dikk"
+        className="sc-hoIcGJ evhhMC"
         size="twoxsmall"
       />
     </label>
@@ -248,7 +248,7 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-        className="sc-khrHlC bdjqyn"
+        className="sc-hoIcGJ ifgHMZ"
         size="xsmall"
       />
     </label>
@@ -276,7 +276,7 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-        className="sc-khrHlC iFuwyw"
+        className="sc-hoIcGJ eNbtLm"
         size="small"
       />
     </label>
@@ -311,7 +311,7 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-        className="sc-khrHlC dlxiQA"
+        className="sc-hoIcGJ eaBkau"
         size="twoxsmall"
       />
     </label>
@@ -339,7 +339,7 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-        className="sc-khrHlC lmxqEL"
+        className="sc-hoIcGJ hAEBst"
         size="xsmall"
       />
     </label>
@@ -367,7 +367,7 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-        className="sc-khrHlC dDUPxQ"
+        className="sc-hoIcGJ dqSQgy"
         size="small"
       />
     </label>

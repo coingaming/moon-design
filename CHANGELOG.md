@@ -5,42 +5,26 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [6.19.2](https://github.com/coingaming/moon-design/compare/v6.19.1...v6.19.2) (2021-09-15)
 
-
 ### Bug Fixes
 
-* ts issue for radioButton [B1M2-3880] ([#1402](https://github.com/coingaming/moon-design/issues/1402)) ([3cfda50](https://github.com/coingaming/moon-design/commit/3cfda505c99a349093f22039992933ff95131807))
-* ts-nocheck for radiobutton ([f5b4eb2](https://github.com/coingaming/moon-design/commit/f5b4eb288bec8bc5a611b95160683d0c2e6f2a9e))
-
-
-
-
+- ts issue for radioButton [B1M2-3880] ([#1402](https://github.com/coingaming/moon-design/issues/1402)) ([3cfda50](https://github.com/coingaming/moon-design/commit/3cfda505c99a349093f22039992933ff95131807))
+- ts-nocheck for radiobutton ([f5b4eb2](https://github.com/coingaming/moon-design/commit/f5b4eb288bec8bc5a611b95160683d0c2e6f2a9e))
 
 ## [6.19.1](https://github.com/coingaming/moon-design/compare/v6.19.0...v6.19.1) (2021-09-14)
 
-
 ### Bug Fixes
 
-* add name prop to radioButton [B1M2-3880] ([#1400](https://github.com/coingaming/moon-design/issues/1400)) ([3c411a9](https://github.com/coingaming/moon-design/commit/3c411a99ea0edf3d447e04df4cccb40b0404da6a))
-
+- add name prop to radioButton [B1M2-3880] ([#1400](https://github.com/coingaming/moon-design/issues/1400)) ([3c411a9](https://github.com/coingaming/moon-design/commit/3c411a99ea0edf3d447e04df4cccb40b0404da6a))
 
 ### Features
 
-* exclude .md files for lint-staged prettier ([dfbae4d](https://github.com/coingaming/moon-design/commit/dfbae4d30d027293b808b103fbcfe5d3aa12ce35))
-
-
-
-
+- exclude .md files for lint-staged prettier ([dfbae4d](https://github.com/coingaming/moon-design/commit/dfbae4d30d027293b808b103fbcfe5d3aa12ce35))
 
 # [6.19.0](https://github.com/coingaming/moon-design/compare/v6.18.0...v6.19.0) (2021-09-14)
 
-
 ### Features
 
-* added RadioButton [B1M2-3880] ([#1398](https://github.com/coingaming/moon-design/issues/1398)) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
-
-
-
-
+- added RadioButton [B1M2-3880] ([#1398](https://github.com/coingaming/moon-design/issues/1398)) ([f531311](https://github.com/coingaming/moon-design/commit/f5313113687a2b4d722afb46225301a2b4678df9))
 
 # [6.18.0](https://github.com/coingaming/moon-design/compare/v6.17.0...v6.18.0) (2021-09-13)
 
@@ -226,8 +210,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-<<<<<<< HEAD
-
 - bump nextjs to 11.1.0 ([278ff27](https://github.com/coingaming/moon-design/commit/278ff278f593c5c5ab5ca48125b52f9ba78ac487))
 
 ### Features
@@ -236,22 +218,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 * B1M2-2163 styling fixes for search component in mobile ([#1326](https://github.com/coingaming/moon-design/issues/1326)) ([0e7f202](https://github.com/coingaming/moon-design/commit/0e7f20231fa14527b5a7a27e6e0cd9fa2c903d2a))
 
-> > > > > > > develop
-
 ## [6.7.2](https://github.com/coingaming/moon-design/compare/v6.7.1...v6.7.2) (2021-08-18)
 
 ### Bug Fixes
-
-<<<<<<< HEAD
 
 - border radiuses, update Bitcasino radius token [BASE1-1723] ([21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343))
 - # build ([98f97b3](https://github.com/coingaming/moon-design/commit/98f97b3baf79830693fd56e7a8b77f1573a6144c))
 
 * remove lodash from nextjs app ([#1324](https://github.com/coingaming/moon-design/issues/1324)) ([c9b51be](https://github.com/coingaming/moon-design/commit/c9b51bea797c85794ec96f4a91029861fc08ecf7))
-
-> > > > > > > develop
-
-<<<<<<< HEAD
 
 - # IconCurrencyDoge export ([154bddd](https://github.com/coingaming/moon-design/commit/154bddda853bb3bfc9b41ec2d6cbf509f5b5bf68))
 
@@ -260,13 +234,10 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Bug Fixes
 
 - B1M2-3279 docs for new theme ([#1322](https://github.com/coingaming/moon-design/issues/1322)) ([85d020a](https://github.com/coingaming/moon-design/commit/85d020a101df9976481ef70b904a273941c9412c))
-  > > > > > > > develop
 
 # [6.7.0](https://github.com/coingaming/moon-design/compare/v6.6.0...v6.7.0) (2021-08-18)
 
 ### Bug Fixes
-
-<<<<<<< HEAD
 
 ### Features
 
@@ -286,13 +257,9 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-> > > > > > > develop
-
 - IconCurrencyDoge export ([154bddd](https://github.com/coingaming/moon-design/commit/154bddda853bb3bfc9b41ec2d6cbf509f5b5bf68))
 
 # [6.5.0](https://github.com/coingaming/moon-design/compare/v6.4.9...v6.5.0) (2021-08-16)
-
-# <<<<<<< HEAD
 
 ### Features
 
@@ -301,8 +268,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## [6.4.9](https://github.com/coingaming/moon-design/compare/v6.4.8...v6.4.9) (2021-08-16)
 
 **Note:** Version bump only for package moon-design
-
-> > > > > > > develop
 
 ## [6.4.8](https://github.com/coingaming/moon-design/compare/v6.4.7...v6.4.8) (2021-08-12)
 
