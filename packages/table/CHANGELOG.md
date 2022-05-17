@@ -1,5 +1,19 @@
 # Change Log
 
+## 8.9.0
+
+### Minor Changes
+
+- TW config, moneyball theme and logo, image opts
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@8.9.0
+  - @heathmont/moon-core@8.9.0
+  - @heathmont/moon-themes@8.9.0
+  - @heathmont/moon-utils@8.9.0
+
 ## 8.8.0
 
 ### Minor Changes

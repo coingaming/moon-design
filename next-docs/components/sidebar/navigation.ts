@@ -17,6 +17,7 @@ const navigation = [
       { name: 'Loader', href: '/core/loader' },
       { name: 'Chip', href: '/core/chip' },
       { name: 'Checkbox', href: '/core/checkbox' },
+      { name: 'Typography', href: '/core/typography' },
     ],
   },
   {

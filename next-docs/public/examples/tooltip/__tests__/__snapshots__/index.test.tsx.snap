@@ -5,7 +5,7 @@ exports[`Tooltip renders 1`] = `
   className="flex gap-20 p-4"
 >
   <div
-    className="sc-bPnocz jaQygf"
+    className="sc-eBhLNR gNcIOO"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
   >
@@ -16,10 +16,10 @@ exports[`Tooltip renders 1`] = `
       Default tooltip
     </p>
     <div
-      className="sc-eLHYIy kCjrvJ"
+      className="sc-hxCwtQ jngplY"
     >
       <div
-        className="sc-hxCwtQ jFApPN"
+        className="sc-fjsWye dywrcg"
       >
         <p
           className="sc-cQIpJi bfHJKH"
@@ -31,7 +31,7 @@ exports[`Tooltip renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-bPnocz jaQygf"
+    className="sc-eBhLNR gNcIOO"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
   >
@@ -42,13 +42,13 @@ exports[`Tooltip renders 1`] = `
       With icon
     </p>
     <div
-      className="sc-eLHYIy kCjrvJ"
+      className="sc-hxCwtQ jngplY"
     >
       <div
-        className="sc-hxCwtQ jFApPN"
+        className="sc-fjsWye dywrcg"
       >
         <div
-          className="sc-eBhLNR kSzZlY"
+          className="sc-cmYlSf dNEmfl"
         >
           <svg
             className="sc-hsOonA"

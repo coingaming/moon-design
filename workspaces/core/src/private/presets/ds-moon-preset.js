@@ -17,12 +17,113 @@ module.exports = {
         averta:
           'var(--averta) -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
       },
+      fontSize: {
+        'moon-9': [
+          '0.5625rem',
+          {
+            lineHeight: '1rem',
+          },
+        ],
+        'moon-9-caption': [
+          '0.5625rem',
+          {
+            lineHeight: '1rem',
+            letterSpacing: '0.0625rem',
+          },
+        ],
+        'moon-10': [
+          '0.625rem',
+          {
+            lineHeight: '1rem',
+          },
+        ],
+        'moon-10-caption': [
+          '0.625rem',
+          {
+            lineHeight: '1rem',
+            letterSpacing: '0.0313rem',
+          },
+        ],
+        'moon-12': [
+          '0.75rem',
+          {
+            lineHeight: '1rem',
+          },
+        ],
+        'moon-14': [
+          '0.875rem',
+          {
+            lineHeight: '1.5rem',
+          },
+        ],
+        'moon-16': [
+          '1rem',
+          {
+            lineHeight: '1.5rem',
+          },
+        ],
+        'moon-18': [
+          '1.125rem',
+          {
+            lineHeight: '1.5rem',
+          },
+        ],
+        'moon-20': [
+          '1.25rem',
+          {
+            lineHeight: '2rem',
+          },
+        ],
+        'moon-24': [
+          '1.5rem',
+          {
+            lineHeight: '2rem',
+          },
+        ],
+        'moon-32': [
+          '2rem',
+          {
+            lineHeight: '2.5rem',
+            letterSpacing: '-0.0313rem',
+          },
+        ],
+        'moon-48': [
+          '3rem',
+          {
+            lineHeight: '3.5rem',
+            letterSpacing: '-0.0625rem',
+          },
+        ],
+        'moon-56': [
+          '3.5rem',
+          {
+            lineHeight: '4rem',
+            letterSpacing: '-0.0938rem',
+          },
+        ],
+        'moon-64': [
+          '4rem',
+          {
+            lineHeight: '4.5rem',
+            letterSpacing: '-0.125rem',
+          },
+        ],
+        'moon-72': [
+          '4.5rem',
+          {
+            lineHeight: '4.75rem',
+            letterSpacing: '-0.1563rem',
+          },
+        ],
+      },
       borderRadius: {
-        'moon-xs': 'var(--radius-xs)',
-        'moon-sm': 'var(--radius-sm)',
-        'moon-md': 'var(--radius-md)',
-        'moon-lg': 'var(--radius-lg)',
-        'moon-full': 'var(--radius-full)',
+        'moon-i-xs': 'var(--radius-i-xs)',
+        'moon-i-sm': 'var(--radius-i-sm)',
+        'moon-i-md': 'var(--radius-i-md)',
+        'moon-s-xs': 'var(--radius-s-xs)',
+        'moon-s-sm': 'var(--radius-s-sm)',
+        'moon-s-md': 'var(--radius-s-md)',
+        'moon-s-lg': 'var(--radius-s-lg)',
       },
       zIndex: {
         1: '1',
