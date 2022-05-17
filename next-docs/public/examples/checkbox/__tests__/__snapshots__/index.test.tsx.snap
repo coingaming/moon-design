@@ -22,7 +22,7 @@ exports[`Checkbox renders Checked 1`] = `
       />
     </span>
     <p
-      className="sc-jveewi dbvQYG"
+      className="sc-eEXVIU gZHATu"
       size={14}
     >
       Checkbox with checked state by default
@@ -53,7 +53,7 @@ exports[`Checkbox renders Disabled 1`] = `
       />
     </span>
     <p
-      className="sc-jveewi dbvQYG"
+      className="sc-eEXVIU gZHATu"
       size={14}
     >
       Disabled Checkbox
@@ -108,7 +108,7 @@ exports[`Checkbox renders Read only 1`] = `
       />
     </span>
     <p
-      className="sc-jveewi dbvQYG"
+      className="sc-eEXVIU gZHATu"
       size={14}
     >
       Readonly checkbox
@@ -138,7 +138,7 @@ exports[`Checkbox renders default 1`] = `
       />
     </span>
     <p
-      className="sc-jveewi dbvQYG"
+      className="sc-eEXVIU gZHATu"
       size={14}
     >
       Default Checkbox

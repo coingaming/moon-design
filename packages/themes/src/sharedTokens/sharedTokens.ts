@@ -308,6 +308,7 @@ export interface Base {
 export type Brand =
   | 'Sportsbet.io'
   | 'Betadda'
+  | 'Moneyball.io'
   | 'Bitcasino.io'
   | 'Comms'
   | 'Slots.io'
