@@ -25,7 +25,7 @@ exports[`Switch renders 1`] = `
     />
     <span
       checked={true}
-      className="sc-imZoBe codXWL"
+      className="sc-dloDHE fIfuNH"
       size="sm"
     />
   </label>
@@ -60,19 +60,19 @@ exports[`Switch renders Buttons 1`] = `
       />
       <span
         checked={true}
-        className="sc-imZoBe bIZirg"
+        className="sc-dloDHE kifiDE"
         size="md"
       >
         <span
           className="sc-kLOYGq iQvQfY"
         >
           <p
-            className="sc-jveewi gpoJqT"
+            className="sc-eEXVIU djWSin"
           >
             Off
           </p>
           <p
-            className="sc-jveewi gpoJqT"
+            className="sc-eEXVIU djWSin"
           >
             On
           </p>
@@ -104,19 +104,19 @@ exports[`Switch renders Buttons 1`] = `
       />
       <span
         checked={true}
-        className="sc-imZoBe bIZirg"
+        className="sc-dloDHE kifiDE"
         size="lg"
       >
         <span
           className="sc-kLOYGq iQvQfY"
         >
           <p
-            className="sc-jveewi gpoJqT"
+            className="sc-eEXVIU djWSin"
           >
             Off
           </p>
           <p
-            className="sc-jveewi gpoJqT"
+            className="sc-eEXVIU djWSin"
           >
             On
           </p>
@@ -155,7 +155,7 @@ exports[`Switch renders Disabled state 1`] = `
       />
       <span
         checked={true}
-        className="sc-imZoBe codXWL"
+        className="sc-dloDHE fIfuNH"
         size="sm"
       />
     </label>
@@ -184,7 +184,7 @@ exports[`Switch renders Disabled state 1`] = `
       />
       <span
         checked={false}
-        className="sc-imZoBe iPejPr"
+        className="sc-dloDHE bUZrjP"
         size="sm"
       />
     </label>
@@ -220,7 +220,7 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-        className="sc-imZoBe fdFkSl"
+        className="sc-dloDHE eogLCJ"
         size="2xs"
       />
     </label>
@@ -249,7 +249,7 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-        className="sc-imZoBe jvSyUs"
+        className="sc-dloDHE gjFiuc"
         size="xs"
       />
     </label>
@@ -278,7 +278,7 @@ exports[`Switch renders Theme variant 1`] = `
       />
       <span
         checked={true}
-        className="sc-imZoBe jvSyUs"
+        className="sc-dloDHE gjFiuc"
         size="sm"
       />
     </label>
@@ -314,7 +314,7 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-        className="sc-imZoBe iltJZy"
+        className="sc-dloDHE fhsNeC"
         size="2xs"
       />
     </label>
@@ -343,7 +343,7 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-        className="sc-imZoBe codXWL"
+        className="sc-dloDHE fIfuNH"
         size="xs"
       />
     </label>
@@ -372,7 +372,7 @@ exports[`Switch renders different Sizes 1`] = `
       />
       <span
         checked={true}
-        className="sc-imZoBe codXWL"
+        className="sc-dloDHE fIfuNH"
         size="sm"
       />
     </label>
