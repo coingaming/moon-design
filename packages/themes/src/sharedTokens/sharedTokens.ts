@@ -33,7 +33,7 @@ const baseLineHeight = 24;
 const fontWeightNormal = 400;
 const fontWeightSemibold = 500;
 
-const rem = (value: number) => `${value / baseFontSize}rem`;
+export const rem = (value: number) => `${value / baseFontSize}rem`;
 
 export type ZIndex = {
   carouselControl: number;
@@ -337,7 +337,17 @@ export type BorderRadius = {
   xlarge: string;
   twoxlarge: string;
   full: string;
-  interactive: string;
+  interactive: {
+    xsmall: string;
+    small: string;
+    medium: string;
+  };
+  surface: {
+    xsmall: string;
+    small: string;
+    medium: string;
+    large: string;
+  };
 };
 
 export type BreakpointNew = {
@@ -517,7 +527,17 @@ const sharedTokens: SharedTheme = {
       xlarge: rem(16),
       twoxlarge: rem(24),
       full: rem(9999),
-      interactive: rem(9999),
+      interactive: {
+        xsmall: rem(4),
+        small: rem(8),
+        medium: rem(12),
+      },
+      surface: {
+        xsmall: rem(4),
+        small: rem(8),
+        medium: rem(12),
+        large: rem(16),
+      },
     },
     breakpoint: {
       small: rem(640),

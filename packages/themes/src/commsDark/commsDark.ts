@@ -1,6 +1,6 @@
 import avertaStd from '../sharedTokens/avertaStd';
 import componentsTokens from '../sharedTokens/componentsTokens';
-import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
+import sharedTokens, { rem, Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
 
@@ -82,7 +82,11 @@ const commsDark: Theme = {
     ...sharedTokens.newTokens,
     borderRadius: {
       ...sharedTokens.newTokens.borderRadius,
-      interactive: sharedTokens.newTokens.borderRadius.twoxlarge,
+      interactive: {
+        xsmall: rem(9999),
+        small: rem(9999),
+        medium: rem(9999),
+      },
     },
   },
   ...componentsTokens(colorNew),

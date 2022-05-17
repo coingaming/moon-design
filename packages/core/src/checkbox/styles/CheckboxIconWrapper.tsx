@@ -1,29 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import { Text } from '@heathmont/moon-core';
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
 import styled, { css, keyframes } from 'styled-components';
+import { Text } from '../../';
 
 interface Props {
   checked?: boolean;
   label?: string | JSX.Element;
   dir?: 'ltr' | 'rtl' | 'auto';
 }
-
-/**
- * Border radius calculation
- */
-const calcBorderRadius = (interactiveValue: number, fallbackValue: number) => {
-  let value = fallbackValue;
-  if (
-    interactiveValue === 0 ||
-    interactiveValue === rem(0) ||
-    interactiveValue === rem(9999)
-  ) {
-    value = interactiveValue;
-  }
-  return value;
-};
 
 /**
  * Animation
@@ -60,10 +45,7 @@ const Box = styled.span(({ theme }) => ({
   alignItems: 'center',
   justifyContent: 'center',
   color: theme.colorNew.trunks,
-  borderRadius: calcBorderRadius(
-    theme.newTokens.borderRadius.interactive,
-    theme.newTokens.borderRadius.xsmall
-  ),
+  borderRadius: theme.newTokens.borderRadius.interactive.xsmall,
   width: rem(24),
   height: rem(24),
   minWidth: rem(24),
@@ -84,10 +66,7 @@ const Box = styled.span(({ theme }) => ({
     left: '50%',
     transform: 'translate(-50%, -50%)',
     boxShadow: `inset 0 0 0 ${rem(1)} ${theme.colorNew.trunks}`,
-    borderRadius: calcBorderRadius(
-      theme.newTokens.borderRadius.interactive,
-      theme.newTokens.borderRadius.xsmall
-    ),
+    borderRadius: theme.newTokens.borderRadius.interactive.xsmall,
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',
   },

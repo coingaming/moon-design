@@ -55,7 +55,7 @@ exports[`Banner renders in mobile mode 1`] = `
   >
     <span>
       <button
-        className="sc-jmhOSl hTpouU"
+        className="sc-jmhOSl efklXr"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -68,7 +68,7 @@ exports[`Banner renders in mobile mode 1`] = `
     </span>
     <span>
       <button
-        className="sc-jmhOSl ksePDH"
+        className="sc-jmhOSl iqgLsM"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -99,7 +99,7 @@ exports[`Banner renders in single line mode 1`] = `
       className="sc-fCdBJp qBpuG"
     >
       <button
-        className="sc-jmhOSl dhOGkz"
+        className="sc-jmhOSl jkJwDM"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -141,7 +141,7 @@ exports[`Banner renders with buttons 1`] = `
   >
     <span>
       <button
-        className="sc-jmhOSl hTpouU"
+        className="sc-jmhOSl efklXr"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -154,7 +154,7 @@ exports[`Banner renders with buttons 1`] = `
     </span>
     <span>
       <button
-        className="sc-jmhOSl ksePDH"
+        className="sc-jmhOSl iqgLsM"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -199,7 +199,7 @@ exports[`Banner renders with buttons RTL 1`] = `
     >
       <span>
         <button
-          className="sc-jmhOSl hTpouU"
+          className="sc-jmhOSl efklXr"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
@@ -212,7 +212,7 @@ exports[`Banner renders with buttons RTL 1`] = `
       </span>
       <span>
         <button
-          className="sc-jmhOSl ksePDH"
+          className="sc-jmhOSl iqgLsM"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"

@@ -5,18 +5,18 @@ exports[`Label renders with different Colours 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-dhyxXW ddYQlb"
+    className="sc-dhyxXW fwZBKw"
   >
     Xsmall
   </span>
   <span
-    className="sc-dhyxXW krRVTc"
+    className="sc-dhyxXW hYQKLz"
     color="goten.100"
   >
     Xsmall
   </span>
   <span
-    className="sc-dhyxXW ijXUbw"
+    className="sc-dhyxXW kkDWyb"
     color="goten.100"
   >
     Xsmall
@@ -32,7 +32,7 @@ exports[`Label renders with different Icons 1`] = `
     className="flex justify-around items-center w-full mb-4"
   >
     <span
-      className="sc-dhyxXW hTJbCo"
+      className="sc-dhyxXW hqBYaf"
       size="twoxsmall"
     >
       <span
@@ -58,7 +58,7 @@ exports[`Label renders with different Icons 1`] = `
       Twoxsmall
     </span>
     <span
-      className="sc-dhyxXW eeKwDQ"
+      className="sc-dhyxXW btHLoD"
       size="twoxsmall"
     >
       Twoxsmall
@@ -84,7 +84,7 @@ exports[`Label renders with different Icons 1`] = `
       </span>
     </span>
     <span
-      className="sc-dhyxXW iZEPNa"
+      className="sc-dhyxXW jZVZYF"
       size="twoxsmall"
     >
       <span
@@ -134,7 +134,7 @@ exports[`Label renders with different Icons 1`] = `
     className="flex justify-around items-center w-full"
   >
     <span
-      className="sc-dhyxXW huIVSV"
+      className="sc-dhyxXW kgYurW"
     >
       <span
         className="sc-kjMGqw fvGRVJ"
@@ -158,7 +158,7 @@ exports[`Label renders with different Icons 1`] = `
       Xsmall
     </span>
     <span
-      className="sc-dhyxXW fWsTJJ"
+      className="sc-dhyxXW byxTja"
     >
       Xsmall
       <span
@@ -182,7 +182,7 @@ exports[`Label renders with different Icons 1`] = `
       </span>
     </span>
     <span
-      className="sc-dhyxXW dHeiQv"
+      className="sc-dhyxXW bbkjIE"
     >
       <span
         className="sc-kjMGqw fvGRVJ"
@@ -233,12 +233,12 @@ exports[`Label renders with different LetterCases 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-dhyxXW ddYQlb"
+    className="sc-dhyxXW fwZBKw"
   >
     Default
   </span>
   <span
-    className="sc-dhyxXW frPziE"
+    className="sc-dhyxXW hUzgET"
   >
     Lowercase
   </span>
@@ -250,24 +250,24 @@ exports[`Label renders with different Sizes 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-dhyxXW iLHMRa"
+    className="sc-dhyxXW hqnqzd"
     size="twoxsmall"
   >
     Twoxsmall
   </span>
   <span
-    className="sc-dhyxXW ddYQlb"
+    className="sc-dhyxXW fwZBKw"
   >
     Xsmall
   </span>
   <span
-    className="sc-dhyxXW dBJWHj"
+    className="sc-dhyxXW eewSrc"
     size="twoxsmall"
   >
     Twoxsmall
   </span>
   <span
-    className="sc-dhyxXW frPziE"
+    className="sc-dhyxXW hUzgET"
   >
     Xsmall
   </span>

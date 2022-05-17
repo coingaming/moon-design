@@ -5,7 +5,7 @@ exports[`Chip renders different Sizes 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="sc-hhICeM fogaze"
+    className="sc-hhICeM kEysGZ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="small"
@@ -13,7 +13,7 @@ exports[`Chip renders different Sizes 1`] = `
     Small
   </button>
   <button
-    className="sc-hhICeM hYrPEP"
+    className="sc-hhICeM kjYrdo"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -28,7 +28,7 @@ exports[`Chip renders isActive 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="sc-hhICeM hyoloH"
+    className="sc-hhICeM hnbrys"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="small"
@@ -36,7 +36,7 @@ exports[`Chip renders isActive 1`] = `
     Active
   </button>
   <button
-    className="sc-hhICeM cvBBpe"
+    className="sc-hhICeM dNhwkJ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -54,7 +54,7 @@ exports[`Chip renders with Icons 1`] = `
     className="flex justify-around items-center w-full"
   >
     <button
-      className="sc-hhICeM kQCTPg"
+      className="sc-hhICeM cjgMiH"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -75,7 +75,7 @@ exports[`Chip renders with Icons 1`] = `
       Left Icon
     </button>
     <button
-      className="sc-hhICeM dIDGTM"
+      className="sc-hhICeM cUaOKX"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -96,7 +96,7 @@ exports[`Chip renders with Icons 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM hYuDEq"
+      className="sc-hhICeM fJVHKt"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -130,7 +130,7 @@ exports[`Chip renders with Icons 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM hYuDEq"
+      className="sc-hhICeM fJVHKt"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -163,7 +163,7 @@ exports[`Chip renders with Icons 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM cEiZeq"
+      className="sc-hhICeM kavOxp"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -187,7 +187,7 @@ exports[`Chip renders with Icons 1`] = `
     className="flex justify-around items-center w-full"
   >
     <button
-      className="sc-hhICeM gRAFUE"
+      className="sc-hhICeM gMuBOD"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -208,7 +208,7 @@ exports[`Chip renders with Icons 1`] = `
       Left Icon
     </button>
     <button
-      className="sc-hhICeM gFlGwU"
+      className="sc-hhICeM iHnQGn"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -229,7 +229,7 @@ exports[`Chip renders with Icons 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM epTPMP"
+      className="sc-hhICeM iQKWAs"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -263,7 +263,7 @@ exports[`Chip renders with Icons 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM epTPMP"
+      className="sc-hhICeM iQKWAs"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -296,7 +296,7 @@ exports[`Chip renders with Icons 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM gNvqPL"
+      className="sc-hhICeM iSpKck"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -327,7 +327,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
     className="flex justify-around items-center w-full"
   >
     <button
-      className="sc-hhICeM bjjMzG"
+      className="sc-hhICeM bsBMDB"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -348,7 +348,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       Left Icon
     </button>
     <button
-      className="sc-hhICeM hLsFnG"
+      className="sc-hhICeM XhTWV"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -369,7 +369,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM cfbHJA"
+      className="sc-hhICeM jyLyYL"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -403,7 +403,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM cfbHJA"
+      className="sc-hhICeM jyLyYL"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -436,7 +436,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM jYebfA"
+      className="sc-hhICeM gLDhVj"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
@@ -460,7 +460,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
     className="flex justify-around items-center w-full"
   >
     <button
-      className="sc-hhICeM hycAyy"
+      className="sc-hhICeM cXasfV"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -481,7 +481,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       Left Icon
     </button>
     <button
-      className="sc-hhICeM iZNefu"
+      className="sc-hhICeM djsUtx"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -502,7 +502,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM tSxRJ"
+      className="sc-hhICeM jYzNty"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -536,7 +536,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM tSxRJ"
+      className="sc-hhICeM jYzNty"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -569,7 +569,7 @@ exports[`Chip renders with Icons with stroke 1`] = `
       </svg>
     </button>
     <button
-      className="sc-hhICeM kVHfVR"
+      className="sc-hhICeM cZutku"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -597,7 +597,7 @@ exports[`Chip renders with stroke 1`] = `
   className="flex justify-around items-center w-full"
 >
   <button
-    className="sc-hhICeM jzzwag"
+    className="sc-hhICeM gveCKD"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="small"
@@ -605,7 +605,7 @@ exports[`Chip renders with stroke 1`] = `
     Stroke on hover
   </button>
   <button
-    className="sc-hhICeM jHUNOF"
+    className="sc-hhICeM gjzfcm"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"

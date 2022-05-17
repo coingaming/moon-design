@@ -9,7 +9,7 @@ const LabelContainer = styled.span<LabelProps>(
   ({ theme: { newTokens } }) => ({
     display: 'flex',
     alignItems: 'center',
-    borderRadius: newTokens.borderRadius.interactive,
+    borderRadius: newTokens.borderRadius.interactive.xsmall,
     lineHeight: rem(16),
   }),
   ({ size, iconLeft, iconRight }) => ({

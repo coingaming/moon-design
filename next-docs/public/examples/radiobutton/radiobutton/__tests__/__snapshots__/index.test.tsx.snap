@@ -25,7 +25,7 @@ exports[`Radiobutton renders 1`] = `
       className="sc-hGxJNH hXjzTc"
     >
       <div
-        className="sc-dHnBmY cajXUH"
+        className="sc-dHnBmY fSBBSP"
       />
     </span>
     <span
@@ -50,7 +50,7 @@ exports[`Radiobutton renders 1`] = `
       className="sc-hGxJNH hXjzTc"
     >
       <div
-        className="sc-dHnBmY cajXUH"
+        className="sc-dHnBmY fSBBSP"
       />
     </span>
     <span
@@ -75,7 +75,7 @@ exports[`Radiobutton renders 1`] = `
       className="sc-hGxJNH hXjzTc"
     >
       <div
-        className="sc-dHnBmY cajXUH"
+        className="sc-dHnBmY fSBBSP"
       />
     </span>
     <span
@@ -102,7 +102,7 @@ exports[`Radiobutton renders Checked 1`] = `
     className="sc-hGxJNH hXjzTc"
   >
     <div
-      className="sc-dHnBmY cajXUH"
+      className="sc-dHnBmY fSBBSP"
     />
   </span>
   <span
@@ -127,7 +127,7 @@ exports[`Radiobutton renders Disabled 1`] = `
     className="sc-hGxJNH hXjzTc"
   >
     <div
-      className="sc-dHnBmY cajXUH"
+      className="sc-dHnBmY fSBBSP"
     />
   </span>
   <span
@@ -160,7 +160,7 @@ exports[`Radiobutton renders No label 1`] = `
         className="sc-hGxJNH hXjzTc"
       >
         <div
-          className="sc-dHnBmY cajXUH"
+          className="sc-dHnBmY fSBBSP"
         />
       </span>
     </label>
@@ -196,7 +196,7 @@ exports[`Radiobutton renders RTL 1`] = `
         className="sc-hGxJNH hXjzTc"
       >
         <div
-          className="sc-dHnBmY cajXUH"
+          className="sc-dHnBmY fSBBSP"
         />
       </span>
       <span
@@ -221,7 +221,7 @@ exports[`Radiobutton renders RTL 1`] = `
         className="sc-hGxJNH hXjzTc"
       >
         <div
-          className="sc-dHnBmY cajXUH"
+          className="sc-dHnBmY fSBBSP"
         />
       </span>
       <span
@@ -246,7 +246,7 @@ exports[`Radiobutton renders RTL 1`] = `
         className="sc-hGxJNH hXjzTc"
       >
         <div
-          className="sc-dHnBmY cajXUH"
+          className="sc-dHnBmY fSBBSP"
         />
       </span>
       <span

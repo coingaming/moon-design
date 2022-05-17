@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const ExampleContent = styled.div(({ theme: { color, newTokens } }) => ({
   width: rem(320),
   height: rem(192),
-  borderRadius: newTokens.borderRadius.xsmall,
+  borderRadius: newTokens.borderRadius.surface.xsmall,
   background: color.goku[80],
   display: 'flex',
   alignItems: 'center',

@@ -1,5 +1,4 @@
 import { SharedTheme, ColorProps } from '@heathmont/moon-themes';
-
 import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Size from '../../private/enums/Size';
@@ -33,13 +32,17 @@ const makeBorderRadius = (
 ) => {
   return {
     borderTopLeftRadius:
-      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.large,
+      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.interactive.medium,
     borderTopRightRadius:
-      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.large,
+      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.interactive.medium,
     borderBottomLeftRadius:
-      isSharpLeftSide || isSharpBottomSide ? 0 : borderRadius.large,
+      isSharpLeftSide || isSharpBottomSide
+        ? 0
+        : borderRadius.interactive.medium,
     borderBottomRightRadius:
-      isSharpRightSide || isSharpBottomSide ? 0 : borderRadius.large,
+      isSharpRightSide || isSharpBottomSide
+        ? 0
+        : borderRadius.interactive.medium,
   };
 };
 
@@ -138,11 +141,11 @@ const Input = styled.input.attrs(({ type }) => ({
         } inset, 0 0 0 ${border.width.interactive} ${
           !error ? colorNew.beerus : colorNew.chiChi[100]
         } inset`,
-        borderRadius: borderRadius.large,
+        borderRadius: borderRadius.interactive.medium,
       },
       '&:focus:not([readonly])': {
         outline: 'none',
-        borderRadius: borderRadius.large,
+        borderRadius: borderRadius.interactive.medium,
         boxShadow: `0 0 0 ${border.width.interactive} ${
           !error ? colorNew.piccolo : colorNew.chiChi[100]
         } inset`,

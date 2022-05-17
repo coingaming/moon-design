@@ -15,13 +15,13 @@ const makeBorderRadius = (
   }
   return {
     borderTopLeftRadius:
-      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.large,
+      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.surface.medium,
     borderTopRightRadius:
-      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.large,
+      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.surface.medium,
     borderBottomLeftRadius:
-      isSharpLeftSide || isSharpBottomSide ? 0 : borderRadius.large,
+      isSharpLeftSide || isSharpBottomSide ? 0 : borderRadius.surface.medium,
     borderBottomRightRadius:
-      isSharpRightSide || isSharpBottomSide ? 0 : borderRadius.large,
+      isSharpRightSide || isSharpBottomSide ? 0 : borderRadius.surface.medium,
   };
 };
 
@@ -155,7 +155,7 @@ const CustomStyles: StylesConfig = {
         : {}),
       paddingInlineStart: rem(8),
       border: 'none !important',
-      borderRadius: theme.newTokens.borderRadius.large,
+      borderRadius: theme.newTokens.borderRadius.surface.medium,
       boxShadow: customProps.isError
         ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.chiChi[100]}`
         : state.isFocused
@@ -189,7 +189,7 @@ const CustomStyles: StylesConfig = {
           ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.piccolo}`
           : `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.hover.primary}, inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.beerus}`,
         cursor: 'pointer',
-        borderRadius: theme.newTokens.borderRadius.large,
+        borderRadius: theme.newTokens.borderRadius.surface.medium,
       },
     };
   },

@@ -1,5 +1,5 @@
 import { ColorNames } from '@heathmont/moon-themes';
-import { themed } from '@heathmont/moon-utils';
+import { rem, themed } from '@heathmont/moon-utils';
 import rgba from 'polished/lib/color/rgba';
 import styled from 'styled-components';
 import { TableVariant } from '../Table';
@@ -38,7 +38,7 @@ const TableWrapper = styled.div<{
     '::-webkit-scrollbar-thumb': {
       backgroundColor: 'transparent',
       backgroundClip: 'content-box' /* [3] */,
-      borderRadius: theme.newTokens.borderRadius.full,
+      borderRadius: rem(9999),
       border: '3px solid transparent' /* [3] */,
     },
     ':hover::-webkit-scrollbar-thumb': {
