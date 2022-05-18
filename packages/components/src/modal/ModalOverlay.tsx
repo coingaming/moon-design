@@ -7,6 +7,7 @@ type Props = {
   glassBackground?: boolean;
   handleClose?: () => void;
   showUnmountAnimation?: boolean;
+  children?: React.ReactNode;
 };
 
 const fadeOpen = keyframes`

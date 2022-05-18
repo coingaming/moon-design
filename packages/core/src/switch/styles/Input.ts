@@ -1,37 +1,24 @@
-import React from "react";
-import {rem} from "@heathmont/moon-utils";
-import hideVisually from "polished/lib/mixins/hideVisually";
-import styled from "styled-components";
-import {Size} from "../private/Size";
+import React from 'react';
+import { rem } from '@heathmont/moon-utils';
+import hideVisually from 'polished/lib/mixins/hideVisually';
+import styled from 'styled-components';
+import SliderProps from '../private/types/SliderProps';
+import setTransform from '../private/utils/setTransform';
 
-const Input = styled.input<{
-  switchWidth: string;
-  colorScheme?: boolean;
-  isRtl?: boolean;
-  checked?: boolean;
-  disabled?: boolean;
-  size?: Size;
-  button?: boolean;
-}>(
-  ({ colorScheme, isRtl, theme: { color, space }, size, button, switchWidth }) => ({
+const Input = styled.input<SliderProps>(
+  ({ colorScheme, isRtl, theme: { colorNew }, size, button, switchWidth }) => ({
     ...hideVisually(),
     '&:checked + span': {
-      backgroundColor: colorScheme ? undefined : color.piccolo[100],
+      backgroundColor: colorScheme ? undefined : colorNew.piccolo,
       '&::before': {
-        backgroundColor: colorScheme ? undefined : color.goten[100],
-        left: rem(space.xsmall),
+        backgroundColor: colorScheme ? undefined : colorNew.goten,
+        left: rem(4),
         right: 'initial',
-        transform: isRtl
-          ? `translateX(calc(${switchWidth} / ${
-            size === '2xs' ? 2.4 : size || button ? 2.15 : 2
-          }) * -1)`
-          : `translateX(calc(${switchWidth} / ${
-            size === '2xs' ? 2.4 : size || button ? 2.15 : 2
-          }))`,
+        transform: setTransform({ isRtl, size, switchWidth, button }),
       },
     },
   })
-) as React.FC<{}>;
+) as React.FC;
 
 Input.defaultProps = {
   type: 'checkbox',

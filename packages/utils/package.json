@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-utils",
   "sideEffects": false,
-  "version": "8.9.0",
+  "version": "9.0.1",
   "files": [
     "lib"
   ],
@@ -20,7 +20,7 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-themes": "workspace:^8.9.0",
+    "@heathmont/moon-themes": "workspace:^9.0.1",
     "lodash.get": "4.4.2",
     "lodash.has": "4.5.2",
     "polished": "4.1.4"
@@ -30,8 +30,8 @@
     "@types/lodash.has": "4.5.6"
   },
   "peerDependencies": {
-    "react": ">= 17.0.2",
-    "react-dom": ">= 17.0.2",
+    "react": ">= 18.0.0",
+    "react-dom": ">= 18.0.0",
     "styled-components": ">= 5.3.5"
   }
 }

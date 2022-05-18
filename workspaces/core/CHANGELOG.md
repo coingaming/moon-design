@@ -1,5 +1,17 @@
 # @heathmont/moon-core-tw
 
+## 9.0.1
+
+### Patch Changes
+
+- Bump corrupted 9.0.0
+
+## 9.0.0
+
+### Major Changes
+
+- React 18
+
 ## 8.9.0
 
 ### Minor Changes

@@ -30,6 +30,7 @@ type LabelProps = LabelSizing & {
   inline?: boolean;
   htmlFor?: string;
   dir?: 'ltr' | 'rtl' | 'auto';
+  children?: React.ReactNode;
 };
 
 /**

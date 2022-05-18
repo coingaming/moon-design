@@ -5,15 +5,15 @@ exports[`Header renders 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-eZgkGA kSVBZj"
+    className="sc-gZVZiL hfUJQC"
   >
     <div
-      className="sc-kxCoLp dQXiSD"
+      className="sc-EmgEd fpAlNe"
     >
       Title
     </div>
     <div
-      className="sc-ciicml dxwVFV"
+      className="sc-dhyxXW loxdXK"
     />
   </div>
 </div>
@@ -24,10 +24,10 @@ exports[`Header renders with back button 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-eZgkGA kSVBZj"
+    className="sc-gZVZiL hfUJQC"
   >
     <div
-      className="sc-dvogsP cPeQgc"
+      className="sc-keiIcO gPGQrT"
     >
       <svg
         className="sc-kDDrLX"
@@ -47,12 +47,12 @@ exports[`Header renders with back button 1`] = `
       </svg>
     </div>
     <div
-      className="sc-kxCoLp dQXiSD"
+      className="sc-EmgEd fpAlNe"
     >
       Title
     </div>
     <div
-      className="sc-ciicml dxwVFV"
+      className="sc-dhyxXW loxdXK"
     />
   </div>
 </div>
@@ -63,18 +63,18 @@ exports[`Header renders with close button 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-eZgkGA kSVBZj"
+    className="sc-gZVZiL hfUJQC"
   >
     <div
-      className="sc-kxCoLp dQXiSD"
+      className="sc-EmgEd fpAlNe"
     >
       Title
     </div>
     <div
-      className="sc-ciicml dxwVFV"
+      className="sc-dhyxXW loxdXK"
     >
       <div
-        className="sc-kSmoGW dviFUa"
+        className="sc-laFCIP dNLphx"
       >
         <svg
           className="sc-jgbSNz"
@@ -103,18 +103,18 @@ exports[`Header renders with icons 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-eZgkGA kSVBZj"
+    className="sc-gZVZiL hfUJQC"
   >
     <div
-      className="sc-kxCoLp dQXiSD"
+      className="sc-EmgEd fpAlNe"
     >
       Title
     </div>
     <div
-      className="sc-ciicml dxwVFV"
+      className="sc-dhyxXW loxdXK"
     >
       <span
-        className="sc-gFeNAA eIuugr"
+        className="sc-ibkoSk gzAmhO"
       >
         <svg
           className="sc-jhzXDd"
@@ -132,7 +132,7 @@ exports[`Header renders with icons 1`] = `
         </svg>
       </span>
       <span
-        className="sc-gFeNAA eIuugr"
+        className="sc-ibkoSk gzAmhO"
       >
         <svg
           className="sc-iqGgem"
@@ -161,15 +161,15 @@ exports[`Header renders with is divider 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-eZgkGA bemxGa"
+    className="sc-gZVZiL iSWUWr"
   >
     <div
-      className="sc-kxCoLp dQXiSD"
+      className="sc-EmgEd fpAlNe"
     >
       Title
     </div>
     <div
-      className="sc-ciicml dxwVFV"
+      className="sc-dhyxXW loxdXK"
     />
   </div>
 </div>

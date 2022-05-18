@@ -8,10 +8,10 @@ exports[`List Item renders Single Line Item 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-EmgEd dyfAOJ"
+      className="sc-bgnbwU iwBXnY"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Single line item
       </div>
@@ -21,10 +21,10 @@ exports[`List Item renders Single Line Item 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-EmgEd ezEjVq"
+      className="sc-bgnbwU foWEdT"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Single line item
       </div>
@@ -41,10 +41,10 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-EmgEd ezEjVq"
+      className="sc-bgnbwU foWEdT"
     >
       <span
-        className="sc-jNxMLV kHTmCq"
+        className="sc-bQRcPC fwNMpU"
       >
         <svg
           className="sc-dvwKko"
@@ -62,7 +62,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         </svg>
       </span>
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Single line item
       </div>
@@ -72,64 +72,15 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-EmgEd ezEjVq"
+      className="sc-bgnbwU foWEdT"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Single line item
       </div>
       <span
-        className="sc-ctuRtO eNdrfL"
-      >
-        <svg
-          className="sc-dvwKko"
-          fill="none"
-          fontSize="1.4375rem"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12.337 25.5H7.855c-.752 0-1.36-.614-1.355-1.367l.062-8.143a1.356 1.356 0 011.355-1.347h4.42m0 10.857h9.326c.635 0 1.184-.442 1.322-1.063l2.482-9.708a1.357 1.357 0 00-1.323-1.652h-3.781c-.854 0-1.524-.573-1.359-1.412l.7-3.545a1.357 1.357 0 00-1.33-1.62h-.266c-.482 0-.928.256-1.17.673l-4.6 7.47m0 10.857V14.643"
-            stroke="currentColor"
-          />
-        </svg>
-      </span>
-    </div>
-  </div>
-  <div
-    className="m-0.5 min-w-full sm:min-w-min"
-  >
-    <div
-      className="sc-EmgEd ezEjVq"
-    >
-      <span
-        className="sc-jNxMLV kHTmCq"
-      >
-        <svg
-          className="sc-dvwKko"
-          fill="none"
-          fontSize="1.4375rem"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M12.337 25.5H7.855c-.752 0-1.36-.614-1.355-1.367l.062-8.143a1.356 1.356 0 011.355-1.347h4.42m0 10.857h9.326c.635 0 1.184-.442 1.322-1.063l2.482-9.708a1.357 1.357 0 00-1.323-1.652h-3.781c-.854 0-1.524-.573-1.359-1.412l.7-3.545a1.357 1.357 0 00-1.33-1.62h-.266c-.482 0-.928.256-1.17.673l-4.6 7.47m0 10.857V14.643"
-            stroke="currentColor"
-          />
-        </svg>
-      </span>
-      <div
-        className="sc-iRaSfU cfGOUX"
-      >
-        Single line item
-      </div>
-      <span
-        className="sc-ctuRtO eNdrfL"
+        className="sc-ewgOdx dFjOPa"
       >
         <svg
           className="sc-dvwKko"
@@ -152,15 +103,64 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-EmgEd fQNIVl"
+      className="sc-bgnbwU foWEdT"
     >
+      <span
+        className="sc-bQRcPC fwNMpU"
+      >
+        <svg
+          className="sc-dvwKko"
+          fill="none"
+          fontSize="1.4375rem"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.337 25.5H7.855c-.752 0-1.36-.614-1.355-1.367l.062-8.143a1.356 1.356 0 011.355-1.347h4.42m0 10.857h9.326c.635 0 1.184-.442 1.322-1.063l2.482-9.708a1.357 1.357 0 00-1.323-1.652h-3.781c-.854 0-1.524-.573-1.359-1.412l.7-3.545a1.357 1.357 0 00-1.33-1.62h-.266c-.482 0-.928.256-1.17.673l-4.6 7.47m0 10.857V14.643"
+            stroke="currentColor"
+          />
+        </svg>
+      </span>
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Single line item
       </div>
       <span
-        className="sc-ibkoSk beNUiD"
+        className="sc-ewgOdx dFjOPa"
+      >
+        <svg
+          className="sc-dvwKko"
+          fill="none"
+          fontSize="1.4375rem"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.337 25.5H7.855c-.752 0-1.36-.614-1.355-1.367l.062-8.143a1.356 1.356 0 011.355-1.347h4.42m0 10.857h9.326c.635 0 1.184-.442 1.322-1.063l2.482-9.708a1.357 1.357 0 00-1.323-1.652h-3.781c-.854 0-1.524-.573-1.359-1.412l.7-3.545a1.357 1.357 0 00-1.33-1.62h-.266c-.482 0-.928.256-1.17.673l-4.6 7.47m0 10.857V14.643"
+            stroke="currentColor"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>
+  <div
+    className="m-0.5 min-w-full sm:min-w-min"
+  >
+    <div
+      className="sc-bgnbwU jCOeVg"
+    >
+      <div
+        className="sc-fJoEar iflOSw"
+      >
+        Single line item
+      </div>
+      <span
+        className="sc-ccJWcV lmWuGI"
       >
         Meta
       </span>
@@ -177,10 +177,10 @@ exports[`List Item renders Single Line Item with differen Sizes 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-EmgEd ezEjVq"
+      className="sc-bgnbwU foWEdT"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Large
       </div>
@@ -190,11 +190,11 @@ exports[`List Item renders Single Line Item with differen Sizes 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-EmgEd eylSww"
+      className="sc-bgnbwU fcYrAt"
       size="medium"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Medium
       </div>
@@ -211,18 +211,18 @@ exports[`List Item renders Two Line Items 1`] = `
     className="min-w-full sm:min-w-min mb-2"
   >
     <div
-      className="sc-EmgEd dyfAOJ"
+      className="sc-bgnbwU iwBXnY"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Two lines item
       </div>
       <div
-        className="sc-laFCIP fnxBoc"
+        className="sc-bhpuBD dSsXgQ"
       >
         <div
-          className="sc-keiIcO kcbkaV"
+          className="sc-kSzVC hUKGUI"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </div>
@@ -233,18 +233,18 @@ exports[`List Item renders Two Line Items 1`] = `
     className="sm:w-96"
   >
     <div
-      className="sc-EmgEd ezEjVq"
+      className="sc-bgnbwU foWEdT"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Two lines item
       </div>
       <div
-        className="sc-laFCIP fnxBoc"
+        className="sc-bhpuBD dSsXgQ"
       >
         <div
-          className="sc-keiIcO kcbkaV"
+          className="sc-kSzVC hUKGUI"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </div>
@@ -262,43 +262,43 @@ exports[`List Item renders Two Line Items with Checkbox 1`] = `
     className="w-72 m-0.5"
   >
     <div
-      className="sc-EmgEd dyfAOJ"
+      className="sc-bgnbwU iwBXnY"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Two lines item
       </div>
       <span
-        className="sc-ctuRtO eNdrfL"
+        className="sc-ewgOdx dFjOPa"
       >
         <label
-          className="sc-eZkcaX iVvJBb"
+          className="sc-gFeNAA fnPTuj"
         >
           <input
-            className="sc-hQikvm eJmwLN"
+            className="sc-kxCoLp hxbKpC"
             onClick={[Function]}
             type="checkbox"
           />
           <div
-            className="sc-hZiMVj fzhDfN"
+            className="sc-ciicml bpqhVu"
           >
             <span
-              className="sc-dDaJoQ kZibGa"
+              className="sc-eZgkGA kLWXuq"
             >
               <div
                 checked={false}
-                className="sc-McAUB bUcIWF"
+                className="sc-iDRUQT iHmewq"
               />
             </span>
           </div>
         </label>
       </span>
       <div
-        className="sc-laFCIP fnxBoc"
+        className="sc-bhpuBD dSsXgQ"
       >
         <div
-          className="sc-keiIcO kcbkaV"
+          className="sc-kSzVC hUKGUI"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </div>
@@ -316,10 +316,10 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
     className="w-72 m-0.5"
   >
     <div
-      className="sc-EmgEd ezEjVq"
+      className="sc-bgnbwU foWEdT"
     >
       <span
-        className="sc-jNxMLV kHTmCq"
+        className="sc-bQRcPC fwNMpU"
       >
         <svg
           className="sc-dvwKko"
@@ -337,15 +337,15 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         </svg>
       </span>
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Two lines item
       </div>
       <div
-        className="sc-laFCIP fnxBoc"
+        className="sc-bhpuBD dSsXgQ"
       >
         <div
-          className="sc-keiIcO kcbkaV"
+          className="sc-kSzVC hUKGUI"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </div>
@@ -356,15 +356,15 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
     className="w-72 m-0.5"
   >
     <div
-      className="sc-EmgEd ezEjVq"
+      className="sc-bgnbwU foWEdT"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Two lines item
       </div>
       <span
-        className="sc-ctuRtO eNdrfL"
+        className="sc-ewgOdx dFjOPa"
       >
         <svg
           className="sc-dvwKko"
@@ -382,10 +382,10 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         </svg>
       </span>
       <div
-        className="sc-laFCIP fnxBoc"
+        className="sc-bhpuBD dSsXgQ"
       >
         <div
-          className="sc-keiIcO kcbkaV"
+          className="sc-kSzVC hUKGUI"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </div>
@@ -396,10 +396,10 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
     className="w-72 m-0.5"
   >
     <div
-      className="sc-EmgEd ezEjVq"
+      className="sc-bgnbwU foWEdT"
     >
       <span
-        className="sc-jNxMLV kHTmCq"
+        className="sc-bQRcPC fwNMpU"
       >
         <svg
           className="sc-dvwKko"
@@ -417,12 +417,12 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         </svg>
       </span>
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Two lines item
       </div>
       <span
-        className="sc-ctuRtO eNdrfL"
+        className="sc-ewgOdx dFjOPa"
       >
         <svg
           className="sc-dvwKko"
@@ -440,10 +440,10 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         </svg>
       </span>
       <div
-        className="sc-laFCIP fnxBoc"
+        className="sc-bhpuBD dSsXgQ"
       >
         <div
-          className="sc-keiIcO kcbkaV"
+          className="sc-kSzVC hUKGUI"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </div>
@@ -454,23 +454,23 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
     className="w-72 m-0.5"
   >
     <div
-      className="sc-EmgEd fQNIVl"
+      className="sc-bgnbwU jCOeVg"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Two lines item
       </div>
       <span
-        className="sc-ibkoSk beNUiD"
+        className="sc-ccJWcV lmWuGI"
       >
         Meta
       </span>
       <div
-        className="sc-laFCIP fnxBoc"
+        className="sc-bhpuBD dSsXgQ"
       >
         <div
-          className="sc-keiIcO kcbkaV"
+          className="sc-kSzVC hUKGUI"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </div>
@@ -488,18 +488,18 @@ exports[`List Item renders Two Line Items with different Sizes 1`] = `
     className="m-0.5"
   >
     <div
-      className="sc-EmgEd ezEjVq"
+      className="sc-bgnbwU foWEdT"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Large
       </div>
       <div
-        className="sc-laFCIP fnxBoc"
+        className="sc-bhpuBD dSsXgQ"
       >
         <div
-          className="sc-keiIcO kcbkaV"
+          className="sc-kSzVC hUKGUI"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </div>
@@ -510,19 +510,19 @@ exports[`List Item renders Two Line Items with different Sizes 1`] = `
     className="m-0.5"
   >
     <div
-      className="sc-EmgEd eylSww"
+      className="sc-bgnbwU fcYrAt"
       size="medium"
     >
       <div
-        className="sc-iRaSfU cfGOUX"
+        className="sc-fJoEar iflOSw"
       >
         Medium
       </div>
       <div
-        className="sc-laFCIP fnxBoc"
+        className="sc-bhpuBD dSsXgQ"
       >
         <div
-          className="sc-keiIcO kcbkaV"
+          className="sc-kSzVC hUKGUI"
         >
           Lorem Ipsum is simply dummy text of the printing and typesetting industry
         </div>

@@ -10,7 +10,7 @@ import TextInputTypes from './private/types/TextInputTypes';
 export interface TextInputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
-  inputSize: TextInputSizeType | string;
+  inputSize?: TextInputSizeType | string;
   type: TextInputTypes | string;
   label?: JSX.Element | string;
   placeholder?: string;
@@ -28,7 +28,7 @@ export interface TextInputProps
 }
 
 const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
-  const { inputSize, type } = props;
+  const { inputSize = Size.MEDIUM, type } = props;
 
   // render input with show/hide password
   if (type === 'password') {
