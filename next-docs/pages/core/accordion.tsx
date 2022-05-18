@@ -12,7 +12,7 @@ const Example = () => (
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Test accordion">
-          <div>
+          <div className="text-moon-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -29,7 +29,7 @@ const Example = () => (
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Test accordion" openByDefault={true}>
-          <div>
+          <div className="text-moon-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -46,7 +46,7 @@ const Example = () => (
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Test accordion" withButton={false}>
-          <div>
+          <div className="text-moon-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -63,7 +63,7 @@ const Example = () => (
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Test accordion" disableOpen={true}>
-          <div>
+          <div className="text-moon-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -80,7 +80,7 @@ const Example = () => (
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Test accordion" isContentInside={false}>
-          <div>
+          <div className="text-moon-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -97,7 +97,7 @@ const Example = () => (
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Test accordion" isContentInside={false}>
-          <div>
+          <div className="text-moon-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -124,7 +124,7 @@ const Example = () => (
             </div>
           }
         >
-          <div>
+          <div className="text-moon-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -141,7 +141,7 @@ const Example = () => (
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex flex-col gap-y-3">
         <Accordion title="X Large (Default)" size="xlarge">
-          <div>
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -153,7 +153,7 @@ const Example = () => (
         </Accordion>
 
         <Accordion title="Large" size="large">
-          <div>
+          <div className="text-moon-14">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -165,7 +165,7 @@ const Example = () => (
         </Accordion>
 
         <Accordion title="Medium" size="medium">
-          <div>
+          <div className="text-moon-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -177,7 +177,7 @@ const Example = () => (
         </Accordion>
 
         <Accordion title="Small" size="small">
-          <div>
+          <div className="text-moon-10">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -195,12 +195,8 @@ const Example = () => (
     </section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex flex-col gap-y-3">
-        <Accordion
-          title="X Large (Default)"
-          size="xlarge"
-          isContentInside={false}
-        >
-          <div>
+        <Accordion title="X Large" size="xlarge" isContentInside={false}>
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -212,7 +208,7 @@ const Example = () => (
         </Accordion>
 
         <Accordion title="Large" size="large" isContentInside={false}>
-          <div>
+          <div className="text-moon-14">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -223,8 +219,12 @@ const Example = () => (
           </div>
         </Accordion>
 
-        <Accordion title="Medium" size="medium" isContentInside={false}>
-          <div>
+        <Accordion
+          title="Medium (Default)"
+          size="medium"
+          isContentInside={false}
+        >
+          <div className="text-moon-12">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -236,7 +236,7 @@ const Example = () => (
         </Accordion>
 
         <Accordion title="Small" size="small" isContentInside={false}>
-          <div>
+          <div className="text-moon-10">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
