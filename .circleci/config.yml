@@ -21,10 +21,10 @@ aliases:
       name: 'Saving cache'
       key: project-deps-v4-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
       paths:
-        - .pnpm-store/node_modules
-        - .pnpm-store/packages/*/node_modules/*
-        - .pnpm-store/workspaces/*/node_modules/*
-        - .pnpm-store/next-docs/node_modules/*
+        - node_modules
+        - packages/*/node_modules/*
+        - workspaces/*/node_modules/*
+        - next-docs/node_modules/*
 
   install_npm_token: &install_npm_token
     run:
