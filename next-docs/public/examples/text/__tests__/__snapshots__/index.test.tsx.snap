@@ -2,7 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <p
-  className="sc-jveewi gpoJqT"
+  className="sc-cQIpJi grZAKh"
 >
   Text
 </p>
@@ -13,24 +13,24 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-jveewi gpoJqT"
+    className="sc-cQIpJi grZAKh"
   >
     Default color is Bulma
   </p>
   <p
-    className="sc-jveewi fUaJZS"
+    className="sc-cQIpJi bcuSGs"
     color="piccolo.100"
   >
     Piccolo
   </p>
   <p
-    className="sc-jveewi RhtJk"
+    className="sc-cQIpJi jfVvGS"
     color="trunks.100"
   >
     Trunks
   </p>
   <p
-    className="sc-jveewi lfkitO"
+    className="sc-cQIpJi bjPfwM"
     color="krillin.100"
   >
     Krillin
@@ -43,12 +43,12 @@ exports[`Caption renders font-weight 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-jveewi gpoJqT"
+    className="sc-cQIpJi grZAKh"
   >
     Default font-weight is regular
   </p>
   <p
-    className="sc-jveewi foieSh"
+    className="sc-cQIpJi gDInrz"
   >
     Font-weight is bold
   </p>
@@ -60,12 +60,12 @@ exports[`Caption renders line height 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-jveewi gpoJqT"
+    className="sc-cQIpJi grZAKh"
   >
     Line-height is pre-calculated
   </p>
   <p
-    className="sc-jveewi eJaKOi"
+    className="sc-cQIpJi hfwaac"
   >
     Custon line-height
   </p>
@@ -77,17 +77,17 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-jveewi gpoJqT"
+    className="sc-cQIpJi grZAKh"
   >
     Paragraph is a default tag
   </p>
   <span
-    className="sc-jveewi gpoJqT"
+    className="sc-cQIpJi grZAKh"
   >
     Span tag
   </span>
   <label
-    className="sc-jveewi gpoJqT"
+    className="sc-cQIpJi grZAKh"
   >
     Label tag
   </label>
@@ -99,18 +99,18 @@ exports[`Caption renders sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-jveewi gpoJqT"
+    className="sc-cQIpJi grZAKh"
   >
     Default font-size is 16px
   </p>
   <p
-    className="sc-jveewi gQCjCE"
+    className="sc-cQIpJi kqIOme"
     size={24}
   >
     Size is 24px
   </p>
   <p
-    className="sc-jveewi fzBBKM"
+    className="sc-cQIpJi CJvwe"
     size={48}
   >
     Size is 48px
@@ -123,17 +123,17 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-jveewi gpoJqT"
+    className="sc-cQIpJi grZAKh"
   >
     Text-align is not specified
   </p>
   <p
-    className="sc-jveewi ggbjQY"
+    className="sc-cQIpJi ivIGde"
   >
     Centered Text
   </p>
   <p
-    className="sc-jveewi cVHVPD"
+    className="sc-cQIpJi fXRymB"
   >
     Right alignment
   </p>
@@ -145,12 +145,12 @@ exports[`Caption renders underline 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-jveewi gpoJqT"
+    className="sc-cQIpJi grZAKh"
   >
     Default text-decoration is none
   </p>
   <p
-    className="sc-jveewi dZNXay"
+    className="sc-cQIpJi enwgBM"
   >
     Underline Text
   </p>
@@ -162,12 +162,12 @@ exports[`Caption renders uppercase 1`] = `
   className="flex justify-around w-full items-center"
 >
   <p
-    className="sc-jveewi gpoJqT"
+    className="sc-cQIpJi grZAKh"
   >
     Default text-transform is none
   </p>
   <p
-    className="sc-jveewi ciKquM"
+    className="sc-cQIpJi jJyENq"
   >
     Uppercase Text
   </p>

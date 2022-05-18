@@ -9,6 +9,7 @@ export interface BadgeProps {
   iconLeft?: React.ReactElement;
   iconRight?: React.ReactElement;
   size?: 'small';
+  children?: React.ReactNode;
 }
 
 const IconRightWrapper = styled.span<BadgeProps>(
