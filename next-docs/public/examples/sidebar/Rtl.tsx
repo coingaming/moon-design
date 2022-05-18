@@ -6,17 +6,17 @@ import {
   ShopCryptoCoin,
 } from '@heathmont/moon-icons';
 import { Inline } from '@heathmont/moon-components';
-import { rem } from "@heathmont/moon-utils";
+import { rem } from '@heathmont/moon-utils';
 
 const Example = () => {
   return (
     <>
       <Sidebar
-        collapseIcon={<ControlsChevronLeft fontSize={rem(23)}/>}
-        expandIcon={<ControlsChevronRight fontSize={rem(23)}/>}
+        collapseIcon={<ControlsChevronLeft fontSize={rem(24)} />}
+        expandIcon={<ControlsChevronRight fontSize={rem(24)} />}
         logo={
           <Inline fontSize="2rem">
-            <ShopCryptoCoin color='krillin.100'/>
+            <ShopCryptoCoin color="krillin.100" />
           </Inline>
         }
         isOpen={false}

@@ -37,10 +37,10 @@ export const AccordionHeader = styled.div<{ disabled?: boolean }>(
 );
 
 export const AccordionToggle = styled.button(
-  ({ theme: { colorNew, newTokens }, disabled }) => ({
-    padding: newTokens.space.twoxsmall,
+  ({ theme: { colorNew }, disabled }) => ({
+    padding: rem(8),
     verticalAlign: 'middle',
-    fontSize: newTokens.space.twoxsmall,
+    fontSize: rem(8),
     lineHeight: 0,
     textDecoration: 'none',
     cursor: disabled ? 'not-allowed' : 'pointer',

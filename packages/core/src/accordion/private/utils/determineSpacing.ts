@@ -1,21 +1,17 @@
-import { SharedTheme } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
 import Size from '../Size';
 
-const determineSpacing = (
-  newTokens: SharedTheme['newTokens'],
-  isContentInside?: boolean,
-  size?: Size
-) => {
+const determineSpacing = (isContentInside?: boolean, size?: Size) => {
   if (isContentInside) {
     switch (size) {
       case 'large':
-        return newTokens.space.xsmall;
+        return rem(12);
       case 'medium':
-        return newTokens.space.twoxsmall;
+        return rem(8);
       case 'small':
-        return newTokens.space.threexsmall;
+        return rem(4);
       default:
-        return newTokens.space.small;
+        return rem(16);
     }
   }
   return 0;

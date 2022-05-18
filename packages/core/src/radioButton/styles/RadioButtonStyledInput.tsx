@@ -1,8 +1,8 @@
 import React from 'react';
 import { ColorValue, Theme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
-import { lighten } from "polished";
-import styled, {css, keyframes} from 'styled-components';
+import { lighten } from 'polished';
+import styled, { css, keyframes } from 'styled-components';
 
 /**
  * Animation
@@ -47,20 +47,20 @@ type InputColors = {
 
 const inputColors =
   (key: keyof InputColors) =>
-    ({ color, colorNew }: Theme) => {
-      const themedColor: InputColors = {
-        label: colorNew.trunks,
-        text: colorNew.bulma,
-        icon: colorNew.trunks,
-        placeholder: colorNew.trunks,
-        borderDefault: colorNew.beerus,
-        borderHover: color.goku[40],
-        background: colorNew.gohan,
-        disabled: color.goku[80],
-      };
-
-      return themedColor[key];
+  ({ color, colorNew }: Theme) => {
+    const themedColor: InputColors = {
+      label: colorNew.trunks,
+      text: colorNew.bulma,
+      icon: colorNew.trunks,
+      placeholder: colorNew.trunks,
+      borderDefault: colorNew.beerus,
+      borderHover: color.goku[40],
+      background: colorNew.gohan,
+      disabled: color.goku[80],
     };
+
+    return themedColor[key];
+  };
 
 const Content = styled.span(({ theme }) => ({
   display: 'flex',
@@ -74,10 +74,10 @@ const Content = styled.span(({ theme }) => ({
   minHeight: rem(24),
   position: 'relative',
   transition: 'background-color 0.4s',
-  marginRight: theme.newTokens.space.threexsmall,
+  marginRight: rem(4),
   zIndex: 2,
   '&:hover': {
-    backgroundColor: 'rgba(0, 0, 0, 0.08)'
+    backgroundColor: 'rgba(0, 0, 0, 0.08)',
   },
   '&::before': {
     content: '""',
@@ -90,7 +90,7 @@ const Content = styled.span(({ theme }) => ({
     transition: 'all .3s',
     borderRadius: '50%',
     backgroundColor: theme.colorNew.piccolo,
-    zIndex: 2
+    zIndex: 2,
   },
   '&::after': {
     content: '""',
@@ -117,19 +117,28 @@ const Animation = styled.div<{ animate?: boolean }>`
   border-radius: ${({ theme }) => theme.newTokens.borderRadius.full};
   z-index: 1;
   transform: translate(-50%, -50%) scale(0);
-  background-color: ${({ theme }) => css`${lighten(0.4, theme.colorNew.piccolo)}`};
-  opacity: ${({ theme }) => css`${theme.newTokens.opacity}`};
+  background-color: ${({ theme }) =>
+    css`
+      ${lighten(0.4, theme.colorNew.piccolo)}
+    `};
+  opacity: ${({ theme }) =>
+    css`
+      ${theme.newTokens.opacity}
+    `};
   animation: ${({ animate }) =>
     animate
-    ? css`${explode} .7s cubic-bezier(0.7, 0.7, 0.7, 1)`
-    : 'none'
-  };
+      ? css`
+          ${explode} .7s cubic-bezier(0.7, 0.7, 0.7, 1)
+        `
+      : 'none'};
 `;
 
 const RadioButtonStyledInput: React.FC<Props> = ({ animate }) => {
-  return (<Content>
-    <Animation animate={animate} />
-  </Content>);
+  return (
+    <Content>
+      <Animation animate={animate} />
+    </Content>
+  );
 };
 
 export default RadioButtonStyledInput;

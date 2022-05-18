@@ -19,11 +19,8 @@ const Container = styled.span<Props>(
     borderRadius: newTokens.borderRadius.full,
     letterSpacing: rem(1), // TODO
   }),
-  ({ size, theme: { newTokens } }) => ({
-    padding:
-      size === 'small'
-        ? `0 ${newTokens.space.threexsmall}`
-        : `0 ${newTokens.space.twoxsmall}`,
+  ({ size }) => ({
+    padding: size === 'small' ? `0 ${rem(4)}` : `0 ${rem(8)}`,
     fontSize: size === 'small' ? rem(8) : rem(10),
     lineHeight: size === 'small' ? rem(12) : rem(16),
   }),

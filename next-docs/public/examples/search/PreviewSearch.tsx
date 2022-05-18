@@ -2,17 +2,17 @@ import React from 'react';
 import styled from 'styled-components';
 import { Search } from '@heathmont/moon-core';
 import { GenericUser } from '@heathmont/moon-icons';
-import { rem } from "@heathmont/moon-utils";
+import { rem } from '@heathmont/moon-utils';
 
-const Dropdown = styled.ul(({ theme: { newTokens } }) => ({
+const Dropdown = styled.ul({
   display: 'flex',
   flexDirection: 'column',
-  gap: newTokens.space.threexsmall,
+  gap: rem(4),
   listStyle: 'none',
   li: {
-    padding: newTokens.space.twoxsmall,
+    padding: rem(8),
   },
-}));
+});
 
 const Example = () => {
   const [searchString, setSearchString] = React.useState('');
@@ -39,19 +39,19 @@ const Example = () => {
               </li>
               <li>Recent Searches</li>
               <li
-                style={{ display: 'flex', gap: '10px', alignItems: 'center' }}
+                style={{ display: 'flex', gap: rem(8), alignItems: 'center' }}
               >
-                <GenericUser fontSize={rem(23)}/> First Game
+                <GenericUser fontSize={rem(24)} /> First Game
               </li>
               <li
-                style={{ display: 'flex', gap: '10px', alignItems: 'center' }}
+                style={{ display: 'flex', gap: rem(8), alignItems: 'center' }}
               >
-                <GenericUser fontSize={rem(23)}/> Second Game
+                <GenericUser fontSize={rem(24)} /> Second Game
               </li>
               <li
-                style={{ display: 'flex', gap: '10px', alignItems: 'center' }}
+                style={{ display: 'flex', gap: rem(8), alignItems: 'center' }}
               >
-                <GenericUser fontSize={rem(23)}/> Third Game
+                <GenericUser fontSize={rem(24)} /> Third Game
               </li>
             </Dropdown>
           ) : (

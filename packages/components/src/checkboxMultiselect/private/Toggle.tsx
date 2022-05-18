@@ -44,7 +44,7 @@ const Toggle: React.FC<ToggleProps> = (props) => {
     <ToggleWrapper>
       <Header>
         <Switch open={open} onClick={() => setOpen(!open)}>
-          <ControlsChevronRight fontSize={rem(23)} color="trunks.100"/>
+          <ControlsChevronRight fontSize={rem(24)} color="trunks.100" />
         </Switch>
         {header}
       </Header>

@@ -1,6 +1,10 @@
 import React from 'react';
 import { Loader } from '@heathmont/moon-core';
-import { ArrowsUpdate,GenericDownload,ControlsDiagonalsOutsight } from '@heathmont/moon-icons';
+import {
+  ArrowsUpdate,
+  GenericDownload,
+  ControlsDiagonalsOutsight,
+} from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
@@ -58,10 +62,10 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
 const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   display: 'flex',
   flexDirection: 'column',
-  padding: theme.newTokens.space.small,
+  padding: rem(16),
   color: isActive ? theme.colorNew.goten : theme.colorNew.bulma,
   background: isActive ? theme.colorNew.piccolo : theme.colorNew.gohan,
-  borderRadius: theme.newTokens.space.small,
+  borderRadius: rem(16),
   width: '100%',
   ...(isActive && {
     [Button]: {
@@ -73,13 +77,13 @@ const Container = styled.div<{ isActive: boolean }>(({ theme, isActive }) => ({
   }),
 }));
 
-const Header = styled.div(({ theme }) => ({
+const Header = styled.div({
   display: 'grid',
   flexShrink: 0,
   gridTemplateColumns: 'auto 1fr auto auto',
-  gridColumnGap: theme.newTokens.space.small,
+  gridColumnGap: rem(16),
   minHeight: rem(24),
-}));
+});
 
 const IconRefreshStyled = styled(ArrowsUpdate)({
   transform: 'rotate(90deg)',
@@ -123,12 +127,12 @@ export const Panel: React.FC<Props> = ({
       <div />
       {onShare && (
         <Button onClick={() => onShare()}>
-          <GenericDownload fontSize={rem(22)}/>
+          <GenericDownload fontSize={rem(24)} />
         </Button>
       )}
       {onExpand && (
         <Button onClick={() => onExpand()}>
-          <ControlsDiagonalsOutsight fontSize={rem(22)}/>
+          <ControlsDiagonalsOutsight fontSize={rem(24)} />
         </Button>
       )}
     </Header>

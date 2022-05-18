@@ -8,8 +8,8 @@ const TH = styled.div<{
   ({ theme, headerBackgroundColor }) => ({
     backgroundColor: themed('color', headerBackgroundColor)(theme),
   }),
-  ({ theme: { colorNew, newTokens } }) => ({
-    padding: newTokens.space.twoxsmall,
+  ({ theme: { colorNew } }) => ({
+    padding: rem(8),
     color: colorNew.trunks,
     position: 'relative',
     fontSize: rem(12),
