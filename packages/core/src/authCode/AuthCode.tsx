@@ -22,14 +22,12 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   onSubmit,
   onChange,
   isRtl,
-  inputProps,
   placeholder = '',
   errorMessage = '',
   onlyDigits = false,
   length = 6,
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
-  const isXLarge = inputProps?.inputSize === 'xlarge';
 
   /*
    * authCodeParts stores values of all individual inputs as a single array value
@@ -137,7 +135,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   return (
     <Container dir={dir} errorState={!!errorMessage}>
       {authCodeParts.map((value, i) => (
-        <InputWrapper key={`auth-code-input-${i}`} isXLarge={isXLarge}>
+        <InputWrapper key={`auth-code-input-${i}`}>
           <TextInput
             id={`auth-code-part-${i}`}
             key={`auth-code-part-${i}`}

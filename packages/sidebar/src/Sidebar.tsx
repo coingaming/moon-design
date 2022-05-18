@@ -13,6 +13,7 @@ type Props = {
   onToggle?: (_: boolean) => void;
   onStateChange?: (state: boolean) => void;
   isRtl?: boolean;
+  children?: React.ReactNode;
 };
 
 const Sidebar: React.FC<Props> = ({

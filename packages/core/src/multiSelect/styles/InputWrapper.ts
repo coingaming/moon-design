@@ -6,6 +6,7 @@ interface InputWrapperProps {
   disabled: boolean | undefined;
   error: boolean | undefined;
   onClick: () => void;
+  children?: React.ReactNode;
 }
 
 const InputWrapper = styled.div<InputWrapperProps>(

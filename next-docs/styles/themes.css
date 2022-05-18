@@ -53,11 +53,13 @@
 }
 
 .border-radius {
-  --radius-xs: 4px; /* -> rem*/
-  --radius-sm: 8px;
-  --radius-md: 12px;
-  --radius-lg: 16px;
-  --radius-full: 9999px;
+  --radius-i-xs: 0.25rem;
+  --radius-i-sm: 0.5rem;
+  --radius-i-md: 0.75rem;
+  --radius-s-xs: 0.25rem;
+  --radius-s-sm: 0.5rem;
+  --radius-s-md: 0.75rem;
+  --radius-s-lg: 1rem;
 }
 
 .opacity {

@@ -1,5 +1,50 @@
 # Change Log
 
+## 9.0.1
+
+### Patch Changes
+
+- Bump corrupted 9.0.0
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.0.1
+  - @heathmont/moon-components@9.0.1
+  - @heathmont/moon-core@9.0.1
+  - @heathmont/moon-icons@9.0.1
+  - @heathmont/moon-themes@9.0.1
+  - @heathmont/moon-utils@9.0.1
+
+## 9.0.0
+
+### Major Changes
+
+- React 18
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.0.0
+  - @heathmont/moon-components@9.0.0
+  - @heathmont/moon-core@9.0.0
+  - @heathmont/moon-icons@9.0.0
+  - @heathmont/moon-themes@9.0.0
+  - @heathmont/moon-utils@9.0.0
+
+## 8.9.0
+
+### Minor Changes
+
+- TW config, moneyball theme and logo, image opts
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@8.9.0
+  - @heathmont/moon-components@8.9.0
+  - @heathmont/moon-core@8.9.0
+  - @heathmont/moon-icons@8.9.0
+  - @heathmont/moon-themes@8.9.0
+  - @heathmont/moon-utils@8.9.0
+
 ## 8.8.0
 
 ### Minor Changes

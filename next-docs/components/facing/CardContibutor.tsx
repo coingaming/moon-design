@@ -1,6 +1,6 @@
 import React from 'react';
 import { rem } from '@heathmont/moon-utils';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import classNames from '../../utils/classNames';
 
 interface Props {
