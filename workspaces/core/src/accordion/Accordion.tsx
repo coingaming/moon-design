@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
+import Size from '../private/enums/Size';
 import classNames from '../private/utils/classnames';
 import ControlsChevronDown from './private/icons/ControlsChevronDown';
 import ControlsChevronUp from './private/icons/ControlsChevronUp';
-
-// import Size from './private/Size';
 
 type Props = {
   title: string;
@@ -11,19 +10,19 @@ type Props = {
   children?: React.ReactNode;
   disableOpen?: boolean;
   headerContent?: React.ReactNode;
-  size?: string;
+  size?: Size;
   withButton?: boolean;
   isContentInside?: boolean;
 };
 
-const determineSpacing = (isContentInside?: boolean, size?: string) => {
+const determineSpacing = (isContentInside?: boolean, size?: Size) => {
   if (isContentInside) {
     switch (size) {
-      case 'xlarge':
+      case 'xl':
         return 'p-4';
-      case 'large':
+      case 'lg':
         return 'p-3';
-      case 'small':
+      case 'sm':
         return 'p-1 pl-2';
       default:
         return 'p-2';
@@ -32,29 +31,29 @@ const determineSpacing = (isContentInside?: boolean, size?: string) => {
   return '';
 };
 
-const determineMargin = (size?: string) => {
+const determineMargin = (size?: Size) => {
   switch (size) {
-    case 'xlarge':
+    case 'xl':
       return 'mt-4';
-    case 'large':
+    case 'lg':
       return 'mt-3';
-    case 'small':
+    case 'sm':
       return 'mt-1';
     default:
       return 'mt-2';
   }
 };
 
-const determineHeight = (isContentInside?: boolean, size?: string) => {
+const determineHeight = (isContentInside?: boolean, size?: Size) => {
   if (isContentInside) {
     return 'h-6';
   } else {
     switch (size) {
-      case 'xlarge':
+      case 'xl':
         return 'h-14';
-      case 'large':
+      case 'lg':
         return 'h-12';
-      case 'small':
+      case 'sm':
         return 'h-8';
       default:
         return 'h-10';
@@ -83,7 +82,7 @@ const Accordion = ({
   headerContent,
   withButton = true,
   isContentInside = true,
-  size = 'medium',
+  size = 'md' as Size,
 }: Props) => {
   const [isOpen, setIsOpen] = useState(openByDefault);
 
@@ -108,7 +107,7 @@ const Accordion = ({
           isContentInside ? 'bg-gohan' : 'transparent rounded-moon-s-sm',
           isContentInside ? '' : determineSpacing(true, size),
           determineHeight(isContentInside, size),
-          size === 'small' && 'uppercase'
+          size === 'sm' && 'uppercase'
         )}
         onClick={handleState}
       >
@@ -136,14 +135,14 @@ const Accordion = ({
               <ControlsChevronDown
                 className={classNames(
                   'text-bulma',
-                  size === 'small' ? 'text-[1.5rem]' : 'text-[2rem]'
+                  size === 'sm' ? 'text-[1.5rem]' : 'text-[2rem]'
                 )}
               />
             ) : (
               <ControlsChevronUp
                 className={classNames(
                   'text-bulma',
-                  size === 'small' ? 'text-[1.5rem]' : 'text-[2rem]'
+                  size === 'sm' ? 'text-[1.5rem]' : 'text-[2rem]'
                 )}
               />
             )}

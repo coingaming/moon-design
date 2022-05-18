@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from '../private/utils/classnames';
 
-export type Size = 'twoxsmall' | 'xsmall' | 'small' | 'medium' | 'large';
+export type Size = '2xs' | 'xs' | 'sm' | 'md' | 'lg';
 
 export type LoaderProps = {
   color?: string;
@@ -10,15 +10,15 @@ export type LoaderProps = {
 
 const loaderSize = (size?: string) => {
   switch (size) {
-    case 'twoxsmall':
+    case '2xs':
       return 'w-4 h-4';
-    case 'xsmall':
+    case 'xs':
       return 'w-6 h-6';
-    case 'small':
+    case 'sm':
       return 'w-8 h-8';
-    case 'medium':
+    case 'md':
       return 'w-10 h-10';
-    case 'large':
+    case 'lg':
       return 'w-12 h-12';
     default:
       return;
@@ -27,12 +27,12 @@ const loaderSize = (size?: string) => {
 
 const loaderDivBorder = (size?: string) => {
   switch (size) {
-    case 'twoxsmall':
-    case 'xsmall':
-    case 'small':
+    case '2xs':
+    case 'xs':
+    case 'sm':
       return 'border-2 border-solid';
-    case 'medium':
-    case 'large':
+    case 'md':
+    case 'lg':
       return 'border-4 border-solid';
     default:
       return;
@@ -41,7 +41,7 @@ const loaderDivBorder = (size?: string) => {
 
 const Loader: React.FC<LoaderProps> = ({
   color = 'border-hit',
-  size = 'medium',
+  size = 'md',
 }) => (
   <div className={classNames(loaderSize(size), 'relative rounded-full')}>
     <div
