@@ -1,15 +1,15 @@
 import styled from 'styled-components';
-import Size from '../private/Size';
-import determineSpacing from '../private/utils/determineSpacing';
+import setSpacing from '../private/utils/setSpacing';
+import type SizeProps from '../private/SizeProps';
 
 type Props = {
   isContentInside?: boolean;
-  size?: Size;
+  size?: SizeProps;
 };
 
 const AccordionWrapper = styled.div<Props>(
   ({ theme: { colorNew, newTokens }, isContentInside, size }) => ({
-    padding: determineSpacing(newTokens, isContentInside, size),
+    padding: setSpacing(isContentInside, size),
     backgroundColor: isContentInside ? colorNew.gohan : 'transparent',
     width: '100%',
     borderRadius: newTokens.borderRadius.medium,

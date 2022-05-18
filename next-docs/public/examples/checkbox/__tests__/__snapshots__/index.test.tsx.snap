@@ -11,7 +11,7 @@ exports[`Checkbox renders Checked 1`] = `
     type="checkbox"
   />
   <div
-    className="sc-ciicml bpqhVu"
+    className="sc-ciicml JmSBy"
   >
     <span
       className="sc-eZgkGA kLWXuq"
@@ -42,7 +42,7 @@ exports[`Checkbox renders Disabled 1`] = `
     type="checkbox"
   />
   <div
-    className="sc-ciicml bpqhVu"
+    className="sc-ciicml JmSBy"
   >
     <span
       className="sc-eZgkGA kLWXuq"
@@ -72,7 +72,7 @@ exports[`Checkbox renders No label 1`] = `
     type="checkbox"
   />
   <div
-    className="sc-ciicml bpqhVu"
+    className="sc-ciicml JmSBy"
   >
     <span
       className="sc-eZgkGA kLWXuq"
@@ -97,7 +97,7 @@ exports[`Checkbox renders Read only 1`] = `
     type="checkbox"
   />
   <div
-    className="sc-ciicml bpqhVu"
+    className="sc-ciicml JmSBy"
   >
     <span
       className="sc-eZgkGA kLWXuq"
@@ -127,7 +127,7 @@ exports[`Checkbox renders default 1`] = `
     type="checkbox"
   />
   <div
-    className="sc-ciicml bpqhVu"
+    className="sc-ciicml JmSBy"
   >
     <span
       className="sc-eZgkGA kLWXuq"

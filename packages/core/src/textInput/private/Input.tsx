@@ -1,15 +1,17 @@
+import { ReactElement } from 'react';
 import { SharedTheme, ColorProps } from '@heathmont/moon-themes';
-
 import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Size from '../../private/enums/Size';
 import TextInputSizeType from './types/SizeTypes';
 
+type InlineSVGProps = ReactElement<string>;
+
 type InputProps = {
   inputSize: TextInputSizeType | string;
   withIcon?: boolean;
   error?: boolean;
-  icon?: string;
+  icon?: InlineSVGProps;
   iconColor?: string;
   type?: string;
   bgColor?: ColorProps;
@@ -76,7 +78,7 @@ const Input = styled.input.attrs(({ type }) => ({
     theme: {
       colorNew,
       hover,
-      newTokens: { borderRadius, space, border, transition },
+      newTokens: { borderRadius, border, transition },
     },
     inputSize,
     error,
@@ -236,7 +238,7 @@ const Input = styled.input.attrs(({ type }) => ({
         },
       },
     icon && {
-      paddingInlineEnd: space.large,
+      paddingInlineEnd: rem(32),
       backgroundImage: inlineSvg(icon),
       backgroundPosition: isRtl
         ? `left ${rem(4)} center`

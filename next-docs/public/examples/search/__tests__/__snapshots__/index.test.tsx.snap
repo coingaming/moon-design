@@ -8,7 +8,7 @@ exports[`Search renders 1`] = `
     className="sc-ZyMtA guiOxu popup "
   >
     <div
-      className="sc-eUOjGL idWaXO"
+      className="sc-eUOjGL bEFcfi"
     >
       <form
         className="sc-iKmDcA ktDuSY"
@@ -64,13 +64,13 @@ exports[`Search renders 1`] = `
       </button>
     </div>
     <div
-      className="sc-eUOjGL idWaXO"
+      className="sc-eUOjGL bEFcfi"
     >
       <div
         className="sc-eRWnEp epKqaf"
       >
         <ul
-          className="sc-iUjRoI jjkJWi"
+          className="sc-iUjRoI gaaFRt"
         >
           <li>
             <span>
@@ -92,7 +92,7 @@ exports[`Search renders Loading State 1`] = `
     className="sc-ZyMtA guiOxu popup "
   >
     <div
-      className="sc-eUOjGL idWaXO"
+      className="sc-eUOjGL bEFcfi"
     >
       <form
         className="sc-iKmDcA ktDuSY"
@@ -134,13 +134,13 @@ exports[`Search renders Loading State 1`] = `
       </form>
     </div>
     <div
-      className="sc-eUOjGL idWaXO"
+      className="sc-eUOjGL bEFcfi"
     >
       <div
         className="sc-eRWnEp epKqaf"
       >
         <ul
-          className="sc-fXPgIJ jxlzwO"
+          className="sc-fXPgIJ fbCWix"
         >
           <li>
             Loading...

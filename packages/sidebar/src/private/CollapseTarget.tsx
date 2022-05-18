@@ -7,13 +7,9 @@ type Props = {
 };
 
 export const CollapseTarget = styled.div<Props>(
-  ({
-    isOpen,
-    isRtl,
-    theme: { space, colorNew, transitionDuration, boxShadow },
-  }) => ({
-    fontSize: rem(space.small),
-    padding: rem(space.small),
+  ({ isOpen, isRtl, theme: { colorNew, transitionDuration, boxShadow } }) => ({
+    fontSize: rem(4),
+    padding: rem(4),
     background: colorNew.gohan,
     transitionProperty: 'opacity color',
     transitionTimingFunction: 'ease-in-out',
@@ -32,12 +28,12 @@ export const CollapseTarget = styled.div<Props>(
     ...(isOpen
       ? {
           position: 'absolute',
-          top: rem(space.large),
+          top: rem(32),
           transform: 'translateY(-50%)',
           ...(isRtl ? { left: 0 } : { right: 0 }),
         }
       : {
-          marginInlineEnd: rem(space.small),
+          marginInlineEnd: rem(4),
         }),
   })
 );

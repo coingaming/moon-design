@@ -23,7 +23,7 @@ exports[`Banner renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-deiPdS izsIcU"
+    className="sc-deiPdS jmRNPI"
   />
 </div>
 `;
@@ -51,7 +51,7 @@ exports[`Banner renders in mobile mode 1`] = `
     </div>
   </div>
   <div
-    className="sc-deiPdS izsIcU"
+    className="sc-deiPdS jmRNPI"
   >
     <span>
       <button
@@ -96,7 +96,7 @@ exports[`Banner renders in single line mode 1`] = `
       Your email is not verified. Verify to enable withdrawals.
     </div>
     <div
-      className="sc-deiPdS izsIcU"
+      className="sc-deiPdS jmRNPI"
     >
       <button
         className="sc-eqKtKx dwPcUo"
@@ -137,7 +137,7 @@ exports[`Banner renders with buttons 1`] = `
     </div>
   </div>
   <div
-    className="sc-deiPdS izsIcU"
+    className="sc-deiPdS jmRNPI"
   >
     <span>
       <button
@@ -195,7 +195,7 @@ exports[`Banner renders with buttons RTL 1`] = `
       </div>
     </div>
     <div
-      className="sc-deiPdS izsIcU"
+      className="sc-deiPdS jmRNPI"
     >
       <span>
         <button
