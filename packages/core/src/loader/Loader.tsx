@@ -1,14 +1,9 @@
 import React from 'react';
-import { ColorProps } from '@heathmont/moon-themes';
-import { Size } from './private/Size';
+import Size from '../private/enums/Size';
 import LoaderWrapper from './styles/LoaderWrapper';
+import type LoaderProps from './private/types/LoaderProps';
 
-export type LoaderProps = {
-  color?: ColorProps;
-  size?: Size;
-};
-
-const Loader: React.FC<LoaderProps> = ({ color, size = 'medium' }) => (
+const Loader: React.FC<LoaderProps> = ({ color, size = Size.MEDIUM }) => (
   <LoaderWrapper color={color} size={size}>
     <div />
     <div />

@@ -97,6 +97,7 @@ type Props = {
   onExpand?: () => void;
   isActive?: boolean;
   height?: string | number;
+  children?: React.ReactNode;
 };
 
 export const Panel: React.FC<Props> = ({

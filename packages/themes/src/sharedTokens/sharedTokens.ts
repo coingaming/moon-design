@@ -327,6 +327,19 @@ export type Brand =
 
 export type ColorScheme = 'light' | 'dark';
 
+export type InteractiveBorderRadius = {
+  xsmall: string;
+  small: string;
+  medium: string;
+};
+
+export type SurfaceBorderRadius = {
+  xsmall: string;
+  small: string;
+  medium: string;
+  large: string;
+};
+
 export type BorderRadius = {
   none: number;
   twoxsmall: string;
@@ -337,17 +350,8 @@ export type BorderRadius = {
   xlarge: string;
   twoxlarge: string;
   full: string;
-  interactive: {
-    xsmall: string;
-    small: string;
-    medium: string;
-  };
-  surface: {
-    xsmall: string;
-    small: string;
-    medium: string;
-    large: string;
-  };
+  interactive: InteractiveBorderRadius;
+  surface: SurfaceBorderRadius;
 };
 
 export type BreakpointNew = {

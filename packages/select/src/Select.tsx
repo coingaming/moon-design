@@ -82,7 +82,7 @@ const Select = <T extends BaseOptionType>(
   return (
     <ReactSelect
       {...rest}
-      ref={ref ? mergeRefs([menuRef, ref]) : menuRef}
+      ref={ref ? (mergeRefs([menuRef, ref]) as any) : menuRef}
       styles={CustomStyles as StylesConfig<T>}
       isSearchable={isSearchable}
       menuIsOpen={menuIsOpen}

@@ -10,7 +10,7 @@ exports[`Tooltip renders 1`] = `
     onMouseLeave={[Function]}
   >
     <p
-      className="sc-eEXVIU gZHATu"
+      className="sc-cQIpJi llFRTU"
       size={14}
     >
       Default tooltip
@@ -21,9 +21,8 @@ exports[`Tooltip renders 1`] = `
       <div
         className="sc-fjsWye dywrcg"
       >
-        
         <p
-          className="sc-eEXVIU lhNViR"
+          className="sc-cQIpJi bfHJKH"
           size={12}
         >
           Only textual content
@@ -37,7 +36,7 @@ exports[`Tooltip renders 1`] = `
     onMouseLeave={[Function]}
   >
     <p
-      className="sc-eEXVIU gZHATu"
+      className="sc-cQIpJi llFRTU"
       size={14}
     >
       With icon
@@ -67,7 +66,7 @@ exports[`Tooltip renders 1`] = `
           </svg>
         </div>
         <p
-          className="sc-eEXVIU lhNViR"
+          className="sc-cQIpJi bfHJKH"
           size={12}
         >
           Icon and text

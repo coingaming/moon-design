@@ -5,10 +5,14 @@ exports[`Avatar renders different Colours 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC hdgAfY"
+=======
+      className="sc-iaUDOe dKsoJL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     >
@@ -29,10 +33,14 @@ exports[`Avatar renders different Colours 1`] = `
     </div>
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC kQNWuJ"
+=======
+      className="sc-iaUDOe bSeLxi"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="goten.100"
       size="medium"
     >
@@ -53,10 +61,14 @@ exports[`Avatar renders different Colours 1`] = `
     </div>
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC jTSkjX"
+=======
+      className="sc-iaUDOe cPaxHU"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="goten.100"
       size="medium"
     >
@@ -87,10 +99,14 @@ exports[`Avatar renders different Sizes 1`] = `
     className="flex justify-around items-center w-full mb-4"
   >
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC fNFTVi"
+=======
+        className="sc-iaUDOe hHppol"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="xsmall"
       >
@@ -111,10 +127,14 @@ exports[`Avatar renders different Sizes 1`] = `
       </div>
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC eALWKf"
+=======
+        className="sc-iaUDOe lcQTSI"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="small"
       >
@@ -135,10 +155,14 @@ exports[`Avatar renders different Sizes 1`] = `
       </div>
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC hdgAfY"
+=======
+        className="sc-iaUDOe dKsoJL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="medium"
       >
@@ -159,10 +183,14 @@ exports[`Avatar renders different Sizes 1`] = `
       </div>
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC dEwayd"
+=======
+        className="sc-iaUDOe fcdpy"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="large"
       >
@@ -183,10 +211,14 @@ exports[`Avatar renders different Sizes 1`] = `
       </div>
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC gjgTQl"
+=======
+        className="sc-iaUDOe iDwRie"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="xlarge"
       >
@@ -207,10 +239,14 @@ exports[`Avatar renders different Sizes 1`] = `
       </div>
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC bLabUk"
+=======
+        className="sc-iaUDOe jDBNSL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="twoxlarge"
       >
@@ -235,10 +271,14 @@ exports[`Avatar renders different Sizes 1`] = `
     className="flex justify-around items-center w-full mb-4"
   >
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC fNFTVi"
+=======
+        className="sc-iaUDOe hHppol"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="xsmall"
       >
@@ -246,10 +286,14 @@ exports[`Avatar renders different Sizes 1`] = `
       </div>
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC eALWKf"
+=======
+        className="sc-iaUDOe lcQTSI"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="small"
       >
@@ -257,10 +301,14 @@ exports[`Avatar renders different Sizes 1`] = `
       </div>
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC hdgAfY"
+=======
+        className="sc-iaUDOe dKsoJL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="medium"
       >
@@ -268,10 +316,14 @@ exports[`Avatar renders different Sizes 1`] = `
       </div>
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC dEwayd"
+=======
+        className="sc-iaUDOe fcdpy"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="large"
       >
@@ -279,10 +331,14 @@ exports[`Avatar renders different Sizes 1`] = `
       </div>
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC gjgTQl"
+=======
+        className="sc-iaUDOe iDwRie"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="xlarge"
       >
@@ -290,10 +346,14 @@ exports[`Avatar renders different Sizes 1`] = `
       </div>
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC bLabUk"
+=======
+        className="sc-iaUDOe jDBNSL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="twoxlarge"
       >
@@ -305,55 +365,79 @@ exports[`Avatar renders different Sizes 1`] = `
     className="flex justify-around items-center w-full"
   >
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC jkeMVG"
+=======
+        className="sc-iaUDOe igTQfx"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="xsmall"
       />
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC fEjajP"
+=======
+        className="sc-iaUDOe lbsGrw"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="small"
       />
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC kjsEjk"
+=======
+        className="sc-iaUDOe iqJpHL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="medium"
       />
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC gXlwKB"
+=======
+        className="sc-iaUDOe hzWQgK"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="large"
       />
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC ejSDkZ"
+=======
+        className="sc-iaUDOe fprYLy"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="xlarge"
       />
     </div>
     <div
-      className="sc-VcoSR fvqKxG"
+      className="sc-jaIaHg iEKmFp"
     >
       <div
+<<<<<<< HEAD
         className="sc-jNrqiC iyVlDg"
+=======
+        className="sc-iaUDOe HmUlr"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
         color="bulma.100"
         size="twoxlarge"
       />
@@ -367,10 +451,14 @@ exports[`Avatar renders different Variants 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC hdgAfY"
+=======
+      className="sc-iaUDOe dKsoJL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     >
@@ -391,10 +479,14 @@ exports[`Avatar renders different Variants 1`] = `
     </div>
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC hdgAfY"
+=======
+      className="sc-iaUDOe dKsoJL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     >
@@ -402,10 +494,14 @@ exports[`Avatar renders different Variants 1`] = `
     </div>
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC kjsEjk"
+=======
+      className="sc-iaUDOe iqJpHL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     />
@@ -418,10 +514,14 @@ exports[`Avatar supports different status origins 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC hdgAfY"
+=======
+      className="sc-iaUDOe dKsoJL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     >
@@ -441,15 +541,19 @@ exports[`Avatar supports different status origins 1`] = `
       </svg>
     </div>
     <div
-      className="sc-goMRkL cMdLbc"
+      className="sc-eCqeQn fLXySR"
       size="medium"
     />
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC hdgAfY"
+=======
+      className="sc-iaUDOe dKsoJL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     >
@@ -469,15 +573,19 @@ exports[`Avatar supports different status origins 1`] = `
       </svg>
     </div>
     <div
-      className="sc-goMRkL eWNfpH"
+      className="sc-eCqeQn nMyaa"
       size="medium"
     />
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC hdgAfY"
+=======
+      className="sc-iaUDOe dKsoJL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     >
@@ -497,15 +605,19 @@ exports[`Avatar supports different status origins 1`] = `
       </svg>
     </div>
     <div
-      className="sc-goMRkL cMvfNg"
+      className="sc-eCqeQn dOpnR"
       size="medium"
     />
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC hdgAfY"
+=======
+      className="sc-iaUDOe dKsoJL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     >
@@ -525,7 +637,7 @@ exports[`Avatar supports different status origins 1`] = `
       </svg>
     </div>
     <div
-      className="sc-goMRkL ePSYrf"
+      className="sc-eCqeQn cUdaYC"
       size="medium"
     />
   </div>
@@ -537,10 +649,14 @@ exports[`Avatar supports different statuses 1`] = `
   className="flex justify-around items-center w-full"
 >
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC hdgAfY"
+=======
+      className="sc-iaUDOe dKsoJL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     >
@@ -561,10 +677,14 @@ exports[`Avatar supports different statuses 1`] = `
     </div>
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC hdgAfY"
+=======
+      className="sc-iaUDOe dKsoJL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     >
@@ -584,29 +704,37 @@ exports[`Avatar supports different statuses 1`] = `
       </svg>
     </div>
     <div
-      className="sc-goMRkL cMvfNg"
+      className="sc-eCqeQn dOpnR"
       size="medium"
     />
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC kjsEjk"
+=======
+      className="sc-iaUDOe iqJpHL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     />
   </div>
   <div
-    className="sc-VcoSR fvqKxG"
+    className="sc-jaIaHg iEKmFp"
   >
     <div
+<<<<<<< HEAD
       className="sc-jNrqiC kjsEjk"
+=======
+      className="sc-iaUDOe iqJpHL"
+>>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
       color="bulma.100"
       size="medium"
     />
     <div
-      className="sc-goMRkL cMvfNg"
+      className="sc-eCqeQn dOpnR"
       size="medium"
     />
   </div>
