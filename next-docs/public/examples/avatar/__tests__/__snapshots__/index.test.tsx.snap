@@ -8,11 +8,7 @@ exports[`Avatar renders different Colours 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC hdgAfY"
-=======
-      className="sc-iaUDOe dKsoJL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -36,11 +32,7 @@ exports[`Avatar renders different Colours 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC kQNWuJ"
-=======
-      className="sc-iaUDOe bSeLxi"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe iCHKHq"
       color="goten.100"
       size="medium"
     >
@@ -64,11 +56,7 @@ exports[`Avatar renders different Colours 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC jTSkjX"
-=======
-      className="sc-iaUDOe cPaxHU"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe eSvOYQ"
       color="goten.100"
       size="medium"
     >
@@ -102,11 +90,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC fNFTVi"
-=======
-        className="sc-iaUDOe hHppol"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe TRxAj"
         color="bulma.100"
         size="xsmall"
       >
@@ -130,11 +114,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC eALWKf"
-=======
-        className="sc-iaUDOe lcQTSI"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe bkqidM"
         color="bulma.100"
         size="small"
       >
@@ -158,11 +138,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC hdgAfY"
-=======
-        className="sc-iaUDOe dKsoJL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe eKNlKH"
         color="bulma.100"
         size="medium"
       >
@@ -186,11 +162,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC dEwayd"
-=======
-        className="sc-iaUDOe fcdpy"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe FHGpi"
         color="bulma.100"
         size="large"
       >
@@ -214,11 +186,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC gjgTQl"
-=======
-        className="sc-iaUDOe iDwRie"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe wWZLG"
         color="bulma.100"
         size="xlarge"
       >
@@ -242,11 +210,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC bLabUk"
-=======
-        className="sc-iaUDOe jDBNSL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe icgOFM"
         color="bulma.100"
         size="twoxlarge"
       >
@@ -274,11 +238,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC fNFTVi"
-=======
-        className="sc-iaUDOe hHppol"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe TRxAj"
         color="bulma.100"
         size="xsmall"
       >
@@ -289,11 +249,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC eALWKf"
-=======
-        className="sc-iaUDOe lcQTSI"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe bkqidM"
         color="bulma.100"
         size="small"
       >
@@ -304,11 +260,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC hdgAfY"
-=======
-        className="sc-iaUDOe dKsoJL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe eKNlKH"
         color="bulma.100"
         size="medium"
       >
@@ -319,11 +271,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC dEwayd"
-=======
-        className="sc-iaUDOe fcdpy"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe FHGpi"
         color="bulma.100"
         size="large"
       >
@@ -334,11 +282,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC gjgTQl"
-=======
-        className="sc-iaUDOe iDwRie"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe wWZLG"
         color="bulma.100"
         size="xlarge"
       >
@@ -349,11 +293,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC bLabUk"
-=======
-        className="sc-iaUDOe jDBNSL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe icgOFM"
         color="bulma.100"
         size="twoxlarge"
       >
@@ -368,11 +308,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC jkeMVG"
-=======
-        className="sc-iaUDOe igTQfx"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe glGBrf"
         color="bulma.100"
         size="xsmall"
       />
@@ -381,11 +317,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC fEjajP"
-=======
-        className="sc-iaUDOe lbsGrw"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe bdPuik"
         color="bulma.100"
         size="small"
       />
@@ -394,11 +326,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC kjsEjk"
-=======
-        className="sc-iaUDOe iqJpHL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe jGHhqz"
         color="bulma.100"
         size="medium"
       />
@@ -407,11 +335,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC gXlwKB"
-=======
-        className="sc-iaUDOe hzWQgK"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe CWntq"
         color="bulma.100"
         size="large"
       />
@@ -420,11 +344,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC ejSDkZ"
-=======
-        className="sc-iaUDOe fprYLy"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe JpaFW"
         color="bulma.100"
         size="xlarge"
       />
@@ -433,11 +353,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-<<<<<<< HEAD
-        className="sc-jNrqiC iyVlDg"
-=======
-        className="sc-iaUDOe HmUlr"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-iaUDOe ebpCoc"
         color="bulma.100"
         size="twoxlarge"
       />
@@ -454,11 +370,7 @@ exports[`Avatar renders different Variants 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC hdgAfY"
-=======
-      className="sc-iaUDOe dKsoJL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -482,11 +394,7 @@ exports[`Avatar renders different Variants 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC hdgAfY"
-=======
-      className="sc-iaUDOe dKsoJL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -497,11 +405,7 @@ exports[`Avatar renders different Variants 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC kjsEjk"
-=======
-      className="sc-iaUDOe iqJpHL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe jGHhqz"
       color="bulma.100"
       size="medium"
     />
@@ -517,11 +421,7 @@ exports[`Avatar supports different status origins 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC hdgAfY"
-=======
-      className="sc-iaUDOe dKsoJL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -549,11 +449,7 @@ exports[`Avatar supports different status origins 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC hdgAfY"
-=======
-      className="sc-iaUDOe dKsoJL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -581,11 +477,7 @@ exports[`Avatar supports different status origins 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC hdgAfY"
-=======
-      className="sc-iaUDOe dKsoJL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -613,11 +505,7 @@ exports[`Avatar supports different status origins 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC hdgAfY"
-=======
-      className="sc-iaUDOe dKsoJL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -652,11 +540,7 @@ exports[`Avatar supports different statuses 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC hdgAfY"
-=======
-      className="sc-iaUDOe dKsoJL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -680,11 +564,7 @@ exports[`Avatar supports different statuses 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC hdgAfY"
-=======
-      className="sc-iaUDOe dKsoJL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -712,11 +592,7 @@ exports[`Avatar supports different statuses 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC kjsEjk"
-=======
-      className="sc-iaUDOe iqJpHL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe jGHhqz"
       color="bulma.100"
       size="medium"
     />
@@ -725,11 +601,7 @@ exports[`Avatar supports different statuses 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-<<<<<<< HEAD
-      className="sc-jNrqiC kjsEjk"
-=======
-      className="sc-iaUDOe iqJpHL"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-iaUDOe jGHhqz"
       color="bulma.100"
       size="medium"
     />

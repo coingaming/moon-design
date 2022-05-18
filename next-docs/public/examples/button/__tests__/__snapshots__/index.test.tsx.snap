@@ -5,11 +5,7 @@ exports[`Button renders Full width property 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl WmfTc"
-=======
-    className="sc-eqKtKx jyuRfg"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx fXygjM"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -44,11 +40,7 @@ exports[`Button renders different animations 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl iqgLsM"
-=======
-    className="sc-eqKtKx oytqc"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx gYsTDE"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -81,11 +73,7 @@ exports[`Button renders different animations 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl iqgLsM"
-=======
-    className="sc-eqKtKx oytqc"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx gYsTDE"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -123,11 +111,7 @@ exports[`Button renders different animations 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl ddsIpu"
-=======
-    className="sc-eqKtKx beNoce"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx bRRDta"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -138,11 +122,7 @@ exports[`Button renders different animations 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl gWeXUY"
-=======
-    className="sc-eqKtKx kVXrsE"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx bqyAAo"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -160,11 +140,7 @@ exports[`Button renders different icons 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl dxBXYT"
-=======
-    className="sc-eqKtKx cPIzIr"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx gJdJXf"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -192,11 +168,7 @@ exports[`Button renders different icons 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl dxBXYT"
-=======
-    className="sc-eqKtKx cPIzIr"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx gJdJXf"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -224,11 +196,7 @@ exports[`Button renders different icons 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl bQFssD"
-=======
-    className="sc-eqKtKx GvkOj"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx jdGpyz"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -256,11 +224,7 @@ exports[`Button renders different icons 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl bQFssD"
-=======
-    className="sc-eqKtKx GvkOj"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx jdGpyz"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -288,11 +252,7 @@ exports[`Button renders different icons 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl gMIunr"
-=======
-    className="sc-eqKtKx kBMycX"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx hEGzYb"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -319,11 +279,7 @@ exports[`Button renders different icons 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl gMIunr"
-=======
-    className="sc-eqKtKx kBMycX"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx hEGzYb"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -357,11 +313,7 @@ exports[`Button renders different sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl eyeLGx"
-=======
-    className="sc-eqKtKx glWcaR"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx jwtFWP"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="xsmall"
@@ -372,11 +324,7 @@ exports[`Button renders different sizes 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl kvKbrV"
-=======
-    className="sc-eqKtKx iiKITB"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx bLKPKF"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="small"
@@ -387,11 +335,7 @@ exports[`Button renders different sizes 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl iqgLsM"
-=======
-    className="sc-eqKtKx oytqc"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx gYsTDE"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -402,11 +346,7 @@ exports[`Button renders different sizes 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl izLzTx"
-=======
-    className="sc-eqKtKx cRZgnJ"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx cXOjJB"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="large"
@@ -417,11 +357,7 @@ exports[`Button renders different sizes 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl iYsAfm"
-=======
-    className="sc-eqKtKx cRHEXi"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx gdFqgt"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="xlarge"
@@ -439,11 +375,7 @@ exports[`Button renders different variants 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl iqgLsM"
-=======
-    className="sc-eqKtKx oytqc"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx gYsTDE"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -454,11 +386,7 @@ exports[`Button renders different variants 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl efklXr"
-=======
-    className="sc-eqKtKx kVNEMb"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx fLMErL"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -469,11 +397,7 @@ exports[`Button renders different variants 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl bWaAcV"
-=======
-    className="sc-eqKtKx BuPjx"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx jtjKwJ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -484,11 +408,7 @@ exports[`Button renders different variants 1`] = `
     />
   </button>
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl jkJwDM"
-=======
-    className="sc-eqKtKx dwPcUo"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx fGLhXc"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -506,11 +426,7 @@ exports[`Button renders disabled state 1`] = `
   className="flex justify-around w-full items-center"
 >
   <button
-<<<<<<< HEAD
-    className="sc-jmhOSl cRJuTU"
-=======
-    className="sc-eqKtKx ynnds"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-eqKtKx fyHkgg"
     disabled={true}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}

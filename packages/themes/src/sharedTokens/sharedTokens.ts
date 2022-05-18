@@ -28,10 +28,11 @@ const borderWidthInteractive = 2;
 const space = 16;
 const transitionDuration = 0.2;
 const transitionTimingFunction = 'ease-in-out';
-const baseFontSize = 16;
 const baseLineHeight = 24;
 const fontWeightNormal = 400;
 const fontWeightSemibold = 500;
+
+export const baseFontSize = 16;
 
 export const rem = (value: number) => `${value / baseFontSize}rem`;
 

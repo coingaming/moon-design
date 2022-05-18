@@ -5,30 +5,18 @@ exports[`Label renders with different Colours 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-<<<<<<< HEAD
-    className="sc-dhyxXW fwZBKw"
-=======
-    className="sc-dpRLZP ewWXeF"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-dpRLZP klRb"
   >
     Xsmall
   </span>
   <span
-<<<<<<< HEAD
-    className="sc-dhyxXW hYQKLz"
-=======
-    className="sc-dpRLZP hlQOoC"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-dpRLZP gfafko"
     color="goten.100"
   >
     Xsmall
   </span>
   <span
-<<<<<<< HEAD
-    className="sc-dhyxXW kkDWyb"
-=======
-    className="sc-dpRLZP dsLApC"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-dpRLZP lmEmPg"
     color="goten.100"
   >
     Xsmall
@@ -44,11 +32,7 @@ exports[`Label renders with different Icons 1`] = `
     className="flex justify-around items-center w-full mb-4"
   >
     <span
-<<<<<<< HEAD
-      className="sc-dhyxXW hqBYaf"
-=======
-      className="sc-dpRLZP TYZXi"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-dpRLZP irBRpc"
       size="twoxsmall"
     >
       <span
@@ -74,11 +58,7 @@ exports[`Label renders with different Icons 1`] = `
       Twoxsmall
     </span>
     <span
-<<<<<<< HEAD
-      className="sc-dhyxXW btHLoD"
-=======
-      className="sc-dpRLZP didIBW"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-dpRLZP bLijFc"
       size="twoxsmall"
     >
       Twoxsmall
@@ -104,11 +84,7 @@ exports[`Label renders with different Icons 1`] = `
       </span>
     </span>
     <span
-<<<<<<< HEAD
-      className="sc-dhyxXW jZVZYF"
-=======
-      className="sc-dpRLZP fgOiVs"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-dpRLZP gYkLVW"
       size="twoxsmall"
     >
       <span
@@ -158,11 +134,7 @@ exports[`Label renders with different Icons 1`] = `
     className="flex justify-around items-center w-full"
   >
     <span
-<<<<<<< HEAD
-      className="sc-dhyxXW kgYurW"
-=======
-      className="sc-dpRLZP kTFUZX"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-dpRLZP bYufpJ"
     >
       <span
         className="sc-jNxMLV koKKHf"
@@ -186,11 +158,7 @@ exports[`Label renders with different Icons 1`] = `
       Xsmall
     </span>
     <span
-<<<<<<< HEAD
-      className="sc-dhyxXW byxTja"
-=======
-      className="sc-dpRLZP lbFdiD"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-dpRLZP dDZSPR"
     >
       Xsmall
       <span
@@ -214,11 +182,7 @@ exports[`Label renders with different Icons 1`] = `
       </span>
     </span>
     <span
-<<<<<<< HEAD
-      className="sc-dhyxXW bbkjIE"
-=======
-      className="sc-dpRLZP bSzwaF"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-dpRLZP iBlcCD"
     >
       <span
         className="sc-jNxMLV koKKHf"
@@ -269,20 +233,12 @@ exports[`Label renders with different LetterCases 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-<<<<<<< HEAD
-    className="sc-dhyxXW fwZBKw"
-=======
-    className="sc-dpRLZP ewWXeF"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-dpRLZP klRb"
   >
     Default
   </span>
   <span
-<<<<<<< HEAD
-    className="sc-dhyxXW hUzgET"
-=======
-    className="sc-dpRLZP ixWsZW"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-dpRLZP grplrA"
   >
     Lowercase
   </span>
@@ -294,40 +250,24 @@ exports[`Label renders with different Sizes 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-<<<<<<< HEAD
-    className="sc-dhyxXW hqnqzd"
-=======
-    className="sc-dpRLZP giLSFY"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-dpRLZP lkOzlG"
     size="twoxsmall"
   >
     Twoxsmall
   </span>
   <span
-<<<<<<< HEAD
-    className="sc-dhyxXW fwZBKw"
-=======
-    className="sc-dpRLZP ewWXeF"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-dpRLZP klRb"
   >
     Xsmall
   </span>
   <span
-<<<<<<< HEAD
-    className="sc-dhyxXW eewSrc"
-=======
-    className="sc-dpRLZP eyJcCp"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-dpRLZP jtnERX"
     size="twoxsmall"
   >
     Twoxsmall
   </span>
   <span
-<<<<<<< HEAD
-    className="sc-dhyxXW hUzgET"
-=======
-    className="sc-dpRLZP ixWsZW"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-dpRLZP grplrA"
   >
     Xsmall
   </span>

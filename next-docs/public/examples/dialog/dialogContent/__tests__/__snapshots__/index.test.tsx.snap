@@ -2,11 +2,7 @@
 
 exports[`Dialog Content renders 1`] = `
 <button
-<<<<<<< HEAD
-  className="sc-jmhOSl bWaAcV"
-=======
-  className="sc-eqKtKx BuPjx"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+  className="sc-eqKtKx jtjKwJ"
   onClick={[Function]}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}

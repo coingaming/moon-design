@@ -49,11 +49,7 @@ exports[`Search renders 1`] = `
         </span>
       </form>
       <button
-<<<<<<< HEAD
-        className="sc-jmhOSl iqgLsM sc-gvSjmx jHBlWr"
-=======
-        className="sc-eqKtKx oytqc sc-bcqIvW fPmMxy"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-eqKtKx gYsTDE sc-bcqIvW fPmMxy"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}

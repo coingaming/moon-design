@@ -25,11 +25,7 @@ exports[`Radiobutton renders 1`] = `
       className="sc-gyKfoT iPDinH"
     >
       <div
-<<<<<<< HEAD
-        className="sc-dHnBmY fSBBSP"
-=======
-        className="sc-jmQrGM dANUOZ"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-jmQrGM rMKPF"
       />
     </span>
     <span
@@ -54,11 +50,7 @@ exports[`Radiobutton renders 1`] = `
       className="sc-gyKfoT iPDinH"
     >
       <div
-<<<<<<< HEAD
-        className="sc-dHnBmY fSBBSP"
-=======
-        className="sc-jmQrGM dANUOZ"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-jmQrGM rMKPF"
       />
     </span>
     <span
@@ -83,11 +75,7 @@ exports[`Radiobutton renders 1`] = `
       className="sc-gyKfoT iPDinH"
     >
       <div
-<<<<<<< HEAD
-        className="sc-dHnBmY fSBBSP"
-=======
-        className="sc-jmQrGM dANUOZ"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-jmQrGM rMKPF"
       />
     </span>
     <span
@@ -114,11 +102,7 @@ exports[`Radiobutton renders Checked 1`] = `
     className="sc-gyKfoT iPDinH"
   >
     <div
-<<<<<<< HEAD
-      className="sc-dHnBmY fSBBSP"
-=======
-      className="sc-jmQrGM dANUOZ"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-jmQrGM rMKPF"
     />
   </span>
   <span
@@ -143,11 +127,7 @@ exports[`Radiobutton renders Disabled 1`] = `
     className="sc-gyKfoT iPDinH"
   >
     <div
-<<<<<<< HEAD
-      className="sc-dHnBmY fSBBSP"
-=======
-      className="sc-jmQrGM dANUOZ"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-jmQrGM rMKPF"
     />
   </span>
   <span
@@ -180,11 +160,7 @@ exports[`Radiobutton renders No label 1`] = `
         className="sc-gyKfoT iPDinH"
       >
         <div
-<<<<<<< HEAD
-          className="sc-dHnBmY fSBBSP"
-=======
-          className="sc-jmQrGM dANUOZ"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+          className="sc-jmQrGM rMKPF"
         />
       </span>
     </label>
@@ -220,11 +196,7 @@ exports[`Radiobutton renders RTL 1`] = `
         className="sc-gyKfoT iPDinH"
       >
         <div
-<<<<<<< HEAD
-          className="sc-dHnBmY fSBBSP"
-=======
-          className="sc-jmQrGM dANUOZ"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+          className="sc-jmQrGM rMKPF"
         />
       </span>
       <span
@@ -249,11 +221,7 @@ exports[`Radiobutton renders RTL 1`] = `
         className="sc-gyKfoT iPDinH"
       >
         <div
-<<<<<<< HEAD
-          className="sc-dHnBmY fSBBSP"
-=======
-          className="sc-jmQrGM dANUOZ"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+          className="sc-jmQrGM rMKPF"
         />
       </span>
       <span
@@ -278,11 +246,7 @@ exports[`Radiobutton renders RTL 1`] = `
         className="sc-gyKfoT iPDinH"
       >
         <div
-<<<<<<< HEAD
-          className="sc-dHnBmY fSBBSP"
-=======
-          className="sc-jmQrGM dANUOZ"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+          className="sc-jmQrGM rMKPF"
         />
       </span>
       <span

@@ -2,11 +2,7 @@
 
 exports[`Dialog renders 1`] = `
 <button
-<<<<<<< HEAD
-  className="sc-fVmPpc gjYCEh"
-=======
-  className="sc-gJTyrF hwWDLk"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+  className="sc-gJTyrF cTxwEg"
   onClick={[Function]}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -21,11 +17,7 @@ exports[`Dialog renders 1`] = `
 
 exports[`Dialog renders Another Dialog Header 1`] = `
 <button
-<<<<<<< HEAD
-  className="sc-fVmPpc gjYCEh"
-=======
-  className="sc-gJTyrF hwWDLk"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+  className="sc-gJTyrF cTxwEg"
   onClick={[Function]}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -40,11 +32,7 @@ exports[`Dialog renders Another Dialog Header 1`] = `
 
 exports[`Dialog renders Dialog Header 1`] = `
 <button
-<<<<<<< HEAD
-  className="sc-fVmPpc gjYCEh"
-=======
-  className="sc-gJTyrF hwWDLk"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+  className="sc-gJTyrF cTxwEg"
   onClick={[Function]}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -62,11 +50,7 @@ exports[`Dialog renders RTL 1`] = `
   dir="rtl"
 >
   <button
-<<<<<<< HEAD
-    className="sc-fVmPpc gjYCEh"
-=======
-    className="sc-gJTyrF hwWDLk"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+    className="sc-gJTyrF cTxwEg"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -82,11 +66,7 @@ exports[`Dialog renders RTL 1`] = `
 
 exports[`Dialog renders with No Background 1`] = `
 <button
-<<<<<<< HEAD
-  className="sc-fVmPpc gjYCEh"
-=======
-  className="sc-gJTyrF hwWDLk"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+  className="sc-gJTyrF cTxwEg"
   onClick={[Function]}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -101,11 +81,7 @@ exports[`Dialog renders with No Background 1`] = `
 
 exports[`Dialog renders with No Close 1`] = `
 <button
-<<<<<<< HEAD
-  className="sc-fVmPpc gjYCEh"
-=======
-  className="sc-gJTyrF hwWDLk"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+  className="sc-gJTyrF cTxwEg"
   onClick={[Function]}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}

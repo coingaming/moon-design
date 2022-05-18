@@ -90,11 +90,7 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
   </div>
   <div>
     <span
-<<<<<<< HEAD
-      className="sc-dhyxXW hYQKLz"
-=======
-      className="sc-dpRLZP hlQOoC"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-dpRLZP gfafko"
       size="xsmall"
     >
       Country: 
@@ -103,11 +99,7 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
   </div>
   <div>
     <span
-<<<<<<< HEAD
-      className="sc-dhyxXW hYQKLz"
-=======
-      className="sc-dpRLZP hlQOoC"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-dpRLZP gfafko"
       size="xsmall"
     >
       Phone: 
@@ -303,11 +295,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
   </div>
   <div>
     <span
-<<<<<<< HEAD
-      className="sc-dhyxXW hYQKLz"
-=======
-      className="sc-dpRLZP hlQOoC"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-dpRLZP gfafko"
       size="xsmall"
     >
       Country: 
@@ -315,11 +303,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
   </div>
   <div>
     <span
-<<<<<<< HEAD
-      className="sc-dhyxXW hYQKLz"
-=======
-      className="sc-dpRLZP hlQOoC"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-dpRLZP gfafko"
       size="xsmall"
     >
       Vehicle: 

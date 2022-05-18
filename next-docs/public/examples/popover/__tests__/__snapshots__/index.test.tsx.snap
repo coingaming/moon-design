@@ -9,11 +9,7 @@ Array [
     tabIndex={-1}
   >
     <button
-<<<<<<< HEAD
-      className="sc-cbDwiu fXOmsN"
-=======
-      className="sc-futMm gMbPFX"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+      className="sc-futMm fUHXQv"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
@@ -59,11 +55,7 @@ Array [
               className="sc-cMOycp evwpSy"
             >
               <button
-<<<<<<< HEAD
-                className="sc-cbDwiu cIJkkj"
-=======
-                className="sc-futMm oFKt"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+                className="sc-futMm kDDaaZ"
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
                 size="small"
@@ -78,11 +70,7 @@ Array [
               className="sc-cMOycp evwpSy"
             >
               <button
-<<<<<<< HEAD
-                className="sc-cbDwiu leFYvw"
-=======
-                className="sc-futMm bOiqfu"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+                className="sc-futMm kdAnne"
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
                 size="small"
@@ -98,11 +86,7 @@ Array [
             className="sc-cMOycp evwpSy"
           >
             <button
-<<<<<<< HEAD
-              className="sc-cbDwiu huSFEW"
-=======
-              className="sc-futMm hynHAI"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+              className="sc-futMm khZKrM"
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               size="small"

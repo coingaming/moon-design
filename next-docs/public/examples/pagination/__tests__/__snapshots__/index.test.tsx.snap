@@ -20,11 +20,7 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-<<<<<<< HEAD
-            className="sc-fVmPpc hrQVZg"
-=======
-            className="sc-gJTyrF dIarPp"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+            className="sc-gJTyrF hdlJwR"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -134,11 +130,7 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-<<<<<<< HEAD
-            className="sc-fVmPpc hrQVZg"
-=======
-            className="sc-gJTyrF dIarPp"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+            className="sc-gJTyrF hdlJwR"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"

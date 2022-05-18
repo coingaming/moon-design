@@ -55,11 +55,7 @@ exports[`Banner renders in mobile mode 1`] = `
   >
     <span>
       <button
-<<<<<<< HEAD
-        className="sc-jmhOSl efklXr"
-=======
-        className="sc-eqKtKx kVNEMb"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-eqKtKx fLMErL"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -72,11 +68,7 @@ exports[`Banner renders in mobile mode 1`] = `
     </span>
     <span>
       <button
-<<<<<<< HEAD
-        className="sc-jmhOSl iqgLsM"
-=======
-        className="sc-eqKtKx oytqc"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-eqKtKx gYsTDE"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -107,11 +99,7 @@ exports[`Banner renders in single line mode 1`] = `
       className="sc-deiPdS izsIcU"
     >
       <button
-<<<<<<< HEAD
-        className="sc-jmhOSl jkJwDM"
-=======
-        className="sc-eqKtKx dwPcUo"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-eqKtKx fGLhXc"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -153,11 +141,7 @@ exports[`Banner renders with buttons 1`] = `
   >
     <span>
       <button
-<<<<<<< HEAD
-        className="sc-jmhOSl efklXr"
-=======
-        className="sc-eqKtKx kVNEMb"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-eqKtKx fLMErL"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -170,11 +154,7 @@ exports[`Banner renders with buttons 1`] = `
     </span>
     <span>
       <button
-<<<<<<< HEAD
-        className="sc-jmhOSl iqgLsM"
-=======
-        className="sc-eqKtKx oytqc"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+        className="sc-eqKtKx gYsTDE"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -219,11 +199,7 @@ exports[`Banner renders with buttons RTL 1`] = `
     >
       <span>
         <button
-<<<<<<< HEAD
-          className="sc-jmhOSl efklXr"
-=======
-          className="sc-eqKtKx kVNEMb"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+          className="sc-eqKtKx fLMErL"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
@@ -236,11 +212,7 @@ exports[`Banner renders with buttons RTL 1`] = `
       </span>
       <span>
         <button
-<<<<<<< HEAD
-          className="sc-jmhOSl iqgLsM"
-=======
-          className="sc-eqKtKx oytqc"
->>>>>>> 1b794d7d29292ea9c9c441f3c26feec14606b3a2
+          className="sc-eqKtKx gYsTDE"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
