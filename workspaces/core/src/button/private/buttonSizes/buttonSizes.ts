@@ -14,31 +14,31 @@ const buttonSizes = ({
   iconRight,
   iconOnly,
 }: ButtonProps): string => {
-  if (size === Size.XSMALL) {
+  if (size === Size.XS) {
     return classNames(
       xSmallPadding({ icon, iconLeft, iconRight, iconOnly }),
       'gap-1 text-xs rounded-moon-i-xs'
     );
   }
-  if (size === Size.SMALL) {
+  if (size === Size.SM) {
     return classNames(
       smallPadding({ icon, iconLeft, iconRight, iconOnly }),
       'gap-1 text-sm rounded-moon-i-sm'
     );
   }
-  if (size === Size.MEDIUM) {
+  if (size === Size.MD) {
     return classNames(
       mediumPadding({ icon, iconLeft, iconRight, iconOnly }),
       'gap-2 text-sm rounded-moon-i-sm'
     );
   }
-  if (size === Size.LARGE) {
+  if (size === Size.LG) {
     return classNames(
       largePadding({ icon, iconLeft, iconRight, iconOnly }),
       'gap-2 text-base rounded-moon-i-sm'
     );
   }
-  if (size === Size.XLARGE) {
+  if (size === Size.XL) {
     return classNames(
       xLargePadding({ icon, iconLeft, iconRight, iconOnly }),
       'gap-2 text-base rounded-moon-i-md'
