@@ -63,11 +63,11 @@ const determineHeight = (isContentInside?: boolean, size?: Size) => {
 
 const determineFontSize = (size?: string) => {
   switch (size) {
-    case 'small':
+    case 'sm':
       return `text-moon-10`;
-    case 'large':
+    case 'lg':
       return `text-moon-14`;
-    case 'xlarge':
+    case 'xl':
       return `text-moon-16`;
     default:
       return `text-moon-12`;
