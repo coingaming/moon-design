@@ -17,7 +17,7 @@ const determinePadding = (
   iconRight?: JSX.Element | boolean,
   iconOnly?: JSX.Element | boolean
 ) => {
-  if (size === 'small') {
+  if (size === 'sm') {
     if (iconOnly) {
       return 'py-1 ps-1 pe-1';
     }
@@ -45,7 +45,7 @@ const determinePadding = (
 const Chip: React.FC<ChipProps> = ({
   children,
   isActive,
-  size = 'medium',
+  size = 'md',
   iconLeft,
   iconRight,
   iconOnly,
@@ -58,7 +58,7 @@ const Chip: React.FC<ChipProps> = ({
         className={classNames(
           'z-0 overflow-hidden flex flex-row items-center text-sm relative rounded-moon-i-sm cursor-pointer ease-in-out duration-75',
           iconOnly ? 'center' : 'space-between',
-          size == 'small' ? 'h-8 gap-1' : 'h-10 gap-2',
+          size == 'sm' ? 'h-8 gap-1' : 'h-10 gap-2',
           determinePadding(size, iconLeft, iconRight, iconOnly),
           isActive ? 'bg-piccolo/[.12] text-piccolo' : 'bg-gohan text-bulma',
           isStroke && 'hover:shadow-interactive',

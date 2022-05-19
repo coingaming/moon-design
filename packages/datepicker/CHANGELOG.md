@@ -1,5 +1,17 @@
 # @heathmont/moon-datepicker
 
+## 9.0.2
+
+### Patch Changes
+
+- Tw accordion
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.0.2
+  - @heathmont/moon-core@9.0.2
+  - @heathmont/moon-icons@9.0.2
+  - @heathmont/moon-themes@9.0.2
+  - @heathmont/moon-utils@9.0.2
+
 ## 9.0.1
 
 ### Patch Changes

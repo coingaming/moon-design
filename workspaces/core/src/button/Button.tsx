@@ -4,12 +4,7 @@ import classNames from '../private/utils/classnames';
 import AnimationContent from './private/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
 
-type ButtonSizes =
-  | Size.XSMALL
-  | Size.SMALL
-  | Size.MEDIUM
-  | Size.LARGE
-  | Size.XLARGE;
+type ButtonSizes = Size.XS | Size.SM | Size.MD | Size.LG | Size.XL;
 type ButtonVariants = 'primary' | 'secondary' | 'tertiary' | 'ghost';
 type ButtonIcons = 'left' | 'right' | 'only';
 type ButtonAnimations = 'progress' | 'success' | 'error' | 'pulse';
@@ -17,7 +12,7 @@ type ButtonAnimations = 'progress' | 'success' | 'error' | 'pulse';
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariants;
-  size?: ButtonSizes | 'xsmall' | 'small' | 'medium' | 'large' | 'xlarge';
+  size?: ButtonSizes | 'xs' | 'sm' | 'md' | 'lg' | 'xl';
   icon?: ButtonIcons;
   animation?: ButtonAnimations;
   iconSize?: number;
@@ -31,7 +26,7 @@ export interface ButtonProps
 const Button: React.FC<ButtonProps> = ({
   children,
   variant = 'primary',
-  size = Size.MEDIUM,
+  size = Size.MD,
   icon,
   iconSize = 24,
   iconLeft,
@@ -45,7 +40,7 @@ const Button: React.FC<ButtonProps> = ({
   const [isHover, setIsHover] = useState(false);
   const hasAnimationContent =
     animation === 'progress' || animation === 'success';
-  const setIconSize = size === Size.XSMALL ? 16 : iconSize;
+  const setIconSize = size === Size.XS ? 16 : iconSize;
   return (
     <ButtonComponent
       size={size as ButtonSizes}

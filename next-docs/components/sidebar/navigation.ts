@@ -13,10 +13,11 @@ const navigation = [
   {
     name: 'Core',
     children: [
+      { name: 'Accordion', href: '/core/accordion' },
       { name: 'Button', href: '/core/button' },
-      { name: 'Loader', href: '/core/loader' },
       { name: 'Chip', href: '/core/chip' },
       { name: 'Checkbox', href: '/core/checkbox' },
+      { name: 'Loader', href: '/core/loader' },
       { name: 'Typography', href: '/core/typography' },
     ],
   },

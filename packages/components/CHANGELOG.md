@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.0.2
+
+### Patch Changes
+
+- Tw accordion
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.0.2
+  - @heathmont/moon-icons@9.0.2
+  - @heathmont/moon-themes@9.0.2
+  - @heathmont/moon-utils@9.0.2
+
 ## 9.0.1
 
 ### Patch Changes

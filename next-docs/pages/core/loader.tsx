@@ -13,11 +13,11 @@ const Example = () => {
         </div>
         <div className="text-2xl font-bold pb-4">Sizes</div>
         <div className="flex justify-around w-full items-center bg-gray-50 py-6 rounded-lg mb-6">
-          <Loader size="twoxsmall" />
-          <Loader size="xsmall" />
-          <Loader size="small" />
+          <Loader size="2xs" />
+          <Loader size="xs" />
+          <Loader size="sm" />
           <Loader />
-          <Loader size="large" />
+          <Loader size="lg" />
         </div>
         <div className="text-2xl font-bold pb-4">Colours</div>
         <div className="flex justify-around w-full items-center bg-gray-50 py-6 rounded-lg">
