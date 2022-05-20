@@ -53,7 +53,7 @@ const colorNew = {
   popo: '#FFFFFF'
 };
 
-const sportsbetDark: Theme = {
+const onetouchDark: Theme = {
   ...sharedTokens,
   brand: 'Onetouch',
   fontFace: avertaStd.fontFace,
@@ -76,4 +76,4 @@ const sportsbetDark: Theme = {
   colorScheme: 'dark',
 };
 
-export default sportsbetDark;
+export default onetouchDark;
