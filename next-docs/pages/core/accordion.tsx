@@ -1,254 +1,90 @@
-import { Accordion } from '@heathmont/moon-core-tw';
-import {
-  ChatChat,
-  ChatComment,
-  ChatCommentAdd,
-  ChatDoubleBubble,
-} from '@heathmont/moon-icons';
+import Preview from "../../components/codePreview/Preview";
+import ContentHeaderTW from "../../public/examples/accordionNew/ContentHeaderTW";
+import ContentOutsideSizesTW from "../../public/examples/accordionNew/ContentOutsideSizesTW";
+import ContentOutsideTW from "../../public/examples/accordionNew/ContentOutsideTW";
+import DefaultTW from "../../public/examples/accordionNew/DefaultTW";
+import DisabledTW from "../../public/examples/accordionNew/DisabledTW";
+import OpenDefaultTW from "../../public/examples/accordionNew/OpenDefaultTW";
+import SizesTW from "../../public/examples/accordionNew/SizesTW";
+import WithoutButtonTW from "../../public/examples/accordionNew/WithoutButtonTW";
+import useExamples from "../../utils/useExamples";
 
-const Example = () => (
-  <div className="theme-moon-dark">
-    <section className="mt-8 text-3xl font-bold">Default</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion">
-          <div className="text-moon-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
+const Example = () => {
+  const examples = useExamples('core/accordion');
 
-    <section className="mt-8 text-3xl font-bold">Open by default</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion" openByDefault={true}>
-          <div className="text-moon-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Without button</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion" withButton={false}>
-          <div className="text-moon-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Disable open</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion" disableOpen={true}>
-          <div className="text-moon-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Content outside</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion" isContentInside={false}>
-          <div className="text-moon-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Header content</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion" isContentInside={false}>
-          <div className="text-moon-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Header content</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion
-          title="Test accordion"
-          headerContent={
-            <div className="flex">
-              <ChatChat fontSize="2rem" />
-              <ChatComment fontSize="2rem" />
-              <ChatCommentAdd fontSize="2rem" />
-              <ChatDoubleBubble fontSize="2rem" />
-            </div>
-          }
-        >
-          <div className="text-moon-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Sizes</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex flex-col gap-y-3">
-        <Accordion title="X Large (Default)" size="xl">
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-
-        <Accordion title="Large (lg)" size="lg">
-          <div className="text-moon-14">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-
-        <Accordion title="Medium (md Default)" size="md">
-          <div className="text-moon-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-
-        <Accordion title="Small (sm)" size="sm">
-          <div className="text-moon-10">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
+  return (<div className="theme-moon-dark">
+    <section className="mt-8 text-3xl font-bold">
+      <Preview
+        title="Default"
+        isGrayBg
+        preview={<DefaultTW />}
+        code={examples ? examples.DefaultTW : 'Loading'}
+      />
+    </section>
 
     <section className="mt-8 text-3xl font-bold">
-      Sizes: content outside
+      <Preview
+        title="Open by default"
+        isGrayBg
+        preview={<OpenDefaultTW />}
+        code={examples ? examples.OpenDefaultTW : 'Loading'}
+      />
     </section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex flex-col gap-y-3">
-        <Accordion title="X Large (xl)" size="xl" isContentInside={false}>
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
 
-        <Accordion title="Large (lg)" size="lg" isContentInside={false}>
-          <div className="text-moon-14">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
+    <section className="mt-8 text-3xl font-bold">
+      <Preview
+        title="Without button"
+        isGrayBg
+        preview={<WithoutButtonTW />}
+        code={examples ? examples.WithoutButtonTW : 'Loading'}
+      />
+    </section>
 
-        <Accordion
-          title="Medium (md Default)"
-          size="md"
-          isContentInside={false}
-        >
-          <div className="text-moon-12">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
+    <section className="mt-8 text-3xl font-bold">
+      <Preview
+        title="Disable open"
+        isGrayBg
+        preview={<DisabledTW />}
+        code={examples ? examples.DisabledTW : 'Loading'}
+      />
+    </section>
 
-        <Accordion title="Small (sm)" size="sm" isContentInside={false}>
-          <div className="text-moon-10">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-  </div>
-);
+    <section className="mt-8 text-3xl font-bold">
+      <Preview
+        title="Content outside"
+        isGrayBg
+        preview={<ContentOutsideTW />}
+        code={examples ? examples.ContentOutsideTW : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8 text-3xl font-bold">
+      <Preview
+        title="Header content"
+        isGrayBg
+        preview={<ContentHeaderTW />}
+        code={examples ? examples.ContentHeaderTW : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8 text-3xl font-bold">
+      <Preview
+        title="Sizes"
+        isGrayBg
+        preview={<SizesTW />}
+        code={examples ? examples.SizesTW : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8 text-3xl font-bold">
+      <Preview
+        title="Sizes: content outside"
+        isGrayBg
+        preview={<ContentOutsideSizesTW />}
+        code={examples ? examples.ContentOutsideSizesTW : 'Loading'}
+      />
+    </section>
+  </div>);
+};
 
 export default Example;

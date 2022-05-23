@@ -81,7 +81,7 @@ export default function PageSearchInput() {
         </section>
         <section className="mt-8">
           <Preview
-            title="Disabled"
+            title="DisabledTW"
             preview={<SearchDisabled />}
             code={examples ? examples.SearchDisabled : 'Loading'}
           />

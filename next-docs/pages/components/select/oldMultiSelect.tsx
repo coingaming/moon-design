@@ -3,7 +3,7 @@ import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/select/multiSelect/Default';
-import Disabled from '../../../public/examples/select/multiSelect/Disabled';
+import DisabledTW from '../../../public/examples/select/multiSelect/Disabled';
 import Error from '../../../public/examples/select/multiSelect/Error';
 import useExamples from '../../../utils/useExamples';
 
@@ -30,10 +30,10 @@ export default function PageMultiSelect() {
         />
       </section>
 
-      {/* Disabled */}
+      {/* DisabledTW */}
       <section className="mt-8">
         <Preview
-          title="Disabled"
+          title="DisabledTW"
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
         />

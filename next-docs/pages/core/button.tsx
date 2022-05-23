@@ -1,86 +1,71 @@
 import React from 'react';
-import { Button } from '@heathmont/moon-core-tw';
-import { GenericSettings } from '@heathmont/moon-icons';
+import Preview from "../../components/codePreview/Preview";
+import AnimationsTW from "../../public/examples/button/AnimationsTW";
+import DisabledTW from "../../public/examples/button/DisabledTW";
+import FullWidthTW from "../../public/examples/button/FullWidthTW";
+import IconsTW from "../../public/examples/button/IconsTW";
+import SizesTW from "../../public/examples/button/SizesTW";
+import VariantsTW from "../../public/examples/button/VariantsTW";
+import useExamples from "../../utils/useExamples";
 
 const PageButton = () => {
+  const examples = useExamples('button');
+
   return (
     <div className="theme-moon-dark">
-      <section className="mt-8 text-3xl font-bold">Variants</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button>Primary is default</Button>
-          <Button variant="secondary">Secondary</Button>
-          <Button variant="tertiary">Tertiary</Button>
-          <Button variant="ghost">Ghost</Button>
-        </div>
-      </div>
+      <section className="mt-8">
+        <Preview
+          title="Variants"
+          isGrayBg
+          preview={<VariantsTW />}
+          code={examples ? examples.VariantsTW : 'Loading'}
+        />
+      </section>
 
-      <section className="mt-8 text-3xl font-bold">Sizes</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button size="xs">xSmall</Button>
-          <Button size="sm">Small</Button>
-          <Button>Medium is default</Button>
-          <Button size="lg">Large</Button>
-          <Button size="xl">xLarge</Button>
-        </div>
-      </div>
+      <section className="mt-8">
+        <Preview
+          title="Sizes"
+          isGrayBg
+          preview={<SizesTW />}
+          code={examples ? examples.SizesTW : 'Loading'}
+        />
+      </section>
 
-      <section className="mt-8 text-3xl font-bold">Icons</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button iconLeft={<GenericSettings fontSize="1.5rem" />}>
-            IconLeft
-          </Button>
-          <Button iconLeft>
-            <GenericSettings fontSize="1.5rem" />
-            IconLeft
-          </Button>
-          <Button iconRight={<GenericSettings fontSize="1.5rem" />}>
-            IconRight
-          </Button>
-          <Button iconRight>
-            IconRight
-            <GenericSettings fontSize="1.5rem" />
-          </Button>
-          <Button iconOnly={<GenericSettings fontSize="1.5rem" />} />
-          <Button iconOnly>
-            <GenericSettings fontSize="1.5rem" />
-          </Button>
-        </div>
-      </div>
+      <section className="mt-8">
+        <Preview
+          title="Icons"
+          isGrayBg
+          preview={<IconsTW />}
+          code={examples ? examples.IconsTW : 'Loading'}
+        />
+      </section>
 
-      <section className="mt-8 text-3xl font-bold">Full width</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button iconRight={<GenericSettings fontSize="1.5rem" />} fullWidth>
-            Full width
-          </Button>
-        </div>
-      </div>
+      <section className="mt-8">
+        <Preview
+          title="Full width"
+          isGrayBg
+          preview={<FullWidthTW />}
+          code={examples ? examples.FullWidthTW : 'Loading'}
+        />
+      </section>
 
-      <section className="mt-8 text-3xl font-bold">Disabled</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button disabled>Disabled</Button>
-        </div>
-      </div>
+      <section className="mt-8">
+        <Preview
+          title="Disabled"
+          isGrayBg
+          preview={<DisabledTW />}
+          code={examples ? examples.DisabledTW : 'Loading'}
+        />
+      </section>
 
-      <section className="mt-8 text-3xl font-bold">Animations</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button animation="progress">Progress</Button>
-          <Button animation="success">Success</Button>
-          <Button animation="error">Error</Button>
-          <Button animation="pulse">Pulse</Button>
-        </div>
-      </div>
+      <section className="mt-8">
+        <Preview
+          title="Animations"
+          isGrayBg
+          preview={<AnimationsTW />}
+          code={examples ? examples.AnimationsTW : 'Loading'}
+        />
+      </section>
     </div>
   );
 };

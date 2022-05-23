@@ -128,7 +128,7 @@ exports[`Switch renders Buttons 1`] = `
 </div>
 `;
 
-exports[`Switch renders Disabled state 1`] = `
+exports[`Switch renders DisabledTW state 1`] = `
 <div
   className="flex gap-20 items-center"
 >

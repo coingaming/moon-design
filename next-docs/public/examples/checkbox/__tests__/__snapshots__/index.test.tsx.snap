@@ -31,7 +31,7 @@ exports[`Checkbox renders Checked 1`] = `
 </label>
 `;
 
-exports[`Checkbox renders Disabled 1`] = `
+exports[`Checkbox renders DisabledTW 1`] = `
 <label
   className="sc-gFeNAA fnPTuj"
 >
@@ -56,7 +56,7 @@ exports[`Checkbox renders Disabled 1`] = `
       className="sc-cQIpJi llFRTU"
       size={14}
     >
-      Disabled Checkbox
+      DisabledTW Checkbox
     </p>
   </div>
 </label>

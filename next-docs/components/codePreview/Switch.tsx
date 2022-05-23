@@ -1,5 +1,5 @@
-import { Button as CopyButton} from '@heathmont/moon-core';
-import { FilesCopy } from '@heathmont/moon-icons';
+import { Button as CopyButton} from '@heathmont/moon-core-tw';
+import {FilesCopy} from '@heathmont/moon-icons';
 import classNames from '../../utils/classNames';
 
 const Button: React.FC<{ isActive: boolean; onClick: () => void }> = ({
@@ -32,20 +32,13 @@ export default function PreviewSwitch({
   setCodeActive,
   copyCode,
 }: PreviewSwitchProps) {
-  // const [isPreviewActive, setActive] = useState(true);
-  // const setPreviewActive = () => setActive(true);
-  // const setCodeActive = () => setActive(false);
-
   return (
     <div className="flex flex-row">
-      {!isPreviewActive &&
-        <CopyButton
-          iconOnly={<FilesCopy/>}
-          variant='secondary'
-          className="mr-2"
-          onClick={copyCode}
-          size="large"
-        />}
+      {!isPreviewActive && (<div className='mr-2'>
+        <CopyButton variant="secondary" iconOnly>
+          <FilesCopy fontSize="2rem" />
+        </CopyButton>
+      </div>)}
       <div className="p-0.5 rounded-lg flex bg-gray-300">
         <Button isActive={isPreviewActive} onClick={setPreviewActive}>
           <>

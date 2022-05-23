@@ -113,7 +113,7 @@ exports[`Radiobutton renders Checked 1`] = `
 </label>
 `;
 
-exports[`Radiobutton renders Disabled 1`] = `
+exports[`Radiobutton renders DisabledTW 1`] = `
 <label
   className="sc-fIiyQQ iijRRK"
 >
@@ -133,7 +133,7 @@ exports[`Radiobutton renders Disabled 1`] = `
   <span
     className="sc-cRkqwB fIFTkv"
   >
-    Disabled radio button
+    DisabledTW radio button
   </span>
 </label>
 `;

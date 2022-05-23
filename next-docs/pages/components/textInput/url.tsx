@@ -81,7 +81,7 @@ export default function PageUrlInput() {
         </section>
         <section className="mt-8">
           <Preview
-            title="Disabled"
+            title="DisabledTW"
             preview={<UrlDisabled />}
             code={examples ? examples.UrlDisabled : 'Loading'}
           />

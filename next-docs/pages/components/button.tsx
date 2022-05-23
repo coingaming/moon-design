@@ -3,7 +3,7 @@ import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/button/Animations';
-import Disabled from '../../public/examples/button/Disabled';
+import DisabledTW from '../../public/examples/button/Disabled';
 import FullWidth from '../../public/examples/button/FullWidth';
 import Icons from '../../public/examples/button/Icons';
 import Sizes from '../../public/examples/button/Sizes';
@@ -64,10 +64,10 @@ const PageButton = () => {
           code={examples ? examples.FullWidth : 'Loading'}
         />
       </section>
-      {/* Disabled */}
+      {/* DisabledTW */}
       <section className="mt-8">
         <Preview
-          title="Disabled"
+          title="DisabledTW"
           isGrayBg
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}

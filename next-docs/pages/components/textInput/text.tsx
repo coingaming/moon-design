@@ -76,7 +76,7 @@ export default function PageTextInput() {
         </section>
         <section className="mt-8">
           <Preview
-            title="Disabled"
+            title="DisabledTW"
             preview={<TextDisabled />}
             code={examples ? examples.TextDisabled : 'Loading'}
           />

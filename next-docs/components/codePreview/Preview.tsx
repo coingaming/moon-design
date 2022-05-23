@@ -34,6 +34,7 @@ const Preview = ({ title, preview, code, isGrayBg }: PreviewProps) => {
         <Heading as="h2" size={24}>
           {title}
         </Heading>
+
         <PreviewSwitch
           isPreviewActive={isPreviewActive}
           setPreviewActive={setPreviewActive}

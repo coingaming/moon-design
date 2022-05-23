@@ -72,7 +72,7 @@ export default function PageNumberInput() {
         </section>
         <section className="mt-8">
           <Preview
-            title="Disabled"
+            title="DisabledTW"
             preview={<NumberDisabled />}
             code={examples ? examples.NumberDisabled : 'Loading'}
           />

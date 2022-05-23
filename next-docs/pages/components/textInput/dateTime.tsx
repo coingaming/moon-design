@@ -81,7 +81,7 @@ export default function PageDateInput() {
         </section>
         <section className="mt-8">
           <Preview
-            title="Disabled"
+            title="DisabledTW"
             preview={<DateTimeDisabled />}
             code={examples ? examples.DateTimeDisabled : 'Loading'}
           />

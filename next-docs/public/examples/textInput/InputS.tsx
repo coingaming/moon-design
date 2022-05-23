@@ -35,7 +35,7 @@ const Example = () => (
       <TextInput
         type="text"
         inputSize="large"
-        label="Disabled"
+        label="DisabledTW"
         placeholder="Placeholder"
         hintText="Informative message holder"
         disabled
