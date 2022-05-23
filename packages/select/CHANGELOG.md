@@ -1,5 +1,17 @@
 # @heathmont/moon-select
 
+## 9.0.3
+
+### Patch Changes
+
+- Onetouch theme
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.0.3
+  - @heathmont/moon-components@9.0.3
+  - @heathmont/moon-core@9.0.3
+  - @heathmont/moon-icons@9.0.3
+  - @heathmont/moon-utils@9.0.3
+
 ## 9.0.2
 
 ### Patch Changes
