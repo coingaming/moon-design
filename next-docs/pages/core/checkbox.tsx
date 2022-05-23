@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React  from 'react';
 import Preview from "../../components/codePreview/Preview";
 import CheckedTW from "../../public/examples/checkbox/CheckedTW";
 import DefaultTW from "../../public/examples/checkbox/DefaultTW";
