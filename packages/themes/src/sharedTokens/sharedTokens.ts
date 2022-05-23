@@ -323,7 +323,8 @@ export type Brand =
   | 'MoonDesign'
   | 'ShangriLa.io'
   | 'Empire.io'
-  | 'Tajcasino';
+  | 'Tajcasino'
+  | 'Onetouch';
 
 export type ColorScheme = 'light' | 'dark';
 
