@@ -135,7 +135,7 @@ exports[`Button renders as disabled 1`] = `
   <div
     className="c1"
   >
-    DisabledTW Primary Button
+    Disabled Primary Button
   </div>
 </button>
 `;

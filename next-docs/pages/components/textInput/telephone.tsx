@@ -81,7 +81,7 @@ export default function PageTelephoneInput() {
         </section>
         <section className="mt-8">
           <Preview
-            title="DisabledTW"
+            title="Disabled"
             preview={<TelephoneDisabled />}
             code={examples ? examples.TelephoneDisabled : 'Loading'}
           />

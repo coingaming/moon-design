@@ -4,7 +4,7 @@ import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/checkbox/Checked';
 import Default from '../../public/examples/checkbox/Default';
-import DisabledTW from '../../public/examples/checkbox/Disabled';
+import Disabled from '../../public/examples/checkbox/Disabled';
 import NoLabel from '../../public/examples/checkbox/NoLabel';
 import Readonly from '../../public/examples/checkbox/Readonly';
 import useExamples from '../../utils/useExamples';
@@ -54,10 +54,10 @@ export default function PageAccordion() {
           code={examples ? examples.NoLabel : 'Loading'}
         />
       </section>
-      {/* DisabledTW */}
+      {/* Disabled */}
       <section className="mt-8">
         <Preview
-          title="DisabledTW"
+          title="Disabled"
           isGrayBg
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}

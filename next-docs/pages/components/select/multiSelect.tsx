@@ -1,7 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import PropsTable from '../../../components/PropsTable';
-import DisabledTW from '../../../public/examples/select/multiReactSelect/Disabled';
+import Disabled from '../../../public/examples/select/multiReactSelect/Disabled';
 import Error from '../../../public/examples/select/multiReactSelect/Error';
 import Hint from '../../../public/examples/select/multiReactSelect/Hint';
 import ListWidth from '../../../public/examples/select/multiReactSelect/ListWidth';
@@ -80,10 +80,10 @@ export default function PageSelect() {
         />
       </section>
 
-      {/* DisabledTW */}
+      {/* Disabled */}
       <section className="mt-8">
         <Preview
-          title="DisabledTW"
+          title="Disabled"
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
         />

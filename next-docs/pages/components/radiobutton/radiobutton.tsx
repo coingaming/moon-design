@@ -4,7 +4,7 @@ import Preview from '../../../components/codePreview/Preview';
 import PropsTable from '../../../components/PropsTable';
 import Checked from '../../../public/examples/radiobutton/radiobutton/Checked';
 import Default from '../../../public/examples/radiobutton/radiobutton/Default';
-import DisabledTW from '../../../public/examples/radiobutton/radiobutton/Disabled';
+import Disabled from '../../../public/examples/radiobutton/radiobutton/Disabled';
 import NoLabel from "../../../public/examples/radiobutton/radiobutton/NoLabel";
 import useExamples from '../../../utils/useExamples';
 
@@ -40,10 +40,10 @@ export default function RadioButtonPage() {
         />
       </section>
 
-      {/* DisabledTW */}
+      {/* Disabled */}
       <section className="mt-8">
         <Preview
-          title="DisabledTW"
+          title="Disabled"
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
         />

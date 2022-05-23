@@ -3,7 +3,7 @@ import Preview from '../../../components/codePreview/Preview';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/select/singleSelect/Default';
 import DefaultValue from '../../../public/examples/select/singleSelect/DefaultValue';
-import DisabledTW from '../../../public/examples/select/singleSelect/Disabled';
+import Disabled from '../../../public/examples/select/singleSelect/Disabled';
 import Hint from '../../../public/examples/select/singleSelect/Hint';
 import InputSize from '../../../public/examples/select/singleSelect/InputSize';
 import Label from '../../../public/examples/select/singleSelect/Label';
@@ -101,10 +101,10 @@ export default function PageSelectSingle() {
         />
       </section>
 
-      {/* DisabledTW */}
+      {/* Disabled */}
       <section className="mt-8">
         <Preview
-          title="DisabledTW"
+          title="Disabled"
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
         />
