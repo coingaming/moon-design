@@ -1,5 +1,4 @@
 import React from 'react';
-import { Loader } from '@heathmont/moon-core-tw';
 import Preview from "../../components/codePreview/Preview";
 import ColorsTW from "../../public/examples/loader/ColorsTW";
 import DefaultTW from "../../public/examples/loader/DefaultTW";
@@ -7,7 +6,7 @@ import SizesTW from "../../public/examples/loader/SizesTW";
 import useExamples from "../../utils/useExamples";
 
 const Example = () => {
-  const examples = useExamples('chip');
+  const examples = useExamples('loader');
 
   return (
     <div className="theme-moon-dark">
