@@ -1,6 +1,6 @@
-import type { ButtonProps } from '../../Button';
+import type ButtonProps from '../types/ButtonProps';
 
-const largePadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
+const lgPadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
   if (icon === 'left' || iconLeft) {
     return 'py-3 ps-3 pe-4';
   }
@@ -13,4 +13,4 @@ const largePadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
   return 'py-3 ps-4 pe-4';
 };
 
-export default largePadding;
+export default lgPadding;

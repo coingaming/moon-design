@@ -1,5 +1,5 @@
 import classNames from '../../../private/utils/classnames';
-import type { ButtonProps } from '../../Button';
+import type ButtonProps from '../types/ButtonProps';
 
 const buttonCommonStyles = ({ disabled }: ButtonProps): string => {
   return classNames(

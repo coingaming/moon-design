@@ -3,25 +3,9 @@ import Size from '../private/enums/Size';
 import classNames from '../private/utils/classnames';
 import AnimationContent from './private/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
-
-type ButtonSizes = Size.XS | Size.SM | Size.MD | Size.LG | Size.XL;
-type ButtonVariants = 'primary' | 'secondary' | 'tertiary' | 'ghost';
-type ButtonIcons = 'left' | 'right' | 'only';
-type ButtonAnimations = 'progress' | 'success' | 'error' | 'pulse';
-
-export interface ButtonProps
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: ButtonVariants;
-  size?: ButtonSizes | 'xs' | 'sm' | 'md' | 'lg' | 'xl';
-  icon?: ButtonIcons;
-  animation?: ButtonAnimations;
-  iconSize?: number;
-  iconLeft?: JSX.Element | boolean;
-  iconRight?: JSX.Element | boolean;
-  iconOnly?: JSX.Element | boolean;
-  disabled?: boolean;
-  fullWidth?: boolean;
-}
+import type ButtonProps from './private/types/ButtonProps';
+import type ButtonSizes from './private/types/ButtonSizes';
+import type ButtonVariants from './private/types/ButtonVariants';
 
 const Button: React.FC<ButtonProps> = ({
   children,

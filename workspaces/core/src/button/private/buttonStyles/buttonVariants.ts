@@ -1,4 +1,4 @@
-import type { ButtonProps } from '../../Button';
+import type ButtonProps from '../types/ButtonProps';
 
 const buttonVariants = ({ variant }: ButtonProps) => {
   if (variant === 'primary') {
