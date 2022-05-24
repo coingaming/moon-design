@@ -1,4 +1,3 @@
-import Size from '../../../private/enums/Size';
 import classNames from '../../../private/utils/classnames';
 import lgPadding from './lgPadding';
 import mdPadding from './mdPadding';
@@ -14,31 +13,31 @@ const buttonSizes = ({
   iconRight,
   iconOnly,
 }: ButtonProps): string => {
-  if (size === Size.XS) {
+  if (size === 'xs') {
     return classNames(
       xsPadding({ icon, iconLeft, iconRight, iconOnly }),
       'gap-1 text-moon-12 rounded-moon-i-xs'
     );
   }
-  if (size === Size.SM) {
+  if (size === 'sm') {
     return classNames(
       smPadding({ icon, iconLeft, iconRight, iconOnly }),
       'gap-1 text-moon-14 rounded-moon-i-sm'
     );
   }
-  if (size === Size.MD) {
+  if (size === 'md') {
     return classNames(
       mdPadding({ icon, iconLeft, iconRight, iconOnly }),
       'gap-2 text-moon-14 rounded-moon-i-sm'
     );
   }
-  if (size === Size.LG) {
+  if (size === 'lg') {
     return classNames(
       lgPadding({ icon, iconLeft, iconRight, iconOnly }),
       'gap-2 text-moon-16 rounded-moon-i-sm'
     );
   }
-  if (size === Size.XL) {
+  if (size === 'xl') {
     return classNames(
       xlPadding({ icon, iconLeft, iconRight, iconOnly }),
       'gap-2 text-moon-16 rounded-moon-i-md'

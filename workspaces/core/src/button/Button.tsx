@@ -1,16 +1,14 @@
 import React, { useState } from 'react';
-import Size from '../private/enums/Size';
 import classNames from '../private/utils/classnames';
 import AnimationContent from './private/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
 import type ButtonProps from './private/types/ButtonProps';
-import type ButtonSizes from './private/types/ButtonSizes';
 import type ButtonVariants from './private/types/ButtonVariants';
 
 const Button: React.FC<ButtonProps> = ({
   children,
   variant = 'primary',
-  size = Size.MD,
+  size = 'md',
   icon,
   iconSize = 24,
   iconLeft,
@@ -24,10 +22,10 @@ const Button: React.FC<ButtonProps> = ({
   const [isHover, setIsHover] = useState(false);
   const hasAnimationContent =
     animation === 'progress' || animation === 'success';
-  const setIconSize = size === Size.XS ? 16 : iconSize;
+  const setIconSize = size === 'xs' ? 16 : iconSize;
   return (
     <ButtonComponent
-      size={size as ButtonSizes}
+      size={size}
       variant={variant as ButtonVariants}
       icon={icon}
       iconSize={setIconSize}

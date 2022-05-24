@@ -1,5 +1,4 @@
 import React from 'react';
-import Size from '../private/enums/Size';
 import classNames from '../private/utils/classnames';
 import setPadding from './private/utils/setPadding';
 import type ChipProps from './private/types/ChipProps';
@@ -7,7 +6,7 @@ import type ChipProps from './private/types/ChipProps';
 const Chip: React.FC<ChipProps> = ({
   children,
   isActive,
-  size = Size.MD,
+  size = 'md',
   iconLeft,
   iconRight,
   iconOnly,
@@ -20,7 +19,7 @@ const Chip: React.FC<ChipProps> = ({
         className={classNames(
           'z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200',
           iconOnly ? 'center' : 'space-between',
-          size == Size.SM ? 'h-8 gap-1' : 'h-10 gap-2',
+          size == 'sm' ? 'h-8 gap-1' : 'h-10 gap-2',
           setPadding(size, iconLeft, iconRight, iconOnly),
           isActive ? 'bg-piccolo/[.12] text-piccolo' : 'bg-gohan text-bulma',
           isStroke && 'hover:shadow-interactive',
