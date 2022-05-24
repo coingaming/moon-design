@@ -1,21 +1,11 @@
 import React, { useState } from 'react';
-import Size from '../private/enums/Size';
 import classNames from '../private/utils/classnames';
 import ControlsChevronDown from './private/icons/ControlsChevronDown';
 import ControlsChevronUp from './private/icons/ControlsChevronUp';
+import type AccordionProps from './private/types/AccordionProps';
+import type AccordionSizes from './private/types/AccordionSizes';
 
-type Props = {
-  title: string;
-  openByDefault?: boolean;
-  children?: React.ReactNode;
-  disableOpen?: boolean;
-  headerContent?: React.ReactNode;
-  size?: Size;
-  withButton?: boolean;
-  isContentInside?: boolean;
-};
-
-const determineSpacing = (isContentInside?: boolean, size?: Size) => {
+const determineSpacing = (isContentInside?: boolean, size?: AccordionSizes) => {
   if (isContentInside) {
     switch (size) {
       case 'xl':
@@ -31,7 +21,7 @@ const determineSpacing = (isContentInside?: boolean, size?: Size) => {
   return '';
 };
 
-const determineMargin = (size?: Size) => {
+const determineMargin = (size?: AccordionSizes) => {
   switch (size) {
     case 'xl':
       return 'mt-4';
@@ -44,7 +34,7 @@ const determineMargin = (size?: Size) => {
   }
 };
 
-const determineHeight = (isContentInside?: boolean, size?: Size) => {
+const determineHeight = (isContentInside?: boolean, size?: AccordionSizes) => {
   if (isContentInside) {
     return 'h-6';
   } else {
@@ -61,7 +51,7 @@ const determineHeight = (isContentInside?: boolean, size?: Size) => {
   }
 };
 
-const determineFontSize = (size?: string) => {
+const determineFontSize = (size?: AccordionSizes) => {
   switch (size) {
     case 'sm':
       return `text-moon-10`;
@@ -82,8 +72,8 @@ const Accordion = ({
   headerContent,
   withButton = true,
   isContentInside = true,
-  size = 'md' as Size,
-}: Props) => {
+  size = 'md',
+}: AccordionProps) => {
   const [isOpen, setIsOpen] = useState(openByDefault);
 
   function handleState() {
