@@ -97,7 +97,7 @@ export const SearchInput = styled.input<
   overflow: 'hidden',
   backgroundColor: colorNew.goku,
   color: colorNew.trunks,
-  borderRadius: newTokens.borderRadius.medium,
+  borderRadius: newTokens.borderRadius.surface.small,
   border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
   outline: 0,
   zIndex: zIndex.searchInput,

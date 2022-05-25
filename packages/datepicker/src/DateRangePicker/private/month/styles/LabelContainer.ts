@@ -6,7 +6,7 @@ const LabelContainer = styled.div(
     fontSize: rem(14),
     lineHeight: rem(24),
     color: colorNew.bulma,
-    borderRadius: newTokens.borderRadius.medium,
+    borderRadius: newTokens.borderRadius.surface.small,
     padding: `${rem(8)} ${rem(12)}`,
     marginBottom: rem(4),
     cursor: 'pointer',

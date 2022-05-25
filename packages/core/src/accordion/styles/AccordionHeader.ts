@@ -1,4 +1,4 @@
-import { SharedTheme } from '@heathmont/moon-components/node_modules/@heathmont/moon-themes';
+import { SharedTheme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Size from '../private/Size';
@@ -52,7 +52,7 @@ const AccordionHeader = styled.div<Props>(
     cursor: disabled ? 'not-allowed' : 'pointer',
     position: 'relative',
     padding: isContentInside ? 0 : determineSpacing(newTokens, true, size),
-    borderRadius: isContentInside ? 0 : newTokens.borderRadius.medium,
+    borderRadius: isContentInside ? 0 : newTokens.borderRadius.surface.small,
     '> *:first-child': {
       flex: 1,
     },

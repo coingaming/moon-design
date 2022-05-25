@@ -27,7 +27,7 @@ const Container = styled.div<Props>(
       width: '100%',
       backgroundColor: colorNew.goten,
       padding: determinePadding(newTokens, isMobile, isSingleLine),
-      borderRadius: newTokens.borderRadius.medium,
+      borderRadius: newTokens.borderRadius.surface.small,
       display: hasButtons && !isMobile ? 'flex' : 'block',
     },
     hasButtons &&

@@ -1,8 +1,10 @@
+import { useTheme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import Size from '../../../private/enums/Size';
 import type SizeProps from '../types/SizeProps';
 
 const setWrapperSize = (size?: SizeProps) => {
+  const theme = useTheme();
   if (size === Size.XSMALL) {
     return {
       height: rem(24),
@@ -10,6 +12,7 @@ const setWrapperSize = (size?: SizeProps) => {
       fontSize: rem(10),
       lineHeight: rem(16),
       letterSpacing: rem(0.5),
+      borderRadius: theme.newTokens.borderRadius.interactive.xsmall,
     };
   }
   if (size === Size.SMALL) {
@@ -18,6 +21,7 @@ const setWrapperSize = (size?: SizeProps) => {
       width: rem(32),
       fontSize: rem(12),
       lineHeight: rem(16),
+      borderRadius: theme.newTokens.borderRadius.interactive.small,
     };
   }
   if (size === Size.MEDIUM) {
@@ -26,6 +30,7 @@ const setWrapperSize = (size?: SizeProps) => {
       width: rem(40),
       fontSize: rem(14),
       lineHeight: rem(24),
+      borderRadius: theme.newTokens.borderRadius.interactive.small,
     };
   }
   if (size === Size.LARGE) {
@@ -34,6 +39,7 @@ const setWrapperSize = (size?: SizeProps) => {
       width: rem(48),
       fontSize: rem(16),
       lineHeight: rem(24),
+      borderRadius: theme.newTokens.borderRadius.interactive.small,
     };
   }
   if (size === Size.XLARGE) {
@@ -42,6 +48,7 @@ const setWrapperSize = (size?: SizeProps) => {
       width: rem(56),
       fontSize: rem(16),
       lineHeight: rem(24),
+      borderRadius: theme.newTokens.borderRadius.interactive.small,
     };
   }
   return {
@@ -49,6 +56,7 @@ const setWrapperSize = (size?: SizeProps) => {
     width: rem(64),
     fontSize: rem(20),
     lineHeight: rem(32),
+    borderRadius: theme.newTokens.borderRadius.interactive.medium,
   };
 };
 

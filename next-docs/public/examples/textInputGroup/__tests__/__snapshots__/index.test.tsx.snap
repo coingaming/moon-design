@@ -90,7 +90,7 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
   </div>
   <div>
     <span
-      className="sc-dpRLZP hlQOoC"
+      className="sc-dpRLZP gfafko"
       size="xsmall"
     >
       Country: 
@@ -99,7 +99,7 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
   </div>
   <div>
     <span
-      className="sc-dpRLZP hlQOoC"
+      className="sc-dpRLZP gfafko"
       size="xsmall"
     >
       Phone: 
@@ -295,7 +295,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
   </div>
   <div>
     <span
-      className="sc-dpRLZP hlQOoC"
+      className="sc-dpRLZP gfafko"
       size="xsmall"
     >
       Country: 
@@ -303,7 +303,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
   </div>
   <div>
     <span
-      className="sc-dpRLZP hlQOoC"
+      className="sc-dpRLZP gfafko"
       size="xsmall"
     >
       Vehicle: 
