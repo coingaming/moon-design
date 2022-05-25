@@ -3,6 +3,7 @@ import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
+import ErrorStateCentered from "../../public/examples/authCode/ErrorStateCentered";
 import FourChars from '../../public/examples/authCode/FourChars';
 import OnlyDigits from '../../public/examples/authCode/OnlyDigits';
 import useExamples from '../../utils/useExamples';
@@ -50,6 +51,14 @@ const PageAuthCodeGroup = () => {
           title="Error state"
           preview={<ErrorState />}
           code={examples ? examples.ErrorState : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Error state position"
+          preview={<ErrorStateCentered />}
+          code={examples ? examples.ErrorStateCentered : 'Loading'}
         />
       </section>
 
