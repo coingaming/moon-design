@@ -1,13 +1,21 @@
-import { rem } from '@heathmont/moon-utils';
+import { ColorProps } from '@heathmont/moon-themes';
+import { rem, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 interface Props {
   orientation?: 'vertical' | 'horizontal';
   isXLarge?: boolean;
+  backgroundColor?: ColorProps;
 }
 
 const Container = styled.div<Props>(
-  ({ orientation, isXLarge, theme: { newTokens, colorNew } }) => [
+  ({
+    orientation,
+    isXLarge,
+    backgroundColor = 'gohan',
+    theme: currentTheme,
+    theme: { newTokens, colorNew },
+  }) => [
     {
       display: 'flex',
       width: '100%',
@@ -16,6 +24,9 @@ const Container = styled.div<Props>(
       boxShadow: `0 0 0 ${newTokens.border.width.default} ${colorNew.beerus} inset`,
       position: 'relative',
       borderRadius: newTokens.borderRadius.surface.medium,
+      backgroundColor: !backgroundColor
+        ? 'transparent'
+        : themed('colorNew', backgroundColor)(currentTheme),
     },
     orientation === 'horizontal' && {
       '&::after': {
@@ -26,7 +37,6 @@ const Container = styled.div<Props>(
         width: rem(1),
         left: '50%',
         transform: 'translateX(-50%)',
-        background: colorNew.beerus,
         zIndex: 3,
       },
       '&:hover, &:focus-within': {

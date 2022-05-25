@@ -2,6 +2,7 @@ import { SharedTheme, ColorProps } from '@heathmont/moon-themes';
 import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Size from '../../private/enums/Size';
+import makeBorderRadius from './makeBorderRadius';
 import TextInputSizeType from './types/SizeTypes';
 
 type InputProps = {
@@ -23,48 +24,34 @@ type InputProps = {
   isSideBorderHidden?: boolean;
 };
 
-const makeBorderRadius = (
-  borderRadius: SharedTheme['newTokens']['borderRadius'],
+const makeBorder = (
+  border: SharedTheme['newTokens']['border'],
+  isSideBorderHidden?: boolean,
+  isTopBottomBorderHidden?: boolean,
   isSharpLeftSide?: boolean,
   isSharpRightSide?: boolean,
   isSharpTopSide?: boolean,
   isSharpBottomSide?: boolean
 ) => {
-  return {
-    borderTopLeftRadius:
-      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.interactive.medium,
-    borderTopRightRadius:
-      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.interactive.medium,
-    borderBottomLeftRadius:
-      isSharpLeftSide || isSharpBottomSide
-        ? 0
-        : borderRadius.interactive.medium,
-    borderBottomRightRadius:
-      isSharpRightSide || isSharpBottomSide
-        ? 0
-        : borderRadius.interactive.medium,
-  };
-};
-
-const makeBorder = (
-  border: SharedTheme['newTokens']['border'],
-  isSideBorderHidden?: boolean,
-  isTopBottomBorderHidden?: boolean
-) => {
+  const defaultWidth = `-${border.width.default}`;
   if (isSideBorderHidden) {
+    const rightInset = isSharpLeftSide ? 0 : 2;
+    const leftInset = isSharpRightSide ? 0 : 2;
     return {
       '&:not(:hover):not(:focus)': {
-        clipPath: `inset(-${border.width.default} ${rem(2)} -${
-          border.width.default
-        } ${rem(2)})`,
+        clipPath: `inset(${defaultWidth} ${rem(
+          rightInset
+        )} ${defaultWidth} ${rem(leftInset)})`,
       },
     };
   } else if (isTopBottomBorderHidden) {
+    const bottomInset = isSharpTopSide ? 0 : 2;
+    const topInset = isSharpBottomSide ? 0 : 2;
     return {
       '&:not(:hover):not(:focus)': {
-        clipPath: `inset(${rem(2)} -${border.width.default} ${rem(2)} -${
-          border.width.default
-        })`,
+        clipPath: `inset(${rem(topInset)} ${defaultWidth} ${rem(
+          bottomInset
+        )} ${defaultWidth})`,
       },
     };
   }
@@ -82,7 +69,7 @@ const Input = styled.input.attrs(({ type }) => ({
       newTokens: { borderRadius, space, border, transition },
     },
     inputSize,
-    error,
+    error = true,
     icon,
     type,
     bgColor,
@@ -122,7 +109,15 @@ const Input = styled.input.attrs(({ type }) => ({
         isSharpTopSide,
         isSharpBottomSide
       ),
-      ...makeBorder(border, isSideBorderHidden, isTopBottomBorderHidden),
+      ...makeBorder(
+        border,
+        isSideBorderHidden,
+        isTopBottomBorderHidden,
+        isSharpLeftSide,
+        isSharpRightSide,
+        isSharpTopSide,
+        isSharpBottomSide
+      ),
       transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',

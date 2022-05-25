@@ -75,7 +75,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
 
     if (inputSize === Size.XLARGE) {
       return (
-        <Container disabled={disabled}>
+        <Container {...inputProps}>
           <Inner bgColor={backgroundColor}>
             <Input
               inputSize={inputSize}
@@ -83,6 +83,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
               error={isError}
               ref={ref}
               id={id}
+              bgColor={backgroundColor}
               isLabel={!!label}
               isPassword={true}
               {...inputProps}
@@ -100,7 +101,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       );
     }
     return (
-      <Container disabled={disabled}>
+      <Container {...inputProps}>
         {label && (
           <Label dir={dir} htmlFor={id}>
             {label}
