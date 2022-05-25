@@ -39,6 +39,7 @@ const PageTextInputGroup = () => {
       <section className="mt-8">
         <Preview
           title="Default"
+          isGrayBg
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
         />
@@ -47,6 +48,7 @@ const PageTextInputGroup = () => {
       <section className="mt-8">
         <Preview
           title="Vertical orientation"
+          isGrayBg
           preview={<Vertical />}
           code={examples ? examples.Vertical : 'Loading'}
         />
@@ -55,6 +57,7 @@ const PageTextInputGroup = () => {
       <section className="mt-8">
         <Preview
           title="RTL"
+          isGrayBg
           preview={<Rtl />}
           code={examples ? examples.Rtl : 'Loading'}
         />
@@ -63,6 +66,7 @@ const PageTextInputGroup = () => {
       <section className="mt-8">
         <Preview
           title="Sizes"
+          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />
@@ -71,6 +75,7 @@ const PageTextInputGroup = () => {
       <section className="mt-8">
         <Preview
           title="Text type variants"
+          isGrayBg
           preview={<Types />}
           code={examples ? examples.Types : 'Loading'}
         />
@@ -79,6 +84,7 @@ const PageTextInputGroup = () => {
       <section className="mt-8">
         <Preview
           title="Single Select variant"
+          isGrayBg
           preview={<SingleSelect />}
           code={examples ? examples.SingleSelect : 'Loading'}
         />
@@ -87,6 +93,7 @@ const PageTextInputGroup = () => {
       <section className="mt-8">
         <Preview
           title="Multi Select variant"
+          isGrayBg
           preview={<MultiSelect />}
           code={examples ? examples.MultiSelect : 'Loading'}
         />
@@ -95,6 +102,7 @@ const PageTextInputGroup = () => {
       <section className="mt-8">
         <Preview
           title="Single Select variant vertical orientation"
+          isGrayBg
           preview={<SingleSelectVertical />}
           code={examples ? examples.SingleSelectVertical : 'Loading'}
         />
@@ -103,6 +111,7 @@ const PageTextInputGroup = () => {
       <section className="mt-8">
         <Preview
           title="Single Select variant RTL"
+          isGrayBg
           preview={<SingleSelectRtl />}
           code={examples ? examples.SingleSelectRtl : 'Loading'}
         />
@@ -111,6 +120,7 @@ const PageTextInputGroup = () => {
       <section className="mt-8">
         <Preview
           title="Access Values by ref"
+          isGrayBg
           preview={<AccessValues />}
           code={examples ? examples.AccessValues : 'Loading'}
         />
@@ -119,6 +129,7 @@ const PageTextInputGroup = () => {
       <section className="mt-8">
         <Preview
           title="Access Values (Select) by event listener"
+          isGrayBg
           preview={<EventListenerSelect />}
           code={examples ? examples.EventListenerSelect : 'Loading'}
         />

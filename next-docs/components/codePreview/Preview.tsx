@@ -25,7 +25,7 @@ const Preview = ({ title, preview, code, isGrayBg }: PreviewProps) => {
   const setPreviewActive = () => setActive(true);
   const setCodeActive = () => setActive(false);
   const copyCode = () => {
-    if (navigator?.clipboard) navigator.clipboard.writeText(code ? code : "");
+    if (navigator?.clipboard) navigator.clipboard.writeText(code ? code : '');
   };
 
   return (
@@ -47,7 +47,8 @@ const Preview = ({ title, preview, code, isGrayBg }: PreviewProps) => {
             ? 'bg-white flex justify-center'
             : 'bg-black text-white overflow-x-scroll',
           'mt-4 overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6',
-          isGrayBg ? 'bg-slate-200 text-gray-600' : ''
+          isGrayBg ? 'bg-purple-700 text-gray-600' : ''
+          // isGrayBg ? 'bg-slate-200 text-gray-600' : ''
         )}
       >
         {isPreviewActive ? <>{preview}</> : <>{code && <Code code={code} />}</>}
