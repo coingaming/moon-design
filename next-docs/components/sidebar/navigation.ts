@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Transform SVG', href: '/transformIcon' },
   { name: 'Manifest', href: '/manifest' },
   {
-    name: 'Core',
+    name: 'Tailwind',
     children: [
       { name: 'Accordion', href: '/core/accordion' },
       { name: 'Button', href: '/core/button' },
@@ -22,7 +22,7 @@ const navigation = [
     ],
   },
   {
-    name: 'Components',
+    name: 'Styled Components',
     children: [
       { name: 'Accordion', href: '/components/accordion' },
       { name: 'Avatar', href: '/components/avatar' },
