@@ -91,7 +91,7 @@ const GoToPage: React.FC<GoToPageProps> = ({
       {children}
       <TextInput value={value} pattern="\d+" onChange={handleChange} />
       <CircleButton type="submit">
-        <ControlsChevronRight fontSize={rem(23)}/>
+        <ControlsChevronRight fontSize={rem(24)} />
       </CircleButton>
     </Form>
   );

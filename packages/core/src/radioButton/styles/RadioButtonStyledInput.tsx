@@ -74,7 +74,7 @@ const Content = styled.span(({ theme }) => ({
   minHeight: rem(24),
   position: 'relative',
   transition: 'background-color 0.4s',
-  marginRight: theme.newTokens.space.threexsmall,
+  marginRight: rem(4),
   zIndex: 2,
   '&:hover': {
     backgroundColor: 'rgba(0, 0, 0, 0.08)',

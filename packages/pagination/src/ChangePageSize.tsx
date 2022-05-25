@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { FilterDropdown, SingleItemSelect } from '@heathmont/moon-components';
 import { Button } from '@heathmont/moon-core';
 import { ControlsChevronDown } from '@heathmont/moon-icons';
-import { rem } from "@heathmont/moon-utils";
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import useClickAway from './__private__/useClickAway';
 
@@ -17,7 +17,7 @@ const Dropdown = styled.div(({ theme }) => ({
   left: 0,
   minWidth: '100%',
   width: 'auto',
-  marginBottom: theme.newTokens.space.xsmall,
+  marginBottom: rem(12),
   zIndex: theme.newTokens.zIndex.dialog,
   '& > div': {
     minWidth: 'auto',
@@ -67,7 +67,7 @@ const ChangePageSize = ({
         onClick={() => setIsOpen(!isOpen)}
       >
         {children}
-        <ControlsChevronDown fontSize={rem(23)}/>
+        <ControlsChevronDown fontSize={rem(24)} />
       </ButtonDefault>
       {isOpen && (
         <Dropdown test-id="dropdown">

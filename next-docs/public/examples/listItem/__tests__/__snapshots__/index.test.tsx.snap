@@ -49,7 +49,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         <svg
           className="sc-dvwKko"
           fill="none"
-          fontSize="1.4375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -85,7 +85,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         <svg
           className="sc-dvwKko"
           fill="none"
-          fontSize="1.4375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -111,7 +111,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         <svg
           className="sc-dvwKko"
           fill="none"
-          fontSize="1.4375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -134,7 +134,7 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
         <svg
           className="sc-dvwKko"
           fill="none"
-          fontSize="1.4375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -281,7 +281,7 @@ exports[`List Item renders Two Line Items with Checkbox 1`] = `
             type="checkbox"
           />
           <div
-            className="sc-ciicml bpqhVu"
+            className="sc-ciicml JmSBy"
           >
             <span
               className="sc-eZgkGA kLWXuq"
@@ -324,7 +324,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         <svg
           className="sc-dvwKko"
           fill="none"
-          fontSize="1.4375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -369,7 +369,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         <svg
           className="sc-dvwKko"
           fill="none"
-          fontSize="1.4375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -404,7 +404,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         <svg
           className="sc-dvwKko"
           fill="none"
-          fontSize="1.4375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -427,7 +427,7 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
         <svg
           className="sc-dvwKko"
           fill="none"
-          fontSize="1.4375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
