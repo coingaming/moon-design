@@ -25,12 +25,6 @@ const buttonSizes = ({
       'gap-1 text-moon-14 rounded-moon-i-sm'
     );
   }
-  if (size === 'md') {
-    return classNames(
-      mdPadding({ icon, iconLeft, iconRight, iconOnly }),
-      'gap-2 text-moon-14 rounded-moon-i-sm'
-    );
-  }
   if (size === 'lg') {
     return classNames(
       lgPadding({ icon, iconLeft, iconRight, iconOnly }),
@@ -43,7 +37,10 @@ const buttonSizes = ({
       'gap-2 text-moon-16 rounded-moon-i-md'
     );
   }
-  return '';
+  return classNames(
+    mdPadding({ icon, iconLeft, iconRight, iconOnly }),
+    'gap-2 text-moon-14 rounded-moon-i-sm'
+  );
 };
 
 export default buttonSizes;

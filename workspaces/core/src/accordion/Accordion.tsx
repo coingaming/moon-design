@@ -1,68 +1,11 @@
 import React, { useState } from 'react';
 import classNames from '../private/utils/classnames';
-import ControlsChevronDown from './private/icons/ControlsChevronDown';
-import ControlsChevronUp from './private/icons/ControlsChevronUp';
+import ControlsChevronRight from './private/icons/ControlsChevronRight';
+import setFont from './private/utils/setFont';
+import setMargin from './private/utils/setMargin';
+import setOpenIcon from './private/utils/setOpenIcon';
+import setPadding from './private/utils/setPadding';
 import type AccordionProps from './private/types/AccordionProps';
-import type AccordionSizes from './private/types/AccordionSizes';
-
-const determineSpacing = (isContentInside?: boolean, size?: AccordionSizes) => {
-  if (isContentInside) {
-    switch (size) {
-      case 'xl':
-        return 'p-4';
-      case 'lg':
-        return 'p-3';
-      case 'sm':
-        return 'p-1 pl-2';
-      default:
-        return 'p-2';
-    }
-  }
-  return '';
-};
-
-const determineMargin = (size?: AccordionSizes) => {
-  switch (size) {
-    case 'xl':
-      return 'mt-4';
-    case 'lg':
-      return 'mt-3';
-    case 'sm':
-      return 'mt-1';
-    default:
-      return 'mt-2';
-  }
-};
-
-const determineHeight = (isContentInside?: boolean, size?: AccordionSizes) => {
-  if (isContentInside) {
-    return 'h-6';
-  } else {
-    switch (size) {
-      case 'xl':
-        return 'h-14';
-      case 'lg':
-        return 'h-12';
-      case 'sm':
-        return 'h-8';
-      default:
-        return 'h-10';
-    }
-  }
-};
-
-const determineFontSize = (size?: AccordionSizes) => {
-  switch (size) {
-    case 'sm':
-      return `text-moon-10`;
-    case 'lg':
-      return `text-moon-14`;
-    case 'xl':
-      return `text-moon-16`;
-    default:
-      return `text-moon-12`;
-  }
-};
 
 const Accordion = ({
   title,
@@ -75,39 +18,30 @@ const Accordion = ({
   size = 'md',
 }: AccordionProps) => {
   const [isOpen, setIsOpen] = useState(openByDefault);
-
   function handleState() {
     if (!disableOpen) {
       setIsOpen(!isOpen);
     }
   }
-
   return (
     <div
       className={classNames(
         'w-full rounded-moon-s-sm h-max flex flex-col items-center',
         isContentInside ? 'bg-gohan' : 'transparent',
-        determineSpacing(isContentInside, size)
+        setPadding(isContentInside, size)
       )}
     >
       <div
         className={classNames(
-          'bg-gohan w-full flex items-center relative ',
+          'bg-gohan w-full flex items-center relative gap-1',
           disableOpen ? 'cursor-not-allowed' : 'cursor-pointer',
           isContentInside ? 'bg-gohan' : 'transparent rounded-moon-s-sm',
-          isContentInside ? '' : determineSpacing(true, size),
-          determineHeight(isContentInside, size),
-          size === 'sm' && 'uppercase'
+          isContentInside ? '' : setPadding(true, size)
         )}
         onClick={handleState}
       >
         {title && (
-          <h3
-            className={classNames(
-              'font-medium flex-1',
-              determineFontSize(size)
-            )}
-          >
+          <h3 className={classNames('flex-1 font-medium', setFont(size))}>
             {title}
           </h3>
         )}
@@ -121,30 +55,21 @@ const Accordion = ({
               disableOpen ? 'cursor-not-allowed' : 'cursor-pointer'
             )}
           >
-            {isOpen ? (
-              <ControlsChevronDown
-                className={classNames(
-                  'text-bulma',
-                  size === 'sm' ? 'text-[1.5rem]' : 'text-[2rem]'
-                )}
-              />
-            ) : (
-              <ControlsChevronUp
-                className={classNames(
-                  'text-bulma',
-                  size === 'sm' ? 'text-[1.5rem]' : 'text-[2rem]'
-                )}
-              />
-            )}
+            <ControlsChevronRight
+              className={classNames(
+                'text-trunks transition-transform transition-200',
+                setOpenIcon(isOpen)
+              )}
+              fontSize="1.5rem"
+            />
           </button>
         )}
       </div>
-
       <div
         className={classNames(
-          'overflow-hidden rounded-moon-s-xs',
+          'overflow-hidden',
           isOpen ? 'h-full' : 'h-0',
-          isOpen && determineMargin(size)
+          isOpen && setMargin(size)
         )}
       >
         {children}

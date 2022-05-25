@@ -8,9 +8,9 @@ const lgPadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
     return 'py-3 ps-4 pe-3';
   }
   if (icon === 'only' || iconOnly) {
-    return 'py-3 ps-3 pe-3';
+    return 'p-3';
   }
-  return 'py-3 ps-4 pe-4';
+  return 'py-3 px-4';
 };
 
 export default lgPadding;

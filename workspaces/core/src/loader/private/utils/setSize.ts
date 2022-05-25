@@ -1,4 +1,3 @@
-import Size from '../../../private/enums/Size';
 import type LoaderSize from '../types/LoaderSize';
 
 const setSize = (size?: LoaderSize) => {
@@ -9,12 +8,10 @@ const setSize = (size?: LoaderSize) => {
       return 'w-6 h-6';
     case 'sm':
       return 'w-8 h-8';
-    case 'md':
-      return 'w-10 h-10';
     case 'lg':
       return 'w-12 h-12';
     default:
-      return;
+      return 'w-10 h-10';
   }
 };
 

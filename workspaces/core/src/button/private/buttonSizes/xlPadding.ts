@@ -8,9 +8,9 @@ const xlPadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
     return 'py-4 ps-6 pe-4';
   }
   if (icon === 'only' || iconOnly) {
-    return 'py-4 ps-4 pe-4';
+    return 'p-4';
   }
-  return 'py-4 ps-6 pe-6';
+  return 'py-4 px-6';
 };
 
 export default xlPadding;

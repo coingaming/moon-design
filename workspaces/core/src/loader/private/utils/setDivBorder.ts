@@ -6,11 +6,8 @@ const setDivBorder = (size?: LoaderSize) => {
     case 'xs':
     case 'sm':
       return 'border-2 border-solid';
-    case 'md':
-    case 'lg':
-      return 'border-4 border-solid';
     default:
-      return;
+      return 'border-4 border-solid';
   }
 };
 
