@@ -1,11 +1,11 @@
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-const LabelContainer = styled.div(({ theme} ) => ({
+const LabelContainer = styled.div(({ theme }) => ({
   fontSize: rem(14),
   lineHeight: rem(24),
   color: theme.colorNew.bulma,
-  borderRadius: theme.newTokens.borderRadius.medium,
+  borderRadius: theme.newTokens.borderRadius.surface.small,
   padding: `${rem(8)} ${rem(12)}`,
   marginBottom: rem(4),
   cursor: 'pointer',

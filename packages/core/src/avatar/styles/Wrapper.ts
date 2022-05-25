@@ -8,7 +8,6 @@ const Wrapper = styled.div<AvatarProps>(
     {
       color: themed('color', color)(theme),
       backgroundColor: themed('color', backgroundColor)(theme),
-      borderRadius: theme.newTokens.borderRadius.interactive,
       overflow: 'hidden',
       textTransform: 'uppercase',
       fontWeight: theme.newTokens.font.weight.semibold,

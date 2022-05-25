@@ -20,11 +20,11 @@ const PageButton = () => {
       {/* Variants */}
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around w-full items-center">
-          <Button size="xsmall">xSmall</Button>
-          <Button size="small">Small</Button>
+          <Button size="xs">xSmall</Button>
+          <Button size="sm">Small</Button>
           <Button>Medium is default</Button>
-          <Button size="large">Large</Button>
-          <Button size="xlarge">xLarge</Button>
+          <Button size="lg">Large</Button>
+          <Button size="xl">xLarge</Button>
         </div>
       </div>
 

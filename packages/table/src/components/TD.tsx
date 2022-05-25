@@ -12,13 +12,13 @@ const TD = styled.div<{ selectable?: boolean }>(({ theme, selectable }) => ({
   boxSizing: 'border-box',
   '&:first-child': {
     borderLeft: `${rem(4)} solid transparent`,
-    borderTopLeftRadius: theme.newTokens.borderRadius.medium,
-    borderBottomLeftRadius: theme.newTokens.borderRadius.medium,
+    borderTopLeftRadius: theme.newTokens.borderRadius.surface.small,
+    borderBottomLeftRadius: theme.newTokens.borderRadius.surface.small,
   },
   '&:last-child': {
     borderRight: `${rem(4)} solid transparent`,
-    borderTopRightRadius: theme.newTokens.borderRadius.medium,
-    borderBottomRightRadius: theme.newTokens.borderRadius.medium,
+    borderTopRightRadius: theme.newTokens.borderRadius.surface.small,
+    borderBottomRightRadius: theme.newTokens.borderRadius.surface.small,
     '&::after': {
       width: 0,
     },

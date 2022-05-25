@@ -20,7 +20,7 @@ const AccordionHeader = styled.div<Props>(
     cursor: disabled ? 'not-allowed' : 'pointer',
     position: 'relative',
     padding: isContentInside ? 0 : setSpacing(true, size),
-    borderRadius: isContentInside ? 0 : newTokens.borderRadius.medium,
+    borderRadius: isContentInside ? 0 : newTokens.borderRadius.surface.small,
     '> *:first-child': {
       flex: 1,
     },

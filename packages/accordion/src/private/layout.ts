@@ -6,7 +6,7 @@ export const AccordionWrapper = styled.div(
     width: '100%',
     padding: rem(16),
     background: colorNew.gohan,
-    borderRadius: newTokens.borderRadius.medium,
+    borderRadius: newTokens.borderRadius.surface.small,
     color: colorNew.bulma,
   })
 );

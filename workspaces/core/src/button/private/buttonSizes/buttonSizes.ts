@@ -1,11 +1,10 @@
-import Size from '../../../private/enums/Size';
 import classNames from '../../../private/utils/classnames';
-import largePadding from './largePadding';
-import mediumPadding from './mediumPadding';
-import smallPadding from './smallPadding';
-import xLargePadding from './xLargePadding';
-import xSmallPadding from './xSmallPadding';
-import type { ButtonProps } from '../../Button';
+import lgPadding from './lgPadding';
+import mdPadding from './mdPadding';
+import smPadding from './smPadding';
+import xlPadding from './xlPadding';
+import xsPadding from './xsPadding';
+import type ButtonProps from '../types/ButtonProps';
 
 const buttonSizes = ({
   size,
@@ -14,37 +13,34 @@ const buttonSizes = ({
   iconRight,
   iconOnly,
 }: ButtonProps): string => {
-  if (size === Size.XSMALL) {
+  if (size === 'xs') {
     return classNames(
-      xSmallPadding({ icon, iconLeft, iconRight, iconOnly }),
-      'gap-1 text-xs rounded-moon-i-xs'
+      xsPadding({ icon, iconLeft, iconRight, iconOnly }),
+      'gap-1 text-moon-12 rounded-moon-i-xs'
     );
   }
-  if (size === Size.SMALL) {
+  if (size === 'sm') {
     return classNames(
-      smallPadding({ icon, iconLeft, iconRight, iconOnly }),
-      'gap-1 text-sm rounded-moon-i-sm'
+      smPadding({ icon, iconLeft, iconRight, iconOnly }),
+      'gap-1 text-moon-14 rounded-moon-i-sm'
     );
   }
-  if (size === Size.MEDIUM) {
+  if (size === 'lg') {
     return classNames(
-      mediumPadding({ icon, iconLeft, iconRight, iconOnly }),
-      'gap-2 text-sm rounded-moon-i-sm'
+      lgPadding({ icon, iconLeft, iconRight, iconOnly }),
+      'gap-2 text-moon-16 rounded-moon-i-sm'
     );
   }
-  if (size === Size.LARGE) {
+  if (size === 'xl') {
     return classNames(
-      largePadding({ icon, iconLeft, iconRight, iconOnly }),
-      'gap-2 text-base rounded-moon-i-sm'
+      xlPadding({ icon, iconLeft, iconRight, iconOnly }),
+      'gap-2 text-moon-16 rounded-moon-i-md'
     );
   }
-  if (size === Size.XLARGE) {
-    return classNames(
-      xLargePadding({ icon, iconLeft, iconRight, iconOnly }),
-      'gap-2 text-base rounded-moon-i-md'
-    );
-  }
-  return '';
+  return classNames(
+    mdPadding({ icon, iconLeft, iconRight, iconOnly }),
+    'gap-2 text-moon-14 rounded-moon-i-sm'
+  );
 };
 
 export default buttonSizes;

@@ -16,7 +16,7 @@ const Container = styled.span<Props>(
     alignItems: 'center',
     fontWeight: newTokens.font.weight.semibold,
     textTransform: 'uppercase',
-    borderRadius: newTokens.borderRadius.full,
+    borderRadius: rem(9999),
     letterSpacing: rem(1), // TODO
   }),
   ({ size }) => ({

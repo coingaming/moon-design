@@ -29,7 +29,7 @@ const Container = styled.div<Props>(
     justifyContent: 'space-between',
     alignItems: 'center',
     lineHeight: rem(24),
-    borderRadius: newTokens.borderRadius.medium,
+    borderRadius: newTokens.borderRadius.surface.small,
   }),
   ({ size }) => ({
     fontSize: size === 'medium' ? rem(14) : rem(16),

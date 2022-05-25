@@ -18,7 +18,8 @@ const ListboxInputWrapper = styled(ListboxInput)<ListboxInputWrapperProps>(
       fontSize: inputsize === 'medium' ? rem(14) : rem(16),
       lineHeight: rem(24),
       color: colorNew.bulma,
-      borderRadius: newTokens.borderRadius.large,
+      background: 'red',
+      borderRadius: newTokens.borderRadius.interactive.medium,
       '&:focus, &:focus-visible': {
         outline: 'none',
       },

@@ -1,7 +1,7 @@
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-const determinePadding = (isMobile?: boolean, isSingleLine?: boolean) => {
+const setPadding = (isMobile?: boolean, isSingleLine?: boolean) => {
   if (isSingleLine) {
     return rem(8);
   }
@@ -22,8 +22,8 @@ const Container = styled.div<Props>(
     {
       width: '100%',
       backgroundColor: colorNew.goten,
-      padding: determinePadding(isMobile, isSingleLine),
-      borderRadius: newTokens.borderRadius.medium,
+      padding: setPadding(isMobile, isSingleLine),
+      borderRadius: newTokens.borderRadius.surface.small,
       display: hasButtons && !isMobile ? 'flex' : 'block',
     },
     hasButtons &&

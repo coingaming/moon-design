@@ -32,7 +32,7 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
       left: 0,
       transition: `${theme.newTokens.transition.default}`,
       backgroundColor: theme.colorNew.piccolo,
-      borderRadius: theme.newTokens.borderRadius.medium,
+      borderRadius: theme.newTokens.borderRadius.surface.small,
       opacity: 0,
       transform: 'scale(0)',
       transitionProperty: 'transform, opacity',

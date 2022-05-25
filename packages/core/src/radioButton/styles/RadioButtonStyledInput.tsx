@@ -114,7 +114,7 @@ const Animation = styled.div<{ animate?: boolean }>`
   left: 50%;
   width: 100%;
   height: 100%;
-  border-radius: ${({ theme }) => theme.newTokens.borderRadius.full};
+  border-radius: ${rem(9999)};
   z-index: 1;
   transform: translate(-50%, -50%) scale(0);
   background-color: ${({ theme }) =>

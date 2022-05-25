@@ -1,13 +1,14 @@
 // @ts-nocheck
 import { Carousel } from '@heathmont/moon-components';
+import { useTheme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-const ExampleContent = styled.div(({ theme: { color, newTokens } }) => ({
+const ExampleContent = styled.div(({ theme: { colorNew, newTokens } }) => ({
   width: rem(320),
   height: rem(192),
-  borderRadius: newTokens.borderRadius.xsmall,
-  background: color.goku[80],
+  borderRadius: newTokens.borderRadius.surface.xsmall,
+  background: colorNew.goku,
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',

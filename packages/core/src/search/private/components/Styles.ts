@@ -83,7 +83,7 @@ export const Results = styled.div(
       maxWidth: '100%',
       boxSizing: 'border-box',
       padding: `${rem(12)} ${rem(8)}`,
-      borderRadius: newTokens.borderRadius.medium,
+      borderRadius: newTokens.borderRadius.surface.small,
       border: newTokens.border.default,
       borderColor: colorNew.beerus,
       backgroundColor: colorNew.gohan,

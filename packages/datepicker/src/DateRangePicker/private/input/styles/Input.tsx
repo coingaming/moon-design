@@ -47,7 +47,7 @@ const Input = styled.input.attrs(({ type }) => ({
       zIndex: 2,
       border: 'none',
       boxShadow: `0 0 0 ${border.width.default} ${colorNew.beerus} inset`,
-      borderRadius: borderRadius.large,
+      borderRadius: borderRadius.surface.medium,
       transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',
@@ -66,14 +66,14 @@ const Input = styled.input.attrs(({ type }) => ({
         } inset, 0 0 0 ${border.width.interactive} ${
           !error ? colorNew.beerus : colorNew.chiChi[100]
         } inset`,
-        borderRadius: borderRadius.large,
+        borderRadius: borderRadius.surface.medium,
       },
       '&:focus:not([readonly])': {
         outline: 'none',
         boxShadow: `0 0 0 ${border.width.interactive} ${
           !error ? colorNew.piccolo : colorNew.chiChi[100]
         } inset`,
-        borderRadius: borderRadius.large,
+        borderRadius: borderRadius.surface.medium,
       },
       '&:not(:placeholder-shown):not([type="date"]):not([type="datetime-local"]):invalid':
         {
@@ -129,7 +129,7 @@ const Input = styled.input.attrs(({ type }) => ({
       },
     },
     error && {
-      borderRadius: borderRadius.large,
+      borderRadius: borderRadius.surface.medium,
       boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`,
     },
     isPassword && {

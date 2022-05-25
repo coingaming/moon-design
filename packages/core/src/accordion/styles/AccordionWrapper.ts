@@ -12,7 +12,7 @@ const AccordionWrapper = styled.div<Props>(
     padding: setSpacing(isContentInside, size),
     backgroundColor: isContentInside ? colorNew.gohan : 'transparent',
     width: '100%',
-    borderRadius: newTokens.borderRadius.medium,
+    borderRadius: newTokens.borderRadius.surface.small,
     height: 'max-content',
     display: 'flex',
     flexDirection: 'column',
