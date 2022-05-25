@@ -15,7 +15,7 @@ const Container = styled.div<Props>(
       border: 'none',
       boxShadow: `0 0 0 ${newTokens.border.width.default} ${colorNew.beerus} inset`,
       position: 'relative',
-      borderRadius: newTokens.borderRadius.large,
+      borderRadius: newTokens.borderRadius.surface.medium,
     },
     orientation === 'horizontal' && {
       '&::after': {

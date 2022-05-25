@@ -1,6 +1,10 @@
 import React from 'react';
 import { Loader } from '@heathmont/moon-core';
-import { ArrowsUpdate,GenericDownload,ControlsDiagonalsOutsight } from '@heathmont/moon-icons';
+import {
+  ArrowsUpdate,
+  GenericDownload,
+  ControlsDiagonalsOutsight,
+} from '@heathmont/moon-icons';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
@@ -28,7 +32,7 @@ const Button = styled.button<{ hasUpdates?: boolean }>(
       left: 0,
       transition: `${theme.newTokens.transition.default}`,
       backgroundColor: theme.colorNew.piccolo,
-      borderRadius: theme.newTokens.borderRadius.medium,
+      borderRadius: theme.newTokens.borderRadius.surface.small,
       opacity: 0,
       transform: 'scale(0)',
       transitionProperty: 'transform, opacity',
@@ -123,12 +127,12 @@ export const Panel: React.FC<Props> = ({
       <div />
       {onShare && (
         <Button onClick={() => onShare()}>
-          <GenericDownload fontSize={rem(22)}/>
+          <GenericDownload fontSize={rem(22)} />
         </Button>
       )}
       {onExpand && (
         <Button onClick={() => onExpand()}>
-          <ControlsDiagonalsOutsight fontSize={rem(22)}/>
+          <ControlsDiagonalsOutsight fontSize={rem(22)} />
         </Button>
       )}
     </Header>

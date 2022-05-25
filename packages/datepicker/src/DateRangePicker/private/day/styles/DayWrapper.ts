@@ -16,32 +16,32 @@ const DayWrapper = styled.div<DayStyledProps>(
     },
     isStartEdge && {
       backgroundColor: isDisabled ? 'transparent' : hover.secondary,
-      borderTopLeftRadius: newTokens.borderRadius.medium,
-      borderBottomLeftRadius: newTokens.borderRadius.medium,
+      borderTopLeftRadius: newTokens.borderRadius.surface.small,
+      borderBottomLeftRadius: newTokens.borderRadius.surface.small,
     },
     isStartEdge &&
       isRtl && {
-        borderTopRightRadius: newTokens.borderRadius.medium,
-        borderBottomRightRadius: newTokens.borderRadius.medium,
+        borderTopRightRadius: newTokens.borderRadius.surface.small,
+        borderBottomRightRadius: newTokens.borderRadius.surface.small,
         borderTopLeftRadius: 0,
         borderBottomLeftRadius: 0,
       },
     isEndEdge && {
       backgroundColor: isDisabled ? 'transparent' : hover.secondary,
-      borderTopRightRadius: newTokens.borderRadius.medium,
-      borderBottomRightRadius: newTokens.borderRadius.medium,
+      borderTopRightRadius: newTokens.borderRadius.surface.small,
+      borderBottomRightRadius: newTokens.borderRadius.surface.small,
     },
     isEndEdge &&
       isRtl && {
         borderTopRightRadius: 0,
         borderBottomRightRadius: 0,
-        borderTopLeftRadius: newTokens.borderRadius.medium,
-        borderBottomLeftRadius: newTokens.borderRadius.medium,
+        borderTopLeftRadius: newTokens.borderRadius.surface.small,
+        borderBottomLeftRadius: newTokens.borderRadius.surface.small,
       },
     isInRangePreview && {
       '&:hover': {
-        borderTopRightRadius: newTokens.borderRadius.medium,
-        borderBottomRightRadius: newTokens.borderRadius.medium,
+        borderTopRightRadius: newTokens.borderRadius.surface.small,
+        borderBottomRightRadius: newTokens.borderRadius.surface.small,
       },
     },
     isInRangePreview &&
@@ -49,8 +49,8 @@ const DayWrapper = styled.div<DayStyledProps>(
         '&:hover': {
           borderTopRightRadius: 0,
           borderBottomRightRadius: 0,
-          borderTopLeftRadius: newTokens.borderRadius.medium,
-          borderBottomLeftRadius: newTokens.borderRadius.medium,
+          borderTopLeftRadius: newTokens.borderRadius.surface.small,
+          borderBottomLeftRadius: newTokens.borderRadius.surface.small,
         },
       },
   ]
