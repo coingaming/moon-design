@@ -19,6 +19,7 @@ export interface AuthCodeProps {
   errorMessage?: string;
   errorPosition?: ErrorPositions | keyof typeof ErrorPositions;
   onlyDigits?: boolean;
+  stretch?: boolean;
   length?: number;
 }
 
@@ -32,6 +33,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   placeholder = '',
   errorMessage = '',
   onlyDigits = false,
+  stretch = false,
   length = 6,
   errorPosition = 'left'
 }) => {
@@ -145,35 +147,37 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   }, []);
 
   return (
-    <Container dir={dir} errorState={!!errorMessage}>
-      {authCodeParts.map((value, i) => (
-        <InputWrapper key={`auth-code-input-${i}`}>
-          <TextInput
-            id={`auth-code-part-${i}`}
-            key={`auth-code-part-${i}`}
-            value={onlyDigits && value ? Number(value) : value}
-            placeholder={placeholder}
-            dir={dir}
-            ref={inputRefs[`${refPrefix}${i}`]}
-            onChange={(ev: any) => handleInputChange(ev.target.value, i)}
-            // Disabled if the previous input doesn't have value or if the following input has value
-            disabled={(!!i && !authCodeParts[i - 1]) || !!authCodeParts[i + 1]}
-            isError={!!errorMessage}
-            type='text'
-            maxLength={length}
-            inputMode={onlyDigits ? 'numeric' : 'text'}
-            pattern={onlyDigits && authCodeParts[i] ? '[0-9]*' : '[a-z0-9]*'}
-          />
-        </InputWrapper>
-      ))}
+    <Container dir={dir} errorState={!!errorMessage} stretch={stretch}>
+      <div>
+        {authCodeParts.map((value, i) => (
+          <InputWrapper key={`auth-code-input-${i}`}>
+            <TextInput
+              id={`auth-code-part-${i}`}
+              key={`auth-code-part-${i}`}
+              value={onlyDigits && value ? Number(value) : value}
+              placeholder={placeholder}
+              dir={dir}
+              ref={inputRefs[`${refPrefix}${i}`]}
+              onChange={(ev: any) => handleInputChange(ev.target.value, i)}
+              // Disabled if the previous input doesn't have value or if the following input has value
+              disabled={(!!i && !authCodeParts[i - 1]) || !!authCodeParts[i + 1]}
+              isError={!!errorMessage}
+              type='text'
+              maxLength={length}
+              inputMode={onlyDigits ? 'numeric' : 'text'}
+              pattern={onlyDigits && authCodeParts[i] ? '[0-9]*' : '[a-z0-9]*'}
+            />
+          </InputWrapper>
+        ))}
 
-      {!!errorMessage && (
-        <MessageWrapper textAlign={errorPosition}>
-          <Text size={12} color="chiChi.100">
-            {errorMessage}
-          </Text>
-        </MessageWrapper>
-      )}
+        {!!errorMessage && (
+          <MessageWrapper textAlign={errorPosition}>
+            <Text size={12} color="chiChi.100">
+              {errorMessage}
+            </Text>
+          </MessageWrapper>
+        )}
+      </div>
     </Container>
   );
 };

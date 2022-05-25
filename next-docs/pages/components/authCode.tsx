@@ -6,6 +6,7 @@ import ErrorState from '../../public/examples/authCode/ErrorState';
 import ErrorStateCentered from "../../public/examples/authCode/ErrorStateCentered";
 import FourChars from '../../public/examples/authCode/FourChars';
 import OnlyDigits from '../../public/examples/authCode/OnlyDigits';
+import Stretch from "../../public/examples/authCode/Stretch";
 import useExamples from '../../utils/useExamples';
 
 const PageAuthCodeGroup = () => {
@@ -59,6 +60,14 @@ const PageAuthCodeGroup = () => {
           title="Error state position"
           preview={<ErrorStateCentered />}
           code={examples ? examples.ErrorStateCentered : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Stretch"
+          preview={<Stretch />}
+          code={examples ? examples.Stretch : 'Loading'}
         />
       </section>
 

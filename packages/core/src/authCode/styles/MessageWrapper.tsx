@@ -1,3 +1,4 @@
+import {rem} from "@heathmont/moon-utils";
 import styled from 'styled-components';
 enum ErrorPositions {
   left = 'left',
@@ -15,12 +16,13 @@ const MessageWrapper = styled.div<{
       ? 'center' : textAlign === 'right'
         ? 'flex-end' : 'flex-start',
     position: 'absolute',
+    padding: rem(5),
     bottom: 0,
     left: textAlign === 'center'
       ? '50%' : textAlign === 'right'
         ? 'initial' : 0,
     right: textAlign === 'right' ? 0 : 'initial',
-    transform: textAlign === 'center' ? 'translate(-50%, 0%)' : 'none'
+    transform: `translate(${textAlign === 'center' ? '-50%' : '0%' }, 100%)`
   })
 );
 
