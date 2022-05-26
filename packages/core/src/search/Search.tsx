@@ -5,7 +5,18 @@ import React, {
   useRef,
   useState,
 } from 'react';
-import { debounce } from 'lodash';
+
+ // @ts-ignore
+ function debounce(func: any, timeout = 300): (...args: any[]) => void {
+  let timer: any;
+  return (...args: any) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      // @ts-ignore
+      func.apply(this, args);
+    }, timeout);
+  };
+}
 
 import {
   SearchBox,
