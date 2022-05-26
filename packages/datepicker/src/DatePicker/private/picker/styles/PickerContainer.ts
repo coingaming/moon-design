@@ -13,7 +13,7 @@ const PickerContainer = styled.div(
     top: '120%',
     zIndex: zIndex.dialog,
     alignItems: 'center',
-    borderRadius: borderRadius.large,
+    borderRadius: borderRadius.surface.medium,
     padding: `${rem(16)} ${rem(12)}`,
     backgroundColor: colorNew.gohan,
     boxShadow: boxShadow.large,

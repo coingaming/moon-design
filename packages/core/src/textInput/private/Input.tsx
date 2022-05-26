@@ -1,15 +1,17 @@
+import { ReactElement } from 'react';
 import { SharedTheme, ColorProps } from '@heathmont/moon-themes';
-
 import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Size from '../../private/enums/Size';
 import TextInputSizeType from './types/SizeTypes';
 
+type InlineSVGProps = ReactElement<string>;
+
 type InputProps = {
   inputSize: TextInputSizeType | string;
   withIcon?: boolean;
   error?: boolean;
-  icon?: string;
+  icon?: InlineSVGProps;
   iconColor?: string;
   type?: string;
   bgColor?: ColorProps;
@@ -33,13 +35,17 @@ const makeBorderRadius = (
 ) => {
   return {
     borderTopLeftRadius:
-      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.large,
+      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.interactive.medium,
     borderTopRightRadius:
-      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.large,
+      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.interactive.medium,
     borderBottomLeftRadius:
-      isSharpLeftSide || isSharpBottomSide ? 0 : borderRadius.large,
+      isSharpLeftSide || isSharpBottomSide
+        ? 0
+        : borderRadius.interactive.medium,
     borderBottomRightRadius:
-      isSharpRightSide || isSharpBottomSide ? 0 : borderRadius.large,
+      isSharpRightSide || isSharpBottomSide
+        ? 0
+        : borderRadius.interactive.medium,
   };
 };
 
@@ -76,7 +82,7 @@ const Input = styled.input.attrs(({ type }) => ({
     theme: {
       colorNew,
       hover,
-      newTokens: { borderRadius, space, border, transition },
+      newTokens: { borderRadius, border, transition },
     },
     inputSize,
     error,
@@ -94,26 +100,25 @@ const Input = styled.input.attrs(({ type }) => ({
     isSideBorderHidden,
   }) => [
     {
-      display: 'block', //
-      width: '100%', //
-      maxWidth: '100%', //
-      height: rem(40), //
-      padding: `0 ${rem(16)}`, //
-      margin: 0, //
-      appearance: 'none', //
+      display: 'block',
+      width: '100%',
+      maxWidth: '100%',
+      height: rem(40),
+      padding: `0 ${rem(16)}`,
+      margin: 0,
+      appearance: 'none',
       font: 'inherit',
-      fontSize: rem(16), //
-      lineHeight: rem(40), //
-      color: colorNew.bulma, //
-      backgroundColor: !bgColor //
-        ? 'transparent' //
-        : themed('colorNew', bgColor)(currentTheme), //
-      position: 'relative', //
-      zIndex: 2, //
-      border: 'none', //
-      boxShadow: `0 0 0 ${border.width.default} ${colorNew.beerus} inset`, //
+      fontSize: rem(16),
+      lineHeight: rem(40),
+      color: colorNew.bulma,
+      backgroundColor: !bgColor
+        ? 'transparent'
+        : themed('colorNew', bgColor)(currentTheme),
+      position: 'relative',
+      zIndex: 2,
+      border: 'none',
+      boxShadow: `0 0 0 ${border.width.default} ${colorNew.beerus} inset`,
       ...makeBorderRadius(
-        //
         borderRadius,
         isSharpLeftSide,
         isSharpRightSide,
@@ -121,18 +126,17 @@ const Input = styled.input.attrs(({ type }) => ({
         isSharpBottomSide
       ),
       ...makeBorder(border, isSideBorderHidden, isTopBottomBorderHidden),
-      transition: `box-shadow ${transition.default}`, //
-      WebkitAppearance: 'none', //
+      transition: `box-shadow ${transition.default}`,
+      WebkitAppearance: 'none',
       boxSizing: 'border-box',
       '&::before, &::after': {
-        //
-        boxSizing: 'border-box', //
+        boxSizing: 'border-box',
       },
       '&::placeholder': {
-        color: colorNew.trunks, //
-        opacity: 1, //
-        transition: `opacity ${transition.default}`, //
-        transitionDelay: `0.05s`, //
+        color: colorNew.trunks,
+        opacity: 1,
+        transition: `opacity ${transition.default}`,
+        transitionDelay: `0.05s`,
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
         boxShadow: `0 0 0 ${border.width.interactive} ${
@@ -140,19 +144,18 @@ const Input = styled.input.attrs(({ type }) => ({
         } inset, 0 0 0 ${border.width.interactive} ${
           !error ? colorNew.beerus : colorNew.chiChi[100]
         } inset`,
-        borderRadius: borderRadius.large,
+        borderRadius: borderRadius.interactive.medium,
       },
       '&:focus:not([readonly])': {
-        outline: 'none', //
-        borderRadius: borderRadius.large,
+        outline: 'none',
+        borderRadius: borderRadius.interactive.medium,
         boxShadow: `0 0 0 ${border.width.interactive} ${
-          //
-          !error ? colorNew.piccolo : colorNew.chiChi[100] //
-        } inset`, //
+          !error ? colorNew.piccolo : colorNew.chiChi[100]
+        } inset`,
       },
       '&:not(:placeholder-shown):not([type="date"]):not([type="datetime-local"]):invalid':
         {
-          boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`, //
+          boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`,
         },
       '&[readonly]': {
         outline: 'none',
@@ -195,8 +198,8 @@ const Input = styled.input.attrs(({ type }) => ({
       },
     },
     inputSize === Size.LARGE && {
-      height: rem(48), //
-      lineHeight: rem(48), //
+      height: rem(48),
+      lineHeight: rem(48),
       '&::-webkit-datetime-edit': {
         height: rem(46),
         lineHeight: rem(46),
@@ -206,8 +209,8 @@ const Input = styled.input.attrs(({ type }) => ({
       },
     },
     inputSize === Size.XLARGE && {
-      height: rem(56), //
-      lineHeight: rem(56), //
+      height: rem(56),
+      lineHeight: rem(56),
       '&::-webkit-datetime-edit': {
         height: rem(54),
         lineHeight: rem(54),
@@ -239,7 +242,7 @@ const Input = styled.input.attrs(({ type }) => ({
         },
       },
     icon && {
-      paddingInlineEnd: space.large,
+      paddingInlineEnd: rem(32),
       backgroundImage: inlineSvg(icon),
       backgroundPosition: isRtl
         ? `left ${rem(4)} center`
@@ -255,7 +258,6 @@ const Input = styled.input.attrs(({ type }) => ({
       paddingInlineEnd: rem(55),
     },
     type === 'number' && {
-      //
       MozAppearance: 'textfield',
       '&::-webkit-inner-spin-button, &::-webkit-outer-spin-button': {
         opacity: 0,

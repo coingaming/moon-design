@@ -23,12 +23,12 @@ const DayContainer = styled.div<DayStyledProps>(
       border: '1px solid transparent', // to prevent jumping on hover
       '&:hover': {
         border: `1px solid ${theme.colorNew.beerus}`,
-        borderRadius: theme.newTokens.borderRadius.medium,
+        borderRadius: theme.newTokens.borderRadius.surface.small,
       },
     },
     isStartEdge && {
       background: theme.colorNew.piccolo,
-      borderRadius: theme.newTokens.borderRadius.medium,
+      borderRadius: theme.newTokens.borderRadius.surface.small,
       color: theme.colorNew.goten,
       '&:hover': {
         border: `1px solid ${theme.colorNew.piccolo}`,

@@ -16,14 +16,11 @@ const Container = styled.span<Props>(
     alignItems: 'center',
     fontWeight: newTokens.font.weight.semibold,
     textTransform: 'uppercase',
-    borderRadius: newTokens.borderRadius.full,
+    borderRadius: rem(9999),
     letterSpacing: rem(1), // TODO
   }),
-  ({ size, theme: { newTokens } }) => ({
-    padding:
-      size === 'small'
-        ? `0 ${newTokens.space.threexsmall}`
-        : `0 ${newTokens.space.twoxsmall}`,
+  ({ size }) => ({
+    padding: size === 'small' ? `0 ${rem(4)}` : `0 ${rem(8)}`,
     fontSize: size === 'small' ? rem(8) : rem(10),
     lineHeight: size === 'small' ? rem(12) : rem(16),
   }),

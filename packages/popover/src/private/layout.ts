@@ -27,7 +27,7 @@ export const PopoverContainer = styled.div<PopoverContainerProps>(
         : themed('color', 'gohan.100')(theme)
     }`,
     outline: 'none',
-    borderRadius: newTokens.borderRadius.medium,
+    borderRadius: newTokens.borderRadius.surface.small,
     color: colorNew.bulma,
     boxShadow: newTokens.boxShadow.large,
   })

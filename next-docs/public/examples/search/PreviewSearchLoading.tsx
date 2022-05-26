@@ -1,16 +1,17 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Search } from '@heathmont/moon-core';
+import { rem } from '@heathmont/moon-utils';
 
-const Dropdown = styled.ul(({ theme: { newTokens } }) => ({
+const Dropdown = styled.ul({
   display: 'flex',
   flexDirection: 'column',
-  gap: newTokens.space.threexsmall,
+  gap: rem(4),
   listStyle: 'none',
   li: {
-    padding: newTokens.space.twoxsmall,
+    padding: rem(8),
   },
-}));
+});
 
 const Example = () => (
   <div className="h-40 bg-white p-4 w-full">

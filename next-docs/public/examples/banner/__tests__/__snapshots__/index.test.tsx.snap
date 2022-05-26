@@ -23,7 +23,7 @@ exports[`Banner renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-deiPdS izsIcU"
+    className="sc-deiPdS jmRNPI"
   />
 </div>
 `;
@@ -51,11 +51,11 @@ exports[`Banner renders in mobile mode 1`] = `
     </div>
   </div>
   <div
-    className="sc-deiPdS izsIcU"
+    className="sc-deiPdS jmRNPI"
   >
     <span>
       <button
-        className="sc-eqKtKx kVNEMb"
+        className="sc-eqKtKx fLMErL"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -68,7 +68,7 @@ exports[`Banner renders in mobile mode 1`] = `
     </span>
     <span>
       <button
-        className="sc-eqKtKx oytqc"
+        className="sc-eqKtKx gYsTDE"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -96,10 +96,10 @@ exports[`Banner renders in single line mode 1`] = `
       Your email is not verified. Verify to enable withdrawals.
     </div>
     <div
-      className="sc-deiPdS izsIcU"
+      className="sc-deiPdS jmRNPI"
     >
       <button
-        className="sc-eqKtKx dwPcUo"
+        className="sc-eqKtKx fGLhXc"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -137,11 +137,11 @@ exports[`Banner renders with buttons 1`] = `
     </div>
   </div>
   <div
-    className="sc-deiPdS izsIcU"
+    className="sc-deiPdS jmRNPI"
   >
     <span>
       <button
-        className="sc-eqKtKx kVNEMb"
+        className="sc-eqKtKx fLMErL"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -154,7 +154,7 @@ exports[`Banner renders with buttons 1`] = `
     </span>
     <span>
       <button
-        className="sc-eqKtKx oytqc"
+        className="sc-eqKtKx gYsTDE"
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
         size="medium"
@@ -195,11 +195,11 @@ exports[`Banner renders with buttons RTL 1`] = `
       </div>
     </div>
     <div
-      className="sc-deiPdS izsIcU"
+      className="sc-deiPdS jmRNPI"
     >
       <span>
         <button
-          className="sc-eqKtKx kVNEMb"
+          className="sc-eqKtKx fLMErL"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
@@ -212,7 +212,7 @@ exports[`Banner renders with buttons RTL 1`] = `
       </span>
       <span>
         <button
-          className="sc-eqKtKx oytqc"
+          className="sc-eqKtKx gYsTDE"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"

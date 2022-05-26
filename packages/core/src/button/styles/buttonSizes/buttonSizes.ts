@@ -1,3 +1,4 @@
+import { useTheme } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';
 import Size from '../../../private/enums/Size';
 import largePadding from './largePadding';
@@ -14,6 +15,7 @@ const buttonSizes = ({
   iconRight,
   iconOnly,
 }: ButtonProps) => {
+  const theme = useTheme();
   if (size === Size.XSMALL) {
     return [
       xSmallPadding({ icon, iconLeft, iconRight, iconOnly }),
@@ -21,6 +23,7 @@ const buttonSizes = ({
         gap: rem(4),
         fontSize: rem(12),
         lineHeight: rem(16),
+        borderRadius: theme.newTokens.borderRadius.interactive.xsmall,
       },
     ];
   }
@@ -31,6 +34,7 @@ const buttonSizes = ({
         gap: rem(4),
         fontSize: rem(14),
         lineHeight: rem(24),
+        borderRadius: theme.newTokens.borderRadius.interactive.small,
       },
     ];
   }
@@ -41,6 +45,7 @@ const buttonSizes = ({
         gap: rem(8),
         fontSize: rem(14),
         lineHeight: rem(24),
+        borderRadius: theme.newTokens.borderRadius.interactive.small,
       },
     ];
   }
@@ -51,6 +56,7 @@ const buttonSizes = ({
         gap: rem(12),
         fontSize: rem(16),
         lineHeight: rem(24),
+        borderRadius: theme.newTokens.borderRadius.interactive.small,
       },
     ];
   }
@@ -61,6 +67,7 @@ const buttonSizes = ({
         gap: rem(16),
         fontSize: rem(16),
         lineHeight: rem(24),
+        borderRadius: theme.newTokens.borderRadius.interactive.medium,
       },
     ];
   }

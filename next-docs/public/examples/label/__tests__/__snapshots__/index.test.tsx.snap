@@ -5,18 +5,18 @@ exports[`Label renders with different Colours 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-dpRLZP ewWXeF"
+    className="sc-dpRLZP klRb"
   >
     Xsmall
   </span>
   <span
-    className="sc-dpRLZP hlQOoC"
+    className="sc-dpRLZP gfafko"
     color="goten.100"
   >
     Xsmall
   </span>
   <span
-    className="sc-dpRLZP dsLApC"
+    className="sc-dpRLZP lmEmPg"
     color="goten.100"
   >
     Xsmall
@@ -32,7 +32,7 @@ exports[`Label renders with different Icons 1`] = `
     className="flex justify-around items-center w-full mb-4"
   >
     <span
-      className="sc-dpRLZP TYZXi"
+      className="sc-dpRLZP irBRpc"
       size="twoxsmall"
     >
       <span
@@ -58,7 +58,7 @@ exports[`Label renders with different Icons 1`] = `
       Twoxsmall
     </span>
     <span
-      className="sc-dpRLZP didIBW"
+      className="sc-dpRLZP bLijFc"
       size="twoxsmall"
     >
       Twoxsmall
@@ -84,7 +84,7 @@ exports[`Label renders with different Icons 1`] = `
       </span>
     </span>
     <span
-      className="sc-dpRLZP fgOiVs"
+      className="sc-dpRLZP gYkLVW"
       size="twoxsmall"
     >
       <span
@@ -134,7 +134,7 @@ exports[`Label renders with different Icons 1`] = `
     className="flex justify-around items-center w-full"
   >
     <span
-      className="sc-dpRLZP kTFUZX"
+      className="sc-dpRLZP bYufpJ"
     >
       <span
         className="sc-jNxMLV koKKHf"
@@ -158,7 +158,7 @@ exports[`Label renders with different Icons 1`] = `
       Xsmall
     </span>
     <span
-      className="sc-dpRLZP lbFdiD"
+      className="sc-dpRLZP dDZSPR"
     >
       Xsmall
       <span
@@ -182,7 +182,7 @@ exports[`Label renders with different Icons 1`] = `
       </span>
     </span>
     <span
-      className="sc-dpRLZP bSzwaF"
+      className="sc-dpRLZP iBlcCD"
     >
       <span
         className="sc-jNxMLV koKKHf"
@@ -233,12 +233,12 @@ exports[`Label renders with different LetterCases 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-dpRLZP ewWXeF"
+    className="sc-dpRLZP klRb"
   >
     Default
   </span>
   <span
-    className="sc-dpRLZP ixWsZW"
+    className="sc-dpRLZP grplrA"
   >
     Lowercase
   </span>
@@ -250,24 +250,24 @@ exports[`Label renders with different Sizes 1`] = `
   className="flex justify-around items-center w-full"
 >
   <span
-    className="sc-dpRLZP giLSFY"
+    className="sc-dpRLZP lkOzlG"
     size="twoxsmall"
   >
     Twoxsmall
   </span>
   <span
-    className="sc-dpRLZP ewWXeF"
+    className="sc-dpRLZP klRb"
   >
     Xsmall
   </span>
   <span
-    className="sc-dpRLZP eyJcCp"
+    className="sc-dpRLZP jtnERX"
     size="twoxsmall"
   >
     Twoxsmall
   </span>
   <span
-    className="sc-dpRLZP ixWsZW"
+    className="sc-dpRLZP grplrA"
   >
     Xsmall
   </span>

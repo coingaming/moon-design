@@ -1,12 +1,12 @@
-import {rem, themed} from '@heathmont/moon-utils';
+import { rem, themed } from '@heathmont/moon-utils';
 import rgba from 'polished/lib/color/rgba';
 import styled from 'styled-components';
 import HeaderTR from './HeaderTR';
 import TH from './TH';
 
 const Footer = styled.div<{
-  headerBackgroundColor: string,
-  selectable?: boolean,
+  headerBackgroundColor: string;
+  selectable?: boolean;
 }>(
   ({ theme: { colorNew, newTokens } }) => ({
     position: 'sticky',
@@ -17,10 +17,10 @@ const Footer = styled.div<{
         [TH]: {
           boxShadow: `inset 0 1px 0 ${rgba(colorNew.trunks, 0.2)}`,
           '&:first-child': {
-            borderTopLeftRadius: newTokens.borderRadius.medium,
+            borderTopLeftRadius: newTokens.borderRadius.surface.small,
           },
           '&:last-child': {
-            borderTopRightRadius: newTokens.borderRadius.medium,
+            borderTopRightRadius: newTokens.borderRadius.surface.small,
           },
         },
       },
@@ -29,9 +29,10 @@ const Footer = styled.div<{
   ({ selectable, headerBackgroundColor, theme }) => ({
     ...(selectable
       ? {
-        paddingLeft: rem(46),
-        backgroundColor: themed('color', headerBackgroundColor)(theme)
-      } : {})
+          paddingLeft: rem(46),
+          backgroundColor: themed('color', headerBackgroundColor)(theme),
+        }
+      : {}),
   })
 );
 

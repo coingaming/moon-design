@@ -1,7 +1,7 @@
 import React from 'react';
 import Loader from '../../../loader/Loader';
 import GenericCheckAlternative from '../../../private/icons/GenericCheckAlternative';
-import type { ButtonProps } from '../../Button';
+import type ButtonProps from '../types/ButtonProps';
 
 const AnimationContent: React.FC<ButtonProps> = ({
   children,

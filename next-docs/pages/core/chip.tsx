@@ -16,9 +16,7 @@ const Example = () => (
       <Chip isActive size="sm">
         Active
       </Chip>
-      <Chip isActive isStroke>
-        Active
-      </Chip>
+      <Chip isActive>Active</Chip>
     </div>
 
     <section className="mt-8 text-3xl font-bold">Icons</section>

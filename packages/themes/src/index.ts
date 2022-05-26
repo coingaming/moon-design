@@ -54,6 +54,8 @@ export { default as moonDesignDark } from './moonDesignDark/moonDesignDark';
 export * from './moonDesignDark/moonDesignDark';
 export { default as moonDesignLight } from './moonDesignLight/moonDesignLight';
 export * from './moonDesignLight/moonDesignLight';
+export { default as onetouchDark } from './onetouchDark/onetouchDark';
+export * from './onetouchDark/onetouchDark';
 export { default as shangrilaDark } from './shangrilaDark/shangrilaDark';
 export * from './shangrilaDark/shangrilaDark';
 export { default as shangrilaLight } from './shangrilaLight/shangrilaLight';

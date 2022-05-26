@@ -84,7 +84,7 @@ module.exports = {
           '2rem',
           {
             lineHeight: '2.5rem',
-            letterSpacing: '-0.0313rem',
+            letterSpacing: '-0.03125rem',
           },
         ],
         'moon-48': [
@@ -98,7 +98,7 @@ module.exports = {
           '3.5rem',
           {
             lineHeight: '4rem',
-            letterSpacing: '-0.0938rem',
+            letterSpacing: '-0.09375rem',
           },
         ],
         'moon-64': [
@@ -112,7 +112,7 @@ module.exports = {
           '4.5rem',
           {
             lineHeight: '4.75rem',
-            letterSpacing: '-0.1563rem',
+            letterSpacing: '-0.15625rem',
           },
         ],
       },

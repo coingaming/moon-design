@@ -27,7 +27,7 @@ const ListboxButtonWrapper = styled(ListboxButton)<ListboxButtonWrapperProps>(
       backgroundColor: colorNew.gohan,
       padding: inputsize === 'medium' ? rem(15) : `${rem(11)} ${rem(15)}`,
       boxShadow: `0 0 0 ${rem(1)} ${colorNew.beerus} inset`,
-      borderRadius: newTokens.borderRadius.large,
+      borderRadius: newTokens.borderRadius.surface.medium,
       transition: `box-shadow ${newTokens.transition.default}`,
       WebkitAppearance: 'none',
       cursor: 'pointer',

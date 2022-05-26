@@ -20,7 +20,7 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-            className="sc-gJTyrF dIarPp"
+            className="sc-gJTyrF hdlJwR"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -130,7 +130,7 @@ exports[`Pagination renders 1`] = `
           tabIndex="0"
         >
           <button
-            className="sc-gJTyrF dIarPp"
+            className="sc-gJTyrF hdlJwR"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"

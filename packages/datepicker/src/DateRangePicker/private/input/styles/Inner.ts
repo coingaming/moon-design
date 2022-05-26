@@ -13,7 +13,7 @@ const Inner = styled.div<{ bgColor?: ColorProps }>(
     width: '100%',
     maxWidth: '50%',
     position: 'relative',
-    borderRadius: borderRadius.large,
+    borderRadius: borderRadius.surface.medium,
     backgroundColor: !bgColor
       ? 'transparent'
       : themed('colorNew', bgColor)(currentTheme),
