@@ -23,6 +23,7 @@ const Input = forwardRef<
     isTopBottomBorderHidden,
     isSideBorderHidden,
     isFirst,
+    isPassword,
     ...rest
   } = props;
   return (

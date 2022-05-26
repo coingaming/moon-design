@@ -131,8 +131,6 @@ module.exports = {
         10000: '10000',
       },
       boxShadow: {
-        // --border-width: 0.0625rem;
-        // --border-i-width: 0.125rem;
         inset: '0 0 0 1px rgb(var(--piccolo)) inset',
         interactive: '0 0 0 2px rgb(var(--piccolo)) inset',
         focus: `0 0 0 4px rgba(var(--piccolo), .13)`,
@@ -140,11 +138,7 @@ module.exports = {
         'input-hov':
           '0 0 0 var(--border-i-width) rgb(var(--bulma) / 7%) inset, 0 0 0 var(--border-i-width) rgb(var(--beerus)) inset',
         'input-err': '0 0 0 var(--border-i-width) rgb(var(--chichi)) inset',
-        // 'input-hov-err':
-        //   '0 0 0 var(--border-i-width) rgb(var(--chichi)) inset, 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset',
         'input-focus': '0 0 0 var(--border-i-width) rgb(var(--piccolo)) inset',
-        // 'input-focus-err':
-        //   '0 0 0 var(--border-i-width) rgb(var(--chichi)) inset',
         'moon-sm':
           '0 6px 6px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
         'moon-md':
