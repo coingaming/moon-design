@@ -52,14 +52,19 @@
   --averta: 'Averta Std';
 }
 
-.border-radius {
-  --radius-i-xs: 0.25rem;
-  --radius-i-sm: 0.5rem;
-  --radius-i-md: 0.75rem;
-  --radius-s-xs: 0.25rem;
-  --radius-s-sm: 0.5rem;
-  --radius-s-md: 0.75rem;
-  --radius-s-lg: 1rem;
+.theme-tokens {
+  /* border-radius */
+  --radius-i-xs: 0.25rem; /* 4px */
+  --radius-i-sm: 0.5rem; /* 8px */
+  --radius-i-md: 0.75rem; /* 12px */
+  --radius-s-xs: 0.25rem; /* 4px */
+  --radius-s-sm: 0.5rem; /* 8px */
+  --radius-s-md: 0.75rem; /* 12px */
+  --radius-s-lg: 1rem; /* 16px */
+
+  /* border-width */
+  --border-width: 0.0625rem; /* 1px */
+  --border-i-width: 0.125rem; /* 2px */
 }
 
 .opacity {

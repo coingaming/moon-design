@@ -94,25 +94,26 @@ const Input = styled.input.attrs(({ type }) => ({
     isSideBorderHidden,
   }) => [
     {
-      display: 'block',
-      width: '100%',
-      maxWidth: '100%',
-      height: rem(40),
-      padding: `0 ${rem(16)}`,
-      margin: 0,
-      appearance: 'none',
+      display: 'block', //
+      width: '100%', //
+      maxWidth: '100%', //
+      height: rem(40), //
+      padding: `0 ${rem(16)}`, //
+      margin: 0, //
+      appearance: 'none', //
       font: 'inherit',
-      fontSize: rem(16),
-      lineHeight: rem(40),
-      color: colorNew.bulma,
-      backgroundColor: !bgColor
-        ? 'transparent'
-        : themed('colorNew', bgColor)(currentTheme),
-      position: 'relative',
-      zIndex: 2,
-      border: 'none',
-      boxShadow: `0 0 0 ${border.width.default} ${colorNew.beerus} inset`,
+      fontSize: rem(16), //
+      lineHeight: rem(40), //
+      color: colorNew.bulma, //
+      backgroundColor: !bgColor //
+        ? 'transparent' //
+        : themed('colorNew', bgColor)(currentTheme), //
+      position: 'relative', //
+      zIndex: 2, //
+      border: 'none', //
+      boxShadow: `0 0 0 ${border.width.default} ${colorNew.beerus} inset`, //
       ...makeBorderRadius(
+        //
         borderRadius,
         isSharpLeftSide,
         isSharpRightSide,
@@ -120,17 +121,18 @@ const Input = styled.input.attrs(({ type }) => ({
         isSharpBottomSide
       ),
       ...makeBorder(border, isSideBorderHidden, isTopBottomBorderHidden),
-      transition: `box-shadow ${transition.default}`,
-      WebkitAppearance: 'none',
+      transition: `box-shadow ${transition.default}`, //
+      WebkitAppearance: 'none', //
       boxSizing: 'border-box',
       '&::before, &::after': {
-        boxSizing: 'border-box',
+        //
+        boxSizing: 'border-box', //
       },
       '&::placeholder': {
-        color: colorNew.trunks,
-        opacity: 1,
-        transition: `opacity ${transition.default}`,
-        transitionDelay: `0.05s`,
+        color: colorNew.trunks, //
+        opacity: 1, //
+        transition: `opacity ${transition.default}`, //
+        transitionDelay: `0.05s`, //
       },
       '&:hover:not(:focus):not([disabled]):not([readonly])': {
         boxShadow: `0 0 0 ${border.width.interactive} ${
@@ -141,15 +143,16 @@ const Input = styled.input.attrs(({ type }) => ({
         borderRadius: borderRadius.large,
       },
       '&:focus:not([readonly])': {
-        outline: 'none',
+        outline: 'none', //
         borderRadius: borderRadius.large,
         boxShadow: `0 0 0 ${border.width.interactive} ${
-          !error ? colorNew.piccolo : colorNew.chiChi[100]
-        } inset`,
+          //
+          !error ? colorNew.piccolo : colorNew.chiChi[100] //
+        } inset`, //
       },
       '&:not(:placeholder-shown):not([type="date"]):not([type="datetime-local"]):invalid':
         {
-          boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`,
+          boxShadow: `0 0 0 ${border.width.interactive} ${colorNew.chiChi[100]} inset`, //
         },
       '&[readonly]': {
         outline: 'none',
@@ -192,8 +195,8 @@ const Input = styled.input.attrs(({ type }) => ({
       },
     },
     inputSize === Size.LARGE && {
-      height: rem(48),
-      lineHeight: rem(48),
+      height: rem(48), //
+      lineHeight: rem(48), //
       '&::-webkit-datetime-edit': {
         height: rem(46),
         lineHeight: rem(46),
@@ -203,8 +206,8 @@ const Input = styled.input.attrs(({ type }) => ({
       },
     },
     inputSize === Size.XLARGE && {
-      height: rem(56),
-      lineHeight: rem(56),
+      height: rem(56), //
+      lineHeight: rem(56), //
       '&::-webkit-datetime-edit': {
         height: rem(54),
         lineHeight: rem(54),
@@ -252,6 +255,7 @@ const Input = styled.input.attrs(({ type }) => ({
       paddingInlineEnd: rem(55),
     },
     type === 'number' && {
+      //
       MozAppearance: 'textfield',
       '&::-webkit-inner-spin-button, &::-webkit-outer-spin-button': {
         opacity: 0,
