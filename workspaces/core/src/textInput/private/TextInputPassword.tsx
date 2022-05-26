@@ -1,40 +1,17 @@
 import React, { forwardRef } from 'react';
-import Size from '../../private/enums/Size';
 import classNames from '../../private/utils/classnames';
+import TextInputProps from '../private/types/TextInputProps';
 import getBorderRadius from '../private/utils/getBorderRadius';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
 import ShowPassword from './ShowPassword';
-import TextInputSizeType from './types/SizeTypes';
-import TextInputTypes from './types/TextInputTypes';
 
-interface TextInputPasswordProps
-  extends React.InputHTMLAttributes<HTMLInputElement> {
-  id?: string;
-  inputSize?: TextInputSizeType | string;
-  label?: JSX.Element | string;
-  type: TextInputTypes | string;
-  placeholder?: string;
-  hintText?: JSX.Element | string;
-  isError?: boolean;
-  dir?: 'ltr' | 'rtl' | 'auto';
-  showPasswordText?: JSX.Element | string;
-  backgroundColor?: string;
-  isSharpLeftSide?: boolean;
-  isSharpRightSide?: boolean;
-  isSharpTopSide?: boolean;
-  isSharpBottomSide?: boolean;
-  isTopBottomBorderHidden?: boolean;
-  isSideBorderHidden?: boolean;
-  isFirst?: boolean;
-}
-
-const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
+const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
   (props, ref) => {
     const {
       id,
-      inputSize = Size.MD,
+      inputSize = 'md',
       type,
       disabled,
       placeholder = ' ',
@@ -72,7 +49,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       ...rest,
     };
 
-    if (inputSize === Size.XL) {
+    if (inputSize === 'xl') {
       return (
         <Container disabled={disabled}>
           <div
@@ -85,7 +62,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
             <Input
               inputSize={inputSize}
               type={passwordShown ? 'text' : 'password'}
-              error={isError}
+              isError={isError}
               ref={ref}
               id={id}
               isLabel={!!label}
@@ -131,10 +108,10 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
           <Input
             inputSize={inputSize}
             type={passwordShown ? 'text' : 'password'}
-            error={isError}
+            isError={isError}
             ref={ref}
             id={id}
-            bgColor={backgroundColor}
+            backgroundColor={backgroundColor}
             isPassword={true}
             {...inputProps}
           />

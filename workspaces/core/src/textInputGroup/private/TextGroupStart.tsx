@@ -1,6 +1,7 @@
 import React from 'react';
-import { TextInput, TextInputProps } from '../..';
+import { TextInput } from '../..';
 import { OrientationType } from './types/OrientationType';
+import type TextInputProps from '../../textInput/private/types/TextInputProps';
 
 export interface TextGroupStartProps {
   inputProps?: TextInputProps;
