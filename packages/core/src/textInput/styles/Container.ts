@@ -12,6 +12,23 @@ type ContainerProps = {
   bgColor?: ColorProps;
 };
 
+const getBackgroundColor = (
+  currentTheme,
+  isSharpLeftSide,
+  isSharpRightSide,
+  isSharpTopSide,
+  isSharpBottomSide,
+  bgColor
+) => {
+  return !bgColor ||
+    isSharpLeftSide ||
+    isSharpRightSide ||
+    isSharpTopSide ||
+    isSharpBottomSide
+    ? 'transparent'
+    : themed('colorNew', bgColor)(currentTheme);
+};
+
 const Container = styled.div<ContainerProps>(
   ({
     disabled,
@@ -30,9 +47,14 @@ const Container = styled.div<ContainerProps>(
       maxWidth: '100%',
       position: 'relative',
       zIndex: 0,
-      backgroundColor: !bgColor
-        ? 'transparent'
-        : themed('colorNew', bgColor)(currentTheme),
+      backgroundColor: getBackgroundColor(
+        currentTheme,
+        isSharpLeftSide,
+        isSharpRightSide,
+        isSharpTopSide,
+        isSharpBottomSide,
+        bgColor
+      ),
       ...makeBorderRadius(
         borderRadius,
         isSharpLeftSide,

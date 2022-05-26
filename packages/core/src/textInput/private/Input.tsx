@@ -31,12 +31,14 @@ const makeBorder = (
   isSharpLeftSide?: boolean,
   isSharpRightSide?: boolean,
   isSharpTopSide?: boolean,
-  isSharpBottomSide?: boolean
+  isSharpBottomSide?: boolean,
+  isError?: boolean
 ) => {
   const defaultWidth = `-${border.width.default}`;
+  const insetValue = isError ? 4 : 2;
   if (isSideBorderHidden) {
-    const rightInset = isSharpLeftSide ? 0 : 2;
-    const leftInset = isSharpRightSide ? 0 : 2;
+    const rightInset = isSharpLeftSide ? 0 : insetValue;
+    const leftInset = isSharpRightSide ? 0 : insetValue;
     return {
       '&:not(:hover):not(:focus)': {
         clipPath: `inset(${defaultWidth} ${rem(
@@ -45,8 +47,8 @@ const makeBorder = (
       },
     };
   } else if (isTopBottomBorderHidden) {
-    const bottomInset = isSharpTopSide ? 0 : 2;
-    const topInset = isSharpBottomSide ? 0 : 2;
+    const bottomInset = isSharpTopSide ? 0 : insetValue;
+    const topInset = isSharpBottomSide ? 0 : insetValue;
     return {
       '&:not(:hover):not(:focus)': {
         clipPath: `inset(${rem(topInset)} ${defaultWidth} ${rem(
@@ -69,7 +71,7 @@ const Input = styled.input.attrs(({ type }) => ({
       newTokens: { borderRadius, space, border, transition },
     },
     inputSize,
-    error = true,
+    error,
     icon,
     type,
     bgColor,
@@ -84,6 +86,7 @@ const Input = styled.input.attrs(({ type }) => ({
     isSideBorderHidden,
   }) => [
     {
+      // visibility: 'hidden',
       display: 'block',
       width: '100%',
       maxWidth: '100%',
@@ -116,7 +119,8 @@ const Input = styled.input.attrs(({ type }) => ({
         isSharpLeftSide,
         isSharpRightSide,
         isSharpTopSide,
-        isSharpBottomSide
+        isSharpBottomSide,
+        error
       ),
       transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
