@@ -2,25 +2,31 @@
 
 exports[`TextInputGroup renders 1`] = `
 <div
-  className="sc-bPnocz dQaINo"
+  className="sc-bPnocz hYbmuw"
   dir="ltr"
   orientation="horizontal"
 >
   <div
-    className="sc-iOnGvX kRgGLt"
+    className="sc-iOnGvX dgcOls"
+    dir="ltr"
+    placeholder="Country"
+    type="text"
   >
     <input
-      className="sc-goMRkL eiEfGG"
+      className="sc-goMRkL fJTDMG"
       dir="ltr"
       placeholder="Country"
       type="text"
     />
   </div>
   <div
-    className="sc-iOnGvX kRgGLt"
+    className="sc-iOnGvX fqIugw"
+    dir="ltr"
+    placeholder="Phone"
+    type="text"
   >
     <input
-      className="sc-goMRkL bHdNoO"
+      className="sc-goMRkL kyGWJm"
       dir="ltr"
       placeholder="Phone"
       type="text"
@@ -31,25 +37,31 @@ exports[`TextInputGroup renders 1`] = `
 
 exports[`TextInputGroup renders RTL 1`] = `
 <div
-  className="sc-bPnocz dQaINo"
+  className="sc-bPnocz hYbmuw"
   dir="rtl"
   orientation="horizontal"
 >
   <div
-    className="sc-iOnGvX kRgGLt"
+    className="sc-iOnGvX fqIugw"
+    dir="rtl"
+    placeholder="Country"
+    type="text"
   >
     <input
-      className="sc-goMRkL bHdNoO"
+      className="sc-goMRkL kyGWJm"
       dir="rtl"
       placeholder="Country"
       type="text"
     />
   </div>
   <div
-    className="sc-iOnGvX kRgGLt"
+    className="sc-iOnGvX dgcOls"
+    dir="rtl"
+    placeholder="Phone"
+    type="text"
   >
     <input
-      className="sc-goMRkL eiEfGG"
+      className="sc-goMRkL fJTDMG"
       dir="rtl"
       placeholder="Phone"
       type="text"
@@ -63,25 +75,31 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
   className="flex flex-col gap-3"
 >
   <div
-    className="sc-bPnocz dQaINo"
+    className="sc-bPnocz hYbmuw"
     dir="ltr"
     orientation="horizontal"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dgcOls"
+      dir="ltr"
+      placeholder="Country"
+      type="text"
     >
       <input
-        className="sc-goMRkL eiEfGG"
+        className="sc-goMRkL fJTDMG"
         dir="ltr"
         placeholder="Country"
         type="text"
       />
     </div>
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX fqIugw"
+      dir="ltr"
+      placeholder="Phone"
+      type="text"
     >
       <input
-        className="sc-goMRkL bHdNoO"
+        className="sc-goMRkL kyGWJm"
         dir="ltr"
         placeholder="Phone"
         type="text"
@@ -114,7 +132,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
   className="flex flex-col gap-3 pb-24 ps-40 pe-40 w-full"
 >
   <div
-    className="sc-jrVuhE bMuzRP"
+    className="sc-jrVuhE carzrf"
     dir="ltr"
     orientation="horizontal"
   >
@@ -136,7 +154,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-1sksh5w-control"
+          className=" css-2tllru-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
@@ -223,7 +241,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-18o9gyc-control"
+          className=" css-s9e7el-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
@@ -314,28 +332,33 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
 
 exports[`TextInputGroup renders different types 1`] = `
 <div
-  className="sc-bPnocz dQaINo"
+  className="sc-bPnocz hYbmuw"
   dir="ltr"
   orientation="horizontal"
 >
   <div
-    className="sc-iOnGvX kRgGLt"
+    className="sc-iOnGvX dgcOls"
+    dir="ltr"
+    placeholder="Email"
+    type="email"
   >
     <input
-      className="sc-goMRkL eiEfGG"
+      className="sc-goMRkL fJTDMG"
       dir="ltr"
       placeholder="Email"
       type="email"
     />
   </div>
   <div
-    className="sc-iOnGvX kRgGLt"
+    className="sc-iOnGvX fqIugw"
+    dir="ltr"
+    placeholder="Password"
   >
     <div
       className="sc-jNrqiC edxHQS"
     >
       <input
-        className="sc-goMRkL jBWRhO"
+        className="sc-goMRkL iKpiLy"
         dir="ltr"
         placeholder="Password"
         type="password"
@@ -354,7 +377,7 @@ exports[`TextInputGroup renders multi select 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="sc-jrVuhE bMuzRP"
+    className="sc-jrVuhE carzrf"
     dir="ltr"
     orientation="horizontal"
   >
@@ -376,7 +399,7 @@ exports[`TextInputGroup renders multi select 1`] = `
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-1q7v8my-control"
+          className=" css-18kgzmi-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
@@ -468,7 +491,7 @@ exports[`TextInputGroup renders multi select 1`] = `
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-12vowvu-control"
+          className=" css-91yr6k-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
@@ -551,7 +574,7 @@ exports[`TextInputGroup renders single select 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="sc-jrVuhE bMuzRP"
+    className="sc-jrVuhE carzrf"
     dir="ltr"
     orientation="horizontal"
   >
@@ -573,7 +596,7 @@ exports[`TextInputGroup renders single select 1`] = `
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-1q7v8my-control"
+          className=" css-18kgzmi-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
@@ -665,7 +688,7 @@ exports[`TextInputGroup renders single select 1`] = `
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-12vowvu-control"
+          className=" css-91yr6k-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
@@ -748,7 +771,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="sc-jrVuhE bMuzRP"
+    className="sc-jrVuhE carzrf"
     dir="rtl"
     orientation="horizontal"
   >
@@ -770,7 +793,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-12vowvu-control"
+          className=" css-91yr6k-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
@@ -862,7 +885,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-1q7v8my-control"
+          className=" css-18kgzmi-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
@@ -945,7 +968,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="sc-jrVuhE kBgrTU"
+    className="sc-jrVuhE FKZJs"
     dir="ltr"
     orientation="vertical"
   >
@@ -967,7 +990,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-17qqma-control"
+          className=" css-1lbmnj-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
@@ -1059,7 +1082,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-109wl5b-control"
+          className=" css-ouirde-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
@@ -1143,25 +1166,31 @@ exports[`TextInputGroup renders sizes 1`] = `
 >
   <div>
     <div
-      className="sc-bPnocz dQaINo"
+      className="sc-bPnocz hYbmuw"
       dir="ltr"
       orientation="horizontal"
     >
       <div
-        className="sc-iOnGvX kRgGLt"
+        className="sc-iOnGvX dgcOls"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
       >
         <input
-          className="sc-goMRkL eiEfGG"
+          className="sc-goMRkL fJTDMG"
           dir="ltr"
           placeholder="Country"
           type="text"
         />
       </div>
       <div
-        className="sc-iOnGvX kRgGLt"
+        className="sc-iOnGvX fqIugw"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
       >
         <input
-          className="sc-goMRkL bHdNoO"
+          className="sc-goMRkL kyGWJm"
           dir="ltr"
           placeholder="Phone"
           type="text"
@@ -1171,25 +1200,31 @@ exports[`TextInputGroup renders sizes 1`] = `
   </div>
   <div>
     <div
-      className="sc-bPnocz dQaINo"
+      className="sc-bPnocz hYbmuw"
       dir="ltr"
       orientation="horizontal"
     >
       <div
-        className="sc-iOnGvX kRgGLt"
+        className="sc-iOnGvX dgcOls"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
       >
         <input
-          className="sc-goMRkL fkeUPB"
+          className="sc-goMRkL hyxFTd"
           dir="ltr"
           placeholder="Country"
           type="text"
         />
       </div>
       <div
-        className="sc-iOnGvX kRgGLt"
+        className="sc-iOnGvX fqIugw"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
       >
         <input
-          className="sc-goMRkL bnxvcx"
+          className="sc-goMRkL ehfcsp"
           dir="ltr"
           placeholder="Phone"
           type="text"
@@ -1199,18 +1234,21 @@ exports[`TextInputGroup renders sizes 1`] = `
   </div>
   <div>
     <div
-      className="sc-bPnocz cxHbrF"
+      className="sc-bPnocz egLkmp"
       dir="ltr"
       orientation="horizontal"
     >
       <div
-        className="sc-iOnGvX kRgGLt"
+        className="sc-iOnGvX dgcOls"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
       >
         <div
           className="sc-jNrqiC jBcQib"
         >
           <input
-            className="sc-goMRkL jUmhAC"
+            className="sc-goMRkL jXMyyP"
             dir="ltr"
             placeholder="Country"
             type="text"
@@ -1221,13 +1259,16 @@ exports[`TextInputGroup renders sizes 1`] = `
         </div>
       </div>
       <div
-        className="sc-iOnGvX kRgGLt"
+        className="sc-iOnGvX fqIugw"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
       >
         <div
           className="sc-jNrqiC jBcQib"
         >
           <input
-            className="sc-goMRkL icYlom"
+            className="sc-goMRkL cUZCbv"
             dir="ltr"
             placeholder="Phone"
             type="text"
@@ -1247,25 +1288,31 @@ exports[`TextInputGroup renders vertical 1`] = `
   className="flex items-center gap-8 flex-wrap w-full justify-center ps-40 pe-40 flex-col"
 >
   <div
-    className="sc-bPnocz iZMhbP"
+    className="sc-bPnocz jfnGdv"
     dir="ltr"
     orientation="vertical"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX kYhhKo"
+      dir="ltr"
+      placeholder="Country"
+      type="text"
     >
       <input
-        className="sc-goMRkL fVDOAO"
+        className="sc-goMRkL dZGTbK"
         dir="ltr"
         placeholder="Country"
         type="text"
       />
     </div>
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX PPvsw"
+      dir="ltr"
+      placeholder="Phone"
+      type="text"
     >
       <input
-        className="sc-goMRkL dTCRCq"
+        className="sc-goMRkL fFKsJS"
         dir="ltr"
         placeholder="Phone"
         type="text"
@@ -1273,18 +1320,21 @@ exports[`TextInputGroup renders vertical 1`] = `
     </div>
   </div>
   <div
-    className="sc-bPnocz fcfMS"
+    className="sc-bPnocz hOlSLe"
     dir="ltr"
     orientation="vertical"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX kYhhKo"
+      dir="ltr"
+      placeholder="Country"
+      type="text"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL ekgIIm"
+          className="sc-goMRkL loPBMH"
           dir="ltr"
           placeholder="Country"
           type="text"
@@ -1295,13 +1345,16 @@ exports[`TextInputGroup renders vertical 1`] = `
       </div>
     </div>
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX PPvsw"
+      dir="ltr"
+      placeholder="Phone"
+      type="text"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL dBTSja"
+          className="sc-goMRkL dwgQMX"
           dir="ltr"
           placeholder="Phone"
           type="text"
