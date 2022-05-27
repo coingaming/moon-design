@@ -1,14 +1,14 @@
 import styled from 'styled-components';
-import Size from '../private/Size';
-import determineSpacing from '../private/utils/determineSpacing';
+import setSpacing from '../private/utils/setSpacing';
+import type SizeProps from '../private/SizeProps';
 
 type Props = {
-  size?: Size;
+  size?: SizeProps;
 };
 
-const ChildrenWrapper = styled.div<Props>(({ theme: { newTokens }, size }) => ({
+const ChildrenWrapper = styled.div<Props>(({ size }) => ({
   display: 'block',
-  padding: determineSpacing(newTokens, true, size),
+  padding: setSpacing(true, size),
 }));
 
 export default ChildrenWrapper;

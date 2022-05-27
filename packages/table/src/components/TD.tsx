@@ -2,11 +2,9 @@ import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 const TD = styled.div<{ selectable?: boolean }>(({ theme, selectable }) => ({
-  padding: `calc(${theme.newTokens.space.small} - ${rem(4)})`,
-  paddingLeft: `calc(${
-    selectable ? theme.newTokens.space.small : theme.newTokens.space.twoxsmall
-  } - ${rem(4)})`,
-  paddingRight: `calc(${theme.newTokens.space.twoxsmall} - ${rem(4)})`,
+  padding: rem(12),
+  paddingLeft: selectable ? rem(12) : rem(4),
+  paddingRight: rem(4),
   color: theme.colorNew.bulma,
   position: 'relative',
   borderTop: `${rem(4)} solid transparent`,

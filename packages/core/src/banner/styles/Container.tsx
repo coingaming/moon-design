@@ -1,18 +1,14 @@
-import { SharedTheme } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-const determinePadding = (
-  newTokens: SharedTheme['newTokens'],
-  isMobile?: boolean,
-  isSingleLine?: boolean
-) => {
+const setPadding = (isMobile?: boolean, isSingleLine?: boolean) => {
   if (isSingleLine) {
-    return newTokens.space.twoxsmall;
+    return rem(8);
   }
   if (isMobile) {
-    return newTokens.space.small;
+    return rem(16);
   }
-  return newTokens.space.medium;
+  return rem(24);
 };
 
 type Props = {
@@ -26,7 +22,7 @@ const Container = styled.div<Props>(
     {
       width: '100%',
       backgroundColor: colorNew.goten,
-      padding: determinePadding(newTokens, isMobile, isSingleLine),
+      padding: setPadding(isMobile, isSingleLine),
       borderRadius: newTokens.borderRadius.surface.small,
       display: hasButtons && !isMobile ? 'flex' : 'block',
     },

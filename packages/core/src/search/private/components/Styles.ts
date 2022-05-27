@@ -1,5 +1,5 @@
 import { Theme } from '@heathmont/moon-themes';
-import { mq, media } from '@heathmont/moon-utils';
+import { mq, media, rem } from '@heathmont/moon-utils';
 import styled, { CSSObject } from 'styled-components';
 import { Button } from '../../../';
 import { zIndex } from './settings';
@@ -27,12 +27,12 @@ export const SearchForm = styled.form({
   width: '100%',
 });
 
-export const FlexWrapper = styled.div(({ theme: { newTokens } }) => ({
+export const FlexWrapper = styled.div({
   position: 'relative',
   display: 'flex',
   justifyContent: 'space-between',
-  gap: newTokens.space.xsmall,
-}));
+  gap: rem(12),
+});
 
 export const ModalClose = styled(Button)(
   ({ theme: { breakpoint, colorNew, newTokens } }) => ({
@@ -41,7 +41,7 @@ export const ModalClose = styled(Button)(
     flex: 0,
     border: 0,
     lineHeight: 1,
-    padding: `0 ${newTokens.space.small}`,
+    padding: `0 ${rem(16)}`,
     fontWeight: newTokens.font.weight.normal,
     fontSize: newTokens.font.size,
     overflow: 'visible',
@@ -70,7 +70,7 @@ export const Results = styled.div(
   ({ theme: { colorNew, newTokens } }) => ({
     position: 'absolute',
     left: 0,
-    top: newTokens.space.xsmall,
+    top: rem(12),
     color: colorNew.trunks,
     width: '100%',
     zIndex: zIndex.searchResults,
@@ -82,7 +82,7 @@ export const Results = styled.div(
       minWidth: '300px',
       maxWidth: '100%',
       boxSizing: 'border-box',
-      padding: `${newTokens.space.xsmall} ${newTokens.space.twoxsmall}`,
+      padding: `${rem(12)} ${rem(8)}`,
       borderRadius: newTokens.borderRadius.surface.small,
       border: newTokens.border.default,
       borderColor: colorNew.beerus,

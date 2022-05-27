@@ -1,5 +1,6 @@
 import React from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Container from './styles/Container';
 
@@ -12,15 +13,13 @@ export interface BadgeProps {
   children?: React.ReactNode;
 }
 
-const IconRightWrapper = styled.span<BadgeProps>(
-  ({ theme: { newTokens } }) => ({
-    marginLeft: newTokens.space.twoxsmall,
-  })
-);
+const IconRightWrapper = styled.span<BadgeProps>({
+  marginLeft: rem(8),
+});
 
-const IconLeftWrapper = styled.span<BadgeProps>(({ theme: { newTokens } }) => ({
-  marginRight: newTokens.space.twoxsmall,
-}));
+const IconLeftWrapper = styled.span<BadgeProps>({
+  marginRight: rem(8),
+});
 
 const Badge: React.FC<BadgeProps> = ({
   children,
@@ -42,11 +41,5 @@ const Badge: React.FC<BadgeProps> = ({
     {iconRight && <IconRightWrapper size={size}>{iconRight}</IconRightWrapper>}
   </Container>
 );
-
-/*
-default
-color - goten
-backgroundColor - piccolo.100
-*/
 
 export default Badge;

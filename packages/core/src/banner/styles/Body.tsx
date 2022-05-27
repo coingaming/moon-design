@@ -1,17 +1,18 @@
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 type Props = {
   isMultiline?: boolean;
 };
 
-const Body = styled.div<Props>(({ isMultiline, theme: { newTokens } }) => [
+const Body = styled.div<Props>(({ isMultiline }) => [
   isMultiline && {
     display: 'grid',
     gridTemplateRows: '1fr 1fr',
   },
   !isMultiline && {
     display: 'flex',
-    gap: newTokens.space.twoxsmall,
+    gap: rem(8),
   },
   {
     alignItems: 'center',

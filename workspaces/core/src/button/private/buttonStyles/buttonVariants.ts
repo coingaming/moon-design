@@ -1,9 +1,6 @@
-import type { ButtonProps } from '../../Button';
+import type ButtonProps from '../types/ButtonProps';
 
 const buttonVariants = ({ variant }: ButtonProps) => {
-  if (variant === 'primary') {
-    return 'btn-primary';
-  }
   if (variant === 'secondary') {
     return 'btn-secondary';
   }
@@ -13,7 +10,7 @@ const buttonVariants = ({ variant }: ButtonProps) => {
   if (variant === 'ghost') {
     return 'text-trunks bg-transparent hover:text-bulma';
   }
-  return '';
+  return 'btn-primary';
 };
 
 export default buttonVariants;

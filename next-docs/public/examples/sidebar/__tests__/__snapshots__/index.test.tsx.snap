@@ -6,13 +6,13 @@ exports[`Sidebar renders 1`] = `
   dir="ltr"
 >
   <div
-    className="sc-bczRLJ cBgBXH"
+    className="sc-bczRLJ ccYSDb"
     onClick={[Function]}
   >
     <svg
       className="sc-cOFTSb"
       fill="none"
-      fontSize="1.4375rem"
+      fontSize="1.5rem"
       height="1em"
       viewBox="0 0 32 32"
       width="1em"
@@ -53,13 +53,13 @@ exports[`Sidebar renders RTL 1`] = `
     dir="rtl"
   >
     <div
-      className="sc-bczRLJ gotBAw"
+      className="sc-bczRLJ fZgQPO"
       onClick={[Function]}
     >
       <svg
         className="sc-kgUAyh"
         fill="none"
-        fontSize="1.4375rem"
+        fontSize="1.5rem"
         height="1em"
         viewBox="0 0 32 32"
         width="1em"
@@ -109,13 +109,13 @@ exports[`Sidebar renders initially closed 1`] = `
   dir="ltr"
 >
   <div
-    className="sc-bczRLJ gotBAw"
+    className="sc-bczRLJ fZgQPO"
     onClick={[Function]}
   >
     <svg
       className="sc-kgUAyh"
       fill="none"
-      fontSize="1.4375rem"
+      fontSize="1.5rem"
       height="1em"
       viewBox="0 0 32 32"
       width="1em"

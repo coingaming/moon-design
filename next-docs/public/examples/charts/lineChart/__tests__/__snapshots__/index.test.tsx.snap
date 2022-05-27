@@ -10,7 +10,7 @@ exports[`Line Chart renders 1`] = `
   }
 >
   <div
-    className="sc-gA-DJDv dprqmS"
+    className="sc-gA-DJDv KzKay"
   >
     <button
       className="sc-cuQNSp dkCiBY"
@@ -38,7 +38,7 @@ exports[`Line Chart renders 1`] = `
       <svg
         className="sc-gUAEMC"
         fill="none"
-        fontSize="1.375rem"
+        fontSize="1.5rem"
         height="1em"
         viewBox="0 0 32 32"
         width="1em"
@@ -59,7 +59,7 @@ exports[`Line Chart renders 1`] = `
       <svg
         className="sc-jfmDQi"
         fill="none"
-        fontSize="1.375rem"
+        fontSize="1.5rem"
         height="1em"
         viewBox="0 0 32 32"
         width="1em"
@@ -170,7 +170,7 @@ exports[`Line Chart renders 1`] = `
           <svg
             className="sc-efBctP"
             fill="none"
-            fontSize="1.4375rem"
+            fontSize="1.5rem"
             height="1em"
             viewBox="0 0 32 32"
             width="1em"
@@ -188,7 +188,7 @@ exports[`Line Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-iSyBji ohExA"
+    className="sc-iSyBji hJLDfd"
   >
     <div
       className="sc-kzriHz jQdLSq"
@@ -325,7 +325,7 @@ exports[`Line Chart renders Loading 1`] = `
       }
     >
       <div
-        className="sc-gA-DJDv dprqmS"
+        className="sc-gA-DJDv KzKay"
       >
         <button
           className="sc-cuQNSp dkCiBY"
@@ -353,7 +353,7 @@ exports[`Line Chart renders Loading 1`] = `
           <svg
             className="sc-gUAEMC"
             fill="none"
-            fontSize="1.375rem"
+            fontSize="1.5rem"
             height="1em"
             viewBox="0 0 32 32"
             width="1em"
@@ -374,7 +374,7 @@ exports[`Line Chart renders Loading 1`] = `
           <svg
             className="sc-jfmDQi"
             fill="none"
-            fontSize="1.375rem"
+            fontSize="1.5rem"
             height="1em"
             viewBox="0 0 32 32"
             width="1em"
@@ -485,7 +485,7 @@ exports[`Line Chart renders Loading 1`] = `
               <svg
                 className="sc-efBctP"
                 fill="none"
-                fontSize="1.4375rem"
+                fontSize="1.5rem"
                 height="1em"
                 viewBox="0 0 32 32"
                 width="1em"
@@ -546,7 +546,7 @@ exports[`Line Chart renders Loading 1`] = `
       }
     >
       <div
-        className="sc-gA-DJDv dprqmS"
+        className="sc-gA-DJDv KzKay"
       >
         <button
           className="sc-cuQNSp dkCiBY"
@@ -574,7 +574,7 @@ exports[`Line Chart renders Loading 1`] = `
           <svg
             className="sc-gUAEMC"
             fill="none"
-            fontSize="1.375rem"
+            fontSize="1.5rem"
             height="1em"
             viewBox="0 0 32 32"
             width="1em"
@@ -595,7 +595,7 @@ exports[`Line Chart renders Loading 1`] = `
           <svg
             className="sc-jfmDQi"
             fill="none"
-            fontSize="1.375rem"
+            fontSize="1.5rem"
             height="1em"
             viewBox="0 0 32 32"
             width="1em"
@@ -706,7 +706,7 @@ exports[`Line Chart renders Loading 1`] = `
               <svg
                 className="sc-efBctP"
                 fill="none"
-                fontSize="1.4375rem"
+                fontSize="1.5rem"
                 height="1em"
                 viewBox="0 0 32 32"
                 width="1em"
@@ -724,7 +724,7 @@ exports[`Line Chart renders Loading 1`] = `
         </div>
       </div>
       <div
-        className="sc-iSyBji ohExA"
+        className="sc-iSyBji hJLDfd"
       >
         <div
           className="sc-kzriHz jQdLSq"
