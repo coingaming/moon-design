@@ -2,7 +2,7 @@ import { Chip } from '@heathmont/moon-core-tw';
 import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons';
 
 const Example = () => (
-  <div className="theme-moon-dark">
+  <div>
     <section className="mt-8 text-3xl font-bold">Sizes</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
@@ -68,6 +68,14 @@ const Example = () => (
           Stroke on hover
         </Chip>
         <Chip isStroke>Stroke on hover</Chip>
+      </div>
+    </div>
+
+    <section className="mt-8 text-3xl font-bold">Variants</section>
+    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
+      <div className="flex justify-around items-center w-full">
+        <Chip>Default variant</Chip>
+        <Chip variant="ghost">Ghost variant</Chip>
       </div>
     </div>
 

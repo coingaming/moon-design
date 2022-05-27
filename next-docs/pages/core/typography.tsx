@@ -1,5 +1,5 @@
 const Example = () => (
-  <div className="theme-moon-dark text-bulma">
+  <div className="text-bulma">
     <section className="mt-8 text-3xl font-bold">Text</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="w-full">

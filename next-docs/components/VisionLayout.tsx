@@ -1,32 +1,28 @@
 import { useState } from 'react';
-import { useDocsTheme } from '../components/themes/DocsThemeProvider';
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
 
-interface LayoutProps {
+type Props = {
   children: React.ReactNode;
-}
+};
 
-export default function Layout({ children }: LayoutProps) {
+const Layout = ({ children }: Props) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const { getColorMode, themeKeys } = useDocsTheme();
   const openSidebar = () => setSidebarOpen(true);
-
   return (
-    <div className="support-colors bg-black flex rounded-tl-3xl rounded-tr-3xl">
+    <div className="theme-moon-light support-colors border-radius bg-goku flex">
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
         <Sidebar />
       </SidebarTransition>
       {/* Static sidebar for desktop, hidden for mobile */}
       <div className="hidden lg:flex lg:flex-shrink-0">
-        <div className="w-64 flex flex-col">
+        <div className="w-80 flex flex-col">
           <Sidebar />
         </div>
       </div>
-
-      <div className="min-h-screen flex-1 lg:ml-32 lg:mt-8 w-0 flex flex-col lg:px-8 xl:px-0 bg-black">
+      <div className="theme-moon-dark min-h-screen bg-gohan flex-1 mx-auto w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl lg:px-16 xl:px-32">
         {/* Opens sidebar on mobile */}
         <div className="lg:hidden flex flex-row align-center">
           <button
@@ -51,13 +47,11 @@ export default function Layout({ children }: LayoutProps) {
               />
             </svg>
           </button>
-
           <Breadcrumbs />
         </div>
         <div className="hidden lg:block">
           <Breadcrumbs />
         </div>
-
         {/* TODO overflow-y-auto */}
         <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
           <div className="py-6 px-4 md:px-16 lg:px-0">{children}</div>
@@ -65,4 +59,6 @@ export default function Layout({ children }: LayoutProps) {
       </div>
     </div>
   );
-}
+};
+
+export default Layout;

@@ -4,7 +4,7 @@ import { Checkbox } from '@heathmont/moon-core-tw';
 export default function PageAccordion() {
   const [isChecked, setIsChecked] = useState(true);
   return (
-    <div className="theme-moon-dark">
+    <div>
       <section className="mt-8 text-3xl font-bold">Checkbox</section>
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around items-center w-full">

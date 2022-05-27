@@ -3,7 +3,7 @@ import { Loader } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   return (
-    <div className="theme-moon-dark">
+    <div>
       <section className="mt-8 text-3xl font-bold">Loader</section>
       {/* Variants */}
       <section className={`mt-8`}>
