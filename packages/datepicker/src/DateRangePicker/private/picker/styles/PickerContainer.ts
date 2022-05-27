@@ -126,7 +126,7 @@ const PickerContainer = styled.div<PickerContainerProps>(
       alignItems: 'start',
       padding: rem(16),
       gap: rem(24),
-      borderRadius: borderRadius.large,
+      borderRadius: borderRadius.surface.medium,
       backgroundColor: colorNew.gohan,
       boxShadow: boxShadow.large,
       overflow: 'hidden',

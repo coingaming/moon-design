@@ -7,12 +7,12 @@ import {
 } from '@heathmont/moon-icons';
 
 const Example = () => (
-  <div className="theme-moon-dark">
+  <div>
     <section className="mt-8 text-3xl font-bold">Default</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion">
-          <div className="text-moon-12">
+        <Accordion title="Accordion title">
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -28,8 +28,8 @@ const Example = () => (
     <section className="mt-8 text-3xl font-bold">Open by default</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion" openByDefault={true}>
-          <div className="text-moon-12">
+        <Accordion title="Accordion title" openByDefault>
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -45,8 +45,8 @@ const Example = () => (
     <section className="mt-8 text-3xl font-bold">Without button</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion" withButton={false}>
-          <div className="text-moon-12">
+        <Accordion title="Accordion title" withButton={false}>
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -62,8 +62,8 @@ const Example = () => (
     <section className="mt-8 text-3xl font-bold">Disable open</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion" disableOpen={true}>
-          <div className="text-moon-12">
+        <Accordion title="Accordion title" disableOpen>
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -79,8 +79,8 @@ const Example = () => (
     <section className="mt-8 text-3xl font-bold">Content outside</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion" isContentInside={false}>
-          <div className="text-moon-12">
+        <Accordion title="Accordion title" isContentInside={false}>
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -96,8 +96,8 @@ const Example = () => (
     <section className="mt-8 text-3xl font-bold">Header content</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
-        <Accordion title="Test accordion" isContentInside={false}>
-          <div className="text-moon-12">
+        <Accordion title="Accordion title" isContentInside={false}>
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -114,17 +114,17 @@ const Example = () => (
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion
-          title="Test accordion"
+          title="Accordion title"
           headerContent={
-            <div className="flex">
-              <ChatChat fontSize="2rem" />
-              <ChatComment fontSize="2rem" />
-              <ChatCommentAdd fontSize="2rem" />
-              <ChatDoubleBubble fontSize="2rem" />
+            <div className="flex gap-1 text-trunks">
+              <ChatChat fontSize="1.5rem" />
+              <ChatComment fontSize="1.5rem" />
+              <ChatCommentAdd fontSize="1.5rem" />
+              <ChatDoubleBubble fontSize="1.5rem" />
             </div>
           }
         >
-          <div className="text-moon-12">
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -140,7 +140,7 @@ const Example = () => (
     <section className="mt-8 text-3xl font-bold">Sizes</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex flex-col gap-y-3">
-        <Accordion title="X Large (Default)" size="xl">
+        <Accordion title="XL Accordion title" size="xl">
           <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -152,8 +152,8 @@ const Example = () => (
           </div>
         </Accordion>
 
-        <Accordion title="Large (lg)" size="lg">
-          <div className="text-moon-14">
+        <Accordion title="LG Accordion title" size="lg">
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -164,8 +164,8 @@ const Example = () => (
           </div>
         </Accordion>
 
-        <Accordion title="Medium (md Default)" size="md">
-          <div className="text-moon-12">
+        <Accordion title="MD Accordion title (default size)">
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -176,8 +176,8 @@ const Example = () => (
           </div>
         </Accordion>
 
-        <Accordion title="Small (sm)" size="sm">
-          <div className="text-moon-10">
+        <Accordion title="SM Accordion title" size="sm">
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -195,7 +195,7 @@ const Example = () => (
     </section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex flex-col gap-y-3">
-        <Accordion title="X Large (xl)" size="xl" isContentInside={false}>
+        <Accordion title="XL Accordion title" size="xl" isContentInside={false}>
           <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -207,8 +207,8 @@ const Example = () => (
           </div>
         </Accordion>
 
-        <Accordion title="Large (lg)" size="lg" isContentInside={false}>
-          <div className="text-moon-14">
+        <Accordion title="LG Accordion title" size="lg" isContentInside={false}>
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -220,11 +220,10 @@ const Example = () => (
         </Accordion>
 
         <Accordion
-          title="Medium (md Default)"
-          size="md"
+          title="MD Accordion title (default size)"
           isContentInside={false}
         >
-          <div className="text-moon-12">
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -235,8 +234,8 @@ const Example = () => (
           </div>
         </Accordion>
 
-        <Accordion title="Small (sm)" size="sm" isContentInside={false}>
-          <div className="text-moon-10">
+        <Accordion title="SM Accordion title" size="sm" isContentInside={false}>
+          <div className="text-moon-16">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut

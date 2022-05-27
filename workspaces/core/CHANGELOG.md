@@ -1,5 +1,17 @@
 # @heathmont/moon-core-tw
 
+## 9.0.4
+
+### Patch Changes
+
+- Auth code fix & icons
+
+## 9.0.3
+
+### Patch Changes
+
+- Onetouch theme
+
 ## 9.0.2
 
 ### Patch Changes

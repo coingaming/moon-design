@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ControlsChevronUp = (props: React.SVGProps<SVGSVGElement>) => (
+const ControlsChevronRight = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
@@ -10,7 +10,7 @@ const ControlsChevronUp = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M7 20.5l9-9 9 9"
+      d="M11.5 7l9 9-9 9"
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
@@ -18,4 +18,4 @@ const ControlsChevronUp = (props: React.SVGProps<SVGSVGElement>) => (
   </svg>
 );
 
-export default ControlsChevronUp;
+export default ControlsChevronRight;

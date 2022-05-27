@@ -5,13 +5,21 @@ import Container from './styles/Container';
 import InputWrapper from './styles/InputWrapper';
 import MessageWrapper from './styles/MessageWrapper';
 
+enum ErrorPositions {
+  left = 'left',
+  center = 'center',
+  right = 'right'
+}
+
 export interface AuthCodeProps {
   onSubmit?: (value: string) => any;
   onChange?: (value: string) => any;
   isRtl?: boolean;
   placeholder?: string;
   errorMessage?: string;
+  errorPosition?: ErrorPositions | keyof typeof ErrorPositions;
   onlyDigits?: boolean;
+  stretch?: boolean;
   length?: number;
 }
 
@@ -25,7 +33,9 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   placeholder = '',
   errorMessage = '',
   onlyDigits = false,
+  stretch = false,
   length = 6,
+  errorPosition = 'left'
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
 
@@ -57,28 +67,32 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   );
 
   const handleInputChange = (val: string, index: number) => {
-    const numericRegEx = /[0-9]*/;
+    const numericRegEx = /^\d+$/;
     const alphaNumericRegEx = /[a-z0-9]*/;
+
+    if (Number(val) < 0) return;
     // When user pastes full value we want to fill out every input
-    if (
-      val?.length === length &&
-      ((onlyDigits && numericRegEx.test(val)) ||
-        (!onlyDigits && alphaNumericRegEx.test(val)))
-    ) {
+    if (val?.length === length
+      && (
+        (onlyDigits && numericRegEx.test(val)) ||
+        (!onlyDigits && alphaNumericRegEx.test(val))
+    )) {
       return setAuthCodeParts(val.split(''));
     }
     // When user already typed 1 digit into this input
     // Then goes back and types another one over the previous
     // We want to keep only the last value and override the previous
-    if (val?.length > 1) val = val[val.length - 1];
+    if (val?.length > 1) {
+      val = val[val.length - 1];
+    }
 
     if (
       (onlyDigits && numericRegEx.test(val)) ||
       (!onlyDigits && alphaNumericRegEx.test(val))
     ) {
-      setAuthCodeParts((oldValue) =>
-        oldValue.map((e, i) => (i !== index ? e : val))
-      );
+      setAuthCodeParts((oldValue) => oldValue.map((e, i) => (
+        i !== index ? e : val)
+      ));
     }
 
     return true;
@@ -133,35 +147,37 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   }, []);
 
   return (
-    <Container dir={dir} errorState={!!errorMessage}>
-      {authCodeParts.map((value, i) => (
-        <InputWrapper key={`auth-code-input-${i}`}>
-          <TextInput
-            id={`auth-code-part-${i}`}
-            key={`auth-code-part-${i}`}
-            value={onlyDigits ? Number(value) : value}
-            placeholder={placeholder}
-            dir={dir}
-            ref={inputRefs[`${refPrefix}${i}`]}
-            onChange={(ev: any) => handleInputChange(ev.target.value, i)}
-            // Disabled if the previous input doesn't have value or if the following input has value
-            disabled={(!!i && !authCodeParts[i - 1]) || !!authCodeParts[i + 1]}
-            isError={!!errorMessage}
-            type={onlyDigits ? 'number' : 'text'}
-            maxLength={length}
-            inputMode={onlyDigits ? 'numeric' : 'text'}
-            pattern={onlyDigits ? '[0-9]*' : '[a-z0-9]*'}
-          />
-        </InputWrapper>
-      ))}
+    <Container dir={dir} errorState={!!errorMessage} stretch={stretch}>
+      <div>
+        {authCodeParts.map((value, i) => (
+          <InputWrapper key={`auth-code-input-${i}`}>
+            <TextInput
+              id={`auth-code-part-${i}`}
+              key={`auth-code-part-${i}`}
+              value={onlyDigits && value ? Number(value) : value}
+              placeholder={placeholder}
+              dir={dir}
+              ref={inputRefs[`${refPrefix}${i}`]}
+              onChange={(ev: any) => handleInputChange(ev.target.value, i)}
+              // Disabled if the previous input doesn't have value or if the following input has value
+              disabled={(!!i && !authCodeParts[i - 1]) || !!authCodeParts[i + 1]}
+              isError={!!errorMessage}
+              type='text'
+              maxLength={length}
+              inputMode={onlyDigits ? 'numeric' : 'text'}
+              pattern={onlyDigits && authCodeParts[i] ? '[0-9]*' : '[a-z0-9]*'}
+            />
+          </InputWrapper>
+        ))}
 
-      {!!errorMessage && (
-        <MessageWrapper>
-          <Text size={12} color="chiChi.100">
-            {errorMessage}
-          </Text>
-        </MessageWrapper>
-      )}
+        {!!errorMessage && (
+          <MessageWrapper textAlign={errorPosition}>
+            <Text size={12} color="chiChi.100">
+              {errorMessage}
+            </Text>
+          </MessageWrapper>
+        )}
+      </div>
     </Container>
   );
 };

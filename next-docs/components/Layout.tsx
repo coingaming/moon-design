@@ -7,11 +7,11 @@ import ReactSettings from './settings/react/ReactSettings';
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
 
-interface LayoutProps {
+type Props = {
   children: React.ReactNode;
-}
+};
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children }: Props) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => setSidebarOpen(true);
   const [isElixir, setIsElixir] = useState<boolean>(false); // React or Elixir view
@@ -19,21 +19,19 @@ const Layout = ({ children }: LayoutProps) => {
   const { isFeatureElixirEnabled } = useFeatureFlags();
   return (
     <div
-      className={`support-colors border-radius bg-background flex rounded-tl-3xl rounded-tr-3xl`}
+      className={`support-colors theme-tokens bg-background flex rounded-tl-3xl rounded-tr-3xl`}
     >
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
         <Sidebar />
       </SidebarTransition>
-
       {/* Static sidebar for desktop, hidden for mobile */}
       <div className="hidden lg:flex lg:flex-shrink-0">
-        <div className="w-64 flex flex-col">
+        <div className="w-80 flex flex-col">
           <Sidebar />
         </div>
       </div>
-
-      <div className="min-h-screen max-w-screen-2xl flex-1 mx-auto lg:mt-8 w-0 flex flex-col lg:px-16 xl:px-32">
+      <div className="min-h-screen bg-gohan flex-1 mx-auto w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl lg:px-16 xl:px-32">
         {/* Opens sidebar on mobile */}
         <div className="lg:hidden flex flex-row align-center">
           <button
@@ -58,13 +56,11 @@ const Layout = ({ children }: LayoutProps) => {
               />
             </svg>
           </button>
-
           <Breadcrumbs />
         </div>
         <div className="hidden lg:block">
           <Breadcrumbs />
         </div>
-
         <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
           {isFeatureElixirEnabled && isElixir ? (
             <ElixirSettings
@@ -77,9 +73,7 @@ const Layout = ({ children }: LayoutProps) => {
               isReactEnabled={!isElixir}
             />
           )}
-
           <div className="py-6 px-4 md:px-16 lg:px-0">{children}</div>
-
           <div className="mt-auto py-8 px-4 lg:pt-24">
             <Footer />
           </div>

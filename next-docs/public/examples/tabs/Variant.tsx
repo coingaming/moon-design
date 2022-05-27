@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tabs, TabLink } from '@heathmont/moon-core';
 import { GenericLike } from '@heathmont/moon-icons';
-import { rem } from "@heathmont/moon-utils";
+import { rem } from '@heathmont/moon-utils';
 
 const Example = () => (
   <Tabs
@@ -11,10 +11,14 @@ const Example = () => (
         Featured
       </TabLink>,
       <TabLink href="#3">Today</TabLink>,
-      <TabLink href="#4" elementLeft={<GenericLike fontSize={rem(23)}/>}>
+      <TabLink href="#4" elementLeft={<GenericLike fontSize={rem(24)} />}>
         Tomorrow
       </TabLink>,
-      <TabLink href="#5" elementLeft={<GenericLike fontSize={rem(23)}/>} count="00">
+      <TabLink
+        href="#5"
+        elementLeft={<GenericLike fontSize={rem(24)} />}
+        count="00"
+      >
         Future
       </TabLink>,
       <TabLink href="#6">Outright</TabLink>,

@@ -1,48 +1,47 @@
-import { SharedTheme } from '@heathmont/moon-themes';
+import { rem } from '@heathmont/moon-utils';
 import Size from '../../private/enums/Size';
 import type SizeProps from '../private/types/SizeProps';
 
 const setPadding = (
-  newTokens: SharedTheme['newTokens'],
   size?: SizeProps,
   iconLeft?: JSX.Element | boolean,
   iconRight?: JSX.Element | boolean,
   iconOnly?: JSX.Element | boolean
 ) => {
-  let paddingTop = newTokens.space.threexsmall;
-  let paddingBottom = newTokens.space.threexsmall;
-  let paddingInlineStart = newTokens.space.twoxsmall;
-  let paddingInlineEnd = newTokens.space.twoxsmall;
+  let paddingTop = rem(4);
+  let paddingBottom = rem(4);
+  let paddingInlineStart = rem(8);
+  let paddingInlineEnd = rem(8);
   if (size === Size.MEDIUM) {
     if (iconOnly) {
-      paddingTop = newTokens.space.twoxsmall;
-      paddingBottom = newTokens.space.twoxsmall;
-      paddingInlineStart = newTokens.space.twoxsmall;
-      paddingInlineEnd = newTokens.space.twoxsmall;
+      paddingTop = rem(8);
+      paddingBottom = rem(8);
+      paddingInlineStart = rem(8);
+      paddingInlineEnd = rem(8);
     } else {
-      paddingTop = newTokens.space.twoxsmall;
-      paddingBottom = newTokens.space.twoxsmall;
-      paddingInlineStart = newTokens.space.xsmall;
-      paddingInlineEnd = newTokens.space.xsmall;
+      paddingTop = rem(8);
+      paddingBottom = rem(8);
+      paddingInlineStart = rem(12);
+      paddingInlineEnd = rem(12);
       if (iconLeft) {
-        paddingInlineStart = newTokens.space.twoxsmall;
+        paddingInlineStart = rem(8);
       }
       if (iconRight) {
-        paddingInlineEnd = newTokens.space.twoxsmall;
+        paddingInlineEnd = rem(8);
       }
     }
   } else {
     if (iconOnly) {
-      paddingTop = newTokens.space.threexsmall;
-      paddingBottom = newTokens.space.threexsmall;
-      paddingInlineStart = newTokens.space.threexsmall;
-      paddingInlineEnd = newTokens.space.threexsmall;
+      paddingTop = rem(4);
+      paddingBottom = rem(4);
+      paddingInlineStart = rem(4);
+      paddingInlineEnd = rem(4);
     }
     if (iconLeft) {
-      paddingInlineStart = newTokens.space.threexsmall;
+      paddingInlineStart = rem(4);
     }
     if (iconRight) {
-      paddingInlineEnd = newTokens.space.threexsmall;
+      paddingInlineEnd = rem(4);
     }
   }
   return {

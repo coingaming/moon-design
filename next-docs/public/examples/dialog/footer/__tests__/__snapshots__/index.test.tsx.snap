@@ -17,7 +17,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx bIPFLn"
+            className="sc-eqKtKx dmjRAP"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
@@ -32,7 +32,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx fzuzrg"
+            className="sc-eqKtKx eDTiEs"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
@@ -48,7 +48,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
         className="sc-kSmoGW iAAuAr"
       >
         <button
-          className="sc-eqKtKx fqqsne"
+          className="sc-eqKtKx hucElm"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
@@ -75,7 +75,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx jBMUOm"
+            className="sc-eqKtKx hxBzfy"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -90,7 +90,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx iRimUp"
+            className="sc-eqKtKx bHCxgF"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -106,7 +106,7 @@ exports[`Dialog Footer renders different Sizes 1`] = `
         className="sc-kSmoGW iAAuAr"
       >
         <button
-          className="sc-eqKtKx gzMIUT"
+          className="sc-eqKtKx dhZtgD"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="small"
@@ -139,7 +139,7 @@ exports[`Dialog Footer renders with Button MD 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx bIPFLn"
+            className="sc-eqKtKx dmjRAP"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
@@ -166,7 +166,7 @@ exports[`Dialog Footer renders with Button MD 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx bIPFLn"
+            className="sc-eqKtKx dmjRAP"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
@@ -181,7 +181,7 @@ exports[`Dialog Footer renders with Button MD 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx fzuzrg"
+            className="sc-eqKtKx eDTiEs"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
@@ -208,7 +208,7 @@ exports[`Dialog Footer renders with Button MD 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx bIPFLn"
+            className="sc-eqKtKx dmjRAP"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
@@ -223,7 +223,7 @@ exports[`Dialog Footer renders with Button MD 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx fzuzrg"
+            className="sc-eqKtKx eDTiEs"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
@@ -239,7 +239,7 @@ exports[`Dialog Footer renders with Button MD 1`] = `
         className="sc-kSmoGW iAAuAr"
       >
         <button
-          className="sc-eqKtKx fqqsne"
+          className="sc-eqKtKx hucElm"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
@@ -265,7 +265,7 @@ exports[`Dialog Footer renders with Button MD 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx bIPFLn"
+            className="sc-eqKtKx dmjRAP"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
@@ -281,7 +281,7 @@ exports[`Dialog Footer renders with Button MD 1`] = `
         className="sc-kSmoGW iAAuAr"
       >
         <button
-          className="sc-eqKtKx fqqsne"
+          className="sc-eqKtKx hucElm"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
@@ -307,7 +307,7 @@ exports[`Dialog Footer renders with Button MD 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx fzuzrg"
+            className="sc-eqKtKx eDTiEs"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
@@ -334,7 +334,7 @@ exports[`Dialog Footer renders with Button MD 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx fzuzrg"
+            className="sc-eqKtKx eDTiEs"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="medium"
@@ -350,7 +350,7 @@ exports[`Dialog Footer renders with Button MD 1`] = `
         className="sc-kSmoGW iAAuAr"
       >
         <button
-          className="sc-eqKtKx fqqsne"
+          className="sc-eqKtKx hucElm"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="medium"
@@ -386,7 +386,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx jBMUOm"
+            className="sc-eqKtKx hxBzfy"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -413,7 +413,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx jBMUOm"
+            className="sc-eqKtKx hxBzfy"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -428,7 +428,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx iRimUp"
+            className="sc-eqKtKx bHCxgF"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -455,7 +455,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx jBMUOm"
+            className="sc-eqKtKx hxBzfy"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -470,7 +470,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx iRimUp"
+            className="sc-eqKtKx bHCxgF"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -486,7 +486,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         className="sc-kSmoGW iAAuAr"
       >
         <button
-          className="sc-eqKtKx gzMIUT"
+          className="sc-eqKtKx dhZtgD"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="small"
@@ -512,7 +512,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx jBMUOm"
+            className="sc-eqKtKx hxBzfy"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -528,7 +528,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         className="sc-kSmoGW iAAuAr"
       >
         <button
-          className="sc-eqKtKx gzMIUT"
+          className="sc-eqKtKx dhZtgD"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="small"
@@ -554,7 +554,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx iRimUp"
+            className="sc-eqKtKx bHCxgF"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -581,7 +581,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
           className="sc-kSmoGW iAAuAr"
         >
           <button
-            className="sc-eqKtKx iRimUp"
+            className="sc-eqKtKx bHCxgF"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             size="small"
@@ -597,7 +597,7 @@ exports[`Dialog Footer renders with Button SM 1`] = `
         className="sc-kSmoGW iAAuAr"
       >
         <button
-          className="sc-eqKtKx gzMIUT"
+          className="sc-eqKtKx dhZtgD"
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
           size="small"

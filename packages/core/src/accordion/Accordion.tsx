@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { ControlsChevronUp, ControlsChevronDown } from '@heathmont/moon-icons';
 import Heading from '../heading/Heading';
-import Size from './private/Size';
 import AccordionContent from './styles/AccordionContent';
 import AccordionHeader from './styles/AccordionHeader';
 import AccordionToggle from './styles/AccordionToggle';
 import AccordionWrapper from './styles/AccordionWrapper';
 import ChildrenWrapper from './styles/ChildrenWrapper';
+import type SizeProps from './private/SizeProps';
 
 type Props = {
   title: string;
@@ -14,7 +14,7 @@ type Props = {
   children?: React.ReactNode;
   disableOpen?: boolean;
   headerContent?: React.ReactNode;
-  size?: Size;
+  size?: SizeProps;
   withButton?: boolean;
   isContentInside?: boolean;
 };
@@ -27,7 +27,7 @@ const Accordion = ({
   headerContent,
   withButton = true,
   isContentInside = true,
-  size = 'xlarge',
+  size = 'medium',
 }: Props) => {
   const [isOpen, setIsOpen] = useState(openByDefault);
 

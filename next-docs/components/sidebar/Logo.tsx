@@ -1,9 +1,13 @@
-import React from "react";
+import React from 'react';
 
-const Logo: React.FC<{ color?: string }> = ({ color = '#23252E' }: { color?: string }) => (
+const Logo: React.FC<{ color?: string }> = ({
+  color = '#23252E',
+}: {
+  color?: string;
+}) => (
   <svg
-    width="82"
-    height="19"
+    width="104"
+    height="24"
     viewBox="0 0 82 19"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"

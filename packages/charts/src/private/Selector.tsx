@@ -3,14 +3,14 @@ import { ColorProps } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-const Container = styled.div(({ theme }) => ({
+const Container = styled.div({
   display: 'flex',
   flexShrink: 0,
   alignItems: 'center',
   justifyContent: 'center',
-  marginBottom: theme.newTokens.space.small,
+  marginBottom: rem(16),
   overflowX: 'auto',
-}));
+});
 
 const List = styled.div({
   display: 'flex',

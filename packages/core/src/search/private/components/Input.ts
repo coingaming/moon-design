@@ -14,29 +14,27 @@ const { borderWidth, padding } = inputConfig;
 
 export type SearchInputSize = 'small' | 'medium';
 
-export const SearchClearButton = styled(Button)(
-  ({ theme: { colorNew, newTokens } }) => ({
-    position: 'absolute',
-    top: 0,
-    right: rem(borderWidth),
-    height: '100%',
-    display: 'flex',
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: `0 ${newTokens.space.xsmall}`,
-    border: 'none',
-    background: 'transparent',
-    appearance: 'none',
-    zIndex: zIndex.searchIcon,
-    ':focus svg': {
-      color: colorNew.bulma,
-    },
-    '[dir=rtl] &': {
-      right: 'auto',
-      left: rem(borderWidth),
-    },
-  })
-);
+export const SearchClearButton = styled(Button)(({ theme: { colorNew } }) => ({
+  position: 'absolute',
+  top: 0,
+  right: rem(borderWidth),
+  height: '100%',
+  display: 'flex',
+  justifyContent: 'center',
+  alignItems: 'center',
+  padding: `0 ${rem(12)}`,
+  border: 'none',
+  background: 'transparent',
+  appearance: 'none',
+  zIndex: zIndex.searchIcon,
+  ':focus svg': {
+    color: colorNew.bulma,
+  },
+  '[dir=rtl] &': {
+    right: 'auto',
+    left: rem(borderWidth),
+  },
+}));
 
 export const SearchClearIcon = styled(GenericClose)<
   React.SVGProps<SVGSVGElement>
@@ -64,16 +62,16 @@ export const SearchInputIcon = styled(GenericSearch)<
 
 export const SearchMenuIcon = styled(GenericMenu)<
   React.SVGProps<SVGSVGElement>
->(({ theme: { colorNew, newTokens } }) => ({
+>(({ theme: { colorNew } }) => ({
   position: 'absolute',
   top: '50%',
-  right: newTokens.space.small,
+  right: rem(16),
   color: colorNew.trunks,
   transform: 'translateY(-50%)',
   zIndex: zIndex.searchIcon,
   fontSize: rem(20),
   '[dir=rtl] &': {
-    left: newTokens.space.small,
+    left: rem(16),
     right: 'auto',
   },
 }));
@@ -90,21 +88,21 @@ export const SearchInput = styled.input<
   lineHeight: 1,
   position: 'relative',
   paddingTop: 0,
-  paddingRight: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
+  paddingRight: `calc(${rem(padding[$size])} + ${rem(16)})`,
   paddingBottom: 0,
-  paddingLeft: `calc(${rem(2 * padding[$size])} + ${newTokens.space.small})`,
+  paddingLeft: `calc(${rem(2 * padding[$size])} + ${rem(16)})`,
   textOverflow: 'ellipsis',
   overflow: 'hidden',
   backgroundColor: colorNew.goku,
   color: colorNew.trunks,
-  borderRadius: newTokens.borderRadius.medium,
+  borderRadius: newTokens.borderRadius.surface.small,
   border: hasBorder ? `${rem(borderWidth)} solid transparent` : 'none',
   outline: 0,
   zIndex: zIndex.searchInput,
   transition: `color ${newTokens.transition.default}, background-color ${newTokens.transition.default}`,
   '[dir=rtl] &': {
-    paddingLeft: `calc(${rem(padding[$size])} + ${newTokens.space.small})`,
-    paddingRight: `calc(${rem(2 * padding[$size])} + ${newTokens.space.small})`,
+    paddingLeft: `calc(${rem(padding[$size])} + ${rem(16)})`,
+    paddingRight: `calc(${rem(2 * padding[$size])} + ${rem(16)})`,
   },
   '&::placeholder': {
     color: 'inherit',

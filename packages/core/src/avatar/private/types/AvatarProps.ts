@@ -1,3 +1,4 @@
+import { Theme } from '@heathmont/moon-themes';
 import type SizeProps from './SizeProps';
 import type StatusOrigin from './StatusOrigin';
 import type { ColorProps } from '@heathmont/moon-themes';

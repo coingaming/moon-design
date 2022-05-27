@@ -32,7 +32,7 @@ exports[`Header renders with back button 1`] = `
       <svg
         className="sc-kDDrLX"
         fill="none"
-        fontSize="1.4375rem"
+        fontSize="1.5rem"
         height="1em"
         viewBox="0 0 32 32"
         width="1em"
@@ -79,7 +79,7 @@ exports[`Header renders with close button 1`] = `
         <svg
           className="sc-jgbSNz"
           fill="none"
-          fontSize="1.4375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -119,7 +119,7 @@ exports[`Header renders with icons 1`] = `
         <svg
           className="sc-jhzXDd"
           fill="none"
-          fontSize="1.4375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -137,7 +137,7 @@ exports[`Header renders with icons 1`] = `
         <svg
           className="sc-iqGgem"
           fill="none"
-          fontSize="1.4375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"

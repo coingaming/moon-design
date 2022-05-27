@@ -21,7 +21,7 @@ exports[`Calendar hide calendar 1`] = `
     }
   >
     <button
-      className="sc-keiIcO jEGYdh"
+      className="sc-keiIcO fRlywR"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -888,7 +888,7 @@ exports[`Calendar renders 1`] = `
     }
   >
     <button
-      className="sc-keiIcO jEGYdh"
+      className="sc-keiIcO fRlywR"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1332,7 +1332,7 @@ exports[`Calendar select day 1`] = `
     }
   >
     <button
-      className="sc-keiIcO jEGYdh"
+      className="sc-keiIcO fRlywR"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1368,7 +1368,7 @@ exports[`Calendar show calendar 1`] = `
     }
   >
     <button
-      className="sc-keiIcO jEGYdh"
+      className="sc-keiIcO fRlywR"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1812,7 +1812,7 @@ exports[`Calendar show month select 1`] = `
     }
   >
     <button
-      className="sc-keiIcO jEGYdh"
+      className="sc-keiIcO fRlywR"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2332,7 +2332,7 @@ exports[`Calendar show years select 1`] = `
     }
   >
     <button
-      className="sc-keiIcO jEGYdh"
+      className="sc-keiIcO fRlywR"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -4362,7 +4362,7 @@ exports[`Calendar: disabled day renders 1`] = `
     }
   >
     <button
-      className="sc-keiIcO jEGYdh"
+      className="sc-keiIcO fRlywR"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -4841,7 +4841,7 @@ exports[`Calendar: disabled days renders 1`] = `
     }
   >
     <button
-      className="sc-keiIcO jEGYdh"
+      className="sc-keiIcO fRlywR"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -5320,7 +5320,7 @@ exports[`Calendar: disabled inner range renders 1`] = `
     }
   >
     <button
-      className="sc-keiIcO jEGYdh"
+      className="sc-keiIcO fRlywR"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -5799,7 +5799,7 @@ exports[`Calendar: disabled range renders 1`] = `
     }
   >
     <button
-      className="sc-keiIcO jEGYdh"
+      className="sc-keiIcO fRlywR"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -6271,7 +6271,7 @@ exports[`DatePicker renders 1`] = `
       className="sc-cuQNSp dMPjjw"
     >
       <button
-        className="sc-keiIcO jEGYdh"
+        className="sc-keiIcO fRlywR"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
@@ -6747,7 +6747,7 @@ exports[`DatePicker renders RTL 1`] = `
         className="sc-cuQNSp dMPjjw"
       >
         <button
-          className="sc-keiIcO jEGYdh"
+          className="sc-keiIcO fRlywR"
           onClick={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}

@@ -1,11 +1,6 @@
-import type { ButtonProps } from '../../Button';
+import type ButtonProps from '../types/ButtonProps';
 
-const xSmallPadding = ({
-  icon,
-  iconLeft,
-  iconRight,
-  iconOnly,
-}: ButtonProps) => {
+const xsPadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
   if (icon === 'left' || iconLeft) {
     return 'p-1 pr-2';
   }
@@ -18,4 +13,4 @@ const xSmallPadding = ({
   return 'py-1 px-2';
 };
 
-export default xSmallPadding;
+export default xsPadding;

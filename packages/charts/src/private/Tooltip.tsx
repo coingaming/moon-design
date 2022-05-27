@@ -18,7 +18,7 @@ export const TooltipWrapper = styled.div(({ theme }) => ({
 
 export const Item = styled.div(({ theme }) => ({
   position: 'relative',
-  padding: `${rem(2)} 0 ${rem(2)} ${theme.newTokens.space.small}`,
+  padding: `${rem(2)} 0 ${rem(2)} ${rem(16)}`,
   color: theme.colorNew.trunks,
 }));
 
