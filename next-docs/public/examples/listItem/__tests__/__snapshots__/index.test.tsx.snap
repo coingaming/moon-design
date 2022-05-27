@@ -8,7 +8,8 @@ exports[`List Item renders Single Line Item 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-bgnbwU iwBXnY"
+      className="sc-bgnbwU jbgmzq"
+      size="medium"
     >
       <div
         className="sc-fJoEar iflOSw"
@@ -21,7 +22,8 @@ exports[`List Item renders Single Line Item 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-bgnbwU foWEdT"
+      className="sc-bgnbwU fcYrAt"
+      size="medium"
     >
       <div
         className="sc-fJoEar iflOSw"
@@ -41,7 +43,8 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-bgnbwU foWEdT"
+      className="sc-bgnbwU fcYrAt"
+      size="medium"
     >
       <span
         className="sc-bQRcPC fwNMpU"
@@ -72,7 +75,8 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-bgnbwU foWEdT"
+      className="sc-bgnbwU fcYrAt"
+      size="medium"
     >
       <div
         className="sc-fJoEar iflOSw"
@@ -103,7 +107,8 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-bgnbwU foWEdT"
+      className="sc-bgnbwU fcYrAt"
+      size="medium"
     >
       <span
         className="sc-bQRcPC fwNMpU"
@@ -152,7 +157,8 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
     className="m-0.5 min-w-full sm:min-w-min"
   >
     <div
-      className="sc-bgnbwU jCOeVg"
+      className="sc-bgnbwU dzmyTm"
+      size="medium"
     >
       <div
         className="sc-fJoEar iflOSw"
@@ -178,6 +184,7 @@ exports[`List Item renders Single Line Item with differen Sizes 1`] = `
   >
     <div
       className="sc-bgnbwU foWEdT"
+      size="large"
     >
       <div
         className="sc-fJoEar iflOSw"
@@ -211,7 +218,8 @@ exports[`List Item renders Two Line Items 1`] = `
     className="min-w-full sm:min-w-min mb-2"
   >
     <div
-      className="sc-bgnbwU iwBXnY"
+      className="sc-bgnbwU jbgmzq"
+      size="medium"
     >
       <div
         className="sc-fJoEar iflOSw"
@@ -233,7 +241,8 @@ exports[`List Item renders Two Line Items 1`] = `
     className="sm:w-96"
   >
     <div
-      className="sc-bgnbwU foWEdT"
+      className="sc-bgnbwU fcYrAt"
+      size="medium"
     >
       <div
         className="sc-fJoEar iflOSw"
@@ -262,7 +271,8 @@ exports[`List Item renders Two Line Items with Checkbox 1`] = `
     className="w-72 m-0.5"
   >
     <div
-      className="sc-bgnbwU iwBXnY"
+      className="sc-bgnbwU jbgmzq"
+      size="medium"
     >
       <div
         className="sc-fJoEar iflOSw"
@@ -316,7 +326,8 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
     className="w-72 m-0.5"
   >
     <div
-      className="sc-bgnbwU foWEdT"
+      className="sc-bgnbwU fcYrAt"
+      size="medium"
     >
       <span
         className="sc-bQRcPC fwNMpU"
@@ -356,7 +367,8 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
     className="w-72 m-0.5"
   >
     <div
-      className="sc-bgnbwU foWEdT"
+      className="sc-bgnbwU fcYrAt"
+      size="medium"
     >
       <div
         className="sc-fJoEar iflOSw"
@@ -396,7 +408,8 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
     className="w-72 m-0.5"
   >
     <div
-      className="sc-bgnbwU foWEdT"
+      className="sc-bgnbwU fcYrAt"
+      size="medium"
     >
       <span
         className="sc-bQRcPC fwNMpU"
@@ -454,7 +467,8 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
     className="w-72 m-0.5"
   >
     <div
-      className="sc-bgnbwU jCOeVg"
+      className="sc-bgnbwU dzmyTm"
+      size="medium"
     >
       <div
         className="sc-fJoEar iflOSw"
@@ -489,6 +503,7 @@ exports[`List Item renders Two Line Items with different Sizes 1`] = `
   >
     <div
       className="sc-bgnbwU foWEdT"
+      size="large"
     >
       <div
         className="sc-fJoEar iflOSw"

@@ -2,36 +2,26 @@
 
 exports[`AuthCode renders 1`] = `
 <div
-  className="sc-fEVxLL jkvRLm"
+  className="sc-fEVxLL iLfGGv"
   dir="ltr"
-/>
+>
+  <div />
+</div>
 `;
 
 exports[`AuthCode renders Custom length 1`] = `
 <div
-  className="sc-fEVxLL jkvRLm"
+  className="sc-fEVxLL iLfGGv"
   dir="ltr"
 >
-  <div
-    className="sc-jdzWJC hBoQHx"
-  >
+  <div>
     <div
-      className="sc-iOnGvX dtoFCR"
-      dir="ltr"
-      disabled={false}
-      inputMode="text"
-      maxLength={4}
-      onChange={[Function]}
-      pattern="[a-z0-9]*"
-      placeholder=""
-      type="text"
-      value=""
+      className="sc-jdzWJC hBoQHx"
     >
-      <input
-        className="sc-goMRkL JOvHL"
+      <div
+        className="sc-iOnGvX dtoFCR"
         dir="ltr"
         disabled={false}
-        id="auth-code-part-0"
         inputMode="text"
         maxLength={4}
         onChange={[Function]}
@@ -39,29 +29,29 @@ exports[`AuthCode renders Custom length 1`] = `
         placeholder=""
         type="text"
         value=""
-      />
+      >
+        <input
+          className="sc-goMRkL JOvHL"
+          dir="ltr"
+          disabled={false}
+          id="auth-code-part-0"
+          inputMode="text"
+          maxLength={4}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
     </div>
-  </div>
-  <div
-    className="sc-jdzWJC hBoQHx"
-  >
     <div
-      className="sc-iOnGvX btMRNz"
-      dir="ltr"
-      disabled={true}
-      inputMode="text"
-      maxLength={4}
-      onChange={[Function]}
-      pattern="[a-z0-9]*"
-      placeholder=""
-      type="text"
-      value=""
+      className="sc-jdzWJC hBoQHx"
     >
-      <input
-        className="sc-goMRkL JOvHL"
+      <div
+        className="sc-iOnGvX btMRNz"
         dir="ltr"
         disabled={true}
-        id="auth-code-part-1"
         inputMode="text"
         maxLength={4}
         onChange={[Function]}
@@ -69,29 +59,29 @@ exports[`AuthCode renders Custom length 1`] = `
         placeholder=""
         type="text"
         value=""
-      />
+      >
+        <input
+          className="sc-goMRkL JOvHL"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-1"
+          inputMode="text"
+          maxLength={4}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
     </div>
-  </div>
-  <div
-    className="sc-jdzWJC hBoQHx"
-  >
     <div
-      className="sc-iOnGvX btMRNz"
-      dir="ltr"
-      disabled={true}
-      inputMode="text"
-      maxLength={4}
-      onChange={[Function]}
-      pattern="[a-z0-9]*"
-      placeholder=""
-      type="text"
-      value=""
+      className="sc-jdzWJC hBoQHx"
     >
-      <input
-        className="sc-goMRkL JOvHL"
+      <div
+        className="sc-iOnGvX btMRNz"
         dir="ltr"
         disabled={true}
-        id="auth-code-part-2"
         inputMode="text"
         maxLength={4}
         onChange={[Function]}
@@ -99,29 +89,29 @@ exports[`AuthCode renders Custom length 1`] = `
         placeholder=""
         type="text"
         value=""
-      />
+      >
+        <input
+          className="sc-goMRkL JOvHL"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-2"
+          inputMode="text"
+          maxLength={4}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
     </div>
-  </div>
-  <div
-    className="sc-jdzWJC hBoQHx"
-  >
     <div
-      className="sc-iOnGvX btMRNz"
-      dir="ltr"
-      disabled={true}
-      inputMode="text"
-      maxLength={4}
-      onChange={[Function]}
-      pattern="[a-z0-9]*"
-      placeholder=""
-      type="text"
-      value=""
+      className="sc-jdzWJC hBoQHx"
     >
-      <input
-        className="sc-goMRkL JOvHL"
+      <div
+        className="sc-iOnGvX btMRNz"
         dir="ltr"
         disabled={true}
-        id="auth-code-part-3"
         inputMode="text"
         maxLength={4}
         onChange={[Function]}
@@ -129,7 +119,21 @@ exports[`AuthCode renders Custom length 1`] = `
         placeholder=""
         type="text"
         value=""
-      />
+      >
+        <input
+          className="sc-goMRkL JOvHL"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-3"
+          inputMode="text"
+          maxLength={4}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
     </div>
   </div>
 </div>
@@ -137,29 +141,17 @@ exports[`AuthCode renders Custom length 1`] = `
 
 exports[`AuthCode renders Error state 1`] = `
 <div
-  className="sc-fEVxLL cDVSQy"
+  className="sc-fEVxLL gTsxvH"
   dir="ltr"
 >
-  <div
-    className="sc-jdzWJC hBoQHx"
-  >
+  <div>
     <div
-      className="sc-iOnGvX dtoFCR"
-      dir="ltr"
-      disabled={false}
-      inputMode="text"
-      maxLength={6}
-      onChange={[Function]}
-      pattern="[a-z0-9]*"
-      placeholder=""
-      type="text"
-      value=""
+      className="sc-jdzWJC hBoQHx"
     >
-      <input
-        className="sc-goMRkL kDWyPF"
+      <div
+        className="sc-iOnGvX dtoFCR"
         dir="ltr"
         disabled={false}
-        id="auth-code-part-0"
         inputMode="text"
         maxLength={6}
         onChange={[Function]}
@@ -167,29 +159,29 @@ exports[`AuthCode renders Error state 1`] = `
         placeholder=""
         type="text"
         value=""
-      />
+      >
+        <input
+          className="sc-goMRkL kDWyPF"
+          dir="ltr"
+          disabled={false}
+          id="auth-code-part-0"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
     </div>
-  </div>
-  <div
-    className="sc-jdzWJC hBoQHx"
-  >
     <div
-      className="sc-iOnGvX btMRNz"
-      dir="ltr"
-      disabled={true}
-      inputMode="text"
-      maxLength={6}
-      onChange={[Function]}
-      pattern="[a-z0-9]*"
-      placeholder=""
-      type="text"
-      value=""
+      className="sc-jdzWJC hBoQHx"
     >
-      <input
-        className="sc-goMRkL kDWyPF"
+      <div
+        className="sc-iOnGvX btMRNz"
         dir="ltr"
         disabled={true}
-        id="auth-code-part-1"
         inputMode="text"
         maxLength={6}
         onChange={[Function]}
@@ -197,29 +189,29 @@ exports[`AuthCode renders Error state 1`] = `
         placeholder=""
         type="text"
         value=""
-      />
+      >
+        <input
+          className="sc-goMRkL kDWyPF"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-1"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
     </div>
-  </div>
-  <div
-    className="sc-jdzWJC hBoQHx"
-  >
     <div
-      className="sc-iOnGvX btMRNz"
-      dir="ltr"
-      disabled={true}
-      inputMode="text"
-      maxLength={6}
-      onChange={[Function]}
-      pattern="[a-z0-9]*"
-      placeholder=""
-      type="text"
-      value=""
+      className="sc-jdzWJC hBoQHx"
     >
-      <input
-        className="sc-goMRkL kDWyPF"
+      <div
+        className="sc-iOnGvX btMRNz"
         dir="ltr"
         disabled={true}
-        id="auth-code-part-2"
         inputMode="text"
         maxLength={6}
         onChange={[Function]}
@@ -227,29 +219,29 @@ exports[`AuthCode renders Error state 1`] = `
         placeholder=""
         type="text"
         value=""
-      />
+      >
+        <input
+          className="sc-goMRkL kDWyPF"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-2"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
     </div>
-  </div>
-  <div
-    className="sc-jdzWJC hBoQHx"
-  >
     <div
-      className="sc-iOnGvX btMRNz"
-      dir="ltr"
-      disabled={true}
-      inputMode="text"
-      maxLength={6}
-      onChange={[Function]}
-      pattern="[a-z0-9]*"
-      placeholder=""
-      type="text"
-      value=""
+      className="sc-jdzWJC hBoQHx"
     >
-      <input
-        className="sc-goMRkL kDWyPF"
+      <div
+        className="sc-iOnGvX btMRNz"
         dir="ltr"
         disabled={true}
-        id="auth-code-part-3"
         inputMode="text"
         maxLength={6}
         onChange={[Function]}
@@ -257,29 +249,29 @@ exports[`AuthCode renders Error state 1`] = `
         placeholder=""
         type="text"
         value=""
-      />
+      >
+        <input
+          className="sc-goMRkL kDWyPF"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-3"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
     </div>
-  </div>
-  <div
-    className="sc-jdzWJC hBoQHx"
-  >
     <div
-      className="sc-iOnGvX btMRNz"
-      dir="ltr"
-      disabled={true}
-      inputMode="text"
-      maxLength={6}
-      onChange={[Function]}
-      pattern="[a-z0-9]*"
-      placeholder=""
-      type="text"
-      value=""
+      className="sc-jdzWJC hBoQHx"
     >
-      <input
-        className="sc-goMRkL kDWyPF"
+      <div
+        className="sc-iOnGvX btMRNz"
         dir="ltr"
         disabled={true}
-        id="auth-code-part-4"
         inputMode="text"
         maxLength={6}
         onChange={[Function]}
@@ -287,29 +279,29 @@ exports[`AuthCode renders Error state 1`] = `
         placeholder=""
         type="text"
         value=""
-      />
+      >
+        <input
+          className="sc-goMRkL kDWyPF"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-4"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
     </div>
-  </div>
-  <div
-    className="sc-jdzWJC hBoQHx"
-  >
     <div
-      className="sc-iOnGvX btMRNz"
-      dir="ltr"
-      disabled={true}
-      inputMode="text"
-      maxLength={6}
-      onChange={[Function]}
-      pattern="[a-z0-9]*"
-      placeholder=""
-      type="text"
-      value=""
+      className="sc-jdzWJC hBoQHx"
     >
-      <input
-        className="sc-goMRkL kDWyPF"
+      <div
+        className="sc-iOnGvX btMRNz"
         dir="ltr"
         disabled={true}
-        id="auth-code-part-5"
         inputMode="text"
         maxLength={6}
         onChange={[Function]}
@@ -317,26 +309,42 @@ exports[`AuthCode renders Error state 1`] = `
         placeholder=""
         type="text"
         value=""
-      />
+      >
+        <input
+          className="sc-goMRkL kDWyPF"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-5"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
     </div>
-  </div>
-  <div
-    className="sc-fCdBJp iLnMWq"
-  >
-    <p
-      className="sc-cQIpJi jgOjbU"
-      color="chiChi.100"
-      size={12}
+    <div
+      className="sc-fCdBJp fFJVf"
     >
-      Provided value is not valid!
-    </p>
+      <p
+        className="sc-cQIpJi jgOjbU"
+        color="chiChi.100"
+        size={12}
+      >
+        Provided value is not valid!
+      </p>
+    </div>
   </div>
 </div>
 `;
 
 exports[`AuthCode renders Only digits 1`] = `
 <div
-  className="sc-fEVxLL jkvRLm"
+  className="sc-fEVxLL iLfGGv"
   dir="ltr"
-/>
+>
+  <div />
+</div>
 `;
