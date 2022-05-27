@@ -89,7 +89,6 @@ const Input = styled.input.attrs(({ type }) => ({
     isSideBorderHidden,
   }) => [
     {
-      // visibility: 'hidden',
       display: 'block',
       width: '100%',
       maxWidth: '100%',
