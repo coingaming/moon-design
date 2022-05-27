@@ -6,6 +6,7 @@ type ChipProps = {
   size?: 'sm' | 'md';
   iconSize?: number;
   isStroke?: boolean;
+  variant?: 'default' | 'ghost';
 };
 
 export default ChipProps;

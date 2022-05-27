@@ -60,10 +60,11 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
+      backgroundColor,
       ...rest,
     };
     return (
-      <Container disabled={disabled}>
+      <Container {...inputProps}>
         {label && (
           <Label dir={dir} htmlFor={id}>
             {label}
