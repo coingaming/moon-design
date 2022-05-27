@@ -5,13 +5,25 @@ import styled from 'styled-components';
 interface Props {
   orientation?: 'vertical' | 'horizontal';
   isXLarge?: boolean;
+  isError?: boolean;
   backgroundColor?: ColorProps;
 }
+
+const borderColor = (colorNew, isError) => {
+  return isError ? colorNew.chiChi[100] : colorNew.beerus;
+};
+
+const borderWidth = (newTokens, isError) => {
+  return isError
+    ? newTokens.border.width.interactive
+    : newTokens.border.width.default;
+};
 
 const Container = styled.div<Props>(
   ({
     orientation,
     isXLarge,
+    isError,
     backgroundColor = 'gohan',
     theme: currentTheme,
     theme: { newTokens, colorNew },
@@ -21,7 +33,10 @@ const Container = styled.div<Props>(
       width: '100%',
       flexDirection: orientation === 'horizontal' ? 'row' : 'column',
       border: 'none',
-      boxShadow: `0 0 0 ${newTokens.border.width.default} ${colorNew.beerus} inset`,
+      boxShadow: `0 0 0 ${borderWidth(newTokens, isError)} ${borderColor(
+        colorNew,
+        isError
+      )} inset`,
       position: 'relative',
       borderRadius: newTokens.borderRadius.surface.medium,
       backgroundColor: !backgroundColor
@@ -37,6 +52,7 @@ const Container = styled.div<Props>(
         width: rem(1),
         left: '50%',
         transform: 'translateX(-50%)',
+        background: borderColor(colorNew, isError),
         zIndex: 3,
       },
       '&:hover, &:focus-within': {
@@ -59,7 +75,7 @@ const Container = styled.div<Props>(
         height: rem(1),
         left: 0,
         transform: 'translateY(-50%)',
-        background: colorNew.beerus,
+        background: borderColor(colorNew, isError),
         zIndex: 3,
       },
       '&:hover, &:focus-within': {

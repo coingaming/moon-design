@@ -9,17 +9,13 @@ const makeBorderRadius = (
 ) => {
   return {
     borderTopLeftRadius:
-      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.interactive.medium,
+      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.surface.medium,
     borderTopRightRadius:
-      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.interactive.medium,
+      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.surface.medium,
     borderBottomLeftRadius:
-      isSharpLeftSide || isSharpBottomSide
-        ? 0
-        : borderRadius.interactive.medium,
+      isSharpLeftSide || isSharpBottomSide ? 0 : borderRadius.surface.medium,
     borderBottomRightRadius:
-      isSharpRightSide || isSharpBottomSide
-        ? 0
-        : borderRadius.interactive.medium,
+      isSharpRightSide || isSharpBottomSide ? 0 : borderRadius.surface.medium,
   };
 };
 
