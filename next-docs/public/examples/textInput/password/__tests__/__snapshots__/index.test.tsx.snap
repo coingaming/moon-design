@@ -8,8 +8,9 @@ exports[`TextInput: type Password renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
       disabled={true}
+      placeholder=" "
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -44,8 +45,9 @@ exports[`TextInput: type Password renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
       disabled={true}
+      placeholder=" "
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -80,14 +82,15 @@ exports[`TextInput: type Password renders disabled 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
       disabled={true}
+      placeholder=" "
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL dAFeSW"
+          className="sc-goMRkL gLuXgD"
           disabled={true}
           placeholder=" "
           type="password"
@@ -123,7 +126,8 @@ exports[`TextInput: type Password renders error 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -157,7 +161,8 @@ exports[`TextInput: type Password renders error 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -191,13 +196,14 @@ exports[`TextInput: type Password renders error 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL knUKKQ"
+          className="sc-goMRkL ilSiNt"
           placeholder="Placeholder"
           type="password"
         />
@@ -232,7 +238,9 @@ exports[`TextInput: type Password renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder=" "
+      readOnly={true}
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -267,7 +275,9 @@ exports[`TextInput: type Password renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder=" "
+      readOnly={true}
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -302,13 +312,15 @@ exports[`TextInput: type Password renders readOnly 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder=" "
+      readOnly={true}
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL dAFeSW"
+          className="sc-goMRkL gLuXgD"
           placeholder=" "
           readOnly={true}
           type="password"
@@ -344,7 +356,8 @@ exports[`TextInput: type Password renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -378,7 +391,8 @@ exports[`TextInput: type Password renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -412,13 +426,14 @@ exports[`TextInput: type Password renders with hint 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL dAFeSW"
+          className="sc-goMRkL gLuXgD"
           placeholder="Placeholder"
           type="password"
         />
@@ -453,7 +468,8 @@ exports[`TextInput: type Password renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -481,7 +497,8 @@ exports[`TextInput: type Password renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -509,13 +526,14 @@ exports[`TextInput: type Password renders with label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL dAFeSW"
+          className="sc-goMRkL gLuXgD"
           placeholder="Placeholder"
           type="password"
         />
@@ -544,7 +562,9 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      dir="rtl"
+      placeholder="Placeholder"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -574,7 +594,9 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      dir="rtl"
+      placeholder="Placeholder"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -604,13 +626,15 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      dir="rtl"
+      placeholder="Placeholder"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL dAFeSW"
+          className="sc-goMRkL gLuXgD"
           dir="rtl"
           placeholder="Placeholder"
           type="password"
@@ -640,7 +664,8 @@ exports[`TextInput: type Password renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="medium"
     >
       <div
         className="sc-jNrqiC edxHQS"
@@ -663,7 +688,8 @@ exports[`TextInput: type Password renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="large"
     >
       <div
         className="sc-jNrqiC edxHQS"
@@ -686,13 +712,14 @@ exports[`TextInput: type Password renders without label 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="xlarge"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL iHrxGj"
+          className="sc-goMRkL eGpHkK"
           placeholder="xlarge"
           type="password"
         />
@@ -719,7 +746,8 @@ exports[`TextInput: type Password supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -753,7 +781,8 @@ exports[`TextInput: type Password supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -787,13 +816,14 @@ exports[`TextInput: type Password supports background colour 1`] = `
     className="m-4"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
     >
       <div
         className="sc-jNrqiC hjjcDo"
       >
         <input
-          className="sc-goMRkL dAFeSW"
+          className="sc-goMRkL gmNPY"
           placeholder="Placeholder"
           type="password"
         />
