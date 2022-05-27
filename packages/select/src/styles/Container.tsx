@@ -1,4 +1,4 @@
-import { ColorProps } from '@heathmont/moon-themes';
+import { ColorNew, ColorProps, SharedTheme } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
@@ -9,11 +9,14 @@ interface Props {
   backgroundColor?: ColorProps;
 }
 
-const borderColor = (colorNew, isError) => {
+const borderColor = (colorNew: ColorNew, isError?: boolean) => {
   return isError ? colorNew.chiChi[100] : colorNew.beerus;
 };
 
-const borderWidth = (newTokens, isError) => {
+const borderWidth = (
+  newTokens: SharedTheme['newTokens'],
+  isError?: boolean
+) => {
   return isError
     ? newTokens.border.width.interactive
     : newTokens.border.width.default;

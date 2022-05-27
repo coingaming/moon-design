@@ -1,4 +1,4 @@
-import { ColorProps } from '@heathmont/moon-themes';
+import { ColorProps, Theme } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import makeBorderRadius from '../private/makeBorderRadius';
@@ -13,12 +13,12 @@ type ContainerProps = {
 };
 
 const getBackgroundColor = (
-  currentTheme,
-  isSharpLeftSide,
-  isSharpRightSide,
-  isSharpTopSide,
-  isSharpBottomSide,
-  bgColor
+  currentTheme: Theme,
+  isSharpLeftSide?: boolean,
+  isSharpRightSide?: boolean,
+  isSharpTopSide?: boolean,
+  isSharpBottomSide?: boolean,
+  bgColor?: ColorProps
 ) => {
   return !bgColor ||
     isSharpLeftSide ||
