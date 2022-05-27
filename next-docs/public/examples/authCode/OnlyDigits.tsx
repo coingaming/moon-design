@@ -7,10 +7,10 @@ const Example = () => {
       length={4}
       onlyDigits={true}
       onChange={(value: string) => {
-        console.log('New value - ', value);
+        console.log('** EXAMPLE - New value - ', value);
       }}
       onSubmit={(value: string) => {
-        console.log('Submit value - ', value);
+        console.log('** EXAMPLE - Submit value - ', value);
       }}
     />
   );
