@@ -16,8 +16,16 @@ exports[`AuthCode renders Custom length 1`] = `
     className="sc-jdzWJC hBoQHx"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      dir="ltr"
       disabled={false}
+      inputMode="text"
+      maxLength={4}
+      onChange={[Function]}
+      pattern="[a-z0-9]*"
+      placeholder=""
+      type="text"
+      value=""
     >
       <input
         className="sc-goMRkL JOvHL"
@@ -38,8 +46,16 @@ exports[`AuthCode renders Custom length 1`] = `
     className="sc-jdzWJC hBoQHx"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
+      dir="ltr"
       disabled={true}
+      inputMode="text"
+      maxLength={4}
+      onChange={[Function]}
+      pattern="[a-z0-9]*"
+      placeholder=""
+      type="text"
+      value=""
     >
       <input
         className="sc-goMRkL JOvHL"
@@ -60,8 +76,16 @@ exports[`AuthCode renders Custom length 1`] = `
     className="sc-jdzWJC hBoQHx"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
+      dir="ltr"
       disabled={true}
+      inputMode="text"
+      maxLength={4}
+      onChange={[Function]}
+      pattern="[a-z0-9]*"
+      placeholder=""
+      type="text"
+      value=""
     >
       <input
         className="sc-goMRkL JOvHL"
@@ -82,8 +106,16 @@ exports[`AuthCode renders Custom length 1`] = `
     className="sc-jdzWJC hBoQHx"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
+      dir="ltr"
       disabled={true}
+      inputMode="text"
+      maxLength={4}
+      onChange={[Function]}
+      pattern="[a-z0-9]*"
+      placeholder=""
+      type="text"
+      value=""
     >
       <input
         className="sc-goMRkL JOvHL"
@@ -112,8 +144,16 @@ exports[`AuthCode renders Error state 1`] = `
     className="sc-jdzWJC hBoQHx"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      dir="ltr"
       disabled={false}
+      inputMode="text"
+      maxLength={6}
+      onChange={[Function]}
+      pattern="[a-z0-9]*"
+      placeholder=""
+      type="text"
+      value=""
     >
       <input
         className="sc-goMRkL kDWyPF"
@@ -134,8 +174,16 @@ exports[`AuthCode renders Error state 1`] = `
     className="sc-jdzWJC hBoQHx"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
+      dir="ltr"
       disabled={true}
+      inputMode="text"
+      maxLength={6}
+      onChange={[Function]}
+      pattern="[a-z0-9]*"
+      placeholder=""
+      type="text"
+      value=""
     >
       <input
         className="sc-goMRkL kDWyPF"
@@ -156,8 +204,16 @@ exports[`AuthCode renders Error state 1`] = `
     className="sc-jdzWJC hBoQHx"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
+      dir="ltr"
       disabled={true}
+      inputMode="text"
+      maxLength={6}
+      onChange={[Function]}
+      pattern="[a-z0-9]*"
+      placeholder=""
+      type="text"
+      value=""
     >
       <input
         className="sc-goMRkL kDWyPF"
@@ -178,8 +234,16 @@ exports[`AuthCode renders Error state 1`] = `
     className="sc-jdzWJC hBoQHx"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
+      dir="ltr"
       disabled={true}
+      inputMode="text"
+      maxLength={6}
+      onChange={[Function]}
+      pattern="[a-z0-9]*"
+      placeholder=""
+      type="text"
+      value=""
     >
       <input
         className="sc-goMRkL kDWyPF"
@@ -200,8 +264,16 @@ exports[`AuthCode renders Error state 1`] = `
     className="sc-jdzWJC hBoQHx"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
+      dir="ltr"
       disabled={true}
+      inputMode="text"
+      maxLength={6}
+      onChange={[Function]}
+      pattern="[a-z0-9]*"
+      placeholder=""
+      type="text"
+      value=""
     >
       <input
         className="sc-goMRkL kDWyPF"
@@ -222,8 +294,16 @@ exports[`AuthCode renders Error state 1`] = `
     className="sc-jdzWJC hBoQHx"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
+      dir="ltr"
       disabled={true}
+      inputMode="text"
+      maxLength={6}
+      onChange={[Function]}
+      pattern="[a-z0-9]*"
+      placeholder=""
+      type="text"
+      value=""
     >
       <input
         className="sc-goMRkL kDWyPF"
