@@ -12,3 +12,7 @@ export { default as Chip } from './chip/Chip';
 export * from './chip/Chip';
 export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
+export { default as TextInput } from './textInput/TextInput';
+export * from './textInput/TextInput';
+export { default as TextInputGroup } from './textInputGroup/TextInputGroup';
+export * from './textInputGroup/TextInputGroup';
