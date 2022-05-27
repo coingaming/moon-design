@@ -44,7 +44,7 @@ const ListItem: React.FC<ListItemProps> = ({
   elementRight,
   isMeta,
   subtext,
-  size,
+  size = 'medium' as const,
 }) => (
   <Container
     size={size}

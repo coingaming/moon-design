@@ -27,7 +27,7 @@ const Accordion = ({
   headerContent,
   withButton = true,
   isContentInside = true,
-  size = 'xlarge',
+  size = 'medium',
 }: Props) => {
   const [isOpen, setIsOpen] = useState(openByDefault);
 

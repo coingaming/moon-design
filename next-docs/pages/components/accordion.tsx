@@ -155,7 +155,7 @@ const PageAccordion = () => {
             name: 'size',
             type: 'xlarge | large | medium | small',
             required: false,
-            default: 'xlarge',
+            default: 'medium',
             description: 'Size variant of accordion',
           },
           {
