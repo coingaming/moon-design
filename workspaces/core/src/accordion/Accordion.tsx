@@ -67,7 +67,7 @@ const Accordion = ({
       </div>
       <div
         className={classNames(
-          'overflow-hidden',
+          'overflow-hidden w-full',
           isOpen ? 'h-full' : 'h-0',
           isOpen && setMargin(size)
         )}

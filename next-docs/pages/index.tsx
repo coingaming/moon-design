@@ -37,13 +37,13 @@ const SubHeader: React.FC<SubHeaderProps> = ({
 }: SubHeaderProps) => (
   <>
     {title && (
-      <h2 className="mt-20 tracking-tight text-4xl font-semibold bg-background relative py-1 rounded-lg lg:whitespace-nowrap lg:w-min">
+      <h2 className="mt-20 tracking-tight text-4xl font-semibold bg-gohan relative py-1 rounded-lg lg:whitespace-nowrap lg:w-min">
         {title}
       </h2>
     )}
 
     {description && (
-      <p className="text-4xl tracking-tight bg-background relative  pr-4 py-1 lg:whitespace-nowrap lg:w-min">
+      <p className="text-4xl tracking-tight bg-gohan relative  pr-4 py-1 lg:whitespace-nowrap lg:w-min">
         {description}
       </p>
     )}

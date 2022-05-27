@@ -4,7 +4,7 @@ import { GenericSettings } from '@heathmont/moon-icons';
 
 const PageButton = () => {
   return (
-    <div className="theme-moon-dark">
+    <div>
       <section className="mt-8 text-3xl font-bold">Variants</section>
       {/* Variants */}
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">

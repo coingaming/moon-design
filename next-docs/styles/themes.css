@@ -36,15 +36,27 @@
   --nappa-10: 161 134 129; /* #a18681 */
 }
 
-.theme-moon-dark {
+.theme-moon-light {
   --piccolo: 78 70 180; /* #4e46b4 */
   --hit: 64 166 159; /* #40a69f */
   --beerus: 235 235 235; /* #ebebeb */
-  --goku: 245 245 245; /* #f5f5f5 */
   --gohan: 255 255 255; /* #ffffff */
-  --bulma: 0 0 0; /* #000000 */
-  --trunks: 153 156 160;
   --goten: 255 255 255; /* #ffffff */
+  --goku: 245 245 245; /* #f5f5f5 */
+  --bulma: 0 0 0; /* #000000 */
+  --trunks: 153 156 160; /* #999ca0 */
+  --popo: 0 0 0; /* #000000 */
+}
+
+.theme-moon-dark {
+  --piccolo: 78 70 180; /* #4e46b4 */
+  --hit: 11 11 11; /* #0b0b0b */
+  --beerus: 68 68 68; /* #444444 */
+  --gohan: 31 31 31; /* #1f1f1f */
+  --goten: 255 255 255; /* #ffffff */
+  --goku: 11 11 11; /* #0b0b0b */
+  --bulma: 255 255 255; /* #ffffff */
+  --trunks: 153 156 160; /* #999ca0 */
   --popo: 0 0 0; /* #000000 */
 }
 
