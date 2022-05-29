@@ -2,13 +2,14 @@ import { Select } from '@heathmont/moon-core-tw';
 import {useState} from "react";
 
 const Example = () => {
-  const [value, setValue] = useState('');
+  const [value, setValue] = useState('one');
 
   return (<div className="flex flex-col gap-y-3 mb-[150px]">
     <Select
       value={value}
-      label='Default select'
+      label='Hint slot'
       placeholderSlot='Placeholder slot'
+      hintSlot='Informative message holder'
       options={[
         { value: 'one', element: 'One', label: 'One' },
         { value: 'two', element: 'Two', label: 'Two' },
@@ -16,19 +17,6 @@ const Example = () => {
       ]}
       onChange={(newValue: string) => { setValue(newValue); console.log('Change happened - ', newValue) }}
     />
-
-    <div className='mt-4'>
-      <Select
-        value='one'
-        label='Preset value'
-        placeholderSlot='Placeholder slot'
-        options={[
-          { value: 'one', element: 'One', label: 'One' },
-          { value: 'two', element: 'Two', label: 'Two' },
-          { value: 'three', element: 'Three', label: 'Three' },
-        ]}
-      />
-    </div>
   </div>);
 };
 
