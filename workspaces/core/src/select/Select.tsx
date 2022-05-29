@@ -63,7 +63,7 @@ const Select: React.FC<SelectProps> = ({
     }
 
     document.addEventListener('mousedown', handleOutsideClick);
-    
+
     return () => document.removeEventListener('mousedown', handleOutsideClick);
   }, []);
 
@@ -86,7 +86,7 @@ const Select: React.FC<SelectProps> = ({
 
   const onSelectClick = () => {
     if (!disabled) {
-      setMenuOpen(!menuOpen); 
+      setMenuOpen(!menuOpen);
       //@ts-ignore
       inputRef?.current.focus();
     }
@@ -109,13 +109,13 @@ const Select: React.FC<SelectProps> = ({
       style={isError ? { borderColor: '#ff4e64', outlineColor: '#ff4e64'} : {}}
       ref={selectRef}
     >
-      <input 
-        className='bg-gohan text-transparent z-[1] focus:outline-none focus:border-none' 
-        disabled={disabled} 
-        // value={value} 
-        ref={inputRef} 
+      <input
+        className='bg-gohan text-transparent z-[1] focus:outline-none focus:border-none'
+        disabled={disabled}
+        // value={value}
+        ref={inputRef}
         readOnly
-        onKeyDown={(e) => keyDownHandler(e)} 
+        onKeyDown={(e) => keyDownHandler(e)}
         onFocus={onInputFocus}
       />
 
