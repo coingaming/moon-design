@@ -18,6 +18,7 @@ const navigation = [
       { name: 'Chip', href: '/core/chip' },
       { name: 'Checkbox', href: '/core/checkbox' },
       { name: 'Loader', href: '/core/loader' },
+      { name: 'Select', href: '/core/select' },
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInput Group', href: '/core/textInputGroup' },
       { name: 'Typography', href: '/core/typography' },
