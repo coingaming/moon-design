@@ -1,11 +1,11 @@
 import React from 'react';
-import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width="1em"
+    width="1.2em"
     height="1em"
     viewBox="0 0 32 32"
     fill="none"
