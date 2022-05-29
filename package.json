@@ -4,7 +4,7 @@
   "scripts": {
     "watch": "pnpm run watch:legacy && pnpm run watch:tailwind",
     "watch:legacy": "pnpm --filter ./packages --parallel -r run chokidar",
-    "watch:tailwind": "pnpm --filter ./workspaces --parallel -r run chokidar ",
+    "watch:tailwind": "pnpm --filter ./workspaces --parallel -r run chokidar",
     "next": "pnpm run --filter next-docs",
     "commit": "git-cz",
     "build": "pnpm run build:legacy && pnpm run build:tailwind",
