@@ -1,5 +1,6 @@
 import React, { forwardRef } from 'react';
 import { ColorProps } from '@heathmont/moon-themes';
+import Size from '../../private/enums/Size';
 import Container from '../styles/Container';
 import Label from '../styles/Label';
 import HintText from './HintText';
@@ -10,7 +11,7 @@ import TextInputTypes from './types/TextInputTypes';
 interface TextInputXSandSmProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
-  inputSize: TextInputSizeType | string;
+  inputSize?: TextInputSizeType | string;
   label?: JSX.Element | string;
   type: TextInputTypes | string;
   placeholder?: string;
@@ -31,7 +32,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
   (props, ref) => {
     const {
       id,
-      inputSize,
+      inputSize = Size.MEDIUM,
       type,
       disabled,
       placeholder = ' ',
@@ -59,10 +60,11 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
+      backgroundColor,
       ...rest,
     };
     return (
-      <Container disabled={disabled}>
+      <Container {...inputProps}>
         {label && (
           <Label dir={dir} htmlFor={id}>
             {label}

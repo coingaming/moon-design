@@ -9,10 +9,10 @@ type Props = {
 };
 
 export const OuterContainer = styled.div<Props>(
-  ({ isOpen, openWidth, collapseWidth, theme: { space } }) => ({
-    height: isOpen ? '100vh' : rem(2 * space.large),
+  ({ isOpen, openWidth, collapseWidth }) => ({
+    height: isOpen ? '100vh' : rem(64),
     width: rem(isOpen ? openWidth : collapseWidth),
-    paddingInlineEnd: rem(0.75 * space.default),
+    paddingInlineEnd: rem(12),
     position: 'relative',
     [`&:hover > ${CollapseTarget}`]: {
       opacity: 1,

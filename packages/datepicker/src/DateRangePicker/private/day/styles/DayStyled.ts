@@ -38,7 +38,7 @@ const DayStyled = styled.div<DayStyledProps>(
       cursor: 'pointer',
       boxSizing: 'border-box',
       border: '1px solid transparent', // to prevent jumping on hover
-      borderRadius: newTokens.borderRadius.medium,
+      borderRadius: newTokens.borderRadius.surface.small,
       '&:hover': {
         color: colorNew.piccolo,
         backgroundColor: hover.secondary,
@@ -48,24 +48,33 @@ const DayStyled = styled.div<DayStyledProps>(
       color: colorNew.piccolo,
       borderRadius: 0,
       backgroundColor: hover.secondary,
-      borderTopLeftRadius: isStartOfWeek && newTokens.borderRadius.medium,
-      borderBottomLeftRadius: isStartOfWeek && newTokens.borderRadius.medium,
-      borderTopRightRadius: isEndOfWeek && newTokens.borderRadius.medium,
-      borderBottomRightRadius: isEndOfWeek && newTokens.borderRadius.medium,
+      borderTopLeftRadius:
+        isStartOfWeek && newTokens.borderRadius.surface.small,
+      borderBottomLeftRadius:
+        isStartOfWeek && newTokens.borderRadius.surface.small,
+      borderTopRightRadius: isEndOfWeek && newTokens.borderRadius.surface.small,
+      borderBottomRightRadius:
+        isEndOfWeek && newTokens.borderRadius.surface.small,
     },
     (isInRange || isInRangePreview) &&
       isRtl && {
-        borderTopLeftRadius: isEndOfWeek ? newTokens.borderRadius.medium : 0,
-        borderBottomLeftRadius: isEndOfWeek ? newTokens.borderRadius.medium : 0,
-        borderTopRightRadius: isStartOfWeek ? newTokens.borderRadius.medium : 0,
+        borderTopLeftRadius: isEndOfWeek
+          ? newTokens.borderRadius.surface.small
+          : 0,
+        borderBottomLeftRadius: isEndOfWeek
+          ? newTokens.borderRadius.surface.small
+          : 0,
+        borderTopRightRadius: isStartOfWeek
+          ? newTokens.borderRadius.surface.small
+          : 0,
         borderBottomRightRadius: isStartOfWeek
-          ? newTokens.borderRadius.medium
+          ? newTokens.borderRadius.surface.small
           : 0,
       },
     (isStartEdge || isEndEdge) && {
       background: isDisabled ? 'transparent' : colorNew.piccolo,
       color: isDisabled ? rgba(colorNew.bulma, 0.32) : colorNew.goten,
-      borderRadius: newTokens.borderRadius.medium,
+      borderRadius: newTokens.borderRadius.surface.small,
       '&:hover': {
         border: `1px solid ${colorNew.piccolo}`,
         background: colorNew.piccolo,
@@ -74,8 +83,8 @@ const DayStyled = styled.div<DayStyledProps>(
     },
     isInRangePreview && {
       '&:hover': {
-        borderTopRightRadius: newTokens.borderRadius.medium,
-        borderBottomRightRadius: newTokens.borderRadius.medium,
+        borderTopRightRadius: newTokens.borderRadius.surface.small,
+        borderBottomRightRadius: newTokens.borderRadius.surface.small,
       },
     },
     isInRangePreview &&
@@ -83,8 +92,8 @@ const DayStyled = styled.div<DayStyledProps>(
         '&:hover': {
           borderTopRightRadius: 0,
           borderBottomRightRadius: 0,
-          borderTopLeftRadius: newTokens.borderRadius.medium,
-          borderBottomLeftRadius: newTokens.borderRadius.medium,
+          borderTopLeftRadius: newTokens.borderRadius.surface.small,
+          borderBottomLeftRadius: newTokens.borderRadius.surface.small,
         },
       },
     isToday && {

@@ -9,6 +9,7 @@ export interface HeaderProps {
   closeButton?: JSX.Element;
   icons?: JSX.Element[];
   isDivider?: boolean;
+  children?: React.ReactNode;
 }
 
 const Label = styled.div({

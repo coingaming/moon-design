@@ -3,12 +3,8 @@ import '../styles/globals.css';
 import '../styles/reset.css';
 import '../styles/themes.css';
 import '../styles/custom.css';
-import {
-  KBarProvider,
-  KBarPortal,
-  KBarPositioner,
-  KBarAnimator
-} from 'kbar';
+// import '@moon/core/lib/loader/styles.css';
+
 import { NextPage } from 'next';
 import Head from 'next/head';
 import { BarResults } from '../components/KBar/BarResults';

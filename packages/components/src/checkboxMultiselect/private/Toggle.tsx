@@ -5,6 +5,7 @@ import styled from 'styled-components';
 
 type ToggleProps = {
   header: JSX.Element;
+  children?: React.ReactNode;
 };
 
 const ToggleWrapper = styled.div({
@@ -43,7 +44,7 @@ const Toggle: React.FC<ToggleProps> = (props) => {
     <ToggleWrapper>
       <Header>
         <Switch open={open} onClick={() => setOpen(!open)}>
-          <ControlsChevronRight fontSize={rem(23)} color="trunks.100"/>
+          <ControlsChevronRight fontSize={rem(24)} color="trunks.100" />
         </Switch>
         {header}
       </Header>

@@ -15,6 +15,7 @@ export type ListItemProps = {
   isMeta?: boolean;
   subtext?: React.ReactElement;
   size?: 'medium' | 'large';
+  children?: React.ReactNode;
 };
 
 const MainWrapper = styled.div({
@@ -43,7 +44,7 @@ const ListItem: React.FC<ListItemProps> = ({
   elementRight,
   isMeta,
   subtext,
-  size,
+  size = 'medium' as const,
 }) => (
   <Container
     size={size}

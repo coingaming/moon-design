@@ -2,7 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <span
-  className="sc-cbDwiu edInZN"
+  className="sc-futMm fZZUTw"
 >
   Caption
 </span>
@@ -13,24 +13,24 @@ exports[`Caption renders colors 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="sc-cbDwiu edInZN"
+    className="sc-futMm fZZUTw"
   >
     Default color is Bulma
   </span>
   <span
-    className="sc-cbDwiu ilOrUU"
+    className="sc-futMm cHqqGF"
     color="piccolo.100"
   >
     Piccolo
   </span>
   <span
-    className="sc-cbDwiu kkLtsG"
+    className="sc-futMm kxzjzn"
     color="trunks.100"
   >
     Trunks
   </span>
   <span
-    className="sc-cbDwiu fYvLWA"
+    className="sc-futMm uoved"
     color="krillin.100"
   >
     Krillin
@@ -43,12 +43,12 @@ exports[`Caption renders font weights 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="sc-cbDwiu edInZN"
+    className="sc-futMm fZZUTw"
   >
     Default font-weight is bold
   </span>
   <span
-    className="sc-cbDwiu ksYhnE"
+    className="sc-futMm jlFxiR"
   >
     Font-weight is regular
   </span>
@@ -60,17 +60,17 @@ exports[`Caption renders semantic tags 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="sc-cbDwiu edInZN"
+    className="sc-futMm fZZUTw"
   >
     Span is a default tag
   </span>
   <p
-    className="sc-cbDwiu edInZN"
+    className="sc-futMm fZZUTw"
   >
     Paragraph tag
   </p>
   <label
-    className="sc-cbDwiu edInZN"
+    className="sc-futMm fZZUTw"
   >
     Label tag
   </label>
@@ -82,12 +82,12 @@ exports[`Caption renders sizes 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="sc-cbDwiu edInZN"
+    className="sc-futMm fZZUTw"
   >
     Default font-size is 10px
   </span>
   <span
-    className="sc-cbDwiu jVeFjU"
+    className="sc-futMm fWNbgZ"
     size={9}
   >
     Size is 9px
@@ -100,17 +100,17 @@ exports[`Caption renders text-align 1`] = `
   className="flex justify-around w-full items-center"
 >
   <span
-    className="sc-cbDwiu edInZN"
+    className="sc-futMm fZZUTw"
   >
     Text-align is not specified
   </span>
   <span
-    className="sc-cbDwiu ijCunG"
+    className="sc-futMm gUYHBH"
   >
     Centered text
   </span>
   <span
-    className="sc-cbDwiu gNKDfB"
+    className="sc-futMm cLishA"
   >
     Right alignment
   </span>

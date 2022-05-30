@@ -49,8 +49,17 @@ const TextInputGroup: React.FC<TextInputGroupProps> = ({
   const isXLarge =
     inputProps?.input1?.inputSize === 'xlarge' ||
     inputProps?.input2?.inputSize === 'xlarge';
+  const isError = inputProps?.input1?.isError || inputProps?.input2?.isError;
+  const backgroundColor =
+    inputProps?.input1?.backgroundColor || inputProps?.input2?.backgroundColor;
   return (
-    <Container orientation={orientation} dir={dir} isXLarge={isXLarge}>
+    <Container
+      orientation={orientation}
+      dir={dir}
+      isXLarge={isXLarge}
+      isError={isError}
+      backgroundColor={backgroundColor}
+    >
       {determineInputStart(inputProps?.input1, orientation, isRtl)}
       {determineInputEnd(inputProps?.input2, orientation, isRtl)}
     </Container>

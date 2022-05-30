@@ -1,65 +1,34 @@
-import React from "react";
-import {rem} from "@heathmont/moon-utils";
-import styled from "styled-components";
-import {Size} from "../private/Size";
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
+import SliderProps from '../private/types/SliderProps';
+import setLabelHeight from '../private/utils/setLabelHeight';
+import setLabelWidth from '../private/utils/setLabelWidth';
 
-const getLabelWidth = (size: Size, button?: boolean) => {
-  if (button) {
-    if (size === 'md') {
-      return rem(110);
-    }
-
-    return rem(126);
-  }
-
-  if (size === '2xs') {
-    return rem(32);
-  }
-  if (size === 'xs') {
-    return rem(44);
-  }
-
-  return rem(60);
-};
-const getLabelHeight = (size: Size, button?: boolean) => {
-  if (button) {
-    if (size === 'md') {
-      return rem(40);
-    }
-
-    return rem(48);
-  }
-
-  if (size === '2xs') {
-    return rem(16);
-  }
-  if (size === 'xs') {
-    return rem(24);
-  }
-
-  return rem(32);
-};
-
-const Label = styled.label<{
-  size: Size,
-  switchHeightProperty: string,
-  switchWidthProperty: string,
-  switchHeight: string,
-  switchWidth: string,
-  disabled?: boolean,
-  button?: boolean
-}>(
-  ({ theme: { space, opacity }, size, disabled, button, switchHeight, switchWidth, switchHeightProperty, switchWidthProperty }) => ({
-    [switchWidthProperty]: size ? getLabelWidth(size, button) : rem(space.large * 2),
-    [switchHeightProperty]: size ? getLabelHeight(size, button) : rem(space.large),
+const Label = styled.label<SliderProps>(
+  ({
+    theme: { newTokens },
+    size,
+    disabled,
+    button,
+    switchHeight,
+    switchWidth,
+    switchHeightProperty,
+    switchWidthProperty,
+  }) => ({
+    [switchWidthProperty as string]: size
+      ? setLabelWidth(size, button)
+      : rem(64),
+    [switchHeightProperty as string]: size
+      ? setLabelHeight(size, button)
+      : rem(32),
     cursor: disabled ? 'not-allowed' : 'pointer',
-    opacity: disabled ? opacity.disabled : 1,
+    opacity: disabled ? newTokens.opacity : 1,
     position: 'relative',
     display: 'inline-block',
     width: switchWidth,
     height: switchHeight,
     flexShrink: 0,
   })
-) as React.FC<{}>;
+);
 
 export default Label;

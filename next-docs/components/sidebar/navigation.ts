@@ -11,7 +11,20 @@ const navigation = [
   { name: 'Transform SVG', href: '/transformIcon' },
   { name: 'Manifest', href: '/manifest' },
   {
-    name: 'Components',
+    name: 'Tailwind',
+    children: [
+      { name: 'Accordion', href: '/core/accordion' },
+      { name: 'Button', href: '/core/button' },
+      { name: 'Chip', href: '/core/chip' },
+      { name: 'Checkbox', href: '/core/checkbox' },
+      { name: 'Loader', href: '/core/loader' },
+      { name: 'TextInput', href: '/core/textInput' },
+      { name: 'TextInput Group', href: '/core/textInputGroup' },
+      { name: 'Typography', href: '/core/typography' },
+    ],
+  },
+  {
+    name: 'Styled Components',
     children: [
       { name: 'Accordion', href: '/components/accordion' },
       { name: 'Avatar', href: '/components/avatar' },

@@ -8,6 +8,7 @@ type GoToPageProps = {
   onChange: (page: number) => void;
   minPage?: number;
   maxPage?: number;
+  children?: React.ReactNode;
 };
 
 const CircleButton = styled.button(
@@ -90,7 +91,7 @@ const GoToPage: React.FC<GoToPageProps> = ({
       {children}
       <TextInput value={value} pattern="\d+" onChange={handleChange} />
       <CircleButton type="submit">
-        <ControlsChevronRight fontSize={rem(23)}/>
+        <ControlsChevronRight fontSize={rem(24)} />
       </CircleButton>
     </Form>
   );

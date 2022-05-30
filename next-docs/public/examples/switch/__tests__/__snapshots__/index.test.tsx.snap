@@ -2,7 +2,7 @@
 
 exports[`Switch renders 1`] = `
 <div
-  className="sc-cMOycp cpoNsI"
+  className="sc-iRaSfU dASPpV"
   dir="ltr"
   style={
     Object {
@@ -11,22 +11,21 @@ exports[`Switch renders 1`] = `
   }
 >
   <label
-    className="sc-yGKTs enWIIi"
-    disabled={false}
-    size="sm"
+    className="sc-gqUUDT kiGojW"
+    size="small"
   >
     <input
       checked={true}
-      className="sc-sQjNv cMpzOu"
+      className="sc-llyFOc fNxKzZ"
       id="test-switch-1"
       onChange={[Function]}
-      size="sm"
+      size="small"
       type="checkbox"
     />
     <span
       checked={true}
-      className="sc-imZoBe codXWL"
-      size="sm"
+      className="sc-hoIcGJ dqSQgy"
+      size="small"
     />
   </label>
 </div>
@@ -37,7 +36,7 @@ exports[`Switch renders Buttons 1`] = `
   className="flex gap-20 items-center"
 >
   <div
-    className="sc-cMOycp cpoNsI"
+    className="sc-iRaSfU dASPpV"
     dir="ltr"
     style={
       Object {
@@ -46,33 +45,34 @@ exports[`Switch renders Buttons 1`] = `
     }
   >
     <label
-      className="sc-yGKTs dRNhSw"
-      disabled={false}
-      size="md"
+      className="sc-gqUUDT etilyz"
+      size="medium"
     >
       <input
         checked={true}
-        className="sc-sQjNv cMpzOu"
+        className="sc-llyFOc fNxKzZ"
         id="button-switch-1"
         onChange={[Function]}
-        size="md"
+        size="medium"
         type="checkbox"
       />
       <span
         checked={true}
-        className="sc-imZoBe bIZirg"
-        size="md"
+        className="sc-hoIcGJ fHIkkx"
+        size="medium"
       >
         <span
-          className="sc-kLOYGq iQvQfY"
+          className="sc-dOAxzV boWUFJ"
         >
           <p
-            className="sc-jveewi gpoJqT"
+            className="sc-cQIpJi llFRTU"
+            size={14}
           >
             Off
           </p>
           <p
-            className="sc-jveewi gpoJqT"
+            className="sc-cQIpJi llFRTU"
+            size={14}
           >
             On
           </p>
@@ -81,7 +81,7 @@ exports[`Switch renders Buttons 1`] = `
     </label>
   </div>
   <div
-    className="sc-cMOycp cpoNsI"
+    className="sc-iRaSfU dASPpV"
     dir="ltr"
     style={
       Object {
@@ -90,33 +90,34 @@ exports[`Switch renders Buttons 1`] = `
     }
   >
     <label
-      className="sc-yGKTs wUHpr"
-      disabled={false}
-      size="lg"
+      className="sc-gqUUDT juXimc"
+      size="large"
     >
       <input
         checked={true}
-        className="sc-sQjNv cMpzOu"
+        className="sc-llyFOc fNxKzZ"
         id="button-switch-2"
         onChange={[Function]}
-        size="lg"
+        size="large"
         type="checkbox"
       />
       <span
         checked={true}
-        className="sc-imZoBe bIZirg"
-        size="lg"
+        className="sc-hoIcGJ fHIkkx"
+        size="large"
       >
         <span
-          className="sc-kLOYGq iQvQfY"
+          className="sc-dOAxzV boWUFJ"
         >
           <p
-            className="sc-jveewi gpoJqT"
+            className="sc-cQIpJi llFRTU"
+            size={14}
           >
             Off
           </p>
           <p
-            className="sc-jveewi gpoJqT"
+            className="sc-cQIpJi llFRTU"
+            size={14}
           >
             On
           </p>
@@ -132,7 +133,7 @@ exports[`Switch renders Disabled state 1`] = `
   className="flex gap-20 items-center"
 >
   <div
-    className="sc-cMOycp cpoNsI"
+    className="sc-iRaSfU dASPpV"
     dir="ltr"
     style={
       Object {
@@ -141,27 +142,27 @@ exports[`Switch renders Disabled state 1`] = `
     }
   >
     <label
-      className="sc-yGKTs kTOiXU"
+      className="sc-gqUUDT ePYOFf"
       disabled={true}
-      size="sm"
+      size="small"
     >
       <input
         checked={true}
-        className="sc-sQjNv cMpzOu"
+        className="sc-llyFOc fNxKzZ"
         id="test-switch-disabled-checked"
         onChange={[Function]}
-        size="sm"
+        size="small"
         type="checkbox"
       />
       <span
         checked={true}
-        className="sc-imZoBe codXWL"
-        size="sm"
+        className="sc-hoIcGJ dqSQgy"
+        size="small"
       />
     </label>
   </div>
   <div
-    className="sc-cMOycp cpoNsI"
+    className="sc-iRaSfU dASPpV"
     dir="ltr"
     style={
       Object {
@@ -170,22 +171,22 @@ exports[`Switch renders Disabled state 1`] = `
     }
   >
     <label
-      className="sc-yGKTs kTOiXU"
+      className="sc-gqUUDT ePYOFf"
       disabled={true}
-      size="sm"
+      size="small"
     >
       <input
         checked={false}
-        className="sc-sQjNv cMpzOu"
+        className="sc-llyFOc fNxKzZ"
         id="test-switch-disabled"
         onChange={[Function]}
-        size="sm"
+        size="small"
         type="checkbox"
       />
       <span
         checked={false}
-        className="sc-imZoBe iPejPr"
-        size="sm"
+        className="sc-hoIcGJ kMeKDm"
+        size="small"
       />
     </label>
   </div>
@@ -197,7 +198,7 @@ exports[`Switch renders Theme variant 1`] = `
   className="flex gap-20 items-center"
 >
   <div
-    className="sc-cMOycp cpoNsI"
+    className="sc-iRaSfU dASPpV"
     dir="ltr"
     style={
       Object {
@@ -206,27 +207,26 @@ exports[`Switch renders Theme variant 1`] = `
     }
   >
     <label
-      className="sc-yGKTs dTSkmo"
-      disabled={false}
-      size="2xs"
+      className="sc-gqUUDT jLXksI"
+      size="twoxsmall"
     >
       <input
         checked={true}
-        className="sc-sQjNv jMssVf"
+        className="sc-llyFOc cgfpdg"
         id="test-switch-1"
         onChange={[Function]}
-        size="2xs"
+        size="twoxsmall"
         type="checkbox"
       />
       <span
         checked={true}
-        className="sc-imZoBe fdFkSl"
-        size="2xs"
+        className="sc-hoIcGJ evhhMC"
+        size="twoxsmall"
       />
     </label>
   </div>
   <div
-    className="sc-cMOycp cpoNsI"
+    className="sc-iRaSfU dASPpV"
     dir="ltr"
     style={
       Object {
@@ -235,27 +235,26 @@ exports[`Switch renders Theme variant 1`] = `
     }
   >
     <label
-      className="sc-yGKTs eFKEdn"
-      disabled={false}
-      size="xs"
+      className="sc-gqUUDT fNMaSn"
+      size="xsmall"
     >
       <input
         checked={true}
-        className="sc-sQjNv liUDGr"
+        className="sc-llyFOc gxTERg"
         id="test-switch-2"
         onChange={[Function]}
-        size="xs"
+        size="xsmall"
         type="checkbox"
       />
       <span
         checked={true}
-        className="sc-imZoBe jvSyUs"
-        size="xs"
+        className="sc-hoIcGJ ifgHMZ"
+        size="xsmall"
       />
     </label>
   </div>
   <div
-    className="sc-cMOycp cpoNsI"
+    className="sc-iRaSfU dASPpV"
     dir="ltr"
     style={
       Object {
@@ -264,22 +263,21 @@ exports[`Switch renders Theme variant 1`] = `
     }
   >
     <label
-      className="sc-yGKTs enWIIi"
-      disabled={false}
-      size="sm"
+      className="sc-gqUUDT kiGojW"
+      size="small"
     >
       <input
         checked={true}
-        className="sc-sQjNv liUDGr"
+        className="sc-llyFOc gxTERg"
         id="test-switch-3"
         onChange={[Function]}
-        size="sm"
+        size="small"
         type="checkbox"
       />
       <span
         checked={true}
-        className="sc-imZoBe jvSyUs"
-        size="sm"
+        className="sc-hoIcGJ eNbtLm"
+        size="small"
       />
     </label>
   </div>
@@ -291,7 +289,7 @@ exports[`Switch renders different Sizes 1`] = `
   className="flex gap-20 items-center"
 >
   <div
-    className="sc-cMOycp cpoNsI"
+    className="sc-iRaSfU dASPpV"
     dir="ltr"
     style={
       Object {
@@ -300,27 +298,26 @@ exports[`Switch renders different Sizes 1`] = `
     }
   >
     <label
-      className="sc-yGKTs dTSkmo"
-      disabled={false}
-      size="2xs"
+      className="sc-gqUUDT jLXksI"
+      size="twoxsmall"
     >
       <input
         checked={true}
-        className="sc-sQjNv cnevae"
+        className="sc-llyFOc cuXITZ"
         id="test-switch-1"
         onChange={[Function]}
-        size="2xs"
+        size="twoxsmall"
         type="checkbox"
       />
       <span
         checked={true}
-        className="sc-imZoBe iltJZy"
-        size="2xs"
+        className="sc-hoIcGJ eaBkau"
+        size="twoxsmall"
       />
     </label>
   </div>
   <div
-    className="sc-cMOycp cpoNsI"
+    className="sc-iRaSfU dASPpV"
     dir="ltr"
     style={
       Object {
@@ -329,27 +326,26 @@ exports[`Switch renders different Sizes 1`] = `
     }
   >
     <label
-      className="sc-yGKTs eFKEdn"
-      disabled={false}
-      size="xs"
+      className="sc-gqUUDT fNMaSn"
+      size="xsmall"
     >
       <input
         checked={true}
-        className="sc-sQjNv cMpzOu"
+        className="sc-llyFOc fNxKzZ"
         id="test-switch-2"
         onChange={[Function]}
-        size="xs"
+        size="xsmall"
         type="checkbox"
       />
       <span
         checked={true}
-        className="sc-imZoBe codXWL"
-        size="xs"
+        className="sc-hoIcGJ hAEBst"
+        size="xsmall"
       />
     </label>
   </div>
   <div
-    className="sc-cMOycp cpoNsI"
+    className="sc-iRaSfU dASPpV"
     dir="ltr"
     style={
       Object {
@@ -358,22 +354,21 @@ exports[`Switch renders different Sizes 1`] = `
     }
   >
     <label
-      className="sc-yGKTs enWIIi"
-      disabled={false}
-      size="sm"
+      className="sc-gqUUDT kiGojW"
+      size="small"
     >
       <input
         checked={true}
-        className="sc-sQjNv cMpzOu"
+        className="sc-llyFOc fNxKzZ"
         id="test-switch-3"
         onChange={[Function]}
-        size="sm"
+        size="small"
         type="checkbox"
       />
       <span
         checked={true}
-        className="sc-imZoBe codXWL"
-        size="sm"
+        className="sc-hoIcGJ dqSQgy"
+        size="small"
       />
     </label>
   </div>

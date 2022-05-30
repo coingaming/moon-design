@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import PropsTable from "../../components/PropsTable";
 import SingleLineItem from '../../public/examples/listItem/SingleLineItem';
 import SingleLineItemIcon from '../../public/examples/listItem/SingleLineItemIcon';
 import SingleLineItemSize from '../../public/examples/listItem/SingleLineItemSize';
@@ -32,7 +33,7 @@ export default function PageListItem() {
       </section>
       <section className="mt-8">
         <Preview
-          title="Size (by default: large)"
+          title="Size (by default: medium)"
           preview={<SingleLineItemSize />}
           code={examples ? examples.SingleLineItemSize : 'Loading'}
         />
@@ -55,7 +56,7 @@ export default function PageListItem() {
       </section>
       <section className="mt-8">
         <Preview
-          title="Size (by default: large)"
+          title="Size (by default: medium)"
           preview={<TwoLineItemsSize />}
           code={examples ? examples.TwoLineItemsSize : 'Loading'}
         />
@@ -75,6 +76,61 @@ export default function PageListItem() {
           code={examples ? examples.TwoLineItemsCheckbox : 'Loading'}
         />
       </section>
+
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'subtext',
+            type: 'React.ReactElement',
+            required: false,
+            default: '-',
+            description: 'List item subtext',
+          },
+          {
+            name: 'size',
+            type: 'medium | large',
+            required: false,
+            default: 'medium',
+            description: 'List item size',
+          },
+          {
+            name: 'backgroundColor',
+            type: 'ColorProps',
+            required: false,
+            default: '-',
+            description: 'List item background color',
+          },
+          {
+            name: 'color',
+            type: 'ColorProps',
+            required: false,
+            default: '-',
+            description: 'List item color',
+          },
+          {
+            name: 'elementLeft',
+            type: 'React.ReactElement',
+            required: false,
+            default: '-',
+            description: 'Element on the left',
+          },
+          {
+            name: 'elementRight',
+            type: 'React.ReactElement',
+            required: false,
+            default: '-',
+            description: 'Element on the right',
+          },
+          {
+            name: 'isMeta',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: '-',
+          },
+        ]}
+      />
     </>
   );
 }

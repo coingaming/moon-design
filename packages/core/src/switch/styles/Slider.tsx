@@ -1,31 +1,23 @@
 import React from 'react';
-import {IconMoon, IconSun} from "@heathmont/moon-assets";
-import {inlineSvg, rem} from "@heathmont/moon-utils";
-import rgba from "polished/lib/color/rgba";
-import styled from "styled-components";
-import {Size} from "../private/Size";
+import { IconMoon, IconSun } from '@heathmont/moon-assets';
+import { inlineSvg, rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
+import setIconPosition from '../private/utils/setIconPosition';
+import setIconSize from '../private/utils/setIconSize';
+import setTogglePosition from '../private/utils/setTogglePosition';
+import type SliderProps from '../private/types/SliderProps';
 
-type SliderOptions = {
-  colorScheme?: boolean;
-  checked?: boolean;
-  disabled?: boolean;
-  size?: Size;
-  button?: boolean;
-  isRtl?: boolean;
-  switchHeight?: string;
-  switchWidth?: string;
-};
-
-const Slider = styled.span<SliderOptions>(({
- colorScheme,
- checked,
- size,
- button,
- switchHeight,
- switchWidth,
- isRtl,
- theme: { color, space, transitionDuration, newTokens },
-}) => ({
+const Slider = styled.span<SliderProps>(
+  ({
+    colorScheme,
+    checked,
+    size,
+    button,
+    switchHeight,
+    switchWidth,
+    isRtl,
+    theme: { colorNew, newTokens },
+  }) => ({
     position: 'absolute',
     width: switchWidth,
     height: switchHeight,
@@ -34,50 +26,41 @@ const Slider = styled.span<SliderOptions>(({
     right: 0,
     bottom: 0,
     cursor: 'pointer',
-    backgroundColor: colorScheme && checked ? color.bulma[100] : color.beerus[100],
+    backgroundColor: colorScheme && checked ? colorNew.bulma : colorNew.beerus,
     backgroundImage: colorScheme
-      ? `${inlineSvg(<IconMoon style={{ color: color.trunks[100] }}/>)}, ${inlineSvg(<IconSun />)}`
+      ? `${inlineSvg(
+          <IconMoon style={{ color: colorNew.trunks }} />
+        )}, ${inlineSvg(<IconSun />)}`
       : undefined,
-    backgroundPosition: `left ${
-      size === '2xs' ? rem(space.xsmall) : rem(space.small)
-    } center, right calc(${
-      size === '2xs' ? rem(space.xsmall) : rem(space.small)
-    } * 0.7) center`,
+    backgroundPosition: `left ${setIconPosition(
+      size
+    )} center, right calc(${setIconPosition(size)} * 0.7) center`,
     backgroundRepeat: 'no-repeat',
-    backgroundSize: `calc(${switchHeight} - (${
-      size === '2xs' ? rem(space.xsmall) : rem(space.small)
-    } * 1.4))`,
+    backgroundSize: setIconSize(size),
     borderRadius: button ? rem(12) : `calc(${switchWidth} + ${rem(2)})`,
     transitionProperty: 'background-color',
-    transitionDuration: `${transitionDuration.slow}s`,
+    transitionDuration: newTokens.transition.slow,
     transitionTimingFunction: 'ease',
     '&::before': {
-      '--switch-indicator-size': `calc(${switchHeight} - ${
-        size === '2xs' ? rem(space.xsmall) : rem(space.small)
-      })`,
+      '--switch-indicator-size': `calc(${switchHeight} - ${setIconPosition(
+        size
+      )})`,
       content: '""',
       position: 'absolute',
-      width: button ? `calc(50% - ${rem(space.xsmall)})` : 'var(--switch-indicator-size)',
+      width: button ? `calc(50% - ${rem(4)})` : 'var(--switch-indicator-size)',
       height: 'var(--switch-indicator-size)',
-      left: isRtl ? 'initial' : rem(space.xsmall),
-      right: isRtl ? rem(space.xsmall) : 'initial',
-      bottom: size !== '2xs' ? rem(space.xsmall) :
-        `calc(${rem(space.xsmall)} / 2)`,
-      backgroundColor: color.goten[100],
+      left: isRtl ? 'initial' : setTogglePosition(size),
+      right: isRtl ? setTogglePosition(size) : 'initial',
+      bottom: setTogglePosition(size),
+      backgroundColor: colorNew.goten,
       borderRadius: button ? rem(8) : '50%',
       transition: `all ${newTokens.transition.default}`,
       willChange: 'transform',
-      boxShadow: `0px 6px 6px ${rgba(
-        color.popo[100],
-        0.16
-      )}, 0px 0px 1px ${rgba(
-        color.popo[100],
-        0.4
-      )}`
+      boxShadow: newTokens.boxShadow.small,
     },
     '& > span > p:first-child': {
-      color: checked ? color.goten[100] : color.bulma[100]
-    }
+      color: checked ? colorNew.goten : colorNew.bulma,
+    },
   })
 );
 

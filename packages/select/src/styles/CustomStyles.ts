@@ -15,13 +15,13 @@ const makeBorderRadius = (
   }
   return {
     borderTopLeftRadius:
-      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.large,
+      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.surface.medium,
     borderTopRightRadius:
-      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.large,
+      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.surface.medium,
     borderBottomLeftRadius:
-      isSharpLeftSide || isSharpBottomSide ? 0 : borderRadius.large,
+      isSharpLeftSide || isSharpBottomSide ? 0 : borderRadius.surface.medium,
     borderBottomRightRadius:
-      isSharpRightSide || isSharpBottomSide ? 0 : borderRadius.large,
+      isSharpRightSide || isSharpBottomSide ? 0 : borderRadius.surface.medium,
   };
 };
 
@@ -29,22 +29,33 @@ const makeBorder = (
   state: any,
   border: SharedTheme['newTokens']['border'],
   isSideBorderHidden?: boolean,
-  isTopBottomBorderHidden?: boolean
+  isTopBottomBorderHidden?: boolean,
+  isSharpLeftSide?: boolean,
+  isSharpRightSide?: boolean,
+  isSharpTopSide?: boolean,
+  isSharpBottomSide?: boolean,
+  isError?: boolean
 ) => {
+  const defaultWidth = `-${border.width.default}`;
+  const insetValue = isError ? 4 : 2;
   if (isSideBorderHidden && !state.isFocused) {
+    const rightInset = isSharpLeftSide ? 0 : insetValue;
+    const leftInset = isSharpRightSide ? 0 : insetValue;
     return {
       '&:not(:hover):not(:focus)': {
-        clipPath: `inset(-${border.width.default} ${rem(2)} -${
-          border.width.default
-        } ${rem(2)})`,
+        clipPath: `inset(${defaultWidth} ${rem(
+          rightInset
+        )} ${defaultWidth} ${rem(leftInset)})`,
       },
     };
   } else if (isTopBottomBorderHidden && !state.isFocused) {
+    const bottomInset = isSharpTopSide ? 0 : insetValue;
+    const topInset = isSharpBottomSide ? 0 : insetValue;
     return {
       '&:not(:hover):not(:focus)': {
-        clipPath: `inset(${rem(2)} -${border.width.default} ${rem(2)} -${
-          border.width.default
-        })`,
+        clipPath: `inset(${rem(topInset)} ${defaultWidth} ${rem(
+          bottomInset
+        )} ${defaultWidth})`,
       },
     };
   }
@@ -143,6 +154,7 @@ const CustomStyles: StylesConfig = {
       isSharpBottomSide,
       isSideBorderHidden,
       isTopBottomBorderHidden,
+      isError,
     } = customProps;
 
     return {
@@ -155,7 +167,7 @@ const CustomStyles: StylesConfig = {
         : {}),
       paddingInlineStart: rem(8),
       border: 'none !important',
-      borderRadius: theme.newTokens.borderRadius.large,
+      borderRadius: theme.newTokens.borderRadius.surface.medium,
       boxShadow: customProps.isError
         ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.chiChi[100]}`
         : state.isFocused
@@ -174,7 +186,12 @@ const CustomStyles: StylesConfig = {
         state,
         theme.newTokens.border,
         isSideBorderHidden,
-        isTopBottomBorderHidden
+        isTopBottomBorderHidden,
+        isSharpLeftSide,
+        isSharpRightSide,
+        isSharpTopSide,
+        isSharpBottomSide,
+        isError
       ),
 
       transition:
@@ -189,7 +206,7 @@ const CustomStyles: StylesConfig = {
           ? `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.piccolo}`
           : `inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.hover.primary}, inset 0 0 0 ${theme.newTokens.border.width.interactive} ${theme.colorNew.beerus}`,
         cursor: 'pointer',
-        borderRadius: theme.newTokens.borderRadius.large,
+        borderRadius: theme.newTokens.borderRadius.surface.medium,
       },
     };
   },

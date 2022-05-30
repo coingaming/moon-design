@@ -1,5 +1,71 @@
 # Change Log
 
+## 9.0.4
+
+### Patch Changes
+
+- Auth code fix & icons
+
+## 9.0.3
+
+### Patch Changes
+
+- Onetouch theme
+
+## 9.0.2
+
+### Patch Changes
+
+- Tw accordion
+
+## 9.0.1
+
+### Patch Changes
+
+- Bump corrupted 9.0.0
+
+## 9.0.0
+
+### Major Changes
+
+- React 18
+
+## 8.9.0
+
+### Minor Changes
+
+- TW config, moneyball theme and logo, image opts
+
+## 8.8.0
+
+### Minor Changes
+
+-
+
+## 8.7.2
+
+### Patch Changes
+
+- fix circleci
+
+## 8.7.1
+
+### Patch Changes
+
+- fix build
+
+## 8.7.0
+
+### Minor Changes
+
+-
+
+## 8.6.0
+
+### Minor Changes
+
+- tailwind release
+
 ## 8.5.0
 
 ### Minor Changes

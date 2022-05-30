@@ -1,5 +1,71 @@
 # Change Log
 
+## 9.0.4
+
+### Patch Changes
+
+- Auth code fix & icons
+
+## 9.0.3
+
+### Patch Changes
+
+- Onetouch theme
+
+## 9.0.2
+
+### Patch Changes
+
+- Tw accordion
+
+## 9.0.1
+
+### Patch Changes
+
+- Bump corrupted 9.0.0
+
+## 9.0.0
+
+### Major Changes
+
+- React 18
+
+## 8.9.0
+
+### Minor Changes
+
+- TW config, moneyball theme and logo, image opts
+
+## 8.8.0
+
+### Minor Changes
+
+-
+
+## 8.7.2
+
+### Patch Changes
+
+- fix circleci
+
+## 8.7.1
+
+### Patch Changes
+
+- fix build
+
+## 8.7.0
+
+### Minor Changes
+
+-
+
+## 8.6.0
+
+### Minor Changes
+
+- tailwind release
+
 ## 8.5.0
 
 ### Minor Changes
@@ -442,8 +508,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [6.6.0](https://github.com/coingaming/moon-design/compare/v6.5.0...v6.6.0) (2021-08-17)
 
-# <<<<<<< HEAD
-
 ### Bug Fixes
 
 - border radiuses, update Bitcasino radius token [BASE1-1723](<[21e4d4b](https://github.com/coingaming/moon-design/commit/21e4d4b4f12e4bd534edf398f6efca31ab58a343)>)
@@ -451,8 +515,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## [6.4.7](https://github.com/coingaming/moon-design/compare/v6.4.6...v6.4.7) (2021-08-12)
 
 **Note:** Version bump only for package @heathmont/moon-themes
-
-> > > > > > > develop
 
 ## [6.4.5](https://github.com/coingaming/moon-design/compare/v6.4.4...v6.4.5) (2021-08-10)
 

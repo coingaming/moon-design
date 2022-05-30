@@ -64,7 +64,7 @@ const Filter: React.FC<Props> = ({ forceOpen = false, title, children }) => {
     <Container ref={ref}>
       <Toggle isOpen={isOpen} onClick={() => setIsOpen(!isOpen)}>
         <Title size={14}>{title}</Title>
-        <ControlsChevronDown fontSize={rem(23)}/>
+        <ControlsChevronDown fontSize={rem(24)} />
       </Toggle>
       {isOpen && (
         <DropdownWrapper>

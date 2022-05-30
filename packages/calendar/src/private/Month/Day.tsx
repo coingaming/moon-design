@@ -1,22 +1,21 @@
-import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-export const Day = styled.div(({ theme: { radius } }) => ({
+export const Day = styled.div(({ theme: { newTokens } }) => ({
   display: 'flex',
   position: 'relative',
   boxSizing: 'border-box',
   border: '1px solid transparent',
   '&:nth-child(8)': {
-    borderTopLeftRadius: rem(radius.default),
+    borderTopLeftRadius: newTokens.borderRadius.surface.small,
   },
   '&:nth-child(14)': {
-    borderTopRightRadius: rem(radius.default),
+    borderTopRightRadius: newTokens.borderRadius.surface.small,
   },
   '&:nth-last-child(7)': {
-    borderBottomLeftRadius: rem(radius.default),
+    borderBottomLeftRadius: newTokens.borderRadius.surface.small,
   },
   '&:last-child': {
-    borderBottomRightRadius: rem(radius.default),
+    borderBottomRightRadius: newTokens.borderRadius.surface.small,
   },
   '&::before': {
     content: '""',

@@ -24,7 +24,7 @@ const ListboxListWrapper = styled(ListboxList)({
 const ListboxOptionWrapper = styled(ListboxOption)(
   ({ theme: { colorNew, newTokens } }) => ({
     cursor: 'pointer',
-    borderRadius: newTokens.borderRadius.xsmall,
+    borderRadius: newTokens.borderRadius.surface.xsmall,
     '&:hover': {
       backgroundColor: colorNew.goku,
     },

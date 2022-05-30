@@ -13,7 +13,7 @@ const Example = () => {
           onLabel: 'On',
           offLabel: 'Off',
         }}
-        size="md"
+        size="medium"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)
@@ -25,7 +25,7 @@ const Example = () => {
           onLabel: 'On',
           offLabel: 'Off',
         }}
-        size="lg"
+        size="large"
         checked={state}
         onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
           setState(e.target.checked)

@@ -1,5 +1,5 @@
 import React, { forwardRef, ReactElement, Ref, useEffect, useRef } from 'react';
-import { useTheme } from '@heathmont/moon-themes';
+import { baseFontSize, useTheme } from '@heathmont/moon-themes';
 import mergeRefs from 'react-merge-refs';
 import ReactSelect, {
   Props as ReactSelectProps,
@@ -79,10 +79,12 @@ const Select = <T extends BaseOptionType>(
     const currentRef = menuRef as React.RefObject<HTMLFormElement>;
     menuIsOpen && currentRef?.current?.focus();
   }, [menuIsOpen]);
+  const remToNumber = (value: string): number =>
+    parseFloat(value) * baseFontSize;
   return (
     <ReactSelect
       {...rest}
-      ref={ref ? mergeRefs([menuRef, ref]) : menuRef}
+      ref={ref ? (mergeRefs([menuRef, ref]) as any) : menuRef}
       styles={CustomStyles as StylesConfig<T>}
       isSearchable={isSearchable}
       menuIsOpen={menuIsOpen}
@@ -124,7 +126,9 @@ const Select = <T extends BaseOptionType>(
       }}
       theme={(theme) => ({
         ...theme,
-        borderRadius: moonTheme.radius.default,
+        borderRadius: remToNumber(
+          moonTheme.newTokens.borderRadius.surface.small
+        ),
         colors: {
           ...theme.colors,
           primary25: moonTheme.colorNew.goku as string,

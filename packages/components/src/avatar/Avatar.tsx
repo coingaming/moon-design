@@ -122,7 +122,7 @@ const Avatar: React.FC<AvatarProps> = (props) => {
   return (
     <Container>
       <AvatarWrapper {...props}>
-        {name || <GenericUser fontSize={rem(23)} color={color}/> }
+        {name || <GenericUser fontSize={rem(24)} color={color} />}
       </AvatarWrapper>
       {statusOrigin && <StatusWrapper {...props} />}
     </Container>

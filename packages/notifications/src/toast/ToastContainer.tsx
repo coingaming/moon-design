@@ -11,11 +11,11 @@ const ToastContainer = styled.div<any>(
       left: '50%',
       transform: 'translate(-50%, 0)',
       zIndex: theme.zIndex.dialog,
-      marginBottom: theme.space.default,
+      marginBottom: rem(16),
       minWidth: rem(180),
-      maxWidth: `calc(100vw - ${theme.space.small * 2}px)`,
+      maxWidth: `calc(100vw - ${rem(8)})`,
       [mq(theme.breakpoint.medium)]: {
-        margin: theme.space.default,
+        margin: rem(16),
       },
       [mq(theme.breakpoint.large)]: {
         maxWidth: '30%',
@@ -33,8 +33,8 @@ const ToastContainer = styled.div<any>(
     {
       paddingTop: rem(12),
       paddingBottom: rem(12),
-      paddingLeft: rem(theme.space.default),
-      paddingRight: rem(theme.space.default),
+      paddingLeft: rem(16),
+      paddingRight: rem(16),
       boxShadow:
         '0px 6.4px 14px 0px rgba(0,0,0,0.52), 0px 1.2px 3.6px 0px rgba(0,0,0,0.4)',
       backgroundColor:
@@ -44,7 +44,7 @@ const ToastContainer = styled.div<any>(
       flexDirection: 'row',
       alignItems: 'center',
       '& > * + *': {
-        marginLeft: rem(theme.space.default),
+        marginLeft: rem(16),
       },
     },
   ]

@@ -76,13 +76,6 @@ const moonDesignLight: Theme = {
     ...colorsNew,
     ...supportiveColors,
   },
-  newTokens: {
-    ...sharedTokens.newTokens,
-    borderRadius: {
-      ...sharedTokens.newTokens.borderRadius,
-      interactive: sharedTokens.newTokens.borderRadius.medium,
-    },
-  },
   ...componentsTokens(colorsNew),
   colorScheme: 'light',
 };

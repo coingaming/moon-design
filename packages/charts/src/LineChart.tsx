@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ColorProps, useTheme } from '@heathmont/moon-themes';
-import { themed } from '@heathmont/moon-utils';
+import { rem, themed } from '@heathmont/moon-utils';
 import {
   CartesianGrid,
   Line,
@@ -26,7 +26,7 @@ const ResponsiveContainerCustomized = styled(ResponsiveContainer)(
     '.recharts-cartesian-axis': {
       text: {
         fill: theme.colorNew.trunks,
-        fontSize: theme.newTokens.space.xsmall,
+        fontSize: rem(12),
       },
     },
   })

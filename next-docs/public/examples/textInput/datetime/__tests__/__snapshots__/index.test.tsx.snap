@@ -8,22 +8,24 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp hjSYqF"
+      className="sc-iOnGvX btMRNz"
       disabled={true}
+      placeholder=" "
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         medium
       </label>
       <input
-        className="sc-jSPclO fBRZSW"
+        className="sc-goMRkL JOvHL"
         disabled={true}
         placeholder=" "
         type="datetime-local"
       />
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder
@@ -34,22 +36,24 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp hjSYqF"
+      className="sc-iOnGvX btMRNz"
       disabled={true}
+      placeholder=" "
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         large
       </label>
       <input
-        className="sc-jSPclO hUvnrR"
+        className="sc-goMRkL gsTWKg"
         disabled={true}
         placeholder=" "
         type="datetime-local"
       />
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder
@@ -60,26 +64,28 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp hjSYqF"
+      className="sc-iOnGvX btMRNz"
       disabled={true}
+      placeholder=" "
+      type="datetime-local"
     >
       <div
-        className="sc-jjavrh cacemr"
+        className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-jSPclO cbdmRr"
+          className="sc-goMRkL ubFMP"
           disabled={true}
           placeholder=" "
           type="datetime-local"
         />
         <label
-          className="sc-gbFqDM fiOBHp"
+          className="sc-glUVip fKjLAb"
         >
           xlarge
         </label>
       </div>
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder
@@ -97,20 +103,22 @@ exports[`TextInput: type DateTime renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         medium
       </label>
       <input
-        className="sc-jSPclO hzEpJE"
+        className="sc-goMRkL kDWyPF"
         placeholder="Placeholder"
         type="datetime-local"
       />
       <p
-        className="sc-bKOxAn JIYmc"
+        className="sc-VcoSR jatpWO"
         role="alert"
       >
         Error message
@@ -121,20 +129,22 @@ exports[`TextInput: type DateTime renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         large
       </label>
       <input
-        className="sc-jSPclO iSsDGf"
+        className="sc-goMRkL fWoZBG"
         placeholder="Placeholder"
         type="datetime-local"
       />
       <p
-        className="sc-bKOxAn JIYmc"
+        className="sc-VcoSR jatpWO"
         role="alert"
       >
         Error message
@@ -145,24 +155,26 @@ exports[`TextInput: type DateTime renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <div
-        className="sc-jjavrh cacemr"
+        className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-jSPclO exYPQF"
+          className="sc-goMRkL tiNjh"
           placeholder="Placeholder"
           type="datetime-local"
         />
         <label
-          className="sc-gbFqDM fiOBHp"
+          className="sc-glUVip fKjLAb"
         >
           xlarge
         </label>
       </div>
       <p
-        className="sc-bKOxAn JIYmc"
+        className="sc-VcoSR jatpWO"
         role="alert"
       >
         Error message
@@ -180,21 +192,24 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder=" "
+      readOnly={true}
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         medium
       </label>
       <input
-        className="sc-jSPclO fBRZSW"
+        className="sc-goMRkL JOvHL"
         placeholder=" "
         readOnly={true}
         type="datetime-local"
       />
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder
@@ -205,21 +220,24 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder=" "
+      readOnly={true}
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         large
       </label>
       <input
-        className="sc-jSPclO hUvnrR"
+        className="sc-goMRkL gsTWKg"
         placeholder=" "
         readOnly={true}
         type="datetime-local"
       />
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder
@@ -230,25 +248,28 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder=" "
+      readOnly={true}
+      type="datetime-local"
     >
       <div
-        className="sc-jjavrh cacemr"
+        className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-jSPclO cbdmRr"
+          className="sc-goMRkL ubFMP"
           placeholder=" "
           readOnly={true}
           type="datetime-local"
         />
         <label
-          className="sc-gbFqDM fiOBHp"
+          className="sc-glUVip fKjLAb"
         >
           xlarge
         </label>
       </div>
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder
@@ -266,20 +287,22 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         medium
       </label>
       <input
-        className="sc-jSPclO fBRZSW"
+        className="sc-goMRkL JOvHL"
         placeholder="Placeholder"
         type="datetime-local"
       />
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder
@@ -290,20 +313,22 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         large
       </label>
       <input
-        className="sc-jSPclO hUvnrR"
+        className="sc-goMRkL gsTWKg"
         placeholder="Placeholder"
         type="datetime-local"
       />
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder
@@ -314,24 +339,26 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <div
-        className="sc-jjavrh cacemr"
+        className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-jSPclO cbdmRr"
+          className="sc-goMRkL ubFMP"
           placeholder="Placeholder"
           type="datetime-local"
         />
         <label
-          className="sc-gbFqDM fiOBHp"
+          className="sc-glUVip fKjLAb"
         >
           xlarge
         </label>
       </div>
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder
@@ -349,15 +376,17 @@ exports[`TextInput: type DateTime renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         medium
       </label>
       <input
-        className="sc-jSPclO fBRZSW"
+        className="sc-goMRkL JOvHL"
         placeholder="Placeholder"
         type="datetime-local"
       />
@@ -367,15 +396,17 @@ exports[`TextInput: type DateTime renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         large
       </label>
       <input
-        className="sc-jSPclO hUvnrR"
+        className="sc-goMRkL gsTWKg"
         placeholder="Placeholder"
         type="datetime-local"
       />
@@ -385,18 +416,20 @@ exports[`TextInput: type DateTime renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <div
-        className="sc-jjavrh cacemr"
+        className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-jSPclO cbdmRr"
+          className="sc-goMRkL ubFMP"
           placeholder="Placeholder"
           type="datetime-local"
         />
         <label
-          className="sc-gbFqDM fiOBHp"
+          className="sc-glUVip fKjLAb"
         >
           xlarge
         </label>
@@ -414,16 +447,19 @@ exports[`TextInput: type DateTime renders with label RTL 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      dir="rtl"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
         dir="rtl"
       >
         medium
       </label>
       <input
-        className="sc-jSPclO bPMarI"
+        className="sc-goMRkL kGebBJ"
         dir="rtl"
         placeholder="Placeholder"
         type="datetime-local"
@@ -434,16 +470,19 @@ exports[`TextInput: type DateTime renders with label RTL 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      dir="rtl"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
         dir="rtl"
       >
         large
       </label>
       <input
-        className="sc-jSPclO fTgzmP"
+        className="sc-goMRkL fPjwyq"
         dir="rtl"
         placeholder="Placeholder"
         type="datetime-local"
@@ -454,19 +493,22 @@ exports[`TextInput: type DateTime renders with label RTL 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      dir="rtl"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <div
-        className="sc-jjavrh cacemr"
+        className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-jSPclO ltcKB"
+          className="sc-goMRkL iLBnXt"
           dir="rtl"
           placeholder="Placeholder"
           type="datetime-local"
         />
         <label
-          className="sc-gbFqDM jHsxVm"
+          className="sc-glUVip fQRjhM"
         >
           xlarge
         </label>
@@ -484,10 +526,12 @@ exports[`TextInput: type DateTime renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="medium"
+      type="datetime-local"
     >
       <input
-        className="sc-jSPclO fBRZSW"
+        className="sc-goMRkL JOvHL"
         placeholder="medium"
         type="datetime-local"
       />
@@ -497,10 +541,12 @@ exports[`TextInput: type DateTime renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="large"
+      type="datetime-local"
     >
       <input
-        className="sc-jSPclO hUvnrR"
+        className="sc-goMRkL gsTWKg"
         placeholder="large"
         type="datetime-local"
       />
@@ -510,18 +556,20 @@ exports[`TextInput: type DateTime renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="xlarge"
+      type="datetime-local"
     >
       <div
-        className="sc-jjavrh cacemr"
+        className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-jSPclO ipVsRy"
+          className="sc-goMRkL kGKhoa"
           placeholder="xlarge"
           type="datetime-local"
         />
         <label
-          className="sc-gbFqDM fiOBHp"
+          className="sc-glUVip fKjLAb"
         />
       </div>
     </div>
@@ -537,20 +585,22 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         medium
       </label>
       <input
-        className="sc-jSPclO IYUVx"
+        className="sc-goMRkL hWBUEc"
         placeholder="Placeholder"
         type="datetime-local"
       />
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder
@@ -561,20 +611,22 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
-        className="sc-eEXVIU gehFDh"
+        className="sc-gmSHEY coDCGe"
       >
         large
       </label>
       <input
-        className="sc-jSPclO dfTCla"
+        className="sc-goMRkL gTNnSf"
         placeholder="Placeholder"
         type="datetime-local"
       />
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder
@@ -585,24 +637,26 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-hMtawp icjkgP"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <div
-        className="sc-jjavrh kXEagA"
+        className="sc-jNrqiC hjjcDo"
       >
         <input
-          className="sc-jSPclO cbdmRr"
+          className="sc-goMRkL fBUiNw"
           placeholder="Placeholder"
           type="datetime-local"
         />
         <label
-          className="sc-gbFqDM fiOBHp"
+          className="sc-glUVip fKjLAb"
         >
           xlarge
         </label>
       </div>
       <p
-        className="sc-bKOxAn dpikAc"
+        className="sc-VcoSR dKUTwy"
         role="alert"
       >
         Informative message holder

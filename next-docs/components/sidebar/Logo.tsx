@@ -1,12 +1,17 @@
-import React from "react";
+import React from 'react';
 
-const Logo: React.FC<{ color?: string }> = ({ color = '#23252E' }: { color?: string }) => (
+type Props = {
+  color?: string;
+  height?: number;
+};
+
+const Logo: React.FC<Props> = ({ color = '#23252E', height = 24 }) => (
   <svg
-    width="82"
-    height="19"
+    height={height}
     viewBox="0 0 82 19"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    style={{ width: 'auto' }}
   >
     <path
       d="M4.91177 18.6122H0V0.262673H4.91177V2.66425H4.94927C6.41155 0.900593 8.39876 0 10.4235 0C12.8231 0 14.7353 0.900593 15.8227 2.8894H15.8977C17.3974 0.975642 19.6846 0 22.3092 0C26.2461 0 28.7583 2.36406 28.7583 7.99276V18.6122H23.8465V9.15603C23.8465 6.2291 22.9466 4.39039 20.6594 4.39039C18.5973 4.39039 16.91 6.15405 16.91 9.45623V18.6122H11.9982V9.15603C11.9982 6.2291 11.0234 4.39039 8.7737 4.39039C6.56153 4.39039 4.91177 6.15405 4.91177 9.45623V18.6122Z"
