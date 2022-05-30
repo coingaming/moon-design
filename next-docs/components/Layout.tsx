@@ -18,9 +18,7 @@ const Layout = ({ children }: Props) => {
   const toggleReactAndElixir = () => setIsElixir(!isElixir);
   const { isFeatureElixirEnabled } = useFeatureFlags();
   return (
-    <div
-      className={`support-colors theme-tokens bg-background flex rounded-tl-3xl rounded-tr-3xl`}
-    >
+    <div className="theme-moon-light border-radius support-colors theme-tokens bg-goku flex rounded-tl-3xl rounded-tr-3xl">
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
         <Sidebar />
@@ -31,7 +29,7 @@ const Layout = ({ children }: Props) => {
           <Sidebar />
         </div>
       </div>
-      <div className="min-h-screen bg-gohan flex-1 mx-auto w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl lg:px-16 xl:px-32">
+      <div className="theme-moon-light min-h-screen bg-gohan flex-1 mx-auto w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl lg:px-16 xl:px-32">
         {/* Opens sidebar on mobile */}
         <div className="lg:hidden flex flex-row align-center">
           <button
@@ -74,9 +72,7 @@ const Layout = ({ children }: Props) => {
             />
           )}
           <div className="py-6 px-4 md:px-16 lg:px-0">{children}</div>
-          <div className="mt-auto py-8 px-4 lg:pt-24">
-            <Footer />
-          </div>
+          <Footer />
         </main>
       </div>
     </div>
