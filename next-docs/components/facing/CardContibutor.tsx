@@ -1,59 +1,47 @@
 import React from 'react';
 import { rem } from '@heathmont/moon-utils';
 import Image, { StaticImageData } from 'next/image';
-import classNames from '../../utils/classNames';
 
-interface Props {
-  variant?: 'tiny' | 'tall';
+type Props = {
+  variant?: 'default' | 'tiny' | 'tall';
   title?: string;
   imageSrc: StaticImageData;
   name: string;
-}
+};
 
 const variants = {
   default: {
-    minWidth: rem(368),
-    minHeight: rem(378),
-    maxWidth: rem(368),
-    maxHeight: rem(378),
+    width: rem(368),
+    height: rem(376),
   },
   tiny: {
-    minWidth: rem(275),
-    minHeight: rem(355),
-    maxWidth: rem(275),
-    maxHeight: rem(355),
+    width: rem(272),
+    height: rem(352),
   },
   tall: {
-    minWidth: rem(368),
-    minHeight: rem(460),
-    maxWidth: rem(368),
-    maxHeight: rem(460),
+    width: rem(368),
+    height: rem(460),
   },
 };
+
 const CardContributor: React.FC<Props> = ({
-  variant,
+  variant = 'default',
   name,
   title,
   imageSrc,
 }) => (
-  <div
-    className={classNames(
-      variant === 'tiny' ? 'mt-20' : '',
-      variant === 'tall' ? 'mt-10' : '',
-      'flex flex-col'
-    )}
-  >
+  <div className="flex flex-col">
     <div
       className="relative"
       style={
         variant && variant in variants ? variants[variant] : variants.default
       }
     >
-      <div className="list-item absolute bottom-8 left-full whitespace-nowrap text-white text-2xl transform origin-bottom-left -rotate-90 z-10 font-semibold">
+      <p className="list-item absolute bottom-12 pb-2 left-full whitespace-nowrap text-goten text-moon-24 transform origin-bottom-left -rotate-90 z-10 font-medium">
         {title}
-      </div>
+      </p>
       <Image
-        className="rounded-lg"
+        className="rounded-moon-s-lg"
         alt={name}
         src={imageSrc}
         layout="fill"
@@ -61,7 +49,7 @@ const CardContributor: React.FC<Props> = ({
         quality={100}
       />
     </div>
-    <p className="text-2xl mt-2 font-semibold tracking-tight">{name}</p>
+    <p className="text-moon-24 mt-2 font-medium">{name}</p>
   </div>
 );
 

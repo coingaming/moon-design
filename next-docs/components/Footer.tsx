@@ -2,28 +2,39 @@ import React from 'react';
 import Logo from './sidebar/Logo';
 
 const Footer = () => (
-  <footer className="flex gap-x-16 gap-y-4 flex-wrap items-center">
-    <Logo height={16} />
-    <a
-      className="hover:underline cursor-pointer"
-      href="https://github.com/coingaming/moon-design"
-    >
-      Github
-    </a>
-    <a
-      className="hover:underline cursor-pointer"
-      href="https://www.figma.com/community/file/1002945721703152933"
-    >
-      Figma Community
-    </a>
-    <a
-      className="hover:underline cursor-pointer"
-      href="https://moonds.medium.com/"
-    >
-      Medium
-    </a>
-    {/* <a className="hover:underline cursor-pointer">Medium</a> */}
-    <p className="">With the help of Yolo Group</p>
+  <footer className="flex gap-x-8 gap-y-12 pt-16 flex-wrap items-center text-moon-16 justify-between">
+    <div className="flex gap-x-8 gap-y-12 flex-wrap items-center">
+      <Logo height={16} />
+      <div className="flex gap-x-8 gap-y-12 flex-wrap items-center">
+        <a
+          className="hover:underline cursor-pointer"
+          href="https://github.com/coingaming/moon-design"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
+        <a
+          className="hover:underline cursor-pointer"
+          href="https://www.figma.com/community/file/1002945721703152933"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Figma Community
+        </a>
+        <a
+          className="hover:underline cursor-pointer"
+          href="https://moonds.medium.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Medium
+        </a>
+      </div>
+    </div>
+    <p>
+      With the help of <span className="font-medium">Yolo Group</span>
+    </p>
   </footer>
 );
 
