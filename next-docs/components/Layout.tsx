@@ -72,9 +72,7 @@ const Layout = ({ children }: Props) => {
             />
           )}
           <div className="py-6 px-4 md:px-16 lg:px-0">{children}</div>
-          <div className="mt-auto py-8 px-4 lg:pt-24">
-            <Footer />
-          </div>
+          <Footer />
         </main>
       </div>
     </div>
