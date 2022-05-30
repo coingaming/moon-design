@@ -1,17 +1,13 @@
 import { rem } from '@heathmont/moon-utils';
 import { rgba } from 'polished';
 import styled from 'styled-components';
-import setBorderRadius from '../private/utils/setBorderRadius';
 
 const Box = styled.span(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   color: theme.colorNew.trunks,
-  borderRadius: setBorderRadius(
-    theme.newTokens.borderRadius.interactive,
-    theme.newTokens.borderRadius.xsmall
-  ),
+  borderRadius: theme.newTokens.borderRadius.interactive.xsmall,
   width: rem(24),
   height: rem(24),
   minWidth: rem(24),
@@ -32,10 +28,7 @@ const Box = styled.span(({ theme }) => ({
     left: '50%',
     transform: 'translate(-50%, -50%)',
     boxShadow: `inset 0 0 0 ${rem(1)} ${theme.colorNew.trunks}`,
-    borderRadius: setBorderRadius(
-      theme.newTokens.borderRadius.interactive,
-      theme.newTokens.borderRadius.xsmall
-    ),
+    borderRadius: theme.newTokens.borderRadius.interactive.xsmall,
     backgroundColor: 'transparent',
     transitionProperty: 'border-color',
   },

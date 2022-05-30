@@ -3,9 +3,7 @@ import Logo from './sidebar/Logo';
 
 const Footer = () => (
   <footer className="flex gap-x-16 gap-y-4 flex-wrap items-center">
-    <div className="">
-      <Logo />
-    </div>
+    <Logo height={16} />
     <a
       className="hover:underline cursor-pointer"
       href="https://github.com/coingaming/moon-design"

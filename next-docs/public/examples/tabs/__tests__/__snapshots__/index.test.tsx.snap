@@ -546,7 +546,7 @@ exports[`Tabs renders Variant 1`] = `
           <svg
             className="sc-dvwKko"
             fill="none"
-            fontSize="1.4375rem"
+            fontSize="1.5rem"
             height="1em"
             viewBox="0 0 32 32"
             width="1em"
@@ -575,7 +575,7 @@ exports[`Tabs renders Variant 1`] = `
           <svg
             className="sc-dvwKko"
             fill="none"
-            fontSize="1.4375rem"
+            fontSize="1.5rem"
             height="1em"
             viewBox="0 0 32 32"
             width="1em"

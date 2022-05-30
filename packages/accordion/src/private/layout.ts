@@ -6,7 +6,7 @@ export const AccordionWrapper = styled.div(
     width: '100%',
     padding: rem(16),
     background: colorNew.gohan,
-    borderRadius: newTokens.borderRadius.medium,
+    borderRadius: newTokens.borderRadius.surface.small,
     color: colorNew.bulma,
   })
 );
@@ -37,10 +37,10 @@ export const AccordionHeader = styled.div<{ disabled?: boolean }>(
 );
 
 export const AccordionToggle = styled.button(
-  ({ theme: { colorNew, newTokens }, disabled }) => ({
-    padding: newTokens.space.twoxsmall,
+  ({ theme: { colorNew }, disabled }) => ({
+    padding: rem(8),
     verticalAlign: 'middle',
-    fontSize: newTokens.space.twoxsmall,
+    fontSize: rem(8),
     lineHeight: 0,
     textDecoration: 'none',
     cursor: disabled ? 'not-allowed' : 'pointer',

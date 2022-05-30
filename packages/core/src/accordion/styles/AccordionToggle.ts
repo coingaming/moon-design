@@ -1,3 +1,4 @@
+import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
 type Props = {
@@ -5,9 +6,9 @@ type Props = {
 };
 
 const AccordionToggle = styled.button<Props>(
-  ({ theme: { colorNew, newTokens }, disabled }) => ({
+  ({ theme: { colorNew }, disabled }) => ({
     verticalAlign: 'middle',
-    fontSize: newTokens.space.twoxsmall,
+    fontSize: rem(8),
     lineHeight: 0,
     textDecoration: 'none',
     cursor: disabled ? 'not-allowed' : 'pointer',

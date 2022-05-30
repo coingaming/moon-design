@@ -2,12 +2,12 @@
 
 exports[`Accordion New collapses 1`] = `
 <div
-  className="sc-hGtivm AvMLL"
-  size="xlarge"
+  className="sc-hGtivm nkiAl"
+  size="medium"
 >
   <div
-    className="sc-eQNgno cRVCID"
-    size="xlarge"
+    className="sc-eQNgno bfHSHl"
+    size="medium"
   >
     <h3
       className="sc-iNFqmR kVJHPw"
@@ -40,11 +40,11 @@ exports[`Accordion New collapses 1`] = `
   </div>
   <div
     className="sc-iyOMks BmCNo"
-    size="xlarge"
+    size="medium"
   >
     <div
-      className="sc-coCPJf fQQOZL"
-      size="xlarge"
+      className="sc-coCPJf fIBDbx"
+      size="medium"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -56,12 +56,12 @@ exports[`Accordion New collapses 1`] = `
 
 exports[`Accordion New expands 1`] = `
 <div
-  className="sc-hGtivm AvMLL"
-  size="xlarge"
+  className="sc-hGtivm nkiAl"
+  size="medium"
 >
   <div
-    className="sc-eQNgno cRVCID"
-    size="xlarge"
+    className="sc-eQNgno bfHSHl"
+    size="medium"
   >
     <h3
       className="sc-iNFqmR kVJHPw"
@@ -93,12 +93,12 @@ exports[`Accordion New expands 1`] = `
     </button>
   </div>
   <div
-    className="sc-iyOMks hUskRj"
-    size="xlarge"
+    className="sc-iyOMks jIdGJJ"
+    size="medium"
   >
     <div
-      className="sc-coCPJf fQQOZL"
-      size="xlarge"
+      className="sc-coCPJf fIBDbx"
+      size="medium"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -110,12 +110,12 @@ exports[`Accordion New expands 1`] = `
 
 exports[`Accordion New renders 1`] = `
 <div
-  className="sc-hGtivm AvMLL"
-  size="xlarge"
+  className="sc-hGtivm nkiAl"
+  size="medium"
 >
   <div
-    className="sc-eQNgno cRVCID"
-    size="xlarge"
+    className="sc-eQNgno bfHSHl"
+    size="medium"
   >
     <h3
       className="sc-iNFqmR kVJHPw"
@@ -148,11 +148,11 @@ exports[`Accordion New renders 1`] = `
   </div>
   <div
     className="sc-iyOMks BmCNo"
-    size="xlarge"
+    size="medium"
   >
     <div
-      className="sc-coCPJf fQQOZL"
-      size="xlarge"
+      className="sc-coCPJf fIBDbx"
+      size="medium"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -167,12 +167,12 @@ exports[`Accordion New renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="sc-hGtivm AvMLL"
-    size="xlarge"
+    className="sc-hGtivm nkiAl"
+    size="medium"
   >
     <div
-      className="sc-eQNgno cRVCID"
-      size="xlarge"
+      className="sc-eQNgno bfHSHl"
+      size="medium"
     >
       <h3
         className="sc-iNFqmR kVJHPw"
@@ -205,11 +205,11 @@ exports[`Accordion New renders RTL 1`] = `
     </div>
     <div
       className="sc-iyOMks BmCNo"
-      size="xlarge"
+      size="medium"
     >
       <div
-        className="sc-coCPJf fQQOZL"
-        size="xlarge"
+        className="sc-coCPJf fIBDbx"
+        size="medium"
       >
         <div>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -223,11 +223,11 @@ exports[`Accordion New renders RTL 1`] = `
 exports[`Accordion New renders content outside 1`] = `
 <div
   className="sc-hGtivm VBeCh"
-  size="xlarge"
+  size="medium"
 >
   <div
-    className="sc-eQNgno hKWjNH"
-    size="xlarge"
+    className="sc-eQNgno fwa-Dvi"
+    size="medium"
   >
     <h3
       className="sc-iNFqmR kVJHPw"
@@ -260,11 +260,11 @@ exports[`Accordion New renders content outside 1`] = `
   </div>
   <div
     className="sc-iyOMks BmCNo"
-    size="xlarge"
+    size="medium"
   >
     <div
-      className="sc-coCPJf fQQOZL"
-      size="xlarge"
+      className="sc-coCPJf fIBDbx"
+      size="medium"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -276,12 +276,12 @@ exports[`Accordion New renders content outside 1`] = `
 
 exports[`Accordion New renders disable open 1`] = `
 <div
-  className="sc-hGtivm AvMLL"
-  size="xlarge"
+  className="sc-hGtivm nkiAl"
+  size="medium"
 >
   <div
-    className="sc-eQNgno cRVCID"
-    size="xlarge"
+    className="sc-eQNgno bfHSHl"
+    size="medium"
   >
     <h3
       className="sc-iNFqmR kVJHPw"
@@ -315,11 +315,11 @@ exports[`Accordion New renders disable open 1`] = `
   </div>
   <div
     className="sc-iyOMks BmCNo"
-    size="xlarge"
+    size="medium"
   >
     <div
-      className="sc-coCPJf fQQOZL"
-      size="xlarge"
+      className="sc-coCPJf fIBDbx"
+      size="medium"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -331,12 +331,12 @@ exports[`Accordion New renders disable open 1`] = `
 
 exports[`Accordion New renders header content 1`] = `
 <div
-  className="sc-hGtivm AvMLL"
-  size="xlarge"
+  className="sc-hGtivm nkiAl"
+  size="medium"
 >
   <div
-    className="sc-eQNgno cRVCID"
-    size="xlarge"
+    className="sc-eQNgno bfHSHl"
+    size="medium"
   >
     <h3
       className="sc-iNFqmR kVJHPw"
@@ -431,11 +431,11 @@ exports[`Accordion New renders header content 1`] = `
   </div>
   <div
     className="sc-iyOMks BmCNo"
-    size="xlarge"
+    size="medium"
   >
     <div
-      className="sc-coCPJf fQQOZL"
-      size="xlarge"
+      className="sc-coCPJf fIBDbx"
+      size="medium"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -447,12 +447,12 @@ exports[`Accordion New renders header content 1`] = `
 
 exports[`Accordion New renders open by default 1`] = `
 <div
-  className="sc-hGtivm AvMLL"
-  size="xlarge"
+  className="sc-hGtivm nkiAl"
+  size="medium"
 >
   <div
-    className="sc-eQNgno cRVCID"
-    size="xlarge"
+    className="sc-eQNgno bfHSHl"
+    size="medium"
   >
     <h3
       className="sc-iNFqmR kVJHPw"
@@ -484,12 +484,12 @@ exports[`Accordion New renders open by default 1`] = `
     </button>
   </div>
   <div
-    className="sc-iyOMks hUskRj"
-    size="xlarge"
+    className="sc-iyOMks jIdGJJ"
+    size="medium"
   >
     <div
-      className="sc-coCPJf fQQOZL"
-      size="xlarge"
+      className="sc-coCPJf fIBDbx"
+      size="medium"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -923,12 +923,12 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
 
 exports[`Accordion New renders without button 1`] = `
 <div
-  className="sc-hGtivm AvMLL"
-  size="xlarge"
+  className="sc-hGtivm nkiAl"
+  size="medium"
 >
   <div
-    className="sc-eQNgno cRVCID"
-    size="xlarge"
+    className="sc-eQNgno bfHSHl"
+    size="medium"
   >
     <h3
       className="sc-iNFqmR kVJHPw"
@@ -939,11 +939,11 @@ exports[`Accordion New renders without button 1`] = `
   </div>
   <div
     className="sc-iyOMks BmCNo"
-    size="xlarge"
+    size="medium"
   >
     <div
-      className="sc-coCPJf fQQOZL"
-      size="xlarge"
+      className="sc-coCPJf fIBDbx"
+      size="medium"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

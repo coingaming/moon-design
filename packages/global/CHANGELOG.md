@@ -1,5 +1,14 @@
 # Change Log
 
+## 9.0.4
+
+### Patch Changes
+
+- Auth code fix & icons
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.0.4
+  - @heathmont/moon-utils@9.0.4
+
 ## 9.0.3
 
 ### Patch Changes

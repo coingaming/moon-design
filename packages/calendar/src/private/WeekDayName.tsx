@@ -1,7 +1,7 @@
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-export const WeekDayName = styled.div(({ theme: { space } }) => ({
+export const WeekDayName = styled.div({
   textAlign: 'center',
-  padding: rem(space.xsmall),
-}));
+  padding: rem(4),
+});

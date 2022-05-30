@@ -11,7 +11,7 @@ const SelectorContainer = styled.div<{ isRtl?: boolean }>(
       top: 0,
       right: 0,
       backgroundColor: colorNew.gohan,
-      borderRadius: newTokens.borderRadius.large,
+      borderRadius: newTokens.borderRadius.surface.medium,
       boxShadow: newTokens.boxShadow.large,
       padding: `${rem(6)} ${rem(8)}`,
     },

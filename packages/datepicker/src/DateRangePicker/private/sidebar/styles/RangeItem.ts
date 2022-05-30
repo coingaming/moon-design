@@ -24,7 +24,7 @@ const RangeItem = styled.li<RangeItemProps>(
     lineHeight: rem(24),
     color: isSelected ? colorNew.piccolo : colorNew.bulma,
     background: isSelected && hover.secondary,
-    borderRadius: borderRadius.medium,
+    borderRadius: borderRadius.surface.small,
     '&:hover': {
       color: colorNew.piccolo,
       backgroundColor: hover.secondary,

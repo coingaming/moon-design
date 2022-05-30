@@ -17,7 +17,8 @@ exports[`Radiobutton API renders 1`] = `
       id="age1"
     >
       <div
-        className="sc-bgnbwU foWEdT"
+        className="sc-bgnbwU fcYrAt"
+        size="medium"
       >
         <div
           className="sc-fJoEar iflOSw"
@@ -38,7 +39,7 @@ exports[`Radiobutton API renders 1`] = `
             className="sc-gyKfoT iPDinH"
           >
             <div
-              className="sc-jmQrGM dANUOZ"
+              className="sc-jmQrGM rMKPF"
             />
           </span>
         </span>
@@ -53,7 +54,8 @@ exports[`Radiobutton API renders 1`] = `
       id="age2"
     >
       <div
-        className="sc-bgnbwU foWEdT"
+        className="sc-bgnbwU fcYrAt"
+        size="medium"
       >
         <div
           className="sc-fJoEar iflOSw"
@@ -74,7 +76,7 @@ exports[`Radiobutton API renders 1`] = `
             className="sc-gyKfoT iPDinH"
           >
             <div
-              className="sc-jmQrGM dANUOZ"
+              className="sc-jmQrGM rMKPF"
             />
           </span>
         </span>
@@ -89,7 +91,8 @@ exports[`Radiobutton API renders 1`] = `
       id="age3"
     >
       <div
-        className="sc-bgnbwU foWEdT"
+        className="sc-bgnbwU fcYrAt"
+        size="medium"
       >
         <div
           className="sc-fJoEar iflOSw"
@@ -110,7 +113,7 @@ exports[`Radiobutton API renders 1`] = `
             className="sc-gyKfoT iPDinH"
           >
             <div
-              className="sc-jmQrGM dANUOZ"
+              className="sc-jmQrGM rMKPF"
             />
           </span>
         </span>

@@ -36,7 +36,7 @@ const Example = () => {
         code={examples ? examples.IconsTW : 'Loading'}
       />
     </section>
-
+      
     <section className="mt-8">
       <Preview
         title="Is Stroke"

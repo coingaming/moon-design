@@ -4,7 +4,7 @@ import errorAnimation from '../private/buttonAnimations/errorAnimation';
 import buttonSizes from '../private/buttonSizes/buttonSizes';
 import buttonCommonStyles from '../private/buttonStyles/buttonCommonStyles';
 import buttonVariants from '../private/buttonStyles/buttonVariants';
-import type { ButtonProps } from '../Button';
+import type ButtonProps from '../private/types/ButtonProps';
 
 const ButtonComponent: React.FC<ButtonProps> = ({
   variant,

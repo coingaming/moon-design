@@ -4,8 +4,8 @@ import styled from 'styled-components';
 const Container = styled.div(({ theme }) => ({
   boxSizing: 'border-box',
   border: `2px ${theme.colorNew.chiChi} solid`,
-  borderRadius: theme.newTokens.borderRadius.full,
-  padding: theme.newTokens.space.twoxsmall,
+  borderRadius: rem(9999),
+  padding: rem(8),
   width: rem(40),
   height: rem(40),
   display: 'flex',

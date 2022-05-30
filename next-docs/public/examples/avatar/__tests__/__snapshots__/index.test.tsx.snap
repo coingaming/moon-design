@@ -8,7 +8,7 @@ exports[`Avatar renders different Colours 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe dKsoJL"
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -32,7 +32,7 @@ exports[`Avatar renders different Colours 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe bSeLxi"
+      className="sc-iaUDOe iCHKHq"
       color="goten.100"
       size="medium"
     >
@@ -56,7 +56,7 @@ exports[`Avatar renders different Colours 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe cPaxHU"
+      className="sc-iaUDOe eSvOYQ"
       color="goten.100"
       size="medium"
     >
@@ -90,7 +90,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe hHppol"
+        className="sc-iaUDOe TRxAj"
         color="bulma.100"
         size="xsmall"
       >
@@ -114,7 +114,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe lcQTSI"
+        className="sc-iaUDOe bkqidM"
         color="bulma.100"
         size="small"
       >
@@ -138,7 +138,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe dKsoJL"
+        className="sc-iaUDOe eKNlKH"
         color="bulma.100"
         size="medium"
       >
@@ -162,7 +162,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe fcdpy"
+        className="sc-iaUDOe FHGpi"
         color="bulma.100"
         size="large"
       >
@@ -186,7 +186,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe iDwRie"
+        className="sc-iaUDOe wWZLG"
         color="bulma.100"
         size="xlarge"
       >
@@ -210,7 +210,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe jDBNSL"
+        className="sc-iaUDOe icgOFM"
         color="bulma.100"
         size="twoxlarge"
       >
@@ -238,7 +238,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe hHppol"
+        className="sc-iaUDOe TRxAj"
         color="bulma.100"
         size="xsmall"
       >
@@ -249,7 +249,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe lcQTSI"
+        className="sc-iaUDOe bkqidM"
         color="bulma.100"
         size="small"
       >
@@ -260,7 +260,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe dKsoJL"
+        className="sc-iaUDOe eKNlKH"
         color="bulma.100"
         size="medium"
       >
@@ -271,7 +271,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe fcdpy"
+        className="sc-iaUDOe FHGpi"
         color="bulma.100"
         size="large"
       >
@@ -282,7 +282,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe iDwRie"
+        className="sc-iaUDOe wWZLG"
         color="bulma.100"
         size="xlarge"
       >
@@ -293,7 +293,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe jDBNSL"
+        className="sc-iaUDOe icgOFM"
         color="bulma.100"
         size="twoxlarge"
       >
@@ -308,7 +308,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe igTQfx"
+        className="sc-iaUDOe glGBrf"
         color="bulma.100"
         size="xsmall"
       />
@@ -317,7 +317,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe lbsGrw"
+        className="sc-iaUDOe bdPuik"
         color="bulma.100"
         size="small"
       />
@@ -326,7 +326,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe iqJpHL"
+        className="sc-iaUDOe jGHhqz"
         color="bulma.100"
         size="medium"
       />
@@ -335,7 +335,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe hzWQgK"
+        className="sc-iaUDOe CWntq"
         color="bulma.100"
         size="large"
       />
@@ -344,7 +344,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe fprYLy"
+        className="sc-iaUDOe JpaFW"
         color="bulma.100"
         size="xlarge"
       />
@@ -353,7 +353,7 @@ exports[`Avatar renders different Sizes 1`] = `
       className="sc-jaIaHg iEKmFp"
     >
       <div
-        className="sc-iaUDOe HmUlr"
+        className="sc-iaUDOe ebpCoc"
         color="bulma.100"
         size="twoxlarge"
       />
@@ -370,7 +370,7 @@ exports[`Avatar renders different Variants 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe dKsoJL"
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -394,7 +394,7 @@ exports[`Avatar renders different Variants 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe dKsoJL"
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -405,7 +405,7 @@ exports[`Avatar renders different Variants 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe iqJpHL"
+      className="sc-iaUDOe jGHhqz"
       color="bulma.100"
       size="medium"
     />
@@ -421,7 +421,7 @@ exports[`Avatar supports different status origins 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe dKsoJL"
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -449,7 +449,7 @@ exports[`Avatar supports different status origins 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe dKsoJL"
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -477,7 +477,7 @@ exports[`Avatar supports different status origins 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe dKsoJL"
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -505,7 +505,7 @@ exports[`Avatar supports different status origins 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe dKsoJL"
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -540,7 +540,7 @@ exports[`Avatar supports different statuses 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe dKsoJL"
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -564,7 +564,7 @@ exports[`Avatar supports different statuses 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe dKsoJL"
+      className="sc-iaUDOe eKNlKH"
       color="bulma.100"
       size="medium"
     >
@@ -592,7 +592,7 @@ exports[`Avatar supports different statuses 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe iqJpHL"
+      className="sc-iaUDOe jGHhqz"
       color="bulma.100"
       size="medium"
     />
@@ -601,7 +601,7 @@ exports[`Avatar supports different statuses 1`] = `
     className="sc-jaIaHg iEKmFp"
   >
     <div
-      className="sc-iaUDOe iqJpHL"
+      className="sc-iaUDOe jGHhqz"
       color="bulma.100"
       size="medium"
     />

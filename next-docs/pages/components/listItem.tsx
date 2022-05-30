@@ -33,7 +33,7 @@ export default function PageListItem() {
       </section>
       <section className="mt-8">
         <Preview
-          title="Size (by default: large)"
+          title="Size (by default: medium)"
           preview={<SingleLineItemSize />}
           code={examples ? examples.SingleLineItemSize : 'Loading'}
         />
@@ -56,7 +56,7 @@ export default function PageListItem() {
       </section>
       <section className="mt-8">
         <Preview
-          title="Size (by default: large)"
+          title="Size (by default: medium)"
           preview={<TwoLineItemsSize />}
           code={examples ? examples.TwoLineItemsSize : 'Loading'}
         />
@@ -91,7 +91,7 @@ export default function PageListItem() {
             name: 'size',
             type: 'medium | large',
             required: false,
-            default: '-',
+            default: 'medium',
             description: 'List item size',
           },
           {

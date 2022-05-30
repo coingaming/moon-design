@@ -81,13 +81,6 @@ const bitcasinoDark: Theme = {
     ...colorNew,
     ...supportiveColors,
   },
-  newTokens: {
-    ...sharedTokens.newTokens,
-    borderRadius: {
-      ...sharedTokens.newTokens.borderRadius,
-      interactive: sharedTokens.newTokens.borderRadius.medium,
-    },
-  },
   ...componentsTokens(colorNew),
   colorScheme: 'dark',
 };

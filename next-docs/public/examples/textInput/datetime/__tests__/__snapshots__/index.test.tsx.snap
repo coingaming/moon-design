@@ -8,8 +8,10 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
       disabled={true}
+      placeholder=" "
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -34,8 +36,10 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
       disabled={true}
+      placeholder=" "
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -60,14 +64,16 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX dATUnL"
+      className="sc-iOnGvX btMRNz"
       disabled={true}
+      placeholder=" "
+      type="datetime-local"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL crpHmu"
+          className="sc-goMRkL ubFMP"
           disabled={true}
           placeholder=" "
           type="datetime-local"
@@ -97,7 +103,9 @@ exports[`TextInput: type DateTime renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -121,7 +129,9 @@ exports[`TextInput: type DateTime renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -145,13 +155,15 @@ exports[`TextInput: type DateTime renders error 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL cHypwM"
+          className="sc-goMRkL tiNjh"
           placeholder="Placeholder"
           type="datetime-local"
         />
@@ -180,7 +192,10 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder=" "
+      readOnly={true}
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -205,7 +220,10 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder=" "
+      readOnly={true}
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -230,13 +248,16 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder=" "
+      readOnly={true}
+      type="datetime-local"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL crpHmu"
+          className="sc-goMRkL ubFMP"
           placeholder=" "
           readOnly={true}
           type="datetime-local"
@@ -266,7 +287,9 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -290,7 +313,9 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -314,13 +339,15 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL crpHmu"
+          className="sc-goMRkL ubFMP"
           placeholder="Placeholder"
           type="datetime-local"
         />
@@ -349,7 +376,9 @@ exports[`TextInput: type DateTime renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -367,7 +396,9 @@ exports[`TextInput: type DateTime renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -385,13 +416,15 @@ exports[`TextInput: type DateTime renders with label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL crpHmu"
+          className="sc-goMRkL ubFMP"
           placeholder="Placeholder"
           type="datetime-local"
         />
@@ -414,7 +447,10 @@ exports[`TextInput: type DateTime renders with label RTL 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      dir="rtl"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -434,7 +470,10 @@ exports[`TextInput: type DateTime renders with label RTL 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      dir="rtl"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -454,13 +493,16 @@ exports[`TextInput: type DateTime renders with label RTL 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      dir="rtl"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL edoSQk"
+          className="sc-goMRkL iLBnXt"
           dir="rtl"
           placeholder="Placeholder"
           type="datetime-local"
@@ -484,7 +526,9 @@ exports[`TextInput: type DateTime renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="medium"
+      type="datetime-local"
     >
       <input
         className="sc-goMRkL JOvHL"
@@ -497,7 +541,9 @@ exports[`TextInput: type DateTime renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="large"
+      type="datetime-local"
     >
       <input
         className="sc-goMRkL gsTWKg"
@@ -510,13 +556,15 @@ exports[`TextInput: type DateTime renders without label 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="xlarge"
+      type="datetime-local"
     >
       <div
         className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL dVjUZr"
+          className="sc-goMRkL kGKhoa"
           placeholder="xlarge"
           type="datetime-local"
         />
@@ -537,7 +585,9 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -561,7 +611,9 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <label
         className="sc-gmSHEY coDCGe"
@@ -585,13 +637,15 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
     className="m-4 w-52"
   >
     <div
-      className="sc-iOnGvX kRgGLt"
+      className="sc-iOnGvX dtoFCR"
+      placeholder="Placeholder"
+      type="datetime-local"
     >
       <div
         className="sc-jNrqiC hjjcDo"
       >
         <input
-          className="sc-goMRkL crpHmu"
+          className="sc-goMRkL fBUiNw"
           placeholder="Placeholder"
           type="datetime-local"
         />

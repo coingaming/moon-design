@@ -1,15 +1,18 @@
+import { ReactElement } from 'react';
 import { SharedTheme, ColorProps } from '@heathmont/moon-themes';
-
 import { rem, inlineSvg, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 import Size from '../../private/enums/Size';
+import makeBorderRadius from './makeBorderRadius';
 import TextInputSizeType from './types/SizeTypes';
+
+type InlineSVGProps = ReactElement<string>;
 
 type InputProps = {
   inputSize: TextInputSizeType | string;
   withIcon?: boolean;
   error?: boolean;
-  icon?: string;
+  icon?: InlineSVGProps;
   iconColor?: string;
   type?: string;
   bgColor?: ColorProps;
@@ -24,44 +27,36 @@ type InputProps = {
   isSideBorderHidden?: boolean;
 };
 
-const makeBorderRadius = (
-  borderRadius: SharedTheme['newTokens']['borderRadius'],
-  isSharpLeftSide?: boolean,
-  isSharpRightSide?: boolean,
-  isSharpTopSide?: boolean,
-  isSharpBottomSide?: boolean
-) => {
-  return {
-    borderTopLeftRadius:
-      isSharpLeftSide || isSharpTopSide ? 0 : borderRadius.large,
-    borderTopRightRadius:
-      isSharpRightSide || isSharpTopSide ? 0 : borderRadius.large,
-    borderBottomLeftRadius:
-      isSharpLeftSide || isSharpBottomSide ? 0 : borderRadius.large,
-    borderBottomRightRadius:
-      isSharpRightSide || isSharpBottomSide ? 0 : borderRadius.large,
-  };
-};
-
 const makeBorder = (
   border: SharedTheme['newTokens']['border'],
   isSideBorderHidden?: boolean,
-  isTopBottomBorderHidden?: boolean
+  isTopBottomBorderHidden?: boolean,
+  isSharpLeftSide?: boolean,
+  isSharpRightSide?: boolean,
+  isSharpTopSide?: boolean,
+  isSharpBottomSide?: boolean,
+  isError?: boolean
 ) => {
+  const defaultWidth = `-${border.width.default}`;
+  const insetValue = isError ? 4 : 2;
   if (isSideBorderHidden) {
+    const rightInset = isSharpLeftSide ? 0 : insetValue;
+    const leftInset = isSharpRightSide ? 0 : insetValue;
     return {
       '&:not(:hover):not(:focus)': {
-        clipPath: `inset(-${border.width.default} ${rem(2)} -${
-          border.width.default
-        } ${rem(2)})`,
+        clipPath: `inset(${defaultWidth} ${rem(
+          rightInset
+        )} ${defaultWidth} ${rem(leftInset)})`,
       },
     };
   } else if (isTopBottomBorderHidden) {
+    const bottomInset = isSharpTopSide ? 0 : insetValue;
+    const topInset = isSharpBottomSide ? 0 : insetValue;
     return {
       '&:not(:hover):not(:focus)': {
-        clipPath: `inset(${rem(2)} -${border.width.default} ${rem(2)} -${
-          border.width.default
-        })`,
+        clipPath: `inset(${rem(topInset)} ${defaultWidth} ${rem(
+          bottomInset
+        )} ${defaultWidth})`,
       },
     };
   }
@@ -76,7 +71,7 @@ const Input = styled.input.attrs(({ type }) => ({
     theme: {
       colorNew,
       hover,
-      newTokens: { borderRadius, space, border, transition },
+      newTokens: { borderRadius, border, transition },
     },
     inputSize,
     error,
@@ -119,7 +114,16 @@ const Input = styled.input.attrs(({ type }) => ({
         isSharpTopSide,
         isSharpBottomSide
       ),
-      ...makeBorder(border, isSideBorderHidden, isTopBottomBorderHidden),
+      ...makeBorder(
+        border,
+        isSideBorderHidden,
+        isTopBottomBorderHidden,
+        isSharpLeftSide,
+        isSharpRightSide,
+        isSharpTopSide,
+        isSharpBottomSide,
+        error
+      ),
       transition: `box-shadow ${transition.default}`,
       WebkitAppearance: 'none',
       boxSizing: 'border-box',
@@ -138,11 +142,11 @@ const Input = styled.input.attrs(({ type }) => ({
         } inset, 0 0 0 ${border.width.interactive} ${
           !error ? colorNew.beerus : colorNew.chiChi[100]
         } inset`,
-        borderRadius: borderRadius.large,
+        borderRadius: borderRadius.interactive.medium,
       },
       '&:focus:not([readonly])': {
         outline: 'none',
-        borderRadius: borderRadius.large,
+        borderRadius: borderRadius.interactive.medium,
         boxShadow: `0 0 0 ${border.width.interactive} ${
           !error ? colorNew.piccolo : colorNew.chiChi[100]
         } inset`,
@@ -236,7 +240,7 @@ const Input = styled.input.attrs(({ type }) => ({
         },
       },
     icon && {
-      paddingInlineEnd: space.large,
+      paddingInlineEnd: rem(32),
       backgroundImage: inlineSvg(icon),
       backgroundPosition: isRtl
         ? `left ${rem(4)} center`

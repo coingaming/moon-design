@@ -13,7 +13,7 @@ exports[`Table Chart renders Active 1`] = `
     }
   >
     <div
-      className="sc-gA-DJDv dprqmS"
+      className="sc-gA-DJDv KzKay"
     >
       <button
         className="sc-cuQNSp dkCiBY"
@@ -41,7 +41,7 @@ exports[`Table Chart renders Active 1`] = `
         <svg
           className="sc-gUAEMC"
           fill="none"
-          fontSize="1.375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -62,7 +62,7 @@ exports[`Table Chart renders Active 1`] = `
         <svg
           className="sc-jfmDQi"
           fill="none"
-          fontSize="1.375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -176,7 +176,7 @@ exports[`Table Chart renders Active 1`] = `
             <svg
               className="sc-efBctP"
               fill="none"
-              fontSize="1.4375rem"
+              fontSize="1.5rem"
               height="1em"
               viewBox="0 0 32 32"
               width="1em"
@@ -440,7 +440,7 @@ exports[`Table Chart renders Active 1`] = `
     }
   >
     <div
-      className="sc-gA-DJDv dprqmS"
+      className="sc-gA-DJDv KzKay"
     >
       <button
         className="sc-cuQNSp bzDrie"
@@ -465,7 +465,7 @@ exports[`Table Chart renders Active 1`] = `
         <svg
           className="sc-gUAEMC"
           fill="none"
-          fontSize="1.375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -486,7 +486,7 @@ exports[`Table Chart renders Active 1`] = `
         <svg
           className="sc-jfmDQi"
           fill="none"
-          fontSize="1.375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -600,7 +600,7 @@ exports[`Table Chart renders Active 1`] = `
             <svg
               className="sc-efBctP"
               fill="none"
-              fontSize="1.4375rem"
+              fontSize="1.5rem"
               height="1em"
               viewBox="0 0 32 32"
               width="1em"
@@ -879,7 +879,7 @@ exports[`Table Chart renders Active 1`] = `
     }
   >
     <div
-      className="sc-gA-DJDv dprqmS"
+      className="sc-gA-DJDv KzKay"
     >
       <button
         className="sc-cuQNSp bzDrie"
@@ -907,7 +907,7 @@ exports[`Table Chart renders Active 1`] = `
         <svg
           className="sc-gUAEMC"
           fill="none"
-          fontSize="1.375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -928,7 +928,7 @@ exports[`Table Chart renders Active 1`] = `
         <svg
           className="sc-jfmDQi"
           fill="none"
-          fontSize="1.375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -1042,7 +1042,7 @@ exports[`Table Chart renders Active 1`] = `
             <svg
               className="sc-efBctP"
               fill="none"
-              fontSize="1.4375rem"
+              fontSize="1.5rem"
               height="1em"
               viewBox="0 0 32 32"
               width="1em"
@@ -1313,7 +1313,7 @@ exports[`Table Chart renders NoData 1`] = `
     }
   >
     <div
-      className="sc-gA-DJDv dprqmS"
+      className="sc-gA-DJDv KzKay"
     >
       <button
         className="sc-cuQNSp dkCiBY"
@@ -1341,7 +1341,7 @@ exports[`Table Chart renders NoData 1`] = `
         <svg
           className="sc-gUAEMC"
           fill="none"
-          fontSize="1.375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -1362,7 +1362,7 @@ exports[`Table Chart renders NoData 1`] = `
         <svg
           className="sc-jfmDQi"
           fill="none"
-          fontSize="1.375rem"
+          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -1476,7 +1476,7 @@ exports[`Table Chart renders NoData 1`] = `
             <svg
               className="sc-efBctP"
               fill="none"
-              fontSize="1.4375rem"
+              fontSize="1.5rem"
               height="1em"
               viewBox="0 0 32 32"
               width="1em"

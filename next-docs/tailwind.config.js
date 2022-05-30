@@ -11,7 +11,6 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: '#f4f4f4',
         border: {
           DEFAULT: 'rgba(255, 255, 255, 0.2)', // Border color for "For designers" items
         },

@@ -28,12 +28,13 @@ const borderWidthInteractive = 2;
 const space = 16;
 const transitionDuration = 0.2;
 const transitionTimingFunction = 'ease-in-out';
-const baseFontSize = 16;
 const baseLineHeight = 24;
 const fontWeightNormal = 400;
 const fontWeightSemibold = 500;
 
-const rem = (value: number) => `${value / baseFontSize}rem`;
+export const baseFontSize = 16;
+
+export const rem = (value: number) => `${value / baseFontSize}rem`;
 
 export type ZIndex = {
   carouselControl: number;
@@ -328,6 +329,19 @@ export type Brand =
 
 export type ColorScheme = 'light' | 'dark';
 
+export type InteractiveBorderRadius = {
+  xsmall: string;
+  small: string;
+  medium: string;
+};
+
+export type SurfaceBorderRadius = {
+  xsmall: string;
+  small: string;
+  medium: string;
+  large: string;
+};
+
 export type BorderRadius = {
   none: number;
   twoxsmall: string;
@@ -338,7 +352,8 @@ export type BorderRadius = {
   xlarge: string;
   twoxlarge: string;
   full: string;
-  interactive: string;
+  interactive: InteractiveBorderRadius;
+  surface: SurfaceBorderRadius;
 };
 
 export type BreakpointNew = {
@@ -518,7 +533,17 @@ const sharedTokens: SharedTheme = {
       xlarge: rem(16),
       twoxlarge: rem(24),
       full: rem(9999),
-      interactive: rem(9999),
+      interactive: {
+        xsmall: rem(4),
+        small: rem(8),
+        medium: rem(12),
+      },
+      surface: {
+        xsmall: rem(4),
+        small: rem(8),
+        medium: rem(12),
+        large: rem(16),
+      },
     },
     breakpoint: {
       small: rem(640),

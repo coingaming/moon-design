@@ -24,7 +24,7 @@ const TextInputGroup = styled.div<{
       maxWidth: isOneMonth ? rem(304) : rem(392),
       backgroundColor: colorNew.gohan,
       boxShadow: `0 0 0 ${border.width.default} ${colorNew.beerus} inset`,
-      borderRadius: borderRadius.large,
+      borderRadius: borderRadius.surface.medium,
       position: 'relative',
       zIndex: 0,
       '.left': {
@@ -73,7 +73,7 @@ const TextInputGroup = styled.div<{
     isStartError && {
       '.left': {
         '& input': {
-          borderRadius: borderRadius.large,
+          borderRadius: borderRadius.surface.medium,
         },
         '& input ~ .ghost': {
           opacity: 0,
@@ -86,7 +86,7 @@ const TextInputGroup = styled.div<{
     isEndError && {
       '.right': {
         '& input': {
-          borderRadius: borderRadius.large,
+          borderRadius: borderRadius.surface.medium,
         },
         '& input ~ .ghost': {
           opacity: 0,

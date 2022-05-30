@@ -47,8 +47,9 @@ const TextInputGroup: React.FC<TextInputGroupProps> = ({
   isRtl,
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
+  const isError = selectProps?.input1?.isError || selectProps?.input2?.isError;
   return (
-    <Container orientation={orientation} dir={dir}>
+    <Container orientation={orientation} dir={dir} isError={isError}>
       {determineInputStart(orientation, selectProps?.input1, isRtl)}
       {determineInputEnd(orientation, selectProps?.input2, isRtl)}
     </Container>

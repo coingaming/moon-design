@@ -20,7 +20,7 @@ export const StyledPopup = styled.div(
         bottom: 0,
         left: 0,
         background: colorNew.goten,
-        padding: newTokens.space.small,
+        padding: rem(16),
         zIndex: zIndex.dialog,
       },
     },
