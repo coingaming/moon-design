@@ -1,90 +1,92 @@
-import Preview from "../../components/codePreview/Preview";
-import ContentHeaderTW from "../../public/examples/accordionNew/ContentHeaderTW";
-import ContentOutsideSizesTW from "../../public/examples/accordionNew/ContentOutsideSizesTW";
-import ContentOutsideTW from "../../public/examples/accordionNew/ContentOutsideTW";
-import DefaultTW from "../../public/examples/accordionNew/DefaultTW";
-import DisabledTW from "../../public/examples/accordionNew/DisabledTW";
-import OpenDefaultTW from "../../public/examples/accordionNew/OpenDefaultTW";
-import SizesTW from "../../public/examples/accordionNew/SizesTW";
-import WithoutButtonTW from "../../public/examples/accordionNew/WithoutButtonTW";
-import useExamples from "../../utils/useExamples";
+import Preview from '../../components/codePreview/Preview';
+import ContentHeader from '../../public/examples/accordionTW/ContentHeader';
+import ContentOutside from '../../public/examples/accordionTW/ContentOutside';
+import ContentOutsideSizes from '../../public/examples/accordionTW/ContentOutsideSizes';
+import Default from '../../public/examples/accordionTW/Default';
+import Disabled from '../../public/examples/accordionTW/Disabled';
+import OpenDefault from '../../public/examples/accordionTW/OpenDefault';
+import Sizes from '../../public/examples/accordionTW/Sizes';
+import WithoutButton from '../../public/examples/accordionTW/WithoutButton';
+import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('core/accordion');
+  const examples = useExamples('accordionTW');
 
-  return (<div className="theme-moon-dark">
-    <section className="mt-8 text-3xl font-bold">
-      <Preview
-        title="Default"
-        isGrayBg
-        preview={<DefaultTW />}
-        code={examples ? examples.DefaultTW : 'Loading'}
-      />
-    </section>
+  return (
+    <div className="theme-moon-dark">
+      <section className="mt-8 text-3xl font-bold">
+        <Preview
+          title="Default"
+          isGrayBg
+          preview={<Default />}
+          code={examples ? examples.DefaultTW : 'Loading'}
+        />
+      </section>
 
-    <section className="mt-8 text-3xl font-bold">
-      <Preview
-        title="Open by default"
-        isGrayBg
-        preview={<OpenDefaultTW />}
-        code={examples ? examples.OpenDefaultTW : 'Loading'}
-      />
-    </section>
+      <section className="mt-8 text-3xl font-bold">
+        <Preview
+          title="Open by default"
+          isGrayBg
+          preview={<OpenDefault />}
+          code={examples ? examples.OpenDefaultTW : 'Loading'}
+        />
+      </section>
 
-    <section className="mt-8 text-3xl font-bold">
-      <Preview
-        title="Without button"
-        isGrayBg
-        preview={<WithoutButtonTW />}
-        code={examples ? examples.WithoutButtonTW : 'Loading'}
-      />
-    </section>
+      <section className="mt-8 text-3xl font-bold">
+        <Preview
+          title="Without button"
+          isGrayBg
+          preview={<WithoutButton />}
+          code={examples ? examples.WithoutButtonTW : 'Loading'}
+        />
+      </section>
 
-    <section className="mt-8 text-3xl font-bold">
-      <Preview
-        title="Disable open"
-        isGrayBg
-        preview={<DisabledTW />}
-        code={examples ? examples.DisabledTW : 'Loading'}
-      />
-    </section>
+      <section className="mt-8 text-3xl font-bold">
+        <Preview
+          title="Disable open"
+          isGrayBg
+          preview={<Disabled />}
+          code={examples ? examples.DisabledTW : 'Loading'}
+        />
+      </section>
 
-    <section className="mt-8 text-3xl font-bold">
-      <Preview
-        title="Content outside"
-        isGrayBg
-        preview={<ContentOutsideTW />}
-        code={examples ? examples.ContentOutsideTW : 'Loading'}
-      />
-    </section>
+      <section className="mt-8 text-3xl font-bold">
+        <Preview
+          title="Content outside"
+          isGrayBg
+          preview={<ContentOutside />}
+          code={examples ? examples.ContentOutsideTW : 'Loading'}
+        />
+      </section>
 
-    <section className="mt-8 text-3xl font-bold">
-      <Preview
-        title="Header content"
-        isGrayBg
-        preview={<ContentHeaderTW />}
-        code={examples ? examples.ContentHeaderTW : 'Loading'}
-      />
-    </section>
+      <section className="mt-8 text-3xl font-bold">
+        <Preview
+          title="Header content"
+          isGrayBg
+          preview={<ContentHeader />}
+          code={examples ? examples.ContentHeaderTW : 'Loading'}
+        />
+      </section>
 
-    <section className="mt-8 text-3xl font-bold">
-      <Preview
-        title="Sizes"
-        isGrayBg
-        preview={<SizesTW />}
-        code={examples ? examples.SizesTW : 'Loading'}
-      />
-    </section>
+      <section className="mt-8 text-3xl font-bold">
+        <Preview
+          title="Sizes"
+          isGrayBg
+          preview={<Sizes />}
+          code={examples ? examples.SizesTW : 'Loading'}
+        />
+      </section>
 
-    <section className="mt-8 text-3xl font-bold">
-      <Preview
-        title="Sizes: content outside"
-        isGrayBg
-        preview={<ContentOutsideSizesTW />}
-        code={examples ? examples.ContentOutsideSizesTW : 'Loading'}
-      />
-    </section>
-  </div>);
+      <section className="mt-8 text-3xl font-bold">
+        <Preview
+          title="Sizes: content outside"
+          isGrayBg
+          preview={<ContentOutsideSizes />}
+          code={examples ? examples.ContentOutsideSizesTW : 'Loading'}
+        />
+      </section>
+    </div>
+  );
 };
 
 export default Example;

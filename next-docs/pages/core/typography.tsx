@@ -1,11 +1,11 @@
-import Preview from "../../components/codePreview/Preview";
-import CaptionTW from "../../public/examples/text/CaptionTW";
-import HeadingTW from "../../public/examples/text/HeadingTW";
-import TextTW from "../../public/examples/text/TextTW";
-import useExamples from "../../utils/useExamples";
+import Preview from '../../components/codePreview/Preview';
+import Caption from '../../public/examples/typographyTW/Caption';
+import Heading from '../../public/examples/typographyTW/Heading';
+import Text from '../../public/examples/typographyTW/Text';
+import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('loader');
+  const examples = useExamples('typographyTW');
 
   return (
     <div className="theme-moon-dark text-bulma">
@@ -13,7 +13,7 @@ const Example = () => {
         <Preview
           title="Text"
           isGrayBg
-          preview={<TextTW />}
+          preview={<Text />}
           code={examples ? examples.TextTW : 'Loading'}
         />
       </section>
@@ -22,7 +22,7 @@ const Example = () => {
         <Preview
           title="Heading"
           isGrayBg
-          preview={<HeadingTW />}
+          preview={<Heading />}
           code={examples ? examples.HeadingTW : 'Loading'}
         />
       </section>
@@ -31,7 +31,7 @@ const Example = () => {
         <Preview
           title="Caption"
           isGrayBg
-          preview={<CaptionTW />}
+          preview={<Caption />}
           code={examples ? examples.CaptionTW : 'Loading'}
         />
       </section>

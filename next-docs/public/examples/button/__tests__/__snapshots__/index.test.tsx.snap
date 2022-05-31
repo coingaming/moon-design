@@ -432,7 +432,7 @@ exports[`Button renders disabled state 1`] = `
     onMouseLeave={[Function]}
     size="medium"
   >
-    DisabledTW
+    Disabled
     <div
       className="sc-dDaJoQ dqCRYK"
     />

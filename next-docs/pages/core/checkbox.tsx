@@ -1,14 +1,14 @@
-import React  from 'react';
-import Preview from "../../components/codePreview/Preview";
-import CheckedTW from "../../public/examples/checkbox/CheckedTW";
-import DefaultTW from "../../public/examples/checkbox/DefaultTW";
-import DisabledTW from "../../public/examples/checkbox/DisabledTW";
-import NoLabelTW from "../../public/examples/checkbox/NoLabelTW";
-import ReadOnlyTW from "../../public/examples/checkbox/ReadOnlyTW";
-import useExamples from "../../utils/useExamples";
+import React from 'react';
+import Preview from '../../components/codePreview/Preview';
+import Checked from '../../public/examples/checkboxTW/Checked';
+import Default from '../../public/examples/checkboxTW/Default';
+import Disabled from '../../public/examples/checkboxTW/Disabled';
+import NoLabel from '../../public/examples/checkboxTW/NoLabel';
+import ReadOnly from '../../public/examples/checkboxTW/ReadOnly';
+import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
-  const examples = useExamples('button');
+  const examples = useExamples('checkboxTW');
 
   return (
     <div className="theme-moon-dark">
@@ -16,7 +16,7 @@ export default function PageAccordion() {
         <Preview
           title="Checkbox"
           isGrayBg
-          preview={<DefaultTW />}
+          preview={<Default />}
           code={examples ? examples.DefaultTW : 'Loading'}
         />
       </section>
@@ -25,7 +25,7 @@ export default function PageAccordion() {
         <Preview
           title="Checked"
           isGrayBg
-          preview={<CheckedTW />}
+          preview={<Checked />}
           code={examples ? examples.CheckedTW : 'Loading'}
         />
       </section>
@@ -34,7 +34,7 @@ export default function PageAccordion() {
         <Preview
           title="No Label"
           isGrayBg
-          preview={<NoLabelTW />}
+          preview={<NoLabel />}
           code={examples ? examples.NoLabelTW : 'Loading'}
         />
       </section>
@@ -43,7 +43,7 @@ export default function PageAccordion() {
         <Preview
           title="Disabled"
           isGrayBg
-          preview={<DisabledTW />}
+          preview={<Disabled />}
           code={examples ? examples.DisabledTW : 'Loading'}
         />
       </section>
@@ -52,7 +52,7 @@ export default function PageAccordion() {
         <Preview
           title="ReadOnly"
           isGrayBg
-          preview={<ReadOnlyTW />}
+          preview={<ReadOnly />}
           code={examples ? examples.ReadOnlyTW : 'Loading'}
         />
       </section>

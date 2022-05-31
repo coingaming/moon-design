@@ -1,12 +1,12 @@
 import React from 'react';
-import Preview from "../../components/codePreview/Preview";
-import ColorsTW from "../../public/examples/loader/ColorsTW";
-import DefaultTW from "../../public/examples/loader/DefaultTW";
-import SizesTW from "../../public/examples/loader/SizesTW";
-import useExamples from "../../utils/useExamples";
+import Preview from '../../components/codePreview/Preview';
+import Colors from '../../public/examples/loaderTW/Colors';
+import Default from '../../public/examples/loaderTW/Default';
+import Sizes from '../../public/examples/loaderTW/Sizes';
+import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('loader');
+  const examples = useExamples('loaderTW');
 
   return (
     <div className="theme-moon-dark">
@@ -14,7 +14,7 @@ const Example = () => {
         <Preview
           title="Default"
           isGrayBg
-          preview={<DefaultTW />}
+          preview={<Default />}
           code={examples ? examples.DefaultTW : 'Loading'}
         />
       </section>
@@ -23,7 +23,7 @@ const Example = () => {
         <Preview
           title="Sizes"
           isGrayBg
-          preview={<SizesTW />}
+          preview={<Sizes />}
           code={examples ? examples.DefaultTW : 'Loading'}
         />
       </section>
@@ -32,7 +32,7 @@ const Example = () => {
         <Preview
           title="Colors"
           isGrayBg
-          preview={<ColorsTW />}
+          preview={<Colors />}
           code={examples ? examples.ColorsTW : 'Loading'}
         />
       </section>

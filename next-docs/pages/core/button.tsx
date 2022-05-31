@@ -1,15 +1,15 @@
 import React from 'react';
-import Preview from "../../components/codePreview/Preview";
-import AnimationsTW from "../../public/examples/button/AnimationsTW";
-import DisabledTW from "../../public/examples/button/DisabledTW";
-import FullWidthTW from "../../public/examples/button/FullWidthTW";
-import IconsTW from "../../public/examples/button/IconsTW";
-import SizesTW from "../../public/examples/button/SizesTW";
-import VariantsTW from "../../public/examples/button/VariantsTW";
-import useExamples from "../../utils/useExamples";
+import Preview from '../../components/codePreview/Preview';
+import Animations from '../../public/examples/buttonTW/Animations';
+import Disabled from '../../public/examples/buttonTW/Disabled';
+import FullWidth from '../../public/examples/buttonTW/FullWidth';
+import Icons from '../../public/examples/buttonTW/Icons';
+import Sizes from '../../public/examples/buttonTW/Sizes';
+import Variants from '../../public/examples/buttonTW/Variants';
+import useExamples from '../../utils/useExamples';
 
 const PageButton = () => {
-  const examples = useExamples('button');
+  const examples = useExamples('buttonTW');
 
   return (
     <div className="theme-moon-dark">
@@ -17,7 +17,7 @@ const PageButton = () => {
         <Preview
           title="Variants"
           isGrayBg
-          preview={<VariantsTW />}
+          preview={<Variants />}
           code={examples ? examples.VariantsTW : 'Loading'}
         />
       </section>
@@ -26,7 +26,7 @@ const PageButton = () => {
         <Preview
           title="Sizes"
           isGrayBg
-          preview={<SizesTW />}
+          preview={<Sizes />}
           code={examples ? examples.SizesTW : 'Loading'}
         />
       </section>
@@ -35,7 +35,7 @@ const PageButton = () => {
         <Preview
           title="Icons"
           isGrayBg
-          preview={<IconsTW />}
+          preview={<Icons />}
           code={examples ? examples.IconsTW : 'Loading'}
         />
       </section>
@@ -44,7 +44,7 @@ const PageButton = () => {
         <Preview
           title="Full width"
           isGrayBg
-          preview={<FullWidthTW />}
+          preview={<FullWidth />}
           code={examples ? examples.FullWidthTW : 'Loading'}
         />
       </section>
@@ -53,7 +53,7 @@ const PageButton = () => {
         <Preview
           title="Disabled"
           isGrayBg
-          preview={<DisabledTW />}
+          preview={<Disabled />}
           code={examples ? examples.DisabledTW : 'Loading'}
         />
       </section>
@@ -62,7 +62,7 @@ const PageButton = () => {
         <Preview
           title="Animations"
           isGrayBg
-          preview={<AnimationsTW />}
+          preview={<Animations />}
           code={examples ? examples.AnimationsTW : 'Loading'}
         />
       </section>

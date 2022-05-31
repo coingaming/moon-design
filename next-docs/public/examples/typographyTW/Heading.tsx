@@ -1,5 +1,5 @@
-const Example = () => {
-  return (<div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
+const Example = () => (
+  <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
     <div className="w-full">
       <h3 className="text-moon-9 font-medium">Size 9</h3>
       <h3 className="text-moon-10 font-medium">Size 10</h3>
@@ -15,7 +15,7 @@ const Example = () => {
       <h3 className="text-moon-64 font-medium">Size 64</h3>
       <h3 className="text-moon-72 font-medium">Size 72</h3>
     </div>
-  </div>);
-}
+  </div>
+);
 
 export default Example;
