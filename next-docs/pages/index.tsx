@@ -10,18 +10,20 @@ import Updates from '../components/facing/Updates';
 
 const Home = () => (
   <>
-    <div className="flex flex-col gap-12">
+    <div className="relative z-5 flex flex-col gap-12">
       <OpenSourceBadge />
       <div className="flex flex-col gap-16">
         <PageTitle />
+        <div className="flex flex-col lg:flex-row gap-4 2xl:fixed 2xl:top-12 2xl:right-12 2xl:z-10">
+          <ForDevelopers />
+          <ForDesigners />
+        </div>
         <Updates />
         <Future />
         <Contributors />
       </div>
     </div>
-    {/* <ForDesigners />
-    <ForDevelopers />
-    <MoonAndEarthAnimation /> */}
+    <MoonAndEarthAnimation />
   </>
 );
 

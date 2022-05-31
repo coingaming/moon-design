@@ -1,30 +1,20 @@
 import React from 'react';
+import { Button } from '@heathmont/moon-core-tw';
 import Link from 'next/link';
 import TopRightArrowIcon from '../icons/TopRightArrowIcon';
 
-const NavItem: React.FC<{ href: string }> = ({ children, href }) => {
-  return (
-    <Link href={href}>
-      <a className="whitespace-nowrap rounded-lg py-2 px-3 text-base border border-borderDev hover:bg-bgdeveloper hover:border-bgdeveloper hover-border transition-colors">
-        {children}
-      </a>
-    </Link>
-  );
-};
-
 const GithubIcon = () => (
   <svg
-    width="30"
-    height="30"
-    viewBox="0 0 30 30"
+    width="32"
+    height="32"
+    viewBox="0 0 32 32"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
-    className="text-black"
   >
     <path
       fillRule="evenodd"
       clipRule="evenodd"
-      d="M15 0C6.7 0 0 6.7 0 15C0 21.6 4.3 27.2 10.3 29.2C11.1 29.3 11.3 28.9 11.3 28.5V25.9C7.1 26.8 6.2 23.9 6.2 23.9C5.5 22.2 4.5 21.7 4.5 21.7C3.1 20.8 4.6 20.8 4.6 20.8C6.1 20.9 6.9 22.3 6.9 22.3C8.2 24.6 10.4 23.9 11.3 23.5C11.4 22.5 11.8 21.9 12.3 21.5C9 21.1 5.5 19.8 5.5 14.1C5.5 12.5 6.1 11.1 7 10.1C6.8 9.7 6.3 8.2 7.1 6.1C7.1 6.1 8.4 5.7 11.2 7.6C12.4 7.3 13.7 7.1 15 7.1C16.3 7.1 17.6 7.3 18.8 7.6C21.7 5.7 22.9 6.1 22.9 6.1C23.7 8.2 23.2 9.7 23 10.1C24 11.1 24.5 12.5 24.5 14.1C24.5 19.9 21 21.1 17.7 21.5C18.2 22 18.7 22.9 18.7 24.3V28.4C18.7 28.8 19 29.3 19.7 29.1C25.7 27.1 29.9 21.5 29.9 14.9C30 6.7 23.3 0 15 0Z"
+      d="M16.0466 2.23999C8.22988 2.23999 1.92001 8.55115 1.92001 16.3695C1.92001 22.5864 5.96963 27.8614 11.6203 29.7454C12.3737 29.8395 12.562 29.4628 12.562 29.086V26.6369C8.60659 27.4846 7.759 24.7529 7.759 24.7529C7.09976 23.1516 6.15798 22.6806 6.15798 22.6806C4.8395 21.8329 6.25216 21.8328 6.25216 21.8328C7.66482 21.927 8.41823 23.2458 8.41823 23.2458C9.64254 25.4123 11.7144 24.7529 12.562 24.3762C12.6562 23.4342 13.0329 22.869 13.5038 22.4922C10.396 22.1154 7.09976 20.8909 7.09976 15.5217C7.09976 14.0145 7.66482 12.6958 8.51241 11.7538C8.32406 11.377 7.85317 9.9641 8.60659 7.98597C8.60659 7.98597 9.83089 7.60919 12.4679 9.39892C13.598 9.11633 14.8223 8.92794 16.0466 8.92794C17.2709 8.92794 18.4952 9.11633 19.6253 9.39892C22.3564 7.60919 23.4866 7.98597 23.4866 7.98597C24.24 9.9641 23.7691 11.377 23.5808 11.7538C24.5225 12.6958 24.9934 14.0145 24.9934 15.5217C24.9934 20.9851 21.6972 22.1154 18.5894 22.4922C19.0603 22.9632 19.5311 23.811 19.5311 25.1297V28.9918C19.5311 29.3686 19.8137 29.8395 20.4729 29.6512C26.1235 27.7672 30.079 22.4922 30.079 16.2753C30.1732 8.55115 23.8633 2.23999 16.0466 2.23999Z"
       fill="currentColor"
     />
   </svg>
@@ -32,34 +22,40 @@ const GithubIcon = () => (
 
 const ForDevelopers = () => {
   return (
-    <div className="block flex flex-row top-40 right-0 2xl:flex-col justify-start 2xl:justify-end 2xl:fixed 2xl:py-5 pt-4 pb-6 pl-7 2xl:p-8 text-black rounded-b-lg rounded-tr-lg bg-developer z-40 h-[4rem] max-w-2xl 2xl:h-[25rem] 2xl:w-[23rem] mt-4 2xl:mt-0">
-      <div className="absolute top-8 right-8 text-black z-35">
-        <TopRightArrowIcon />
-      </div>
-      <div className="mb-4">
+    <div className="relative flex grow p-6 gap-6 theme-tokens rounded-moon-s-lg bg-cell 2xl:flex-col 2xl:h-96 2xl:w-80 2xl:rounded-tl-none 2xl:absolute 2xl:top-96 2xl:right-0">
+      <div className="flex gap-6 align-center justify-between grow 2xl:flex-col 2xl:justify-end">
         <GithubIcon />
+        <h2 className="text-moon-24 grow 2xl:grow-0">
+          <a
+            href="https://github.com/coingaming/moon-design"
+            className="2xl:pointer-events-none"
+          >
+            For developers.
+          </a>
+        </h2>
+        <div className="2xl:absolute 2xl:top-6 2xl:right-6">
+          <TopRightArrowIcon />
+        </div>
       </div>
-      <h2 className="text-2xl 2xl:mb-7 ml-4 2xl:ml-0">
-        <a
-          href="https://github.com/coingaming/moon-design"
-          className="2xl:pointer-events-none"
-        >
-          For developers.
-        </a>
-      </h2>
-      <div className="2xl:flex 2xl:flex-wrap gap-1 hidden">
-        <NavItem href="https://github.com/coingaming/moon-design">
-          Github
-        </NavItem>
-        <NavItem href="gettingStarted">Getting Started</NavItem>
-        <NavItem href="tokens">Design Tokens</NavItem>
-        <NavItem href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts">
-          Creating Themes
-        </NavItem>
-        <NavItem href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md">
-          Contribution
-        </NavItem>
-        <NavItem href="components/accordion">Components</NavItem>
+      <div className="hidden flex-wrap gap-1 2xl:flex">
+        <Link href="https://github.com/coingaming/moon-design">
+          <Button variant="secondary">Github</Button>
+        </Link>
+        <Link href="gettingStarted">
+          <Button variant="secondary">Getting Started</Button>
+        </Link>
+        <Link href="tokens">
+          <Button variant="secondary">Design Tokens</Button>
+        </Link>
+        <Link href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts">
+          <Button variant="secondary">Creating Themes</Button>
+        </Link>
+        <Link href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md">
+          <Button variant="secondary">Contribution</Button>
+        </Link>
+        <Link href="components/accordion">
+          <Button variant="secondary">Components</Button>
+        </Link>
       </div>
     </div>
   );
