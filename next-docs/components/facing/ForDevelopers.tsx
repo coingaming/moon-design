@@ -29,6 +29,8 @@ const ForDevelopers = () => {
           <a
             href="https://github.com/coingaming/moon-design"
             className="2xl:pointer-events-none"
+            target="_blank"
+            rel="noreferrer"
           >
             For developers.
           </a>
@@ -39,22 +41,34 @@ const ForDevelopers = () => {
       </div>
       <div className="hidden flex-wrap gap-1 2xl:flex">
         <Link href="https://github.com/coingaming/moon-design">
-          <Button variant="secondary">Github</Button>
+          <a target="_blank" rel="noreferrer">
+            <Button variant="secondary">Github</Button>
+          </a>
         </Link>
         <Link href="gettingStarted">
-          <Button variant="secondary">Getting Started</Button>
+          <a>
+            <Button variant="secondary">Getting Started</Button>
+          </a>
         </Link>
         <Link href="tokens">
-          <Button variant="secondary">Design Tokens</Button>
+          <a>
+            <Button variant="secondary">Design Tokens</Button>
+          </a>
         </Link>
         <Link href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts">
-          <Button variant="secondary">Creating Themes</Button>
+          <a target="_blank" rel="noreferrer">
+            <Button variant="secondary">Creating Themes</Button>
+          </a>
         </Link>
         <Link href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md">
-          <Button variant="secondary">Contribution</Button>
+          <a target="_blank" rel="noreferrer">
+            <Button variant="secondary">Contribution</Button>
+          </a>
         </Link>
         <Link href="components/accordion">
-          <Button variant="secondary">Components</Button>
+          <a>
+            <Button variant="secondary">Components</Button>
+          </a>
         </Link>
       </div>
     </div>

@@ -20,8 +20,8 @@ const Layout = ({ children }: Props) => {
       <div className="hidden lg:flex lg:flex-shrink-0 w-80 flex flex-col">
         <Sidebar />
       </div>
-      <div className="theme-moon-dark min-h-screen bg-gohan flex-1 w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12 lg:pb-8">
-        <div className="max-w-screen-xl">
+      <div className="theme-moon-dark min-h-screen bg-gohan flex-1 w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12">
+        <div className="flex flex-col grow max-w-screen-x">
           {/* Opens sidebar on mobile */}
           <div className="lg:hidden flex flex-row align-center">
             <button

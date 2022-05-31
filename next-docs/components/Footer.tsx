@@ -2,7 +2,7 @@ import React from 'react';
 import Logo from './sidebar/Logo';
 
 const Footer = () => (
-  <footer className="flex gap-x-8 gap-y-12 pt-16 flex-wrap items-center text-moon-16 justify-between">
+  <footer className="flex gap-x-8 gap-y-12 mt-16 mb-8 flex-wrap items-center text-moon-16 text-bulma justify-between">
     <div className="flex gap-x-8 gap-y-12 flex-wrap items-center">
       <Logo height={16} />
       <div className="flex gap-x-8 gap-y-12 flex-wrap items-center">

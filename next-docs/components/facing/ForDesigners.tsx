@@ -26,6 +26,8 @@ const ForDesigners = () => (
         <a
           href="https://www.figma.com/community/file/1002945721703152933"
           className="2xl:pointer-events-none"
+          target="_blank"
+          rel="noreferrer"
         >
           For designers.
         </a>
@@ -36,16 +38,24 @@ const ForDesigners = () => (
     </div>
     <div className="hidden flex-wrap gap-1 2xl:flex">
       <Link href="https://www.figma.com/community/file/1002945721703152933">
-        <Button variant="secondary">Figma</Button>
+        <a target="_blank" rel="noreferrer">
+          <Button variant="secondary">Figma</Button>
+        </a>
       </Link>
       <Link href="gettingStarted">
-        <Button variant="secondary">Getting Started</Button>
+        <a>
+          <Button variant="secondary">Getting Started</Button>
+        </a>
       </Link>
       <Link href="typography">
-        <Button variant="secondary">Typography</Button>
+        <a>
+          <Button variant="secondary">Typography</Button>
+        </a>
       </Link>
       <Link href="colours">
-        <Button variant="secondary">Colour Convention</Button>
+        <a>
+          <Button variant="secondary">Colour Convention</Button>
+        </a>
       </Link>
     </div>
   </div>
