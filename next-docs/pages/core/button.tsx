@@ -18,7 +18,7 @@ const PageButton = () => {
           title="Variants"
           isGrayBg
           preview={<Variants />}
-          code={examples ? examples.VariantsTW : 'Loading'}
+          code={examples ? examples.Variants : 'Loading'}
         />
       </section>
 
@@ -27,7 +27,7 @@ const PageButton = () => {
           title="Sizes"
           isGrayBg
           preview={<Sizes />}
-          code={examples ? examples.SizesTW : 'Loading'}
+          code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
 
@@ -36,7 +36,7 @@ const PageButton = () => {
           title="Icons"
           isGrayBg
           preview={<Icons />}
-          code={examples ? examples.IconsTW : 'Loading'}
+          code={examples ? examples.Icons : 'Loading'}
         />
       </section>
 
@@ -45,7 +45,7 @@ const PageButton = () => {
           title="Full width"
           isGrayBg
           preview={<FullWidth />}
-          code={examples ? examples.FullWidthTW : 'Loading'}
+          code={examples ? examples.FullWidth : 'Loading'}
         />
       </section>
 
@@ -54,7 +54,7 @@ const PageButton = () => {
           title="Disabled"
           isGrayBg
           preview={<Disabled />}
-          code={examples ? examples.DisabledTW : 'Loading'}
+          code={examples ? examples.Disabled : 'Loading'}
         />
       </section>
 
@@ -63,7 +63,7 @@ const PageButton = () => {
           title="Animations"
           isGrayBg
           preview={<Animations />}
-          code={examples ? examples.AnimationsTW : 'Loading'}
+          code={examples ? examples.Animations : 'Loading'}
         />
       </section>
     </div>

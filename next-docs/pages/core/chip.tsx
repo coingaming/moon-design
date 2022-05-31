@@ -16,7 +16,7 @@ const Example = () => {
           title="Sizes"
           isGrayBg
           preview={<Sizes />}
-          code={examples ? examples.SizesTW : 'Loading'}
+          code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
 
@@ -25,7 +25,7 @@ const Example = () => {
           title="Active"
           isGrayBg
           preview={<Active />}
-          code={examples ? examples.ActiveTW : 'Loading'}
+          code={examples ? examples.Active : 'Loading'}
         />
       </section>
 
@@ -34,7 +34,7 @@ const Example = () => {
           title="Icons"
           isGrayBg
           preview={<Icons />}
-          code={examples ? examples.IconsTW : 'Loading'}
+          code={examples ? examples.Icons : 'Loading'}
         />
       </section>
 
@@ -43,7 +43,7 @@ const Example = () => {
           title="Is Stroke"
           isGrayBg
           preview={<IsStroke />}
-          code={examples ? examples.IsStrokeTW : 'Loading'}
+          code={examples ? examples.IsStroke : 'Loading'}
         />
       </section>
 
@@ -52,7 +52,7 @@ const Example = () => {
           title="Is Stroke with Icons"
           isGrayBg
           preview={<IsStrokeIcons />}
-          code={examples ? examples.IsStrokeIconsTW : 'Loading'}
+          code={examples ? examples.IsStrokeIcons : 'Loading'}
         />
       </section>
     </div>

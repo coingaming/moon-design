@@ -17,7 +17,7 @@ export default function PageAccordion() {
           title="Checkbox"
           isGrayBg
           preview={<Default />}
-          code={examples ? examples.DefaultTW : 'Loading'}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
@@ -26,7 +26,7 @@ export default function PageAccordion() {
           title="Checked"
           isGrayBg
           preview={<Checked />}
-          code={examples ? examples.CheckedTW : 'Loading'}
+          code={examples ? examples.Checked : 'Loading'}
         />
       </section>
 
@@ -35,7 +35,7 @@ export default function PageAccordion() {
           title="No Label"
           isGrayBg
           preview={<NoLabel />}
-          code={examples ? examples.NoLabelTW : 'Loading'}
+          code={examples ? examples.NoLabel : 'Loading'}
         />
       </section>
 
@@ -44,7 +44,7 @@ export default function PageAccordion() {
           title="Disabled"
           isGrayBg
           preview={<Disabled />}
-          code={examples ? examples.DisabledTW : 'Loading'}
+          code={examples ? examples.Disabled : 'Loading'}
         />
       </section>
 
@@ -53,7 +53,7 @@ export default function PageAccordion() {
           title="ReadOnly"
           isGrayBg
           preview={<ReadOnly />}
-          code={examples ? examples.ReadOnlyTW : 'Loading'}
+          code={examples ? examples.ReadOnly : 'Loading'}
         />
       </section>
     </div>

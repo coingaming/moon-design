@@ -14,7 +14,7 @@ const Example = () => {
           title="Text"
           isGrayBg
           preview={<Text />}
-          code={examples ? examples.TextTW : 'Loading'}
+          code={examples ? examples.Text : 'Loading'}
         />
       </section>
 
@@ -23,7 +23,7 @@ const Example = () => {
           title="Heading"
           isGrayBg
           preview={<Heading />}
-          code={examples ? examples.HeadingTW : 'Loading'}
+          code={examples ? examples.Heading : 'Loading'}
         />
       </section>
 
@@ -32,7 +32,7 @@ const Example = () => {
           title="Caption"
           isGrayBg
           preview={<Caption />}
-          code={examples ? examples.CaptionTW : 'Loading'}
+          code={examples ? examples.Caption : 'Loading'}
         />
       </section>
     </div>

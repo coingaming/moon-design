@@ -19,7 +19,7 @@ const Example = () => {
           title="Default"
           isGrayBg
           preview={<Default />}
-          code={examples ? examples.DefaultTW : 'Loading'}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
@@ -28,7 +28,7 @@ const Example = () => {
           title="Open by default"
           isGrayBg
           preview={<OpenDefault />}
-          code={examples ? examples.OpenDefaultTW : 'Loading'}
+          code={examples ? examples.OpenDefault : 'Loading'}
         />
       </section>
 
@@ -37,7 +37,7 @@ const Example = () => {
           title="Without button"
           isGrayBg
           preview={<WithoutButton />}
-          code={examples ? examples.WithoutButtonTW : 'Loading'}
+          code={examples ? examples.WithoutButton : 'Loading'}
         />
       </section>
 
@@ -46,7 +46,7 @@ const Example = () => {
           title="Disable open"
           isGrayBg
           preview={<Disabled />}
-          code={examples ? examples.DisabledTW : 'Loading'}
+          code={examples ? examples.Disabled : 'Loading'}
         />
       </section>
 
@@ -55,7 +55,7 @@ const Example = () => {
           title="Content outside"
           isGrayBg
           preview={<ContentOutside />}
-          code={examples ? examples.ContentOutsideTW : 'Loading'}
+          code={examples ? examples.ContentOutside : 'Loading'}
         />
       </section>
 
@@ -64,7 +64,7 @@ const Example = () => {
           title="Header content"
           isGrayBg
           preview={<ContentHeader />}
-          code={examples ? examples.ContentHeaderTW : 'Loading'}
+          code={examples ? examples.ContentHeader : 'Loading'}
         />
       </section>
 
@@ -73,7 +73,7 @@ const Example = () => {
           title="Sizes"
           isGrayBg
           preview={<Sizes />}
-          code={examples ? examples.SizesTW : 'Loading'}
+          code={examples ? examples.Sizes : 'Loading'}
         />
       </section>
 
@@ -82,7 +82,7 @@ const Example = () => {
           title="Sizes: content outside"
           isGrayBg
           preview={<ContentOutsideSizes />}
-          code={examples ? examples.ContentOutsideSizesTW : 'Loading'}
+          code={examples ? examples.ContentOutsideSizes : 'Loading'}
         />
       </section>
     </div>

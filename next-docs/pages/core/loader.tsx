@@ -15,7 +15,7 @@ const Example = () => {
           title="Default"
           isGrayBg
           preview={<Default />}
-          code={examples ? examples.DefaultTW : 'Loading'}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
@@ -24,7 +24,7 @@ const Example = () => {
           title="Sizes"
           isGrayBg
           preview={<Sizes />}
-          code={examples ? examples.DefaultTW : 'Loading'}
+          code={examples ? examples.Default : 'Loading'}
         />
       </section>
 
@@ -33,7 +33,7 @@ const Example = () => {
           title="Colors"
           isGrayBg
           preview={<Colors />}
-          code={examples ? examples.ColorsTW : 'Loading'}
+          code={examples ? examples.Colors : 'Loading'}
         />
       </section>
     </div>
