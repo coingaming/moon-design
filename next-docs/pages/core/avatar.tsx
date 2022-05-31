@@ -49,6 +49,35 @@ const Example = () => (
         </div>
       </div>
     </div>
+
+    <section className="mt-8 text-3xl font-bold">Active status</section>
+    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
+      <div className="flex justify-around items-center w-full">
+        <Avatar />
+        <Avatar isStatusActive />
+        <Avatar imageUrl="https://www.fillmurray.com/200/200" />
+        <Avatar imageUrl="https://www.fillmurray.com/200/200" isStatusActive />
+      </div>
+    </div>
+
+    <section className="mt-8 text-3xl font-bold">Status Origin</section>
+    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
+      <div className="flex justify-around items-center w-full">
+        <Avatar
+          isStatusActive
+          statusOrigin={{ vertical: 'top', horizontal: 'right' }}
+        />
+        <Avatar
+          isStatusActive
+          statusOrigin={{ vertical: 'top', horizontal: 'left' }}
+        />
+        <Avatar isStatusActive />
+        <Avatar
+          isStatusActive
+          statusOrigin={{ vertical: 'bottom', horizontal: 'left' }}
+        />
+      </div>
+    </div>
   </div>
 );
 
