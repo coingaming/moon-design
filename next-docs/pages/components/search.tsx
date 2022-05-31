@@ -1,7 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import PropsTable from "../../components/PropsTable";
-import OmitResults from "../../public/examples/search/OmitResults";
+import PropsTable from '../../components/PropsTable';
+import OmitResults from '../../public/examples/search/OmitResults';
 import PreviewSearch from '../../public/examples/search/PreviewSearch';
 import PreviewSearchLoading from '../../public/examples/search/PreviewSearchLoading';
 import useExamples from '../../utils/useExamples';
@@ -12,7 +12,7 @@ export default function PageSearch() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Search</h1>
+        <h1 className="text-5xl font-medium">Search</h1>
         <p className="text-lg mt-4">An elegant search component.</p>
       </section>
 
@@ -100,7 +100,8 @@ export default function PageSearch() {
             type: 'React.FocusEvent',
             required: false,
             default: '-',
-            description: 'Event that happens when user clicks outside of search input',
+            description:
+              'Event that happens when user clicks outside of search input',
           },
           {
             name: 'onClear',

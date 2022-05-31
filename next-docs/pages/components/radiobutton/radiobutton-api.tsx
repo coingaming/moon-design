@@ -11,7 +11,7 @@ export default function RadioButtonPage() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">RadioButton API</h1>
+        <h1 className="text-5xl font-medium">RadioButton API</h1>
         <p className="text-lg mt-4">
           RadioButton API consists of two components RadioButtonLabel and
           RadioButtonInput. You can use it together with other components to

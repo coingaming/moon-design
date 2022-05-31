@@ -9,8 +9,8 @@ export default function PageGettingStarted() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Getting started</h1>
-        <h2 className="text-3xl font-semibold mt-8">Installation</h2>
+        <h1 className="text-5xl font-medium">Getting started</h1>
+        <h2 className="text-3xl font-medium mt-8">Installation</h2>
 
         <Text>using npm</Text>
         <CodeSnippet>{`npm i @heathmont/moon-themes @heathmont/moon-core @heathmont/moon-components`}</CodeSnippet>
@@ -20,7 +20,7 @@ export default function PageGettingStarted() {
       </section>
 
       <section className="mt-8">
-        <h2 className="text-3xl font-semibold mt-8">Peer dependencies</h2>
+        <h2 className="text-3xl font-medium mt-8">Peer dependencies</h2>
         <Text>
           Your project should include "react", "react-dom" and
           "styled-components" as its dependency.
@@ -32,7 +32,7 @@ export default function PageGettingStarted() {
       </section>
 
       <section className="mt-8">
-        <h2 className="text-3xl font-semibold">Set up Theme</h2>
+        <h2 className="text-3xl font-medium">Set up Theme</h2>
         <Text>{`Wrap your entire application with the <ThemeProvider />, providing your preferred theme via the theme prop.`}</Text>
         <Text>
           Be sure to include global styles and font-face definitions, as these
@@ -56,7 +56,7 @@ export const App = () => (
       </section>
 
       <section className="mt-8">
-        <h2 className="text-3xl font-semibold">
+        <h2 className="text-3xl font-medium">
           Using Themes With Styled Components
         </h2>
 
@@ -86,7 +86,7 @@ const Example = styled.div(({ theme: { colorNew, space } }) => ({
       </section>
 
       <section className="mt-8">
-        <h2 className="text-3xl font-semibold">Without Styled Components</h2>
+        <h2 className="text-3xl font-medium">Without Styled Components</h2>
 
         <Text>
           The useTheme helper function returns the current theme from the theme
@@ -112,7 +112,7 @@ const Example = () => {
       </section>
 
       <section className="mt-8">
-        <h2 className="text-3xl font-semibold"> TypeScript Support</h2>
+        <h2 className="text-3xl font-medium"> TypeScript Support</h2>
 
         <Text>
           If you're using TypeScript, you can extend styled-components' types to

@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import PropsTable from "../../components/PropsTable";
+import PropsTable from '../../components/PropsTable';
 import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
 import Default from '../../public/examples/carousel/Default';
 import Rtl from '../../public/examples/carousel/Rtl';
@@ -15,7 +15,7 @@ export default function PageCarousel() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Carousel</h1>
+        <h1 className="text-5xl font-medium">Carousel</h1>
         <p className="text-lg mt-4">
           An interactive extension of the Reel component to cycle through
           content.

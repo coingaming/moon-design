@@ -12,7 +12,7 @@ export default function PageGeoMapChart() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Geo map chart</h1>
+        <h1 className="text-5xl font-medium">Geo map chart</h1>
         <p className="text-lg mt-4">
           Based on{' '}
           <a className="underline" href="https://www.react-simple-maps.io/">

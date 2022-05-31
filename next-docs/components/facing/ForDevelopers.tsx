@@ -32,7 +32,7 @@ const GithubIcon = () => (
 
 const ForDevelopers = () => {
   return (
-    <div className="block flex flex-row 2xl:flex-col justify-start 2xl:justify-end 2xl:fixed for-developers 2xl:py-5 pt-4 pb-6 pl-7 2xl:p-8 text-black rounded-b-lg rounded-tr-lg bg-developer z-40 h-[4rem] max-w-2xl 2xl:h-[25rem] 2xl:w-[23rem] mt-4 2xl:mt-0">
+    <div className="block flex flex-row top-40 right-0 2xl:flex-col justify-start 2xl:justify-end 2xl:fixed 2xl:py-5 pt-4 pb-6 pl-7 2xl:p-8 text-black rounded-b-lg rounded-tr-lg bg-developer z-40 h-[4rem] max-w-2xl 2xl:h-[25rem] 2xl:w-[23rem] mt-4 2xl:mt-0">
       <div className="absolute top-8 right-8 text-black z-35">
         <TopRightArrowIcon />
       </div>

@@ -14,7 +14,7 @@ const Contributors = () => (
   <div className="flex flex-col gap-12">
     <SectionTitle
       title="In the Spotlight."
-      description="The team who design Moon."
+      description="The team who design and develop Moon."
     />
     <FacingReel>
       <CardContributor

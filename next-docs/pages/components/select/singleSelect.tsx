@@ -17,7 +17,7 @@ export default function PageSelect() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Select</h1>
+        <h1 className="text-5xl font-medium">Select</h1>
         <p className="text-lg mt-4">
           This Select based on react-select library.
         </p>

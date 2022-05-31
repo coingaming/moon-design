@@ -11,16 +11,16 @@ type Props = {
 
 const variants = {
   default: {
-    width: rem(368),
-    height: rem(376),
+    width: rem(384),
+    height: rem(384),
   },
   tiny: {
-    width: rem(272),
-    height: rem(352),
+    width: rem(256),
+    height: rem(320),
   },
   tall: {
-    width: rem(368),
-    height: rem(460),
+    width: rem(384),
+    height: rem(448),
   },
 };
 

@@ -13,7 +13,7 @@ export default function PageMultiSelect() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">MultiSelect</h1>
+        <h1 className="text-5xl font-medium">MultiSelect</h1>
 
         <p className="text-lg mt-4">
           Unlike a normal select, multiselect allows the user to select multiple

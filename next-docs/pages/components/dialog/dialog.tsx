@@ -15,7 +15,7 @@ export default function PageDialog() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Dialog</h1>
+        <h1 className="text-5xl font-medium">Dialog</h1>
         <p className="text-lg mt-4">
           The modal dialog (or modal as we call it) is used to capture attention
           so users are informed about a task, critical information or a decision
@@ -32,7 +32,7 @@ export default function PageDialog() {
           are effective when used correctly, but they can also be disruptive.
         </p>
 
-        <p className="text-lg mt-4 font-bold">When to use a modal dialog</p>
+        <p className="text-lg mt-4 font-medium">When to use a modal dialog</p>
         <p className="text-lg">
           Modals should only be used when an almost-instant response is required
           from the user. The task within the modal should also be short and
@@ -40,7 +40,7 @@ export default function PageDialog() {
           differently.
         </p>
 
-        <p className="text-lg mt-4 font-bold">
+        <p className="text-lg mt-4 font-medium">
           Presenting critical information
         </p>
         <p className="text-lg">
@@ -49,14 +49,14 @@ export default function PageDialog() {
           action.
         </p>
 
-        <p className="text-lg mt-4 font-bold">Confirming user decisions</p>
+        <p className="text-lg mt-4 font-medium">Confirming user decisions</p>
         <p className="text-lg">
           Confirming user decisions can be done with a modal. It’s important to
           ensure that the decision, and any potential actions that may result
           from it, is clearly explained within the modal.
         </p>
 
-        <p className="text-lg mt-4 font-bold">About RTL and icon mirroring</p>
+        <p className="text-lg mt-4 font-medium">About RTL and icon mirroring</p>
         <p className="text-lg">
           The icons are slots passed to the component. It is the developer's
           responsibility to pass a mirrored icon for RTL views, (ie, pass left

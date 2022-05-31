@@ -9,8 +9,8 @@ export default function PageHowToContribute() {
   return (
     <>
       <section>
-        <h1 className="text-5xl font-semibold">How to contribute</h1>
-        <h2 className="text-3xl font-semibold mt-8">Setup</h2>
+        <h1 className="text-5xl font-medium">How to contribute</h1>
+        <h2 className="text-3xl font-medium mt-8">Setup</h2>
 
         <Text>Install `pnpm`:</Text>
         <CodeSnippet>{`npm install -g pnpm`}</CodeSnippet>
@@ -42,7 +42,7 @@ export default function PageHowToContribute() {
         <CodeSnippet>{`pnpm run next start`}</CodeSnippet>
       </section>
       <section className="mt-8">
-        <h2 className="text-3xl font-semibold mt-8">Check our githib</h2>
+        <h2 className="text-3xl font-medium mt-8">Check our githib</h2>
 
         <ul className="list-inside list-disc mt-4">
           <li className="text-lg">

@@ -17,10 +17,8 @@ const Layout = ({ children }: Props) => {
         <Sidebar />
       </SidebarTransition>
       {/* Static sidebar for desktop, hidden for mobile */}
-      <div className="hidden lg:flex lg:flex-shrink-0">
-        <div className="w-80 flex flex-col">
-          <Sidebar />
-        </div>
+      <div className="hidden lg:flex lg:flex-shrink-0 w-80 flex flex-col">
+        <Sidebar />
       </div>
       <div className="theme-moon-dark min-h-screen bg-gohan flex-1 w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl lg:px-16 lg:pt-12 lg:pb-8 xl:px-32">
         <div className="max-w-screen-xl">

@@ -11,6 +11,7 @@ const Updates = () => (
     />
     <FacingReel>
       <CardArticle
+        variant="wide"
         href="https://moonds.medium.com/introduction-to-the-world-of-dialogs-and-notifications-ad74d55fff0d"
         title="Introduction to the world of dialogs and notifications."
         section="blog"
@@ -30,6 +31,7 @@ const Updates = () => (
         author="Dmytro Nikolaienko"
       />
       <CardArticle
+        variant="wide"
         href="/gettingStarted"
         title="Learn how to get Moon Design System up and running in your project."
         section=".tools"

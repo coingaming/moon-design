@@ -52,7 +52,7 @@ const TransformIcon: React.FC = () => {
 
   return (
     <section className="mt-8">
-      <h1 className="text-5xl font-semibold">
+      <h1 className="text-5xl font-medium">
         Transform SVG into React components.
       </h1>
       <div className="mt-8">

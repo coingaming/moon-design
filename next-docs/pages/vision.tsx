@@ -36,7 +36,7 @@ const useMediaQuery = () => {
 
 const Header = () => (
   <>
-    <h1 className="text-6xl text-white tracking-tight font-semibold max-w-sm">
+    <h1 className="text-6xl text-white tracking-tight font-medium max-w-sm">
       Build the best products faster.
     </h1>
   </>

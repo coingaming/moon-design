@@ -19,9 +19,9 @@ const Home = () => (
         <Contributors />
       </div>
     </div>
-    <ForDesigners />
+    {/* <ForDesigners />
     <ForDevelopers />
-    <MoonAndEarthAnimation />
+    <MoonAndEarthAnimation /> */}
   </>
 );
 
