@@ -2,10 +2,10 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
-import HorizontalVariants from "../../public/examples/tabs/HorizontalVariants";
+import HorizontalVariants from '../../public/examples/tabs/HorizontalVariants';
 import Small from '../../public/examples/tabs/Small';
 import Variant from '../../public/examples/tabs/Variant';
-import VerticalVariants from "../../public/examples/tabs/VerticalVariants";
+import VerticalVariants from '../../public/examples/tabs/VerticalVariants';
 import useExamples from '../../utils/useExamples';
 
 const PageTabsNew = () => {
@@ -13,13 +13,15 @@ const PageTabsNew = () => {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Tabs</h1>
+        <h1 className="text-5xl font-medium">Tabs</h1>
         <p className="text-lg mt-4">
           Use tabs to allow users to navigate easily between views within the
           same context.
         </p>
         <p className="text-lg mt-4">
-          Each tab should contain content that is distinct from other tabs in a set. For example, tabs can present different sections of news, different genres of music, or different themes of documents.
+          Each tab should contain content that is distinct from other tabs in a
+          set. For example, tabs can present different sections of news,
+          different genres of music, or different themes of documents.
         </p>
       </section>
 

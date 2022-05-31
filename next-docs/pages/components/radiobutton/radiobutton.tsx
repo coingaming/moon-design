@@ -5,7 +5,7 @@ import PropsTable from '../../../components/PropsTable';
 import Checked from '../../../public/examples/radiobutton/radiobutton/Checked';
 import Default from '../../../public/examples/radiobutton/radiobutton/Default';
 import Disabled from '../../../public/examples/radiobutton/radiobutton/Disabled';
-import NoLabel from "../../../public/examples/radiobutton/radiobutton/NoLabel";
+import NoLabel from '../../../public/examples/radiobutton/radiobutton/NoLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function RadioButtonPage() {
@@ -14,7 +14,7 @@ export default function RadioButtonPage() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">RadioButton</h1>
+        <h1 className="text-5xl font-medium">RadioButton</h1>
         <p className="text-lg mt-4">
           Radio buttons are used to represent a group or category of choices
           whereby users can only select one option - the main difference from

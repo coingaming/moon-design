@@ -16,7 +16,7 @@ export default function PageDateInput() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">TextInput</h1>
+        <h1 className="text-5xl font-medium">TextInput</h1>
         <p className="text-lg mt-4">
           The TextInput wrapper component is used when you need to let users
           enter the text of some kind, such as their name or phone number etc.

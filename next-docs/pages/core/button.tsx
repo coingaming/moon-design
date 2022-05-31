@@ -5,7 +5,7 @@ import { GenericSettings } from '@heathmont/moon-icons';
 const PageButton = () => {
   return (
     <div>
-      <section className="mt-8 text-3xl font-bold">Variants</section>
+      <section className="mt-8 text-3xl font-medium">Variants</section>
       {/* Variants */}
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around w-full items-center">
@@ -16,7 +16,7 @@ const PageButton = () => {
         </div>
       </div>
 
-      <section className="mt-8 text-3xl font-bold">Sizes</section>
+      <section className="mt-8 text-3xl font-medium">Sizes</section>
       {/* Variants */}
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around w-full items-center">
@@ -28,7 +28,7 @@ const PageButton = () => {
         </div>
       </div>
 
-      <section className="mt-8 text-3xl font-bold">Icons</section>
+      <section className="mt-8 text-3xl font-medium">Icons</section>
       {/* Variants */}
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around w-full items-center">
@@ -53,7 +53,7 @@ const PageButton = () => {
         </div>
       </div>
 
-      <section className="mt-8 text-3xl font-bold">Full width</section>
+      <section className="mt-8 text-3xl font-medium">Full width</section>
       {/* Variants */}
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around w-full items-center">
@@ -63,7 +63,7 @@ const PageButton = () => {
         </div>
       </div>
 
-      <section className="mt-8 text-3xl font-bold">Disabled</section>
+      <section className="mt-8 text-3xl font-medium">Disabled</section>
       {/* Variants */}
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around w-full items-center">
@@ -71,7 +71,7 @@ const PageButton = () => {
         </div>
       </div>
 
-      <section className="mt-8 text-3xl font-bold">Animations</section>
+      <section className="mt-8 text-3xl font-medium">Animations</section>
       {/* Variants */}
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around w-full items-center">

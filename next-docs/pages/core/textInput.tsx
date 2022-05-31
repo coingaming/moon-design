@@ -14,7 +14,7 @@ const inputProps2 = {
 
 const Example = () => (
   <div className="theme-moon-dark">
-    <section className="mt-8 text-3xl font-bold">Sizes</section>
+    <section className="mt-8 text-3xl font-medium">Sizes</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInputGroup
@@ -26,7 +26,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Sizes</section>
+    <section className="mt-8 text-3xl font-medium">Sizes</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput
@@ -50,10 +50,10 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-12 text-3xl font-bold opacity-moon text-center">
+    <section className="mt-12 text-3xl font-medium opacity-moon text-center">
       Text Input Types
     </section>
-    <section className="mt-4 text-3xl font-bold opacity-moon">Number</section>
+    <section className="mt-4 text-3xl font-medium opacity-moon">Number</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput
@@ -76,7 +76,7 @@ const Example = () => (
         />
       </div>
     </div>
-    <section className="mt-8 text-3xl font-bold opacity-moon">Date</section>
+    <section className="mt-8 text-3xl font-medium opacity-moon">Date</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput
@@ -99,7 +99,7 @@ const Example = () => (
         />
       </div>
     </div>
-    <section className="mt-8 text-3xl font-bold opacity-moon">Time</section>
+    <section className="mt-8 text-3xl font-medium opacity-moon">Time</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput
@@ -122,7 +122,7 @@ const Example = () => (
         />
       </div>
     </div>
-    <section className="mt-8 text-3xl font-bold opacity-moon">
+    <section className="mt-8 text-3xl font-medium opacity-moon">
       Date Time
     </section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
@@ -147,7 +147,7 @@ const Example = () => (
         />
       </div>
     </div>
-    <section className="mt-8 text-3xl font-bold opacity-moon">Email</section>
+    <section className="mt-8 text-3xl font-medium opacity-moon">Email</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput
@@ -170,7 +170,9 @@ const Example = () => (
         />
       </div>
     </div>
-    <section className="mt-8 text-3xl font-bold opacity-moon">Password</section>
+    <section className="mt-8 text-3xl font-medium opacity-moon">
+      Password
+    </section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput
@@ -196,7 +198,7 @@ const Example = () => (
         />
       </div>
     </div>
-    <section className="mt-8 text-3xl font-bold opacity-moon">Search</section>
+    <section className="mt-8 text-3xl font-medium opacity-moon">Search</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput
@@ -219,7 +221,7 @@ const Example = () => (
         />
       </div>
     </div>
-    <section className="mt-8 text-3xl font-bold opacity-moon">
+    <section className="mt-8 text-3xl font-medium opacity-moon">
       Telephone
     </section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
@@ -244,7 +246,7 @@ const Example = () => (
         />
       </div>
     </div>
-    <section className="mt-8 text-3xl font-bold opacity-moon">Url</section>
+    <section className="mt-8 text-3xl font-medium opacity-moon">Url</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput
@@ -268,11 +270,13 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-12 text-3xl font-bold opacity-moon text-center">
+    <section className="mt-12 text-3xl font-medium opacity-moon text-center">
       Text Input Attribute
     </section>
 
-    <section className="mt-4 text-3xl font-bold opacity-moon">Disabled</section>
+    <section className="mt-4 text-3xl font-medium opacity-moon">
+      Disabled
+    </section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput
@@ -302,7 +306,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-4 text-3xl font-bold opacity-moon">Error</section>
+    <section className="mt-4 text-3xl font-medium opacity-moon">Error</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput
@@ -332,7 +336,9 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-4 text-3xl font-bold opacity-moon">Readonly</section>
+    <section className="mt-4 text-3xl font-medium opacity-moon">
+      Readonly
+    </section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput
@@ -365,7 +371,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section dir="rtl" className="mt-8 text-3xl font-bold">
+    <section dir="rtl" className="mt-8 text-3xl font-medium">
       Sizes RTL
     </section>
     <div
@@ -397,7 +403,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Without Label</section>
+    <section className="mt-8 text-3xl font-medium">Without Label</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-end w-full gap-2">
         <TextInput type="text" inputSize="md" placeholder="Placeholder" />
@@ -406,7 +412,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-4 text-3xl font-bold opacity-moon">
+    <section className="mt-4 text-3xl font-medium opacity-moon">
       Hint message
     </section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
@@ -435,7 +441,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-4 text-3xl font-bold opacity-moon">
+    <section className="mt-4 text-3xl font-medium opacity-moon">
       Input with background color
     </section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">

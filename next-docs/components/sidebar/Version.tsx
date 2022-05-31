@@ -2,7 +2,7 @@ import { LogoMoonDesignShort } from '@heathmont/moon-assets';
 import packageInfo from '../../package.json';
 
 const Version = () => (
-  <div className="flex mt-10 text-moon-14 text-trunks gap-2">
+  <div className="flex text-moon-14 text-trunks gap-2">
     <LogoMoonDesignShort fontSize="1.5rem" />
     <p>
       Version <span className="font-medium">{packageInfo.version}</span>

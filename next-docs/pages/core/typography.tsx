@@ -1,6 +1,6 @@
 const Example = () => (
   <div className="text-bulma">
-    <section className="mt-8 text-3xl font-bold">Text</section>
+    <section className="mt-8 text-3xl font-medium">Text</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="w-full">
         <p className="text-moon-9">Size 9</p>
@@ -19,7 +19,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Heading</section>
+    <section className="mt-8 text-3xl font-medium">Heading</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="w-full">
         <h3 className="text-moon-9 font-medium">Size 9</h3>
@@ -38,7 +38,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Caption</section>
+    <section className="mt-8 text-3xl font-medium">Caption</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="w-full">
         <div>

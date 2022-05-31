@@ -1,9 +1,9 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import PropsTable from "../../components/PropsTable";
-import Content from "../../public/examples/tooltip/Content";
+import PropsTable from '../../components/PropsTable';
+import Content from '../../public/examples/tooltip/Content';
 import Default from '../../public/examples/tooltip/Default';
-import Positions from "../../public/examples/tooltip/Positions";
+import Positions from '../../public/examples/tooltip/Positions';
 import useExamples from '../../utils/useExamples';
 
 export default function PageTooltip() {
@@ -12,7 +12,7 @@ export default function PageTooltip() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Tooltip</h1>
+        <h1 className="text-5xl font-medium">Tooltip</h1>
         <p className="text-lg mt-4">
           Tooltips offer further contextual information to users.
         </p>
@@ -95,7 +95,8 @@ export default function PageTooltip() {
             type: 'boolean',
             required: false,
             default: 'true',
-            description: 'Should Tooltip be rendered relative to parent or body element',
+            description:
+              'Should Tooltip be rendered relative to parent or body element',
           },
         ]}
       />

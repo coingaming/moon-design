@@ -3,7 +3,7 @@ import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons';
 
 const Example = () => (
   <div>
-    <section className="mt-8 text-3xl font-bold">Sizes</section>
+    <section className="mt-8 text-3xl font-medium">Sizes</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Chip size="sm">Small</Chip>
@@ -11,7 +11,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Active</section>
+    <section className="mt-8 text-3xl font-medium">Active</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <Chip isActive size="sm">
         Active
@@ -19,7 +19,7 @@ const Example = () => (
       <Chip isActive>Active</Chip>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Icons</section>
+    <section className="mt-8 text-3xl font-medium">Icons</section>
     <div className="flex flex-col gap-10 items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Chip size="sm" iconLeft={<MediaMusic fontSize="1.5rem" />}>
@@ -61,7 +61,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">IsStroke</section>
+    <section className="mt-8 text-3xl font-medium">IsStroke</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Chip isStroke size="sm">
@@ -71,7 +71,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Variants</section>
+    <section className="mt-8 text-3xl font-medium">Variants</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Chip>Default variant</Chip>
@@ -79,7 +79,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Icons with isStroke</section>
+    <section className="mt-8 text-3xl font-medium">Icons with isStroke</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex flex-col w-full gap-10">
         <div className="flex justify-around items-center w-full">

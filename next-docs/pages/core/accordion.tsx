@@ -8,7 +8,7 @@ import {
 
 const Example = () => (
   <div>
-    <section className="mt-8 text-3xl font-bold">Default</section>
+    <section className="mt-8 text-3xl font-medium">Default</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Accordion title">
@@ -25,7 +25,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Open by default</section>
+    <section className="mt-8 text-3xl font-medium">Open by default</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Accordion title" openByDefault>
@@ -42,7 +42,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Without button</section>
+    <section className="mt-8 text-3xl font-medium">Without button</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Accordion title" withButton={false}>
@@ -59,7 +59,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Disable open</section>
+    <section className="mt-8 text-3xl font-medium">Disable open</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Accordion title" disableOpen>
@@ -76,7 +76,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Content outside</section>
+    <section className="mt-8 text-3xl font-medium">Content outside</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Accordion title" isContentInside={false}>
@@ -93,7 +93,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Header content</section>
+    <section className="mt-8 text-3xl font-medium">Header content</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion title="Accordion title" isContentInside={false}>
@@ -110,7 +110,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Header content</section>
+    <section className="mt-8 text-3xl font-medium">Header content</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex justify-around items-center w-full">
         <Accordion
@@ -137,7 +137,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">Sizes</section>
+    <section className="mt-8 text-3xl font-medium">Sizes</section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
       <div className="flex flex-col gap-y-3">
         <Accordion title="XL Accordion title" size="xl">
@@ -190,7 +190,7 @@ const Example = () => (
       </div>
     </div>
 
-    <section className="mt-8 text-3xl font-bold">
+    <section className="mt-8 text-3xl font-medium">
       Sizes: content outside
     </section>
     <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">

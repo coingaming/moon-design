@@ -10,7 +10,7 @@ export default function PageSidebar() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Sidebar</h1>
+        <h1 className="text-5xl font-medium">Sidebar</h1>
       </section>
 
       {/* Default */}
