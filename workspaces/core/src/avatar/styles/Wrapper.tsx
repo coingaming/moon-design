@@ -16,9 +16,9 @@ const Wrapper: React.FC<AvatarProps> = ({
         'overflow-hidden uppercase font-medium flex items-center justify-center bg-cover',
         color && color,
         backgroundColor && backgroundColor,
-        // imageUrl && `bg-[url('${imageUrl}')]`,
         setWrapperSize(size)
       )}
+      style={{ backgroundImage: `url('${imageUrl}')` }}
     >
       {children}
     </div>

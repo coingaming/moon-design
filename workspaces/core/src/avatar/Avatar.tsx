@@ -14,33 +14,35 @@ const Avatar: React.FC<AvatarProps> = ({
   size = 'md',
   statusOrigin = { vertical: 'bottom', horizontal: 'right' },
   isStatusActive,
-}) => (
-  <div className="relative">
-    {imageUrl ? (
-      <Wrapper
-        size={size}
-        imageUrl={imageUrl}
-        color={color}
-        backgroundColor={backgroundColor}
-      />
-    ) : (
-      <Wrapper
-        size={size}
-        imageUrl={imageUrl}
-        color={color}
-        backgroundColor={backgroundColor}
-      >
-        {name || (
-          <GenericUser
-            className={classNames(setIconSize(size), color && color)}
-          />
-        )}
-      </Wrapper>
-    )}
-    {statusOrigin && isStatusActive && (
-      <Status size={size} statusOrigin={statusOrigin} />
-    )}
-  </div>
-);
+}) => {
+  return (
+    <div className="relative">
+      {imageUrl ? (
+        <Wrapper
+          size={size}
+          imageUrl={imageUrl}
+          color={color}
+          backgroundColor={backgroundColor}
+        />
+      ) : (
+        <Wrapper
+          size={size}
+          imageUrl={imageUrl}
+          color={color}
+          backgroundColor={backgroundColor}
+        >
+          {name || (
+            <GenericUser
+              className={classNames(setIconSize(size), color && color)}
+            />
+          )}
+        </Wrapper>
+      )}
+      {statusOrigin && isStatusActive && (
+        <Status size={size} statusOrigin={statusOrigin} />
+      )}
+    </div>
+  );
+};
 
 export default Avatar;
