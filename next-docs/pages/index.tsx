@@ -1,4 +1,3 @@
-import React from 'react';
 import Contributors from '../components/facing/Contributors';
 import ForDesigners from '../components/facing/ForDesigners';
 import ForDevelopers from '../components/facing/ForDevelopers';

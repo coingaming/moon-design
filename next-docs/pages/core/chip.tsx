@@ -14,7 +14,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />
@@ -23,7 +22,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Active"
-          isGrayBg
           preview={<Active />}
           code={examples ? examples.Active : 'Loading'}
         />
@@ -32,7 +30,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Icons"
-          isGrayBg
           preview={<Icons />}
           code={examples ? examples.Icons : 'Loading'}
         />
@@ -41,7 +38,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Is Stroke"
-          isGrayBg
           preview={<IsStroke />}
           code={examples ? examples.IsStroke : 'Loading'}
         />
@@ -50,7 +46,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Is Stroke with Icons"
-          isGrayBg
           preview={<IsStrokeIcons />}
           code={examples ? examples.IsStrokeIcons : 'Loading'}
         />

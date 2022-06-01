@@ -1,4 +1,3 @@
-import React from 'react';
 import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../../components/codePreview/Preview';
 import PropsTable from '../../../components/PropsTable';
@@ -29,7 +28,6 @@ const PageCaption = () => {
       <section className="mt-8">
         <Preview
           title="Colors"
-          isGrayBg
           preview={<Colors />}
           code={examples ? examples.Colors : 'Loading'}
         />
@@ -38,7 +36,6 @@ const PageCaption = () => {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />
@@ -47,7 +44,6 @@ const PageCaption = () => {
       <section className="mt-8">
         <Preview
           title="Font Weight"
-          isGrayBg
           preview={<FontWeight />}
           code={examples ? examples.FontWeight : 'Loading'}
         />
@@ -56,7 +52,6 @@ const PageCaption = () => {
       <section className="mt-8">
         <Preview
           title="Text Align"
-          isGrayBg
           preview={<TextAlign />}
           code={examples ? examples.TextAlign : 'Loading'}
         />
@@ -65,7 +60,6 @@ const PageCaption = () => {
       <section className="mt-8">
         <Preview
           title="Semantic tags"
-          isGrayBg
           preview={<SemanticTags />}
           code={examples ? examples.SemanticTags : 'Loading'}
         />

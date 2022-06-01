@@ -1,13 +1,12 @@
 import { useState } from 'react';
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
+import Footer from './Footer';
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
 
-type Props = {
-  children: React.ReactNode;
-};
-
-const Layout = ({ children }: Props) => {
+const VisionLayout: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => setSidebarOpen(true);
   return (
@@ -21,7 +20,7 @@ const Layout = ({ children }: Props) => {
         <Sidebar />
       </div>
       <div className="theme-moon-dark min-h-screen bg-gohan flex-1 w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12">
-        <div className="flex flex-col grow max-w-screen-x">
+        <div className="flex flex-col grow max-w-screen-xl">
           {/* Opens sidebar on mobile */}
           <div className="lg:hidden flex flex-row align-center">
             <button
@@ -53,12 +52,13 @@ const Layout = ({ children }: Props) => {
           </div>
           {/* TODO overflow-y-auto */}
           <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
-            <div>{children}</div>
+            <div className="flex flex-col gap-12 pt-12 pb-16">{children}</div>
           </main>
+          <Footer />
         </div>
       </div>
     </div>
   );
 };
 
-export default Layout;
+export default VisionLayout;

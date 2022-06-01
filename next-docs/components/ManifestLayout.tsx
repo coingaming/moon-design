@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import useFeatureFlags from '../utils/useFeatureFlags';
 import Footer from './Footer';
 import ElixirSettings from './settings/elixir/ElixirSettings';
@@ -6,7 +6,9 @@ import ReactSettings from './settings/react/ReactSettings';
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
 
-const ManifestLayout = ({ children }: { children: React.ReactNode }) => {
+const ManifestLayout: React.FC<{ children: React.ReactNode }> = ({
+  children,
+}) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => setSidebarOpen(true);
   const [isElixir, setIsElixir] = useState<boolean>(false); // React or Elixir view
@@ -61,7 +63,7 @@ const ManifestLayout = ({ children }: { children: React.ReactNode }) => {
                 isReactEnabled={!isElixir}
               />
             )}
-            <div>{children}</div>
+            <div className="flex flex-col gap-12 pt-12 pb-16">{children}</div>
           </main>
           <Footer />
         </div>

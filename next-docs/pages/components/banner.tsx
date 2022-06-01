@@ -1,4 +1,3 @@
-import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Buttons from '../../public/examples/banner/Buttons';
@@ -29,7 +28,6 @@ const PageBanner = () => {
         <Preview
           title="Default"
           preview={<Default />}
-          isGrayBg
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
@@ -38,7 +36,6 @@ const PageBanner = () => {
         <Preview
           title="Buttons"
           preview={<Buttons />}
-          isGrayBg
           code={examples ? examples.Buttons : 'Loading'}
         />
       </section>
@@ -47,7 +44,6 @@ const PageBanner = () => {
         <Preview
           title="Header Icon"
           preview={<HeaderIcon />}
-          isGrayBg
           code={examples ? examples.HeaderIcon : 'Loading'}
         />
       </section>
@@ -56,7 +52,6 @@ const PageBanner = () => {
         <Preview
           title="Mobile"
           preview={<Mobile />}
-          isGrayBg
           code={examples ? examples.Mobile : 'Loading'}
         />
       </section>
@@ -65,7 +60,6 @@ const PageBanner = () => {
         <Preview
           title="Singleline"
           preview={<Singleline />}
-          isGrayBg
           code={examples ? examples.Singleline : 'Loading'}
         />
       </section>
