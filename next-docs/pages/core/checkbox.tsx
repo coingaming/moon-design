@@ -1,59 +1,61 @@
-import React, { useState } from 'react';
-import { Checkbox } from '@heathmont/moon-core-tw';
+import React from 'react';
+import Preview from '../../components/codePreview/Preview';
+import Checked from '../../public/examples/checkboxTW/Checked';
+import Default from '../../public/examples/checkboxTW/Default';
+import Disabled from '../../public/examples/checkboxTW/Disabled';
+import NoLabel from '../../public/examples/checkboxTW/NoLabel';
+import ReadOnly from '../../public/examples/checkboxTW/ReadOnly';
+import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
-  const [isChecked, setIsChecked] = useState(true);
+  const examples = useExamples('checkboxTW');
+
   return (
-    <div>
-      <section className="mt-8 text-3xl font-medium">Checkbox</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-center w-full">
-          <Checkbox
-            label="I agree to receive bonus & marketing emails."
-            id="checkbox1"
-          />
-        </div>
-      </div>
+    <div className="theme-moon-dark">
+      <section className="mt-8">
+        <Preview
+          title="Checkbox"
+          isGrayBg
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
 
-      <section className="mt-8 text-3xl font-medium">Checked</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-center w-full">
-          <Checkbox
-            checked={isChecked}
-            onClick={() => setIsChecked(!isChecked)}
-            onChange={() => {
-              console.log('isChecked:', isChecked);
-            }}
-            label="I agree to receive bonus & marketing emails."
-            id="checkbox2"
-          />
-        </div>
-      </div>
+      <section className="mt-8">
+        <Preview
+          title="Checked"
+          isGrayBg
+          preview={<Checked />}
+          code={examples ? examples.Checked : 'Loading'}
+        />
+      </section>
 
-      <section className="mt-8 text-3xl font-medium">NoLabel</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-center w-full">
-          <Checkbox id="checkbox3" />
-        </div>
-      </div>
+      <section className="mt-8">
+        <Preview
+          title="No Label"
+          isGrayBg
+          preview={<NoLabel />}
+          code={examples ? examples.NoLabel : 'Loading'}
+        />
+      </section>
 
-      <section className="mt-8 text-3xl font-medium">Disabled</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-center w-full">
-          <Checkbox
-            disabled
-            label="I agree to receive bonus & marketing emails."
-            id="checkbox4"
-          />
-        </div>
-      </div>
+      <section className="mt-8">
+        <Preview
+          title="Disabled"
+          isGrayBg
+          preview={<Disabled />}
+          code={examples ? examples.Disabled : 'Loading'}
+        />
+      </section>
 
-      <section className="mt-8 text-3xl font-medium">ReadOnly</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-center w-full">
-          <Checkbox readOnly={true} label="Readonly checkbox." id="checkbox4" />
-        </div>
-      </div>
+      <section className="mt-8">
+        <Preview
+          title="ReadOnly"
+          isGrayBg
+          preview={<ReadOnly />}
+          code={examples ? examples.ReadOnly : 'Loading'}
+        />
+      </section>
     </div>
   );
 }

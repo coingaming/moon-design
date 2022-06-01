@@ -34,6 +34,7 @@ const Preview = ({ title, preview, code, isGrayBg }: PreviewProps) => {
         <Heading as="h2" size={24}>
           {title}
         </Heading>
+
         <PreviewSwitch
           isPreviewActive={isPreviewActive}
           setPreviewActive={setPreviewActive}
@@ -46,7 +47,7 @@ const Preview = ({ title, preview, code, isGrayBg }: PreviewProps) => {
           isPreviewActive
             ? 'bg-white flex justify-center'
             : 'bg-black text-white overflow-x-scroll',
-          'mt-4 overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6',
+          'mt-4 overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6 text-moon-16 font-light',
           isGrayBg ? 'bg-slate-200 text-gray-600' : ''
         )}
       >
