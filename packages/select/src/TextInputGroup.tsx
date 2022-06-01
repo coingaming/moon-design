@@ -1,57 +1,69 @@
 import React from 'react';
-
+import { TextInputProps } from '@heathmont/moon-core';
 import SelectGroupEnd from './private/SelectGroupEnd';
 import SelectGroupStart from './private/SelectGroupStart';
 import { OrientationType } from './private/types/OrientationType';
 import { SelectProps } from './Select';
 import Container from './styles/Container';
 
+export type DirType = 'ltr' | 'rtl' | 'auto';
+
+export type InputPropType = Partial<SelectProps<any>> & Partial<TextInputProps> & { type: string };
+
+export type TextInputGroupSize = "medium" | "large";;
 export interface TextInputGroupProps {
   orientation?: OrientationType;
-  selectProps?: {
-    input1?: SelectProps<any>;
-    input2?: SelectProps<any>;
+  inputProps?: {
+    input1?: InputPropType;
+    input2?: InputPropType;
   };
   isRtl?: boolean;
+  size?: TextInputGroupSize;
 }
 
 const determineInputStart = (
   orientation?: OrientationType,
-  selectProps?: SelectProps<any>,
-  isRtl?: boolean
+  inputProps?: InputPropType,
+  isRtl?: boolean,
+  size?: TextInputGroupSize
 ) => {
   const groupProps = {
-    selectProps: selectProps ?? {},
+    inputProps: inputProps ?? { type: 'text' },
     orientation,
     isRtl,
+    size
   };
   return <SelectGroupStart {...groupProps} />;
 };
 
 const determineInputEnd = (
   orientation?: OrientationType,
-  selectProps?: SelectProps<any>,
-  isRtl?: boolean
+  inputProps?: InputPropType,
+  isRtl?: boolean,
+  size?: TextInputGroupSize
 ) => {
   const groupProps = {
-    selectProps: selectProps ?? {},
+    inputProps: inputProps ?? { type: 'text' },
     orientation,
     isRtl,
+    size
   };
   return <SelectGroupEnd {...groupProps} />;
 };
 
 const TextInputGroup: React.FC<TextInputGroupProps> = ({
   orientation = 'horizontal',
-  selectProps,
+  inputProps,
   isRtl,
+  size
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
-  const isError = selectProps?.input1?.isError || selectProps?.input2?.isError;
+  const isError = inputProps?.input1?.isError || inputProps?.input2?.isError;
+
   return (
     <Container orientation={orientation} dir={dir} isError={isError}>
-      {determineInputStart(orientation, selectProps?.input1, isRtl)}
-      {determineInputEnd(orientation, selectProps?.input2, isRtl)}
+      {determineInputStart(orientation, inputProps?.input1, isRtl, size)}
+      {determineInputEnd(orientation, inputProps?.input2, isRtl, size)}
     </Container>
   );
 };

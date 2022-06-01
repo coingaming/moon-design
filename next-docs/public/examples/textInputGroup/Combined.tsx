@@ -1,5 +1,5 @@
-import React from 'react';
 import { TextInputGroup } from '@heathmont/moon-select';
+import React from 'react';
 
 const Example = () => {
   const options = [
@@ -17,22 +17,24 @@ const Example = () => {
     },
   ];
 
-  const selectProps1 = {
+  const inputProps = {
+    type: 'text',
+    placeholder: 'Country',
+  };
+
+  const selectProps = {
+    type: "select",
     options,
-    label: 'xLarge',
+    label: 'select',
     placeholderSlot: 'Choose an option',
   };
-  const selectProps2 = {
-    options,
-    label: 'xLarge',
-    placeholderSlot: 'Choose an option',
-  };
+
   return (
     <div className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40">
       <TextInputGroup
         inputProps={{
-          input1: selectProps1,
-          input2: selectProps2,
+          input1: inputProps,
+          input2: selectProps
         }}
         size="medium"
       />
