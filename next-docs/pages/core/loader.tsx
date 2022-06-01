@@ -1,30 +1,40 @@
 import React from 'react';
-import { Loader } from '@heathmont/moon-core-tw';
+import Preview from '../../components/codePreview/Preview';
+import Colors from '../../public/examples/loaderTW/Colors';
+import Default from '../../public/examples/loaderTW/Default';
+import Sizes from '../../public/examples/loaderTW/Sizes';
+import useExamples from '../../utils/useExamples';
 
 const Example = () => {
+  const examples = useExamples('loaderTW');
+
   return (
-    <div>
-      <section className="mt-8 text-3xl font-medium">Loader</section>
-      {/* Variants */}
-      <section className={`mt-8`}>
-        <div className="text-2xl font-medium pb-4">Default</div>
-        <div className="flex justify-around w-full items-center bg-gray-50 py-6 rounded-lg">
-          <Loader />
-        </div>
-        <div className="text-2xl font-medium pb-4">Sizes</div>
-        <div className="flex justify-around w-full items-center bg-gray-50 py-6 rounded-lg mb-6">
-          <Loader size="2xs" />
-          <Loader size="xs" />
-          <Loader size="sm" />
-          <Loader />
-          <Loader size="lg" />
-        </div>
-        <div className="text-2xl font-medium pb-4">Colours</div>
-        <div className="flex justify-around w-full items-center bg-gray-50 py-6 rounded-lg">
-          <Loader color="border-dodoria" />
-          <Loader color="border-trunks" />
-          <Loader color="border-raditz" />
-        </div>
+    <div className="theme-moon-dark">
+      <section className="mt-8">
+        <Preview
+          title="Default"
+          isGrayBg
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Sizes"
+          isGrayBg
+          preview={<Sizes />}
+          code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Colors"
+          isGrayBg
+          preview={<Colors />}
+          code={examples ? examples.Colors : 'Loading'}
+        />
       </section>
     </div>
   );
