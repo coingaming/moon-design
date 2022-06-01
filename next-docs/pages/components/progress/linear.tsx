@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
-import PropsTable from "../../../components/PropsTable";
+import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/progress/linear/Default';
 import useExamples from '../../../utils/useExamples';
 
@@ -10,7 +10,7 @@ export default function PageProgressLinear() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Progress Linear</h1>
+        <h1 className="text-5xl font-medium">Progress Linear</h1>
         <p className="text-lg mt-4">
           A progress indicator is a visual representation of a user’s progress
           through a set of steps, guiding toward the completion of a specified

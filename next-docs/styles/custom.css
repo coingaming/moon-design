@@ -1,29 +1,7 @@
 /* Custom styles */
-.for-designers {
-  top: 50px;
-  right: 23rem;
-}
-
-.for-developers {
-  top: 28.1rem;
-  right: 0;
-}
-
 .hover-border:hover {
   border-radius: 100px;
   /* transition: border-radius 150ms; */
-}
-
-.carousel-item {
-  min-width: 468px;
-  height: 292px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.carousel-item--vertical {
-  min-width: 276px;
-  height: 448px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .reel {

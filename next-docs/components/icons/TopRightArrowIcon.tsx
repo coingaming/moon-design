@@ -9,12 +9,11 @@ const TopRightArrowIcon = () => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
-      d="M2 30.5L30.4891 2M30.4891 2H15.1459M30.4891 2L30.4891 17.3432"
+      d="M6.5 25.5l18.993-19m0 0h-10.23m10.23 0v10.229"
       stroke="currentColor"
-      strokeWidth="3"
       strokeLinecap="round"
       strokeLinejoin="round"
-    />
+    ></path>
   </svg>
 );
 

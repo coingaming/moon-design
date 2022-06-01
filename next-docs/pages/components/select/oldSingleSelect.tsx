@@ -22,7 +22,7 @@ export default function PageSelectSingle() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">SingleSelect</h1>
+        <h1 className="text-5xl font-medium">SingleSelect</h1>
         <p className="text-lg mt-4">
           SingleSelect presents a list of selecteble options and allows a user
           to select one of them.

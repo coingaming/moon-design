@@ -1,39 +1,61 @@
 import React from 'react';
+import { rem } from '@heathmont/moon-utils';
 import Link from 'next/link';
 import classNames from '../../utils/classNames';
 
-interface Props {
-  variant?: 'horizontal' | 'vertical';
+type Props = {
+  variant?: 'default' | 'tall' | 'wide';
   title: string;
   section: string;
   href: string;
   author?: string;
-}
+};
+
+const variants = {
+  default: {
+    width: rem(384),
+    height: rem(288),
+  },
+  tall: {
+    width: rem(288),
+    height: rem(448),
+  },
+  wide: {
+    width: rem(448),
+    height: rem(288),
+  },
+};
+
 const CardArcticle: React.FC<Props> = ({
-  variant,
+  variant = 'default',
   title,
   section,
   href,
   author,
 }) => (
   <Link href={href}>
-    <a
-      className={classNames(
-        variant === 'vertical' ? 'carousel-item--vertical' : 'carousel-item',
-        `group block relative flex flex-col justify-end px-6 pt-4 pb-8 bg-white rounded-lg`
-      )}
-    >
-      <p className="absolute top-12 left-10 transform -rotate-90 origin-bottom-left w-min font-semibold">
-        {section}
-      </p>
-      {author && (
-        <p className="absolute top-1 right-4 transform -rotate-90 origin-bottom-right w-max font-semibold">
-          {author}
+    <a target="_blank">
+      <div
+        className={classNames(
+          variant === 'tall' ? 'pr-9' : 'pr-12',
+          `group relative flex flex-col justify-end pl-6 py-6 bg-goku rounded-moon-s-lg`
+        )}
+        style={
+          variant && variant in variants ? variants[variant] : variants.default
+        }
+      >
+        <p className="list-item absolute top-10 left-10 transform -rotate-90 origin-bottom-left text-moon-16 font-medium">
+          {section}
         </p>
-      )}
-      <p className="group-hover:underline text-2xl font-semibold tracking-tight w-10/12">
-        {title}
-      </p>
+        {author && (
+          <p className="absolute top-0 right-6 transform -rotate-90 origin-bottom-right text-moon-16 font-medium">
+            {author}
+          </p>
+        )}
+        <p className="group-hover:underline text-moon-24 font-medium">
+          {title}
+        </p>
+      </div>
     </a>
   </Link>
 );

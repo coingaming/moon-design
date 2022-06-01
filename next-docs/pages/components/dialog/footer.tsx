@@ -12,7 +12,7 @@ export default function PageDialogFooter() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Dialog Footer</h1>
+        <h1 className="text-5xl font-medium">Dialog Footer</h1>
         <p className="text-lg mt-4">
           Footer is a confirmatiuon module to be used in the Dialogs: Modal,
           Popover and the Multi select Dropdown

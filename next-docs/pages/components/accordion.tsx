@@ -16,7 +16,7 @@ const PageAccordion = () => {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Accordion New</h1>
+        <h1 className="text-5xl font-medium">Accordion New</h1>
         <p className="text-lg mt-4">
           Like the accordion instrument, our accordion component reveals or
           hides associated sections of content. This is done through the use of

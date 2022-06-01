@@ -34,7 +34,7 @@ const SubHeader: React.FC = ({ children }) => (
 
 const ImportHelper: React.FC<{ text: string }> = ({ text }) => (
   <>
-    <h2 className="text-2xl font-semibold mt-8">Importing</h2>
+    <h2 className="text-2xl font-medium mt-8">Importing</h2>
     <pre className="overflow-scroll bg-white mt-4 px-4 py-3 text-left text-sm rounded-lg font-medium text-gray-500">
       {text}
     </pre>
@@ -62,7 +62,7 @@ const TextSizesPreview = () => (
 );
 
 const InternalText: React.FC<{}> = ({ children }) => (
-  <p className="text-lg mt-4 font-bold">{children}</p>
+  <p className="text-lg mt-4 font-medium">{children}</p>
 );
 
 export default function PageIcons() {
@@ -91,8 +91,8 @@ export default function PageIcons() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Icons</h1>
-        {/* <h2 className="text-3xl font-semibold mt-8">Using</h2> */}
+        <h1 className="text-5xl font-medium">Icons</h1>
+        {/* <h2 className="text-3xl font-medium mt-8">Using</h2> */}
       </section>
 
       <section className="mt-8">

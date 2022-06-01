@@ -9,7 +9,7 @@ import DeepTable from '../../../public/examples/table/DeepTable';
 import Default from '../../../public/examples/table/Default';
 import ExpandedRow from '../../../public/examples/table/ExpandedRow';
 import MiniMap from '../../../public/examples/table/MiniMap';
-import SelectableCheckboxes from "../../../public/examples/table/SelectableCheckboxes";
+import SelectableCheckboxes from '../../../public/examples/table/SelectableCheckboxes';
 import SelectableRows from '../../../public/examples/table/SelectableRows';
 import Sorting from '../../../public/examples/table/Sorting';
 import useExamples from '../../../utils/useExamples';
@@ -20,7 +20,7 @@ export default function PageTable() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Table</h1>
+        <h1 className="text-5xl font-medium">Table</h1>
         <p className="text-lg mt-4">Lightweight, fast and extendable table.</p>
         <p className="text-lg mt-4">
           Based on{' '}

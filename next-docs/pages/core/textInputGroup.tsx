@@ -14,7 +14,7 @@ const Default = () => {
   };
   return (
     <>
-      <section className="mt-8 text-3xl font-bold">Default</section>
+      <section className="mt-8 text-3xl font-medium">Default</section>
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around items-end w-full gap-2">
           <TextInputGroup
@@ -58,7 +58,7 @@ const Vertical = () => {
 
   return (
     <>
-      <section className="mt-8 text-3xl font-bold">
+      <section className="mt-8 text-3xl font-medium">
         Vertical orientation
       </section>
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
@@ -98,7 +98,7 @@ const Rtl = () => {
 
   return (
     <>
-      <section className="mt-8 text-3xl font-bold">RTL</section>
+      <section className="mt-8 text-3xl font-medium">RTL</section>
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around items-end w-full gap-2">
           <TextInputGroup
@@ -153,7 +153,7 @@ const Sizes = () => {
 
   return (
     <>
-      <section className="mt-8 text-3xl font-bold">Sizes</section>
+      <section className="mt-8 text-3xl font-medium">Sizes</section>
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around items-end w-full gap-2">
           <div>
@@ -201,7 +201,7 @@ const Error = () => {
   };
   return (
     <>
-      <section className="mt-8 text-3xl font-bold">Error</section>
+      <section className="mt-8 text-3xl font-medium">Error</section>
       <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
         <div className="flex justify-around items-end w-full gap-2">
           <TextInputGroup

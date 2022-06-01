@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
-import PropsTable from "../../../components/PropsTable";
+import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/dialog/dialogContent/Default';
 import useExamples from '../../../utils/useExamples';
 
@@ -10,7 +10,7 @@ export default function PageDialogContent() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Dialog Content</h1>
+        <h1 className="text-5xl font-medium">Dialog Content</h1>
         <p className="text-lg mt-4">
           Based on{' '}
           <a className="underline" href="https://reach.tech/dialog">
