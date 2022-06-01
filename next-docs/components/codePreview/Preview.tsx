@@ -1,39 +1,25 @@
-import React, { useState } from 'react';
-import { Heading } from '@heathmont/moon-core';
+import { useState } from 'react';
 import classNames from '../../utils/classNames';
-import PreviewSwitch from './Switch';
+import CodeSnippet from '../CodeSnippet';
+import PreviewSwitch from './PreviewSwitch';
 
-interface CodeProps {
-  code: string;
-}
-
-const Code: React.FC<CodeProps> = ({ code }: CodeProps) => (
-  <pre>
-    <code>{code}</code>
-  </pre>
-);
-
-interface PreviewProps {
+type Props = {
   title?: string;
   preview: React.ReactNode;
   code?: string;
-  isGrayBg?: boolean;
-}
+};
 
-const Preview = ({ title, preview, code, isGrayBg }: PreviewProps) => {
+const Preview = ({ title, preview, code }: Props) => {
   const [isPreviewActive, setActive] = useState(true);
   const setPreviewActive = () => setActive(true);
   const setCodeActive = () => setActive(false);
   const copyCode = () => {
     if (navigator?.clipboard) navigator.clipboard.writeText(code ? code : '');
   };
-
   return (
-    <>
+    <div className="flex flex-col gap-6">
       <div className="flex flex-row items-center justify-between">
-        <Heading as="h2" size={24}>
-          {title}
-        </Heading>
+        <h2 className="text-moon-24 font-medium">{title}</h2>
         <PreviewSwitch
           isPreviewActive={isPreviewActive}
           setPreviewActive={setPreviewActive}
@@ -43,16 +29,17 @@ const Preview = ({ title, preview, code, isGrayBg }: PreviewProps) => {
       </div>
       <div
         className={classNames(
-          isPreviewActive
-            ? 'bg-white flex justify-center'
-            : 'bg-black text-white overflow-x-scroll',
-          'mt-4 overflow-hidden shadow rounded-lg px-4 py-5 sm:p-6',
-          isGrayBg ? 'bg-slate-200 text-gray-600' : ''
+          isPreviewActive ? 'theme-moon-light p-4' : 'theme-moon-dark',
+          'flex bg-goku text-moon-14 rounded-moon-s-sm'
         )}
       >
-        {isPreviewActive ? <>{preview}</> : <>{code && <Code code={code} />}</>}
+        {isPreviewActive ? (
+          <>{preview}</>
+        ) : (
+          <>{code && <CodeSnippet>{code}</CodeSnippet>}</>
+        )}
       </div>
-    </>
+    </div>
   );
 };
 

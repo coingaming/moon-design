@@ -1,10 +1,13 @@
-import React, { useState } from 'react';
-import { FilesCopy } from '@heathmont/moon-icons';
+import { useState } from 'react';
 import Preview from '../components/codePreview/Preview';
+import IconsBlock from '../components/IconsBlock';
+import IconsImportHelper from '../components/IconsImportHelper';
+import PageSection from '../components/PageSection';
 import Arrows from '../public/examples/icons/Arrows';
 import Chart from '../public/examples/icons/Chart';
 import Chat from '../public/examples/icons/Chat';
 import Controls from '../public/examples/icons/Controls';
+import DefaultIconSet from '../public/examples/icons/DefaultIconSet';
 import Devices from '../public/examples/icons/Devices';
 import Files from '../public/examples/icons/Files';
 import Generic from '../public/examples/icons/Generic';
@@ -21,194 +24,144 @@ import Text from '../public/examples/icons/Text';
 import Time from '../public/examples/icons/Time';
 import Travel from '../public/examples/icons/Travel';
 import Type from '../public/examples/icons/Type';
+import useExamples from '../utils/useExamples';
 
-const Block: React.FC = ({ children }) => (
-  <div className="flex flex-row flex-wrap gap-4 bg-white mt-4 px-4 py-3 rounded-lg">
-    {children}
-  </div>
-);
-
-const SubHeader: React.FC = ({ children }) => (
-  <h2 className="text-2xl mt-8">{children}</h2>
-);
-
-const ImportHelper: React.FC<{ text: string }> = ({ text }) => (
-  <>
-    <h2 className="text-2xl font-medium mt-8">Importing</h2>
-    <pre className="overflow-scroll bg-white mt-4 px-4 py-3 text-left text-sm rounded-lg font-medium text-gray-500">
-      {text}
-    </pre>
-  </>
-);
-
-const TextSizesPreview = () => (
-  <Preview
-    title="Sizes &amp; colours"
-    preview={
-      <div className="flex items-center gap-20">
-        <FilesCopy fontSize="1rem" />
-        <FilesCopy fontSize="2rem" />
-        <FilesCopy fontSize="3rem" />
-        <FilesCopy fontSize="3rem" color="cell.100" />
-      </div>
-    }
-    code={`import { FilesCopy } from '@heathmont/moon-icons';
-
-<FilesCopy fontSize="1rem" />
-<FilesCopy fontSize="2rem" />
-<FilesCopy fontSize="3rem" />
-<FilesCopy fontSize="3rem" color="cell.100"/>`}
-  />
-);
-
-const InternalText: React.FC<{}> = ({ children }) => (
-  <p className="text-lg mt-4 font-medium">{children}</p>
-);
-
-export default function PageIcons() {
+const PageIcons = () => {
   const [selectedIcons, setSelectedIcons] = useState<string[]>([]);
-
   const props = { fontSize: '2rem' };
-
   const addIconToSelected: (iconName: string) => string[] = (iconName) =>
     selectedIcons.concat(iconName);
   const removeIconFromSelected = (removedIconName: string) =>
     selectedIcons.filter((name) => name !== removedIconName);
-
   const toggleSelectedIcons: (iconName: string) => string[] = (iconName) => {
     if (selectedIcons.includes(iconName)) {
       return removeIconFromSelected(iconName);
     }
     return addIconToSelected(iconName);
   };
-
   const displaySelectedIconsImport = selectedIcons.length > 0;
-
   const onClick = (iconName: string) =>
     setSelectedIcons(toggleSelectedIcons(iconName));
   const wrapperProps = { onClick, selectedIcons };
-
+  const examples = useExamples('icons');
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Icons</h1>
-        {/* <h2 className="text-3xl font-medium mt-8">Using</h2> */}
-      </section>
-
-      <section className="mt-8">
-        <TextSizesPreview />
-      </section>
-
-      <InternalText>Please select icons for Import</InternalText>
-
+      <h1 className="text-moon-32 font-medium">Icons</h1>
+      <Preview
+        title="Sizes and colours"
+        preview={<DefaultIconSet />}
+        code={examples ? examples.DefaultIconSet : 'Loading'}
+      />
+      <p className="text-moon-16">Please select icons for Import</p>
       {displaySelectedIconsImport ? (
-        <ImportHelper
-          text={`import {
-  ${selectedIcons.join(', ')}
-} from '@heathmont/moon-icons';`}
+        <IconsImportHelper
+          text={`import { ${selectedIcons.join(
+            ', '
+          )} } from '@heathmont/moon-icons';`}
         />
       ) : null}
-
-      <section className="mt-8">
-        <SubHeader>Arrows</SubHeader>
-        <Block>
+      <PageSection title="Arrows">
+        <IconsBlock>
           <Arrows wrapperProps={wrapperProps} props={props} />
-        </Block>
-        <SubHeader>Chart</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Chart">
+        <IconsBlock>
           <Chart wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Chat</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Chat">
+        <IconsBlock>
           <Chat wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Controls</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Controls">
+        <IconsBlock>
           <Controls wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Devices</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Devices">
+        <IconsBlock>
           <Devices wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Files</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Files">
+        <IconsBlock>
           <Files wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Generic</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Generic">
+        <IconsBlock>
           <Generic wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Mail</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Mail">
+        <IconsBlock>
           <Mail wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Maps</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Maps">
+        <IconsBlock>
           <Maps wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Media</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Media">
+        <IconsBlock>
           <Media wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Notifications</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Notifications">
+        <IconsBlock>
           <Notifications wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Other</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Other">
+        <IconsBlock>
           <Other wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Security</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Security">
+        <IconsBlock>
           <Security wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Shop</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Shop">
+        <IconsBlock>
           <Shop wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Software</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Software">
+        <IconsBlock>
           <Software wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Sport</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Sport">
+        <IconsBlock>
           <Sport wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Text</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Text">
+        <IconsBlock>
           <Text wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Time</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Time">
+        <IconsBlock>
           <Time wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Travel</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Travel">
+        <IconsBlock>
           <Travel wrapperProps={wrapperProps} props={props} />
-        </Block>
-
-        <SubHeader>Type</SubHeader>
-        <Block>
+        </IconsBlock>
+      </PageSection>
+      <PageSection title="Type">
+        <IconsBlock>
           <Type wrapperProps={wrapperProps} props={props} />
-        </Block>
-      </section>
+        </IconsBlock>
+      </PageSection>
     </>
   );
-}
+};
+
+export default PageIcons;
