@@ -1,142 +1,62 @@
-import { Chip } from '@heathmont/moon-core-tw';
-import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons';
+import Preview from '../../components/codePreview/Preview';
+import Active from '../../public/examples/chipTW/Active';
+import Icons from '../../public/examples/chipTW/Icons';
+import IsStroke from '../../public/examples/chipTW/IsStroke';
+import IsStrokeIcons from '../../public/examples/chipTW/IsStrokeIcons';
+import Sizes from '../../public/examples/chipTW/Sizes';
+import useExamples from '../../utils/useExamples';
 
-const Example = () => (
-  <div>
-    <section className="mt-8 text-3xl font-medium">Sizes</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Chip size="sm">Small</Chip>
-        <Chip>Medium is Default</Chip>
-      </div>
-    </div>
+const Example = () => {
+  const examples = useExamples('chipTW');
 
-    <section className="mt-8 text-3xl font-medium">Active</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <Chip isActive size="sm">
-        Active
-      </Chip>
-      <Chip isActive>Active</Chip>
-    </div>
-
-    <section className="mt-8 text-3xl font-medium">Icons</section>
-    <div className="flex flex-col gap-10 items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Chip size="sm" iconLeft={<MediaMusic fontSize="1.5rem" />}>
-          Left Icon
-        </Chip>
-        <Chip size="sm" iconRight={<SoftwareDownload fontSize="1.5rem" />}>
-          Right Icon
-        </Chip>
-        <Chip
-          size="sm"
-          iconRight={<SoftwareDownload fontSize="1.5rem" />}
-          iconLeft={<MediaMusic fontSize="1.5rem" />}
-        >
-          Left/Right Icons
-        </Chip>
-        <Chip
-          size="sm"
-          iconRight={<SoftwareDownload fontSize="1.5rem" />}
-          iconLeft={<MediaMusic fontSize="1.5rem" />}
+  return (
+    <div className="theme-moon-dark">
+      <section className="mt-8">
+        <Preview
+          title="Sizes"
+          isGrayBg
+          preview={<Sizes />}
+          code={examples ? examples.Sizes : 'Loading'}
         />
-        <Chip size="sm" iconOnly={<SoftwareDownload fontSize="1.5rem" />} />
-      </div>
-      <div className="flex justify-around items-center w-full">
-        <Chip iconLeft={<MediaMusic fontSize="1.5rem" />}>Left Icon</Chip>
-        <Chip iconRight={<SoftwareDownload fontSize="1.5rem" />}>
-          Right Icon
-        </Chip>
-        <Chip
-          iconRight={<SoftwareDownload fontSize="1.5rem" />}
-          iconLeft={<MediaMusic fontSize="1.5rem" />}
-        >
-          Left/Right Icons
-        </Chip>
-        <Chip
-          iconRight={<SoftwareDownload fontSize="1.5rem" />}
-          iconLeft={<MediaMusic fontSize="1.5rem" />}
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Active"
+          isGrayBg
+          preview={<Active />}
+          code={examples ? examples.Active : 'Loading'}
         />
-        <Chip iconOnly={<SoftwareDownload fontSize="1.5rem" />} />
-      </div>
-    </div>
+      </section>
 
-    <section className="mt-8 text-3xl font-medium">IsStroke</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Chip isStroke size="sm">
-          Stroke on hover
-        </Chip>
-        <Chip isStroke>Stroke on hover</Chip>
-      </div>
-    </div>
+      <section className="mt-8">
+        <Preview
+          title="Icons"
+          isGrayBg
+          preview={<Icons />}
+          code={examples ? examples.Icons : 'Loading'}
+        />
+      </section>
 
-    <section className="mt-8 text-3xl font-medium">Variants</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Chip>Default variant</Chip>
-        <Chip variant="ghost">Ghost variant</Chip>
-      </div>
-    </div>
+      <section className="mt-8">
+        <Preview
+          title="Is Stroke"
+          isGrayBg
+          preview={<IsStroke />}
+          code={examples ? examples.IsStroke : 'Loading'}
+        />
+      </section>
 
-    <section className="mt-8 text-3xl font-medium">Icons with isStroke</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex flex-col w-full gap-10">
-        <div className="flex justify-around items-center w-full">
-          <Chip iconLeft={<MediaMusic fontSize="1.5rem" />} isStroke size="sm">
-            Left Icon
-          </Chip>
-          <Chip
-            iconRight={<SoftwareDownload fontSize="1.5rem" />}
-            isStroke
-            size="sm"
-          >
-            Right Icon
-          </Chip>
-          <Chip
-            iconRight={<SoftwareDownload fontSize="1.5rem" />}
-            iconLeft={<MediaMusic fontSize="1.5rem" />}
-            isStroke
-            size="sm"
-          >
-            Left/Right Icons
-          </Chip>
-          <Chip
-            iconRight={<SoftwareDownload fontSize="1.5rem" />}
-            iconLeft={<MediaMusic fontSize="1.5rem" />}
-            isStroke
-            size="sm"
-          />
-          <Chip
-            iconOnly={<SoftwareDownload fontSize="1.5rem" />}
-            isStroke
-            size="sm"
-          />
-        </div>
-        <div className="flex justify-around items-center w-full">
-          <Chip iconLeft={<MediaMusic fontSize="1.5rem" />} isStroke>
-            Left Icon
-          </Chip>
-          <Chip iconRight={<SoftwareDownload fontSize="1.5rem" />} isStroke>
-            Right Icon
-          </Chip>
-          <Chip
-            iconRight={<SoftwareDownload fontSize="1.5rem" />}
-            iconLeft={<MediaMusic fontSize="1.5rem" />}
-            isStroke
-          >
-            Left/Right Icons
-          </Chip>
-          <Chip
-            iconRight={<SoftwareDownload fontSize="1.5rem" />}
-            iconLeft={<MediaMusic fontSize="1.5rem" />}
-            isStroke
-          />
-          <Chip iconOnly={<SoftwareDownload fontSize="1.5rem" />} isStroke />
-        </div>
-      </div>
+      <section className="mt-8">
+        <Preview
+          title="Is Stroke with Icons"
+          isGrayBg
+          preview={<IsStrokeIcons />}
+          code={examples ? examples.IsStrokeIcons : 'Loading'}
+        />
+      </section>
     </div>
-  </div>
-);
+  );
+};
 
 export default Example;
