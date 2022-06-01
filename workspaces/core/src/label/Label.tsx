@@ -23,7 +23,7 @@ const Label: React.FC<LabelProps> = ({
     {iconLeft && (
       <span
         className={classNames(
-          'me-[0.25rem]',
+          'me-1',
           size === '2xs' ? 'text-[0.75rem]' : 'text-[1rem]'
         )}
       >
@@ -34,7 +34,7 @@ const Label: React.FC<LabelProps> = ({
     {iconRight && (
       <span
         className={classNames(
-          'ms-[0.25rem]',
+          'ms-1',
           size === '2xs' ? 'text-[0.75rem]' : 'text-[1rem]'
         )}
       >

@@ -21,7 +21,7 @@ const LabelContainer: React.FC<LabelProps> = ({
       setFontSize({ isUppercase, size }),
       isUppercase && size === '2xs'
         ? 'tracking-[0.031rem]'
-        : 'tracking-[0.063]',
+        : 'tracking-[0.063rem]',
       color && color,
       backgroundColor && backgroundColor
     )}
