@@ -2,6 +2,8 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import AccessValues from '../../public/examples/textInputGroup/AccessValues';
+import Combined from '../../public/examples/textInputGroup/Combined';
+import CombinedVertical from "../../public/examples/textInputGroup/CombinedVertical";
 import Default from '../../public/examples/textInputGroup/Default';
 import EventListenerSelect from '../../public/examples/textInputGroup/EventListenerSelect';
 import MultiSelect from '../../public/examples/textInputGroup/MultiSelect';
@@ -41,6 +43,22 @@ const PageTextInputGroup = () => {
           title="Default"
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Combined"
+          preview={<Combined />}
+          code={examples ? examples.Combined : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Combined vertical"
+          preview={<CombinedVertical />}
+          code={examples ? examples.CombinedVertical : 'Loading'}
         />
       </section>
 

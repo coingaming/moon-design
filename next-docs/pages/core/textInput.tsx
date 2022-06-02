@@ -1,478 +1,172 @@
-import { TextInput, TextInputGroup } from '@heathmont/moon-core-tw';
+import React from 'react';
+import Preview from '../../components/codePreview/Preview';
+import Bg from '../../public/examples/textInputTW/Bg';
+import Date from '../../public/examples/textInputTW/Date';
+import DateTime from '../../public/examples/textInputTW/DateTime';
+import Disabled from '../../public/examples/textInputTW/Disabled';
+import Email from '../../public/examples/textInputTW/Email';
+import Error from '../../public/examples/textInputTW/Error';
+import Hint from '../../public/examples/textInputTW/Hint';
+import Number from '../../public/examples/textInputTW/Number';
+import Password from '../../public/examples/textInputTW/Password';
+import Readonly from '../../public/examples/textInputTW/Readonly';
+import Search from '../../public/examples/textInputTW/Search';
+import Sizes from '../../public/examples/textInputTW/Sizes';
+import SizesRTL from '../../public/examples/textInputTW/SizesRTL';
+import Telephone from '../../public/examples/textInputTW/Telephone';
+import Time from '../../public/examples/textInputTW/Time';
+import Url from '../../public/examples/textInputTW/Url';
+import WithoutLabel from '../../public/examples/textInputTW/WithoutLabel';
+import useExamples from '../../utils/useExamples';
 
-const inputProps1 = {
-  type: 'text',
-  inputSize: 'medium',
-  placeholder: 'Country',
+const Example = () => {
+  const examples = useExamples('textInputTW');
+  return (
+    <div className="theme-moon-light">
+      <section className="mt-8">
+        <Preview
+          title="Sizes"
+          preview={<Sizes />}
+          code={examples ? examples.Sizes : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-12 text-3xl font-medium opacity-moon text-center">
+        Text Input Types
+      </section>
+      <section className="mt-8">
+        <Preview
+          title="Number"
+          preview={<Number />}
+          code={examples ? examples.Number : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Date"
+          preview={<Date />}
+          code={examples ? examples.Date : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Time"
+          preview={<Time />}
+          code={examples ? examples.Time : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Date Time"
+          preview={<DateTime />}
+          code={examples ? examples.DateTime : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Email"
+          preview={<Email />}
+          code={examples ? examples.Email : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Password"
+          preview={<Password />}
+          code={examples ? examples.Password : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Search"
+          preview={<Search />}
+          code={examples ? examples.Search : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Telephone"
+          preview={<Telephone />}
+          code={examples ? examples.Telephone : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Url"
+          preview={<Url />}
+          code={examples ? examples.Url : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-12 text-3xl font-medium opacity-moon text-center">
+        Text Input Attribute
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Disabled"
+          preview={<Disabled />}
+          code={examples ? examples.Disabled : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Error"
+          preview={<Error />}
+          code={examples ? examples.Error : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Readonly"
+          preview={<Readonly />}
+          code={examples ? examples.Readonly : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Sizes RTL"
+          preview={<SizesRTL />}
+          code={examples ? examples.SizesRTL : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Without Label"
+          preview={<WithoutLabel />}
+          code={examples ? examples.WithoutLabel : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Hint message"
+          preview={<Hint />}
+          code={examples ? examples.Hint : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Input with background color"
+          preview={<Bg />}
+          code={examples ? examples.Bg : 'Loading'}
+        />
+      </section>
+    </div>
+  );
 };
-
-const inputProps2 = {
-  type: 'text',
-  inputSize: 'medium',
-  placeholder: 'Phone',
-};
-
-const Example = () => (
-  <div className="theme-moon-dark">
-    <section className="mt-8 text-3xl font-medium">Sizes</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInputGroup
-          inputProps={{
-            input1: inputProps1,
-            input2: inputProps2,
-          }}
-        />
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-medium">Sizes</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="text"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="Placeholder"
-        />
-        <TextInput
-          type="text"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="Placeholder"
-        />
-        <TextInput
-          type="text"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="Placeholder"
-        />
-      </div>
-    </div>
-
-    <section className="mt-12 text-3xl font-medium opacity-moon text-center">
-      Text Input Types
-    </section>
-    <section className="mt-4 text-3xl font-medium opacity-moon">Number</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="number"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="e.g. 1234"
-        />
-        <TextInput
-          type="number"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="e.g. 1234"
-        />
-        <TextInput
-          type="number"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="e.g. 1234"
-        />
-      </div>
-    </div>
-    <section className="mt-8 text-3xl font-medium opacity-moon">Date</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="date"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="Placeholder"
-        />
-        <TextInput
-          type="date"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="Placeholder"
-        />
-        <TextInput
-          type="date"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="Placeholder"
-        />
-      </div>
-    </div>
-    <section className="mt-8 text-3xl font-medium opacity-moon">Time</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="time"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="Placeholder"
-        />
-        <TextInput
-          type="time"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="Placeholder"
-        />
-        <TextInput
-          type="time"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="Placeholder"
-        />
-      </div>
-    </div>
-    <section className="mt-8 text-3xl font-medium opacity-moon">
-      Date Time
-    </section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="datetime-local"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="Placeholder"
-        />
-        <TextInput
-          type="datetime-local"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="Placeholder"
-        />
-        <TextInput
-          type="datetime-local"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="Placeholder"
-        />
-      </div>
-    </div>
-    <section className="mt-8 text-3xl font-medium opacity-moon">Email</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="email"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="e.g. jake.weary@sportsbet.io"
-        />
-        <TextInput
-          type="email"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="e.g. jake.weary@sportsbet.io"
-        />
-        <TextInput
-          type="email"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="e.g. jake.weary@sportsbet.io"
-        />
-      </div>
-    </div>
-    <section className="mt-8 text-3xl font-medium opacity-moon">
-      Password
-    </section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="password"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="Password"
-          showPasswordText="Show"
-        />
-        <TextInput
-          type="password"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="Password"
-          showPasswordText="Show"
-        />
-        <TextInput
-          type="password"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="Password"
-          showPasswordText="Show"
-        />
-      </div>
-    </div>
-    <section className="mt-8 text-3xl font-medium opacity-moon">Search</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="search"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="e.g. EPL"
-        />
-        <TextInput
-          type="search"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="e.g. EPL"
-        />
-        <TextInput
-          type="search"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="e.g. EPL"
-        />
-      </div>
-    </div>
-    <section className="mt-8 text-3xl font-medium opacity-moon">
-      Telephone
-    </section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="tel"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="e.g. +372 123 4567"
-        />
-        <TextInput
-          type="tel"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="e.g. +372 123 4567"
-        />
-        <TextInput
-          type="tel"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="e.g. +372 123 4567"
-        />
-      </div>
-    </div>
-    <section className="mt-8 text-3xl font-medium opacity-moon">Url</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="url"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="e.g. https://sportsbet.io"
-        />
-        <TextInput
-          type="url"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="e.g. https://sportsbet.io"
-        />
-        <TextInput
-          type="url"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="e.g. https://sportsbet.io"
-        />
-      </div>
-    </div>
-
-    <section className="mt-12 text-3xl font-medium opacity-moon text-center">
-      Text Input Attribute
-    </section>
-
-    <section className="mt-4 text-3xl font-medium opacity-moon">
-      Disabled
-    </section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="text"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="Placeholder"
-          hintText="Error message"
-          disabled
-        />
-        <TextInput
-          type="text"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="Placeholder"
-          hintText="Error message"
-          disabled
-        />
-        <TextInput
-          type="text"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="Placeholder"
-          hintText="Error message"
-          disabled
-        />
-      </div>
-    </div>
-
-    <section className="mt-4 text-3xl font-medium opacity-moon">Error</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="text"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="Placeholder"
-          hintText="Error message"
-          isError
-        />
-        <TextInput
-          type="text"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="Placeholder"
-          hintText="Error message"
-          isError
-        />
-        <TextInput
-          type="text"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="Placeholder"
-          hintText="Error message"
-          isError
-        />
-      </div>
-    </div>
-
-    <section className="mt-4 text-3xl font-medium opacity-moon">
-      Readonly
-    </section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="text"
-          inputSize="md"
-          value="Read only text"
-          label="Medium (Default: md)"
-          placeholder="Placeholder"
-          hintText="Error message"
-          readOnly
-        />
-        <TextInput
-          type="text"
-          inputSize="lg"
-          value="Read only text"
-          label="Large (lg)"
-          placeholder="Placeholder"
-          hintText="Error message"
-          readOnly
-        />
-        <TextInput
-          type="text"
-          inputSize="xl"
-          value="Read only text"
-          label="Xlarge (xl)"
-          placeholder="Placeholder"
-          hintText="Error message"
-          readOnly
-        />
-      </div>
-    </div>
-
-    <section dir="rtl" className="mt-8 text-3xl font-medium">
-      Sizes RTL
-    </section>
-    <div
-      dir="rtl"
-      className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded"
-    >
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="text"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="Placeholder"
-          dir={'rtl'}
-        />
-        <TextInput
-          type="text"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="Placeholder"
-          dir={'rtl'}
-        />
-        <TextInput
-          type="text"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="Placeholder"
-          dir={'rtl'}
-        />
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-medium">Without Label</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput type="text" inputSize="md" placeholder="Placeholder" />
-        <TextInput type="text" inputSize="lg" placeholder="Placeholder" />
-        <TextInput type="text" inputSize="xl" placeholder="Placeholder" />
-      </div>
-    </div>
-
-    <section className="mt-4 text-3xl font-medium opacity-moon">
-      Hint message
-    </section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="text"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="Placeholder"
-          hintText="Informative message holder"
-        />
-        <TextInput
-          type="text"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="Placeholder"
-          hintText="Informative message holder"
-        />
-        <TextInput
-          type="text"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="Placeholder"
-          hintText="Informative message holder"
-        />
-      </div>
-    </div>
-
-    <section className="mt-4 text-3xl font-medium opacity-moon">
-      Input with background color
-    </section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-end w-full gap-2">
-        <TextInput
-          type="text"
-          inputSize="md"
-          label="Medium (Default: md)"
-          placeholder="Placeholder"
-          hintText="Informative message holder"
-          backgroundColor="bg-goku"
-        />
-        <TextInput
-          type="text"
-          inputSize="lg"
-          label="Large (lg)"
-          placeholder="Placeholder"
-          hintText="Informative message holder"
-          backgroundColor="bg-goku"
-        />
-        <TextInput
-          type="text"
-          inputSize="xl"
-          label="Xlarge (xl)"
-          placeholder="Placeholder"
-          hintText="Informative message holder"
-          backgroundColor="bg-goku"
-        />
-      </div>
-    </div>
-  </div>
-);
 
 export default Example;
