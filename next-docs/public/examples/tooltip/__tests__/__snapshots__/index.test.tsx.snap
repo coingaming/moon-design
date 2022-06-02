@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tooltip renders 1`] = `
-<div
-  className="flex gap-20 p-4"
->
+Array [
   <div
     className="sc-eBhLNR gNcIOO"
     onMouseEnter={[Function]}
@@ -29,7 +27,7 @@ exports[`Tooltip renders 1`] = `
         </p>
       </div>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-eBhLNR gNcIOO"
     onMouseEnter={[Function]}
@@ -73,6 +71,6 @@ exports[`Tooltip renders 1`] = `
         </p>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;

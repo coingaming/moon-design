@@ -101,7 +101,7 @@ const navigation = [
       // { name: 'Sidebar', href: '/components/sidebar' }, // Uncomment only if you want to check how it looks
       { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
-      { name: 'Table', href: '/components/table/table' },
+      { name: 'Table', href: '/components/table' },
       {
         name: 'TextInput',
         children: [

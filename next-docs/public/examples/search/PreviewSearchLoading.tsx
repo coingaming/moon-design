@@ -14,7 +14,7 @@ const Dropdown = styled.ul({
 });
 
 const Example = () => (
-  <div className="h-40 bg-white p-4 w-full">
+  <div className="w-full">
     <Search
       placeholder="Search"
       results={

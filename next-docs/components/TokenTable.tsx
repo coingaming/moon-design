@@ -1,23 +1,17 @@
-import { Heading } from '@heathmont/moon-core';
-
-interface Data {
+type Data = {
   name: string;
   key: string;
   value: number | string;
-}
+};
 
-interface TokenTableProps {
+type TokenTableProps = {
   data: Data[];
   title?: string;
-}
+};
 
 const TokenTable = ({ data, title }: TokenTableProps) => (
-  <section className="grid gap-4">
-    {title && (
-      <Heading as="h2" size={24}>
-        {title}
-      </Heading>
-    )}
+  <section className="flex flex-col gap-6">
+    {title && <h2 className="text-moon-24 font-medium">{title}</h2>}
     <div className="flex flex-col">
       <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div className="py-2 align-middle inline-block min-w-full sm:px-4 lg:px-8">
