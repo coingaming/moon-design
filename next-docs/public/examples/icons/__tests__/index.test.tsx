@@ -25,6 +25,7 @@ import Text from '../Text';
 import Time from '../Time';
 import Travel from '../Travel';
 import Type from '../Type';
+import DefaultIconSet from '../DefaultIconSet';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -40,6 +41,9 @@ const props = {
 };
 
 describe('Icons', () => {
+  it('renders DefaultIconSet', () => {
+    const testRender = renderer.create(renderWithTheme(<DefaultIconSet />));
+  });
   it('renders Arrows', () => {
     const testRenderer = renderer.create(
       renderWithTheme(<Arrows wrapperProps={wrapperProps} props={props} />)

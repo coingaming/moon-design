@@ -17,7 +17,6 @@ const Example = () => {
       <section className="mt-8 text-3xl font-bold">
         <Preview
           title="Default"
-          isGrayBg
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
         />
@@ -26,7 +25,6 @@ const Example = () => {
       <section className="mt-8 text-3xl font-bold">
         <Preview
           title="Open by default"
-          isGrayBg
           preview={<OpenDefault />}
           code={examples ? examples.OpenDefault : 'Loading'}
         />
@@ -35,7 +33,6 @@ const Example = () => {
       <section className="mt-8 text-3xl font-bold">
         <Preview
           title="Without button"
-          isGrayBg
           preview={<WithoutButton />}
           code={examples ? examples.WithoutButton : 'Loading'}
         />
@@ -44,7 +41,6 @@ const Example = () => {
       <section className="mt-8 text-3xl font-bold">
         <Preview
           title="Disable open"
-          isGrayBg
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
         />
@@ -53,7 +49,6 @@ const Example = () => {
       <section className="mt-8 text-3xl font-bold">
         <Preview
           title="Content outside"
-          isGrayBg
           preview={<ContentOutside />}
           code={examples ? examples.ContentOutside : 'Loading'}
         />
@@ -62,7 +57,6 @@ const Example = () => {
       <section className="mt-8 text-3xl font-bold">
         <Preview
           title="Header content"
-          isGrayBg
           preview={<ContentHeader />}
           code={examples ? examples.ContentHeader : 'Loading'}
         />
@@ -71,7 +65,6 @@ const Example = () => {
       <section className="mt-8 text-3xl font-bold">
         <Preview
           title="Sizes"
-          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />
@@ -80,7 +73,6 @@ const Example = () => {
       <section className="mt-8 text-3xl font-bold">
         <Preview
           title="Sizes: content outside"
-          isGrayBg
           preview={<ContentOutsideSizes />}
           code={examples ? examples.ContentOutsideSizes : 'Loading'}
         />

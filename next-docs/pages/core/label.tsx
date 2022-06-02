@@ -1,14 +1,15 @@
+import React from 'react';
 import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
-import Colours from '../../public/examples/label/Colours';
-import Icons from '../../public/examples/label/Icons';
-import LetterCases from '../../public/examples/label/LetterCases';
-import Sizes from '../../public/examples/label/Sizes';
+import Colours from '../../public/examples/labelTW/Colours';
+import Icons from '../../public/examples/labelTW/Icons';
+import LetterCases from '../../public/examples/labelTW/LetterCases';
+import Sizes from '../../public/examples/labelTW/Sizes';
 import useExamples from '../../utils/useExamples';
 
 const PageLabel = () => {
-  const examples = useExamples('label');
+  const examples = useExamples('labelTW');
   return (
     <>
       <section className="grid gap-4 mt-8">
@@ -68,9 +69,9 @@ const PageLabel = () => {
         data={[
           {
             name: 'size',
-            type: 'twoxsmall | xsmall',
+            type: '2xs | xs',
             required: false,
-            default: 'xsmall',
+            default: 'xs',
             description: 'Size for label',
           },
           {
@@ -89,17 +90,17 @@ const PageLabel = () => {
           },
           {
             name: 'color',
-            type: 'ColorProps',
+            type: 'string',
             required: false,
-            default: 'gohan.100',
-            description: 'Text color',
+            default: 'text-gohan',
+            description: 'Text color (tw class)',
           },
           {
             name: 'backgroundColor',
-            type: 'ColorProps',
+            type: 'string',
             required: false,
-            default: 'bulma.100',
-            description: 'Background color',
+            default: 'bg-bulma',
+            description: 'Background color (tw class)',
           },
           {
             name: 'isUppercase',

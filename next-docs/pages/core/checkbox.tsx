@@ -15,7 +15,6 @@ export default function PageAccordion() {
       <section className="mt-8">
         <Preview
           title="Checkbox"
-          isGrayBg
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
         />
@@ -24,7 +23,6 @@ export default function PageAccordion() {
       <section className="mt-8">
         <Preview
           title="Checked"
-          isGrayBg
           preview={<Checked />}
           code={examples ? examples.Checked : 'Loading'}
         />
@@ -33,7 +31,6 @@ export default function PageAccordion() {
       <section className="mt-8">
         <Preview
           title="No Label"
-          isGrayBg
           preview={<NoLabel />}
           code={examples ? examples.NoLabel : 'Loading'}
         />
@@ -42,7 +39,6 @@ export default function PageAccordion() {
       <section className="mt-8">
         <Preview
           title="Disabled"
-          isGrayBg
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
         />
@@ -51,7 +47,6 @@ export default function PageAccordion() {
       <section className="mt-8">
         <Preview
           title="ReadOnly"
-          isGrayBg
           preview={<ReadOnly />}
           code={examples ? examples.ReadOnly : 'Loading'}
         />

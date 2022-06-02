@@ -1,4 +1,3 @@
-import React from 'react';
 import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
@@ -29,7 +28,6 @@ const PageAvatar = () => {
       <section className="mt-8">
         <Preview
           title="Variants"
-          isGrayBg
           preview={<Variants />}
           code={examples ? examples.Variants : 'Loading'}
         />
@@ -39,7 +37,6 @@ const PageAvatar = () => {
       <section className="mt-8">
         <Preview
           title="Different colours"
-          isGrayBg
           preview={<Colours />}
           code={examples ? examples.Colours : 'Loading'}
         />
@@ -49,7 +46,6 @@ const PageAvatar = () => {
       <section className="mt-8">
         <Preview
           title="Different sizes"
-          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />
@@ -59,7 +55,6 @@ const PageAvatar = () => {
       <section className="mt-8">
         <Preview
           title="Active status"
-          isGrayBg
           preview={<ActiveStatus />}
           code={examples ? examples.ActiveStatus : 'Loading'}
         />
@@ -69,7 +64,6 @@ const PageAvatar = () => {
       <section className="mt-8">
         <Preview
           title="Status Origin"
-          isGrayBg
           preview={<StatusOrigin />}
           code={examples ? examples.StatusOrigin : 'Loading'}
         />

@@ -1,47 +1,33 @@
-import React from 'react';
 import CodeSnippet from '../components/CodeSnippet';
+import PageSection from '../components/PageSection';
 
-const Text: React.FC<{}> = ({ children }) => (
-  <p className="text-lg mt-4">{children}</p>
-);
-
-export default function PageGettingStarted() {
-  return (
-    <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Getting started</h1>
-        <h2 className="text-3xl font-medium mt-8">Installation</h2>
-
-        <Text>using npm</Text>
-        <CodeSnippet>{`npm i @heathmont/moon-themes @heathmont/moon-core @heathmont/moon-components`}</CodeSnippet>
-
-        <Text>using yarn</Text>
-        <CodeSnippet>{`yarn add @heathmont/moon-themes @heathmont/moon-core @heathmont/moon-components`}</CodeSnippet>
-      </section>
-
-      <section className="mt-8">
-        <h2 className="text-3xl font-medium mt-8">Peer dependencies</h2>
-        <Text>
-          Your project should include "react", "react-dom" and
-          "styled-components" as its dependency.
-        </Text>
-        <Text>using npm</Text>
-        <CodeSnippet>{`npm i react react-dom styled-components`}</CodeSnippet>
-        <Text>using yarn</Text>
-        <CodeSnippet>{`yarn add react react-dom styled-components`}</CodeSnippet>
-      </section>
-
-      <section className="mt-8">
-        <h2 className="text-3xl font-medium">Set up Theme</h2>
-        <Text>{`Wrap your entire application with the <ThemeProvider />, providing your preferred theme via the theme prop.`}</Text>
-        <Text>
-          Be sure to include global styles and font-face definitions, as these
-          will inherit the theme and set the integral style foundations for your
-          app.
-        </Text>
-
-        <CodeSnippet>{`/* Your App.tsx */
-
+const PageGettingStarted = () => (
+  <>
+    <h1 className="text-moon-32 font-medium">Getting started</h1>
+    <PageSection title="Installation">
+      <p className="text-moon-16">using npm</p>
+      <CodeSnippet>{`npm i @heathmont/moon-themes @heathmont/moon-core @heathmont/moon-components`}</CodeSnippet>
+      <p className="text-moon-16">using yarn</p>
+      <CodeSnippet>{`yarn add @heathmont/moon-themes @heathmont/moon-core @heathmont/moon-components`}</CodeSnippet>
+    </PageSection>
+    <PageSection title="Peer dependencies">
+      <p className="text-moon-16">
+        Your project should include "react", "react-dom" and "styled-components"
+        as its dependency.
+      </p>
+      <p className="text-moon-16">using npm</p>
+      <CodeSnippet>{`npm i react react-dom styled-components`}</CodeSnippet>
+      <p className="text-moon-16">using yarn</p>
+      <CodeSnippet>{`yarn add react react-dom styled-components`}</CodeSnippet>
+    </PageSection>
+    <PageSection title="Set up Theme">
+      <p className="text-moon-16">{`Wrap your entire application with the <ThemeProvider />, providing your preferred theme via the theme prop.`}</p>
+      <p className="text-moon-16">
+        Be sure to include global styles and font-face definitions, as these
+        will inherit the theme and set the integral style foundations for your
+        app.
+      </p>
+      <CodeSnippet>{`/* Your App.tsx */
 import React from 'react';
 import { ThemeProvider, sportsbetDark } from '@heathmont/moon-themes';
 
@@ -53,20 +39,14 @@ export const App = () => (
   </ThemeProvider>
 );
 `}</CodeSnippet>
-      </section>
-
-      <section className="mt-8">
-        <h2 className="text-3xl font-medium">
-          Using Themes With Styled Components
-        </h2>
-
-        <Text>
-          The theme context is included by default in styled components props,
-          and can be implemented as follows:
-        </Text>
-
-        <Text>Access 'theme' from styled component props</Text>
-        <CodeSnippet>{`import styled from 'styled-components';
+    </PageSection>
+    <PageSection title="Using Themes With Styled Components">
+      <p className="text-moon-16">
+        The theme context is included by default in styled components props, and
+        can be implemented as follows:
+      </p>
+      <p className="text-moon-16">Access 'theme' from styled component props</p>
+      <CodeSnippet>{`import styled from 'styled-components';
 
 const Example = styled.div(({ theme }) => ({
   display: 'block',
@@ -74,8 +54,10 @@ const Example = styled.div(({ theme }) => ({
   padding: theme.space.default,
 }));
 `}</CodeSnippet>
-        <Text>Or alternatively, destructure the theme properties…</Text>
-        <CodeSnippet>{`import styled from 'styled-components';
+      <p className="text-moon-16">
+        Or alternatively, destructure the theme properties…
+      </p>
+      <CodeSnippet>{`import styled from 'styled-components';
 
 const Example = styled.div(({ theme: { colorNew, space } }) => ({
   display: 'block',
@@ -83,16 +65,13 @@ const Example = styled.div(({ theme: { colorNew, space } }) => ({
   padding: space.default,
 }));
 `}</CodeSnippet>
-      </section>
-
-      <section className="mt-8">
-        <h2 className="text-3xl font-medium">Without Styled Components</h2>
-
-        <Text>
-          The useTheme helper function returns the current theme from the theme
-          context:
-        </Text>
-        <CodeSnippet>{`import React from 'react';
+    </PageSection>
+    <PageSection title="Without Styled Components">
+      <p className="text-moon-16">
+        The useTheme helper function returns the current theme from the theme
+        context:
+      </p>
+      <CodeSnippet>{`import React from 'react';
 import { useTheme } from '@heathmont/moon-themes';
 
 const Example = () => {
@@ -100,8 +79,8 @@ const Example = () => {
   return <p>{theme.brand}</p>; /* Returns the theme brand name. */
 };
 `}</CodeSnippet>
-        <Text>or for more manual control:</Text>
-        <CodeSnippet>{`import React from 'react';
+      <p className="text-moon-16">or for more manual control:</p>
+      <CodeSnippet>{`import React from 'react';
 import { ThemeContext } from '@heathmont/moon-themes';
 
 const Example = () => {
@@ -109,20 +88,17 @@ const Example = () => {
   return <p>{theme.brand}</p>; /* Returns the theme brand name. */
 };
 `}</CodeSnippet>
-      </section>
-
-      <section className="mt-8">
-        <h2 className="text-3xl font-medium"> TypeScript Support</h2>
-
-        <Text>
-          If you're using TypeScript, you can extend styled-components' types to
-          include our theming schema.
-        </Text>
-        <Text>
-          To make use of extra features (such as auto-completion in VSCode),
-          create a d.ts file with the following:
-        </Text>
-        <CodeSnippet>{`/* types/styled-components.d.ts */
+    </PageSection>
+    <PageSection title="TypeScript Support">
+      <p className="text-moon-16">
+        If you're using TypeScript, you can extend styled-components' types to
+        include our theming schema.
+      </p>
+      <p className="text-moon-16">
+        To make use of extra features (such as auto-completion in VSCode),
+        create a d.ts file with the following:
+      </p>
+      <CodeSnippet>{`/* types/styled-components.d.ts */
 import 'styled-components';
 import { Theme } from '@heathmont/moon-themes';
 
@@ -130,7 +106,8 @@ declare module 'styled-components' {
   export interface DefaultTheme extends Theme {}
 }
 `}</CodeSnippet>
-      </section>
-    </>
-  );
-}
+    </PageSection>
+  </>
+);
+
+export default PageGettingStarted;

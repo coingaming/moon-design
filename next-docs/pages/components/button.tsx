@@ -1,4 +1,3 @@
-import React from 'react';
 import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
@@ -32,7 +31,6 @@ const PageButton = () => {
       <section className="mt-8">
         <Preview
           title="Variants"
-          isGrayBg
           preview={<Variants />}
           code={examples ? examples.Variants : 'Loading'}
         />
@@ -41,7 +39,6 @@ const PageButton = () => {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />
@@ -50,7 +47,6 @@ const PageButton = () => {
       <section className="mt-8">
         <Preview
           title="Icons"
-          isGrayBg
           preview={<Icons />}
           code={examples ? examples.Icons : 'Loading'}
         />
@@ -59,7 +55,6 @@ const PageButton = () => {
       <section className="mt-8">
         <Preview
           title="Full width"
-          isGrayBg
           preview={<FullWidth />}
           code={examples ? examples.FullWidth : 'Loading'}
         />
@@ -68,7 +63,6 @@ const PageButton = () => {
       <section className="mt-8">
         <Preview
           title="Disabled"
-          isGrayBg
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
         />
@@ -77,7 +71,6 @@ const PageButton = () => {
       <section className="mt-8">
         <Preview
           title="Animations"
-          isGrayBg
           preview={<Animations />}
           code={examples ? examples.Animations : 'Loading'}
         />

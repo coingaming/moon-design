@@ -13,7 +13,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Default"
-          isGrayBg
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
         />
@@ -22,7 +21,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Default : 'Loading'}
         />
@@ -31,7 +29,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Colors"
-          isGrayBg
           preview={<Colors />}
           code={examples ? examples.Colors : 'Loading'}
         />

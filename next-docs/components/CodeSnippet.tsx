@@ -1,8 +1,6 @@
-import React from 'react';
-
-const CodeSnippet: React.FC<{}> = ({ children }) => (
-  <pre className="overflow-scroll bg-white mt-4 px-4 py-3 text-left text-sm rounded-lg font-medium text-gray-500 ">
-    {children }
+const CodeSnippet: React.FC<{ children: React.ReactNode }> = ({ children }) => (
+  <pre className="theme-moon-dark bg-goku overflow-scroll p-4 text-moon-14 text-bulma rounded-moon-s-sm">
+    {children}
   </pre>
 );
 
