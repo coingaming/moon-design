@@ -1,0 +1,27 @@
+import React from 'react';
+import { TextInput } from '@heathmont/moon-core-tw';
+
+const Example = () => (
+  <div className="flex justify-around items-end w-full gap-2">
+    <TextInput
+      type="search"
+      inputSize="md"
+      label="Medium (Default: md)"
+      placeholder="e.g. EPL"
+    />
+    <TextInput
+      type="search"
+      inputSize="lg"
+      label="Large (lg)"
+      placeholder="e.g. EPL"
+    />
+    <TextInput
+      type="search"
+      inputSize="xl"
+      label="Xlarge (xl)"
+      placeholder="e.g. EPL"
+    />
+  </div>
+);
+
+export default Example;
