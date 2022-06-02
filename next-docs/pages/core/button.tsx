@@ -10,57 +10,49 @@ import useExamples from '../../utils/useExamples';
 
 const PageButton = () => {
   const examples = useExamples('buttonTW');
-
   return (
-    <div className="theme-moon-dark">
-      <section className="mt-8">
-        <Preview
-          title="Variants"
-          preview={<Variants />}
-          code={examples ? examples.Variants : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Sizes"
-          preview={<Sizes />}
-          code={examples ? examples.Sizes : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Icons"
-          preview={<Icons />}
-          code={examples ? examples.Icons : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Full width"
-          preview={<FullWidth />}
-          code={examples ? examples.FullWidth : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Disabled"
-          preview={<Disabled />}
-          code={examples ? examples.Disabled : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Animations"
-          preview={<Animations />}
-          code={examples ? examples.Animations : 'Loading'}
-        />
-      </section>
-    </div>
+    <>
+      <h1 className="text-moon-32 font-medium">Button</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
+          Buttons are calls-to-action used to prompt users. They encourage users
+          to interact with us in multiple ways throughout our galaxy, based on
+          what the label of the button indicates. Buttons are clickable elements
+          with label text that describe the action that will happen when the
+          users interact with it.
+        </p>
+      </div>
+      <Preview
+        title="Variants"
+        preview={<Variants />}
+        code={examples ? examples.Variants : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Icons"
+        preview={<Icons />}
+        code={examples ? examples.Icons : 'Loading'}
+      />
+      <Preview
+        title="Full width"
+        preview={<FullWidth />}
+        code={examples ? examples.FullWidth : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="Animations"
+        preview={<Animations />}
+        code={examples ? examples.Animations : 'Loading'}
+      />
+    </>
   );
 };
 

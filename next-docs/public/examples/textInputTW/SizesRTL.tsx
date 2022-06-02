@@ -2,7 +2,10 @@ import React from 'react';
 import { TextInput } from '@heathmont/moon-core-tw';
 
 const Example = () => (
-  <div dir="rtl" className="flex justify-around items-end w-full gap-2">
+  <div
+    dir="rtl"
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
     <TextInput
       type="text"
       inputSize="md"

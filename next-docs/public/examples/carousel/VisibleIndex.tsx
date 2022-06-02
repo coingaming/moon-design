@@ -17,18 +17,16 @@ const ExampleContent = styled.div(({ theme: { color, newTokens } }) => ({
 const Example = () => {
   const items = Array.from({ length: 5 }, (index) => index);
   return (
-    <div className="flex justify-around items-center w-full">
-      <Carousel
-        space="xlarge"
-        items={({ firstVisibleIndex, lastVisibleIndex }) =>
-          items.map((item, index) => (
-            <ExampleContent key={index}>
-              {firstVisibleIndex}, {lastVisibleIndex}
-            </ExampleContent>
-          ))
-        }
-      />
-    </div>
+    <Carousel
+      space="xlarge"
+      items={({ firstVisibleIndex, lastVisibleIndex }) =>
+        items.map((item, index) => (
+          <ExampleContent key={index}>
+            {firstVisibleIndex}, {lastVisibleIndex}
+          </ExampleContent>
+        ))
+      }
+    />
   );
 };
 

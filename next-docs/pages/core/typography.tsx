@@ -8,31 +8,24 @@ const Example = () => {
   const examples = useExamples('typographyTW');
 
   return (
-    <div className="theme-moon-dark text-bulma">
-      <section className="mt-8">
-        <Preview
-          title="Text"
-          preview={<Text />}
-          code={examples ? examples.Text : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Heading"
-          preview={<Heading />}
-          code={examples ? examples.Heading : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Caption"
-          preview={<Caption />}
-          code={examples ? examples.Caption : 'Loading'}
-        />
-      </section>
-    </div>
+    <>
+      <h1 className="text-moon-32 font-medium">Typography</h1>
+      <Preview
+        title="Text"
+        preview={<Text />}
+        code={examples ? examples.Text : 'Loading'}
+      />
+      <Preview
+        title="Heading"
+        preview={<Heading />}
+        code={examples ? examples.Heading : 'Loading'}
+      />
+      <Preview
+        title="Caption"
+        preview={<Caption />}
+        code={examples ? examples.Caption : 'Loading'}
+      />
+    </>
   );
 };
 

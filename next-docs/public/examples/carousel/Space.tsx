@@ -16,14 +16,12 @@ const ExampleContent = styled.div(({ theme: { color, newTokens } }) => ({
 const Example = () => {
   const items = Array.from({ length: 5 }, (index) => index);
   return (
-    <div className="flex justify-around items-center w-full">
-      <Carousel
-        space="xlarge"
-        items={items.map((item, index) => (
-          <ExampleContent>{index}</ExampleContent>
-        ))}
-      />
-    </div>
+    <Carousel
+      space="xlarge"
+      items={items.map((item, index) => (
+        <ExampleContent>{index}</ExampleContent>
+      ))}
+    />
   );
 };
 
