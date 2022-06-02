@@ -13,7 +13,7 @@ const Future = () => (
           <h3 className="relative text-goten text-moon-48 font-medium z-1">
             Want to contribute?
           </h3>
-          <p className="max-w-md relative text-moon-24 text-goten z-1 group-hover:underline">
+          <p className="max-w-md relative text-moon-24 text-goten z-1">
             Start building with our HTML/CSS framework and rapidly go from
             prototype to production.
           </p>

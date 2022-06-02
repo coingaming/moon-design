@@ -52,9 +52,7 @@ const CardArcticle: React.FC<Props> = ({
             {author}
           </p>
         )}
-        <p className="group-hover:underline text-moon-24 font-medium">
-          {title}
-        </p>
+        <p className="text-moon-24 font-medium">{title}</p>
       </div>
     </a>
   </Link>

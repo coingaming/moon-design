@@ -11,7 +11,11 @@ const PageHowToContribute = () => (
       <p className="text-moon-16">
         Check{' '}
         <Link href="https://pnpm.io/installation">
-          <a className="underline" target="_blank">
+          <a
+            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+            target="_blank"
+            rel="noreferrer"
+          >
             pnpm docs
           </a>
         </Link>{' '}
@@ -43,14 +47,22 @@ const PageHowToContribute = () => (
       <ul className="list-inside list-disc text-moon-16">
         <li>
           <Link href="https://github.com/coingaming/moon-design">
-            <a className="underline" target="_blank">
+            <a
+              className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+              target="_blank"
+              rel="noreferrer"
+            >
               Github repository
             </a>
           </Link>
         </li>
         <li>
           <Link href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md">
-            <a className="underline" target="_blank">
+            <a
+              className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+              target="_blank"
+              rel="noreferrer"
+            >
               Contributing page
             </a>
           </Link>
