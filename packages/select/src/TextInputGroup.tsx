@@ -2,16 +2,15 @@ import React from 'react';
 import SelectGroupEnd from './private/SelectGroupEnd';
 import SelectGroupStart from './private/SelectGroupStart';
 import {TextInputGroupProps} from "./private/types/CombinedGroupProps";
-import {CombinedPropType} from "./private/types/CombinedInputProps";
-import {TextInputGroupSize} from "./private/types/CombinedInputSize";
-import { OrientationType } from './private/types/OrientationType';
+import {Size} from "./private/types/CombinedInputSize";
+import {Orientation} from "./private/types/OrientationType";
 import Container from './styles/Container';
 
 const TextInputGroup: React.FC<TextInputGroupProps> = ({
   inputProps,
   isRtl,
-  size = 'medium',
-  orientation = 'horizontal',
+  size = Size.medium,
+  orientation = Orientation.horizontal
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
   const isError = inputProps?.input1?.isError || inputProps?.input2?.isError;
