@@ -132,12 +132,12 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
   className="flex flex-col gap-3 pb-24 ps-40 pe-40 w-full"
 >
   <div
-    className="sc-jrVuhE carzrf"
+    className="sc-ksWjrO fAYtTZ"
     dir="ltr"
     orientation="horizontal"
   >
     <div
-      className="sc-WJksd eTRTfP"
+      className="sc-gPKDLW fLbGoN"
     >
       <div
         className=" css-1tsy5a7-container"
@@ -162,14 +162,14 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
             className=" css-15dykvv-ValueContainer"
           >
             <div
-              className="sc-bSGZAx iBCIRg"
+              className="sc-gRFyCy eooGop"
             >
               <div
                 className=" css-wuj7bk-placeholder"
                 id="react-select-10-placeholder"
               >
                 <div
-                  className="sc-fXPgIJ cfJrkQ"
+                  className="sc-bSGZAx hcvdFH"
                 >
                   Country
                 </div>
@@ -199,7 +199,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-efBctP"
+              className="sc-fXPgIJ"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -224,7 +224,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
       </div>
     </div>
     <div
-      className="sc-gRFyCy dwSqam"
+      className="sc-jJUdvr dHgcCz"
     >
       <div
         className=" css-1tsy5a7-container"
@@ -249,14 +249,14 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
             className=" css-15dykvv-ValueContainer"
           >
             <div
-              className="sc-bSGZAx iBCIRg"
+              className="sc-gRFyCy eooGop"
             >
               <div
                 className=" css-wuj7bk-placeholder"
                 id="react-select-11-placeholder"
               >
                 <div
-                  className="sc-fXPgIJ cfJrkQ"
+                  className="sc-bSGZAx hcvdFH"
                 >
                   Vehicle
                 </div>
@@ -286,7 +286,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-efBctP"
+              className="sc-fXPgIJ"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -377,19 +377,19 @@ exports[`TextInputGroup renders multi select 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="sc-jrVuhE carzrf"
+    className="sc-ksWjrO fAYtTZ"
     dir="ltr"
     orientation="horizontal"
   >
     <div
-      className="sc-WJksd eTRTfP"
+      className="sc-gPKDLW fLbGoN"
     >
       <div
         className=" css-1tsy5a7-container"
         onKeyDown={[Function]}
       >
         <span
-          className="sc-hNDnKS ijgthb"
+          className="sc-jLOYlT kpsrUz"
         >
           xLarge
         </span>
@@ -412,14 +412,14 @@ exports[`TextInputGroup renders multi select 1`] = `
             className=" css-1n2fawc-ValueContainer"
           >
             <div
-              className="sc-knTjpY hBMVRI"
+              className="sc-WJksd dYpdDP"
             >
               <div
                 className=" css-wuj7bk-placeholder"
                 id="react-select-4-placeholder"
               >
                 <div
-                  className="sc-fXPgIJ cfJrkQ"
+                  className="sc-bSGZAx hcvdFH"
                 >
                   Choose an option
                 </div>
@@ -449,7 +449,7 @@ exports[`TextInputGroup renders multi select 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-efBctP"
+              className="sc-fXPgIJ"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -474,14 +474,14 @@ exports[`TextInputGroup renders multi select 1`] = `
       </div>
     </div>
     <div
-      className="sc-gRFyCy dwSqam"
+      className="sc-jJUdvr dHgcCz"
     >
       <div
         className=" css-1tsy5a7-container"
         onKeyDown={[Function]}
       >
         <span
-          className="sc-hNDnKS ijgthb"
+          className="sc-jLOYlT kpsrUz"
         >
           xLarge
         </span>
@@ -504,14 +504,14 @@ exports[`TextInputGroup renders multi select 1`] = `
             className=" css-1n2fawc-ValueContainer"
           >
             <div
-              className="sc-knTjpY hBMVRI"
+              className="sc-WJksd dYpdDP"
             >
               <div
                 className=" css-wuj7bk-placeholder"
                 id="react-select-5-placeholder"
               >
                 <div
-                  className="sc-fXPgIJ cfJrkQ"
+                  className="sc-bSGZAx hcvdFH"
                 >
                   Choose an option
                 </div>
@@ -541,7 +541,7 @@ exports[`TextInputGroup renders multi select 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-efBctP"
+              className="sc-fXPgIJ"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -574,19 +574,19 @@ exports[`TextInputGroup renders single select 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="sc-jrVuhE carzrf"
+    className="sc-ksWjrO fAYtTZ"
     dir="ltr"
     orientation="horizontal"
   >
     <div
-      className="sc-WJksd eTRTfP"
+      className="sc-gPKDLW fLbGoN"
     >
       <div
         className=" css-1tsy5a7-container"
         onKeyDown={[Function]}
       >
         <span
-          className="sc-hNDnKS ijgthb"
+          className="sc-jLOYlT kpsrUz"
         >
           xLarge
         </span>
@@ -609,14 +609,14 @@ exports[`TextInputGroup renders single select 1`] = `
             className=" css-15dykvv-ValueContainer"
           >
             <div
-              className="sc-bSGZAx iBCIRg"
+              className="sc-gRFyCy eooGop"
             >
               <div
                 className=" css-wuj7bk-placeholder"
                 id="react-select-2-placeholder"
               >
                 <div
-                  className="sc-fXPgIJ cfJrkQ"
+                  className="sc-bSGZAx hcvdFH"
                 >
                   Choose an option
                 </div>
@@ -646,7 +646,7 @@ exports[`TextInputGroup renders single select 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-efBctP"
+              className="sc-fXPgIJ"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -671,14 +671,14 @@ exports[`TextInputGroup renders single select 1`] = `
       </div>
     </div>
     <div
-      className="sc-gRFyCy dwSqam"
+      className="sc-jJUdvr dHgcCz"
     >
       <div
         className=" css-1tsy5a7-container"
         onKeyDown={[Function]}
       >
         <span
-          className="sc-hNDnKS ijgthb"
+          className="sc-jLOYlT kpsrUz"
         >
           xLarge
         </span>
@@ -701,14 +701,14 @@ exports[`TextInputGroup renders single select 1`] = `
             className=" css-15dykvv-ValueContainer"
           >
             <div
-              className="sc-bSGZAx iBCIRg"
+              className="sc-gRFyCy eooGop"
             >
               <div
                 className=" css-wuj7bk-placeholder"
                 id="react-select-3-placeholder"
               >
                 <div
-                  className="sc-fXPgIJ cfJrkQ"
+                  className="sc-bSGZAx hcvdFH"
                 >
                   Choose an option
                 </div>
@@ -738,7 +738,7 @@ exports[`TextInputGroup renders single select 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-efBctP"
+              className="sc-fXPgIJ"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -771,12 +771,12 @@ exports[`TextInputGroup renders single select RTL 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="sc-jrVuhE carzrf"
+    className="sc-ksWjrO fAYtTZ"
     dir="rtl"
     orientation="horizontal"
   >
     <div
-      className="sc-WJksd eTRTfP"
+      className="sc-gPKDLW fLbGoN"
     >
       <div
         className=" css-9ebu9r-container"
@@ -801,14 +801,14 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             className=" css-15dykvv-ValueContainer"
           >
             <div
-              className="sc-bSGZAx iBCIRg"
+              className="sc-gRFyCy eooGop"
             >
               <div
                 className=" css-wuj7bk-placeholder"
                 id="react-select-8-placeholder"
               >
                 <div
-                  className="sc-fXPgIJ cfJrkQ"
+                  className="sc-bSGZAx hcvdFH"
                 >
                   Choose an option
                 </div>
@@ -838,7 +838,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-efBctP"
+              className="sc-fXPgIJ"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -863,7 +863,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
       </div>
     </div>
     <div
-      className="sc-gRFyCy dwSqam"
+      className="sc-jJUdvr dHgcCz"
     >
       <div
         className=" css-9ebu9r-container"
@@ -888,14 +888,14 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             className=" css-15dykvv-ValueContainer"
           >
             <div
-              className="sc-bSGZAx iBCIRg"
+              className="sc-gRFyCy eooGop"
             >
               <div
                 className=" css-wuj7bk-placeholder"
                 id="react-select-9-placeholder"
               >
                 <div
-                  className="sc-fXPgIJ cfJrkQ"
+                  className="sc-bSGZAx hcvdFH"
                 >
                   Choose an option
                 </div>
@@ -925,7 +925,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-efBctP"
+              className="sc-fXPgIJ"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -958,19 +958,19 @@ exports[`TextInputGroup renders single select vertical 1`] = `
   className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
 >
   <div
-    className="sc-jrVuhE FKZJs"
+    className="sc-ksWjrO gOafWa"
     dir="ltr"
     orientation="vertical"
   >
     <div
-      className="sc-WJksd eTRTfP"
+      className="sc-gPKDLW fLbGoN"
     >
       <div
         className=" css-1tsy5a7-container"
         onKeyDown={[Function]}
       >
         <span
-          className="sc-hNDnKS ijgthb"
+          className="sc-jLOYlT kpsrUz"
         >
           xLarge
         </span>
@@ -993,14 +993,14 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             className=" css-15dykvv-ValueContainer"
           >
             <div
-              className="sc-bSGZAx iBCIRg"
+              className="sc-gRFyCy eooGop"
             >
               <div
                 className=" css-wuj7bk-placeholder"
                 id="react-select-6-placeholder"
               >
                 <div
-                  className="sc-fXPgIJ cfJrkQ"
+                  className="sc-bSGZAx hcvdFH"
                 >
                   Choose an option
                 </div>
@@ -1030,7 +1030,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-efBctP"
+              className="sc-fXPgIJ"
               fill="none"
               fontSize="1.5rem"
               height="1em"
@@ -1055,14 +1055,14 @@ exports[`TextInputGroup renders single select vertical 1`] = `
       </div>
     </div>
     <div
-      className="sc-gRFyCy dwSqam"
+      className="sc-jJUdvr dHgcCz"
     >
       <div
         className=" css-1tsy5a7-container"
         onKeyDown={[Function]}
       >
         <span
-          className="sc-hNDnKS ijgthb"
+          className="sc-jLOYlT kpsrUz"
         >
           xLarge
         </span>
@@ -1085,14 +1085,14 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             className=" css-15dykvv-ValueContainer"
           >
             <div
-              className="sc-bSGZAx iBCIRg"
+              className="sc-gRFyCy eooGop"
             >
               <div
                 className=" css-wuj7bk-placeholder"
                 id="react-select-7-placeholder"
               >
                 <div
-                  className="sc-fXPgIJ cfJrkQ"
+                  className="sc-bSGZAx hcvdFH"
                 >
                   Choose an option
                 </div>
@@ -1122,7 +1122,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             className=" css-1hb7zxy-IndicatorsContainer"
           >
             <svg
-              className="sc-efBctP"
+              className="sc-fXPgIJ"
               fill="none"
               fontSize="1.5rem"
               height="1em"

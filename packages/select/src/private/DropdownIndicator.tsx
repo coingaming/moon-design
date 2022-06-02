@@ -1,5 +1,6 @@
 import React from 'react';
-import { ControlsChevronDown, ControlsChevronUp } from '@heathmont/moon-icons';
+import ControlsChevronDown from '@heathmont/moon-icons/lib/es/icons/ControlsChevronDown';
+import ControlsChevronUp from '@heathmont/moon-icons/lib/es/icons/ControlsChevronUp';
 import { rem } from '@heathmont/moon-utils';
 import { DropdownIndicatorProps } from 'react-select';
 
