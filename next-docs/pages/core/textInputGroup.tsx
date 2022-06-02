@@ -17,7 +17,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Default"
-          isGrayBg
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
         />
@@ -26,7 +25,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Vertical orientation"
-          isGrayBg
           preview={<Vertical />}
           code={examples ? examples.Vertical : 'Loading'}
         />
@@ -35,7 +33,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="RTL"
-          isGrayBg
           preview={<Rtl />}
           code={examples ? examples.Rtl : 'Loading'}
         />
@@ -44,7 +41,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />
@@ -53,7 +49,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Error"
-          isGrayBg
           preview={<Error />}
           code={examples ? examples.Error : 'Loading'}
         />
@@ -62,7 +57,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Text type variants"
-          isGrayBg
           preview={<Types />}
           code={examples ? examples.Types : 'Loading'}
         />
@@ -71,7 +65,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Access Values by ref"
-          isGrayBg
           preview={<AccessValues />}
           code={examples ? examples.AccessValues : 'Loading'}
         />

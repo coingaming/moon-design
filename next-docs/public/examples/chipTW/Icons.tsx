@@ -2,7 +2,7 @@ import { Chip } from '@heathmont/moon-core-tw';
 import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons';
 
 const Example = () => (
-  <div className="flex flex-col gap-10 items-center w-full bg-slate-200 p-4 my-4 rounded">
+  <div className="flex flex-col gap-10 items-center w-full p-4 my-4 rounded">
     <div className="flex justify-around items-center w-full">
       <Chip size="sm" iconLeft={<MediaMusic fontSize="1.5rem" />}>
         Left Icon

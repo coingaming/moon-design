@@ -26,7 +26,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />
@@ -38,7 +37,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Number"
-          isGrayBg
           preview={<Number />}
           code={examples ? examples.Number : 'Loading'}
         />
@@ -47,7 +45,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Date"
-          isGrayBg
           preview={<Date />}
           code={examples ? examples.Date : 'Loading'}
         />
@@ -56,7 +53,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Time"
-          isGrayBg
           preview={<Time />}
           code={examples ? examples.Time : 'Loading'}
         />
@@ -65,7 +61,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Date Time"
-          isGrayBg
           preview={<DateTime />}
           code={examples ? examples.DateTime : 'Loading'}
         />
@@ -74,7 +69,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Email"
-          isGrayBg
           preview={<Email />}
           code={examples ? examples.Email : 'Loading'}
         />
@@ -83,7 +77,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Password"
-          isGrayBg
           preview={<Password />}
           code={examples ? examples.Password : 'Loading'}
         />
@@ -92,7 +85,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Search"
-          isGrayBg
           preview={<Search />}
           code={examples ? examples.Search : 'Loading'}
         />
@@ -101,7 +93,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Telephone"
-          isGrayBg
           preview={<Telephone />}
           code={examples ? examples.Telephone : 'Loading'}
         />
@@ -110,7 +101,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Url"
-          isGrayBg
           preview={<Url />}
           code={examples ? examples.Url : 'Loading'}
         />
@@ -123,7 +113,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Disabled"
-          isGrayBg
           preview={<Disabled />}
           code={examples ? examples.Disabled : 'Loading'}
         />
@@ -132,7 +121,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Error"
-          isGrayBg
           preview={<Error />}
           code={examples ? examples.Error : 'Loading'}
         />
@@ -141,24 +129,14 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Readonly"
-          isGrayBg
           preview={<Readonly />}
           code={examples ? examples.Readonly : 'Loading'}
         />
       </section>
 
-      <section dir="rtl" className="mt-8 text-3xl font-medium">
-        Sizes RTL
-      </section>
-      <div
-        dir="rtl"
-        className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded"
-      ></div>
-
       <section className="mt-8">
         <Preview
           title="Sizes RTL"
-          isGrayBg
           preview={<SizesRTL />}
           code={examples ? examples.SizesRTL : 'Loading'}
         />
@@ -167,7 +145,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Without Label"
-          isGrayBg
           preview={<WithoutLabel />}
           code={examples ? examples.WithoutLabel : 'Loading'}
         />
@@ -176,7 +153,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Hint message"
-          isGrayBg
           preview={<Hint />}
           code={examples ? examples.Hint : 'Loading'}
         />
@@ -185,7 +161,6 @@ const Example = () => {
       <section className="mt-8">
         <Preview
           title="Input with background color"
-          isGrayBg
           preview={<Bg />}
           code={examples ? examples.Bg : 'Loading'}
         />
