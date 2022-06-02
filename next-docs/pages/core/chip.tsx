@@ -4,6 +4,7 @@ import Icons from '../../public/examples/chipTW/Icons';
 import IsStroke from '../../public/examples/chipTW/IsStroke';
 import IsStrokeIcons from '../../public/examples/chipTW/IsStrokeIcons';
 import Sizes from '../../public/examples/chipTW/Sizes';
+import Variants from '../../public/examples/chipTW/Variants';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -35,6 +36,11 @@ const Example = () => {
         title="Sizes"
         preview={<Sizes />}
         code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Variants"
+        preview={<Variants />}
+        code={examples ? examples.Variants : 'Loading'}
       />
       <Preview
         title="Active"
