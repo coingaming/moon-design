@@ -1,4 +1,3 @@
-import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Buttons from '../../public/examples/banner/Buttons';
@@ -13,7 +12,7 @@ const PageBanner = () => {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Banner</h1>
+        <h1 className="text-5xl font-medium">Banner</h1>
         <p className="text-lg mt-4">
           Banners are used to show users important, succinct messages, or space
           alerts, that users should know about. They can interact or ignore
@@ -29,7 +28,6 @@ const PageBanner = () => {
         <Preview
           title="Default"
           preview={<Default />}
-          isGrayBg
           code={examples ? examples.Default : 'Loading'}
         />
       </section>
@@ -38,7 +36,6 @@ const PageBanner = () => {
         <Preview
           title="Buttons"
           preview={<Buttons />}
-          isGrayBg
           code={examples ? examples.Buttons : 'Loading'}
         />
       </section>
@@ -47,7 +44,6 @@ const PageBanner = () => {
         <Preview
           title="Header Icon"
           preview={<HeaderIcon />}
-          isGrayBg
           code={examples ? examples.HeaderIcon : 'Loading'}
         />
       </section>
@@ -56,7 +52,6 @@ const PageBanner = () => {
         <Preview
           title="Mobile"
           preview={<Mobile />}
-          isGrayBg
           code={examples ? examples.Mobile : 'Loading'}
         />
       </section>
@@ -65,7 +60,6 @@ const PageBanner = () => {
         <Preview
           title="Singleline"
           preview={<Singleline />}
-          isGrayBg
           code={examples ? examples.Singleline : 'Loading'}
         />
       </section>

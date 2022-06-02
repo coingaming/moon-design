@@ -1,236 +1,104 @@
-import { TextInputGroup } from '@heathmont/moon-core-tw';
+import React from 'react';
+import Preview from '../../components/codePreview/Preview';
+import PropsTable from '../../components/PropsTable';
+import AccessValues from '../../public/examples/textInputGroupTW/AccessValues';
+import Default from '../../public/examples/textInputGroupTW/Default';
+import Error from '../../public/examples/textInputGroupTW/Error';
+import Rtl from '../../public/examples/textInputGroupTW/Rtl';
+import Sizes from '../../public/examples/textInputGroupTW/Sizes';
+import Types from '../../public/examples/textInputGroupTW/Types';
+import Vertical from '../../public/examples/textInputGroupTW/Vertical';
+import useExamples from '../../utils/useExamples';
 
-const Default = () => {
-  const inputProps1 = {
-    type: 'text',
-    inputSize: 'medium',
-    placeholder: 'Country',
-  };
-
-  const inputProps2 = {
-    type: 'text',
-    inputSize: 'medium',
-    placeholder: 'Phone',
-  };
+const Example = () => {
+  const examples = useExamples('textInputGroupTW');
   return (
     <>
-      <section className="mt-8 text-3xl font-bold">Default</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-end w-full gap-2">
-          <TextInputGroup
-            inputProps={{
-              input1: inputProps1,
-              input2: inputProps2,
-            }}
-          />
-        </div>
-      </div>
-    </>
-  );
-};
-
-const Vertical = () => {
-  const inputProps1 = {
-    type: 'text',
-    inputSize: 'md',
-    placeholder: 'Country',
-  };
-
-  const inputProps2 = {
-    type: 'text',
-    inputSize: 'md',
-    placeholder: 'Phone',
-  };
-
-  const inputProps3 = {
-    type: 'text',
-    inputSize: 'xl',
-    label: 'label 1',
-    placeholder: 'Country',
-  };
-
-  const inputProps4 = {
-    type: 'text',
-    inputSize: 'xl',
-    label: 'label 2',
-    placeholder: 'Phone',
-  };
-
-  return (
-    <>
-      <section className="mt-8 text-3xl font-bold">
-        Vertical orientation
+      <section className="mt-8">
+        <Preview
+          title="Default"
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
       </section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-end w-full gap-2">
-          <TextInputGroup
-            orientation="vertical"
-            inputProps={{
-              input1: inputProps1,
-              input2: inputProps2,
-            }}
-          />
-          <TextInputGroup
-            orientation="vertical"
-            inputProps={{
-              input1: inputProps3,
-              input2: inputProps4,
-            }}
-          />
-        </div>
-      </div>
+
+      <section className="mt-8">
+        <Preview
+          title="Vertical orientation"
+          preview={<Vertical />}
+          code={examples ? examples.Vertical : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="RTL"
+          preview={<Rtl />}
+          code={examples ? examples.Rtl : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Sizes"
+          preview={<Sizes />}
+          code={examples ? examples.Sizes : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Error"
+          preview={<Error />}
+          code={examples ? examples.Error : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Text type variants"
+          preview={<Types />}
+          code={examples ? examples.Types : 'Loading'}
+        />
+      </section>
+
+      <section className="mt-8">
+        <Preview
+          title="Access Values by ref"
+          preview={<AccessValues />}
+          code={examples ? examples.AccessValues : 'Loading'}
+        />
+      </section>
+
+      <PropsTable
+        title="Props (Text types)"
+        data={[
+          {
+            name: 'inputProps',
+            type: 'object { input1: TextInputTypes, input2: TextInputTypes }',
+            required: true,
+            default: "object { inputSize: 'md', type: 'text' }",
+            description:
+              'Props for the text input fields. See TextInput component',
+          },
+          {
+            name: 'orientation',
+            type: 'vertical | horizontal',
+            required: false,
+            default: 'horizontal',
+            description: 'How the fields are positioned with one another',
+          },
+          {
+            name: 'isRtl',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Text direction',
+          },
+        ]}
+      />
     </>
   );
 };
-
-const Rtl = () => {
-  const inputProps1 = {
-    type: 'text',
-    inputSize: 'medium',
-    placeholder: 'Country',
-  };
-
-  const inputProps2 = {
-    type: 'text',
-    inputSize: 'medium',
-    placeholder: 'Phone',
-  };
-
-  return (
-    <>
-      <section className="mt-8 text-3xl font-bold">RTL</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-end w-full gap-2">
-          <TextInputGroup
-            inputProps={{
-              input1: inputProps1,
-              input2: inputProps2,
-            }}
-            isRtl
-          />
-        </div>
-      </div>
-    </>
-  );
-};
-
-const Sizes = () => {
-  const inputProps1 = {
-    type: 'text',
-    inputSize: 'md',
-    placeholder: 'Country',
-  };
-
-  const inputProps2 = {
-    type: 'text',
-    inputSize: 'md',
-    placeholder: 'Phone',
-  };
-
-  const inputProps3 = {
-    type: 'text',
-    inputSize: 'lg',
-    placeholder: 'Country',
-  };
-
-  const inputProps4 = {
-    type: 'text',
-    inputSize: 'lg',
-    placeholder: 'Phone',
-  };
-
-  const inputProps5 = {
-    type: 'text',
-    inputSize: 'xl',
-    placeholder: 'Country',
-  };
-
-  const inputProps6 = {
-    type: 'text',
-    inputSize: 'xl',
-    placeholder: 'Phone',
-  };
-
-  return (
-    <>
-      <section className="mt-8 text-3xl font-bold">Sizes</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-end w-full gap-2">
-          <div>
-            <TextInputGroup
-              inputProps={{
-                input1: inputProps1,
-                input2: inputProps2,
-              }}
-            />
-          </div>
-          <div>
-            <TextInputGroup
-              inputProps={{
-                input1: inputProps3,
-                input2: inputProps4,
-              }}
-            />
-          </div>
-          <div>
-            <TextInputGroup
-              inputProps={{
-                input1: inputProps5,
-                input2: inputProps6,
-              }}
-            />
-          </div>
-        </div>
-      </div>
-    </>
-  );
-};
-
-const Error = () => {
-  const inputProps1 = {
-    type: 'text',
-    inputSize: 'medium',
-    placeholder: 'Username',
-    isError: true,
-  };
-
-  const inputProps2 = {
-    type: 'email',
-    inputSize: 'medium',
-    placeholder: 'Email',
-  };
-  return (
-    <>
-      <section className="mt-8 text-3xl font-bold">Error</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-end w-full gap-2">
-          <TextInputGroup
-            inputProps={{
-              input1: inputProps1,
-              input2: inputProps2,
-            }}
-          />
-          <TextInputGroup
-            orientation="vertical"
-            inputProps={{
-              input1: inputProps1,
-              input2: inputProps2,
-            }}
-          />
-        </div>
-      </div>
-    </>
-  );
-};
-
-const Example = () => (
-  <div className="theme-moon-dark">
-    <Default />
-    <Vertical />
-    <Rtl />
-    <Sizes />
-    <Error />
-  </div>
-);
 
 export default Example;

@@ -1,6 +1,5 @@
 import React, { ReactChild, ReactNode } from 'react';
 import '../styles/globals.css';
-import '../styles/reset.css';
 import '../styles/themes.css';
 import '../styles/custom.css';
 // import '@moon/core/lib/loader/styles.css';

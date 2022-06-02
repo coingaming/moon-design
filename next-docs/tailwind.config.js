@@ -29,6 +29,10 @@ module.exports = {
         transparent: 'transparent',
         current: 'currentColor',
       },
+      screens: {
+        '3xl': '1800px',
+      },
     },
   },
+  plugins: [require('tailwindcss-rtl')],
 };

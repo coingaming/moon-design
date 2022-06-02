@@ -1,5 +1,11 @@
 # @heathmont/moon-core-tw
 
+## 9.1.0
+
+### Minor Changes
+
+- 9.1.0
+
 ## 9.0.4
 
 ### Patch Changes

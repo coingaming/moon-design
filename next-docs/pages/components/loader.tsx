@@ -1,4 +1,3 @@
-import React from 'react';
 import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
@@ -28,7 +27,6 @@ const PageLoader = () => {
       <section className="mt-8">
         <Preview
           title="Default"
-          isGrayBg
           preview={<Default />}
           code={examples ? examples.Default : 'Loading'}
         />
@@ -36,7 +34,6 @@ const PageLoader = () => {
       <section className="mt-8">
         <Preview
           title="Colours"
-          isGrayBg
           preview={<Colours />}
           code={examples ? examples.Colours : 'Loading'}
         />
@@ -44,7 +41,6 @@ const PageLoader = () => {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />

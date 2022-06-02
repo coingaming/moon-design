@@ -3,10 +3,10 @@ import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
-import ErrorStateCentered from "../../public/examples/authCode/ErrorStateCentered";
+import ErrorStateCentered from '../../public/examples/authCode/ErrorStateCentered';
 import FourChars from '../../public/examples/authCode/FourChars';
 import OnlyDigits from '../../public/examples/authCode/OnlyDigits';
-import Stretch from "../../public/examples/authCode/Stretch";
+import Stretch from '../../public/examples/authCode/Stretch';
 import useExamples from '../../utils/useExamples';
 
 const PageAuthCodeGroup = () => {
@@ -15,10 +15,12 @@ const PageAuthCodeGroup = () => {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">AuthCode</h1>
+        <h1 className="text-5xl font-medium">AuthCode</h1>
         <p className="text-lg mt-4">
           <h3>
-            The AuthCode component consists of TextInput components with additional logic that supports quick and easy one-time-password handling.
+            The AuthCode component consists of TextInput components with
+            additional logic that supports quick and easy one-time-password
+            handling.
           </h3>
         </p>
       </section>
@@ -79,15 +81,15 @@ const PageAuthCodeGroup = () => {
             type: 'number',
             required: false,
             default: '6',
-            description:
-              'Number of inputs for inserting single values.',
+            description: 'Number of inputs for inserting single values.',
           },
           {
             name: 'onlyDigits',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'If true, inputs would allow only digit values. Default is alphanumeric.',
+            description:
+              'If true, inputs would allow only digit values. Default is alphanumeric.',
           },
           {
             name: 'placeholder',
@@ -101,21 +103,24 @@ const PageAuthCodeGroup = () => {
             type: 'string',
             required: false,
             default: '-',
-            description: 'Puts element in error state and displays the message.',
+            description:
+              'Puts element in error state and displays the message.',
           },
           {
             name: 'onChange',
             type: 'function',
             required: false,
             default: '-',
-            description: 'Callback function that gets triggered on single value change.',
+            description:
+              'Callback function that gets triggered on single value change.',
           },
           {
             name: 'onSubmit',
             type: 'function',
             required: false,
             default: '-',
-            description: 'Callback function that gets triggered when all single values are entered.',
+            description:
+              'Callback function that gets triggered when all single values are entered.',
           },
         ]}
       />

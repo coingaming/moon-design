@@ -15,12 +15,12 @@ const ListItem: React.FC<{}> = ({ children }) => (
 const PageTokensNew = () => (
   <>
     <section className="mt-8">
-      <h1 className="text-5xl font-semibold">Tokens</h1>
+      <h1 className="text-5xl font-medium">Tokens</h1>
 
       <div className="mt-8">
         <Text>
           Design tokens are{' '}
-          <span className="font-bold">
+          <span className="font-medium">
             all the values needed to construct and maintain a design system{' '}
           </span>
           — spacing, color, typography, object styles, animation, etc.
@@ -45,7 +45,7 @@ const PageTokensNew = () => (
 
       <div className="mt-8 flex flex-row justify-between gap-20">
         <div className="">
-          <h3 className="text-xl text-black font-bold">
+          <h3 className="text-xl text-black font-medium">
             How to create your own custom theme based and use it for your
             product.
           </h3>

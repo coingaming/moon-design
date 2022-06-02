@@ -1,4 +1,3 @@
-import React from 'react';
 import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../../components/codePreview/Preview';
 import PropsTable from '../../../components/PropsTable';
@@ -32,7 +31,6 @@ const PageHeading = () => {
       <section className="mt-8">
         <Preview
           title="Colors"
-          isGrayBg
           preview={<Colors />}
           code={examples ? examples.Colors : 'Loading'}
         />
@@ -41,7 +39,6 @@ const PageHeading = () => {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          isGrayBg
           preview={<Sizes />}
           code={examples ? examples.Sizes : 'Loading'}
         />
@@ -50,7 +47,6 @@ const PageHeading = () => {
       <section className="mt-8">
         <Preview
           title="Font Weight"
-          isGrayBg
           preview={<FontWeight />}
           code={examples ? examples.FontWeight : 'Loading'}
         />
@@ -59,7 +55,6 @@ const PageHeading = () => {
       <section className="mt-8">
         <Preview
           title="Text Align"
-          isGrayBg
           preview={<TextAlign />}
           code={examples ? examples.TextAlign : 'Loading'}
         />
@@ -68,7 +63,6 @@ const PageHeading = () => {
       <section className="mt-8">
         <Preview
           title="Uppercase"
-          isGrayBg
           preview={<Uppercase />}
           code={examples ? examples.Uppercase : 'Loading'}
         />
@@ -77,7 +71,6 @@ const PageHeading = () => {
       <section className="mt-8">
         <Preview
           title="Underline"
-          isGrayBg
           preview={<Underline />}
           code={examples ? examples.Underline : 'Loading'}
         />
@@ -86,7 +79,6 @@ const PageHeading = () => {
       <section className="mt-8">
         <Preview
           title="Line height"
-          isGrayBg
           preview={<LineHeight />}
           code={examples ? examples.LineHeight : 'Loading'}
         />
@@ -95,7 +87,6 @@ const PageHeading = () => {
       <section className="mt-8">
         <Preview
           title="Semantic tags"
-          isGrayBg
           preview={<SemanticTags />}
           code={examples ? examples.SemanticTags : 'Loading'}
         />

@@ -1,4 +1,3 @@
-import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import ContentOutside from '../../public/examples/accordionNew/ContentOutside';
@@ -16,7 +15,7 @@ const PageAccordion = () => {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Accordion New</h1>
+        <h1 className="text-5xl font-medium">Accordion New</h1>
         <p className="text-lg mt-4">
           Like the accordion instrument, our accordion component reveals or
           hides associated sections of content. This is done through the use of
@@ -33,7 +32,6 @@ const PageAccordion = () => {
       <section className="mt-8">
         <Preview
           title="Default"
-          isGrayBg
           preview={<Default />}
           code={examples.Default ? examples.Default : 'Loading'}
         />
@@ -42,7 +40,6 @@ const PageAccordion = () => {
       <section className="mt-8">
         <Preview
           title="Open by default"
-          isGrayBg
           preview={<OpenByDefault />}
           code={examples.OpenByDefault ? examples.OpenByDefault : 'Loading'}
         />
@@ -51,7 +48,6 @@ const PageAccordion = () => {
       <section className="mt-8">
         <Preview
           title="Without button"
-          isGrayBg
           preview={<WithoutButton />}
           code={examples.WithoutButton ? examples.WithoutButton : 'Loading'}
         />
@@ -60,7 +56,6 @@ const PageAccordion = () => {
       <section className="mt-8">
         <Preview
           title="Disable open"
-          isGrayBg
           preview={<DisableOpen />}
           code={examples.DisableOpen ? examples.DisableOpen : 'Loading'}
         />
@@ -69,7 +64,6 @@ const PageAccordion = () => {
       <section className="mt-8">
         <Preview
           title="Content outside"
-          isGrayBg
           preview={<ContentOutside />}
           code={examples.ContentOutside ? examples.ContentOutside : 'Loading'}
         />
@@ -78,7 +72,6 @@ const PageAccordion = () => {
       <section className="mt-8">
         <Preview
           title="Header content"
-          isGrayBg
           preview={<HeaderContent />}
           code={examples.HeaderContent ? examples.HeaderContent : 'Loading'}
         />
@@ -87,7 +80,6 @@ const PageAccordion = () => {
       <section className="mt-8">
         <Preview
           title="Sizes"
-          isGrayBg
           preview={<Sizes />}
           code={examples.Sizes ? examples.Sizes : 'Loading'}
         />
@@ -96,7 +88,6 @@ const PageAccordion = () => {
       <section className="mt-8">
         <Preview
           title="Sizes: content outside"
-          isGrayBg
           preview={<SizesContentOutside />}
           code={
             examples.SizesContentOutside

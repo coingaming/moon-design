@@ -1,27 +1,34 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import imageFuture from '../../public/future.png';
+import imageFutureBg from '../../public/future_bg.png';
+import imageFutureImage from '../../public/future_image.svg';
 import TopRightArrowIcon from '../icons/TopRightArrowIcon';
 
 const Future = () => (
   <Link href="/howToContribute">
-    <a className="max-w-screen-lg group block relative rounded-lg p-11">
-      <h2 className="relative text-white text-5xl tracking-tight z-10">
-        Want to contribute?
-      </h2>
-      <p className="mt-8 md:w-1/2 relative text-2xl text-white z-10 group-hover:underline">
-        Start building with our HTML/CSS framework and rapidly go from prototype
-        to production.
-      </p>
-      <div className="absolute top-11 right-11 text-white z-10">
-        <TopRightArrowIcon />
+    <a className="group block relative px-14 py-8">
+      <div className="flex justify-between align-start">
+        <div className="flex flex-col gap-6">
+          <h3 className="relative text-goten text-moon-48 font-medium z-1">
+            Want to contribute?
+          </h3>
+          <p className="max-w-md relative text-moon-24 text-goten z-1">
+            Start building with our HTML/CSS framework and rapidly go from
+            prototype to production.
+          </p>
+        </div>
+        <div className="relative z-1">
+          <Image alt="Future" src={imageFutureImage} />
+        </div>
+        <div className="relative text-goten z-1">
+          <TopRightArrowIcon />
+        </div>
       </div>
       <div className="w-full md:h-full">
         <Image
-          className="rounded-3xl object-left"
-          alt="Future"
-          src={imageFuture}
+          className="rounded-moon-s-lg object-left"
+          src={imageFutureBg}
           layout="fill"
           objectFit="cover"
           quality={100}

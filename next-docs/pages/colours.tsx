@@ -39,7 +39,7 @@ export default function PageColoursNew() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Colours</h1>
+        <h1 className="text-5xl font-medium">Colours</h1>
 
         <div className="mt-8 flex flex-row justify-between gap-12 xl:gap-20 ">
           <div className="grow">
@@ -54,8 +54,8 @@ export default function PageColoursNew() {
             </ColorUsage>
 
             <ColorUsage>
-              Meet the <span className="font-bold">Dragon Ball Z approach</span>
-              .
+              Meet the{' '}
+              <span className="font-medium">Dragon Ball Z approach</span>.
             </ColorUsage>
 
             <ColorUsage>
@@ -81,7 +81,7 @@ export default function PageColoursNew() {
           </div>
         </div>
       </section>
-      <h2 className="text-3xl font-semibold mt-8">Main colours</h2>
+      <h2 className="text-3xl font-medium mt-8">Main colours</h2>
       <section className="mt-8">
         <ColorUsage>Accent colours</ColorUsage>
         <div className="mt-4">
@@ -139,7 +139,7 @@ export default function PageColoursNew() {
           />
         </div>
       </section>
-      <h2 className="text-3xl font-semibold mt-8">Supportive colours</h2>
+      <h2 className="text-3xl font-medium mt-8">Supportive colours</h2>
       <section className="mt-8">
         <ColorName>Krillin</ColorName>
         <ColorUsage>Warning colour</ColorUsage>

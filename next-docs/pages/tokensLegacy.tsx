@@ -16,12 +16,12 @@ export default function PageTokens() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Tokens</h1>
+        <h1 className="text-5xl font-medium">Tokens</h1>
 
         <div className="mt-8">
           <Text>
             Design tokens are{' '}
-            <span className="font-bold">
+            <span className="font-medium">
               all the values needed to construct and maintain a design system{' '}
             </span>
             — spacing, color, typography, object styles, animation, etc.
@@ -46,7 +46,7 @@ export default function PageTokens() {
 
         <div className="mt-8 flex flex-row justify-between gap-20">
           <div className="">
-            <h3 className="text-xl text-black font-bold">
+            <h3 className="text-xl text-black font-medium">
               How to create your own custom theme based and use it for your
               product.
             </h3>
@@ -85,7 +85,7 @@ export default function PageTokens() {
           <Image className="rounded-lg" src={tokenImg} alt="Colours usage" />
         </div>
       </section>
-      <h2 className="text-3xl font-semibold mt-8">Base</h2>
+      <h2 className="text-3xl font-medium mt-8">Base</h2>
       <section className="mt-4">
         <TokenTable
           data={[
@@ -108,7 +108,7 @@ export default function PageTokens() {
         />
       </section>
 
-      <h2 className="text-3xl font-semibold mt-8">Border</h2>
+      <h2 className="text-3xl font-medium mt-8">Border</h2>
       <section className="mt-4">
         <TokenTable
           data={[
@@ -132,7 +132,7 @@ export default function PageTokens() {
         />
       </section>
 
-      <h2 className="text-3xl font-semibold mt-8">Box Shadow</h2>
+      <h2 className="text-3xl font-medium mt-8">Box Shadow</h2>
       <section className="mt-4">
         <TokenTable
           data={[
@@ -146,7 +146,7 @@ export default function PageTokens() {
         />
       </section>
 
-      <h2 className="text-3xl font-semibold mt-8">Breakpoints</h2>
+      <h2 className="text-3xl font-medium mt-8">Breakpoints</h2>
       <section className="mt-4">
         <TokenTable
           data={[
@@ -174,7 +174,7 @@ export default function PageTokens() {
         />
       </section>
 
-      <h2 className="text-3xl font-semibold mt-8">Font</h2>
+      <h2 className="text-3xl font-medium mt-8">Font</h2>
       <section className="mt-4">
         <TokenTable
           data={[
@@ -208,7 +208,7 @@ export default function PageTokens() {
         />
       </section>
 
-      <h2 className="text-3xl font-semibold mt-8">Opacity</h2>
+      <h2 className="text-3xl font-medium mt-8">Opacity</h2>
       <section className="mt-4">
         <TokenTable
           data={[
@@ -221,7 +221,7 @@ export default function PageTokens() {
         />
       </section>
 
-      <h2 className="text-3xl font-semibold mt-8">Radius</h2>
+      <h2 className="text-3xl font-medium mt-8">Radius</h2>
       <section className="mt-4">
         <TokenTable
           data={[
@@ -244,7 +244,7 @@ export default function PageTokens() {
         />
       </section>
 
-      <h2 className="text-3xl font-semibold mt-8">Space</h2>
+      <h2 className="text-3xl font-medium mt-8">Space</h2>
       <section className="mt-4">
         <TokenTable
           data={[
@@ -282,7 +282,7 @@ export default function PageTokens() {
         />
       </section>
 
-      <h2 className="text-3xl font-semibold mt-8">Transition</h2>
+      <h2 className="text-3xl font-medium mt-8">Transition</h2>
       <section className="mt-4">
         <TokenTable
           data={[
@@ -300,7 +300,7 @@ export default function PageTokens() {
         />
       </section>
 
-      <h2 className="text-3xl font-semibold mt-8">z-index</h2>
+      <h2 className="text-3xl font-medium mt-8">z-index</h2>
       <section className="mt-4">
         <TokenTable
           data={[
