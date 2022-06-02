@@ -38,6 +38,7 @@ const Example = () => {
             input2: selectProps
           }}
           size="medium"
+          orientation='vertical'
         />
       </div>
       <div className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40">
@@ -47,6 +48,7 @@ const Example = () => {
             input2: inputProps
           }}
           size="medium"
+          orientation='vertical'
         />
       </div>
     </div>

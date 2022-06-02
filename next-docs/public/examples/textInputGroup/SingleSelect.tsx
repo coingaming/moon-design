@@ -19,14 +19,17 @@ const Example = () => {
 
   const selectProps1 = {
     options,
+    type: 'select',
     label: 'xLarge',
     placeholderSlot: 'Choose an option',
   };
   const selectProps2 = {
     options,
+    type: 'select',
     label: 'xLarge',
     placeholderSlot: 'Choose an option',
   };
+
   return (
     <div className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40">
       <TextInputGroup
@@ -34,7 +37,7 @@ const Example = () => {
           input1: selectProps1,
           input2: selectProps2,
         }}
-        size="medium"
+        size="large"
       />
     </div>
   );

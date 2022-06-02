@@ -1,7 +1,8 @@
 import React from 'react';
 import { TextInput } from "@heathmont/moon-core";
 import styled from 'styled-components';
-import { InputPropType, Select, TextInputGroupSize } from '..';
+import { Select, TextInputGroupSize } from '..';
+import {CombinedPropType} from "./types/CombinedInputProps";
 import { OrientationType } from './types/OrientationType';
 
 const Wrapper = styled.div({
@@ -9,7 +10,7 @@ const Wrapper = styled.div({
 });
 
 export interface SelectGroupStartProps {
-  inputProps: InputPropType;
+  inputProps: CombinedPropType;
   orientation?: OrientationType;
   isRtl?: boolean;
   size?: TextInputGroupSize;
