@@ -187,7 +187,7 @@ const Example = () => {
   );
 
   return (
-    <div className="w-full flex flex-row gap-36">
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <TableChart
         title="Top Players"
         icon={<ChartIcons.TopPlayers />}
@@ -198,7 +198,6 @@ const Example = () => {
         onShare={() => {}}
         onExpand={() => {}}
       />
-
       <TableChart
         title="Top Suppliers"
         icon={<ChartIcons.TopSuppliers />}
@@ -210,7 +209,6 @@ const Example = () => {
         onShare={() => {}}
         onExpand={() => {}}
       />
-
       <TableChart
         title="Top Games"
         icon={<ChartIcons.TopGames />}

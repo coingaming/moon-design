@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Avatar renders different Colours 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -27,7 +25,7 @@ exports[`Avatar renders different Colours 1`] = `
         />
       </svg>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -51,7 +49,7 @@ exports[`Avatar renders different Colours 1`] = `
         />
       </svg>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -75,16 +73,14 @@ exports[`Avatar renders different Colours 1`] = `
         />
       </svg>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Avatar renders different Sizes 1`] = `
-<div
-  className="flex flex-col w-full"
->
+Array [
   <div
-    className="flex justify-around items-center w-full mb-4"
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
       className="sc-jaIaHg iEKmFp"
@@ -230,9 +226,9 @@ exports[`Avatar renders different Sizes 1`] = `
         </svg>
       </div>
     </div>
-  </div>
+  </div>,
   <div
-    className="flex justify-around items-center w-full mb-4"
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
       className="sc-jaIaHg iEKmFp"
@@ -300,9 +296,9 @@ exports[`Avatar renders different Sizes 1`] = `
         JS
       </div>
     </div>
-  </div>
+  </div>,
   <div
-    className="flex justify-around items-center w-full"
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
       className="sc-jaIaHg iEKmFp"
@@ -358,14 +354,12 @@ exports[`Avatar renders different Sizes 1`] = `
         size="twoxlarge"
       />
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Avatar renders different Variants 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -389,7 +383,7 @@ exports[`Avatar renders different Variants 1`] = `
         />
       </svg>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -400,7 +394,7 @@ exports[`Avatar renders different Variants 1`] = `
     >
       JS
     </div>
-  </div>
+  </div>,
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -409,14 +403,12 @@ exports[`Avatar renders different Variants 1`] = `
       color="bulma.100"
       size="medium"
     />
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Avatar supports different status origins 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -444,7 +436,7 @@ exports[`Avatar supports different status origins 1`] = `
       className="sc-eCqeQn fLXySR"
       size="medium"
     />
-  </div>
+  </div>,
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -472,7 +464,7 @@ exports[`Avatar supports different status origins 1`] = `
       className="sc-eCqeQn nMyaa"
       size="medium"
     />
-  </div>
+  </div>,
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -500,7 +492,7 @@ exports[`Avatar supports different status origins 1`] = `
       className="sc-eCqeQn dOpnR"
       size="medium"
     />
-  </div>
+  </div>,
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -528,14 +520,12 @@ exports[`Avatar supports different status origins 1`] = `
       className="sc-eCqeQn cUdaYC"
       size="medium"
     />
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Avatar supports different statuses 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -559,7 +549,7 @@ exports[`Avatar supports different statuses 1`] = `
         />
       </svg>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -587,7 +577,7 @@ exports[`Avatar supports different statuses 1`] = `
       className="sc-eCqeQn dOpnR"
       size="medium"
     />
-  </div>
+  </div>,
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -596,7 +586,7 @@ exports[`Avatar supports different statuses 1`] = `
       color="bulma.100"
       size="medium"
     />
-  </div>
+  </div>,
   <div
     className="sc-jaIaHg iEKmFp"
   >
@@ -609,6 +599,6 @@ exports[`Avatar supports different statuses 1`] = `
       className="sc-eCqeQn dOpnR"
       size="medium"
     />
-  </div>
-</div>
+  </div>,
+]
 `;

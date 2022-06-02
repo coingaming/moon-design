@@ -2,7 +2,7 @@
 
 exports[`TextInput: type Date renders Date 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -55,7 +55,7 @@ exports[`TextInput: type Date renders Date 1`] = `
 
 exports[`TextInput: type Date renders DateTime 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -108,7 +108,7 @@ exports[`TextInput: type Date renders DateTime 1`] = `
 
 exports[`TextInput: type Date renders Email 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -161,7 +161,7 @@ exports[`TextInput: type Date renders Email 1`] = `
 
 exports[`TextInput: type Date renders Number 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -214,7 +214,7 @@ exports[`TextInput: type Date renders Number 1`] = `
 
 exports[`TextInput: type Date renders Password 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -296,7 +296,7 @@ exports[`TextInput: type Date renders Password 1`] = `
 
 exports[`TextInput: type Date renders RTL 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
   dir="rtl"
 >
   <div
@@ -355,7 +355,7 @@ exports[`TextInput: type Date renders RTL 1`] = `
 
 exports[`TextInput: type Date renders Search 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -408,7 +408,7 @@ exports[`TextInput: type Date renders Search 1`] = `
 
 exports[`TextInput: type Date renders Telephone 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -461,7 +461,7 @@ exports[`TextInput: type Date renders Telephone 1`] = `
 
 exports[`TextInput: type Date renders Time 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -514,7 +514,7 @@ exports[`TextInput: type Date renders Time 1`] = `
 
 exports[`TextInput: type Date renders Url 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -567,7 +567,7 @@ exports[`TextInput: type Date renders Url 1`] = `
 
 exports[`TextInput: type Date renders different sizes 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -620,7 +620,7 @@ exports[`TextInput: type Date renders different sizes 1`] = `
 
 exports[`TextInput: type Date renders disabled 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
@@ -694,7 +694,7 @@ exports[`TextInput: type Date renders disabled 1`] = `
 
 exports[`TextInput: type Date renders error 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -765,7 +765,7 @@ exports[`TextInput: type Date renders error 1`] = `
 
 exports[`TextInput: type Date renders readOnly 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -842,7 +842,7 @@ exports[`TextInput: type Date renders readOnly 1`] = `
 
 exports[`TextInput: type Date renders with hint 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -913,7 +913,7 @@ exports[`TextInput: type Date renders with hint 1`] = `
 
 exports[`TextInput: type Date renders without label 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
@@ -954,7 +954,7 @@ exports[`TextInput: type Date renders without label 1`] = `
 
 exports[`TextInput: type Date supports background colour 1`] = `
 <div
-  className="flex justify-around items-end w-full gap-2"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"

@@ -4,7 +4,7 @@ interface Data {
   name: string;
   type: string;
   required: boolean;
-  default: string;
+  default: string | React.ReactNode;
   description: string;
 }
 
@@ -14,7 +14,7 @@ interface TableProps {
 }
 
 const PropsTable = ({ data, title }: TableProps) => (
-  <section className="grid gap-4 mt-14">
+  <section className="grid gap-4">
     {title && (
       <Heading as="h2" size={24}>
         {title}

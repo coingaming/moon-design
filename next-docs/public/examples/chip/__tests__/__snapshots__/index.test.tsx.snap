@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Chip renders different Sizes 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <button
     className="sc-dvogsP eWHxSd"
     onMouseEnter={[Function]}
@@ -11,7 +9,7 @@ exports[`Chip renders different Sizes 1`] = `
     size="small"
   >
     Small
-  </button>
+  </button>,
   <button
     className="sc-dvogsP bZAmSA"
     onMouseEnter={[Function]}
@@ -19,14 +17,12 @@ exports[`Chip renders different Sizes 1`] = `
     size="medium"
   >
     Medium is Default
-  </button>
-</div>
+  </button>,
+]
 `;
 
 exports[`Chip renders isActive 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <button
     className="sc-dvogsP kcpwLo"
     onMouseEnter={[Function]}
@@ -34,7 +30,7 @@ exports[`Chip renders isActive 1`] = `
     size="small"
   >
     Active
-  </button>
+  </button>,
   <button
     className="sc-dvogsP kExCCl"
     onMouseEnter={[Function]}
@@ -42,16 +38,14 @@ exports[`Chip renders isActive 1`] = `
     size="medium"
   >
     Active
-  </button>
-</div>
+  </button>,
+]
 `;
 
 exports[`Chip renders with Icons 1`] = `
-<div
-  className="flex flex-col gap-10 items-center w-full"
->
+Array [
   <div
-    className="flex justify-around items-center w-full"
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <button
       className="sc-dvogsP gmAxbn"
@@ -182,9 +176,9 @@ exports[`Chip renders with Icons 1`] = `
         />
       </svg>
     </button>
-  </div>
+  </div>,
   <div
-    className="flex justify-around items-center w-full"
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <button
       className="sc-dvogsP jCGqxX"
@@ -315,16 +309,14 @@ exports[`Chip renders with Icons 1`] = `
         />
       </svg>
     </button>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Chip renders with Icons with stroke 1`] = `
-<div
-  className="flex flex-col w-full gap-10"
->
+Array [
   <div
-    className="flex justify-around items-center w-full"
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <button
       className="sc-dvogsP eQnBrl"
@@ -455,9 +447,9 @@ exports[`Chip renders with Icons with stroke 1`] = `
         />
       </svg>
     </button>
-  </div>
+  </div>,
   <div
-    className="flex justify-around items-center w-full"
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <button
       className="sc-dvogsP iqhGtN"
@@ -588,14 +580,12 @@ exports[`Chip renders with Icons with stroke 1`] = `
         />
       </svg>
     </button>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Chip renders with stroke 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <button
     className="sc-dvogsP gAmNWn"
     onMouseEnter={[Function]}
@@ -603,7 +593,7 @@ exports[`Chip renders with stroke 1`] = `
     size="small"
   >
     Stroke on hover
-  </button>
+  </button>,
   <button
     className="sc-dvogsP xWiNO"
     onMouseEnter={[Function]}
@@ -611,6 +601,6 @@ exports[`Chip renders with stroke 1`] = `
     size="medium"
   >
     Stroke on hover
-  </button>
-</div>
+  </button>,
+]
 `;

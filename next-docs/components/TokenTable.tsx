@@ -12,7 +12,7 @@ interface TokenTableProps {
 }
 
 const TokenTable = ({ data, title }: TokenTableProps) => (
-  <section className="grid gap-4 mt-14">
+  <section className="grid gap-4">
     {title && (
       <Heading as="h2" size={24}>
         {title}

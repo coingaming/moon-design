@@ -6,13 +6,13 @@ const SubText: React.FC = () => (
 );
 
 const Example = () => (
-  <div className="flex justify-around items-center w-full flex-wrap">
-    <div className="w-72 m-0.5">
-      <ListItem elementRight={<Checkbox />} subtext={<SubText />}>
-        Two lines item
-      </ListItem>
-    </div>
-  </div>
+  <ListItem
+    backgroundColor="gohan.100"
+    elementRight={<Checkbox />}
+    subtext={<SubText />}
+  >
+    Two lines item
+  </ListItem>
 );
 
 export default Example;
