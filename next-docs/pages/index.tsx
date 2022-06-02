@@ -1,19 +1,21 @@
+import { Label } from '@heathmont/moon-core-tw';
 import Contributors from '../components/facing/Contributors';
 import ForDesigners from '../components/facing/ForDesigners';
 import ForDevelopers from '../components/facing/ForDevelopers';
 import Future from '../components/facing/Future';
 import MoonAndEarthAnimation from '../components/facing/MoonAndEarth';
-import OpenSourceBadge from '../components/facing/OpenSourceBadge';
 import PageTitle from '../components/facing/PageTitle';
 import Updates from '../components/facing/Updates';
 
 const Home = () => (
   <>
     <div className="relative z-5 flex flex-col gap-12">
-      <OpenSourceBadge />
+      <div className="self-start">
+        <Label size="2xs">Open Source</Label>
+      </div>
       <div className="flex flex-col gap-16">
         <PageTitle />
-        <div className="flex flex-col lg:flex-row gap-4 2xl:fixed 2xl:top-12 2xl:right-12 2xl:z-10">
+        <div className="flex flex-col lg:flex-row gap-4 3xl:fixed 3xl:top-12 3xl:right-12 3xl:z-10">
           <ForDevelopers />
           <ForDesigners />
         </div>

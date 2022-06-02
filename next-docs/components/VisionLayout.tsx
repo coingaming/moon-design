@@ -52,7 +52,7 @@ const VisionLayout: React.FC<{ children: React.ReactNode }> = ({
           </div>
           {/* TODO overflow-y-auto */}
           <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
-            <div className="flex flex-col gap-12 pt-12 pb-16">{children}</div>
+            <div className="flex flex-col gap-12">{children}</div>
           </main>
           <Footer />
         </div>

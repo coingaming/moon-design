@@ -19,24 +19,23 @@ const FigmaIcon = () => (
 );
 
 const ForDesigners = () => (
-  <div className="theme-moon-dark relative flex grow p-6 gap-6 theme-tokens rounded-moon-s-lg bg-whis text-bulma 2xl:flex-col 2xl:h-96 2xl:w-80 2xl:rounded-br-none 2xl:absolute 2xl:top-0 2xl:right-80">
-    <div className="flex gap-6 align-center justify-between grow 2xl:flex-col 2xl:justify-end">
+  <div className="theme-moon-dark relative flex grow p-6 gap-6 theme-tokens rounded-moon-s-lg bg-whis text-bulma 3xl:flex-col 3xl:h-96 3xl:w-80 3xl:rounded-br-none 3xl:absolute 3xl:top-0 3xl:right-80">
+    <div className="flex gap-6 align-center justify-between grow 3xl:flex-col 3xl:justify-end">
       <FigmaIcon />
-      <h2 className="text-moon-24 grow 2xl:grow-0">
+      <h2 className="text-moon-24 grow 3xl:grow-0">
         <a
           href="https://www.figma.com/community/file/1002945721703152933"
-          className="2xl:pointer-events-none"
           target="_blank"
           rel="noreferrer"
         >
           For designers.
         </a>
       </h2>
-      <div className="2xl:absolute 2xl:top-6 2xl:right-6">
+      <div className="3xl:absolute 3xl:top-6 3xl:right-6">
         <TopRightArrowIcon />
       </div>
     </div>
-    <div className="hidden flex-wrap gap-1 2xl:flex">
+    <div className="hidden flex-wrap gap-1 3xl:flex">
       <Link href="https://www.figma.com/community/file/1002945721703152933">
         <a target="_blank" rel="noreferrer">
           <Button variant="secondary">Figma</Button>

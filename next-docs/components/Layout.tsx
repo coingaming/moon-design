@@ -66,7 +66,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 isReactEnabled={!isElixir}
               />
             )}
-            <div className="flex flex-col gap-12 pt-12 pb-16">{children}</div>
+            <div className="flex flex-col gap-12">{children}</div>
           </main>
           <Footer />
         </div>

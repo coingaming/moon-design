@@ -59,7 +59,7 @@ const IconPreview: React.FC<IconPreviewProps> = ({
     );
   if (loading)
     return (
-      <div className="flex flex-col gap-6">
+      <div className="flex justify-center">
         <Loader size="2xs" />
       </div>
     );
