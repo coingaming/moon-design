@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Logo from './sidebar/Logo';
 
 const Footer = () => (
-  <footer className="flex gap-x-8 gap-y-12 pb-8 flex-wrap items-center text-moon-16 text-bulma justify-between">
+  <footer className="flex gap-x-8 gap-y-12 pt-16 pb-8 flex-wrap items-center text-moon-16 text-bulma justify-between">
     <div className="flex gap-x-8 gap-y-12 flex-wrap items-center">
       <Logo height={16} />
       <div className="flex gap-x-8 gap-y-12 flex-wrap items-center">
