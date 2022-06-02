@@ -49,7 +49,7 @@ const PageTextInputGroup = () => {
         <Preview
           title="Combined"
           preview={<Combined />}
-          code={examples ? examples.Default : 'Loading'}
+          code={examples ? examples.Combined : 'Loading'}
         />
       </section>
 

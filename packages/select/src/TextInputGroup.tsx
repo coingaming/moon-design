@@ -7,10 +7,9 @@ import { SelectProps } from './Select';
 import Container from './styles/Container';
 
 export type DirType = 'ltr' | 'rtl' | 'auto';
-
 export type InputPropType = Partial<SelectProps<any>> & Partial<TextInputProps> & { type: string };
+export type TextInputGroupSize = "medium" | "large";
 
-export type TextInputGroupSize = "medium" | "large";;
 export interface TextInputGroupProps {
   orientation?: OrientationType;
   inputProps?: {
