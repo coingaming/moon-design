@@ -12,7 +12,7 @@ exports[`Multi Select options content 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="sc-hNDnKS ijgthb"
+        className="sc-jLOYlT kpsrUz"
       >
         Large
       </span>
@@ -35,14 +35,14 @@ exports[`Multi Select options content 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-wuj7bk-placeholder"
               id="react-select-16-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -72,7 +72,7 @@ exports[`Multi Select options content 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -122,19 +122,19 @@ exports[`Multi Select options content 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="sc-jLOYlT eNhDKn"
+            className="sc-jrVuhE hHyLDF"
           >
             xLarge
           </div>
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-jexdti-placeholder"
               id="react-select-17-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -164,7 +164,7 @@ exports[`Multi Select options content 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -203,7 +203,7 @@ exports[`Multi Select options wrapper width 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="sc-hNDnKS ijgthb"
+        className="sc-jLOYlT kpsrUz"
       >
         Large
       </span>
@@ -226,14 +226,14 @@ exports[`Multi Select options wrapper width 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-wuj7bk-placeholder"
               id="react-select-14-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -263,7 +263,7 @@ exports[`Multi Select options wrapper width 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -313,19 +313,19 @@ exports[`Multi Select options wrapper width 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="sc-jLOYlT eNhDKn"
+            className="sc-jrVuhE hHyLDF"
           >
             Single xLarge
           </div>
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-jexdti-placeholder"
               id="react-select-15-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -355,7 +355,7 @@ exports[`Multi Select options wrapper width 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -394,7 +394,7 @@ exports[`Multi Select renders disabled 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="sc-hNDnKS ijgthb"
+        className="sc-jLOYlT kpsrUz"
       >
         Large
       </span>
@@ -417,14 +417,14 @@ exports[`Multi Select renders disabled 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-wuj7bk-placeholder"
               id="react-select-8-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -454,7 +454,7 @@ exports[`Multi Select renders disabled 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -504,19 +504,19 @@ exports[`Multi Select renders disabled 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="sc-jLOYlT eNhDKn"
+            className="sc-jrVuhE hHyLDF"
           >
             xLarge
           </div>
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-jexdti-placeholder"
               id="react-select-9-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -546,7 +546,7 @@ exports[`Multi Select renders disabled 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -585,7 +585,7 @@ exports[`Multi Select renders error 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="sc-hNDnKS ijgthb"
+        className="sc-jLOYlT kpsrUz"
       >
         Large
       </span>
@@ -608,14 +608,14 @@ exports[`Multi Select renders error 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-wuj7bk-placeholder"
               id="react-select-10-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -645,7 +645,7 @@ exports[`Multi Select renders error 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -669,7 +669,7 @@ exports[`Multi Select renders error 1`] = `
       </div>
     </div>
     <span
-      className="sc-kHMNun kGxljV"
+      className="sc-knTjpY bvvmxU"
     >
       Informative message holder
     </span>
@@ -700,19 +700,19 @@ exports[`Multi Select renders error 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="sc-jLOYlT eNhDKn"
+            className="sc-jrVuhE hHyLDF"
           >
             xLarge
           </div>
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-jexdti-placeholder"
               id="react-select-11-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -742,7 +742,7 @@ exports[`Multi Select renders error 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -766,7 +766,7 @@ exports[`Multi Select renders error 1`] = `
       </div>
     </div>
     <span
-      className="sc-kHMNun kGxljV"
+      className="sc-knTjpY bvvmxU"
     >
       Informative message holder
     </span>
@@ -786,7 +786,7 @@ exports[`Multi Select renders with hint 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="sc-hNDnKS ijgthb"
+        className="sc-jLOYlT kpsrUz"
       >
         Large
       </span>
@@ -809,14 +809,14 @@ exports[`Multi Select renders with hint 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-wuj7bk-placeholder"
               id="react-select-6-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -846,7 +846,7 @@ exports[`Multi Select renders with hint 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -870,7 +870,7 @@ exports[`Multi Select renders with hint 1`] = `
       </div>
     </div>
     <span
-      className="sc-kHMNun YnjiB"
+      className="sc-knTjpY btrQdM"
     >
       Informative message holder
     </span>
@@ -901,19 +901,19 @@ exports[`Multi Select renders with hint 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="sc-jLOYlT eNhDKn"
+            className="sc-jrVuhE hHyLDF"
           >
             Single xLarge
           </div>
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-jexdti-placeholder"
               id="react-select-7-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -943,7 +943,7 @@ exports[`Multi Select renders with hint 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -967,7 +967,7 @@ exports[`Multi Select renders with hint 1`] = `
       </div>
     </div>
     <span
-      className="sc-kHMNun YnjiB"
+      className="sc-knTjpY btrQdM"
     >
       Informative message holder
     </span>
@@ -987,7 +987,7 @@ exports[`Multi Select renders with label 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="sc-hNDnKS ijgthb"
+        className="sc-jLOYlT kpsrUz"
       >
         Large
       </span>
@@ -1010,14 +1010,14 @@ exports[`Multi Select renders with label 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-wuj7bk-placeholder"
               id="react-select-2-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -1047,7 +1047,7 @@ exports[`Multi Select renders with label 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -1097,19 +1097,19 @@ exports[`Multi Select renders with label 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="sc-jLOYlT eNhDKn"
+            className="sc-jrVuhE hHyLDF"
           >
             Single xLarge
           </div>
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-jexdti-placeholder"
               id="react-select-3-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -1139,7 +1139,7 @@ exports[`Multi Select renders with label 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -1196,14 +1196,14 @@ exports[`Multi Select renders without label 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-wuj7bk-placeholder"
               id="react-select-4-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -1233,7 +1233,7 @@ exports[`Multi Select renders without label 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -1283,17 +1283,17 @@ exports[`Multi Select renders without label 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="sc-jLOYlT eNhDKn"
+            className="sc-jrVuhE hHyLDF"
           />
           <div
-            className="sc-knTjpY dlDrTB"
+            className="sc-WJksd cBAqpW"
           >
             <div
               className=" css-jexdti-placeholder"
               id="react-select-5-placeholder"
             >
               <div
-                className="sc-fXPgIJ cNVwAP"
+                className="sc-bSGZAx kmZMEw"
               >
                 Choose an option
               </div>
@@ -1323,7 +1323,7 @@ exports[`Multi Select renders without label 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -1362,7 +1362,7 @@ exports[`Multi Select with counter 1`] = `
       onKeyDown={[Function]}
     >
       <span
-        className="sc-hNDnKS ijgthb"
+        className="sc-jLOYlT kpsrUz"
       >
         Large
       </span>
@@ -1385,14 +1385,14 @@ exports[`Multi Select with counter 1`] = `
           className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className="sc-knTjpY hBMVRI"
+            className="sc-WJksd dYpdDP"
           >
             <div
               className=" css-wuj7bk-placeholder"
               id="react-select-12-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -1422,7 +1422,7 @@ exports[`Multi Select with counter 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
@@ -1472,19 +1472,19 @@ exports[`Multi Select with counter 1`] = `
           className=" css-112g2nh-ValueContainer"
         >
           <div
-            className="sc-jLOYlT eNhDKn"
+            className="sc-jrVuhE hHyLDF"
           >
             xLarge
           </div>
           <div
-            className="sc-knTjpY hBMVRI"
+            className="sc-WJksd dYpdDP"
           >
             <div
               className=" css-jexdti-placeholder"
               id="react-select-13-placeholder"
             >
               <div
-                className="sc-fXPgIJ cfJrkQ"
+                className="sc-bSGZAx hcvdFH"
               >
                 Choose an option
               </div>
@@ -1514,7 +1514,7 @@ exports[`Multi Select with counter 1`] = `
           className=" css-1hb7zxy-IndicatorsContainer"
         >
           <svg
-            className="sc-efBctP"
+            className="sc-gsnTZi"
             fill="none"
             fontSize="1.5rem"
             height="1em"
