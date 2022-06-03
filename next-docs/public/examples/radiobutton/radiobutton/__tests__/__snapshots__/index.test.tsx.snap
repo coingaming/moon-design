@@ -2,13 +2,11 @@
 
 exports[`Radiobutton renders 1`] = `
 <div
-  className="flex flex-col"
+  className="flex flex-col gap-2"
 >
-  <h4
-    className="mb-2"
-  >
+  <p>
     Please select your age:
-  </h4>
+  </p>
   <label
     className="sc-fIiyQQ iijRRK"
     htmlFor="age1"
@@ -142,29 +140,25 @@ exports[`Radiobutton renders No label 1`] = `
 <div
   dir="rtl"
 >
-  <div
-    className="flex flex-col"
+  <label
+    className="sc-fIiyQQ iijRRK"
+    htmlFor="button1"
   >
-    <label
-      className="sc-fIiyQQ iijRRK"
-      htmlFor="button1"
+    <input
+      className="sc-jpInJi hlDeXn"
+      id="button1"
+      name="button"
+      onClick={[Function]}
+      type="radio"
+    />
+    <span
+      className="sc-gyKfoT iPDinH"
     >
-      <input
-        className="sc-jpInJi hlDeXn"
-        id="button1"
-        name="button"
-        onClick={[Function]}
-        type="radio"
+      <div
+        className="sc-jmQrGM rMKPF"
       />
-      <span
-        className="sc-gyKfoT iPDinH"
-      >
-        <div
-          className="sc-jmQrGM rMKPF"
-        />
-      </span>
-    </label>
-  </div>
+    </span>
+  </label>
 </div>
 `;
 
@@ -173,13 +167,11 @@ exports[`Radiobutton renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="flex flex-col"
+    className="flex flex-col gap-2"
   >
-    <h4
-      className="mb-2"
-    >
+    <p>
       Please select your age:
-    </h4>
+    </p>
     <label
       className="sc-fIiyQQ iijRRK"
       htmlFor="age1"

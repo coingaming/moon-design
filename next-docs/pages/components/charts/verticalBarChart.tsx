@@ -1,7 +1,8 @@
-// @ts-nocheck
 import React from 'react';
+import Link from 'next/link';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
+import PageSection from '../../../components/PageSection';
 import PropsTable from '../../../components/PropsTable';
 import Active from '../../../public/examples/charts/verticalChart/Active';
 import NoData from '../../../public/examples/charts/verticalChart/NoData';
@@ -9,29 +10,29 @@ import useExamples from '../../../utils/useExamples';
 
 export default function PageVerticalBarChart() {
   const examples = useExamples('charts/verticalChart');
-
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Line chart</h1>
-        <p className="text-lg mt-4">
+      <h1 className="text-moon-32 font-medium">Line chart</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
           Based on{' '}
-          <a className="underline" href="https://recharts.org/en-US/">
-            Recharts
-          </a>
+          <Link href="https://recharts.org/en-US/">
+            <a
+              className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Recharts
+            </a>
+          </Link>
           .
         </p>
-      </section>
-
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title="Various data"
-          preview={<Active />}
-          code={examples ? examples.Active : 'Loading'}
-        />
-      </section>
-
+      </div>
+      <Preview
+        title="Various data"
+        preview={<Active />}
+        code={examples ? examples.Active : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[
@@ -136,27 +137,21 @@ export default function PageVerticalBarChart() {
         ]}
       />
 
-      <section className="mt-8">
-        <h2 className="text-2xl">Types</h2>
-        <section className="mt-4">
-          <CodeSnippet>
-            {`Data {
+      <PageSection title="Types">
+        <CodeSnippet>
+          {`Data {
   label: string | React.ReactNode;
   code: string;
   value: number;
   dataKey: string;
 }`}
-          </CodeSnippet>
-        </section>
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="No data"
-          preview={<NoData />}
-          code={examples ? examples.NoData : 'Loading'}
-        />
-      </section>
+        </CodeSnippet>
+      </PageSection>
+      <Preview
+        title="No data"
+        preview={<NoData />}
+        code={examples ? examples.NoData : 'Loading'}
+      />
     </>
   );
 }

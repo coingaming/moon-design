@@ -2,8 +2,8 @@ import { Chip } from '@heathmont/moon-core';
 import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons';
 
 const Example = () => (
-  <div className="flex flex-col w-full gap-10">
-    <div className="flex justify-around items-center w-full">
+  <>
+    <div className="flex flex-wrap items-center justify-around gap-2 w-full">
       <Chip iconLeft={<MediaMusic />} isStroke size="small">
         Left Icon
       </Chip>
@@ -26,7 +26,7 @@ const Example = () => (
       />
       <Chip iconOnly={<SoftwareDownload />} isStroke size="small" />
     </div>
-    <div className="flex justify-around items-center w-full">
+    <div className="flex flex-wrap items-center justify-around gap-2 w-full">
       <Chip iconLeft={<MediaMusic />} isStroke>
         Left Icon
       </Chip>
@@ -43,7 +43,7 @@ const Example = () => (
       />
       <Chip iconOnly={<SoftwareDownload />} isStroke />
     </div>
-  </div>
+  </>
 );
 
 export default Example;

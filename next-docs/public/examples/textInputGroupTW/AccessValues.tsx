@@ -42,7 +42,7 @@ const Example = () => {
   }, [ref1, ref2]);
 
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col gap-2">
       <TextInputGroup
         inputProps={{
           input1: inputProps1,

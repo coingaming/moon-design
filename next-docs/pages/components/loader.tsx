@@ -10,42 +10,33 @@ const PageLoader = () => {
   const examples = useExamples('loader');
   return (
     <>
-      <section className="grid gap-4 mt-8">
-        <Heading as="h1" size={48}>
-          Loader
-        </Heading>
-        <Text>
+      <h1 className="text-moon-32 font-medium">Loader</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
           Fondly nicknamed “the launcher”, the Loader ensures users that
           progress is happening so they don't give up and leave the rocket page.
-        </Text>
-        <Text>
+        </p>
+        <p className="text-moon-16">
           The Loader, along with a succinct message, is especially important
           after a user initiates an action that requires them to wait. This is
           so that they know there's no need to repeat what they've done.
-        </Text>
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Default"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Colours"
-          preview={<Colours />}
-          code={examples ? examples.Colours : 'Loading'}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Sizes"
-          preview={<Sizes />}
-          code={examples ? examples.Sizes : 'Loading'}
-        />
-      </section>
-
+        </p>
+      </div>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Colours"
+        preview={<Colours />}
+        code={examples ? examples.Colours : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

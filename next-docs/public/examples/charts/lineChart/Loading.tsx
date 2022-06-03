@@ -68,32 +68,28 @@ const Example = () => {
   );
 
   return (
-    <div className="w-full flex flex-row gap-36">
-      <div style={{ width: '50%' }}>
-        <LineChart
-          title="KPI Overview"
-          options={options}
-          data={[]}
-          filter={filter}
-          hasUpdates={true}
-          onUpdate={() => {}}
-          onShare={() => {}}
-          onExpand={() => {}}
-          loaderText="Loading..."
-        />
-      </div>
-      <div style={{ width: '50%' }}>
-        <LineChart
-          title="KPI Overview"
-          options={options}
-          data={data}
-          filter={filter}
-          hasUpdates={true}
-          onUpdate={() => {}}
-          onShare={() => {}}
-          onExpand={() => {}}
-        />
-      </div>
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
+      <LineChart
+        title="KPI Overview"
+        options={options}
+        data={[]}
+        filter={filter}
+        hasUpdates={true}
+        onUpdate={() => {}}
+        onShare={() => {}}
+        onExpand={() => {}}
+        loaderText="Loading..."
+      />
+      <LineChart
+        title="KPI Overview"
+        options={options}
+        data={data}
+        filter={filter}
+        hasUpdates={true}
+        onUpdate={() => {}}
+        onShare={() => {}}
+        onExpand={() => {}}
+      />
     </div>
   );
 };

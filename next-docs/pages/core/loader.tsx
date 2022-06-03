@@ -7,33 +7,37 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('loaderTW');
-
   return (
-    <div className="theme-moon-dark">
-      <section className="mt-8">
-        <Preview
-          title="Default"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Sizes"
-          preview={<Sizes />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Colors"
-          preview={<Colors />}
-          code={examples ? examples.Colors : 'Loading'}
-        />
-      </section>
-    </div>
+    <>
+      <h1 className="text-moon-32 font-medium">Loader</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
+          Fondly nicknamed “the launcher”, the Loader ensures users that
+          progress is happening so they don't give up and leave the rocket page.
+        </p>
+        <p className="text-moon-16">
+          The Loader, along with a succinct message, is especially important
+          after a user initiates an action that requires them to wait. This is
+          so that they know there's no need to repeat what they've done.
+        </p>
+        <p className="text-moon-16">Default colour: Hit</p>
+      </div>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Colors"
+        preview={<Colors />}
+        code={examples ? examples.Colors : 'Loading'}
+      />
+    </>
   );
 };
 

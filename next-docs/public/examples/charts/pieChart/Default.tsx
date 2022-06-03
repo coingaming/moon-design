@@ -57,7 +57,7 @@ const Example = () => {
   );
 
   return (
-    <div className="w-full flex flex-row gap-36">
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <PieChart
         title="Device Breakdown"
         data={data1}
@@ -68,7 +68,6 @@ const Example = () => {
         onExpand={() => {}}
         formatFn={formatter}
       />
-
       <PieChart
         title="Device Breakdown"
         data={data2}

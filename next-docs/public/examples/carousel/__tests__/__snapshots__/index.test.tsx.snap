@@ -2,245 +2,237 @@
 
 exports[`Carousel renders 1`] = `
 <div
-  className="flex justify-around items-center w-full"
+  className="sc-jmhOSl dIwtrM"
 >
-  <div
-    className="sc-iwoqQi iNwGdC"
+  <ul
+    className="sc-cbDwiu sc-hZiMVj eASErZ fyYEjZ"
   >
-    <div
-      className="sc-jmhOSl dIwtrM"
+    <li
+      className="sc-dDaJoQ kFlKqy"
     >
-      <ul
-        className="sc-cbDwiu sc-hZiMVj eASErZ fyYEjZ"
+      <div
+        className="sc-BIIkq gffPfR"
       >
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            0
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            1
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            2
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            3
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            4
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            5
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            6
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            7
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            8
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            9
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            10
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            11
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            12
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            13
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            14
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            15
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            16
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            17
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            18
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            19
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            20
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            21
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            22
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            23
-          </div>
-        </li>
-        <li
-          className="sc-dDaJoQ kFlKqy"
-        >
-          <div
-            className="sc-BIIkq gffPfR"
-          >
-            24
-          </div>
-        </li>
-      </ul>
-    </div>
-  </div>
+        0
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        1
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        2
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        3
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        4
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        5
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        6
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        7
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        8
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        9
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        10
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        11
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        12
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        13
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        14
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        15
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        16
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        17
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        18
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        19
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        20
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        21
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        22
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        23
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-BIIkq gffPfR"
+      >
+        24
+      </div>
+    </li>
+  </ul>
 </div>
 `;
 
@@ -249,332 +241,8 @@ exports[`Carousel renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="flex justify-around items-center w-full"
-  >
-    <div
-      className="sc-gVUVPo fDRoWn"
-    >
-      <div
-        className="sc-jmhOSl dIwtrM"
-      >
-        <ul
-          className="sc-cbDwiu sc-hZiMVj eASErZ fyYEjZ"
-        >
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              24
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              23
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              22
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              21
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              20
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              19
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              18
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              17
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              16
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              15
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              14
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              13
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              12
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              11
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              10
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              9
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              8
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              7
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              6
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              5
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              4
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              3
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              2
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              1
-            </div>
-          </li>
-          <li
-            className="sc-dDaJoQ kFlKqy"
-          >
-            <div
-              className="sc-dexYeb cxIQlK"
-            >
-              0
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Carousel renders visible index 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
-  <div
     className="sc-jmhOSl dIwtrM"
   >
-    <ul
-      className="sc-cbDwiu sc-hZiMVj cIKRJt fyYEjZ"
-    >
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-gJfQTX kkXSmt"
-        >
-          -1
-          , 
-          -1
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-gJfQTX kkXSmt"
-        >
-          -1
-          , 
-          -1
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-gJfQTX kkXSmt"
-        >
-          -1
-          , 
-          -1
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-gJfQTX kkXSmt"
-        >
-          -1
-          , 
-          -1
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-gJfQTX kkXSmt"
-        >
-          -1
-          , 
-          -1
-        </div>
-      </li>
-    </ul>
-  </div>
-</div>
-`;
-
-exports[`Carousel renders with Customized Arrows 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
-  <div
-    className="sc-jmhOSl dIwtrM"
-  >
-    <button
-      disabled={true}
-      onClick={[Function]}
-    >
-      Scroll to left
-    </button>
     <ul
       className="sc-cbDwiu sc-hZiMVj eASErZ fyYEjZ"
     >
@@ -582,214 +250,16 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="sc-dDaJoQ kFlKqy"
       >
         <div
-          className="sc-LAAhi hbFqui"
+          className="sc-iwoqQi jmsVpd"
         >
-          0
+          24
         </div>
       </li>
       <li
         className="sc-dDaJoQ kFlKqy"
       >
         <div
-          className="sc-LAAhi hbFqui"
-        >
-          1
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          2
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          3
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          4
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          5
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          6
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          7
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          8
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          9
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          10
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          11
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          12
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          13
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          14
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          15
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          16
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          17
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          18
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          19
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          20
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          21
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
-        >
-          22
-        </div>
-      </li>
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-LAAhi hbFqui"
+          className="sc-iwoqQi jmsVpd"
         >
           23
         </div>
@@ -798,64 +268,178 @@ exports[`Carousel renders with Customized Arrows 1`] = `
         className="sc-dDaJoQ kFlKqy"
       >
         <div
-          className="sc-LAAhi hbFqui"
+          className="sc-iwoqQi jmsVpd"
         >
-          24
-        </div>
-      </li>
-    </ul>
-    <button
-      disabled={true}
-      onClick={[Function]}
-    >
-      Scroll to Right
-    </button>
-  </div>
-</div>
-`;
-
-exports[`Carousel renders with different Space 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
-  <div
-    className="sc-jmhOSl dIwtrM"
-  >
-    <ul
-      className="sc-cbDwiu sc-hZiMVj cIKRJt fyYEjZ"
-    >
-      <li
-        className="sc-dDaJoQ kFlKqy"
-      >
-        <div
-          className="sc-bEeDdh dsGaRJ"
-        >
-          0
+          22
         </div>
       </li>
       <li
         className="sc-dDaJoQ kFlKqy"
       >
         <div
-          className="sc-bEeDdh dsGaRJ"
+          className="sc-iwoqQi jmsVpd"
         >
-          1
+          21
         </div>
       </li>
       <li
         className="sc-dDaJoQ kFlKqy"
       >
         <div
-          className="sc-bEeDdh dsGaRJ"
+          className="sc-iwoqQi jmsVpd"
         >
-          2
+          20
         </div>
       </li>
       <li
         className="sc-dDaJoQ kFlKqy"
       >
         <div
-          className="sc-bEeDdh dsGaRJ"
+          className="sc-iwoqQi jmsVpd"
+        >
+          19
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          18
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          17
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          16
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          15
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          14
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          13
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          12
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          11
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          10
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          9
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          8
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          7
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          6
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          5
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          4
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
         >
           3
         </div>
@@ -864,12 +448,400 @@ exports[`Carousel renders with different Space 1`] = `
         className="sc-dDaJoQ kFlKqy"
       >
         <div
-          className="sc-bEeDdh dsGaRJ"
+          className="sc-iwoqQi jmsVpd"
         >
-          4
+          2
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          1
+        </div>
+      </li>
+      <li
+        className="sc-dDaJoQ kFlKqy"
+      >
+        <div
+          className="sc-iwoqQi jmsVpd"
+        >
+          0
         </div>
       </li>
     </ul>
   </div>
+</div>
+`;
+
+exports[`Carousel renders visible index 1`] = `
+<div
+  className="sc-jmhOSl dIwtrM"
+>
+  <ul
+    className="sc-cbDwiu sc-hZiMVj cIKRJt fyYEjZ"
+  >
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-bEeDdh dsGaRJ"
+      >
+        -1
+        , 
+        -1
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-bEeDdh dsGaRJ"
+      >
+        -1
+        , 
+        -1
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-bEeDdh dsGaRJ"
+      >
+        -1
+        , 
+        -1
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-bEeDdh dsGaRJ"
+      >
+        -1
+        , 
+        -1
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-bEeDdh dsGaRJ"
+      >
+        -1
+        , 
+        -1
+      </div>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Carousel renders with Customized Arrows 1`] = `
+<div
+  className="sc-jmhOSl dIwtrM"
+>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Scroll to left
+  </button>
+  <ul
+    className="sc-cbDwiu sc-hZiMVj eASErZ fyYEjZ"
+  >
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        0
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        1
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        2
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        3
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        4
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        5
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        6
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        7
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        8
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        9
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        10
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        11
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        12
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        13
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        14
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        15
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        16
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        17
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        18
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        19
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        20
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        21
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        22
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        23
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-gVUVPo fjPzxC"
+      >
+        24
+      </div>
+    </li>
+  </ul>
+  <button
+    disabled={true}
+    onClick={[Function]}
+  >
+    Scroll to Right
+  </button>
+</div>
+`;
+
+exports[`Carousel renders with different Space 1`] = `
+<div
+  className="sc-jmhOSl dIwtrM"
+>
+  <ul
+    className="sc-cbDwiu sc-hZiMVj cIKRJt fyYEjZ"
+  >
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-dexYeb lWrE"
+      >
+        0
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-dexYeb lWrE"
+      >
+        1
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-dexYeb lWrE"
+      >
+        2
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-dexYeb lWrE"
+      >
+        3
+      </div>
+    </li>
+    <li
+      className="sc-dDaJoQ kFlKqy"
+    >
+      <div
+        className="sc-dexYeb lWrE"
+      >
+        4
+      </div>
+    </li>
+  </ul>
 </div>
 `;

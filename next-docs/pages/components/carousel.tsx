@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
@@ -14,59 +13,38 @@ export default function PageCarousel() {
 
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Carousel</h1>
-        <p className="text-lg mt-4">
+      <h1 className="text-moon-32 font-medium">Carousel</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
           An interactive extension of the Reel component to cycle through
           content.
         </p>
-      </section>
-
-      {/* Default Carousel */}
-      <section className="mt-8">
-        <Preview
-          title="Carousel"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      {/* Rtl */}
-      <section className="mt-8">
-        <Preview
-          title="RTL Carousel"
-          preview={<Rtl />}
-          code={examples ? examples.Rtl : 'Loading'}
-        />
-      </section>
-
-      {/* Customized Arrows Carousel */}
-      <section className="mt-8">
-        <Preview
-          title="Customized Arrows"
-          preview={<CustomizedArrow />}
-          code={examples ? examples.CustomizedArrow : 'Loading'}
-        />
-      </section>
-
-      {/* Space */}
-      <section className="mt-8">
-        <Preview
-          title="Space"
-          preview={<Space />}
-          code={examples ? examples.Space : 'Loading'}
-        />
-      </section>
-
-      {/* Visible indices */}
-      <section className="mt-8">
-        <Preview
-          title="Visible indices"
-          preview={<VisibleIndex />}
-          code={examples ? examples.VisibleIndex : 'Loading'}
-        />
-      </section>
-
+      </div>
+      <Preview
+        title="Carousel"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="RTL Carousel"
+        preview={<Rtl />}
+        code={examples ? examples.Rtl : 'Loading'}
+      />
+      <Preview
+        title="Customized Arrows"
+        preview={<CustomizedArrow />}
+        code={examples ? examples.CustomizedArrow : 'Loading'}
+      />
+      <Preview
+        title="Space"
+        preview={<Space />}
+        code={examples ? examples.Space : 'Loading'}
+      />
+      <Preview
+        title="Visible indices"
+        preview={<VisibleIndex />}
+        code={examples ? examples.VisibleIndex : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

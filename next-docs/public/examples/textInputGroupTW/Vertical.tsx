@@ -27,7 +27,7 @@ const Example = () => {
   };
 
   return (
-    <div className="flex items-center gap-8 flex-wrap w-full justify-center ps-40 pe-40 flex-col">
+    <>
       <TextInputGroup
         orientation="vertical"
         inputProps={{
@@ -42,7 +42,7 @@ const Example = () => {
           input2: inputProps4,
         }}
       />
-    </div>
+    </>
   );
 };
 

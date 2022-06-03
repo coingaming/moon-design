@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import PropsTable from '../../../components/PropsTable';
@@ -13,51 +12,34 @@ export default function RadioButtonPage() {
 
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">RadioButton</h1>
-        <p className="text-lg mt-4">
+      <h1 className="text-moon-32 font-medium">Radio Button</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
           Radio buttons are used to represent a group or category of choices
           whereby users can only select one option - the main difference from
           checkboxes that allow users to select multiple options.
         </p>
-      </section>
-
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title="RadioButton"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      {/* No label */}
-      <section className="mt-8">
-        <Preview
-          title="No label"
-          preview={<NoLabel />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      {/* Disabled */}
-      <section className="mt-8">
-        <Preview
-          title="Disabled"
-          preview={<Disabled />}
-          code={examples ? examples.Disabled : 'Loading'}
-        />
-      </section>
-
-      {/* Checked */}
-      <section className="mt-8">
-        <Preview
-          title="Checked"
-          preview={<Checked />}
-          code={examples ? examples.Checked : 'Loading'}
-        />
-      </section>
-
+      </div>
+      <Preview
+        title="RadioButton"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="No label"
+        preview={<NoLabel />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="Checked"
+        preview={<Checked />}
+        code={examples ? examples.Checked : 'Loading'}
+      />
       <PropsTable
         title="Props for RadioButton component"
         data={[

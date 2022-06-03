@@ -1,19 +1,13 @@
 import React from 'react';
-import IsTop from "./IsTop";
-import Fill from "./Fill";
-import Default from "./Default";
+import IsTop from './IsTop';
+import Fill from './Fill';
+import Default from './Default';
 
 const Example = () => (
-  <div className="flex flex-wrap justify-around w-full">
-    <div className="flex justify-around items-center mr-4">
-      <Default isVertical={true}/>
-    </div>
-    <div className="flex justify-around items-center mr-4">
-      <IsTop isVertical={true}/>
-    </div>
-    <div className="flex justify-around items-center">
-      <Fill isVertical={true}/>
-    </div>
+  <div className="flex flex-row justify-around items-end w-full gap-2">
+    <Default isVertical={true} />
+    <IsTop isVertical={true} />
+    <Fill isVertical={true} />
   </div>
 );
 
