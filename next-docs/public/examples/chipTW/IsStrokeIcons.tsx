@@ -1,5 +1,5 @@
 import { Chip } from '@heathmont/moon-core-tw';
-import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons';
+import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <div className="flex flex-col w-full gap-10">
