@@ -44,7 +44,6 @@ exports[`Label renders with different Icons 1`] = `
         className="me-1 text-[0.75rem]"
       >
         <svg
-          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -71,7 +70,6 @@ exports[`Label renders with different Icons 1`] = `
         className="ms-1 text-[0.75rem]"
       >
         <svg
-          className="sc-jgbSNz"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -96,7 +94,6 @@ exports[`Label renders with different Icons 1`] = `
         className="me-1 text-[0.75rem]"
       >
         <svg
-          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -116,7 +113,6 @@ exports[`Label renders with different Icons 1`] = `
         className="ms-1 text-[0.75rem]"
       >
         <svg
-          className="sc-jgbSNz"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -145,7 +141,6 @@ exports[`Label renders with different Icons 1`] = `
         className="me-1 text-[1rem]"
       >
         <svg
-          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -172,7 +167,6 @@ exports[`Label renders with different Icons 1`] = `
         className="ms-1 text-[1rem]"
       >
         <svg
-          className="sc-jgbSNz"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -197,7 +191,6 @@ exports[`Label renders with different Icons 1`] = `
         className="me-1 text-[1rem]"
       >
         <svg
-          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -217,7 +210,6 @@ exports[`Label renders with different Icons 1`] = `
         className="ms-1 text-[1rem]"
       >
         <svg
-          className="sc-jgbSNz"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
