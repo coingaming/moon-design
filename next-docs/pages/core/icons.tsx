@@ -28,7 +28,7 @@ import useExamples from '../../utils/useExamples';
 
 const PageIcons: React.FC = () => {
   const [selectedIcons, setSelectedIcons] = useState<string[]>([]);
-  const props = { fontSize: '2rem' };
+  const props = { className: 'text-[2rem]' };
   const addIconToSelected: (iconName: string) => string[] = (iconName) =>
     selectedIcons.concat(iconName);
   const removeIconFromSelected = (removedIconName: string) =>
