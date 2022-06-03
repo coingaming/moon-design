@@ -1,5 +1,5 @@
-import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/examples/loader/Colours';
 import Default from '../../public/examples/loader/Default';
@@ -10,18 +10,17 @@ const PageLoader = () => {
   const examples = useExamples('loader');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Loader</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Loader">
+        <p>
           Fondly nicknamed “the launcher”, the Loader ensures users that
           progress is happening so they don't give up and leave the rocket page.
         </p>
-        <p className="text-moon-16">
+        <p>
           The Loader, along with a succinct message, is especially important
           after a user initiates an action that requires them to wait. This is
           so that they know there's no need to repeat what they've done.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}

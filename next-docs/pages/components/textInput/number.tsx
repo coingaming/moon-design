@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import NumberBgColor from '../../../public/examples/textInput/number/NumberBgColor';
 import NumberDisabled from '../../../public/examples/textInput/number/NumberDisabled';
@@ -16,90 +17,74 @@ export default function PageNumberInput() {
 
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">TextInput</h1>
-        <p className="text-lg mt-4">
-          The input component is used when you need to let users enter the text
-          of some kind, such as their name or phone number etc.
+      <ComponentPageDescription title="Number">
+        <p>
+          The TextInput wrapper component is used when you need to let users
+          enter the text of some kind, such as their name or phone number etc.
         </p>
-
-        <p className="text-lg mt-4">
-          All text inputs must have visible labels/placeholder text.
+        <p>
+          All TextInput could include visible labels, placeholder, hint text.
+          Also, all standard form attributes are supported e.g. required,
+          disabled, readonly. Input inside TextInput wrapper component has a
+          transparent background but could be configured by props.
         </p>
-
-        <p className="text-lg mt-4">
+        <p>
+          TextInput comes with three sizes: medium, large and xLarge, which are
+          configured by required prop inputSize. TextInput medium and large
+          sizes have an outside label view, while TextInput xLarge size has an
+          inner label view.
+        </p>
+        <p>
           For mobile, the usage of respected keyboards is recommended, f.e. if
-          it’s likely that the user will need to enter a number and you want to
+          it's likely that the user will need to enter a number and you want to
           bring up the numeric keypad on a mobile device.
         </p>
-
-        <p className="text-lg mt-4">
-          Text inputs support a range of input formats, some of which include
+        <p>
+          The TextInput support a range of input formats, some of which include
           automatic browser validation. These can be set by providing HTML input
-          type attributtes:
+          type attributte.
         </p>
-      </section>
-
-      {/* Number */}
-      <section className="mt-8">
-        <section className="mt-8">
-          <Preview
-            title="Label"
-            preview={<NumberWithLabel />}
-            code={examples ? examples.NumberWithLabel : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Label RTL"
-            preview={<NumberWithLabelRtl />}
-            code={examples ? examples.NumberWithLabelRtl : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Without Label"
-            preview={<NumberWithoutLabel />}
-            code={examples ? examples.NumberWithoutLabel : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Hint message"
-            preview={<NumberWithHint />}
-            code={examples ? examples.NumberWithHint : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Disabled"
-            preview={<NumberDisabled />}
-            code={examples ? examples.NumberDisabled : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Error"
-            preview={<NumberError />}
-            code={examples ? examples.NumberError : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Input with background color"
-            preview={<NumberBgColor />}
-            code={examples ? examples.NumberBgColor : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Readonly"
-            preview={<NumberReadonly />}
-            code={examples ? examples.NumberReadonly : 'Loading'}
-          />
-        </section>
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="Label"
+        preview={<NumberWithLabel />}
+        code={examples ? examples.NumberWithLabel : 'Loading'}
+      />
+      <Preview
+        title="Label RTL"
+        preview={<NumberWithLabelRtl />}
+        code={examples ? examples.NumberWithLabelRtl : 'Loading'}
+      />
+      <Preview
+        title="Without Label"
+        preview={<NumberWithoutLabel />}
+        code={examples ? examples.NumberWithoutLabel : 'Loading'}
+      />
+      <Preview
+        title="Hint message"
+        preview={<NumberWithHint />}
+        code={examples ? examples.NumberWithHint : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<NumberDisabled />}
+        code={examples ? examples.NumberDisabled : 'Loading'}
+      />
+      <Preview
+        title="Error"
+        preview={<NumberError />}
+        code={examples ? examples.NumberError : 'Loading'}
+      />
+      <Preview
+        title="Input with background color"
+        preview={<NumberBgColor />}
+        code={examples ? examples.NumberBgColor : 'Loading'}
+      />
+      <Preview
+        title="Readonly"
+        preview={<NumberReadonly />}
+        code={examples ? examples.NumberReadonly : 'Loading'}
+      />
       <PropsTable
         title="Props for TextInput component"
         data={[

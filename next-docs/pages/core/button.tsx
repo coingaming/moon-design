@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import Animations from '../../public/examples/buttonTW/Animations';
 import Disabled from '../../public/examples/buttonTW/Disabled';
 import FullWidth from '../../public/examples/buttonTW/FullWidth';
@@ -12,16 +13,15 @@ const PageButton = () => {
   const examples = useExamples('buttonTW');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Button</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Button">
+        <p>
           Buttons are calls-to-action used to prompt users. They encourage users
           to interact with us in multiple ways throughout our galaxy, based on
           what the label of the button indicates. Buttons are clickable elements
           with label text that describe the action that will happen when the
           users interact with it.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Variants"
         preview={<Variants />}

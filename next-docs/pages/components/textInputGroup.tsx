@@ -1,9 +1,10 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import AccessValues from '../../public/examples/textInputGroup/AccessValues';
 import Combined from '../../public/examples/textInputGroup/Combined';
-import CombinedVertical from "../../public/examples/textInputGroup/CombinedVertical";
+import CombinedVertical from '../../public/examples/textInputGroup/CombinedVertical';
 import Default from '../../public/examples/textInputGroup/Default';
 import EventListenerSelect from '../../public/examples/textInputGroup/EventListenerSelect';
 import MultiSelect from '../../public/examples/textInputGroup/MultiSelect';
@@ -20,128 +21,80 @@ const PageTextInputGroup = () => {
   const examples = useExamples('textInputGroup');
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">TextInput Group</h1>
-        <p className="text-lg mt-4">
-          <h3>
-            The TextInputGroup component lives in <strong>two</strong> different
-            packages.
-          </h3>
-          <ol>
-            <li>
-              Text type - <em>@heathmont/moon-core</em>
-            </li>
-            <li>
-              Select type - <em>@heathmont/moon-select</em>
-            </li>
-          </ol>
+      <ComponentPageDescription title="TextInput Group">
+        <p>The TextInputGroup component lives in 2 different packages:</p>
+        <p>
+          Text type - <em>@heathmont/moon-core</em>
         </p>
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Default"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Combined"
-          preview={<Combined />}
-          code={examples ? examples.Combined : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Combined vertical"
-          preview={<CombinedVertical />}
-          code={examples ? examples.CombinedVertical : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Vertical orientation"
-          preview={<Vertical />}
-          code={examples ? examples.Vertical : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="RTL"
-          preview={<Rtl />}
-          code={examples ? examples.Rtl : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Sizes"
-          preview={<Sizes />}
-          code={examples ? examples.Sizes : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Text type variants"
-          preview={<Types />}
-          code={examples ? examples.Types : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Single Select variant"
-          preview={<SingleSelect />}
-          code={examples ? examples.SingleSelect : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Multi Select variant"
-          preview={<MultiSelect />}
-          code={examples ? examples.MultiSelect : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Single Select variant vertical orientation"
-          preview={<SingleSelectVertical />}
-          code={examples ? examples.SingleSelectVertical : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Single Select variant RTL"
-          preview={<SingleSelectRtl />}
-          code={examples ? examples.SingleSelectRtl : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Access Values by ref"
-          preview={<AccessValues />}
-          code={examples ? examples.AccessValues : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Access Values (Select) by event listener"
-          preview={<EventListenerSelect />}
-          code={examples ? examples.EventListenerSelect : 'Loading'}
-        />
-      </section>
-
+        <p>
+          Select type - <em>@heathmont/moon-select</em>
+        </p>
+      </ComponentPageDescription>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Combined"
+        preview={<Combined />}
+        code={examples ? examples.Combined : 'Loading'}
+      />
+      <Preview
+        title="Combined vertical"
+        preview={<CombinedVertical />}
+        code={examples ? examples.CombinedVertical : 'Loading'}
+      />
+      <Preview
+        title="Vertical orientation"
+        preview={<Vertical />}
+        code={examples ? examples.Vertical : 'Loading'}
+      />
+      <Preview
+        title="RTL"
+        preview={<Rtl />}
+        code={examples ? examples.Rtl : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Text type variants"
+        preview={<Types />}
+        code={examples ? examples.Types : 'Loading'}
+      />
+      <Preview
+        title="Single Select variant"
+        preview={<SingleSelect />}
+        code={examples ? examples.SingleSelect : 'Loading'}
+      />
+      <Preview
+        title="Multi Select variant"
+        preview={<MultiSelect />}
+        code={examples ? examples.MultiSelect : 'Loading'}
+      />
+      <Preview
+        title="Single Select variant vertical orientation"
+        preview={<SingleSelectVertical />}
+        code={examples ? examples.SingleSelectVertical : 'Loading'}
+      />
+      <Preview
+        title="Single Select variant RTL"
+        preview={<SingleSelectRtl />}
+        code={examples ? examples.SingleSelectRtl : 'Loading'}
+      />
+      <Preview
+        title="Access Values by ref"
+        preview={<AccessValues />}
+        code={examples ? examples.AccessValues : 'Loading'}
+      />
+      <Preview
+        title="Access Values (Select) by event listener"
+        preview={<EventListenerSelect />}
+        code={examples ? examples.EventListenerSelect : 'Loading'}
+      />
       <PropsTable
         title="Props (Text types)"
         data={[

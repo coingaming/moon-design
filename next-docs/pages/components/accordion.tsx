@@ -1,4 +1,5 @@
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import ContentOutside from '../../public/examples/accordionNew/ContentOutside';
 import Default from '../../public/examples/accordionNew/Default';
@@ -14,19 +15,18 @@ const PageAccordion = () => {
   const examples = useExamples('accordionNew');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Accordion</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Accordion">
+        <p>
           Like the accordion instrument, our accordion component reveals or
           hides associated sections of content. This is done through the use of
           a vertically stacked list of headers.
         </p>
-        <p className="text-moon-16">
+        <p>
           Users can decide which sections to toggle, read and close as the
           header titles will give them a high-level overview of the content
           that's in the space.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}

@@ -1,5 +1,5 @@
-import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chip/Active';
 import Icons from '../../public/examples/chip/Icons';
@@ -12,29 +12,28 @@ const PageChip = () => {
   const examples = useExamples('chip');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Chip</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Chip">
+        <p>
           Chips are compact little units that represent actions, filters or
           choices. When shown, they allow users to prompt actions, filter
           games/content and choose options. We use three types of chips in the
           Moon:
         </p>
-        <div className="grid gap-2 mt-2">
-          <p className="text-moon-16">
+        <div className="flex flex-col gap-2">
+          <p>
             <p className="font-medium">Action chip</p>
             Action chips prompt actions related to the game/content.
           </p>
-          <p className="text-moon-16">
+          <p>
             <p className="font-medium">Filter chip</p>
             Filter chips let users sieve through large categories.
           </p>
-          <p className="text-moon-16">
+          <p>
             <p className="font-medium">Selection chip</p>
             Selection chips allow users to select options that matter to them.
           </p>
         </div>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Sizes"
         preview={<Sizes />}

@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import Bg from '../../public/examples/textInputTW/Bg';
 import Date from '../../public/examples/textInputTW/Date';
 import DateTime from '../../public/examples/textInputTW/DateTime';
@@ -23,21 +24,20 @@ const Example = () => {
   const examples = useExamples('textInputTW');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Text input</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="TextInput">
+        <p>
           Indeed, forms require input from all users, including astronauts. Text
           input fields help to gather both short and long-form information. The
           size of the text field should correspond to the length of information
           that's required.
         </p>
-        <p className="text-moon-16">
+        <p>
           Text input fields can contain various rules to ensure the right
           information is obtained from users. Users should also be given prompts
           to guide them on what's needed, or if they've made an error while
           doing so.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Sizes"
         preview={<Sizes />}

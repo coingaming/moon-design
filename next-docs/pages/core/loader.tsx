@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import Colors from '../../public/examples/loaderTW/Colors';
 import Default from '../../public/examples/loaderTW/Default';
 import Sizes from '../../public/examples/loaderTW/Sizes';
@@ -9,19 +10,18 @@ const Example = () => {
   const examples = useExamples('loaderTW');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Loader</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Loader">
+        <p>
           Fondly nicknamed “the launcher”, the Loader ensures users that
           progress is happening so they don't give up and leave the rocket page.
         </p>
-        <p className="text-moon-16">
+        <p>
           The Loader, along with a succinct message, is especially important
           after a user initiates an action that requires them to wait. This is
           so that they know there's no need to repeat what they've done.
         </p>
-        <p className="text-moon-16">Default colour: Hit</p>
-      </div>
+        <p>Default colour: Hit</p>
+      </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}

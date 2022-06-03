@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import UrlBgColor from '../../../public/examples/textInput/url/UrlBgColor';
 import UrlDisabled from '../../../public/examples/textInput/url/UrlDisabled';
@@ -15,100 +16,74 @@ export default function PageUrlInput() {
   const examples = useExamples('textInput/text');
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">TextInput</h1>
-        <p className="text-lg mt-4">
+      <ComponentPageDescription title="Url">
+        <p>
           The TextInput wrapper component is used when you need to let users
           enter the text of some kind, such as their name or phone number etc.
         </p>
-
-        <p className="text-lg mt-4">
+        <p>
           All TextInput could include visible labels, placeholder, hint text.
           Also, all standard form attributes are supported e.g. required,
           disabled, readonly. Input inside TextInput wrapper component has a
           transparent background but could be configured by props.
         </p>
-
-        <p className="text-lg mt-4">
+        <p>
           TextInput comes with three sizes: medium, large and xLarge, which are
           configured by required prop inputSize. TextInput medium and large
           sizes have an outside label view, while TextInput xLarge size has an
           inner label view.
         </p>
-
-        <p className="text-lg mt-4">
+        <p>
           For mobile, the usage of respected keyboards is recommended, f.e. if
-          it’s likely that the user will need to enter a number and you want to
+          it's likely that the user will need to enter a number and you want to
           bring up the numeric keypad on a mobile device.
         </p>
-
-        <p className="text-lg mt-4">
+        <p>
           The TextInput support a range of input formats, some of which include
           automatic browser validation. These can be set by providing HTML input
           type attributte.
         </p>
-      </section>
-
-      {/* Text */}
-      <section className="mt-8">
-        <section className="mt-8">
-          <Preview
-            title="Label"
-            preview={<UrlWithLabel />}
-            code={examples ? examples.UrlWithLabel : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Label RTL"
-            preview={<UrlWithLabelRtl />}
-            code={examples ? examples.UrlWithLabelRtl : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Without Label"
-            preview={<UrlWithoutLabel />}
-            code={examples ? examples.UrlWithoutLabel : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Hint message"
-            preview={<UrlWithHint />}
-            code={examples ? examples.UrlWithHint : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Disabled"
-            preview={<UrlDisabled />}
-            code={examples ? examples.UrlDisabled : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Error"
-            preview={<UrlError />}
-            code={examples ? examples.UrlError : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Input with background color"
-            preview={<UrlBgColor />}
-            code={examples ? examples.UrlBgColor : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Readonly"
-            preview={<UrlReadonly />}
-            code={examples ? examples.UrlReadonly : 'Loading'}
-          />
-        </section>
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="Label"
+        preview={<UrlWithLabel />}
+        code={examples ? examples.UrlWithLabel : 'Loading'}
+      />
+      <Preview
+        title="Label RTL"
+        preview={<UrlWithLabelRtl />}
+        code={examples ? examples.UrlWithLabelRtl : 'Loading'}
+      />
+      <Preview
+        title="Without Label"
+        preview={<UrlWithoutLabel />}
+        code={examples ? examples.UrlWithoutLabel : 'Loading'}
+      />
+      <Preview
+        title="Hint message"
+        preview={<UrlWithHint />}
+        code={examples ? examples.UrlWithHint : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<UrlDisabled />}
+        code={examples ? examples.UrlDisabled : 'Loading'}
+      />
+      <Preview
+        title="Error"
+        preview={<UrlError />}
+        code={examples ? examples.UrlError : 'Loading'}
+      />
+      <Preview
+        title="Input with background color"
+        preview={<UrlBgColor />}
+        code={examples ? examples.UrlBgColor : 'Loading'}
+      />
+      <Preview
+        title="Readonly"
+        preview={<UrlReadonly />}
+        code={examples ? examples.UrlReadonly : 'Loading'}
+      />
       <PropsTable
         title="Props for TextInput component"
         data={[

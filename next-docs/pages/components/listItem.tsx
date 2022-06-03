@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import SingleLineItem from '../../public/examples/listItem/SingleLineItem';
 import SingleLineItemIcon from '../../public/examples/listItem/SingleLineItemIcon';
@@ -12,16 +13,14 @@ import useExamples from '../../utils/useExamples';
 
 export default function PageListItem() {
   const examples = useExamples('listItem');
-
   return (
     <>
-      <h1 className="text-moon-32 font-medium">List Item</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="List item">
+        <p>
           List item component. The List item width is determined by the width of
           the parent container.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Single line item"
         preview={<SingleLineItem />}

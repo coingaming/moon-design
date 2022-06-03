@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Content from '../../public/examples/tooltip/Content';
 import Default from '../../public/examples/tooltip/Default';
@@ -10,12 +11,9 @@ export default function PageTooltip() {
   const examples = useExamples('tooltip');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Tooltip</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
-          Tooltips offer further contextual information to users.
-        </p>
-      </div>
+      <ComponentPageDescription title="Tooltip">
+        <p>Tooltips offer further contextual information to users.</p>
+      </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}

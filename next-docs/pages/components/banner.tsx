@@ -1,4 +1,5 @@
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Buttons from '../../public/examples/banner/Buttons';
 import Default from '../../public/examples/banner/Default';
@@ -11,9 +12,8 @@ const PageBanner = () => {
   const examples = useExamples('banner');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Banner</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Banner">
+        <p>
           Banners are used to show users important, succinct messages, or space
           alerts, that users should know about. They can interact or ignore
           banners at any time, as they are non-modal. What to take note of when
@@ -22,7 +22,7 @@ const PageBanner = () => {
           of no longer than one headline, one description sentence and one short
           call-to-action.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}

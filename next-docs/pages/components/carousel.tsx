@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
 import Default from '../../public/examples/carousel/Default';
@@ -13,13 +14,12 @@ export default function PageCarousel() {
 
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Carousel</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Carousel">
+        <p>
           An interactive extension of the Reel component to cycle through
           content.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Carousel"
         preview={<Default />}
