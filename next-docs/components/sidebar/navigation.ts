@@ -22,6 +22,7 @@ const navigation = [
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInput Group', href: '/core/textInputGroup' },
       { name: 'Typography', href: '/core/typography' },
+      { name: 'Icons', href: '/core/icons' },
     ],
   },
   {
