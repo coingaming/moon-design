@@ -18,6 +18,9 @@ const Select: React.FC<SelectProps> = ({
    amountOfVisibleItems = 9999
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [activeOption, setActiveOption] = useState(0);
+  const inputRef = useRef(null);
+  const selectRef = useRef(null);
   const menuRef = useRef(null);
   const placeholder = value ? options?.filter((option) => option.value === value)[0]?.label
     : placeholderSlot ?? placeholderValue ?? 'Choose an option';
@@ -51,16 +54,70 @@ const Select: React.FC<SelectProps> = ({
     }
   }, [menuRef, menuOpen]);
 
+  useEffect(() => {
+    const handleOutsideClick = (e: MouseEvent) => {
+      //@ts-ignore
+      if(selectRef?.current && !selectRef.current.contains(e.target)) {
+        setMenuOpen(false);
+      }
+    }
+
+    document.addEventListener('mousedown', handleOutsideClick);
+    
+    return () => document.removeEventListener('mousedown', handleOutsideClick);
+  }, []);
+
+  const keyDownHandler = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    if (e.key === 'ArrowUp' && activeOption > 0) {
+      e.preventDefault();
+      setActiveOption(activeOption - 1);
+      //@ts-ignore
+    } else if (e.key === 'ArrowDown' && activeOption < options.length - 1) {
+      e.preventDefault();
+      setActiveOption(activeOption + 1);
+    } else if (e.key === "Tab") {
+      setMenuOpen(false);
+    } else if (e.key === "Enter") {
+      //@ts-ignore
+      onChange && onChange(options[activeOption]?.value);
+      setMenuOpen(false);
+    }
+  };
+
+  const onSelectClick = () => {
+    if (!disabled) {
+      setMenuOpen(!menuOpen); 
+      //@ts-ignore
+      inputRef?.current.focus();
+    }
+  };
+
+  const onInputFocus = () => {
+    console.log(menuOpen);
+    if(!menuOpen) {
+      setMenuOpen(true);
+    }
+  }
+
   return (<div className={`support-colors flex flex-col text-popo ${ disabled ? 'opacity-30' : ''}` }>
     { !!label && (<div className='text-base mb-2'>{label}</div>) }
 
     <div
       className={classNames}
-      onClick={() => { if (!disabled) setMenuOpen(!menuOpen) }}
+      onClick={onSelectClick}
       // #TODO remove this when chiChi problem is solved
       style={isError ? { borderColor: '#ff4e64', outlineColor: '#ff4e64'} : {}}
+      ref={selectRef}
     >
-      <input className='bg-gohan text-transparent z-[1]' disabled={disabled} value={value}/>
+      <input 
+        className='bg-gohan text-transparent z-[1] focus:outline-none focus:border-none' 
+        disabled={disabled} 
+        // value={value} 
+        ref={inputRef} 
+        readOnly
+        onKeyDown={(e) => keyDownHandler(e)} 
+        onFocus={onInputFocus}
+      />
 
       <div className={`absolute ${ disabled ? 'cursor-not-allowed' : 'cursor-pointer' } w-full flex items-center justify-between pr-${ size === 'md' ? 3 : 4 } z-[2] text-${ value ? 'popo' : 'trunks'}`}>
         <div>{ placeholder }</div>
@@ -77,10 +134,10 @@ const Select: React.FC<SelectProps> = ({
         ref={menuRef}
       >
         {
-          menuOpen && options?.length && options.map((option: Option) => (
+          menuOpen && options?.length && options.map((option: Option, index: number) => (
             <div
               // @TODO hover with custom color doesn't work, but only bg-goku works, why? :(
-              className='flex items-center text-popo text-sm p-2 rounded-sm hover:bg-goku'
+              className={`flex items-center text-popo text-sm p-2 rounded-sm hover:bg-goku ${activeOption === index && 'bg-goku'}`}
               onClick={() => { if (!disabled && onChange) onChange(option.value) }}
             >
               {option.element}
