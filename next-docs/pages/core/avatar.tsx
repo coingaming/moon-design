@@ -1,84 +1,47 @@
 import { Avatar } from '@heathmont/moon-core-tw';
+import Preview from '../../components/codePreview/Preview';
+import Active from '../../public/examples/avatarTW/Active';
+import Colours from '../../public/examples/avatarTW/Colours';
+import Sizes from '../../public/examples/avatarTW/Sizes';
+import StatusOrigin from '../../public/examples/avatarTW/StatusOrigin';
+import Variants from '../../public/examples/avatarTW/Variants';
+import useExamples from '../../utils/useExamples';
 
-const Example = () => (
-  <div>
-    <section className="mt-8 text-3xl font-bold">Sizes</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Avatar />
-        <Avatar name="JS" />
-        <Avatar imageUrl="https://www.fillmurray.com/200/200" />
-      </div>
-    </div>
+const Example = () => {
+  const examples = useExamples('avatarTW');
+  return (
+    <>
+      <Preview
+        title="Variants"
+        preview={<Variants />}
+        code={examples ? examples.Variants : 'Loading'}
+      />
 
-    <section className="mt-8 text-3xl font-bold">Different colours</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Avatar />
-        <Avatar color="text-goten" backgroundColor="bg-piccolo" />
-        <Avatar color="text-goten" backgroundColor="bg-chiChi" />
-      </div>
-    </div>
+      <Preview
+        title="Different colours"
+        preview={<Colours />}
+        code={examples ? examples.Colours : 'Loading'}
+      />
 
-    <section className="mt-8 text-3xl font-bold">Different sizes</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex flex-col w-full">
-        <div className="flex justify-around items-center w-full mb-4">
-          <Avatar size="xs" />
-          <Avatar size="sm" />
-          <Avatar />
-          <Avatar size="lg" />
-          <Avatar size="xl" />
-          <Avatar size="2xl" />
-        </div>
-        <div className="flex justify-around items-center w-full mb-4">
-          <Avatar name="JS" size="xs" />
-          <Avatar name="JS" size="sm" />
-          <Avatar name="JS" />
-          <Avatar name="JS" size="lg" />
-          <Avatar name="JS" size="xl" />
-          <Avatar name="JS" size="2xl" />
-        </div>
-        <div className="flex justify-around items-center w-full">
-          <Avatar imageUrl="https://www.fillmurray.com/200/200" size="xs" />
-          <Avatar imageUrl="https://www.fillmurray.com/200/200" size="sm" />
-          <Avatar imageUrl="https://www.fillmurray.com/200/200" />
-          <Avatar imageUrl="https://www.fillmurray.com/200/200" size="lg" />
-          <Avatar imageUrl="https://www.fillmurray.com/200/200" size="xl" />
-          <Avatar imageUrl="https://www.fillmurray.com/200/200" size="2xl" />
-        </div>
-      </div>
-    </div>
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
 
-    <section className="mt-8 text-3xl font-bold">Active status</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Avatar />
-        <Avatar isStatusActive />
-        <Avatar imageUrl="https://www.fillmurray.com/200/200" />
-        <Avatar imageUrl="https://www.fillmurray.com/200/200" isStatusActive />
-      </div>
-    </div>
+      <Preview
+        title="Active status"
+        preview={<Active />}
+        code={examples ? examples.Active : 'Loading'}
+      />
 
-    <section className="mt-8 text-3xl font-bold">Status Origin</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Avatar
-          isStatusActive
-          statusOrigin={{ vertical: 'top', horizontal: 'right' }}
-        />
-        <Avatar
-          isStatusActive
-          statusOrigin={{ vertical: 'top', horizontal: 'left' }}
-        />
-        <Avatar isStatusActive />
-        <Avatar
-          isStatusActive
-          statusOrigin={{ vertical: 'bottom', horizontal: 'left' }}
-        />
-      </div>
-    </div>
-  </div>
-);
+      <Preview
+        title="Status origin"
+        preview={<StatusOrigin />}
+        code={examples ? examples.StatusOrigin : 'Loading'}
+      />
+    </>
+  );
+};
 
 export default Example;
