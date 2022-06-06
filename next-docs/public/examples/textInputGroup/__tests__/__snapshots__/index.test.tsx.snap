@@ -72,7 +72,7 @@ exports[`TextInputGroup renders RTL 1`] = `
 
 exports[`TextInputGroup renders and allows access to DOM and values for text field 1`] = `
 <div
-  className="flex flex-col gap-3"
+  className="flex flex-col justify-around items-center w-full gap-2"
 >
   <div
     className="sc-bPnocz hYbmuw"
@@ -106,30 +106,26 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
       />
     </div>
   </div>
-  <div>
-    <span
-      className="sc-dpRLZP gfafko"
-      size="xsmall"
-    >
-      Country: 
-      Estonia
-    </span>
-  </div>
-  <div>
-    <span
-      className="sc-dpRLZP gfafko"
-      size="xsmall"
-    >
-      Phone: 
-      +372 45678901
-    </span>
-  </div>
+  <span
+    className="sc-dpRLZP gfafko"
+    size="xsmall"
+  >
+    Country: 
+    Estonia
+  </span>
+  <span
+    className="sc-dpRLZP gfafko"
+    size="xsmall"
+  >
+    Phone: 
+    +372 45678901
+  </span>
 </div>
 `;
 
 exports[`TextInputGroup renders and allows event listeners for the select fields 1`] = `
 <div
-  className="flex flex-col gap-3 pb-24 ps-40 pe-40 w-full"
+  className="flex flex-col justify-around items-center w-full gap-2"
 >
   <div
     className="sc-ksWjrO fAYtTZ"
@@ -311,22 +307,18 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
       </div>
     </div>
   </div>
-  <div>
-    <span
-      className="sc-dpRLZP gfafko"
-      size="xsmall"
-    >
-      Country: 
-    </span>
-  </div>
-  <div>
-    <span
-      className="sc-dpRLZP gfafko"
-      size="xsmall"
-    >
-      Vehicle: 
-    </span>
-  </div>
+  <span
+    className="sc-dpRLZP gfafko"
+    size="xsmall"
+  >
+    Country: 
+  </span>
+  <span
+    className="sc-dpRLZP gfafko"
+    size="xsmall"
+  >
+    Vehicle: 
+  </span>
 </div>
 `;
 
@@ -374,194 +366,190 @@ exports[`TextInputGroup renders different types 1`] = `
 
 exports[`TextInputGroup renders multi select 1`] = `
 <div
-  className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
+  className="sc-ksWjrO fAYtTZ"
+  dir="ltr"
+  orientation="horizontal"
 >
   <div
-    className="sc-ksWjrO fAYtTZ"
-    dir="ltr"
-    orientation="horizontal"
+    className="sc-gPKDLW fLbGoN"
   >
     <div
-      className="sc-gPKDLW fLbGoN"
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
     >
-      <div
-        className=" css-1tsy5a7-container"
-        onKeyDown={[Function]}
+      <span
+        className="sc-jLOYlT kpsrUz"
       >
-        <span
-          className="sc-jLOYlT kpsrUz"
-        >
-          xLarge
-        </span>
-        <span
-          className="css-1f43avz-a11yText-A11yText"
-          id="react-select-4-live-region"
-        />
-        <span
-          aria-atomic="false"
-          aria-live="polite"
-          aria-relevant="additions text"
-          className="css-1f43avz-a11yText-A11yText"
-        />
+        xLarge
+      </span>
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-4-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-2tllru-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
         <div
-          className=" css-2tllru-control"
-          onMouseDown={[Function]}
-          onTouchEnd={[Function]}
+          className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className=" css-1n2fawc-ValueContainer"
+            className="sc-WJksd dYpdDP"
           >
             <div
-              className="sc-WJksd dYpdDP"
+              className=" css-wuj7bk-placeholder"
+              id="react-select-4-placeholder"
             >
               <div
-                className=" css-wuj7bk-placeholder"
-                id="react-select-4-placeholder"
+                className="sc-bSGZAx hcvdFH"
               >
-                <div
-                  className="sc-bSGZAx hcvdFH"
-                >
-                  Choose an option
-                </div>
+                Choose an option
               </div>
-              <input
-                aria-autocomplete="list"
-                aria-controls="react-select-4-listbox"
-                aria-describedby="react-select-4-placeholder"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-owns="react-select-4-listbox"
-                aria-readonly={true}
-                className="css-mohuvp-dummyInput-DummyInput"
-                disabled={false}
-                id="react-select-4-input"
-                inputMode="none"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                tabIndex={0}
-                value=""
-              />
             </div>
+            <input
+              aria-autocomplete="list"
+              aria-controls="react-select-4-listbox"
+              aria-describedby="react-select-4-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-owns="react-select-4-listbox"
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-4-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
           </div>
-          <div
-            className=" css-1hb7zxy-IndicatorsContainer"
-          >
-            <svg
-              className="sc-fXPgIJ"
-              fill="none"
-              fontSize="1.5rem"
-              height="1em"
-              style={
-                Object {
-                  "marginInlineEnd": "0.5rem",
-                }
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-fXPgIJ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
               }
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="sc-jJUdvr dHgcCz"
+  >
     <div
-      className="sc-jJUdvr dHgcCz"
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
     >
-      <div
-        className=" css-1tsy5a7-container"
-        onKeyDown={[Function]}
+      <span
+        className="sc-jLOYlT kpsrUz"
       >
-        <span
-          className="sc-jLOYlT kpsrUz"
-        >
-          xLarge
-        </span>
-        <span
-          className="css-1f43avz-a11yText-A11yText"
-          id="react-select-5-live-region"
-        />
-        <span
-          aria-atomic="false"
-          aria-live="polite"
-          aria-relevant="additions text"
-          className="css-1f43avz-a11yText-A11yText"
-        />
+        xLarge
+      </span>
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-5-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-s9e7el-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
         <div
-          className=" css-s9e7el-control"
-          onMouseDown={[Function]}
-          onTouchEnd={[Function]}
+          className=" css-1n2fawc-ValueContainer"
         >
           <div
-            className=" css-1n2fawc-ValueContainer"
+            className="sc-WJksd dYpdDP"
           >
             <div
-              className="sc-WJksd dYpdDP"
+              className=" css-wuj7bk-placeholder"
+              id="react-select-5-placeholder"
             >
               <div
-                className=" css-wuj7bk-placeholder"
-                id="react-select-5-placeholder"
+                className="sc-bSGZAx hcvdFH"
               >
-                <div
-                  className="sc-bSGZAx hcvdFH"
-                >
-                  Choose an option
-                </div>
+                Choose an option
               </div>
-              <input
-                aria-autocomplete="list"
-                aria-controls="react-select-5-listbox"
-                aria-describedby="react-select-5-placeholder"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-owns="react-select-5-listbox"
-                aria-readonly={true}
-                className="css-mohuvp-dummyInput-DummyInput"
-                disabled={false}
-                id="react-select-5-input"
-                inputMode="none"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                tabIndex={0}
-                value=""
-              />
             </div>
+            <input
+              aria-autocomplete="list"
+              aria-controls="react-select-5-listbox"
+              aria-describedby="react-select-5-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-owns="react-select-5-listbox"
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-5-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
           </div>
-          <div
-            className=" css-1hb7zxy-IndicatorsContainer"
-          >
-            <svg
-              className="sc-fXPgIJ"
-              fill="none"
-              fontSize="1.5rem"
-              height="1em"
-              style={
-                Object {
-                  "marginInlineEnd": "0.5rem",
-                }
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-fXPgIJ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
               }
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -571,194 +559,190 @@ exports[`TextInputGroup renders multi select 1`] = `
 
 exports[`TextInputGroup renders single select 1`] = `
 <div
-  className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
+  className="sc-ksWjrO fAYtTZ"
+  dir="ltr"
+  orientation="horizontal"
 >
   <div
-    className="sc-ksWjrO fAYtTZ"
-    dir="ltr"
-    orientation="horizontal"
+    className="sc-gPKDLW fLbGoN"
   >
     <div
-      className="sc-gPKDLW fLbGoN"
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
     >
-      <div
-        className=" css-1tsy5a7-container"
-        onKeyDown={[Function]}
+      <span
+        className="sc-jLOYlT kpsrUz"
       >
-        <span
-          className="sc-jLOYlT kpsrUz"
-        >
-          xLarge
-        </span>
-        <span
-          className="css-1f43avz-a11yText-A11yText"
-          id="react-select-2-live-region"
-        />
-        <span
-          aria-atomic="false"
-          aria-live="polite"
-          aria-relevant="additions text"
-          className="css-1f43avz-a11yText-A11yText"
-        />
+        xLarge
+      </span>
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-2-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-2tllru-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
         <div
-          className=" css-2tllru-control"
-          onMouseDown={[Function]}
-          onTouchEnd={[Function]}
+          className=" css-15dykvv-ValueContainer"
         >
           <div
-            className=" css-15dykvv-ValueContainer"
+            className="sc-gRFyCy eooGop"
           >
             <div
-              className="sc-gRFyCy eooGop"
+              className=" css-wuj7bk-placeholder"
+              id="react-select-2-placeholder"
             >
               <div
-                className=" css-wuj7bk-placeholder"
-                id="react-select-2-placeholder"
+                className="sc-bSGZAx hcvdFH"
               >
-                <div
-                  className="sc-bSGZAx hcvdFH"
-                >
-                  Choose an option
-                </div>
+                Choose an option
               </div>
-              <input
-                aria-autocomplete="list"
-                aria-controls="react-select-2-listbox"
-                aria-describedby="react-select-2-placeholder"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-owns="react-select-2-listbox"
-                aria-readonly={true}
-                className="css-mohuvp-dummyInput-DummyInput"
-                disabled={false}
-                id="react-select-2-input"
-                inputMode="none"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                tabIndex={0}
-                value=""
-              />
             </div>
+            <input
+              aria-autocomplete="list"
+              aria-controls="react-select-2-listbox"
+              aria-describedby="react-select-2-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-owns="react-select-2-listbox"
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-2-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
           </div>
-          <div
-            className=" css-1hb7zxy-IndicatorsContainer"
-          >
-            <svg
-              className="sc-fXPgIJ"
-              fill="none"
-              fontSize="1.5rem"
-              height="1em"
-              style={
-                Object {
-                  "marginInlineEnd": "0.5rem",
-                }
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-fXPgIJ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
               }
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="sc-jJUdvr dHgcCz"
+  >
     <div
-      className="sc-jJUdvr dHgcCz"
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
     >
-      <div
-        className=" css-1tsy5a7-container"
-        onKeyDown={[Function]}
+      <span
+        className="sc-jLOYlT kpsrUz"
       >
-        <span
-          className="sc-jLOYlT kpsrUz"
-        >
-          xLarge
-        </span>
-        <span
-          className="css-1f43avz-a11yText-A11yText"
-          id="react-select-3-live-region"
-        />
-        <span
-          aria-atomic="false"
-          aria-live="polite"
-          aria-relevant="additions text"
-          className="css-1f43avz-a11yText-A11yText"
-        />
+        xLarge
+      </span>
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-3-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-s9e7el-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
         <div
-          className=" css-s9e7el-control"
-          onMouseDown={[Function]}
-          onTouchEnd={[Function]}
+          className=" css-15dykvv-ValueContainer"
         >
           <div
-            className=" css-15dykvv-ValueContainer"
+            className="sc-gRFyCy eooGop"
           >
             <div
-              className="sc-gRFyCy eooGop"
+              className=" css-wuj7bk-placeholder"
+              id="react-select-3-placeholder"
             >
               <div
-                className=" css-wuj7bk-placeholder"
-                id="react-select-3-placeholder"
+                className="sc-bSGZAx hcvdFH"
               >
-                <div
-                  className="sc-bSGZAx hcvdFH"
-                >
-                  Choose an option
-                </div>
+                Choose an option
               </div>
-              <input
-                aria-autocomplete="list"
-                aria-controls="react-select-3-listbox"
-                aria-describedby="react-select-3-placeholder"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-owns="react-select-3-listbox"
-                aria-readonly={true}
-                className="css-mohuvp-dummyInput-DummyInput"
-                disabled={false}
-                id="react-select-3-input"
-                inputMode="none"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                tabIndex={0}
-                value=""
-              />
             </div>
+            <input
+              aria-autocomplete="list"
+              aria-controls="react-select-3-listbox"
+              aria-describedby="react-select-3-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-owns="react-select-3-listbox"
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-3-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
           </div>
-          <div
-            className=" css-1hb7zxy-IndicatorsContainer"
-          >
-            <svg
-              className="sc-fXPgIJ"
-              fill="none"
-              fontSize="1.5rem"
-              height="1em"
-              style={
-                Object {
-                  "marginInlineEnd": "0.5rem",
-                }
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-fXPgIJ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
               }
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -768,184 +752,180 @@ exports[`TextInputGroup renders single select 1`] = `
 
 exports[`TextInputGroup renders single select RTL 1`] = `
 <div
-  className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
+  className="sc-ksWjrO fAYtTZ"
+  dir="rtl"
+  orientation="horizontal"
 >
   <div
-    className="sc-ksWjrO fAYtTZ"
-    dir="rtl"
-    orientation="horizontal"
+    className="sc-gPKDLW fLbGoN"
   >
     <div
-      className="sc-gPKDLW fLbGoN"
+      className=" css-9ebu9r-container"
+      onKeyDown={[Function]}
     >
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-8-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
       <div
-        className=" css-9ebu9r-container"
-        onKeyDown={[Function]}
+        className=" css-s9e7el-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
       >
-        <span
-          className="css-1f43avz-a11yText-A11yText"
-          id="react-select-8-live-region"
-        />
-        <span
-          aria-atomic="false"
-          aria-live="polite"
-          aria-relevant="additions text"
-          className="css-1f43avz-a11yText-A11yText"
-        />
         <div
-          className=" css-s9e7el-control"
-          onMouseDown={[Function]}
-          onTouchEnd={[Function]}
+          className=" css-15dykvv-ValueContainer"
         >
           <div
-            className=" css-15dykvv-ValueContainer"
+            className="sc-gRFyCy eooGop"
           >
             <div
-              className="sc-gRFyCy eooGop"
+              className=" css-wuj7bk-placeholder"
+              id="react-select-8-placeholder"
             >
               <div
-                className=" css-wuj7bk-placeholder"
-                id="react-select-8-placeholder"
+                className="sc-bSGZAx hcvdFH"
               >
-                <div
-                  className="sc-bSGZAx hcvdFH"
-                >
-                  Choose an option
-                </div>
+                Choose an option
               </div>
-              <input
-                aria-autocomplete="list"
-                aria-controls="react-select-8-listbox"
-                aria-describedby="react-select-8-placeholder"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-owns="react-select-8-listbox"
-                aria-readonly={true}
-                className="css-mohuvp-dummyInput-DummyInput"
-                disabled={false}
-                id="react-select-8-input"
-                inputMode="none"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                tabIndex={0}
-                value=""
-              />
             </div>
+            <input
+              aria-autocomplete="list"
+              aria-controls="react-select-8-listbox"
+              aria-describedby="react-select-8-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-owns="react-select-8-listbox"
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-8-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
           </div>
-          <div
-            className=" css-1hb7zxy-IndicatorsContainer"
-          >
-            <svg
-              className="sc-fXPgIJ"
-              fill="none"
-              fontSize="1.5rem"
-              height="1em"
-              style={
-                Object {
-                  "marginInlineEnd": "0.5rem",
-                }
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-fXPgIJ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
               }
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="sc-jJUdvr dHgcCz"
+  >
     <div
-      className="sc-jJUdvr dHgcCz"
+      className=" css-9ebu9r-container"
+      onKeyDown={[Function]}
     >
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-9-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
       <div
-        className=" css-9ebu9r-container"
-        onKeyDown={[Function]}
+        className=" css-2tllru-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
       >
-        <span
-          className="css-1f43avz-a11yText-A11yText"
-          id="react-select-9-live-region"
-        />
-        <span
-          aria-atomic="false"
-          aria-live="polite"
-          aria-relevant="additions text"
-          className="css-1f43avz-a11yText-A11yText"
-        />
         <div
-          className=" css-2tllru-control"
-          onMouseDown={[Function]}
-          onTouchEnd={[Function]}
+          className=" css-15dykvv-ValueContainer"
         >
           <div
-            className=" css-15dykvv-ValueContainer"
+            className="sc-gRFyCy eooGop"
           >
             <div
-              className="sc-gRFyCy eooGop"
+              className=" css-wuj7bk-placeholder"
+              id="react-select-9-placeholder"
             >
               <div
-                className=" css-wuj7bk-placeholder"
-                id="react-select-9-placeholder"
+                className="sc-bSGZAx hcvdFH"
               >
-                <div
-                  className="sc-bSGZAx hcvdFH"
-                >
-                  Choose an option
-                </div>
+                Choose an option
               </div>
-              <input
-                aria-autocomplete="list"
-                aria-controls="react-select-9-listbox"
-                aria-describedby="react-select-9-placeholder"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-owns="react-select-9-listbox"
-                aria-readonly={true}
-                className="css-mohuvp-dummyInput-DummyInput"
-                disabled={false}
-                id="react-select-9-input"
-                inputMode="none"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                tabIndex={0}
-                value=""
-              />
             </div>
+            <input
+              aria-autocomplete="list"
+              aria-controls="react-select-9-listbox"
+              aria-describedby="react-select-9-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-owns="react-select-9-listbox"
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-9-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
           </div>
-          <div
-            className=" css-1hb7zxy-IndicatorsContainer"
-          >
-            <svg
-              className="sc-fXPgIJ"
-              fill="none"
-              fontSize="1.5rem"
-              height="1em"
-              style={
-                Object {
-                  "marginInlineEnd": "0.5rem",
-                }
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-fXPgIJ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
               }
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -955,194 +935,190 @@ exports[`TextInputGroup renders single select RTL 1`] = `
 
 exports[`TextInputGroup renders single select vertical 1`] = `
 <div
-  className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40"
+  className="sc-ksWjrO gOafWa"
+  dir="ltr"
+  orientation="vertical"
 >
   <div
-    className="sc-ksWjrO gOafWa"
-    dir="ltr"
-    orientation="vertical"
+    className="sc-gPKDLW fLbGoN"
   >
     <div
-      className="sc-gPKDLW fLbGoN"
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
     >
-      <div
-        className=" css-1tsy5a7-container"
-        onKeyDown={[Function]}
+      <span
+        className="sc-jLOYlT kpsrUz"
       >
-        <span
-          className="sc-jLOYlT kpsrUz"
-        >
-          xLarge
-        </span>
-        <span
-          className="css-1f43avz-a11yText-A11yText"
-          id="react-select-6-live-region"
-        />
-        <span
-          aria-atomic="false"
-          aria-live="polite"
-          aria-relevant="additions text"
-          className="css-1f43avz-a11yText-A11yText"
-        />
+        xLarge
+      </span>
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-6-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-171e2ko-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
         <div
-          className=" css-171e2ko-control"
-          onMouseDown={[Function]}
-          onTouchEnd={[Function]}
+          className=" css-15dykvv-ValueContainer"
         >
           <div
-            className=" css-15dykvv-ValueContainer"
+            className="sc-gRFyCy eooGop"
           >
             <div
-              className="sc-gRFyCy eooGop"
+              className=" css-wuj7bk-placeholder"
+              id="react-select-6-placeholder"
             >
               <div
-                className=" css-wuj7bk-placeholder"
-                id="react-select-6-placeholder"
+                className="sc-bSGZAx hcvdFH"
               >
-                <div
-                  className="sc-bSGZAx hcvdFH"
-                >
-                  Choose an option
-                </div>
+                Choose an option
               </div>
-              <input
-                aria-autocomplete="list"
-                aria-controls="react-select-6-listbox"
-                aria-describedby="react-select-6-placeholder"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-owns="react-select-6-listbox"
-                aria-readonly={true}
-                className="css-mohuvp-dummyInput-DummyInput"
-                disabled={false}
-                id="react-select-6-input"
-                inputMode="none"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                tabIndex={0}
-                value=""
-              />
             </div>
+            <input
+              aria-autocomplete="list"
+              aria-controls="react-select-6-listbox"
+              aria-describedby="react-select-6-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-owns="react-select-6-listbox"
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-6-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
           </div>
-          <div
-            className=" css-1hb7zxy-IndicatorsContainer"
-          >
-            <svg
-              className="sc-fXPgIJ"
-              fill="none"
-              fontSize="1.5rem"
-              height="1em"
-              style={
-                Object {
-                  "marginInlineEnd": "0.5rem",
-                }
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-fXPgIJ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
               }
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </div>
       </div>
     </div>
+  </div>
+  <div
+    className="sc-jJUdvr dHgcCz"
+  >
     <div
-      className="sc-jJUdvr dHgcCz"
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
     >
-      <div
-        className=" css-1tsy5a7-container"
-        onKeyDown={[Function]}
+      <span
+        className="sc-jLOYlT kpsrUz"
       >
-        <span
-          className="sc-jLOYlT kpsrUz"
-        >
-          xLarge
-        </span>
-        <span
-          className="css-1f43avz-a11yText-A11yText"
-          id="react-select-7-live-region"
-        />
-        <span
-          aria-atomic="false"
-          aria-live="polite"
-          aria-relevant="additions text"
-          className="css-1f43avz-a11yText-A11yText"
-        />
+        xLarge
+      </span>
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-7-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-5kkujl-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
         <div
-          className=" css-5kkujl-control"
-          onMouseDown={[Function]}
-          onTouchEnd={[Function]}
+          className=" css-15dykvv-ValueContainer"
         >
           <div
-            className=" css-15dykvv-ValueContainer"
+            className="sc-gRFyCy eooGop"
           >
             <div
-              className="sc-gRFyCy eooGop"
+              className=" css-wuj7bk-placeholder"
+              id="react-select-7-placeholder"
             >
               <div
-                className=" css-wuj7bk-placeholder"
-                id="react-select-7-placeholder"
+                className="sc-bSGZAx hcvdFH"
               >
-                <div
-                  className="sc-bSGZAx hcvdFH"
-                >
-                  Choose an option
-                </div>
+                Choose an option
               </div>
-              <input
-                aria-autocomplete="list"
-                aria-controls="react-select-7-listbox"
-                aria-describedby="react-select-7-placeholder"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-owns="react-select-7-listbox"
-                aria-readonly={true}
-                className="css-mohuvp-dummyInput-DummyInput"
-                disabled={false}
-                id="react-select-7-input"
-                inputMode="none"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                tabIndex={0}
-                value=""
-              />
             </div>
+            <input
+              aria-autocomplete="list"
+              aria-controls="react-select-7-listbox"
+              aria-describedby="react-select-7-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-owns="react-select-7-listbox"
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-7-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
           </div>
-          <div
-            className=" css-1hb7zxy-IndicatorsContainer"
-          >
-            <svg
-              className="sc-fXPgIJ"
-              fill="none"
-              fontSize="1.5rem"
-              height="1em"
-              style={
-                Object {
-                  "marginInlineEnd": "0.5rem",
-                }
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-fXPgIJ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
               }
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
         </div>
       </div>
     </div>
@@ -1152,121 +1128,115 @@ exports[`TextInputGroup renders single select vertical 1`] = `
 
 exports[`TextInputGroup renders sizes 1`] = `
 <div
-  className="flex flex-col gap-4"
+  className="flex flex-col justify-around items-center w-full gap-2"
 >
-  <div>
+  <div
+    className="sc-bPnocz hYbmuw"
+    dir="ltr"
+    orientation="horizontal"
+  >
     <div
-      className="sc-bPnocz hYbmuw"
+      className="sc-iOnGvX dgcOls"
       dir="ltr"
-      orientation="horizontal"
+      placeholder="Country"
+      type="text"
     >
-      <div
-        className="sc-iOnGvX dgcOls"
+      <input
+        className="sc-goMRkL fJTDMG"
         dir="ltr"
         placeholder="Country"
         type="text"
+      />
+    </div>
+    <div
+      className="sc-iOnGvX fqIugw"
+      dir="ltr"
+      placeholder="Phone"
+      type="text"
+    >
+      <input
+        className="sc-goMRkL kyGWJm"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-bPnocz hYbmuw"
+    dir="ltr"
+    orientation="horizontal"
+  >
+    <div
+      className="sc-iOnGvX dgcOls"
+      dir="ltr"
+      placeholder="Country"
+      type="text"
+    >
+      <input
+        className="sc-goMRkL hyxFTd"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-iOnGvX fqIugw"
+      dir="ltr"
+      placeholder="Phone"
+      type="text"
+    >
+      <input
+        className="sc-goMRkL ehfcsp"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-bPnocz egLkmp"
+    dir="ltr"
+    orientation="horizontal"
+  >
+    <div
+      className="sc-iOnGvX dgcOls"
+      dir="ltr"
+      placeholder="Country"
+      type="text"
+    >
+      <div
+        className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL fJTDMG"
+          className="sc-goMRkL jXMyyP"
           dir="ltr"
           placeholder="Country"
           type="text"
         />
+        <label
+          className="sc-glUVip fKjLAb"
+        />
       </div>
+    </div>
+    <div
+      className="sc-iOnGvX fqIugw"
+      dir="ltr"
+      placeholder="Phone"
+      type="text"
+    >
       <div
-        className="sc-iOnGvX fqIugw"
-        dir="ltr"
-        placeholder="Phone"
-        type="text"
+        className="sc-jNrqiC jBcQib"
       >
         <input
-          className="sc-goMRkL kyGWJm"
+          className="sc-goMRkL cUZCbv"
           dir="ltr"
           placeholder="Phone"
           type="text"
         />
-      </div>
-    </div>
-  </div>
-  <div>
-    <div
-      className="sc-bPnocz hYbmuw"
-      dir="ltr"
-      orientation="horizontal"
-    >
-      <div
-        className="sc-iOnGvX dgcOls"
-        dir="ltr"
-        placeholder="Country"
-        type="text"
-      >
-        <input
-          className="sc-goMRkL hyxFTd"
-          dir="ltr"
-          placeholder="Country"
-          type="text"
+        <label
+          className="sc-glUVip fKjLAb"
         />
-      </div>
-      <div
-        className="sc-iOnGvX fqIugw"
-        dir="ltr"
-        placeholder="Phone"
-        type="text"
-      >
-        <input
-          className="sc-goMRkL ehfcsp"
-          dir="ltr"
-          placeholder="Phone"
-          type="text"
-        />
-      </div>
-    </div>
-  </div>
-  <div>
-    <div
-      className="sc-bPnocz egLkmp"
-      dir="ltr"
-      orientation="horizontal"
-    >
-      <div
-        className="sc-iOnGvX dgcOls"
-        dir="ltr"
-        placeholder="Country"
-        type="text"
-      >
-        <div
-          className="sc-jNrqiC jBcQib"
-        >
-          <input
-            className="sc-goMRkL jXMyyP"
-            dir="ltr"
-            placeholder="Country"
-            type="text"
-          />
-          <label
-            className="sc-glUVip fKjLAb"
-          />
-        </div>
-      </div>
-      <div
-        className="sc-iOnGvX fqIugw"
-        dir="ltr"
-        placeholder="Phone"
-        type="text"
-      >
-        <div
-          className="sc-jNrqiC jBcQib"
-        >
-          <input
-            className="sc-goMRkL cUZCbv"
-            dir="ltr"
-            placeholder="Phone"
-            type="text"
-          />
-          <label
-            className="sc-glUVip fKjLAb"
-          />
-        </div>
       </div>
     </div>
   </div>
@@ -1275,7 +1245,7 @@ exports[`TextInputGroup renders sizes 1`] = `
 
 exports[`TextInputGroup renders vertical 1`] = `
 <div
-  className="flex items-center gap-8 flex-wrap w-full justify-center ps-40 pe-40 flex-col"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="sc-bPnocz jfnGdv"

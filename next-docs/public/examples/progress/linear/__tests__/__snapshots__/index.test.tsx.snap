@@ -1,9 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Linear Progress renders 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <div
     className="sc-kOZHUs hGIdfZ"
   >
@@ -18,7 +16,7 @@ exports[`Linear Progress renders 1`] = `
         Progress
       </span>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-kOZHUs hGIdfZ"
   >
@@ -34,6 +32,6 @@ exports[`Linear Progress renders 1`] = `
         Progress
       </span>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;

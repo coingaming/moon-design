@@ -17,15 +17,13 @@ const options = [
 ];
 
 export const Example = () => (
-  <div className="pb-40 flex items-end flex-wrap" data-test="yo">
-    <Select
-      id="test-moon-select"
-      options={options}
-      label="Large"
-      placeholderSlot="Choose an option"
-      isMulti
-    />
-  </div>
+  <Select
+    id="test-moon-select"
+    options={options}
+    label="Large"
+    placeholderSlot="Choose an option"
+    isMulti
+  />
 );
 
 export default Example;

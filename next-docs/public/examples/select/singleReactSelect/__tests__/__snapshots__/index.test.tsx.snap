@@ -2,189 +2,181 @@
 
 exports[`Multi Select options content 1`] = `
 <div
-  className="pb-60 flex items-end flex-wrap "
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className=" css-1tsy5a7-container"
+    onKeyDown={[Function]}
   >
-    <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
+    <span
+      className="sc-jLOYlT kpsrUz"
     >
-      <span
-        className="sc-jLOYlT kpsrUz"
-      >
-        Large
-      </span>
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-16-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
+      Large
+    </span>
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-16-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
+    <div
+      className=" css-98ebsh-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+    >
       <div
-        className=" css-98ebsh-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-15dykvv-ValueContainer"
       >
         <div
-          className=" css-15dykvv-ValueContainer"
+          className="sc-gRFyCy eooGop"
         >
           <div
-            className="sc-gRFyCy eooGop"
+            className=" css-wuj7bk-placeholder"
+            id="react-select-16-placeholder"
           >
             <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-16-placeholder"
+              className="sc-bSGZAx hcvdFH"
             >
-              <div
-                className="sc-bSGZAx hcvdFH"
-              >
-                Choose an option
-              </div>
+              Choose an option
             </div>
-            <input
-              aria-autocomplete="list"
-              aria-controls="react-select-16-listbox"
-              aria-describedby="react-select-16-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-owns="react-select-16-listbox"
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-16-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
           </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls="react-select-16-listbox"
+            aria-describedby="react-select-16-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-owns="react-select-16-listbox"
+            aria-readonly={true}
+            className="css-mohuvp-dummyInput-DummyInput"
+            disabled={false}
+            id="react-select-16-input"
+            inputMode="none"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            tabIndex={0}
+            value=""
+          />
         </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
             }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className=" css-1tsy5a7-container"
+    onKeyDown={[Function]}
   >
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-17-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
     <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
+      className=" css-1541k4v-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
     >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-17-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
       <div
-        className=" css-1541k4v-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-1f3h6sw-ValueContainer"
       >
         <div
-          className=" css-1f3h6sw-ValueContainer"
+          className="sc-jrVuhE hHyLDF"
         >
-          <div
-            className="sc-jrVuhE hHyLDF"
-          >
-            xLarge
-          </div>
-          <div
-            className="sc-gRFyCy jvlFiW"
-          >
-            <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-17-placeholder"
-            >
-              <div
-                className="sc-bSGZAx hcvdFH"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-controls="react-select-17-listbox"
-              aria-describedby="react-select-17-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-owns="react-select-17-listbox"
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-17-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
+          xLarge
         </div>
         <div
-          className=" css-1hb7zxy-IndicatorsContainer"
+          className="sc-gRFyCy jvlFiW"
         >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className=" css-wuj7bk-placeholder"
+            id="react-select-17-placeholder"
           >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+            <div
+              className="sc-bSGZAx hcvdFH"
+            >
+              Choose an option
+            </div>
+          </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls="react-select-17-listbox"
+            aria-describedby="react-select-17-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-owns="react-select-17-listbox"
+            aria-readonly={true}
+            className="css-mohuvp-dummyInput-DummyInput"
+            disabled={false}
+            id="react-select-17-input"
+            inputMode="none"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            tabIndex={0}
+            value=""
+          />
         </div>
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
+            }
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
@@ -193,189 +185,181 @@ exports[`Multi Select options content 1`] = `
 
 exports[`Multi Select options wrapper width 1`] = `
 <div
-  className="pb-40 flex items-end flex-wrap "
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className=" css-1tsy5a7-container"
+    onKeyDown={[Function]}
   >
-    <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
+    <span
+      className="sc-jLOYlT kpsrUz"
     >
-      <span
-        className="sc-jLOYlT kpsrUz"
-      >
-        Large
-      </span>
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-14-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
+      Large
+    </span>
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-14-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
+    <div
+      className=" css-98ebsh-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+    >
       <div
-        className=" css-98ebsh-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-15dykvv-ValueContainer"
       >
         <div
-          className=" css-15dykvv-ValueContainer"
+          className="sc-gRFyCy eooGop"
         >
           <div
-            className="sc-gRFyCy eooGop"
+            className=" css-wuj7bk-placeholder"
+            id="react-select-14-placeholder"
           >
             <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-14-placeholder"
+              className="sc-bSGZAx hcvdFH"
             >
-              <div
-                className="sc-bSGZAx hcvdFH"
-              >
-                Choose an option
-              </div>
+              Choose an option
             </div>
-            <input
-              aria-autocomplete="list"
-              aria-controls="react-select-14-listbox"
-              aria-describedby="react-select-14-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-owns="react-select-14-listbox"
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-14-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
           </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls="react-select-14-listbox"
+            aria-describedby="react-select-14-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-owns="react-select-14-listbox"
+            aria-readonly={true}
+            className="css-mohuvp-dummyInput-DummyInput"
+            disabled={false}
+            id="react-select-14-input"
+            inputMode="none"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            tabIndex={0}
+            value=""
+          />
         </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
             }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className=" css-1tsy5a7-container"
+    onKeyDown={[Function]}
   >
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-15-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
     <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
+      className=" css-1541k4v-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
     >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-15-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
       <div
-        className=" css-1541k4v-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-1f3h6sw-ValueContainer"
       >
         <div
-          className=" css-1f3h6sw-ValueContainer"
+          className="sc-jrVuhE hHyLDF"
         >
-          <div
-            className="sc-jrVuhE hHyLDF"
-          >
-            xLarge
-          </div>
-          <div
-            className="sc-gRFyCy jvlFiW"
-          >
-            <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-15-placeholder"
-            >
-              <div
-                className="sc-bSGZAx hcvdFH"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-controls="react-select-15-listbox"
-              aria-describedby="react-select-15-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-owns="react-select-15-listbox"
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-15-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
+          xLarge
         </div>
         <div
-          className=" css-1hb7zxy-IndicatorsContainer"
+          className="sc-gRFyCy jvlFiW"
         >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className=" css-wuj7bk-placeholder"
+            id="react-select-15-placeholder"
           >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+            <div
+              className="sc-bSGZAx hcvdFH"
+            >
+              Choose an option
+            </div>
+          </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls="react-select-15-listbox"
+            aria-describedby="react-select-15-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-owns="react-select-15-listbox"
+            aria-readonly={true}
+            className="css-mohuvp-dummyInput-DummyInput"
+            disabled={false}
+            id="react-select-15-input"
+            inputMode="none"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            tabIndex={0}
+            value=""
+          />
         </div>
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
+            }
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
@@ -384,189 +368,181 @@ exports[`Multi Select options wrapper width 1`] = `
 
 exports[`Multi Select renders disabled 1`] = `
 <div
-  className="pb-40 flex items-end flex-wrap "
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className=" css-1qio7j2-container"
+    onKeyDown={[Function]}
   >
-    <div
-      className=" css-1qio7j2-container"
-      onKeyDown={[Function]}
+    <span
+      className="sc-jLOYlT kpsrUz"
     >
-      <span
-        className="sc-jLOYlT kpsrUz"
-      >
-        Large
-      </span>
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-8-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
+      Large
+    </span>
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-8-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
+    <div
+      className=" css-98ebsh-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+    >
       <div
-        className=" css-98ebsh-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-15dykvv-ValueContainer"
       >
         <div
-          className=" css-15dykvv-ValueContainer"
+          className="sc-gRFyCy eooGop"
         >
           <div
-            className="sc-gRFyCy eooGop"
+            className=" css-wuj7bk-placeholder"
+            id="react-select-8-placeholder"
           >
             <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-8-placeholder"
+              className="sc-bSGZAx hcvdFH"
             >
-              <div
-                className="sc-bSGZAx hcvdFH"
-              >
-                Choose an option
-              </div>
+              Choose an option
             </div>
-            <input
-              aria-autocomplete="list"
-              aria-controls="react-select-8-listbox"
-              aria-describedby="react-select-8-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-owns="react-select-8-listbox"
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={true}
-              id="react-select-8-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
           </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls="react-select-8-listbox"
+            aria-describedby="react-select-8-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-owns="react-select-8-listbox"
+            aria-readonly={true}
+            className="css-mohuvp-dummyInput-DummyInput"
+            disabled={true}
+            id="react-select-8-input"
+            inputMode="none"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            tabIndex={0}
+            value=""
+          />
         </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
             }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className=" css-1qio7j2-container"
+    onKeyDown={[Function]}
   >
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-9-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
     <div
-      className=" css-1qio7j2-container"
-      onKeyDown={[Function]}
+      className=" css-1541k4v-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
     >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-9-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
       <div
-        className=" css-1541k4v-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-1f3h6sw-ValueContainer"
       >
         <div
-          className=" css-1f3h6sw-ValueContainer"
+          className="sc-jrVuhE hHyLDF"
         >
-          <div
-            className="sc-jrVuhE hHyLDF"
-          >
-            xLarge
-          </div>
-          <div
-            className="sc-gRFyCy jvlFiW"
-          >
-            <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-9-placeholder"
-            >
-              <div
-                className="sc-bSGZAx hcvdFH"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-controls="react-select-9-listbox"
-              aria-describedby="react-select-9-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-owns="react-select-9-listbox"
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={true}
-              id="react-select-9-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
+          xLarge
         </div>
         <div
-          className=" css-1hb7zxy-IndicatorsContainer"
+          className="sc-gRFyCy jvlFiW"
         >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className=" css-wuj7bk-placeholder"
+            id="react-select-9-placeholder"
           >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+            <div
+              className="sc-bSGZAx hcvdFH"
+            >
+              Choose an option
+            </div>
+          </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls="react-select-9-listbox"
+            aria-describedby="react-select-9-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-owns="react-select-9-listbox"
+            aria-readonly={true}
+            className="css-mohuvp-dummyInput-DummyInput"
+            disabled={true}
+            id="react-select-9-input"
+            inputMode="none"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            tabIndex={0}
+            value=""
+          />
         </div>
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
+            }
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
@@ -575,10 +551,10 @@ exports[`Multi Select renders disabled 1`] = `
 
 exports[`Multi Select renders error 1`] = `
 <div
-  className="flex items-end flex-wrap pb-36"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className="flex flex-col"
   >
     <div
       className=" css-1tsy5a7-container"
@@ -675,7 +651,7 @@ exports[`Multi Select renders error 1`] = `
     </span>
   </div>
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className="flex flex-col"
   >
     <div
       className=" css-1tsy5a7-container"
@@ -776,10 +752,10 @@ exports[`Multi Select renders error 1`] = `
 
 exports[`Multi Select renders with hint 1`] = `
 <div
-  className="pb-40 flex items-end flex-wrap "
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className="flex flex-col"
   >
     <div
       className=" css-1tsy5a7-container"
@@ -876,7 +852,7 @@ exports[`Multi Select renders with hint 1`] = `
     </span>
   </div>
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className="flex flex-col"
   >
     <div
       className=" css-1tsy5a7-container"
@@ -977,189 +953,181 @@ exports[`Multi Select renders with hint 1`] = `
 
 exports[`Multi Select renders with label 1`] = `
 <div
-  className="flex items-end flex-wrap pb-36"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className=" css-1tsy5a7-container"
+    onKeyDown={[Function]}
   >
-    <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
+    <span
+      className="sc-jLOYlT kpsrUz"
     >
-      <span
-        className="sc-jLOYlT kpsrUz"
-      >
-        Large
-      </span>
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-2-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
+      Large
+    </span>
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-2-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
+    <div
+      className=" css-98ebsh-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+    >
       <div
-        className=" css-98ebsh-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-15dykvv-ValueContainer"
       >
         <div
-          className=" css-15dykvv-ValueContainer"
+          className="sc-gRFyCy eooGop"
         >
           <div
-            className="sc-gRFyCy eooGop"
+            className=" css-wuj7bk-placeholder"
+            id="react-select-2-placeholder"
           >
             <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-2-placeholder"
+              className="sc-bSGZAx hcvdFH"
             >
-              <div
-                className="sc-bSGZAx hcvdFH"
-              >
-                Choose an option
-              </div>
+              Choose an option
             </div>
-            <input
-              aria-autocomplete="list"
-              aria-controls="react-select-2-listbox"
-              aria-describedby="react-select-2-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-owns="react-select-2-listbox"
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-2-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
           </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls="react-select-2-listbox"
+            aria-describedby="react-select-2-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-owns="react-select-2-listbox"
+            aria-readonly={true}
+            className="css-mohuvp-dummyInput-DummyInput"
+            disabled={false}
+            id="react-select-2-input"
+            inputMode="none"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            tabIndex={0}
+            value=""
+          />
         </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
             }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className=" css-1tsy5a7-container"
+    onKeyDown={[Function]}
   >
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-3-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
     <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
+      className=" css-1541k4v-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
     >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-3-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
       <div
-        className=" css-1541k4v-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-1f3h6sw-ValueContainer"
       >
         <div
-          className=" css-1f3h6sw-ValueContainer"
+          className="sc-jrVuhE hHyLDF"
         >
-          <div
-            className="sc-jrVuhE hHyLDF"
-          >
-            xLarge
-          </div>
-          <div
-            className="sc-gRFyCy jvlFiW"
-          >
-            <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-3-placeholder"
-            >
-              <div
-                className="sc-bSGZAx hcvdFH"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-controls="react-select-3-listbox"
-              aria-describedby="react-select-3-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-owns="react-select-3-listbox"
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-3-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
+          xLarge
         </div>
         <div
-          className=" css-1hb7zxy-IndicatorsContainer"
+          className="sc-gRFyCy jvlFiW"
         >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            className=" css-wuj7bk-placeholder"
+            id="react-select-3-placeholder"
           >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+            <div
+              className="sc-bSGZAx hcvdFH"
+            >
+              Choose an option
+            </div>
+          </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls="react-select-3-listbox"
+            aria-describedby="react-select-3-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-owns="react-select-3-listbox"
+            aria-readonly={true}
+            className="css-mohuvp-dummyInput-DummyInput"
+            disabled={false}
+            id="react-select-3-input"
+            inputMode="none"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            tabIndex={0}
+            value=""
+          />
         </div>
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
+            }
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
@@ -1168,182 +1136,174 @@ exports[`Multi Select renders with label 1`] = `
 
 exports[`Multi Select renders without label 1`] = `
 <div
-  className="pb-40 flex items-end flex-wrap "
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className=" css-1tsy5a7-container"
+    onKeyDown={[Function]}
   >
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-4-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
     <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
+      className=" css-98ebsh-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
     >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-4-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
       <div
-        className=" css-98ebsh-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-15dykvv-ValueContainer"
       >
         <div
-          className=" css-15dykvv-ValueContainer"
+          className="sc-gRFyCy eooGop"
         >
           <div
-            className="sc-gRFyCy eooGop"
+            className=" css-wuj7bk-placeholder"
+            id="react-select-4-placeholder"
           >
             <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-4-placeholder"
+              className="sc-bSGZAx hcvdFH"
             >
-              <div
-                className="sc-bSGZAx hcvdFH"
-              >
-                Choose an option
-              </div>
+              Choose an option
             </div>
-            <input
-              aria-autocomplete="list"
-              aria-controls="react-select-4-listbox"
-              aria-describedby="react-select-4-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-owns="react-select-4-listbox"
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-4-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
           </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls="react-select-4-listbox"
+            aria-describedby="react-select-4-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-owns="react-select-4-listbox"
+            aria-readonly={true}
+            className="css-mohuvp-dummyInput-DummyInput"
+            disabled={false}
+            id="react-select-4-input"
+            inputMode="none"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            tabIndex={0}
+            value=""
+          />
         </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
             }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
   <div
-    className="w-80 mr-4 ml-4 mb-8"
+    className=" css-1tsy5a7-container"
+    onKeyDown={[Function]}
   >
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-5-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
     <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
+      className=" css-1541k4v-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
     >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-5-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
       <div
-        className=" css-1541k4v-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-1f3h6sw-ValueContainer"
       >
         <div
-          className=" css-1f3h6sw-ValueContainer"
+          className="sc-jrVuhE hHyLDF"
+        />
+        <div
+          className="sc-gRFyCy jvlFiW"
         >
           <div
-            className="sc-jrVuhE hHyLDF"
-          />
-          <div
-            className="sc-gRFyCy jvlFiW"
+            className=" css-wuj7bk-placeholder"
+            id="react-select-5-placeholder"
           >
             <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-5-placeholder"
+              className="sc-bSGZAx hcvdFH"
             >
-              <div
-                className="sc-bSGZAx hcvdFH"
-              >
-                Choose an option
-              </div>
+              Choose an option
             </div>
-            <input
-              aria-autocomplete="list"
-              aria-controls="react-select-5-listbox"
-              aria-describedby="react-select-5-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-owns="react-select-5-listbox"
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-5-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
           </div>
+          <input
+            aria-autocomplete="list"
+            aria-controls="react-select-5-listbox"
+            aria-describedby="react-select-5-placeholder"
+            aria-expanded={false}
+            aria-haspopup={true}
+            aria-owns="react-select-5-listbox"
+            aria-readonly={true}
+            className="css-mohuvp-dummyInput-DummyInput"
+            disabled={false}
+            id="react-select-5-input"
+            inputMode="none"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            role="combobox"
+            tabIndex={0}
+            value=""
+          />
         </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
             }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
@@ -1352,239 +1312,231 @@ exports[`Multi Select renders without label 1`] = `
 
 exports[`Multi Select with diferent option 1`] = `
 <div
-  className="pb-72 flex items-end flex-wrap "
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="w-80 me-4 ms-4 mb-8"
+    className=" css-1tsy5a7-container"
+    onKeyDown={[Function]}
   >
-    <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
+    <span
+      className="sc-jLOYlT kpsrUz"
     >
-      <span
-        className="sc-jLOYlT kpsrUz"
-      >
-        Language
-      </span>
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-12-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
+      Language
+    </span>
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-12-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
+    <div
+      className=" css-98ebsh-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
+    >
+      <div>
+        <div
+          className="mx-2"
+        >
+          🇬🇧
+        </div>
+      </div>
       <div
-        className=" css-98ebsh-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-15dykvv-ValueContainer"
       >
-        <div>
-          <div
-            className="mx-2"
-          >
-            🇬🇧
-          </div>
-        </div>
         <div
-          className=" css-15dykvv-ValueContainer"
+          className="sc-gRFyCy eooGop"
         >
           <div
-            className="sc-gRFyCy eooGop"
+            className=" css-1u67ck6-singleValue"
           >
-            <div
-              className=" css-1u67ck6-singleValue"
-            >
-              English
-            </div>
-            <div
-              className=" css-138frnh-Input"
-              data-value=""
-            >
-              <input
-                aria-autocomplete="list"
-                aria-controls="react-select-12-listbox"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-owns="react-select-12-listbox"
-                autoCapitalize="none"
-                autoComplete="off"
-                autoCorrect="off"
-                className=""
-                disabled={false}
-                id="react-select-12-input"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                spellCheck="false"
-                style={
-                  Object {
-                    "background": 0,
-                    "border": 0,
-                    "color": "inherit",
-                    "font": "inherit",
-                    "gridArea": "1 / 2",
-                    "label": "input",
-                    "margin": 0,
-                    "minWidth": "2px",
-                    "opacity": 1,
-                    "outline": 0,
-                    "padding": 0,
-                    "width": "100%",
-                  }
+            English
+          </div>
+          <div
+            className=" css-138frnh-Input"
+            data-value=""
+          >
+            <input
+              aria-autocomplete="list"
+              aria-controls="react-select-12-listbox"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-owns="react-select-12-listbox"
+              autoCapitalize="none"
+              autoComplete="off"
+              autoCorrect="off"
+              className=""
+              disabled={false}
+              id="react-select-12-input"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              spellCheck="false"
+              style={
+                Object {
+                  "background": 0,
+                  "border": 0,
+                  "color": "inherit",
+                  "font": "inherit",
+                  "gridArea": "1 / 2",
+                  "label": "input",
+                  "margin": 0,
+                  "minWidth": "2px",
+                  "opacity": 1,
+                  "outline": 0,
+                  "padding": 0,
+                  "width": "100%",
                 }
-                tabIndex={0}
-                type="text"
-                value=""
-              />
-            </div>
+              }
+              tabIndex={0}
+              type="text"
+              value=""
+            />
           </div>
         </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
             }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>
   <div
-    className="w-80 me-4 ms-4 mb-8"
+    className=" css-1tsy5a7-container"
+    onKeyDown={[Function]}
   >
+    <span
+      className="css-1f43avz-a11yText-A11yText"
+      id="react-select-13-live-region"
+    />
+    <span
+      aria-atomic="false"
+      aria-live="polite"
+      aria-relevant="additions text"
+      className="css-1f43avz-a11yText-A11yText"
+    />
     <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
+      className=" css-1541k4v-control"
+      onMouseDown={[Function]}
+      onTouchEnd={[Function]}
     >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-13-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
+      <div>
+        <div
+          className="mx-2"
+        >
+          🇬🇧
+        </div>
+      </div>
       <div
-        className=" css-1541k4v-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
+        className=" css-1f3h6sw-ValueContainer"
       >
-        <div>
-          <div
-            className="mx-2"
-          >
-            🇬🇧
-          </div>
+        <div
+          className="sc-jrVuhE hHyLDF"
+        >
+          Language
         </div>
         <div
-          className=" css-1f3h6sw-ValueContainer"
+          className="sc-gRFyCy jvlFiW"
         >
           <div
-            className="sc-jrVuhE hHyLDF"
+            className=" css-1u67ck6-singleValue"
           >
-            Language
+            English
           </div>
           <div
-            className="sc-gRFyCy jvlFiW"
+            className=" css-138frnh-Input"
+            data-value=""
           >
-            <div
-              className=" css-1u67ck6-singleValue"
-            >
-              English
-            </div>
-            <div
-              className=" css-138frnh-Input"
-              data-value=""
-            >
-              <input
-                aria-autocomplete="list"
-                aria-controls="react-select-13-listbox"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-owns="react-select-13-listbox"
-                autoCapitalize="none"
-                autoComplete="off"
-                autoCorrect="off"
-                className=""
-                disabled={false}
-                id="react-select-13-input"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                spellCheck="false"
-                style={
-                  Object {
-                    "background": 0,
-                    "border": 0,
-                    "color": "inherit",
-                    "font": "inherit",
-                    "gridArea": "1 / 2",
-                    "label": "input",
-                    "margin": 0,
-                    "minWidth": "2px",
-                    "opacity": 1,
-                    "outline": 0,
-                    "padding": 0,
-                    "width": "100%",
-                  }
+            <input
+              aria-autocomplete="list"
+              aria-controls="react-select-13-listbox"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-owns="react-select-13-listbox"
+              autoCapitalize="none"
+              autoComplete="off"
+              autoCorrect="off"
+              className=""
+              disabled={false}
+              id="react-select-13-input"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              spellCheck="false"
+              style={
+                Object {
+                  "background": 0,
+                  "border": 0,
+                  "color": "inherit",
+                  "font": "inherit",
+                  "gridArea": "1 / 2",
+                  "label": "input",
+                  "margin": 0,
+                  "minWidth": "2px",
+                  "opacity": 1,
+                  "outline": 0,
+                  "padding": 0,
+                  "width": "100%",
                 }
-                tabIndex={0}
-                type="text"
-                value=""
-              />
-            </div>
+              }
+              tabIndex={0}
+              type="text"
+              value=""
+            />
           </div>
         </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-gsnTZi"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
+      </div>
+      <div
+        className=" css-1hb7zxy-IndicatorsContainer"
+      >
+        <svg
+          className="sc-gsnTZi"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          style={
+            Object {
+              "marginInlineEnd": "0.5rem",
             }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
+          }
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     </div>
   </div>

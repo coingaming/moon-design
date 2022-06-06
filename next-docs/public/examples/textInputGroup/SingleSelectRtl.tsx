@@ -29,15 +29,13 @@ const Example = () => {
     placeholderSlot: 'Choose an option',
   };
   return (
-    <div className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40">
-      <TextInputGroup
-        inputProps={{
-          input1: selectProps1,
-          input2: selectProps2,
-        }}
-        isRtl={true}
-      />
-    </div>
+    <TextInputGroup
+      inputProps={{
+        input1: selectProps1,
+        input2: selectProps2,
+      }}
+      isRtl={true}
+    />
   );
 };
 

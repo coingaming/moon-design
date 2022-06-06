@@ -38,7 +38,7 @@ const Example = () => {
     placeholder: 'Phone',
   };
   return (
-    <>
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <TextInputGroup
         inputProps={{
           input1: inputProps1,
@@ -57,7 +57,7 @@ const Example = () => {
           input2: inputProps6,
         }}
       />
-    </>
+    </div>
   );
 };
 

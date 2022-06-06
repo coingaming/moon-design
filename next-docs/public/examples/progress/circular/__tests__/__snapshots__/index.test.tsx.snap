@@ -1,11 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Circular Progress renders 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <svg
-    fontSize="5rem"
+    fontSize="1rem"
     style={
       Object {
         "height": "1em",
@@ -50,9 +48,9 @@ exports[`Circular Progress renders 1`] = `
         }
       }
     />
-  </svg>
+  </svg>,
   <svg
-    fontSize="8rem"
+    fontSize="2rem"
     style={
       Object {
         "height": "1em",
@@ -97,9 +95,9 @@ exports[`Circular Progress renders 1`] = `
         }
       }
     />
-  </svg>
+  </svg>,
   <svg
-    fontSize="5rem"
+    fontSize="3rem"
     style={
       Object {
         "height": "1em",
@@ -144,6 +142,6 @@ exports[`Circular Progress renders 1`] = `
         }
       }
     />
-  </svg>
-</div>
+  </svg>,
+]
 `;

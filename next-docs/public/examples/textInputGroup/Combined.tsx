@@ -23,32 +23,28 @@ const Example = () => {
   };
 
   const selectProps = {
-    type: "select",
+    type: 'select',
     options,
     label: 'select',
     placeholderSlot: 'Choose an option',
   };
 
   return (
-    <div className="w-full flex-col items-center">
-      <div className="flex items-end flex-wrap pb-8 w-full justify-center ps-40 pe-40">
-        <TextInputGroup
-          inputProps={{
-            input1: inputProps,
-            input2: selectProps
-          }}
-          size="medium"
-        />
-      </div>
-      <div className="flex items-end flex-wrap pb-44 w-full justify-center ps-40 pe-40">
-        <TextInputGroup
-          inputProps={{
-            input1: selectProps,
-            input2: inputProps
-          }}
-          size="medium"
-        />
-      </div>
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
+      <TextInputGroup
+        inputProps={{
+          input1: inputProps,
+          input2: selectProps,
+        }}
+        size="medium"
+      />
+      <TextInputGroup
+        inputProps={{
+          input1: selectProps,
+          input2: inputProps,
+        }}
+        size="medium"
+      />
     </div>
   );
 };
