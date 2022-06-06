@@ -2,7 +2,7 @@
 
 exports[`Pie Chart renders 1`] = `
 <div
-  className="w-full flex flex-row gap-36"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="sc-jwYuju fPfZwr"
@@ -683,7 +683,7 @@ exports[`Pie Chart renders 1`] = `
 
 exports[`Pie Chart renders Loading 1`] = `
 <div
-  className="w-full flex flex-row gap-36"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
     className="sc-jwYuju fPfZwr"

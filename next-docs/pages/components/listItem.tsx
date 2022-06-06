@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import PropsTable from "../../components/PropsTable";
+import PropsTable from '../../components/PropsTable';
 import SingleLineItem from '../../public/examples/listItem/SingleLineItem';
 import SingleLineItemIcon from '../../public/examples/listItem/SingleLineItemIcon';
 import SingleLineItemSize from '../../public/examples/listItem/SingleLineItemSize';
@@ -15,68 +15,48 @@ export default function PageListItem() {
 
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-semibold">List Item</h1>
-        <p className="text-lg mt-4">
+      <h1 className="text-moon-32 font-medium">List Item</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
           List item component. The List item width is determined by the width of
           the parent container.
         </p>
-      </section>
-      <section className="mt-8 text-center">
-        <h2 className="text-2xl font-semibold">Single line item</h2>
-      </section>
-      <section className="mt-2">
-        <Preview
-          preview={<SingleLineItem />}
-          code={examples ? examples.SingleLineItem : 'Loading'}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Size (by default: medium)"
-          preview={<SingleLineItemSize />}
-          code={examples ? examples.SingleLineItemSize : 'Loading'}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Icon and Meta"
-          preview={<SingleLineItemIcon />}
-          code={examples ? examples.SingleLineItemIcon : 'Loading'}
-        />
-      </section>
-      <section className="mt-10 text-center">
-        <h2 className="text-2xl font-semibold">Two lines item</h2>
-      </section>
-      <section className="mt-2">
-        <Preview
-          preview={<TwoLineItems />}
-          code={examples ? examples.TwoLineItems : 'Loading'}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Size (by default: medium)"
-          preview={<TwoLineItemsSize />}
-          code={examples ? examples.TwoLineItemsSize : 'Loading'}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Icon and Meta"
-          preview={<TwoLineItemsIcon />}
-          code={examples ? examples.TwoLineItemsIcon : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Checkbox"
-          preview={<TwoLineItemsCheckbox />}
-          code={examples ? examples.TwoLineItemsCheckbox : 'Loading'}
-        />
-      </section>
-
+      </div>
+      <Preview
+        title="Single line item"
+        preview={<SingleLineItem />}
+        code={examples ? examples.SingleLineItem : 'Loading'}
+      />
+      <Preview
+        title="Size (by default: medium)"
+        preview={<SingleLineItemSize />}
+        code={examples ? examples.SingleLineItemSize : 'Loading'}
+      />
+      <Preview
+        title="Icon and Meta"
+        preview={<SingleLineItemIcon />}
+        code={examples ? examples.SingleLineItemIcon : 'Loading'}
+      />
+      <Preview
+        title="Two lines item"
+        preview={<TwoLineItems />}
+        code={examples ? examples.TwoLineItems : 'Loading'}
+      />
+      <Preview
+        title="Size (by default: medium)"
+        preview={<TwoLineItemsSize />}
+        code={examples ? examples.TwoLineItemsSize : 'Loading'}
+      />
+      <Preview
+        title="Icon and Meta"
+        preview={<TwoLineItemsIcon />}
+        code={examples ? examples.TwoLineItemsIcon : 'Loading'}
+      />
+      <Preview
+        title="Checkbox"
+        preview={<TwoLineItemsCheckbox />}
+        code={examples ? examples.TwoLineItemsCheckbox : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

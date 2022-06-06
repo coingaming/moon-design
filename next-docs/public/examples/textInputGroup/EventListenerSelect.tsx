@@ -47,8 +47,8 @@ const Example = () => {
 
   const inputProps1 = {
     options: options1,
-    size: 'large',
     placeholderSlot: 'Country',
+    type: 'select',
     ref: ref1,
     onChange: (e: any) => {
       setCountry(e.value);
@@ -57,7 +57,7 @@ const Example = () => {
 
   const inputProps2 = {
     options: options2,
-    size: 'large',
+    type: 'select',
     placeholderSlot: 'Vehicle',
     ref: ref2,
     onChange: (e: any) => {
@@ -68,10 +68,11 @@ const Example = () => {
   return (
     <div className="flex flex-col gap-3 pb-24 ps-40 pe-40 w-full">
       <TextInputGroup
-        selectProps={{
+        inputProps={{
           input1: inputProps1,
           input2: inputProps2,
         }}
+        size='large'
       />
       <div>
         <Label size="xsmall" backgroundColor="trunks.100">

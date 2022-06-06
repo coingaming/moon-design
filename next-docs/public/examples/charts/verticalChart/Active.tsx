@@ -45,7 +45,7 @@ const Example = () => {
   );
 
   return (
-    <div className="w-full flex flex-row gap-36">
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <VerticalBarChart
         title="Top Countries"
         data={dataPositive}
@@ -55,7 +55,6 @@ const Example = () => {
         onShare={() => {}}
         onExpand={() => {}}
       />
-
       <VerticalBarChart
         title="Top Countries"
         data={dataMix}
@@ -66,7 +65,6 @@ const Example = () => {
         onShare={() => {}}
         onExpand={() => {}}
       />
-
       <VerticalBarChart
         title="Top Countries"
         data={dataNegative}

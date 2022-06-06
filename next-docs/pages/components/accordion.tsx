@@ -1,4 +1,3 @@
-import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import ContentOutside from '../../public/examples/accordionNew/ContentOutside';
@@ -15,97 +14,63 @@ const PageAccordion = () => {
   const examples = useExamples('accordionNew');
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Accordion New</h1>
-        <p className="text-lg mt-4">
+      <h1 className="text-moon-32 font-medium">Accordion</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
           Like the accordion instrument, our accordion component reveals or
           hides associated sections of content. This is done through the use of
           a vertically stacked list of headers.
         </p>
-        <p className="text-lg mt-4">
+        <p className="text-moon-16">
           Users can decide which sections to toggle, read and close as the
           header titles will give them a high-level overview of the content
-          that’s in the space.
+          that's in the space.
         </p>
-      </section>
-
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title="Default"
-          isGrayBg
-          preview={<Default />}
-          code={examples.Default ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Open by default"
-          isGrayBg
-          preview={<OpenByDefault />}
-          code={examples.OpenByDefault ? examples.OpenByDefault : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Without button"
-          isGrayBg
-          preview={<WithoutButton />}
-          code={examples.WithoutButton ? examples.WithoutButton : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Disable open"
-          isGrayBg
-          preview={<DisableOpen />}
-          code={examples.DisableOpen ? examples.DisableOpen : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Content outside"
-          isGrayBg
-          preview={<ContentOutside />}
-          code={examples.ContentOutside ? examples.ContentOutside : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Header content"
-          isGrayBg
-          preview={<HeaderContent />}
-          code={examples.HeaderContent ? examples.HeaderContent : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Sizes"
-          isGrayBg
-          preview={<Sizes />}
-          code={examples.Sizes ? examples.Sizes : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Sizes: content outside"
-          isGrayBg
-          preview={<SizesContentOutside />}
-          code={
-            examples.SizesContentOutside
-              ? examples.SizesContentOutside
-              : 'Loading'
-          }
-        />
-      </section>
-
+      </div>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples.Default ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Open by default"
+        preview={<OpenByDefault />}
+        code={examples.OpenByDefault ? examples.OpenByDefault : 'Loading'}
+      />
+      <Preview
+        title="Without button"
+        preview={<WithoutButton />}
+        code={examples.WithoutButton ? examples.WithoutButton : 'Loading'}
+      />
+      <Preview
+        title="Disable open"
+        preview={<DisableOpen />}
+        code={examples.DisableOpen ? examples.DisableOpen : 'Loading'}
+      />
+      <Preview
+        title="Content outside"
+        preview={<ContentOutside />}
+        code={examples.ContentOutside ? examples.ContentOutside : 'Loading'}
+      />
+      <Preview
+        title="Header content"
+        preview={<HeaderContent />}
+        code={examples.HeaderContent ? examples.HeaderContent : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples.Sizes ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Sizes: content outside"
+        preview={<SizesContentOutside />}
+        code={
+          examples.SizesContentOutside
+            ? examples.SizesContentOutside
+            : 'Loading'
+        }
+      />
       <PropsTable
         title="Props"
         data={[

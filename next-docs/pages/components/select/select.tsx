@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
-import PropsTable from "../../../components/PropsTable";
+import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/select/select/Default';
 import Label from '../../../public/examples/select/select/Label';
 import Rtl from '../../../public/examples/select/select/Rtl';
@@ -12,7 +12,7 @@ export default function PageSelect() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Select</h1>
+        <h1 className="text-5xl font-medium">Select</h1>
         <p className="text-lg mt-4">
           By default, Select stretches to full width on small devices.
         </p>

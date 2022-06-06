@@ -1,5 +1,20 @@
 # @heathmont/moon-datepicker
 
+## 9.1.0
+
+### Minor Changes
+
+- 9.1.0
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.1.0
+  - @heathmont/moon-core@9.1.0
+  - @heathmont/moon-icons@9.1.0
+  - @heathmont/moon-themes@9.1.0
+  - @heathmont/moon-utils@9.1.0
+
 ## 9.0.4
 
 ### Patch Changes

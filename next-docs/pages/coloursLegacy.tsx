@@ -36,7 +36,7 @@ export default function PageColours() {
   return (
     <>
       <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Colours</h1>
+        <h1 className="text-5xl font-medium">Colours</h1>
 
         <div className="mt-8 flex flex-row justify-between gap-20">
           <div className="">
@@ -51,8 +51,8 @@ export default function PageColours() {
             </ColorUsage>
 
             <ColorUsage>
-              Meet the <span className="font-bold">Dragon Ball Z approach</span>
-              .
+              Meet the{' '}
+              <span className="font-medium">Dragon Ball Z approach</span>.
             </ColorUsage>
 
             <ColorUsage>
@@ -69,7 +69,7 @@ export default function PageColours() {
           <Image className="rounded-lg" src={coloursImg} alt="Colours usage" />
         </div>
       </section>
-      <h2 className="text-3xl font-semibold mt-8">Main colours</h2>
+      <h2 className="text-3xl font-medium mt-8">Main colours</h2>
       <section className="mt-4">
         <ColorName>Piccolo (Primary)</ColorName>
         <ColorUsage>Main button, links etc</ColorUsage>
@@ -159,7 +159,7 @@ export default function PageColours() {
           <Palette colors={[{ className: 'bg-trunks', value: 100 }]} />
         </div>
       </section>
-      <h2 className="text-3xl font-semibold mt-8">Support colours</h2>
+      <h2 className="text-3xl font-medium mt-8">Support colours</h2>
 
       <div className="flex gap-40 flex-wrap items-end">
         <section className="mt-8">

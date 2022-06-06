@@ -17,7 +17,7 @@ const Dropdown = styled.ul({
 const Example = () => {
   const [searchString, setSearchString] = React.useState('');
   return (
-    <div className="h-96 bg-white p-4 w-full">
+    <div className="w-full">
       <Search
         closeButton={<span>Clear</span>}
         placeholder="Search"

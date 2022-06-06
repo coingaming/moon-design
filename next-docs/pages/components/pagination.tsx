@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/pagination/Default';
@@ -8,29 +9,25 @@ const PagePagination = () => {
   const examples = useExamples('pagination');
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-semibold">Pagination</h1>
-        <p className="text-lg mt-4">
-          Pagination component based on{' '}
+      <h1 className="text-moon-32 font-medium">Pagination</h1>
+      <p className="text-moon-16">
+        Pagination component based on{' '}
+        <Link href="https://github.com/AdeleD/react-paginate#readme">
           <a
-            className="underline"
-            href="https://github.com/AdeleD/react-paginate#readme"
+            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+            target="_blank"
+            rel="noreferrer"
           >
             react-paginate
           </a>
-          .
-        </p>
-      </section>
-
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title="Pagination"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
+        </Link>
+        .
+      </p>
+      <Preview
+        title="Pagination"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[
@@ -69,12 +66,6 @@ const PagePagination = () => {
             default: '-',
             description: 'Label for "next" button',
           },
-          /*
-
-            pageSizeSection		JSX.Element		Placeholder for "page size" component
-            goToPageSection		JSX.Element		Placeholder for "go to page" component
-            changePageSizeSection		JSX.Element		Placeholder for "change page size" component
-            */
           {
             name: 'onChange',
             type: 'function',
@@ -113,20 +104,6 @@ const PagePagination = () => {
           },
         ]}
       />
-
-      {/* With the "page size" section */}
-
-      {/* With the "go to page" section */}
-
-      {/* With the "change page size" section */}
-
-      {/* With all sections */}
-
-      {/* With previous and next buttons label customization */}
-
-      {/* With the first page selected */}
-
-      {/* With the last page selected */}
     </>
   );
 };

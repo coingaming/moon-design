@@ -500,9 +500,7 @@ exports[`Accordion New renders open by default 1`] = `
 `;
 
 exports[`Accordion New renders sizes variants 1`] = `
-<div
-  className="flex flex-col gap-y-3"
->
+Array [
   <div
     className="sc-hGtivm AvMLL"
     size="xlarge"
@@ -553,7 +551,7 @@ exports[`Accordion New renders sizes variants 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-hGtivm jpZzAS"
     size="large"
@@ -604,7 +602,7 @@ exports[`Accordion New renders sizes variants 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-hGtivm nkiAl"
     size="medium"
@@ -655,7 +653,7 @@ exports[`Accordion New renders sizes variants 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-hGtivm jnByKr"
     size="small"
@@ -706,14 +704,12 @@ exports[`Accordion New renders sizes variants 1`] = `
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Accordion New renders sizes variants with content outside 1`] = `
-<div
-  className="flex flex-col gap-y-3"
->
+Array [
   <div
     className="sc-hGtivm VBeCh"
     size="xlarge"
@@ -764,7 +760,7 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-hGtivm VBeCh"
     size="large"
@@ -815,7 +811,7 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-hGtivm VBeCh"
     size="medium"
@@ -866,7 +862,7 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
         </div>
       </div>
     </div>
-  </div>
+  </div>,
   <div
     className="sc-hGtivm VBeCh"
     size="small"
@@ -917,8 +913,8 @@ exports[`Accordion New renders sizes variants with content outside 1`] = `
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Accordion New renders without button 1`] = `

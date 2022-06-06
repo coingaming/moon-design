@@ -32,9 +32,7 @@ exports[`Switch renders 1`] = `
 `;
 
 exports[`Switch renders Buttons 1`] = `
-<div
-  className="flex gap-20 items-center"
->
+Array [
   <div
     className="sc-iRaSfU dASPpV"
     dir="ltr"
@@ -79,7 +77,7 @@ exports[`Switch renders Buttons 1`] = `
         </span>
       </span>
     </label>
-  </div>
+  </div>,
   <div
     className="sc-iRaSfU dASPpV"
     dir="ltr"
@@ -124,14 +122,12 @@ exports[`Switch renders Buttons 1`] = `
         </span>
       </span>
     </label>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Switch renders Disabled state 1`] = `
-<div
-  className="flex gap-20 items-center"
->
+Array [
   <div
     className="sc-iRaSfU dASPpV"
     dir="ltr"
@@ -160,7 +156,7 @@ exports[`Switch renders Disabled state 1`] = `
         size="small"
       />
     </label>
-  </div>
+  </div>,
   <div
     className="sc-iRaSfU dASPpV"
     dir="ltr"
@@ -189,14 +185,12 @@ exports[`Switch renders Disabled state 1`] = `
         size="small"
       />
     </label>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Switch renders Theme variant 1`] = `
-<div
-  className="flex gap-20 items-center"
->
+Array [
   <div
     className="sc-iRaSfU dASPpV"
     dir="ltr"
@@ -224,7 +218,7 @@ exports[`Switch renders Theme variant 1`] = `
         size="twoxsmall"
       />
     </label>
-  </div>
+  </div>,
   <div
     className="sc-iRaSfU dASPpV"
     dir="ltr"
@@ -252,7 +246,7 @@ exports[`Switch renders Theme variant 1`] = `
         size="xsmall"
       />
     </label>
-  </div>
+  </div>,
   <div
     className="sc-iRaSfU dASPpV"
     dir="ltr"
@@ -280,14 +274,12 @@ exports[`Switch renders Theme variant 1`] = `
         size="small"
       />
     </label>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Switch renders different Sizes 1`] = `
-<div
-  className="flex gap-20 items-center"
->
+Array [
   <div
     className="sc-iRaSfU dASPpV"
     dir="ltr"
@@ -315,7 +307,7 @@ exports[`Switch renders different Sizes 1`] = `
         size="twoxsmall"
       />
     </label>
-  </div>
+  </div>,
   <div
     className="sc-iRaSfU dASPpV"
     dir="ltr"
@@ -343,7 +335,7 @@ exports[`Switch renders different Sizes 1`] = `
         size="xsmall"
       />
     </label>
-  </div>
+  </div>,
   <div
     className="sc-iRaSfU dASPpV"
     dir="ltr"
@@ -371,6 +363,6 @@ exports[`Switch renders different Sizes 1`] = `
         size="small"
       />
     </label>
-  </div>
-</div>
+  </div>,
+]
 `;

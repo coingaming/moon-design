@@ -1,59 +1,53 @@
-import React, { useState } from 'react';
-import { Checkbox } from '@heathmont/moon-core-tw';
+import React from 'react';
+import Preview from '../../components/codePreview/Preview';
+import Checked from '../../public/examples/checkboxTW/Checked';
+import Default from '../../public/examples/checkboxTW/Default';
+import Disabled from '../../public/examples/checkboxTW/Disabled';
+import NoLabel from '../../public/examples/checkboxTW/NoLabel';
+import ReadOnly from '../../public/examples/checkboxTW/ReadOnly';
+import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
-  const [isChecked, setIsChecked] = useState(true);
+  const examples = useExamples('checkboxTW');
   return (
-    <div>
-      <section className="mt-8 text-3xl font-bold">Checkbox</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-center w-full">
-          <Checkbox
-            label="I agree to receive bonus & marketing emails."
-            id="checkbox1"
-          />
-        </div>
+    <>
+      <h1 className="text-moon-32 font-medium">Checkbox</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
+          Checkboxes are used as a list in our forms and signup pages so users
+          can select options of their choice. Users are free to choose how many
+          options to select, from zero to all of them.
+        </p>
+        <p className="text-moon-16">
+          As each checkbox is independent, this means that additional checkboxes
+          do not affect any other selections… or planets.
+        </p>
       </div>
-
-      <section className="mt-8 text-3xl font-bold">Checked</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-center w-full">
-          <Checkbox
-            checked={isChecked}
-            onClick={() => setIsChecked(!isChecked)}
-            onChange={() => {
-              console.log('isChecked:', isChecked);
-            }}
-            label="I agree to receive bonus & marketing emails."
-            id="checkbox2"
-          />
-        </div>
-      </div>
-
-      <section className="mt-8 text-3xl font-bold">NoLabel</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-center w-full">
-          <Checkbox id="checkbox3" />
-        </div>
-      </div>
-
-      <section className="mt-8 text-3xl font-bold">Disabled</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-center w-full">
-          <Checkbox
-            disabled
-            label="I agree to receive bonus & marketing emails."
-            id="checkbox4"
-          />
-        </div>
-      </div>
-
-      <section className="mt-8 text-3xl font-bold">ReadOnly</section>
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around items-center w-full">
-          <Checkbox readOnly={true} label="Readonly checkbox." id="checkbox4" />
-        </div>
-      </div>
-    </div>
+      <Preview
+        title="Checkbox"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Checked"
+        preview={<Checked />}
+        code={examples ? examples.Checked : 'Loading'}
+      />
+      <Preview
+        title="No Label"
+        preview={<NoLabel />}
+        code={examples ? examples.NoLabel : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="ReadOnly"
+        preview={<ReadOnly />}
+        code={examples ? examples.ReadOnly : 'Loading'}
+      />
+    </>
   );
 }

@@ -1,0 +1,422 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion New expands 1`] = `
+<div
+  className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
+>
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
+    onClick={[Function]}
+  >
+    <h3
+      className="flex-1 font-medium text-moon-14"
+    >
+      Test accordion
+    </h3>
+    <button
+      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+      type="button"
+    >
+      <svg
+        className="text-trunks transition-transform transition-200 rotate-90"
+        fill="none"
+        fontSize="1.5rem"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="overflow-hidden w-full h-full mt-2"
+  >
+    <div
+      className="text-moon-14"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion New renders 1`] = `
+<div
+  className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
+>
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
+    onClick={[Function]}
+  >
+    <h3
+      className="flex-1 font-medium text-moon-14"
+    >
+      Test accordion
+    </h3>
+    <button
+      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+      type="button"
+    >
+      <svg
+        className="text-trunks transition-transform transition-200"
+        fill="none"
+        fontSize="1.5rem"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="overflow-hidden w-full h-0"
+  >
+    <div
+      className="text-moon-14"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion New renders RTL 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
+  >
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
+      onClick={[Function]}
+    >
+      <h3
+        className="flex-1 font-medium text-moon-14"
+      >
+        Test accordion
+      </h3>
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
+      >
+        <svg
+          className="text-trunks transition-transform transition-200"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="overflow-hidden w-full h-0"
+    >
+      <div
+        className="text-moon-14"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion New renders content outside 1`] = `
+<div
+  className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
+>
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+    onClick={[Function]}
+  >
+    <h3
+      className="flex-1 font-medium text-moon-14"
+    >
+      Test accordion
+    </h3>
+    <button
+      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+      type="button"
+    >
+      <svg
+        className="text-trunks transition-transform transition-200"
+        fill="none"
+        fontSize="1.5rem"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="overflow-hidden w-full h-0"
+  >
+    <div
+      className="text-moon-14"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion New renders sizes variants 1`] = `
+Array [
+  <div
+    className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan p-4"
+  >
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
+      onClick={[Function]}
+    >
+      <h3
+        className="flex-1 font-medium text-moon-16"
+      >
+        X Large (Default)
+      </h3>
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
+      >
+        <svg
+          className="text-trunks transition-transform transition-200"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="overflow-hidden w-full h-0"
+    >
+      <div
+        className="text-moon-14"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>,
+  <div
+    className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan p-3"
+  >
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
+      onClick={[Function]}
+    >
+      <h3
+        className="flex-1 font-medium text-moon-14"
+      >
+        Large (lg)
+      </h3>
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
+      >
+        <svg
+          className="text-trunks transition-transform transition-200"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="overflow-hidden w-full h-0"
+    >
+      <div
+        className="text-moon-14"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>,
+  <div
+    className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
+  >
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
+      onClick={[Function]}
+    >
+      <h3
+        className="flex-1 font-medium text-moon-14"
+      >
+        Medium (md Default)
+      </h3>
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
+      >
+        <svg
+          className="text-trunks transition-transform transition-200"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="overflow-hidden w-full h-0"
+    >
+      <div
+        className="text-moon-14"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>,
+  <div
+    className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-1 ps-3 pe-1"
+  >
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
+      onClick={[Function]}
+    >
+      <h3
+        className="flex-1 font-medium text-moon-14"
+      >
+        Small (sm)
+      </h3>
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
+      >
+        <svg
+          className="text-trunks transition-transform transition-200"
+          fill="none"
+          fontSize="1.5rem"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="overflow-hidden w-full h-0"
+    >
+      <div
+        className="text-moon-14"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Accordion New renders without button 1`] = `
+<div
+  className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
+>
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-not-allowed bg-gohan"
+    onClick={[Function]}
+  >
+    <h3
+      className="flex-1 font-medium text-moon-14"
+    >
+      Test accordion
+    </h3>
+    <button
+      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-not-allowed"
+      disabled={true}
+      type="button"
+    >
+      <svg
+        className="text-trunks transition-transform transition-200"
+        fill="none"
+        fontSize="1.5rem"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="overflow-hidden w-full h-0"
+  >
+    <div
+      className="text-moon-14"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+</div>
+`;

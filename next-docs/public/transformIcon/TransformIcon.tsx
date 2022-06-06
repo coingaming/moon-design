@@ -1,7 +1,8 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { GenericPicture, GenericClose } from '@heathmont/moon-icons';
 import useDragging from './hooks/useDragging';
 import IconPreview from './IconPreview';
+import { Button } from '@heathmont/moon-core-tw';
 
 const FILE_TYPES = ['svg', 'svg+xml'];
 
@@ -51,63 +52,46 @@ const TransformIcon: React.FC = () => {
   });
 
   return (
-    <section className="mt-8">
-      <h1 className="text-5xl font-semibold">
-        Transform SVG into React components.
-      </h1>
-      <div className="mt-8">
-        <div className="py-6">
-          <div className="mx-auto max-w-7xl">
-            <div
-              ref={divRef}
-              className={`${
-                dragging
-                  ? 'border-gray-200'
-                  : error
-                  ? 'border-red-400'
-                  : 'border-gray-400'
-              } flex flex-col items-center py-12 px-6 rounded-md border-2 border-dashed`}
-            >
-              <GenericPicture fontSize="3.5rem" />
-              <p className="text-xl text-gray-700">Drop files to upload</p>
-              <p className="mb-2 text-gray-700">or</p>
-              <label className="bg-white px-4 h-9 inline-flex items-center rounded border border-gray-300 shadow-md text-sm font-medium text-gray-700 focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-indigo-500 cursor-pointer">
-                Select files
-                <input
-                  ref={inputRef}
-                  type="file"
-                  name="files"
-                  className="sr-only"
-                  accept=".svg"
-                  onChange={handleInputChange}
-                />
-              </label>
-            </div>
-          </div>
-
-          {error && (
-            <div className="my-8 py-6 ">
-              <div className="p-4 bg-white rounded shadow flex items-center">
-                <GenericClose fontSize="2rem" color="chiChi.100" />
-                <span className="text-red-600 pl-2">
-                  File type is not supported
-                </span>
-              </div>
-            </div>
-          )}
-
-          {fileAsText !== '' && (
-            <ul className="my-8 py-6">
-              <IconPreview
-                file={file}
-                fileAsText={fileAsText}
-                setError={setError}
-              />
-            </ul>
-          )}
+    <div className="flex flex-col gap-12">
+      <div
+        ref={divRef}
+        className={`${
+          dragging ? 'border-bulma' : error ? 'border-chiChi' : 'border-beerus'
+        } flex flex-col gap-4 items-center py-12 px-6 rounded-moon-s-md border-2 border-dashed text-trunks transition-colors duration-200`}
+      >
+        <GenericPicture fontSize="3rem" />
+        <p className="text-moon-20">Drop files to upload</p>
+        <p className="text-moon-16">or</p>
+        <div className="relative">
+          <Button variant="secondary">Select files</Button>
+          <label className="absolute inset-0 cursor-pointer">
+            <input
+              ref={inputRef}
+              type="file"
+              name="files"
+              className="sr-only"
+              accept=".svg"
+              onChange={handleInputChange}
+            />
+          </label>
         </div>
       </div>
-    </section>
+
+      {error && (
+        <div className="my-8 py-6">
+          <div className="p-4 bg-white rounded shadow flex items-center">
+            <GenericClose fontSize="2rem" color="chiChi.100" />
+            <span className="text-red-600 pl-2">
+              File type is not supported
+            </span>
+          </div>
+        </div>
+      )}
+
+      {fileAsText !== '' && (
+        <IconPreview file={file} fileAsText={fileAsText} setError={setError} />
+      )}
+    </div>
   );
 };
 

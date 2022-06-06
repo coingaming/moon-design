@@ -2,7 +2,7 @@
 
 exports[`Search renders 1`] = `
 <div
-  className="h-96 bg-white p-4 w-full"
+  className="w-full"
 >
   <div
     className="sc-ZyMtA guiOxu popup "
@@ -86,7 +86,7 @@ exports[`Search renders 1`] = `
 
 exports[`Search renders Loading State 1`] = `
 <div
-  className="h-40 bg-white p-4 w-full"
+  className="w-full"
 >
   <div
     className="sc-ZyMtA guiOxu popup "
@@ -154,7 +154,7 @@ exports[`Search renders Loading State 1`] = `
 
 exports[`Search renders Without Results 1`] = `
 <div
-  className="bg-white p-4 w-full"
+  className="w-full"
 >
   <form
     className="sc-iKmDcA ktDuSY"

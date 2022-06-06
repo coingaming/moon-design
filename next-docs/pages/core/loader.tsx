@@ -1,32 +1,43 @@
 import React from 'react';
-import { Loader } from '@heathmont/moon-core-tw';
+import Preview from '../../components/codePreview/Preview';
+import Colors from '../../public/examples/loaderTW/Colors';
+import Default from '../../public/examples/loaderTW/Default';
+import Sizes from '../../public/examples/loaderTW/Sizes';
+import useExamples from '../../utils/useExamples';
 
 const Example = () => {
+  const examples = useExamples('loaderTW');
   return (
-    <div>
-      <section className="mt-8 text-3xl font-bold">Loader</section>
-      {/* Variants */}
-      <section className={`mt-8`}>
-        <div className="text-2xl font-bold pb-4">Default</div>
-        <div className="flex justify-around w-full items-center bg-gray-50 py-6 rounded-lg">
-          <Loader />
-        </div>
-        <div className="text-2xl font-bold pb-4">Sizes</div>
-        <div className="flex justify-around w-full items-center bg-gray-50 py-6 rounded-lg mb-6">
-          <Loader size="2xs" />
-          <Loader size="xs" />
-          <Loader size="sm" />
-          <Loader />
-          <Loader size="lg" />
-        </div>
-        <div className="text-2xl font-bold pb-4">Colours</div>
-        <div className="flex justify-around w-full items-center bg-gray-50 py-6 rounded-lg">
-          <Loader color="border-dodoria" />
-          <Loader color="border-trunks" />
-          <Loader color="border-raditz" />
-        </div>
-      </section>
-    </div>
+    <>
+      <h1 className="text-moon-32 font-medium">Loader</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
+          Fondly nicknamed “the launcher”, the Loader ensures users that
+          progress is happening so they don't give up and leave the rocket page.
+        </p>
+        <p className="text-moon-16">
+          The Loader, along with a succinct message, is especially important
+          after a user initiates an action that requires them to wait. This is
+          so that they know there's no need to repeat what they've done.
+        </p>
+        <p className="text-moon-16">Default colour: Hit</p>
+      </div>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Colors"
+        preview={<Colors />}
+        code={examples ? examples.Colors : 'Loading'}
+      />
+    </>
   );
 };
 

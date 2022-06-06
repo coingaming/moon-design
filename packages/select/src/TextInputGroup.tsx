@@ -1,57 +1,34 @@
 import React from 'react';
-
 import SelectGroupEnd from './private/SelectGroupEnd';
 import SelectGroupStart from './private/SelectGroupStart';
-import { OrientationType } from './private/types/OrientationType';
-import { SelectProps } from './Select';
+import {TextInputGroupProps} from "./private/types/CombinedGroupProps";
+import {Size} from "./private/types/CombinedInputSize";
+import {Orientation} from "./private/types/OrientationType";
 import Container from './styles/Container';
 
-export interface TextInputGroupProps {
-  orientation?: OrientationType;
-  selectProps?: {
-    input1?: SelectProps<any>;
-    input2?: SelectProps<any>;
-  };
-  isRtl?: boolean;
-}
-
-const determineInputStart = (
-  orientation?: OrientationType,
-  selectProps?: SelectProps<any>,
-  isRtl?: boolean
-) => {
-  const groupProps = {
-    selectProps: selectProps ?? {},
-    orientation,
-    isRtl,
-  };
-  return <SelectGroupStart {...groupProps} />;
-};
-
-const determineInputEnd = (
-  orientation?: OrientationType,
-  selectProps?: SelectProps<any>,
-  isRtl?: boolean
-) => {
-  const groupProps = {
-    selectProps: selectProps ?? {},
-    orientation,
-    isRtl,
-  };
-  return <SelectGroupEnd {...groupProps} />;
-};
-
 const TextInputGroup: React.FC<TextInputGroupProps> = ({
-  orientation = 'horizontal',
-  selectProps,
+  inputProps,
   isRtl,
+  size = Size.medium,
+  orientation = Orientation.horizontal
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
-  const isError = selectProps?.input1?.isError || selectProps?.input2?.isError;
+  const isError = inputProps?.input1?.isError || inputProps?.input2?.isError;
+
   return (
     <Container orientation={orientation} dir={dir} isError={isError}>
-      {determineInputStart(orientation, selectProps?.input1, isRtl)}
-      {determineInputEnd(orientation, selectProps?.input2, isRtl)}
+      <SelectGroupStart
+        inputProps={inputProps?.input1 ?? { type: 'text' }}
+        orientation={orientation}
+        isRtl={isRtl}
+        size={size}
+      />
+      <SelectGroupEnd
+        inputProps={inputProps?.input2 ?? { type: 'text' }}
+        orientation={orientation}
+        isRtl={isRtl}
+        size={size}
+      />
     </Container>
   );
 };

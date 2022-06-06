@@ -1,1 +1,6 @@
-export type OrientationType = 'vertical' | 'horizontal';
+export enum Orientation {
+  vertical = 'vertical',
+  horizontal = 'horizontal'
+}
+
+export type OrientationType = Orientation | keyof typeof Orientation;

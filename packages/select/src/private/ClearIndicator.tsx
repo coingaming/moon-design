@@ -1,5 +1,5 @@
 import React from 'react';
-import { ControlsClose } from '@heathmont/moon-icons';
+import ControlsClose from '@heathmont/moon-icons/lib/es/icons/ControlsClose';
 import { components, ClearIndicatorProps } from 'react-select';
 
 // any - https://github.com/JedWatson/react-select/issues/4804

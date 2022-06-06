@@ -1,253 +1,73 @@
-import { Accordion } from '@heathmont/moon-core-tw';
-import {
-  ChatChat,
-  ChatComment,
-  ChatCommentAdd,
-  ChatDoubleBubble,
-} from '@heathmont/moon-icons';
+import Preview from '../../components/codePreview/Preview';
+import ContentHeader from '../../public/examples/accordionTW/ContentHeader';
+import ContentOutside from '../../public/examples/accordionTW/ContentOutside';
+import ContentOutsideSizes from '../../public/examples/accordionTW/ContentOutsideSizes';
+import Default from '../../public/examples/accordionTW/Default';
+import Disabled from '../../public/examples/accordionTW/Disabled';
+import OpenDefault from '../../public/examples/accordionTW/OpenDefault';
+import Sizes from '../../public/examples/accordionTW/Sizes';
+import WithoutButton from '../../public/examples/accordionTW/WithoutButton';
+import useExamples from '../../utils/useExamples';
 
-const Example = () => (
-  <div>
-    <section className="mt-8 text-3xl font-bold">Default</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Accordion title">
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
+const Example = () => {
+  const examples = useExamples('accordionTW');
+  return (
+    <>
+      <h1 className="text-moon-32 font-medium">Accordion</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
+          Like the accordion instrument, our accordion component reveals or
+          hides associated sections of content. This is done through the use of
+          a vertically stacked list of headers.
+        </p>
+        <p className="text-moon-16">
+          Users can decide which sections to toggle, read and close as the
+          header titles will give them a high-level overview of the content
+          that's in the space.
+        </p>
       </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Open by default</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Accordion title" openByDefault>
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Without button</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Accordion title" withButton={false}>
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Disable open</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Accordion title" disableOpen>
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Content outside</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Accordion title" isContentInside={false}>
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Header content</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion title="Accordion title" isContentInside={false}>
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Header content</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex justify-around items-center w-full">
-        <Accordion
-          title="Accordion title"
-          headerContent={
-            <div className="flex gap-1 text-trunks">
-              <ChatChat fontSize="1.5rem" />
-              <ChatComment fontSize="1.5rem" />
-              <ChatCommentAdd fontSize="1.5rem" />
-              <ChatDoubleBubble fontSize="1.5rem" />
-            </div>
-          }
-        >
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">Sizes</section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex flex-col gap-y-3">
-        <Accordion title="XL Accordion title" size="xl">
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-
-        <Accordion title="LG Accordion title" size="lg">
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-
-        <Accordion title="MD Accordion title (default size)">
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-
-        <Accordion title="SM Accordion title" size="sm">
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-
-    <section className="mt-8 text-3xl font-bold">
-      Sizes: content outside
-    </section>
-    <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-      <div className="flex flex-col gap-y-3">
-        <Accordion title="XL Accordion title" size="xl" isContentInside={false}>
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-
-        <Accordion title="LG Accordion title" size="lg" isContentInside={false}>
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-
-        <Accordion
-          title="MD Accordion title (default size)"
-          isContentInside={false}
-        >
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-
-        <Accordion title="SM Accordion title" size="sm" isContentInside={false}>
-          <div className="text-moon-16">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </div>
-        </Accordion>
-      </div>
-    </div>
-  </div>
-);
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Open by default"
+        preview={<OpenDefault />}
+        code={examples ? examples.OpenDefault : 'Loading'}
+      />
+      <Preview
+        title="Without button"
+        preview={<WithoutButton />}
+        code={examples ? examples.WithoutButton : 'Loading'}
+      />
+      <Preview
+        title="Disable open"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="Content outside"
+        preview={<ContentOutside />}
+        code={examples ? examples.ContentOutside : 'Loading'}
+      />
+      <Preview
+        title="Header content"
+        preview={<ContentHeader />}
+        code={examples ? examples.ContentHeader : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Sizes: content outside"
+        preview={<ContentOutsideSizes />}
+        code={examples ? examples.ContentOutsideSizes : 'Loading'}
+      />
+    </>
+  );
+};
 
 export default Example;

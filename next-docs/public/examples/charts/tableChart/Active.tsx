@@ -1,7 +1,7 @@
 // @ts-nocheck
 import React from 'react';
 import { Filter, TableChart, ChartIcons } from '@heathmont/moon-charts';
-import { CheckboxMultiselect, Inline } from '@heathmont/moon-components';
+import { CheckboxMultiselect } from '@heathmont/moon-components';
 
 const Example = () => {
   const data = [
@@ -30,7 +30,7 @@ const Example = () => {
   );
 
   return (
-    <Inline style={{ flexWrap: 'nowrap' }}>
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <TableChart
         title="Yesterday"
         icon={<ChartIcons.Time />}
@@ -41,7 +41,6 @@ const Example = () => {
         onShare={() => {}}
         onExpand={() => {}}
       />
-
       <TableChart
         isActive={true}
         title="Today"
@@ -53,7 +52,7 @@ const Example = () => {
         onShare={() => {}}
         onExpand={() => {}}
       />
-    </Inline>
+    </div>
   );
 };
 

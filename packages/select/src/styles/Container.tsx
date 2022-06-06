@@ -1,9 +1,10 @@
 import { ColorNew, ColorProps, SharedTheme } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
+import {OrientationType} from "../private/types/OrientationType";
 
 interface Props {
-  orientation?: 'vertical' | 'horizontal';
+  orientation?: OrientationType;
   isXLarge?: boolean;
   isError?: boolean;
   backgroundColor?: ColorProps;

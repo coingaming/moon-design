@@ -1,87 +1,58 @@
 import React from 'react';
-import { Button } from '@heathmont/moon-core-tw';
-import { GenericSettings } from '@heathmont/moon-icons';
+import Preview from '../../components/codePreview/Preview';
+import Animations from '../../public/examples/buttonTW/Animations';
+import Disabled from '../../public/examples/buttonTW/Disabled';
+import FullWidth from '../../public/examples/buttonTW/FullWidth';
+import Icons from '../../public/examples/buttonTW/Icons';
+import Sizes from '../../public/examples/buttonTW/Sizes';
+import Variants from '../../public/examples/buttonTW/Variants';
+import useExamples from '../../utils/useExamples';
 
 const PageButton = () => {
+  const examples = useExamples('buttonTW');
   return (
-    <div>
-      <section className="mt-8 text-3xl font-bold">Variants</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button>Primary is default</Button>
-          <Button variant="secondary">Secondary</Button>
-          <Button variant="tertiary">Tertiary</Button>
-          <Button variant="ghost">Ghost</Button>
-        </div>
+    <>
+      <h1 className="text-moon-32 font-medium">Button</h1>
+      <div className="flex flex-col gap-2 max-w-screen-sm">
+        <p className="text-moon-16">
+          Buttons are calls-to-action used to prompt users. They encourage users
+          to interact with us in multiple ways throughout our galaxy, based on
+          what the label of the button indicates. Buttons are clickable elements
+          with label text that describe the action that will happen when the
+          users interact with it.
+        </p>
       </div>
-
-      <section className="mt-8 text-3xl font-bold">Sizes</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button size="xs">xSmall</Button>
-          <Button size="sm">Small</Button>
-          <Button>Medium is default</Button>
-          <Button size="lg">Large</Button>
-          <Button size="xl">xLarge</Button>
-        </div>
-      </div>
-
-      <section className="mt-8 text-3xl font-bold">Icons</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button iconLeft={<GenericSettings fontSize="1.5rem" />}>
-            IconLeft
-          </Button>
-          <Button iconLeft>
-            <GenericSettings fontSize="1.5rem" />
-            IconLeft
-          </Button>
-          <Button iconRight={<GenericSettings fontSize="1.5rem" />}>
-            IconRight
-          </Button>
-          <Button iconRight>
-            IconRight
-            <GenericSettings fontSize="1.5rem" />
-          </Button>
-          <Button iconOnly={<GenericSettings fontSize="1.5rem" />} />
-          <Button iconOnly>
-            <GenericSettings fontSize="1.5rem" />
-          </Button>
-        </div>
-      </div>
-
-      <section className="mt-8 text-3xl font-bold">Full width</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button iconRight={<GenericSettings fontSize="1.5rem" />} fullWidth>
-            Full width
-          </Button>
-        </div>
-      </div>
-
-      <section className="mt-8 text-3xl font-bold">Disabled</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button disabled>Disabled</Button>
-        </div>
-      </div>
-
-      <section className="mt-8 text-3xl font-bold">Animations</section>
-      {/* Variants */}
-      <div className="flex justify-around items-center w-full bg-slate-200 p-4 my-4 rounded">
-        <div className="flex justify-around w-full items-center">
-          <Button animation="progress">Progress</Button>
-          <Button animation="success">Success</Button>
-          <Button animation="error">Error</Button>
-          <Button animation="pulse">Pulse</Button>
-        </div>
-      </div>
-    </div>
+      <Preview
+        title="Variants"
+        preview={<Variants />}
+        code={examples ? examples.Variants : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Icons"
+        preview={<Icons />}
+        code={examples ? examples.Icons : 'Loading'}
+      />
+      <Preview
+        title="Full width"
+        preview={<FullWidth />}
+        code={examples ? examples.FullWidth : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="Animations"
+        preview={<Animations />}
+        code={examples ? examples.Animations : 'Loading'}
+      />
+    </>
   );
 };
 

@@ -256,7 +256,6 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    // require('tailwindcss-rtl'),
     plugin(function ({ addComponents }) {
       addComponents({
         '.btn-primary': {
