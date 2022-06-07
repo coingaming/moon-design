@@ -1,4 +1,4 @@
-import React, {useEffect, useRef, useState} from "react";
+import React, {useCallback, useEffect, useRef, useState} from "react";
 import ChevronDown from "../private/icons/ChrvronDown";
 import ChevronUp from "../private/icons/ChrvronUp";
 import Option from "./private/types/OptionProps";
@@ -31,6 +31,53 @@ const Select: React.FC<SelectProps> = ({
   // @TODO for some reason border-chiChi won't resolve its color
   classNames += !menuOpen ? ` border-${isError ? 'chiChi outline outline-1 outline-chiChi' : 'beerus'}` : ` border-${isError ? 'chiChi' : 'piccolo'} outline outline-1 outline-${isError ? 'chiChi' : 'piccolo'}`;
   classNames += disabled ? ' cursor-not-allowed' : ' cursor-pointer';
+
+  const handleInputFocus = (e: KeyboardEvent) => {
+    if (e.key === "Tab") {
+      setMenuOpen(false);
+    } else if (e.key === "Enter") {
+      //@ts-ignore
+      onChange && onChange(options[activeOption]?.value);
+      setMenuOpen(false);
+    }
+  };
+
+  const onSelectClick = () => {
+    if (!disabled) {
+      setMenuOpen(!menuOpen);
+      //@ts-ignore
+      inputRef?.current.focus();
+    }
+  };
+
+  const onInputFocus = () => {
+    //console.log(menuOpen);
+  };
+
+  const handleMenuNavigation = useCallback(
+    (e) => {
+      if (e && menuOpen) {
+        const optionsLength = options?.length ?? 0;
+
+        e.stopPropagation();
+        e.preventDefault();
+
+        if (e.key === 'ArrowUp') {
+          setActiveOption(activeOption > 0 ? activeOption - 1 : optionsLength - 1);
+        }
+        else if (e.key === 'ArrowDown') {
+          setActiveOption(activeOption < optionsLength - 1 ? activeOption + 1 : 0);
+        }
+      }
+    },
+    [menuOpen, activeOption]
+  );
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleMenuNavigation);
+
+    return () => document.removeEventListener("keydown", handleMenuNavigation);
+  }, [handleMenuNavigation]);
 
   useEffect(() => {
     const menuElement = menuRef?.current;
@@ -67,38 +114,6 @@ const Select: React.FC<SelectProps> = ({
     return () => document.removeEventListener('mousedown', handleOutsideClick);
   }, []);
 
-  const keyDownHandler = (e: React.KeyboardEvent<HTMLDivElement>) => {
-    if (e.key === 'ArrowUp' && activeOption > 0) {
-      e.preventDefault();
-      setActiveOption(activeOption - 1);
-      //@ts-ignore
-    } else if (e.key === 'ArrowDown' && activeOption < options.length - 1) {
-      e.preventDefault();
-      setActiveOption(activeOption + 1);
-    } else if (e.key === "Tab") {
-      setMenuOpen(false);
-    } else if (e.key === "Enter") {
-      //@ts-ignore
-      onChange && onChange(options[activeOption]?.value);
-      setMenuOpen(false);
-    }
-  };
-
-  const onSelectClick = () => {
-    if (!disabled) {
-      setMenuOpen(!menuOpen);
-      //@ts-ignore
-      inputRef?.current.focus();
-    }
-  };
-
-  const onInputFocus = () => {
-    console.log(menuOpen);
-    if(!menuOpen) {
-      setMenuOpen(true);
-    }
-  }
-
   return (<div className={`support-colors flex flex-col text-popo ${ disabled ? 'opacity-30' : ''}` }>
     { !!label && (<div className='text-base mb-2'>{label}</div>) }
 
@@ -115,7 +130,7 @@ const Select: React.FC<SelectProps> = ({
         // value={value}
         ref={inputRef}
         readOnly
-        onKeyDown={(e) => keyDownHandler(e)}
+        // onKeyDown={(e) => keyDownHandler(e)}
         onFocus={onInputFocus}
       />
 
