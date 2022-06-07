@@ -18,9 +18,10 @@ const Select: React.FC<SelectProps> = ({
    amountOfVisibleItems = 9999
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [inputFocused, setInputFocused] = useState(false);
   const [hoveredIndex, setHoveredIndex] = useState(-1);
   const [selectedIndex, setSelectedIndex] = useState(-1);
-  const inputRef = useRef(null);
+  const inputRef = useRef<HTMLInputElement>(null);
   const selectRef = useRef(null);
   const menuRef = useRef(null);
   const placeholder = value ? options?.filter((option) => option.value === value)[0]?.label
@@ -28,7 +29,7 @@ const Select: React.FC<SelectProps> = ({
   let classNames = `flex relative py-${ size === 'md' ? 2 : 3 } px-${ size === 'md' ? 3 : 4 } bg-gohan rounded-lg`;
 
   classNames += disabled ? ' cursor-not-allowed' : ' cursor-pointer';
-  classNames += isError ? ' shadow-input-err' : ` shadow-input ${ disabled ? '' : 'hover:shadow-input-hov' }`;
+  classNames += isError ? ' shadow-input-err' : ` shadow-input ${ disabled ? '' : inputFocused ? 'shadow-input-focus' : 'hover:shadow-input-hov' }`;
 
   const handleInputFocus = (e: KeyboardEvent) => {
     if (e.key === "Tab") {
@@ -43,16 +44,16 @@ const Select: React.FC<SelectProps> = ({
   const onSelectClick = () => {
     if (!disabled) {
       setMenuOpen(!menuOpen);
-      //@ts-ignore
-      inputRef?.current.focus();
+      inputRef?.current?.focus();
     }
   };
 
-  const onInputFocus = () => {
-    //console.log(menuOpen);
+  const onInputFocus = (focused?: boolean) => {
+    console.log('onInputFocus', focused);
+    setInputFocused(!!focused)
   };
 
-  const determineBackgroundColor = (index: number) => {
+  const determineMenuBackgroundColor = (index: number) => {
     const selectedClass = 'bg-goku';
     let bgClass = '';
     // No menu item is selected, so first item should have background color
@@ -153,7 +154,8 @@ const Select: React.FC<SelectProps> = ({
         ref={inputRef}
         readOnly
         // onKeyDown={(e) => keyDownHandler(e)}
-        onFocus={onInputFocus}
+        onFocus={() => onInputFocus(true)}
+        onBlur={() => onInputFocus()}
       />
 
       <div className={`absolute ${ disabled ? 'cursor-not-allowed' : 'cursor-pointer' } w-full flex items-center justify-between pr-${ size === 'md' ? 3 : 4 } z-[2] text-${ value ? 'popo' : 'trunks'}`}>
@@ -174,7 +176,7 @@ const Select: React.FC<SelectProps> = ({
           menuOpen && options?.length && options.map((option: Option, index: number) => (
             <div
               // @TODO hover with custom color doesn't work, but only bg-goku works, why? :(
-              className={`flex items-center text-popo text-sm p-2 rounded-sm ${determineBackgroundColor(index)}`}
+              className={`flex items-center text-popo text-sm p-2 rounded-sm ${determineMenuBackgroundColor(index)}`}
               onClick={() => { if (!disabled && onChange) onChange(option.value) }}
               onMouseOver={() => setHoveredIndex(index)}
             >
