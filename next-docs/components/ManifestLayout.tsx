@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import useFeatureFlags from '../utils/useFeatureFlags';
+import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 import Footer from './Footer';
 import ElixirSettings from './settings/elixir/ElixirSettings';
 import ReactSettings from './settings/react/ReactSettings';
@@ -50,6 +51,10 @@ const ManifestLayout: React.FC<{ children: React.ReactNode }> = ({
                 />
               </svg>
             </button>
+            <Breadcrumbs />
+          </div>
+          <div className="hidden lg:block">
+            <Breadcrumbs />
           </div>
           <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
             {isFeatureElixirEnabled && isElixir ? (
