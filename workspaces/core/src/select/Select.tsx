@@ -31,13 +31,17 @@ const Select: React.FC<SelectProps> = ({
   classNames += disabled ? ' cursor-not-allowed' : ' cursor-pointer';
   classNames += isError ? ' shadow-input-err' : ` shadow-input ${ disabled ? '' : inputFocused ? 'shadow-input-focus' : 'hover:shadow-input-hov' }`;
 
-  const handleInputFocus = (e: KeyboardEvent) => {
+  const handleInputKeydown = (e: any) => {
     if (e.key === "Tab") {
       setMenuOpen(false);
-    } else if (e.key === "Enter") {
-      //@ts-ignore
-      onChange && onChange(options[selectedIndex]?.value);
+    }
+    else if (e.key === "Enter") {
       setMenuOpen(false);
+
+      if (onChange && options?.length) onChange(options[hoveredIndex]?.value);
+    }
+    else if (e.key === 'ArrowDown') {
+      setMenuOpen(true);
     }
   };
 
@@ -49,7 +53,6 @@ const Select: React.FC<SelectProps> = ({
   };
 
   const onInputFocus = (focused?: boolean) => {
-    console.log('onInputFocus', focused);
     setInputFocused(!!focused)
   };
 
@@ -150,10 +153,9 @@ const Select: React.FC<SelectProps> = ({
       <input
         className='bg-gohan text-transparent z-[1] focus:outline-none focus:border-none'
         disabled={disabled}
-        // value={value}
         ref={inputRef}
         readOnly
-        // onKeyDown={(e) => keyDownHandler(e)}
+        onKeyDown={(e) => handleInputKeydown(e)}
         onFocus={() => onInputFocus(true)}
         onBlur={() => onInputFocus()}
       />
