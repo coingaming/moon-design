@@ -25,13 +25,10 @@ const Select: React.FC<SelectProps> = ({
   const menuRef = useRef(null);
   const placeholder = value ? options?.filter((option) => option.value === value)[0]?.label
     : placeholderSlot ?? placeholderValue ?? 'Choose an option';
-  let classNames = `flex relative py-${ size === 'md' ? 2 : 3 } px-${ size === 'md' ? 3 : 4 } bg-gohan rounded-lg border border-solid`;
+  let classNames = `flex relative py-${ size === 'md' ? 2 : 3 } px-${ size === 'md' ? 3 : 4 } bg-gohan rounded-lg`;
 
-  classNames += disabled ? '' : ` hover:border-${!menuOpen ? 'gohan' : 'piccolo'}`;
-  classNames += disabled ? '' : ` hover:outline hover:outline-1 hover:outline-${!menuOpen ? 'gohan' : 'piccolo'} `;
-  // @TODO for some reason border-chiChi won't resolve its color
-  classNames += !menuOpen ? ` border-${isError ? 'chiChi outline outline-1 outline-chiChi' : 'beerus'}` : ` border-${isError ? 'chiChi' : 'piccolo'} outline outline-1 outline-${isError ? 'chiChi' : 'piccolo'}`;
   classNames += disabled ? ' cursor-not-allowed' : ' cursor-pointer';
+  classNames += isError ? ' shadow-input-err' : ` shadow-input ${ disabled ? '' : 'hover:shadow-input-hov' }`;
 
   const handleInputFocus = (e: KeyboardEvent) => {
     if (e.key === "Tab") {
@@ -147,8 +144,6 @@ const Select: React.FC<SelectProps> = ({
     <div
       className={classNames}
       onClick={onSelectClick}
-      // #TODO remove this when chiChi problem is solved
-      style={isError ? { borderColor: '#ff4e64', outlineColor: '#ff4e64'} : {}}
       ref={selectRef}
     >
       <input
