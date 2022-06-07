@@ -66,24 +66,20 @@ const Example = () => {
   };
 
   return (
-    <div className="flex flex-col gap-3 pb-24 ps-40 pe-40 w-full">
+    <div className="flex flex-col justify-around items-center w-full gap-2">
       <TextInputGroup
         inputProps={{
           input1: inputProps1,
           input2: inputProps2,
         }}
-        size='large'
+        size="large"
       />
-      <div>
-        <Label size="xsmall" backgroundColor="trunks.100">
-          Country: {country}
-        </Label>
-      </div>
-      <div>
-        <Label size="xsmall" backgroundColor="trunks.100">
-          Vehicle: {vehicle}
-        </Label>
-      </div>
+      <Label size="xsmall" backgroundColor="trunks.100">
+        Country: {country}
+      </Label>
+      <Label size="xsmall" backgroundColor="trunks.100">
+        Vehicle: {vehicle}
+      </Label>
     </div>
   );
 };

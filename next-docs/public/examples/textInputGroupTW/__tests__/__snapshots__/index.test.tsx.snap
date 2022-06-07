@@ -58,7 +58,7 @@ exports[`TextInputGroup renders RTL 1`] = `
 
 exports[`TextInputGroup renders and allows access to DOM and values for text field 1`] = `
 <div
-  className="flex flex-col gap-2"
+  className="flex flex-col justify-around items-center w-full gap-2"
 >
   <div
     className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
@@ -85,25 +85,21 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
       />
     </div>
   </div>
-  <div>
-    <div
-      className="flex items-center rounded-moon-i-xs leading-4 py-1 
+  <div
+    className="flex items-center rounded-moon-i-xs leading-4 py-1 
   pr-2 
   pl-2 uppercase font-medium text-[0.625rem] tracking-[0.063rem] text-gohan bg-trunks"
-    >
-      Country: 
-      Estonia
-    </div>
+  >
+    Country: 
+    Estonia
   </div>
-  <div>
-    <div
-      className="flex items-center rounded-moon-i-xs leading-4 py-1 
+  <div
+    className="flex items-center rounded-moon-i-xs leading-4 py-1 
   pr-2 
   pl-2 uppercase font-medium text-[0.625rem] tracking-[0.063rem] text-gohan bg-trunks"
-    >
-      Phone: 
-      +372 45678901
-    </div>
+  >
+    Phone: 
+    +372 45678901
   </div>
 </div>
 `;
@@ -146,7 +142,9 @@ exports[`TextInputGroup renders different types 1`] = `
 `;
 
 exports[`TextInputGroup renders sizes 1`] = `
-Array [
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
   <div
     className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
@@ -171,7 +169,7 @@ Array [
         type="text"
       />
     </div>
-  </div>,
+  </div>
   <div
     className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
@@ -196,7 +194,7 @@ Array [
         type="text"
       />
     </div>
-  </div>,
+  </div>
   <div
     className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
@@ -235,12 +233,14 @@ Array [
         />
       </div>
     </div>
-  </div>,
-]
+  </div>
+</div>
 `;
 
 exports[`TextInputGroup renders vertical 1`] = `
-Array [
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
   <div
     className="flex border-none shadow-input relative  flex-col bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
@@ -265,7 +265,7 @@ Array [
         type="text"
       />
     </div>
-  </div>,
+  </div>
   <div
     className="flex border-none shadow-input relative  flex-col bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
@@ -304,6 +304,6 @@ Array [
         />
       </div>
     </div>
-  </div>,
-]
+  </div>
+</div>
 `;

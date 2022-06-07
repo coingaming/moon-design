@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Calendar from '../../public/examples/table/Calendar';
 import ClickableRows from '../../public/examples/table/ClickableRows';
@@ -19,10 +20,9 @@ export default function PageTable() {
   const examples = useExamples('table');
   return (
     <>
-      <h1 className="text-5xl font-medium">Table</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">Lightweight, fast and extendable table.</p>
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Table">
+        <p>Lightweight, fast and extendable table.</p>
+        <p>
           Based on{' '}
           <Link href="https://github.com/tannerlinsley/react-table">
             <a
@@ -35,7 +35,7 @@ export default function PageTable() {
           </Link>
           .
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}

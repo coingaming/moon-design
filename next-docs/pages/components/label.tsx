@@ -1,5 +1,5 @@
-import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/examples/label/Colours';
 import Icons from '../../public/examples/label/Icons';
@@ -11,21 +11,18 @@ const PageLabel = () => {
   const examples = useExamples('label');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Label</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Label">
+        <p>
           Use tags to label, categorize, or organize items using keywords that
           describe them.
         </p>
-        <p className="text-moon-16">
-          Multiple or single tags can be used to categorize items.
-        </p>
-        <p className="text-moon-16">
+        <p>Multiple or single tags can be used to categorize items.</p>
+        <p>
           Use short labels for easy scanning. Use two words only if necessary to
           describe the status and differentiate it from other tags.
         </p>
-        <p className="text-moon-16">Default text style: Uppercase</p>
-      </div>
+        <p>Default text style: Uppercase</p>
+      </ComponentPageDescription>
       <Preview
         title="Colours"
         preview={<Colours />}

@@ -9,110 +9,100 @@ exports[`Caption renders 1`] = `
 `;
 
 exports[`Caption renders colors 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <span
     className="sc-futMm fZZUTw"
   >
     Default color is Bulma
-  </span>
+  </span>,
   <span
     className="sc-futMm cHqqGF"
     color="piccolo.100"
   >
     Piccolo
-  </span>
+  </span>,
   <span
     className="sc-futMm kxzjzn"
     color="trunks.100"
   >
     Trunks
-  </span>
+  </span>,
   <span
     className="sc-futMm uoved"
     color="krillin.100"
   >
     Krillin
-  </span>
-</div>
+  </span>,
+]
 `;
 
 exports[`Caption renders font weights 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <span
     className="sc-futMm fZZUTw"
   >
     Default font-weight is bold
-  </span>
+  </span>,
   <span
     className="sc-futMm jlFxiR"
   >
     Font-weight is regular
-  </span>
-</div>
+  </span>,
+]
 `;
 
 exports[`Caption renders semantic tags 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <span
     className="sc-futMm fZZUTw"
   >
     Span is a default tag
-  </span>
+  </span>,
   <p
     className="sc-futMm fZZUTw"
   >
     Paragraph tag
-  </p>
+  </p>,
   <label
     className="sc-futMm fZZUTw"
   >
     Label tag
-  </label>
-</div>
+  </label>,
+]
 `;
 
 exports[`Caption renders sizes 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <span
     className="sc-futMm fZZUTw"
   >
     Default font-size is 10px
-  </span>
+  </span>,
   <span
     className="sc-futMm fWNbgZ"
     size={9}
   >
     Size is 9px
-  </span>
-</div>
+  </span>,
+]
 `;
 
 exports[`Caption renders text-align 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <span
     className="sc-futMm fZZUTw"
   >
     Text-align is not specified
-  </span>
+  </span>,
   <span
     className="sc-futMm gUYHBH"
   >
     Centered text
-  </span>
+  </span>,
   <span
     className="sc-futMm cLishA"
   >
     Right alignment
-  </span>
-</div>
+  </span>,
+]
 `;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import Disabled from '../../../public/examples/select/multiReactSelect/Disabled';
 import Error from '../../../public/examples/select/multiReactSelect/Error';
@@ -13,100 +14,64 @@ import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {
   const examples = useExamples('select/multiReactSelect');
-
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Multi Select</h1>
-        <p className="text-lg mt-4">
-          This Multi Select based on react-select library.
-        </p>
-        <p className="text-lg mt-4">
+      <ComponentPageDescription title="Multi Select">
+        <p>This Multi Select based on react-select library.</p>
+        <p>
           Unlike a normal select, multiselect allows the user to select multiple
           options at once.
         </p>
-        <p className="text-lg mt-4">
-          As well as select Multi Select has two sizes with a different views:
-          <b> large</b> (by default) and <b>xLarge</b>. Large size has label
+        <p>
+          As well as select Multi Select has two sizes with a different views:{' '}
+          <span className="font-medium">large</span> (by default) and{' '}
+          <span className="font-medium">xLarge</span>. Large size has label
           outside input, xLarge has label inside the input. Also, you can set
           multi-select view with counter. Just specify the amount of visible
-          options inside select with the help of
-          <b> amountOfVisibleItems</b> prop.
+          options inside select with the help of{' '}
+          <span className="font-medium">amountOfVisibleItems</span> prop.
         </p>
-      </section>
-
-      {/* WithLabel */}
-      <section className="mt-8">
-        <Preview
-          title="Size"
-          preview={<WithLabel />}
-          code={examples ? examples.WithLabel : 'Loading'}
-        />
-      </section>
-
-      {/* WithCounter */}
-      <section className="mt-8">
-        <Preview
-          title="With counter"
-          preview={<WithCounter />}
-          code={examples ? examples.WithCounter : 'Loading'}
-        />
-      </section>
-
-      {/* OptionsContent */}
-      <section className="mt-8">
-        <Preview
-          title="Options Content"
-          preview={<OptionsContent />}
-          code={examples ? examples.OptionsContent : 'Loading'}
-        />
-      </section>
-
-      {/* Hint */}
-      <section className="mt-8">
-        <Preview
-          title="Hint message"
-          preview={<Hint />}
-          code={examples ? examples.Hint : 'Loading'}
-        />
-      </section>
-
-      {/*Error*/}
-      <section className="mt-8">
-        <Preview
-          title="Error"
-          preview={<Error />}
-          code={examples ? examples.Error : 'Loading'}
-        />
-      </section>
-
-      {/* Disabled */}
-      <section className="mt-8">
-        <Preview
-          title="Disabled"
-          preview={<Disabled />}
-          code={examples ? examples.Disabled : 'Loading'}
-        />
-      </section>
-
-      {/* WithoutLabel */}
-      <section className="mt-8">
-        <Preview
-          title="Without label"
-          preview={<WithoutLabel />}
-          code={examples ? examples.WithoutLabel : 'Loading'}
-        />
-      </section>
-
-      {/*InputWidth*/}
-      <section className="mt-8">
-        <Preview
-          title="List options width"
-          preview={<ListWidth />}
-          code={examples ? examples.ListWidth : 'Loading'}
-        />
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="Size"
+        preview={<WithLabel />}
+        code={examples ? examples.WithLabel : 'Loading'}
+      />
+      <Preview
+        title="With counter"
+        preview={<WithCounter />}
+        code={examples ? examples.WithCounter : 'Loading'}
+      />
+      <Preview
+        title="Options Content"
+        preview={<OptionsContent />}
+        code={examples ? examples.OptionsContent : 'Loading'}
+      />
+      <Preview
+        title="Hint message"
+        preview={<Hint />}
+        code={examples ? examples.Hint : 'Loading'}
+      />
+      <Preview
+        title="Error"
+        preview={<Error />}
+        code={examples ? examples.Error : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="Without label"
+        preview={<WithoutLabel />}
+        code={examples ? examples.WithoutLabel : 'Loading'}
+      />
+      <Preview
+        title="List options width"
+        preview={<ListWidth />}
+        code={examples ? examples.ListWidth : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

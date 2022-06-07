@@ -2,450 +2,390 @@
 
 exports[`TextInput: type Url renders disabled 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX btMRNz"
+    disabled={true}
+    placeholder=" "
+    type="url"
+    value="https://sportsbet.io"
   >
-    <div
-      className="sc-iOnGvX btMRNz"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL JOvHL"
       disabled={true}
       placeholder=" "
       type="url"
       value="https://sportsbet.io"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX btMRNz"
+    disabled={true}
+    placeholder=" "
+    type="url"
+    value="https://sportsbet.io"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      large
+    </label>
+    <input
+      className="sc-goMRkL gsTWKg"
+      disabled={true}
+      placeholder=" "
+      type="url"
+      value="https://sportsbet.io"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX btMRNz"
+    disabled={true}
+    placeholder=" "
+    type="url"
+    value="https://sportsbet.io"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL JOvHL"
+        className="sc-goMRkL ubFMP"
         disabled={true}
         placeholder=" "
         type="url"
         value="https://sportsbet.io"
       />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX btMRNz"
-      disabled={true}
-      placeholder=" "
-      type="url"
-      value="https://sportsbet.io"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gsTWKg"
-        disabled={true}
-        placeholder=" "
-        type="url"
-        value="https://sportsbet.io"
-      />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
     </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX btMRNz"
-      disabled={true}
-      placeholder=" "
-      type="url"
-      value="https://sportsbet.io"
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL ubFMP"
-          disabled={true}
-          placeholder=" "
-          type="url"
-          value="https://sportsbet.io"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
+      Informative message holder
+    </p>
   </div>
 </div>
 `;
 
 exports[`TextInput: type Url renders error 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL kDWyPF"
       placeholder="e.g. https://sportsbet.io"
       type="url"
+    />
+    <p
+      className="sc-VcoSR jatpWO"
+      role="alert"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      Error message
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      large
+    </label>
+    <input
+      className="sc-goMRkL fWoZBG"
+      placeholder="e.g. https://sportsbet.io"
+      type="url"
+    />
+    <p
+      className="sc-VcoSR jatpWO"
+      role="alert"
+    >
+      Error message
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL kDWyPF"
+        className="sc-goMRkL tiNjh"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
-      <p
-        className="sc-VcoSR jatpWO"
-        role="alert"
-      >
-        Error message
-      </p>
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. https://sportsbet.io"
-      type="url"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL fWoZBG"
-        placeholder="e.g. https://sportsbet.io"
-        type="url"
-      />
-      <p
-        className="sc-VcoSR jatpWO"
-        role="alert"
-      >
-        Error message
-      </p>
     </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. https://sportsbet.io"
-      type="url"
+    <p
+      className="sc-VcoSR jatpWO"
+      role="alert"
     >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL tiNjh"
-          placeholder="e.g. https://sportsbet.io"
-          type="url"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
-      <p
-        className="sc-VcoSR jatpWO"
-        role="alert"
-      >
-        Error message
-      </p>
-    </div>
+      Error message
+    </p>
   </div>
 </div>
 `;
 
 exports[`TextInput: type Url renders readOnly 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder=" "
+    readOnly={true}
+    type="url"
+    value="https://sportsbet.io"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL JOvHL"
       placeholder=" "
       readOnly={true}
       type="url"
       value="https://sportsbet.io"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder=" "
+    readOnly={true}
+    type="url"
+    value="https://sportsbet.io"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      large
+    </label>
+    <input
+      className="sc-goMRkL gsTWKg"
+      placeholder=" "
+      readOnly={true}
+      type="url"
+      value="https://sportsbet.io"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder=" "
+    readOnly={true}
+    type="url"
+    value="https://sportsbet.io"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL JOvHL"
+        className="sc-goMRkL ubFMP"
         placeholder=" "
         readOnly={true}
         type="url"
         value="https://sportsbet.io"
       />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder=" "
-      readOnly={true}
-      type="url"
-      value="https://sportsbet.io"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gsTWKg"
-        placeholder=" "
-        readOnly={true}
-        type="url"
-        value="https://sportsbet.io"
-      />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
     </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder=" "
-      readOnly={true}
-      type="url"
-      value="https://sportsbet.io"
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL ubFMP"
-          placeholder=" "
-          readOnly={true}
-          type="url"
-          value="https://sportsbet.io"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
+      Informative message holder
+    </p>
   </div>
 </div>
 `;
 
 exports[`TextInput: type Url renders with hint 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL JOvHL"
       placeholder="e.g. https://sportsbet.io"
       type="url"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      large
+    </label>
+    <input
+      className="sc-goMRkL gsTWKg"
+      placeholder="e.g. https://sportsbet.io"
+      type="url"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL JOvHL"
+        className="sc-goMRkL ubFMP"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. https://sportsbet.io"
-      type="url"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gsTWKg"
-        placeholder="e.g. https://sportsbet.io"
-        type="url"
-      />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
     </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. https://sportsbet.io"
-      type="url"
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL ubFMP"
-          placeholder="e.g. https://sportsbet.io"
-          type="url"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
+      Informative message holder
+    </p>
   </div>
 </div>
 `;
 
 exports[`TextInput: type Url renders with label 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL JOvHL"
       placeholder="e.g. https://sportsbet.io"
       type="url"
+    />
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      large
+    </label>
+    <input
+      className="sc-goMRkL gsTWKg"
+      placeholder="e.g. https://sportsbet.io"
+      type="url"
+    />
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL JOvHL"
+        className="sc-goMRkL ubFMP"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. https://sportsbet.io"
-      type="url"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gsTWKg"
-        placeholder="e.g. https://sportsbet.io"
-        type="url"
-      />
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. https://sportsbet.io"
-      type="url"
-    >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL ubFMP"
-          placeholder="e.g. https://sportsbet.io"
-          type="url"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
     </div>
   </div>
 </div>
@@ -453,78 +393,66 @@ exports[`TextInput: type Url renders with label 1`] = `
 
 exports[`TextInput: type Url renders with label RTL 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    dir="rtl"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+      dir="rtl"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL JOvHL"
       dir="rtl"
       placeholder="e.g. https://sportsbet.io"
       type="url"
+    />
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    dir="rtl"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+      dir="rtl"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-        dir="rtl"
-      >
-        medium
-      </label>
+      large
+    </label>
+    <input
+      className="sc-goMRkL gsTWKg"
+      dir="rtl"
+      placeholder="e.g. https://sportsbet.io"
+      type="url"
+    />
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    dir="rtl"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL JOvHL"
+        className="sc-goMRkL ubFMP"
         dir="rtl"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      dir="rtl"
-      placeholder="e.g. https://sportsbet.io"
-      type="url"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
-        dir="rtl"
+        className="sc-glUVip fQRjhM"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gsTWKg"
-        dir="rtl"
-        placeholder="e.g. https://sportsbet.io"
-        type="url"
-      />
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      dir="rtl"
-      placeholder="e.g. https://sportsbet.io"
-      type="url"
-    >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL ubFMP"
-          dir="rtl"
-          placeholder="e.g. https://sportsbet.io"
-          type="url"
-        />
-        <label
-          className="sc-glUVip fQRjhM"
-        >
-          xlarge
-        </label>
-      </div>
     </div>
   </div>
 </div>
@@ -532,58 +460,46 @@ exports[`TextInput: type Url renders with label RTL 1`] = `
 
 exports[`TextInput: type Url renders without label 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="medium"
+    type="url"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <input
+      className="sc-goMRkL JOvHL"
       placeholder="medium"
       type="url"
-    >
-      <input
-        className="sc-goMRkL JOvHL"
-        placeholder="medium"
-        type="url"
-      />
-    </div>
+    />
   </div>
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="large"
+    type="url"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <input
+      className="sc-goMRkL gsTWKg"
       placeholder="large"
       type="url"
-    >
-      <input
-        className="sc-goMRkL gsTWKg"
-        placeholder="large"
-        type="url"
-      />
-    </div>
+    />
   </div>
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="xlarge"
+    type="url"
   >
     <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="xlarge"
-      type="url"
+      className="sc-jNrqiC jBcQib"
     >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL kGKhoa"
-          placeholder="xlarge"
-          type="url"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        />
-      </div>
+      <input
+        className="sc-goMRkL kGKhoa"
+        placeholder="xlarge"
+        type="url"
+      />
+      <label
+        className="sc-glUVip fKjLAb"
+      />
     </div>
   </div>
 </div>
@@ -591,89 +507,77 @@ exports[`TextInput: type Url renders without label 1`] = `
 
 exports[`TextInput: type Url supports background colour 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL hWBUEc"
       placeholder="e.g. https://sportsbet.io"
       type="url"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      large
+    </label>
+    <input
+      className="sc-goMRkL gTNnSf"
+      placeholder="e.g. https://sportsbet.io"
+      type="url"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. https://sportsbet.io"
+    type="url"
+  >
+    <div
+      className="sc-jNrqiC hjjcDo"
+    >
       <input
-        className="sc-goMRkL hWBUEc"
+        className="sc-goMRkL fBUiNw"
         placeholder="e.g. https://sportsbet.io"
         type="url"
       />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. https://sportsbet.io"
-      type="url"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gTNnSf"
-        placeholder="e.g. https://sportsbet.io"
-        type="url"
-      />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
     </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. https://sportsbet.io"
-      type="url"
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <div
-        className="sc-jNrqiC hjjcDo"
-      >
-        <input
-          className="sc-goMRkL fBUiNw"
-          placeholder="e.g. https://sportsbet.io"
-          type="url"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
+      Informative message holder
+    </p>
   </div>
 </div>
 `;

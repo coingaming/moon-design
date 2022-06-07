@@ -4,7 +4,7 @@ import {
   ChatComment,
   ChatCommentAdd,
   ChatDoubleBubble,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <Accordion

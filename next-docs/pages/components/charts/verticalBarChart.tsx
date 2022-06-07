@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PageSection from '../../../components/PageSection';
 import PropsTable from '../../../components/PropsTable';
 import Active from '../../../public/examples/charts/verticalChart/Active';
@@ -12,9 +13,8 @@ export default function PageVerticalBarChart() {
   const examples = useExamples('charts/verticalChart');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Line chart</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Vertical bar">
+        <p>
           Based on{' '}
           <Link href="https://recharts.org/en-US/">
             <a
@@ -27,7 +27,7 @@ export default function PageVerticalBarChart() {
           </Link>
           .
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Various data"
         preview={<Active />}

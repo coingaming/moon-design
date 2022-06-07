@@ -1,8 +1,8 @@
-// @ts-nocheck
 import React from 'react';
 import Link from 'next/link';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/charts/geoMapChart/Default';
 import useExamples from '../../../utils/useExamples';
@@ -12,9 +12,8 @@ export default function PageGeoMapChart() {
 
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Geo map chart</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Geo map">
+        <p>
           Based on{' '}
           <Link href="https://www.react-simple-maps.io/">
             <a
@@ -37,7 +36,7 @@ export default function PageGeoMapChart() {
           </Link>
           .
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}

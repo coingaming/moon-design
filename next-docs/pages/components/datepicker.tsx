@@ -1,6 +1,6 @@
-// @ts-nocheck
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Calendar from '../../public/examples/datePicker/Calendar';
 import CalendarDisabledDay from '../../public/examples/datePicker/CalendarDisabledDay';
@@ -14,105 +14,75 @@ const PageDatepicker = () => {
   const examples = useExamples('datePicker');
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Datepicker</h1>
-        <p className="text-lg mt-4">
-          A simple datepicker component build with date-fns.
-        </p>
-        <p className="text-lg mt-4">
-          Since this component doesn’t hold the selected day in its state, you
-          have to hold it in your component’s state as the user interacts with
+      <ComponentPageDescription title="Single Date">
+        <p>A simple datepicker component build with date-fns.</p>
+        <p>
+          Since this component doesn't hold the selected day in its state, you
+          have to hold it in your component's state as the user interacts with
           the calendar.
         </p>
-        <p className="text-lg">
-          For this, you can use the following props: <b>date</b> - to highlight
-          the day cell to show in the calendar which day has been selected;
-          <b> onDateChange</b> - handler is holding the selected day in its own
-          state;
+        <p>
+          For this, you can use the following props:{' '}
+          <span className="font-medium">date</span> - to highlight the day cell
+          to show in the calendar which day has been selected;{' '}
+          <span className="font-medium">onDateChange</span> - handler is holding
+          the selected day in its own state;
         </p>
-        <p className="text-lg mt-4">
-          You also can configure the component with <b>config</b> prop.
+        <p>
+          You also can configure the component with{' '}
+          <span className="font-medium">config</span> prop.
         </p>
-        <p className="text-lg">
-          For example, if you want to mark days as disabled, you can use
-          <b> config.disabledDays</b> setting. These days do not respond to the
-          user’s interaction and should appear as “disabled” (grayed out) on the
-          calendar.
+        <p>
+          For example, if you want to mark days as disabled, you can use{' '}
+          <span className="font-medium">config.disabledDays</span> setting.
+          These days do not respond to the user's interaction and should appear
+          as “disabled” (grayed out) on the calendar.
         </p>
-        <p className="text-lg">
-          Or you can set the range of available for choosing years, using
-          <b> config.yearsRang</b> prop.
+        <p>
+          Or you can set the range of available for choosing years, using{' '}
+          <span className="font-medium">config.yearsRang</span> prop.
         </p>
-        <p className="text-lg mt-4">
-          The whole list of all available props is in the table below.
-        </p>
-        <p className="text-lg mt-4">
+        <p>The whole list of all available props is in the table below.</p>
+        <p>
           Datepicker - this component is rendering the Button component and
           Calendar in an overlay. It has extended props and hide/show logic out
           of the box.
         </p>
-      </section>
-
-      {/* DatePicker */}
-      <section className="mt-8">
-        <Preview
-          title="Datepicker"
-          preview={<DatePicker />}
-          code={examples ? examples.DatePicker : 'Loading'}
-        />
-      </section>
-      <section className="mt-8"></section>
-
-      {/* DatePickerCalendar */}
-      <section className="mt-8">
-        <p className="text-lg pt-8">
-          You also can use only the Calendar component if you have another
-          trigger element (for example input instead of button) and you need
-          more control.
-        </p>
-        <Preview
-          title="Calendar"
-          preview={<Calendar />}
-          code={examples ? examples.Calendar : 'Loading'}
-        />
-      </section>
-
-      {/* Calendar DisabledDay */}
-      <section className="mt-8">
-        <Preview
-          title="Calendar: Marking day as disabled"
-          preview={<CalendarDisabledDay />}
-          code={examples ? examples.CalendarDisabledDay : 'Loading'}
-        />
-      </section>
-
-      {/* Calendar DisabledDays */}
-      <section className="mt-8">
-        <Preview
-          title="Calendar: Marking several days as disabled"
-          preview={<CalendarDisabledDays />}
-          code={examples ? examples.CalendarDisabledDays : 'Loading'}
-        />
-      </section>
-
-      {/* Calendar DisabledRange */}
-      <section className="mt-8">
-        <Preview
-          title="Calendar: Marking days range as disabled"
-          preview={<CalendarDisabledRange />}
-          code={examples ? examples.CalendarDisabledRange : 'Loading'}
-        />
-      </section>
-
-      {/* Calendar DisabledRange2 */}
-      <section className="mt-8">
-        <Preview
-          title="Calendar: Marking inner days range as disabled"
-          preview={<CalendarDisabledRange2 />}
-          code={examples ? examples.CalendarDisabledRange2 : 'Loading'}
-        />
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="Datepicker"
+        preview={<DatePicker />}
+        code={examples ? examples.DatePicker : 'Loading'}
+      />
+      <p className="text-moon-16">
+        You also can use only the Calendar component if you have another trigger
+        element (for example input instead of button) and you need more control.
+      </p>
+      <Preview
+        title="Calendar"
+        preview={<Calendar />}
+        code={examples ? examples.Calendar : 'Loading'}
+      />
+      <Preview
+        title="Calendar: Marking day as disabled"
+        preview={<CalendarDisabledDay />}
+        code={examples ? examples.CalendarDisabledDay : 'Loading'}
+      />
+      <Preview
+        title="Calendar: Marking several days as disabled"
+        preview={<CalendarDisabledDays />}
+        code={examples ? examples.CalendarDisabledDays : 'Loading'}
+      />
+      <Preview
+        title="Calendar: Marking days range as disabled"
+        preview={<CalendarDisabledRange />}
+        code={examples ? examples.CalendarDisabledRange : 'Loading'}
+      />
+      <Preview
+        title="Calendar: Marking inner days range as disabled"
+        preview={<CalendarDisabledRange2 />}
+        code={examples ? examples.CalendarDisabledRange2 : 'Loading'}
+      />
       <PropsTable
         title="Props for Calendar component"
         data={[
@@ -146,7 +116,6 @@ const PageDatepicker = () => {
           },
         ]}
       />
-
       <PropsTable
         title="Config: calendar configuration"
         data={[
@@ -187,13 +156,9 @@ const PageDatepicker = () => {
           },
         ]}
       />
-
-      <section className="mt-8">
-        <p className="text-lg pt-8">
-          DatePicker has the same props as Calendar and extended by next props:
-        </p>
-      </section>
-
+      <p className="text-moon-16">
+        DatePicker has the same props as Calendar and extended by next props:
+      </p>
       <PropsTable
         title="DatePicker extended props"
         data={[
@@ -217,7 +182,6 @@ const PageDatepicker = () => {
           },
         ]}
       />
-
       <PropsTable
         title="Config extended for DatePicker"
         data={[

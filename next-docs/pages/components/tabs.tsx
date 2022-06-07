@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
 import HorizontalVariants from '../../public/examples/tabs/HorizontalVariants';
@@ -12,18 +13,17 @@ const PageTabsNew = () => {
   const examples = useExamples('tabs');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Tabs</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Tabs">
+        <p>
           Use tabs to allow users to navigate easily between views within the
           same context.
         </p>
-        <p className="text-moon-16">
+        <p>
           Each tab should contain content that is distinct from other tabs in a
           set. For example, tabs can present different sections of news,
           different genres of music, or different themes of documents.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}

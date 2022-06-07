@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import Checked from '../../../public/examples/radiobutton/radiobutton/Checked';
 import Default from '../../../public/examples/radiobutton/radiobutton/Default';
@@ -9,17 +10,15 @@ import useExamples from '../../../utils/useExamples';
 
 export default function RadioButtonPage() {
   const examples = useExamples('radiobutton/radiobutton');
-
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Radio Button</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="RadioButton">
+        <p>
           Radio buttons are used to represent a group or category of choices
           whereby users can only select one option - the main difference from
           checkboxes that allow users to select multiple options.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="RadioButton"
         preview={<Default />}

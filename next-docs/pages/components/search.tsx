@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import OmitResults from '../../public/examples/search/OmitResults';
 import PreviewSearch from '../../public/examples/search/PreviewSearch';
@@ -10,10 +11,9 @@ export default function PageSearch() {
   const examples = useExamples('search');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Search</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">An elegant search component.</p>
-      </div>
+      <ComponentPageDescription title="Search">
+        <p>An elegant search component.</p>
+      </ComponentPageDescription>
       <Preview
         title="Search component default values"
         preview={<PreviewSearch />}

@@ -1,5 +1,7 @@
 import React from 'react';
+import Link from 'next/link';
 import Preview from '../../../components/codePreview/Preview';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/dialog/dialogContent/Default';
 import useExamples from '../../../utils/useExamples';
@@ -9,35 +11,35 @@ export default function PageDialogContent() {
 
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Dialog Content</h1>
-        <p className="text-lg mt-4">
+      <ComponentPageDescription title="Dialog Content">
+        <p>
           Based on{' '}
-          <a className="underline" href="https://reach.tech/dialog">
-            @reach/dialog
-          </a>
+          <Link href="https://reach.tech/dialog">
+            <a
+              className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+              target="_blank"
+              rel="noreferrer"
+            >
+              @reach/dialog
+            </a>
+          </Link>
           .
         </p>
-        <p className="text-lg mt-4">
+        <p>
           Dialog is a styled extension of Reach UI's "Dialog" component, with
           state handled via isOpen and onDismiss. More information on these
           props, can be found in the Reach UI documentation.
         </p>
-        <p className="text-lg mt-4">
+        <p>
           Examples on this page show usage with React Hooks, but this could also
           be handled via higher-order components or libaries such as Recompose.
         </p>
-      </section>
-
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title="Default example"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="Default example"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

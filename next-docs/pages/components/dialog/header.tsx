@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import Example1 from '../../../public/examples/dialog/header/Example1';
 import Example2 from '../../../public/examples/dialog/header/Example2';
@@ -10,63 +11,42 @@ import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogHeader() {
   const examples = useExamples('dialog/header');
-
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Dialog Header</h1>
-        <p className="text-lg mt-4">
-          Header module variants to be used in Modal dialogs and popovers.
-        </p>
-        <p className="text-lg mt-4 font-medium">About RTL and icon mirroring</p>
-        <p className="text-lg">
+      <ComponentPageDescription title="Dialog Header">
+        <p>Header module variants to be used in Modal dialogs and popovers.</p>
+        <p>
+          <p className="font-medium">About RTL and icon mirroring</p>
           The icons are slots passed to the component. It is the developer's
           responsibility to pass a mirrored icon for RTL views, (ie, pass left
           or right arrows depending on the direction).
         </p>
-      </section>
-
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title=""
-          preview={<Example1 />}
-          code={examples ? examples.Example1 : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title=""
-          preview={<Example2 />}
-          code={examples ? examples.Example2 : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title=""
-          preview={<Example3 />}
-          code={examples ? examples.Example3 : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title=""
-          preview={<Example4 />}
-          code={examples ? examples.Example4 : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title=""
-          preview={<Example5 />}
-          code={examples ? examples.Example5 : 'Loading'}
-        />
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title=""
+        preview={<Example1 />}
+        code={examples ? examples.Example1 : 'Loading'}
+      />
+      <Preview
+        title=""
+        preview={<Example2 />}
+        code={examples ? examples.Example2 : 'Loading'}
+      />
+      <Preview
+        title=""
+        preview={<Example3 />}
+        code={examples ? examples.Example3 : 'Loading'}
+      />
+      <Preview
+        title=""
+        preview={<Example4 />}
+        code={examples ? examples.Example4 : 'Loading'}
+      />
+      <Preview
+        title=""
+        preview={<Example5 />}
+        code={examples ? examples.Example5 : 'Loading'}
+      />
       <PropsTable
         title="Props for Dialog Header component"
         data={[
