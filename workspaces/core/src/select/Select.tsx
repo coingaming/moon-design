@@ -178,7 +178,7 @@ const Select: React.FC<SelectProps> = ({
           menuOpen && options?.length && options.map((option: Option, index: number) => (
             <div
               // @TODO hover with custom color doesn't work, but only bg-goku works, why? :(
-              className={`flex items-center text-popo text-sm p-2 rounded-sm ${determineMenuBackgroundColor(index)}`}
+              className={`flex items-center text-popo text-sm p-2 rounded-sm mb-1 ${determineMenuBackgroundColor(index)}`}
               onClick={() => { if (!disabled && onChange) onChange(option.value) }}
               onMouseOver={() => setHoveredIndex(index)}
             >
