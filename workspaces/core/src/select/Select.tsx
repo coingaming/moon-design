@@ -18,7 +18,8 @@ const Select: React.FC<SelectProps> = ({
    amountOfVisibleItems = 9999
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
-  const [activeOption, setActiveOption] = useState(0);
+  const [hoveredIndex, setHoveredIndex] = useState(-1);
+  const [selectedIndex, setSelectedIndex] = useState(-1);
   const inputRef = useRef(null);
   const selectRef = useRef(null);
   const menuRef = useRef(null);
@@ -37,7 +38,7 @@ const Select: React.FC<SelectProps> = ({
       setMenuOpen(false);
     } else if (e.key === "Enter") {
       //@ts-ignore
-      onChange && onChange(options[activeOption]?.value);
+      onChange && onChange(options[selectedIndex]?.value);
       setMenuOpen(false);
     }
   };
@@ -54,6 +55,16 @@ const Select: React.FC<SelectProps> = ({
     //console.log(menuOpen);
   };
 
+  const determineBackgroundColor = (index: number) => {
+    const selectedClass = 'bg-goku';
+    let bgClass = '';
+    // No menu item is selected, so first item should have background color
+    if (hoveredIndex < 0 && selectedIndex < 0 && index === 0) bgClass = selectedClass;
+    else if (hoveredIndex === index || selectedIndex === index) bgClass = selectedClass;
+
+    return bgClass;
+  };
+
   const handleMenuNavigation = useCallback(
     (e) => {
       if (e && menuOpen) {
@@ -63,14 +74,14 @@ const Select: React.FC<SelectProps> = ({
         e.preventDefault();
 
         if (e.key === 'ArrowUp') {
-          setActiveOption(activeOption > 0 ? activeOption - 1 : optionsLength - 1);
+          setHoveredIndex(hoveredIndex > 0 ? hoveredIndex - 1 : optionsLength - 1);
         }
         else if (e.key === 'ArrowDown') {
-          setActiveOption(activeOption < optionsLength - 1 ? activeOption + 1 : 0);
+          setHoveredIndex(hoveredIndex < optionsLength - 1 ? hoveredIndex + 1 : 0);
         }
       }
     },
-    [menuOpen, activeOption]
+    [menuOpen, hoveredIndex]
   );
 
   useEffect(() => {
@@ -82,6 +93,7 @@ const Select: React.FC<SelectProps> = ({
   useEffect(() => {
     const menuElement = menuRef?.current;
 
+    // Handling number of menu items component prop
     if (
       menuOpen &&
       menuElement &&
@@ -100,6 +112,21 @@ const Select: React.FC<SelectProps> = ({
       menuElement.style.height = 'auto';
     }
   }, [menuRef, menuOpen]);
+
+  useEffect(() => {
+    // Handle initial selected menu item background color
+    if (menuOpen && options?.length) {
+      let selectedItemIndex = -1;
+
+      options.forEach((item: Option, index) => {
+        if (item.value === value) selectedItemIndex = index;
+      });
+
+      if (selectedItemIndex >= 0) {
+        setSelectedIndex(selectedItemIndex);
+      }
+    }
+  }, [menuOpen, value])
 
   useEffect(() => {
     const handleOutsideClick = (e: MouseEvent) => {
@@ -152,7 +179,7 @@ const Select: React.FC<SelectProps> = ({
           menuOpen && options?.length && options.map((option: Option, index: number) => (
             <div
               // @TODO hover with custom color doesn't work, but only bg-goku works, why? :(
-              className={`flex items-center text-popo text-sm p-2 rounded-sm hover:bg-goku ${activeOption === index && 'bg-goku'}`}
+              className={`flex items-center text-popo text-sm p-2 rounded-sm hover:bg-goku ${determineBackgroundColor(index)}`}
               onClick={() => { if (!disabled && onChange) onChange(option.value) }}
             >
               {option.element}
