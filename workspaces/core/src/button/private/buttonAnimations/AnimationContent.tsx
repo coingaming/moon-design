@@ -1,6 +1,6 @@
 import React from 'react';
+import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import Loader from '../../../loader/Loader';
-import GenericCheckAlternative from '../../../private/icons/GenericCheckAlternative';
 import type ButtonProps from '../types/ButtonProps';
 
 const AnimationContent: React.FC<ButtonProps> = ({

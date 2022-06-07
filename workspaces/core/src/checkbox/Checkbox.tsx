@@ -1,5 +1,5 @@
 import React, { forwardRef, useState } from 'react';
-import GenericCheckAlternative from '../private/icons/GenericCheckAlternative';
+import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import classNames from '../private/utils/classnames';
 import inlineSvg from '../private/utils/inlineSvg/inlineSvg';
 import type CheckboxProps from './private/types/CheckboxProps';
