@@ -1,6 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/pagination/Default';
 import useExamples from '../../utils/useExamples';
@@ -9,20 +10,21 @@ const PagePagination = () => {
   const examples = useExamples('pagination');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Pagination</h1>
-      <p className="text-moon-16">
-        Pagination component based on{' '}
-        <Link href="https://github.com/AdeleD/react-paginate#readme">
-          <a
-            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-            target="_blank"
-            rel="noreferrer"
-          >
-            react-paginate
-          </a>
-        </Link>
-        .
-      </p>
+      <ComponentPageDescription title="Pagination">
+        <p>
+          Pagination component based on{' '}
+          <Link href="https://github.com/AdeleD/react-paginate#readme">
+            <a
+              className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+              target="_blank"
+              rel="noreferrer"
+            >
+              react-paginate
+            </a>
+          </Link>
+          .
+        </p>
+      </ComponentPageDescription>
       <Preview
         title="Pagination"
         preview={<Default />}

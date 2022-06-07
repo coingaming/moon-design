@@ -1,6 +1,6 @@
-// @ts-nocheck
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import RangeCalendar from '../../public/examples/datePickerRange/RangeCalendar';
 import RangeCalendarDisabled from '../../public/examples/datePickerRange/RangeCalendarDisabled';
@@ -19,135 +19,89 @@ const PageDatepicker = () => {
   const examples = useExamples('datePicker');
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Datepicker Range</h1>
-        <p className="text-lg mt-4">
-          Range datepicker component build with date-fns.
-        </p>
-        <p className="text-lg mt-4">
-          Since this component doesn’t hold the selected days in its state, you
-          have to hold they in your component’s state as the user interacts with
+      <ComponentPageDescription title="Range">
+        <p>Range datepicker component build with date-fns.</p>
+        <p>
+          Since this component doesn't hold the selected days in its state, you
+          have to hold they in your component's state as the user interacts with
           the calendar.
         </p>
-        <p className="text-lg">
-          For this, you can use the following props: <br /> <b>startDate</b> and{' '}
-          <b>endDate</b> - to highlight the first and last day's cells to show
-          in the calendar which range has been selected;
-          <br />
-          <b> onDateChange</b> - handler is holding the selected days in its own
-          state;
+        <p>For this, you can use the following props:</p>
+        <p>
+          <span className="font-medium">startDate</span> and{' '}
+          <span className="font-medium">endDate</span> - to highlight the first
+          and last day's cells to show in the calendar which range has been
+          selected;
+          <span className="font-medium"> onDateChange</span> - handler is
+          holding the selected days in its own state;
         </p>
-        <p className="text-lg mt-4">
-          You can configure the component with <b>config</b> prop. The whole
-          list of the config props you can find below: "Config: calendar
-          configuration" table.
+        <p>
+          You can configure the component with{' '}
+          <span className="font-medium">config</span> prop. The whole list of
+          the config props you can find below: "Config: calendar configuration"
+          table.
         </p>
-        <p className="text-lg mt-4">
+        <p>
           Also, you can set the needed translation for the button in the footer
           or for the period list. Just use translations prop. The whole list of
           the translations props you can find below: "RangeTranslations" table.
         </p>
-      </section>
-
-      {/* RangeCalendar */}
-      <section className="mt-8">
-        <Preview
-          title="RangeCalendar"
-          preview={<RangeCalendar />}
-          code={examples ? examples.RangeCalendar : 'Loading'}
-        />
-      </section>
-
-      {/* RangeCalendarWithPeriod */}
-      <section className="mt-8">
-        <Preview
-          title="Range Calendar with predefined period list"
-          preview={<RangeCalendarWithPeriod />}
-          code={examples ? examples.RangeCalendarWithPeriod : 'Loading'}
-        />
-      </section>
-
-      {/* RangeCalendarOnlyDate */}
-      <section className="mt-8">
-        <Preview
-          title="Range Calendar only date"
-          preview={<RangeCalendarOnlyDate />}
-          code={examples ? examples.RangeCalendarOnlyDate : 'Loading'}
-        />
-      </section>
-
-      {/* RangeCalendarWithChip */}
-      <section className="mt-8">
-        <Preview
-          title="Range Calendar without input"
-          preview={<RangeCalendarWithChip />}
-          code={examples ? examples.RangeCalendarWithChip : 'Loading'}
-        />
-      </section>
-
-      {/* RangeCalendarOneMonth */}
-      <section className="mt-8">
-        <Preview
-          title="Range Calendar one month"
-          preview={<RangeCalendarOneMonth />}
-          code={examples ? examples.RangeCalendarOneMonth : 'Loading'}
-        />
-      </section>
-
-      {/* RangeCalendarWithoutFooter */}
-      <section className="mt-8">
-        <Preview
-          title="Range Calendar without footer"
-          preview={<RangeCalendarWithoutFooter />}
-          code={examples ? examples.RangeCalendarWithoutFooter : 'Loading'}
-        />
-      </section>
-
-      {/* RangeCalendarRtl */}
-      <section className="mt-8">
-        <Preview
-          title="Range Calendar RTL"
-          preview={<RangeCalendarRtl />}
-          code={examples ? examples.RangeCalendarRtl : 'Loading'}
-        />
-      </section>
-
-      {/* RangeCalendarDisabled */}
-      <section className="mt-8">
-        <Preview
-          title="Range Calendar: Marking day as disabled"
-          preview={<RangeCalendarDisabled />}
-          code={examples ? examples.RangeCalendarDisabled : 'Loading'}
-        />
-      </section>
-
-      {/* RangeCalendarDisabled2 */}
-      <section className="mt-8">
-        <Preview
-          title="Range Calendar: Marking several days as disabled"
-          preview={<RangeCalendarDisabled2 />}
-          code={examples ? examples.RangeCalendarDisabled2 : 'Loading'}
-        />
-      </section>
-
-      {/* RangeCalendarDisabled3 */}
-      <section className="mt-8">
-        <Preview
-          title="Range Calendar: Marking days range as disabled"
-          preview={<RangeCalendarDisabled3 />}
-          code={examples ? examples.RangeCalendarDisabled3 : 'Loading'}
-        />
-      </section>
-
-      {/* RangeCalendarDisabled4 */}
-      <section className="mt-8">
-        <Preview
-          title="Range Calendar: Marking inner days range as disabled"
-          preview={<RangeCalendarDisabled4 />}
-          code={examples ? examples.RangeCalendarDisabled4 : 'Loading'}
-        />
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="RangeCalendar"
+        preview={<RangeCalendar />}
+        code={examples ? examples.RangeCalendar : 'Loading'}
+      />
+      <Preview
+        title="Range Calendar with predefined period list"
+        preview={<RangeCalendarWithPeriod />}
+        code={examples ? examples.RangeCalendarWithPeriod : 'Loading'}
+      />
+      <Preview
+        title="Range Calendar only date"
+        preview={<RangeCalendarOnlyDate />}
+        code={examples ? examples.RangeCalendarOnlyDate : 'Loading'}
+      />
+      <Preview
+        title="Range Calendar without input"
+        preview={<RangeCalendarWithChip />}
+        code={examples ? examples.RangeCalendarWithChip : 'Loading'}
+      />
+      <Preview
+        title="Range Calendar one month"
+        preview={<RangeCalendarOneMonth />}
+        code={examples ? examples.RangeCalendarOneMonth : 'Loading'}
+      />
+      <Preview
+        title="Range Calendar without footer"
+        preview={<RangeCalendarWithoutFooter />}
+        code={examples ? examples.RangeCalendarWithoutFooter : 'Loading'}
+      />
+      <Preview
+        title="Range Calendar RTL"
+        preview={<RangeCalendarRtl />}
+        code={examples ? examples.RangeCalendarRtl : 'Loading'}
+      />
+      <Preview
+        title="Range Calendar: Marking day as disabled"
+        preview={<RangeCalendarDisabled />}
+        code={examples ? examples.RangeCalendarDisabled : 'Loading'}
+      />
+      <Preview
+        title="Range Calendar: Marking several days as disabled"
+        preview={<RangeCalendarDisabled2 />}
+        code={examples ? examples.RangeCalendarDisabled2 : 'Loading'}
+      />
+      <Preview
+        title="Range Calendar: Marking days range as disabled"
+        preview={<RangeCalendarDisabled3 />}
+        code={examples ? examples.RangeCalendarDisabled3 : 'Loading'}
+      />
+      <Preview
+        title="Range Calendar: Marking inner days range as disabled"
+        preview={<RangeCalendarDisabled4 />}
+        code={examples ? examples.RangeCalendarDisabled4 : 'Loading'}
+      />
       <PropsTable
         title="Props for RangeCalendar componen"
         data={[
@@ -218,7 +172,6 @@ const PageDatepicker = () => {
           },
         ]}
       />
-
       <PropsTable
         title="Config: calendar configuration"
         data={[
@@ -302,7 +255,6 @@ const PageDatepicker = () => {
           },
         ]}
       />
-
       <PropsTable
         title="RangeTranslations"
         data={[

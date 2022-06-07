@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import Disabled from '../../../public/examples/select/singleReactSelect/Disabled';
 import Error from '../../../public/examples/select/singleReactSelect/Error';
@@ -13,97 +14,61 @@ import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {
   const examples = useExamples('select/singleReactSelect');
-
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Select</h1>
-        <p className="text-lg mt-4">
-          This Select based on react-select library.
-        </p>
-        <p className="text-lg mt-4">
+      <ComponentPageDescription title="Single Select">
+        <p>This Select based on react-select library.</p>
+        <p>
           Select components are used for collecting user provided information
           from a list of options.
         </p>
-        <p className="text-lg mt-4">
-          Select has two sizes with a different views:
-          <b> large</b> (by default) and <b>xLarge</b>. Large size has label
+        <p>
+          Select has two sizes with a different views:{' '}
+          <span className="font-medium">large</span> (by default) and{' '}
+          <span className="font-medium">xLarge</span>. Large size has label
           outside input, xLarge has label inside the input.
         </p>
-      </section>
-
-      {/* WithLabel */}
-      <section className="mt-8">
-        <Preview
-          title="With Label"
-          preview={<WithLabel />}
-          code={examples ? examples.WithLabel : 'Loading'}
-        />
-      </section>
-
-      {/*Options*/}
-      <section className="mt-8">
-        <Preview
-          title="List options"
-          preview={<Options />}
-          code={examples ? examples.Options : 'Loading'}
-        />
-      </section>
-
-      {/* OptionsContent */}
-      <section className="mt-8">
-        <Preview
-          title="Options Content"
-          preview={<OptionsContent />}
-          code={examples ? examples.OptionsContent : 'Loading'}
-        />
-      </section>
-
-      {/* Hint */}
-      <section className="mt-8">
-        <Preview
-          title="Hint message"
-          preview={<Hint />}
-          code={examples ? examples.Hint : 'Loading'}
-        />
-      </section>
-
-      {/*Error*/}
-      <section className="mt-8">
-        <Preview
-          title="Error"
-          preview={<Error />}
-          code={examples ? examples.Error : 'Loading'}
-        />
-      </section>
-
-      {/* Disabled */}
-      <section className="mt-8">
-        <Preview
-          title="Disabled"
-          preview={<Disabled />}
-          code={examples ? examples.Disabled : 'Loading'}
-        />
-      </section>
-
-      {/* WithoutLabel */}
-      <section className="mt-8">
-        <Preview
-          title="Without label"
-          preview={<WithoutLabel />}
-          code={examples ? examples.WithoutLabel : 'Loading'}
-        />
-      </section>
-
-      {/* WithoutLabel */}
-      <section className="mt-8">
-        <Preview
-          title="List options width"
-          preview={<ListWidth />}
-          code={examples ? examples.ListWidth : 'Loading'}
-        />
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="With Label"
+        preview={<WithLabel />}
+        code={examples ? examples.WithLabel : 'Loading'}
+      />
+      <Preview
+        title="List options"
+        preview={<Options />}
+        code={examples ? examples.Options : 'Loading'}
+      />
+      <Preview
+        title="Options Content"
+        preview={<OptionsContent />}
+        code={examples ? examples.OptionsContent : 'Loading'}
+      />
+      <Preview
+        title="Hint message"
+        preview={<Hint />}
+        code={examples ? examples.Hint : 'Loading'}
+      />
+      <Preview
+        title="Error"
+        preview={<Error />}
+        code={examples ? examples.Error : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="Without label"
+        preview={<WithoutLabel />}
+        code={examples ? examples.WithoutLabel : 'Loading'}
+      />
+      <Preview
+        title="List options width"
+        preview={<ListWidth />}
+        code={examples ? examples.ListWidth : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

@@ -27,7 +27,7 @@ const Example = () => {
   };
 
   return (
-    <>
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <TextInputGroup
         orientation="vertical"
         inputProps={{
@@ -42,7 +42,7 @@ const Example = () => {
           input2: inputProps4,
         }}
       />
-    </>
+    </div>
   );
 };
 

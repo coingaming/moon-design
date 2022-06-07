@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import DateBgColor from '../../../public/examples/textInput/date/DateBgColor';
 import DateDisabled from '../../../public/examples/textInput/date/DateDisabled';
@@ -15,100 +16,74 @@ export default function PageDateInput() {
   const examples = useExamples('textInput/date');
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">TextInput</h1>
-        <p className="text-lg mt-4">
+      <ComponentPageDescription title="Date">
+        <p>
           The TextInput wrapper component is used when you need to let users
           enter the text of some kind, such as their name or phone number etc.
         </p>
-
-        <p className="text-lg mt-4">
+        <p>
           All TextInput could include visible labels, placeholder, hint text.
           Also, all standard form attributes are supported e.g. required,
           disabled, readonly. Input inside TextInput wrapper component has a
           transparent background but could be configured by props.
         </p>
-
-        <p className="text-lg mt-4">
+        <p>
           TextInput comes with three sizes: medium, large and xLarge, which are
           configured by required prop inputSize. TextInput medium and large
           sizes have an outside label view, while TextInput xLarge size has an
           inner label view.
         </p>
-
-        <p className="text-lg mt-4">
+        <p>
           For mobile, the usage of respected keyboards is recommended, f.e. if
-          it’s likely that the user will need to enter a number and you want to
+          it's likely that the user will need to enter a number and you want to
           bring up the numeric keypad on a mobile device.
         </p>
-
-        <p className="text-lg mt-4">
+        <p>
           The TextInput support a range of input formats, some of which include
           automatic browser validation. These can be set by providing HTML input
           type attributte.
         </p>
-      </section>
-
-      {/* Date */}
-      <section className="mt-8">
-        <section className="mt-8">
-          <Preview
-            title="Label"
-            preview={<DateWithLabel />}
-            code={examples ? examples.DateWithLabel : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Label RTL"
-            preview={<DateWithLabelRtl />}
-            code={examples ? examples.DateWithLabelRtl : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Without Label"
-            preview={<DateWithoutLabel />}
-            code={examples ? examples.DateWithoutLabel : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Hint message"
-            preview={<DateWithHint />}
-            code={examples ? examples.DateWithHint : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Disabled"
-            preview={<DateDisabled />}
-            code={examples ? examples.DateDisabled : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Error"
-            preview={<DateError />}
-            code={examples ? examples.DateError : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Input with background color"
-            preview={<DateBgColor />}
-            code={examples ? examples.DateBgColor : 'Loading'}
-          />
-        </section>
-        <section className="mt-8">
-          <Preview
-            title="Readonly"
-            preview={<DateReadonly />}
-            code={examples ? examples.DateReadonly : 'Loading'}
-          />
-        </section>
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="Label"
+        preview={<DateWithLabel />}
+        code={examples ? examples.DateWithLabel : 'Loading'}
+      />
+      <Preview
+        title="Label RTL"
+        preview={<DateWithLabelRtl />}
+        code={examples ? examples.DateWithLabelRtl : 'Loading'}
+      />
+      <Preview
+        title="Without Label"
+        preview={<DateWithoutLabel />}
+        code={examples ? examples.DateWithoutLabel : 'Loading'}
+      />
+      <Preview
+        title="Hint message"
+        preview={<DateWithHint />}
+        code={examples ? examples.DateWithHint : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<DateDisabled />}
+        code={examples ? examples.DateDisabled : 'Loading'}
+      />
+      <Preview
+        title="Error"
+        preview={<DateError />}
+        code={examples ? examples.DateError : 'Loading'}
+      />
+      <Preview
+        title="Input with background color"
+        preview={<DateBgColor />}
+        code={examples ? examples.DateBgColor : 'Loading'}
+      />
+      <Preview
+        title="Readonly"
+        preview={<DateReadonly />}
+        code={examples ? examples.DateReadonly : 'Loading'}
+      />
       <PropsTable
         title="Props for TextInput component"
         data={[

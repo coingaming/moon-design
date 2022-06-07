@@ -2,7 +2,7 @@ import React from 'react';
 import { AuthCode } from '@heathmont/moon-core';
 
 const Example = () => (
-  <>
+  <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
     <AuthCode
       length={6}
       stretch={true}
@@ -19,7 +19,7 @@ const Example = () => (
       onChange={(value: string) => {}}
       onSubmit={(value: string) => {}}
     />
-  </>
+  </div>
 );
 
 export default Example;

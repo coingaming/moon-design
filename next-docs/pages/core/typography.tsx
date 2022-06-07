@@ -1,4 +1,5 @@
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import Caption from '../../public/examples/typographyTW/Caption';
 import Heading from '../../public/examples/typographyTW/Heading';
 import Text from '../../public/examples/typographyTW/Text';
@@ -9,7 +10,9 @@ const Example = () => {
 
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Typography</h1>
+      <ComponentPageDescription title="Typography">
+        <p>Typography includes text, headings, and captions.</p>
+      </ComponentPageDescription>
       <Preview
         title="Text"
         preview={<Text />}

@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PageSection from '../../../components/PageSection';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/charts/lineChart/Default';
@@ -13,9 +14,8 @@ export default function PageLineChart() {
 
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Line chart</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Line">
+        <p>
           Based on{' '}
           <Link href="https://recharts.org/en-US/">
             <a
@@ -28,7 +28,7 @@ export default function PageLineChart() {
           </Link>
           .
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}

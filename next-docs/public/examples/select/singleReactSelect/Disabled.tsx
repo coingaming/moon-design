@@ -17,24 +17,20 @@ const options = [
 ];
 
 const Example = () => (
-  <div className="pb-40 flex items-end flex-wrap ">
-    <div className="w-80 mr-4 ml-4 mb-8">
-      <Select
-        options={options}
-        label="Large"
-        placeholderSlot="Choose an option"
-        isDisabled={true}
-      />
-    </div>
-    <div className="w-80 mr-4 ml-4 mb-8">
-      <Select
-        options={options}
-        label="xLarge"
-        size="xLarge"
-        placeholderSlot="Choose an option"
-        isDisabled={true}
-      />
-    </div>
+  <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
+    <Select
+      options={options}
+      label="Large"
+      placeholderSlot="Choose an option"
+      isDisabled={true}
+    />
+    <Select
+      options={options}
+      label="xLarge"
+      size="xLarge"
+      placeholderSlot="Choose an option"
+      isDisabled={true}
+    />
   </div>
 );
 

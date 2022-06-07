@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
@@ -14,14 +15,13 @@ const PageAuthCodeGroup = () => {
 
   return (
     <>
-      <h1 className="text-moon-32 font-medium">AuthCode</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="AuthCode">
+        <p>
           The AuthCode component consists of TextInput components with
           additional logic that supports quick and easy one-time-password
           handling.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}

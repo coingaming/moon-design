@@ -14,16 +14,14 @@ const Dropdown = styled.ul({
 });
 
 const Example = () => (
-  <div className="w-full">
-    <Search
-      placeholder="Search"
-      results={
-        <Dropdown>
-          <li>Loading...</li>
-        </Dropdown>
-      }
-    />
-  </div>
+  <Search
+    placeholder="Search"
+    results={
+      <Dropdown>
+        <li>Loading...</li>
+      </Dropdown>
+    }
+  />
 );
 
 export default Example;

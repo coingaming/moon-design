@@ -1,5 +1,5 @@
-import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/button/Animations';
 import Disabled from '../../public/examples/button/Disabled';
@@ -13,18 +13,17 @@ const PageButton = () => {
   const examples = useExamples('button');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Button</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Button">
+        <p>
           Buttons are calls-to-action used to prompt users. They encourage users
           to interact with us in multiple ways throughout our galaxy, based on
           what the label of the button indicates.
         </p>
-        <p className="text-moon-16">
+        <p>
           Buttons are clickable elements with label text that describe the
           action that will happen when the users interact with it.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Variants"
         preview={<Variants />}

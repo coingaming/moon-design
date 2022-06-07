@@ -17,8 +17,8 @@ const options = [
 ];
 
 const Example = () => (
-  <div className="pb-40 flex items-end flex-wrap ">
-    <div className="w-80 mr-4 ml-4 mb-8">
+  <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
+    <div className="flex flex-col">
       <Select
         options={options}
         label="Large"
@@ -26,7 +26,7 @@ const Example = () => (
         hintSlot="Informative message holder"
       />
     </div>
-    <div className="w-80 mr-4 ml-4 mb-8">
+    <div className="flex flex-col">
       <Select
         options={options}
         label="xLarge"

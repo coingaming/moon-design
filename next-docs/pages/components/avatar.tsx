@@ -1,5 +1,5 @@
-import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import ActiveStatus from '../../public/examples/avatar/ActiveStatus';
 import Colours from '../../public/examples/avatar/Colours';
@@ -12,13 +12,14 @@ const PageAvatar = () => {
   const examples = useExamples('avatar');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Accordion</h1>
-      <p className="text-moon-16">
-        Avatars are used to represent an individual, a business, or a celestial
-        being when they interact with any Coingaming brand. While they usually
-        consist of an image, avatars are adaptable - letters or object icons may
-        sometimes be used as fallbacks.
-      </p>
+      <ComponentPageDescription title="Avatar">
+        <p>
+          Avatars are used to represent an individual, a business, or a
+          celestial being when they interact with any Coingaming brand. While
+          they usually consist of an image, avatars are adaptable - letters or
+          object icons may sometimes be used as fallbacks.
+        </p>
+      </ComponentPageDescription>
       <Preview
         title="Variants"
         preview={<Variants />}

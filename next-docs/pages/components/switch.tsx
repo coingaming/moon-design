@@ -1,4 +1,5 @@
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Buttons from '../../public/examples/switch/Buttons';
 import Default from '../../public/examples/switch/Default';
@@ -16,15 +17,14 @@ export default function PageSwitch({ isRtl }: Props) {
   const examples = useExamples('switch');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Switch</h1>
-      <div className="flex flex-col gap-2 max-w-screen-sm">
-        <p className="text-moon-16">
+      <ComponentPageDescription title="Switch">
+        <p>
           Switch is a control that is used to quickly switch between two
           possible states. Switches are only used for these binary actions that
           occur immediately after the user “flips” the switch. They are commonly
           used for “on/off” switches.
         </p>
-      </div>
+      </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}
