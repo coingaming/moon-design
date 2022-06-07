@@ -21,6 +21,11 @@ const Footer = () => (
             Medium
           </a>
         </Link>
+        <Link href="https://www.linkedin.com/company/moon-io/">
+          <a className="hover:underline" target="_blank" rel="noreferrer">
+            LinkedIn
+          </a>
+        </Link>
       </div>
     </div>
     <p>

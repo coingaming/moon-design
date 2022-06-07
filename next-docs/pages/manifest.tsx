@@ -15,11 +15,8 @@ const Manifest = () => (
       <div className="relative z-10 max-w-md">
         <SameDifferentSignature />
       </div>
-      <div className="fixed top-0 right-0 w-[650px] 2xl:w-[892px] translate-x-1/3 -translate-y-1/3">
-        <Image src={imageMoon} alt="Moon" />
-      </div>
     </div>
-    <div className="grow flex flex-row gap-12">
+    <div className="relative z-10 grow flex flex-row gap-12">
       <div className="self-end hidden md:block">
         <h2 className="text-moon-72 font-medium text-bulma">Why?</h2>
       </div>
@@ -72,6 +69,9 @@ const Manifest = () => (
           />
         </div>
       </div>
+    </div>
+    <div className="fixed top-0 right-0 w-[650px] 2xl:w-[892px] translate-x-1/3 -translate-y-1/3">
+      <Image src={imageMoon} alt="Moon" />
     </div>
   </>
 );

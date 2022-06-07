@@ -22,7 +22,7 @@ const VisionLayout: React.FC<{ children: React.ReactNode }> = ({
       <div className="theme-moon-dark min-h-screen bg-gohan flex-1 w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12">
         <div className="flex flex-col grow max-w-screen-xl">
           {/* Opens sidebar on mobile */}
-          <div className="lg:hidden flex flex-row align-center">
+          <div className="relative z-10 lg:hidden flex flex-row items-center">
             <button
               type="button"
               className="p-4 text-gray-500 focus:outline-none"
@@ -47,7 +47,7 @@ const VisionLayout: React.FC<{ children: React.ReactNode }> = ({
             </button>
             <Breadcrumbs />
           </div>
-          <div className="hidden lg:block">
+          <div className="relative z-10 hidden lg:block">
             <Breadcrumbs />
           </div>
           {/* TODO overflow-y-auto */}
