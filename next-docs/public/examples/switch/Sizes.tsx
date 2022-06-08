@@ -6,7 +6,7 @@ const Example = () => {
   const [state, setState] = useState(true);
 
   return (
-    <div className="flex gap-20 items-center">
+    <>
       <Switch
         id="test-switch-1"
         size="twoxsmall"
@@ -30,7 +30,7 @@ const Example = () => {
           setState(e.target.checked)
         }
       />
-    </div>
+    </>
   );
 };
 

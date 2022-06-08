@@ -21,17 +21,15 @@ const Example = () => {
   );
 
   return (
-    <div className="w-full flex flex-row gap-36">
-      <VerticalBarChart
-        title="Top Countries"
-        data={[]}
-        filter={filter}
-        hasUpdates={true}
-        onUpdate={() => {}}
-        onShare={() => {}}
-        onExpand={() => {}}
-      />
-    </div>
+    <VerticalBarChart
+      title="Top Countries"
+      data={[]}
+      filter={filter}
+      hasUpdates={true}
+      onUpdate={() => {}}
+      onShare={() => {}}
+      onExpand={() => {}}
+    />
   );
 };
 

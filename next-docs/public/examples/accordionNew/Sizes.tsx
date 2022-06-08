@@ -1,7 +1,7 @@
 import { Accordion } from '@heathmont/moon-core';
 
 const Example = () => (
-  <div className="flex flex-col gap-y-3">
+  <>
     <Accordion title="X Large (Default)" size="xlarge">
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -13,7 +13,6 @@ const Example = () => (
         mollit anim id est laborum.
       </div>
     </Accordion>
-
     <Accordion title="Large" size="large">
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -25,7 +24,6 @@ const Example = () => (
         mollit anim id est laborum.
       </div>
     </Accordion>
-
     <Accordion title="Medium">
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -37,7 +35,6 @@ const Example = () => (
         mollit anim id est laborum.
       </div>
     </Accordion>
-
     <Accordion title="Small" size="small">
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
@@ -49,7 +46,7 @@ const Example = () => (
         mollit anim id est laborum.
       </div>
     </Accordion>
-  </div>
+  </>
 );
 
 export default Example;

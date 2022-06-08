@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
+import { ControlsChevronRight } from '@heathmont/moon-icons-tw';
 import classNames from '../private/utils/classnames';
-import ControlsChevronRight from './private/icons/ControlsChevronRight';
 import setFont from './private/utils/setFont';
 import setMargin from './private/utils/setMargin';
 import setOpenIcon from './private/utils/setOpenIcon';

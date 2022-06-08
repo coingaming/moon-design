@@ -2,21 +2,21 @@ import React from 'react';
 import { ProgressCircular } from '@heathmont/moon-components';
 
 const Example = () => (
-  <div className="flex justify-around items-center w-full">
+  <>
     <ProgressCircular
       value={30}
-      fontSize="5rem"
+      fontSize="1rem"
       strokeWidth={12}
       isRtl={true}
     />
     <ProgressCircular
       value={40}
-      fontSize="8rem"
+      fontSize="2rem"
       strokeWidth={12}
       isRtl={true}
     />
-    <ProgressCircular value={60} fontSize="5rem" strokeWidth={2} isRtl={true} />
-  </div>
+    <ProgressCircular value={60} fontSize="3rem" strokeWidth={2} isRtl={true} />
+  </>
 );
 
 export default Example;

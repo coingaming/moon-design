@@ -9,167 +9,151 @@ exports[`Caption renders 1`] = `
 `;
 
 exports[`Caption renders colors 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <p
     className="sc-cQIpJi grZAKh"
   >
     Default color is Bulma
-  </p>
+  </p>,
   <p
     className="sc-cQIpJi bcuSGs"
     color="piccolo.100"
   >
     Piccolo
-  </p>
+  </p>,
   <p
     className="sc-cQIpJi jfVvGS"
     color="trunks.100"
   >
     Trunks
-  </p>
+  </p>,
   <p
     className="sc-cQIpJi bjPfwM"
     color="krillin.100"
   >
     Krillin
-  </p>
-</div>
+  </p>,
+]
 `;
 
 exports[`Caption renders font-weight 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <p
     className="sc-cQIpJi grZAKh"
   >
     Default font-weight is regular
-  </p>
+  </p>,
   <p
     className="sc-cQIpJi gDInrz"
   >
     Font-weight is bold
-  </p>
-</div>
+  </p>,
+]
 `;
 
 exports[`Caption renders line height 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <p
     className="sc-cQIpJi grZAKh"
   >
     Line-height is pre-calculated
-  </p>
+  </p>,
   <p
     className="sc-cQIpJi hfwaac"
   >
     Custon line-height
-  </p>
-</div>
+  </p>,
+]
 `;
 
 exports[`Caption renders semantic tags 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <p
     className="sc-cQIpJi grZAKh"
   >
     Paragraph is a default tag
-  </p>
+  </p>,
   <span
     className="sc-cQIpJi grZAKh"
   >
     Span tag
-  </span>
+  </span>,
   <label
     className="sc-cQIpJi grZAKh"
   >
     Label tag
-  </label>
-</div>
+  </label>,
+]
 `;
 
 exports[`Caption renders sizes 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <p
     className="sc-cQIpJi grZAKh"
   >
     Default font-size is 16px
-  </p>
+  </p>,
   <p
     className="sc-cQIpJi kqIOme"
     size={24}
   >
     Size is 24px
-  </p>
+  </p>,
   <p
     className="sc-cQIpJi CJvwe"
     size={48}
   >
     Size is 48px
-  </p>
-</div>
+  </p>,
+]
 `;
 
 exports[`Caption renders text-align 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <p
     className="sc-cQIpJi grZAKh"
   >
     Text-align is not specified
-  </p>
+  </p>,
   <p
     className="sc-cQIpJi ivIGde"
   >
     Centered Text
-  </p>
+  </p>,
   <p
     className="sc-cQIpJi fXRymB"
   >
     Right alignment
-  </p>
-</div>
+  </p>,
+]
 `;
 
 exports[`Caption renders underline 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <p
     className="sc-cQIpJi grZAKh"
   >
     Default text-decoration is none
-  </p>
+  </p>,
   <p
     className="sc-cQIpJi enwgBM"
   >
     Underline Text
-  </p>
-</div>
+  </p>,
+]
 `;
 
 exports[`Caption renders uppercase 1`] = `
-<div
-  className="flex justify-around w-full items-center"
->
+Array [
   <p
     className="sc-cQIpJi grZAKh"
   >
     Default text-transform is none
-  </p>
+  </p>,
   <p
     className="sc-cQIpJi jJyENq"
   >
     Uppercase Text
-  </p>
-</div>
+  </p>,
+]
 `;

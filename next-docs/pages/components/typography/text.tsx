@@ -1,5 +1,5 @@
-import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../../components/codePreview/Preview';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import Colors from '../../../public/examples/text/Colors';
 import FontWeight from '../../../public/examples/text/FontWeight';
@@ -15,83 +15,53 @@ const PageText = () => {
   const examples = useExamples('text');
   return (
     <>
-      <section className="grid gap-4 mt-8">
-        <Heading as="h1" size={48}>
-          Text
-        </Heading>
-        <Text>
+      <ComponentPageDescription title="Text">
+        <p>
           By default Text renders as Paragpaph tag with Bulma color, regular
           font-weight, and size of 16px.
-        </Text>
-        <Text>
-          We treat semantics and visuals as two totally separate things.
-        </Text>
-      </section>
-      {/* Colors */}
-      <section className="mt-8">
-        <Preview
-          title="Colors"
-          preview={<Colors />}
-          code={examples ? examples.Colors : 'Loading'}
-        />
-      </section>
-      {/* Sizes */}
-      <section className="mt-8">
-        <Preview
-          title="Sizes"
-          preview={<Sizes />}
-          code={examples ? examples.Sizes : 'Loading'}
-        />
-      </section>
-      {/* Font Weight */}
-      <section className="mt-8">
-        <Preview
-          title="Font Weight"
-          preview={<FontWeight />}
-          code={examples ? examples.FontWeight : 'Loading'}
-        />
-      </section>
-      {/* Text Align */}
-      <section className="mt-8">
-        <Preview
-          title="Text Align"
-          preview={<TextAlign />}
-          code={examples ? examples.TextAlign : 'Loading'}
-        />
-      </section>
-      {/* Uppercase */}
-      <section className="mt-8">
-        <Preview
-          title="Uppercase"
-          preview={<Uppercase />}
-          code={examples ? examples.Uppercase : 'Loading'}
-        />
-      </section>
-      {/* Underline */}
-      <section className="mt-8">
-        <Preview
-          title="Underline"
-          preview={<Underline />}
-          code={examples ? examples.Underline : 'Loading'}
-        />
-      </section>
-      {/* Line height */}
-      <section className="mt-8">
-        <Preview
-          title="Line height"
-          preview={<LineHeight />}
-          code={examples ? examples.LineHeight : 'Loading'}
-        />
-      </section>
-      {/* Semantic tags */}
-      <section className="mt-8">
-        <Preview
-          title="Semantic tags"
-          preview={<SemanticTags />}
-          code={examples ? examples.SemanticTags : 'Loading'}
-        />
-      </section>
-
+        </p>
+        <p>We treat semantics and visuals as two totally separate things.</p>
+      </ComponentPageDescription>
+      <Preview
+        title="Colors"
+        preview={<Colors />}
+        code={examples ? examples.Colors : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Font Weight"
+        preview={<FontWeight />}
+        code={examples ? examples.FontWeight : 'Loading'}
+      />
+      <Preview
+        title="Text Align"
+        preview={<TextAlign />}
+        code={examples ? examples.TextAlign : 'Loading'}
+      />
+      <Preview
+        title="Uppercase"
+        preview={<Uppercase />}
+        code={examples ? examples.Uppercase : 'Loading'}
+      />
+      <Preview
+        title="Underline"
+        preview={<Underline />}
+        code={examples ? examples.Underline : 'Loading'}
+      />
+      <Preview
+        title="Line height"
+        preview={<LineHeight />}
+        code={examples ? examples.LineHeight : 'Loading'}
+      />
+      <Preview
+        title="Semantic tags"
+        preview={<SemanticTags />}
+        code={examples ? examples.SemanticTags : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

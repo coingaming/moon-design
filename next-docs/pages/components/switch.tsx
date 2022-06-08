@@ -1,4 +1,5 @@
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Buttons from '../../public/examples/switch/Buttons';
 import Default from '../../public/examples/switch/Default';
@@ -14,69 +15,46 @@ type Props = {
 
 export default function PageSwitch({ isRtl }: Props) {
   const examples = useExamples('switch');
-
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Switch</h1>
-        <p className="text-lg mt-4">
+      <ComponentPageDescription title="Switch">
+        <p>
           Switch is a control that is used to quickly switch between two
           possible states. Switches are only used for these binary actions that
           occur immediately after the user “flips” the switch. They are commonly
           used for “on/off” switches.
         </p>
-      </section>
-
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title="Default"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      {/* Sizes */}
-      <section className="mt-8">
-        <Preview
-          title="Sizes"
-          preview={<Sizes />}
-          code={examples ? examples.Sizes : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Dark &amp; Light mode"
-          preview={<Theme />}
-          code={examples ? examples.Theme : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Disabled"
-          preview={<Disabled />}
-          code={examples ? examples.Disabled : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Buttons"
-          preview={<Buttons />}
-          code={examples ? examples.Buttons : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Right to left"
-          preview={<Rtl />}
-          code={examples ? examples.Rtl : 'Loading'}
-        />
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Dark &amp; Light mode"
+        preview={<Theme />}
+        code={examples ? examples.Theme : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="Buttons"
+        preview={<Buttons />}
+        code={examples ? examples.Buttons : 'Loading'}
+      />
+      <Preview
+        title="Right to left"
+        preview={<Rtl />}
+        code={examples ? examples.Rtl : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

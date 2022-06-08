@@ -9,7 +9,7 @@ const Breadcrumbs = () => {
   }
   return (
     <nav aria-label="Breadcrumb">
-      <ol className="flex flex-wrap pb-12 gap-2 items-center text-moon-12">
+      <ol className="flex flex-wrap lg:pb-12 gap-2 items-center text-moon-12">
         <li className="flex items-center gap-2 text-trunks transition-colors duration-200 hover:text-bulma">
           <Link href="/">
             <a>Moon.io</a>

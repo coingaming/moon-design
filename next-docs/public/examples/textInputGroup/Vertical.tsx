@@ -27,7 +27,7 @@ const Example = () => {
   };
 
   return (
-    <div className="flex items-center gap-8 flex-wrap w-full justify-center ps-40 pe-40 flex-col">
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <TextInputGroup
         orientation="vertical"
         inputProps={{

@@ -13,6 +13,7 @@ const navigation = [
   {
     name: 'Tailwind',
     children: [
+      { name: 'Avatar', href: '/core/avatar' },
       { name: 'Accordion', href: '/core/accordion' },
       { name: 'Button', href: '/core/button' },
       { name: 'Checkbox', href: '/core/checkbox' },
@@ -22,6 +23,7 @@ const navigation = [
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInput Group', href: '/core/textInputGroup' },
       { name: 'Typography', href: '/core/typography' },
+      { name: 'Icons', href: '/core/icons' },
     ],
   },
   {
@@ -101,7 +103,7 @@ const navigation = [
       // { name: 'Sidebar', href: '/components/sidebar' }, // Uncomment only if you want to check how it looks
       { name: 'Switch', href: '/components/switch' },
       { name: 'Tabs', href: '/components/tabs' },
-      { name: 'Table', href: '/components/table/table' },
+      { name: 'Table', href: '/components/table' },
       {
         name: 'TextInput',
         children: [

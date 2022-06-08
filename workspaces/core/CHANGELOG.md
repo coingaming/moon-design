@@ -1,5 +1,13 @@
 # @heathmont/moon-core-tw
 
+## 9.1.1
+
+### Patch Changes
+
+- Fix select icons
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.1.1
+
 ## 9.1.0
 
 ### Minor Changes

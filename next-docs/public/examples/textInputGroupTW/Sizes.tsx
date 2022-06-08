@@ -38,31 +38,25 @@ const Example = () => {
     placeholder: 'Phone',
   };
   return (
-    <div className="flex flex-col gap-4">
-      <div>
-        <TextInputGroup
-          inputProps={{
-            input1: inputProps1,
-            input2: inputProps2,
-          }}
-        />
-      </div>
-      <div>
-        <TextInputGroup
-          inputProps={{
-            input1: inputProps3,
-            input2: inputProps4,
-          }}
-        />
-      </div>
-      <div>
-        <TextInputGroup
-          inputProps={{
-            input1: inputProps5,
-            input2: inputProps6,
-          }}
-        />
-      </div>
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
+      <TextInputGroup
+        inputProps={{
+          input1: inputProps1,
+          input2: inputProps2,
+        }}
+      />
+      <TextInputGroup
+        inputProps={{
+          input1: inputProps3,
+          input2: inputProps4,
+        }}
+      />
+      <TextInputGroup
+        inputProps={{
+          input1: inputProps5,
+          input2: inputProps6,
+        }}
+      />
     </div>
   );
 };

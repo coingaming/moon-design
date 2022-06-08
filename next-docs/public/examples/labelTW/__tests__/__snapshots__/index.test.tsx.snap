@@ -1,39 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Label renders with different Colours 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <div
     className="flex items-center rounded-moon-i-xs leading-4 py-1 
   pr-2 
   pl-2 uppercase font-medium text-[0.625rem] tracking-[0.063rem] text-gohan bg-bulma"
   >
     Xsmall
-  </div>
+  </div>,
   <div
     className="flex items-center rounded-moon-i-xs leading-4 py-1 
   pr-2 
   pl-2 uppercase font-medium text-[0.625rem] tracking-[0.063rem] text-goten bg-trunks"
   >
     Xsmall
-  </div>
+  </div>,
   <div
     className="flex items-center rounded-moon-i-xs leading-4 py-1 
   pr-2 
   pl-2 uppercase font-medium text-[0.625rem] tracking-[0.063rem] text-goten bg-dodoria"
   >
     Xsmall
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Label renders with different Icons 1`] = `
-<div
-  className="flex flex-col justify-around items-center w-full"
->
+Array [
   <div
-    className="flex justify-around items-center w-full mb-4 ms-[4px]"
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
       className="flex items-center rounded-moon-i-xs leading-4 py-0 
@@ -44,7 +40,6 @@ exports[`Label renders with different Icons 1`] = `
         className="me-1 text-[0.75rem]"
       >
         <svg
-          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -71,7 +66,6 @@ exports[`Label renders with different Icons 1`] = `
         className="ms-1 text-[0.75rem]"
       >
         <svg
-          className="sc-jgbSNz"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -96,7 +90,6 @@ exports[`Label renders with different Icons 1`] = `
         className="me-1 text-[0.75rem]"
       >
         <svg
-          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -116,7 +109,6 @@ exports[`Label renders with different Icons 1`] = `
         className="ms-1 text-[0.75rem]"
       >
         <svg
-          className="sc-jgbSNz"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -132,9 +124,9 @@ exports[`Label renders with different Icons 1`] = `
         </svg>
       </span>
     </div>
-  </div>
+  </div>,
   <div
-    className="flex justify-around items-center w-full"
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
       className="flex items-center rounded-moon-i-xs leading-4 py-1 
@@ -145,7 +137,6 @@ exports[`Label renders with different Icons 1`] = `
         className="me-1 text-[1rem]"
       >
         <svg
-          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -172,7 +163,6 @@ exports[`Label renders with different Icons 1`] = `
         className="ms-1 text-[1rem]"
       >
         <svg
-          className="sc-jgbSNz"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -197,7 +187,6 @@ exports[`Label renders with different Icons 1`] = `
         className="me-1 text-[1rem]"
       >
         <svg
-          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -217,7 +206,6 @@ exports[`Label renders with different Icons 1`] = `
         className="ms-1 text-[1rem]"
       >
         <svg
-          className="sc-jgbSNz"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -233,62 +221,58 @@ exports[`Label renders with different Icons 1`] = `
         </svg>
       </span>
     </div>
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Label renders with different LetterCases 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <div
     className="flex items-center rounded-moon-i-xs leading-4 py-1 
   pr-2 
   pl-2 uppercase font-medium text-[0.625rem] tracking-[0.063rem] text-gohan bg-bulma"
   >
     Default
-  </div>
+  </div>,
   <div
     className="flex items-center rounded-moon-i-xs leading-4 py-1 
   pr-2 
   pl-2 text-[0.75rem] tracking-[0.063rem] text-gohan bg-bulma"
   >
     Lowercase
-  </div>
-</div>
+  </div>,
+]
 `;
 
 exports[`Label renders with different Sizes 1`] = `
-<div
-  className="flex justify-around items-center w-full"
->
+Array [
   <div
     className="flex items-center rounded-moon-i-xs leading-4 py-0 
   pr-2 
   pl-2 uppercase font-medium text-[0.563rem] tracking-[0.031rem] text-gohan bg-bulma"
   >
     Twoxsmall (2xs)
-  </div>
+  </div>,
   <div
     className="flex items-center rounded-moon-i-xs leading-4 py-1 
   pr-2 
   pl-2 uppercase font-medium text-[0.625rem] tracking-[0.063rem] text-gohan bg-bulma"
   >
     Xsmall (sm)
-  </div>
+  </div>,
   <div
     className="flex items-center rounded-moon-i-xs leading-4 py-0 
   pr-2 
   pl-2 text-[0.625rem] tracking-[0.063rem] text-gohan bg-bulma"
   >
     Twoxsmall (2xs)
-  </div>
+  </div>,
   <div
     className="flex items-center rounded-moon-i-xs leading-4 py-1 
   pr-2 
   pl-2 text-[0.75rem] tracking-[0.063rem] text-gohan bg-bulma"
   >
     Xsmall (sm)
-  </div>
-</div>
+  </div>,
+]
 `;

@@ -17,7 +17,7 @@ const Preview = ({ title, preview, code }: Props) => {
     if (navigator?.clipboard) navigator.clipboard.writeText(code ? code : '');
   };
   return (
-    <div className="flex flex-col gap-6">
+    <section className="flex flex-col gap-6">
       <div className="flex flex-row items-center justify-between">
         <h2 className="text-moon-24 font-medium">{title}</h2>
         <PreviewSwitch
@@ -34,12 +34,14 @@ const Preview = ({ title, preview, code }: Props) => {
         )}
       >
         {isPreviewActive ? (
-          <>{preview}</>
+          <div className="flex flex-wrap items-center justify-around gap-2 w-full">
+            {preview}
+          </div>
         ) : (
           <>{code && <CodeSnippet>{code}</CodeSnippet>}</>
         )}
       </div>
-    </div>
+    </section>
   );
 };
 

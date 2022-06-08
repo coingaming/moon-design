@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
@@ -14,65 +15,43 @@ const PageAuthCodeGroup = () => {
 
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">AuthCode</h1>
-        <p className="text-lg mt-4">
-          <h3>
-            The AuthCode component consists of TextInput components with
-            additional logic that supports quick and easy one-time-password
-            handling.
-          </h3>
+      <ComponentPageDescription title="AuthCode">
+        <p>
+          The AuthCode component consists of TextInput components with
+          additional logic that supports quick and easy one-time-password
+          handling.
         </p>
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Default"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Custom length"
-          preview={<FourChars />}
-          code={examples ? examples.FourChars : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Only digits"
-          preview={<OnlyDigits />}
-          code={examples ? examples.OnlyDigits : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Error state"
-          preview={<ErrorState />}
-          code={examples ? examples.ErrorState : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Error state position"
-          preview={<ErrorStateCentered />}
-          code={examples ? examples.ErrorStateCentered : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Stretch"
-          preview={<Stretch />}
-          code={examples ? examples.Stretch : 'Loading'}
-        />
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Custom length"
+        preview={<FourChars />}
+        code={examples ? examples.FourChars : 'Loading'}
+      />
+      <Preview
+        title="Only digits"
+        preview={<OnlyDigits />}
+        code={examples ? examples.OnlyDigits : 'Loading'}
+      />
+      <Preview
+        title="Error state"
+        preview={<ErrorState />}
+        code={examples ? examples.ErrorState : 'Loading'}
+      />
+      <Preview
+        title="Error state position"
+        preview={<ErrorStateCentered />}
+        code={examples ? examples.ErrorStateCentered : 'Loading'}
+      />
+      <Preview
+        title="Stretch"
+        preview={<Stretch />}
+        code={examples ? examples.Stretch : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

@@ -1,8 +1,10 @@
-// @ts-nocheck
 import React from 'react';
 import { ChartIcons } from '@heathmont/moon-charts';
+import Link from 'next/link';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import PageSection from '../../../components/PageSection';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/charts/pieChart/Default';
 import Loading from '../../../public/examples/charts/pieChart/Loading';
@@ -13,26 +15,26 @@ export default function PageLineChart() {
 
   return (
     <>
-      <section className="mt-8">
-        <h1 className="text-5xl font-medium">Pie chart</h1>
-        <p className="text-lg mt-4">
+      <ComponentPageDescription title="Pie">
+        <p>
           Based on{' '}
-          <a className="underline" href="https://recharts.org/en-US/">
-            Recharts
-          </a>
+          <Link href="https://recharts.org/en-US/">
+            <a
+              className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Recharts
+            </a>
+          </Link>
           .
         </p>
-      </section>
-
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title="Default"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[
@@ -122,28 +124,21 @@ export default function PageLineChart() {
           },
         ]}
       />
-
-      <section className="mt-8">
-        <h2 className="text-2xl">Types</h2>
-        <section className="mt-4">
-          <CodeSnippet>
-            {`Data {
+      <PageSection title="Types">
+        <CodeSnippet>
+          {`Data {
   label: string
   value: number
   color: ColorProps
   dataKey: string
 }`}
-          </CodeSnippet>
-        </section>
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Loading"
-          preview={<Loading />}
-          code={examples ? examples.Loading : 'Loading'}
-        />
-      </section>
+        </CodeSnippet>
+      </PageSection>
+      <Preview
+        title="Loading"
+        preview={<Loading />}
+        code={examples ? examples.Loading : 'Loading'}
+      />
     </>
   );
 }

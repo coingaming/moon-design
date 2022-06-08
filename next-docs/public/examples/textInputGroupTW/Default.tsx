@@ -15,14 +15,12 @@ const Example = () => {
   };
 
   return (
-    <div className="flex justify-around items-end w-full gap-2">
-      <TextInputGroup
-        inputProps={{
-          input1: inputProps1,
-          input2: inputProps2,
-        }}
-      />
-    </div>
+    <TextInputGroup
+      inputProps={{
+        input1: inputProps1,
+        input2: inputProps2,
+      }}
+    />
   );
 };
 

@@ -42,23 +42,19 @@ const Example = () => {
   }, [ref1, ref2]);
 
   return (
-    <div className="flex flex-col gap-3">
+    <div className="flex flex-col justify-around items-center w-full gap-2">
       <TextInputGroup
         inputProps={{
           input1: inputProps1,
           input2: inputProps2,
         }}
       />
-      <div>
-        <Label size="xsmall" backgroundColor="bg-trunks">
-          Country: {country}
-        </Label>
-      </div>
-      <div>
-        <Label size="xsmall" backgroundColor="bg-trunks">
-          Phone: {phone}
-        </Label>
-      </div>
+      <Label size="xsmall" backgroundColor="bg-trunks">
+        Country: {country}
+      </Label>
+      <Label size="xsmall" backgroundColor="bg-trunks">
+        Phone: {phone}
+      </Label>
     </div>
   );
 };

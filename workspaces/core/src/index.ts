@@ -4,6 +4,8 @@
 
 export { default as Accordion } from './accordion/Accordion';
 export * from './accordion/Accordion';
+export { default as Avatar } from './avatar/Avatar';
+export * from './avatar/Avatar';
 export { default as Button } from './button/Button';
 export * from './button/Button';
 export { default as Checkbox } from './checkbox/Checkbox';

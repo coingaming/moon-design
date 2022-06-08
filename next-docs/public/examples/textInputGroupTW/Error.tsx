@@ -15,7 +15,7 @@ const Example = () => {
     placeholder: 'Email',
   };
   return (
-    <div className="flex justify-around items-end w-full gap-2">
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <TextInputGroup
         inputProps={{
           input1: inputProps1,

@@ -1,5 +1,5 @@
-import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/checkbox/Checked';
 import Default from '../../public/examples/checkbox/Default';
@@ -12,61 +12,42 @@ const PageAccordion = () => {
   const examples = useExamples('checkbox');
   return (
     <>
-      <section className="grid gap-4 mt-8">
-        <Heading as="h1" size={48}>
-          Checkbox
-        </Heading>
-        <Text>
+      <ComponentPageDescription title="Checkbox">
+        <p>
           Checkboxes are used as a list in our forms and signup pages so users
           can select options of their choice. Users are free to choose how many
           options to select, from zero to all of them.
-        </Text>
-        <Text>
+        </p>
+        <p>
           As each checkbox is independent, this means that additional checkboxes
           do not affect any other selections… or planets.
-        </Text>
-      </section>
-      {/* Default */}
-      <section className="mt-8">
-        <Preview
-          title="Checkbox"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-      {/* Checked */}
-      <section className="mt-8">
-        <Preview
-          title="Checked"
-          preview={<Checked />}
-          code={examples ? examples.Checked : 'Loading'}
-        />
-      </section>
-      {/* No label */}
-      <section className="mt-8">
-        <Preview
-          title="No label"
-          preview={<NoLabel />}
-          code={examples ? examples.NoLabel : 'Loading'}
-        />
-      </section>
-      {/* Disabled */}
-      <section className="mt-8">
-        <Preview
-          title="Disabled"
-          preview={<Disabled />}
-          code={examples ? examples.Disabled : 'Loading'}
-        />
-      </section>
-      {/* Readonly */}
-      <section className="mt-8">
-        <Preview
-          title="Readonly"
-          preview={<Readonly />}
-          code={examples ? examples.Readonly : 'Loading'}
-        />
-      </section>
-
+        </p>
+      </ComponentPageDescription>
+      <Preview
+        title="Checkbox"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Checked"
+        preview={<Checked />}
+        code={examples ? examples.Checked : 'Loading'}
+      />
+      <Preview
+        title="No label"
+        preview={<NoLabel />}
+        code={examples ? examples.NoLabel : 'Loading'}
+      />
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="Readonly"
+        preview={<Readonly />}
+        code={examples ? examples.Readonly : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

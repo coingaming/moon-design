@@ -1,5 +1,5 @@
-import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/examples/label/Colours';
 import Icons from '../../public/examples/label/Icons';
@@ -11,58 +11,38 @@ const PageLabel = () => {
   const examples = useExamples('label');
   return (
     <>
-      <section className="grid gap-4 mt-8">
-        <Heading as="h1" size={48}>
-          Label
-        </Heading>
-        <Text>
+      <ComponentPageDescription title="Label">
+        <p>
           Use tags to label, categorize, or organize items using keywords that
           describe them.
-        </Text>
-        <Text>Multiple or single tags can be used to categorize items.</Text>
-        <Text>
+        </p>
+        <p>Multiple or single tags can be used to categorize items.</p>
+        <p>
           Use short labels for easy scanning. Use two words only if necessary to
           describe the status and differentiate it from other tags.
-        </Text>
-        <Text>Default text style: Uppercase</Text>
-      </section>
-
-      {/* Colours */}
-      <section className="mt-8">
-        <Preview
-          title="Colours"
-          preview={<Colours />}
-          code={examples ? examples.Colours : 'Loading'}
-        />
-      </section>
-
-      {/* Sizes */}
-      <section className="mt-8">
-        <Preview
-          title="Sizes"
-          preview={<Sizes />}
-          code={examples ? examples.Sizes : 'Loading'}
-        />
-      </section>
-
-      {/* Icons */}
-      <section className="mt-8">
-        <Preview
-          title="Label with icons"
-          preview={<Icons />}
-          code={examples ? examples.Icons : 'Loading'}
-        />
-      </section>
-
-      {/* Letter cases */}
-      <section className="mt-8">
-        <Preview
-          title="Letter cases"
-          preview={<LetterCases />}
-          code={examples ? examples.LetterCases : 'Loading'}
-        />
-      </section>
-
+        </p>
+        <p>Default text style: Uppercase</p>
+      </ComponentPageDescription>
+      <Preview
+        title="Colours"
+        preview={<Colours />}
+        code={examples ? examples.Colours : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Label with icons"
+        preview={<Icons />}
+        code={examples ? examples.Icons : 'Loading'}
+      />
+      <Preview
+        title="Letter cases"
+        preview={<LetterCases />}
+        code={examples ? examples.LetterCases : 'Loading'}
+      />
       <PropsTable
         title="Props for Label component"
         data={[

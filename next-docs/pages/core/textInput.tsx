@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import Bg from '../../public/examples/textInputTW/Bg';
 import Date from '../../public/examples/textInputTW/Date';
 import DateTime from '../../public/examples/textInputTW/DateTime';
@@ -22,150 +23,109 @@ import useExamples from '../../utils/useExamples';
 const Example = () => {
   const examples = useExamples('textInputTW');
   return (
-    <div className="theme-moon-light">
-      <section className="mt-8">
-        <Preview
-          title="Sizes"
-          preview={<Sizes />}
-          code={examples ? examples.Sizes : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-12 text-3xl font-medium opacity-moon text-center">
-        Text Input Types
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Number"
-          preview={<Number />}
-          code={examples ? examples.Number : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Date"
-          preview={<Date />}
-          code={examples ? examples.Date : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Time"
-          preview={<Time />}
-          code={examples ? examples.Time : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Date Time"
-          preview={<DateTime />}
-          code={examples ? examples.DateTime : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Email"
-          preview={<Email />}
-          code={examples ? examples.Email : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Password"
-          preview={<Password />}
-          code={examples ? examples.Password : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Search"
-          preview={<Search />}
-          code={examples ? examples.Search : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Telephone"
-          preview={<Telephone />}
-          code={examples ? examples.Telephone : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Url"
-          preview={<Url />}
-          code={examples ? examples.Url : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-12 text-3xl font-medium opacity-moon text-center">
-        Text Input Attribute
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Disabled"
-          preview={<Disabled />}
-          code={examples ? examples.Disabled : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Error"
-          preview={<Error />}
-          code={examples ? examples.Error : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Readonly"
-          preview={<Readonly />}
-          code={examples ? examples.Readonly : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Sizes RTL"
-          preview={<SizesRTL />}
-          code={examples ? examples.SizesRTL : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Without Label"
-          preview={<WithoutLabel />}
-          code={examples ? examples.WithoutLabel : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Hint message"
-          preview={<Hint />}
-          code={examples ? examples.Hint : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Input with background color"
-          preview={<Bg />}
-          code={examples ? examples.Bg : 'Loading'}
-        />
-      </section>
-    </div>
+    <>
+      <ComponentPageDescription title="TextInput">
+        <p>
+          Indeed, forms require input from all users, including astronauts. Text
+          input fields help to gather both short and long-form information. The
+          size of the text field should correspond to the length of information
+          that's required.
+        </p>
+        <p>
+          Text input fields can contain various rules to ensure the right
+          information is obtained from users. Users should also be given prompts
+          to guide them on what's needed, or if they've made an error while
+          doing so.
+        </p>
+      </ComponentPageDescription>
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <h3 className="text-moon-32 font-medium">Text input types</h3>
+      <Preview
+        title="Number"
+        preview={<Number />}
+        code={examples ? examples.Number : 'Loading'}
+      />
+      <Preview
+        title="Date"
+        preview={<Date />}
+        code={examples ? examples.Date : 'Loading'}
+      />
+      <Preview
+        title="Time"
+        preview={<Time />}
+        code={examples ? examples.Time : 'Loading'}
+      />
+      <Preview
+        title="Date Time"
+        preview={<DateTime />}
+        code={examples ? examples.DateTime : 'Loading'}
+      />
+      <Preview
+        title="Email"
+        preview={<Email />}
+        code={examples ? examples.Email : 'Loading'}
+      />
+      <Preview
+        title="Password"
+        preview={<Password />}
+        code={examples ? examples.Password : 'Loading'}
+      />
+      <Preview
+        title="Search"
+        preview={<Search />}
+        code={examples ? examples.Search : 'Loading'}
+      />
+      <Preview
+        title="Telephone"
+        preview={<Telephone />}
+        code={examples ? examples.Telephone : 'Loading'}
+      />
+      <Preview
+        title="Url"
+        preview={<Url />}
+        code={examples ? examples.Url : 'Loading'}
+      />
+      <h3 className="text-moon-32 font-medium">Text input attributes</h3>
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="Error"
+        preview={<Error />}
+        code={examples ? examples.Error : 'Loading'}
+      />
+      <Preview
+        title="Readonly"
+        preview={<Readonly />}
+        code={examples ? examples.Readonly : 'Loading'}
+      />
+      <Preview
+        title="Sizes RTL"
+        preview={<SizesRTL />}
+        code={examples ? examples.SizesRTL : 'Loading'}
+      />
+      <Preview
+        title="Without Label"
+        preview={<WithoutLabel />}
+        code={examples ? examples.WithoutLabel : 'Loading'}
+      />
+      <Preview
+        title="Hint message"
+        preview={<Hint />}
+        code={examples ? examples.Hint : 'Loading'}
+      />
+      <Preview
+        title="Input with background color"
+        preview={<Bg />}
+        code={examples ? examples.Bg : 'Loading'}
+      />
+    </>
   );
 };
 

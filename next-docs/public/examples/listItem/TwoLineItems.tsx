@@ -6,15 +6,13 @@ const SubText: React.FC = () => (
 );
 
 const Example = () => (
-  <div className="flex justify-around items-center w-full min-w-min flex-wrap">
-    <div className="min-w-full sm:min-w-min mb-2">
-      <ListItem subtext={<SubText />}>Two lines item</ListItem>
-    </div>
-    <div className="sm:w-96">
-      <ListItem backgroundColor="goku.100" subtext={<SubText />}>
-        Two lines item
-      </ListItem>
-    </div>
+  <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
+    <ListItem backgroundColor="gohan.100" subtext={<SubText />}>
+      Two lines item
+    </ListItem>
+    <ListItem backgroundColor="gohan.100" subtext={<SubText />}>
+      Two lines item
+    </ListItem>
   </div>
 );
 

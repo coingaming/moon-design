@@ -12,23 +12,15 @@ const ExampleContent = styled.div(({ theme: { color, newTokens } }) => ({
   justifyContent: 'center',
 }));
 
-const Container = styled.div({
-  maxWidth: rem(600),
-});
-
 const Example = () => {
   const items = Array.from({ length: 25 }, (index) => index);
   return (
-    <div className="flex justify-around items-center w-full">
-      <Container>
-        <Carousel
-          scrollTo={5}
-          items={items.map((item, index) => (
-            <ExampleContent>{index}</ExampleContent>
-          ))}
-        />
-      </Container>
-    </div>
+    <Carousel
+      scrollTo={5}
+      items={items.map((item, index) => (
+        <ExampleContent>{index}</ExampleContent>
+      ))}
+    />
   );
 };
 

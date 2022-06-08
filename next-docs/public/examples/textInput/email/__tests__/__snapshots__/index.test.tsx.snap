@@ -2,450 +2,390 @@
 
 exports[`TextInput: type Email renders disabled 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX btMRNz"
+    disabled={true}
+    placeholder=" "
+    type="email"
+    value="jake.weary@sportsbet.io"
   >
-    <div
-      className="sc-iOnGvX btMRNz"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL JOvHL"
       disabled={true}
       placeholder=" "
       type="email"
       value="jake.weary@sportsbet.io"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX btMRNz"
+    disabled={true}
+    placeholder=" "
+    type="email"
+    value="jake.weary@sportsbet.io"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      large
+    </label>
+    <input
+      className="sc-goMRkL gsTWKg"
+      disabled={true}
+      placeholder=" "
+      type="email"
+      value="jake.weary@sportsbet.io"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX btMRNz"
+    disabled={true}
+    placeholder=" "
+    type="email"
+    value="jake.weary@sportsbet.io"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL JOvHL"
+        className="sc-goMRkL ubFMP"
         disabled={true}
         placeholder=" "
         type="email"
         value="jake.weary@sportsbet.io"
       />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX btMRNz"
-      disabled={true}
-      placeholder=" "
-      type="email"
-      value="jake.weary@sportsbet.io"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gsTWKg"
-        disabled={true}
-        placeholder=" "
-        type="email"
-        value="jake.weary@sportsbet.io"
-      />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
     </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX btMRNz"
-      disabled={true}
-      placeholder=" "
-      type="email"
-      value="jake.weary@sportsbet.io"
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL ubFMP"
-          disabled={true}
-          placeholder=" "
-          type="email"
-          value="jake.weary@sportsbet.io"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
+      Informative message holder
+    </p>
   </div>
 </div>
 `;
 
 exports[`TextInput: type Email renders error 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL kDWyPF"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
+    />
+    <p
+      className="sc-VcoSR jatpWO"
+      role="alert"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      Error message
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      large
+    </label>
+    <input
+      className="sc-goMRkL fWoZBG"
+      placeholder="e.g. jake.weary@sportsbet.io"
+      type="email"
+    />
+    <p
+      className="sc-VcoSR jatpWO"
+      role="alert"
+    >
+      Error message
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL kDWyPF"
+        className="sc-goMRkL tiNjh"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
-      <p
-        className="sc-VcoSR jatpWO"
-        role="alert"
-      >
-        Error message
-      </p>
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      type="email"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL fWoZBG"
-        placeholder="e.g. jake.weary@sportsbet.io"
-        type="email"
-      />
-      <p
-        className="sc-VcoSR jatpWO"
-        role="alert"
-      >
-        Error message
-      </p>
     </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      type="email"
+    <p
+      className="sc-VcoSR jatpWO"
+      role="alert"
     >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL tiNjh"
-          placeholder="e.g. jake.weary@sportsbet.io"
-          type="email"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
-      <p
-        className="sc-VcoSR jatpWO"
-        role="alert"
-      >
-        Error message
-      </p>
-    </div>
+      Error message
+    </p>
   </div>
 </div>
 `;
 
 exports[`TextInput: type Email renders readOnly 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder=" "
+    readOnly={true}
+    type="email"
+    value="jake.weary@sportsbet.io"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL JOvHL"
       placeholder=" "
       readOnly={true}
       type="email"
       value="jake.weary@sportsbet.io"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder=" "
+    readOnly={true}
+    type="email"
+    value="jake.weary@sportsbet.io"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      large
+    </label>
+    <input
+      className="sc-goMRkL gsTWKg"
+      placeholder=" "
+      readOnly={true}
+      type="email"
+      value="jake.weary@sportsbet.io"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder=" "
+    readOnly={true}
+    type="email"
+    value="jake.weary@sportsbet.io"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL JOvHL"
+        className="sc-goMRkL ubFMP"
         placeholder=" "
         readOnly={true}
         type="email"
         value="jake.weary@sportsbet.io"
       />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder=" "
-      readOnly={true}
-      type="email"
-      value="jake.weary@sportsbet.io"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gsTWKg"
-        placeholder=" "
-        readOnly={true}
-        type="email"
-        value="jake.weary@sportsbet.io"
-      />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
     </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder=" "
-      readOnly={true}
-      type="email"
-      value="jake.weary@sportsbet.io"
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL ubFMP"
-          placeholder=" "
-          readOnly={true}
-          type="email"
-          value="jake.weary@sportsbet.io"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
+      Informative message holder
+    </p>
   </div>
 </div>
 `;
 
 exports[`TextInput: type Email renders with hint 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL JOvHL"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      large
+    </label>
+    <input
+      className="sc-goMRkL gsTWKg"
+      placeholder="e.g. jake.weary@sportsbet.io"
+      type="email"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL JOvHL"
+        className="sc-goMRkL ubFMP"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      type="email"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gsTWKg"
-        placeholder="e.g. jake.weary@sportsbet.io"
-        type="email"
-      />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
     </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      type="email"
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL ubFMP"
-          placeholder="e.g. jake.weary@sportsbet.io"
-          type="email"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
+      Informative message holder
+    </p>
   </div>
 </div>
 `;
 
 exports[`TextInput: type Email renders with label 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL JOvHL"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
+    />
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      large
+    </label>
+    <input
+      className="sc-goMRkL gsTWKg"
+      placeholder="e.g. jake.weary@sportsbet.io"
+      type="email"
+    />
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL JOvHL"
+        className="sc-goMRkL ubFMP"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      type="email"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gsTWKg"
-        placeholder="e.g. jake.weary@sportsbet.io"
-        type="email"
-      />
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      type="email"
-    >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL ubFMP"
-          placeholder="e.g. jake.weary@sportsbet.io"
-          type="email"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
     </div>
   </div>
 </div>
@@ -453,78 +393,66 @@ exports[`TextInput: type Email renders with label 1`] = `
 
 exports[`TextInput: type Email renders with label RTL 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    dir="rtl"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+      dir="rtl"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL JOvHL"
       dir="rtl"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
+    />
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    dir="rtl"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+      dir="rtl"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-        dir="rtl"
-      >
-        medium
-      </label>
+      large
+    </label>
+    <input
+      className="sc-goMRkL gsTWKg"
+      dir="rtl"
+      placeholder="e.g. jake.weary@sportsbet.io"
+      type="email"
+    />
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    dir="rtl"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
+  >
+    <div
+      className="sc-jNrqiC jBcQib"
+    >
       <input
-        className="sc-goMRkL JOvHL"
+        className="sc-goMRkL ubFMP"
         dir="rtl"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      dir="rtl"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      type="email"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
-        dir="rtl"
+        className="sc-glUVip fQRjhM"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gsTWKg"
-        dir="rtl"
-        placeholder="e.g. jake.weary@sportsbet.io"
-        type="email"
-      />
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      dir="rtl"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      type="email"
-    >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL ubFMP"
-          dir="rtl"
-          placeholder="e.g. jake.weary@sportsbet.io"
-          type="email"
-        />
-        <label
-          className="sc-glUVip fQRjhM"
-        >
-          xlarge
-        </label>
-      </div>
     </div>
   </div>
 </div>
@@ -532,58 +460,46 @@ exports[`TextInput: type Email renders with label RTL 1`] = `
 
 exports[`TextInput: type Email renders without label 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="medium"
+    type="email"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <input
+      className="sc-goMRkL JOvHL"
       placeholder="medium"
       type="email"
-    >
-      <input
-        className="sc-goMRkL JOvHL"
-        placeholder="medium"
-        type="email"
-      />
-    </div>
+    />
   </div>
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="large"
+    type="email"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <input
+      className="sc-goMRkL gsTWKg"
       placeholder="large"
       type="email"
-    >
-      <input
-        className="sc-goMRkL gsTWKg"
-        placeholder="large"
-        type="email"
-      />
-    </div>
+    />
   </div>
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="xlarge"
+    type="email"
   >
     <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="xlarge"
-      type="email"
+      className="sc-jNrqiC jBcQib"
     >
-      <div
-        className="sc-jNrqiC jBcQib"
-      >
-        <input
-          className="sc-goMRkL kGKhoa"
-          placeholder="xlarge"
-          type="email"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        />
-      </div>
+      <input
+        className="sc-goMRkL kGKhoa"
+        placeholder="xlarge"
+        type="email"
+      />
+      <label
+        className="sc-glUVip fKjLAb"
+      />
     </div>
   </div>
 </div>
@@ -591,89 +507,77 @@ exports[`TextInput: type Email renders without label 1`] = `
 
 exports[`TextInput: type Email supports background colour 1`] = `
 <div
-  className="flex gap-4 items-end"
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="m-4"
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
   >
-    <div
-      className="sc-iOnGvX dtoFCR"
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      medium
+    </label>
+    <input
+      className="sc-goMRkL hWBUEc"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <label
-        className="sc-gmSHEY coDCGe"
-      >
-        medium
-      </label>
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
+  >
+    <label
+      className="sc-gmSHEY coDCGe"
+    >
+      large
+    </label>
+    <input
+      className="sc-goMRkL gTNnSf"
+      placeholder="e.g. jake.weary@sportsbet.io"
+      type="email"
+    />
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="sc-iOnGvX dtoFCR"
+    placeholder="e.g. jake.weary@sportsbet.io"
+    type="email"
+  >
+    <div
+      className="sc-jNrqiC hjjcDo"
+    >
       <input
-        className="sc-goMRkL hWBUEc"
+        className="sc-goMRkL fBUiNw"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      type="email"
-    >
       <label
-        className="sc-gmSHEY coDCGe"
+        className="sc-glUVip fKjLAb"
       >
-        large
+        xlarge
       </label>
-      <input
-        className="sc-goMRkL gTNnSf"
-        placeholder="e.g. jake.weary@sportsbet.io"
-        type="email"
-      />
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
     </div>
-  </div>
-  <div
-    className="m-4"
-  >
-    <div
-      className="sc-iOnGvX dtoFCR"
-      placeholder="e.g. jake.weary@sportsbet.io"
-      type="email"
+    <p
+      className="sc-VcoSR dKUTwy"
+      role="alert"
     >
-      <div
-        className="sc-jNrqiC hjjcDo"
-      >
-        <input
-          className="sc-goMRkL fBUiNw"
-          placeholder="e.g. jake.weary@sportsbet.io"
-          type="email"
-        />
-        <label
-          className="sc-glUVip fKjLAb"
-        >
-          xlarge
-        </label>
-      </div>
-      <p
-        className="sc-VcoSR dKUTwy"
-        role="alert"
-      >
-        Informative message holder
-      </p>
-    </div>
+      Informative message holder
+    </p>
   </div>
 </div>
 `;

@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import AccessValues from '../../public/examples/textInputGroupTW/AccessValues';
 import Default from '../../public/examples/textInputGroupTW/Default';
@@ -14,62 +15,55 @@ const Example = () => {
   const examples = useExamples('textInputGroupTW');
   return (
     <>
-      <section className="mt-8">
-        <Preview
-          title="Default"
-          preview={<Default />}
-          code={examples ? examples.Default : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Vertical orientation"
-          preview={<Vertical />}
-          code={examples ? examples.Vertical : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="RTL"
-          preview={<Rtl />}
-          code={examples ? examples.Rtl : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Sizes"
-          preview={<Sizes />}
-          code={examples ? examples.Sizes : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Error"
-          preview={<Error />}
-          code={examples ? examples.Error : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Text type variants"
-          preview={<Types />}
-          code={examples ? examples.Types : 'Loading'}
-        />
-      </section>
-
-      <section className="mt-8">
-        <Preview
-          title="Access Values by ref"
-          preview={<AccessValues />}
-          code={examples ? examples.AccessValues : 'Loading'}
-        />
-      </section>
-
+      <ComponentPageDescription title="TextInput Group">
+        <p>
+          Indeed, forms require input from all users, including astronauts. Text
+          input fields help to gather both short and long-form information. The
+          size of the text field should correspond to the length of information
+          that's required.
+        </p>
+        <p>
+          Text input fields can contain various rules to ensure the right
+          information is obtained from users. Users should also be given prompts
+          to guide them on what's needed, or if they've made an error while
+          doing so.
+        </p>
+      </ComponentPageDescription>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Vertical orientation"
+        preview={<Vertical />}
+        code={examples ? examples.Vertical : 'Loading'}
+      />
+      <Preview
+        title="RTL"
+        preview={<Rtl />}
+        code={examples ? examples.Rtl : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Error"
+        preview={<Error />}
+        code={examples ? examples.Error : 'Loading'}
+      />
+      <Preview
+        title="Text type variants"
+        preview={<Types />}
+        code={examples ? examples.Types : 'Loading'}
+      />
+      <Preview
+        title="Access Values by ref"
+        preview={<AccessValues />}
+        code={examples ? examples.AccessValues : 'Loading'}
+      />
       <PropsTable
         title="Props (Text types)"
         data={[

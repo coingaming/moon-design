@@ -1,5 +1,5 @@
-import { Heading, Text } from '@heathmont/moon-core';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chip/Active';
 import Icons from '../../public/examples/chip/Icons';
@@ -12,77 +12,53 @@ const PageChip = () => {
   const examples = useExamples('chip');
   return (
     <>
-      <section className="grid gap-4 mt-8">
-        <Heading as="h1" size={48}>
-          Chip
-        </Heading>
-        <Text>
+      <ComponentPageDescription title="Chip">
+        <p>
           Chips are compact little units that represent actions, filters or
           choices. When shown, they allow users to prompt actions, filter
           games/content and choose options. We use three types of chips in the
           Moon:
-        </Text>
-        <div className="grid gap-2 mt-2">
-          <div>
-            <Heading as="h4" size={18}>
-              Action chip
-            </Heading>
-            <Text>
-              Action chips prompt actions related to the game/content.
-            </Text>
-          </div>
-          <div>
-            <Heading as="h4" size={18}>
-              Filter chip
-            </Heading>
-            <Text>Filter chips let users sieve through large categories.</Text>
-          </div>
-          <div>
-            <Heading as="h4" size={18}>
-              Selection chip
-            </Heading>
-            <Text>
-              Selection chips allow users to select options that matter to them.
-            </Text>
-          </div>
+        </p>
+        <div className="flex flex-col gap-2">
+          <p>
+            <p className="font-medium">Action chip</p>
+            Action chips prompt actions related to the game/content.
+          </p>
+          <p>
+            <p className="font-medium">Filter chip</p>
+            Filter chips let users sieve through large categories.
+          </p>
+          <p>
+            <p className="font-medium">Selection chip</p>
+            Selection chips allow users to select options that matter to them.
+          </p>
         </div>
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Sizes"
-          preview={<Sizes />}
-          code={examples ? examples.Sizes : 'Loading'}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Active State"
-          preview={<Active />}
-          code={examples ? examples.Active : 'Loading'}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="IsStroke"
-          preview={<Stroke />}
-          code={examples ? examples.Stroke : 'Loading'}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Icons"
-          preview={<Icons />}
-          code={examples ? examples.Icons : 'Loading'}
-        />
-      </section>
-      <section className="mt-8">
-        <Preview
-          title="Icons with isStroke"
-          preview={<IconsWithStroke />}
-          code={examples ? examples.IconsWithStroke : 'Loading'}
-        />
-      </section>
-
+      </ComponentPageDescription>
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Active State"
+        preview={<Active />}
+        code={examples ? examples.Active : 'Loading'}
+      />
+      <Preview
+        title="IsStroke"
+        preview={<Stroke />}
+        code={examples ? examples.Stroke : 'Loading'}
+      />
+      <Preview
+        title="Icons"
+        preview={<Icons />}
+        code={examples ? examples.Icons : 'Loading'}
+      />
+      <Preview
+        title="Icons with isStroke"
+        preview={<IconsWithStroke />}
+        code={examples ? examples.IconsWithStroke : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

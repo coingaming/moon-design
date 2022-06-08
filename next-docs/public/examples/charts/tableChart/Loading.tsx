@@ -30,7 +30,7 @@ const Example = () => {
   );
 
   return (
-    <div className="w-full flex flex-row gap-36">
+    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <TableChart
         title="Yesterday"
         icon={<ChartIcons.Time />}
@@ -42,7 +42,6 @@ const Example = () => {
         onExpand={() => {}}
         loaderText="Loading..."
       />
-
       <TableChart
         title="Yesterday"
         icon={<ChartIcons.Time />}
