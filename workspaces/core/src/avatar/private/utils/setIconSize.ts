@@ -2,12 +2,12 @@ import type SizeProps from '../types/SizeProps';
 
 const setIconSize = (size?: SizeProps) => {
   if (size === 'xs') {
-    return 'text-[1rem]';
+    return 'text-moon-16';
   }
   if (size === '2xl') {
-    return 'text-[2rem]';
+    return 'text-moon-32';
   }
-  return 'text-[1.5rem]';
+  return 'text-moon-24';
 };
 
 export default setIconSize;

@@ -1,5 +1,5 @@
 import type SizeProps from './SizeProps';
-import type StatusOrigin from './StatusOrigin';
+import type StatusOriginProps from './StatusOriginProps';
 
 type AvatarProps = {
   imageUrl?: string;
@@ -7,7 +7,7 @@ type AvatarProps = {
   color?: string;
   backgroundColor?: string;
   size?: SizeProps;
-  statusOrigin?: StatusOrigin;
+  statusOrigin?: StatusOriginProps;
   isStatusActive?: boolean;
 };
 

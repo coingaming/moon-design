@@ -1,90 +1,56 @@
 import React from 'react';
-import Image from 'next/image';
 import NextLink from 'next/link';
+import ComponentPageDescription from '../components/ComponentPageDescription';
 import TokenTable from '../components/TokenTable';
 import tokenImg from '../public/illustartions/tokens.png';
 
-const Text: React.FC<{}> = ({ children }) => (
-  <p className="text-lg mt-4">{children}</p>
-);
-
-const ListItem: React.FC<{}> = ({ children }) => (
-  <li className="text-lg mt-4">{children}</li>
-);
-
 const PageTokensNew = () => (
   <>
-    <section className="mt-8">
-      <h1 className="text-5xl font-medium">Tokens</h1>
-
-      <div className="mt-8">
-        <Text>
-          Design tokens are{' '}
-          <span className="font-medium">
-            all the values needed to construct and maintain a design system{' '}
-          </span>
-          — spacing, color, typography, object styles, animation, etc.
-        </Text>
-        <Text>
-          These can represent anything defined by design: a color as a HEX
-          value, an opacity as a number, an animation ease as Bezier
-          coordinates.
-        </Text>
-
-        <Text>
-          They’re used in place of hard-coded values in order to ensure
-          flexibility and unity across all multi-product experiences.
-        </Text>
-
-        <Text>
-          Design tokens are directly integrated into our component libraries.
-          They cover the various options of platform scales, color themes, and
-          more.
-        </Text>
-      </div>
-
-      <div className="mt-8 flex flex-row justify-between gap-20">
-        <div className="">
-          <h3 className="text-xl text-black font-medium">
-            How to create your own custom theme based and use it for your
-            product.
-          </h3>
-
-          <ul className="list-decimal list-inside">
-            <ListItem>
-              Create your product{' '}
-              <NextLink href="https://github.com/coingaming/moon-design/tree/develop/packages/themes/src">
-                <a className="underline">theme template file</a>
-              </NextLink>
-              .
-            </ListItem>
-
-            <ListItem>
-              Check the{' '}
-              <NextLink href="/colours">
-                <a className="underline">guide for colours</a>
-              </NextLink>
-              .
-            </ListItem>
-
-            <ListItem>Replace colour values one by one.</ListItem>
-
-            <ListItem>Change the values to your product ones.</ListItem>
-
-            <ListItem>Publish your changes.</ListItem>
-
-            <ListItem>
-              Share tokens with your product front-end developers.
-            </ListItem>
-
-            <ListItem>Enjoy your new theme! 🎉</ListItem>
-          </ul>
-        </div>
-
-        <Image className="rounded-lg" src={tokenImg} alt="Colours usage" />
-      </div>
-    </section>
-
+    <ComponentPageDescription title="Tokens" image={tokenImg}>
+      <p>
+        Design tokens are{' '}
+        <span className="font-medium">
+          all the values needed to construct and maintain a design system{' '}
+        </span>
+        — spacing, color, typography, object styles, animation, etc.
+      </p>
+      <p>
+        These can represent anything defined by design: a color as a HEX value,
+        an opacity as a number, an animation ease as Bezier coordinates.
+      </p>
+      <p>
+        They're used in place of hard-coded values in order to ensure
+        flexibility and unity across all multi-product experiences.
+      </p>
+      <p>
+        Design tokens are directly integrated into our component libraries. They
+        cover the various options of platform scales, color themes, and more.
+      </p>
+      <h2 className="text-moon-20 font-medium">
+        How to create your own custom theme based and use it for your product.
+      </h2>
+      <ul className="list-decimal list-inside">
+        <li>
+          Create your product{' '}
+          <NextLink href="https://github.com/coingaming/moon-design/tree/develop/packages/themes/src">
+            <a className="underline">theme template file</a>
+          </NextLink>
+          .
+        </li>
+        <li>
+          Check the{' '}
+          <NextLink href="/colours">
+            <a className="underline">guide for colours</a>
+          </NextLink>
+          .
+        </li>
+        <li>Replace colour values one by one.</li>
+        <li>Change the values to your product ones.</li>
+        <li>Publish your changes.</li>
+        <li>Share tokens with your product front-end developers.</li>
+        <li>Enjoy your new theme! 🎉</li>
+      </ul>
+    </ComponentPageDescription>
     <TokenTable
       title="Border Radius"
       data={[
@@ -140,7 +106,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Breakpoint"
       data={[
@@ -171,7 +136,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Border"
       data={[
@@ -202,7 +166,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Space"
       data={[
@@ -253,7 +216,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Transition"
       data={[
@@ -269,7 +231,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="zIndex"
       data={[
@@ -290,7 +251,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Box Shadow"
       data={[
@@ -320,7 +280,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Font"
       data={[
@@ -357,7 +316,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Opacity"
       data={[
@@ -368,7 +326,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Button"
       data={[
@@ -389,9 +346,8 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
-      title="Text link"
+      title="p link"
       data={[
         {
           name: 'fontWeight',
@@ -415,7 +371,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Hover"
       data={[
@@ -431,7 +386,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Focus"
       data={[
@@ -442,7 +396,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Transform"
       data={[
@@ -453,7 +406,6 @@ const PageTokensNew = () => (
         },
       ]}
     />
-
     <TokenTable
       title="Size"
       data={[

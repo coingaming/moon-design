@@ -9922,7 +9922,7 @@ packages:
     engines: {node: '>= 6'}
 
   /pkg-dir/2.0.0:
-    resolution: {integrity: sha1-9tXREJ4Z1j7fQo4L1X4Sd3YVM0s=}
+    resolution: {integrity: sha512-ojakdnUgL5pzJYWw2AIDEupaQCX5OPbM688ZevubICjdIX01PRSYKqm33fJoCOJBRseYCTUlQRnBNX+Pchaejw==}
     engines: {node: '>=4'}
     dependencies:
       find-up: 2.1.0
