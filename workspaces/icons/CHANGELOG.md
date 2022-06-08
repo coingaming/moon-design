@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.1.1
+
+### Patch Changes
+
+- Fix select icons
+
 ## 9.0.4
 
 ### Patch Changes
