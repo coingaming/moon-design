@@ -1,5 +1,5 @@
-import { Avatar } from '@heathmont/moon-core-tw';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import Active from '../../public/examples/avatarTW/Active';
 import Colours from '../../public/examples/avatarTW/Colours';
 import Sizes from '../../public/examples/avatarTW/Sizes';
@@ -11,30 +11,34 @@ const Example = () => {
   const examples = useExamples('avatarTW');
   return (
     <>
+      <ComponentPageDescription title="Avatar">
+        <p>
+          Avatars are used to represent an individual, a business, or a
+          celestial being when they interact with any Coingaming brand. While
+          they usually consist of an image, avatars are adaptable - letters or
+          object icons may sometimes be used as fallbacks.
+        </p>
+      </ComponentPageDescription>
       <Preview
         title="Variants"
         preview={<Variants />}
         code={examples ? examples.Variants : 'Loading'}
       />
-
       <Preview
         title="Different colours"
         preview={<Colours />}
         code={examples ? examples.Colours : 'Loading'}
       />
-
       <Preview
         title="Sizes"
         preview={<Sizes />}
         code={examples ? examples.Sizes : 'Loading'}
       />
-
       <Preview
         title="Active status"
         preview={<Active />}
         code={examples ? examples.Active : 'Loading'}
       />
-
       <Preview
         title="Status origin"
         preview={<StatusOrigin />}

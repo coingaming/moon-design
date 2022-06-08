@@ -1,6 +1,6 @@
 import React from 'react';
+import { GenericUser } from '@heathmont/moon-icons-tw';
 import classNames from '../private/utils/classnames';
-import GenericUser from './private/icons/GenericUser';
 import setIconSize from './private/utils/setIconSize';
 import Status from './styles/Status';
 import Wrapper from './styles/Wrapper';

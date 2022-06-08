@@ -4,40 +4,45 @@ import { MediaMusic, SoftwareDownload } from '@heathmont/moon-icons-tw';
 const Example = () => (
   <>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Chip size="sm" iconLeft={<MediaMusic fontSize="1.5rem" />}>
+      <Chip size="sm" iconLeft={<MediaMusic className="text-moon-24" />}>
         Left Icon
       </Chip>
-      <Chip size="sm" iconRight={<SoftwareDownload fontSize="1.5rem" />}>
+      <Chip size="sm" iconRight={<SoftwareDownload className="text-moon-24" />}>
         Right Icon
       </Chip>
       <Chip
         size="sm"
-        iconRight={<SoftwareDownload fontSize="1.5rem" />}
-        iconLeft={<MediaMusic fontSize="1.5rem" />}
+        iconRight={<SoftwareDownload className="text-moon-24" />}
+        iconLeft={<MediaMusic className="text-moon-24" />}
       >
         Left/Right Icons
       </Chip>
       <Chip
         size="sm"
-        iconRight={<SoftwareDownload fontSize="1.5rem" />}
-        iconLeft={<MediaMusic fontSize="1.5rem" />}
+        iconRight={<SoftwareDownload className="text-moon-24" />}
+        iconLeft={<MediaMusic className="text-moon-24" />}
       />
-      <Chip size="sm" iconOnly={<SoftwareDownload fontSize="1.5rem" />} />
+      <Chip
+        size="sm"
+        iconOnly={<SoftwareDownload className="text-moon-24" />}
+      />
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Chip iconLeft={<MediaMusic fontSize="1.5rem" />}>Left Icon</Chip>
-      <Chip iconRight={<SoftwareDownload fontSize="1.5rem" />}>Right Icon</Chip>
+      <Chip iconLeft={<MediaMusic className="text-moon-24" />}>Left Icon</Chip>
+      <Chip iconRight={<SoftwareDownload className="text-moon-24" />}>
+        Right Icon
+      </Chip>
       <Chip
-        iconRight={<SoftwareDownload fontSize="1.5rem" />}
-        iconLeft={<MediaMusic fontSize="1.5rem" />}
+        iconRight={<SoftwareDownload className="text-moon-24" />}
+        iconLeft={<MediaMusic className="text-moon-24" />}
       >
         Left/Right Icons
       </Chip>
       <Chip
-        iconRight={<SoftwareDownload fontSize="1.5rem" />}
-        iconLeft={<MediaMusic fontSize="1.5rem" />}
+        iconRight={<SoftwareDownload className="text-moon-24" />}
+        iconLeft={<MediaMusic className="text-moon-24" />}
       />
-      <Chip iconOnly={<SoftwareDownload fontSize="1.5rem" />} />
+      <Chip iconOnly={<SoftwareDownload className="text-moon-24" />} />
     </div>
   </>
 );

@@ -46,7 +46,7 @@ const PageIcons: React.FC = () => {
   const examples = useExamples('iconsTW');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Icons Tailwind</h1>
+      <h1 className="text-moon-32 font-medium">Icons</h1>
       <Preview
         title="Sizes and colours"
         preview={<DefaultIconSet />}

@@ -1,5 +1,5 @@
 import { useState, useRef } from 'react';
-import { GenericPicture, GenericClose } from '@heathmont/moon-icons';
+import { GenericPicture, GenericClose } from '@heathmont/moon-icons-tw';
 import useDragging from './hooks/useDragging';
 import IconPreview from './IconPreview';
 import { Button } from '@heathmont/moon-core-tw';
@@ -59,7 +59,7 @@ const TransformIcon: React.FC = () => {
           dragging ? 'border-bulma' : error ? 'border-chiChi' : 'border-beerus'
         } flex flex-col gap-4 items-center py-12 px-6 rounded-moon-s-md border-2 border-dashed text-trunks transition-colors duration-200`}
       >
-        <GenericPicture fontSize="3rem" />
+        <GenericPicture className="text-moon-48" />
         <p className="text-moon-20">Drop files to upload</p>
         <p className="text-moon-16">or</p>
         <div className="relative">
@@ -78,13 +78,9 @@ const TransformIcon: React.FC = () => {
       </div>
 
       {error && (
-        <div className="my-8 py-6">
-          <div className="p-4 bg-white rounded shadow flex items-center">
-            <GenericClose fontSize="2rem" color="chiChi.100" />
-            <span className="text-red-600 pl-2">
-              File type is not supported
-            </span>
-          </div>
+        <div className="flex gap-2 items-center text-chiChi">
+          <GenericClose className="text-moon-32" />
+          <span className="text-moon-16">File type is not supported</span>
         </div>
       )}
 

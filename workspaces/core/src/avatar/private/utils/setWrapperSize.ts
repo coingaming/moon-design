@@ -1,9 +1,8 @@
-import Size from '../../../private/enums/Size';
 import type SizeProps from '../types/SizeProps';
 
 const setWrapperSize = (size?: SizeProps) => {
   if (size === 'xs') {
-    return 'h-6 w-6 text-moon-10 tracking-[0.03125rem] rounded-moon-i-xs';
+    return 'h-6 w-6 text-moon-10-caption rounded-moon-i-xs';
   }
   if (size === 'sm') {
     return 'h-8 w-8 text-moon-12 rounded-moon-i-sm';

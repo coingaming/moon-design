@@ -1,4 +1,4 @@
-import { MediaTuner } from '@heathmont/moon-icons';
+import { MediaTuner } from '@heathmont/moon-icons-tw';
 import classNames from '../../../utils/classNames';
 
 type Props = React.HTMLProps<HTMLButtonElement> & {
@@ -16,7 +16,7 @@ const SettingsButton: React.FC<Props> = ({ onClick, isRtlEnabled }) => (
       isRtlEnabled ? 'left-4' : 'right-4 '
     )}
   >
-    <MediaTuner fontSize="2rem" />
+    <MediaTuner className="text-moon-32" />
   </button>
 );
 

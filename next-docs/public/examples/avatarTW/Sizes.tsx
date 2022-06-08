@@ -2,7 +2,7 @@ import { Avatar } from '@heathmont/moon-core-tw';
 
 const Example = () => (
   <>
-    <div className="flex justify-around items-center w-full mb-4">
+    <div className="flex flex-wrap items-center justify-around gap-2 w-full">
       <Avatar size="xs" />
       <Avatar size="sm" />
       <Avatar />
@@ -10,7 +10,7 @@ const Example = () => (
       <Avatar size="xl" />
       <Avatar size="2xl" />
     </div>
-    <div className="flex justify-around items-center w-full mb-4">
+    <div className="flex flex-wrap items-center justify-around gap-2 w-full">
       <Avatar name="JS" size="xs" />
       <Avatar name="JS" size="sm" />
       <Avatar name="JS" />
@@ -18,7 +18,7 @@ const Example = () => (
       <Avatar name="JS" size="xl" />
       <Avatar name="JS" size="2xl" />
     </div>
-    <div className="flex justify-around items-center w-full">
+    <div className="flex flex-wrap items-center justify-around gap-2 w-full">
       <Avatar imageUrl="https://www.fillmurray.com/200/200" size="xs" />
       <Avatar imageUrl="https://www.fillmurray.com/200/200" size="sm" />
       <Avatar imageUrl="https://www.fillmurray.com/200/200" />
