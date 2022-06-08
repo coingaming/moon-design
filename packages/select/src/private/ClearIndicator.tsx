@@ -1,6 +1,6 @@
 import React from 'react';
-import ControlsClose from '@heathmont/moon-icons/lib/es/icons/ControlsClose';
 import { components, ClearIndicatorProps } from 'react-select';
+import ControlsClose from '../private/icons/ControlsClose';
 
 // any - https://github.com/JedWatson/react-select/issues/4804
 const ClearIndicator = ({ ...rest }: ClearIndicatorProps<any>) => (
