@@ -1,8 +1,8 @@
 import React from 'react';
-import ControlsChevronDown from '@heathmont/moon-icons/lib/es/icons/ControlsChevronDown';
-import ControlsChevronUp from '@heathmont/moon-icons/lib/es/icons/ControlsChevronUp';
 import { rem } from '@heathmont/moon-utils';
 import { DropdownIndicatorProps } from 'react-select';
+import ControlsChevronDown from '../private/icons/ControlsChevronDown';
+import ControlsChevronUp from '../private/icons/ControlsChevronUp';
 
 // any - https://github.com/JedWatson/react-select/issues/4804
 const DropdownIndicator = ({ ...rest }: DropdownIndicatorProps<any>) => {
