@@ -59,7 +59,7 @@ const ReactSettings: React.FC<Props> = ({
 
   return (
     <>
-      <SettingsButton onClick={toggle} />
+      <SettingsButton onClick={toggle} isRtlEnabled={isRtlEnabled} />
       {isOpened && (
         <>
           <div

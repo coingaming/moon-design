@@ -57,10 +57,9 @@ const Accordion = ({
           >
             <ControlsChevronRight
               className={classNames(
-                'text-trunks transition-transform transition-200',
+                'text-trunks text-moon-24 transition-transform transition-200',
                 setOpenIcon(isOpen)
               )}
-              fontSize="1.5rem"
             />
           </button>
         )}

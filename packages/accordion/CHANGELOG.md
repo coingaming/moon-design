@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.1.1
+
+### Patch Changes
+
+- Fix select icons
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.1.1
+  - @heathmont/moon-core@9.1.1
+  - @heathmont/moon-icons@9.1.1
+  - @heathmont/moon-themes@9.1.1
+  - @heathmont/moon-utils@9.1.1
+
 ## 9.1.0
 
 ### Minor Changes

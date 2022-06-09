@@ -8,6 +8,7 @@ import {
 import ReactElixirSwitcher from '../common/ReactElixirSwitcher';
 import SettingsButton from '../common/SettingsButton';
 import DarkLightModeSwitcher from '../react/DarkLightModeSwitch';
+import RTLModeSwitch from '../react/RTLModeSwitch';
 import { BrandThemeButton } from './BrandThemeButton';
 import { store } from './ElixirThemeProvider';
 import { elixirThemeKeys, ElixirThemeType } from './store';
@@ -39,13 +40,23 @@ const ElixirSettings: React.FC<Props> = ({
   } = useContext(store);
   const [isOpened, setIsOpened] = useState(false);
   const toggle = () => setIsOpened(!isOpened);
-
+  const [isRtlEnabled, setIsRtl] = useState(false);
+  const toggleRtl = () => {
+    const htmlTag = document && document?.getElementsByTagName('html')[0];
+    setIsRtl(!isRtlEnabled);
+    const dirAttr = htmlTag.getAttribute('dir');
+    if (!dirAttr) {
+      htmlTag.setAttribute('dir', 'rtl');
+    } else {
+      htmlTag.removeAttribute('dir');
+    }
+  };
   const setElixirTheme = (theme: ElixirThemeType) => {
     dispatch({ type: 'setTheme', payload: theme });
   };
   return (
     <>
-      <SettingsButton onClick={toggle} />
+      <SettingsButton onClick={toggle} isRtlEnabled={isRtlEnabled} />
       {isOpened && (
         <>
           <div className="right-4 fixed bottom-16 z-50">
@@ -71,7 +82,13 @@ const ElixirSettings: React.FC<Props> = ({
               isEnabled={isDarkMode}
             />
           </div>
-
+          <div
+            className={`${
+              isRtlEnabled ? `left-4` : `right-4`
+            } fixed bottom-40 z-50`}
+          >
+            <RTLModeSwitch toggle={toggleRtl} isEnabled={isRtlEnabled} />
+          </div>
           <div className={'right-4 fixed bottom-40 z-50'}>
             <ReactElixirSwitcher
               toggle={toggleReactAndElixir}
