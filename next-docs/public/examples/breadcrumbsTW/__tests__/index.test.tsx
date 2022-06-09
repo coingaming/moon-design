@@ -7,7 +7,7 @@ import renderer from 'react-test-renderer';
 import Default from '../Default';
 import Collapsed from '../Collapsed';
 
-describe('Avatar', () => {
+describe('Breadcrumb', () => {
   it('renders default', () => {
     const testRenderer = renderer.create(<Default />);
     expect(testRenderer.toJSON()).toMatchSnapshot();
