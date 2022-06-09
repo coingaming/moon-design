@@ -1,30 +1,24 @@
-import { Breadcrumb } from '@heathmont/moon-core-tw';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
 import Preview from '../../components/codePreview/Preview';
+import Collapsed from '../../public/examples/breadcrumbsTW/Collapsed';
+import Default from '../../public/examples/breadcrumbsTW/Default';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  //   const examples = useExamples('chipTW');
-
-  const { pathname } = useRouter();
-  const [_, ...pages] = pathname === '/' ? [] : pathname.split('/');
-  if (pathname === '/') {
-    return null;
-  }
-  const breadcrumbs = pages.map((page) => {
-    return (
-      <Link href={page}>
-        <a>{page && page[0].toUpperCase() + page.slice(1)}</a>
-      </Link>
-    );
-  });
-
-  console.log('breadcrumbs', breadcrumbs);
+  const examples = useExamples('breadcrumbsTW');
 
   return (
     <>
-      <Breadcrumb breadcrumbs={breadcrumbs} />
+      <Preview
+        title=""
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+
+      <Preview
+        title="Collapsed (more then 4 items)"
+        preview={<Collapsed />}
+        code={examples ? examples.Collapsed : 'Loading'}
+      />
     </>
   );
 };
