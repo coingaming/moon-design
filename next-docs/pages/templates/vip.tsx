@@ -3,7 +3,6 @@ import { Carousel } from '@heathmont/moon-components';
 import { Button } from '@heathmont/moon-core-tw';
 import { ArrowsLeft } from '@heathmont/moon-icons';
 import Image from 'next/image';
-import ambassadors from './private/ambasadors.png';
 import BitcasinoLogo from "./private/bitcasino-logo";
 import explore1 from './private/explore-1.png';
 import explore2 from './private/explore-2.png';
@@ -13,13 +12,14 @@ import promo from './private/promo.png';
 import support from './private/support.png';
 
 interface ExperienceCarousel {
+  index?: number;
   title: string;
   points: string[];
   icon: any;
 }
 
-const ExperienceCarouselItem = ({title, icon, points}: ExperienceCarousel) => {
-  return (<div className="w-[272px] h-full bg-[#2C323A] rounded-lg flex flex-col p-6">
+const ExperienceCarouselItem = ({index, title, icon, points}: ExperienceCarousel) => {
+  return (<div className={`w-[272px] h-full bg-[#2C323A] rounded-lg flex flex-col p-6 my-8 sm:h-auto ${ index && index % 2 ? 'mt-[40%]': ''}`}>
     <div className="flex items-center justify-center pt-3 pb-4"><Image src={icon} alt={title}/></div>
     <p className="text-moon-18 text-center font-semibold mb-4 w-full">{title}</p>
     <ul className="w-full list-disc pl-4">
@@ -131,53 +131,56 @@ const Vip = () => {
       <div className="absolute left-0"><ArrowsLeft fontSize="2rem"/></div>
       <BitcasinoLogo />
     </div>
-    <div className="sm:flex sm:flex-row-reverse">
-      <div className="flex flex-col">
-        <div className="relative">
-          <Image
-            src={ambassadors}
-            alt="ambassadors"
+    <div className="sm:flex sm:flex-row-reverse sm:items-center">
+      <div className="flex flex-col sm:items-center sm:w-[50%] sm:h-[25vw]">
+        <div className="relative w-full grow">
+          <div
+            className='w-full h-full bg-contain bg-left bg-no-repeat'
+            style={{ backgroundImage: 'url(/ambasadors.png)' }}
           />
           <div
             className="absolute left-0 bottom-0 w-full h-[150px]"
-            style={{
-              background: 'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)'
-            }}
+            style={{ background: 'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)' }}
           />
         </div>
       </div>
-      <div className="flex flex-col relative -top-[100px]">
-        <p className="text-moon-32 text-center font-semibold p-4">Bitcasino VIP: For money can’t buy experiences!</p>
-        <p className="text-moon-16 text-center px-3 pt-2">Join the VIP Bitcasino Club - An exclusive world of crypto
-          leaders and high-rollers who dare to take risks and enjoy life to its fullest.</p>
-        <Button variant='primary'>Sign up now</Button>
+      <div className="flex flex-col items-end relative -top-[100px] sm:w-[50%] sm:top-0 sm:items-center md:pl-[15%]">
+        <div className="flex flex-col sm:w-[500px]">
+          <p className="text-moon-32 text-center font-semibold p-4 sm:text-left">Bitcasino VIP: For money can’t buy experiences!</p>
+          <p className="text-moon-16 text-center px-3 pt-2 sm:text-left">Join the VIP Bitcasino Club - An exclusive world of crypto
+            leaders and high-rollers who dare to take risks and enjoy life to its fullest.</p>
+          <Button>Sign up now</Button>
+        </div>
       </div>
     </div>
-    <div className="flex flex-col relative -top-[100px] my-8">
-      <p className="text-moon-32 text-center font-semibold p-4">A VIP experience tailored to your liking</p>
-      <p className="text-moon-16 text-center px-8 pt-2">Enjoy exclusive bonuses and invites to prestigious events for
-        free. Get all your indulgences taken care of.</p>
-      <div className="w-full flex items-center justify-center px-5 py-8">
-        <Carousel
-          scrollTo={1}
-          items={experienceItems.map((item) => (<ExperienceCarouselItem
-            title={item.title}
-            points={item.points}
-            icon={item.icon}
-          />))}
-        />
+    <div className="flex flex-col items-center self-center sm:w-[70%]">
+      <div className="flex flex-col relative -top-[100px] my-8 sm:top-0">
+        <p className="text-moon-32 text-center font-semibold p-4 md:self-center md:w-[80%]">A VIP experience tailored to your liking</p>
+        <p className="text-moon-16 text-center px-8 pt-2 md:self-center md:w-[60%]">Enjoy exclusive bonuses and invites to prestigious events for
+          free. Get all your indulgences taken care of.</p>
+        <div className="w-full flex items-center justify-center px-5 py-8 sm:mt-12">
+          <Carousel
+            scrollTo={1}
+            items={experienceItems.map((item, index) => (<ExperienceCarouselItem
+              title={item.title}
+              points={item.points}
+              icon={item.icon}
+              index={index}
+            />))}
+          />
+        </div>
       </div>
-    </div>
-    <div className="flex flex-col relative -top-[90px]">
-      <p className="text-moon-32 text-center font-semibold p-4">Explore the world in true VIP style!</p>
-      <p className="text-moon-16 text-center px-8 pt-2">Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy experiences you’ll never forget. At Bitcasino, we know how to indulge you!</p>
-      <div className="w-full flex items-center justify-center px-5 py-8">
-        <Carousel
-          scrollTo={1}
-          items={exploreItems.map((items) => (<ExploreCarouselItem
-            items={items}
-          />))}
-        />
+      <div className="flex flex-col relative -top-[90px] sm:top-0">
+        <p className="text-moon-32 text-center font-semibold p-4">Explore the world in true VIP style!</p>
+        <p className="text-moon-16 text-center px-8 pt-2">Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy experiences you’ll never forget. At Bitcasino, we know how to indulge you!</p>
+        <div className="w-full flex items-center justify-center px-5 py-8">
+          <Carousel
+            scrollTo={1}
+            items={exploreItems.map((items) => (<ExploreCarouselItem
+              items={items}
+            />))}
+          />
+        </div>
       </div>
     </div>
   </div>);
