@@ -154,7 +154,7 @@ const Vip = () => {
       </div>
     </div>
     <div className="flex flex-col items-center self-center sm:w-[70%]">
-      <div className="flex flex-col relative -top-[100px] my-8 sm:top-0">
+      <div className="flex flex-col relative -top-[100px] my-8 sm:top-0 sm:mb-0">
         <p className="text-moon-32 text-center font-semibold p-4 md:self-center md:w-[80%]">A VIP experience tailored to your liking</p>
         <p className="text-moon-16 text-center px-8 pt-2 md:self-center md:w-[60%]">Enjoy exclusive bonuses and invites to prestigious events for
           free. Get all your indulgences taken care of.</p>
@@ -170,10 +170,12 @@ const Vip = () => {
           />
         </div>
       </div>
-      <div className="flex flex-col relative -top-[90px] sm:top-0">
-        <p className="text-moon-32 text-center font-semibold p-4">Explore the world in true VIP style!</p>
-        <p className="text-moon-16 text-center px-8 pt-2">Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy experiences you’ll never forget. At Bitcasino, we know how to indulge you!</p>
-        <div className="w-full flex items-center justify-center px-5 py-8">
+      <div className="flex flex-col relative -top-[90px] sm:flex-row-reverse sm:top-0">
+        <div className='flex flex-col sm:w-[300px] sm:justify-center sm:mb-20'>
+          <p className="text-moon-32 text-center font-semibold p-4 sm:text-left">Explore the world in true VIP style!</p>
+          <p className="text-moon-16 text-center px-8 pt-2 sm:text-left">Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy experiences you’ll never forget. At Bitcasino, we know how to indulge you!</p>
+        </div>
+        <div className="w-full flex items-center justify-center px-5 py-8 sm:w-[430px]">
           <Carousel
             scrollTo={1}
             items={exploreItems.map((items) => (<ExploreCarouselItem
