@@ -184,6 +184,16 @@ const Vip = () => {
           />
         </div>
       </div>
+      <div className="flex flex-col relative -top-[50px] sm:flex-row-reverse sm:mt-14 sm:top-0 sm:flex-wrap sm:justify-center">
+        <div className='flex flex-col self-stretch align-center pb-8 sm:pl-12 sm:w-[350px] sm:justify-center'>
+          <p className="text-moon-32 text-center font-semibold p-4 sm:pl-0 sm:text-left">VIP runs in the family</p>
+          <p className="text-moon-16 text-center px-8 pt-2 sm:pl-0 sm:text-left">Sportsbet has legendary athletes in our VIP club. Join our high profile community of crypto leaders and high-rollers!</p>
+        </div>
+        <div
+          className='w-full h-full max-w-[100vw] bg-contain bg-center bg-no-repeat h-[80vw] sm:w-[250px] sm:h-[200px]'
+          style={{ backgroundImage: 'url(/partnership.png)' }}
+        />
+      </div>
     </div>
   </div>);
 };
