@@ -132,7 +132,7 @@ const Vip = () => {
       <BitcasinoLogo />
     </div>
     <div className="sm:flex sm:flex-row-reverse sm:items-center">
-      <div className="flex flex-col sm:items-center sm:w-[50%] sm:h-[25vw]">
+      <div className="flex flex-col sm:items-center sm:w-[50%] sm:h-[30vw] md:h-[25vw]">
         <div className="relative w-full grow">
           <div
             className='w-full h-full bg-contain bg-left bg-no-repeat'
@@ -145,7 +145,7 @@ const Vip = () => {
         </div>
       </div>
       <div className="flex flex-col items-end relative -top-[100px] sm:w-[50%] sm:top-0 sm:items-center md:pl-[15%]">
-        <div className="flex flex-col sm:w-[500px]">
+        <div className="flex flex-col max-w-full sm:w-[500px]">
           <p className="text-moon-32 text-center font-semibold p-4 sm:text-left">Bitcasino VIP: For money can’t buy experiences!</p>
           <p className="text-moon-16 text-center px-3 pt-2 sm:text-left">Join the VIP Bitcasino Club - An exclusive world of crypto
             leaders and high-rollers who dare to take risks and enjoy life to its fullest.</p>
@@ -158,7 +158,7 @@ const Vip = () => {
         <p className="text-moon-32 text-center font-semibold p-4 md:self-center md:w-[80%]">A VIP experience tailored to your liking</p>
         <p className="text-moon-16 text-center px-8 pt-2 md:self-center md:w-[60%]">Enjoy exclusive bonuses and invites to prestigious events for
           free. Get all your indulgences taken care of.</p>
-        <div className="w-full flex items-center justify-center px-5 py-8 sm:mt-12">
+        <div className="w-full flex items-center justify-center px-5 py-8 sm:mt-12 sm:max-w-[70vw]">
           <Carousel
             scrollTo={1}
             items={experienceItems.map((item, index) => (<ExperienceCarouselItem
@@ -170,10 +170,10 @@ const Vip = () => {
           />
         </div>
       </div>
-      <div className="flex flex-col relative -top-[90px] sm:flex-row-reverse sm:top-0">
+      <div className="flex flex-col relative -top-[90px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
         <div className='flex flex-col sm:w-[300px] sm:justify-center sm:mb-20'>
-          <p className="text-moon-32 text-center font-semibold p-4 sm:text-left">Explore the world in true VIP style!</p>
-          <p className="text-moon-16 text-center px-8 pt-2 sm:text-left">Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy experiences you’ll never forget. At Bitcasino, we know how to indulge you!</p>
+          <p className="text-moon-32 text-center font-semibold p-4 sm:pl-0 sm:text-left">Explore the world in true VIP style!</p>
+          <p className="text-moon-16 text-center px-8 pt-2 sm:pl-0 sm:text-left">Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy experiences you’ll never forget. At Bitcasino, we know how to indulge you!</p>
         </div>
         <div className="w-full flex items-center justify-center px-5 py-8 sm:w-[430px]">
           <Carousel
