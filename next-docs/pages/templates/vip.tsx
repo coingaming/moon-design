@@ -1,7 +1,7 @@
 import React, {ReactNode} from 'react';
 import { Carousel } from '@heathmont/moon-components';
 import { Button } from '@heathmont/moon-core';
-import { MailEnvelope , ArrowsLeft } from '@heathmont/moon-icons';
+import { MailEnvelope , ArrowsLeft, ShopCrypto } from '@heathmont/moon-icons';
 
 import Image from 'next/image';
 import BitcasinoLogo from "./private/bitcasino-logo";
@@ -210,6 +210,53 @@ const Vip = () => {
             icon='left'
             iconLeft={(<MailEnvelope />)}
           >Contact us</Button>
+        </div>
+      </div>
+      <div className="flex flex-col mb-12">
+        <p className="text-moon-18 text-center font-semibold p-4">Join us and talk to us</p>
+        <div className="flex gap-2">
+          <Button
+            iconOnly
+            onClick={() => console.log('Telegram link')}
+            style={{
+              borderRadius: '50%',
+              backgroundColor: '#27A4DB'
+            }}><ShopCrypto /></Button>
+          <Button
+            iconOnly
+            onClick={() => console.log('Youtube link')}
+            style={{
+              borderRadius: '50%',
+              backgroundColor: '#FF0000'
+            }}><ShopCrypto /></Button>
+          <Button
+            iconOnly
+            onClick={() => console.log('Bitcoin link')}
+            style={{
+              borderRadius: '50%',
+              backgroundColor: '#F7931A'
+            }}><ShopCrypto /></Button>
+          <Button
+            iconOnly
+            onClick={() => console.log('Twitter link')}
+            style={{
+              borderRadius: '50%',
+              backgroundColor: '#1DA1F2'
+            }}><ShopCrypto /></Button>
+          <Button
+            iconOnly
+            onClick={() => console.log('Instagram link')}
+            style={{
+              borderRadius: '50%',
+              background: 'linear-gradient(49.12deg, #FFDD55 6.62%, #FF5D3F 47.35%, #FF543E 50.06%, #C837AB 93.5%)'
+            }}><ShopCrypto /></Button>
+          <Button
+            iconOnly
+            onClick={() => console.log('Tiktok link')}
+            style={{
+              borderRadius: '50%',
+              backgroundColor: '#000'
+            }}><ShopCrypto /></Button>
         </div>
       </div>
     </div>
