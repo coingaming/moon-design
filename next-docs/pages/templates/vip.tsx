@@ -1,6 +1,6 @@
 import React, {ReactNode} from 'react';
 import { Carousel } from '@heathmont/moon-components';
-import { Button } from '@heathmont/moon-core-tw';
+import { Button } from '@heathmont/moon-core';
 import { ArrowsLeft } from '@heathmont/moon-icons';
 import Image from 'next/image';
 import BitcasinoLogo from "./private/bitcasino-logo";
@@ -149,7 +149,7 @@ const Vip = () => {
           <p className="text-moon-32 text-center font-semibold p-4 sm:text-left">Bitcasino VIP: For money can’t buy experiences!</p>
           <p className="text-moon-16 text-center px-3 pt-2 sm:text-left">Join the VIP Bitcasino Club - An exclusive world of crypto
             leaders and high-rollers who dare to take risks and enjoy life to its fullest.</p>
-          <Button>Sign up now</Button>
+          <Button className='mx-3 my-6 sm:self-start'>Sign up now</Button>
         </div>
       </div>
     </div>
