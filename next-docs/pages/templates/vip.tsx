@@ -127,13 +127,13 @@ const Vip = () => {
     ]
   ];
 
-  return (<div className='flex flex-col grow'>
-    <div className="relative flex items-center justify-center my-5 mx-4">
+  return (<div className='flex flex-col grow overflow-hidden'>
+    <div className="fixed top-0 left-0 w-full flex items-center justify-center my-5 mx-4 z-10">
       <div className="absolute left-0"><ArrowsLeft fontSize="2rem"/></div>
       <BitcasinoLogo />
     </div>
-    <div className="sm:flex sm:flex-row-reverse sm:items-center">
-      <div className="flex flex-col h-[80vw] sm:items-center sm:w-[50%] sm:h-[30vw] md:h-[25vw]">
+    <div className="mt-20 sm:flex sm:flex-row-reverse sm:items-stretch">
+      <div className="flex flex-col h-[80vw] sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw]">
         <div className="relative w-full grow">
           <div
             className='w-full h-full bg-contain bg-left bg-no-repeat'
@@ -145,7 +145,7 @@ const Vip = () => {
           />
         </div>
       </div>
-      <div className="flex flex-col items-end relative -top-[30vw] sm:w-[50%] sm:top-0 sm:items-center md:pl-[15%]">
+      <div className="flex flex-col items-end relative -top-[30vw] px-8 sm:py-20 sm:w-[50%] sm:top-0 sm:items-center md:pl-[15%]">
         <div className="flex flex-col max-w-full sm:w-[500px]">
           <p className="text-moon-32 text-center font-semibold p-4 sm:text-left">Bitcasino VIP: For money can’t buy experiences!</p>
           <p className="text-moon-16 text-center px-3 pt-2 sm:text-left">Join the VIP Bitcasino Club - An exclusive world of crypto
@@ -159,7 +159,7 @@ const Vip = () => {
         <p className="text-moon-32 text-center font-semibold p-4 md:self-center md:w-[80%]">A VIP experience tailored to your liking</p>
         <p className="text-moon-16 text-center px-8 pt-2 md:self-center md:w-[60%]">Enjoy exclusive bonuses and invites to prestigious events for
           free. Get all your indulgences taken care of.</p>
-        <div className="w-full flex max-w-[100vw] items-center justify-center px-5 py-8 sm:mt-12 sm:max-w-[70vw]">
+        <div className="w-full flex max-w-[100vw] items-center justify-center px-5 py-8 sm:mt-12 sm:max-w-[70vw] lg:min-w-[1200px]">
           <Carousel
             scrollTo={1}
             items={experienceItems.map((item, index) => (<ExperienceCarouselItem
@@ -186,12 +186,12 @@ const Vip = () => {
         </div>
       </div>
       <div className="flex flex-col relative -top-[50px] sm:flex-row-reverse sm:mt-14 sm:top-0 sm:flex-wrap sm:justify-center">
-        <div className='flex flex-col self-stretch align-center pb-8 sm:pl-12 sm:w-[350px] sm:justify-center'>
+        <div className='flex flex-col self-stretch align-center pb-8 sm:pl-12 sm:w-[350px] sm:justify-center lg:w-[500px]'>
           <p className="text-moon-32 text-center font-semibold p-4 sm:pl-0 sm:text-left">VIP runs in the family</p>
           <p className="text-moon-16 text-center px-8 pt-2 sm:pl-0 sm:text-left">Sportsbet has legendary athletes in our VIP club. Join our high profile community of crypto leaders and high-rollers!</p>
         </div>
         <div
-          className='w-full h-full max-w-[100vw] bg-contain bg-center bg-no-repeat h-[80vw] sm:w-[250px] sm:h-[200px]'
+          className='w-full h-full max-w-[100vw] bg-contain bg-center bg-no-repeat h-[80vw] sm:w-[250px] sm:h-[200px] lg:w-[400px] lg:h-[300px]'
           style={{ backgroundImage: 'url(/partnership.png)' }}
         />
       </div>
@@ -212,7 +212,7 @@ const Vip = () => {
           >Contact us</Button>
         </div>
       </div>
-      <div className="flex flex-col mb-12">
+      <div className="flex flex-col my-12">
         <p className="text-moon-18 text-center font-semibold p-4">Join us and talk to us</p>
         <div className="flex gap-2">
           <Button
