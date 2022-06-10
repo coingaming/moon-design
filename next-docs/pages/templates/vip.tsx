@@ -131,25 +131,27 @@ const Vip = () => {
       <div className="absolute left-0"><ArrowsLeft fontSize="2rem"/></div>
       <BitcasinoLogo />
     </div>
-    <div className="flex flex-col">
-      <div className="relative">
-        <Image
-          src={ambassadors}
-          alt="ambassadors"
-        />
-        <div
-          className="absolute left-0 bottom-0 w-full h-[150px]"
-          style={{
-            background: 'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)'
-          }}
-        />
+    <div className="sm:flex sm:flex-row-reverse">
+      <div className="flex flex-col">
+        <div className="relative">
+          <Image
+            src={ambassadors}
+            alt="ambassadors"
+          />
+          <div
+            className="absolute left-0 bottom-0 w-full h-[150px]"
+            style={{
+              background: 'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)'
+            }}
+          />
+        </div>
       </div>
-    </div>
-    <div className="flex flex-col relative -top-[100px]">
-      <p className="text-moon-32 text-center font-semibold p-4">Bitcasino VIP: For money can’t buy experiences!</p>
-      <p className="text-moon-16 text-center px-3 pt-2">Join the VIP Bitcasino Club - An exclusive world of crypto
-        leaders and high-rollers who dare to take risks and enjoy life to its fullest.</p>
-      <Button variant='primary'>Sign up now</Button>
+      <div className="flex flex-col relative -top-[100px]">
+        <p className="text-moon-32 text-center font-semibold p-4">Bitcasino VIP: For money can’t buy experiences!</p>
+        <p className="text-moon-16 text-center px-3 pt-2">Join the VIP Bitcasino Club - An exclusive world of crypto
+          leaders and high-rollers who dare to take risks and enjoy life to its fullest.</p>
+        <Button variant='primary'>Sign up now</Button>
+      </div>
     </div>
     <div className="flex flex-col relative -top-[100px] my-8">
       <p className="text-moon-32 text-center font-semibold p-4">A VIP experience tailored to your liking</p>
