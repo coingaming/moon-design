@@ -1,7 +1,8 @@
 import React, {ReactNode} from 'react';
 import { Carousel } from '@heathmont/moon-components';
 import { Button } from '@heathmont/moon-core';
-import { ArrowsLeft } from '@heathmont/moon-icons';
+import { MailEnvelope , ArrowsLeft } from '@heathmont/moon-icons';
+
 import Image from 'next/image';
 import BitcasinoLogo from "./private/bitcasino-logo";
 import explore1 from './private/explore-1.png';
@@ -193,6 +194,23 @@ const Vip = () => {
           className='w-full h-full max-w-[100vw] bg-contain bg-center bg-no-repeat h-[80vw] sm:w-[250px] sm:h-[200px]'
           style={{ backgroundImage: 'url(/partnership.png)' }}
         />
+      </div>
+      <div className="flex flex-col justify-center align-center sm:mt-16 w-[80vw] sm:w-[40vw]">
+        <p className="text-moon-32 text-center font-semibold p-4">Ready to step up the game?</p>
+        <p className="text-moon-16 text-center px-8 pt-2">
+          Entry into our VIP Club is by invitation only.
+          Get in touch with us to see what a tailored VIP package could look like for you.
+          Join the family now!
+        </p>
+        <div className="flex flex-col my-6 sm:flex-row sm:justify-center sm:items-center">
+          <Button className='my-3 sm:my-0 sm:mx-3 sm:self-start'>Sign up</Button>
+          <Button
+            variant='tertiary'
+            className='sm:self-start'
+            icon='left'
+            iconLeft={(<MailEnvelope />)}
+          >Contact us</Button>
+        </div>
       </div>
     </div>
   </div>);
