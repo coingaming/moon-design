@@ -400,6 +400,11 @@ module.exports = {
             clipPath: `inset(0 calc(var(--border-i-width) * -1) 0.125rem calc(var(--border-i-width) * -1))`,
           },
         },
+        '.brcrumb-li': {
+          '& a, & span': {
+            padding: '0.5rem',
+          },
+        },
       });
     }),
   ],

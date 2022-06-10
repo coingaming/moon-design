@@ -1,6 +1,6 @@
-type StatusOrigin = {
+type StatusOriginProps = {
   vertical: 'top' | 'bottom';
   horizontal: 'left' | 'right';
 };
 
-export default StatusOrigin;
+export default StatusOriginProps;

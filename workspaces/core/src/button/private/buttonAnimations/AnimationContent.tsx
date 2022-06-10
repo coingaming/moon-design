@@ -13,7 +13,9 @@ const AnimationContent: React.FC<ButtonProps> = ({
   <div className="relative h-full pointer-events-none">
     <div className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center">
       {animation === 'progress' && <Loader color="currentColor" size="xs" />}
-      {animation === 'success' && <GenericCheckAlternative fontSize="1.5rem" />}
+      {animation === 'success' && (
+        <GenericCheckAlternative className="text-moon-24" />
+      )}
     </div>
     <div className="opacity-0">
       {iconLeft}

@@ -1,4 +1,4 @@
-import AccordionSizes from '../types/AccordionSizes';
+import type AccordionSizes from '../types/AccordionSizes';
 
 const setPadding = (isContentInside?: boolean, size?: AccordionSizes) => {
   if (isContentInside) {
