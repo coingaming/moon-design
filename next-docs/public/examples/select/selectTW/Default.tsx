@@ -8,7 +8,6 @@ const Example = () => {
     <Select
       value={value}
       label='Default select'
-      placeholderSlot='Placeholder slot'
       options={[
         { value: 'one', element: 'One', label: 'One' },
         { value: 'two', element: 'Two', label: 'Two' },

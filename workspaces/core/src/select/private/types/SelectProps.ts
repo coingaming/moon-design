@@ -1,17 +1,30 @@
 import Option from "./OptionProps";
 
 type SelectProps = {
-  label?: JSX.Element | string;
   value?: string;
-  options?: Option[];
-  disabled?: boolean;
-  isError?: boolean;
-  size?: 'md' | 'lg';
-  hintSlot?: JSX.Element | string;
-  placeholderSlot?: JSX.Element | string;
-  placeholderValue?: JSX.Element | string;
-  amountOfVisibleItems?: number;
+  options: Option[];
   onChange?: (value: string) => any;
+  label?: JSX.Element | string;
+  size?: 'md' | 'lg';
+  menuWidth: number,
+  disabled?: boolean;
+  placeholderValue?: JSX.Element | string;
+  placeholderSlot?: JSX.Element | string;
+  isError?: boolean;
+  amountOfVisibleItems?: number;
+  isSearchable: boolean,
+  hintSlot?: JSX.Element | string;
+  headerSlot: JSX.Element,
+  footerSlot: JSX.Element,
+  leftSlot: JSX.Element,
+  isSharpLeftSide: JSX.Element,
+  isSharpRightSide: boolean,
+  isSharpTopSide: boolean,
+  isSharpBottomSide: boolean,
+  isTopBottomBorderHidden: boolean,
+  isSideBorderHidden: boolean,
+  isRtl: boolean,
+  noResultsMessage?: string
 };
 
 export default SelectProps;
