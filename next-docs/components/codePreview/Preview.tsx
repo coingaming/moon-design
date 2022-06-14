@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import useThemeTW from '../../components/themes/useThemesTW';
 import classNames from '../../utils/classNames';
 import CodeSnippet from '../CodeSnippet';
 import PreviewSwitch from './PreviewSwitch';
@@ -16,6 +17,8 @@ const Preview = ({ title, preview, code }: Props) => {
   const copyCode = () => {
     if (navigator?.clipboard) navigator.clipboard.writeText(code ? code : '');
   };
+  const { getTheme } = useThemeTW();
+  const themeClassName = getTheme();
   return (
     <section className="flex flex-col gap-6">
       <div className="flex flex-row items-center justify-between">
@@ -29,8 +32,10 @@ const Preview = ({ title, preview, code }: Props) => {
       </div>
       <div
         className={classNames(
-          isPreviewActive ? 'theme-moon-light p-4' : 'theme-moon-dark',
-          'flex bg-goku text-moon-14 rounded-moon-s-sm'
+          isPreviewActive
+            ? `p-4 ${themeClassName || 'moon-light'}`
+            : 'moon-dark',
+          'flex bg-goku text-moon-14 rounded-moon-s-sm preview'
         )}
       >
         {isPreviewActive ? (

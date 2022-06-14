@@ -10,7 +10,7 @@ const VisionLayout: React.FC<{ children: React.ReactNode }> = ({
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => setSidebarOpen(true);
   return (
-    <div className="theme-moon-light support-colors theme-tokens bg-goku flex">
+    <div className="moon-light bg-goku flex">
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
         <Sidebar />
@@ -19,7 +19,7 @@ const VisionLayout: React.FC<{ children: React.ReactNode }> = ({
       <div className="hidden lg:flex lg:flex-shrink-0 w-80 flex flex-col">
         <Sidebar />
       </div>
-      <div className="theme-moon-dark min-h-screen bg-gohan flex-1 w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12">
+      <div className="moon-dark min-h-screen bg-gohan flex-1 w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12">
         <div className="flex flex-col grow max-w-screen-xl">
           {/* Opens sidebar on mobile */}
           <Header openSidebar={openSidebar} />
