@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.1.3
+
+### Patch Changes
+
+- Fix template
+
 ## 9.1.2
 
 ### Patch Changes

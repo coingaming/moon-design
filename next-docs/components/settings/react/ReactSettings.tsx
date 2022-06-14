@@ -7,7 +7,7 @@ import {
 } from '@heathmont/moon-assets';
 import useFeatureFlags from '../../../utils/useFeatureFlags';
 import { useDocsTheme, DocsBrands } from '../../themes/DocsThemeProvider';
-
+import useThemeTW from '../../themes/useThemesTW';
 import ReactElixirSwitcher from '../common/ReactElixirSwitcher';
 import SettingsButton from '../common/SettingsButton';
 import DarkLightModeSwitcher from './DarkLightModeSwitch';
@@ -34,8 +34,7 @@ const ReactSettings: React.FC<Props> = ({
   const [isOpened, setIsOpened] = useState(false);
   const toggle = () => setIsOpened(!isOpened);
 
-  const { toggleColorScheme, getColorMode, setBrand, themeKeys } =
-    useDocsTheme();
+  const { toggleColorScheme, setBrand, themeKeys } = useDocsTheme();
 
   const [isRtlEnabled, setIsRtl] = useState(false);
 
@@ -57,6 +56,21 @@ const ReactSettings: React.FC<Props> = ({
     ['sportsbet', 'bitcasino', 'moonDesign', 'betadda'].includes(themeKey)
   );
 
+  const {
+    setBrand: setBrandTW,
+    toggleMode: toggleModeTW,
+    getMode,
+  } = useThemeTW();
+
+  const switchBrandHandler = (themeKey: LogosKeys) => {
+    setBrand(themeKey as DocsBrands);
+    setBrandTW(themeKey);
+  };
+
+  const switchModeHandler = () => {
+    toggleColorScheme();
+    toggleModeTW();
+  };
   return (
     <>
       <SettingsButton onClick={toggle} isRtlEnabled={isRtlEnabled} />
@@ -73,7 +87,7 @@ const ReactSettings: React.FC<Props> = ({
                 <button
                   key={themeKey}
                   type="button"
-                  onClick={() => setBrand(themeKey as DocsBrands)}
+                  onClick={() => switchBrandHandler(themeKey as LogosKeys)}
                   className={`${
                     isRtlEnabled ? `mr-4` : `ml-4`
                   } p-2 rounded-full text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center shadow-md`}
@@ -89,8 +103,8 @@ const ReactSettings: React.FC<Props> = ({
             } fixed bottom-28 z-50`}
           >
             <DarkLightModeSwitcher
-              toggle={toggleColorScheme}
-              isEnabled={getColorMode() === 'dark'}
+              toggle={switchModeHandler}
+              isEnabled={getMode() === 'dark'}
               isRtlEnabled={isRtlEnabled}
             />
           </div>
