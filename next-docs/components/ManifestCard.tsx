@@ -13,7 +13,7 @@ const ManifestCard: React.FC<Props> = ({
 }) => (
   <div
     className={classNames(
-      'theme-moon-light flex flex-col gap-4 py-6 px-8 rounded-moon-s-lg',
+      'moon-light flex flex-col gap-4 py-6 px-8 rounded-moon-s-lg',
       isHighlighted ? 'bg-frieza text-goten' : 'bg-gohan text-bulma'
     )}
   >
