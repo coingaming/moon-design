@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactPaginate from 'react-paginate';
+import { Button } from "../index";
 import ChevronLeft from './private/icons/ChevronLeft';
 import ChevronRight from './private/icons/ChevronRight';
 import { PaginationProps } from './private/types/PaginationTypes';
@@ -21,7 +22,9 @@ const Pagination: React.FC<PaginationProps> = ({
     if(typeof previousButtonLabel === "string") {
       return (
         <div>
-          <span className="hidden sm:flex">{previousButtonLabel}</span>
+          <Button className="hidden sm:flex">
+            {previousButtonLabel}
+          </Button>
           <div className="sm:hidden h-8 w-8 flex items-center justify-center border border-trunks rounded-lg">
             <ChevronLeft width={24} height={24} />
           </div>
@@ -35,13 +38,15 @@ const Pagination: React.FC<PaginationProps> = ({
     if(typeof nextButtonLabel === "string") {
       return (
         <div>
-          <span className="hidden sm:flex">{nextButtonLabel}</span>
+          <Button className="hidden sm:flex">
+            {nextButtonLabel}
+          </Button>
           <div className="sm:hidden h-8 w-8 flex items-center justify-center border border-trunks rounded-lg">
             <ChevronRight width={24} height={24} />
           </div>
         </div>
       )
-    } 
+    }
     return nextButtonLabel;
   };
 
@@ -51,7 +56,7 @@ const Pagination: React.FC<PaginationProps> = ({
           <div className='m-2.5'> {pageSizeSection} </div>
         )}
         <div className="flex flex-column flex-wrap items-center justify-center md:flex-row">
-          <ReactPaginate 
+          <ReactPaginate
             forcePage={pageNumber - 1}
             previousLabel={renderPreviousLabel()}
             nextLabel={renderNextLabel()}
@@ -79,9 +84,9 @@ const Pagination: React.FC<PaginationProps> = ({
     </div>
   );
 };
-        
-       
-     
-      
+
+
+
+
 
 export default Pagination;
