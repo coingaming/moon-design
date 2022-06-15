@@ -16,7 +16,7 @@ import RangeCalendarWithPeriod from '../../public/examples/datePickerRange/Range
 import useExamples from '../../utils/useExamples';
 
 const PageDatepicker = () => {
-  const examples = useExamples('datePicker');
+  const examples = useExamples('datePickerRange');
   return (
     <>
       <ComponentPageDescription title="Range">
