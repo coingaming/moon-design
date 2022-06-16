@@ -4,13 +4,15 @@ import { Button } from '@heathmont/moon-core';
 import { MailEnvelope, ArrowsLeft, ShopCrypto } from '@heathmont/moon-icons';
 
 import Image from 'next/image';
-import BitcasinoLogo from './private/bitcasino-logo';
-import explore1 from './private/explore-1.png';
-import explore2 from './private/explore-2.png';
-import gift from './private/gift.png';
-import handshake from './private/handshake.png';
-import promo from './private/promo.png';
-import support from './private/support.png';
+import BitcasinoLogo from '../private/bitcasino-logo';
+import explore1 from '../private/explore-1.png';
+import explore2 from '../private/explore-2.png';
+import gift from '../private/gift.png';
+import handshake from '../private/handshake.png';
+import KingKaka from '../private/kingKaka.png';
+import Pattern from '../private/pattern.png';
+import promo from '../private/promo.png';
+import support from '../private/support.png';
 
 interface ExperienceCarousel {
   index?: number;
@@ -27,7 +29,7 @@ const ExperienceCarouselItem = ({
 }: ExperienceCarousel) => {
   return (
     <div
-      className={`w-[272px] h-full bg-[#2C323A] rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
+      className={`w-[272px] h-full bg-[#3E0D68] rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
         index && index % 2 ? 'sm:mt-[40%]' : ''
       }`}
     >
@@ -175,38 +177,44 @@ const Vip = () => {
         </div>
         <BitcasinoLogo />
       </div>
-      <div className="mt-20 sm:flex sm:flex-row-reverse sm:items-stretch">
-        <div className="flex flex-col h-[80vw] sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw]">
-          <div className="relative w-full grow">
+  
+     <div className="flex flex-col justify-center items-center sm:flex sm:flex-row-reverse sm:items-stretch"
+      style={{ backgroundImage: 'url(/pattern.png)' }}>
+        <div className="flex sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw]">
+          <div className="relative w-full justify-end self-end ">
             <div
-              className="w-full h-full bg-contain bg-left bg-no-repeat"
-              style={{ backgroundImage: 'url(/ambasadors.png)' }}
-            />
+              className="w-[50%] h-[50%] min-w-[300px] min-h-[300px] mt-[35%] sm:mt-8 ">
+                <Image src={KingKaka} sizes={'100%'}/>
+                </div>
             <div
               className="absolute left-0 bottom-0 w-full h-[150px]"
               style={{
                 background:
-                  'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)',
+                  'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F  100%',
               }}
             />
           </div>
         </div>
-        <div className="flex flex-col items-end relative -top-[30vw] px-8 sm:py-20 sm:w-[50%] sm:top-0 sm:items-center md:pl-[15%]">
-          <div className="flex flex-col max-w-full sm:w-[500px]">
-            <p className="text-moon-32 text-center font-semibold p-4 sm:text-left">
+        <div className="flex flex-col items-end relative -top-[12vw] px-8 sm:py-20 sm:w-[50%] sm:top-0 sm:items-center md:pl-[15%]">
+          <div className="flex flex-col max-w-full  bottom-4 sm:w-[500px]">
+            <p className="text-moon-32 text-center font-semibold p-4 lg:text-moon-32 sm:text-left sm:text-moon-24">
               Bitcasino VIP: For money can’t buy experiences!
             </p>
-            <p className="text-moon-16 text-center px-3 pt-2 sm:text-left">
+            <p className="text-moon-16 text-center px-3 pt-2 sm:text-left lg:text-moon-16 sm:text-moon-14">
               Join the VIP Bitcasino Club - An exclusive world of crypto leaders
               and high-rollers who dare to take risks and enjoy life to its
               fullest.
             </p>
-            <Button className="mx-3 my-6 sm:self-start">Sign up now</Button>
+            <Button className="mx-3 my-6 sm:self-start "
+            style={{
+                backgroundColor: '#FF4F0F',
+              }}>Sign up now</Button>
           </div>
         </div>
       </div>
+
       <div className="flex flex-col items-center self-center sm:w-[70%]">
-        <div className="flex flex-col relative -top-[100px] my-8 sm:top-0 sm:mb-0">
+        <div className="flex flex-col relative -top-[50px] my-8 sm:top-0 sm:mb-0">
           <p className="text-moon-32 text-center font-semibold p-4 md:self-center md:w-[80%]">
             A VIP experience tailored to your liking
           </p>
@@ -272,7 +280,10 @@ const Vip = () => {
             family now!
           </p>
           <div className="flex flex-col my-6 sm:flex-row sm:justify-center sm:items-center">
-            <Button className="my-3 sm:my-0 sm:mx-3 sm:self-start">
+            <Button className="my-3 sm:my-0 sm:mx-3 sm:self-start"
+            style={{
+                backgroundColor: '#FF4F0F',
+              }}>
               Sign up
             </Button>
             <Button
@@ -280,6 +291,9 @@ const Vip = () => {
               className="sm:self-start"
               icon="left"
               iconLeft={<MailEnvelope />}
+              style={{
+                backgroundColor: '#FFFFFF14',
+              }}
             >
               Contact us
             </Button>
@@ -360,7 +374,7 @@ const Vip = () => {
 
 Vip.getLayout = function getLayout(page: ReactNode) {
   return (
-    <div className="w-full min-h-screen bg-[#1A212A] text-white">{page}</div>
+    <div className="w-full min-h-screen bg-[#24033f] text-white">{page}</div>
   );
 };
 
