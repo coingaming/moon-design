@@ -26,3 +26,5 @@ export { default as TextInput } from './textInput/TextInput';
 export * from './textInput/TextInput';
 export { default as TextInputGroup } from './textInputGroup/TextInputGroup';
 export * from './textInputGroup/TextInputGroup';
+export { default as Pagination } from './pagination/Pagination';
+export * from './pagination/Pagination';

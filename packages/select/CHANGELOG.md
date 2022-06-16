@@ -1,5 +1,15 @@
 # @heathmont/moon-select
 
+## 9.1.4
+
+### Patch Changes
+
+- Casino template
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.1.4
+  - @heathmont/moon-themes@9.1.4
+  - @heathmont/moon-utils@9.1.4
+
 ## 9.1.3
 
 ### Patch Changes
