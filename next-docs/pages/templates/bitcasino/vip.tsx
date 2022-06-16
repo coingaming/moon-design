@@ -1,12 +1,14 @@
 import React, { ReactNode } from 'react';
 import { Carousel } from '@heathmont/moon-components';
-import { Button } from '@heathmont/moon-core';
+import { Button } from '@heathmont/moon-core-tw';
 import { MailEnvelope, ArrowsLeft, ShopCrypto } from '@heathmont/moon-icons';
 
 import Image from 'next/image';
+import explore1 from '../../../public/templates/explore-1.png';
+import explore2 from '../../../public/templates/explore-2.png';
+import explore3 from '../../../public/templates/explore-3.png';
+import explore4 from '../../../public/templates/explore-4.png';
 import BitcasinoLogo from '../private/bitcasino-logo';
-import explore1 from '../private/explore-1.png';
-import explore2 from '../private/explore-2.png';
 import gift from '../private/gift.png';
 import handshake from '../private/handshake.png';
 import KingKaka from '../private/kingKaka.png';
@@ -129,6 +131,35 @@ const Vip = () => {
         'Only visible to VIP members.',
       ],
     },
+    {
+      icon: handshake,
+      title: 'Dedicated VIP manager',
+      points: [
+        'Focused on ONLY your needs.',
+        'A private casino experience tailored exactly as you deserve.',
+      ],
+    },
+    {
+      icon: support,
+      title: '24/7 priority support',
+      points: ['No queues, no waiting.', 'We attend to your needs first.'],
+    },
+    {
+      icon: gift,
+      title: 'Luxurious holiday gifts',
+      points: [
+        'High-value gifts on your birthday and your anniversary.',
+        'Personalised seasonal offers.',
+      ],
+    },
+    {
+      icon: promo,
+      title: 'VIP exclusive promos',
+      points: [
+        'The best betting experiences are reserved for you.',
+        'Only visible to VIP members.',
+      ],
+    },
   ];
   const exploreItems = [
     [
@@ -137,15 +168,15 @@ const Vip = () => {
         title: 'UEFA Champions League Final in Madrid',
       },
       {
-        image: explore1,
+        image: explore2,
         title: 'UEFA Champions League Final in Madrid',
       },
       {
-        image: explore1,
+        image: explore3,
         title: 'UEFA Champions League Final in Madrid',
       },
       {
-        image: explore1,
+        image: explore4,
         title: 'UEFA Champions League Final in Madrid',
       },
     ],
@@ -190,7 +221,7 @@ const Vip = () => {
           </div>
         </div>
         <div className="flex flex-col items-end relative px-8 sm:mt-[100px] sm:pb-24 sm:pt-28 sm:w-[50%] sm:items-center md:pl-[15%]">
-          <div className="flex flex-col max-w-full  bottom-4 sm:w-[500px]">
+          <div className="flex flex-col max-w-full bottom-4 sm:w-[500px]">
             <p className="text-moon-32 text-center font-semibold p-4 lg:text-moon-32 sm:text-left sm:text-moon-24">
               Bitcasino VIP: For money can’t buy experiences!
             </p>
@@ -199,10 +230,10 @@ const Vip = () => {
               and high-rollers who dare to take risks and enjoy life to its
               fullest.
             </p>
-            <Button className="mx-3 my-6 sm:self-start "
-            style={{
-                backgroundColor: '#FF4F0F',
-              }}>Sign up now</Button>
+            <Button
+              variant='primary'
+              className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:self-start"
+            >Sign up now</Button>
           </div>
         </div>
         <div
@@ -223,7 +254,7 @@ const Vip = () => {
             Enjoy exclusive bonuses and invites to prestigious events for free.
             Get all your indulgences taken care of.
           </p>
-          <div className="w-full flex max-w-[100vw] items-center justify-center px-5 py-8 sm:mt-12 sm:max-w-[70vw] lg:min-w-[1200px]">
+          <div className="w-full flex max-w-[100vw] items-center justify-center px-5 py-8 sm:mt-12 sm:max-w-[70vw] lg:min-w-[1190px]">
             <Carousel
               items={experienceItems.map((item, index) => (
                 <ExperienceCarouselItem
@@ -268,36 +299,30 @@ const Vip = () => {
           </div>
           <div
             className="w-full h-full max-w-[100vw] bg-contain bg-center bg-no-repeat h-[80vw] sm:w-[250px] sm:h-[200px] lg:w-[400px] lg:h-[300px]"
-            style={{ backgroundImage: 'url(/partnership.png)' }}
+            style={{ backgroundImage: 'url(/templates/bitcasino/partnership.png)' }}
           />
         </div>
-        <div className="flex flex-col justify-center align-center sm:mt-16 w-[80vw] sm:w-[40vw]">
+        <div className="flex flex-col justify-center items-center sm:mt-16 w-[80vw] sm:w-[60vw]">
           <p className="text-moon-32 text-center font-semibold p-4">
             Ready to step up the game?
           </p>
-          <p className="text-moon-16 text-center px-8 pt-2">
+          <p className="w-[80%] text-moon-16 text-center px-8 pt-2">
             Entry into our VIP Club is by invitation only. Get in touch with us
             to see what a tailored VIP package could look like for you. Join the
             family now!
           </p>
           <div className="flex flex-col my-6 sm:flex-row sm:justify-center sm:items-center">
-            <Button className="my-3 sm:my-0 sm:mx-3 sm:self-start"
-            style={{
-                backgroundColor: '#FF4F0F',
-              }}>
-              Sign up
-            </Button>
             <Button
-              variant="tertiary"
-              className="sm:self-start"
+              variant='primary'
+              className="btn-primary py-3 px-9 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:self-start"
+            >Sign up</Button>
+
+            <Button
+              variant='primary'
+              className="flex justify-between items-center btn-tertiary py-3 px-5 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:self-start"
               icon="left"
               iconLeft={<MailEnvelope />}
-              style={{
-                backgroundColor: '#FFFFFF14',
-              }}
-            >
-              Contact us
-            </Button>
+            >Contact us</Button>
           </div>
         </div>
         <div className="flex flex-col my-12">
