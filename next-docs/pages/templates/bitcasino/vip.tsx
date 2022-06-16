@@ -30,7 +30,7 @@ const ExperienceCarouselItem = ({
 }: ExperienceCarousel) => {
   return (
     <div
-      className={`w-[272px] h-full bg-[#3E0D68] rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
+      className={`w-[272px] h-full bg-gohan rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
         index && index % 2 ? 'sm:mt-[40%]' : ''
       }`}
     >
