@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.1.4
+
+### Patch Changes
+
+- Casino template
+
 ## 9.1.3
 
 ### Patch Changes

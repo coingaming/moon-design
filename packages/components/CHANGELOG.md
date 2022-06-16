@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.1.4
+
+### Patch Changes
+
+- Casino template
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.1.4
+  - @heathmont/moon-icons@9.1.4
+  - @heathmont/moon-themes@9.1.4
+  - @heathmont/moon-utils@9.1.4
+
 ## 9.1.3
 
 ### Patch Changes
