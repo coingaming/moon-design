@@ -61,7 +61,7 @@ const ExploreCarouselItem = ({
       <div className="w-[168px] mr-3 flex flex-col items-stretch">
         <div className="h-16" />
         <div className="grow-1 mb-2 relative rounded-lg">
-          <Image src={items[0].image} />
+          <Image src={items[0].image} sizes='100%'/>
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[0].title}
@@ -69,7 +69,7 @@ const ExploreCarouselItem = ({
           </div>
         </div>
         <div className="grow-1 relative rounded-lg">
-          <Image src={items[1].image} />
+          <Image src={items[1].image} sizes='100%'/>
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[1].title}
@@ -79,7 +79,7 @@ const ExploreCarouselItem = ({
       </div>
       <div className="w-[168px] flex flex-col items-stretch relative">
         <div className="grow-1 mb-2 relative rounded-lg">
-          <Image src={items[2].image} />
+          <Image src={items[2].image} sizes='100%'/>
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[2].title}
@@ -87,7 +87,7 @@ const ExploreCarouselItem = ({
           </div>
         </div>
         <div className="grow-1 relative rounded-lg">
-          <Image src={items[3].image} />
+          <Image src={items[3].image} sizes='100%'/>
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[3].title}
@@ -101,19 +101,19 @@ const ExploreCarouselItem = ({
 };
 
 const Headline = ({ text }: {text: string}) => (
-  <p className="text-moon-32 text-center font-semibold p-4 lg:text-[64px] lg:leading-[3.5rem] sm:text-left sm:text-moon-48">
+  <p className="text-[32px] text-center font-semibold p-4 lg:text-[64px] lg:leading-[3.5rem] sm:text-left sm:text-moon-48">
     {text}
   </p>
 );
 
 const Title = ({ text, classes }: { text: string, classes?: string }) => (
-  <p className={`text-moon-24 text-center font-semibold p-4 lg:text-moon-48 sm:text-moon-32 ${classes ?? ''}`}>
+  <p className={`text-[32px] text-center font-semibold p-4 lg:text-moon-48 sm:text-moon-32 ${classes ?? ''}`}>
     {text}
   </p>
 );
 
 const Subtitle = ({ text, classes }: { text: string, classes?: string }) => (
-  <p className={`text-moon-14 text-center px-3 pt-2 lg:text-moon-24 sm:text-moon-16 ${classes ?? ''}`}>
+  <p className={`text-[16px] text-center px-3 pt-2 lg:text-moon-24 sm:text-moon-16 ${classes ?? ''}`}>
     {text}
   </p>
 );
@@ -227,7 +227,7 @@ const Vip = () => {
         <BitcasinoLogo />
       </div>
       <div
-        className="flex flex-col justify-center items-center bg-bottom relative sm:flex sm:flex-row-reverse sm:items-stretch"
+        className="flex flex-col justify-center items-center bg-bottom relative mb-48 sm:mb-0 sm:flex sm:flex-row-reverse sm:items-stretch"
         style={{ backgroundImage: 'url(/pattern.png)', backgroundSize: 'auto 100%' }}
       >
         <div className="flex sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw]">
@@ -237,8 +237,8 @@ const Vip = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-end relative px-8 md:w-[65%] md:pl-[15%] sm:mt-[100px] sm:pb-24 sm:pt-28 sm:w-[50%] sm:items-center">
-          <div className="flex flex-col max-w-full bottom-4 sm:w-[500px]">
+        <div className="flex flex-col items-end absolute px-8 -mb-8 -bottom-32 z-10 md:w-[65%] md:pl-[15%] sm:bottom-0 sm:relative sm:mt-[100px] sm:mb-0 sm:pb-24 sm:pt-28 sm:w-[50%] sm:items-center">
+          <div className="flex flex-col max-w-full bottom-4 sm:w-[550px]">
             <Headline text='Bitcasino VIP: For money can’t buy experiences!' />
             <Subtitle
               text='Join the VIP Bitcasino Club - An exclusive world of crypto leaders
@@ -312,7 +312,7 @@ const Vip = () => {
             family now!"
             classes='w-[80%]'
           />
-          <div className="flex flex-col my-6 sm:flex-row sm:justify-center sm:items-center">
+          <div className="flex flex-col my-6 w-full sm:w-auto sm:flex-row sm:justify-center sm:items-center">
             <Button
               variant='primary'
               className="btn-primary py-3 px-9 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:self-start"
@@ -320,7 +320,7 @@ const Vip = () => {
 
             <Button
               variant='primary'
-              className="flex justify-between items-center btn-tertiary py-3 px-5 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:self-start"
+              className="flex justify-center items-center btn-tertiary py-3 px-5 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:justify-between sm:self-start"
               icon="left"
               iconLeft={<MailEnvelope />}
             >Contact us</Button>
