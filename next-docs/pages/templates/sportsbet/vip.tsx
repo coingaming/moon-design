@@ -4,9 +4,11 @@ import { Button } from '@heathmont/moon-core';
 import { MailEnvelope, ArrowsLeft, ShopCrypto } from '@heathmont/moon-icons';
 
 import Image from 'next/image';
-import SportsbetLogo from '../private/logo.png';
-import explore1 from '../private/explore-1.png';
-import explore2 from '../private/explore-2.png';
+import explore1 from '../../../public/templates/explore-1.png';
+import explore2 from '../../../public/templates/explore-2.png';
+import explore3 from '../../../public/templates/explore-3.png';
+import explore4 from '../../../public/templates/explore-4.png';
+import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
 import gift from '../private/gift.png';
 import handshake from '../private/handshake.png';
 import promo from '../private/promo.png';

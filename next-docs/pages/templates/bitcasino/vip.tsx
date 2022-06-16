@@ -8,12 +8,12 @@ import explore1 from '../../../public/templates/explore-1.png';
 import explore2 from '../../../public/templates/explore-2.png';
 import explore3 from '../../../public/templates/explore-3.png';
 import explore4 from '../../../public/templates/explore-4.png';
-import BitcasinoLogo from '../private/bitcasino-logo';
 import gift from '../private/gift.png';
 import handshake from '../private/handshake.png';
 import KingKaka from '../private/kingKaka.png';
 import promo from '../private/promo.png';
 import support from '../private/support.png';
+import BitcasinoLogo from './bitcasino-logo';
 
 interface ExperienceCarousel {
   index?: number;
