@@ -105,13 +105,11 @@ const Headline = ({ text }: {text: string}) => (
     {text}
   </p>
 );
-
 const Title = ({ text, classes }: { text: string, classes?: string }) => (
   <p className={`text-[32px] text-center font-semibold p-4 lg:text-moon-48 sm:text-moon-32 ${classes ?? ''}`}>
     {text}
   </p>
 );
-
 const Subtitle = ({ text, classes }: { text: string, classes?: string }) => (
   <p className={`text-[16px] text-center px-3 pt-2 lg:text-moon-24 sm:text-moon-16 ${classes ?? ''}`}>
     {text}
@@ -278,7 +276,7 @@ const Vip = () => {
           </div>
         </div>
         <div className="flex flex-col relative -top-[90px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
-          <div className="flex flex-col sm:w-[280px] sm:justify-center sm:mb-20">
+          <div className="flex flex-col sm:w-[320px] sm:justify-center sm:mb-20">
             <Title text='Explore the world in true VIP style!' classes='sm:text-left'/>
             <Subtitle  classes='sm:text-left' text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!" />
           </div>
@@ -291,7 +289,7 @@ const Vip = () => {
           </div>
         </div>
         <div className="flex flex-col relative -top-[50px] sm:flex-row-reverse sm:mt-14 sm:top-0 sm:flex-wrap sm:justify-center">
-          <div className="flex flex-col self-stretch align-center pb-20 sm:pl-16 sm:w-[350px] sm:justify-center lg:w-[500px]">
+          <div className="flex flex-col self-stretch align-center pb-20 sm:pl-16 sm:w-[350px] sm:justify-center lg:w-[550px]">
             <Title text='VIP runs in the family' classes='sm:text-left'/>
             <Subtitle
               classes='sm:text-left'
