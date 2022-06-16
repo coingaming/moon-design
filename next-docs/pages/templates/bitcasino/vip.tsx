@@ -10,7 +10,6 @@ import explore2 from '../private/explore-2.png';
 import gift from '../private/gift.png';
 import handshake from '../private/handshake.png';
 import KingKaka from '../private/kingKaka.png';
-import Pattern from '../private/pattern.png';
 import promo from '../private/promo.png';
 import support from '../private/support.png';
 
@@ -49,6 +48,7 @@ const ExperienceCarouselItem = ({
     </div>
   );
 };
+
 const ExploreCarouselItem = ({
   items,
 }: {
@@ -177,25 +177,19 @@ const Vip = () => {
         </div>
         <BitcasinoLogo />
       </div>
-  
-     <div className="flex flex-col justify-center items-center sm:flex sm:flex-row-reverse sm:items-stretch"
-      style={{ backgroundImage: 'url(/pattern.png)' }}>
+
+      <div
+        className="flex flex-col justify-center items-center bg-bottom relative sm:flex sm:flex-row-reverse sm:items-stretch"
+        style={{ backgroundImage: 'url(/pattern.png)', backgroundSize: 'auto 100%' }}
+      >
         <div className="flex sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw]">
-          <div className="relative w-full justify-end self-end ">
-            <div
-              className="w-[50%] h-[50%] min-w-[300px] min-h-[300px] mt-[35%] sm:mt-8 ">
-                <Image src={KingKaka} sizes={'100%'}/>
-                </div>
-            <div
-              className="absolute left-0 bottom-0 w-full h-[150px]"
-              style={{
-                background:
-                  'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F  100%',
-              }}
-            />
+          <div className="relative w-full justify-end self-end">
+            <div className="w-[50%] h-[50%] min-w-[300px] min-h-[300px] mt-[35%] sm:mt-8">
+                <Image src={KingKaka} sizes='100%' />
+            </div>
           </div>
         </div>
-        <div className="flex flex-col items-end relative -top-[12vw] px-8 sm:py-20 sm:w-[50%] sm:top-0 sm:items-center md:pl-[15%]">
+        <div className="flex flex-col items-end relative px-8 sm:mt-[100px] sm:pb-24 sm:pt-28 sm:w-[50%] sm:items-center md:pl-[15%]">
           <div className="flex flex-col max-w-full  bottom-4 sm:w-[500px]">
             <p className="text-moon-32 text-center font-semibold p-4 lg:text-moon-32 sm:text-left sm:text-moon-24">
               Bitcasino VIP: For money can’t buy experiences!
@@ -211,6 +205,13 @@ const Vip = () => {
               }}>Sign up now</Button>
           </div>
         </div>
+        <div
+          className="absolute left-0 bottom-0 w-full h-[150px]"
+          style={{
+            background:
+              'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F  100%',
+          }}
+        />
       </div>
 
       <div className="flex flex-col items-center self-center sm:w-[70%]">
@@ -374,7 +375,7 @@ const Vip = () => {
 
 Vip.getLayout = function getLayout(page: ReactNode) {
   return (
-    <div className="w-full min-h-screen bg-[#24033f] text-white">{page}</div>
+    <div className="w-full min-h-screen bitcasino-dark bg-goku text-white">{page}</div>
   );
 };
 
