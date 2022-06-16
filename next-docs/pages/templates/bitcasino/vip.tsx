@@ -399,7 +399,7 @@ const Vip = () => {
 
 Vip.getLayout = function getLayout(page: ReactNode) {
   return (
-    <div className="w-full min-h-screen bitcasino-dark bg-goku text-white">{page}</div>
+    <div className="w-full min-h-screen theme-bitcasino-dark bg-goku text-white">{page}</div>
   );
 };
 
