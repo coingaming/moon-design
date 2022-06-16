@@ -16,7 +16,7 @@ const ManifestLayout: React.FC<{ children: React.ReactNode }> = ({
   const toggleReactAndElixir = () => setIsElixir(!isElixir);
   const { isFeatureElixirEnabled } = useFeatureFlags();
   return (
-    <div className="moon-light bg-goku flex">
+    <div className="theme-moon-light bg-goku flex">
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
         <Sidebar />
