@@ -8,11 +8,11 @@ import explore1 from '../../../public/templates/explore-1.png';
 import explore2 from '../../../public/templates/explore-2.png';
 import explore3 from '../../../public/templates/explore-3.png';
 import explore4 from '../../../public/templates/explore-4.png';
+import gift from '../../../public/templates/gift.png';
+import handshake from '../../../public/templates/handshake.png';
+import promo from '../../../public/templates/promo.png';
 import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
-import gift from '../private/gift.png';
-import handshake from '../private/handshake.png';
-import promo from '../private/promo.png';
-import support from '../private/support.png';
+import support from '../../../public/templates/support.png';
 
 interface ExperienceCarousel {
   index?: number;
@@ -227,7 +227,7 @@ const Vip = () => {
           <div className="relative w-full grow">
             <div
               className="w-full h-full bg-contain bg-left bg-no-repeat"
-              style={{ backgroundImage: 'url(/ambasadors.png)' }}
+              style={{ backgroundImage: 'url(/templates/sportsbet/ambasadors.png)' }}
             />
             <div
               className="absolute left-0 bottom-0 w-full h-[150px]"
@@ -298,7 +298,7 @@ const Vip = () => {
           </div>
           <div
             className="w-full h-full max-w-[100vw] bg-contain bg-center bg-no-repeat h-[80vw] sm:w-[250px] sm:h-[200px] lg:w-[400px] lg:h-[300px]"
-            style={{ backgroundImage: 'url(/partnership.png)' }}
+            style={{ backgroundImage: 'url(/templates/sportsbet/partnership.png)' }}
           />
         </div>
         <div className="flex flex-col justify-center items-center sm:mt-16 w-[80vw] sm:w-[40vw]">

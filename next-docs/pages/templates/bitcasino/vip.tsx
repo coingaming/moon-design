@@ -4,15 +4,15 @@ import { Button } from '@heathmont/moon-core-tw';
 import { MailEnvelope, ArrowsLeft, ShopCrypto } from '@heathmont/moon-icons';
 
 import Image from 'next/image';
+import KingKaka from '../../../public/templates/bitcasino/kingKaka.png';
 import explore1 from '../../../public/templates/explore-1.png';
 import explore2 from '../../../public/templates/explore-2.png';
 import explore3 from '../../../public/templates/explore-3.png';
 import explore4 from '../../../public/templates/explore-4.png';
-import gift from '../private/gift.png';
-import handshake from '../private/handshake.png';
-import KingKaka from '../private/kingKaka.png';
-import promo from '../private/promo.png';
-import support from '../private/support.png';
+import gift from '../../../public/templates/gift.png';
+import handshake from '../../../public/templates/handshake.png';
+import promo from '../../../public/templates/promo.png';
+import support from '../../../public/templates/support.png';
 import BitcasinoLogo from './bitcasino-logo';
 
 interface ExperienceCarousel {
@@ -226,7 +226,7 @@ const Vip = () => {
       </div>
       <div
         className="flex flex-col justify-center items-center bg-bottom relative mb-48 sm:mb-0 sm:flex sm:flex-row-reverse sm:items-stretch"
-        style={{ backgroundImage: 'url(/pattern.png)', backgroundSize: 'auto 100%' }}
+        style={{ backgroundImage: 'url(/templates/bitcasino/pattern.png)', backgroundSize: 'auto 100%' }}
       >
         <div className="flex sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw]">
           <div className="relative w-full justify-end self-end">
