@@ -1,5 +1,15 @@
 # @heathmont/moon-select
 
+## 9.1.5
+
+### Patch Changes
+
+- vip templates
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.1.5
+  - @heathmont/moon-themes@9.1.5
+  - @heathmont/moon-utils@9.1.5
+
 ## 9.1.4
 
 ### Patch Changes
