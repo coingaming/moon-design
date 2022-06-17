@@ -1,6 +1,7 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import Active from '../../public/examples/chipTW/Active';
+import Default from '../../public/examples/chipTW/Default';
 import Icons from '../../public/examples/chipTW/Icons';
 import IsStroke from '../../public/examples/chipTW/IsStroke';
 import IsStrokeIcons from '../../public/examples/chipTW/IsStrokeIcons';
@@ -32,6 +33,11 @@ const Example = () => {
           Selection chips allow users to select options that matter to them.
         </p>
       </ComponentPageDescription>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
       <Preview
         title="Sizes"
         preview={<Sizes />}

@@ -24,7 +24,7 @@ const Example = () => (
         mollit anim id est laborum.
       </div>
     </Accordion>
-    <Accordion title="Medium (md Default)" size="md" isContentInside={false}>
+    <Accordion title="Medium is default (md)" isContentInside={false}>
       <div className="text-moon-14">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

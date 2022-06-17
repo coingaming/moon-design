@@ -9,6 +9,7 @@ type AccordionProps = {
   size?: AccordionSizes;
   withButton?: boolean;
   isContentInside?: boolean;
+  isRtl?: boolean;
 };
 
 export default AccordionProps;
