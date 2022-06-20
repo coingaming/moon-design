@@ -1,7 +1,7 @@
 aliases:
   default: &default
     docker:
-      - image: lsage/pnpm-circleci-node
+      - image: guergeiro/pnpm
 
   install_deps: &install_deps
     run:
