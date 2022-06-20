@@ -12,7 +12,7 @@
 
 
    ```sh
-   npm install -g pnpm@6
+   npm install -g pnpm
    ```
 
 
@@ -39,7 +39,7 @@
    ```sh
    pnpm run watch
    ```
-   
+
    ```sh
    pnpm run next dev
    ```
@@ -49,7 +49,7 @@
    ```sh
    pnpm run next build
    ```
-   
+
    ```sh
    pnpm run next start
    ```
