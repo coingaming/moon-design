@@ -14,6 +14,7 @@ const Avatar: React.FC<AvatarProps> = ({
   size = 'md',
   statusOrigin = { vertical: 'bottom', horizontal: 'right' },
   isStatusActive,
+  isRounded,
 }) => {
   return (
     <div className="relative">
@@ -23,6 +24,7 @@ const Avatar: React.FC<AvatarProps> = ({
           imageUrl={imageUrl}
           color={color}
           backgroundColor={backgroundColor}
+          isRounded={isRounded}
         />
       ) : (
         <Wrapper
@@ -30,6 +32,7 @@ const Avatar: React.FC<AvatarProps> = ({
           imageUrl={imageUrl}
           color={color}
           backgroundColor={backgroundColor}
+          isRounded={isRounded}
         >
           {name || (
             <GenericUser

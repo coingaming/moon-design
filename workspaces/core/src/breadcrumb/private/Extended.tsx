@@ -1,11 +1,11 @@
 import React from 'react';
 import { ArrowsRight } from '@heathmont/moon-icons-tw';
 import classNames from '../../private/utils/classnames';
-import BreadcrumbProps from './types/BreadcrumbProps';
+import type BreadcrumbProps from './types/BreadcrumbProps';
 
 const Extended: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => (
   <nav aria-label="Breadcrumb">
-    <ol className="flex flex-wrap gap-2 items-center text-moon-12">
+    <ol className="flex flex-wrap gap-2 items-center text-moon-14">
       {breadcrumbs.length > 0 &&
         breadcrumbs.map((crumb, index) => (
           <li
@@ -16,7 +16,7 @@ const Extended: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => (
             <span
               className={classNames(
                 'text-trunks transition-colors duration-200 hover:text-bulma',
-                index === breadcrumbs.length - 1 && 'text-bulma font-semibold'
+                index === breadcrumbs.length - 1 && 'text-bulma font-medium'
               )}
             >
               {crumb && crumb}

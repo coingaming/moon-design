@@ -41,7 +41,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
           <span className={classNames('flex me-3 relative')}>
             <span
               className={classNames(
-                'w-6 h-6 rounded-moon-i-xs transition duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color]',
+                'w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color]',
                 isChecked ? 'hover:bg-piccolo/[.12]' : 'hover:bg-trunks/[.12]',
                 !disabled &&
                   !readOnly &&

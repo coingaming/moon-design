@@ -1,5 +1,6 @@
 import React from 'react';
 import classNames from '../../private/utils/classnames';
+import setBorderRadius from '../private/utils/setBorderRadius';
 import setWrapperSize from '../private/utils/setWrapperSize';
 import type AvatarProps from '../private/types/AvatarProps';
 
@@ -9,6 +10,7 @@ const Wrapper: React.FC<AvatarProps> = ({
   imageUrl,
   color,
   backgroundColor,
+  isRounded,
 }) => {
   return (
     <div
@@ -16,7 +18,8 @@ const Wrapper: React.FC<AvatarProps> = ({
         'overflow-hidden uppercase font-medium flex items-center justify-center bg-cover',
         color && color,
         backgroundColor && backgroundColor,
-        setWrapperSize(size)
+        setWrapperSize(size),
+        setBorderRadius(size, isRounded)
       )}
       style={{ backgroundImage: `url('${imageUrl}')` }}
     >

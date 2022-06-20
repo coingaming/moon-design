@@ -2,9 +2,11 @@ import LabelProps from '../private/types/LabelProps';
 
 const setFontSize = ({ size, isUppercase }: LabelProps) => {
   if (isUppercase) {
-    return size === '2xs' ? 'text-[0.563rem]' : 'text-[0.625rem]';
+    return size === '2xs'
+      ? 'text-moon-9-caption uppercase font-medium'
+      : 'text-moon-10-caption uppercase font-medium';
   }
-  return size === '2xs' ? 'text-[0.625rem]' : 'text-[0.75rem]';
+  return size === '2xs' ? 'text-moon-10' : 'text-moon-12';
 };
 
 export default setFontSize;
