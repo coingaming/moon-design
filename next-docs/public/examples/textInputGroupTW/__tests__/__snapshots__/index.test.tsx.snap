@@ -87,16 +87,16 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
   </div>
   <div
     className="flex items-center rounded-moon-i-xs leading-4 py-1 
-  pr-2 
-  pl-2 uppercase font-medium text-[0.625rem] tracking-[0.063rem] text-gohan bg-trunks"
+  pe-2 
+  ps-2 uppercase font-medium text-[0.625rem] tracking-[0.063rem] text-gohan bg-trunks"
   >
     Country: 
     Estonia
   </div>
   <div
     className="flex items-center rounded-moon-i-xs leading-4 py-1 
-  pr-2 
-  pl-2 uppercase font-medium text-[0.625rem] tracking-[0.063rem] text-gohan bg-trunks"
+  pe-2 
+  ps-2 uppercase font-medium text-[0.625rem] tracking-[0.063rem] text-gohan bg-trunks"
   >
     Phone: 
     +372 45678901

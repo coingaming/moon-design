@@ -8,6 +8,7 @@ import renderer, { act } from 'react-test-renderer';
 import Default from '../Default';
 import ContentOutside from '../ContentOutside';
 import Sizes from '../Sizes';
+import Rtl from '../Rtl';
 import WithoutButton from '../WithoutButton';
 
 const renderWithTheme = (component: JSX.Element) => (
@@ -43,6 +44,11 @@ describe('Accordion New', () => {
 
   it('renders without button', () => {
     const testRenderer = renderer.create(renderWithTheme(<WithoutButton />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders RTL', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Rtl />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
