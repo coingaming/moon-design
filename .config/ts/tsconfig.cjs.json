@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
     "declaration": true,
@@ -13,7 +14,6 @@
     "isolatedModules": true,
     "jsx": "react",
     "target": "ES2015",
-    "lib": ["es6", "dom", "es2017"],
     "baseUrl": "../"
   },
   "paths": {
