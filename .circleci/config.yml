@@ -100,6 +100,18 @@ jobs:
             - packages/*/node_modules/*
             - workspaces/*/node_modules/*
 
+  pnpm:
+    <<: *default
+    steps:
+      - attach_workspace:
+          at: ./
+      - run:
+          name: corepack enable
+          command: corepack enable
+      - run:
+          name: activate pnpm@7.3.0
+          command: corepack prepare pnpm@7.3.0 --activate
+
   lint:
     <<: *default
     steps:
@@ -120,6 +132,7 @@ jobs:
     <<: *default
     steps:
       - checkout
+      - pnpm
       - attach_workspace:
           at: ./
       - run:
@@ -135,6 +148,7 @@ jobs:
     <<: *default
     steps:
       - checkout
+      - pnpm
       - attach_workspace:
           at: ./
       - run:
@@ -173,6 +187,7 @@ jobs:
   publish:
     <<: *default
     steps:
+      - pnpm
       - *setup_github_ssh
       - run: git clone -b master git@github.com:coingaming/$CIRCLE_PROJECT_REPONAME.git .
       - *setup_git_config
@@ -237,6 +252,7 @@ workflows:
                 - master
           requires:
             - dependencies
+            - pnpm
 
       - lint:
           context: global
