@@ -1,12 +1,14 @@
 aliases:
   default: &default
     docker:
-      - image: guergeiro/pnpm
+      - image: circleci/node:16
 
   install_deps: &install_deps
     run:
       name: 'Installing dependencies and creating symlinks'
-      command: pnpm i
+      command: |
+        npm install -g pnpm
+        pnpm i
 
   restore_cache: &restore_cache
     restore_cache:
