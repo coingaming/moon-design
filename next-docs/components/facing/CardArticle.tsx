@@ -37,8 +37,8 @@ const CardArcticle: React.FC<Props> = ({
     <a target="_blank">
       <div
         className={classNames(
-          variant === 'tall' ? 'pr-9' : 'pr-12',
-          `group relative flex flex-col justify-end pl-6 py-6 bg-goku rounded-moon-s-lg`
+          variant === 'tall' ? 'pe-9' : 'pe-12',
+          `group relative flex flex-col justify-end ps-6 py-6 bg-goku rounded-moon-s-lg`
         )}
         style={
           variant && variant in variants ? variants[variant] : variants.default

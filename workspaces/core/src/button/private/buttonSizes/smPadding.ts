@@ -2,10 +2,10 @@ import type ButtonProps from '../types/ButtonProps';
 
 const smPadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
   if (icon === 'left' || iconLeft) {
-    return 'p-1 pr-3';
+    return 'p-1 pe-3';
   }
   if (icon === 'right' || iconRight) {
-    return 'p-1 pl-3';
+    return 'p-1 ps-3';
   }
   if (icon === 'only' || iconOnly) {
     return 'p-1';

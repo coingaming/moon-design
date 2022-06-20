@@ -27,20 +27,20 @@ interface Themes {
 
 const themes: Themes = {
   sportsbet: {
-    dark: 'sb-dark',
-    light: 'sd-light',
+    dark: 'theme-sb-dark',
+    light: 'theme-sb-light',
   },
   betadda: {
-    dark: 'betadda-dark',
-    light: 'betadda-light',
+    dark: 'theme-betadda-dark',
+    light: 'theme-betadda-light',
   },
   bitcasino: {
-    dark: 'bitcasino-dark',
-    light: 'bitcasino-light',
+    dark: 'theme-bitcasino-dark',
+    light: 'theme-bitcasino-light',
   },
   moonDesign: {
-    dark: 'moon-dark',
-    light: 'moon-light',
+    dark: 'theme-moon-dark',
+    light: 'theme-moon-light',
   },
   //   slots: {
   //     dark: slotsDark,
@@ -126,12 +126,12 @@ const useThemeTW = () => {
       return '';
     }
     const theme = localStorage.getItem('themeCN');
-    theme && setTheme(theme);
     return theme;
   };
 
   useEffect(() => {
-    getTheme();
+    const theme = getTheme();
+    setTheme(theme || 'theme-moon-light');
   }, []);
 
   /**
@@ -159,7 +159,8 @@ const useThemeTW = () => {
   };
 
   const setBrand = (brand: Brand) => {
-    const className = themes && themes[brand][themeState.colorMode];
+    const currentMode = (getMode() || themeState.colorMode) as Mode;
+    const className = themes && themes[brand][currentMode];
     setTheme(className);
     setThemeState({
       brand: brand,

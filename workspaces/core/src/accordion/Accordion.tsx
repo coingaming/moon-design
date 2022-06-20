@@ -15,6 +15,7 @@ const Accordion = ({
   headerContent,
   withButton = true,
   isContentInside = true,
+  isRtl,
   size = 'md',
 }: AccordionProps) => {
   const [isOpen, setIsOpen] = useState(openByDefault);
@@ -41,7 +42,12 @@ const Accordion = ({
         onClick={handleState}
       >
         {title && (
-          <h3 className={classNames('flex-1 font-medium', setFont(size))}>
+          <h3
+            className={classNames(
+              'flex-1 font-medium text-bulma',
+              setFont(size)
+            )}
+          >
             {title}
           </h3>
         )}
@@ -58,7 +64,7 @@ const Accordion = ({
             <ControlsChevronRight
               className={classNames(
                 'text-trunks text-moon-24 transition-transform transition-200',
-                setOpenIcon(isOpen)
+                setOpenIcon({ isOpen, isRtl })
               )}
             />
           </button>
@@ -66,7 +72,7 @@ const Accordion = ({
       </div>
       <div
         className={classNames(
-          'overflow-hidden w-full',
+          'overflow-hidden w-full text-bulma',
           isOpen ? 'h-full' : 'h-0',
           isOpen && setMargin(size)
         )}

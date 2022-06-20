@@ -10,7 +10,7 @@ const Button: React.FC<ButtonProps> = ({
   variant = 'primary',
   size = 'md',
   icon,
-  iconSize = 24,
+  iconSize = size === 'xs' ? 16 : 24,
   iconLeft,
   iconRight,
   iconOnly,
@@ -22,13 +22,12 @@ const Button: React.FC<ButtonProps> = ({
   const [isHover, setIsHover] = useState(false);
   const hasAnimationContent =
     animation === 'progress' || animation === 'success';
-  const setIconSize = size === 'xs' ? 16 : iconSize;
   return (
     <ButtonComponent
       size={size}
       variant={variant as ButtonVariants}
       icon={icon}
-      iconSize={setIconSize}
+      iconSize={iconSize}
       iconLeft={iconLeft}
       iconRight={iconRight}
       iconOnly={iconOnly}

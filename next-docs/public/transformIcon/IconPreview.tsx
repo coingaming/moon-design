@@ -65,7 +65,7 @@ const IconPreview: React.FC<IconPreviewProps> = ({
     );
   return (
     <div className="flex flex-col gap-6">
-      <div className="pl-1">
+      <div className="ps-1">
         <Checkbox
           label="Set icon sizing to `em` for easy resizing via `font-size`."
           checked={isDimensions}

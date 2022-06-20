@@ -11,7 +11,7 @@ const Button: React.FC<{ isActive: boolean; onClick: () => void }> = ({
     className={classNames(
       'group',
       isActive ? 'text-gray-900 bg-white' : 'text-gray-600 ',
-      'group transition-colors flex-inline rounded-md p-1.5 lg:pl-2.5 lg:pr-3.5 rounded-md flex items-center text-sm font-medium shadow-sm'
+      'group transition-colors flex-inline rounded-md p-1.5 lg:ps-2.5 lg:pe-3.5 flex items-center text-sm font-medium shadow-sm'
     )}
     {...rest}
   >

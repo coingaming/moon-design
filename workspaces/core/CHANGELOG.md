@@ -1,5 +1,21 @@
 # @heathmont/moon-core-tw
 
+## 9.1.5
+
+### Patch Changes
+
+- vip templates
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.1.5
+
+## 9.1.4
+
+### Patch Changes
+
+- Casino template
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.1.4
+
 ## 9.1.3
 
 ### Patch Changes
