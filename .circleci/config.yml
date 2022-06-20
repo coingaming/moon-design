@@ -14,14 +14,14 @@ aliases:
     restore_cache:
       name: 'Restoring cache'
       keys:
-        - project-deps-v4-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
-        - project-deps-v4-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}
-        - project-deps-v4-{{ .Environment.CIRCLE_PROJECT_REPONAME }}
+        - project-deps-v5-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
+        - project-deps-v5-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}
+        - project-deps-v5-{{ .Environment.CIRCLE_PROJECT_REPONAME }}
 
   save_cache: &save_cache
     save_cache:
       name: 'Saving cache'
-      key: project-deps-v4-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
+      key: project-deps-v5-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
       paths:
         - node_modules
         - packages/*/node_modules/*
