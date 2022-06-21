@@ -6,6 +6,8 @@ export { default as Accordion } from './accordion/Accordion';
 export * from './accordion/Accordion';
 export { default as Avatar } from './avatar/Avatar';
 export * from './avatar/Avatar';
+export { default as Banner } from './banner/Banner';
+export * from './banner/Banner';
 export { default as Breadcrumb } from './breadcrumb/Breadcrumb';
 export * from './breadcrumb/Breadcrumb';
 export { default as Button } from './button/Button';
