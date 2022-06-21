@@ -8,9 +8,6 @@ exports[`TextInputGroup renders 1`] = `
 >
   <div
     className="sc-iOnGvX dgcOls"
-    dir="ltr"
-    placeholder="Country"
-    type="text"
   >
     <input
       className="sc-goMRkL fJTDMG"
@@ -21,9 +18,6 @@ exports[`TextInputGroup renders 1`] = `
   </div>
   <div
     className="sc-iOnGvX fqIugw"
-    dir="ltr"
-    placeholder="Phone"
-    type="text"
   >
     <input
       className="sc-goMRkL kyGWJm"
@@ -43,9 +37,6 @@ exports[`TextInputGroup renders RTL 1`] = `
 >
   <div
     className="sc-iOnGvX fqIugw"
-    dir="rtl"
-    placeholder="Country"
-    type="text"
   >
     <input
       className="sc-goMRkL kyGWJm"
@@ -56,9 +47,6 @@ exports[`TextInputGroup renders RTL 1`] = `
   </div>
   <div
     className="sc-iOnGvX dgcOls"
-    dir="rtl"
-    placeholder="Phone"
-    type="text"
   >
     <input
       className="sc-goMRkL fJTDMG"
@@ -81,9 +69,6 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
   >
     <div
       className="sc-iOnGvX dgcOls"
-      dir="ltr"
-      placeholder="Country"
-      type="text"
     >
       <input
         className="sc-goMRkL fJTDMG"
@@ -94,9 +79,6 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
     </div>
     <div
       className="sc-iOnGvX fqIugw"
-      dir="ltr"
-      placeholder="Phone"
-      type="text"
     >
       <input
         className="sc-goMRkL kyGWJm"
@@ -330,9 +312,6 @@ exports[`TextInputGroup renders different types 1`] = `
 >
   <div
     className="sc-iOnGvX dgcOls"
-    dir="ltr"
-    placeholder="Email"
-    type="email"
   >
     <input
       className="sc-goMRkL fJTDMG"
@@ -343,8 +322,6 @@ exports[`TextInputGroup renders different types 1`] = `
   </div>
   <div
     className="sc-iOnGvX fqIugw"
-    dir="ltr"
-    placeholder="Password"
   >
     <div
       className="sc-jNrqiC edxHQS"
@@ -1137,9 +1114,6 @@ exports[`TextInputGroup renders sizes 1`] = `
   >
     <div
       className="sc-iOnGvX dgcOls"
-      dir="ltr"
-      placeholder="Country"
-      type="text"
     >
       <input
         className="sc-goMRkL fJTDMG"
@@ -1150,9 +1124,6 @@ exports[`TextInputGroup renders sizes 1`] = `
     </div>
     <div
       className="sc-iOnGvX fqIugw"
-      dir="ltr"
-      placeholder="Phone"
-      type="text"
     >
       <input
         className="sc-goMRkL kyGWJm"
@@ -1169,9 +1140,6 @@ exports[`TextInputGroup renders sizes 1`] = `
   >
     <div
       className="sc-iOnGvX dgcOls"
-      dir="ltr"
-      placeholder="Country"
-      type="text"
     >
       <input
         className="sc-goMRkL hyxFTd"
@@ -1182,9 +1150,6 @@ exports[`TextInputGroup renders sizes 1`] = `
     </div>
     <div
       className="sc-iOnGvX fqIugw"
-      dir="ltr"
-      placeholder="Phone"
-      type="text"
     >
       <input
         className="sc-goMRkL ehfcsp"
@@ -1201,9 +1166,6 @@ exports[`TextInputGroup renders sizes 1`] = `
   >
     <div
       className="sc-iOnGvX dgcOls"
-      dir="ltr"
-      placeholder="Country"
-      type="text"
     >
       <div
         className="sc-jNrqiC jBcQib"
@@ -1221,9 +1183,6 @@ exports[`TextInputGroup renders sizes 1`] = `
     </div>
     <div
       className="sc-iOnGvX fqIugw"
-      dir="ltr"
-      placeholder="Phone"
-      type="text"
     >
       <div
         className="sc-jNrqiC jBcQib"
@@ -1254,9 +1213,6 @@ exports[`TextInputGroup renders vertical 1`] = `
   >
     <div
       className="sc-iOnGvX kYhhKo"
-      dir="ltr"
-      placeholder="Country"
-      type="text"
     >
       <input
         className="sc-goMRkL dZGTbK"
@@ -1267,9 +1223,6 @@ exports[`TextInputGroup renders vertical 1`] = `
     </div>
     <div
       className="sc-iOnGvX PPvsw"
-      dir="ltr"
-      placeholder="Phone"
-      type="text"
     >
       <input
         className="sc-goMRkL fFKsJS"
@@ -1286,9 +1239,6 @@ exports[`TextInputGroup renders vertical 1`] = `
   >
     <div
       className="sc-iOnGvX kYhhKo"
-      dir="ltr"
-      placeholder="Country"
-      type="text"
     >
       <div
         className="sc-jNrqiC jBcQib"
@@ -1306,9 +1256,6 @@ exports[`TextInputGroup renders vertical 1`] = `
     </div>
     <div
       className="sc-iOnGvX PPvsw"
-      dir="ltr"
-      placeholder="Phone"
-      type="text"
     >
       <div
         className="sc-jNrqiC jBcQib"

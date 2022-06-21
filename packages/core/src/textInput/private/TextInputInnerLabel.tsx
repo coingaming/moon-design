@@ -50,31 +50,34 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
       ...rest
     } = props;
     const inputProps = {
-      disabled,
       type,
       placeholder,
       dir,
-      isSharpLeftSide,
-      isSharpRightSide,
-      isSharpTopSide,
-      isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
       backgroundColor,
       ...rest,
     };
+    const containerProps = {
+      disabled,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
+      bgColor: backgroundColor,
+    };
     return (
-      <Container {...inputProps}>
+      <Container {...containerProps}>
         <Inner bgColor={backgroundColor}>
           <Input
             inputSize={inputSize}
             error={isError}
             ref={ref}
             id={id}
-            bgColor={backgroundColor}
             isLabel={!!label}
             isRtl={dir === 'rtl'}
             {...inputProps}
+            {...containerProps}
           />
           <LabelInner isRtl={dir === 'rtl'}>{label}</LabelInner>
         </Inner>

@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.1.6
+
+### Patch Changes
+
+- Text input & auth code fixes
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.1.6
+  - @heathmont/moon-icons@9.1.6
+  - @heathmont/moon-themes@9.1.6
+  - @heathmont/moon-utils@9.1.6
+
 ## 9.1.5
 
 ### Patch Changes
