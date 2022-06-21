@@ -18,7 +18,7 @@ const Multiline: React.FC<Props> = ({
     {iconHeader &&
     <div className='w-full bg-goten flex rounded-lg justify-between'>
         <div className='flex-col p-6'>
-          <div className='flex  justify-between'>
+          <div className='flex mb-2 justify-between'>
             <div className='font-semibold'>{title}</div>
           </div>
           <div className='block align-middle items-center text-trunks'>{description}</div>
@@ -29,12 +29,12 @@ const Multiline: React.FC<Props> = ({
         {!iconHeader && buttons && (
           <div className='w-full bg-goten sm:flex rounded-lg justify-between'>
              <div className='flex-col p-6'>
-               <div className='flex justify-between'>
+               <div className='flex mb-2 justify-between'>
                  <div className='font-semibold'>{title}</div>
                </div>
                 <div className='block align-middle items-center text-trunks'>{description}</div>
               </div>
-           <div className='flex justify-end grow items-end sm:items-center mr-8'>
+           <div className='flex justify-end mr-4 mb-4 sm:items-center sm:mr-8 sm:mb-0  '>
               {buttons &&
                 buttons.map((button, index) => <span key={index}>{button}</span>)}
            </div>
