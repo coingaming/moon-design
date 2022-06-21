@@ -88,9 +88,7 @@ const ReactSettings: React.FC<Props> = ({
                   key={themeKey}
                   type="button"
                   onClick={() => switchBrandHandler(themeKey as LogosKeys)}
-                  className={`${
-                    isRtlEnabled ? `mr-4` : `ml-4`
-                  } p-2 rounded-full text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center shadow-md`}
+                  className="ms-4 p-2 rounded-full text-black bg-white hover:bg-gray-200 inline-flex items-center justify-center shadow-md"
                 >
                   {Logo}
                 </button>

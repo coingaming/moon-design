@@ -19,7 +19,7 @@ const ManifestCard: React.FC<Props> = ({
   >
     <h3 className="text-moon-24 font-medium">{title}</h3>
     {!!contentItems.length && (
-      <ul className="list-disc ml-6">
+      <ul className="list-disc ms-6">
         {contentItems.map((item: string) => (
           <li className="text-moon-16">{item}</li>
         ))}

@@ -6,6 +6,7 @@ import ContentOutsideSizes from '../../public/examples/accordionTW/ContentOutsid
 import Default from '../../public/examples/accordionTW/Default';
 import Disabled from '../../public/examples/accordionTW/Disabled';
 import OpenDefault from '../../public/examples/accordionTW/OpenDefault';
+import Rtl from '../../public/examples/accordionTW/Rtl';
 import Sizes from '../../public/examples/accordionTW/Sizes';
 import WithoutButton from '../../public/examples/accordionTW/WithoutButton';
 import useExamples from '../../utils/useExamples';
@@ -55,6 +56,11 @@ const Example = () => {
         title="Header content"
         preview={<ContentHeader />}
         code={examples ? examples.ContentHeader : 'Loading'}
+      />
+      <Preview
+        title="RTL"
+        preview={<Rtl />}
+        code={examples ? examples.Rtl : 'Loading'}
       />
       <Preview
         title="Sizes"

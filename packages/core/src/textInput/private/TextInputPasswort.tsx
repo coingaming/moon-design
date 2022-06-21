@@ -61,21 +61,25 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
     };
 
     const inputProps = {
-      disabled,
       placeholder,
       dir,
-      isSharpLeftSide,
-      isSharpRightSide,
-      isSharpTopSide,
-      isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
       ...rest,
     };
 
+    const containerProps = {
+      disabled,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
+      bgColor: backgroundColor,
+    };
+
     if (inputSize === Size.XLARGE) {
       return (
-        <Container {...inputProps}>
+        <Container {...containerProps}>
           <Inner bgColor={backgroundColor}>
             <Input
               inputSize={inputSize}
@@ -83,10 +87,10 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
               error={isError}
               ref={ref}
               id={id}
-              bgColor={backgroundColor}
               isLabel={!!label}
               isPassword={true}
               {...inputProps}
+              {...containerProps}
             />
             <LabelInner isRtl={dir === 'rtl'}>{label}</LabelInner>
             <ShowPassword
@@ -101,7 +105,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       );
     }
     return (
-      <Container {...inputProps}>
+      <Container {...containerProps}>
         {label && (
           <Label dir={dir} htmlFor={id}>
             {label}
@@ -114,9 +118,9 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
             error={isError}
             ref={ref}
             id={id}
-            bgColor={backgroundColor}
             isPassword={true}
             {...inputProps}
+            {...containerProps}
           />
           <ShowPassword onClick={togglePasswordVisiblity} isRtl={dir === 'rtl'}>
             {showPasswordText}

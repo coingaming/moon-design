@@ -55,10 +55,10 @@ export default function SidebarTransition({
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
               >
-                <div className="absolute top-0 right-0 -mr-12 pt-2">
+                <div className="absolute top-0 right-0 -me-12 pt-2">
                   <button
                     ref={closeButtonRef}
-                    className="ml-1 flex items-center justify-center rounded-full focus:outline-none"
+                    className="ms-1 flex items-center justify-center rounded-full focus:outline-none"
                     onClick={() => setIsOpen(false)}
                   >
                     <span className="sr-only">Close sidebar</span>

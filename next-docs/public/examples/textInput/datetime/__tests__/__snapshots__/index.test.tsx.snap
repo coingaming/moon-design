@@ -7,8 +7,6 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -31,8 +29,6 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -55,8 +51,6 @@ exports[`TextInput: type DateTime renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
-    type="datetime-local"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -89,8 +83,6 @@ exports[`TextInput: type DateTime renders error 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -111,8 +103,6 @@ exports[`TextInput: type DateTime renders error 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -133,8 +123,6 @@ exports[`TextInput: type DateTime renders error 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -166,9 +154,6 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -190,9 +175,6 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -214,9 +196,6 @@ exports[`TextInput: type DateTime renders readOnly 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
-    type="datetime-local"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -249,8 +228,6 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -271,8 +248,6 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -293,8 +268,6 @@ exports[`TextInput: type DateTime renders with hint 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -326,8 +299,6 @@ exports[`TextInput: type DateTime renders with label 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -342,8 +313,6 @@ exports[`TextInput: type DateTime renders with label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -358,8 +327,6 @@ exports[`TextInput: type DateTime renders with label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -385,9 +352,6 @@ exports[`TextInput: type DateTime renders with label RTL 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -404,9 +368,6 @@ exports[`TextInput: type DateTime renders with label RTL 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -423,9 +384,6 @@ exports[`TextInput: type DateTime renders with label RTL 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder="Placeholder"
-    type="datetime-local"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -452,8 +410,6 @@ exports[`TextInput: type DateTime renders without label 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="medium"
-    type="datetime-local"
   >
     <input
       className="sc-goMRkL JOvHL"
@@ -463,8 +419,6 @@ exports[`TextInput: type DateTime renders without label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="large"
-    type="datetime-local"
   >
     <input
       className="sc-goMRkL gsTWKg"
@@ -474,8 +428,6 @@ exports[`TextInput: type DateTime renders without label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="xlarge"
-    type="datetime-local"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -498,9 +450,7 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
+    className="sc-iOnGvX bDEkCi"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -520,9 +470,7 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
+    className="sc-iOnGvX bDEkCi"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -542,9 +490,7 @@ exports[`TextInput: type DateTime supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="datetime-local"
+    className="sc-iOnGvX bDEkCi"
   >
     <div
       className="sc-jNrqiC hjjcDo"

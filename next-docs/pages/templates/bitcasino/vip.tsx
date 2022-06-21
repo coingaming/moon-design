@@ -40,7 +40,7 @@ const ExperienceCarouselItem = ({
       <p className="text-moon-18 text-center font-semibold mb-4 w-full">
         {title}
       </p>
-      <ul className="w-full list-disc pl-4">
+      <ul className="w-full list-disc ps-4">
         {points?.map((point: string) => (
           <li>
             <p className="text-moon-16 w-full">{point}</p>
@@ -58,10 +58,10 @@ const ExploreCarouselItem = ({
 }) => {
   return (
     <div className="w-full h-full flex p-6">
-      <div className="w-[168px] mr-3 flex flex-col items-stretch">
+      <div className="w-[168px] me-3 flex flex-col items-stretch">
         <div className="h-16" />
         <div className="grow-1 mb-2 relative rounded-lg">
-          <Image src={items[0].image} sizes='100%'/>
+          <Image src={items[0].image} sizes="100%" />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[0].title}
@@ -69,7 +69,7 @@ const ExploreCarouselItem = ({
           </div>
         </div>
         <div className="grow-1 relative rounded-lg">
-          <Image src={items[1].image} sizes='100%'/>
+          <Image src={items[1].image} sizes="100%" />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[1].title}
@@ -79,7 +79,7 @@ const ExploreCarouselItem = ({
       </div>
       <div className="w-[168px] flex flex-col items-stretch relative">
         <div className="grow-1 mb-2 relative rounded-lg">
-          <Image src={items[2].image} sizes='100%'/>
+          <Image src={items[2].image} sizes="100%" />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[2].title}
@@ -87,7 +87,7 @@ const ExploreCarouselItem = ({
           </div>
         </div>
         <div className="grow-1 relative rounded-lg">
-          <Image src={items[3].image} sizes='100%'/>
+          <Image src={items[3].image} sizes="100%" />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[3].title}
@@ -100,18 +100,26 @@ const ExploreCarouselItem = ({
   );
 };
 
-const Headline = ({ text }: {text: string}) => (
+const Headline = ({ text }: { text: string }) => (
   <p className="text-[32px] text-center font-semibold p-4 lg:text-[64px] lg:leading-[3.5rem] sm:text-left sm:text-moon-48">
     {text}
   </p>
 );
-const Title = ({ text, classes }: { text: string, classes?: string }) => (
-  <p className={`text-[32px] text-center font-semibold p-4 lg:text-moon-48 sm:text-moon-32 ${classes ?? ''}`}>
+const Title = ({ text, classes }: { text: string; classes?: string }) => (
+  <p
+    className={`text-[32px] text-center font-semibold p-4 lg:text-moon-48 sm:text-moon-32 ${
+      classes ?? ''
+    }`}
+  >
     {text}
   </p>
 );
-const Subtitle = ({ text, classes }: { text: string, classes?: string }) => (
-  <p className={`text-[16px] text-center px-3 pt-2 lg:text-moon-24 sm:text-moon-16 ${classes ?? ''}`}>
+const Subtitle = ({ text, classes }: { text: string; classes?: string }) => (
+  <p
+    className={`text-[16px] text-center px-3 pt-2 lg:text-moon-24 sm:text-moon-16 ${
+      classes ?? ''
+    }`}
+  >
     {text}
   </p>
 );
@@ -226,41 +234,49 @@ const Vip = () => {
       </div>
       <div
         className="flex flex-col justify-center items-center bg-bottom relative mb-48 sm:mb-0 sm:flex sm:flex-row-reverse sm:items-stretch"
-        style={{ backgroundImage: 'url(/templates/bitcasino/pattern.png)', backgroundSize: 'auto 100%' }}
+        style={{
+          backgroundImage: 'url(/templates/bitcasino/pattern.png)',
+          backgroundSize: 'auto 100%',
+        }}
       >
         <div className="flex sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw]">
           <div className="relative w-full justify-end self-end">
             <div className="w-[50%] h-[50%] min-w-[300px] min-h-[300px] mt-[35%] sm:mt-8">
-                <Image src={KingKaka} sizes='100%' />
+              <Image src={KingKaka} sizes="100%" />
             </div>
           </div>
         </div>
-        <div className="flex flex-col items-end absolute px-8 -mb-8 -bottom-32 z-10 md:w-[65%] md:pl-[15%] sm:bottom-0 sm:relative sm:mt-[100px] sm:mb-0 sm:pb-24 sm:pt-28 sm:w-[50%] sm:items-center">
+        <div className="flex flex-col items-end absolute px-8 -mb-8 -bottom-32 z-10 md:w-[65%] md:ps-[15%] sm:bottom-0 sm:relative sm:mt-[100px] sm:mb-0 sm:pb-24 sm:pt-28 sm:w-[50%] sm:items-center">
           <div className="flex flex-col max-w-full bottom-4 sm:w-[550px]">
-            <Headline text='Bitcasino VIP: For money can’t buy experiences!' />
+            <Headline text="Bitcasino VIP: For money can’t buy experiences!" />
             <Subtitle
-              text='Join the VIP Bitcasino Club - An exclusive world of crypto leaders
+              text="Join the VIP Bitcasino Club - An exclusive world of crypto leaders
               and high-rollers who dare to take risks and enjoy life to its
-              fullest.'
-              classes='sm:text-left'
+              fullest."
+              classes="sm:text-left"
             />
             <Button
-              variant='primary'
+              variant="primary"
               className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:self-start"
-            >Sign up now</Button>
+            >
+              Sign up now
+            </Button>
           </div>
         </div>
         <div
           className="absolute left-0 bottom-0 w-full h-[150px]"
-          style={{ background: 'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F  100%',}}
+          style={{
+            background:
+              'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F  100%',
+          }}
         />
       </div>
       <div className="flex flex-col items-center self-center sm:w-[70%]">
         <div className="flex flex-col relative -top-[50px] my-8 sm:top-0 sm:mb-0">
-          <Title text='A VIP experience tailored to your liking'/>
+          <Title text="A VIP experience tailored to your liking" />
           <Subtitle
-            text='Enjoy exclusive bonuses and invites to prestigious events for free.
-            Get all your indulgences taken care of.'
+            text="Enjoy exclusive bonuses and invites to prestigious events for free.
+            Get all your indulgences taken care of."
           />
           <div className="w-full flex max-w-[100vw] items-center justify-center px-5 py-8 xl:min-w-[1190px] lg:min-w-[900px] sm:mt-12 sm:max-w-[70vw]">
             <Carousel
@@ -277,8 +293,14 @@ const Vip = () => {
         </div>
         <div className="flex flex-col relative -top-[90px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
           <div className="flex flex-col sm:w-[320px] sm:justify-center sm:mb-20">
-            <Title text='Explore the world in true VIP style!' classes='sm:text-left'/>
-            <Subtitle  classes='sm:text-left' text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!" />
+            <Title
+              text="Explore the world in true VIP style!"
+              classes="sm:text-left"
+            />
+            <Subtitle
+              classes="sm:text-left"
+              text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
+            />
           </div>
           <div className="w-full max-w-[100vw] flex items-center justify-center px-5 py-8 sm:w-[430px]">
             <Carousel
@@ -289,39 +311,45 @@ const Vip = () => {
           </div>
         </div>
         <div className="flex flex-col relative -top-[50px] sm:flex-row-reverse sm:mt-14 sm:top-0 sm:flex-wrap sm:justify-center">
-          <div className="flex flex-col self-stretch align-center pb-20 sm:pl-16 sm:w-[350px] sm:justify-center lg:w-[550px]">
-            <Title text='VIP runs in the family' classes='sm:text-left'/>
+          <div className="flex flex-col self-stretch align-center pb-20 sm:ps-16 sm:w-[350px] sm:justify-center lg:w-[550px]">
+            <Title text="VIP runs in the family" classes="sm:text-left" />
             <Subtitle
-              classes='sm:text-left'
+              classes="sm:text-left"
               text="Sportsbet has legendary athletes in our VIP club. Join our high
               profile community of crypto leaders and high-rollers!"
             />
           </div>
           <div
             className="w-full h-full max-w-[100vw] bg-contain bg-center bg-no-repeat h-[80vw] sm:w-[250px] sm:h-[200px] lg:w-[400px] lg:h-[300px]"
-            style={{ backgroundImage: 'url(/templates/bitcasino/partnership.png)' }}
+            style={{
+              backgroundImage: 'url(/templates/bitcasino/partnership.png)',
+            }}
           />
         </div>
         <div className="flex flex-col justify-center items-center sm:mt-16 w-[80vw] sm:w-[60vw]">
-          <Title text='Ready to step up the game?'/>
+          <Title text="Ready to step up the game?" />
           <Subtitle
             text="Entry into our VIP Club is by invitation only. Get in touch with us
             to see what a tailored VIP package could look like for you. Join the
             family now!"
-            classes='w-[80%]'
+            classes="w-[80%]"
           />
           <div className="flex flex-col my-6 w-full sm:w-auto sm:flex-row sm:justify-center sm:items-center">
             <Button
-              variant='primary'
+              variant="primary"
               className="btn-primary py-3 px-9 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:self-start"
-            >Sign up</Button>
+            >
+              Sign up
+            </Button>
 
             <Button
-              variant='primary'
+              variant="primary"
               className="flex justify-center items-center btn-tertiary py-3 px-5 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:justify-between sm:self-start"
               icon="left"
               iconLeft={<MailEnvelope />}
-            >Contact us</Button>
+            >
+              Contact us
+            </Button>
           </div>
         </div>
         <div className="flex flex-col my-12">
@@ -399,7 +427,9 @@ const Vip = () => {
 
 Vip.getLayout = function getLayout(page: ReactNode) {
   return (
-    <div className="w-full min-h-screen theme-bitcasino-dark bg-goku text-white">{page}</div>
+    <div className="w-full min-h-screen theme-bitcasino-dark bg-goku text-white">
+      {page}
+    </div>
   );
 };
 

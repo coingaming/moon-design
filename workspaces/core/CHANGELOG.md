@@ -1,5 +1,13 @@
 # @heathmont/moon-core-tw
 
+## 9.1.6
+
+### Patch Changes
+
+- Text input & auth code fixes
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.1.6
+
 ## 9.1.5
 
 ### Patch Changes

@@ -14,7 +14,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const toggleReactAndElixir = () => setIsElixir(!isElixir);
   const { isFeatureElixirEnabled } = useFeatureFlags();
   return (
-    <div className="theme-moon-light bg-goku flex">
+    <div className="theme-moon-light bg-goku text-bulma flex">
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
         <Sidebar />

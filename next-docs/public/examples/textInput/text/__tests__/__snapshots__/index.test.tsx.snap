@@ -6,11 +6,6 @@ exports[`TextInput: type Text renders RTL 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder=" "
-    readOnly={true}
-    type="text"
-    value="Read only text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -35,11 +30,6 @@ exports[`TextInput: type Text renders RTL 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder=" "
-    readOnly={true}
-    type="text"
-    value="Read only text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -64,11 +54,6 @@ exports[`TextInput: type Text renders RTL 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder=" "
-    readOnly={true}
-    type="text"
-    value="Read only text"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -104,9 +89,6 @@ exports[`TextInput: type Text renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
-    type="text"
-    value="Text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -130,9 +112,6 @@ exports[`TextInput: type Text renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
-    type="text"
-    value="Text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -156,9 +135,6 @@ exports[`TextInput: type Text renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
-    type="text"
-    value="Text"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -192,8 +168,6 @@ exports[`TextInput: type Text renders error 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -214,8 +188,6 @@ exports[`TextInput: type Text renders error 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -236,8 +208,6 @@ exports[`TextInput: type Text renders error 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -269,10 +239,6 @@ exports[`TextInput: type Text renders readOnly 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
-    type="text"
-    value="Read only text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -295,10 +261,6 @@ exports[`TextInput: type Text renders readOnly 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
-    type="text"
-    value="Read only text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -321,10 +283,6 @@ exports[`TextInput: type Text renders readOnly 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
-    type="text"
-    value="Read only text"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -358,8 +316,6 @@ exports[`TextInput: type Text renders with hint 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -380,8 +336,6 @@ exports[`TextInput: type Text renders with hint 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -402,8 +356,6 @@ exports[`TextInput: type Text renders with hint 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -435,8 +387,6 @@ exports[`TextInput: type Text renders with label 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -451,8 +401,6 @@ exports[`TextInput: type Text renders with label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -467,8 +415,6 @@ exports[`TextInput: type Text renders with label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -494,8 +440,6 @@ exports[`TextInput: type Text renders without label 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="medium"
-    type="text"
   >
     <input
       className="sc-goMRkL JOvHL"
@@ -505,8 +449,6 @@ exports[`TextInput: type Text renders without label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="large"
-    type="text"
   >
     <input
       className="sc-goMRkL gsTWKg"
@@ -516,8 +458,6 @@ exports[`TextInput: type Text renders without label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="xlarge"
-    type="text"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -540,9 +480,7 @@ exports[`TextInput: type Text supports background colour 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
+    className="sc-iOnGvX bDEkCi"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -562,9 +500,7 @@ exports[`TextInput: type Text supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
+    className="sc-iOnGvX bDEkCi"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -584,9 +520,7 @@ exports[`TextInput: type Text supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="text"
+    className="sc-iOnGvX bDEkCi"
   >
     <div
       className="sc-jNrqiC hjjcDo"
