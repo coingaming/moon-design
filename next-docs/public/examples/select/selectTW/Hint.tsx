@@ -4,7 +4,7 @@ import {useState} from "react";
 const Example = () => {
   const [value, setValue] = useState('one');
 
-  return (<div className="flex flex-col gap-y-3 mb-[150px]">
+  return (<div className="flex flex-col gap-y-3 mb-[150px] w-80">
     <Select
       value={value}
       label='Hint slot'

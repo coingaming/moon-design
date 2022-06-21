@@ -1,7 +1,7 @@
 import { Select } from '@heathmont/moon-core-tw';
 
 const Example = () => {
-  return (<div className="flex flex-col gap-y-3">
+  return (<div className="flex flex-col gap-y-3 w-80">
     <Select
       disabled={true}
       label='Disabled select'

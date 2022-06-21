@@ -1,7 +1,7 @@
 import { Select } from '@heathmont/moon-core-tw';
 
 const Example = () => {
-  return (<div className="flex flex-col gap-y-3 mb-[150px]">
+  return (<div className="flex flex-col gap-y-3 mb-[150px] w-80">
     <Select
       isError={true}
       value='one'

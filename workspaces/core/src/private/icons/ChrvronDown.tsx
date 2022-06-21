@@ -1,21 +1,22 @@
 import React from "react";
 
 const ChevronDown = (props: React.SVGProps<SVGSVGElement>) => (
-  <svg
-    width="1.2em"
-    height="1.2em"
-    viewBox="0 0 32 32"
-    fill="none"
+  <svg 
+    width="10" 
+    height="6" 
+    viewBox="0 0 10 6" 
+    fill="none" 
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <path
-      d="M25 11.5l-9 9-9-9"
-      stroke="#999ca0"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
+  <path 
+  d="M9.5 0.75L5 5.25L0.5 0.75" 
+  stroke="currentColor"
+  stroke-linecap="round" 
+  stroke-linejoin="round" />
+</svg>
 );
+
+
 
 export default ChevronDown;

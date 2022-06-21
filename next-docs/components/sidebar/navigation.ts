@@ -19,7 +19,13 @@ const navigation = [
       { name: 'Chip', href: '/core/chip' },
       { name: 'Label', href: '/core/label' },
       { name: 'Loader', href: '/core/loader' },
-      { name: 'Select', href: '/core/select' },
+      { 
+        name: 'Select',
+        children: [
+           { name: 'SingleSelect', href: '/core/select' },
+           { name: 'MultiSelect', href: '/core/multiSelect' },
+        ],
+      },
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInput Group', href: '/core/textInputGroup' },
       { name: 'Typography', href: '/core/typography' },

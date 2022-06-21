@@ -11,7 +11,7 @@ const ChevronUp = (props: React.SVGProps<SVGSVGElement>) => (
   >
     <path
       d="M7 20.5l9-9 9 9"
-      stroke="#999ca0"
+      stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
     />

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width="1.2em"
+    width="1em"
     height="1em"
     viewBox="0 0 32 32"
     fill="none"

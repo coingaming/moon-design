@@ -5,10 +5,10 @@ const Example = () => {
   const [value, setValue] = useState('');
 
   return (
-    <div className="flex flex-col gap-y-3 mb-[150px]">
+    <div className="flex flex-col gap-y-3 mb-[150px] w-80">
       <Select
         value={value}
-        label='Default select'
+        label='Searchable select'
         options={[
           { value: 'one', element: 'One', label: 'One' },
           { value: 'two', element: 'Two', label: 'Two' },
