@@ -24,6 +24,8 @@ export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
 export { default as Pagination } from './pagination/Pagination';
 export * from './pagination/Pagination';
+export { default as RadioButton } from './radioButton/RadioButton';
+export * from './radioButton/RadioButton';
 export { default as TextInput } from './textInput/TextInput';
 export * from './textInput/TextInput';
 export { default as TextInputGroup } from './textInputGroup/TextInputGroup';
