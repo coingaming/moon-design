@@ -1,5 +1,14 @@
 # Change Log
 
+## 9.1.7
+
+### Patch Changes
+
+- Fix build
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.1.7
+  - @heathmont/moon-utils@9.1.7
+
 ## 9.1.6
 
 ### Patch Changes

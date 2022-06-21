@@ -3,6 +3,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/examples/labelTW/Colours';
+import Default from '../../public/examples/labelTW/Default';
 import Icons from '../../public/examples/labelTW/Icons';
 import LetterCases from '../../public/examples/labelTW/LetterCases';
 import Sizes from '../../public/examples/labelTW/Sizes';
@@ -25,6 +26,11 @@ const PageLabel = () => {
         <p>Default text style: Uppercase</p>
         <p>Border radius: Interactive</p>
       </ComponentPageDescription>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
       <Preview
         title="Colours"
         preview={<Colours />}
