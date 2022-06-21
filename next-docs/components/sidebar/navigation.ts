@@ -79,7 +79,7 @@ const navigation = [
           { name: 'Linear', href: '/components/progress/linear' },
         ],
       },
-      { name: 'RadioButton', href: '/components/radiobutton/radiobutton' },
+      { name: 'RadioButton', href: '/components/radiobutton' },
       { name: 'Search', href: '/components/search' },
       {
         name: 'Select',
