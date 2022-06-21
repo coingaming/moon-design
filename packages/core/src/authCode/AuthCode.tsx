@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import Text from '../text/Text';
 import TextInput from '../textInput/TextInput';
+import useDebounce from "./private/useDebounce";
 import Container from './styles/Container';
 import InputWrapper from './styles/InputWrapper';
 import MessageWrapper from './styles/MessageWrapper';
@@ -43,6 +44,8 @@ const AuthCode: React.FC<AuthCodeProps> = ({
    * authCodeParts stores values of all individual inputs as a single array value
    */
   const [authCodeParts, setAuthCodeParts] = useState<string[]>([]);
+  const [prevAuthCodeParts, setPrevAuthCodeParts] = useState<string[]>([]);
+  const debouncedPrevAuthCode = useDebounce(prevAuthCodeParts, 250);
 
   const checkKeyPress = useCallback(
     (e) => {
@@ -112,6 +115,20 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   };
 
   useEffect(() => {
+    if (debouncedPrevAuthCode?.length) {
+      debouncedPrevAuthCode.forEach((prevVal, index) => {
+        if (prevVal?.length > 1) {
+          const newValues = prevVal.split('');
+
+          newValues.forEach((newVal, nwIndex) => {
+            handleInputChange(newVal, index + nwIndex);
+          });
+        }
+      });
+    }
+  }, [debouncedPrevAuthCode]);
+
+  useEffect(() => {
     window.addEventListener('keydown', checkKeyPress);
 
     return () => {
@@ -158,7 +175,14 @@ const AuthCode: React.FC<AuthCodeProps> = ({
               placeholder={placeholder}
               dir={dir}
               ref={inputRefs[`${refPrefix}${i}`]}
-              onChange={(ev: any) => handleInputChange(ev.target.value, i)}
+              onChange={(ev: any) => {
+                const newPrevCodeParts = [...prevAuthCodeParts];
+
+                newPrevCodeParts[i] = ev.target.value;
+
+                setPrevAuthCodeParts(newPrevCodeParts);
+                handleInputChange(ev.target.value, i)
+              }}
               // Disabled if the previous input doesn't have value or if the following input has value
               disabled={(!!i && !authCodeParts[i - 1]) || !!authCodeParts[i + 1]}
               isError={!!errorMessage}
