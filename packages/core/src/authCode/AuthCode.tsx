@@ -1,6 +1,7 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import Text from '../text/Text';
 import TextInput from '../textInput/TextInput';
+import useDebounce from './private/useDebounce';
 import Container from './styles/Container';
 import InputWrapper from './styles/InputWrapper';
 import MessageWrapper from './styles/MessageWrapper';
@@ -8,7 +9,7 @@ import MessageWrapper from './styles/MessageWrapper';
 enum ErrorPositions {
   left = 'left',
   center = 'center',
-  right = 'right'
+  right = 'right',
 }
 
 export interface AuthCodeProps {
@@ -35,7 +36,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   onlyDigits = false,
   stretch = false,
   length = 6,
-  errorPosition = 'left'
+  errorPosition = 'left',
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
 
@@ -43,6 +44,8 @@ const AuthCode: React.FC<AuthCodeProps> = ({
    * authCodeParts stores values of all individual inputs as a single array value
    */
   const [authCodeParts, setAuthCodeParts] = useState<string[]>([]);
+  const [prevAuthCodeParts, setPrevAuthCodeParts] = useState<string[]>([]);
+  const debouncedPrevAuthCode = useDebounce(prevAuthCodeParts, 250);
 
   const checkKeyPress = useCallback(
     (e) => {
@@ -72,11 +75,11 @@ const AuthCode: React.FC<AuthCodeProps> = ({
 
     if (Number(val) < 0) return;
     // When user pastes full value we want to fill out every input
-    if (val?.length === length
-      && (
-        (onlyDigits && numericRegEx.test(val)) ||
-        (!onlyDigits && alphaNumericRegEx.test(val))
-    )) {
+    if (
+      val?.length === length &&
+      ((onlyDigits && numericRegEx.test(val)) ||
+        (!onlyDigits && alphaNumericRegEx.test(val)))
+    ) {
       return setAuthCodeParts(val.split(''));
     }
     // When user already typed 1 digit into this input
@@ -90,9 +93,9 @@ const AuthCode: React.FC<AuthCodeProps> = ({
       (onlyDigits && numericRegEx.test(val)) ||
       (!onlyDigits && alphaNumericRegEx.test(val))
     ) {
-      setAuthCodeParts((oldValue) => oldValue.map((e, i) => (
-        i !== index ? e : val)
-      ));
+      setAuthCodeParts((oldValue) =>
+        oldValue.map((e, i) => (i !== index ? e : val))
+      );
     }
 
     return true;
@@ -110,6 +113,20 @@ const AuthCode: React.FC<AuthCodeProps> = ({
       inputRefs[`${refPrefix}0`].current?.focus();
     }
   };
+
+  useEffect(() => {
+    if (debouncedPrevAuthCode?.length) {
+      debouncedPrevAuthCode.forEach((prevVal, index) => {
+        if (prevVal?.length > 1) {
+          const newValues = prevVal.split('');
+
+          newValues.forEach((newVal, nwIndex) => {
+            handleInputChange(newVal, index + nwIndex);
+          });
+        }
+      });
+    }
+  }, [debouncedPrevAuthCode]);
 
   useEffect(() => {
     window.addEventListener('keydown', checkKeyPress);
@@ -158,11 +175,20 @@ const AuthCode: React.FC<AuthCodeProps> = ({
               placeholder={placeholder}
               dir={dir}
               ref={inputRefs[`${refPrefix}${i}`]}
-              onChange={(ev: any) => handleInputChange(ev.target.value, i)}
+              onChange={(ev: any) => {
+                const newPrevCodeParts = [...prevAuthCodeParts];
+
+                newPrevCodeParts[i] = ev.target.value;
+
+                setPrevAuthCodeParts(newPrevCodeParts);
+                handleInputChange(ev.target.value, i);
+              }}
               // Disabled if the previous input doesn't have value or if the following input has value
-              disabled={(!!i && !authCodeParts[i - 1]) || !!authCodeParts[i + 1]}
+              disabled={
+                (!!i && !authCodeParts[i - 1]) || !!authCodeParts[i + 1]
+              }
               isError={!!errorMessage}
-              type='text'
+              type="text"
               maxLength={length}
               inputMode={onlyDigits ? 'numeric' : 'text'}
               pattern={onlyDigits && authCodeParts[i] ? '[0-9]*' : '[a-z0-9]*'}

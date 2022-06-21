@@ -5,18 +5,17 @@ import { useRouter } from 'next/router';
 const Breadcrumbs = () => {
   const { pathname } = useRouter();
   const [_, ...pages] = pathname === '/' ? [] : pathname.split('/');
-  const breadcrumbsPath =
-    pages.length > 0 &&
-    (pages.map((page) => (
-      <Link href={page}>
-        <a>{page && page[0].toUpperCase() + page.slice(1)}</a>
-      </Link>
-    )) as any);
-  breadcrumbsPath.unshift(
+  const breadcrumbsPath = [
     <Link href="/">
       <a>Moon.io</a>
-    </Link>
-  );
+    </Link>,
+    pages.length > 0 &&
+      pages.map((page) => (
+        <Link href={page}>
+          <a>{page && page[0].toUpperCase() + page.slice(1)}</a>
+        </Link>
+      )),
+  ];
   if (pathname === '/') {
     return null;
   }
