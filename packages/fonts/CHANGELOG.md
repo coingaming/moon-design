@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.1.6
+
+### Patch Changes
+
+- Text input & auth code fixes
+
 ## 9.1.5
 
 ### Patch Changes
