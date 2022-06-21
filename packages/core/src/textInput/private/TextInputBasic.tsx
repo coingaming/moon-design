@@ -50,21 +50,25 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       ...rest
     } = props;
     const inputProps = {
-      disabled,
       type,
       placeholder,
       dir,
-      isSharpLeftSide,
-      isSharpRightSide,
-      isSharpTopSide,
-      isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
       backgroundColor,
       ...rest,
     };
+
+    const containerProps = {
+      disabled,
+      isSharpLeftSide,
+      isSharpRightSide,
+      isSharpTopSide,
+      isSharpBottomSide,
+      bgColor: backgroundColor,
+    };
     return (
-      <Container {...inputProps}>
+      <Container {...containerProps}>
         {label && (
           <Label dir={dir} htmlFor={id}>
             {label}
@@ -75,9 +79,9 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
           error={isError}
           ref={ref}
           id={id}
-          bgColor={backgroundColor}
           isRtl={dir === 'rtl'}
           {...inputProps}
+          {...containerProps}
         />
         {hintText && <HintText isError={isError}>{hintText}</HintText>}
       </Container>
