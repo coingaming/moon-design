@@ -2,24 +2,28 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/bannerTW/Default';
-import Multiline from '../../public/examples/bannerTW/Multiline';
 import MultilineWithButtons from '../../public/examples/bannerTW/MultilineWithButtons';
 import Singleline from '../../public/examples/bannerTW/Singleline';
 import useExamples from '../../utils/useExamples';
 
 const PageBanner = () => {
-  const examples = useExamples('banner');
+  const examples = useExamples('bannerTW');
+
   return (
     <>
       <ComponentPageDescription title="Banner">
         <p>
           Banners are used to show users important, succinct messages, or space
           alerts, that users should know about. They can interact or ignore
-          banners at any time, as they are non-modal. What to take note of when
-          using banners Only one banner should be shown at a time. Banners
-          require user action in order to be dismissed. Messages should consist
-          of no longer than one headline, one description sentence and one short
-          call-to-action.
+          banners at any time, as they are non-modal.
+        </p>
+        <p>
+          <strong> What to take note of when using banners</strong>
+          <ul className='mt-4 list-disc list-inside'>
+            <li>Only one banner should be shown at a time.</li>
+            <li>Banners require user action in order to be dismissed.</li>
+            <li>Messages should consist of no longer than one headline, one description sentence and one short call-to-action.</li>
+          </ul>
         </p>
       </ComponentPageDescription>
       <Preview
@@ -28,22 +32,15 @@ const PageBanner = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Multiline"
-        preview={<Multiline />}
-        code={examples ? examples.Multiline : 'Loading'}
-      />
-      <Preview
         title="Multiline with buttons"
         preview={< MultilineWithButtons />}
         code={examples ? examples.Buttons : 'Loading'}
       />
-   
       <Preview
         title="Singleline"
         preview={<Singleline />}
         code={examples ? examples.Singleline : 'Loading'}
       />
-      
       <PropsTable
         title="Props"
         data={[

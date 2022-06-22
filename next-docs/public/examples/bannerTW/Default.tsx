@@ -5,7 +5,7 @@ const Example = () => (
   <Banner
     title="Merged pull request"
     description="Pull request #9999 merged after a successful build"
-    iconHeader={<ControlsClose />}
+    iconHeader={<ControlsClose fontSize='1.5rem'/>}
   />
 );
 

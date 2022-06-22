@@ -27,7 +27,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div className="flex flex-col grow max-w-screen-xl">
           {/* Opens sidebar on mobile */}
           <Header openSidebar={openSidebar} />
-          <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
+          <main className="flex flex-col flex-1 relative focus:outline-none">
             {isFeatureElixirEnabled && isElixir ? (
               <ElixirSettings
                 toggleReactAndElixir={toggleReactAndElixir}

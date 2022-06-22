@@ -1,6 +1,7 @@
 import React from 'react';
 import Multiline from './private/Multiline';
 import Singleline from './private/Singleline';
+
 export interface BannerProps {
   description: string;
   title?: string;
@@ -18,9 +19,10 @@ const Banner: React.FC<BannerProps> = ({
   isMultiline = true,
   link,
 }) => {
-  if(!isMultiline) {
-    return <Singleline description={description} link={link ?? <></>} />;
+  if (!isMultiline) {
+    return (<Singleline description={description} link={link ?? <></>} />);
   }
+
   return (
     <Multiline
       title={title}
