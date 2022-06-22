@@ -30,7 +30,7 @@ const Multiline: React.FC<Props> = ({
          </div>
          <div className='block align-middle items-center text-trunks'>{description}</div>
        </div>
-       <div className='flex justify-end mr-4 mb-4 sm:items-center sm:mr-8 sm:mb-0  '>
+       <div className='flex flex-wrap justify-end mr-4 mb-4 sm:items-center sm:mr-8 sm:mb-0'>
           {buttons && buttons.map((button, index) => <span key={index}>{button}</span>)}
        </div>
     </div>)}
