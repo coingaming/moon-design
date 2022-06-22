@@ -5,7 +5,7 @@ type SelectProps = {
   options: Option[];
   onChange?: (value: string) => any;
   label?: JSX.Element | string;
-  size?: 'md' | 'lg';
+  size?: 'md' | 'lg' | 'xl';
   menuWidth: number,
   disabled?: boolean;
   placeholderValue?: JSX.Element | string;

@@ -54,7 +54,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           <div className="hidden lg:block">
             <Breadcrumbs />
           </div>
-          <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
+          <main className="flex flex-col flex-1 relative focus:outline-none">
             {isFeatureElixirEnabled && isElixir ? (
               <ElixirSettings
                 toggleReactAndElixir={toggleReactAndElixir}

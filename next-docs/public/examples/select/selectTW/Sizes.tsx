@@ -1,6 +1,9 @@
 import { Select } from '@heathmont/moon-core-tw';
+import {useState} from "react";
 
 const Example = () => {
+  const [value, setValue] = useState('');
+
   return (<div className="flex flex-col gap-y-3 mb-[150px]">
     <Select
       value='one'
@@ -22,6 +25,19 @@ const Example = () => {
           { value: 'two', element: 'Two', label: 'Two' },
           { value: 'three', element: 'Three', label: 'Three' },
         ]}
+      />
+    </div>
+
+    <div className='mt-4'>
+      <Select
+        value={value}
+        label='XLarge'
+        size='xl'
+        options={[
+          { value: 'Moon', element: 'Moon', label: 'Moon' },
+          { value: 'Sun', element: 'Sun', label: 'Sun' },
+        ]}
+        onChange={(newValue: string) => { setValue(newValue); console.log('Change happened - ', newValue) }}
       />
     </div>
   </div>);

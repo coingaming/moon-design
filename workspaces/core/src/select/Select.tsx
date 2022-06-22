@@ -41,8 +41,10 @@ const Select: React.FC<SelectProps> = ({
   const menuRef = useRef(null);
   const placeholder = value ? options?.filter((option) => option.value === value)[0]?.label
     : placeholderSlot ?? placeholderValue ?? 'Choose an option';
-  let classNames = `flex relative py-${ size === 'md' ? 2 : 3 } px-${ size === 'md' ? 3 : 4 } bg-gohan rounded-lg`;
+  let classNames = 'flex relative bg-gohan';
 
+  classNames += size === 'xl' ? ' p-4' : size === 'md' ? ' py-2 px-3' : ' py-3 px-4';
+  classNames += size === 'xl' ? ' rounded-xl' : ' rounded-lg';
   classNames += disabled ? ' cursor-not-allowed' : ' cursor-pointer';
   classNames += (isSharpTopSide || isSharpLeftSide) ? ' rounded-tl-none' : '';
   classNames += (isSharpTopSide || isSharpRightSide) ? ' rounded-tr-none' : '';
@@ -53,7 +55,14 @@ const Select: React.FC<SelectProps> = ({
   classNames += isRtl ? ' text-direction-rtl' : '';
   classNames += isError ? ' shadow-input-err' : ` shadow-input ${ disabled ? '' : inputFocused ? 'shadow-input-focus' : 'hover:shadow-input-hov' }`;
 
+  const selectMenuItem = (value: string) => {
+    setMenuOpen(false);
+    setSearch('');
+    setMenuOptions(options);
 
+    if (onChange) onChange(value);
+  };
+  // Listening keyboard events on input element to toggle menu opening or type search value
   const handleInputKeydown = (e: any) => {
     if (e.key === "Tab") {
       setMenuOpen(false);
@@ -61,38 +70,38 @@ const Select: React.FC<SelectProps> = ({
     else if (e.key === "Enter") {
       setMenuOpen(false);
 
-      if (onChange && options?.length) onChange(options[hoveredIndex]?.value);
+      if (onChange && menuOptions?.length) selectMenuItem(menuOptions[hoveredIndex]?.value);
     }
     else if (e.key === 'ArrowDown') {
       setMenuOpen(true);
     }
-  };
+    // Deleting search value
+    else if (isSearchable && e.key === 'Backspace') {
+      const newSearch = search.split('').splice(0, search.length - 1).join('');
 
-  const onSelectClick = () => {
-    if (!disabled) {
-      setMenuOpen(!menuOpen);
-      inputRef?.current?.focus();
+      setMenuOpen(true);
+      setSearch(newSearch);
+      setMenuOptions(options.filter((option: Option) => {
+        return option.value.toLowerCase().includes(newSearch.toLowerCase());
+      }));
+    }
+    // Typing search value
+    else if (isSearchable && /[a-z0-9]*/.test(e.key) && e.key.length === 1) {
+      const newSearch = search + e.key;
+
+      setMenuOpen(true);
+      setSearch(newSearch);
+      setMenuOptions(options.filter((option: Option) => {
+        return option.value.toLowerCase().includes(newSearch.toLowerCase());
+      }));
     }
   };
 
-  const onInputFocus = (focused?: boolean) => {
-    setInputFocused(!!focused)
-  };
-
-  const determineMenuBackgroundColor = (index: number) => {
-    const selectedClass = 'bg-goku';
-    let bgClass = '';
-    // No menu item is selected, so first item should have background color
-    if (hoveredIndex < 0 && selectedIndex < 0 && index === 0) bgClass = selectedClass;
-    else if (hoveredIndex === index || selectedIndex === index) bgClass = selectedClass;
-
-    return bgClass;
-  };
-
+  // Listening global keyboard events to navigate through open menu (if any)
   const handleMenuNavigation = useCallback(
     (e) => {
       if (e && menuOpen) {
-        const optionsLength = options?.length ?? 0;
+        const optionsLength = menuOptions?.length ?? 0;
 
         e.stopPropagation();
         e.preventDefault();
@@ -108,11 +117,25 @@ const Select: React.FC<SelectProps> = ({
     [menuOpen, hoveredIndex]
   );
 
-  const onSearch = (e: ChangeEvent<HTMLInputElement>) => {
-    if(isSearchable && options) {
-      setSearch(e.target.value);
-      setMenuOptions(options.filter((option: Option) => option.value.toLowerCase().includes(e.target.value.toLowerCase())));
+  const onSelectClick = () => {
+    if (!disabled) {
+      setMenuOpen(!menuOpen);
+      inputRef?.current?.focus();
     }
+  };
+
+  const onInputFocus = (focused?: boolean) => {
+    setInputFocused(!!focused);
+  };
+
+  const determineMenuBackgroundColor = (index: number) => {
+    const selectedClass = 'bg-goku';
+    let bgClass = '';
+    // No menu item is selected, so first item should have background color
+    if (hoveredIndex < 0 && selectedIndex < 0 && index === 0) bgClass = selectedClass;
+    else if (hoveredIndex === index || selectedIndex === index) bgClass = selectedClass;
+
+    return bgClass;
   };
 
   useEffect(() => {
@@ -165,12 +188,12 @@ const Select: React.FC<SelectProps> = ({
       if(selectRef?.current && !selectRef.current.contains(e.target)) {
         setMenuOpen(false);
 
-        if(isSearchable) {
+        if (isSearchable) {
           setSearch('');
           setMenuOptions(options);
         }
       }
-    }
+    };
 
     document.addEventListener('mousedown', handleOutsideClick);
 
@@ -178,7 +201,7 @@ const Select: React.FC<SelectProps> = ({
   }, []);
 
   return (<div className={`support-colors flex flex-col text-popo ${ disabled ? 'opacity-30' : ''}` }>
-    { !!label && (<div className='text-base mb-2'>{label}</div>) }
+    { !!label && size !== 'xl' && (<div className='text-base mb-2'>{label}</div>) }
 
     <div
       className={classNames}
@@ -193,18 +216,18 @@ const Select: React.FC<SelectProps> = ({
         onFocus={() => onInputFocus(true)}
         onBlur={() => onInputFocus()}
         //@ts-ignore
-        value={search || options.find((option: Option) => option.value === value)?.label || ''}
+        value={isSearchable ? search : menuOptions.find((option: Option) => option.value === value)?.label || ''}
         readOnly={!isSearchable}
-        onChange={onSearch}
       />
 
-      {!search && !value && (
-        <div className={`absolute ${ disabled ? 'cursor-not-allowed' : 'cursor-pointer' } w-full flex items-center justify-between z-[2] text-trunks ${isRtl ? `pl-${ size === 'md' ? 3 : 4 }` : `pr-${ size === 'md' ? 3 : 4 }`}`}>
-          <div>{ placeholder }</div>
-
-          <div className='mx-2'>{ menuOpen ? (<ChevronUp />) : (<ChevronDown />) }</div>
-        </div>
-      )}
+      <div className={`absolute w-full flex items-center justify-between z-[2] ${ disabled ? 'cursor-not-allowed' : 'cursor-pointer' } ${!value ? 'text-trunks' : ''} ${isRtl ? `pl-${ size === 'md' ? 3 : 4 }` : `pr-${ size === 'md' ? 3 : 4 }`}`}>
+        {size !== 'xl' && (<div className='text-moon-14'>{ search ? search : placeholder }</div>)}
+        {size === 'xl' && (<>
+          <div className={`text-moon-16 transition-all relative ${!value ? 'text-transparent' : 'text-bulma -bottom-2'}`}>{ search ? search : placeholder }</div>
+          <div className={`text-trunks transition-all absolute ${!value ? 'text-moon-16' : 'text-moon-12 -top-2'}`}>{ label }</div>
+        </>)}
+        <div className={`${size === 'xl' ? 'mx-4' : 'mx-2'}`}>{ menuOpen ? (<ChevronUp />) : (<ChevronDown />) }</div>
+      </div>
 
       {!!hintSlot && (<div className={`absolute top-full left-0 p-2 text-xs text-${isError ? 'chiChi' : 'trunks'}`}>
         { hintSlot }
@@ -217,21 +240,16 @@ const Select: React.FC<SelectProps> = ({
       >
         {headerSlot || null}
         {
-          menuOpen && menuOptions?.length && menuOptions.map((option: Option, index: number) => (
-            <div
-              // @TODO hover with custom color doesn't work, but only bg-goku works, why? :(
-              className={`flex items-center text-popo text-sm p-2 rounded-sm mb-1 ${determineMenuBackgroundColor(index)}`}
-              key={option.value}
-              onClick={() => { if (!disabled && onChange) onChange(option.value) }}
-              onMouseOver={() => setHoveredIndex(index)}
-            >
-              {option.element}
-            </div>
-          ))
+          menuOpen && menuOptions?.length && menuOptions.map((option: Option, index: number) => (<div
+            className={`flex items-center text-popo text-sm p-2 mb-1 ${size === 'xl' ? 'rounded-lg' : 'rounded-sm'} ${determineMenuBackgroundColor(index)}`}
+            key={option.value}
+            onClick={() => { if (!disabled && onChange) selectMenuItem(option.value) }}
+            onMouseOver={() => setHoveredIndex(index)}
+          >
+            {option.element}
+          </div>))
         }
-        {!menuOptions.length && (
-          <div className="p-2">{noResultsMessage || 'No results found.'}</div>
-        )}
+        {!menuOptions.length && (<div className="p-2">{noResultsMessage || 'No results found.'}</div>)}
         {footerSlot || null}
       </div>
     </div>
