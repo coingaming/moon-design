@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader renders colors 1`] = `
+Array [
+  <div
+    className="w-10 h-10 relative rounded-full"
+  >
+    <div
+      className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.45s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.3s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.15s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    />
+  </div>,
+  <div
+    className="w-10 h-10 relative rounded-full"
+  >
+    <div
+      className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.45s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.3s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.15s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    />
+  </div>,
+  <div
+    className="w-10 h-10 relative rounded-full"
+  >
+    <div
+      className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.45s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.3s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.15s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    />
+  </div>,
+]
+`;
+
+exports[`Loader renders default 1`] = `
+<div
+  className="w-10 h-10 relative rounded-full"
+>
+  <div
+    className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    style={
+      Object {
+        "animationDelay": "-0.45s",
+      }
+    }
+  />
+  <div
+    className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    style={
+      Object {
+        "animationDelay": "-0.3s",
+      }
+    }
+  />
+  <div
+    className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    style={
+      Object {
+        "animationDelay": "-0.15s",
+      }
+    }
+  />
+  <div
+    className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+  />
+</div>
+`;
+
+exports[`Loader renders sizes 1`] = `
+Array [
+  <div
+    className="w-4 h-4 relative rounded-full"
+  >
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.45s",
+        }
+      }
+    />
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.3s",
+        }
+      }
+    />
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.15s",
+        }
+      }
+    />
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    />
+  </div>,
+  <div
+    className="w-6 h-6 relative rounded-full"
+  >
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.45s",
+        }
+      }
+    />
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.3s",
+        }
+      }
+    />
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.15s",
+        }
+      }
+    />
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    />
+  </div>,
+  <div
+    className="w-8 h-8 relative rounded-full"
+  >
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.45s",
+        }
+      }
+    />
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.3s",
+        }
+      }
+    />
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.15s",
+        }
+      }
+    />
+    <div
+      className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    />
+  </div>,
+  <div
+    className="w-10 h-10 relative rounded-full"
+  >
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.45s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.3s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.15s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    />
+  </div>,
+  <div
+    className="w-12 h-12 relative rounded-full"
+  >
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.45s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.3s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.15s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    />
+  </div>,
+]
+`;

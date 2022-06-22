@@ -1,12 +1,12 @@
 import React from 'react';
-import Preview from '../../../components/codePreview/Preview';
-import ComponentPageDescription from '../../../components/ComponentPageDescription';
-import PropsTable from '../../../components/PropsTable';
-import Checked from '../../../public/examples/radiobutton/radiobutton/Checked';
-import Default from '../../../public/examples/radiobutton/radiobutton/Default';
-import Disabled from '../../../public/examples/radiobutton/radiobutton/Disabled';
-import NoLabel from '../../../public/examples/radiobutton/radiobutton/NoLabel';
-import useExamples from '../../../utils/useExamples';
+import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
+import PropsTable from '../../components/PropsTable';
+import Checked from '../../public/examples/radiobutton/radiobutton/Checked';
+import Default from '../../public/examples/radiobutton/radiobutton/Default';
+import Disabled from '../../public/examples/radiobutton/radiobutton/Disabled';
+import NoLabel from '../../public/examples/radiobutton/radiobutton/NoLabel';
+import useExamples from '../../utils/useExamples';
 
 export default function RadioButtonPage() {
   const examples = useExamples('radiobutton/radiobutton');

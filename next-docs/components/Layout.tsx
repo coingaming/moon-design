@@ -14,16 +14,16 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const toggleReactAndElixir = () => setIsElixir(!isElixir);
   const { isFeatureElixirEnabled } = useFeatureFlags();
   return (
-    <div className="theme-moon-light bg-goku flex">
+    <div className="theme-moon-light bg-goku text-bulma flex">
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
         <Sidebar />
       </SidebarTransition>
       {/* Static sidebar for desktop, hidden for mobile */}
-      <aside className="hidden lg:flex lg:flex-shrink-0 w-80 flex flex-col">
+      <aside className="hidden fixed h-screen lg:flex lg:flex-shrink-0 w-80 flex-col">
         <Sidebar />
       </aside>
-      <div className="theme-moon-light min-h-screen bg-gohan flex-1 w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12">
+      <div className="theme-moon-light min-h-screen lg:ml-80 bg-gohan flex-1 w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12">
         <div className="flex flex-col grow max-w-screen-xl">
           {/* Opens sidebar on mobile */}
           <Header openSidebar={openSidebar} />

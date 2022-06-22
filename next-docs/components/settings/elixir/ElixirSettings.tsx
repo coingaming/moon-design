@@ -64,7 +64,6 @@ const ElixirSettings: React.FC<Props> = ({
               <BrandThemeButton
                 key={themeKey}
                 onClick={() => setElixirTheme(themeKey)}
-                isRtlEnabled={false}
               >
                 {getLogo(themeKey)}
               </BrandThemeButton>

@@ -2,6 +2,8 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import Active from '../../public/examples/avatarTW/Active';
 import Colours from '../../public/examples/avatarTW/Colours';
+import Default from '../../public/examples/avatarTW/Default';
+import Rounded from '../../public/examples/avatarTW/Rounded';
 import Sizes from '../../public/examples/avatarTW/Sizes';
 import StatusOrigin from '../../public/examples/avatarTW/StatusOrigin';
 import Variants from '../../public/examples/avatarTW/Variants';
@@ -20,9 +22,19 @@ const Example = () => {
         </p>
       </ComponentPageDescription>
       <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
         title="Variants"
         preview={<Variants />}
         code={examples ? examples.Variants : 'Loading'}
+      />
+      <Preview
+        title="Rounded"
+        preview={<Rounded />}
+        code={examples ? examples.Rounded : 'Loading'}
       />
       <Preview
         title="Different colours"

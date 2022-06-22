@@ -6,6 +6,7 @@ import Default from '../../public/examples/checkboxTW/Default';
 import Disabled from '../../public/examples/checkboxTW/Disabled';
 import NoLabel from '../../public/examples/checkboxTW/NoLabel';
 import ReadOnly from '../../public/examples/checkboxTW/ReadOnly';
+import WithLabel from '../../public/examples/checkboxTW/WithLabel';
 import useExamples from '../../utils/useExamples';
 
 export default function PageAccordion() {
@@ -24,9 +25,14 @@ export default function PageAccordion() {
         </p>
       </ComponentPageDescription>
       <Preview
-        title="Checkbox"
+        title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="With Label"
+        preview={<WithLabel />}
+        code={examples ? examples.WithLabel : 'Loading'}
       />
       <Preview
         title="Checked"

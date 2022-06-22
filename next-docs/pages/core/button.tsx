@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import Animations from '../../public/examples/buttonTW/Animations';
+import Default from '../../public/examples/buttonTW/Default';
 import Disabled from '../../public/examples/buttonTW/Disabled';
 import FullWidth from '../../public/examples/buttonTW/FullWidth';
 import Icons from '../../public/examples/buttonTW/Icons';
@@ -22,6 +23,11 @@ const PageButton = () => {
           users interact with it.
         </p>
       </ComponentPageDescription>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
       <Preview
         title="Variants"
         preview={<Variants />}

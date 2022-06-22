@@ -3,7 +3,7 @@ import { ArrowsRight, Other3DotsHorizontal } from '@heathmont/moon-icons-tw';
 import Button from '../../button/Button';
 import classNames from '../../private/utils/classnames';
 import useClickOutside from './hooks/useClickOutside';
-import BreadcrumbProps from './types/BreadcrumbProps';
+import type BreadcrumbProps from './types/BreadcrumbProps';
 
 const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
   const [isOpen, toggleDropdown] = useState(false);
@@ -33,7 +33,7 @@ const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
 
   return (
     <nav aria-label="Breadcrumb">
-      <ol className="flex flex-wrap gap-2 items-center text-moon-12">
+      <ol className="flex flex-wrap gap-2 items-center text-moon-14">
         <li key={'crumb' + 0} className="flex items-center gap-2 text-trunks">
           <span className="text-trunks transition-colors duration-200 hover:text-bulma">
             {collapseBreadcrumbs && collapseBreadcrumbs[0]}
@@ -50,7 +50,7 @@ const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
                 {restBreadcrumbs.map((crumb, index) => (
                   <li
                     key={'innercrumb' + index}
-                    className="flex flex-col items-stretch text-bulma text-moon-12 brcrumb-li rounded-sm cursor-pointer hover:bg-goku"
+                    className="flex flex-col items-stretch text-bulma text-moon-14 brcrumb-li rounded-sm cursor-pointer hover:bg-goku"
                   >
                     {crumb}
                   </li>
@@ -73,7 +73,7 @@ const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
                   className={classNames(
                     'text-trunks transition-colors duration-200 hover:text-bulma',
                     index === collapseBreadcrumbs.length - 1 &&
-                      'text-bulma font-semibold'
+                      'text-bulma font-medium'
                   )}
                 >
                   {crumb && crumb}

@@ -7,9 +7,6 @@ exports[`TextInput: type Time renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
-    type="time"
-    value="Text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -33,9 +30,6 @@ exports[`TextInput: type Time renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
-    type="time"
-    value="Text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -59,9 +53,6 @@ exports[`TextInput: type Time renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
-    type="time"
-    value="Text"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -95,8 +86,6 @@ exports[`TextInput: type Time renders error 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -117,8 +106,6 @@ exports[`TextInput: type Time renders error 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -139,8 +126,6 @@ exports[`TextInput: type Time renders error 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -172,10 +157,6 @@ exports[`TextInput: type Time renders readOnly 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
-    type="time"
-    value="Read only text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -198,10 +179,6 @@ exports[`TextInput: type Time renders readOnly 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
-    type="time"
-    value="Read only text"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -224,10 +201,6 @@ exports[`TextInput: type Time renders readOnly 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
-    type="time"
-    value="Read only text"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -261,8 +234,6 @@ exports[`TextInput: type Time renders with hint 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -283,8 +254,6 @@ exports[`TextInput: type Time renders with hint 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -305,8 +274,6 @@ exports[`TextInput: type Time renders with hint 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -338,8 +305,6 @@ exports[`TextInput: type Time renders with label 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -354,8 +319,6 @@ exports[`TextInput: type Time renders with label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -370,8 +333,6 @@ exports[`TextInput: type Time renders with label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -397,9 +358,6 @@ exports[`TextInput: type Time renders with label RTL 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder="Placeholder"
-    type="time"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -416,9 +374,6 @@ exports[`TextInput: type Time renders with label RTL 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder="Placeholder"
-    type="time"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -435,9 +390,6 @@ exports[`TextInput: type Time renders with label RTL 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder="Placeholder"
-    type="time"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -464,8 +416,6 @@ exports[`TextInput: type Time renders without label 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="medium"
-    type="time"
   >
     <input
       className="sc-goMRkL JOvHL"
@@ -475,8 +425,6 @@ exports[`TextInput: type Time renders without label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="large"
-    type="time"
   >
     <input
       className="sc-goMRkL gsTWKg"
@@ -486,8 +434,6 @@ exports[`TextInput: type Time renders without label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="xlarge"
-    type="time"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -510,9 +456,7 @@ exports[`TextInput: type Time supports background colour 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
+    className="sc-iOnGvX bDEkCi"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -532,9 +476,7 @@ exports[`TextInput: type Time supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
+    className="sc-iOnGvX bDEkCi"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -554,9 +496,7 @@ exports[`TextInput: type Time supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
-    type="time"
+    className="sc-iOnGvX bDEkCi"
   >
     <div
       className="sc-jNrqiC hjjcDo"

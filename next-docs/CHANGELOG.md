@@ -1,5 +1,55 @@
 # Change Log
 
+## 9.1.7
+
+### Patch Changes
+
+- Fix build
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.1.7
+  - @heathmont/moon-core-tw@9.1.7
+  - @heathmont/moon-accordion@9.1.7
+  - @heathmont/moon-assets@9.1.7
+  - @heathmont/moon-charts@9.1.7
+  - @heathmont/moon-components@9.1.7
+  - @heathmont/moon-datepicker@9.1.7
+  - @heathmont/moon-draggabletable@9.1.7
+  - @heathmont/moon-icons@9.1.7
+  - @heathmont/moon-pagination@9.1.7
+  - @heathmont/moon-popover@9.1.7
+  - @heathmont/moon-select@9.1.7
+  - @heathmont/moon-sidebar@9.1.7
+  - @heathmont/moon-table@9.1.7
+  - @heathmont/moon-themes@9.1.7
+  - @heathmont/moon-utils@9.1.7
+  - @heathmont/moon-icons-tw@9.1.7
+  - @heathmont/moon-themes-tw@9.1.7
+
+## 9.1.6
+
+### Patch Changes
+
+- Text input & auth code fixes
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.1.6
+  - @heathmont/moon-core-tw@9.1.6
+  - @heathmont/moon-themes-tw@9.1.6
+  - @heathmont/moon-accordion@9.1.6
+  - @heathmont/moon-assets@9.1.6
+  - @heathmont/moon-charts@9.1.6
+  - @heathmont/moon-components@9.1.6
+  - @heathmont/moon-datepicker@9.1.6
+  - @heathmont/moon-draggabletable@9.1.6
+  - @heathmont/moon-icons@9.1.6
+  - @heathmont/moon-pagination@9.1.6
+  - @heathmont/moon-popover@9.1.6
+  - @heathmont/moon-select@9.1.6
+  - @heathmont/moon-sidebar@9.1.6
+  - @heathmont/moon-table@9.1.6
+  - @heathmont/moon-themes@9.1.6
+  - @heathmont/moon-utils@9.1.6
+  - @heathmont/moon-icons-tw@9.1.6
+
 ## 9.1.5
 
 ### Patch Changes

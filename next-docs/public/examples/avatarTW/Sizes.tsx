@@ -11,12 +11,12 @@ const Example = () => (
       <Avatar size="2xl" />
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Avatar name="JS" size="xs" />
-      <Avatar name="JS" size="sm" />
-      <Avatar name="JS" />
-      <Avatar name="JS" size="lg" />
-      <Avatar name="JS" size="xl" />
-      <Avatar name="JS" size="2xl" />
+      <Avatar name="xs" size="xs" />
+      <Avatar name="sm" size="sm" />
+      <Avatar name="md" />
+      <Avatar name="lg" size="lg" />
+      <Avatar name="xl" size="xl" />
+      <Avatar name="2xl" size="2xl" />
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
       <Avatar imageUrl="https://www.fillmurray.com/200/200" size="xs" />
