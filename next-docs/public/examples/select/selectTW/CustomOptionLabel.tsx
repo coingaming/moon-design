@@ -8,7 +8,7 @@ const Example = () => {
   return (<div className="flex flex-col gap-y-3 mb-[150px]">
     <Select
       value={value}
-      label='Left slot'
+      label='Custom option'
       placeholderSlot='Placeholder slot'
       formatOptionLabel={(option: any) => (
         <div className="flex justify-between items-center">
@@ -33,7 +33,7 @@ const Example = () => {
     <div className='mt-4'>
       <Select
         value={value}
-        label='Left slot'
+        label='XL custom option'
         placeholderSlot='Placeholder slot'
         size='xl'
         formatOptionLabel={(option: any) => (
