@@ -25,6 +25,7 @@ type SelectProps = {
   isSideBorderHidden: boolean,
   isRtl: boolean,
   noResultsMessage?: string
+  formatOptionLabel?: (option: any) => any;
 };
 
 export default SelectProps;

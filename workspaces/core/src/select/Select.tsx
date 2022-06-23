@@ -29,7 +29,8 @@ const Select: React.FC<SelectProps> = ({
   isSideBorderHidden,
   isRtl,
   isSearchable,
-  noResultsMessage
+  noResultsMessage,
+  formatOptionLabel
 }) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [search, setSearch] = useState('');
@@ -224,7 +225,7 @@ const Select: React.FC<SelectProps> = ({
       {!!leftSlot && (<div className={`absolute left-0 top-0 w-6 h-6 flex justify-center items-center overflow-hidden z-10 m-${size === 'xl' ? 4 : 2}`}>{leftSlot}</div>)}
 
       <div className={`absolute w-full flex items-center justify-between z-[2] ${ disabled ? 'cursor-not-allowed' : 'cursor-pointer' } ${!value ? 'text-trunks' : ''} ${leftSlot ? 'pl-6' : ''} ${isRtl ? `pl-${ size === 'md' ? 3 : 4 }` : `pr-${ size === 'md' ? 3 : 4 }`}`}>
-        {size !== 'xl' ? (<div className='text-moon-14'>{ search ? search : placeholder }</div>) : (<>
+        {size !== 'xl' ? (<div className='text-moon-14'>{ search?.length ? search : placeholder }</div>) : (<>
           <div className={`text-moon-16 transition-all relative ${leftSlot ? 'pl-2' : ''} ${!value ? 'text-transparent' : 'text-bulma -bottom-2'}`}>{ search ? search : placeholder }</div>
           <div className={`text-trunks transition-all absolute ${leftSlot ? 'pl-2' : ''} ${!value ? 'text-moon-16' : 'text-moon-12 -top-2'}`}>{ label }</div>
         </>)}
@@ -245,11 +246,9 @@ const Select: React.FC<SelectProps> = ({
           <div className={`${size === 'xl' ? 'mr-4 ml-2' : 'mx-2'}`}>{ menuOpen ? (<ChevronUp />) : (<ChevronDown />) }</div>
         </div>
       </div>
-
       {!!hintSlot && (<div className={`absolute top-full left-0 p-2 text-xs text-${isError ? 'chiChi' : 'trunks'}`}>
         { hintSlot }
       </div>)}
-
       <div
         className={`absolute rounded-xl bg-gohan w-full left-0 top-full mt-2 py-2 px-1 shadow-xl overflow-auto z-[3] ${ menuOpen ? 'opacity-1': 'opacity-0 -z-1'} ${menuWidth && `w-[${menuWidth}px]`}`}
         ref={menuRef}
@@ -263,7 +262,7 @@ const Select: React.FC<SelectProps> = ({
             onClick={() => { if (!disabled && onChange) selectMenuItem(option.value) }}
             onMouseOver={() => setHoveredIndex(index)}
           >
-            {option.element}
+            {formatOptionLabel ? formatOptionLabel(option) : option.element ?? option.label}
           </div>))
         }
         {!menuOptions.length && (<div className="p-2">{noResultsMessage || 'No results found.'}</div>)}

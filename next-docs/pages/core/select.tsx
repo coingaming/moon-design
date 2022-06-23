@@ -1,5 +1,6 @@
 import Preview from "../../components/codePreview/Preview";
 import PropsTable from "../../components/PropsTable";
+import CustomOptionLabel from "../../public/examples/select/selectTW/CustomOptionLabel";
 import Default from "../../public/examples/select/selectTW/Default";
 import Disabled from "../../public/examples/select/selectTW/Disabled";
 import Error from "../../public/examples/select/selectTW/Error";
@@ -51,6 +52,15 @@ const Example = () => {
         title="Left slot"
         preview={<LeftSlot />}
         code={examples ? examples.LeftSlot : 'Loading'}
+      />
+    </section>
+
+
+    <section className="mt-8">
+      <Preview
+        title="Custom option"
+        preview={<CustomOptionLabel />}
+        code={examples ? examples.CustomOptionLabel : 'Loading'}
       />
     </section>
 
