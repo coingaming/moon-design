@@ -4,6 +4,7 @@ import Default from "../../public/examples/select/selectTW/Default";
 import Disabled from "../../public/examples/select/selectTW/Disabled";
 import Error from "../../public/examples/select/selectTW/Error";
 import Hint from "../../public/examples/select/selectTW/Hint";
+import LeftSlot from "../../public/examples/select/selectTW/LeftSlot";
 import Searchable from "../../public/examples/select/selectTW/Searchable";
 import Sizes from "../../public/examples/select/selectTW/Sizes";
 import VisibleItems from "../../public/examples/select/selectTW/VisibleItems";
@@ -42,6 +43,14 @@ const Example = () => {
         title="Error"
         preview={<Error />}
         code={examples ? examples.Error : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8">
+      <Preview
+        title="Left slot"
+        preview={<LeftSlot />}
+        code={examples ? examples.LeftSlot : 'Loading'}
       />
     </section>
 

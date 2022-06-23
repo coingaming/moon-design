@@ -221,11 +221,12 @@ const Select: React.FC<SelectProps> = ({
         readOnly={!isSearchable}
       />
 
-      <div className={`absolute w-full flex items-center justify-between z-[2] ${ disabled ? 'cursor-not-allowed' : 'cursor-pointer' } ${!value ? 'text-trunks' : ''} ${isRtl ? `pl-${ size === 'md' ? 3 : 4 }` : `pr-${ size === 'md' ? 3 : 4 }`}`}>
-        {size !== 'xl' && (<div className='text-moon-14'>{ search ? search : placeholder }</div>)}
-        {size === 'xl' && (<>
-          <div className={`text-moon-16 transition-all relative ${!value ? 'text-transparent' : 'text-bulma -bottom-2'}`}>{ search ? search : placeholder }</div>
-          <div className={`text-trunks transition-all absolute ${!value ? 'text-moon-16' : 'text-moon-12 -top-2'}`}>{ label }</div>
+      {!!leftSlot && (<div className={`absolute left-0 top-0 w-6 h-6 flex justify-center items-center overflow-hidden z-10 m-${size === 'xl' ? 4 : 2}`}>{leftSlot}</div>)}
+
+      <div className={`absolute w-full flex items-center justify-between z-[2] ${ disabled ? 'cursor-not-allowed' : 'cursor-pointer' } ${!value ? 'text-trunks' : ''} ${leftSlot ? 'pl-6' : ''} ${isRtl ? `pl-${ size === 'md' ? 3 : 4 }` : `pr-${ size === 'md' ? 3 : 4 }`}`}>
+        {size !== 'xl' ? (<div className='text-moon-14'>{ search ? search : placeholder }</div>) : (<>
+          <div className={`text-moon-16 transition-all relative ${leftSlot ? 'pl-2' : ''} ${!value ? 'text-transparent' : 'text-bulma -bottom-2'}`}>{ search ? search : placeholder }</div>
+          <div className={`text-trunks transition-all absolute ${leftSlot ? 'pl-2' : ''} ${!value ? 'text-moon-16' : 'text-moon-12 -top-2'}`}>{ label }</div>
         </>)}
         <div className='flex items-center justify-center'>
           {!!value && (<div
