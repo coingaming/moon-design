@@ -1,6 +1,7 @@
 import React, {ChangeEvent, useCallback, useEffect, useRef, useState} from "react";
-import ChevronDown from "../private/icons/ChrvronDown";
-import ChevronUp from "../private/icons/ChrvronUp";
+import ChevronDown from "../private/icons/ChevronDown";
+import ChevronUp from "../private/icons/ChevronUp";
+import Clear from "../private/icons/Clear";
 import Option from "./private/types/OptionProps";
 import SelectProps from "./private/types/SelectProps";
 
@@ -226,7 +227,22 @@ const Select: React.FC<SelectProps> = ({
           <div className={`text-moon-16 transition-all relative ${!value ? 'text-transparent' : 'text-bulma -bottom-2'}`}>{ search ? search : placeholder }</div>
           <div className={`text-trunks transition-all absolute ${!value ? 'text-moon-16' : 'text-moon-12 -top-2'}`}>{ label }</div>
         </>)}
-        <div className={`${size === 'xl' ? 'mx-4' : 'mx-2'}`}>{ menuOpen ? (<ChevronUp />) : (<ChevronDown />) }</div>
+        <div className='flex items-center justify-center'>
+          {!!value && (<div
+            className={`${size === 'xl' ? 'ml-4' : 'ml-2'}`}
+            onClick={(e) => {
+              e.stopPropagation();
+              e.preventDefault();
+
+              setSelectedIndex(-1);
+              setHoveredIndex(-1);
+              selectMenuItem('');
+            }}
+          >
+            <Clear />
+          </div>)}
+          <div className={`${size === 'xl' ? 'mr-4 ml-2' : 'mx-2'}`}>{ menuOpen ? (<ChevronUp />) : (<ChevronDown />) }</div>
+        </div>
       </div>
 
       {!!hintSlot && (<div className={`absolute top-full left-0 p-2 text-xs text-${isError ? 'chiChi' : 'trunks'}`}>
