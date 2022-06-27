@@ -224,14 +224,14 @@ const Vip = () => {
 
   return (
     <div className="flex flex-col grow overflow-hidden">
-      <div className="fixed top-0 left-0 w-full flex items-center justify-center my-5 mx-4 z-10">
+      <div className="fixed top-0 left-0 w-full flex items-center justify-center my-5 mx-4 z-10 ">
         <div className="absolute left-0">
           <ArrowsLeft fontSize="2rem" />
         </div>
         <Image src={SportsbetLogo} />
       </div>
       <div className="mt-20 sm:flex sm:flex-row-reverse sm:items-stretch">
-        <div className="flex flex-col h-[80vw] sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw]">
+        <div className="flex flex-col h-[80vw] sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw] ">
           <div className="relative w-full grow">
             <div
               className="w-full h-full bg-contain bg-left bg-no-repeat"
@@ -248,7 +248,7 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col items-end relative -top-[30vw] px-8 sm:py-20 sm:w-[50%] sm:top-0 sm:items-center md:ps-[15%]">
+        <div className="flex flex-col items-end relative -top-[30vw] px-8 sm:py-20 sm:w-[45%] sm:top-0 sm:items-center md:ps-[15%]">
           <div className="flex flex-col max-w-full sm:w-[550px]">
             <Headline text="Bitcasino VIP: For money can’t buy experiences!" />
             <Subtitle
@@ -266,7 +266,7 @@ const Vip = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center self-center sm:w-[70%]">
+      <div className="flex flex-col items-center self-center sm:w-[80%]">
         <div className="flex flex-col relative -top-[100px] my-8 sm:top-0 sm:mb-0">
           <Title text="A VIP experience tailored to your liking" />
           <Subtitle
@@ -286,8 +286,8 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col relative -top-[90px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
-          <div className="flex flex-col sm:w-[320px] sm:justify-center sm:mb-20">
+        <div className="flex flex-col relative -top-[90px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center sm:w-[100%]">
+          <div className="flex flex-col 2xl:w-[60%] 2xl:mr-10 xl:w-[55%] sm:w-[100%] sm:justify-center sm:mb-20">
             <Title
               text="Explore the world in true VIP style!"
               classes="sm:text-left"
@@ -305,8 +305,8 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col relative -top-[50px] sm:flex-row-reverse sm:mt-14 sm:top-0 sm:flex-wrap sm:justify-center">
-          <div className="flex flex-col self-stretch align-center pb-8 sm:ps-12 sm:w-[350px] sm:justify-center lg:w-[550px]">
+        <div className="flex flex-col relative -top-[50px] 2xl:mr-28 lg:w-[100%] xl:justify-between sm:flex-row-reverse sm:mt-14 sm:top-0 sm:flex-wrap sm:justify-center">
+          <div className="flex flex-col self-stretch align-center pb-8 xl:w-[600px] xl:pl-0 lg:w-[100%] sm:ps-12 sm:w-[100%] sm:justify-center ">
             <Title text="VIP runs in the family" classes="sm:text-left" />
             <Subtitle
               classes="sm:text-left"
@@ -315,13 +315,13 @@ const Vip = () => {
             />
           </div>
           <div
-            className="w-full h-full max-w-[100vw] bg-contain bg-center bg-no-repeat h-[80vw] sm:w-[250px] sm:h-[200px] lg:w-[400px] lg:h-[300px]"
+            className="w-full max-w-[100vw] bg-contain bg-center bg-no-repeat h-[80vw] sm:w-[250px] sm:h-[200px] 2xl:w-[50%] xl:w-[40%] xl:ml-0 lg:w-[100%] lg:h-[300px]"
             style={{
               backgroundImage: 'url(/templates/sportsbet/partnership.png)',
             }}
           />
         </div>
-        <div className="flex flex-col justify-center items-center sm:mt-16 w-[80vw] sm:w-[40vw]">
+        <div className="flex flex-col justify-center items-center sm:mt-16 w-[95vw] sm:w-[100%]">
           <Title text="Ready to step up the game?" />
           <Subtitle
             text="Entry into our VIP Club is by invitation only. Get in touch with us
