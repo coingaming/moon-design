@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {forwardRef, useState} from "react";
 import ChevronDown from "../private/icons/ChevronDown";
 import ChevronUp from "../private/icons/ChevronUp";
 import Clear from "../private/icons/Clear";
@@ -8,7 +8,7 @@ import Option from "./private/types/OptionProps";
 import SelectProps, {Sizes} from "./private/types/SelectProps";
 import useEventListeners from "./private/useEventListeners";
 
-const Select: React.FC<SelectProps> = ({
+const Select = forwardRef<HTMLDivElement, SelectProps>(({
   options,
   label,
   value,
@@ -147,6 +147,6 @@ const Select: React.FC<SelectProps> = ({
       </div>
     </div>
   </div>);
-};
+});
 
 export default Select;
