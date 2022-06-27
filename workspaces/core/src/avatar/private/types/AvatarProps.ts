@@ -9,6 +9,7 @@ type AvatarProps = {
   size?: SizeProps;
   statusOrigin?: StatusOriginProps;
   isStatusActive?: boolean;
+  isRounded?: boolean;
 };
 
 export default AvatarProps;

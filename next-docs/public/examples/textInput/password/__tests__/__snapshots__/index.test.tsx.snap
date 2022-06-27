@@ -7,7 +7,6 @@ exports[`TextInput: type Password renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -40,7 +39,6 @@ exports[`TextInput: type Password renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -73,7 +71,6 @@ exports[`TextInput: type Password renders disabled 1`] = `
   <div
     className="sc-iOnGvX btMRNz"
     disabled={true}
-    placeholder=" "
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -112,7 +109,6 @@ exports[`TextInput: type Password renders error 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -143,7 +139,6 @@ exports[`TextInput: type Password renders error 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -174,7 +169,6 @@ exports[`TextInput: type Password renders error 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -212,8 +206,6 @@ exports[`TextInput: type Password renders readOnly 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -245,8 +237,6 @@ exports[`TextInput: type Password renders readOnly 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -278,8 +268,6 @@ exports[`TextInput: type Password renders readOnly 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder=" "
-    readOnly={true}
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -318,7 +306,6 @@ exports[`TextInput: type Password renders with hint 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -349,7 +336,6 @@ exports[`TextInput: type Password renders with hint 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -380,7 +366,6 @@ exports[`TextInput: type Password renders with hint 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -418,7 +403,6 @@ exports[`TextInput: type Password renders with label 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -443,7 +427,6 @@ exports[`TextInput: type Password renders with label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -468,7 +451,6 @@ exports[`TextInput: type Password renders with label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -500,8 +482,6 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder="Placeholder"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -528,8 +508,6 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder="Placeholder"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -556,8 +534,6 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    dir="rtl"
-    placeholder="Placeholder"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -590,7 +566,6 @@ exports[`TextInput: type Password renders without label 1`] = `
 >
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="medium"
   >
     <div
       className="sc-jNrqiC edxHQS"
@@ -610,7 +585,6 @@ exports[`TextInput: type Password renders without label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="large"
   >
     <div
       className="sc-jNrqiC edxHQS"
@@ -630,7 +604,6 @@ exports[`TextInput: type Password renders without label 1`] = `
   </div>
   <div
     className="sc-iOnGvX dtoFCR"
-    placeholder="xlarge"
   >
     <div
       className="sc-jNrqiC jBcQib"
@@ -659,8 +632,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
+    className="sc-iOnGvX bDEkCi"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -690,8 +662,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
+    className="sc-iOnGvX bDEkCi"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -721,8 +692,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
-    placeholder="Placeholder"
+    className="sc-iOnGvX bDEkCi"
   >
     <div
       className="sc-jNrqiC hjjcDo"

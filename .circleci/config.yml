@@ -3,13 +3,17 @@ aliases:
     docker:
       - image: node:bullseye-slim
 
-  install_deps: &install_deps
+  enable_pnpm: &enable_pnpm
     run:
-      name: 'Installing dependencies and creating symlinks'
+      name: 'Using Corepack to install pnpm@7.3.0'
       command: |
         corepack enable
         corepack prepare pnpm@7.3.0 --activate
-        pnpm i
+
+  install_deps: &install_deps
+    run:
+      name: 'Installing dependencies and creating symlinks'
+      command: pnpm i
 
   restore_cache: &restore_cache
     restore_cache:
@@ -89,6 +93,7 @@ jobs:
       - checkout
       - *restore_cache
       - *install_npm_token
+      - *enable_pnpm
       - *install_deps
       - *save_cache
       - persist_to_workspace:
@@ -99,18 +104,6 @@ jobs:
             - next-docs/node_modules/*
             - packages/*/node_modules/*
             - workspaces/*/node_modules/*
-
-  pnpm:
-    <<: *default
-    steps:
-      - attach_workspace:
-          at: ./
-      - run:
-          name: corepack enable
-          command: corepack enable
-      - run:
-          name: activate pnpm@7.3.0
-          command: corepack prepare pnpm@7.3.0 --activate
 
   lint:
     <<: *default
@@ -132,7 +125,6 @@ jobs:
     <<: *default
     steps:
       - checkout
-      - pnpm
       - attach_workspace:
           at: ./
       - run:
@@ -148,7 +140,6 @@ jobs:
     <<: *default
     steps:
       - checkout
-      - pnpm
       - attach_workspace:
           at: ./
       - run:
@@ -187,7 +178,6 @@ jobs:
   publish:
     <<: *default
     steps:
-      - pnpm
       - *setup_github_ssh
       - run: git clone -b master git@github.com:coingaming/$CIRCLE_PROJECT_REPONAME.git .
       - *setup_git_config
@@ -252,7 +242,6 @@ workflows:
                 - master
           requires:
             - dependencies
-            - pnpm
 
       - lint:
           context: global

@@ -5,24 +5,29 @@ import { ControlsClose, GenericInfo } from '@heathmont/moon-icons-tw';
 const Example = () => (
   <>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Label size="2xs" iconLeft={<GenericInfo />}>
+      <Label size="2xs" iconLeft={<GenericInfo className="text-moon-12" />}>
         Twoxsmall
       </Label>
-      <Label size="2xs" iconRight={<ControlsClose />}>
+      <Label size="2xs" iconRight={<ControlsClose className="text-moon-12" />}>
         Twoxsmall
       </Label>
       <Label
         size="2xs"
-        iconLeft={<GenericInfo />}
-        iconRight={<ControlsClose />}
+        iconLeft={<GenericInfo className="text-moon-12" />}
+        iconRight={<ControlsClose className="text-moon-12" />}
       >
         Twoxsmall
       </Label>
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Label iconLeft={<GenericInfo />}>Xsmall</Label>
-      <Label iconRight={<ControlsClose />}>Xsmall</Label>
-      <Label iconLeft={<GenericInfo />} iconRight={<ControlsClose />}>
+      <Label iconLeft={<GenericInfo className="text-moon-16" />}>Xsmall</Label>
+      <Label iconRight={<ControlsClose className="text-moon-16" />}>
+        Xsmall
+      </Label>
+      <Label
+        iconLeft={<GenericInfo className="text-moon-16" />}
+        iconRight={<ControlsClose />}
+      >
         Xsmall
       </Label>
     </div>

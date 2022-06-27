@@ -1,5 +1,41 @@
 # @heathmont/moon-datepicker
 
+## 9.1.8
+
+### Patch Changes
+
+- Authcode data attr
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.1.8
+  - @heathmont/moon-core@9.1.8
+  - @heathmont/moon-icons@9.1.8
+  - @heathmont/moon-themes@9.1.8
+  - @heathmont/moon-utils@9.1.8
+
+## 9.1.7
+
+### Patch Changes
+
+- Fix build
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.1.7
+  - @heathmont/moon-components@9.1.7
+  - @heathmont/moon-icons@9.1.7
+  - @heathmont/moon-themes@9.1.7
+  - @heathmont/moon-utils@9.1.7
+
+## 9.1.6
+
+### Patch Changes
+
+- Text input & auth code fixes
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.1.6
+  - @heathmont/moon-components@9.1.6
+  - @heathmont/moon-icons@9.1.6
+  - @heathmont/moon-themes@9.1.6
+  - @heathmont/moon-utils@9.1.6
+
 ## 9.1.5
 
 ### Patch Changes
