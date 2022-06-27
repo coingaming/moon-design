@@ -1,5 +1,30 @@
 # Change Log
 
+## 9.1.8
+
+### Patch Changes
+
+- Authcode data attr
+- Updated dependencies [undefined]
+  - @heathmont/moon-accordion@9.1.8
+  - @heathmont/moon-assets@9.1.8
+  - @heathmont/moon-charts@9.1.8
+  - @heathmont/moon-components@9.1.8
+  - @heathmont/moon-core@9.1.8
+  - @heathmont/moon-datepicker@9.1.8
+  - @heathmont/moon-draggabletable@9.1.8
+  - @heathmont/moon-icons@9.1.8
+  - @heathmont/moon-pagination@9.1.8
+  - @heathmont/moon-popover@9.1.8
+  - @heathmont/moon-select@9.1.8
+  - @heathmont/moon-sidebar@9.1.8
+  - @heathmont/moon-table@9.1.8
+  - @heathmont/moon-themes@9.1.8
+  - @heathmont/moon-utils@9.1.8
+  - @heathmont/moon-core-tw@9.1.8
+  - @heathmont/moon-icons-tw@9.1.8
+  - @heathmont/moon-themes-tw@9.1.8
+
 ## 9.1.7
 
 ### Patch Changes

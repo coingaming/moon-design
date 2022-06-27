@@ -1,5 +1,13 @@
 # Change Log
 
+## 9.1.8
+
+### Patch Changes
+
+- Authcode data attr
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.1.8
+
 ## 9.1.7
 
 ### Patch Changes

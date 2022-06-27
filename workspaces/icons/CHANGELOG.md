@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.1.8
+
+### Patch Changes
+
+- Authcode data attr
+
 ## 9.1.7
 
 ### Patch Changes
