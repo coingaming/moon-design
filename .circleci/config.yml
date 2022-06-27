@@ -111,6 +111,7 @@ jobs:
       - checkout
       - attach_workspace:
           at: ./
+      - *enable_pnpm
       - run: pnpm run lint
 
   test:
@@ -119,6 +120,7 @@ jobs:
       - checkout
       - attach_workspace:
           at: ./
+      - *enable_pnpm
       - run: pnpm run next test:ci
 
   build:
@@ -127,6 +129,7 @@ jobs:
       - checkout
       - attach_workspace:
           at: ./
+      - *enable_pnpm
       - run:
           name: Running build
           command: pnpm run build
@@ -142,6 +145,7 @@ jobs:
       - checkout
       - attach_workspace:
           at: ./
+      - *enable_pnpm
       - run:
           name: Running next build
           command: pnpm run next build
@@ -186,6 +190,7 @@ jobs:
       - attach_workspace:
           at: ./
       - *install_npm_token
+      - *enable_pnpm
       - run: pnpm run publish
       - run:
           name: 'Update `develop` with `master`'
