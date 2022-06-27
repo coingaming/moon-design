@@ -33,6 +33,14 @@ const Example = () => {
 
     <section className="mt-8">
       <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8">
+      <Preview
         title="Hint"
         preview={<Hint />}
         code={examples ? examples.Hint : 'Loading'}
@@ -55,20 +63,11 @@ const Example = () => {
       />
     </section>
 
-
     <section className="mt-8">
       <Preview
         title="Custom option"
         preview={<CustomOptionLabel />}
         code={examples ? examples.CustomOptionLabel : 'Loading'}
-      />
-    </section>
-
-    <section className="mt-8">
-      <Preview
-        title="Sizes"
-        preview={<Sizes />}
-        code={examples ? examples.Sizes : 'Loading'}
       />
     </section>
 

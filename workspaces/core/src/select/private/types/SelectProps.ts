@@ -1,11 +1,17 @@
 import Option from "./OptionProps";
 
+export const Sizes = {
+  md: 'md',
+  lg: 'lg',
+  xl: 'xl'
+}
+
 type SelectProps = {
   value?: string;
   options: Option[];
   onChange?: (value: string) => any;
   label?: JSX.Element | string;
-  size?: 'md' | 'lg' | 'xl';
+  size?: keyof typeof Sizes;
   menuWidth: number,
   disabled?: boolean;
   placeholderValue?: JSX.Element | string;

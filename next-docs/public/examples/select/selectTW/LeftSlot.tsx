@@ -7,7 +7,6 @@ const Example = () => {
       value='one'
       label='Left slot'
       placeholderSlot='Placeholder slot'
-      amountOfVisibleItems={2}
       leftSlot={(<ChartPieChart fontSize='1.5rem'/>)}
       options={[
         { value: 'one', element: 'One', label: 'One' },
@@ -22,7 +21,6 @@ const Example = () => {
         value='one'
         label='Left slot'
         placeholderSlot='Placeholder slot'
-        amountOfVisibleItems={2}
         size='xl'
         leftSlot={(<ChartPieChart fontSize='1.8rem'/>)}
         options={[
