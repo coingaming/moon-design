@@ -19,7 +19,7 @@ exports[`AuthCode renders Custom length 1`] = `
       className="sc-jdzWJC hBoQHx"
     >
       <div
-        className="sc-iOnGvX dtoFCR"
+        className="sc-iOnGvX gGsifk"
         disabled={false}
       >
         <input
@@ -41,7 +41,7 @@ exports[`AuthCode renders Custom length 1`] = `
       className="sc-jdzWJC hBoQHx"
     >
       <div
-        className="sc-iOnGvX btMRNz"
+        className="sc-iOnGvX dZxXia"
         disabled={true}
       >
         <input
@@ -63,7 +63,7 @@ exports[`AuthCode renders Custom length 1`] = `
       className="sc-jdzWJC hBoQHx"
     >
       <div
-        className="sc-iOnGvX btMRNz"
+        className="sc-iOnGvX dZxXia"
         disabled={true}
       >
         <input
@@ -85,7 +85,7 @@ exports[`AuthCode renders Custom length 1`] = `
       className="sc-jdzWJC hBoQHx"
     >
       <div
-        className="sc-iOnGvX btMRNz"
+        className="sc-iOnGvX dZxXia"
         disabled={true}
       >
         <input
@@ -117,7 +117,7 @@ exports[`AuthCode renders Error state 1`] = `
       className="sc-jdzWJC hBoQHx"
     >
       <div
-        className="sc-iOnGvX dtoFCR"
+        className="sc-iOnGvX gGsifk"
         disabled={false}
       >
         <input
@@ -139,7 +139,7 @@ exports[`AuthCode renders Error state 1`] = `
       className="sc-jdzWJC hBoQHx"
     >
       <div
-        className="sc-iOnGvX btMRNz"
+        className="sc-iOnGvX dZxXia"
         disabled={true}
       >
         <input
@@ -161,7 +161,7 @@ exports[`AuthCode renders Error state 1`] = `
       className="sc-jdzWJC hBoQHx"
     >
       <div
-        className="sc-iOnGvX btMRNz"
+        className="sc-iOnGvX dZxXia"
         disabled={true}
       >
         <input
@@ -183,7 +183,7 @@ exports[`AuthCode renders Error state 1`] = `
       className="sc-jdzWJC hBoQHx"
     >
       <div
-        className="sc-iOnGvX btMRNz"
+        className="sc-iOnGvX dZxXia"
         disabled={true}
       >
         <input
@@ -205,7 +205,7 @@ exports[`AuthCode renders Error state 1`] = `
       className="sc-jdzWJC hBoQHx"
     >
       <div
-        className="sc-iOnGvX btMRNz"
+        className="sc-iOnGvX dZxXia"
         disabled={true}
       >
         <input
@@ -227,7 +227,7 @@ exports[`AuthCode renders Error state 1`] = `
       className="sc-jdzWJC hBoQHx"
     >
       <div
-        className="sc-iOnGvX btMRNz"
+        className="sc-iOnGvX dZxXia"
         disabled={true}
       >
         <input

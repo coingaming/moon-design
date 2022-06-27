@@ -5,7 +5,7 @@ exports[`TextInput: type Number renders disabled 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX btMRNz"
+    className="sc-iOnGvX dZxXia"
     disabled={true}
   >
     <label
@@ -28,7 +28,7 @@ exports[`TextInput: type Number renders disabled 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX btMRNz"
+    className="sc-iOnGvX dZxXia"
     disabled={true}
   >
     <label
@@ -51,14 +51,14 @@ exports[`TextInput: type Number renders disabled 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX btMRNz"
+    className="sc-iOnGvX dZxXia"
     disabled={true}
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL grNfBa"
+        className="sc-goMRkL ecZevf"
         disabled={true}
         placeholder=" "
         type="number"
@@ -85,7 +85,7 @@ exports[`TextInput: type Number renders error 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -105,7 +105,7 @@ exports[`TextInput: type Number renders error 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -125,13 +125,13 @@ exports[`TextInput: type Number renders error 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL iCcyoE"
+        className="sc-goMRkL hQptER"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -156,7 +156,7 @@ exports[`TextInput: type Number renders readOnly 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -178,7 +178,7 @@ exports[`TextInput: type Number renders readOnly 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -200,13 +200,13 @@ exports[`TextInput: type Number renders readOnly 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL grNfBa"
+        className="sc-goMRkL ecZevf"
         placeholder=" "
         readOnly={true}
         type="number"
@@ -233,7 +233,7 @@ exports[`TextInput: type Number renders with hint 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -253,7 +253,7 @@ exports[`TextInput: type Number renders with hint 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -273,13 +273,13 @@ exports[`TextInput: type Number renders with hint 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL grNfBa"
+        className="sc-goMRkL ecZevf"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -304,7 +304,7 @@ exports[`TextInput: type Number renders with label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -318,7 +318,7 @@ exports[`TextInput: type Number renders with label 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -332,13 +332,13 @@ exports[`TextInput: type Number renders with label 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL grNfBa"
+        className="sc-goMRkL ecZevf"
         placeholder="e.g. 1234"
         type="number"
       />
@@ -357,7 +357,7 @@ exports[`TextInput: type Number renders with label RTL 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -373,7 +373,7 @@ exports[`TextInput: type Number renders with label RTL 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -389,13 +389,13 @@ exports[`TextInput: type Number renders with label RTL 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL grNfBa"
+        className="sc-goMRkL ecZevf"
         dir="rtl"
         placeholder="e.g. 1234"
         type="number"
@@ -415,7 +415,7 @@ exports[`TextInput: type Number renders without label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <input
       className="sc-goMRkL hJgacS"
@@ -424,7 +424,7 @@ exports[`TextInput: type Number renders without label 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <input
       className="sc-goMRkL eLpBdF"
@@ -433,13 +433,13 @@ exports[`TextInput: type Number renders without label 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL UdMCL"
+        className="sc-goMRkL hidocO"
         placeholder="xlarge e.g. 1234"
         type="number"
       />
@@ -456,7 +456,7 @@ exports[`TextInput: type Number supports background colour 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX bDEkCi"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -476,7 +476,7 @@ exports[`TextInput: type Number supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX bDEkCi"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -496,13 +496,13 @@ exports[`TextInput: type Number supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX bDEkCi"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC hjjcDo"
     >
       <input
-        className="sc-goMRkL hfDPTR"
+        className="sc-goMRkL ecZevf"
         placeholder="e.g. 1234"
         type="number"
       />

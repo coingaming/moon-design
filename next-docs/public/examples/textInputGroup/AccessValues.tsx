@@ -10,14 +10,12 @@ const Example = () => {
 
   const inputProps1 = {
     type: 'text',
-    inputSize: 'medium',
     placeholder: 'Country',
     ref: ref1,
   };
 
   const inputProps2 = {
     type: 'text',
-    inputSize: 'medium',
     placeholder: 'Phone',
     ref: ref2,
   };
