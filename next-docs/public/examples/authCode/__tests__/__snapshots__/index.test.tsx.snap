@@ -247,6 +247,7 @@ exports[`AuthCode renders Error state 1`] = `
     </div>
     <div
       className="sc-fCdBJp fFJVf"
+      data-testid="undefined-error"
     >
       <p
         className="sc-cQIpJi jgOjbU"
