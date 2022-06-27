@@ -273,7 +273,7 @@ const Vip = () => {
             text="Enjoy exclusive bonuses and invites to prestigious events for free.
             Get all your indulgences taken care of."
           />
-          <div className="w-full flex max-w-[100vw] items-center justify-center px-5 py-8 xl:min-w-[1190px] lg:min-w-[900px] sm:mt-12 sm:max-w-[70vw]">
+          <div className="w-full flex max-w-[100vw] items-center justify-center px-5 py-8 xl:min-w-[1190px] lg:min-w-[900px] sm:mt-12 sm:max-w-[85vw]">
             <Carousel
               items={experienceItems.map((item, index) => (
                 <ExperienceCarouselItem
