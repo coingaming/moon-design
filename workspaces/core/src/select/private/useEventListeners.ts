@@ -33,8 +33,8 @@ const useEventListeners = ({
   const [inputFocused, setInputFocused] = useState<boolean>(false);
 
   const inputRef = useRef<HTMLInputElement>(null);
-  const selectRef = useRef(null);
-  const menuRef = useRef(null);
+  const selectRef = useRef<HTMLDivElement>(null);
+  const menuRef = useRef<HTMLDivElement>(null);
 
   const selectMenuItem = (value: string) => {
     setMenuOpen(false);
@@ -116,17 +116,16 @@ const useEventListeners = ({
   }, [handleMenuNavigation]);
 
   useEffect(() => {
-    const menuElement = menuRef?.current;
+    const menuElement = menuRef?.current ?? null;
 
     // Handling number of menu items component prop
     if (
       menuOpen &&
-      menuElement &&
-      menuElement.style &&
+      menuElement?.style &&
       amountOfVisibleItems &&
       amountOfVisibleItems < menuElement.childNodes?.length
     ) {
-      menuElement.style.height = `${(menuRef.current.clientHeight / menuElement.childNodes.length) * amountOfVisibleItems}px`;
+      menuElement.style.height = `${(menuElement.clientHeight / menuElement.childNodes.length) * amountOfVisibleItems}px`;
     }
     else if (menuElement?.style) {
       menuElement.style.height = 'auto';
@@ -150,7 +149,7 @@ const useEventListeners = ({
 
   useEffect(() => {
     const handleOutsideClick = (e: MouseEvent) => {
-      if (selectRef?.current && !selectRef.current.contains(e.target)) {
+      if (selectRef?.current && !selectRef.current.contains(e.target as Node)) {
         setMenuOpen(false);
 
         if (isSearchable) {
