@@ -122,18 +122,13 @@ const useEventListeners = ({
     if (
       menuOpen &&
       menuElement &&
-      // @ts-ignore
       menuElement.style &&
       amountOfVisibleItems &&
-      // @ts-ignore
       amountOfVisibleItems < menuElement.childNodes?.length
     ) {
-      // @ts-ignore
       menuElement.style.height = `${(menuRef.current.clientHeight / menuElement.childNodes.length) * amountOfVisibleItems}px`;
     }
-    // @ts-ignore
     else if (menuElement?.style) {
-      // @ts-ignore
       menuElement.style.height = 'auto';
     }
   }, [menuRef, menuOpen]);
@@ -155,8 +150,7 @@ const useEventListeners = ({
 
   useEffect(() => {
     const handleOutsideClick = (e: MouseEvent) => {
-      //@ts-ignore
-      if(selectRef?.current && !selectRef.current.contains(e.target)) {
+      if (selectRef?.current && !selectRef.current.contains(e.target)) {
         setMenuOpen(false);
 
         if (isSearchable) {

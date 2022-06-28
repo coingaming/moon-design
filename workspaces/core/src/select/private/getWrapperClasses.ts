@@ -1,5 +1,19 @@
 import SelectProps, {Sizes} from "./types/SelectProps";
 
+interface Props {
+  size?: keyof typeof Sizes,
+  disabled: SelectProps["disabled"],
+  isSharpLeftSide: JSX.Element,
+  isSharpRightSide: boolean,
+  isSharpTopSide: boolean,
+  isSharpBottomSide: boolean,
+  isTopBottomBorderHidden: boolean,
+  isSideBorderHidden: boolean,
+  isRtl: boolean,
+  isError?: boolean,
+  inputFocused?: boolean
+}
+
 export const getWrapperClasses = ({
   size,
   disabled,
@@ -12,7 +26,7 @@ export const getWrapperClasses = ({
   isRtl,
   isError,
   inputFocused
-}: SelectProps & { inputFocused?: boolean }) => {
+}: Props) => {
   let classNames = 'flex relative bg-gohan';
 
   classNames += size === Sizes.xl ? ' p-4' : size === Sizes.md ? ' py-2 px-3' : ' py-3 px-4';

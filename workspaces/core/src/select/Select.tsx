@@ -5,7 +5,7 @@ import Clear from "../private/icons/Clear";
 import {determineMenuBackgroundColor} from "./private/getBackgroundColor";
 import {getWrapperClasses} from "./private/getWrapperClasses";
 import Option from "./private/types/OptionProps";
-import SelectProps, {Sizes} from "./private/types/SelectProps";
+import SelectProps from "./private/types/SelectProps";
 import useEventListeners from "./private/useEventListeners";
 
 const Select = forwardRef<HTMLDivElement, SelectProps>(({
@@ -18,7 +18,7 @@ const Select = forwardRef<HTMLDivElement, SelectProps>(({
   placeholderValue,
   hintSlot,
   onChange,
-  size = Sizes.md,
+  size = 'md',
   amountOfVisibleItems = 9999,
   menuWidth,
   headerSlot,
@@ -65,7 +65,6 @@ const Select = forwardRef<HTMLDivElement, SelectProps>(({
   });
 
   const classNames = getWrapperClasses({
-    // @ts-ignore
     size,
     disabled,
     isSharpTopSide,
@@ -76,7 +75,6 @@ const Select = forwardRef<HTMLDivElement, SelectProps>(({
     isSideBorderHidden,
     isRtl,
     isError,
-    // @ts-ignore
     inputFocused
   });
 
