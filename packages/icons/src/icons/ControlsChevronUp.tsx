@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
-    width="1.2em"
+    width="1em"
     height="1em"
     viewBox="0 0 32 32"
     fill="none"
@@ -31,7 +31,7 @@ const ControlsChevronUp =
     shouldForwardProp: prop =>
       !['backgroundColor', 'circleColor', 'color'].includes(prop),
   }) <
-  IconProps >
+    IconProps >
   (({ backgroundColor, circleColor, color, theme }) => [
     backgroundColor && {
       backgroundColor: themed('color', backgroundColor)(theme),
