@@ -1,7 +1,7 @@
 aliases:
   default: &default
     docker:
-      - image: node:bullseye-slim
+      - image: node:bullseye
 
   enable_pnpm: &enable_pnpm
     run:
