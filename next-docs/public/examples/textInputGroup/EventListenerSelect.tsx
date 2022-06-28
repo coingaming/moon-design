@@ -72,7 +72,6 @@ const Example = () => {
           input1: inputProps1,
           input2: inputProps2,
         }}
-        size="large"
       />
       <Label size="xsmall" backgroundColor="trunks.100">
         Country: {country}

@@ -5,7 +5,7 @@ exports[`TextInput: type Tel renders disabled 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX btMRNz"
+    className="sc-iOnGvX dZxXia"
     disabled={true}
   >
     <label
@@ -28,7 +28,7 @@ exports[`TextInput: type Tel renders disabled 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX btMRNz"
+    className="sc-iOnGvX dZxXia"
     disabled={true}
   >
     <label
@@ -51,14 +51,14 @@ exports[`TextInput: type Tel renders disabled 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX btMRNz"
+    className="sc-iOnGvX dZxXia"
     disabled={true}
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL ubFMP"
+        className="sc-goMRkL crpHmu"
         disabled={true}
         placeholder=" "
         type="tel"
@@ -85,7 +85,7 @@ exports[`TextInput: type Tel renders error 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -105,7 +105,7 @@ exports[`TextInput: type Tel renders error 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -125,13 +125,13 @@ exports[`TextInput: type Tel renders error 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL tiNjh"
+        className="sc-goMRkL cHypwM"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -156,7 +156,7 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -178,7 +178,7 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -200,13 +200,13 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL ubFMP"
+        className="sc-goMRkL crpHmu"
         placeholder=" "
         readOnly={true}
         type="tel"
@@ -233,7 +233,7 @@ exports[`TextInput: type Tel renders with hint 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -253,7 +253,7 @@ exports[`TextInput: type Tel renders with hint 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -273,13 +273,13 @@ exports[`TextInput: type Tel renders with hint 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL ubFMP"
+        className="sc-goMRkL crpHmu"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -304,7 +304,7 @@ exports[`TextInput: type Tel renders with label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -318,7 +318,7 @@ exports[`TextInput: type Tel renders with label 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -332,13 +332,13 @@ exports[`TextInput: type Tel renders with label 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL ubFMP"
+        className="sc-goMRkL crpHmu"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
@@ -357,7 +357,7 @@ exports[`TextInput: type Tel renders with label RTL 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -373,7 +373,7 @@ exports[`TextInput: type Tel renders with label RTL 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -389,13 +389,13 @@ exports[`TextInput: type Tel renders with label RTL 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL ubFMP"
+        className="sc-goMRkL crpHmu"
         dir="rtl"
         placeholder="e.g. +372 123 4567"
         type="tel"
@@ -415,7 +415,7 @@ exports[`TextInput: type Tel renders without label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <input
       className="sc-goMRkL JOvHL"
@@ -424,7 +424,7 @@ exports[`TextInput: type Tel renders without label 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <input
       className="sc-goMRkL gsTWKg"
@@ -433,13 +433,13 @@ exports[`TextInput: type Tel renders without label 1`] = `
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC jBcQib"
     >
       <input
-        className="sc-goMRkL kGKhoa"
+        className="sc-goMRkL dVjUZr"
         placeholder="xlarge"
         type="tel"
       />
@@ -456,7 +456,7 @@ exports[`TextInput: type Tel supports background colour 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX bDEkCi"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -476,7 +476,7 @@ exports[`TextInput: type Tel supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX bDEkCi"
+    className="sc-iOnGvX gGsifk"
   >
     <label
       className="sc-gmSHEY coDCGe"
@@ -496,13 +496,13 @@ exports[`TextInput: type Tel supports background colour 1`] = `
     </p>
   </div>
   <div
-    className="sc-iOnGvX bDEkCi"
+    className="sc-iOnGvX gGsifk"
   >
     <div
       className="sc-jNrqiC hjjcDo"
     >
       <input
-        className="sc-goMRkL fBUiNw"
+        className="sc-goMRkL crpHmu"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />

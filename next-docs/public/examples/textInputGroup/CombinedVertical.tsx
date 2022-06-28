@@ -25,8 +25,7 @@ const Example = () => {
   const selectProps = {
     type: 'select',
     options,
-    label: 'select',
-    placeholderSlot: 'Choose an option',
+    placeholderSlot: 'City',
   };
 
   return (
@@ -36,7 +35,6 @@ const Example = () => {
           input1: inputProps,
           input2: selectProps,
         }}
-        size="medium"
         orientation="vertical"
       />
       <TextInputGroup
@@ -44,7 +42,6 @@ const Example = () => {
           input1: selectProps,
           input2: inputProps,
         }}
-        size="medium"
         orientation="vertical"
       />
     </div>

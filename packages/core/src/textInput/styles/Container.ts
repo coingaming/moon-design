@@ -36,7 +36,7 @@ const Container = styled.div<ContainerProps>(
     isSharpRightSide,
     isSharpTopSide,
     isSharpBottomSide,
-    bgColor = 'gohan',
+    bgColor,
     theme: currentTheme,
     theme: {
       newTokens: { borderRadius },
