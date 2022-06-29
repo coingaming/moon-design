@@ -29,7 +29,7 @@ const ExperienceCarouselItem = ({
 }: ExperienceCarousel) => {
   return (
     <div
-      className={`w-[272px] h-full bg-[#2C323A] rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
+      className={`w-[285px] h-full bg-[#2C323A] rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
         index && index % 2 ? 'sm:mt-[40%]' : ''
       }`}
     >
@@ -56,7 +56,7 @@ const ExploreCarouselItem = ({
 }) => {
   return (
     <div className="w-full h-full flex p-6">
-      <div className="w-[160px] me-3 flex flex-col items-stretch">
+      <div className="w-[160px] me-3 flex flex-col items-stretch lg:w-[280px]">
         <div className="h-16" />
         <div className="grow-1 mb-2 relative rounded-lg">
           <Image src={items[0].image} width={280} height={317} />
@@ -75,7 +75,7 @@ const ExploreCarouselItem = ({
           </div>
         </div>
       </div>
-      <div className="w-[160px] flex flex-col items-stretch relative">
+      <div className="w-[160px] flex flex-col items-stretch relative lg:w-[280px]">
         <div className="grow-1 mb-2 relative rounded-lg">
           <Image src={items[2].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
@@ -99,7 +99,7 @@ const ExploreCarouselItem = ({
 };
 
 const Headline = ({ text }: { text: string }) => (
-  <p className="text-[32px] text-center font-semibold p-4 lg:text-[64px] lg:leading-[3.5rem] sm:text-left sm:text-moon-48">
+  <p className="w-[348px] mb-4 text-[32px] text-center sm:mb-0 md:w-[720px] leading-10 md:leading-[72px] md:text-[64px] sm:text-[42px] sm:text-left font-semibold">
     {text}
   </p>
 );
@@ -114,7 +114,7 @@ const Title = ({ text, classes }: { text: string; classes?: string }) => (
 );
 const Subtitle = ({ text, classes }: { text: string; classes?: string }) => (
   <p
-    className={`text-[16px] text-center px-3 pt-2 lg:text-moon-24 sm:text-moon-16 ${
+    className={`text-[16px] text-center px-3 sm:px-0 pt-2 lg:text-moon-24 sm:text-moon-16 ${
       classes ?? ''
     }`}
   >
@@ -274,6 +274,8 @@ const Vip = () => {
             />
             <Button
               variant="primary"
+              width={124}
+              height={48}
               className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:self-start"
             >
               Sign up now
@@ -281,15 +283,20 @@ const Vip = () => {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center self-center sm:w-[80%]">
-        <div className="flex flex-col relative -top-[100px] my-8 sm:top-0 sm:mb-0">
-          <Title text="A VIP experience tailored to your liking" />
+      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[104px]">
+        <div className="w-full lg:w-[1232px] flex flex-col items-center relative -top-[30px] my-8 sm:top-0 sm:mb-0">
+          <Title
+            text="A VIP experience tailored to your liking"
+            classes="w-[348px] leading-10 mb-4 sm:mb-0 md:w-[944px] sm:w-[600px] sm:leading-0"
+          />
           <Subtitle
             text="Enjoy exclusive bonuses and invites to prestigious events for free.
             Get all your indulgences taken care of."
+            classes="w-[348px] p-5 md:w-[944px] sm:w-[650px] sm:p-0"
           />
-          <div className="w-full flex max-w-[100vw] items-center justify-center px-5 py-8 xl:min-w-[1190px] lg:min-w-[900px] sm:mt-12 sm:max-w-[85vw]">
+          <div className="w-full flex max-w-[100vw] items-center justify-center px-5 py-8 xl:min-w-[1232px] lg:min-w-[900px] lg:max-w-[80vw] lg:mt-[124px] sm:mt-12 sm:max-w-[80vw]">
             <Carousel
+              step={1}
               items={experienceItems.map((item, index) => (
                 <ExperienceCarouselItem
                   title={item.title}
@@ -301,18 +308,18 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col relative -top-[90px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center sm:w-[100%]">
-          <div className="flex flex-col 2xl:w-[60%] 2xl:mr-10 xl:w-[55%] sm:w-[100%] sm:justify-center sm:mb-20">
+        <div className="flex flex-col relative sm:mt-[246px] mb-0 sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
+          <div className="flex flex-col self-stretch w-[380px] xl:w-[30%] sm:w-[100%] justify-center sm:mb-20 2xl:ml-24 lg:mx-0 lg:px-0 md:pl-9 sm:ml-0 ml-3">
             <Title
               text="Explore the world in true VIP style!"
-              classes="sm:text-left"
+              classes="xl:text-left leading-10 sm:leading-0 mb-4 text-center"
             />
             <Subtitle
-              classes="sm:text-left"
+              classes="sm:text-left px-5 sm:px-0"
               text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
             />
           </div>
-          <div className="w-full max-w-[100vw] flex items-center justify-center px-5 py-8 sm:w-[430px]">
+          <div className="w-full max-w-[100vw] flex items-center justify-center pl-5 sm:pl-0 sm:px-5 py-8 lg:w-[656px] lg:h-[684px] sm:w-[490px] sm:h-full sm:ml-0">
             <Carousel
               items={exploreItems.map((items) => (
                 <ExploreCarouselItem items={items} />
@@ -320,50 +327,61 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col relative -top-[50px] 2xl:mr-28 lg:w-[100%] xl:justify-between sm:flex-row-reverse sm:mt-14 sm:top-0 sm:flex-wrap sm:justify-center">
+        <div className="mt-[96px] mb-[96px] flex flex-col items-center sm:mt-[246px] sm:mb-[246px] md:justify-center sm:flex-row-reverse sm:top-0 md:flex-nowrap sm:flex-wrap sm:justify-center w-[100%]">
           <div className="flex flex-col self-stretch align-center pb-8 xl:w-[600px] xl:pl-0 lg:w-[100%] sm:ps-12 sm:w-[100%] sm:justify-center ">
-            <Title text="VIP runs in the family" classes="sm:text-left" />
+            <Title
+              text="VIP runs in the family"
+              classes="md:text-left sm:text-center lg:w-[510px] mb-4 leading-10 "
+            />
             <Subtitle
-              classes="sm:text-left"
+              classes="sm:text-left text-center lg:w-[510px] w-[348px] px-5 pb-[32px] sm:pb-0 sm:w-[100%]"
               text="Sportsbet has legendary athletes in our VIP club. Join our high
               profile community of crypto leaders and high-rollers!"
             />
           </div>
           <div
-            className="w-full max-w-[100vw] bg-contain bg-center bg-no-repeat h-[80vw] sm:w-[250px] sm:h-[200px] 2xl:w-[50%] xl:w-[40%] xl:ml-0 lg:w-[100%] lg:h-[300px]"
+            className="max-w-[100vw] bg-contain bg-center bg-no-repeat w-[340px] h-[238px]  sm:w-[482px] sm:h-[384px] xl:mr-[144px]"
             style={{
               backgroundImage: 'url(/templates/sportsbet/partnership.png)',
             }}
           />
         </div>
-        <div className="flex flex-col justify-center items-center sm:mt-16 w-[95vw] sm:w-[100%]">
-          <Title text="Ready to step up the game?" />
+        <div className="flex flex-col sm:mt-0 w-[95vw] sm:w-[100%]">
+          <Title
+            text="Ready to step up the game?"
+            classes="mb-4 p-5 leading-10"
+          />
           <Subtitle
             text="Entry into our VIP Club is by invitation only. Get in touch with us
             to see what a tailored VIP package could look like for you. Join the
             family now!"
-            classes="w-[80%]"
+            classes="w-[100%] mb-4 p-5"
           />
-          <div className="flex flex-col my-6 sm:flex-row sm:justify-center sm:items-center">
+          <div className="flex flex-col mb-[72px] sm:mb-[88px] w-full sm:w-auto sm:flex-row sm:justify-center sm:items-center">
             <Button
               variant="primary"
-              className="btn-primary py-3 px-9 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:self-start"
+              className="btn-primary sm:w-[130px] py-3 px-9 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:self-start"
             >
               Sign up
             </Button>
 
             <Button
               variant="primary"
-              className="flex justify-center items-center btn-tertiary py-3 px-5 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:justify-between sm:self-start"
+              className="w-full sm:w-[150px] bg-[#FFFFFF14] flex font-semibold items-center ml-0 btn-tertiary p-[20px] sm:p-0 sm:py-3 sm:px-5 gap-1 text-moon-16 rounded-moon-i-sm mx-2 my-2 sm:justify-between sm:self-start"
               icon="left"
-              iconLeft={<MailEnvelope />}
             >
-              Contact us
+              <div className="w-full flex flex-row justify-between">
+                <div>
+                  <MailEnvelope width={24} height={24} />
+                </div>
+                <div className="">Contact us</div>
+                <div></div>
+              </div>
             </Button>
           </div>
         </div>
         <div className="flex flex-col my-12">
-          <p className="text-moon-18 text-center font-semibold p-4">
+          <p className="text-moon-18 text-center font-semibold p-4 mb-8">
             Join us and talk to us
           </p>
           <div className="flex gap-2">
@@ -375,7 +393,7 @@ const Vip = () => {
                 backgroundColor: '#27A4DB',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
             <Button
               iconOnly
@@ -385,7 +403,7 @@ const Vip = () => {
                 backgroundColor: '#FF0000',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
             <Button
               iconOnly
@@ -395,7 +413,7 @@ const Vip = () => {
                 backgroundColor: '#F7931A',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
             <Button
               iconOnly
@@ -405,7 +423,7 @@ const Vip = () => {
                 backgroundColor: '#1DA1F2',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
             <Button
               iconOnly
@@ -416,7 +434,7 @@ const Vip = () => {
                   'linear-gradient(49.12deg, #FFDD55 6.62%, #FF5D3F 47.35%, #FF543E 50.06%, #C837AB 93.5%)',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
             <Button
               iconOnly
@@ -426,7 +444,7 @@ const Vip = () => {
                 backgroundColor: '#000',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
           </div>
         </div>

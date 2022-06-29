@@ -270,15 +270,13 @@ const Vip = () => {
         </div>
         <div className="flex flex-col absolute top-[60%] sm:top-0 px-8 -mb-10 -bottom-48 z-1 md:w-[65%]  sm:bottom-0 sm:relative sm:mb-0 sm:pb-24 sm:pt-28 sm:w-[50%] sm:items-center">
           <div className="flex flex-col items-center sm:items-start sm:mt-[244px] max-w-full bottom-4 sm:w-[720px] sm:ml-[248px]">
-            <p className="w-[348px] mb-4 text-[32px] text-center sm:mb-0 md:w-[720px] leading-10 md:leading-[72px] md:text-[64px] sm:text-[42px] sm:text-left font-semibold">
-              Bitcasino VIP: For money can’t buy experiences{' '}
-            </p>
-            <p className="px-5 sm:px-0 sm:text-left md:text-[24px] sm:text-[18px] md:leading-8 sm:leading-6 items-center mt-3">
-              Join the VIP Bitcasino Club - An exclusive world of crypto leaders
+            <Headline text="Bitcasino VIP: For money can’t buy experiences" />
+            <Subtitle
+              classes="  sm:text-left md:text-[24px] sm:text-[18px] md:leading-8 sm:leading-6 items-center mt-3"
+              text=" Join the VIP Bitcasino Club - An exclusive world of crypto leaders
               and high-rollers who dare to take risks and enjoy life to its
-              fullest.
-            </p>
-
+              fullest."
+            />
             <Button
               variant="primary"
               width={124}
@@ -338,10 +336,10 @@ const Vip = () => {
           <div className="flex flex-col sm:self-stretch sm:align-center px-5 sm:p-0 lg:ps-16 sm:w-[100%] sm:justify-center lg:w-[600px] md:w-[100%]">
             <Title
               text="VIP runs in the family"
-              classes="sm:text-left lg:w-[510px] mb-4 leading-10"
+              classes="md:text-left sm:text-center lg:w-[510px]  mb-4 leading-10"
             />
             <Subtitle
-              classes="sm:text-left lg:w-[510px] w-[348px] px-5 pb-[32px] sm:pb-0"
+              classes="sm:text-left lg:w-[510px] w-[348px] px-5 pb-[32px] sm:pb-0 sm:w-[100%]"
               text="From artists to visionaries, Bitcasino has the most talented individuals in our VIP club. Join our high profile group of crypto leaders and high-rollers!"
             />
           </div>
