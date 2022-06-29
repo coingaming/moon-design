@@ -30,7 +30,7 @@ const ExperienceCarouselItem = ({
 }: ExperienceCarousel) => {
   return (
     <div
-      className={`w-[272px] h-full bg-gohan rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
+      className={`w-[285px] h-full bg-gohan rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
         index && index % 2 ? 'sm:mt-[40%]' : ''
       }`}
     >
@@ -57,11 +57,11 @@ const ExploreCarouselItem = ({
   items: Array<{ image: any; title: string }>;
 }) => {
   return (
-    <div className="w-full h-full flex p-3">
-      <div className="w-[168px] me-3 flex flex-col items-stretch">
+    <div className="w-full h-full flex sm:px-3 px-0">
+      <div className="w-[160px] me-3 flex flex-col items-stretch lg:w-[280px]">
         <div className="h-16" />
-        <div className="grow-1 mb-2 relative rounded-lg">
-          <Image src={items[0].image} sizes="100%" />
+        <div className="grow-1 mb-4 relative rounded-lg">
+          <Image src={items[0].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[0].title}
@@ -69,7 +69,7 @@ const ExploreCarouselItem = ({
           </div>
         </div>
         <div className="grow-1 relative rounded-lg">
-          <Image src={items[1].image} sizes="100%" />
+          <Image src={items[1].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[1].title}
@@ -77,9 +77,9 @@ const ExploreCarouselItem = ({
           </div>
         </div>
       </div>
-      <div className="w-[168px] flex flex-col items-stretch relative">
+      <div className="w-[160px] flex flex-col items-stretch relative  lg:w-[280px]">
         <div className="grow-1 mb-2 relative rounded-lg">
-          <Image src={items[2].image} sizes="100%" />
+          <Image src={items[2].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[2].title}
@@ -87,7 +87,7 @@ const ExploreCarouselItem = ({
           </div>
         </div>
         <div className="grow-1 relative rounded-lg">
-          <Image src={items[3].image} sizes="100%" />
+          <Image src={items[3].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[3].title}
@@ -226,60 +226,84 @@ const Vip = () => {
 
   return (
     <div className="flex flex-col grow overflow-hidden">
-      <div className="fixed top-0 left-0 w-full flex items-center justify-center my-5 mx-4 z-10">
-        <div className="absolute left-0">
+      <div className="fixed bg-goku top-0 left-0 w-full flex items-center align-center justify-between z-1">
+        <div className="h-[50px] relative items-center left-0 flex fle-row sm:ml-[38px] ml-1">
           <ArrowsLeft fontSize="2rem" />
+          <span className="sm:ml-6 ml-11">
+            <BitcasinoLogo />
+          </span>
         </div>
-        <BitcasinoLogo />
+        <div className="hidden sm:flex flex-row mr-7">
+          <Button
+            variant="ghost"
+            width={82}
+            height={40}
+            style={{ marginRight: '5px', color: 'white' }}
+          >
+            Log in
+          </Button>
+          <Button width={82} height={40}>
+            Sing up
+          </Button>
+        </div>
       </div>
       <div
-        className="flex flex-col justify-center items-center bg-bottom relative mb-48 sm:mb-0 sm:flex sm:flex-row-reverse sm:items-stretch"
+        className="h-[800px] flex flex-col justify-center items-center bg-bottom relative mb-48 sm:mb-0 sm:flex sm:flex-row-reverse sm:items-stretch"
         style={{
           backgroundImage: 'url(/templates/bitcasino/pattern.png)',
           backgroundSize: 'auto 100%',
         }}
       >
-        <div className="flex sm:items-center sm:w-[45%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw]">
+        <div className="flex sm:items-center sm:w-[100%] sm:h-auto sm:min-h-[30vw] ">
           <div className="relative w-full justify-end self-end">
-            <div className="w-[50%] h-[50%] min-w-[300px] min-h-[300px] mt-[35%] sm:mt-8 lg:ml-24">
+            <div className=" min-w-[380px] lg:ml-24 sm:mr-[124px]">
               <Image src={KingKaka} sizes="100%" />
             </div>
+            <div
+              className="absolute left-0 bottom-0 w-full h-[150px]"
+              style={{
+                background:
+                  'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F  100%',
+              }}
+            />
           </div>
         </div>
-        <div className="flex flex-col items-end absolute px-8 -mb-10 -bottom-48 z-10 md:w-[65%] md:ps-[15%] sm:bottom-0 sm:relative sm:mt-[100px] sm:mb-0 sm:pb-24 sm:pt-28 sm:w-[50%] sm:items-center">
-          <div className="flex flex-col max-w-full bottom-4 sm:w-[550px]">
-            <Headline text="Bitcasino VIP: For money can’t buy experiences!" />
-            <Subtitle
-              text="Join the VIP Bitcasino Club - An exclusive world of crypto leaders
+        <div className="flex flex-col absolute top-[60%] sm:top-0 px-8 -mb-10 -bottom-48 z-1 md:w-[65%]  sm:bottom-0 sm:relative sm:mb-0 sm:pb-24 sm:pt-28 sm:w-[50%] sm:items-center">
+          <div className="flex flex-col items-center sm:items-start sm:mt-[244px] max-w-full bottom-4 sm:w-[720px] sm:ml-[248px]">
+            <p className="w-[348px] mb-4 text-[32px] text-center sm:mb-0 md:w-[720px] leading-10 md:leading-[72px] md:text-[64px] sm:text-[42px] sm:text-left font-semibold">
+              Bitcasino VIP: For money can’t buy experiences{' '}
+            </p>
+            <p className="px-5 sm:px-0 sm:text-left md:text-[24px] sm:text-[18px] md:leading-8 sm:leading-6 items-center mt-3">
+              Join the VIP Bitcasino Club - An exclusive world of crypto leaders
               and high-rollers who dare to take risks and enjoy life to its
-              fullest."
-              classes="sm:text-left"
-            />
+              fullest.
+            </p>
+
             <Button
               variant="primary"
-              className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:self-start"
+              width={124}
+              height={48}
+              className="btn-primary py-3 ml-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:self-start w-full sm:w-[124px] "
             >
               Sign up now
             </Button>
           </div>
         </div>
-        <div
-          className="absolute left-0 bottom-0 w-full h-[150px]"
-          style={{
-            background:
-              'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F  100%',
-          }}
-        />
       </div>
-      <div className="flex flex-col items-center self-center sm:w-[80%] ">
-        <div className="flex flex-col relative -top-[30px] my-8 sm:top-0 sm:mb-0">
-          <Title text="A VIP experience tailored to your liking" />
+      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[104px]  ">
+        <div className="w-full lg:w-[1232px] flex flex-col items-center relative -top-[30px] my-8 sm:top-0 sm:mb-0">
+          <Title
+            text="A VIP experience tailored to your liking"
+            classes="w-[348px] leading-10 mb-4 sm:mb-0 md:w-[944px] sm:w-[600px] sm:leading-0"
+          />
           <Subtitle
+            classes="w-[348px] p-5 md:w-[944px] sm:w-[650px] sm:p-0"
             text="Enjoy exclusive bonuses and invites to prestigious events for free.
             Get all your indulgences taken care of."
           />
-          <div className="w-full flex max-w-[100vw] items-center justify-center px-5 py-8 xl:min-w-[1190px] lg:min-w-[900px] lg:max-w-[80vw] sm:mt-12  sm:max-w-[80vw]">
+          <div className="w-full flex max-w-[100vw] items-center justify-center px-5 py-8 xl:min-w-[1232px] lg:min-w-[900px] lg:max-w-[80vw] lg:mt-[124px] sm:mt-12 sm:max-w-[80vw]">
             <Carousel
+              step={1}
               items={experienceItems.map((item, index) => (
                 <ExperienceCarouselItem
                   title={item.title}
@@ -291,18 +315,18 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col relative -top-[90px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
-          <div className="flex flex-col 2xl:w-[55%] xl:w-[50%] md:w-[100%] sm:justify-center sm:mb-20 xl:ml-16 lg:mx-0 lg:px-0 md:pl-9 sm:ml-0">
+        <div className="flex flex-col relative sm:mt-[246px] mb-0 sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
+          <div className="flex flex-col self-stretch w-[380px] xl:w-[30%] sm:w-[100%] justify-center sm:mb-20 2xl:ml-24 lg:mx-0 lg:px-0 md:pl-9 sm:ml-0 ml-3">
             <Title
               text="Explore the world in true VIP style!"
-              classes="sm:text-left"
+              classes="xl:text-left leading-10 sm:leading-0 mb-4 text-center"
             />
             <Subtitle
-              classes="sm:text-left"
+              classes="sm:text-left px-5 sm:px-0"
               text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
             />
           </div>
-          <div className="w-full max-w-[100vw] flex items-center justify-center  sm:mr-5 px-5 py-8 sm:w-[430px] sm:ml-0">
+          <div className="w-full max-w-[100vw] flex items-center justify-center pl-5 sm:pl-0 sm:px-5 py-8 lg:w-[656px] lg:h-[684px] sm:w-[490px] sm:h-full sm:ml-0">
             <Carousel
               items={exploreItems.map((items) => (
                 <ExploreCarouselItem items={items} />
@@ -310,50 +334,60 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col relative -top-[50px] md:justify-between sm:flex-row-reverse sm:mt-14 sm:top-0 md:flex-nowrap sm:flex-wrap sm:justify-center w-[100%] ">
-          <div className="flex flex-col self-stretch align-center pb-20 xl:w-[70%] sm:ps-16 sm:w-[100%] sm:justify-center lg:w-[550px] md:w-[100%]">
-            <Title text="VIP runs in the family" classes="sm:text-left" />
+        <div className="mt-[96px] mb-[96px] flex flex-col items-center sm:mt-[246px] sm:mb-[246px] md:justify-center sm:flex-row-reverse sm:top-0 md:flex-nowrap sm:flex-wrap sm:justify-center w-[100%] ">
+          <div className="flex flex-col sm:self-stretch sm:align-center px-5 sm:p-0 lg:ps-16 sm:w-[100%] sm:justify-center lg:w-[600px] md:w-[100%]">
+            <Title
+              text="VIP runs in the family"
+              classes="sm:text-left lg:w-[510px] mb-4 leading-10"
+            />
             <Subtitle
-              classes="sm:text-left"
-              text="Sportsbet has legendary athletes in our VIP club. Join our high
-              profile community of crypto leaders and high-rollers!"
+              classes="sm:text-left lg:w-[510px] w-[348px] px-5 pb-[32px] sm:pb-0"
+              text="From artists to visionaries, Bitcasino has the most talented individuals in our VIP club. Join our high profile group of crypto leaders and high-rollers!"
             />
           </div>
           <div
-            className="w-full max-w-[100vw] bg-contain bg-center bg-no-repeat h-[80vw] sm:w-[250px] sm:h-[200px] lg:w-[400px] lg:h-[300px]"
+            className=" max-w-[100vw] bg-contain bg-center bg-no-repeat w-[340px] h-[238px]  sm:w-[482px] sm:h-[384px] xl:mr-[144px]"
             style={{
               backgroundImage: 'url(/templates/bitcasino/partnership.png)',
             }}
           />
         </div>
-        <div className="flex flex-col sm:mt-16 w-[95vw] sm:w-[100%]">
-          <Title text="Ready to step up the game?" />
+        <div className="flex flex-col sm:mt-0 w-[95vw] sm:w-[100%]">
+          <Title
+            classes="mb-4 p-5 leading-10"
+            text="Ready to step up the game?"
+          />
           <Subtitle
             text="Entry into our VIP Club is by invitation only. Get in touch with us
             to see what a tailored VIP package could look like for you. Join the
             family now!"
-            classes="w-[100%]"
+            classes="w-[100%] mb-4 p-5"
           />
-          <div className="flex flex-col my-6 w-full sm:w-auto sm:flex-row sm:justify-center sm:items-center">
+          <div className="flex flex-col mb-[72px] sm:mb-[88px] w-full sm:w-auto sm:flex-row sm:justify-center sm:items-center">
             <Button
               variant="primary"
-              className="btn-primary py-3 px-9 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:self-start"
+              className="w-full sm:w-[130px] btn-primary p-[20px] sm:py-3 sm:px-5 text-moon-16 font-semibold rounded-moon-i-sm sm:mx-4 my-2 sm:self-start"
             >
               Sign up
             </Button>
 
             <Button
               variant="primary"
-              className="flex justify-center items-center btn-tertiary py-3 px-5 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:justify-between sm:self-start"
+              className="w-full sm:w-[150px] bg-[#FFFFFF14] flex font-semibold items-center ml-0 btn-tertiary p-[20px] sm:p-0 sm:py-3 sm:px-5 gap-1 text-moon-16 rounded-moon-i-sm mx-2 my-2 sm:justify-between sm:self-start"
               icon="left"
-              iconLeft={<MailEnvelope />}
             >
-              Contact us
+              <div className="w-full flex flex-row justify-between">
+                <div>
+                  <MailEnvelope width={24} height={24} />
+                </div>
+                <div className="">Contact us</div>
+                <div></div>
+              </div>
             </Button>
           </div>
         </div>
-        <div className="flex flex-col my-12">
-          <p className="text-moon-18 text-center font-semibold p-4">
+        <div className="flex flex-col ">
+          <p className="text-moon-32 text-center font-semibold p-4 mb-8 ">
             Join us and talk to us
           </p>
           <div className="flex gap-2">
@@ -365,7 +399,7 @@ const Vip = () => {
                 backgroundColor: '#27A4DB',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
             <Button
               iconOnly
@@ -375,7 +409,7 @@ const Vip = () => {
                 backgroundColor: '#FF0000',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
             <Button
               iconOnly
@@ -385,7 +419,7 @@ const Vip = () => {
                 backgroundColor: '#F7931A',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
             <Button
               iconOnly
@@ -395,7 +429,7 @@ const Vip = () => {
                 backgroundColor: '#1DA1F2',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
             <Button
               iconOnly
@@ -406,7 +440,7 @@ const Vip = () => {
                   'linear-gradient(49.12deg, #FFDD55 6.62%, #FF5D3F 47.35%, #FF543E 50.06%, #C837AB 93.5%)',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
             <Button
               iconOnly
@@ -416,7 +450,7 @@ const Vip = () => {
                 backgroundColor: '#000',
               }}
             >
-              <ShopCrypto />
+              <ShopCrypto width={36} height={36} />
             </Button>
           </div>
         </div>

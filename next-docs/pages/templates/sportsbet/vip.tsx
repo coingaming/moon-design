@@ -56,10 +56,10 @@ const ExploreCarouselItem = ({
 }) => {
   return (
     <div className="w-full h-full flex p-6">
-      <div className="w-[168px] me-3 flex flex-col items-stretch">
+      <div className="w-[160px] me-3 flex flex-col items-stretch">
         <div className="h-16" />
         <div className="grow-1 mb-2 relative rounded-lg">
-          <Image src={items[0].image} />
+          <Image src={items[0].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[0].title}
@@ -67,7 +67,7 @@ const ExploreCarouselItem = ({
           </div>
         </div>
         <div className="grow-1 relative rounded-lg">
-          <Image src={items[1].image} />
+          <Image src={items[1].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[1].title}
@@ -75,9 +75,9 @@ const ExploreCarouselItem = ({
           </div>
         </div>
       </div>
-      <div className="w-[168px] flex flex-col items-stretch relative">
+      <div className="w-[160px] flex flex-col items-stretch relative">
         <div className="grow-1 mb-2 relative rounded-lg">
-          <Image src={items[2].image} />
+          <Image src={items[2].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[2].title}
@@ -85,7 +85,7 @@ const ExploreCarouselItem = ({
           </div>
         </div>
         <div className="grow-1 relative rounded-lg">
-          <Image src={items[3].image} />
+          <Image src={items[3].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[3].title}
@@ -224,13 +224,28 @@ const Vip = () => {
 
   return (
     <div className="flex flex-col grow overflow-hidden">
-      <div className="fixed top-0 left-0 w-full flex items-center justify-center my-5 mx-4 z-10 ">
-        <div className="absolute left-0">
+      <div className="fixed bg-goku top-0 left-0 w-full flex items-center justify-center sm:justify-between  z-10 ">
+        <div className="h-[50px] relative items-center justify-center left-0 flex fle-row sm:ml-[38px] ml-1">
           <ArrowsLeft fontSize="2rem" />
+          <span className="sm:ml-6 ml-11">
+            <Image src={SportsbetLogo} />
+          </span>
         </div>
-        <Image src={SportsbetLogo} />
+        <div className="hidden sm:flex flex-row mr-7">
+          <Button
+            variant="ghost"
+            width={82}
+            height={40}
+            style={{ marginRight: '5px', color: 'white' }}
+          >
+            Log in
+          </Button>
+          <Button width={82} height={40}>
+            Sing up
+          </Button>
+        </div>
       </div>
-      <div className="mt-20 sm:flex sm:flex-row-reverse sm:items-stretch">
+      <div className="mt-20 sm:mt-[244px] sm:flex sm:flex-row-reverse sm:items-stretch ">
         <div className="flex flex-col h-[80vw] sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw] ">
           <div className="relative w-full grow">
             <div
