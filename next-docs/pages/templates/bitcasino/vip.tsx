@@ -400,7 +400,7 @@ const Vip = () => {
           </div>
         </div>
         <div className="flex flex-col ">
-          <p className="text-moon-32 text-center font-semibold p-4 mb-8 ">
+          <p className="text-moon-32 text-center font-semibold p-4 mb-4">
             Join us and talk to us
           </p>
           <div className="flex gap-2">
