@@ -21,7 +21,7 @@ const Future = () => (
         <div className="relative z-1">
           <Image alt="Future" src={imageFutureImage} />
         </div>
-        <div className="relative text-goten z-1">
+        <div className="self-start relative text-goten z-1 rtl:-rotate-90">
           <TopRightArrowIcon />
         </div>
       </div>

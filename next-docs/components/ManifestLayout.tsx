@@ -22,10 +22,10 @@ const ManifestLayout: React.FC<{ children: React.ReactNode }> = ({
         <Sidebar />
       </SidebarTransition>
       {/* Static sidebar for desktop, hidden for mobile */}
-      <div className="hidden lg:flex lg:flex-shrink-0 w-80 flex flex-col">
+      <aside className="hidden fixed h-screen lg:flex lg:flex-shrink-0 w-80 flex-col">
         <Sidebar />
-      </div>
-      <div className="moon-dark min-h-screen bg-gohan flex-1 w-0 flex flex-col lg:rounded-tl-3xl lg:rounded-bl-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12">
+      </aside>
+      <div className="theme-moon-dark min-h-screen lg:ms-80 bg-gohan flex-1 w-0 flex flex-col ltr:lg:rounded-tl-3xl rtl:lg:rounded-tr-3xl ltr:lg:rounded-bl-3xl rtl:lg:rounded-br-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12">
         <div className="flex flex-col grow max-w-screen-xl">
           {/* Opens sidebar on mobile */}
           <Header openSidebar={openSidebar} />

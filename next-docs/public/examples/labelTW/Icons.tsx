@@ -1,4 +1,3 @@
-import React from 'react';
 import { Label } from '@heathmont/moon-core-tw';
 import { ControlsClose, GenericInfo } from '@heathmont/moon-icons-tw';
 

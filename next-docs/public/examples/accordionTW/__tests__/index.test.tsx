@@ -3,13 +3,16 @@
  */
 
 import React from 'react';
-import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
+import {
+  moonDesignDark,
+  moonDesignLight,
+  ThemeProvider,
+} from '@heathmont/moon-themes';
 import renderer, { act } from 'react-test-renderer';
 import Default from '../Default';
 import ContentOutside from '../ContentOutside';
 import ContentHeader from '../ContentHeader';
 import Sizes from '../Sizes';
-import Rtl from '../Rtl';
 import WithoutButton from '../WithoutButton';
 import ContentOutsideSizes from '../ContentOutsideSizes';
 import OpenDefault from '../OpenDefault';
@@ -19,9 +22,29 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
+const renderWithThemeRTL = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignLight}>
+    <div dir="rtl">{component}</div>
+  </ThemeProvider>
+);
+
+const renderWithDarkTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
+);
+
 describe('Accordion', () => {
   it('renders default', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders default rtl', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders default dark', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
@@ -47,11 +70,6 @@ describe('Accordion', () => {
 
   it('renders header content', () => {
     const testRenderer = renderer.create(renderWithTheme(<ContentHeader />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders RTL', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Rtl />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

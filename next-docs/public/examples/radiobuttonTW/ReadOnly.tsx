@@ -1,15 +1,25 @@
-import React from 'react';
 import { RadioButton } from '@heathmont/moon-core-tw';
 
 const Example = () => (
-  <RadioButton
-    readOnly
-    checked
-    name="readOnly"
-    label="Read only radio button"
-    ariaLabel="Read only radio button"
-    id="rorb1"
-  />
+  <>
+    <RadioButton
+      readOnly
+      name="readOnly"
+      id="readOnly1"
+      value="readOnly1"
+      label="ReadOnly"
+      ariaLabel="ReadOnly"
+    />
+    <RadioButton
+      readOnly
+      checked
+      name="readOnly"
+      id="readOnly2"
+      value="readOnly2"
+      label="ReadOnly Checked"
+      ariaLabel="ReadOnly Checked"
+    />
+  </>
 );
 
 export default Example;

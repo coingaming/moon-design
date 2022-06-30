@@ -114,13 +114,7 @@ const DarkLightModeSwitcher: React.FC<IDarkModeSwitcher> = ({
     <span className="sr-only">Change dark or light theme</span>
     <span
       className={`${
-        !isRtlEnabled
-          ? isEnabled
-            ? 'translate-x-5'
-            : 'translate-x-0'
-          : isEnabled
-          ? 'translate-x-0'
-          : '-translate-x-5'
+        isEnabled ? 'ltr:translate-x-5 rtl:-translate-x-5' : 'translate-x-0'
       } bg-grey-500 pointer-events-none relative inline-block h-5 w-5 rounded-full shadow transform ring-0 transition ease-in-out duration-200`}
     >
       <span

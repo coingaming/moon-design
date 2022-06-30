@@ -38,7 +38,7 @@ const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
           <span className="text-trunks transition-colors duration-200 hover:text-bulma">
             {collapseBreadcrumbs && collapseBreadcrumbs[0]}
           </span>
-          <ArrowsRight />
+          <ArrowsRight className="rtl:rotate-180" />
         </li>
         {restBreadcrumbs?.length !== 0 && (
           <li key={'crumb' + 1} ref={ref} className="relative">
