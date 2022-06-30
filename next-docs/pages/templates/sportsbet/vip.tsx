@@ -1,6 +1,6 @@
 import React, { ReactNode, useEffect, useState } from 'react';
 import { Carousel } from '@heathmont/moon-components';
-import { Button } from '@heathmont/moon-core-tw';
+import { Button , Accordion } from '@heathmont/moon-core-tw';
 import { MailEnvelope, ArrowsLeft, ShopCrypto } from '@heathmont/moon-icons';
 
 import ControlsChevronDown from '@heathmont/moon-icons-tw/lib/icons/ControlsChevronDown';
@@ -21,6 +21,7 @@ import Curacao from '../../../public/templates/sportsbet/curacao.png';
 import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
 import SbcAwards from '../../../public/templates/sportsbet/sbc-awards.png';
 import support from '../../../public/templates/support.png';
+
 
 interface ExperienceCarousel {
   index?: number;
@@ -497,13 +498,13 @@ const Vip = () => {
         </div>
       </div>
 
-      <div className="p-5 mx-auto xl:w-[1262px]  sm:w-[100%]">
-        <div className="flex py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus">
-          <div className="grow-1 lg:mr-0 md:mr-4">
+      <div className="px-[38px] xl:w-[1262px] md:p-5 md:mx-auto sm:w-[100%]">
+        <div className="flex flex-col py-3 mb-3  md:border md:border-x-0 md:border-t-0 md:border-b-beerus md:flex-row md:justify-between">
+          <div className="grow-1 mb-6 lg:mr-0 md:mr-4 md:mb-0">
             <h2 className="text-goten text-sm font-bold mb-7">
               About Sportsbet.io
             </h2>
-            <p className="text-xs text-trunks sm:w-[148px]">
+            <p className="text-xs text-trunks w-full md:w-[148px]">
               Sportsbet.io is owned and operated by mBet Solutions NV (Schout
               Bij Nacht Doormanweg 40, P.O. Box 4745, Curaçao). It is licensed
               and regulated by the Government of Curaçao under the gaming
@@ -513,7 +514,7 @@ const Vip = () => {
             </p>
           </div>
 
-          <div className="grow-3 lg:mr-0 md:mr-4">
+          <div className="grow-3 hidden lg:mr-0 md:block md:mr-4">
             <div>
               <h2 className="text-goten text-sm font-bold mb-5">Sports</h2>
               <p className="mb-3 text-trunks text-xs">Promotions</p>
@@ -522,7 +523,7 @@ const Vip = () => {
             </div>
           </div>
 
-          <div className="grow-3 lg:mr-0 md:mr-4">
+          <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
             <div>
               <h2 className="text-goten text-sm font-bold mb-5">Casino</h2>
               <p className="mb-3 text-trunks text-xs">Casino</p>
@@ -531,7 +532,7 @@ const Vip = () => {
             </div>
           </div>
 
-          <div className="grow-3 lg:mr-0 md:mr-4">
+          <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
             <div>
               <h2 className="text-goten text-sm font-bold mb-5">Support</h2>
               <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
@@ -549,7 +550,7 @@ const Vip = () => {
             </div>
           </div>
 
-          <div className="grow-3 lg:mr-0 md:mr-4">
+          <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
             <div>
               <h2 className="text-goten text-sm font-bold mb-5">About</h2>
               <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
@@ -572,7 +573,7 @@ const Vip = () => {
             </div>
           </div>
 
-          <div className="grow-4">
+          <div className="grow-4 hidden md:block">
             <h2 className="text-goten text-sm font-bold mb-5">Preferences</h2>
             <div className="rounded-[100px] flex flex-col bg-beerus mb-4 ">
               <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
@@ -593,7 +594,7 @@ const Vip = () => {
           </div>
         </div>
 
-        <div className="flex py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus sm:w-[100%]">
+        <div className=" hidden py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus md:flex ">
           <div>
             <h2 className="text-goten text-sm font-bold mb-5">
               Payment methods
@@ -625,7 +626,7 @@ const Vip = () => {
               </div>
             </div>
           </div>
-          <div className="sm:ml-3 sm:mr-3">
+          <div className="hidden md:block sm:ml-3 sm:mr-3">
             <h2 className="text-goten text-sm font-bold mb-5">Follow us</h2>
             <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
               <div className="bg-[#27A4DB] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
@@ -650,7 +651,9 @@ const Vip = () => {
           </div>
 
           <div>
-            <h2 className="text-goten text-sm font-bold mb-5">Partnership</h2>
+            <h2 className="text-goten text-sm font-bold mb-5 hidden md:block">
+              Partnership
+            </h2>
             <div className="flex items-center">
               <div className="bg-beerus mr-2 rounded-full lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
                 <ShopCrypto width={'100%'} height={'100%'} />
@@ -667,15 +670,192 @@ const Vip = () => {
             </div>
           </div>
         </div>
+
+        <div className="flex flex-col md:hidden ">
+          <div className=" mb-2">
+            <Accordion title={'List item'} isContentInside={true}></Accordion>
+          </div>
+          <div className=" mb-2">
+            <Accordion title={'Casino'} isContentInside={true}>
+              <div className="flex flex-col">
+                <p className="mb-3 text-trunks text-xs">Casino</p>
+                <p className="mb-3 text-trunks text-xs">Live Casino</p>
+                <p className="mb-3 text-trunks text-xs">Bombay club</p>
+              </div>
+            </Accordion>
+          </div>
+          <div className=" mb-2">
+            <Accordion title={'Support'} isContentInside={true}>
+              <div className="flex flex-col">
+                <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
+                <p className="mb-3 text-trunks text-xs">
+                  General Betting Rules
+                </p>
+                <p className="mb-3 text-trunks text-xs">Help Centre</p>
+                <p className="mb-3 text-trunks text-xs">Payment Options</p>
+                <p className="mb-3 text-trunks text-xs">Responsible Gambling</p>
+                <p className="mb-3 text-trunks text-xs">
+                  Reward Terms and Conditions
+                </p>
+                <p className="mb-3 text-trunks text-xs">
+                  Self-Exclusion Terms and Conditions
+                </p>
+                <p className="mb-3 text-trunks text-xs">The Clubhouse FAQ</p>
+              </div>
+            </Accordion>
+          </div>
+          <div className=" mb-2">
+            <Accordion title={'About'} isContentInside={true}>
+              <div className="flex flex-col">
+                <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
+                <p className="mb-3 text-trunks text-xs">Affiliates</p>
+                <p className="mb-3 text-trunks text-xs">
+                  Affiliate Terms and Conditions
+                </p>
+                <p className="mb-3 text-trunks text-xs">
+                  Crypto Currency How To Guide
+                </p>
+                <p className="mb-3 text-trunks text-xs">Privacy Policy</p>
+                <p className="mb-3 text-trunks text-xs">
+                  Sportsbet.io Partnerships
+                </p>
+                <p className="mb-3 text-trunks text-xs">Terms and Conditions</p>
+                <p className="mb-3 text-trunks text-xs">
+                  The Clubhouse Terms and Conditions
+                </p>
+                <p className="mb-3 text-trunks text-xs">Vip</p>
+              </div>
+            </Accordion>
+          </div>
+          <div className=" mb-2">
+            <Accordion title={'Preferences'} isContentInside={true}>
+              <div className="flex flex-col">
+                <div className="rounded-[100px] flex flex-col bg-beerus mb-4 ">
+                  <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
+                    <div className="flex items-center">
+                      <span className="texst-xs ml-[5px]">English </span>
+                    </div>
+                    <div className="cursor-pointer">
+                      <ControlsChevronDown />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </Accordion>
+          </div>
+          <div className=" mb-2">
+            <Accordion title={'Accapted Methods'} isContentInside={true}>
+              <div className="flex flex-col">
+                <div className="flex w-[70%] flex-wrap">
+                  <div className=" bg-[#F7931A] rounded-full mr-2 mb-2 ">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className=" bg-[#345D9D] rounded-full mr-2 mb-2 ">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className=" bg-[#EC0928] rounded-full mr-2 mb-2 ">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className=" bg-[#7748FA] rounded-full mr-2 mb-2 ">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className=" bg-[#2ABB92] rounded-full mr-2 mb-2 ">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className=" bg-[#02A6F0] rounded-full mr-2 mb-2 ">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className=" bg-[#0033AD] rounded-full mr-2 mb-2 ">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className=" bg-[#C2A633] rounded-full mr-2 mb-2 ">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                </div>
+              </div>
+            </Accordion>
+          </div>
+          <div className=" mb-2">
+            <Accordion title={'Follow Sportsbook.io'} isContentInside={true}>
+              <div className="flex flex-col">
+                <div className="flex flex-wrap">
+                  <div className="bg-[#27A4DB] rounded-full mr-2 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className="bg-[#FF0000] rounded-full mr-2 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className="bg-[#F7931A] rounded-full mr-2 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className="bg-[#1DA1F2] rounded-full mr-2 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className="rounded-full mr-2 bg-gradient-to-r from-yellow-500 to-pink-500 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className="bg-[#000000] rounded-full mr-2 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                </div>
+              </div>
+            </Accordion>
+          </div>
+          <div className=" mb-5">
+            <Accordion title={'Sponsorships'} isContentInside={true}>
+              <div className="flex flex-wrap">
+                <div className="flex flex-wrap">
+                  <div className="bg-[#27A4DB] rounded-full mr-2 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className="bg-[#FF0000] rounded-full mr-2 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className="bg-[#F7931A] rounded-full mr-2 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className="bg-[#1DA1F2] rounded-full mr-2 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className="rounded-full mr-2 bg-gradient-to-r from-yellow-500 to-pink-500 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                  <div className="bg-[#000000] rounded-full mr-2 mb-2">
+                    <ShopCrypto width={40} height={40} />
+                  </div>
+                </div>
+              </div>
+            </Accordion>
+          </div>
+        </div>
+        <div className="flex justify-center mb-6 md:hidden ">
+          <div className="rounded-[100px] bg-beerus flex justify-center align-middle">
+            <span className="my-[6px] ml-3 mr-[17px]">
+              <Image src={image1} className="mt-[6px]" />
+            </span>
+          </div>
+        </div>
         <div>
           <h2 className="text-goten text-sm font-bold mb-5">Awards</h2>
-          <div className="flex items-center">
-            <Image src={Curacao} />
-            <Image src={Award1} />
-            <Image src={SbcAwards} />
-            <Image src={Award2} />
-            <Image src={Award3} />
-            <Image src={Plus18} />
+          <div className="flex items-center flex-wrap md:flex-nowrap">
+            <div className="mr-2 ">
+              <Image src={Curacao} />
+            </div>
+            <div className="mr-2 ">
+              <Image src={Award1} />
+            </div>
+            <div className="mr-2 ">
+              <Image src={SbcAwards} />
+            </div>
+            <div className="mr-2 ">
+              <Image src={Award2} />
+            </div>
+            <div className="mr-2 ">
+              <Image src={Award3} />
+            </div>
+            <div className="mr-2 ">
+              <Image src={Plus18}/>
+            </div>
           </div>
         </div>
       </div>
