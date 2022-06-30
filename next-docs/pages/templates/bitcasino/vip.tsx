@@ -3,6 +3,7 @@ import { Carousel } from '@heathmont/moon-components';
 import { Button } from '@heathmont/moon-core-tw';
 import { MailEnvelope, ArrowsLeft, ShopCrypto } from '@heathmont/moon-icons';
 
+import { ArrowsDown, ControlsChevronDown } from '@heathmont/moon-icons-tw';
 import Image from 'next/image';
 import KingKaka from '../../../public/templates/bitcasino/kingKaka.png';
 import explore1 from '../../../public/templates/explore-1.png';
@@ -226,7 +227,11 @@ const Vip = () => {
 
   return (
     <div className="flex flex-col grow overflow-hidden">
-      <div className={`fixed top-0 left-0 w-full flex items-center align-center justify-between py-4 px-6 z-1 transition-all duration-500 ${isScrolled ? 'bg-goku ' : 'bg-transparent'}`}>
+      <div
+        className={`fixed top-0 left-0 w-full flex items-center align-center justify-between py-4 px-6 z-1 transition-all duration-500 ${
+          isScrolled ? 'bg-goku ' : 'bg-transparent'
+        }`}
+      >
         <div className="h-[40px] relative items-center left-0 flex fle-row ml-1">
           <ArrowsLeft fontSize="2rem" />
           <span className="sm:ml-6 ml-11">
@@ -256,8 +261,8 @@ const Vip = () => {
       >
         <div className="flex sm:items-center sm:w-[100%] sm:h-[679px] sm:mt-[120px]">
           <div className="relative w-full justify-end self-end">
-            <div className=" min-w-[380px] sm:mr-[124px] lg:ml-24">
-              <Image src={KingKaka} objectFit='contain' />
+            <div className=" min-w-[600px] sm:mr-[124px] lg:ml-24">
+              <Image src={KingKaka} objectFit="contain" />
             </div>
             <div
               className="absolute left-0 bottom-0 w-full h-[150px] sm:hidden"
@@ -270,7 +275,10 @@ const Vip = () => {
         </div>
         <div className="flex flex-col absolute top-[60%] px-8 -mb-10 -bottom-48 z-1 sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center md:w-[65%]">
           <div className="flex flex-col items-center max-w-full bottom-4 sm:items-start sm:mt-[244px] sm:w-[720px] sm:ml-[248px]">
-            <Headline text="Bitcasino VIP: For money can’t buy experiences" classes='sm:px-0'/>
+            <Headline
+              text="Bitcasino VIP: For money can’t buy experiences"
+              classes="sm:px-0"
+            />
             <Subtitle
               classes="items-center mt-3 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
               text=" Join the VIP Bitcasino Club - An exclusive world of crypto leaders
@@ -381,11 +389,11 @@ const Vip = () => {
               className="w-full sm:w-[150px] bg-[#FFFFFF14] flex font-semibold items-center ml-0 btn-tertiary p-[20px] sm:p-0 sm:py-3 sm:px-5 gap-1 text-moon-16 rounded-moon-i-sm mx-2 my-2 sm:justify-between sm:self-start"
               icon="left"
             >
-              <div className="w-full flex flex-row justify-between">
+              <div className="w-full flex flex-row justify-between ">
                 <div>
                   <MailEnvelope width={24} height={24} />
                 </div>
-                <div className="">Contact us</div>
+                <div>Contact us</div>
                 <div></div>
               </div>
             </Button>
@@ -457,6 +465,36 @@ const Vip = () => {
             >
               <ShopCrypto width={36} height={36} />
             </Button>
+          </div>
+        </div>
+      </div>
+
+      <div
+        className=" px-[20px] h-full flex flex-col items-center self-center mt-16 xl:w-[1232px] lg:w-[1136px] sm:w-[80%] sm:mt-[124px]"
+        style={{
+          background:
+            'linear-gradient rgba(36, 3, 63, 0)  0%  #24033F  100%',
+        }}
+      >
+        <div className="flex flex-col lg:items-start">
+          <Title
+            text="Enjoy BTC gaming at the best Bitcoin casino"
+            classes="text-bulma !text-left sm:px-3 sm:text-left leading-8 font-semibold lg:text-moon-20 md:text-moon-20 "
+          />
+          <Subtitle
+            text="The future of gaming is here, we are the number one bitcoin casino in 2021 and into 2022.
+             Our range of casino-slots consistently make the top ten across the bitcoin casino world. Read more."
+            classes="text-bulma opacity-60 !text-left !leading-8 lg:text-moon-16 md:text-moon-16 sm:text-left"
+          />
+        </div>
+        <div className="mt-3 mb-3">
+          <div
+            className="bg-gohan w-[32px] h-[32px] rounded-full  flex justify-center items-center cursor-pointer"
+            onClick={() => {
+              console.log('Read more');
+            }}
+          >
+            <ControlsChevronDown />
           </div>
         </div>
       </div>
