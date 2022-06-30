@@ -12,9 +12,7 @@ import Rtl from '../../public/examples/textInputGroup/Rtl';
 import SingleSelect from '../../public/examples/textInputGroup/SingleSelect';
 import SingleSelectRtl from '../../public/examples/textInputGroup/SingleSelectRtl';
 import SingleSelectVertical from '../../public/examples/textInputGroup/SingleSelectVertical';
-import Sizes from '../../public/examples/textInputGroup/Sizes';
 import Types from '../../public/examples/textInputGroup/Types';
-import Vertical from '../../public/examples/textInputGroup/Vertical';
 import useExamples from '../../utils/useExamples';
 
 const PageTextInputGroup = () => {
