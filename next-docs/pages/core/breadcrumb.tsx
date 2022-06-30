@@ -5,7 +5,6 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('breadcrumbsTW');
-
   return (
     <>
       <Preview
@@ -13,7 +12,6 @@ const Example = () => {
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
-
       <Preview
         title="Collapsed (more then 4 items)"
         preview={<Collapsed />}

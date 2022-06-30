@@ -55,7 +55,7 @@ export default function SidebarTransition({
                 leaveFrom="opacity-100"
                 leaveTo="opacity-0"
               >
-                <div className="absolute top-0 right-0 -me-12 pt-2">
+                <div className="absolute top-0 ltr:right-0 rtl:left-0 -me-12 pt-2">
                   <button
                     ref={closeButtonRef}
                     className="ms-1 flex items-center justify-center rounded-full focus:outline-none"

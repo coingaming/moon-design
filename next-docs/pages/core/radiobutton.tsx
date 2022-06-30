@@ -6,6 +6,7 @@ import Default from '../../public/examples/radiobuttonTW/Default';
 import Disabled from '../../public/examples/radiobuttonTW/Disabled';
 import NoLabel from '../../public/examples/radiobuttonTW/NoLabel';
 import ReadOnly from '../../public/examples/radiobuttonTW/ReadOnly';
+import WithLabel from '../../public/examples/radiobuttonTW/WithLabel';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -24,27 +25,28 @@ const Example = () => {
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
-
       <Preview
-        title="No label"
+        title="With Label"
+        preview={<WithLabel />}
+        code={examples ? examples.WithLabel : 'Loading'}
+      />
+      <Preview
+        title="No Label"
         preview={<NoLabel />}
         code={examples ? examples.NoLabel : 'Loading'}
       />
-
-      <Preview
-        title="Disabled"
-        preview={<Disabled />}
-        code={examples ? examples.Disabled : 'Loading'}
-      />
-
       <Preview
         title="Checked"
         preview={<Checked />}
         code={examples ? examples.Checked : 'Loading'}
       />
-
       <Preview
-        title="Read only"
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="ReadOnly"
         preview={<ReadOnly />}
         code={examples ? examples.ReadOnly : 'Loading'}
       />

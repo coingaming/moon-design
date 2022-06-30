@@ -6,6 +6,7 @@ import {
   LogoBetaddaShort,
 } from '@heathmont/moon-assets';
 import useFeatureFlags from '../../../utils/useFeatureFlags';
+import useRtl from '../../../utils/useRtl';
 import { useDocsTheme, DocsBrands } from '../../themes/DocsThemeProvider';
 import useThemeTW from '../../themes/useThemesTW';
 import ReactElixirSwitcher from '../common/ReactElixirSwitcher';
@@ -36,21 +37,9 @@ const ReactSettings: React.FC<Props> = ({
 
   const { toggleColorScheme, setBrand, themeKeys } = useDocsTheme();
 
-  const [isRtlEnabled, setIsRtl] = useState(false);
+  const { toggleRtl, isRtlEnabled } = useRtl();
 
   const { isFeatureElixirEnabled } = useFeatureFlags();
-
-  const toggleRtl = () => {
-    const htmlTag = document && document?.getElementsByTagName('html')[0];
-    setIsRtl(!isRtlEnabled);
-    const dirAttr = htmlTag.getAttribute('dir');
-
-    if (!dirAttr) {
-      htmlTag.setAttribute('dir', 'rtl');
-    } else {
-      htmlTag.removeAttribute('dir');
-    }
-  };
 
   const filteredThemeKeys = themeKeys.filter((themeKey: string) =>
     ['sportsbet', 'bitcasino', 'moonDesign', 'betadda'].includes(themeKey)
@@ -73,14 +62,10 @@ const ReactSettings: React.FC<Props> = ({
   };
   return (
     <>
-      <SettingsButton onClick={toggle} isRtlEnabled={isRtlEnabled} />
+      <SettingsButton onClick={toggle} />
       {isOpened && (
         <>
-          <div
-            className={`${
-              isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-16 z-50`}
-          >
+          <div className="ltr:right-4 rtl:left-4 fixed bottom-16 z-50">
             {filteredThemeKeys.map((themeKey: string) => {
               const Logo = Logos[themeKey as LogosKeys] || Logos.moonDesign;
               return (
@@ -95,29 +80,17 @@ const ReactSettings: React.FC<Props> = ({
               );
             })}
           </div>
-          <div
-            className={`${
-              isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-28 z-50`}
-          >
+          <div className="ltr:right-4 rtl:left-4 fixed bottom-28 z-50">
             <DarkLightModeSwitcher
               toggle={switchModeHandler}
               isEnabled={getMode() === 'dark'}
               isRtlEnabled={isRtlEnabled}
             />
           </div>
-          <div
-            className={`${
-              isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-40 z-50`}
-          >
+          <div className="ltr:right-4 rtl:left-4 fixed bottom-40 z-50">
             <RTLModeSwitch toggle={toggleRtl} isEnabled={isRtlEnabled} />
           </div>
-          <div
-            className={`${
-              isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-52 z-50`}
-          >
+          <div className="ltr:right-4 rtl:left-4 fixed bottom-52 z-50">
             {isFeatureElixirEnabled ? (
               <ReactElixirSwitcher
                 toggle={toggleReactAndElixir}

@@ -1,5 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Label renders deafult 1`] = `
+<div
+  className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+>
+  Default
+</div>
+`;
+
+exports[`Label renders deafult dark 1`] = `
+<div
+  className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+>
+  Default
+</div>
+`;
+
+exports[`Label renders deafult rtl 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+  >
+    Default
+  </div>
+</div>
+`;
+
 exports[`Label renders with different Colours 1`] = `
 Array [
   <div

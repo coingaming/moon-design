@@ -1,17 +1,8 @@
-import React, { forwardRef, useState } from 'react';
+import React, { forwardRef } from 'react';
 import classNames from '../private/utils/classnames';
+import type Props from './private/types/Props';
 
-export type RadioButtonProps = React.InputHTMLAttributes<HTMLInputElement> & {
-  disabled?: boolean;
-  ariaLabel?: string;
-  label?: JSX.Element | string;
-  id?: string;
-  checked?: boolean;
-  onClick?: (event?: React.MouseEvent<HTMLInputElement>) => void;
-  onChange?: (event: React.ChangeEvent<HTMLInputElement>) => void;
-};
-
-const RadioButton = forwardRef<HTMLInputElement, RadioButtonProps>(
+const RadioButton = forwardRef<HTMLInputElement, Props>(
   (
     {
       disabled,
@@ -68,7 +59,6 @@ const RadioButton = forwardRef<HTMLInputElement, RadioButtonProps>(
             )}
           />
         </span>
-
         {label && <span className="text-bulma text-moon-14">{label}</span>}
       </label>
     </span>
