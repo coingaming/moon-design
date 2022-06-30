@@ -170,23 +170,7 @@ const Vip = () => {
       icon: support,
       title: '24/7 priority support',
       points: ['No queues, no waiting.', 'We attend to your needs first.'],
-    },
-    {
-      icon: gift,
-      title: 'Luxurious holiday gifts',
-      points: [
-        'High-value gifts on your birthday and your anniversary.',
-        'Personalised seasonal offers.',
-      ],
-    },
-    {
-      icon: promo,
-      title: 'VIP exclusive promos',
-      points: [
-        'The best betting experiences are reserved for you.',
-        'Only visible to VIP members.',
-      ],
-    },
+    }
   ];
   const exploreItems = [
     [
@@ -270,10 +254,10 @@ const Vip = () => {
           backgroundSize: 'auto 100%',
         }}
       >
-        <div className="flex sm:items-center sm:w-[100%] sm:h-auto sm:min-h-[30vw] ">
+        <div className="flex sm:items-center sm:w-[100%] sm:h-[679px] sm:mt-[120px]">
           <div className="relative w-full justify-end self-end">
-            <div className=" min-w-[380px] lg:ml-24 sm:mr-[124px]">
-              <Image src={KingKaka} sizes="100%" />
+            <div className=" min-w-[380px] sm:mr-[124px] lg:ml-24">
+              <Image src={KingKaka} objectFit='contain' />
             </div>
             <div
               className="absolute left-0 bottom-0 w-full h-[150px] sm:hidden"
