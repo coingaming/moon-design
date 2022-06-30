@@ -1,4 +1,4 @@
-import React, { ReactNode } from 'react';
+import React, {ReactNode, useEffect, useState} from 'react';
 import { Carousel } from '@heathmont/moon-components';
 import { Button } from '@heathmont/moon-core-tw';
 import { MailEnvelope, ArrowsLeft, ShopCrypto } from '@heathmont/moon-icons';
@@ -100,8 +100,10 @@ const ExploreCarouselItem = ({
   );
 };
 
-const Headline = ({ text }: { text: string }) => (
-  <p className="text-[32px] text-center font-semibold p-4 lg:text-[64px] lg:leading-[3.5rem] sm:text-left sm:text-moon-48">
+const Headline = ({ text, classes }: { text: string, classes?: string }) => (
+  <p className={`text-[32px] text-center font-semibold p-4 sm:text-left sm:text-moon-48 lg:text-[64px] lg:leading-[4.5rem] ${
+    classes ?? ''
+  }`} style={{ letterSpacing: '-2px' }}>
     {text}
   </p>
 );
@@ -125,6 +127,7 @@ const Subtitle = ({ text, classes }: { text: string; classes?: string }) => (
 );
 
 const Vip = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
   const experienceItems = [
     {
       icon: handshake,
@@ -224,16 +227,29 @@ const Vip = () => {
     ],
   ];
 
+
+  useEffect(() => {
+    const toggleHeaderBackground = (e: Event) => {
+      setIsScrolled(window.scrollY >= 30);
+    };
+
+    window.addEventListener("scroll", toggleHeaderBackground);
+
+    return () => {
+      window.removeEventListener("scroll", toggleHeaderBackground);
+    }
+  }, []);
+
   return (
     <div className="flex flex-col grow overflow-hidden">
-      <div className="fixed bg-goku top-0 left-0 w-full flex items-center align-center justify-between z-1">
-        <div className="h-[50px] relative items-center left-0 flex fle-row sm:ml-[38px] ml-1">
+      <div className={`fixed top-0 left-0 w-full flex items-center align-center justify-between py-4 px-6 z-1 transition-all duration-500 ${isScrolled ? 'bg-goku ' : 'bg-transparent'}`}>
+        <div className="h-[40px] relative items-center left-0 flex fle-row ml-1">
           <ArrowsLeft fontSize="2rem" />
           <span className="sm:ml-6 ml-11">
             <BitcasinoLogo />
           </span>
         </div>
-        <div className="hidden sm:flex flex-row mr-7">
+        <div className="hidden sm:flex flex-row">
           <Button
             variant="ghost"
             width={82}
@@ -260,7 +276,7 @@ const Vip = () => {
               <Image src={KingKaka} sizes="100%" />
             </div>
             <div
-              className="absolute left-0 bottom-0 w-full h-[150px]"
+              className="absolute left-0 bottom-0 w-full h-[150px] sm:hidden"
               style={{
                 background:
                   'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F  100%',
@@ -268,11 +284,11 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col absolute top-[60%] sm:top-0 px-8 -mb-10 -bottom-48 z-1 md:w-[65%]  sm:bottom-0 sm:relative sm:mb-0 sm:pb-24 sm:pt-28 sm:w-[50%] sm:items-center">
-          <div className="flex flex-col items-center sm:items-start sm:mt-[244px] max-w-full bottom-4 sm:w-[720px] sm:ml-[248px]">
-            <Headline text="Bitcasino VIP: For money can’t buy experiences" />
+        <div className="flex flex-col absolute top-[60%] px-8 -mb-10 -bottom-48 z-1 sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center md:w-[65%]">
+          <div className="flex flex-col items-center max-w-full bottom-4 sm:items-start sm:mt-[244px] sm:w-[720px] sm:ml-[248px]">
+            <Headline text="Bitcasino VIP: For money can’t buy experiences" classes='sm:px-0'/>
             <Subtitle
-              classes="  sm:text-left md:text-[24px] sm:text-[18px] md:leading-8 sm:leading-6 items-center mt-3"
+              classes="items-center mt-3 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
               text=" Join the VIP Bitcasino Club - An exclusive world of crypto leaders
               and high-rollers who dare to take risks and enjoy life to its
               fullest."
@@ -281,15 +297,22 @@ const Vip = () => {
               variant="primary"
               width={124}
               height={48}
-              className="btn-primary py-3 ml-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:self-start w-full sm:w-[124px] "
+              className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:mx-0 sm:px-0 sm:self-start w-full sm:w-[124px] "
             >
               Sign up now
             </Button>
           </div>
         </div>
+        <div
+          className="hidden absolute left-0 bottom-0 w-full h-[150px] sm:block"
+          style={{
+            background:
+              'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F  100%',
+          }}
+        />
       </div>
-      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[104px]  ">
-        <div className="w-full lg:w-[1232px] flex flex-col items-center relative -top-[30px] my-8 sm:top-0 sm:mb-0">
+      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[124px]">
+        <div className="w-full flex flex-col items-center relative -top-[30px] mb-8 sm:top-0 sm:mb-0 lg:w-[1232px] ">
           <Title
             text="A VIP experience tailored to your liking"
             classes="w-[348px] leading-10 mb-4 sm:mb-0 md:w-[944px] sm:w-[600px] sm:leading-0"
