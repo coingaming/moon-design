@@ -1,11 +1,20 @@
 import React, {ReactNode, useEffect, useState} from 'react';
-import { Carousel } from '@heathmont/moon-components';
+import { Carousel , Switch } from '@heathmont/moon-components';
 import { Button } from '@heathmont/moon-core-tw';
 import { MailEnvelope, ArrowsLeft, ShopCrypto } from '@heathmont/moon-icons';
 
-import { ArrowsDown, ControlsChevronDown } from '@heathmont/moon-icons-tw';
+import { ControlsChevronDown, ControlsChevronRight } from '@heathmont/moon-icons-tw';
 import Image from 'next/image';
+import icon18 from '../../../public/templates/bitcasino/18+icon.png';
+import awards1 from '../../../public/templates/bitcasino/awards1.png';
+import awards2 from '../../../public/templates/bitcasino/awards2.png';
+import awards3 from '../../../public/templates/bitcasino/awards3.png';
+import bitcasinoLogo from '../../../public/templates/bitcasino/BitcasinoLogo.png';
+import hubb from '../../../public/templates/bitcasino/Hubb.png';
+import image1 from '../../../public/templates/bitcasino/image1.png';
 import KingKaka from '../../../public/templates/bitcasino/kingKaka.png';
+import licences1 from '../../../public/templates/bitcasino/licences1.png';
+import uk from '../../../public/templates/bitcasino/uk.png';
 import explore1 from '../../../public/templates/explore-1.png';
 import explore2 from '../../../public/templates/explore-2.png';
 import explore3 from '../../../public/templates/explore-3.png';
@@ -15,6 +24,7 @@ import handshake from '../../../public/templates/handshake.png';
 import promo from '../../../public/templates/promo.png';
 import support from '../../../public/templates/support.png';
 import BitcasinoLogo from './bitcasino-logo';
+
 
 interface ExperienceCarousel {
   index?: number;
@@ -129,6 +139,7 @@ const Subtitle = ({ text, classes }: { text: string; classes?: string }) => (
 
 const Vip = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [state, setState] = useState(true);
   const experienceItems = [
     {
       icon: handshake,
@@ -470,10 +481,9 @@ const Vip = () => {
       </div>
 
       <div
-        className=" px-[20px] h-full flex flex-col items-center self-center mt-16 xl:w-[1232px] lg:w-[1136px] sm:w-[80%] sm:mt-[124px]"
+        className=" px-5 h-full flex flex-col items-center self-center mt-16 xl:w-[1232px] lg:w-[90%] sm:w-[80%] sm:mt-[124px]"
         style={{
-          background:
-            'linear-gradient rgba(36, 3, 63, 0)  0%  #24033F  100%',
+          background: 'linear-gradient rgba(36, 3, 63, 0)  0%  #24033F  100%',
         }}
       >
         <div className="flex flex-col lg:items-start">
@@ -488,13 +498,197 @@ const Vip = () => {
           />
         </div>
         <div className="mt-3 mb-3">
-          <div
+          <Button
             className="bg-gohan w-[32px] h-[32px] rounded-full  flex justify-center items-center cursor-pointer"
             onClick={() => {
               console.log('Read more');
             }}
           >
             <ControlsChevronDown />
+          </Button>
+        </div>
+      </div>
+
+      <div className="p-5 mx-auto xl:w-[1262px]  sm:w-[90%]">
+        <div className="py-4 flex flex-row justify-start items-center border border-x-0 border-y-beerus">
+          <Image src={bitcasinoLogo} />
+          <ControlsChevronRight className="mx-3" />
+          <p>Mainpage </p>
+        </div>
+
+        <div className="flex py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus">
+          <div className="grow-1 lg:mr-0 md:mr-4">
+            <h2 className="text-goten text-sm font-bold mb-7">
+              About Bitcasino.io
+            </h2>
+            <p className="text-xs text-trunks lg:w-[255px] sm:w-[150px]">
+              Bitcasino.io is owned and operated by Moon Technologies B.V. It is
+              licensed and regulated by the Government of Curaçao under the
+              gaming license 1668/JAZ.
+            </p>
+          </div>
+
+          <div className="grow-3 lg:mr-0 md:mr-4">
+            <div>
+              <h2 className="text-goten text-sm font-bold mb-5">Games</h2>
+              <p className="mb-3 text-trunks text-xs">Slots</p>
+              <p className="mb-3 text-trunks text-xs">Roulette</p>
+              <p className="mb-3 text-trunks text-xs">Live Baccarat</p>
+              <p className="mb-3 text-trunks text-xs">Blackjack</p>
+              <p className="mb-3 text-trunks text-xs">Live Casino</p>
+              <p className="mb-3 text-trunks text-xs">Sportsbook</p>
+              <p className="mb-3 text-trunks text-xs">Providers</p>
+              <p className="mb-3 text-trunks text-xs">Live Poker</p>
+              <p className="mb-3 text-trunks text-xs">Live Game Shows</p>
+              <p className="mb-3 text-trunks text-xs">Casual Games</p>
+              <p className="mb-3 text-trunks text-xs">Multiplayer</p>
+            </div>
+          </div>
+
+          <div className="grow-3 lg:mr-0 md:mr-4">
+            <div>
+              <h2 className="text-goten text-sm font-bold mb-5">About</h2>
+              <p className="mb-3 text-trunks text-xs">Loyalty Club</p>
+              <p className="mb-3 text-trunks text-xs">VIP</p>
+              <p className="mb-3 text-trunks text-xs">Rewards</p>
+              <p className="mb-3 text-trunks text-xs">Blog</p>
+              <p className="mb-3 text-trunks text-xs">Affiliates</p>
+              <p className="mb-3 text-trunks text-xs">Help Centre</p>
+              <p className="mb-3 text-trunks text-xs">Gaming License</p>
+            </div>
+          </div>
+
+          <div className="grow-3 lg:mr-0 md:mr-4">
+            <div>
+              <h2 className="text-goten text-sm font-bold mb-5">Info</h2>
+              <p className="mb-3 text-trunks text-xs">
+                General Terms and Conditions
+              </p>
+              <p className="mb-3 text-trunks text-xs">
+                Reward Terms and Conditions
+              </p>
+              <p className="mb-3 text-trunks text-xs">
+                Self-Exclusion Terms and Conditions
+              </p>
+              <p className="mb-3 text-trunks text-xs">
+                Affiliate Terms & Conditions
+              </p>
+              <p className="mb-3 text-trunks text-xs">Privacy Policy</p>
+              <p className="mb-3 text-trunks text-xs">Responsible Gambling</p>
+            </div>
+          </div>
+
+          <div className="grow-4">
+            <div className="mb-4 flex justify-between items-center lg:w-[65%] ">
+              <p className="leading-4 text-[10px] font-semibold text-trunks">
+                AM
+              </p>
+              <Switch
+                id="test-switch-3"
+                checked={state}
+                onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
+                  setState(e.target.checked)
+                }
+                colorScheme="gohan"
+              />
+              <p className="leading-4 text-[10px] font-semibold text-trunks">
+                PM
+              </p>
+            </div>
+
+            <div className="rounded-[100px] flex flex-col bg-gohan mb-4 ">
+              <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
+                <div className="flex items-center">
+                  <Image src={uk} className="rounded-full" />
+                  <span className="texst-xs ml-[5px]">English </span>
+                </div>
+                <div className="cursor-pointer">
+                  <ControlsChevronDown />
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-[100px] bg-gohan flex justify-center align-middle">
+              <span className="my-[6px] ml-3 mr-[17px]">
+                <Image src={image1} className="mt-[6px]" />
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus sm:w-[100%]">
+          <div>
+            <h2 className="text-goten text-sm font-bold mb-5">
+              Payment methods
+            </h2>
+            <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
+              <div className=" bg-[#F7931A] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#345D9D] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#EC0928] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#7748FA] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#2ABB92] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#02A6F0] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#0033AD] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#C2A633] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+            </div>
+          </div>
+          <div className="sm:ml-3 sm:mr-3">
+            <h2 className="text-goten text-sm font-bold mb-5">Follow us</h2>
+            <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
+              <div className="bg-[#27A4DB] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px] ">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="bg-[#FF0000] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px] ">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="bg-[#F7931A] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px] ">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="bg-[#1DA1F2] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px] ">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" rounded-full mr-2 bg-gradient-to-r from-yellow-500 to-pink-500 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px] ">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="bg-[#000000] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px] ">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-goten text-sm font-bold mb-5">Licences</h2>
+            <div className="flex items-center">
+              <Image src={licences1} />
+              <div className="mx-4">
+                <Image src={icon18} />
+              </div>
+              <Image src={hubb} />
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 className="text-goten text-sm font-bold mb-5">Awards</h2>
+          <div>
+            <Image src={awards1} />
+            <Image src={awards2} />
+            <Image src={awards3} />
           </div>
         </div>
       </div>

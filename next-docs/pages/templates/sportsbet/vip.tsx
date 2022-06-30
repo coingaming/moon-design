@@ -5,6 +5,7 @@ import { MailEnvelope, ArrowsLeft, ShopCrypto } from '@heathmont/moon-icons';
 
 import ControlsChevronDown from '@heathmont/moon-icons-tw/lib/icons/ControlsChevronDown';
 import Image from 'next/image';
+import image1 from '../../../public/templates/bitcasino/image1.png';
 import explore1 from '../../../public/templates/explore-1.png';
 import explore2 from '../../../public/templates/explore-2.png';
 import explore3 from '../../../public/templates/explore-3.png';
@@ -12,7 +13,13 @@ import explore4 from '../../../public/templates/explore-4.png';
 import gift from '../../../public/templates/gift.png';
 import handshake from '../../../public/templates/handshake.png';
 import promo from '../../../public/templates/promo.png';
+import Plus18 from '../../../public/templates/sportsbet/18plus.png';
+import Award1 from '../../../public/templates/sportsbet/award1.png';
+import Award2 from '../../../public/templates/sportsbet/award2.png';
+import Award3 from '../../../public/templates/sportsbet/award3.png';
+import Curacao from '../../../public/templates/sportsbet/curacao.png';
 import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
+import SbcAwards from '../../../public/templates/sportsbet/sbc-awards.png';
 import support from '../../../public/templates/support.png';
 
 interface ExperienceCarousel {
@@ -130,7 +137,6 @@ const Subtitle = ({ text, classes }: { text: string; classes?: string }) => (
 
 const Vip = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-
   const experienceItems = [
     {
       icon: handshake,
@@ -233,13 +239,13 @@ const Vip = () => {
           isScrolled ? 'bg-goku ' : 'bg-transparent'
         }`}
       >
-        <div className="h-[50px] relative items-center justify-center left-0 flex fle-row sm:ml-[38px] ml-1">
+        <div className="h-[50px] relative items-center justify-center left-0 flex fle-row  ml-1 sm:ml-[38px]">
           <ArrowsLeft fontSize="2rem" />
           <span className="sm:ml-6 ml-11">
             <Image src={SportsbetLogo} />
           </span>
         </div>
-        <div className="hidden sm:flex flex-row mr-7">
+        <div className="hidden flex-row mr-7 sm:flex">
           <Button
             variant="ghost"
             width={82}
@@ -254,7 +260,7 @@ const Vip = () => {
         </div>
       </div>
       <div className="mt-20 sm:mt-[244px] sm:flex sm:flex-row-reverse sm:items-stretch ">
-        <div className="flex flex-col h-[80vw] sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] md:min-h-[25vw] ">
+        <div className="flex flex-col h-[80vw] md:min-h-[25vw] sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] ">
           <div className="relative w-full grow">
             <div
               className="w-full h-full bg-contain bg-left bg-no-repeat"
@@ -271,7 +277,7 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col items-end relative -top-[30vw] px-8 sm:py-20 sm:w-[45%] sm:top-0 sm:items-center md:ps-[15%]">
+        <div className="flex flex-col items-end relative -top-[30vw] px-8 md:ps-[15%] sm:py-20 sm:w-[45%] sm:top-0 sm:items-center">
           <div className="flex flex-col max-w-full sm:w-[550px]">
             <Headline
               text="Bitcasino VIP: For money can’t buy experiences!"
@@ -281,13 +287,13 @@ const Vip = () => {
               text="Join the VIP Bitcasino Club - An exclusive world of crypto leaders
               and high-rollers who dare to take risks and enjoy life to its
               fullest."
-              classes="items-center mt-3 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
+              classes="items-center mt-3 md:text-[24px] md:leading-8 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6"
             />
             <Button
               variant="primary"
               width={124}
               height={48}
-              className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:mx-0 sm:px-0 sm:self-start w-full sm:w-[124px] "
+              className="btn-primary w-full py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:mx-0 sm:px-0 sm:self-start sm:w-[124px] "
             >
               Sign up now
             </Button>
@@ -319,18 +325,18 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col relative sm:mt-[230px] mb-0 sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
-          <div className="flex flex-col self-stretch w-[380px] xl:w-[30%] sm:w-[100%] justify-center sm:mb-20 2xl:ml-24 lg:mx-0 lg:px-0 md:pl-9 sm:ml-0 ml-3">
+        <div className="flex flex-col relative mb-0 sm:mt-[230px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
+          <div className="flex flex-col self-stretch w-[380px] justify-center 2xl:ml-24 xl:w-[30%] lg:mx-0 lg:px-0 md:pl-9 sm:w-[100%] sm:mb-20  sm:ml-0 ml-3">
             <Title
               text="Explore the world in true VIP style!"
-              classes="xl:text-left leading-10 sm:pl-0 sm:leading-0 mb-4 text-center"
+              classes=" leading-10 mb-4 text-center xl:text-left sm:pl-0 sm:leading-0 "
             />
             <Subtitle
-              classes="sm:text-left px-5 sm:px-0"
+              classes="px-5 sm:text-left sm:px-0"
               text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
             />
           </div>
-          <div className="w-full max-w-[100vw] flex items-center justify-center sm:px-5 py-8 lg:w-[645px] lg:h-[684px] sm:w-[490px] sm:h-full sm:ml-0">
+          <div className="w-full max-w-[100vw] flex items-center justify-center py-8 lg:w-[645px] lg:h-[684px] sm:px-5  sm:w-[490px] sm:h-full sm:ml-0">
             <Carousel
               items={exploreItems.map((items) => (
                 <ExploreCarouselItem items={items} />
@@ -338,26 +344,26 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="mt-[96px] mb-[96px] flex flex-col items-center sm:my-[246px] md:justify-center sm:flex-row-reverse sm:top-0 md:flex-nowrap sm:flex-wrap sm:justify-center w-[100%] ">
+        <div className="w-[100%] mt-[96px] mb-[96px] flex flex-col items-center md:justify-center md:flex-nowrap sm:my-[246px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center ">
           <div className="flex flex-col self-stretch align-center pb-8 xl:w-[600px] xl:pl-0 lg:w-[100%] sm:ps-12 sm:w-[100%] sm:justify-center ">
             <Title
               text="VIP runs in the family"
-              classes="md:text-left sm:text-center lg:w-[510px] mb-4 leading-10 "
+              classes="mb-4 leading-10 lg:w-[510px]  md:text-left sm:text-center "
             />
             <Subtitle
-              classes="sm:text-left text-center lg:w-[510px] w-[348px] px-5 pb-[32px] sm:pb-0 sm:w-[100%]"
+              classes="text-center w-[348px] px-5 pb-[32px] lg:w-[510px] sm:text-left sm:pb-0 sm:w-[100%]"
               text="Sportsbet has legendary athletes in our VIP club. Join our high
               profile community of crypto leaders and high-rollers!"
             />
           </div>
           <div
-            className="max-w-[100vw] bg-contain bg-center bg-no-repeat w-[340px] h-[238px]  sm:w-[482px] sm:h-[384px] xl:mr-[144px]"
+            className="max-w-[100vw] bg-contain bg-center bg-no-repeat w-[340px] h-[238px]  xl:mr-[144px] sm:w-[482px] sm:h-[384px]"
             style={{
               backgroundImage: 'url(/templates/sportsbet/partnership.png)',
             }}
           />
         </div>
-        <div className="flex flex-col sm:mt-0 w-[95vw] sm:w-[100%]">
+        <div className="flex flex-col w-[95vw] sm:mt-0 sm:w-[100%]">
           <Title
             text="Ready to step up the game?"
             classes="mb-4 p-5 leading-10"
@@ -368,17 +374,17 @@ const Vip = () => {
             family now!"
             classes="w-[100%] mb-4 p-5"
           />
-          <div className="flex flex-col mb-[72px] sm:mb-[88px] w-full sm:w-auto sm:flex-row sm:justify-center sm:items-center">
+          <div className="flex flex-col mb-[72px] w-full sm:w-auto sm:mb-[88px] sm:flex-row sm:justify-center sm:items-center">
             <Button
               variant="primary"
-              className="btn-primary sm:w-[130px] py-3 px-9 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:self-start"
+              className="btn-primary  py-3 px-9 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:w-[130px] sm:self-start"
             >
               Sign up
             </Button>
 
             <Button
               variant="primary"
-              className="w-full sm:w-[150px] bg-[#FFFFFF14] flex font-semibold items-center ml-0 btn-tertiary p-[20px] sm:p-0 sm:py-3 sm:px-5 gap-1 text-moon-16 rounded-moon-i-sm mx-2 my-2 sm:justify-between sm:self-start"
+              className="w-full bg-[#FFFFFF14] flex font-semibold items-center ml-0 btn-tertiary p-[20px] gap-1 text-moon-16 rounded-moon-i-sm mx-2 my-2 sm:w-[150px] sm:p-0 sm:py-3 sm:px-5 sm:justify-between sm:self-start"
               icon="left"
             >
               <div className="w-full flex flex-row justify-between">
@@ -462,7 +468,7 @@ const Vip = () => {
       </div>
 
       <div
-        className=" px-[20px] h-full flex flex-col items-center self-center mt-16 xl:w-[1232px] lg:w-[1136px] sm:w-[80%] sm:mt-[124px]"
+        className=" px-[20px] h-full flex flex-col items-center self-center mt-16 xl:w-[1232px] lg:w-[90%] sm:w-[80%] sm:mt-[124px]"
         style={{
           backgroundImage:
             'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)',
@@ -487,6 +493,189 @@ const Vip = () => {
             }}
           >
             <ControlsChevronDown />
+          </div>
+        </div>
+      </div>
+
+      <div className="p-5 mx-auto xl:w-[1262px]  sm:w-[100%]">
+        <div className="flex py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus">
+          <div className="grow-1 lg:mr-0 md:mr-4">
+            <h2 className="text-goten text-sm font-bold mb-7">
+              About Sportsbet.io
+            </h2>
+            <p className="text-xs text-trunks sm:w-[148px]">
+              Sportsbet.io is owned and operated by mBet Solutions NV (Schout
+              Bij Nacht Doormanweg 40, P.O. Box 4745, Curaçao). It is licensed
+              and regulated by the Government of Curaçao under the gaming
+              license 1668/JAZ. Some payment methods are handled by its wholly
+              owned subsidiary, mProcessing Solutions Ltd, Cyprus (Menandrou 4,
+              1066, Nicosia, Cyprus).
+            </p>
+          </div>
+
+          <div className="grow-3 lg:mr-0 md:mr-4">
+            <div>
+              <h2 className="text-goten text-sm font-bold mb-5">Sports</h2>
+              <p className="mb-3 text-trunks text-xs">Promotions</p>
+              <p className="mb-3 text-trunks text-xs">In play</p>
+              <p className="mb-3 text-trunks text-xs">Upcoming</p>
+            </div>
+          </div>
+
+          <div className="grow-3 lg:mr-0 md:mr-4">
+            <div>
+              <h2 className="text-goten text-sm font-bold mb-5">Casino</h2>
+              <p className="mb-3 text-trunks text-xs">Casino</p>
+              <p className="mb-3 text-trunks text-xs">Live Casino</p>
+              <p className="mb-3 text-trunks text-xs">Bombay club</p>
+            </div>
+          </div>
+
+          <div className="grow-3 lg:mr-0 md:mr-4">
+            <div>
+              <h2 className="text-goten text-sm font-bold mb-5">Support</h2>
+              <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
+              <p className="mb-3 text-trunks text-xs">General Betting Rules</p>
+              <p className="mb-3 text-trunks text-xs">Help Centre</p>
+              <p className="mb-3 text-trunks text-xs">Payment Options</p>
+              <p className="mb-3 text-trunks text-xs">Responsible Gambling</p>
+              <p className="mb-3 text-trunks text-xs">
+                Reward Terms and Conditions
+              </p>
+              <p className="mb-3 text-trunks text-xs">
+                Self-Exclusion Terms and Conditions
+              </p>
+              <p className="mb-3 text-trunks text-xs">The Clubhouse FAQ</p>
+            </div>
+          </div>
+
+          <div className="grow-3 lg:mr-0 md:mr-4">
+            <div>
+              <h2 className="text-goten text-sm font-bold mb-5">About</h2>
+              <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
+              <p className="mb-3 text-trunks text-xs">Affiliates</p>
+              <p className="mb-3 text-trunks text-xs">
+                Affiliate Terms and Conditions
+              </p>
+              <p className="mb-3 text-trunks text-xs">
+                Crypto Currency How To Guide
+              </p>
+              <p className="mb-3 text-trunks text-xs">Privacy Policy</p>
+              <p className="mb-3 text-trunks text-xs">
+                Sportsbet.io Partnerships
+              </p>
+              <p className="mb-3 text-trunks text-xs">Terms and Conditions</p>
+              <p className="mb-3 text-trunks text-xs">
+                The Clubhouse Terms and Conditions
+              </p>
+              <p className="mb-3 text-trunks text-xs">Vip</p>
+            </div>
+          </div>
+
+          <div className="grow-4">
+            <h2 className="text-goten text-sm font-bold mb-5">Preferences</h2>
+            <div className="rounded-[100px] flex flex-col bg-beerus mb-4 ">
+              <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
+                <div className="flex items-center">
+                  <span className="texst-xs ml-[5px]">English </span>
+                </div>
+                <div className="cursor-pointer">
+                  <ControlsChevronDown />
+                </div>
+              </div>
+            </div>
+
+            <div className="rounded-[100px] bg-beerus flex justify-center align-middle">
+              <span className="my-[6px] ml-3 mr-[17px]">
+                <Image src={image1} className="mt-[6px]" />
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus sm:w-[100%]">
+          <div>
+            <h2 className="text-goten text-sm font-bold mb-5">
+              Payment methods
+            </h2>
+            <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
+              <div className=" bg-[#F7931A] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#345D9D] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#EC0928] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#7748FA] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#2ABB92] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#02A6F0] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#0033AD] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className=" bg-[#C2A633] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+            </div>
+          </div>
+          <div className="sm:ml-3 sm:mr-3">
+            <h2 className="text-goten text-sm font-bold mb-5">Follow us</h2>
+            <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
+              <div className="bg-[#27A4DB] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="bg-[#FF0000] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="bg-[#F7931A] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="bg-[#1DA1F2] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="rounded-full mr-2 bg-gradient-to-r from-yellow-500 to-pink-500 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="bg-[#000000] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h2 className="text-goten text-sm font-bold mb-5">Partnership</h2>
+            <div className="flex items-center">
+              <div className="bg-beerus mr-2 rounded-full lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="bg-beerus mr-2 rounded-full lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="bg-beerus mr-2 rounded-full lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+              <div className="bg-beerus mr-2 rounded-full lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
+                <ShopCrypto width={'100%'} height={'100%'} />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <h2 className="text-goten text-sm font-bold mb-5">Awards</h2>
+          <div className="flex items-center">
+            <Image src={Curacao} />
+            <Image src={Award1} />
+            <Image src={SbcAwards} />
+            <Image src={Award2} />
+            <Image src={Award3} />
+            <Image src={Plus18} />
           </div>
         </div>
       </div>
