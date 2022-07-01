@@ -67,10 +67,20 @@ const ExploreCarouselItem = ({
   const [itemHeight, setItemHeight] = useState(200);
 
   useEffect(() => {
-    if (window?.innerWidth) {
-      setItemWidth(window.innerWidth <= 1024 ? 160 : 280);
-      setItemHeight(window.innerWidth <= 1024 ? 180 : 317);
-    }
+    const resizeItems = () => {
+      if (window?.innerWidth) {
+        setItemWidth(window.innerWidth <= 1024 ? 160 : 280);
+        setItemHeight(window.innerWidth <= 1024 ? 180 : 317);
+      }
+    };
+
+    resizeItems();
+
+    window.addEventListener("resize", resizeItems);
+
+    return () => {
+      window.removeEventListener("resize", resizeItems);
+    };
   }, []);
 
   return (
@@ -262,7 +272,7 @@ const Vip = () => {
   return (
     <div className="flex flex-col grow overflow-hidden">
       <div
-        className={`fixed top-0 left-0 w-full flex items-center align-center justify-between py-4 px-6 z-1 transition-all duration-500 ${
+        className={`fixed top-0 left-0 w-full flex items-center items-center justify-between py-4 px-6 z-1 transition-all duration-500 ${
           isScrolled ? 'bg-goku ' : 'bg-transparent'
         }`}
       >
@@ -372,7 +382,7 @@ const Vip = () => {
           </div>
         </div>
         <div className="w-[100%] mt-[96px] mb-[96px] flex flex-col items-center md:justify-center md:flex-nowrap sm:my-[246px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center ">
-          <div className="flex flex-col self-stretch align-center pb-8 xl:w-[600px] xl:pl-0 lg:w-[100%] sm:ps-12 sm:w-[100%] sm:justify-center ">
+          <div className="flex flex-col self-stretch items-center pb-8 xl:w-[600px] xl:pl-0 lg:w-[100%] sm:ps-12 sm:w-[100%] sm:justify-center">
             <Title
               text="VIP runs in the family"
               classes="mb-4 leading-10 lg:w-[510px] sm:text-center md:text-left md:pl-0"
