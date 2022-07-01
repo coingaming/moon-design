@@ -273,7 +273,7 @@ const Vip = () => {
       >
         <div className="flex sm:items-center sm:w-[100%] sm:h-[679px] sm:mt-[120px]">
           <div className="relative w-full justify-end self-end">
-            <div className=" min-w-[600px] sm:mr-[124px] lg:ml-24">
+            <div className="sm:min-w-[500px] lg:min-w-[600px] sm:mr-[180px] md:ml-15">
               <Image src={KingKaka} objectFit="contain" />
             </div>
             <div
@@ -285,7 +285,7 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col absolute top-[60%] px-8 -mb-10 -bottom-48 z-1 sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center md:w-[65%]">
+        <div className="flex flex-col absolute top-[60%] px-8 -mb-10 -bottom-48 z-1 sm:ml-[244px] sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center md:w-[65%]">
           <div className="flex flex-col items-center max-w-full bottom-4 sm:items-start sm:mt-[244px] sm:w-[720px] sm:ml-[248px]">
             <Headline
               text="Bitcasino VIP: For money can’t buy experiences"
