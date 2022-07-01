@@ -63,20 +63,38 @@ const ExploreCarouselItem = ({
 }: {
   items: Array<{ image: any; title: string }>;
 }) => {
+  const [itemWidth, setItemWidth] = useState(160);
+  const [itemHeight, setItemHeight] = useState(200);
+
+  useEffect(() => {
+    if (window?.innerWidth) {
+      setItemWidth(window.innerWidth <= 1024 ? 160 : 280);
+      setItemHeight(window.innerWidth <= 1024 ? 180 : 317);
+    }
+  }, []);
+
   return (
     <div className="w-full h-full flex p-6">
       <div className="w-[160px] me-4 flex flex-col items-stretch lg:w-[280px]">
         <div className="h-16" />
-        <div className="w-[280px] h-[317px] grow-1 mb-4 relative rounded-lg">
-          <Image src={items[0].image} width={280} height={317} />
+        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image
+            src={items[0].image}
+            width={itemWidth}
+            height={itemHeight}
+          />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[0].title}
             </p>
           </div>
         </div>
-        <div className="w-[280px] h-[317px] grow-1 relative rounded-lg">
-          <Image src={items[1].image} width={280} height={317} />
+        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image
+            src={items[1].image}
+            width={itemWidth}
+            height={itemHeight}
+          />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[1].title}
@@ -85,16 +103,24 @@ const ExploreCarouselItem = ({
         </div>
       </div>
       <div className="w-[160px] me-5 flex flex-col items-stretch lg:w-[280px]">
-        <div className="w-[280px] h-[317px] grow-1 mb-4 relative rounded-lg">
-          <Image src={items[2].image} width={280} height={317} />
+        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image
+            src={items[2].image}
+            width={itemWidth}
+            height={itemHeight}
+          />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[2].title}
             </p>
           </div>
         </div>
-        <div className="w-[280px] h-[317px] grow-1 relative rounded-lg">
-          <Image src={items[3].image} width={280} height={317} />
+        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image
+            src={items[3].image}
+            width={itemWidth}
+            height={itemHeight}
+          />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[3].title}
@@ -337,7 +363,7 @@ const Vip = () => {
               text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
             />
           </div>
-          <div className="w-full max-w-[100vw] flex items-center justify-center py-8 lg:w-[645px] lg:h-[684px] sm:px-5  sm:w-[490px] sm:h-full sm:ml-0">
+          <div className="w-full max-w-[100vw] flex items-center justify-center py-8 lg:w-[645px] lg:h-[684px] sm:px-5 sm:w-[420px] sm:h-full sm:ml-0">
             <Carousel
               items={exploreItems.map((items) => (
                 <ExploreCarouselItem items={items} />
