@@ -23,6 +23,21 @@ import gift from '../../../public/templates/gift.png';
 import handshake from '../../../public/templates/handshake.png';
 import promo from '../../../public/templates/promo.png';
 import support from '../../../public/templates/support.png';
+import Bitcasino from '../icons/bitcasino';
+import Cardano from '../icons/cardano';
+import DogeCoin from '../icons/dogeCoin';
+import EthereumIc from '../icons/ethereumIc';
+import Instagram from '../icons/instagram';
+import LtchLogo from '../icons/ltchLogo';
+import Telegram from '../icons/telegram';
+import Tiktok from '../icons/tiktok';
+import TronLogo from '../icons/tronLogo';
+import Twitter from '../icons/twitter';
+import UsdIc from '../icons/usdtIc';
+import XAbove from '../icons/xAbove';
+import Youtube from '../icons/youtube';
+import { ChevronLeft } from '../sportsbet/ChevronLeft';
+import { ChevronRight } from '../sportsbet/ChevronRight';
 import BitcasinoLogo from './bitcasino-logo';
 
 
@@ -68,20 +83,40 @@ const ExploreCarouselItem = ({
 }: {
   items: Array<{ image: any; title: string }>;
 }) => {
+  const [itemWidth, setItemWidth] = useState(160);
+  const [itemHeight, setItemHeight] = useState(200);
+
+  useEffect(() => {
+    const resizeItems = () => {
+      if (window?.innerWidth) {
+        setItemWidth(window.innerWidth <= 1024 ? 160 : 280);
+        setItemHeight(window.innerWidth <= 1024 ? 180 : 317);
+      }
+    };
+
+    resizeItems();
+
+    window.addEventListener('resize', resizeItems);
+
+    return () => {
+      window.removeEventListener('resize', resizeItems);
+    };
+  }, []);
+
   return (
-    <div className="w-full h-full flex sm:px-3 px-0">
-      <div className="w-[160px] me-5 flex flex-col items-stretch lg:w-[280px]">
+    <div className="w-full h-full flex p-6">
+      <div className="w-[160px] me-4 flex flex-col items-stretch lg:w-[280px]">
         <div className="h-16" />
-        <div className="w-[280px] h-[317px] grow-1 mb-4 relative rounded-lg">
-          <Image src={items[0].image} width={280} height={317} />
+        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image src={items[0].image} width={itemWidth} height={itemHeight} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[0].title}
             </p>
           </div>
         </div>
-        <div className="w-[280px] h-[317px] grow-1 relative rounded-lg">
-          <Image src={items[1].image} width={280} height={317} />
+        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image src={items[1].image} width={itemWidth} height={itemHeight} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[1].title}
@@ -89,17 +124,17 @@ const ExploreCarouselItem = ({
           </div>
         </div>
       </div>
-      <div className="w-[160px] flex flex-col items-stretch relative  lg:w-[280px]">
-        <div className="w-[280px] h-[317px] grow-1 mb-4 relative rounded-lg">
-          <Image src={items[2].image} width={280} height={317} />
+      <div className="w-[160px] me-5 flex flex-col items-stretch lg:w-[280px]">
+        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image src={items[2].image} width={itemWidth} height={itemHeight} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[2].title}
             </p>
           </div>
         </div>
-        <div className="w-[280px] h-[317px] grow-1 relative rounded-lg">
-          <Image src={items[3].image} width={280} height={317} />
+        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image src={items[3].image} width={itemWidth} height={itemHeight} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
               {items[3].title}
@@ -271,21 +306,21 @@ const Vip = () => {
           backgroundSize: 'auto 100%',
         }}
       >
-        <div className="flex sm:items-center sm:w-[100%] sm:h-[679px] sm:mt-[120px]">
+        <div className="flex sm:items-center  sm:h-[679px] sm:mt-[120px]">
           <div className="relative w-full justify-end self-end">
-            <div className="sm:min-w-[500px] lg:min-w-[600px] sm:mr-[180px] md:ml-15">
+            <div className="sm:min-w-[500px] lg:min-w-[600px]  md:ml-15">
               <Image src={KingKaka} objectFit="contain" />
             </div>
             <div
               className="absolute left-0 bottom-0 w-full h-[150px] sm:hidden"
               style={{
                 background:
-                  'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F  100%',
+                  'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F 100%',
               }}
             />
           </div>
         </div>
-        <div className="flex flex-col absolute top-[60%] px-8 -mb-10 -bottom-48 z-1 sm:ml-[244px] sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center md:w-[65%]">
+        <div className="flex flex-col absolute top-[60%] px-8 -mb-10 -bottom-48 z-1  sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center md:w-[65%]">
           <div className="flex flex-col items-center max-w-full bottom-4 sm:items-start sm:mt-[244px] sm:w-[720px] sm:ml-[248px]">
             <Headline
               text="Bitcasino VIP: For money can’t buy experiences"
@@ -329,6 +364,46 @@ const Vip = () => {
           <div className="w-full flex max-w-[100vw] items-center justify-center px-5 pt-8 xl:min-w-[1232px] lg:min-w-[900px] lg:max-w-[80vw] lg:mt-[124px] sm:mt-12 sm:max-w-[80vw]">
             <Carousel
               step={1}
+              scrollToLeftButton={({
+                scrollToStep,
+                disabled,
+              }: {
+                scrollToStep: any;
+                disabled: boolean;
+              }) =>
+                disabled ? (
+                  <></>
+                ) : (
+                  <div
+                    className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] -translate-y-[50%] -translate-x-[150%] rounded-full"
+                    onClick={() => {
+                      if (!disabled) scrollToStep();
+                    }}
+                  >
+                    <ChevronLeft fontSize="1.5rem" />
+                  </div>
+                )
+              }
+              scrollToRightButton={({
+                scrollToStep,
+                disabled,
+              }: {
+                scrollToStep: any;
+                disabled: boolean;
+              }) =>
+                disabled ? (
+                  <></>
+                ) : (
+                  <div
+                    className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] right-0 -translate-y-[50%] translate-x-[150%] rounded-full"
+                    onClick={() => {
+                      if (!disabled) scrollToStep();
+                    }}
+                  >
+                    <ChevronRight fontSize="1.5rem" />
+                  </div>
+                )
+              }
               items={experienceItems.map((item, index) => (
                 <ExperienceCarouselItem
                   title={item.title}
@@ -424,7 +499,9 @@ const Vip = () => {
                 backgroundColor: '#27A4DB',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Telegram />
+              </div>
             </Button>
             <Button
               iconOnly
@@ -434,7 +511,9 @@ const Vip = () => {
                 backgroundColor: '#FF0000',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Youtube />
+              </div>
             </Button>
             <Button
               iconOnly
@@ -444,7 +523,9 @@ const Vip = () => {
                 backgroundColor: '#F7931A',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Bitcasino />
+              </div>
             </Button>
             <Button
               iconOnly
@@ -454,7 +535,9 @@ const Vip = () => {
                 backgroundColor: '#1DA1F2',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Twitter />
+              </div>
             </Button>
             <Button
               iconOnly
@@ -465,7 +548,9 @@ const Vip = () => {
                   'linear-gradient(49.12deg, #FFDD55 6.62%, #FF5D3F 47.35%, #FF543E 50.06%, #C837AB 93.5%)',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Instagram />
+              </div>
             </Button>
             <Button
               iconOnly
@@ -475,7 +560,9 @@ const Vip = () => {
                 backgroundColor: '#000',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Tiktok />
+              </div>
             </Button>
           </div>
         </div>
@@ -584,26 +671,48 @@ const Vip = () => {
               <Accordion title={'Games'} isContentInside={true}>
                 <p className="mb-0.5 text-trunks text-s leading-6">Slots</p>
                 <p className="mb-0.5 text-trunks text-s leading-6">Roulette</p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Live Baccarat</p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Live Baccarat
+                </p>
                 <p className="mb-0.5 text-trunks text-s leading-6">Blackjack</p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Live Casino</p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Sportsbook</p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Live Casino
+                </p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Sportsbook
+                </p>
                 <p className="mb-0.5 text-trunks text-s leading-6">Providers</p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Live Poker</p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Live Game Shows</p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Casual Games</p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Multiplayer</p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Live Poker
+                </p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Live Game Shows
+                </p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Casual Games
+                </p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Multiplayer
+                </p>
               </Accordion>
             </div>
             <div className=" mb-2">
               <Accordion title={'About'} isContentInside={true}>
-                <p className="mb-0.5 text-trunks text-s leading-6">Loyalty Club</p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Loyalty Club
+                </p>
                 <p className="mb-0.5 text-trunks text-s leading-6">VIP</p>
                 <p className="mb-0.5 text-trunks text-s leading-6">Rewards</p>
                 <p className="mb-0.5 text-trunks text-s leading-6">Blog</p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Affiliates</p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Help Centre</p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Gaming License</p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Affiliates
+                </p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Help Centre
+                </p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Gaming License
+                </p>
               </Accordion>
             </div>
             <div className=" mb-2">
@@ -620,8 +729,12 @@ const Vip = () => {
                 <p className="mb-0.5 text-trunks text-s leading-6">
                   Affiliate Terms & Conditions
                 </p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Privacy Policy</p>
-                <p className="mb-0.5 text-trunks text-s leading-6">Responsible Gambling</p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Privacy Policy
+                </p>
+                <p className="mb-0.5 text-trunks text-s leading-6">
+                  Responsible Gambling
+                </p>
               </Accordion>
             </div>
           </div>
@@ -670,52 +783,54 @@ const Vip = () => {
               Payment methods
             </h2>
             <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
-              <div className=" bg-[#F7931A] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#F7931A] rounded-full flex items-center justify-center mr-2 w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px]">
+                <Bitcasino />
               </div>
-              <div className=" bg-[#345D9D] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#345D9D] rounded-full flex items-center justify-center mr-2 w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px]">
+                <div className="bg-white rounded-full">
+                  <LtchLogo />
+                </div>
               </div>
-              <div className=" bg-[#EC0928] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#EC0928] rounded-full flex items-center justify-center mr-2 w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px]">
+                <TronLogo />
               </div>
-              <div className=" bg-[#7748FA] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#7748FA] rounded-full flex items-center justify-center mr-2 w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px]">
+                <EthereumIc />
               </div>
-              <div className=" bg-[#2ABB92] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#2ABB92] rounded-full flex items-center justify-center mr-2 w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px]">
+                <UsdIc />
               </div>
-              <div className=" bg-[#02A6F0] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#02A6F0] rounded-full flex items-center justify-center mr-2 w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px]">
+                <XAbove />
               </div>
-              <div className=" bg-[#0033AD] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#0033AD] rounded-full flex items-center justify-center mr-2 w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px]">
+                <Cardano />
               </div>
-              <div className=" bg-[#C2A633] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#C2A633] rounded-full flex items-center justify-center mr-2 w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px]">
+                <DogeCoin />
               </div>
             </div>
           </div>
           <div className="mb-7 md:mb-0 md:ml-3 md:mr-3">
             <h2 className="text-goten text-sm font-bold mb-5">Follow us</h2>
             <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
-              <div className="bg-[#27A4DB] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px] ">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-[#27A4DB] rounded-full mr-2 flex items-center justify-center w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px] ">
+                <Telegram />
               </div>
-              <div className="bg-[#FF0000] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px] ">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-[#FF0000] rounded-full mr-2 flex items-center justify-center w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px] ">
+                <Youtube />
               </div>
-              <div className="bg-[#F7931A] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px] ">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-[#F7931A] rounded-full mr-2 flex items-center justify-center w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px] ">
+                <Bitcasino />
               </div>
-              <div className="bg-[#1DA1F2] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px] ">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-[#1DA1F2] rounded-full mr-2 flex items-center justify-center w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px] ">
+                <Twitter />
               </div>
-              <div className=" rounded-full mr-2 bg-gradient-to-r from-yellow-500 to-pink-500 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px] ">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" rounded-full mr-2 flex items-center justify-center bg-gradient-to-r from-yellow-500 to-pink-500 w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px] ">
+                <Instagram />
               </div>
-              <div className="bg-[#000000] rounded-full mr-2 w-[25px] h-[25px] lg:w-[36px] lg:h-[36px] md:w-[25px] md:h-[25px] ">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-[#000000] rounded-full mr-2 flex items-center justify-center w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] md:w-[35px] md:h-[35px] ">
+                <Tiktok />
               </div>
             </div>
           </div>

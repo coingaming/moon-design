@@ -21,6 +21,31 @@ import Curacao from '../../../public/templates/sportsbet/curacao.png';
 import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
 import SbcAwards from '../../../public/templates/sportsbet/sbc-awards.png';
 import support from '../../../public/templates/support.png';
+import Tiktok from '../icons/tiktok';
+import Arsenal from '../icons/arsenal';
+import Bitcasino from '../icons/bitcasino';
+import Southampton from '../icons/southampton';
+import Watford from '../icons/watford';
+import EthereumIc from '../icons/ethereumIc';
+import UsdIc from '../icons/usdtIc';
+import Cardano from '../icons/cardano';
+import BrazilianIc from '../icons/brazilianIc';
+import EuroIcon from '../icons/euro';
+import Flamengo from '../icons/flamengo';
+import JapanesIc from '../icons/japanesIc';
+import IndianIc from '../icons/indianIc';
+import Instagram from '../icons/instagram';
+import LtchLogo from '../icons/ltchLogo';
+import Mastercard from '../icons/mastercard';
+import Neteller from '../icons/neteller';
+import PlusFive from '../icons/plusFive';
+import Scril from '../icons/skrill';
+import Telegram from '../icons/telegram';
+import TronLogo from '../icons/tronLogo';
+import Twitter from '../icons/twitter';
+import Visa from '../icons/visa';
+import XAbove from '../icons/xAbove';
+import Youtube from '../icons/youtube';
 import {ChevronLeft} from "./ChevronLeft";
 import {ChevronRight} from "./ChevronRight";
 
@@ -274,7 +299,7 @@ const Vip = () => {
   return (
     <div className="flex flex-col grow overflow-hidden">
       <div
-        className={`fixed top-0 left-0 w-full flex items-center items-center justify-between py-4 px-6 z-1 transition-all duration-500 ${
+        className={`fixed top-0 left-0 w-full flex items-center  justify-between py-4 px-6 z-1 transition-all duration-500 ${
           isScrolled ? 'bg-goku ' : 'bg-transparent'
         }`}
       >
@@ -353,22 +378,46 @@ const Vip = () => {
           <div className="w-full flex max-w-[100vw] items-center justify-center px-5 pt-8 xl:min-w-[1232px] lg:min-w-[900px] lg:max-w-[80vw] lg:mt-[124px] sm:mt-12 sm:max-w-[80vw]">
             <Carousel
               step={1}
-              scrollToLeftButton={({ scrollToStep, disabled }: { scrollToStep: any, disabled: boolean, }) => disabled ? (<></>) : (
-                <div
-                  className='flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] -translate-y-[50%] -translate-x-[150%] rounded-full'
-                  onClick={() => { if (!disabled) scrollToStep()}}
-                >
-                  <ChevronLeft fontSize='1.5rem'/>
-                </div>
-              )}
-              scrollToRightButton={({ scrollToStep, disabled }: { scrollToStep: any, disabled: boolean, }) => disabled ? (<></>) : (
-                <div
-                  className='flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] right-0 -translate-y-[50%] translate-x-[150%] rounded-full'
-                  onClick={() => { if (!disabled) scrollToStep()}}
-                >
-                  <ChevronRight fontSize='1.5rem'/>
-                </div>
-              )}
+              scrollToLeftButton={({
+                scrollToStep,
+                disabled,
+              }: {
+                scrollToStep: any;
+                disabled: boolean;
+              }) =>
+                disabled ? (
+                  <></>
+                ) : (
+                  <div
+                    className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] -translate-y-[50%] -translate-x-[150%] rounded-full"
+                    onClick={() => {
+                      if (!disabled) scrollToStep();
+                    }}
+                  >
+                    <ChevronLeft fontSize="1.5rem" />
+                  </div>
+                )
+              }
+              scrollToRightButton={({
+                scrollToStep,
+                disabled,
+              }: {
+                scrollToStep: any;
+                disabled: boolean;
+              }) =>
+                disabled ? (
+                  <></>
+                ) : (
+                  <div
+                    className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] right-0 -translate-y-[50%] translate-x-[150%] rounded-full"
+                    onClick={() => {
+                      if (!disabled) scrollToStep();
+                    }}
+                  >
+                    <ChevronRight fontSize="1.5rem" />
+                  </div>
+                )
+              }
               items={experienceItems.map((item, index) => (
                 <ExperienceCarouselItem
                   title={item.title}
@@ -443,14 +492,15 @@ const Vip = () => {
               icon="left"
               style={{
                 background: 'rgba(255, 255, 255, 0.08)',
-                backdropFilter: 'blur(24px)'
+                backdropFilter: 'blur(24px)',
               }}
             >
-              <div className="w-full flex flex-row justify-between">
+              <div className="w-full flex flex-row justify-between items-center ">
                 <div>
                   <MailEnvelope width={24} height={24} />
                 </div>
                 <div className="">Contact us</div>
+                <div></div>
               </div>
             </Button>
           </div>
@@ -468,7 +518,9 @@ const Vip = () => {
                 backgroundColor: '#27A4DB',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Telegram />
+              </div>
             </Button>
             <Button
               iconOnly
@@ -478,7 +530,9 @@ const Vip = () => {
                 backgroundColor: '#FF0000',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Youtube />
+              </div>
             </Button>
             <Button
               iconOnly
@@ -488,7 +542,9 @@ const Vip = () => {
                 backgroundColor: '#F7931A',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Bitcasino />
+              </div>
             </Button>
             <Button
               iconOnly
@@ -498,7 +554,9 @@ const Vip = () => {
                 backgroundColor: '#1DA1F2',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Twitter />
+              </div>
             </Button>
             <Button
               iconOnly
@@ -509,7 +567,9 @@ const Vip = () => {
                   'linear-gradient(49.12deg, #FFDD55 6.62%, #FF5D3F 47.35%, #FF543E 50.06%, #C837AB 93.5%)',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Instagram />
+              </div>
             </Button>
             <Button
               iconOnly
@@ -519,7 +579,9 @@ const Vip = () => {
                 backgroundColor: '#000',
               }}
             >
-              <ShopCrypto width={36} height={36} />
+              <div className="w-[36px] h-[36px] flex justify-center items-center">
+                <Tiktok />
+              </div>
             </Button>
           </div>
         </div>
@@ -656,53 +718,64 @@ const Vip = () => {
             <h2 className="text-goten text-sm font-bold mb-5">
               Payment methods
             </h2>
-            <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
-              <div className=" bg-[#F7931A] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+            <div className="flex flex-row  md:w-[70%] sm:flex-wrap">
+              <div className=" bg-[#F7931A] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Bitcasino />
               </div>
-              <div className=" bg-[#345D9D] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#345D9D] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <div className="bg-white rounded-full">
+                  <LtchLogo />
+                </div>
               </div>
-              <div className=" bg-[#EC0928] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#EC0928] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <TronLogo />
               </div>
-              <div className=" bg-[#7748FA] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#7748FA] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <EthereumIc />
               </div>
-              <div className=" bg-[#2ABB92] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#2ABB92] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <UsdIc />
               </div>
-              <div className=" bg-[#02A6F0] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#02A6F0] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <XAbove />
               </div>
-              <div className=" bg-[#0033AD] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#0033AD] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Cardano />
               </div>
-              <div className=" bg-[#C2A633] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className=" bg-[#0AB758] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <BrazilianIc />
+              </div>
+              <div className=" bg-[#335DF4] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <EuroIcon />
+              </div>
+              <div className=" bg-[#FF3D44] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <JapanesIc />
+              </div>
+              <div className=" bg-[#FFE8BC] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <IndianIc />
               </div>
             </div>
           </div>
           <div className="hidden md:block sm:ml-3 sm:mr-3">
             <h2 className="text-goten text-sm font-bold mb-5">Follow us</h2>
             <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
-              <div className="bg-[#27A4DB] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-[#27A4DB] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Telegram />
               </div>
-              <div className="bg-[#FF0000] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-[#FF0000] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Youtube />
               </div>
-              <div className="bg-[#F7931A] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-[#F7931A] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Bitcasino />
               </div>
-              <div className="bg-[#1DA1F2] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-[#1DA1F2] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Twitter />
               </div>
-              <div className="rounded-full mr-2 bg-gradient-to-r from-yellow-500 to-pink-500 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="rounded-full mr-2  flex items-center justify-center bg-gradient-to-r from-yellow-500 to-pink-500 lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Instagram />
               </div>
-              <div className="bg-[#000000] rounded-full mr-2 lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-[#000000] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Tiktok />
               </div>
             </div>
           </div>
@@ -712,17 +785,17 @@ const Vip = () => {
               Partnership
             </h2>
             <div className="flex items-center">
-              <div className="bg-beerus mr-2 rounded-full lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Arsenal />
               </div>
-              <div className="bg-beerus mr-2 rounded-full lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Southampton />
               </div>
-              <div className="bg-beerus mr-2 rounded-full lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Flamengo />
               </div>
-              <div className="bg-beerus mr-2 rounded-full lg:w-[36px] lg:h-[36px] sm:w-[25px] sm:h-[25px]">
-                <ShopCrypto width={'100%'} height={'100%'} />
+              <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                <Watford />
               </div>
             </div>
           </div>
@@ -802,31 +875,39 @@ const Vip = () => {
           </div>
           <div className=" mb-2">
             <Accordion title={'Accapted Methods'} isContentInside={true}>
-              <div className="flex flex-col">
-                <div className="flex w-[70%] flex-wrap">
-                  <div className=" bg-[#F7931A] rounded-full mr-2 mb-2 ">
-                    <ShopCrypto width={40} height={40} />
+              <div className="flex flex-col ">
+                <div className="flex w-[70%] flex-wrap items-center ">
+                  <div className=" bg-[#345D9D] rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
+                    <XAbove />
                   </div>
-                  <div className=" bg-[#345D9D] rounded-full mr-2 mb-2 ">
-                    <ShopCrypto width={40} height={40} />
+                  <div className="  bg-[#F7931A] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
+                    <Bitcasino />
                   </div>
-                  <div className=" bg-[#EC0928] rounded-full mr-2 mb-2 ">
-                    <ShopCrypto width={40} height={40} />
+                  <div className=" bg-[#345D9D] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
+                    <div className="bg-white rounded-full">
+                      <LtchLogo />
+                    </div>
                   </div>
-                  <div className=" bg-[#7748FA] rounded-full mr-2 mb-2 ">
-                    <ShopCrypto width={40} height={40} />
+                  <div className=" bg-[#7748FA] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
+                    <TronLogo />
                   </div>
-                  <div className=" bg-[#2ABB92] rounded-full mr-2 mb-2 ">
-                    <ShopCrypto width={40} height={40} />
+                  <div className=" bg-[#2ABB92] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
+                    <BrazilianIc />
                   </div>
-                  <div className=" bg-[#02A6F0] rounded-full mr-2 mb-2 ">
-                    <ShopCrypto width={40} height={40} />
+                  <div className=" bg-black rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
+                    <Mastercard />
                   </div>
-                  <div className=" bg-[#0033AD] rounded-full mr-2 mb-2 ">
-                    <ShopCrypto width={40} height={40} />
+                  <div className=" bg-[#1A1F71] rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
+                    <Visa />
                   </div>
-                  <div className=" bg-[#C2A633] rounded-full mr-2 mb-2 ">
-                    <ShopCrypto width={40} height={40} />
+                  <div className=" bg-[#5F1E5E] rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
+                    <Scril />
+                  </div>
+                  <div className=" bg-[#83BA3B] rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
+                    <Neteller />
+                  </div>
+                  <div className=" bg-beerus rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
+                    <PlusFive />
                   </div>
                 </div>
               </div>
@@ -836,23 +917,23 @@ const Vip = () => {
             <Accordion title={'Follow Sportsbook.io'} isContentInside={true}>
               <div className="flex flex-col">
                 <div className="flex flex-wrap">
-                  <div className="bg-[#27A4DB] rounded-full mr-2 mb-2">
-                    <ShopCrypto width={40} height={40} />
+                  <div className="bg-[#27A4DB] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                    <Telegram />
                   </div>
-                  <div className="bg-[#FF0000] rounded-full mr-2 mb-2">
-                    <ShopCrypto width={40} height={40} />
+                  <div className="bg-[#FF0000] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                    <Youtube />
                   </div>
-                  <div className="bg-[#F7931A] rounded-full mr-2 mb-2">
-                    <ShopCrypto width={40} height={40} />
+                  <div className="bg-[#F7931A] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                    <Bitcasino />
                   </div>
-                  <div className="bg-[#1DA1F2] rounded-full mr-2 mb-2">
-                    <ShopCrypto width={40} height={40} />
+                  <div className="bg-[#1DA1F2] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                    <Twitter />
                   </div>
-                  <div className="rounded-full mr-2 bg-gradient-to-r from-yellow-500 to-pink-500 mb-2">
-                    <ShopCrypto width={40} height={40} />
+                  <div className="rounded-full mr-2 bg-gradient-to-r from-yellow-500 to-pink-500 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                    <Instagram />
                   </div>
-                  <div className="bg-[#000000] rounded-full mr-2 mb-2">
-                    <ShopCrypto width={40} height={40} />
+                  <div className="bg-[#000000] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                    <Tiktok />
                   </div>
                 </div>
               </div>
@@ -862,23 +943,17 @@ const Vip = () => {
             <Accordion title={'Sponsorships'} isContentInside={true}>
               <div className="flex flex-wrap">
                 <div className="flex flex-wrap">
-                  <div className="bg-[#27A4DB] rounded-full mr-2 mb-2">
-                    <ShopCrypto width={40} height={40} />
+                  <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
+                    <Arsenal />
                   </div>
-                  <div className="bg-[#FF0000] rounded-full mr-2 mb-2">
-                    <ShopCrypto width={40} height={40} />
+                  <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
+                    <Southampton />
                   </div>
-                  <div className="bg-[#F7931A] rounded-full mr-2 mb-2">
-                    <ShopCrypto width={40} height={40} />
+                  <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
+                    <Flamengo />
                   </div>
-                  <div className="bg-[#1DA1F2] rounded-full mr-2 mb-2">
-                    <ShopCrypto width={40} height={40} />
-                  </div>
-                  <div className="rounded-full mr-2 bg-gradient-to-r from-yellow-500 to-pink-500 mb-2">
-                    <ShopCrypto width={40} height={40} />
-                  </div>
-                  <div className="bg-[#000000] rounded-full mr-2 mb-2">
-                    <ShopCrypto width={40} height={40} />
+                  <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
+                    <Watford />
                   </div>
                 </div>
               </div>
@@ -911,7 +986,7 @@ const Vip = () => {
               <Image src={Award3} />
             </div>
             <div className="mr-2 ">
-              <Image src={Plus18}/>
+              <Image src={Plus18} />
             </div>
           </div>
         </div>
