@@ -65,9 +65,9 @@ const ExploreCarouselItem = ({
 }) => {
   return (
     <div className="w-full h-full flex p-6">
-      <div className="w-[160px] me-5 flex flex-col items-stretch lg:w-[280px]">
+      <div className="w-[160px] me-4 flex flex-col items-stretch lg:w-[280px]">
         <div className="h-16" />
-        <div className="grow-1 mb-4 relative rounded-lg">
+        <div className="w-[280px] h-[317px] grow-1 mb-4 relative rounded-lg">
           <Image src={items[0].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
@@ -75,7 +75,7 @@ const ExploreCarouselItem = ({
             </p>
           </div>
         </div>
-        <div className="grow-1 relative rounded-lg">
+        <div className="w-[280px] h-[317px] grow-1 relative rounded-lg">
           <Image src={items[1].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
@@ -85,7 +85,7 @@ const ExploreCarouselItem = ({
         </div>
       </div>
       <div className="w-[160px] me-5 flex flex-col items-stretch lg:w-[280px]">
-        <div className="grow-1 mb-4 relative rounded-lg">
+        <div className="w-[280px] h-[317px] grow-1 mb-4 relative rounded-lg">
           <Image src={items[2].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
@@ -93,7 +93,7 @@ const ExploreCarouselItem = ({
             </p>
           </div>
         </div>
-        <div className="grow-1 relative rounded-lg">
+        <div className="w-[280px] h-[317px] grow-1 relative rounded-lg">
           <Image src={items[3].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
@@ -349,7 +349,7 @@ const Vip = () => {
           <div className="flex flex-col self-stretch align-center pb-8 xl:w-[600px] xl:pl-0 lg:w-[100%] sm:ps-12 sm:w-[100%] sm:justify-center ">
             <Title
               text="VIP runs in the family"
-              classes="mb-4 leading-10 lg:w-[510px]  md:text-left sm:text-center "
+              classes="mb-4 leading-10 lg:w-[510px] sm:text-center md:text-left md:pl-0"
             />
             <Subtitle
               classes="text-center w-[348px] px-5 pb-[32px] lg:w-[510px] sm:text-left sm:pb-0 sm:w-[100%]"
@@ -385,15 +385,18 @@ const Vip = () => {
 
             <Button
               variant="primary"
-              className="w-full bg-[#FFFFFF14] flex font-semibold items-center ml-0 btn-tertiary p-[20px] gap-1 text-moon-16 rounded-moon-i-sm mx-2 my-2 sm:w-[150px] sm:p-0 sm:py-3 sm:px-5 sm:justify-between sm:self-start"
+              className="w-full flex font-semibold items-center ml-0 btn-tertiary p-[20px] gap-1 text-moon-16 rounded-moon-i-sm mx-2 my-2 sm:w-[150px] sm:p-0 sm:py-3 sm:px-5 sm:justify-between sm:self-start"
               icon="left"
+              style={{
+                background: 'rgba(255, 255, 255, 0.08)',
+                backdropFilter: 'blur(24px)'
+              }}
             >
               <div className="w-full flex flex-row justify-between">
                 <div>
                   <MailEnvelope width={24} height={24} />
                 </div>
                 <div className="">Contact us</div>
-                <div></div>
               </div>
             </Button>
           </div>

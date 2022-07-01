@@ -72,7 +72,7 @@ const ExploreCarouselItem = ({
     <div className="w-full h-full flex sm:px-3 px-0">
       <div className="w-[160px] me-5 flex flex-col items-stretch lg:w-[280px]">
         <div className="h-16" />
-        <div className="grow-1 mb-4 relative rounded-lg">
+        <div className="w-[280px] h-[317px] grow-1 mb-4 relative rounded-lg">
           <Image src={items[0].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
@@ -80,7 +80,7 @@ const ExploreCarouselItem = ({
             </p>
           </div>
         </div>
-        <div className="grow-1 relative rounded-lg">
+        <div className="w-[280px] h-[317px] grow-1 relative rounded-lg">
           <Image src={items[1].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
@@ -90,7 +90,7 @@ const ExploreCarouselItem = ({
         </div>
       </div>
       <div className="w-[160px] flex flex-col items-stretch relative  lg:w-[280px]">
-        <div className="grow-1 mb-4 relative rounded-lg">
+        <div className="w-[280px] h-[317px] grow-1 mb-4 relative rounded-lg">
           <Image src={items[2].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
@@ -98,7 +98,7 @@ const ExploreCarouselItem = ({
             </p>
           </div>
         </div>
-        <div className="grow-1 relative rounded-lg">
+        <div className="w-[280px] h-[317px] grow-1 relative rounded-lg">
           <Image src={items[3].image} width={280} height={317} />
           <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
             <p className="text-moon-18 font-semibold m-3 w-full">
