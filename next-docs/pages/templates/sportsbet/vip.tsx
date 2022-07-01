@@ -21,6 +21,8 @@ import Curacao from '../../../public/templates/sportsbet/curacao.png';
 import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
 import SbcAwards from '../../../public/templates/sportsbet/sbc-awards.png';
 import support from '../../../public/templates/support.png';
+import {ChevronLeft} from "./ChevronLeft";
+import {ChevronRight} from "./ChevronRight";
 
 
 interface ExperienceCarousel {
@@ -38,7 +40,7 @@ const ExperienceCarouselItem = ({
 }: ExperienceCarousel) => {
   return (
     <div
-      className={`w-[285px] h-full bg-[#2C323A] rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
+      className={`w-[285px] h-full bg-goku rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
         index && index % 2 ? 'sm:mt-[40%]' : ''
       }`}
     >
@@ -351,6 +353,22 @@ const Vip = () => {
           <div className="w-full flex max-w-[100vw] items-center justify-center px-5 pt-8 xl:min-w-[1232px] lg:min-w-[900px] lg:max-w-[80vw] lg:mt-[124px] sm:mt-12 sm:max-w-[80vw]">
             <Carousel
               step={1}
+              scrollToLeftButton={({ scrollToStep, disabled }: { scrollToStep: any, disabled: boolean, }) => disabled ? (<></>) : (
+                <div
+                  className='flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] -translate-y-[50%] -translate-x-[150%] rounded-full'
+                  onClick={() => { if (!disabled) scrollToStep()}}
+                >
+                  <ChevronLeft fontSize='1.5rem'/>
+                </div>
+              )}
+              scrollToRightButton={({ scrollToStep, disabled }: { scrollToStep: any, disabled: boolean, }) => disabled ? (<></>) : (
+                <div
+                  className='flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] right-0 -translate-y-[50%] translate-x-[150%] rounded-full'
+                  onClick={() => { if (!disabled) scrollToStep()}}
+                >
+                  <ChevronRight fontSize='1.5rem'/>
+                </div>
+              )}
               items={experienceItems.map((item, index) => (
                 <ExperienceCarouselItem
                   title={item.title}
