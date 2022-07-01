@@ -3,7 +3,6 @@ import {
   GenericAbout,
   GenericAlarm,
   GenericAlarmRound,
-  GenericAmountNumber,
   GenericBet,
   GenericBetslip,
   GenericBlock,
@@ -75,9 +74,6 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="GenericAlarmRound">
       <GenericAlarmRound {...props} />
-    </Icon>
-    <Icon {...wrapperProps} name="GenericAmountNumber">
-      <GenericAmountNumber {...props} />
     </Icon>
     <Icon {...wrapperProps} name="GenericBet">
       <GenericBet {...props} />

@@ -1,24 +1,40 @@
 import React from 'react';
 import {
+  MediaCss,
+  MediaCsv,
+  MediaExe,
   MediaFastBack,
   MediaFastForward,
-  MediaGif,
+  MediaGifAlternative,
   MediaHeadphones,
+  MediaHtml,
+  MediaJpg,
+  MediaJs,
   MediaMegaphone,
   MediaMice,
   MediaMiceAlternative,
   MediaMonitor,
+  MediaMp3,
+  MediaMp4,
   MediaMusic,
   MediaNoVolume,
   MediaPause,
   MediaPhoto,
+  MediaPhp,
   MediaPlay,
+  MediaPng,
+  MediaPpt,
+  MediaPsd,
   MediaSoundwave,
   MediaStop,
   MediaTuner,
   MediaTunerAlternative,
+  MediaTxt,
   MediaVideo,
   MediaVolume,
+  MediaXll,
+  MediaXml,
+  MediaZip,
 } from '@heathmont/moon-icons';
 import Icon from './Icon';
 
@@ -34,17 +50,35 @@ interface Props {
 
 const Example = ({ wrapperProps, props }: Props) => (
   <>
+    <Icon {...wrapperProps} name="MediaCss">
+      <MediaCss {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaCsv">
+      <MediaCsv {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaExe">
+      <MediaExe {...props} />
+    </Icon>
     <Icon {...wrapperProps} name="MediaFastBack">
       <MediaFastBack {...props} />
     </Icon>
     <Icon {...wrapperProps} name="MediaFastForward">
       <MediaFastForward {...props} />
     </Icon>
-    <Icon {...wrapperProps} name="MediaGif">
-      <MediaGif {...props} />
+    <Icon {...wrapperProps} name="MediaGifAlternative">
+      <MediaGifAlternative {...props} />
     </Icon>
     <Icon {...wrapperProps} name="MediaHeadphones">
       <MediaHeadphones {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaHtml">
+      <MediaHtml {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaJpg">
+      <MediaJpg {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaJs">
+      <MediaJs {...props} />
     </Icon>
     <Icon {...wrapperProps} name="MediaMegaphone">
       <MediaMegaphone {...props} />
@@ -58,6 +92,12 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="MediaMonitor">
       <MediaMonitor {...props} />
     </Icon>
+    <Icon {...wrapperProps} name="MediaMp3">
+      <MediaMp3 {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaMp4">
+      <MediaMp4 {...props} />
+    </Icon>
     <Icon {...wrapperProps} name="MediaMusic">
       <MediaMusic {...props} />
     </Icon>
@@ -70,8 +110,20 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="MediaPhoto">
       <MediaPhoto {...props} />
     </Icon>
+    <Icon {...wrapperProps} name="MediaPhp">
+      <MediaPhp {...props} />
+    </Icon>
     <Icon {...wrapperProps} name="MediaPlay">
       <MediaPlay {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaPng">
+      <MediaPng {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaPpt">
+      <MediaPpt {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaPsd">
+      <MediaPsd {...props} />
     </Icon>
     <Icon {...wrapperProps} name="MediaSoundwave">
       <MediaSoundwave {...props} />
@@ -85,11 +137,23 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="MediaTunerAlternative">
       <MediaTunerAlternative {...props} />
     </Icon>
+    <Icon {...wrapperProps} name="MediaTxt">
+      <MediaTxt {...props} />
+    </Icon>
     <Icon {...wrapperProps} name="MediaVideo">
       <MediaVideo {...props} />
     </Icon>
     <Icon {...wrapperProps} name="MediaVolume">
       <MediaVolume {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaXll">
+      <MediaXll {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaXml">
+      <MediaXml {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MediaZip">
+      <MediaZip {...props} />
     </Icon>
   </>
 );

@@ -5,73 +5,73 @@ exports[`TextInput: type Email renders disabled 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dZxXia"
+    className="sc-hZiMVj ejLjyl"
     disabled={true}
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL JOvHL"
+      className="sc-hQikvm kjvnfL"
       disabled={true}
       placeholder=" "
       type="email"
       value="jake.weary@sportsbet.io"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX dZxXia"
+    className="sc-hZiMVj ejLjyl"
     disabled={true}
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL gsTWKg"
+      className="sc-hQikvm cwcNaw"
       disabled={true}
       placeholder=" "
       type="email"
       value="jake.weary@sportsbet.io"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX dZxXia"
+    className="sc-hZiMVj ejLjyl"
     disabled={true}
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL crpHmu"
+        className="sc-hQikvm kMCGiK"
         disabled={true}
         placeholder=" "
         type="email"
         value="jake.weary@sportsbet.io"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
@@ -85,64 +85,64 @@ exports[`TextInput: type Email renders error 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL kDWyPF"
+      className="sc-hQikvm fQiIiJ"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
     />
     <p
-      className="sc-VcoSR jatpWO"
+      className="sc-McAUB fEGrYJ"
       role="alert"
     >
       Error message
     </p>
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL fWoZBG"
+      className="sc-hQikvm icNZZq"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
     />
     <p
-      className="sc-VcoSR jatpWO"
+      className="sc-McAUB fEGrYJ"
       role="alert"
     >
       Error message
     </p>
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL cHypwM"
+        className="sc-hQikvm gZdjbA"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-VcoSR jatpWO"
+      className="sc-McAUB fEGrYJ"
       role="alert"
     >
       Error message
@@ -156,70 +156,70 @@ exports[`TextInput: type Email renders readOnly 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL JOvHL"
+      className="sc-hQikvm kjvnfL"
       placeholder=" "
       readOnly={true}
       type="email"
       value="jake.weary@sportsbet.io"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL gsTWKg"
+      className="sc-hQikvm cwcNaw"
       placeholder=" "
       readOnly={true}
       type="email"
       value="jake.weary@sportsbet.io"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL crpHmu"
+        className="sc-hQikvm kMCGiK"
         placeholder=" "
         readOnly={true}
         type="email"
         value="jake.weary@sportsbet.io"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
@@ -233,64 +233,64 @@ exports[`TextInput: type Email renders with hint 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL JOvHL"
+      className="sc-hQikvm kjvnfL"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL gsTWKg"
+      className="sc-hQikvm cwcNaw"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL crpHmu"
+        className="sc-hQikvm kMCGiK"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
@@ -304,46 +304,46 @@ exports[`TextInput: type Email renders with label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL JOvHL"
+      className="sc-hQikvm kjvnfL"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
     />
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL gsTWKg"
+      className="sc-hQikvm cwcNaw"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
     />
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL crpHmu"
+        className="sc-hQikvm kMCGiK"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
@@ -357,51 +357,51 @@ exports[`TextInput: type Email renders with label RTL 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
       dir="rtl"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL JOvHL"
+      className="sc-hQikvm kjvnfL"
       dir="rtl"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
     />
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
       dir="rtl"
     >
       large
     </label>
     <input
-      className="sc-goMRkL gsTWKg"
+      className="sc-hQikvm cwcNaw"
       dir="rtl"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
     />
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL crpHmu"
+        className="sc-hQikvm kMCGiK"
         dir="rtl"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
       <label
-        className="sc-glUVip fQRjhM"
+        className="sc-hhICeM cryZUP"
       >
         xlarge
       </label>
@@ -415,36 +415,36 @@ exports[`TextInput: type Email renders without label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <input
-      className="sc-goMRkL JOvHL"
+      className="sc-hQikvm kjvnfL"
       placeholder="medium"
       type="email"
     />
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <input
-      className="sc-goMRkL gsTWKg"
+      className="sc-hQikvm cwcNaw"
       placeholder="large"
       type="email"
     />
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL dVjUZr"
+        className="sc-hQikvm gIlWtb"
         placeholder="xlarge"
         type="email"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       />
     </div>
   </div>
@@ -456,64 +456,64 @@ exports[`TextInput: type Email supports background colour 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL hWBUEc"
+      className="sc-hQikvm A-dnmQ"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL gTNnSf"
+      className="sc-hQikvm iDFTyL"
       placeholder="e.g. jake.weary@sportsbet.io"
       type="email"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX gGsifk"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC hjjcDo"
+      className="sc-eZkcaX huZTyb"
     >
       <input
-        className="sc-goMRkL crpHmu"
+        className="sc-hQikvm kMCGiK"
         placeholder="e.g. jake.weary@sportsbet.io"
         type="email"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
