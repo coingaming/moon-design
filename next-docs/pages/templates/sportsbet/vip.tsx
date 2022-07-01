@@ -363,7 +363,7 @@ const Vip = () => {
               text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
             />
           </div>
-          <div className="w-full max-w-[100vw] flex items-center justify-center py-8 lg:w-[645px] lg:h-[684px] sm:px-5 sm:w-[420px] sm:h-full sm:ml-0">
+          <div className="w-[420px] max-w-[100vw] flex items-center justify-center py-8 lg:w-[645px] lg:h-[684px] sm:px-5 sm:h-full sm:ml-0">
             <Carousel
               items={exploreItems.map((items) => (
                 <ExploreCarouselItem items={items} />
