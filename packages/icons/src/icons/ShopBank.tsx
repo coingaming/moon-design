@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -13,8 +13,11 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M12.414 22h7.056v-1.696h-4.24l-.016-.048 2.32-2.416c1.392-1.44 1.824-2.48 1.824-3.696 0-2.016-1.632-3.232-3.44-3.232-1.792 0-2.928.896-3.552 2.08l1.328.944c.496-.864 1.216-1.296 2.096-1.296.992 0 1.68.736 1.68 1.712 0 .944-.656 1.744-1.552 2.688l-3.536 3.728.032 1.232z"
-      fill="currentColor"
+      d="M16 5L4 9.947v.55l.522 1.099h22.956l.522-1.1v-.55L16 5zM20.174 23.688v-7.145c0-.438.165-.857.458-1.166.294-.31.692-.483 1.107-.483.415 0 .813.174 1.107.483.293.309.458.728.458 1.166v7.145M14.435 23.688v-7.145c0-.438.165-.857.459-1.166.293-.31.692-.483 1.107-.483.415 0 .813.174 1.107.483.293.309.458.728.458 1.166v7.145M8.695 23.688v-7.145c0-.438.165-.857.459-1.166.293-.31.691-.483 1.107-.483v0c.415 0 .813.174 1.106.483.294.309.459.728.459 1.166v7.145M5.043 13.245v1.1l1.043.549v9.344M25.913 24.238v-9.344l1.044-.55v-1.1M4.521 24.238h22.957M4.521 27h22.957"
+      stroke="currentColor"
+      strokeMiterlimit={10}
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );
@@ -24,7 +27,7 @@ type IconProps = {
   circleColor?: ColorProps,
   color?: ColorProps,
 };
-const GenericAmountNumber =
+const ShopBank =
   styled(Svg).withConfig({
     shouldForwardProp: prop =>
       !['backgroundColor', 'circleColor', 'color'].includes(prop),
@@ -46,4 +49,4 @@ const GenericAmountNumber =
       },
     },
   ]);
-export default GenericAmountNumber;
+export default ShopBank;

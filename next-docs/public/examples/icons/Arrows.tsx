@@ -20,6 +20,7 @@ import {
   ArrowsRight,
   ArrowsRightCurved,
   ArrowsRightShort,
+  ArrowsSorting,
   ArrowsTopLeft,
   ArrowsTopRight,
   ArrowsTransfer,
@@ -100,6 +101,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="ArrowsRightShort">
       <ArrowsRightShort {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="ArrowsSorting">
+      <ArrowsSorting {...props} />
     </Icon>
     <Icon {...wrapperProps} name="ArrowsTopLeft">
       <ArrowsTopLeft {...props} />

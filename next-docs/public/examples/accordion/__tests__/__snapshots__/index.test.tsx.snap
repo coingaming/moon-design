@@ -2,14 +2,14 @@
 
 exports[`Accordion collapses 1`] = `
 <div
-  className="sc-iUjRoI kTeMil"
+  className="sc-gYgiyK efHCql"
 >
   <div
-    className="sc-hNDnKS gwNfiV"
+    className="sc-lfoLCh bvulnv"
     disabled={false}
   >
     <h3
-      className="sc-iNFqmR kVJHPw"
+      className="sc-dOaiCS bKdMCw"
       onClick={[Function]}
     >
       Test
@@ -20,13 +20,13 @@ exports[`Accordion collapses 1`] = `
       Additional content
     </div>
     <button
-      className="sc-bSGZAx cFpaLP"
+      className="sc-gcitqq dNgbfT"
       disabled={false}
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-efBctP fDvHaY"
+        className="sc-cTQhss irIToI"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -44,10 +44,10 @@ exports[`Accordion collapses 1`] = `
     </button>
   </div>
   <div
-    className="sc-fXPgIJ bFpLnu"
+    className="sc-iEYPXb cPbBvj"
   >
     <div
-      className="sc-kHMNun gBbTtr"
+      className="sc-jywedQ cEufms"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -59,14 +59,14 @@ exports[`Accordion collapses 1`] = `
 
 exports[`Accordion expands 1`] = `
 <div
-  className="sc-iUjRoI kTeMil"
+  className="sc-gYgiyK efHCql"
 >
   <div
-    className="sc-hNDnKS gwNfiV"
+    className="sc-lfoLCh bvulnv"
     disabled={false}
   >
     <h3
-      className="sc-iNFqmR kVJHPw"
+      className="sc-dOaiCS bKdMCw"
       onClick={[Function]}
     >
       Test
@@ -77,13 +77,13 @@ exports[`Accordion expands 1`] = `
       Additional content
     </div>
     <button
-      className="sc-bSGZAx cFpaLP"
+      className="sc-gcitqq dNgbfT"
       disabled={false}
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-BeQoi gRFmDW"
+        className="sc-kgUAyh jdnJtb"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -101,10 +101,10 @@ exports[`Accordion expands 1`] = `
     </button>
   </div>
   <div
-    className="sc-fXPgIJ mGtAu"
+    className="sc-iEYPXb hLopMX"
   >
     <div
-      className="sc-kHMNun gBbTtr"
+      className="sc-jywedQ cEufms"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -116,14 +116,14 @@ exports[`Accordion expands 1`] = `
 
 exports[`Accordion renders 1`] = `
 <div
-  className="sc-iUjRoI kTeMil"
+  className="sc-gYgiyK efHCql"
 >
   <div
-    className="sc-hNDnKS gwNfiV"
+    className="sc-lfoLCh bvulnv"
     disabled={false}
   >
     <h3
-      className="sc-iNFqmR kVJHPw"
+      className="sc-dOaiCS bKdMCw"
       onClick={[Function]}
     >
       Test
@@ -134,13 +134,13 @@ exports[`Accordion renders 1`] = `
       Additional content
     </div>
     <button
-      className="sc-bSGZAx cFpaLP"
+      className="sc-gcitqq dNgbfT"
       disabled={false}
       onClick={[Function]}
       type="button"
     >
       <svg
-        className="sc-efBctP fDvHaY"
+        className="sc-cTQhss irIToI"
         fill="none"
         fontSize="2rem"
         height="1em"
@@ -158,10 +158,10 @@ exports[`Accordion renders 1`] = `
     </button>
   </div>
   <div
-    className="sc-fXPgIJ bFpLnu"
+    className="sc-iEYPXb cPbBvj"
   >
     <div
-      className="sc-kHMNun gBbTtr"
+      className="sc-jywedQ cEufms"
     >
       <div>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
