@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.2.0
+
+### Minor Changes
+
+- Release icons & pnpm7
+
 ## 9.1.8
 
 ### Patch Changes
