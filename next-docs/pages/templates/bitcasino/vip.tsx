@@ -281,7 +281,7 @@ const Vip = () => {
       >
         <div className="h-[40px] relative items-center left-0 flex fle-row ml-1">
           <ArrowsLeft fontSize="2rem" />
-          <span className="sm:ml-6 ml-11">
+          <span className="fixed left-[50%] -translate-x-[50%] sm:translate-x-[0%] sm:static sm:left-0 sm:ml-6">
             <BitcasinoLogo />
           </span>
         </div>
@@ -306,7 +306,7 @@ const Vip = () => {
           backgroundSize: 'auto 100%',
         }}
       >
-        <div className="flex sm:items-center  sm:h-[679px] sm:mt-[120px]">
+        <div className="flex sm:items-center sm:h-[679px] sm:mt-[120px] sm:relative sm:-left-[50px]">
           <div className="relative w-full justify-end self-end">
             <div className="sm:min-w-[500px] lg:min-w-[600px]  md:ml-15">
               <Image src={KingKaka} objectFit="contain" />
@@ -415,8 +415,8 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col relative sm:mt-[230px] mb-0 sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
-          <div className="flex flex-col self-stretch w-[380px] xl:w-[30%] sm:w-[100%] justify-center sm:mb-20 2xl:ml-24 lg:mx-0 lg:px-0 md:pl-9 sm:ml-0 ml-3">
+        <div className="flex flex-col relative items-center sm:mt-[230px] mb-0 sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
+          <div className="flex flex-col justify-center w-[380px] sm:self-stretch sm:w-[100%] sm:mb-20 xl:w-[30%] 2xl:ml-24 lg:mx-0 lg:px-0 md:pl-9 sm:ml-0 ml-3">
             <Title
               text="Explore the world in true VIP style!"
               classes="xl:text-left leading-10 sm:pl-0 sm:leading-0 mb-4 text-center"

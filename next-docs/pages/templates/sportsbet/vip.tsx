@@ -21,29 +21,29 @@ import Curacao from '../../../public/templates/sportsbet/curacao.png';
 import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
 import SbcAwards from '../../../public/templates/sportsbet/sbc-awards.png';
 import support from '../../../public/templates/support.png';
-import Tiktok from '../icons/tiktok';
 import Arsenal from '../icons/arsenal';
 import Bitcasino from '../icons/bitcasino';
-import Southampton from '../icons/southampton';
-import Watford from '../icons/watford';
-import EthereumIc from '../icons/ethereumIc';
-import UsdIc from '../icons/usdtIc';
-import Cardano from '../icons/cardano';
 import BrazilianIc from '../icons/brazilianIc';
+import Cardano from '../icons/cardano';
+import EthereumIc from '../icons/ethereumIc';
 import EuroIcon from '../icons/euro';
 import Flamengo from '../icons/flamengo';
-import JapanesIc from '../icons/japanesIc';
 import IndianIc from '../icons/indianIc';
 import Instagram from '../icons/instagram';
+import JapanesIc from '../icons/japanesIc';
 import LtchLogo from '../icons/ltchLogo';
 import Mastercard from '../icons/mastercard';
 import Neteller from '../icons/neteller';
 import PlusFive from '../icons/plusFive';
 import Scril from '../icons/skrill';
+import Southampton from '../icons/southampton';
 import Telegram from '../icons/telegram';
+import Tiktok from '../icons/tiktok';
 import TronLogo from '../icons/tronLogo';
 import Twitter from '../icons/twitter';
+import UsdIc from '../icons/usdtIc';
 import Visa from '../icons/visa';
+import Watford from '../icons/watford';
 import XAbove from '../icons/xAbove';
 import Youtube from '../icons/youtube';
 import {ChevronLeft} from "./ChevronLeft";
@@ -303,9 +303,9 @@ const Vip = () => {
           isScrolled ? 'bg-goku ' : 'bg-transparent'
         }`}
       >
-        <div className="h-[50px] relative items-center justify-center left-0 flex fle-row  ml-1 sm:ml-[38px]">
-          <ArrowsLeft fontSize="2rem" />
-          <span className="sm:ml-6 ml-11">
+        <div className="h-[50px] relative items-center left-0 flex fle-row ml-1">
+         <ArrowsLeft fontSize="2rem" />
+          <span className="fixed left-[50%] -translate-x-[50%] mt-2 sm:translate-x-[0%] sm:static sm:left-0 sm:ml-6">
             <Image src={SportsbetLogo} />
           </span>
         </div>
