@@ -23,6 +23,7 @@ import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
 import SbcAwards from '../../../public/templates/sportsbet/sbc-awards.png';
 import support from '../../../public/templates/support.png';
 import BitcasinoLogo from "../bitcasino/bitcasino-logo";
+import Header from "../components/header";
 import Arsenal from '../icons/arsenal';
 import Bitcasino from '../icons/bitcasino';
 import BrazilianIc from '../icons/brazilianIc';
@@ -300,31 +301,12 @@ const Vip = () => {
 
   return (
     <div className="flex flex-col grow overflow-hidden">
-      <div
-        className={`fixed top-0 left-0 w-full flex items-center align-center justify-between py-4 px-6 z-1 transition-all duration-500 ${
-          isScrolled ? 'bg-goku ' : 'bg-transparent'
-        }`}
-      >
-        <div className="h-[40px] relative items-center left-0 flex fle-row ml-1">
-          <ArrowsLeft fontSize="2rem" />
-          <span className="fixed left-[50%] -translate-x-[50%] mt-2 sm:translate-x-[0%] sm:static sm:left-0 sm:ml-6">
-            <Image src={SportsbetLogo} />
-          </span>
-        </div>
-        <div className="hidden sm:flex flex-row">
-          <Button
-            variant="ghost"
-            width={82}
-            height={40}
-            style={{ marginRight: '5px', color: 'white' }}
-          >
-            Log in
-          </Button>
-          <Button width={82} height={40}>
-            Sing up
-          </Button>
-        </div>
-      </div>
+      <Header
+        logo={(<div className="mt-2"><Image src={SportsbetLogo} /></div>)}
+        height={40}
+        isScrolled={isScrolled}
+      />
+
       <div className="h-[800px] flex flex-col justify-center items-center bg-bottom relative mb-12 sm:mb-0 sm:flex sm:flex-row-reverse sm:items-stretch">
         <div className="flex sm:items-center w-full h-[50%] sm:w-[auto] sm:h-[679px] sm:mt-[120px] sm:relative sm:-left-[50px]">
           <div className="relative w-full h-full justify-end self-end">
@@ -392,18 +374,14 @@ const Vip = () => {
                 scrollToStep: any;
                 disabled: boolean;
               }) =>
-                disabled ? (
-                  <></>
-                ) : (
-                  <div
-                    className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] -translate-y-[50%] -translate-x-[150%] rounded-full"
-                    onClick={() => {
-                      if (!disabled) scrollToStep();
-                    }}
-                  >
-                    <ChevronLeft fontSize="1.5rem" />
-                  </div>
-                )
+                disabled ? (<></>) : (<div
+                  className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] -translate-y-[50%] -translate-x-[150%] rounded-full"
+                  onClick={() => {
+                    if (!disabled) scrollToStep();
+                  }}
+                >
+                  <ChevronLeft fontSize="1.5rem" />
+                </div>)
               }
               scrollToRightButton={({
                 scrollToStep,

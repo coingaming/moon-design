@@ -23,6 +23,7 @@ import gift from '../../../public/templates/gift.png';
 import handshake from '../../../public/templates/handshake.png';
 import promo from '../../../public/templates/promo.png';
 import support from '../../../public/templates/support.png';
+import Header from "../components/header";
 import Bitcasino from '../icons/bitcasino';
 import Cardano from '../icons/cardano';
 import DogeCoin from '../icons/dogeCoin';
@@ -39,8 +40,6 @@ import Youtube from '../icons/youtube';
 import { ChevronLeft } from '../sportsbet/ChevronLeft';
 import { ChevronRight } from '../sportsbet/ChevronRight';
 import BitcasinoLogo from './bitcasino-logo';
-
-
 
 interface ExperienceCarousel {
   index?: number;
@@ -262,7 +261,6 @@ const Vip = () => {
     ],
   ];
 
-
   useEffect(() => {
     const toggleHeaderBackground = (e: Event) => {
       setIsScrolled(window.scrollY >= 30);
@@ -277,31 +275,11 @@ const Vip = () => {
 
   return (
     <div className="flex flex-col grow overflow-hidden">
-      <div
-        className={`fixed top-0 left-0 w-full flex items-center align-center justify-between py-4 px-6 z-1 transition-all duration-500 ${
-          isScrolled ? 'bg-goku ' : 'bg-transparent'
-        }`}
-      >
-        <div className="h-[40px] relative items-center left-0 flex fle-row ml-1">
-          <ArrowsLeft fontSize="2rem" />
-          <span className="fixed left-[50%] -translate-x-[50%] sm:translate-x-[0%] sm:static sm:left-0 sm:ml-6">
-            <BitcasinoLogo />
-          </span>
-        </div>
-        <div className="hidden sm:flex flex-row">
-          <Button
-            variant="ghost"
-            width={82}
-            height={40}
-            style={{ marginRight: '5px', color: 'white' }}
-          >
-            Log in
-          </Button>
-          <Button width={82} height={40}>
-            Sing up
-          </Button>
-        </div>
-      </div>
+      <Header
+        logo={(<BitcasinoLogo />)}
+        height={40}
+        isScrolled={isScrolled}
+      />
       <div
         className="h-[800px] flex flex-col justify-center items-center bg-bottom relative sm:bg-[url('/templates/bitcasino/pattern.png')] sm:mb-0 sm:flex sm:flex-row-reverse sm:items-stretch"
         style={{ backgroundSize: 'auto 100%' }}
@@ -431,6 +409,38 @@ const Vip = () => {
               items={exploreItems.map((items) => (
                 <ExploreCarouselItem items={items} />
               ))}
+              scrollToLeftButton={({
+                 scrollToStep,
+                 disabled,
+               }: {
+                scrollToStep: any;
+                disabled: boolean;
+              }) =>
+                disabled ? (<></>) : (<div
+                  className="flex justify-center items-center w-8 h-8 bg-gohan absolute top-[50%] -translate-y-[50%] -translate-x-[150%] rounded-full"
+                  onClick={() => {
+                    if (!disabled) scrollToStep();
+                  }}
+                >
+                  <ChevronLeft fontSize="1.5rem" />
+                </div>)
+              }
+              scrollToRightButton={({
+                 scrollToStep,
+                 disabled,
+              }: {
+                scrollToStep: any;
+                disabled: boolean;
+              }) =>
+                disabled ? (<></>) : (<div
+                  className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] right-0 -translate-y-[50%] translate-x-[150%] rounded-full"
+                  onClick={() => {
+                    if (!disabled) scrollToStep();
+                  }}
+                >
+                  <ChevronRight fontSize="1.5rem" />
+                </div>)
+              }
             />
           </div>
         </div>
