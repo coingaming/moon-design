@@ -14,6 +14,7 @@ import gift from '../../../public/templates/gift.png';
 import handshake from '../../../public/templates/handshake.png';
 import promo from '../../../public/templates/promo.png';
 import Plus18 from '../../../public/templates/sportsbet/18plus.png';
+import Ambassadors from "../../../public/templates/sportsbet/ambasadors.png";
 import Award1 from '../../../public/templates/sportsbet/award1.png';
 import Award2 from '../../../public/templates/sportsbet/award2.png';
 import Award3 from '../../../public/templates/sportsbet/award3.png';
@@ -21,6 +22,7 @@ import Curacao from '../../../public/templates/sportsbet/curacao.png';
 import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
 import SbcAwards from '../../../public/templates/sportsbet/sbc-awards.png';
 import support from '../../../public/templates/support.png';
+import BitcasinoLogo from "../bitcasino/bitcasino-logo";
 import Arsenal from '../icons/arsenal';
 import Bitcasino from '../icons/bitcasino';
 import BrazilianIc from '../icons/brazilianIc';
@@ -299,17 +301,17 @@ const Vip = () => {
   return (
     <div className="flex flex-col grow overflow-hidden">
       <div
-        className={`fixed top-0 left-0 w-full flex items-center  justify-between py-4 px-6 z-1 transition-all duration-500 ${
+        className={`fixed top-0 left-0 w-full flex items-center align-center justify-between py-4 px-6 z-1 transition-all duration-500 ${
           isScrolled ? 'bg-goku ' : 'bg-transparent'
         }`}
       >
-        <div className="h-[50px] relative items-center left-0 flex fle-row ml-1">
-         <ArrowsLeft fontSize="2rem" />
+        <div className="h-[40px] relative items-center left-0 flex fle-row ml-1">
+          <ArrowsLeft fontSize="2rem" />
           <span className="fixed left-[50%] -translate-x-[50%] mt-2 sm:translate-x-[0%] sm:static sm:left-0 sm:ml-6">
             <Image src={SportsbetLogo} />
           </span>
         </div>
-        <div className="hidden flex-row mr-7 sm:flex">
+        <div className="hidden sm:flex flex-row">
           <Button
             variant="ghost"
             width={82}
@@ -323,46 +325,51 @@ const Vip = () => {
           </Button>
         </div>
       </div>
-      <div className="mt-20 sm:mt-[244px] sm:flex sm:flex-row-reverse sm:items-stretch ">
-        <div className="flex flex-col h-[80vw] md:min-h-[25vw] sm:items-center sm:w-[50%] sm:h-auto sm:min-h-[30vw] ">
-          <div className="relative w-full grow">
+      <div className="h-[800px] flex flex-col justify-center items-center bg-bottom relative mb-12 sm:mb-0 sm:flex sm:flex-row-reverse sm:items-stretch">
+        <div className="flex sm:items-center w-full h-[50%] sm:w-[auto] sm:h-[679px] sm:mt-[120px] sm:relative sm:-left-[50px]">
+          <div className="relative w-full h-full justify-end self-end">
+            <div className="flex flex-col items-stretch max-w-[900px] h-full sm:min-w-[500px] md:ml-15 lg:min-w-[600px]">
+              <div
+                className="w-full h-full bg-contain bg-bottom bg-no-repeat"
+                style={{
+                  backgroundImage: 'url(/templates/sportsbet/ambasadors.png)',
+                }}
+              />
+            </div>
             <div
-              className="w-full h-full bg-contain bg-left bg-no-repeat"
+              className="absolute left-0 bottom-0 w-full h-[150px] sm:hidden"
               style={{
-                backgroundImage: 'url(/templates/sportsbet/ambasadors.png)',
-              }}
-            />
-            <div
-              className="absolute left-0 bottom-0 w-full h-[150px]"
-              style={{
-                background:
-                  'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)',
+                background: 'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)',
               }}
             />
           </div>
         </div>
-        <div className="flex flex-col items-end relative -top-[30vw] px-8 md:ps-[15%] sm:py-20 sm:w-[45%] sm:top-0 sm:items-center">
-          <div className="flex flex-col max-w-full sm:w-[550px]">
+        <div className="flex flex-col absolute top-[60%] px-8 -mb-10 -bottom-48 z-1 sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center md:w-[65%]">
+          <div className="flex flex-col items-center max-w-full bottom-4 sm:items-start sm:mt-[244px] sm:w-[720px] sm:ml-[248px]">
             <Headline
               text="Bitcasino VIP: For money can’t buy experiences!"
               classes="sm:px-0"
             />
             <Subtitle
-              text="Join the VIP Bitcasino Club - An exclusive world of crypto leaders
+              classes="items-center mt-3 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
+              text=" Join the VIP Bitcasino Club - An exclusive world of crypto leaders
               and high-rollers who dare to take risks and enjoy life to its
               fullest."
-              classes="items-center mt-3 md:text-[24px] md:leading-8 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6"
             />
             <Button
               variant="primary"
               width={124}
               height={48}
-              className="btn-primary w-full py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:mx-0 sm:px-0 sm:self-start sm:w-[124px] "
+              className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:mx-0 sm:px-0 sm:self-start w-full sm:w-[124px] "
             >
               Sign up now
             </Button>
           </div>
         </div>
+        <div
+          className="hidden absolute left-0 bottom-0 w-full h-[150px] sm:block"
+          style={{ background: 'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)' }}
+        />
       </div>
       <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[124px]">
         <div className="w-full flex flex-col items-center relative -top-[30px] mb-8 sm:top-0 sm:mb-0 lg:w-[1232px] ">
@@ -586,12 +593,10 @@ const Vip = () => {
           </div>
         </div>
       </div>
-
       <div
         className=" px-[20px] h-full flex flex-col items-center self-center mt-16 xl:w-[1232px] lg:w-[90%] sm:w-[80%] sm:mt-[124px]"
         style={{
-          backgroundImage:
-            'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)',
+          background: 'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)',
         }}
       >
         <div className="flex flex-col lg:items-start">
@@ -616,7 +621,6 @@ const Vip = () => {
           </div>
         </div>
       </div>
-
       <div className="px-[38px] xl:w-[1262px] md:p-5 md:mx-auto sm:w-[100%]">
         <div className="flex flex-col py-3 mb-3  md:border md:border-x-0 md:border-t-0 md:border-b-beerus md:flex-row md:justify-between">
           <div className="grow-1 mb-6 lg:mr-0 md:mr-4 md:mb-0">

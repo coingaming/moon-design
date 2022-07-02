@@ -148,9 +148,12 @@ const ExploreCarouselItem = ({
 };
 
 const Headline = ({ text, classes }: { text: string, classes?: string }) => (
-  <p className={`text-[32px] text-center font-semibold p-4 sm:text-left sm:text-moon-48 lg:text-[64px] lg:leading-[4.5rem] ${
-    classes ?? ''
-  }`} style={{ letterSpacing: '-2px' }}>
+  <p
+    className={`text-[32px] text-center font-semibold p-4 sm:text-left sm:text-moon-48 lg:text-[64px] lg:leading-[4.5rem] ${
+      classes ?? ''
+    }`}
+    style={{ letterSpacing: typeof window !== 'undefined' && window.innerWidth <= 660 ? '-0.5px' : '-2px' }}
+  >
     {text}
   </p>
 );
@@ -300,15 +303,12 @@ const Vip = () => {
         </div>
       </div>
       <div
-        className="h-[800px] flex flex-col justify-center items-center bg-bottom relative mb-48 sm:mb-0 sm:flex sm:flex-row-reverse sm:items-stretch"
-        style={{
-          backgroundImage: 'url(/templates/bitcasino/pattern.png)',
-          backgroundSize: 'auto 100%',
-        }}
+        className="h-[800px] flex flex-col justify-center items-center bg-bottom relative sm:bg-[url('/templates/bitcasino/pattern.png')] sm:mb-0 sm:flex sm:flex-row-reverse sm:items-stretch"
+        style={{ backgroundSize: 'auto 100%' }}
       >
         <div className="flex sm:items-center sm:h-[679px] sm:mt-[120px] sm:relative sm:-left-[50px]">
           <div className="relative w-full justify-end self-end">
-            <div className="sm:min-w-[500px] lg:min-w-[600px]  md:ml-15">
+            <div className="max-w-[900px] sm:min-w-[500px] md:ml-15 lg:min-w-[600px]">
               <Image src={KingKaka} objectFit="contain" />
             </div>
             <div
@@ -320,10 +320,10 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col absolute top-[60%] px-8 -mb-10 -bottom-48 z-1  sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center md:w-[65%]">
+        <div className="flex flex-col absolute top-[60%] px-8 -mb-10 -bottom-48 z-1 sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center md:w-[65%]">
           <div className="flex flex-col items-center max-w-full bottom-4 sm:items-start sm:mt-[244px] sm:w-[720px] sm:ml-[248px]">
             <Headline
-              text="Bitcasino VIP: For money can’t buy experiences"
+              text="Bitcasino VIP: For money can’t buy experiences!"
               classes="sm:px-0"
             />
             <Subtitle
@@ -354,10 +354,10 @@ const Vip = () => {
         <div className="w-full flex flex-col items-center relative -top-[30px] mb-8 sm:top-0 sm:mb-0 lg:w-[1232px] ">
           <Title
             text="A VIP experience tailored to your liking"
-            classes="w-[348px] leading-10 mb-4 sm:mb-0 md:w-[944px] sm:w-[600px] sm:leading-0"
+            classes="w-[380px] leading-10 mb-4 sm:mb-0 md:w-[944px] sm:w-[600px] sm:leading-0"
           />
           <Subtitle
-            classes="w-[348px] p-5 md:w-[944px] sm:w-[650px] sm:p-0"
+            classes="w-[348px] p-5 md:w-[700px] sm:w-[650px] sm:p-0 sm:pt-4"
             text="Enjoy exclusive bonuses and invites to prestigious events for free.
             Get all your indulgences taken care of."
           />
@@ -375,7 +375,7 @@ const Vip = () => {
                   <></>
                 ) : (
                   <div
-                    className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] -translate-y-[50%] -translate-x-[150%] rounded-full"
+                    className="flex justify-center items-center w-8 h-8 bg-gohan absolute top-[50%] -translate-y-[50%] -translate-x-[150%] rounded-full"
                     onClick={() => {
                       if (!disabled) scrollToStep();
                     }}
@@ -395,7 +395,7 @@ const Vip = () => {
                   <></>
                 ) : (
                   <div
-                    className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] right-0 -translate-y-[50%] translate-x-[150%] rounded-full"
+                    className="flex justify-center items-center w-8 h-8 bg-gohan absolute top-[50%] right-0 -translate-y-[50%] translate-x-[150%] rounded-full"
                     onClick={() => {
                       if (!disabled) scrollToStep();
                     }}
@@ -415,7 +415,7 @@ const Vip = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col relative items-center sm:mt-[230px] mb-0 sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
+        <div className="flex flex-col relative items-center mt-[34px] sm:mt-[230px] mb-0 sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
           <div className="flex flex-col justify-center w-[380px] sm:self-stretch sm:w-[100%] sm:mb-20 xl:w-[30%] 2xl:ml-24 lg:mx-0 lg:px-0 md:pl-9 sm:ml-0 ml-3">
             <Title
               text="Explore the world in true VIP style!"
