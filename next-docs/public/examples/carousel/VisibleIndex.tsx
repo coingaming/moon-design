@@ -3,16 +3,16 @@ import { Carousel } from '@heathmont/moon-components';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
-const ExampleContent = styled.div(({ theme: { color, newTokens } }) => ({
+const ExampleContent = styled.div({
   width: rem(320),
   height: rem(192),
-  borderRadius: newTokens.borderRadius.surface.xsmall,
-  background: color.goku[80],
+  borderRadius: "0.5rem",
+  background: 'darkgray',
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
   fontSize: rem(32),
-}));
+});
 
 const Example = () => {
   const items = Array.from({ length: 5 }, (index) => index);

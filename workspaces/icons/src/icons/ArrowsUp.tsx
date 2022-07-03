@@ -10,7 +10,7 @@ const ArrowsUp = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M15.998 26.004l-.003-20.007m0 0l-5.387 5.386m5.387-5.386l5.386 5.386"
+      d="M15.999 26.004l-.004-20.008m0 0l-5.387 5.387m5.387-5.387l5.386 5.387"
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

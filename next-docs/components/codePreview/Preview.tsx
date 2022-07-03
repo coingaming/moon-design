@@ -34,7 +34,7 @@ const Preview = ({ title, preview, code }: Props) => {
         className={classNames(
           isPreviewActive
             ? `p-4 ${themeClassName || 'theme-moon-light'}`
-            : 'moon-dark',
+            : 'theme-moon-dark',
           'flex bg-goku text-moon-14 rounded-moon-s-sm preview'
         )}
       >

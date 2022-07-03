@@ -8,6 +8,7 @@ import {
   MailFlag,
   MailLink,
   MailSend,
+  MailSendRight,
 } from '@heathmont/moon-icons';
 import Icon from './Icon';
 
@@ -46,6 +47,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="MailSend">
       <MailSend {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="MailSendRight">
+      <MailSendRight {...props} />
     </Icon>
   </>
 );

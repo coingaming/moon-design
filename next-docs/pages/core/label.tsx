@@ -9,7 +9,7 @@ import LetterCases from '../../public/examples/labelTW/LetterCases';
 import Sizes from '../../public/examples/labelTW/Sizes';
 import useExamples from '../../utils/useExamples';
 
-const PageLabel = () => {
+const Example = () => {
   const examples = useExamples('labelTW');
   return (
     <>
@@ -102,4 +102,4 @@ const PageLabel = () => {
   );
 };
 
-export default PageLabel;
+export default Example;

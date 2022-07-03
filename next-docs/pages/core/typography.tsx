@@ -7,7 +7,6 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('typographyTW');
-
   return (
     <>
       <ComponentPageDescription title="Typography">

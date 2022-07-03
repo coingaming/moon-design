@@ -2,22 +2,22 @@
 
 exports[`Search renders 1`] = `
 <div
-  className="sc-ZyMtA guiOxu popup "
+  className="sc-bsixGQ kxrbun popup "
 >
   <div
-    className="sc-eUOjGL bEFcfi"
+    className="sc-jVCNtP SeVzd"
   >
     <form
-      className="sc-iKmDcA ktDuSY"
+      className="sc-dAKPfc kHqhMi"
       noValidate={true}
       onSubmit={[Function]}
     >
       <span
-        className="sc-bnouOt bQgGvH"
+        className="sc-htiqpR jTFpiE"
       >
         <input
           autoComplete="off"
-          className="sc-iNezeW gaJuMu"
+          className="sc-cyxtte jAmTKb"
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
@@ -27,7 +27,7 @@ exports[`Search renders 1`] = `
           value=""
         />
         <svg
-          className="sc-iWajrY sc-eqhNQH  hokgJZ"
+          className="sc-iWajrY sc-llyFOc  bItFXZ"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -46,7 +46,7 @@ exports[`Search renders 1`] = `
       </span>
     </form>
     <button
-      className="sc-eqKtKx gYsTDE sc-bcqIvW fPmMxy"
+      className="sc-ccJWcV kARTTo sc-gdfmja ia-dSPR"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -56,18 +56,18 @@ exports[`Search renders 1`] = `
         Clear
       </span>
       <div
-        className="sc-dDaJoQ dqCRYK"
+        className="sc-iRaSfU kLGOhN"
       />
     </button>
   </div>
   <div
-    className="sc-eUOjGL bEFcfi"
+    className="sc-jVCNtP SeVzd"
   >
     <div
-      className="sc-eRWnEp epKqaf"
+      className="sc-fkFYRF dHDnfe"
     >
       <ul
-        className="sc-iUjRoI gaaFRt"
+        className="sc-bczRLJ bRtmRw"
       >
         <li>
           <span>
@@ -82,22 +82,22 @@ exports[`Search renders 1`] = `
 
 exports[`Search renders Loading State 1`] = `
 <div
-  className="sc-ZyMtA guiOxu popup "
+  className="sc-bsixGQ kxrbun popup "
 >
   <div
-    className="sc-eUOjGL bEFcfi"
+    className="sc-jVCNtP SeVzd"
   >
     <form
-      className="sc-iKmDcA ktDuSY"
+      className="sc-dAKPfc kHqhMi"
       noValidate={true}
       onSubmit={[Function]}
     >
       <span
-        className="sc-bnouOt bQgGvH"
+        className="sc-htiqpR jTFpiE"
       >
         <input
           autoComplete="off"
-          className="sc-iNezeW gaJuMu"
+          className="sc-cyxtte jAmTKb"
           onBlur={[Function]}
           onChange={[Function]}
           onFocus={[Function]}
@@ -107,7 +107,7 @@ exports[`Search renders Loading State 1`] = `
           value=""
         />
         <svg
-          className="sc-iWajrY sc-eqhNQH  hokgJZ"
+          className="sc-iWajrY sc-llyFOc  bItFXZ"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -127,13 +127,13 @@ exports[`Search renders Loading State 1`] = `
     </form>
   </div>
   <div
-    className="sc-eUOjGL bEFcfi"
+    className="sc-jVCNtP SeVzd"
   >
     <div
-      className="sc-eRWnEp epKqaf"
+      className="sc-fkFYRF dHDnfe"
     >
       <ul
-        className="sc-fXPgIJ fbCWix"
+        className="sc-gsnTZi XewEi"
       >
         <li>
           Loading...
@@ -146,16 +146,16 @@ exports[`Search renders Loading State 1`] = `
 
 exports[`Search renders Without Results 1`] = `
 <form
-  className="sc-iKmDcA ktDuSY"
+  className="sc-dAKPfc kHqhMi"
   noValidate={true}
   onSubmit={[Function]}
 >
   <span
-    className="sc-bnouOt bQgGvH"
+    className="sc-htiqpR jTFpiE"
   >
     <input
       autoComplete="off"
-      className="sc-iNezeW gaJuMu"
+      className="sc-cyxtte jAmTKb"
       onBlur={[Function]}
       onChange={[Function]}
       onFocus={[Function]}
@@ -165,7 +165,7 @@ exports[`Search renders Without Results 1`] = `
       value=""
     />
     <svg
-      className="sc-iWajrY sc-eqhNQH  hokgJZ"
+      className="sc-iWajrY sc-llyFOc  bItFXZ"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"

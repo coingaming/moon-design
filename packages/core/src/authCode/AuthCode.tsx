@@ -22,6 +22,7 @@ export interface AuthCodeProps {
   onlyDigits?: boolean;
   stretch?: boolean;
   length?: number;
+  'data-testid'?: string;
 }
 
 const inputRefs: any = {};
@@ -37,6 +38,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   stretch = false,
   length = 6,
   errorPosition = 'left',
+  "data-testid": testId
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
 
@@ -165,7 +167,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
 
   return (
     <Container dir={dir} errorState={!!errorMessage} stretch={stretch}>
-      <div>
+      <div data-testid={testId}>
         {authCodeParts.map((value, i) => (
           <InputWrapper key={`auth-code-input-${i}`}>
             <TextInput
@@ -197,7 +199,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
         ))}
 
         {!!errorMessage && (
-          <MessageWrapper textAlign={errorPosition}>
+          <MessageWrapper textAlign={errorPosition} data-testid={`${testId}-error`}>
             <Text size={12} color="chiChi.100">
               {errorMessage}
             </Text>

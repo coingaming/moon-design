@@ -3,7 +3,11 @@
  */
 
 import React from 'react';
-import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
+import {
+  moonDesignDark,
+  moonDesignLight,
+  ThemeProvider,
+} from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
 import Default from '../Default';
 import Variants from '../Variants';
@@ -17,9 +21,29 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
+const renderWithThemeRTL = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignLight}>
+    <div dir="rtl">{component}</div>
+  </ThemeProvider>
+);
+
+const renderWithDarkTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
+);
+
 describe('Button', () => {
   it('renders default', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders default rtl', () => {
+    const testRenderer = renderer.create(renderWithThemeRTL(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders default dark', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

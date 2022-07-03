@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -12,8 +12,8 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g filter="url(#TypeText_svg__filter0_d_2567:573)">
-      <g filter="url(#TypeText_svg__filter1_d_2567:573)">
+    <g filter="url(#TypeText_svg__filter0_d_4798_4676)">
+      <g filter="url(#TypeText_svg__filter1_d_4798_4676)">
         <path
           fillRule="evenodd"
           clipRule="evenodd"
@@ -24,7 +24,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <filter
-        id="TypeText_svg__filter0_d_2567:573"
+        id="TypeText_svg__filter0_d_4798_4676"
         x={-2}
         y={0}
         width={36}
@@ -43,16 +43,16 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
         <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
         <feBlend
           in2="BackgroundImageFix"
-          result="effect1_dropShadow_2567:573"
+          result="effect1_dropShadow_4798_4676"
         />
         <feBlend
           in="SourceGraphic"
-          in2="effect1_dropShadow_2567:573"
+          in2="effect1_dropShadow_4798_4676"
           result="shape"
         />
       </filter>
       <filter
-        id="TypeText_svg__filter1_d_2567:573"
+        id="TypeText_svg__filter1_d_4798_4676"
         x={12}
         y={7}
         width={8.976}
@@ -71,11 +71,11 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
         <feColorMatrix values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
         <feBlend
           in2="BackgroundImageFix"
-          result="effect1_dropShadow_2567:573"
+          result="effect1_dropShadow_4798_4676"
         />
         <feBlend
           in="SourceGraphic"
-          in2="effect1_dropShadow_2567:573"
+          in2="effect1_dropShadow_4798_4676"
           result="shape"
         />
       </filter>

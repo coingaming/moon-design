@@ -15,7 +15,6 @@ const Accordion = ({
   headerContent,
   withButton = true,
   isContentInside = true,
-  isRtl,
   size = 'md',
   backgroundColor = 'gohan'
 }: AccordionProps) => {
@@ -66,7 +65,7 @@ const Accordion = ({
             <ControlsChevronRight
               className={classNames(
                 'text-trunks text-moon-24 transition-transform transition-200',
-                setOpenIcon({ isOpen, isRtl })
+                setOpenIcon(isOpen)
               )}
             />
           </button>

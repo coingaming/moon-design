@@ -4,7 +4,6 @@ import {
   SportBadminton,
   SportBaseball,
   SportBasketball,
-  SportBeachVolley,
   SportBeachVolleyball,
   SportBombay,
   SportBoxing,
@@ -70,9 +69,6 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="SportBasketball">
       <SportBasketball {...props} />
-    </Icon>
-    <Icon {...wrapperProps} name="SportBeachVolley">
-      <SportBeachVolley {...props} />
     </Icon>
     <Icon {...wrapperProps} name="SportBeachVolleyball">
       <SportBeachVolleyball {...props} />

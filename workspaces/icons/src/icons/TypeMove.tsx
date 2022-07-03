@@ -9,7 +9,7 @@ const TypeMove = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g filter="url(#TypeMove_svg__filter0_d_2567:569)">
+    <g filter="url(#TypeMove_svg__filter0_d_4798_4675)">
       <path
         d="M16 8l-8 8 5.23 5.22L16 24l8-8-8-8zm-2 11h-1v-1h1v1zm0-5h-1v-1h1v1zm5 5h-1v-1h1v1zm-1-6h1v1h-1v-1z"
         fill="#fff"
@@ -25,7 +25,7 @@ const TypeMove = (props: React.SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <filter
-        id="TypeMove_svg__filter0_d_2567:569"
+        id="TypeMove_svg__filter0_d_4798_4675"
         x={-2}
         y={0}
         width={36}
@@ -44,11 +44,11 @@ const TypeMove = (props: React.SVGProps<SVGSVGElement>) => (
         <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
         <feBlend
           in2="BackgroundImageFix"
-          result="effect1_dropShadow_2567:569"
+          result="effect1_dropShadow_4798_4675"
         />
         <feBlend
           in="SourceGraphic"
-          in2="effect1_dropShadow_2567:569"
+          in2="effect1_dropShadow_4798_4675"
           result="shape"
         />
       </filter>

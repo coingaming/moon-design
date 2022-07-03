@@ -1,7 +1,9 @@
 import React from 'react';
 import {
   ShopBag,
+  ShopBank,
   ShopBasket,
+  ShopBuyCrypto,
   ShopCard,
   ShopCart,
   ShopCrypto,
@@ -26,8 +28,14 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="ShopBag">
       <ShopBag {...props} />
     </Icon>
+    <Icon {...wrapperProps} name="ShopBank">
+      <ShopBank {...props} />
+    </Icon>
     <Icon {...wrapperProps} name="ShopBasket">
       <ShopBasket {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="ShopBuyCrypto">
+      <ShopBuyCrypto {...props} />
     </Icon>
     <Icon {...wrapperProps} name="ShopCard">
       <ShopCard {...props} />

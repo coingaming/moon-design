@@ -10,8 +10,8 @@ const Example = () => {
       onChange={() => {
         console.log('isChecked:', isChecked);
       }}
-      label="I agree to receive bonus & marketing emails."
-      id="checkbox2"
+      label="Checked"
+      id="checked"
     />
   );
 };

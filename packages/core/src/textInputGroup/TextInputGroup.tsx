@@ -46,9 +46,14 @@ const TextInputGroup: React.FC<TextInputGroupProps> = ({
   isRtl,
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
+  const inputSize1 = inputProps?.input1?.inputSize;
+  const inputSize2 = inputProps?.input2?.inputSize;
   const isXLarge =
-    inputProps?.input1?.inputSize === 'xlarge' ||
-    inputProps?.input2?.inputSize === 'xlarge';
+    inputSize1 === 'xlarge' ||
+    inputSize1 === 'xlarge' ||
+    !inputSize1 ||
+    !inputSize2;
+
   const isError = inputProps?.input1?.isError || inputProps?.input2?.isError;
   const backgroundColor =
     inputProps?.input1?.backgroundColor || inputProps?.input2?.backgroundColor;

@@ -1,140 +1,27 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`RadioButton default 1`] = `
-<div
-  className="flex flex-col gap-2 pl-4"
->
-  <p>
-    Please select your age:
-  </p>
-  <span
-    className="flex"
-  >
-    <label
-      className="flex flex-row flex-start items-center cursor-pointer group"
-      htmlFor="age1"
-    >
-      <span
-        className="block h-4 w-4 relative me-3"
-      >
-        <input
-          aria-label="0 - 30"
-          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
-          id="age1"
-          name="age"
-          onChange={[Function]}
-          onClick={[Function]}
-          type="radio"
-        />
-        <span
-          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
-        />
-        <span
-          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors group-hover:bg-trunks/[.12] group-hover:peer-checked:bg-piccolo/[.12]"
-        />
-      </span>
-      <span
-        className="text-bulma text-moon-14"
-      >
-        0 - 30
-      </span>
-    </label>
-  </span>
-  <span
-    className="flex"
-  >
-    <label
-      className="flex flex-row flex-start items-center cursor-pointer group"
-      htmlFor="age2"
-    >
-      <span
-        className="block h-4 w-4 relative me-3"
-      >
-        <input
-          aria-label="31 - 60"
-          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
-          id="age2"
-          name="age"
-          onChange={[Function]}
-          onClick={[Function]}
-          type="radio"
-        />
-        <span
-          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
-        />
-        <span
-          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors group-hover:bg-trunks/[.12] group-hover:peer-checked:bg-piccolo/[.12]"
-        />
-      </span>
-      <span
-        className="text-bulma text-moon-14"
-      >
-        31 - 60
-      </span>
-    </label>
-  </span>
-  <span
-    className="flex"
-  >
-    <label
-      className="flex flex-row flex-start items-center cursor-pointer group"
-      htmlFor="age3"
-    >
-      <span
-        className="block h-4 w-4 relative me-3"
-      >
-        <input
-          aria-label="61 - 100"
-          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
-          id="age3"
-          name="age"
-          onChange={[Function]}
-          onClick={[Function]}
-          type="radio"
-        />
-        <span
-          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
-        />
-        <span
-          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors group-hover:bg-trunks/[.12] group-hover:peer-checked:bg-piccolo/[.12]"
-        />
-      </span>
-      <span
-        className="text-bulma text-moon-14"
-      >
-        61 - 100
-      </span>
-    </label>
-  </span>
-</div>
-`;
-
 exports[`RadioButton renders checked 1`] = `
-<div
-  className="flex flex-col gap-2 pl-4"
->
-  <p>
-    Gender:
-  </p>
+Array [
   <span
     className="flex"
   >
     <label
       className="flex flex-row flex-start items-center cursor-pointer group"
-      htmlFor="male"
+      htmlFor="option1"
     >
       <span
         className="block h-4 w-4 relative me-3"
       >
         <input
-          aria-label="Male"
+          aria-label="Option 1"
           checked={true}
           className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
-          id="male"
+          id="option1"
+          name="option"
           onChange={[Function]}
           onClick={[Function]}
           type="radio"
-          value="male"
+          value="option1"
         />
         <span
           className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
@@ -146,29 +33,30 @@ exports[`RadioButton renders checked 1`] = `
       <span
         className="text-bulma text-moon-14"
       >
-        Male
+        Option 1
       </span>
     </label>
-  </span>
+  </span>,
   <span
     className="flex"
   >
     <label
       className="flex flex-row flex-start items-center cursor-pointer group"
-      htmlFor="female"
+      htmlFor="option2"
     >
       <span
         className="block h-4 w-4 relative me-3"
       >
         <input
-          aria-label="Female"
+          aria-label="Option 2"
           checked={false}
           className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
-          id="female"
+          id="option2"
+          name="option"
           onChange={[Function]}
           onClick={[Function]}
           type="radio"
-          value="female"
+          value="option2"
         />
         <span
           className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
@@ -180,29 +68,30 @@ exports[`RadioButton renders checked 1`] = `
       <span
         className="text-bulma text-moon-14"
       >
-        Female
+        Option 2
       </span>
     </label>
-  </span>
+  </span>,
   <span
     className="flex"
   >
     <label
       className="flex flex-row flex-start items-center cursor-pointer group"
-      htmlFor="other"
+      htmlFor="option3"
     >
       <span
         className="block h-4 w-4 relative me-3"
       >
         <input
-          aria-label="Other"
+          aria-label="Option 3"
           checked={false}
           className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
-          id="other"
+          id="option3"
+          name="option"
           onChange={[Function]}
           onClick={[Function]}
           type="radio"
-          value="other"
+          value="option3"
         />
         <span
           className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
@@ -214,102 +103,25 @@ exports[`RadioButton renders checked 1`] = `
       <span
         className="text-bulma text-moon-14"
       >
-        Other
+        Option 3
       </span>
     </label>
-  </span>
-</div>
+  </span>,
+]
 `;
 
-exports[`RadioButton renders disabled 1`] = `
-<span
-  className="flex"
->
-  <label
-    className="flex flex-row flex-start items-center cursor-pointer group opacity-30 cursor-not-allowed select-none"
-    htmlFor="rb1"
-  >
-    <span
-      className="block h-4 w-4 relative me-3"
-    >
-      <input
-        aria-label="Disabled radio button"
-        className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
-        disabled={true}
-        id="rb1"
-        name="disabled"
-        onChange={[Function]}
-        onClick={[Function]}
-        type="radio"
-      />
-      <span
-        className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
-      />
-      <span
-        className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors"
-      />
-    </span>
-    <span
-      className="text-bulma text-moon-14"
-    >
-      Disabled radio button
-    </span>
-  </label>
-</span>
-`;
-
-exports[`RadioButton renders readOnly 1`] = `
-<span
-  className="flex"
->
-  <label
-    className="flex flex-row flex-start items-center cursor-pointer group cursor-not-allowed select-none"
-    htmlFor="rorb1"
-  >
-    <span
-      className="block h-4 w-4 relative me-3"
-    >
-      <input
-        aria-label="Read only radio button"
-        checked={true}
-        className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
-        id="rorb1"
-        name="readOnly"
-        onChange={[Function]}
-        onClick={[Function]}
-        type="radio"
-      />
-      <span
-        className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
-      />
-      <span
-        className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors"
-      />
-    </span>
-    <span
-      className="text-bulma text-moon-14"
-    >
-      Read only radio button
-    </span>
-  </label>
-</span>
-`;
-
-exports[`RadioButton renders without label 1`] = `
+exports[`RadioButton renders default 1`] = `
 <span
   className="flex"
 >
   <label
     className="flex flex-row flex-start items-center cursor-pointer group"
-    htmlFor="nolable1"
   >
     <span
       className="block h-4 w-4 relative me-3"
     >
       <input
         className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
-        id="nolable1"
-        name="nolable"
         onChange={[Function]}
         onClick={[Function]}
         type="radio"
@@ -323,4 +135,408 @@ exports[`RadioButton renders without label 1`] = `
     </span>
   </label>
 </span>
+`;
+
+exports[`RadioButton renders default dark 1`] = `
+<span
+  className="flex"
+>
+  <label
+    className="flex flex-row flex-start items-center cursor-pointer group"
+  >
+    <span
+      className="block h-4 w-4 relative me-3"
+    >
+      <input
+        className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+        onChange={[Function]}
+        onClick={[Function]}
+        type="radio"
+      />
+      <span
+        className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+      />
+      <span
+        className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors group-hover:bg-trunks/[.12] group-hover:peer-checked:bg-piccolo/[.12]"
+      />
+    </span>
+  </label>
+</span>
+`;
+
+exports[`RadioButton renders default rtl 1`] = `
+<div
+  dir="rtl"
+>
+  <span
+    className="flex"
+  >
+    <label
+      className="flex flex-row flex-start items-center cursor-pointer group"
+    >
+      <span
+        className="block h-4 w-4 relative me-3"
+      >
+        <input
+          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+        />
+        <span
+          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+        />
+        <span
+          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors group-hover:bg-trunks/[.12] group-hover:peer-checked:bg-piccolo/[.12]"
+        />
+      </span>
+    </label>
+  </span>
+</div>
+`;
+
+exports[`RadioButton renders disabled 1`] = `
+Array [
+  <span
+    className="flex"
+  >
+    <label
+      className="flex flex-row flex-start items-center cursor-pointer group opacity-30 cursor-not-allowed select-none"
+      htmlFor="disabled1"
+    >
+      <span
+        className="block h-4 w-4 relative me-3"
+      >
+        <input
+          aria-label="Disabled"
+          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+          disabled={true}
+          id="disabled1"
+          name="disabled"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="disabled1"
+        />
+        <span
+          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+        />
+        <span
+          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors"
+        />
+      </span>
+      <span
+        className="text-bulma text-moon-14"
+      >
+        Disabled
+      </span>
+    </label>
+  </span>,
+  <span
+    className="flex"
+  >
+    <label
+      className="flex flex-row flex-start items-center cursor-pointer group opacity-30 cursor-not-allowed select-none"
+      htmlFor="disabled2"
+    >
+      <span
+        className="block h-4 w-4 relative me-3"
+      >
+        <input
+          aria-label="Disabled Checked"
+          checked={true}
+          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+          disabled={true}
+          id="disabled2"
+          name="disabled"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="disabled2"
+        />
+        <span
+          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+        />
+        <span
+          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors"
+        />
+      </span>
+      <span
+        className="text-bulma text-moon-14"
+      >
+        Disabled Checked
+      </span>
+    </label>
+  </span>,
+]
+`;
+
+exports[`RadioButton renders readOnly 1`] = `
+Array [
+  <span
+    className="flex"
+  >
+    <label
+      className="flex flex-row flex-start items-center cursor-pointer group cursor-not-allowed select-none"
+      htmlFor="readOnly1"
+    >
+      <span
+        className="block h-4 w-4 relative me-3"
+      >
+        <input
+          aria-label="ReadOnly"
+          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+          id="readOnly1"
+          name="readOnly"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="readOnly1"
+        />
+        <span
+          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+        />
+        <span
+          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors"
+        />
+      </span>
+      <span
+        className="text-bulma text-moon-14"
+      >
+        ReadOnly
+      </span>
+    </label>
+  </span>,
+  <span
+    className="flex"
+  >
+    <label
+      className="flex flex-row flex-start items-center cursor-pointer group cursor-not-allowed select-none"
+      htmlFor="readOnly2"
+    >
+      <span
+        className="block h-4 w-4 relative me-3"
+      >
+        <input
+          aria-label="ReadOnly Checked"
+          checked={true}
+          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+          id="readOnly2"
+          name="readOnly"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="readOnly2"
+        />
+        <span
+          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+        />
+        <span
+          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors"
+        />
+      </span>
+      <span
+        className="text-bulma text-moon-14"
+      >
+        ReadOnly Checked
+      </span>
+    </label>
+  </span>,
+]
+`;
+
+exports[`RadioButton renders with label 1`] = `
+Array [
+  <span
+    className="flex"
+  >
+    <label
+      className="flex flex-row flex-start items-center cursor-pointer group"
+      htmlFor="withLabel1"
+    >
+      <span
+        className="block h-4 w-4 relative me-3"
+      >
+        <input
+          aria-label="Option 1"
+          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+          id="withLabel1"
+          name="withLabel"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="withLabel1"
+        />
+        <span
+          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+        />
+        <span
+          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors group-hover:bg-trunks/[.12] group-hover:peer-checked:bg-piccolo/[.12]"
+        />
+      </span>
+      <span
+        className="text-bulma text-moon-14"
+      >
+        Option 1
+      </span>
+    </label>
+  </span>,
+  <span
+    className="flex"
+  >
+    <label
+      className="flex flex-row flex-start items-center cursor-pointer group"
+      htmlFor="withLabel2"
+    >
+      <span
+        className="block h-4 w-4 relative me-3"
+      >
+        <input
+          aria-label="Option 2"
+          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+          id="withLabel2"
+          name="withLabel"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="withLabel2"
+        />
+        <span
+          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+        />
+        <span
+          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors group-hover:bg-trunks/[.12] group-hover:peer-checked:bg-piccolo/[.12]"
+        />
+      </span>
+      <span
+        className="text-bulma text-moon-14"
+      >
+        Option 2
+      </span>
+    </label>
+  </span>,
+  <span
+    className="flex"
+  >
+    <label
+      className="flex flex-row flex-start items-center cursor-pointer group"
+      htmlFor="withLabel3"
+    >
+      <span
+        className="block h-4 w-4 relative me-3"
+      >
+        <input
+          aria-label="Option 3"
+          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+          id="withLabel3"
+          name="withLabel"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="withLabel3"
+        />
+        <span
+          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+        />
+        <span
+          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors group-hover:bg-trunks/[.12] group-hover:peer-checked:bg-piccolo/[.12]"
+        />
+      </span>
+      <span
+        className="text-bulma text-moon-14"
+      >
+        Option 3
+      </span>
+    </label>
+  </span>,
+]
+`;
+
+exports[`RadioButton renders without label 1`] = `
+Array [
+  <span
+    className="flex"
+  >
+    <label
+      className="flex flex-row flex-start items-center cursor-pointer group"
+      htmlFor="noLabel1"
+    >
+      <span
+        className="block h-4 w-4 relative me-3"
+      >
+        <input
+          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+          id="noLabel1"
+          name="noLabel"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="noLabel1"
+        />
+        <span
+          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+        />
+        <span
+          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors group-hover:bg-trunks/[.12] group-hover:peer-checked:bg-piccolo/[.12]"
+        />
+      </span>
+    </label>
+  </span>,
+  <span
+    className="flex"
+  >
+    <label
+      className="flex flex-row flex-start items-center cursor-pointer group"
+      htmlFor="noLabel2"
+    >
+      <span
+        className="block h-4 w-4 relative me-3"
+      >
+        <input
+          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+          id="noLabel2"
+          name="noLabel"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="noLabel2"
+        />
+        <span
+          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+        />
+        <span
+          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors group-hover:bg-trunks/[.12] group-hover:peer-checked:bg-piccolo/[.12]"
+        />
+      </span>
+    </label>
+  </span>,
+  <span
+    className="flex"
+  >
+    <label
+      className="flex flex-row flex-start items-center cursor-pointer group"
+      htmlFor="noLabel3"
+    >
+      <span
+        className="block h-4 w-4 relative me-3"
+      >
+        <input
+          className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
+          id="noLabel3"
+          name="noLabel"
+          onChange={[Function]}
+          onClick={[Function]}
+          type="radio"
+          value="noLabel3"
+        />
+        <span
+          className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100"
+        />
+        <span
+          className="w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors group-hover:bg-trunks/[.12] group-hover:peer-checked:bg-piccolo/[.12]"
+        />
+      </span>
+    </label>
+  </span>,
+]
 `;

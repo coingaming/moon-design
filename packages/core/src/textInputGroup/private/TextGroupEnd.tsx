@@ -12,18 +12,17 @@ const TextGroupStart: React.FC<TextGroupStartProps> = ({
   inputProps,
   orientation,
   isRtl,
-}) => {
-  return (
-    <TextInput
-      {...(inputProps ?? { inputSize: 'medium', type: 'text' })}
-      dir={isRtl ? 'rtl' : 'ltr'}
-      isSharpRightSide={orientation === 'horizontal' && isRtl}
-      isSharpLeftSide={orientation === 'horizontal' && !isRtl}
-      isSharpTopSide={orientation === 'vertical'}
-      isTopBottomBorderHidden={orientation === 'vertical'}
-      isSideBorderHidden={orientation === 'horizontal'}
-    ></TextInput>
-  );
-};
+}) => (
+  <TextInput
+    {...(inputProps ?? { type: 'text' })}
+    inputSize={inputProps?.inputSize || 'xlarge'}
+    dir={isRtl ? 'rtl' : 'ltr'}
+    isSharpRightSide={orientation === 'horizontal' && isRtl}
+    isSharpLeftSide={orientation === 'horizontal' && !isRtl}
+    isSharpTopSide={orientation === 'vertical'}
+    isTopBottomBorderHidden={orientation === 'vertical'}
+    isSideBorderHidden={orientation === 'horizontal'}
+  ></TextInput>
+);
 
 export default TextGroupStart;

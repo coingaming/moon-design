@@ -8,7 +8,7 @@ exports[`Checkbox renders checked 1`] = `
 >
   <label
     className="flex items-center text-moon-14 text-bulma cursor-pointer "
-    htmlFor="checkbox2"
+    htmlFor="checked"
   >
     <span
       className="flex me-3 relative"
@@ -19,7 +19,7 @@ exports[`Checkbox renders checked 1`] = `
       <input
         checked={true}
         className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none"
-        id="checkbox2"
+        id="checked"
         onChange={[Function]}
         onClick={[Function]}
         style={
@@ -30,7 +30,7 @@ exports[`Checkbox renders checked 1`] = `
         type="checkbox"
       />
     </span>
-    I agree to receive bonus & marketing emails.
+    Checked
   </label>
 </div>
 `;
@@ -67,79 +67,7 @@ exports[`Checkbox renders default 1`] = `
 </div>
 `;
 
-exports[`Checkbox renders disabled 1`] = `
-<div
-  className="inline-block"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
->
-  <label
-    className="flex items-center text-moon-14 text-bulma cursor-pointer  opacity-30 cursor-not-allowed select-none"
-    htmlFor="checkbox4"
-  >
-    <span
-      className="flex me-3 relative"
-    >
-      <span
-        className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
-      />
-      <input
-        checked={false}
-        className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks opacity-30 cursor-not-allowed select-none"
-        disabled={true}
-        id="checkbox4"
-        onChange={[Function]}
-        onClick={[Function]}
-        style={
-          Object {
-            "backgroundImage": "",
-          }
-        }
-        type="checkbox"
-      />
-    </span>
-    I agree to receive bonus & marketing emails.
-  </label>
-</div>
-`;
-
-exports[`Checkbox renders read only 1`] = `
-<div
-  className="inline-block"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
->
-  <label
-    className="flex items-center text-moon-14 text-bulma cursor-pointer  cursor-not-allowed select-none"
-    htmlFor="checkbox4"
-  >
-    <span
-      className="flex me-3 relative"
-    >
-      <span
-        className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
-      />
-      <input
-        checked={false}
-        className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks cursor-not-allowed select-none"
-        id="checkbox4"
-        onChange={[Function]}
-        onClick={[Function]}
-        readOnly={true}
-        style={
-          Object {
-            "backgroundImage": "",
-          }
-        }
-        type="checkbox"
-      />
-    </span>
-    Readonly checkbox.
-  </label>
-</div>
-`;
-
-exports[`Checkbox renders with label 1`] = `
+exports[`Checkbox renders default dark 1`] = `
 <div
   className="inline-block"
   onMouseEnter={[Function]}
@@ -147,7 +75,6 @@ exports[`Checkbox renders with label 1`] = `
 >
   <label
     className="flex items-center text-moon-14 text-bulma cursor-pointer "
-    htmlFor="checkbox1"
   >
     <span
       className="flex me-3 relative"
@@ -158,7 +85,6 @@ exports[`Checkbox renders with label 1`] = `
       <input
         checked={false}
         className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
-        id="checkbox1"
         onChange={[Function]}
         onClick={[Function]}
         style={
@@ -169,7 +95,219 @@ exports[`Checkbox renders with label 1`] = `
         type="checkbox"
       />
     </span>
-    I agree to receive bonus & marketing emails.
+  </label>
+</div>
+`;
+
+exports[`Checkbox renders default rtl 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="inline-block"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <label
+      className="flex items-center text-moon-14 text-bulma cursor-pointer "
+    >
+      <span
+        className="flex me-3 relative"
+      >
+        <span
+          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+        />
+        <input
+          checked={false}
+          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
+          onChange={[Function]}
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "",
+            }
+          }
+          type="checkbox"
+        />
+      </span>
+    </label>
+  </div>
+</div>
+`;
+
+exports[`Checkbox renders disabled 1`] = `
+Array [
+  <div
+    className="inline-block"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <label
+      className="flex items-center text-moon-14 text-bulma cursor-pointer  opacity-30 cursor-not-allowed select-none"
+      htmlFor="disabled1"
+    >
+      <span
+        className="flex me-3 relative"
+      >
+        <span
+          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+        />
+        <input
+          checked={false}
+          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks opacity-30 cursor-not-allowed select-none"
+          disabled={true}
+          id="disabled1"
+          onChange={[Function]}
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "",
+            }
+          }
+          type="checkbox"
+        />
+      </span>
+      Disabled
+    </label>
+  </div>,
+  <div
+    className="inline-block"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <label
+      className="flex items-center text-moon-14 text-bulma cursor-pointer  opacity-30 cursor-not-allowed select-none"
+      htmlFor="disabled2"
+    >
+      <span
+        className="flex me-3 relative"
+      >
+        <span
+          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-piccolo/[.12]"
+        />
+        <input
+          checked={true}
+          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none opacity-30 cursor-not-allowed select-none"
+          disabled={true}
+          id="disabled2"
+          onChange={[Function]}
+          onClick={[Function]}
+          style={
+            Object {
+              "backgroundImage": "url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%23ffffff%22%3E%3Cpath%20d%3D%22M7%2014.941L13.667%2022%2025%2010%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')",
+            }
+          }
+          type="checkbox"
+        />
+      </span>
+      Disabled Checked
+    </label>
+  </div>,
+]
+`;
+
+exports[`Checkbox renders read only 1`] = `
+Array [
+  <div
+    className="inline-block"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <label
+      className="flex items-center text-moon-14 text-bulma cursor-pointer  cursor-not-allowed select-none"
+      htmlFor="readOnly1"
+    >
+      <span
+        className="flex me-3 relative"
+      >
+        <span
+          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+        />
+        <input
+          checked={false}
+          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks cursor-not-allowed select-none"
+          id="readOnly1"
+          onChange={[Function]}
+          onClick={[Function]}
+          readOnly={true}
+          style={
+            Object {
+              "backgroundImage": "",
+            }
+          }
+          type="checkbox"
+        />
+      </span>
+      ReadOnly
+    </label>
+  </div>,
+  <div
+    className="inline-block"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <label
+      className="flex items-center text-moon-14 text-bulma cursor-pointer  cursor-not-allowed select-none"
+      htmlFor="readOnly2"
+    >
+      <span
+        className="flex me-3 relative"
+      >
+        <span
+          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-piccolo/[.12]"
+        />
+        <input
+          checked={true}
+          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none cursor-not-allowed select-none"
+          id="readOnly2"
+          onChange={[Function]}
+          onClick={[Function]}
+          readOnly={true}
+          style={
+            Object {
+              "backgroundImage": "url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%23ffffff%22%3E%3Cpath%20d%3D%22M7%2014.941L13.667%2022%2025%2010%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')",
+            }
+          }
+          type="checkbox"
+        />
+      </span>
+      ReadOnly Checked
+    </label>
+  </div>,
+]
+`;
+
+exports[`Checkbox renders with label 1`] = `
+<div
+  className="inline-block"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  <label
+    className="flex items-center text-moon-14 text-bulma cursor-pointer "
+    htmlFor="withLabel"
+  >
+    <span
+      className="flex me-3 relative"
+    >
+      <span
+        className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+      />
+      <input
+        checked={false}
+        className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
+        id="withLabel"
+        onChange={[Function]}
+        onClick={[Function]}
+        style={
+          Object {
+            "backgroundImage": "",
+          }
+        }
+        type="checkbox"
+      />
+    </span>
+    With label
   </label>
 </div>
 `;
@@ -182,7 +320,7 @@ exports[`Checkbox renders without label 1`] = `
 >
   <label
     className="flex items-center text-moon-14 text-bulma cursor-pointer "
-    htmlFor="checkbox3"
+    htmlFor="noLabel"
   >
     <span
       className="flex me-3 relative"
@@ -193,7 +331,7 @@ exports[`Checkbox renders without label 1`] = `
       <input
         checked={false}
         className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
-        id="checkbox3"
+        id="noLabel"
         onChange={[Function]}
         onClick={[Function]}
         style={

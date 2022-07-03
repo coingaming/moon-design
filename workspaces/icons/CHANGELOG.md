@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.2.0
+
+### Minor Changes
+
+- Release icons & pnpm7
+
+## 9.1.8
+
+### Patch Changes
+
+- Authcode data attr
+
 ## 9.1.7
 
 ### Patch Changes

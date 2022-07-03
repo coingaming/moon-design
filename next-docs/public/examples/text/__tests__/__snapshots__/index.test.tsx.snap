@@ -2,7 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <p
-  className="sc-cQIpJi grZAKh"
+  className="sc-cbDwiu hUrOIj"
 >
   Text
 </p>
@@ -11,24 +11,24 @@ exports[`Caption renders 1`] = `
 exports[`Caption renders colors 1`] = `
 Array [
   <p
-    className="sc-cQIpJi grZAKh"
+    className="sc-cbDwiu hUrOIj"
   >
     Default color is Bulma
   </p>,
   <p
-    className="sc-cQIpJi bcuSGs"
+    className="sc-cbDwiu fucqMC"
     color="piccolo.100"
   >
     Piccolo
   </p>,
   <p
-    className="sc-cQIpJi jfVvGS"
+    className="sc-cbDwiu lgsYwI"
     color="trunks.100"
   >
     Trunks
   </p>,
   <p
-    className="sc-cQIpJi bjPfwM"
+    className="sc-cbDwiu khoUW"
     color="krillin.100"
   >
     Krillin
@@ -39,12 +39,12 @@ Array [
 exports[`Caption renders font-weight 1`] = `
 Array [
   <p
-    className="sc-cQIpJi grZAKh"
+    className="sc-cbDwiu hUrOIj"
   >
     Default font-weight is regular
   </p>,
   <p
-    className="sc-cQIpJi gDInrz"
+    className="sc-cbDwiu gwbmB"
   >
     Font-weight is bold
   </p>,
@@ -54,12 +54,12 @@ Array [
 exports[`Caption renders line height 1`] = `
 Array [
   <p
-    className="sc-cQIpJi grZAKh"
+    className="sc-cbDwiu hUrOIj"
   >
     Line-height is pre-calculated
   </p>,
   <p
-    className="sc-cQIpJi hfwaac"
+    className="sc-cbDwiu gDkPty"
   >
     Custon line-height
   </p>,
@@ -69,17 +69,17 @@ Array [
 exports[`Caption renders semantic tags 1`] = `
 Array [
   <p
-    className="sc-cQIpJi grZAKh"
+    className="sc-cbDwiu hUrOIj"
   >
     Paragraph is a default tag
   </p>,
   <span
-    className="sc-cQIpJi grZAKh"
+    className="sc-cbDwiu hUrOIj"
   >
     Span tag
   </span>,
   <label
-    className="sc-cQIpJi grZAKh"
+    className="sc-cbDwiu hUrOIj"
   >
     Label tag
   </label>,
@@ -89,18 +89,18 @@ Array [
 exports[`Caption renders sizes 1`] = `
 Array [
   <p
-    className="sc-cQIpJi grZAKh"
+    className="sc-cbDwiu hUrOIj"
   >
     Default font-size is 16px
   </p>,
   <p
-    className="sc-cQIpJi kqIOme"
+    className="sc-cbDwiu chzVdM"
     size={24}
   >
     Size is 24px
   </p>,
   <p
-    className="sc-cQIpJi CJvwe"
+    className="sc-cbDwiu dNZlxU"
     size={48}
   >
     Size is 48px
@@ -111,17 +111,17 @@ Array [
 exports[`Caption renders text-align 1`] = `
 Array [
   <p
-    className="sc-cQIpJi grZAKh"
+    className="sc-cbDwiu hUrOIj"
   >
     Text-align is not specified
   </p>,
   <p
-    className="sc-cQIpJi ivIGde"
+    className="sc-cbDwiu gszJAU"
   >
     Centered Text
   </p>,
   <p
-    className="sc-cQIpJi fXRymB"
+    className="sc-cbDwiu BRYyn"
   >
     Right alignment
   </p>,
@@ -131,12 +131,12 @@ Array [
 exports[`Caption renders underline 1`] = `
 Array [
   <p
-    className="sc-cQIpJi grZAKh"
+    className="sc-cbDwiu hUrOIj"
   >
     Default text-decoration is none
   </p>,
   <p
-    className="sc-cQIpJi enwgBM"
+    className="sc-cbDwiu jEArfW"
   >
     Underline Text
   </p>,
@@ -146,12 +146,12 @@ Array [
 exports[`Caption renders uppercase 1`] = `
 Array [
   <p
-    className="sc-cQIpJi grZAKh"
+    className="sc-cbDwiu hUrOIj"
   >
     Default text-transform is none
   </p>,
   <p
-    className="sc-cQIpJi jJyENq"
+    className="sc-cbDwiu jaMotE"
   >
     Uppercase Text
   </p>,

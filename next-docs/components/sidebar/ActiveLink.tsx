@@ -1,7 +1,6 @@
 import React, { Children } from 'react';
 import Link, { LinkProps } from 'next/link';
 import { useRouter } from 'next/router';
-import PropTypes from 'prop-types';
 
 type ActiveLinkProps = Partial<React.PropsWithChildren<LinkProps>> & {
   href: string;
@@ -34,10 +33,6 @@ const ActiveLink: React.FC<ActiveLinkProps> = ({
       })}
     </Link>
   );
-};
-
-ActiveLink.propTypes = {
-  activeClassName: PropTypes.string.isRequired,
 };
 
 export default ActiveLink;

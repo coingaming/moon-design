@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import { Text } from '@heathmont/moon-core';
 import {rem} from "@heathmont/moon-utils";
 import styled from "styled-components";
+import Text from '../text/Text';
 import Content from './styles/Content';
 import Wrapper from './styles/Wrapper';
 

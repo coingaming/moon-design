@@ -1,9 +1,9 @@
 import React from 'react';
-import { TextInput } from "@heathmont/moon-core";
+import { TextInput } from '@heathmont/moon-core';
 import styled from 'styled-components';
 import { Select } from '..';
-import {CombinedPropType} from "./types/CombinedInputProps";
-import {Size, TextInputGroupSize} from "./types/CombinedInputSize";
+import { CombinedPropType } from './types/CombinedInputProps';
+import { Size, TextInputGroupSize } from './types/CombinedInputSize';
 import { OrientationType, Orientation } from './types/OrientationType';
 
 const Wrapper = styled.div({
@@ -21,12 +21,12 @@ const SelectGroupStart: React.FC<SelectGroupStartProps> = ({
   inputProps,
   orientation,
   isRtl,
-  size
+  size,
 }) => {
-  const selectSize = size === Size.medium ? Size.medium : Size.large;
-  const inputSize = size === Size.medium ? Size.large : Size.xlarge;
+  const inputSize = size === Size.medium ? Size.large : size;
+  const selectSize = size === Size.xlarge ? 'xLarge' : size;
 
-  if (inputProps && inputProps.type === "select") {
+  if (inputProps && inputProps.type === 'select') {
     return (
       <Wrapper>
         <Select
@@ -40,13 +40,13 @@ const SelectGroupStart: React.FC<SelectGroupStartProps> = ({
           size={selectSize}
         />
       </Wrapper>
-    )
+    );
   }
 
   return (
     <Wrapper>
       <TextInput
-        {...(inputProps ?? { inputSize: Size.medium, type: 'text' })}
+        {...(inputProps ?? { inputSize: 'xlarge', type: 'text' })}
         dir={isRtl ? 'rtl' : 'ltr'}
         isSharpRightSide={orientation === Orientation.horizontal && !isRtl}
         isSharpLeftSide={orientation === Orientation.horizontal && isRtl}
