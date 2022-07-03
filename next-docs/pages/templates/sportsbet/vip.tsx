@@ -22,6 +22,7 @@ import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
 import SbcAwards from '../../../public/templates/sportsbet/sbc-awards.png';
 import support from '../../../public/templates/support.png';
 import Experience from "../components/experience";
+import Explore from "../components/explore";
 import Header from "../components/header";
 import Headline from "../components/headline";
 import Hero from "../components/hero";
@@ -332,29 +333,25 @@ const Vip = () => {
           carouselItems={experienceItems}
           carouselItemBackground='goku'
         />
+
+        <div className='mt-[6] sm:mt-[70px] lg:mt-[200px]'>
+          <Explore
+            title={(<Title
+              text="Explore the world in true VIP style!"
+              classes="mb-4 text-center leading-10 sm:pl-0 sm:leading-0 xl:text-left"
+            />)}
+            subtitle={(<Subtitle
+              classes="text-center px-5 sm:px-0 xl:text-left"
+              text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
+            />)}
+            carouselItems={exploreItems}
+            carouselItemBackground='goku'
+          />
+        </div>
       </div>
 
       <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[124px]">
 
-        <div className="flex flex-col relative mb-0 sm:mt-[230px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
-          <div className="flex flex-col self-stretch w-[380px] justify-center 2xl:ml-24 xl:w-[30%] lg:mx-0 lg:px-0 md:pl-9 sm:w-[100%] sm:mb-20  sm:ml-0 ml-3">
-            <Title
-              text="Explore the world in true VIP style!"
-              classes=" leading-10 mb-4 text-center xl:text-left sm:pl-0 sm:leading-0 "
-            />
-            <Subtitle
-              classes="px-5 sm:text-left sm:px-0"
-              text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
-            />
-          </div>
-          <div className="w-[420px] max-w-[100vw] flex items-center justify-center py-8 lg:w-[645px] lg:h-[684px] sm:px-5 sm:h-full sm:ml-0">
-            <Carousel
-              items={exploreItems.map((items) => (
-                <ExploreCarouselItem items={items} />
-              ))}
-            />
-          </div>
-        </div>
         <div className="w-[100%] mt-[96px] mb-[96px] flex flex-col items-center md:justify-center md:flex-nowrap sm:my-[246px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center ">
           <div className="flex flex-col self-stretch items-center pb-8 xl:w-[600px] xl:pl-0 lg:w-[100%] sm:ps-12 sm:w-[100%] sm:justify-center">
             <Title

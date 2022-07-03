@@ -24,6 +24,7 @@ import handshake from '../../../public/templates/handshake.png';
 import promo from '../../../public/templates/promo.png';
 import support from '../../../public/templates/support.png';
 import Experience from "../components/experience";
+import Explore from "../components/explore";
 import Header from "../components/header";
 import Headline from "../components/headline";
 import Hero from "../components/hero";
@@ -45,82 +46,6 @@ import Youtube from '../icons/youtube';
 import { ChevronLeft } from '../sportsbet/ChevronLeft';
 import { ChevronRight } from '../sportsbet/ChevronRight';
 import BitcasinoLogo from './bitcasino-logo';
-
-interface ExperienceCarousel {
-  index?: number;
-  title: string;
-  points: string[];
-  icon: any;
-}
-
-const ExploreCarouselItem = ({
-  items,
-}: {
-  items: Array<{ image: any; title: string }>;
-}) => {
-  const [itemWidth, setItemWidth] = useState(160);
-  const [itemHeight, setItemHeight] = useState(200);
-
-  useEffect(() => {
-    const resizeItems = () => {
-      if (window?.innerWidth) {
-        setItemWidth(window.innerWidth <= 1024 ? 160 : 280);
-        setItemHeight(window.innerWidth <= 1024 ? 180 : 317);
-      }
-    };
-
-    resizeItems();
-
-    window.addEventListener('resize', resizeItems);
-
-    return () => {
-      window.removeEventListener('resize', resizeItems);
-    };
-  }, []);
-
-  return (
-    <div className="w-full h-full flex p-6">
-      <div className="w-[160px] me-4 flex flex-col items-stretch lg:w-[280px]">
-        <div className="h-16" />
-        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image src={items[0].image} width={itemWidth} height={itemHeight} />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[0].title}
-            </p>
-          </div>
-        </div>
-        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image src={items[1].image} width={itemWidth} height={itemHeight} />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[1].title}
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="w-[160px] me-5 flex flex-col items-stretch lg:w-[280px]">
-        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image src={items[2].image} width={itemWidth} height={itemHeight} />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[2].title}
-            </p>
-          </div>
-        </div>
-        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image src={items[3].image} width={itemWidth} height={itemHeight} />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[3].title}
-            </p>
-          </div>
-        </div>
-        <div className="h-16" />
-      </div>
-    </div>
-  );
-};
 
 const Vip = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -264,61 +189,25 @@ const Vip = () => {
           />)}
           carouselItems={experienceItems}
         />
+
+        <div className='mt-[6] sm:mt-[70px] lg:mt-[200px]'>
+          <Explore
+            title={(<Title
+              text="Explore the world in true VIP style!"
+              classes="mb-4 text-center leading-10 sm:pl-0 sm:leading-0 xl:text-left"
+            />)}
+            subtitle={(<Subtitle
+              classes="text-center px-5 sm:px-0 xl:text-left"
+              text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
+            />)}
+            carouselItems={exploreItems}
+          />
+        </div>
       </div>
 
-      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[124px]">
+      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%]">
 
-        <div className="flex flex-col relative items-center mt-[34px] sm:mt-[230px] mb-0 sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
-          <div className="flex flex-col justify-center w-[380px] sm:self-stretch sm:w-[100%] sm:mb-20 xl:w-[30%] 2xl:ml-24 lg:mx-0 lg:px-0 md:pl-9 sm:ml-0 ml-3">
-            <Title
-              text="Explore the world in true VIP style!"
-              classes="xl:text-left leading-10 sm:pl-0 sm:leading-0 mb-4 text-center"
-            />
-            <Subtitle
-              classes="sm:text-left px-5 sm:px-0"
-              text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
-            />
-          </div>
-          <div className="w-full max-w-[100vw] flex items-center justify-center sm:px-5 py-8 lg:w-[645px] lg:h-[684px] sm:w-[490px] sm:h-full sm:ml-0">
-            <Carousel
-              items={exploreItems.map((items) => (
-                <ExploreCarouselItem items={items} />
-              ))}
-              scrollToLeftButton={({
-                 scrollToStep,
-                 disabled,
-               }: {
-                scrollToStep: any;
-                disabled: boolean;
-              }) =>
-                disabled ? (<></>) : (<div
-                  className="flex justify-center items-center w-8 h-8 bg-gohan absolute top-[50%] -translate-y-[50%] -translate-x-[150%] rounded-full"
-                  onClick={() => {
-                    if (!disabled) scrollToStep();
-                  }}
-                >
-                  <ChevronLeft fontSize="1.5rem" />
-                </div>)
-              }
-              scrollToRightButton={({
-                 scrollToStep,
-                 disabled,
-              }: {
-                scrollToStep: any;
-                disabled: boolean;
-              }) =>
-                disabled ? (<></>) : (<div
-                  className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] right-0 -translate-y-[50%] translate-x-[150%] rounded-full"
-                  onClick={() => {
-                    if (!disabled) scrollToStep();
-                  }}
-                >
-                  <ChevronRight fontSize="1.5rem" />
-                </div>)
-              }
-            />
-          </div>
-        </div>
+
         <div className="mt-[96px] mb-[96px] flex flex-col items-center sm:my-[246px] md:justify-center sm:flex-row-reverse sm:top-0 md:flex-nowrap sm:flex-wrap sm:justify-center w-[100%] ">
           <div className="flex flex-col sm:self-stretch sm:align-center px-5 sm:p-0 lg:ps-16 sm:w-[100%] sm:justify-center lg:w-[600px] md:w-[100%]">
             <Title
