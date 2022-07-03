@@ -23,6 +23,7 @@ import SbcAwards from '../../../public/templates/sportsbet/sbc-awards.png';
 import support from '../../../public/templates/support.png';
 import Experience from "../components/experience";
 import Explore from "../components/explore";
+import Family from "../components/family";
 import Header from "../components/header";
 import Headline from "../components/headline";
 import Hero from "../components/hero";
@@ -348,29 +349,22 @@ const Vip = () => {
             carouselItemBackground='goku'
           />
         </div>
+        <Family
+          title={(<Title
+            text="VIP runs in the family"
+            classes="mb-4 leading-10 sm:text-center md:text-left md:self-start lg:w-[510px]"
+          />)}
+          subtitle={(<Subtitle
+            classes="text-center w-[348px] px-5 pb-[32px] sm:pb-0 sm:w-[100%] md:text-left md:self-start lg:w-[510px]"
+            text="Sportsbet has legendary athletes in our VIP club. Join our high
+              profile community of crypto leaders and high-rollers!"
+          />)}
+          image='/templates/sportsbet/partnership.png'
+        />
       </div>
 
       <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[124px]">
 
-        <div className="w-[100%] mt-[96px] mb-[96px] flex flex-col items-center md:justify-center md:flex-nowrap sm:my-[246px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center ">
-          <div className="flex flex-col self-stretch items-center pb-8 xl:w-[600px] xl:pl-0 lg:w-[100%] sm:ps-12 sm:w-[100%] sm:justify-center">
-            <Title
-              text="VIP runs in the family"
-              classes="mb-4 leading-10 lg:w-[510px] sm:text-center md:text-left md:pl-0"
-            />
-            <Subtitle
-              classes="text-center w-[348px] px-5 pb-[32px] lg:w-[510px] sm:text-left sm:pb-0 sm:w-[100%]"
-              text="Sportsbet has legendary athletes in our VIP club. Join our high
-              profile community of crypto leaders and high-rollers!"
-            />
-          </div>
-          <div
-            className="max-w-[100vw] bg-contain bg-center bg-no-repeat w-[340px] h-[238px]  xl:mr-[144px] sm:w-[482px] sm:h-[384px]"
-            style={{
-              backgroundImage: 'url(/templates/sportsbet/partnership.png)',
-            }}
-          />
-        </div>
         <div className="flex flex-col w-[95vw] sm:mt-0 sm:w-[100%]">
           <Title
             text="Ready to step up the game?"

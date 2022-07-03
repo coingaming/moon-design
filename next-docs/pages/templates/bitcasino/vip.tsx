@@ -25,6 +25,7 @@ import promo from '../../../public/templates/promo.png';
 import support from '../../../public/templates/support.png';
 import Experience from "../components/experience";
 import Explore from "../components/explore";
+import Family from "../components/family";
 import Header from "../components/header";
 import Headline from "../components/headline";
 import Hero from "../components/hero";
@@ -189,7 +190,6 @@ const Vip = () => {
           />)}
           carouselItems={experienceItems}
         />
-
         <div className='mt-[6] sm:mt-[70px] lg:mt-[200px]'>
           <Explore
             title={(<Title
@@ -203,29 +203,22 @@ const Vip = () => {
             carouselItems={exploreItems}
           />
         </div>
+        <Family
+          title={(<Title
+            text="VIP runs in the family"
+            classes="mb-4 leading-10 sm:text-center md:text-left md:self-start lg:w-[510px]"
+          />)}
+          subtitle={(<Subtitle
+            classes="text-center w-[348px] px-5 pb-[32px] sm:pb-0 sm:w-[100%] md:text-left md:self-start lg:w-[510px]"
+            text="Sportsbet has legendary athletes in our VIP club. Join our high
+              profile community of crypto leaders and high-rollers!"
+          />)}
+          image='/templates/bitcasino/partnership.png'
+        />
       </div>
 
       <div className="flex flex-col items-center self-center mt-16 sm:w-[80%]">
 
-
-        <div className="mt-[96px] mb-[96px] flex flex-col items-center sm:my-[246px] md:justify-center sm:flex-row-reverse sm:top-0 md:flex-nowrap sm:flex-wrap sm:justify-center w-[100%] ">
-          <div className="flex flex-col sm:self-stretch sm:align-center px-5 sm:p-0 lg:ps-16 sm:w-[100%] sm:justify-center lg:w-[600px] md:w-[100%]">
-            <Title
-              text="VIP runs in the family"
-              classes="md:text-left sm:text-center lg:w-[510px]  mb-4 leading-10"
-            />
-            <Subtitle
-              classes="sm:text-left lg:w-[510px] w-[348px] px-5 pb-[32px] sm:pb-0 sm:w-[100%]"
-              text="From artists to visionaries, Bitcasino has the most talented individuals in our VIP club. Join our high profile group of crypto leaders and high-rollers!"
-            />
-          </div>
-          <div
-            className=" max-w-[100vw] bg-contain bg-center bg-no-repeat w-[340px] h-[238px]  sm:w-[482px] sm:h-[384px] xl:mr-[144px]"
-            style={{
-              backgroundImage: 'url(/templates/bitcasino/partnership.png)',
-            }}
-          />
-        </div>
         <div className="flex flex-col sm:mt-0 w-[95vw] sm:w-[100%]">
           <Title
             classes="mb-4 p-5 leading-10"
