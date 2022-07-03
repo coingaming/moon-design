@@ -571,7 +571,11 @@ const Vip = () => {
               />
             </div>
             <div className=" mb-2">
-              <Accordion title={'Casino'} isContentInside={true}>
+              <Accordion
+                title={'Casino'}
+                isContentInside={true}
+                backgroundColor='goku'
+              >
                 <div className="flex flex-col">
                   <p className="mb-3 text-trunks text-xs">Casino</p>
                   <p className="mb-3 text-trunks text-xs">Live Casino</p>
@@ -580,7 +584,7 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-2">
-              <Accordion title={'Support'} isContentInside={true}>
+              <Accordion backgroundColor='goku' title={'Support'} isContentInside={true}>
                 <div className="flex flex-col">
                   <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
                   <p className="mb-3 text-trunks text-xs">
@@ -600,7 +604,7 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-2">
-              <Accordion title={'About'} isContentInside={true}>
+              <Accordion backgroundColor='goku' title={'About'} isContentInside={true}>
                 <div className="flex flex-col">
                   <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
                   <p className="mb-3 text-trunks text-xs">Affiliates</p>
@@ -623,7 +627,7 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-2">
-              <Accordion title={'Preferences'} isContentInside={true}>
+              <Accordion backgroundColor='goku' title={'Preferences'} isContentInside={true}>
                 <div className="flex flex-col">
                   <div className="rounded-[100px] flex flex-col bg-beerus mb-4 ">
                     <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
@@ -639,7 +643,7 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-2">
-              <Accordion title={'Accapted Methods'} isContentInside={true}>
+              <Accordion backgroundColor='goku' title={'Accapted Methods'} isContentInside={true}>
                 <div className="flex flex-col ">
                   <div className="flex w-[70%] flex-wrap items-center ">
                     <div className=" bg-[#345D9D] rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
@@ -679,7 +683,7 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-2">
-              <Accordion title={'Follow Sportsbook.io'} isContentInside={true}>
+              <Accordion backgroundColor='goku' title={'Follow Sportsbook.io'} isContentInside={true}>
                 <div className="flex flex-col">
                   <div className="flex flex-wrap">
                     <div className="bg-[#27A4DB] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
@@ -705,7 +709,7 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-5">
-              <Accordion title={'Sponsorships'} isContentInside={true}>
+              <Accordion backgroundColor='goku' title={'Sponsorships'} isContentInside={true}>
                 <div className="flex flex-wrap">
                   <div className="flex flex-wrap">
                     <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
@@ -725,9 +729,9 @@ const Vip = () => {
               </Accordion>
             </div>
           </div>
-          <div className="flex justify-center mb-6 md:hidden ">
-            <div className="rounded-[100px] bg-beerus flex justify-center align-middle">
-              <span className="my-[6px] ml-3 mr-[17px]">
+          <div className="flex justify-center mb-6 md:hidden">
+            <div className="rounded-[100px] bg-beerus flex justify-center items-center">
+              <span className="mt-[6px] ml-3 mr-[17px]">
                 <Image src={image1} className="mt-[6px]" />
               </span>
             </div>
