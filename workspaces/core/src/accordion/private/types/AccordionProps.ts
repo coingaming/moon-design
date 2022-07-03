@@ -10,6 +10,7 @@ type AccordionProps = {
   withButton?: boolean;
   isContentInside?: boolean;
   isRtl?: boolean;
+  backgroundColor?: string;
 };
 
 export default AccordionProps;

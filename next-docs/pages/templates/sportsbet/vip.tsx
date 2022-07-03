@@ -564,7 +564,11 @@ const Vip = () => {
           </div>
           <div className="flex flex-col md:hidden">
             <div className=" mb-2">
-              <Accordion title={'List item'} isContentInside={true} />
+              <Accordion
+                title={'List item'}
+                isContentInside={true}
+                backgroundColor='goku'
+              />
             </div>
             <div className=" mb-2">
               <Accordion title={'Casino'} isContentInside={true}>
