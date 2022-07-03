@@ -1,7 +1,7 @@
 import React, {ReactNode, useEffect, useState} from 'react';
 import { Carousel , Switch } from '@heathmont/moon-components';
 import { Button , Accordion } from '@heathmont/moon-core-tw';
-import { MailEnvelope, ArrowsLeft, ShopCrypto } from '@heathmont/moon-icons';
+import { MailEnvelope } from '@heathmont/moon-icons';
 
 import { ControlsChevronDown, ControlsChevronRight } from '@heathmont/moon-icons-tw';
 import Image from 'next/image';
@@ -24,6 +24,9 @@ import handshake from '../../../public/templates/handshake.png';
 import promo from '../../../public/templates/promo.png';
 import support from '../../../public/templates/support.png';
 import Header from "../components/header";
+import Headline from "../components/headline";
+import Hero from "../components/hero";
+import Subtitle from "../components/subtitle";
 import Bitcasino from '../icons/bitcasino';
 import Cardano from '../icons/cardano';
 import DogeCoin from '../icons/dogeCoin';
@@ -146,28 +149,9 @@ const ExploreCarouselItem = ({
   );
 };
 
-const Headline = ({ text, classes }: { text: string, classes?: string }) => (
-  <p
-    className={`text-[32px] text-center font-semibold p-4 sm:text-left sm:text-moon-48 lg:text-[64px] lg:leading-[4.5rem] ${
-      classes ?? ''
-    }`}
-    style={{ letterSpacing: typeof window !== 'undefined' && window.innerWidth <= 660 ? '-0.5px' : '-2px' }}
-  >
-    {text}
-  </p>
-);
 const Title = ({ text, classes }: { text: string; classes?: string }) => (
   <p
     className={`text-[32px] text-center font-semibold p-4 lg:text-moon-48 sm:text-moon-32 ${
-      classes ?? ''
-    }`}
-  >
-    {text}
-  </p>
-);
-const Subtitle = ({ text, classes }: { text: string; classes?: string }) => (
-  <p
-    className={`text-[16px] text-center px-3 pt-2 lg:text-moon-24 sm:text-moon-16 ${
       classes ?? ''
     }`}
   >
@@ -280,54 +264,31 @@ const Vip = () => {
         height={40}
         isScrolled={isScrolled}
       />
-      <div
-        className="h-[800px] flex flex-col justify-center items-center bg-bottom relative sm:bg-[url('/templates/bitcasino/pattern.png')] sm:mb-0 sm:flex sm:flex-row-reverse sm:items-stretch"
-        style={{ backgroundSize: 'auto 100%' }}
-      >
-        <div className="flex sm:items-center sm:h-[679px] sm:mt-[120px] sm:relative sm:-left-[50px]">
-          <div className="relative w-full justify-end self-end">
-            <div className="max-w-[900px] sm:min-w-[500px] md:ml-15 lg:min-w-[600px]">
-              <Image src={KingKaka} objectFit="contain" />
-            </div>
-            <div
-              className="absolute left-0 bottom-0 w-full h-[150px] sm:hidden"
-              style={{
-                background:
-                  'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F 100%',
-              }}
-            />
-          </div>
-        </div>
-        <div className="flex flex-col absolute top-[60%] px-8 -mb-10 -bottom-48 z-1 sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center md:w-[65%]">
-          <div className="flex flex-col items-center max-w-full bottom-4 sm:items-start sm:mt-[244px] sm:w-[720px] sm:ml-[248px]">
-            <Headline
-              text="Bitcasino VIP: For money can’t buy experiences!"
-              classes="sm:px-0"
-            />
-            <Subtitle
-              classes="items-center mt-3 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
-              text=" Join the VIP Bitcasino Club - An exclusive world of crypto leaders
-              and high-rollers who dare to take risks and enjoy life to its
-              fullest."
-            />
-            <Button
-              variant="primary"
-              width={124}
-              height={48}
-              className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:mx-0 sm:px-0 sm:self-start w-full sm:w-[124px] "
-            >
-              Sign up now
-            </Button>
-          </div>
-        </div>
-        <div
-          className="hidden absolute left-0 bottom-0 w-full h-[150px] sm:block"
-          style={{
-            background:
-              'linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F  100%',
-          }}
-        />
-      </div>
+
+      <Hero
+        headline={(<Headline
+          text="Bitcasino VIP: For money can’t buy experiences!"
+          classes="sm:px-0"
+        />)}
+        subtitle={(<Subtitle
+          classes="items-center mt-3 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
+          text=" Join the VIP Bitcasino Club - An exclusive world of crypto leaders
+                and high-rollers who dare to take risks and enjoy life to its
+                fullest."
+        />)}
+        button={(<Button
+          variant="primary"
+          width={124}
+          height={48}
+          className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:mx-0 sm:px-0 sm:self-start w-full sm:w-[124px] "
+        >
+          Sign up now
+        </Button>)}
+        wrapperClasses="sm:bg-[url('/templates/bitcasino/pattern.png')]"
+        heroImage={(<Image src={KingKaka} objectFit="contain" />)}
+        bottomGradient='linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F 100%'
+      />
+
       <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[124px]">
         <div className="w-full flex flex-col items-center relative -top-[30px] mb-8 sm:top-0 sm:mb-0 lg:w-[1232px] ">
           <Title
