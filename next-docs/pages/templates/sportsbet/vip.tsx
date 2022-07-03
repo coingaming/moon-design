@@ -21,6 +21,7 @@ import Curacao from '../../../public/templates/sportsbet/curacao.png';
 import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
 import SbcAwards from '../../../public/templates/sportsbet/sbc-awards.png';
 import support from '../../../public/templates/support.png';
+import Experience from "../components/experience";
 import Header from "../components/header";
 import Headline from "../components/headline";
 import Hero from "../components/hero";
@@ -289,7 +290,6 @@ const Vip = () => {
         height={40}
         isScrolled={isScrolled}
       />
-
       <Hero
         headline={(<Headline
           text="Bitcasino VIP: For money can’t buy experiences!"
@@ -318,67 +318,24 @@ const Vip = () => {
         bottomGradient='linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)'
       />
 
-      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[124px]">
-        <div className="w-full flex flex-col items-center relative -top-[30px] mb-8 sm:top-0 sm:mb-0 lg:w-[1232px] ">
-          <Title
+      <div className="flex flex-col items-center self-center mt-[200px] sm:w-[80%] sm:mt-[124px]">
+        <Experience
+          title={(<Title
             text="A VIP experience tailored to your liking"
-            classes="w-[348px] leading-10 mb-4 sm:mb-0 md:w-[944px] sm:w-[600px] sm:leading-0"
-          />
-          <Subtitle
+            classes="w-[380px] leading-10 mb-4 sm:mb-0 md:w-[944px] sm:w-[600px] sm:leading-0"
+          />)}
+          subtitle={(<Subtitle
+            classes="w-[348px] p-5 md:w-[700px] sm:w-[650px] sm:p-0 sm:pt-4"
             text="Enjoy exclusive bonuses and invites to prestigious events for free.
-            Get all your indulgences taken care of."
-            classes="w-[348px] p-5 md:w-[944px] sm:w-[650px] sm:p-0"
-          />
-          <div className="w-full flex max-w-[100vw] items-center justify-center px-5 pt-8 xl:min-w-[1232px] lg:min-w-[900px] lg:max-w-[80vw] lg:mt-[124px] sm:mt-12 sm:max-w-[80vw]">
-            <Carousel
-              step={1}
-              scrollToLeftButton={({
-                scrollToStep,
-                disabled,
-              }: {
-                scrollToStep: any;
-                disabled: boolean;
-              }) =>
-                disabled ? (<></>) : (<div
-                  className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] -translate-y-[50%] -translate-x-[150%] rounded-full"
-                  onClick={() => {
-                    if (!disabled) scrollToStep();
-                  }}
-                >
-                  <ChevronLeft fontSize="1.5rem" />
-                </div>)
-              }
-              scrollToRightButton={({
-                scrollToStep,
-                disabled,
-              }: {
-                scrollToStep: any;
-                disabled: boolean;
-              }) =>
-                disabled ? (
-                  <></>
-                ) : (
-                  <div
-                    className="flex justify-center items-center w-8 h-8 bg-goku absolute top-[50%] right-0 -translate-y-[50%] translate-x-[150%] rounded-full"
-                    onClick={() => {
-                      if (!disabled) scrollToStep();
-                    }}
-                  >
-                    <ChevronRight fontSize="1.5rem" />
-                  </div>
-                )
-              }
-              items={experienceItems.map((item, index) => (
-                <ExperienceCarouselItem
-                  title={item.title}
-                  points={item.points}
-                  icon={item.icon}
-                  index={index}
-                />
-              ))}
-            />
-          </div>
-        </div>
+              Get all your indulgences taken care of."
+          />)}
+          carouselItems={experienceItems}
+          carouselItemBackground='goku'
+        />
+      </div>
+
+      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[124px]">
+
         <div className="flex flex-col relative mb-0 sm:mt-[230px] sm:flex-row-reverse sm:top-0 sm:flex-wrap sm:justify-center">
           <div className="flex flex-col self-stretch w-[380px] justify-center 2xl:ml-24 xl:w-[30%] lg:mx-0 lg:px-0 md:pl-9 sm:w-[100%] sm:mb-20  sm:ml-0 ml-3">
             <Title
