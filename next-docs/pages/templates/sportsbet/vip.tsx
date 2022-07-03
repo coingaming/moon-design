@@ -21,6 +21,7 @@ import Curacao from '../../../public/templates/sportsbet/curacao.png';
 import SportsbetLogo from '../../../public/templates/sportsbet/logo.png';
 import SbcAwards from '../../../public/templates/sportsbet/sbc-awards.png';
 import support from '../../../public/templates/support.png';
+import CTA from "../components/cta";
 import Experience from "../components/experience";
 import Explore from "../components/explore";
 import Family from "../components/family";
@@ -361,48 +362,24 @@ const Vip = () => {
           />)}
           image='/templates/sportsbet/partnership.png'
         />
-      </div>
-
-      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[124px]">
-
-        <div className="flex flex-col w-[95vw] sm:mt-0 sm:w-[100%]">
-          <Title
+        <CTA
+          title={(<Title
             text="Ready to step up the game?"
             classes="mb-4 p-5 leading-10"
-          />
-          <Subtitle
+          />)}
+          subtitle={(<Subtitle
             text="Entry into our VIP Club is by invitation only. Get in touch with us
             to see what a tailored VIP package could look like for you. Join the
             family now!"
             classes="w-[100%] mb-4 p-5"
-          />
-          <div className="flex flex-col mb-[72px] w-full sm:w-auto sm:mb-[88px] sm:flex-row sm:justify-center sm:items-center">
-            <Button
-              variant="primary"
-              className="btn-primary  py-3 px-9 gap-1 text-moon-16 rounded-moon-i-sm mx-1 my-2 sm:w-[130px] sm:self-start"
-            >
-              Sign up
-            </Button>
+          />)}
+          handleSignup={() => console.log('SIGN UP clicked')}
+          handleContact={() => console.log('CONTACT clicked')}
+        />
+      </div>
 
-            <Button
-              variant="primary"
-              className="w-full flex font-semibold items-center ml-0 btn-tertiary p-[20px] gap-1 text-moon-16 rounded-moon-i-sm mx-2 my-2 sm:w-[150px] sm:p-0 sm:py-3 sm:px-5 sm:justify-between sm:self-start"
-              icon="left"
-              style={{
-                background: 'rgba(255, 255, 255, 0.08)',
-                backdropFilter: 'blur(24px)',
-              }}
-            >
-              <div className="w-full flex flex-row justify-between items-center ">
-                <div>
-                  <MailEnvelope width={24} height={24} />
-                </div>
-                <div className="">Contact us</div>
-                <div></div>
-              </div>
-            </Button>
-          </div>
-        </div>
+      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%] sm:mt-[124px]">
+
         <div className="flex flex-col my-12">
           <p className="text-moon-18 text-center font-semibold p-4 mb-4">
             Join us and talk to us

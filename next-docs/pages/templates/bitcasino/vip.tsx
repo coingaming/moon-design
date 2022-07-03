@@ -23,6 +23,7 @@ import gift from '../../../public/templates/gift.png';
 import handshake from '../../../public/templates/handshake.png';
 import promo from '../../../public/templates/promo.png';
 import support from '../../../public/templates/support.png';
+import CTA from "../components/cta";
 import Experience from "../components/experience";
 import Explore from "../components/explore";
 import Family from "../components/family";
@@ -215,44 +216,24 @@ const Vip = () => {
           />)}
           image='/templates/bitcasino/partnership.png'
         />
-      </div>
-
-      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%]">
-
-        <div className="flex flex-col sm:mt-0 w-[95vw] sm:w-[100%]">
-          <Title
-            classes="mb-4 p-5 leading-10"
+        <CTA
+          title={(<Title
             text="Ready to step up the game?"
-          />
-          <Subtitle
+            classes="mb-4 p-5 leading-10"
+          />)}
+          subtitle={(<Subtitle
             text="Entry into our VIP Club is by invitation only. Get in touch with us
             to see what a tailored VIP package could look like for you. Join the
             family now!"
             classes="w-[100%] mb-4 p-5"
-          />
-          <div className="flex flex-col mb-[72px] sm:mb-[88px] w-full sm:w-auto sm:flex-row sm:justify-center sm:items-center">
-            <Button
-              variant="primary"
-              className="w-full sm:w-[130px] btn-primary p-[20px] sm:py-3 sm:px-5 text-moon-16 font-semibold rounded-moon-i-sm sm:mx-4 my-2 sm:self-start"
-            >
-              Sign up
-            </Button>
+          />)}
+          handleSignup={() => console.log('SIGN UP clicked')}
+          handleContact={() => console.log('CONTACT clicked')}
+        />
+      </div>
 
-            <Button
-              variant="primary"
-              className="w-full sm:w-[150px] bg-[#FFFFFF14] flex font-semibold items-center ml-0 btn-tertiary p-[20px] sm:p-0 sm:py-3 sm:px-5 gap-1 text-moon-16 rounded-moon-i-sm mx-2 my-2 sm:justify-between sm:self-start"
-              icon="left"
-            >
-              <div className="w-full flex flex-row justify-between ">
-                <div>
-                  <MailEnvelope width={24} height={24} />
-                </div>
-                <div>Contact us</div>
-                <div></div>
-              </div>
-            </Button>
-          </div>
-        </div>
+      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%]">
+
         <div className="flex flex-col ">
           <p className="text-moon-32 text-center font-semibold p-4 mb-4">
             Join us and talk to us
