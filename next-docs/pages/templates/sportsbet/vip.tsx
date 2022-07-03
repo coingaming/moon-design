@@ -377,7 +377,7 @@ const Vip = () => {
           handleSignup={() => console.log('SIGN UP clicked')}
           handleContact={() => console.log('CONTACT clicked')}
         />
-        <div className='mt-[88px]'>
+        <div className='mt-[70px] sm:mt-[88px]'>
           <Social
             title='Join us and talk to us'
             onClick={(social: string) => console.log(`Social link - ${social}`)}

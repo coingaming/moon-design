@@ -26,12 +26,12 @@ const CTA = ({
       >Sign up</Button>
       <Button
         variant="primary"
-        className="w-full flex font-semibold items-center ml-0 btn-tertiary p-[20px] gap-1 text-moon-16 rounded-moon-i-sm m-2 bg-[#FFFFFF14] sm:w-[150px] sm:p-0 sm:py-3 sm:px-5 sm:justify-between sm:self-start"
+        className="w-full flex font-semibold items-center relative ml-0 btn-tertiary p-[20px] gap-1 text-moon-16 rounded-moon-i-sm m-2 bg-[#FFFFFF14] sm:w-[150px] sm:p-0 sm:py-3 sm:px-5 sm:justify-between sm:self-start"
         icon="left"
         onClick={() => { if (handleContact) handleContact() }}
       >
         <div className="flex flex-row justify-center w-full sm:justify-between">
-          <div>
+          <div className="absolute left-4 sm:static sm:left-0">
             <MailEnvelope width={24} height={24} />
           </div>
           <div>Contact us</div>

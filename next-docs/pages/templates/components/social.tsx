@@ -17,7 +17,7 @@ const Social = ({
   onClick
 }: Props) => {
   return (<div className="flex flex-col">
-    <p className="text-moon-18 text-center font-semibold p-4 mb-4">
+    <p className="text-[32px] text-center font-semibold p-4 mb-4">
       {title}
     </p>
     <div className="flex gap-2">
