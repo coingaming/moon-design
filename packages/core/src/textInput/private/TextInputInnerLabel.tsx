@@ -55,7 +55,6 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
       dir,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      backgroundColor,
       ...rest,
     };
     const containerProps = {
@@ -64,7 +63,6 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputMediumProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      bgColor: backgroundColor,
     };
     return (
       <Container {...containerProps}>

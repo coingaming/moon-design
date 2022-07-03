@@ -65,6 +65,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       dir,
       isTopBottomBorderHidden,
       isSideBorderHidden,
+      bgColor: backgroundColor,
       ...rest,
     };
 
@@ -74,7 +75,6 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      bgColor: backgroundColor,
     };
 
     if (inputSize === Size.XLARGE) {

@@ -1,5 +1,24 @@
 # @heathmont/moon-core-tw
 
+## 9.2.0
+
+### Minor Changes
+
+- Release icons & pnpm7
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.2.0
+
+## 9.1.8
+
+### Patch Changes
+
+- Authcode data attr
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.1.8
+
 ## 9.1.7
 
 ### Patch Changes

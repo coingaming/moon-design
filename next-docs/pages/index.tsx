@@ -15,7 +15,7 @@ const Home = () => (
       </div>
       <div className="flex flex-col gap-16">
         <PageTitle />
-        <div className="flex flex-col lg:flex-row gap-4 3xl:fixed 3xl:top-12 3xl:right-12 3xl:z-10">
+        <div className="flex flex-col lg:flex-row gap-4 3xl:fixed 3xl:top-12 ltr:3xl:right-12 rtl:3xl:left-12 3xl:z-10">
           <ForDevelopers />
           <ForDesigners />
         </div>

@@ -10,7 +10,7 @@ import Sizes from '../../public/examples/buttonTW/Sizes';
 import Variants from '../../public/examples/buttonTW/Variants';
 import useExamples from '../../utils/useExamples';
 
-const PageButton = () => {
+const Example = () => {
   const examples = useExamples('buttonTW');
   return (
     <>
@@ -62,4 +62,4 @@ const PageButton = () => {
   );
 };
 
-export default PageButton;
+export default Example;

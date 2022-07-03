@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -12,16 +12,16 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g filter="url(#TypeDrag_svg__filter0_d_3471:554)">
+    <g filter="url(#TypeDrag_svg__filter0_d_4798_4674)">
       <path
-        d="M22.93 16.327l.307-.337-.307-.337-2.56-2.81-.87-.954v2.621h-7.01v-2.617l-.869.95-2.57 2.81-.308.337.308.338 2.57 2.81.87.95V17.49h7.01v2.601l.869-.954 2.56-2.81z"
+        d="M22.93 16.327l.306-.337-.306-.337-2.56-2.81-.87-.954v2.621h-7.01v-2.617l-.869.95-2.57 2.81-.309.337.309.338 2.57 2.81.869.95V17.49h7.01v2.601l.87-.954 2.56-2.81z"
         fill="currentColor"
         stroke="#fff"
       />
     </g>
     <defs>
       <filter
-        id="TypeDrag_svg__filter0_d_3471:554"
+        id="TypeDrag_svg__filter0_d_4798_4674"
         x={-2}
         y={0}
         width={36}
@@ -40,11 +40,11 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
         <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
         <feBlend
           in2="BackgroundImageFix"
-          result="effect1_dropShadow_3471:554"
+          result="effect1_dropShadow_4798_4674"
         />
         <feBlend
           in="SourceGraphic"
-          in2="effect1_dropShadow_3471:554"
+          in2="effect1_dropShadow_4798_4674"
           result="shape"
         />
       </filter>

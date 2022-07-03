@@ -132,6 +132,78 @@ exports[`Loader renders default 1`] = `
 </div>
 `;
 
+exports[`Loader renders default dark 1`] = `
+<div
+  className="w-10 h-10 relative rounded-full"
+>
+  <div
+    className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    style={
+      Object {
+        "animationDelay": "-0.45s",
+      }
+    }
+  />
+  <div
+    className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    style={
+      Object {
+        "animationDelay": "-0.3s",
+      }
+    }
+  />
+  <div
+    className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    style={
+      Object {
+        "animationDelay": "-0.15s",
+      }
+    }
+  />
+  <div
+    className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+  />
+</div>
+`;
+
+exports[`Loader renders default rtl 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="w-10 h-10 relative rounded-full"
+  >
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.45s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.3s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      style={
+        Object {
+          "animationDelay": "-0.15s",
+        }
+      }
+    />
+    <div
+      className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    />
+  </div>
+</div>
+`;
+
 exports[`Loader renders sizes 1`] = `
 Array [
   <div

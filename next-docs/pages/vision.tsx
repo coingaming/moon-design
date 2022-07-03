@@ -72,7 +72,7 @@ const PageVision = () => (
         ]}
       />
     </div>
-    <div className="fixed top-0 right-0 w-[650px] 2xl:w-[892px] translate-x-1/3 -translate-y-1/3">
+    <div className="fixed top-0 ltr:right-0 rtl:left-0 w-[650px] 2xl:w-[892px] ltr:translate-x-1/3 rtl:-translate-x-1/3 -translate-y-1/3">
       <Image src={imageMoon} alt="Moon" />
     </div>
   </>

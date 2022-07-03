@@ -5,6 +5,7 @@ import {
   LogoMoonDesignShort,
   LogoBetaddaShort,
 } from '@heathmont/moon-assets';
+import useRtl from '../../../utils/useRtl';
 import ReactElixirSwitcher from '../common/ReactElixirSwitcher';
 import SettingsButton from '../common/SettingsButton';
 import DarkLightModeSwitcher from '../react/DarkLightModeSwitch';
@@ -40,26 +41,16 @@ const ElixirSettings: React.FC<Props> = ({
   } = useContext(store);
   const [isOpened, setIsOpened] = useState(false);
   const toggle = () => setIsOpened(!isOpened);
-  const [isRtlEnabled, setIsRtl] = useState(false);
-  const toggleRtl = () => {
-    const htmlTag = document && document?.getElementsByTagName('html')[0];
-    setIsRtl(!isRtlEnabled);
-    const dirAttr = htmlTag.getAttribute('dir');
-    if (!dirAttr) {
-      htmlTag.setAttribute('dir', 'rtl');
-    } else {
-      htmlTag.removeAttribute('dir');
-    }
-  };
+  const { toggleRtl, isRtlEnabled } = useRtl();
   const setElixirTheme = (theme: ElixirThemeType) => {
     dispatch({ type: 'setTheme', payload: theme });
   };
   return (
     <>
-      <SettingsButton onClick={toggle} isRtlEnabled={isRtlEnabled} />
+      <SettingsButton onClick={toggle} />
       {isOpened && (
         <>
-          <div className="right-4 fixed bottom-16 z-50">
+          <div className="ltr:right-4 rtl:left-4 fixed bottom-16 z-50">
             {elixirThemeKeys.map((themeKey: ElixirThemeType) => (
               <BrandThemeButton
                 key={themeKey}
@@ -69,7 +60,7 @@ const ElixirSettings: React.FC<Props> = ({
               </BrandThemeButton>
             ))}
           </div>
-          <div className={'right-4 fixed bottom-28 z-50'}>
+          <div className="ltr:right-4 rtl:left-4 fixed bottom-28 z-50">
             <DarkLightModeSwitcher
               toggle={() =>
                 dispatch({
@@ -81,14 +72,10 @@ const ElixirSettings: React.FC<Props> = ({
               isEnabled={isDarkMode}
             />
           </div>
-          <div
-            className={`${
-              isRtlEnabled ? `left-4` : `right-4`
-            } fixed bottom-40 z-50`}
-          >
+          <div className="ltr:right-4 rtl:left-4 fixed bottom-40 z-50">
             <RTLModeSwitch toggle={toggleRtl} isEnabled={isRtlEnabled} />
           </div>
-          <div className={'right-4 fixed bottom-40 z-50'}>
+          <div className="ltr:right-4 rtl:left-4 fixed bottom-40 z-50">
             <ReactElixirSwitcher
               toggle={toggleReactAndElixir}
               isReactEnabled={!isElixirEnabled}

@@ -19,14 +19,14 @@ const Example = () => {
 
   const inputProps = {
     type: 'text',
-    placeholder: 'Country',
+    placeholder: 'Set country',
+    label: 'Country',
   };
 
   const selectProps = {
     type: 'select',
     options,
-    label: 'select',
-    placeholderSlot: 'Choose an option',
+    placeholderSlot: 'City',
   };
 
   return (
@@ -36,14 +36,12 @@ const Example = () => {
           input1: inputProps,
           input2: selectProps,
         }}
-        size="medium"
       />
       <TextInputGroup
         inputProps={{
           input1: selectProps,
           input2: inputProps,
         }}
-        size="medium"
       />
     </div>
   );

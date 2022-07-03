@@ -5,70 +5,70 @@ exports[`TextInput: type Date renders disabled 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX btMRNz"
+    className="sc-hZiMVj ejLjyl"
     disabled={true}
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL JOvHL"
+      className="sc-hQikvm kjvnfL"
       disabled={true}
       placeholder=" "
       type="date"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX btMRNz"
+    className="sc-hZiMVj ejLjyl"
     disabled={true}
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL gsTWKg"
+      className="sc-hQikvm cwcNaw"
       disabled={true}
       placeholder=" "
       type="date"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX btMRNz"
+    className="sc-hZiMVj ejLjyl"
     disabled={true}
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL ubFMP"
+        className="sc-hQikvm kMCGiK"
         disabled={true}
         placeholder=" "
         type="date"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
@@ -82,64 +82,64 @@ exports[`TextInput: type Date renders error 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL kDWyPF"
+      className="sc-hQikvm fQiIiJ"
       placeholder="Placeholder"
       type="date"
     />
     <p
-      className="sc-VcoSR jatpWO"
+      className="sc-McAUB fEGrYJ"
       role="alert"
     >
       Error message
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL fWoZBG"
+      className="sc-hQikvm icNZZq"
       placeholder="Placeholder"
       type="date"
     />
     <p
-      className="sc-VcoSR jatpWO"
+      className="sc-McAUB fEGrYJ"
       role="alert"
     >
       Error message
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL tiNjh"
+        className="sc-hQikvm gZdjbA"
         placeholder="Placeholder"
         type="date"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-VcoSR jatpWO"
+      className="sc-McAUB fEGrYJ"
       role="alert"
     >
       Error message
@@ -153,67 +153,67 @@ exports[`TextInput: type Date renders readOnly 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL JOvHL"
+      className="sc-hQikvm kjvnfL"
       placeholder=" "
       readOnly={true}
       type="date"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL gsTWKg"
+      className="sc-hQikvm cwcNaw"
       placeholder=" "
       readOnly={true}
       type="date"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL ubFMP"
+        className="sc-hQikvm kMCGiK"
         placeholder=" "
         readOnly={true}
         type="date"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
@@ -227,64 +227,64 @@ exports[`TextInput: type Date renders with hint 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL JOvHL"
+      className="sc-hQikvm kjvnfL"
       placeholder="Placeholder"
       type="date"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL gsTWKg"
+      className="sc-hQikvm cwcNaw"
       placeholder="Placeholder"
       type="date"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL ubFMP"
+        className="sc-hQikvm kMCGiK"
         placeholder="Placeholder"
         type="date"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
@@ -298,46 +298,46 @@ exports[`TextInput: type Date renders with label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL JOvHL"
+      className="sc-hQikvm kjvnfL"
       placeholder="Placeholder"
       type="date"
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL gsTWKg"
+      className="sc-hQikvm cwcNaw"
       placeholder="Placeholder"
       type="date"
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL ubFMP"
+        className="sc-hQikvm kMCGiK"
         placeholder="Placeholder"
         type="date"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
@@ -351,51 +351,51 @@ exports[`TextInput: type Date renders with label RTL 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
       dir="rtl"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL gzlGBt"
+      className="sc-hQikvm bUdDFd"
       dir="rtl"
       placeholder="Placeholder"
       type="date"
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
       dir="rtl"
     >
       large
     </label>
     <input
-      className="sc-goMRkL eEdKZu"
+      className="sc-hQikvm flzsNu"
       dir="rtl"
       placeholder="Placeholder"
       type="date"
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL fshPWN"
+        className="sc-hQikvm kbaMKY"
         dir="rtl"
         placeholder="Placeholder"
         type="date"
       />
       <label
-        className="sc-glUVip fQRjhM"
+        className="sc-hhICeM cryZUP"
       >
         xlarge
       </label>
@@ -409,36 +409,36 @@ exports[`TextInput: type Date renders without label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <input
-      className="sc-goMRkL JOvHL"
+      className="sc-hQikvm kjvnfL"
       placeholder="medium"
       type="date"
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <input
-      className="sc-goMRkL gsTWKg"
+      className="sc-hQikvm cwcNaw"
       placeholder="large"
       type="date"
     />
   </div>
   <div
-    className="sc-iOnGvX dtoFCR"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC jBcQib"
+      className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-goMRkL kGKhoa"
+        className="sc-hQikvm gIlWtb"
         placeholder="xlarge"
         type="date"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       />
     </div>
   </div>
@@ -450,64 +450,64 @@ exports[`TextInput: type Date supports background colour 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-iOnGvX bDEkCi"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       medium
     </label>
     <input
-      className="sc-goMRkL hWBUEc"
+      className="sc-hQikvm A-dnmQ"
       placeholder="Placeholder"
       type="date"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX bDEkCi"
+    className="sc-hZiMVj kfaLav"
   >
     <label
-      className="sc-gmSHEY coDCGe"
+      className="sc-dDaJoQ kgpYIu"
     >
       large
     </label>
     <input
-      className="sc-goMRkL gTNnSf"
+      className="sc-hQikvm iDFTyL"
       placeholder="Placeholder"
       type="date"
     />
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-iOnGvX bDEkCi"
+    className="sc-hZiMVj kfaLav"
   >
     <div
-      className="sc-jNrqiC hjjcDo"
+      className="sc-eZkcaX huZTyb"
     >
       <input
-        className="sc-goMRkL fBUiNw"
+        className="sc-hQikvm kMCGiK"
         placeholder="Placeholder"
         type="date"
       />
       <label
-        className="sc-glUVip fKjLAb"
+        className="sc-hhICeM dxUkQc"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-VcoSR dKUTwy"
+      className="sc-McAUB hJnEiJ"
       role="alert"
     >
       Informative message holder

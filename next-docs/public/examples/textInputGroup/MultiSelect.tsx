@@ -39,7 +39,6 @@ const Example = () => {
         input1: selectProps1,
         input2: selectProps2,
       }}
-      size="large"
     />
   );
 };

@@ -12,9 +12,7 @@ import Rtl from '../../public/examples/textInputGroup/Rtl';
 import SingleSelect from '../../public/examples/textInputGroup/SingleSelect';
 import SingleSelectRtl from '../../public/examples/textInputGroup/SingleSelectRtl';
 import SingleSelectVertical from '../../public/examples/textInputGroup/SingleSelectVertical';
-import Sizes from '../../public/examples/textInputGroup/Sizes';
 import Types from '../../public/examples/textInputGroup/Types';
-import Vertical from '../../public/examples/textInputGroup/Vertical';
 import useExamples from '../../utils/useExamples';
 
 const PageTextInputGroup = () => {
@@ -28,6 +26,9 @@ const PageTextInputGroup = () => {
         </p>
         <p>
           Select type - <em>@heathmont/moon-select</em>
+        </p>
+        <p className="font-bold">
+          !!! TextInput Group is supported only in size `xlarge`.
         </p>
       </ComponentPageDescription>
       <Preview
@@ -46,19 +47,9 @@ const PageTextInputGroup = () => {
         code={examples ? examples.CombinedVertical : 'Loading'}
       />
       <Preview
-        title="Vertical orientation"
-        preview={<Vertical />}
-        code={examples ? examples.Vertical : 'Loading'}
-      />
-      <Preview
         title="RTL"
         preview={<Rtl />}
         code={examples ? examples.Rtl : 'Loading'}
-      />
-      <Preview
-        title="Sizes"
-        preview={<Sizes />}
-        code={examples ? examples.Sizes : 'Loading'}
       />
       <Preview
         title="Text type variants"
@@ -102,7 +93,7 @@ const PageTextInputGroup = () => {
             name: 'inputProps',
             type: 'object { input1: TextInputTypes, input2: TextInputTypes }',
             required: true,
-            default: "object { inputSize: 'medium', type: 'text' }",
+            default: "object { inputSize: 'xlarge', type: 'text' }",
             description:
               'Props for the text input fields. See TextInput component',
           },

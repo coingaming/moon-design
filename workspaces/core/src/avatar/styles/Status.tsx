@@ -10,8 +10,12 @@ const Status: React.FC<AvatarProps> = ({ size, statusOrigin }) => {
         'absolute border-solid border-beerus rounded-full bg-roshi',
         statusOrigin && statusOrigin.vertical === 'top' && 'top-0',
         statusOrigin && statusOrigin.vertical === 'bottom' && 'bottom-0',
-        statusOrigin && statusOrigin.horizontal === 'left' && 'left-0',
-        statusOrigin && statusOrigin.horizontal === 'right' && 'right-0',
+        statusOrigin &&
+          statusOrigin.horizontal === 'left' &&
+          'ltr:left-0 rtl:right-0',
+        statusOrigin &&
+          statusOrigin.horizontal === 'right' &&
+          'ltr:right-0 rtl:left-0',
         setStatusSize(size)
       )}
     />

@@ -37,7 +37,6 @@ const Example = () => {
         input2: selectProps2,
       }}
       orientation="vertical"
-      size="large"
     />
   );
 };

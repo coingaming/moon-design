@@ -26,7 +26,7 @@ import Travel from '../../public/examples/iconsTW/Travel';
 import Type from '../../public/examples/iconsTW/Type';
 import useExamples from '../../utils/useExamples';
 
-const PageIcons: React.FC = () => {
+const Example = () => {
   const [selectedIcons, setSelectedIcons] = useState<string[]>([]);
   const props = { className: 'text-[2rem]' };
   const addIconToSelected: (iconName: string) => string[] = (iconName) =>
@@ -164,4 +164,4 @@ const PageIcons: React.FC = () => {
   );
 };
 
-export default PageIcons;
+export default Example;

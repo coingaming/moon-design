@@ -55,7 +55,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       dir,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      backgroundColor,
+      bgColor: backgroundColor,
       ...rest,
     };
 
@@ -65,7 +65,6 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputXSandSmProps>(
       isSharpRightSide,
       isSharpTopSide,
       isSharpBottomSide,
-      bgColor: backgroundColor,
     };
     return (
       <Container {...containerProps}>

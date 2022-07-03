@@ -9,7 +9,7 @@ const TypeZoomOut = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g filter="url(#TypeZoomOut_svg__filter0_d_2567:572)">
+    <g filter="url(#TypeZoomOut_svg__filter0_d_4798_4683)">
       <path
         d="M19.688 13.604a5.844 5.844 0 11-11.688 0 5.844 5.844 0 0111.688 0z"
         fill="#fff"
@@ -19,13 +19,13 @@ const TypeZoomOut = (props: React.SVGProps<SVGSVGElement>) => (
         stroke="currentColor"
       />
       <path
-        d="M17.031 12.563h-6.353v2.104h6.353v-2.104zM18.681 16.944l-1.503 1.503 5.793 5.792 1.503-1.502-5.793-5.793z"
+        d="M17.032 12.563h-6.354v2.104h6.354v-2.104zM18.681 16.944l-1.502 1.503 5.792 5.792 1.503-1.502-5.793-5.793z"
         fill="currentColor"
       />
     </g>
     <defs>
       <filter
-        id="TypeZoomOut_svg__filter0_d_2567:572"
+        id="TypeZoomOut_svg__filter0_d_4798_4683"
         x={-2}
         y={0}
         width={36}
@@ -44,11 +44,11 @@ const TypeZoomOut = (props: React.SVGProps<SVGSVGElement>) => (
         <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
         <feBlend
           in2="BackgroundImageFix"
-          result="effect1_dropShadow_2567:572"
+          result="effect1_dropShadow_4798_4683"
         />
         <feBlend
           in="SourceGraphic"
-          in2="effect1_dropShadow_2567:572"
+          in2="effect1_dropShadow_4798_4683"
           result="shape"
         />
       </filter>

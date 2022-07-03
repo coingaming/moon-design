@@ -3,18 +3,18 @@
 exports[`Label renders with different Colours 1`] = `
 Array [
   <span
-    className="sc-dpRLZP klRb"
+    className="sc-cmvVVv dilWGd"
   >
     Xsmall
   </span>,
   <span
-    className="sc-dpRLZP gfafko"
+    className="sc-cmvVVv ibPxIW"
     color="goten.100"
   >
     Xsmall
   </span>,
   <span
-    className="sc-dpRLZP lmEmPg"
+    className="sc-cmvVVv dlWIHG"
     color="goten.100"
   >
     Xsmall
@@ -28,11 +28,11 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <span
-      className="sc-dpRLZP irBRpc"
+      className="sc-cmvVVv cCJbhu"
       size="twoxsmall"
     >
       <span
-        className="sc-jNxMLV jyUfnG"
+        className="sc-joKenV gVrssK"
         size="twoxsmall"
       >
         <svg
@@ -54,16 +54,16 @@ Array [
       Twoxsmall
     </span>
     <span
-      className="sc-dpRLZP bLijFc"
+      className="sc-cmvVVv fOfKnm"
       size="twoxsmall"
     >
       Twoxsmall
       <span
-        className="sc-ctuRtO lnfntV"
+        className="sc-fduepK jaxnf"
         size="twoxsmall"
       >
         <svg
-          className="sc-jgbSNz"
+          className="sc-gSAPjG"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -80,11 +80,11 @@ Array [
       </span>
     </span>
     <span
-      className="sc-dpRLZP gYkLVW"
+      className="sc-cmvVVv hGosRg"
       size="twoxsmall"
     >
       <span
-        className="sc-jNxMLV jyUfnG"
+        className="sc-joKenV gVrssK"
         size="twoxsmall"
       >
         <svg
@@ -105,11 +105,11 @@ Array [
       </span>
       Twoxsmall
       <span
-        className="sc-ctuRtO lnfntV"
+        className="sc-fduepK jaxnf"
         size="twoxsmall"
       >
         <svg
-          className="sc-jgbSNz"
+          className="sc-gSAPjG"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -130,10 +130,10 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <span
-      className="sc-dpRLZP bYufpJ"
+      className="sc-cmvVVv uayAj"
     >
       <span
-        className="sc-jNxMLV koKKHf"
+        className="sc-joKenV cbCEjn"
       >
         <svg
           className="sc-iqGgem"
@@ -154,14 +154,14 @@ Array [
       Xsmall
     </span>
     <span
-      className="sc-dpRLZP dDZSPR"
+      className="sc-cmvVVv ehFmFf"
     >
       Xsmall
       <span
-        className="sc-ctuRtO ldQxmw"
+        className="sc-fduepK fJtLaK"
       >
         <svg
-          className="sc-jgbSNz"
+          className="sc-gSAPjG"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -178,10 +178,10 @@ Array [
       </span>
     </span>
     <span
-      className="sc-dpRLZP iBlcCD"
+      className="sc-cmvVVv KcrNh"
     >
       <span
-        className="sc-jNxMLV koKKHf"
+        className="sc-joKenV cbCEjn"
       >
         <svg
           className="sc-iqGgem"
@@ -201,10 +201,10 @@ Array [
       </span>
       Xsmall
       <span
-        className="sc-ctuRtO ldQxmw"
+        className="sc-fduepK fJtLaK"
       >
         <svg
-          className="sc-jgbSNz"
+          className="sc-gSAPjG"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -227,12 +227,12 @@ Array [
 exports[`Label renders with different LetterCases 1`] = `
 Array [
   <span
-    className="sc-dpRLZP klRb"
+    className="sc-cmvVVv dilWGd"
   >
     Default
   </span>,
   <span
-    className="sc-dpRLZP grplrA"
+    className="sc-cmvVVv iiSpFu"
   >
     Lowercase
   </span>,
@@ -242,24 +242,24 @@ Array [
 exports[`Label renders with different Sizes 1`] = `
 Array [
   <span
-    className="sc-dpRLZP lkOzlG"
+    className="sc-cmvVVv erlhGs"
     size="twoxsmall"
   >
     Twoxsmall
   </span>,
   <span
-    className="sc-dpRLZP klRb"
+    className="sc-cmvVVv dilWGd"
   >
     Xsmall
   </span>,
   <span
-    className="sc-dpRLZP jtnERX"
+    className="sc-cmvVVv btiGjp"
     size="twoxsmall"
   >
     Twoxsmall
   </span>,
   <span
-    className="sc-dpRLZP grplrA"
+    className="sc-cmvVVv iiSpFu"
   >
     Xsmall
   </span>,
