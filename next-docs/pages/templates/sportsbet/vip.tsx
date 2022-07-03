@@ -1,8 +1,5 @@
 import React, { ReactNode, useEffect, useState } from 'react';
-import { Carousel } from '@heathmont/moon-components';
-import { Button , Accordion } from '@heathmont/moon-core-tw';
-import { MailEnvelope } from '@heathmont/moon-icons';
-
+import { Button, Accordion } from '@heathmont/moon-core-tw';
 import ControlsChevronDown from '@heathmont/moon-icons-tw/lib/icons/ControlsChevronDown';
 import Image from 'next/image';
 import image1 from '../../../public/templates/bitcasino/image1.png';
@@ -384,405 +381,374 @@ const Vip = () => {
           />
         </div>
       </div>
-
-      <div
-        className=" px-[20px] h-full flex flex-col items-center self-center mt-16 xl:w-[1232px] lg:w-[90%] sm:w-[80%] sm:mt-[124px]"
-        style={{
-          background: 'linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)',
-        }}
-      >
-        <div className="flex flex-col lg:items-start">
-          <Title
-            text="Enjoy BTC gaming at the best Bitcoin casino"
-            classes="text-bulma !text-moon-20 !text-left leading-8 font-semibold sm:p-0 sm:py-3 lg:text-moon-20 md:text-moon-20 sm:text-left   "
-          />
-          <Subtitle
-            text="The future of gaming is here, we are the number one bitcoin casino in 2021 and into 2022.
-             Our range of casino-slots consistently make the top ten across the bitcoin casino world. Read more."
-            classes="text-bulma  opacity-60 !text-moon-16 !text-left !leading-8 !sm:text-left"
-          />
-        </div>
-        <div className="mt-3 mb-3">
-          <div
-            className="bg-gohan w-[32px] h-[32px] rounded-full flex justify-center items-center cursor-pointer"
-            onClick={() => {
-              console.log('Read more');
-            }}
-          >
-            <ControlsChevronDown />
-          </div>
-        </div>
-      </div>
-      <div className="px-[38px] xl:w-[1262px] md:p-5 md:mx-auto sm:w-[100%]">
-        <div className="flex flex-col py-3 mb-3  md:border md:border-x-0 md:border-t-0 md:border-b-beerus md:flex-row md:justify-between">
-          <div className="grow-1 mb-6 lg:mr-0 md:mr-4 md:mb-0">
-            <h2 className="text-goten text-sm font-bold mb-7">
-              About Sportsbet.io
-            </h2>
-            <p className="text-xs text-trunks w-full md:w-[148px]">
-              Sportsbet.io is owned and operated by mBet Solutions NV (Schout
-              Bij Nacht Doormanweg 40, P.O. Box 4745, Curaçao). It is licensed
-              and regulated by the Government of Curaçao under the gaming
-              license 1668/JAZ. Some payment methods are handled by its wholly
-              owned subsidiary, mProcessing Solutions Ltd, Cyprus (Menandrou 4,
-              1066, Nicosia, Cyprus).
+      <div className='flex flex-col m-auto sm:w-[80%] sm:mt-[124px] lg:w-[90%] xl:w-[1232px]'>
+        <div
+          className="flex flex-col items-center self-center w-full h-full px-5 mt-16"
+          style={{ background: 'linear-gradient rgba(36, 3, 63, 0) 0% #24033F 100%' }}
+        >
+          <div className="flex flex-col lg:items-start">
+            <p className="text-[24px] text-bulma !text-left leading-8 font-semibold sm:px-3 sm:text-left">
+              Enjoy BTC gaming at the best Bitcoin casino
+            </p>
+            <p className="text-[18px] text-bulma opacity-60 !text-left !leading-8 my-2 sm:px-3 sm:text-left md:text-moon-16 lg:text-moon-16">
+              The future of gaming is here, we are the number one bitcoin casino in 2021 and into 2022.
+              Our range of casino-slots consistently make the top ten across the bitcoin casino world. Read more.
             </p>
           </div>
-
-          <div className="grow-3 hidden lg:mr-0 md:block md:mr-4">
-            <div>
-              <h2 className="text-goten text-sm font-bold mb-5">Sports</h2>
-              <p className="mb-3 text-trunks text-xs">Promotions</p>
-              <p className="mb-3 text-trunks text-xs">In play</p>
-              <p className="mb-3 text-trunks text-xs">Upcoming</p>
-            </div>
+          <div className="mt-3 mb-3">
+            <Button
+              className="flex justify-center items-center cursor-pointer bg-goku w-[32px] h-[32px] rounded-full"
+              onClick={() => console.log('Read More')}
+            ><ControlsChevronDown /></Button>
           </div>
-
-          <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
-            <div>
-              <h2 className="text-goten text-sm font-bold mb-5">Casino</h2>
-              <p className="mb-3 text-trunks text-xs">Casino</p>
-              <p className="mb-3 text-trunks text-xs">Live Casino</p>
-              <p className="mb-3 text-trunks text-xs">Bombay club</p>
+        </div>
+        <div className="w-full px-[38px] md:p-5 md:mx-auto">
+          <div className="flex flex-col py-3 mb-3 md:border md:border-x-0 md:border-t-0 md:border-b-beerus md:flex-row md:justify-between">
+            <div className="grow-1 mb-6 lg:mr-0 md:mr-4 md:mb-0">
+              <h2 className="text-goten text-sm font-bold mb-7">About Sportsbet.io</h2>
+              <p className="text-xs text-trunks w-full md:w-[148px]">
+                Sportsbet.io is owned and operated by mBet Solutions NV (Schout
+                Bij Nacht Doormanweg 40, P.O. Box 4745, Curaçao). It is licensed
+                and regulated by the Government of Curaçao under the gaming
+                license 1668/JAZ. Some payment methods are handled by its wholly
+                owned subsidiary, mProcessing Solutions Ltd, Cyprus (Menandrou 4,
+                1066, Nicosia, Cyprus).
+              </p>
             </div>
-          </div>
-
-          <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
-            <div>
-              <h2 className="text-goten text-sm font-bold mb-5">Support</h2>
-              <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
-              <p className="mb-3 text-trunks text-xs">General Betting Rules</p>
-              <p className="mb-3 text-trunks text-xs">Help Centre</p>
-              <p className="mb-3 text-trunks text-xs">Payment Options</p>
-              <p className="mb-3 text-trunks text-xs">Responsible Gambling</p>
-              <p className="mb-3 text-trunks text-xs">
-                Reward Terms and Conditions
-              </p>
-              <p className="mb-3 text-trunks text-xs">
-                Self-Exclusion Terms and Conditions
-              </p>
-              <p className="mb-3 text-trunks text-xs">The Clubhouse FAQ</p>
+            <div className="grow-3 hidden lg:mr-0 md:block md:mr-4">
+              <div>
+                <h2 className="text-goten text-sm font-bold mb-5">Sports</h2>
+                <p className="mb-3 text-trunks text-xs">Promotions</p>
+                <p className="mb-3 text-trunks text-xs">In play</p>
+                <p className="mb-3 text-trunks text-xs">Upcoming</p>
+              </div>
             </div>
-          </div>
-
-          <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
-            <div>
-              <h2 className="text-goten text-sm font-bold mb-5">About</h2>
-              <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
-              <p className="mb-3 text-trunks text-xs">Affiliates</p>
-              <p className="mb-3 text-trunks text-xs">
-                Affiliate Terms and Conditions
-              </p>
-              <p className="mb-3 text-trunks text-xs">
-                Crypto Currency How To Guide
-              </p>
-              <p className="mb-3 text-trunks text-xs">Privacy Policy</p>
-              <p className="mb-3 text-trunks text-xs">
-                Sportsbet.io Partnerships
-              </p>
-              <p className="mb-3 text-trunks text-xs">Terms and Conditions</p>
-              <p className="mb-3 text-trunks text-xs">
-                The Clubhouse Terms and Conditions
-              </p>
-              <p className="mb-3 text-trunks text-xs">Vip</p>
+            <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
+              <div>
+                <h2 className="text-goten text-sm font-bold mb-5">Casino</h2>
+                <p className="mb-3 text-trunks text-xs">Casino</p>
+                <p className="mb-3 text-trunks text-xs">Live Casino</p>
+                <p className="mb-3 text-trunks text-xs">Bombay club</p>
+              </div>
             </div>
-          </div>
-
-          <div className="grow-4 hidden md:block">
-            <h2 className="text-goten text-sm font-bold mb-5">Preferences</h2>
-            <div className="rounded-[100px] flex flex-col bg-beerus mb-4 ">
-              <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
-                <div className="flex items-center">
-                  <span className="texst-xs ml-[5px]">English </span>
+            <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
+              <div>
+                <h2 className="text-goten text-sm font-bold mb-5">Support</h2>
+                <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
+                <p className="mb-3 text-trunks text-xs">General Betting Rules</p>
+                <p className="mb-3 text-trunks text-xs">Help Centre</p>
+                <p className="mb-3 text-trunks text-xs">Payment Options</p>
+                <p className="mb-3 text-trunks text-xs">Responsible Gambling</p>
+                <p className="mb-3 text-trunks text-xs">Reward Terms and Conditions</p>
+                <p className="mb-3 text-trunks text-xs">Self-Exclusion Terms and Conditions</p>
+                <p className="mb-3 text-trunks text-xs">The Clubhouse FAQ</p>
+              </div>
+            </div>
+            <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
+              <div>
+                <h2 className="text-goten text-sm font-bold mb-5">About</h2>
+                <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
+                <p className="mb-3 text-trunks text-xs">Affiliates</p>
+                <p className="mb-3 text-trunks text-xs">Affiliate Terms and Conditions</p>
+                <p className="mb-3 text-trunks text-xs">Crypto Currency How To Guide</p>
+                <p className="mb-3 text-trunks text-xs">Privacy Policy</p>
+                <p className="mb-3 text-trunks text-xs">Sportsbet.io Partnerships</p>
+                <p className="mb-3 text-trunks text-xs">Terms and Conditions</p>
+                <p className="mb-3 text-trunks text-xs">The Clubhouse Terms and Conditions</p>
+                <p className="mb-3 text-trunks text-xs">Vip</p>
+              </div>
+            </div>
+            <div className="grow-4 hidden md:block">
+              <h2 className="text-goten text-sm font-bold mb-5">Preferences</h2>
+              <div className="rounded-[100px] flex flex-col bg-beerus mb-4 ">
+                <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
+                  <div className="flex items-center">
+                    <span className="texst-xs ml-[5px]">English </span>
+                  </div>
+                  <div className="cursor-pointer">
+                    <ControlsChevronDown />
+                  </div>
                 </div>
-                <div className="cursor-pointer">
-                  <ControlsChevronDown />
+              </div>
+              <div className="rounded-[100px] bg-beerus flex justify-center align-middle">
+                <span className="my-[6px] ml-3 mr-[17px]">
+                  <Image src={image1} className="mt-[6px]" />
+                </span>
+              </div>
+            </div>
+          </div>
+          <div className=" hidden py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus md:flex ">
+            <div>
+              <h2 className="text-goten text-sm font-bold mb-5">Payment methods</h2>
+              <div className="flex flex-row  md:w-[70%] sm:flex-wrap">
+                <div className=" bg-[#F7931A] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Bitcasino />
+                </div>
+                <div className=" bg-[#345D9D] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <div className="bg-white rounded-full">
+                    <LtchLogo />
+                  </div>
+                </div>
+                <div className=" bg-[#EC0928] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <TronLogo />
+                </div>
+                <div className=" bg-[#7748FA] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <EthereumIc />
+                </div>
+                <div className=" bg-[#2ABB92] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <UsdIc />
+                </div>
+                <div className=" bg-[#02A6F0] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <XAbove />
+                </div>
+                <div className=" bg-[#0033AD] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Cardano />
+                </div>
+                <div className=" bg-[#0AB758] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <BrazilianIc />
+                </div>
+                <div className=" bg-[#335DF4] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <EuroIcon />
+                </div>
+                <div className=" bg-[#FF3D44] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <JapanesIc />
+                </div>
+                <div className=" bg-[#FFE8BC] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <IndianIc />
+                </div>
+              </div>
+            </div>
+            <div className="hidden md:block sm:ml-3 sm:mr-3">
+              <h2 className="text-goten text-sm font-bold mb-5">Follow us</h2>
+              <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
+                <div className="bg-[#27A4DB] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Telegram />
+                </div>
+                <div className="bg-[#FF0000] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Youtube />
+                </div>
+                <div className="bg-[#F7931A] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Bitcasino />
+                </div>
+                <div className="bg-[#1DA1F2] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Twitter />
+                </div>
+                <div className="rounded-full mr-2  flex items-center justify-center bg-gradient-to-r from-yellow-500 to-pink-500 lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Instagram />
+                </div>
+                <div className="bg-[#000000] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Tiktok />
                 </div>
               </div>
             </div>
 
+            <div>
+              <h2 className="text-goten text-sm font-bold mb-5 hidden md:block">
+                Partnership
+              </h2>
+              <div className="flex items-center">
+                <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Arsenal />
+                </div>
+                <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Southampton />
+                </div>
+                <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Flamengo />
+                </div>
+                <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
+                  <Watford />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex flex-col md:hidden">
+            <div className=" mb-2">
+              <Accordion title={'List item'} isContentInside={true} />
+            </div>
+            <div className=" mb-2">
+              <Accordion title={'Casino'} isContentInside={true}>
+                <div className="flex flex-col">
+                  <p className="mb-3 text-trunks text-xs">Casino</p>
+                  <p className="mb-3 text-trunks text-xs">Live Casino</p>
+                  <p className="mb-3 text-trunks text-xs">Bombay club</p>
+                </div>
+              </Accordion>
+            </div>
+            <div className=" mb-2">
+              <Accordion title={'Support'} isContentInside={true}>
+                <div className="flex flex-col">
+                  <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
+                  <p className="mb-3 text-trunks text-xs">
+                    General Betting Rules
+                  </p>
+                  <p className="mb-3 text-trunks text-xs">Help Centre</p>
+                  <p className="mb-3 text-trunks text-xs">Payment Options</p>
+                  <p className="mb-3 text-trunks text-xs">Responsible Gambling</p>
+                  <p className="mb-3 text-trunks text-xs">
+                    Reward Terms and Conditions
+                  </p>
+                  <p className="mb-3 text-trunks text-xs">
+                    Self-Exclusion Terms and Conditions
+                  </p>
+                  <p className="mb-3 text-trunks text-xs">The Clubhouse FAQ</p>
+                </div>
+              </Accordion>
+            </div>
+            <div className=" mb-2">
+              <Accordion title={'About'} isContentInside={true}>
+                <div className="flex flex-col">
+                  <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
+                  <p className="mb-3 text-trunks text-xs">Affiliates</p>
+                  <p className="mb-3 text-trunks text-xs">
+                    Affiliate Terms and Conditions
+                  </p>
+                  <p className="mb-3 text-trunks text-xs">
+                    Crypto Currency How To Guide
+                  </p>
+                  <p className="mb-3 text-trunks text-xs">Privacy Policy</p>
+                  <p className="mb-3 text-trunks text-xs">
+                    Sportsbet.io Partnerships
+                  </p>
+                  <p className="mb-3 text-trunks text-xs">Terms and Conditions</p>
+                  <p className="mb-3 text-trunks text-xs">
+                    The Clubhouse Terms and Conditions
+                  </p>
+                  <p className="mb-3 text-trunks text-xs">Vip</p>
+                </div>
+              </Accordion>
+            </div>
+            <div className=" mb-2">
+              <Accordion title={'Preferences'} isContentInside={true}>
+                <div className="flex flex-col">
+                  <div className="rounded-[100px] flex flex-col bg-beerus mb-4 ">
+                    <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
+                      <div className="flex items-center">
+                        <span className="texst-xs ml-[5px]">English </span>
+                      </div>
+                      <div className="cursor-pointer">
+                        <ControlsChevronDown />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </Accordion>
+            </div>
+            <div className=" mb-2">
+              <Accordion title={'Accapted Methods'} isContentInside={true}>
+                <div className="flex flex-col ">
+                  <div className="flex w-[70%] flex-wrap items-center ">
+                    <div className=" bg-[#345D9D] rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
+                      <XAbove />
+                    </div>
+                    <div className="  bg-[#F7931A] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
+                      <Bitcasino />
+                    </div>
+                    <div className=" bg-[#345D9D] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
+                      <div className="bg-white rounded-full">
+                        <LtchLogo />
+                      </div>
+                    </div>
+                    <div className=" bg-[#7748FA] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
+                      <TronLogo />
+                    </div>
+                    <div className=" bg-[#2ABB92] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
+                      <BrazilianIc />
+                    </div>
+                    <div className=" bg-black rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
+                      <Mastercard />
+                    </div>
+                    <div className=" bg-[#1A1F71] rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
+                      <Visa />
+                    </div>
+                    <div className=" bg-[#5F1E5E] rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
+                      <Scril />
+                    </div>
+                    <div className=" bg-[#83BA3B] rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
+                      <Neteller />
+                    </div>
+                    <div className=" bg-beerus rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
+                      <PlusFive />
+                    </div>
+                  </div>
+                </div>
+              </Accordion>
+            </div>
+            <div className=" mb-2">
+              <Accordion title={'Follow Sportsbook.io'} isContentInside={true}>
+                <div className="flex flex-col">
+                  <div className="flex flex-wrap">
+                    <div className="bg-[#27A4DB] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                      <Telegram />
+                    </div>
+                    <div className="bg-[#FF0000] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                      <Youtube />
+                    </div>
+                    <div className="bg-[#F7931A] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                      <Bitcasino />
+                    </div>
+                    <div className="bg-[#1DA1F2] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                      <Twitter />
+                    </div>
+                    <div className="rounded-full mr-2 bg-gradient-to-r from-yellow-500 to-pink-500 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                      <Instagram />
+                    </div>
+                    <div className="bg-[#000000] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
+                      <Tiktok />
+                    </div>
+                  </div>
+                </div>
+              </Accordion>
+            </div>
+            <div className=" mb-5">
+              <Accordion title={'Sponsorships'} isContentInside={true}>
+                <div className="flex flex-wrap">
+                  <div className="flex flex-wrap">
+                    <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
+                      <Arsenal />
+                    </div>
+                    <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
+                      <Southampton />
+                    </div>
+                    <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
+                      <Flamengo />
+                    </div>
+                    <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
+                      <Watford />
+                    </div>
+                  </div>
+                </div>
+              </Accordion>
+            </div>
+          </div>
+          <div className="flex justify-center mb-6 md:hidden ">
             <div className="rounded-[100px] bg-beerus flex justify-center align-middle">
               <span className="my-[6px] ml-3 mr-[17px]">
                 <Image src={image1} className="mt-[6px]" />
               </span>
             </div>
           </div>
-        </div>
-
-        <div className=" hidden py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus md:flex ">
           <div>
-            <h2 className="text-goten text-sm font-bold mb-5">
-              Payment methods
-            </h2>
-            <div className="flex flex-row  md:w-[70%] sm:flex-wrap">
-              <div className=" bg-[#F7931A] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Bitcasino />
+            <h2 className="text-goten text-sm font-bold mb-5">Awards</h2>
+            <div className="flex items-center flex-wrap md:flex-nowrap">
+              <div className="mr-2 ">
+                <Image src={Curacao} />
               </div>
-              <div className=" bg-[#345D9D] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <div className="bg-white rounded-full">
-                  <LtchLogo />
-                </div>
+              <div className="mr-2 ">
+                <Image src={Award1} />
               </div>
-              <div className=" bg-[#EC0928] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <TronLogo />
+              <div className="mr-2 ">
+                <Image src={SbcAwards} />
               </div>
-              <div className=" bg-[#7748FA] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <EthereumIc />
+              <div className="mr-2 ">
+                <Image src={Award2} />
               </div>
-              <div className=" bg-[#2ABB92] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <UsdIc />
+              <div className="mr-2 ">
+                <Image src={Award3} />
               </div>
-              <div className=" bg-[#02A6F0] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <XAbove />
+              <div className="mr-2 ">
+                <Image src={Plus18} />
               </div>
-              <div className=" bg-[#0033AD] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Cardano />
-              </div>
-              <div className=" bg-[#0AB758] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <BrazilianIc />
-              </div>
-              <div className=" bg-[#335DF4] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <EuroIcon />
-              </div>
-              <div className=" bg-[#FF3D44] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <JapanesIc />
-              </div>
-              <div className=" bg-[#FFE8BC] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <IndianIc />
-              </div>
-            </div>
-          </div>
-          <div className="hidden md:block sm:ml-3 sm:mr-3">
-            <h2 className="text-goten text-sm font-bold mb-5">Follow us</h2>
-            <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
-              <div className="bg-[#27A4DB] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Telegram />
-              </div>
-              <div className="bg-[#FF0000] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Youtube />
-              </div>
-              <div className="bg-[#F7931A] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Bitcasino />
-              </div>
-              <div className="bg-[#1DA1F2] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Twitter />
-              </div>
-              <div className="rounded-full mr-2  flex items-center justify-center bg-gradient-to-r from-yellow-500 to-pink-500 lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Instagram />
-              </div>
-              <div className="bg-[#000000] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Tiktok />
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-goten text-sm font-bold mb-5 hidden md:block">
-              Partnership
-            </h2>
-            <div className="flex items-center">
-              <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Arsenal />
-              </div>
-              <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Southampton />
-              </div>
-              <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Flamengo />
-              </div>
-              <div className="bg-beerus mr-2 rounded-full  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
-                <Watford />
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="flex flex-col md:hidden ">
-          <div className=" mb-2">
-            <Accordion title={'List item'} isContentInside={true}></Accordion>
-          </div>
-          <div className=" mb-2">
-            <Accordion title={'Casino'} isContentInside={true}>
-              <div className="flex flex-col">
-                <p className="mb-3 text-trunks text-xs">Casino</p>
-                <p className="mb-3 text-trunks text-xs">Live Casino</p>
-                <p className="mb-3 text-trunks text-xs">Bombay club</p>
-              </div>
-            </Accordion>
-          </div>
-          <div className=" mb-2">
-            <Accordion title={'Support'} isContentInside={true}>
-              <div className="flex flex-col">
-                <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
-                <p className="mb-3 text-trunks text-xs">
-                  General Betting Rules
-                </p>
-                <p className="mb-3 text-trunks text-xs">Help Centre</p>
-                <p className="mb-3 text-trunks text-xs">Payment Options</p>
-                <p className="mb-3 text-trunks text-xs">Responsible Gambling</p>
-                <p className="mb-3 text-trunks text-xs">
-                  Reward Terms and Conditions
-                </p>
-                <p className="mb-3 text-trunks text-xs">
-                  Self-Exclusion Terms and Conditions
-                </p>
-                <p className="mb-3 text-trunks text-xs">The Clubhouse FAQ</p>
-              </div>
-            </Accordion>
-          </div>
-          <div className=" mb-2">
-            <Accordion title={'About'} isContentInside={true}>
-              <div className="flex flex-col">
-                <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
-                <p className="mb-3 text-trunks text-xs">Affiliates</p>
-                <p className="mb-3 text-trunks text-xs">
-                  Affiliate Terms and Conditions
-                </p>
-                <p className="mb-3 text-trunks text-xs">
-                  Crypto Currency How To Guide
-                </p>
-                <p className="mb-3 text-trunks text-xs">Privacy Policy</p>
-                <p className="mb-3 text-trunks text-xs">
-                  Sportsbet.io Partnerships
-                </p>
-                <p className="mb-3 text-trunks text-xs">Terms and Conditions</p>
-                <p className="mb-3 text-trunks text-xs">
-                  The Clubhouse Terms and Conditions
-                </p>
-                <p className="mb-3 text-trunks text-xs">Vip</p>
-              </div>
-            </Accordion>
-          </div>
-          <div className=" mb-2">
-            <Accordion title={'Preferences'} isContentInside={true}>
-              <div className="flex flex-col">
-                <div className="rounded-[100px] flex flex-col bg-beerus mb-4 ">
-                  <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
-                    <div className="flex items-center">
-                      <span className="texst-xs ml-[5px]">English </span>
-                    </div>
-                    <div className="cursor-pointer">
-                      <ControlsChevronDown />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Accordion>
-          </div>
-          <div className=" mb-2">
-            <Accordion title={'Accapted Methods'} isContentInside={true}>
-              <div className="flex flex-col ">
-                <div className="flex w-[70%] flex-wrap items-center ">
-                  <div className=" bg-[#345D9D] rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
-                    <XAbove />
-                  </div>
-                  <div className="  bg-[#F7931A] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
-                    <Bitcasino />
-                  </div>
-                  <div className=" bg-[#345D9D] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
-                    <div className="bg-white rounded-full">
-                      <LtchLogo />
-                    </div>
-                  </div>
-                  <div className=" bg-[#7748FA] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
-                    <TronLogo />
-                  </div>
-                  <div className=" bg-[#2ABB92] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px] ">
-                    <BrazilianIc />
-                  </div>
-                  <div className=" bg-black rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
-                    <Mastercard />
-                  </div>
-                  <div className=" bg-[#1A1F71] rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
-                    <Visa />
-                  </div>
-                  <div className=" bg-[#5F1E5E] rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
-                    <Scril />
-                  </div>
-                  <div className=" bg-[#83BA3B] rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
-                    <Neteller />
-                  </div>
-                  <div className=" bg-beerus rounded-full mr-2 mb-2  flex items-center justify-center w-[45px] h-[45px] ">
-                    <PlusFive />
-                  </div>
-                </div>
-              </div>
-            </Accordion>
-          </div>
-          <div className=" mb-2">
-            <Accordion title={'Follow Sportsbook.io'} isContentInside={true}>
-              <div className="flex flex-col">
-                <div className="flex flex-wrap">
-                  <div className="bg-[#27A4DB] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
-                    <Telegram />
-                  </div>
-                  <div className="bg-[#FF0000] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
-                    <Youtube />
-                  </div>
-                  <div className="bg-[#F7931A] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
-                    <Bitcasino />
-                  </div>
-                  <div className="bg-[#1DA1F2] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
-                    <Twitter />
-                  </div>
-                  <div className="rounded-full mr-2 bg-gradient-to-r from-yellow-500 to-pink-500 mb-2  flex items-center justify-center w-[40px] h-[40px]">
-                    <Instagram />
-                  </div>
-                  <div className="bg-[#000000] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
-                    <Tiktok />
-                  </div>
-                </div>
-              </div>
-            </Accordion>
-          </div>
-          <div className=" mb-5">
-            <Accordion title={'Sponsorships'} isContentInside={true}>
-              <div className="flex flex-wrap">
-                <div className="flex flex-wrap">
-                  <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
-                    <Arsenal />
-                  </div>
-                  <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
-                    <Southampton />
-                  </div>
-                  <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
-                    <Flamengo />
-                  </div>
-                  <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
-                    <Watford />
-                  </div>
-                </div>
-              </div>
-            </Accordion>
-          </div>
-        </div>
-        <div className="flex justify-center mb-6 md:hidden ">
-          <div className="rounded-[100px] bg-beerus flex justify-center align-middle">
-            <span className="my-[6px] ml-3 mr-[17px]">
-              <Image src={image1} className="mt-[6px]" />
-            </span>
-          </div>
-        </div>
-        <div>
-          <h2 className="text-goten text-sm font-bold mb-5">Awards</h2>
-          <div className="flex items-center flex-wrap md:flex-nowrap">
-            <div className="mr-2 ">
-              <Image src={Curacao} />
-            </div>
-            <div className="mr-2 ">
-              <Image src={Award1} />
-            </div>
-            <div className="mr-2 ">
-              <Image src={SbcAwards} />
-            </div>
-            <div className="mr-2 ">
-              <Image src={Award2} />
-            </div>
-            <div className="mr-2 ">
-              <Image src={Award3} />
-            </div>
-            <div className="mr-2 ">
-              <Image src={Plus18} />
             </div>
           </div>
         </div>

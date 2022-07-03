@@ -241,15 +241,13 @@ const Vip = () => {
           style={{ background: 'linear-gradient rgba(36, 3, 63, 0) 0% #24033F 100%' }}
         >
           <div className="flex flex-col lg:items-start">
-            <Title
-              text="Enjoy BTC gaming at the best Bitcoin casino"
-              classes="text-bulma !text-left leading-8 font-semibold sm:px-3 sm:text-left md:text-moon-20 lg:text-moon-20"
-            />
-            <Subtitle
-              text="The future of gaming is here, we are the number one bitcoin casino in 2021 and into 2022.
-             Our range of casino-slots consistently make the top ten across the bitcoin casino world. Read more."
-              classes="text-bulma opacity-60 !text-left !leading-8 lg:text-moon-16 md:text-moon-16 sm:text-left"
-            />
+            <p className="text-[24px] text-bulma !text-left leading-8 font-semibold sm:px-3 sm:text-left">
+              Enjoy BTC gaming at the best Bitcoin casino
+            </p>
+            <p className="text-[18px] text-bulma opacity-60 !text-left !leading-8 my-2 sm:px-3 sm:text-left md:text-moon-16 lg:text-moon-16">
+              The future of gaming is here, we are the number one bitcoin casino in 2021 and into 2022.
+              Our range of casino-slots consistently make the top ten across the bitcoin casino world. Read more.
+            </p>
           </div>
           <div className="mt-3 mb-3">
             <Button
@@ -264,7 +262,6 @@ const Vip = () => {
             <ControlsChevronRight className="mx-3" />
             <p>Mainpage </p>
           </div>
-
           <div className="flex flex-col py-3 mb-3 w-full md:border md:border-x-0 md:border-t-0 md:border-b-beerus md:flex-row md:justify-between">
             <div className="grow-1 mb-7 lg:mr-0 md:mb-0 md:mr-4">
               <h2 className="text-goten text-sm font-bold mb-7">
@@ -276,7 +273,6 @@ const Vip = () => {
                 gaming license 1668/JAZ.
               </p>
             </div>
-
             <div className="hidden grow-3 lg:mr-0 md:block md:mr-4">
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">Games</h2>
@@ -293,7 +289,6 @@ const Vip = () => {
                 <p className="mb-3 text-trunks text-xs">Multiplayer</p>
               </div>
             </div>
-
             <div className="grow-3 hidden lg:mr-0 md:flex md:mr-4">
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">About</h2>
@@ -306,7 +301,6 @@ const Vip = () => {
                 <p className="mb-3 text-trunks text-xs">Gaming License</p>
               </div>
             </div>
-
             <div className="grow-3 hidden lg:mr-0 md:flex md:mr-4">
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">Info</h2>
@@ -326,7 +320,6 @@ const Vip = () => {
                 <p className="mb-3 text-trunks text-xs">Responsible Gambling</p>
               </div>
             </div>
-
             <div className="flex flex-col md:hidden">
               <div className=" mb-2">
                 <Accordion title={'Games'} isContentInside={true}>
@@ -399,7 +392,6 @@ const Vip = () => {
                 </Accordion>
               </div>
             </div>
-
             <div className="grow-4 flex justify-center mt-6 md:mt-0 md:block ">
               <div className="hidden mb-4 justify-between items-center lg:w-[65%] md:flex  ">
                 <p className="leading-4 text-[10px] font-semibold text-trunks">AM</p>
@@ -413,7 +405,6 @@ const Vip = () => {
                 />
                 <p className="leading-4 text-[10px] font-semibold text-trunks">PM</p>
               </div>
-
               <div className="hidden rounded-[100px] flex-col bg-gohan mb-4 md:flex">
                 <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
                   <div className="flex items-center">
@@ -425,7 +416,6 @@ const Vip = () => {
                   </div>
                 </div>
               </div>
-
               <div className="rounded-[100px] bg-gohan flex justify-center align-middle md:w-full">
                 <span className="flex items-center justify-center my-[6px] ml-3 mr-[17px]">
                   <Image src={image1} className="mt-[6px]" />
@@ -433,7 +423,6 @@ const Vip = () => {
               </div>
             </div>
           </div>
-
           <div className="flex flex-col py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus md:flex-row">
             <div className="mb-7 md:mb-0">
               <h2 className="text-goten text-sm font-bold mb-5">
