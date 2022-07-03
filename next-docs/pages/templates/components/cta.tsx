@@ -18,7 +18,7 @@ const CTA = ({
   return (<div className="flex flex-col w-[95vw] sm:mt-0 sm:w-[100%]">
     {title}
     {subtitle}
-    <div className="flex flex-col mb-[72px] w-full sm:flex-row sm:justify-center sm:items-center sm:mb-[88px] sm:w-auto">
+    <div className="flex flex-col w-full sm:flex-row sm:justify-center sm:items-center sm:w-auto">
       <Button
         variant="primary"
         className="w-full btn-primary p-[20px] text-moon-16 font-semibold rounded-moon-i-sm my-2 sm:self-start sm:w-[130px] sm:py-3 sm:px-5 sm:mx-4"

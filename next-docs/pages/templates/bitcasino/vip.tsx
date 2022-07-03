@@ -30,6 +30,7 @@ import Family from "../components/family";
 import Header from "../components/header";
 import Headline from "../components/headline";
 import Hero from "../components/hero";
+import Social from "../components/social";
 import Subtitle from "../components/subtitle";
 import Title from "../components/title";
 import Bitcasino from '../icons/bitcasino';
@@ -230,92 +231,13 @@ const Vip = () => {
           handleSignup={() => console.log('SIGN UP clicked')}
           handleContact={() => console.log('CONTACT clicked')}
         />
-      </div>
-
-      <div className="flex flex-col items-center self-center mt-16 sm:w-[80%]">
-
-        <div className="flex flex-col ">
-          <p className="text-moon-32 text-center font-semibold p-4 mb-4">
-            Join us and talk to us
-          </p>
-          <div className="flex gap-2">
-            <Button
-              iconOnly
-              onClick={() => console.log('Telegram link')}
-              style={{
-                borderRadius: '50%',
-                backgroundColor: '#27A4DB',
-              }}
-            >
-              <div className="w-[36px] h-[36px] flex justify-center items-center">
-                <Telegram />
-              </div>
-            </Button>
-            <Button
-              iconOnly
-              onClick={() => console.log('Youtube link')}
-              style={{
-                borderRadius: '50%',
-                backgroundColor: '#FF0000',
-              }}
-            >
-              <div className="w-[36px] h-[36px] flex justify-center items-center">
-                <Youtube />
-              </div>
-            </Button>
-            <Button
-              iconOnly
-              onClick={() => console.log('Bitcoin link')}
-              style={{
-                borderRadius: '50%',
-                backgroundColor: '#F7931A',
-              }}
-            >
-              <div className="w-[36px] h-[36px] flex justify-center items-center">
-                <Bitcasino />
-              </div>
-            </Button>
-            <Button
-              iconOnly
-              onClick={() => console.log('Twitter link')}
-              style={{
-                borderRadius: '50%',
-                backgroundColor: '#1DA1F2',
-              }}
-            >
-              <div className="w-[36px] h-[36px] flex justify-center items-center">
-                <Twitter />
-              </div>
-            </Button>
-            <Button
-              iconOnly
-              onClick={() => console.log('Instagram link')}
-              style={{
-                borderRadius: '50%',
-                background:
-                  'linear-gradient(49.12deg, #FFDD55 6.62%, #FF5D3F 47.35%, #FF543E 50.06%, #C837AB 93.5%)',
-              }}
-            >
-              <div className="w-[36px] h-[36px] flex justify-center items-center">
-                <Instagram />
-              </div>
-            </Button>
-            <Button
-              iconOnly
-              onClick={() => console.log('Tiktok link')}
-              style={{
-                borderRadius: '50%',
-                backgroundColor: '#000',
-              }}
-            >
-              <div className="w-[36px] h-[36px] flex justify-center items-center">
-                <Tiktok />
-              </div>
-            </Button>
-          </div>
+        <div className='mt-[88px]'>
+          <Social
+            title='Join us and talk to us'
+            onClick={(social: string) => console.log(`Social link - ${social}`)}
+          />
         </div>
       </div>
-
       <div
         className=" px-5 h-full flex flex-col items-center self-center mt-16 xl:w-[1232px] lg:w-[90%] sm:w-[80%] sm:mt-[124px]"
         style={{
