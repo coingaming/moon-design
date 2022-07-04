@@ -31,8 +31,6 @@ import Arsenal from '../icons/arsenal';
 import Bitcasino from '../icons/bitcasino';
 import BrazilianIc from '../icons/brazilianIc';
 import Cardano from '../icons/cardano';
-import {ChevronLeft} from "../icons/ChevronLeft";
-import {ChevronRight} from "../icons/ChevronRight";
 import EthereumIc from '../icons/ethereumIc';
 import EuroIcon from '../icons/euro';
 import Flamengo from '../icons/flamengo';
