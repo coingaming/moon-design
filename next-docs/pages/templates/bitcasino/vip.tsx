@@ -33,6 +33,7 @@ import Social from "../components/social";
 import Subtitle from "../components/subtitle";
 import Title from "../components/title";
 import Bitcasino from '../icons/bitcasino';
+import BitcasinoLogo from '../icons/bitcasino-logo';
 import Cardano from '../icons/cardano';
 import DogeCoin from '../icons/dogeCoin';
 import EthereumIc from '../icons/ethereumIc';
@@ -45,7 +46,6 @@ import Twitter from '../icons/twitter';
 import UsdIc from '../icons/usdtIc';
 import XAbove from '../icons/xAbove';
 import Youtube from '../icons/youtube';
-import BitcasinoLogo from './bitcasino-logo';
 
 const Vip = () => {
   const [isScrolled, setIsScrolled] = useState(false);

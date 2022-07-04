@@ -1,6 +1,6 @@
 import React from "react";
 
-export const ChevronRight = (props: React.SVGProps<SVGSVGElement>) => (
+const ChevronLeft = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
     height="1em"
@@ -10,10 +10,12 @@ export const ChevronRight = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M11.5 7l9 9-9 9"
+      d="M20.5 25l-9-9 9-9"
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
   </svg>
 );
+
+export default ChevronLeft;

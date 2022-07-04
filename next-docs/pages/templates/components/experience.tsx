@@ -1,7 +1,7 @@
 import React, {ReactElement} from "react";
 import {Carousel} from "@heathmont/moon-components";
-import {ChevronLeft} from "../sportsbet/ChevronLeft";
-import {ChevronRight} from "../sportsbet/ChevronRight";
+import ChevronLeft from "../icons/ChevronLeft";
+import ChevronRight from "../icons/ChevronRight";
 import ExperienceCarouselItem from "./experience-carousel-item";
 
 export interface ExperienceCarousel {
