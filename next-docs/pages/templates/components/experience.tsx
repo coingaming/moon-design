@@ -21,7 +21,7 @@ interface Props {
 const Experience = ({
   title,
   subtitle,
-  carouselItems,
+  carouselItems = [],
   carouselItemBackground = 'gohan'
 }: Props) => {
   return (<div className="flex flex-col items-center relative -top-[30px] w-full mb-8 sm:top-0 sm:mb-0 md:w-[930px] xl:w-[1232px]">
@@ -46,7 +46,7 @@ const Experience = ({
             }}
           ><ChevronRight fontSize="1.5rem" /></div>)
         }
-        items={carouselItems.map((item, index) => (
+        items={carouselItems?.map((item, index) => (
           <ExperienceCarouselItem
             key={item.title + '-wrapper'}
             title={item.title}

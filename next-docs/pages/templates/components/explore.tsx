@@ -14,7 +14,7 @@ interface Props {
 const Explore = ({
  title,
  subtitle,
- carouselItems,
+ carouselItems = [],
  carouselItemBackground = 'gohan'
 }: Props) => {
   return (<div className="flex flex-col items-center sm:flex-row-reverse sm:flex-wrap sm:justify-center">
@@ -41,7 +41,7 @@ const Explore = ({
             }}
           ><ChevronRight fontSize="1.5rem" /></div>)
         }
-        items={carouselItems.map((items) => (
+        items={carouselItems?.map((items) => (
           <ExploreCarouselItem items={items} />
         ))}
       />
