@@ -17,21 +17,24 @@ const Multiline: React.FC<Props> = ({
     {iconHeader && (<div className='w-full bg-goten flex rounded-lg justify-between'>
       <div className='flex-col p-4'>
         <div className='flex mb-2 justify-between'>
-          <div className='font-semibold'>{title}</div>
+          <h5 className='font-semibold'>{title}</h5>
         </div>
-        <div className='block align-middle items-center text-trunks'>{description}</div>
+        <p className='block align-middle items-center text-trunks'>{description}</p>
       </div>
-      <div className='flex justify-end items-baseline p-4 cursor-pointer'>{iconHeader}</div>
+      <div className='flex justify-end items-baseline p-4'>{iconHeader}</div>
     </div>)}
     {!iconHeader && buttons?.length && (<div className='w-full bg-goten sm:flex rounded-lg justify-between'>
        <div className='flex-col p-6'>
          <div className='flex mb-2 justify-between'>
-           <div className='font-semibold'>{title}</div>
+           <h5 className='font-semibold'>{title}</h5>
          </div>
-         <div className='block align-middle items-center text-trunks'>{description}</div>
+         <p className='block align-middle items-center text-trunks'>{description}</p>
        </div>
        <div className='flex flex-wrap justify-end mr-4 mb-4 sm:items-center sm:mr-8 sm:mb-0'>
-          {buttons && buttons.map((button, index) => <span key={index}>{button}</span>)}
+          {buttons && buttons.map((button, index) => (<span
+            key={index}
+            className='ml-2'
+          >{button}</span>))}
        </div>
     </div>)}
   </>);
