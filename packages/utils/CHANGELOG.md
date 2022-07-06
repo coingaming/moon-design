@@ -1,5 +1,13 @@
 # Change Log
 
+## 9.2.1
+
+### Patch Changes
+
+- fixes
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.2.1
+
 ## 9.2.0
 
 ### Minor Changes
