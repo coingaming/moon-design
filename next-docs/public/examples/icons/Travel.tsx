@@ -9,6 +9,7 @@ import {
   TravelHotel,
   TravelLuggage,
   TravelMeal,
+  TravelNoSuitcase,
   TravelPassport,
   TravelPlug,
   TravelRest,
@@ -58,6 +59,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="TravelMeal">
       <TravelMeal {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="TravelNoSuitcase">
+      <TravelNoSuitcase {...props} />
     </Icon>
     <Icon {...wrapperProps} name="TravelPassport">
       <TravelPassport {...props} />

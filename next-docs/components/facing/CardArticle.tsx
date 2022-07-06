@@ -44,11 +44,11 @@ const CardArcticle: React.FC<Props> = ({
           variant && variant in variants ? variants[variant] : variants.default
         }
       >
-        <p className="list-item absolute top-10 left-10 transform -rotate-90 origin-bottom-left text-moon-16 font-medium">
+        <p className="list-item absolute top-10 ltr:left-10 rtl:right-10 transform -rotate-90 origin-bottom-left text-moon-16 font-medium">
           {section}
         </p>
         {author && (
-          <p className="absolute top-0 right-6 transform -rotate-90 origin-bottom-right text-moon-16 font-medium">
+          <p className="absolute top-0 ltr:right-6 rtl:left-6 transform -rotate-90 origin-bottom-right text-moon-16 font-medium">
             {author}
           </p>
         )}

@@ -1,0 +1,18 @@
+{
+  "name": "@heathmont/moon-templates",
+  "sideEffects": false,
+  "version": "9.2.1",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "module": "lib/es/index.js",
+  "typings": "lib/index.d.ts",
+  "repository": "https://github.com/coingaming/moon-design",
+  "author": "Yolo Group",
+  "license": "MIT",
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {}
+}

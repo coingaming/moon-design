@@ -1,41 +1,42 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { RadioButton } from '@heathmont/moon-core-tw';
 
 const Example = () => {
-  const [gender, setGender] = useState('male');
+  const [gender, setGender] = useState('option1');
   const handleChange = (event: React.UIEvent<HTMLInputElement>) => {
     const target = event.target as HTMLInputElement;
     setGender(target.value);
   };
-
   return (
-    <div className="flex flex-col gap-2 pl-4">
-      <p>Gender:</p>
+    <>
       <RadioButton
-        id="male"
-        value="male"
-        label="Male"
-        ariaLabel="Male"
-        checked={gender === 'male'}
+        name="option"
+        id="option1"
+        value="option1"
+        label="Option 1"
+        ariaLabel="Option 1"
+        checked={gender === 'option1'}
         onChange={handleChange}
       />
       <RadioButton
-        id="female"
-        value="female"
-        label="Female"
-        ariaLabel="Female"
-        checked={gender === 'female'}
+        name="option"
+        id="option2"
+        value="option2"
+        label="Option 2"
+        ariaLabel="Option 2"
+        checked={gender === 'option2'}
         onChange={handleChange}
       />
       <RadioButton
-        id="other"
-        value="other"
-        label="Other"
-        ariaLabel="Other"
-        checked={gender === 'other'}
+        name="option"
+        id="option3"
+        value="option3"
+        label="Option 3"
+        ariaLabel="Option 3"
+        checked={gender === 'option3'}
         onChange={handleChange}
       />
-    </div>
+    </>
   );
 };
 

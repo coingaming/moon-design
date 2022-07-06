@@ -19,7 +19,7 @@ const Header: React.FC<Props> = ({ openSidebar }) => (
       </button>
       <LogoMoonDesignShort fontSize="2rem" />
     </div>
-    <div className="relative z-10 hidden lg:block">
+    <div className="relative z-10 hidden lg:block pb-12">
       <Breadcrumbs />
     </div>
   </header>

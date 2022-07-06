@@ -3,10 +3,10 @@
 exports[`Avatar renders different Colours 1`] = `
 Array [
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe eKNlKH"
+      className="sc-gFeNAA jRieMG"
       color="bulma.100"
       size="medium"
     >
@@ -27,10 +27,10 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe iCHKHq"
+      className="sc-gFeNAA kKRSEL"
       color="goten.100"
       size="medium"
     >
@@ -51,10 +51,10 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe eSvOYQ"
+      className="sc-gFeNAA bHbrN"
       color="goten.100"
       size="medium"
     >
@@ -83,10 +83,10 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe TRxAj"
+        className="sc-gFeNAA kSERqi"
         color="bulma.100"
         size="xsmall"
       >
@@ -107,10 +107,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe bkqidM"
+        className="sc-gFeNAA fzJwZ"
         color="bulma.100"
         size="small"
       >
@@ -131,10 +131,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe eKNlKH"
+        className="sc-gFeNAA jRieMG"
         color="bulma.100"
         size="medium"
       >
@@ -155,10 +155,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe FHGpi"
+        className="sc-gFeNAA frfJb"
         color="bulma.100"
         size="large"
       >
@@ -179,10 +179,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe wWZLG"
+        className="sc-gFeNAA hmiNgf"
         color="bulma.100"
         size="xlarge"
       >
@@ -203,10 +203,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe icgOFM"
+        className="sc-gFeNAA gNYWXx"
         color="bulma.100"
         size="twoxlarge"
       >
@@ -231,10 +231,10 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe TRxAj"
+        className="sc-gFeNAA kSERqi"
         color="bulma.100"
         size="xsmall"
       >
@@ -242,10 +242,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe bkqidM"
+        className="sc-gFeNAA fzJwZ"
         color="bulma.100"
         size="small"
       >
@@ -253,10 +253,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe eKNlKH"
+        className="sc-gFeNAA jRieMG"
         color="bulma.100"
         size="medium"
       >
@@ -264,10 +264,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe FHGpi"
+        className="sc-gFeNAA frfJb"
         color="bulma.100"
         size="large"
       >
@@ -275,10 +275,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe wWZLG"
+        className="sc-gFeNAA hmiNgf"
         color="bulma.100"
         size="xlarge"
       >
@@ -286,10 +286,10 @@ Array [
       </div>
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe icgOFM"
+        className="sc-gFeNAA gNYWXx"
         color="bulma.100"
         size="twoxlarge"
       >
@@ -301,55 +301,55 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe glGBrf"
+        className="sc-gFeNAA mqKhK"
         color="bulma.100"
         size="xsmall"
       />
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe bdPuik"
+        className="sc-gFeNAA lofjol"
         color="bulma.100"
         size="small"
       />
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe jGHhqz"
+        className="sc-gFeNAA kyoffC"
         color="bulma.100"
         size="medium"
       />
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe CWntq"
+        className="sc-gFeNAA zUOiL"
         color="bulma.100"
         size="large"
       />
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe JpaFW"
+        className="sc-gFeNAA fClEfH"
         color="bulma.100"
         size="xlarge"
       />
     </div>
     <div
-      className="sc-jaIaHg iEKmFp"
+      className="sc-ciicml aiVwU"
     >
       <div
-        className="sc-iaUDOe ebpCoc"
+        className="sc-gFeNAA ejpRuJ"
         color="bulma.100"
         size="twoxlarge"
       />
@@ -361,10 +361,10 @@ Array [
 exports[`Avatar renders different Variants 1`] = `
 Array [
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe eKNlKH"
+      className="sc-gFeNAA jRieMG"
       color="bulma.100"
       size="medium"
     >
@@ -385,10 +385,10 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe eKNlKH"
+      className="sc-gFeNAA jRieMG"
       color="bulma.100"
       size="medium"
     >
@@ -396,10 +396,10 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe jGHhqz"
+      className="sc-gFeNAA kyoffC"
       color="bulma.100"
       size="medium"
     />
@@ -410,10 +410,10 @@ Array [
 exports[`Avatar supports different status origins 1`] = `
 Array [
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe eKNlKH"
+      className="sc-gFeNAA jRieMG"
       color="bulma.100"
       size="medium"
     >
@@ -433,15 +433,15 @@ Array [
       </svg>
     </div>
     <div
-      className="sc-eCqeQn fLXySR"
+      className="sc-kxCoLp dIqbWL"
       size="medium"
     />
   </div>,
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe eKNlKH"
+      className="sc-gFeNAA jRieMG"
       color="bulma.100"
       size="medium"
     >
@@ -461,15 +461,15 @@ Array [
       </svg>
     </div>
     <div
-      className="sc-eCqeQn nMyaa"
+      className="sc-kxCoLp dRHmio"
       size="medium"
     />
   </div>,
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe eKNlKH"
+      className="sc-gFeNAA jRieMG"
       color="bulma.100"
       size="medium"
     >
@@ -489,15 +489,15 @@ Array [
       </svg>
     </div>
     <div
-      className="sc-eCqeQn dOpnR"
+      className="sc-kxCoLp cVoear"
       size="medium"
     />
   </div>,
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe eKNlKH"
+      className="sc-gFeNAA jRieMG"
       color="bulma.100"
       size="medium"
     >
@@ -517,7 +517,7 @@ Array [
       </svg>
     </div>
     <div
-      className="sc-eCqeQn cUdaYC"
+      className="sc-kxCoLp gbrPlE"
       size="medium"
     />
   </div>,
@@ -527,10 +527,10 @@ Array [
 exports[`Avatar supports different statuses 1`] = `
 Array [
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe eKNlKH"
+      className="sc-gFeNAA jRieMG"
       color="bulma.100"
       size="medium"
     >
@@ -551,10 +551,10 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe eKNlKH"
+      className="sc-gFeNAA jRieMG"
       color="bulma.100"
       size="medium"
     >
@@ -574,29 +574,29 @@ Array [
       </svg>
     </div>
     <div
-      className="sc-eCqeQn dOpnR"
+      className="sc-kxCoLp cVoear"
       size="medium"
     />
   </div>,
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe jGHhqz"
+      className="sc-gFeNAA kyoffC"
       color="bulma.100"
       size="medium"
     />
   </div>,
   <div
-    className="sc-jaIaHg iEKmFp"
+    className="sc-ciicml aiVwU"
   >
     <div
-      className="sc-iaUDOe jGHhqz"
+      className="sc-gFeNAA kyoffC"
       color="bulma.100"
       size="medium"
     />
     <div
-      className="sc-eCqeQn dOpnR"
+      className="sc-kxCoLp cVoear"
       size="medium"
     />
   </div>,

@@ -9,7 +9,7 @@ import imageMoon from '../public/moon.png';
 const Manifest = () => (
   <>
     <div className="relative">
-      <div className="absolute z-10 left-0 top-0 text-bulma">
+      <div className="absolute z-10 ltr:left-0 rtl:right-0 top-0 text-bulma">
         <Logo />
       </div>
       <div className="relative z-10 max-w-md">
@@ -70,7 +70,7 @@ const Manifest = () => (
         </div>
       </div>
     </div>
-    <div className="fixed top-0 right-0 w-[650px] 2xl:w-[892px] translate-x-1/3 -translate-y-1/3">
+    <div className="fixed top-0 ltr:right-0 rtl:left-0 w-[650px] 2xl:w-[892px] ltr:translate-x-1/3 rtl:-translate-x-1/3 -translate-y-1/3">
       <Image src={imageMoon} alt="Moon" />
     </div>
   </>

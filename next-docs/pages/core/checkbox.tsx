@@ -9,7 +9,7 @@ import ReadOnly from '../../public/examples/checkboxTW/ReadOnly';
 import WithLabel from '../../public/examples/checkboxTW/WithLabel';
 import useExamples from '../../utils/useExamples';
 
-export default function PageAccordion() {
+const Example = () => {
   const examples = useExamples('checkboxTW');
   return (
     <>
@@ -35,14 +35,14 @@ export default function PageAccordion() {
         code={examples ? examples.WithLabel : 'Loading'}
       />
       <Preview
-        title="Checked"
-        preview={<Checked />}
-        code={examples ? examples.Checked : 'Loading'}
-      />
-      <Preview
         title="No Label"
         preview={<NoLabel />}
         code={examples ? examples.NoLabel : 'Loading'}
+      />
+      <Preview
+        title="Checked"
+        preview={<Checked />}
+        code={examples ? examples.Checked : 'Loading'}
       />
       <Preview
         title="Disabled"
@@ -56,4 +56,6 @@ export default function PageAccordion() {
       />
     </>
   );
-}
+};
+
+export default Example;

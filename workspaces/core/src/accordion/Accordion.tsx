@@ -15,7 +15,6 @@ const Accordion = ({
   headerContent,
   withButton = true,
   isContentInside = true,
-  isRtl,
   size = 'md',
 }: AccordionProps) => {
   const [isOpen, setIsOpen] = useState(openByDefault);
@@ -64,7 +63,7 @@ const Accordion = ({
             <ControlsChevronRight
               className={classNames(
                 'text-trunks text-moon-24 transition-transform transition-200',
-                setOpenIcon({ isOpen, isRtl })
+                setOpenIcon(isOpen)
               )}
             />
           </button>

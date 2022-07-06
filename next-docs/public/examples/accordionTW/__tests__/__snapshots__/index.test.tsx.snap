@@ -46,52 +46,6 @@ exports[`Accordion expands 1`] = `
 </div>
 `;
 
-exports[`Accordion renders RTL 1`] = `
-<div
-  className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
->
-  <div
-    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
-    onClick={[Function]}
-  >
-    <h3
-      className="flex-1 font-medium text-bulma text-moon-14"
-    >
-      RTL Accordion
-    </h3>
-    <button
-      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
-      type="button"
-    >
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </button>
-  </div>
-  <div
-    className="overflow-hidden w-full text-bulma h-0"
-  >
-    <div
-      className="text-moon-14"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
-</div>
-`;
-
 exports[`Accordion renders content outside 1`] = `
 <div
   className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -110,7 +64,7 @@ exports[`Accordion renders content outside 1`] = `
       type="button"
     >
       <svg
-        className="text-trunks text-moon-24 transition-transform transition-200"
+        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -156,7 +110,7 @@ exports[`Accordion renders default 1`] = `
       type="button"
     >
       <svg
-        className="text-trunks text-moon-24 transition-transform transition-200"
+        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -184,6 +138,102 @@ exports[`Accordion renders default 1`] = `
 </div>
 `;
 
+exports[`Accordion renders default dark 1`] = `
+<div
+  className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
+>
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
+    onClick={[Function]}
+  >
+    <h3
+      className="flex-1 font-medium text-bulma text-moon-14"
+    >
+      Default
+    </h3>
+    <button
+      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+      type="button"
+    >
+      <svg
+        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  </div>
+  <div
+    className="overflow-hidden w-full text-bulma h-0"
+  >
+    <div
+      className="text-moon-14"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion renders default rtl 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
+  >
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
+      onClick={[Function]}
+    >
+      <h3
+        className="flex-1 font-medium text-bulma text-moon-14"
+      >
+        Default
+      </h3>
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
+      >
+        <svg
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="overflow-hidden w-full text-bulma h-0"
+    >
+      <div
+        className="text-moon-14"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Accordion renders disabled 1`] = `
 <div
   className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
@@ -203,7 +253,7 @@ exports[`Accordion renders disabled 1`] = `
       type="button"
     >
       <svg
-        className="text-trunks text-moon-24 transition-transform transition-200"
+        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -293,7 +343,7 @@ exports[`Accordion renders header content 1`] = `
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M6.5 10.5H6h.5zm0 3.134H7h-.5zM18.393 6.5V6v.5zm-7.894 0V7v-.5zm-.493 5.667v-.5H9.77l-.15.182.386.318zm-1.735 2.104l.386.318-.386-.319zm10.122-2.104v.5-.5zm2.834-2.833h-.5.5zM24.5 20.29h.5-.5zm0 2.777H24h.5zm-11.894-6.777v.5-.5zm7.894 0v-.5.5zm.493 5.667l.355-.352-.146-.148h-.209v.5zm1.796 1.814l.355-.352-.355.352zm-10.183-1.814v.5-.5zM6 10.5v3.134h1V10.5H6zM18.393 6H10.5v1h7.894V6zM9.62 11.85l-1.735 2.102.772.637 1.735-2.104-.772-.636zm8.773-.183h-8.387v1h8.387v-1zm3.334-2.333A3.334 3.334 0 0018.393 6v1a2.334 2.334 0 012.334 2.334h1zM7 10.5A3.5 3.5 0 0110.5 7V6A4.5 4.5 0 006 10.5h1zm-1 3.134c0 1.407 1.761 2.04 2.657.955l-.772-.637A.5.5 0 017 13.634H6zm14.727-4.3a2.334 2.334 0 01-2.334 2.333v1a3.334 3.334 0 003.334-3.333h-1zM24 20.29v2.777h1v-2.777h-1zm-11.394-3.5H20.5v-1h-7.894v1zm8.032 5.519l1.795 1.814.711-.704-1.796-1.814-.71.704zm-8.032.148h8.387v-1h-8.387v1zm-2.334-3.334a2.334 2.334 0 012.334-2.333v-1a3.334 3.334 0 00-3.334 3.333h1zM25 20.291a4.5 4.5 0 00-4.5-4.5v1a3.5 3.5 0 013.5 3.5h1zm-1 2.777a.5.5 0 01-.856.352l-.71.704c.942.952 2.566.285 2.566-1.056h-1zM9.272 19.124a3.334 3.334 0 003.334 3.334v-1a2.334 2.334 0 01-2.334-2.334h-1z"
+          d="M6.5 10.5H6h.5zm0 3.134H7h-.5zM18.394 6.5V6v.5zm-7.894 0V7v-.5zm-.493 5.667v-.5H9.77l-.15.182.386.318zM8.27 14.271l.386.318-.386-.319zm10.123-2.104v.5-.5zm2.833-2.833h-.5.5zM24.5 20.29h.5-.5zm0 2.777H24h.5zm-11.894-6.777v.5-.5zm7.894 0v-.5.5zm.494 5.667l.355-.352-.147-.148h-.209v.5zm1.795 1.814l.356-.352-.356.352zm-10.183-1.814v.5-.5zM6 10.5v3.134h1V10.5H6zM18.394 6H10.5v1h7.894V6zM9.62 11.85l-1.735 2.102.771.637 1.735-2.104-.771-.636zm8.773-.183h-8.387v1h8.387v-1zm3.333-2.333A3.334 3.334 0 0018.394 6v1a2.334 2.334 0 012.333 2.334h1zM7 10.5A3.5 3.5 0 0110.5 7V6A4.5 4.5 0 006 10.5h1zm-1 3.134c0 1.407 1.762 2.04 2.657.955l-.771-.637A.5.5 0 017 13.634H6zm14.727-4.3a2.334 2.334 0 01-2.333 2.333v1a3.334 3.334 0 003.333-3.333h-1zM24 20.29v2.777h1v-2.777h-1zm-11.394-3.5H20.5v-1h-7.894v1zm8.032 5.519l1.796 1.814.71-.704-1.795-1.814-.71.704zm-8.032.148h8.388v-1h-8.388v1zm-2.333-3.334a2.334 2.334 0 012.333-2.333v-1a3.334 3.334 0 00-3.333 3.333h1zM25 20.291a4.5 4.5 0 00-4.5-4.5v1a3.5 3.5 0 013.5 3.5h1zm-1 2.777a.5.5 0 01-.855.352l-.711.704c.943.952 2.566.285 2.566-1.056h-1zM9.273 19.124a3.334 3.334 0 003.333 3.334v-1a2.334 2.334 0 01-2.333-2.334h-1z"
           fill="currentColor"
         />
       </svg>
@@ -303,7 +353,7 @@ exports[`Accordion renders header content 1`] = `
       type="button"
     >
       <svg
-        className="text-trunks text-moon-24 transition-transform transition-200"
+        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -396,7 +446,7 @@ Array [
         type="button"
       >
         <svg
-          className="text-trunks text-moon-24 transition-transform transition-200"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -439,7 +489,7 @@ Array [
         type="button"
       >
         <svg
-          className="text-trunks text-moon-24 transition-transform transition-200"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -482,7 +532,7 @@ Array [
         type="button"
       >
         <svg
-          className="text-trunks text-moon-24 transition-transform transition-200"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -525,7 +575,7 @@ Array [
         type="button"
       >
         <svg
-          className="text-trunks text-moon-24 transition-transform transition-200"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -573,7 +623,7 @@ Array [
         type="button"
       >
         <svg
-          className="text-trunks text-moon-24 transition-transform transition-200"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -616,7 +666,7 @@ Array [
         type="button"
       >
         <svg
-          className="text-trunks text-moon-24 transition-transform transition-200"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -659,7 +709,7 @@ Array [
         type="button"
       >
         <svg
-          className="text-trunks text-moon-24 transition-transform transition-200"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -702,7 +752,7 @@ Array [
         type="button"
       >
         <svg
-          className="text-trunks text-moon-24 transition-transform transition-200"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -750,7 +800,7 @@ exports[`Accordion renders without button 1`] = `
       type="button"
     >
       <svg
-        className="text-trunks text-moon-24 transition-transform transition-200"
+        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"

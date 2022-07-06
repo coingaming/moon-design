@@ -128,6 +128,36 @@ exports[`Button renders default 1`] = `
 </button>
 `;
 
+exports[`Button renders default dark 1`] = `
+<button
+  className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  Default
+  <div
+    className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+  />
+</button>
+`;
+
+exports[`Button renders default rtl 1`] = `
+<div
+  dir="rtl"
+>
+  <button
+    className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    Default
+    <div
+      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+</div>
+`;
+
 exports[`Button renders disabled 1`] = `
 <button
   className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus opacity-30 cursor-not-allowed btn-primary"

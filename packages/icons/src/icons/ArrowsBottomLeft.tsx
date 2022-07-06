@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
@@ -13,7 +13,7 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M25.5 6.5l-18.993 19m0 0h10.23m-10.23 0V15.271"
+      d="M25.5 6.5l-18.992 19m0 0h10.229m-10.23 0V15.271"
       stroke="currentColor"
       strokeLinecap="round"
       strokeLinejoin="round"

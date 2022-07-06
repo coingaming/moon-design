@@ -9,7 +9,7 @@ const TypeZoomIn = (props: React.SVGProps<SVGSVGElement>) => (
     xmlns="http://www.w3.org/2000/svg"
     {...props}
   >
-    <g filter="url(#TypeZoomIn_svg__filter0_d_2567:567)">
+    <g filter="url(#TypeZoomIn_svg__filter0_d_4798_4681)">
       <path
         d="M19.412 13.604a5.844 5.844 0 11-11.687 0 5.844 5.844 0 0111.687 0z"
         fill="#fff"
@@ -25,7 +25,7 @@ const TypeZoomIn = (props: React.SVGProps<SVGSVGElement>) => (
     </g>
     <defs>
       <filter
-        id="TypeZoomIn_svg__filter0_d_2567:567"
+        id="TypeZoomIn_svg__filter0_d_4798_4681"
         x={-2}
         y={0}
         width={36}
@@ -44,11 +44,11 @@ const TypeZoomIn = (props: React.SVGProps<SVGSVGElement>) => (
         <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
         <feBlend
           in2="BackgroundImageFix"
-          result="effect1_dropShadow_2567:567"
+          result="effect1_dropShadow_4798_4681"
         />
         <feBlend
           in="SourceGraphic"
-          in2="effect1_dropShadow_2567:567"
+          in2="effect1_dropShadow_4798_4681"
           result="shape"
         />
       </filter>
