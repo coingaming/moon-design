@@ -27,6 +27,7 @@ const Switch: React.FC<SwitchProps> = ({
   ...props
 }) => {
   const autoId = id || `Switch-${uniqueId()}`;
+
   const labelProps = {
     switchHeightProperty,
     switchWidthProperty,
