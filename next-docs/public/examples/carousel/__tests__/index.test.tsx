@@ -60,7 +60,7 @@ const renderWithThemeRTL = (component: JSX.Element) => (
   </ThemeProvider>
 );
 
-describe('Carousel', () => {
+xdescribe('Carousel', () => {
   beforeEach(() => {
     setupIntersectionObserverMock();
   });
