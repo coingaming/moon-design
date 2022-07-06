@@ -5,6 +5,7 @@ import Buttons from '../../public/examples/switchTW/Buttons';
 import Default from '../../public/examples/switchTW/Default';
 import Disabled from '../../public/examples/switchTW/Disabled';
 import Rtl from '../../public/examples/switchTW/Rtl';
+import Sizes from '../../public/examples/switchTW/Sizes';
 import Theme from '../../public/examples/switchTW/Theme';
 import useExamples from '../../utils/useExamples';
 
@@ -23,6 +24,11 @@ export default function PageSwitch() {
       <Preview
         title="Default"
         preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
@@ -50,39 +56,32 @@ export default function PageSwitch() {
         title="Props"
         data={[
           {
-            name: 'id',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: `Unique element's identifier`,
-          },
-          {
             name: 'checked',
             type: 'boolean',
-            required: false,
+            required: true,
             default: 'false',
             description: `Is switch checked/unchecked`,
           },
           {
             name: 'onChange',
             type: 'React.ChangeEvent',
-            required: false,
+            required: true,
             default: '-',
             description: `Event that happens when you click on the switch`,
           },
           {
-            name: 'captionUnchecked',
+            name: 'size',
             type: 'string',
-            required: false,
+            required: true,
             default: '-',
-            description: `Displayed text when unchecked`,
+            description: `Determines the size of the switch`,
           },
           {
-            name: 'captionChecked',
+            name: 'button',
             type: 'string',
             required: false,
             default: '-',
-            description: `Displayed text when checked`,
+            description: `Displayed switch with button`,
           },
           {
             name: 'isRtl',

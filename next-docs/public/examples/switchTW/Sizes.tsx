@@ -9,8 +9,11 @@ const Example = () => {
   };
   return (
     <>
-      <Switch onChange={onChange} checked={value} isRTL={true} size="md" />
+      <Switch onChange={onChange} checked={value} size="xs" />
+      <Switch onChange={onChange} checked={value} size="sm" />
+      <Switch onChange={onChange} checked={value} size="md" />
     </>
   );
 };
+
 export default Example;

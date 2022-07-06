@@ -1,15 +1,11 @@
 import { ReactElement } from "react";
 
 export enum  Size {
-  THREEXSMALL = 'threexsmall',
-  TWOXSMALL = 'twoxsmall',
-  XSMALL = 'xsmall',
-  SMALL = 'small',
-  MEDIUM = 'medium',
-  LARGE = 'large',
-  XLARGE = 'xlarge',
-  TWOXLARGE = 'twoxlarge',
-  THREEXLARGE = 'threexlarge',
+  XSMALL = 'xs',
+  SMALL = 'sm',
+  MEDIUM = 'md',
+  MEDIUMBUTTONS ='medium',
+  LARGE = 'large'
 }
 
 
@@ -17,10 +13,11 @@ type SwitchProps = {
   checked: boolean;
   onChange: (value: boolean) => void;
   disabled?: boolean;
-  button?: boolean;
+  button?: {
+    onLabel: string;
+    offLabel: string;
+  };
   isRTL?:boolean;
-  offLabel?:string;
-  onLabel?:string;
   theme?:boolean;
   size: Size;
 };

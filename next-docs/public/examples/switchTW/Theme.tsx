@@ -8,12 +8,31 @@ const Example = () => {
     setValue(val);
   };
   return (
-    <Switch
-      onChange={onChange}
-      checked={value}
-      button={false}
-      theme={true}
-    />
+    <>
+      <Switch
+        onChange={onChange}
+        checked={value}
+        button={false}
+        theme={true}
+        size="xs"
+      />
+
+      <Switch
+        onChange={onChange}
+        checked={value}
+        button={false}
+        theme={true}
+        size="sm"
+      />
+
+      <Switch
+        onChange={onChange}
+        checked={value}
+        button={false}
+        theme={true}
+        size="md"
+      />
+    </>
   );
 };
 

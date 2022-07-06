@@ -8,13 +8,27 @@ const Example = () => {
      setValue(val);
    };
   return (
-    <Switch
-      onChange={onChange}
-      checked={value}
-      button={true}
-      offLabel={'OFF'}
-      onLabel={'ON'}
-    />
+    <>
+      <Switch
+        onChange={onChange}
+        checked={value}
+        button={{
+          onLabel: 'On',
+          offLabel: 'Off',
+        }}
+        size="medium"
+      />
+
+      <Switch
+        onChange={onChange}
+        checked={value}
+        button={{
+          onLabel: 'On',
+          offLabel: 'Off',
+        }}
+        size="large"
+      />
+    </>
   );
 };
 

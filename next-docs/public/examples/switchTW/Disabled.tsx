@@ -4,8 +4,8 @@ import { useState } from 'react';
 const Example = () => {
   return (
     <>
-      <Switch onChange={() => {}} checked={true} disabled />
-      <Switch onChange={() => {}} checked={false} disabled />
+      <Switch onChange={() => {}} checked={true} disabled size="md" />
+      <Switch onChange={() => {}} checked={false} disabled size="md"  />
     </>
   );
 };

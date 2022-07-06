@@ -7,7 +7,12 @@ const Example = () => {
   const onChange = (val: boolean) => {
     setValue(val);
   };
-  return <Switch onChange={onChange} checked={value} />;
+  return (
+    <>
+      <Switch onChange={onChange} checked={value} size="md" />
+    </>
+  );
+  
 };
 
 export default Example;
