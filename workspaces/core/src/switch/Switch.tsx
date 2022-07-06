@@ -17,16 +17,14 @@ const Switch: React.FC<SwitchProps> = ({
     <>
       <label
         className={classNames(
-          'relative flex justify-between items-center group p-2 text-xl',
+          'relative flex justify-between items-center group p-2 text-xl ',
           disabled && 'opacity-30 cursor-not-allowed ',
           disabled && isRTL && 'opacity-90 cursor-not-allowed '
         )}
       >
         <input
           type="checkbox"
-          className={classNames(
-            'absolute left-1/2 -translate-x-1/2 w-full h-full peer appearance-none rounded-md'
-          )}
+          className={classNames('absolute left-1/2 -translate-x-1/2 w-full h-full peer appearance-none rounded-md')}
           checked={checked}
           onClick={(e) => {
             if (disabled) {
@@ -44,15 +42,15 @@ const Switch: React.FC<SwitchProps> = ({
               : size === Size.SMALL
               ? 'w-[44px] h-[24px] after:w-[16px] after:h-[16px] peer-checked:after:translate-x-5  '
               : 'w-[60px] h-[32px] after:w-[24px] after:h-[24px] peer-checked:after:translate-x-7  ',
-            'flex items-center flex-shrink-0 p-1 rounded-full duration-300 ease-in-out bg-gray-300 peer-checked:bg-blue-800 after:bg-white after:rounded-full after:shadow-md after:duration-300 ',
-            isRTL && 'bg-blue-800 peer-checked:bg-gray-300',
+            'flex items-center flex-shrink-0 p-1 rounded-full duration-300 ease-in-out bg-beerus peer-checked:bg-piccolo after:bg-white after:rounded-full after:shadow-md after:duration-300 ',
+            isRTL && 'bg-piccolo peer-checked:bg-beerus',
             button && size === Size.LARGE
               ? 'w-[122px] h-[48px] after:hidden rounded-[12px] top-[36px] left-[577px] p-2 gap-2'
               : size === Size.MEDIUMBUTTONS
               ? 'w-[106px] h-[44px] after:hidden rounded-[12px] top-[40px] left-[161px] p-2 gap-2'
               : '',
-           
-            theme && 'bg-gray-300 peer-checked:bg-black after:z-1'
+
+            theme && 'bg-beerus peer-checked:bg-black after:z-1'
           )}
         >
           {button && (
