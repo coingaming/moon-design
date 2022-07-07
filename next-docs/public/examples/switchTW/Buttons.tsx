@@ -13,8 +13,8 @@ const Example = () => {
         onChange={onChange}
         checked={value}
         button={{
-          onLabel: 'On',
-          offLabel: 'Off',
+          onLabel: 'ON',
+          offLabel: 'OFF',
         }}
         size="medium"
       />
@@ -23,8 +23,8 @@ const Example = () => {
         onChange={onChange}
         checked={value}
         button={{
-          onLabel: 'On',
-          offLabel: 'Off',
+          onLabel: 'ON',
+          offLabel: 'OFF',
         }}
         size="large"
       />
