@@ -1,6 +1,14 @@
 import Preview from "../../components/codePreview/Preview";
 import PropsTable from "../../components/PropsTable";
+import CustomOptionLabel from "../../public/examples/select/multiSelectTW/CustomOptionLabel";
 import Default from "../../public/examples/select/multiSelectTW/Default";
+import Disabled from "../../public/examples/select/multiSelectTW/Disabled";
+import Error from "../../public/examples/select/multiSelectTW/Error";
+import Hint from "../../public/examples/select/multiSelectTW/Hint";
+import LeftSlot from "../../public/examples/select/multiSelectTW/LeftSlot";
+import Searchable from "../../public/examples/select/multiSelectTW/Searchable";
+import Sizes from "../../public/examples/select/multiSelectTW/Sizes";
+import VisibleItems from "../../public/examples/select/multiSelectTW/VisibleItems";
 import useExamples from "../../utils/useExamples";
 
 const Example = () => {
@@ -12,6 +20,70 @@ const Example = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Select : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8">
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8">
+      <Preview
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8">
+      <Preview
+        title="Hint"
+        preview={<Hint />}
+        code={examples ? examples.Hint : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8">
+      <Preview
+        title="Error"
+        preview={<Error />}
+        code={examples ? examples.Error : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8">
+      <Preview
+        title="Left slot"
+        preview={<LeftSlot />}
+        code={examples ? examples.LeftSlot : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8">
+      <Preview
+        title="Custom option"
+        preview={<CustomOptionLabel />}
+        code={examples ? examples.CustomOptionLabel : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8">
+      <Preview
+        title="Visible items"
+        preview={<VisibleItems />}
+        code={examples ? examples.VisibleItems : 'Loading'}
+      />
+    </section>
+
+    <section className="mt-8">
+      <Preview
+        title="Searchable"
+        preview={<Searchable />}
+        code={examples ? examples.Searchable : 'Loading'}
       />
     </section>
 

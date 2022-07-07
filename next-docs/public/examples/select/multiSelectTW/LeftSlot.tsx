@@ -1,0 +1,37 @@
+import { MultiSelect } from '@heathmont/moon-core-tw';
+import { ChartPieChart } from '@heathmont/moon-icons';
+
+const Example = () => {
+  return (<div className="flex flex-col gap-y-3 mb-[150px]">
+    <MultiSelect
+      value={['one']}
+      label='Left slot'
+      placeholderSlot='Placeholder slot'
+      leftSlot={(<ChartPieChart fontSize='1.5rem'/>)}
+      options={[
+        { value: 'one', element: 'One', label: 'One' },
+        { value: 'two', element: 'Two', label: 'Two' },
+        { value: 'three', element: 'Three', label: 'Three' },
+        { value: 'four', element: 'Four', label: 'four' },
+      ]}
+    />
+
+    <div className='mt-4'>
+      <MultiSelect
+        value={['one']}
+        label='Left slot'
+        placeholderSlot='Placeholder slot'
+        size='xl'
+        leftSlot={(<ChartPieChart fontSize='1.8rem'/>)}
+        options={[
+          { value: 'one', element: 'One', label: 'One' },
+          { value: 'two', element: 'Two', label: 'Two' },
+          { value: 'three', element: 'Three', label: 'Three' },
+          { value: 'four', element: 'Four', label: 'four' },
+        ]}
+      />
+    </div>
+  </div>);
+};
+
+export default Example;
