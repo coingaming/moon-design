@@ -28,6 +28,20 @@ const Example = () => {
         ]}
       />
     </div>
+
+    <div className='mt-4'>
+      <Select
+        value={value}
+        label='Custom menu width'
+        placeholderSlot='Placeholder slot'
+        menuWidth={20}
+        options={[
+          { value: 'one', element: 'One', label: 'One' },
+          { value: 'two', element: 'Two', label: 'Two' },
+          { value: 'three', element: 'Three', label: 'Three' },
+        ]}
+      />
+    </div>
   </div>);
 };
 

@@ -2,11 +2,12 @@ import React, {forwardRef, useState} from "react";
 import ChevronDown from "../private/icons/ChevronDown";
 import ChevronUp from "../private/icons/ChevronUp";
 import Clear from "../private/icons/Clear";
+import classNames from '../private/utils/classNames';
 import {determineMenuBackgroundColor} from "./private/getBackgroundColor";
-import {getWrapperClasses} from "./private/getWrapperClasses";
+import getPlaceholderValue from "./private/getPlaceholderValue";
 import Option from "./private/types/OptionProps";
-import SelectProps from "./private/types/SelectProps";
-import useEventListeners from "./private/useEventListeners";
+import SelectProps, {Sizes} from "./private/types/SelectProps";
+import useSelect from "./private/useSelect";
 
 const Select = forwardRef<HTMLDivElement, SelectProps>(({
   options,
@@ -37,8 +38,11 @@ const Select = forwardRef<HTMLDivElement, SelectProps>(({
 }) => {
   const [hoveredIndex, setHoveredIndex] = useState(-1);
   const [selectedIndex, setSelectedIndex] = useState(-1);
-  const placeholder = value ? options?.filter((option) => option.value === value)[0]?.label
-    : placeholderSlot ?? placeholderValue ?? 'Choose an option';
+  const placeholder = getPlaceholderValue({
+    value,
+    options,
+    placeholderSlot: placeholderSlot ?? placeholderValue
+  });
   const {
     menuOpen,
     search,
@@ -51,7 +55,7 @@ const Select = forwardRef<HTMLDivElement, SelectProps>(({
     onInputFocus,
     selectMenuItem,
     handleInputKeydown
-  } = useEventListeners({
+  } = useSelect({
     options,
     onChange,
     value,
@@ -64,25 +68,36 @@ const Select = forwardRef<HTMLDivElement, SelectProps>(({
     setSelectedIndex
   });
 
-  const classNames = getWrapperClasses({
-    size,
-    disabled,
-    isSharpTopSide,
-    isSharpLeftSide,
-    isSharpRightSide,
-    isSharpBottomSide,
-    isTopBottomBorderHidden,
-    isSideBorderHidden,
-    isRtl,
-    isError,
-    inputFocused
-  });
+  const clearValue = (e: MouseEvent) => {
+    e.stopPropagation();
+    e.preventDefault();
 
-  return (<div className={`support-colors flex flex-col text-popo ${ disabled ? 'opacity-30' : ''}` }>
+    setSelectedIndex(-1);
+    setHoveredIndex(-1);
+    selectMenuItem('');
+  };
+
+  return (<div className={classNames(
+    'support-colors flex flex-col text-popo ',
+    disabled ? 'opacity-30 ' : ''
+  )}>
     { !!label && size !== 'xl' && (<div className='text-base mb-2'>{label}</div>) }
-
     <div
-      className={classNames}
+      className={classNames(
+        size === Sizes.xl ? ' p-4 ' : size === Sizes.md ? ' py-2 px-3 ' : ' py-3 px-4 ',
+        size === Sizes.xl ? ' rounded-xl' : ' rounded-lg',
+        disabled ? ' cursor-not-allowed' : ' cursor-pointer',
+        isSharpTopSide || isSharpLeftSide ? ' rounded-tl-none' : '',
+        isSharpTopSide || isSharpRightSide ? ' rounded-tr-none' : '',
+        isSharpBottomSide || isSharpRightSide ? ' rounded-bl-none' : '',
+        isSharpBottomSide || isSharpRightSide ? ' rounded-br-none' : '',
+        isTopBottomBorderHidden ? ' border-y-0' : '',
+        isSideBorderHidden ? ' border-x-0' : '',
+        isRtl ? ' text-direction-rtl' : '',
+        isError ? ' shadow-input-err' : ` shadow-input ${
+          disabled ? '' : inputFocused ? 'shadow-input-focus' : 'hover:shadow-input-hov'
+        }`
+      )}
       onClick={onSelectClick}
       ref={selectRef}
     >
@@ -96,43 +111,61 @@ const Select = forwardRef<HTMLDivElement, SelectProps>(({
         defaultValue={isSearchable ? search : menuOptions.find((option: Option) => option.value === value)?.label || ''}
         readOnly={!isSearchable}
       />
+      {!!leftSlot && (<div className={classNames(
+        'absolute left-0 top-0 w-6 h-6 flex justify-center items-center overflow-hidden z-10 ',
+        size === 'xl' ? 'm-4 ' : 'm-2 '
+      )}>{leftSlot}</div>)}
 
-      {!!leftSlot && (<div className={`absolute left-0 top-0 w-6 h-6 flex justify-center items-center overflow-hidden z-10 m-${size === 'xl' ? 4 : 2}`}>{leftSlot}</div>)}
-
-      <div className={`absolute w-full flex items-center justify-between z-[2] ${ disabled ? 'cursor-not-allowed' : 'cursor-pointer' } ${!value ? 'text-trunks' : ''} ${leftSlot ? 'pl-6' : ''} ${isRtl ? `pl-${ size === 'md' ? 3 : 4 }` : `pr-${ size === 'md' ? 3 : 4 }`}`}>
+      <div className={classNames(
+        'absolute w-full flex items-center justify-between z-[2] ',
+        disabled ? 'cursor-not-allowed ' : 'cursor-pointer ',
+        !value ? 'text-trunks ' : '',
+        leftSlot ? 'pl-6 ' : '',
+        isRtl ? size === 'md' ? 'pl-3' : 'pl-4' : size === 'md' ? 'pr-3' : 'pr-4'
+      )}>
         {size !== 'xl' ? (<div className='text-moon-14'>{ search?.length ? search : placeholder }</div>) : (<>
-          <div className={`text-moon-16 transition-all relative ${leftSlot ? 'pl-2' : ''} ${!value ? 'text-transparent' : 'text-bulma -bottom-2'}`}>{ search ? search : placeholder }</div>
-          <div className={`text-trunks transition-all absolute ${leftSlot ? 'pl-2' : ''} ${!value ? 'text-moon-16' : 'text-moon-12 -top-2'}`}>{ label }</div>
+          <div className={classNames(
+            'text-moon-16 transition-all relative ',
+            leftSlot ? 'pl-2 ' : '',
+            !value ? 'text-transparent ' : 'text-bulma -bottom-2 '
+          )}>{ search ? search : placeholder }</div>
+          <div className={classNames(
+            'text-trunks transition-all absolute ',
+             leftSlot ? 'pl-2 ' : '',
+             !value ? 'text-moon-16 ' : 'text-moon-12 -top-2 '
+          )}>{ label }</div>
         </>)}
         <div className='flex items-center justify-center'>
           {!!value && (<div
             className={`${size === 'xl' ? 'ml-4' : 'ml-2'}`}
-            onClick={(e) => {
-              e.stopPropagation();
-              e.preventDefault();
-
-              setSelectedIndex(-1);
-              setHoveredIndex(-1);
-              selectMenuItem('');
-            }}
+            onClick={(e: any) => clearValue(e)}
           >
             <Clear />
           </div>)}
           <div className={`${size === 'xl' ? 'mr-4 ml-2' : 'mx-2'}`}>{ menuOpen ? (<ChevronUp />) : (<ChevronDown />) }</div>
         </div>
       </div>
-      {!!hintSlot && (<div className={`absolute top-full left-0 p-2 text-xs text-${isError ? 'chiChi' : 'trunks'}`}>
-        { hintSlot }
-      </div>)}
+      {!!hintSlot && (<div className={classNames(
+        'absolute top-full left-0 p-2 text-xs ',
+        isError ? 'text-chiChi ' : 'text-trunks '
+      )}>{ hintSlot }</div>)}
       <div
-        className={`absolute rounded-xl bg-gohan w-full left-0 top-full mt-2 py-2 px-1 shadow-xl overflow-auto z-[11] ${ menuOpen ? 'opacity-1': 'opacity-0 -z-1'} ${menuWidth && `w-[${menuWidth}px]`}`}
+        className={classNames(
+          'absolute rounded-xl bg-gohan w-full left-0 top-full mt-2 py-2 px-1 shadow-xl overflow-auto z-[11] ',
+           menuOpen ? 'opacity-1 ' : 'opacity-0 -z-1 ',
+           menuWidth ? `w-[${menuWidth}rem]` : ''
+        )}
         ref={menuRef}
-        style={{width: `${menuWidth ? menuWidth + "px" : "100%"}`}}
+        style={{ width: `${menuWidth ? menuWidth + "rem" : "100%"}` }}
       >
         {headerSlot || null}
         {
           menuOpen && menuOptions?.length && menuOptions.map((option: Option, index: number) => (<div
-            className={`flex items-center text-popo text-sm p-2 mb-1 ${size === 'xl' ? 'rounded-lg' : 'rounded-sm'} ${determineMenuBackgroundColor(index, hoveredIndex, selectedIndex)}`}
+            className={classNames(
+              'flex items-center text-popo text-sm p-2 mb-1 ',
+              size === 'xl' ? 'rounded-lg ' : 'rounded-sm ' ,
+              determineMenuBackgroundColor(index, hoveredIndex, selectedIndex)
+            )}
             key={option.value}
             onClick={() => { if (!disabled && onChange) selectMenuItem(option.value) }}
             onMouseOver={() => setHoveredIndex(index)}

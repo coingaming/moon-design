@@ -15,7 +15,7 @@ interface Props {
   setHoveredIndex: (index: number) => any
 }
 
-const useEventListeners = ({
+const useSelect = ({
  options,
  onChange,
  value,
@@ -167,4 +167,4 @@ const useEventListeners = ({
   return { menuOpen, search, menuOptions, inputFocused, inputRef, selectRef, menuRef, onSelectClick, onInputFocus, selectMenuItem, handleInputKeydown };
 };
 
-export default useEventListeners;
+export default useSelect;
