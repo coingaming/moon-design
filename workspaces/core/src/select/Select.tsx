@@ -2,7 +2,7 @@ import React, {forwardRef, useState} from "react";
 import ChevronDown from "../private/icons/ChevronDown";
 import ChevronUp from "../private/icons/ChevronUp";
 import Clear from "../private/icons/Clear";
-import classNames from '../private/utils/classNames';
+import classNames from '../private/utils/classnames';
 import {determineMenuBackgroundColor} from "./private/getBackgroundColor";
 import getPlaceholderValue from "./private/getPlaceholderValue";
 import Option from "./private/types/OptionProps";
@@ -78,12 +78,13 @@ const Select = forwardRef<HTMLDivElement, SelectProps>(({
   };
 
   return (<div className={classNames(
-    'support-colors flex flex-col text-popo ',
-    disabled ? 'opacity-30 ' : ''
+    'support-colors flex flex-col text-popo',
+    disabled ? 'opacity-30' : ''
   )}>
     { !!label && size !== 'xl' && (<div className='text-base mb-2'>{label}</div>) }
     <div
       className={classNames(
+        'flex relative bg-gohan',
         size === Sizes.xl ? ' p-4 ' : size === Sizes.md ? ' py-2 px-3 ' : ' py-3 px-4 ',
         size === Sizes.xl ? ' rounded-xl' : ' rounded-lg',
         disabled ? ' cursor-not-allowed' : ' cursor-pointer',
