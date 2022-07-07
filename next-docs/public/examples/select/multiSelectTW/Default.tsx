@@ -25,7 +25,7 @@ const Example = () => {
         <MultiSelect
           value={['one']}
           label='Preset value'
-          placeholderSlot='Placeholder slot'
+          placeholder='Placeholder slot'
           options={[
             { value: 'one', element: 'One', label: 'One' },
             { value: 'two', element: 'Two', label: 'Two' },
@@ -37,7 +37,7 @@ const Example = () => {
       <div className='mt-4'>
         <MultiSelect
           label='Custom menu width'
-          placeholderSlot='Placeholder slot'
+          placeholder='Placeholder slot'
           menuWidth={20}
           options={[
             { value: 'one', element: 'One', label: 'One' },

@@ -6,8 +6,8 @@ const Example = () => {
     <MultiSelect
       value={['one']}
       label='Left slot'
-      placeholderSlot='Placeholder slot'
-      leftSlot={(<ChartPieChart fontSize='1.5rem'/>)}
+      placeholder='Placeholder slot'
+      left={(<ChartPieChart fontSize='1.5rem'/>)}
       options={[
         { value: 'one', element: 'One', label: 'One' },
         { value: 'two', element: 'Two', label: 'Two' },
@@ -20,9 +20,9 @@ const Example = () => {
       <MultiSelect
         value={['one']}
         label='Left slot'
-        placeholderSlot='Placeholder slot'
+        placeholder='Placeholder slot'
         size='xl'
-        leftSlot={(<ChartPieChart fontSize='1.8rem'/>)}
+        left={(<ChartPieChart fontSize='1.8rem'/>)}
         options={[
           { value: 'one', element: 'One', label: 'One' },
           { value: 'two', element: 'Two', label: 'Two' },

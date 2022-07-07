@@ -1,4 +1,4 @@
-import React, {ChangeEvent, useEffect, useRef, useState} from "react";
+import React, { useEffect, useRef, useState } from "react";
 import ChevronDown from "../private/icons/ChevronDown";
 import Clear from "../private/icons/Clear";
 import classNames from '../private/utils/classnames';
@@ -13,16 +13,15 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
  value,
  disabled,
  isError,
- placeholderSlot,
- placeholderValue,
- hintSlot,
+ placeholder,
+ hint,
  onChange,
  size = 'md',
  amountOfVisibleItems = 9999,
  menuWidth,
- headerSlot,
- footerSlot,
- leftSlot,
+ header,
+ footer,
+ left,
  isSharpLeftSide,
  isSharpRightSide,
  isSharpTopSide,
@@ -41,7 +40,7 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
   const [hoveredIndex, setHoveredIndex] = useState(-1);
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
-  const placeholder = placeholderSlot ?? placeholderValue ?? 'Choose an option';
+  const placeholderElement = placeholder ?? 'Choose an option';
   const areSelectedValuesEmpty = selectedValues && selectedValues.length === 0;
   const areAllSelected = selectedValues.length === options.length;
 
@@ -146,7 +145,7 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
   return (
     <div className="flex">
 
-      {leftSlot || null}
+      {left || null}
 
       <div className={`w-full support-colors flex flex-col text-popo ${ disabled ? 'opacity-30' : ''}` }>
 
@@ -217,7 +216,7 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
                 )}
                 >
                   <div>
-                    {size === "xl" ? label : placeholder}
+                    {size === "xl" ? label : placeholderElement}
                   </div>
                 </div>
               )}
@@ -250,7 +249,7 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
             ref={menuRef}
             style={{width: `${menuWidth ? menuWidth + "rem" : "100%"}`}}
           >
-            {headerSlot || null}
+            {header || null}
             {(search || menuOpen ) && menuOptions.map((option: Option, index: number) => {
               return !isSelectedItem(option.value) &&
                 (
@@ -271,12 +270,12 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
             {areAllSelected && (
               <div className="flex justify-center">{noOptionsMessage || "No options"}</div>
             )}
-            {footerSlot || null}
+            {footer || null}
           </div>
 
-          {!!hintSlot && (
+          {!!hint && (
             <div className={`absolute top-full left-0 p-2 text-xs text-${isError ? 'chiChi' : 'trunks'}`}>
-              {hintSlot}
+              {hint}
             </div>
           )}
         </div>

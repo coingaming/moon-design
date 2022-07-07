@@ -5,7 +5,7 @@ const Example = () => {
     <MultiSelect
       value={['one']}
       label='Two items menu'
-      placeholderSlot='Placeholder slot'
+      placeholder='Placeholder slot'
       amountOfVisibleItems={2}
       options={[
         { value: 'one', element: 'One', label: 'One' },

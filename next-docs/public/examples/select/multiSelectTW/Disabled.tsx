@@ -5,7 +5,7 @@ const Example = () => {
     <MultiSelect
       disabled={true}
       label='Disabled'
-      placeholderSlot='Placeholder slot'
+      placeholder='Placeholder slot'
       options={[
         { value: 'one', element: 'One', label: 'One' },
         { value: 'two', element: 'Two', label: 'Two' },

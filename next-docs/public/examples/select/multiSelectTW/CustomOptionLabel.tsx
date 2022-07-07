@@ -9,7 +9,7 @@ const Example = () => {
     <MultiSelect
       value={value}
       label='Custom option'
-      placeholderSlot='Placeholder slot'
+      placeholder='Placeholder slot'
       formatOptionLabel={(option: any) => (
         <div className="flex justify-between items-center">
           <div className="flex justify-between items-center mx-2">
@@ -27,14 +27,17 @@ const Example = () => {
         { value: 'three', element: 'Three', label: 'Three', data: { icon: (<ChartPieChart />), label: 'Chart' } },
         { value: 'four', element: 'Four', label: 'Four', data: { icon: (<ChartPieChart />), label: 'Chart' } },
       ]}
-      onChange={(newValue: string) => { setValue(newValue); console.log('Change happened - ', newValue) }}
+      onChange={(newValue: string[]) => {
+        setValue(newValue);
+        console.log('Change happened - ', newValue)
+      }}
     />
 
     <div className='mt-4'>
       <MultiSelect
         value={value}
         label='XL custom option'
-        placeholderSlot='Placeholder slot'
+        placeholder='Placeholder slot'
         size='xl'
         formatOptionLabel={(option: any) => (
           <div className="flex justify-between items-center">
@@ -53,7 +56,10 @@ const Example = () => {
           { value: 'three', element: 'Three', label: 'Three', data: { icon: (<ChartPieChart />), label: 'Chart' } },
           { value: 'four', element: 'Four', label: 'Four', data: { icon: (<ChartPieChart />), label: 'Chart' } },
         ]}
-        onChange={(newValue: string) => { setValue(newValue); console.log('Change happened - ', newValue) }}
+        onChange={(newValue: string[]) => {
+          setValue(newValue);
+          console.log('Change happened - ', newValue)
+        }}
       />
     </div>
   </div>);
