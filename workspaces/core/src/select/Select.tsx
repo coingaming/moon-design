@@ -6,10 +6,10 @@ import classNames from '../private/utils/classnames';
 import {determineMenuBackgroundColor} from "./private/getBackgroundColor";
 import getPlaceholderValue from "./private/getPlaceholderValue";
 import Option from "./private/types/OptionProps";
-import SelectProps, {Sizes} from "./private/types/SelectProps";
+import {SelectProps, SingleSelectProps, Sizes} from "./private/types/SelectProps";
 import useSelect from "./private/useSelect";
 
-const Select = forwardRef<HTMLDivElement, SelectProps>(({
+const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
   options,
   label,
   value,

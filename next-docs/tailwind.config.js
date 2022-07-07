@@ -32,6 +32,9 @@ module.exports = {
       screens: {
         '3xl': '1800px',
       },
+      gridTemplateColumns: {
+        searchableInput: '0px, min-content'
+      }
     },
   },
   plugins: [require('tailwindcss-rtl')],

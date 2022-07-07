@@ -18,6 +18,8 @@ export { default as setPadding } from './label/utils/setPadding';
 export * from './label/utils/setPadding';
 export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
+export { default as MultiSelect } from './select/MultiSelect';
+export * from './select/MultiSelect';
 export { default as Select } from './select/Select';
 export * from './select/Select';
 export { default as TextInput } from './textInput/TextInput';

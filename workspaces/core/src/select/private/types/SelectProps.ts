@@ -6,10 +6,8 @@ export const Sizes = {
   xl: 'xl'
 }
 
-type SelectProps = {
-  value?: string;
+export type SelectProps = {
   options: Option[];
-  onChange?: (value: string) => any;
   label?: JSX.Element | string;
   size?: keyof typeof Sizes;
   menuWidth: number,
@@ -30,8 +28,20 @@ type SelectProps = {
   isTopBottomBorderHidden: boolean,
   isSideBorderHidden: boolean,
   isRtl: boolean,
-  noResultsMessage?: string
   formatOptionLabel?: (option: any) => any;
+  noResultsMessage?: string
+  noSearchResultsMessage?: string
+  noOptionsMessage?: string;
+  className?: string;
 };
 
-export default SelectProps;
+export type SingleSelectProps = {
+  value?: string;
+  onChange?: (value: string) => void;
+};
+
+export type MultiSelectProps = {
+  value?: string[];
+  onChange?: (value: string[]) => void;
+  counter?: boolean;
+};

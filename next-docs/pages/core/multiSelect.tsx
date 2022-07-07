@@ -1,18 +1,10 @@
 import Preview from "../../components/codePreview/Preview";
 import PropsTable from "../../components/PropsTable";
-import CustomOptionLabel from "../../public/examples/select/selectTW/CustomOptionLabel";
-import Default from "../../public/examples/select/selectTW/Default";
-import Disabled from "../../public/examples/select/selectTW/Disabled";
-import Error from "../../public/examples/select/selectTW/Error";
-import Hint from "../../public/examples/select/selectTW/Hint";
-import LeftSlot from "../../public/examples/select/selectTW/LeftSlot";
-import Searchable from "../../public/examples/select/selectTW/Searchable";
-import Sizes from "../../public/examples/select/selectTW/Sizes";
-import VisibleItems from "../../public/examples/select/selectTW/VisibleItems";
+import Default from "../../public/examples/select/multiSelectTW/Default";
 import useExamples from "../../utils/useExamples";
 
 const Example = () => {
-  const examples = useExamples('selectTW');
+  const examples = useExamples('multiSelectTW');
 
   return (<div className="theme-moon-light">
     <section className="mt-8">
@@ -21,70 +13,6 @@ const Example = () => {
         preview={<Default />}
         code={examples ? examples.Select : 'Loading'}
       />
-    </section>
-
-    <section className="mt-8">
-      <Preview
-        title="Disabled"
-        preview={<Disabled />}
-        code={examples ? examples.Disabled : 'Loading'}
-      />
-    </section>
-
-    <section className="mt-8">
-      <Preview
-        title="Sizes"
-        preview={<Sizes />}
-        code={examples ? examples.Sizes : 'Loading'}
-      />
-    </section>
-
-    <section className="mt-8">
-      <Preview
-        title="Hint"
-        preview={<Hint />}
-        code={examples ? examples.Hint : 'Loading'}
-      />
-    </section>
-
-    <section className="mt-8">
-      <Preview
-        title="Error"
-        preview={<Error />}
-        code={examples ? examples.Error : 'Loading'}
-      />
-    </section>
-
-    <section className="mt-8">
-      <Preview
-        title="Left slot"
-        preview={<LeftSlot />}
-        code={examples ? examples.LeftSlot : 'Loading'}
-      />
-    </section>
-
-    <section className="mt-8">
-      <Preview
-        title="Custom option"
-        preview={<CustomOptionLabel />}
-        code={examples ? examples.CustomOptionLabel : 'Loading'}
-      />
-    </section>
-
-    <section className="mt-8">
-      <Preview
-        title="Visible items"
-        preview={<VisibleItems />}
-        code={examples ? examples.VisibleItems : 'Loading'}
-      />
-    </section>
-
-    <section className="mt-8">
-        <Preview
-          title="Searchable"
-          preview={<Searchable />}
-          code={examples ? examples.Searchable : 'Loading'}
-        />
     </section>
 
     <div className="mt-8">

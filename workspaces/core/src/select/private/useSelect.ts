@@ -1,11 +1,11 @@
 import {useCallback, useEffect, useRef, useState} from "react";
 import Option from "./types/OptionProps";
-import SelectProps from "./types/SelectProps";
+import {MultiSelectProps, SelectProps, SingleSelectProps} from "./types/SelectProps";
 
 interface Props {
   options: SelectProps["options"],
-  onChange: SelectProps["onChange"],
-  value: SelectProps["value"],
+  onChange: SingleSelectProps["onChange"],
+  value: SingleSelectProps["value"] | MultiSelectProps["value"],
   isSearchable: SelectProps["isSearchable"],
   disabled: SelectProps["disabled"],
   amountOfVisibleItems: SelectProps["amountOfVisibleItems"],
@@ -137,7 +137,7 @@ const useSelect = ({
     if (menuOpen && options?.length) {
       let selectedItemIndex = -1;
 
-      options.forEach((item: Option, index) => {
+      options.forEach((item: Option, index: number) => {
         if (item.value === value) selectedItemIndex = index;
       });
 
