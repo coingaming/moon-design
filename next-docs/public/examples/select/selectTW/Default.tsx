@@ -20,7 +20,7 @@ const Example = () => {
       <Select
         value='one'
         label='Preset value'
-        placeholderSlot='Placeholder slot'
+        placeholder='Placeholder slot'
         options={[
           { value: 'one', element: 'One', label: 'One' },
           { value: 'two', element: 'Two', label: 'Two' },
@@ -33,7 +33,7 @@ const Example = () => {
       <Select
         value={value}
         label='Custom menu width'
-        placeholderSlot='Placeholder slot'
+        placeholder='Placeholder slot'
         menuWidth={20}
         options={[
           { value: 'one', element: 'One', label: 'One' },

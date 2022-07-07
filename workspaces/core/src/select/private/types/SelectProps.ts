@@ -12,15 +12,14 @@ export type SelectProps = {
   size?: keyof typeof Sizes;
   menuWidth: number,
   disabled?: boolean;
-  placeholderValue?: JSX.Element | string;
-  placeholderSlot?: JSX.Element | string;
+  placeholder?: JSX.Element | string;
   isError?: boolean;
   amountOfVisibleItems?: number;
   isSearchable: boolean,
-  hintSlot?: JSX.Element | string;
-  headerSlot: JSX.Element,
-  footerSlot: JSX.Element,
-  leftSlot: JSX.Element,
+  hint?: JSX.Element | string;
+  header: JSX.Element,
+  footer: JSX.Element,
+  left: JSX.Element,
   isSharpLeftSide: JSX.Element,
   isSharpRightSide: boolean,
   isSharpTopSide: boolean,

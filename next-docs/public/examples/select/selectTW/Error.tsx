@@ -6,7 +6,7 @@ const Example = () => {
       isError={true}
       value='one'
       label='Error input'
-      placeholderSlot='Placeholder slot'
+      placeholder='Placeholder slot'
       options={[
         { value: 'one', element: 'One', label: 'One' },
         { value: 'two', element: 'Two', label: 'Two' },
@@ -19,8 +19,8 @@ const Example = () => {
         isError={true}
         value='one'
         label='Error with hint'
-        placeholderSlot='Placeholder slot'
-        hintSlot="Informative message holder"
+        placeholder='Placeholder slot'
+        hint="Informative message holder"
         options={[
           { value: 'one', element: 'One', label: 'One' },
           { value: 'two', element: 'Two', label: 'Two' },

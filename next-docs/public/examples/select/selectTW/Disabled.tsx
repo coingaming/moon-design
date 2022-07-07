@@ -5,7 +5,7 @@ const Example = () => {
     <Select
       disabled={true}
       label='Disabled select'
-      placeholderSlot='Placeholder slot'
+      placeholder='Placeholder slot'
       options={[
         { value: 'one', element: 'One', label: 'One' },
         { value: 'two', element: 'Two', label: 'Two' },

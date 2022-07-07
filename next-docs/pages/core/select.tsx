@@ -1,3 +1,4 @@
+import React from "react";
 import Preview from "../../components/codePreview/Preview";
 import PropsTable from "../../components/PropsTable";
 import CustomOptionLabel from "../../public/examples/select/selectTW/CustomOptionLabel";
@@ -14,7 +15,17 @@ import useExamples from "../../utils/useExamples";
 const Example = () => {
   const examples = useExamples('selectTW');
 
-  return (<div className="theme-moon-light">
+  return (<div className="flex flex-col gap-12 theme-moon-light">
+    <h1 className="text-moon-32 font-medium">Single select</h1>
+    <div className="flex flex-col gap-2 max-w-screen-sm">
+      <p className="text-moon-16">
+        Indeed, forms require input from all users, including astronauts. Text input fields help to gather both short and long-form information. The size of the text field should correspond to the length of information that’s required.
+      </p>
+      <p className="text-moon-16">
+        Text input fields can contain various rules to ensure the right information is obtained from users. Users should also be given prompts to guide them on what’s needed, or if they’ve made an error while doing so.
+      </p>
+    </div>
+
     <section className="mt-8">
       <Preview
         title="Default"

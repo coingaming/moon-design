@@ -8,8 +8,8 @@ const Example = () => {
     <Select
       value={value}
       label='Hint slot'
-      placeholderSlot='Placeholder slot'
-      hintSlot='Informative message holder'
+      placeholder='Placeholder slot'
+      hint='Informative message holder'
       options={[
         { value: 'one', element: 'One', label: 'One' },
         { value: 'two', element: 'Two', label: 'Two' },

@@ -9,7 +9,7 @@ const Example = () => {
     <Select
       value={value}
       label='Custom option'
-      placeholderSlot='Placeholder slot'
+      placeholder='Placeholder slot'
       formatOptionLabel={(option: any) => (
         <div className="flex justify-between items-center">
           <div className="flex justify-between items-center mx-2">
@@ -34,7 +34,7 @@ const Example = () => {
       <Select
         value={value}
         label='XL custom option'
-        placeholderSlot='Placeholder slot'
+        placeholder='Placeholder slot'
         size='xl'
         formatOptionLabel={(option: any) => (
           <div className="flex justify-between items-center">

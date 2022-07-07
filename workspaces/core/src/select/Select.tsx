@@ -15,16 +15,15 @@ const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
   value,
   disabled,
   isError,
-  placeholderSlot,
-  placeholderValue,
-  hintSlot,
+  placeholder,
+  hint,
   onChange,
   size = 'md',
   amountOfVisibleItems = 9999,
   menuWidth,
-  headerSlot,
-  footerSlot,
-  leftSlot,
+  header,
+  footer,
+  left,
   isSharpLeftSide,
   isSharpRightSide,
   isSharpTopSide,
@@ -38,10 +37,10 @@ const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
 }) => {
   const [hoveredIndex, setHoveredIndex] = useState(-1);
   const [selectedIndex, setSelectedIndex] = useState(-1);
-  const placeholder = getPlaceholderValue({
+  const placeholderElement = getPlaceholderValue({
     value,
     options,
-    placeholderSlot: placeholderSlot ?? placeholderValue
+    placeholder
   });
   const {
     menuOpen,
@@ -112,27 +111,27 @@ const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
         defaultValue={isSearchable ? search : menuOptions.find((option: Option) => option.value === value)?.label || ''}
         readOnly={!isSearchable}
       />
-      {!!leftSlot && (<div className={classNames(
+      {!!left && (<div className={classNames(
         'absolute left-0 top-0 w-6 h-6 flex justify-center items-center overflow-hidden z-10 ',
         size === 'xl' ? 'm-4 ' : 'm-2 '
-      )}>{leftSlot}</div>)}
+      )}>{left}</div>)}
 
       <div className={classNames(
         'absolute w-full flex items-center justify-between z-[2] ',
         disabled ? 'cursor-not-allowed ' : 'cursor-pointer ',
         !value ? 'text-trunks ' : '',
-        leftSlot ? 'pl-6 ' : '',
+        left ? 'pl-6 ' : '',
         isRtl ? size === 'md' ? 'pl-3' : 'pl-4' : size === 'md' ? 'pr-3' : 'pr-4'
       )}>
-        {size !== 'xl' ? (<div className='text-moon-14'>{ search?.length ? search : placeholder }</div>) : (<>
+        {size !== 'xl' ? (<div className='text-moon-14'>{ search?.length ? search : placeholderElement }</div>) : (<>
           <div className={classNames(
             'text-moon-16 transition-all relative ',
-            leftSlot ? 'pl-2 ' : '',
+            left ? 'pl-2 ' : '',
             !value ? 'text-transparent ' : 'text-bulma -bottom-2 '
-          )}>{ search ? search : placeholder }</div>
+          )}>{ search ? search : placeholderElement }</div>
           <div className={classNames(
             'text-trunks transition-all absolute ',
-             leftSlot ? 'pl-2 ' : '',
+             left ? 'pl-2 ' : '',
              !value ? 'text-moon-16 ' : 'text-moon-12 -top-2 '
           )}>{ label }</div>
         </>)}
@@ -146,10 +145,10 @@ const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
           <div className={`${size === 'xl' ? 'mr-4 ml-2' : 'mx-2'}`}>{ menuOpen ? (<ChevronUp />) : (<ChevronDown />) }</div>
         </div>
       </div>
-      {!!hintSlot && (<div className={classNames(
+      {!!hint && (<div className={classNames(
         'absolute top-full left-0 p-2 text-xs ',
         isError ? 'text-chiChi ' : 'text-trunks '
-      )}>{ hintSlot }</div>)}
+      )}>{ hint }</div>)}
       <div
         className={classNames(
           'absolute rounded-xl bg-gohan w-full left-0 top-full mt-2 py-2 px-1 shadow-xl overflow-auto z-[11] ',
@@ -159,7 +158,7 @@ const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
         ref={menuRef}
         style={{ width: `${menuWidth ? menuWidth + "rem" : "100%"}` }}
       >
-        {headerSlot || null}
+        {header || null}
         {
           menuOpen && menuOptions?.length && menuOptions.map((option: Option, index: number) => (<div
             className={classNames(
@@ -175,7 +174,7 @@ const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
           </div>))
         }
         {!menuOptions.length && (<div className="p-2">{noResultsMessage || 'No results found.'}</div>)}
-        {footerSlot || null}
+        {footer || null}
       </div>
     </div>
   </div>);
