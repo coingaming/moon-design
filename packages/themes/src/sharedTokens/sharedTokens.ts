@@ -414,6 +414,7 @@ export interface SharedTheme {
   base: Base;
   border: Border;
   borderWidth: BorderWidth;
+  borderWidthInteractive: BorderWidth;
   borderStyle: BorderStyle;
   boxShadow: BoxShadow; // legacy
   breakpoint: Breakpoint;
@@ -464,6 +465,7 @@ const sharedTokens: SharedTheme = {
   },
   borderStyle,
   borderWidth,
+  borderWidthInteractive,
   border: `${borderWidth}px ${borderStyle}`,
   boxShadow: '0px 0px 1px 0px #00000066, 0px 8px 24px -6px #00000029',
   shadows: {
