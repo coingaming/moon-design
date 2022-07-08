@@ -11,7 +11,10 @@
   "repository": "https://github.com/coingaming/moon-design",
   "author": "Yolo Group",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "build": "pnpm run copy",
+    "copy": "cpy src lib --flat"
+  },
   "devDependencies": {},
   "dependencies": {},
   "peerDependencies": {}
