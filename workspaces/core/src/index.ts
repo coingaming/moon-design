@@ -14,6 +14,8 @@ export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
 export { default as Chip } from './chip/Chip';
 export * from './chip/Chip';
+export { default as Drawer } from './drawer/Drawer';
+export * from './drawer/Drawer';
 export { default as Label } from './label/Label';
 export * from './label/Label';
 export { default as setFontSize } from './label/utils/setFontSize';
