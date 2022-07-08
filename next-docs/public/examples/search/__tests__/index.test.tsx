@@ -13,7 +13,7 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
-describe('Search', () => {
+xdescribe('Search', () => {
   it('renders', () => {
     const testRenderer = renderer.create(renderWithTheme(<PreviewSearch />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
