@@ -8,7 +8,8 @@
     "start": "next start -p 80",
     "test": "jest --watch",
     "test:update": "jest -u",
-    "test:ci": "jest -w 1 --ci"
+    "test:ci": "jest -w 1 --ci",
+    "build:template:css": "npx tailwindcss -i ./styles/globals.css -o ./styles/output.css"
   },
   "dependencies": {
     "@headlessui/react": "1.6.1",

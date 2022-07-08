@@ -30,7 +30,8 @@
     "dist",
     "lib",
     "node_modules",
-    "public"
+    "public",
+    "workspaces/templates"
   ],
   "husky": {
     "hooks": {
