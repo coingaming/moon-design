@@ -16,7 +16,9 @@ const Accordion = ({
   withButton = true,
   isContentInside = true,
   size = 'md',
+  backgroundColor = 'gohan'
 }: AccordionProps) => {
+  const backgroundColorClass = `bg-${backgroundColor}`;
   const [isOpen, setIsOpen] = useState(openByDefault);
   function handleState() {
     if (!disableOpen) {
@@ -27,15 +29,15 @@ const Accordion = ({
     <div
       className={classNames(
         'w-full rounded-moon-s-sm h-max flex flex-col items-center',
-        isContentInside ? 'bg-gohan' : 'transparent',
+        isContentInside ? backgroundColorClass : 'transparent',
         setPadding(isContentInside, size)
       )}
     >
       <div
         className={classNames(
-          'bg-gohan w-full flex items-center relative gap-1',
+          backgroundColorClass + ' w-full flex items-center relative gap-1',
           disableOpen ? 'cursor-not-allowed' : 'cursor-pointer',
-          isContentInside ? 'bg-gohan' : 'transparent rounded-moon-s-sm',
+          isContentInside ? backgroundColorClass : 'transparent rounded-moon-s-sm',
           isContentInside ? '' : setPadding(true, size)
         )}
         onClick={handleState}
@@ -56,7 +58,7 @@ const Accordion = ({
             type="button"
             disabled={disableOpen}
             className={classNames(
-              'align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan',
+              'align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent ' + backgroundColorClass,
               disableOpen ? 'cursor-not-allowed' : 'cursor-pointer'
             )}
           >

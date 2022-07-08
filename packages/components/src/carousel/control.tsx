@@ -24,9 +24,6 @@ export const CarouselControl = styled.button<Props>(
       breakpoint,
     },
   }) => ({
-    [mq(breakpoint.small, 'max-width')]: {
-      display: 'none',
-    },
     padding: rem(space.small) /* [1] */,
     verticalAlign: 'middle',
     border,
