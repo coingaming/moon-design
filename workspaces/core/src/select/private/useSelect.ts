@@ -57,7 +57,9 @@ const useSelect = ({
     else if (e.key === "Enter") {
       setMenuOpen(false);
 
-      if (onChange && menuOptions?.length) selectMenuItem(menuOptions[hoveredIndex]?.value);
+      if (onChange && menuOptions?.length) {
+        selectMenuItem(menuOptions[isSearchable && search && hoveredIndex < 0 ? 0 : hoveredIndex]?.value);
+      }
     }
     else if (e.key === 'ArrowDown') {
       setMenuOpen(true);
@@ -66,7 +68,7 @@ const useSelect = ({
     else if ((isSearchable || allOptions?.length) && e.key === 'Backspace') {
       const newSearch = search.split('').splice(0, search.length - 1).join('');
 
-      if (onBackspace) onBackspace();
+      if (onBackspace && (!isSearchable || !search)) onBackspace();
       else {
         setMenuOpen(true);
         setSearch(newSearch);

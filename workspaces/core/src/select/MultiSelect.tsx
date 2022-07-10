@@ -33,6 +33,7 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
  isSearchable,
  noSearchResultsMessage,
  noOptionsMessage,
+ formatOptionLabel
 }) => {
   const [availableOptions, setAvailableOptions] = useState(options);
   const [selectedValues, setSelectedValues] = useState<string[]>(value || []);
@@ -99,12 +100,14 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
     switch (size) {
       case 'xl':
         value = selectedValues.length ? 'py-2 pb-1' : 'py-4 px-4';
+        value += left ? ' pl-6' : '';
         break;
       case 'lg':
-        value = 'py-3';
+        value = left ? 'pl-6 pr-3' : 'py-3';
         break;
       case 'md':
         value = selectedValues.length ? 'py-2.5' : 'py-2';
+        value += left ? ' pl-6' : '';
         break;
     }
 
@@ -143,13 +146,15 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
   const isOverflown = selectedValuesRef?.current?.scrollHeight > selectRef?.current?.clientHeight;
 
   return (<div className="flex">
-      {left || null}
       <div className={`w-full support-colors flex flex-col text-popo ${ disabled ? 'opacity-30' : ''}` }>
         { !!label && size !== 'xl' && (<div className='text-base mb-2'>{label}</div>) }
         <div
           className={classNames(
             'h-auto flex relative bg-gohan',
-            'pr-4 pl-3',
+            'pr-4',
+            menuOpen ? 'z-1' : '',
+            left ? '' : 'pl-3',
+            getPadding(),
             disabled ? ' cursor-not-allowed' : ' cursor-pointer',
             (isSharpTopSide || isSharpLeftSide) && ' rounded-tl-none',
             (isSharpTopSide || isSharpRightSide) && ' rounded-tr-none',
@@ -162,13 +167,17 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
             isError ? ' shadow-input-err' : ` shadow-input ${
               disabled ? '' : inputFocused ? 'shadow-input-focus' : 'hover:shadow-input-hov'
             }`,
-            getPadding(),
           )}
           ref={selectRef}
           onClick={onSelectClick}
           style={isError ? { borderColor: '#ff4e64', outlineColor: '#ff4e64'} : {}}
         >
-          <div className="flex flex-col w-full">
+          <div
+            className={classNames(
+              "flex flex-col w-full",
+              left ? size === 'xl' ? 'ml-6' : 'ml-4' : ''
+            )}
+          >
             {size === "xl" && !!selectedValues.length && <div className='text-trunks mb-2 text-xs h-3'>{label}</div>}
             <div
               className={classNames(
@@ -203,6 +212,10 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
                   onBlur={() => onInputFocus()}
                   value={search}
                 />
+                {!!left && (<div className={classNames(
+                  'absolute left-0 top-0 w-6 h-6 flex justify-center items-center overflow-hidden z-10 ',
+                  size === 'xl' ? 'm-4 ' : 'm-2 '
+                )}>{left}</div>)}
               </div>
               {!selectedValues?.length && !search && (
                 <div className={classNames(
@@ -228,7 +241,7 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
           </div>
           <div
             className={classNames(
-              'absolute rounded-xl bg-gohan w-full left-0 top-full mt-2 py-2 px-1 shadow-xl overflow-auto z-[3]',
+              'absolute rounded-xl bg-gohan w-full left-0 top-full mt-2 py-2 px-1 shadow-xl overflow-auto z-[10]',
               menuOpen ? 'opacity-1': 'opacity-0 -z-1',
               menuWidth && `w-[${menuWidth}rem]`
             )}
@@ -247,7 +260,9 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
                 )}
                 onMouseOver={() => setHoveredIndex(index)}
                 onClick={() => selectMenuItem(option.value)}
-              >{option.element}</div>)
+              >
+                {formatOptionLabel ? formatOptionLabel(option) : option.element ?? option.label}
+              </div>)
             )}
             {!menuOptions.length && !areAllSelected && (<div className="flex justify-center">{noSearchResultsMessage || 'No results found.'}</div>)}
             {areAllSelected && (<div className="flex justify-center">{noOptionsMessage || "No options"}</div>)}
