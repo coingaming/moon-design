@@ -2,6 +2,31 @@ import {useCallback, useEffect, useRef, useState} from "react";
 import Option from "./types/OptionProps";
 import {MultiSelectProps, SelectProps, SingleSelectProps} from "./types/SelectProps";
 
+const checkNonSelectedIndex = (index: number, length: number, selectedIndexes: number[], direction: 'up' | 'down'): number => {
+  const nonSelectedIndexes: number[] = [];
+  let closestNonSelectedIndex = 9999;
+  let value = index;
+  // Array of selected indexes is empty or doesn't contain provided index
+  if (!selectedIndexes?.length || !selectedIndexes?.includes(index)) return value;
+
+  for (let i = length; i >= 0; i--) {
+    // We are looking for number that's not in selectedIndexes array
+    if (!selectedIndexes?.includes(i)) {
+      nonSelectedIndexes.push(i);
+      // We are looking for closest number higher than provided index
+      if (direction === 'down' && i > index && i - index < closestNonSelectedIndex - index) closestNonSelectedIndex = i;
+      // We are looking for closest number lower than provided index
+      else if (direction === 'up' && i < index && index - i < closestNonSelectedIndex - index) closestNonSelectedIndex = i;
+    }
+  }
+  if (direction === 'down' && closestNonSelectedIndex === 9999) closestNonSelectedIndex = Math.min(...nonSelectedIndexes);
+  if (direction === 'up' && closestNonSelectedIndex === 9999) closestNonSelectedIndex = Math.max(...nonSelectedIndexes);
+
+  value = closestNonSelectedIndex;
+
+  return value;
+};
+
 interface Props {
   options: SelectProps["options"],
   onChange: SingleSelectProps["onChange"],
@@ -12,15 +37,19 @@ interface Props {
   hoveredIndex: number,
   selectedIndex: number,
   setSelectedIndex: (index: number) => any,
-  setHoveredIndex: (index: number) => any
+  setHoveredIndex: (index: number) => any,
+  selectedIndexes?: number[],
+  allOptions?: SelectProps["options"],
 }
 
 const useSelect = ({
  options,
+ allOptions = [],
  onChange,
  value,
  hoveredIndex = -1,
  selectedIndex = -1,
+ selectedIndexes = [],
  isSearchable,
  disabled,
  amountOfVisibleItems,
@@ -39,7 +68,7 @@ const useSelect = ({
   const selectMenuItem = (value: string) => {
     setMenuOpen(false);
     setSearch('');
-    setMenuOptions(options);
+    setMenuOptions(allOptions?.length ? allOptions : options);
 
     if (onChange) onChange(value);
   };
@@ -83,16 +112,27 @@ const useSelect = ({
     (e) => {
       if (e && menuOpen) {
         const optionsLength = menuOptions?.length ?? 0;
+        let nextHoverIndex = hoveredIndex;
 
         e.stopPropagation();
         e.preventDefault();
 
         if (e.key === 'ArrowUp') {
-          setHoveredIndex(hoveredIndex > 0 ? hoveredIndex - 1 : optionsLength - 1);
+          nextHoverIndex = hoveredIndex > 0 ? hoveredIndex - 1 : optionsLength - 1;
+
+          if (selectedIndexes?.length) {
+            nextHoverIndex = checkNonSelectedIndex(nextHoverIndex, allOptions.length - 1, selectedIndexes, 'up');
+          }
         }
         else if (e.key === 'ArrowDown') {
-          setHoveredIndex(hoveredIndex < optionsLength - 1 ? hoveredIndex + 1 : 0);
+          nextHoverIndex = hoveredIndex < optionsLength - 1 ? hoveredIndex + 1 : 0;
+
+          if (selectedIndexes?.length) {
+            nextHoverIndex = checkNonSelectedIndex(nextHoverIndex, allOptions.length - 1, selectedIndexes, 'down');
+          }
         }
+
+        setHoveredIndex(nextHoverIndex);
       }
     },
     [menuOpen, hoveredIndex]
@@ -145,6 +185,7 @@ const useSelect = ({
         setSelectedIndex(selectedItemIndex);
       }
     }
+    else if (!menuOpen) setHoveredIndex(-1);
   }, [menuOpen, value])
 
   useEffect(() => {
@@ -164,7 +205,7 @@ const useSelect = ({
     return () => document.removeEventListener('mousedown', handleOutsideClick);
   }, []);
 
-  return { menuOpen, search, menuOptions, inputFocused, inputRef, selectRef, menuRef, onSelectClick, onInputFocus, selectMenuItem, handleInputKeydown };
+  return { menuOpen, search, menuOptions, inputFocused, inputRef, selectRef, menuRef, onSelectClick, onInputFocus, selectMenuItem, handleInputKeydown, setMenuOpen };
 };
 
 export default useSelect;

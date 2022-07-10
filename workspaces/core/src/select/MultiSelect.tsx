@@ -1,13 +1,14 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, {forwardRef, useEffect, useRef, useState} from "react";
 import ChevronDown from "../private/icons/ChevronDown";
 import Clear from "../private/icons/Clear";
 import classNames from '../private/utils/classnames';
+import {determineMenuBackgroundColor} from "./private/getBackgroundColor";
 import OptionItem from "./private/OptionItem";
 import Option from "./private/types/OptionProps";
-import { SelectProps, MultiSelectProps } from "./private/types/SelectProps";
+import {SelectProps, MultiSelectProps} from "./private/types/SelectProps";
 import useSelect from "./private/useSelect";
 
-const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
+const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>(({
  options,
  label,
  value,
@@ -37,6 +38,7 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
   const [availableOptions, setAvailableOptions] = useState(options);
   const [activeOption, setActiveOption] = useState(0);
   const [selectedValues, setSelectedValues] = useState<string[]>(value || []);
+  const [selectedIndexes, setSelectedIndexes] = useState<number[]>([]);
   const [hoveredIndex, setHoveredIndex] = useState(-1);
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
@@ -47,37 +49,48 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
   const selectedValuesRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    const newSelectedIndexes: number[] = [];
+
+    options.forEach((option: Option, index: number) => {
+      if (selectedValues.indexOf(option.value) >= 0) newSelectedIndexes.push(index);
+    });
+
+    setSelectedIndexes(newSelectedIndexes);
     setAvailableOptions(options.filter((option: Option) => !selectedValues.includes(option.value)));
   }, [selectedValues]);
 
   const addSelectedItem = (selectedItem: string) => {
     const isAlreadySelected = selectedValues.find((item) => item === selectedItem);
+
+    if (disabled) return;
     if (isAlreadySelected) return;
 
     const newSelectedValues = [...selectedValues, selectedItem];
 
-    if (typeof onChange === 'function') {
-      onChange(newSelectedValues);
-    }
+    if (typeof onChange === 'function') onChange(newSelectedValues);
 
     setSelectedValues(newSelectedValues);
     setActiveOption(0);
   };
   const removeSelectedItem = (selectedItem: string) => {
     if (disabled) return;
+
     const newSelectedValues = selectedValues.filter(
       (item) => item !== selectedItem
     );
+
     if (typeof onChange === 'function') {
       onChange(newSelectedValues);
     }
 
+    setMenuOpen(false);
     setSelectedValues(newSelectedValues);
     //@ts-ignore
     inputRef?.current.focus();
   };
   const resetValues = (e: React.MouseEvent) => {
     e.stopPropagation();
+    setMenuOpen(false);
     setSelectedValues([]);
   };
   const isSelectedItem = (currentItem: string) => {
@@ -126,13 +139,16 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
     onSelectClick,
     onInputFocus,
     selectMenuItem,
-    handleInputKeydown
+    handleInputKeydown,
+    setMenuOpen
   } = useSelect({
     options: availableOptions,
+    allOptions: options,
     onChange: addSelectedItem,
     value,
     hoveredIndex,
     selectedIndex,
+    selectedIndexes,
     isSearchable,
     disabled,
     amountOfVisibleItems,
@@ -142,15 +158,10 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
   // @ts-ignore
   const isOverflown = selectedValuesRef?.current?.scrollHeight > selectRef?.current?.clientHeight;
 
-  return (
-    <div className="flex">
-
+  return (<div className="flex">
       {left || null}
-
       <div className={`w-full support-colors flex flex-col text-popo ${ disabled ? 'opacity-30' : ''}` }>
-
         { !!label && size !== 'xl' && (<div className='text-base mb-2'>{label}</div>) }
-
         <div
           className={classNames(
             'h-auto flex relative bg-gohan border border-solid',
@@ -165,12 +176,12 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
               : `${isError ? 'border-chiChi outline-chiChi' : 'border-piccolo outline-piccolo'} outline outline-1`,
             isRtl ? ' text-direction-rtl' : '',
           )}
+          ref={selectRef}
           onClick={onSelectClick}
           style={isError ? { borderColor: '#ff4e64', outlineColor: '#ff4e64'} : {}}
         >
           <div className="flex flex-col w-full">
             {size === "xl" && !!selectedValues.length && <div className='text-trunks mb-2 text-xs h-3'>{label}</div>}
-
             <div
               className={classNames(
                 'items-center shrink grow basis-0 flex-wrap',
@@ -178,22 +189,20 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
               )}
               ref={selectedValuesRef}
             >
-              {selectedValues.map((value: string, index: number) => {
+              {selectedValues.map((value: string) => {
                 const selectedOption = options.find((opt: Option) => opt.value === value);
-                return (
-                  <OptionItem
-                    option={selectedOption!}
-                    onRemove={(e: React.MouseEvent) => {
-                      e.stopPropagation();
-                      removeSelectedItem(selectedOption!.value);
-                    }}
-                    selectSize={size}
-                    key={value}
-                    verticalMargins={isOverflown}
-                  />
-                )
-              })}
 
+                return (<OptionItem
+                  option={selectedOption!}
+                  onRemove={(e: React.MouseEvent) => {
+                    e.stopPropagation();
+                    removeSelectedItem(selectedOption!.value);
+                  }}
+                  selectSize={size}
+                  key={value}
+                  verticalMargins={isOverflown}
+                />);
+              })}
               <div className="m-0.5 text-xs shrink grow basis-auto inline-grid grid-cols-searchableInput col-start-1 col-end-3 row-start-1 row-end-2 after:content-[attr(data-value)] after:row-start-1 after:col-start-2 after:row-end-auto after:col-end-auto after:min-w-[2px] after:whitespace-pre after:text-xs" data-value={search}>
                 <input
                   className={`w-full text-xs bg-gohan text-popo focus:outline-none focus:border-none row-start-1 col-start-2 row-end-auto col-end-auto`}
@@ -207,39 +216,28 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
                   value={search}
                 />
               </div>
-
               {!selectedValues?.length && !search && (
                 <div className={classNames(
                   'flex grow items-center justify-between text-trunks col-start-1 col-end-3 row-start-1 row-end-2',
                   isRtl ? `pl-${ size === 'md' ? 3 : 4 }` : `pr-${ size === 'md' ? 3 : 4 }`,
                   disabled ? 'cursor-not-allowed' : 'cursor-pointer'
-                )}
-                >
-                  <div>
-                    {size === "xl" ? label : placeholderElement}
-                  </div>
-                </div>
+                )}><div>{size === "xl" ? label : placeholderElement}</div></div>
               )}
             </div>
           </div>
-
-
           <div className='ml-2 flex items-center bg-gohan'>
-            {!areSelectedValuesEmpty && (
-              <Clear
-                width={16}
-                height={16}
-                className="mr-3 text-trunks"
-                onClick={resetValues}
-              />
-            )}
+            {!areSelectedValuesEmpty && (<Clear
+              width={16}
+              height={16}
+              className="mr-3 text-trunks"
+              onClick={resetValues}
+            />)}
             <ChevronDown
               width={16}
               height={16}
               className={`${menuOpen ? "rotate-180" : ""} text-trunks`}
             />
           </div>
-
           <div
             className={classNames(
               'absolute rounded-xl bg-gohan w-full left-0 top-full mt-2 py-2 px-1 shadow-xl overflow-auto z-[3]',
@@ -249,39 +247,31 @@ const MultiSelect: React.FC<SelectProps & MultiSelectProps> = ({
             ref={menuRef}
             style={{width: `${menuWidth ? menuWidth + "rem" : "100%"}`}}
           >
-            {header || null}
-            {(search || menuOpen ) && menuOptions.map((option: Option, index: number) => {
-              return !isSelectedItem(option.value) &&
-                (
-                  <div
-                    key={option.value}
-                    // @TODO hover with custom color doesn't work, but only bg-goku works, why? :(
-                    className={`flex items-center text-popo text-sm p-2 rounded-sm hover:bg-goku ${activeOption === index && 'bg-goku'}`}
-                    onClick={() => addSelectedItem(option.value)}
-                  >
-                    {option.element}
-                  </div>
-                )
-            })
-            }
-            {!menuOptions.length && !areAllSelected && (
-              <div className="flex justify-center">{noSearchResultsMessage || 'No results found.'}</div>
+            {header ?? <></>}
+            {(search || menuOpen) && menuOptions.map((option: Option, index: number) =>
+              !isSelectedItem(option.value) && (<div
+                key={option.value}
+                id={`index-${index}`}
+                className={classNames(
+                  'flex items-center text-popo text-sm p-2 mb-1',
+                  size === 'xl' ? 'rounded-lg ' : 'rounded-sm',
+                  determineMenuBackgroundColor(index, hoveredIndex, -1)
+                )}
+                onMouseOver={() => setHoveredIndex(index)}
+                onClick={() => selectMenuItem(option.value)}
+              >{option.element}</div>)
             )}
-            {areAllSelected && (
-              <div className="flex justify-center">{noOptionsMessage || "No options"}</div>
-            )}
+            {!menuOptions.length && !areAllSelected && (<div className="flex justify-center">{noSearchResultsMessage || 'No results found.'}</div>)}
+            {areAllSelected && (<div className="flex justify-center">{noOptionsMessage || "No options"}</div>)}
             {footer || null}
           </div>
-
-          {!!hint && (
-            <div className={`absolute top-full left-0 p-2 text-xs text-${isError ? 'chiChi' : 'trunks'}`}>
-              {hint}
-            </div>
-          )}
+          {!!hint && (<div className={`absolute top-full left-0 p-2 text-xs text-${isError ? 'chiChi' : 'trunks'}`}>
+            {hint}
+          </div>)}
         </div>
       </div>
     </div>
   );
-};
+});
 
 export default MultiSelect;

@@ -115,7 +115,6 @@ const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
         'absolute left-0 top-0 w-6 h-6 flex justify-center items-center overflow-hidden z-10 ',
         size === 'xl' ? 'm-4 ' : 'm-2 '
       )}>{left}</div>)}
-
       <div className={classNames(
         'absolute w-full flex items-center justify-between z-[2] ',
         disabled ? 'cursor-not-allowed ' : 'cursor-pointer ',
@@ -123,11 +122,13 @@ const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
         left ? 'pl-6 ' : '',
         isRtl ? size === 'md' ? 'pl-3' : 'pl-4' : size === 'md' ? 'pr-3' : 'pr-4'
       )}>
-        {size !== 'xl' ? (<div className='text-moon-14'>{ search?.length ? search : placeholderElement }</div>) : (<>
+        {size !== 'xl' ? (<div className='text-moon-14 select-none selected:bg-transparent'>
+          { search?.length ? search : placeholderElement }
+        </div>) : (<>
           <div className={classNames(
-            'text-moon-16 transition-all relative ',
-            left ? 'pl-2 ' : '',
-            !value ? 'text-transparent ' : 'text-bulma -bottom-2 '
+            'text-moon-16 transition-all relative select-none selected:bg-transparent',
+            left ? 'pl-2' : '',
+            !value ? 'text-transparent ' : 'text-bulma -bottom-2'
           )}>{ search ? search : placeholderElement }</div>
           <div className={classNames(
             'text-trunks transition-all absolute ',
@@ -139,9 +140,7 @@ const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
           {!!value && (<div
             className={`${size === 'xl' ? 'ml-4' : 'ml-2'}`}
             onClick={(e: any) => clearValue(e)}
-          >
-            <Clear />
-          </div>)}
+          ><Clear /></div>)}
           <div className={`${size === 'xl' ? 'mr-4 ml-2' : 'mx-2'}`}>{ menuOpen ? (<ChevronUp />) : (<ChevronDown />) }</div>
         </div>
       </div>
@@ -159,20 +158,18 @@ const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
         style={{ width: `${menuWidth ? menuWidth + "rem" : "100%"}` }}
       >
         {header || null}
-        {
-          menuOpen && menuOptions?.length && menuOptions.map((option: Option, index: number) => (<div
-            className={classNames(
-              'flex items-center text-popo text-sm p-2 mb-1 ',
-              size === 'xl' ? 'rounded-lg ' : 'rounded-sm ' ,
-              determineMenuBackgroundColor(index, hoveredIndex, selectedIndex)
-            )}
-            key={option.value}
-            onClick={() => { if (!disabled && onChange) selectMenuItem(option.value) }}
-            onMouseOver={() => setHoveredIndex(index)}
-          >
-            {formatOptionLabel ? formatOptionLabel(option) : option.element ?? option.label}
-          </div>))
-        }
+        {menuOpen && menuOptions?.length && menuOptions.map((option: Option, index: number) => (<div
+          className={classNames(
+            'flex items-center text-popo text-sm p-2 mb-1 ',
+            size === 'xl' ? 'rounded-lg ' : 'rounded-sm ' ,
+            determineMenuBackgroundColor(index, hoveredIndex, selectedIndex)
+          )}
+          key={option.value}
+          onClick={() => { if (!disabled && onChange) selectMenuItem(option.value) }}
+          onMouseOver={() => setHoveredIndex(index)}
+        >
+          {formatOptionLabel ? formatOptionLabel(option) : option.element ?? option.label}
+        </div>))}
         {!menuOptions.length && (<div className="p-2">{noResultsMessage || 'No results found.'}</div>)}
         {footer || null}
       </div>
