@@ -102,7 +102,7 @@ const Select = forwardRef<HTMLDivElement, SelectProps & SingleSelectProps>(({
       ref={selectRef}
     >
       <input
-        className='bg-gohan text-transparent z-[1] focus:outline-none focus:border-none'
+        className='bg-gohan text-transparent z-[1] opacity-0 focus:outline-none focus:border-none'
         disabled={disabled}
         ref={inputRef}
         onKeyDown={(e) => handleInputKeydown(e)}

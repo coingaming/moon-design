@@ -33,10 +33,8 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
  isSearchable,
  noSearchResultsMessage,
  noOptionsMessage,
- className
 }) => {
   const [availableOptions, setAvailableOptions] = useState(options);
-  const [activeOption, setActiveOption] = useState(0);
   const [selectedValues, setSelectedValues] = useState<string[]>(value || []);
   const [selectedIndexes, setSelectedIndexes] = useState<number[]>([]);
   const [hoveredIndex, setHoveredIndex] = useState(-1);
@@ -70,7 +68,6 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
     if (typeof onChange === 'function') onChange(newSelectedValues);
 
     setSelectedValues(newSelectedValues);
-    setActiveOption(0);
   };
   const removeSelectedItem = (selectedItem: string) => {
     if (disabled) return;
@@ -113,26 +110,11 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
 
     return value;
   };
-  const getBorder = () => {
-    let borderClasses = '';
-
-    if (isSharpTopSide || isSharpLeftSide) borderClasses += ' rounded-tl-none';
-    if (isSharpTopSide || isSharpRightSide) borderClasses += ' rounded-tr-none';
-    if (isSharpBottomSide || isSharpRightSide) borderClasses += ' rounded-bl-none';
-    if (isSharpBottomSide || isSharpRightSide) borderClasses += ' rounded-br-none';
-    if (isTopBottomBorderHidden) borderClasses += 'border-y-0';
-    if (isSideBorderHidden) borderClasses += ' border-x-0';
-
-    borderClasses += size === 'xl' ? 'rounded-xl' : 'rounded-lg';
-
-    return borderClasses;
-  };
 
   const {
     menuOpen,
     search,
     menuOptions,
-    inputFocused,
     inputRef,
     selectRef,
     menuRef,
@@ -166,9 +148,14 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
         <div
           className={classNames(
             'h-auto flex relative bg-gohan border border-solid',
-            getPadding(),
             'pr-4 pl-3',
-            getBorder(),
+            (isSharpTopSide || isSharpLeftSide) && ' rounded-tl-none',
+            (isSharpTopSide || isSharpRightSide) && ' rounded-tr-none',
+            (isSharpBottomSide || isSharpRightSide) && ' rounded-bl-none',
+            (isSharpBottomSide || isSharpRightSide) && ' rounded-br-none',
+            (isTopBottomBorderHidden) && 'border-y-0',
+            (isSideBorderHidden) && ' border-x-0',
+            size === 'xl' ? 'rounded-xl' : 'rounded-lg',
             disabled ? '' : !menuOpen ? 'hover:border-gohan' : 'hover:border-piccolo',
             disabled ? '' : `hover:outline hover:outline-1 ${!menuOpen ? 'hover:outline-gohan' : 'hover:outline-piccolo'}`,
             disabled ? 'cursor-not-allowed' : 'cursor-pointer',
@@ -176,6 +163,7 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
               ? `${isError ? 'border-chiChi outline outline-1 outline-chiChi' : 'beerus'}`
               : `${isError ? 'border-chiChi outline-chiChi' : 'border-piccolo outline-piccolo'} outline outline-1`,
             isRtl ? ' text-direction-rtl' : '',
+            getPadding(),
           )}
           ref={selectRef}
           onClick={onSelectClick}
