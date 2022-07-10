@@ -153,7 +153,8 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
     disabled,
     amountOfVisibleItems,
     setHoveredIndex,
-    setSelectedIndex
+    setSelectedIndex,
+    onBackspace: () => removeSelectedItem(selectedValues[selectedValues.length - 1])
   });
   // @ts-ignore
   const isOverflown = selectedValuesRef?.current?.scrollHeight > selectRef?.current?.clientHeight;

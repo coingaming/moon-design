@@ -40,6 +40,7 @@ interface Props {
   setHoveredIndex: (index: number) => any,
   selectedIndexes?: number[],
   allOptions?: SelectProps["options"],
+  onBackspace?: (params?: any) => any
 }
 
 const useSelect = ({
@@ -54,7 +55,8 @@ const useSelect = ({
  disabled,
  amountOfVisibleItems,
  setHoveredIndex,
- setSelectedIndex
+ setSelectedIndex,
+ onBackspace
 }: Props) => {
   const [menuOpen, setMenuOpen] = useState(false);
   const [search, setSearch] = useState('');
@@ -85,15 +87,18 @@ const useSelect = ({
     else if (e.key === 'ArrowDown') {
       setMenuOpen(true);
     }
-    // Deleting search value
-    else if (isSearchable && e.key === 'Backspace') {
+    // Deleting search value or multiselect item
+    else if ((isSearchable || allOptions?.length) && e.key === 'Backspace') {
       const newSearch = search.split('').splice(0, search.length - 1).join('');
 
-      setMenuOpen(true);
-      setSearch(newSearch);
-      setMenuOptions(options.filter((option: Option) => {
-        return option.value.toLowerCase().includes(newSearch.toLowerCase());
-      }));
+      if (onBackspace) onBackspace();
+      else {
+        setMenuOpen(true);
+        setSearch(newSearch);
+        setMenuOptions(options.filter((option: Option) => {
+          return option.value.toLowerCase().includes(newSearch.toLowerCase());
+        }));
+      }
     }
     // Typing search value
     else if (isSearchable && /[a-z0-9]*/.test(e.key) && e.key.length === 1) {
