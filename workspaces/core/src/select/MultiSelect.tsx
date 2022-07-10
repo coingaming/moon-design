@@ -118,6 +118,7 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
     inputRef,
     selectRef,
     menuRef,
+    inputFocused,
     onSelectClick,
     onInputFocus,
     selectMenuItem,
@@ -147,8 +148,9 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
         { !!label && size !== 'xl' && (<div className='text-base mb-2'>{label}</div>) }
         <div
           className={classNames(
-            'h-auto flex relative bg-gohan border border-solid',
+            'h-auto flex relative bg-gohan',
             'pr-4 pl-3',
+            disabled ? ' cursor-not-allowed' : ' cursor-pointer',
             (isSharpTopSide || isSharpLeftSide) && ' rounded-tl-none',
             (isSharpTopSide || isSharpRightSide) && ' rounded-tr-none',
             (isSharpBottomSide || isSharpRightSide) && ' rounded-bl-none',
@@ -156,13 +158,10 @@ const MultiSelect = forwardRef<HTMLDivElement, SelectProps & MultiSelectProps>((
             (isTopBottomBorderHidden) && 'border-y-0',
             (isSideBorderHidden) && ' border-x-0',
             size === 'xl' ? 'rounded-xl' : 'rounded-lg',
-            disabled ? '' : !menuOpen ? 'hover:border-gohan' : 'hover:border-piccolo',
-            disabled ? '' : `hover:outline hover:outline-1 ${!menuOpen ? 'hover:outline-gohan' : 'hover:outline-piccolo'}`,
-            disabled ? 'cursor-not-allowed' : 'cursor-pointer',
-            !menuOpen
-              ? `${isError ? 'border-chiChi outline outline-1 outline-chiChi' : 'beerus'}`
-              : `${isError ? 'border-chiChi outline-chiChi' : 'border-piccolo outline-piccolo'} outline outline-1`,
             isRtl ? ' text-direction-rtl' : '',
+            isError ? ' shadow-input-err' : ` shadow-input ${
+              disabled ? '' : inputFocused ? 'shadow-input-focus' : 'hover:shadow-input-hov'
+            }`,
             getPadding(),
           )}
           ref={selectRef}
