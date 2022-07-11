@@ -47,3 +47,6 @@ docs/public/
 
 # vercel
 .vercel
+
+#template
+/next-docs/styles/output.css
