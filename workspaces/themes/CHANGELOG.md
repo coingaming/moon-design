@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.2.3
+
+### Patch Changes
+
+- fix templates css
+
 ## 9.2.2
 
 ### Patch Changes
