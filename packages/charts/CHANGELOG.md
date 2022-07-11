@@ -1,5 +1,18 @@
 # Change Log
 
+## 9.2.3
+
+### Patch Changes
+
+- fix templates css
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.2.3
+  - @heathmont/moon-components@9.2.3
+  - @heathmont/moon-core@9.2.3
+  - @heathmont/moon-icons@9.2.3
+  - @heathmont/moon-themes@9.2.3
+  - @heathmont/moon-utils@9.2.3
+
 ## 9.2.2
 
 ### Patch Changes
