@@ -16,6 +16,7 @@ const navigation = [
       { name: 'Avatar', href: '/core/avatar' },
       { name: 'Button', href: '/core/button' },
       { name: 'Breadcrumb', href: '/core/breadcrumb' },
+      { name: 'Carousel', href: '/core/carousel' },
       { name: 'Checkbox', href: '/core/checkbox' },
       { name: 'Chip', href: '/core/chip' },
       { name: 'Icons', href: '/core/icons' },

@@ -15,7 +15,7 @@ const CarouselItem: React.FC<CarouselItemProps> = ({
 }) => {
   return (
     <div
-      className={`${fullWidth ? "basis-full" : ""} items-center justify-center last:mr-0 bg-white hover:scale-110`}
+      className={`${fullWidth ? "basis-full" : ""} items-center justify-center last:mr-0 bg-white`}
       style={{marginRight: lastChild ? '0px' : `${itemGap}px`}}
     >
       {children}

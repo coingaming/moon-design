@@ -36,15 +36,15 @@ interface CarouselProps {
   seeAllButton?: boolean;
   headerControls?: boolean;
   onSeeAllClick?: () => void;
-} 
+}
 
 const Carousel: React.FC<CarouselProps> = ({
   items,
   step = 1,
   renderItem,
   itemGap = 'xs',
-  horizontalPadding = 50,
-  verticalPadding = 50,
+  horizontalPadding = 3.5,
+  verticalPadding = 3.5,
   itemFullWidth,
   containerClassName = '',
   itemClassName = '',
@@ -96,41 +96,42 @@ const Carousel: React.FC<CarouselProps> = ({
     }
   };
 
-  console.log(xPosition, containerRef.current?.scrollWidth);
-
   return (
-    //goku bg
-    <div className="w-full items-center bg-[#F5F5F5] relative rounded-xl">
-      <div style={!itemFullWidth ? {
-          padding: `${verticalPadding}px ${horizontalPadding}px ${verticalPadding}px ${horizontalPadding}px`,
-        } : {}}
+    <div className="w-full items-center bg-goku relative rounded-xl">
+      <div
+        className='overflow-hidden'
+        style={!itemFullWidth ? { padding: `${verticalPadding}rem ${horizontalPadding}rem` } : {}}
       >
-        {shouldRenderHeader && (
-          <Header 
-            title={headerTitle}
-            description={headerDescription}
-            seeAllButton={seeAllButton}
-            controls={headerControls}
-            itemsCount={items.length}
-            scrollLeft={scrollStepToLeft}
-            scrollRight={scrollStepToRight}
-            onSeeAllClick={onSeeAllClick}
-          />
-        )}
+        {shouldRenderHeader && (<Header
+          title={headerTitle}
+          description={headerDescription}
+          seeAllButton={seeAllButton}
+          controls={headerControls}
+          itemsCount={items.length}
+          scrollLeft={scrollStepToLeft}
+          scrollRight={scrollStepToRight}
+          onSeeAllClick={onSeeAllClick}
+        />)}
+
+        {!headerControls && (<Controls
+          scrollLeft={scrollStepToLeft}
+          scrollRight={scrollStepToRight}
+          horizontalOffset={horizontalPadding}
+        />)}
 
         <ul
           ref={containerRef}
-          className={`w-full flex overflow-x-hidden relative`}
+          className='w-full flex overflow-x-auto y-hidden relative snap-mandatory snap-x scrollbar-hidden'
         >
           {items.map((item, index) => {
             if(renderItem) {
               return renderItem(item);
             } else {
               return (
-                <CarouselItem 
+                <CarouselItem
                   key={index}
-                  itemGap={gap} 
-                  fullWidth={itemFullWidth} 
+                  itemGap={gap}
+                  fullWidth={itemFullWidth}
                   lastChild={index === items.length - 1}
                 >
                   {item}
@@ -140,20 +141,12 @@ const Carousel: React.FC<CarouselProps> = ({
           })}
         </ul>
       </div>
-      
-      <Indicator 
+
+      <Indicator
         activeIndex={focusedItem}
         itemsCount={items.length}
         verticalPadding={verticalPadding}
       />
-
-      {!headerControls && (
-        <Controls
-          scrollLeft={scrollStepToLeft}
-          scrollRight={scrollStepToRight}
-          horizontalOffset={gap}
-        />
-      )}
     </div>
   );
 };

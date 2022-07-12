@@ -12,3 +12,13 @@
   height: 0;
   cursor: pointer;
 }
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  background: transparent;
+}
