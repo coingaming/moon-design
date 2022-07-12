@@ -46,8 +46,8 @@ const AuthCode: React.FC<AuthCodeProps> = ({
    * authCodeParts stores values of all individual inputs as a single array value
    */
   const [authCodeParts, setAuthCodeParts] = useState<string[]>([]);
-  const [prevAuthCodeParts, setPrevAuthCodeParts] = useState<string[]>([]);
-  const debouncedPrevAuthCode = useDebounce(prevAuthCodeParts, 250);
+  const [fastTypingCode, setFastTypingCode] = useState<string[]>([]);
+  const debouncedFastTypingCode = useDebounce(fastTypingCode, 250);
 
   const checkKeyPress = useCallback(
     (e) => {
@@ -66,6 +66,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
         }
 
         setAuthCodeParts(filledValues);
+        setFastTypingCode(filledValues.filter((code: string) => !!code));
       }
     },
     [authCodeParts]
@@ -117,8 +118,8 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   };
 
   useEffect(() => {
-    if (debouncedPrevAuthCode?.length) {
-      debouncedPrevAuthCode.forEach((prevVal, index) => {
+    if (debouncedFastTypingCode?.length) {
+      debouncedFastTypingCode.forEach((prevVal, index) => {
         if (prevVal?.length > 1) {
           const newValues = prevVal.split('');
 
@@ -128,7 +129,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
         }
       });
     }
-  }, [debouncedPrevAuthCode]);
+  }, [debouncedFastTypingCode]);
 
   useEffect(() => {
     window.addEventListener('keydown', checkKeyPress);
@@ -178,11 +179,11 @@ const AuthCode: React.FC<AuthCodeProps> = ({
               dir={dir}
               ref={inputRefs[`${refPrefix}${i}`]}
               onChange={(ev: any) => {
-                const newPrevCodeParts = [...prevAuthCodeParts];
+                const newPrevCodeParts = [...fastTypingCode];
 
                 newPrevCodeParts[i] = ev.target.value;
 
-                setPrevAuthCodeParts(newPrevCodeParts);
+                setFastTypingCode(newPrevCodeParts);
                 handleInputChange(ev.target.value, i);
               }}
               // Disabled if the previous input doesn't have value or if the following input has value
