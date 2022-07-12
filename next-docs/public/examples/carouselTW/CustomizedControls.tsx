@@ -1,0 +1,36 @@
+import { Carousel } from '@heathmont/moon-core-tw';
+import { rem } from '@heathmont/moon-utils';
+import styled from 'styled-components';
+
+const ExampleContent = styled.div({
+  width: rem(320),
+  height: rem(192),
+  borderRadius: "0.5rem",
+  background: 'darkgray',
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
+  fontSize: rem(32),
+});
+
+const Example = () => {
+  const items = Array.from({ length: 15 }, (index) => index);
+
+  return (
+    <Carousel
+      leftControl={({onClick}:{onClick: (param?: any) => any}) => (
+        <button onClick={onClick}>
+          Scroll to left
+        </button>
+      )}
+      rightControl={({onClick}:{onClick: (param?: any) => any}) => (
+        <button onClick={onClick}>
+          Scroll to right
+        </button>
+      )}
+      items={items.map((item, index) => (<ExampleContent>{index}</ExampleContent>))}
+    />
+  );
+};
+
+export default Example;

@@ -2,8 +2,11 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from "../../components/PropsTable";
+import CustomizedControls from "../../public/examples/carouselTW/CustomizedControls";
 import Default from '../../public/examples/carouselTW/Default';
+import DefaultControls from "../../public/examples/carouselTW/DefaultControls";
 import Rtl from "../../public/examples/carouselTW/Rtl";
+import Sizes from "../../public/examples/carouselTW/Sizes";
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -29,27 +32,27 @@ const Example = () => {
         preview={<Rtl />}
         code={examples ? examples.Rtl : 'Loading'}
       />
-      {/*<Preview
-        title="Customized Arrows"
-        preview={<CustomizedArrow />}
-        code={examples ? examples.CustomizedArrow : 'Loading'}
+      <Preview
+        title="Default Controls"
+        preview={<DefaultControls />}
+        code={examples ? examples.DefaultControls : 'Loading'}
       />
       <Preview
-        title="Space"
-        preview={<Space />}
-        code={examples ? examples.Space : 'Loading'}
+        title="Customized Controls"
+        preview={<CustomizedControls />}
+        code={examples ? examples.CustomizedControls : 'Loading'}
       />
       <Preview
-        title="Visible indices"
-        preview={<VisibleIndex />}
-        code={examples ? examples.VisibleIndex : 'Loading'}
-      />*/}
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[
           {
             name: 'space',
-            type: 'xlarge |',
+            type: '2xs | xs | sm | md | lg',
             required: false,
             default: '',
             description: '-',

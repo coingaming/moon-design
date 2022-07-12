@@ -25,6 +25,8 @@ interface CarouselProps {
   isRtl?: boolean;
   step?: number;
   renderItem?: (item: any) => React.ReactNode;
+  leftControl?: (item: any) => React.ReactNode;
+  rightControl?: (item: any) => React.ReactNode;
   itemGap?: ItemGapEnum | keyof typeof ItemGapEnum;
   horizontalPadding?: number;
   verticalPadding?: number;
@@ -36,6 +38,7 @@ interface CarouselProps {
   headerDescription?: string;
   seeAllButton?: boolean;
   headerControls?: boolean;
+  controls?: boolean;
   onSeeAllClick?: () => void;
 }
 
@@ -55,15 +58,19 @@ const Carousel: React.FC<CarouselProps> = ({
   headerDescription,
   seeAllButton,
   headerControls = false,
-  onSeeAllClick
+  controls = false,
+  onSeeAllClick,
+  leftControl,
+  rightControl
 }) => {
   const [focusedItem, setFocusedItem] = useState(0);
   const [xPosition, setXPosition] = useState(0);
   const containerRef = useRef<HTMLUListElement>(null);
 
-  const gap = itemGap ? itemGapValues[itemGap as ItemGapEnum] : 2.5;
+  const gap = itemGap ? itemGapValues[ItemGapEnum[itemGap]] : 2.5;
   const shouldRenderHeader = headerTitle || headerDescription || seeAllButton || headerControls;
-
+console.log('itemGap', itemGap);
+console.log('gap', gap);
   const scrollStepToLeft = () => {
     if (containerRef.current && xPosition > 0) {
       const item = Array.from(containerRef.current.childNodes)[0] as HTMLElement;
@@ -127,13 +134,18 @@ const Carousel: React.FC<CarouselProps> = ({
           onSeeAllClick={onSeeAllClick}
         />)}
 
-        {!headerControls && (<Controls
+        {!headerControls && controls && (<Controls
           scrollLeft={scrollStepToLeft}
           scrollRight={scrollStepToRight}
           horizontalOffset={horizontalPadding}
           showLeft={focusedItem > 0}
           showRight={focusedItem < items.length - 2}
         />)}
+
+        {!headerControls && !controls && (!!leftControl || !!rightControl) && (<div className='flex justify-between items-center'>
+          {!!leftControl && leftControl({onClick: scrollStepToLeft})}
+          {!!rightControl && rightControl({onClick: scrollStepToRight})}
+        </div>)}
 
         <ul
           ref={containerRef}
@@ -154,12 +166,12 @@ const Carousel: React.FC<CarouselProps> = ({
         </ul>
       </div>
 
-      <Indicator
+      {!!controls && (<Indicator
         activeIndex={focusedItem}
         itemsCount={items.length - 1}
         verticalPadding={verticalPadding}
         onClick={scrollIndicatorStep}
-      />
+      />)}
     </div>
   );
 };
