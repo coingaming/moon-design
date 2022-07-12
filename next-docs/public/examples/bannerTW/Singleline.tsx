@@ -8,7 +8,7 @@ const Example = () => {
     <Banner
       description="Your email is not verified. Verify to enable withdrawals."
       link={link}
-      isMultiline={false}
+      isSingleline={true}
     />
   );
 };

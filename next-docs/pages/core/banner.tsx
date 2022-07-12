@@ -33,8 +33,8 @@ const PageBanner = () => {
       />
       <Preview
         title="Multiline with buttons"
-        preview={< MultilineWithButtons />}
-        code={examples ? examples.Buttons : 'Loading'}
+        preview={<MultilineWithButtons />}
+        code={examples ? examples.MultilineWithButtons : 'Loading'}
       />
       <Preview
         title="Singleline"

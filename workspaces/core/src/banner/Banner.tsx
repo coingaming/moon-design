@@ -6,8 +6,9 @@ export interface BannerProps {
   description: string;
   title?: string;
   iconHeader?: React.ReactElement;
-  isMultiline?: boolean;
-  buttons?: React.ReactElement[];
+  isSingleline?: boolean;
+  primaryButton?: React.ReactElement;
+  secondaryButton?: React.ReactElement;
   link?: React.ReactElement;
 }
 
@@ -15,20 +16,20 @@ const Banner: React.FC<BannerProps> = ({
   description,
   title,
   iconHeader,
-  buttons,
-  isMultiline = true,
-  link,
+  secondaryButton,
+  primaryButton,
+  isSingleline = false,
+  link  ,
 }) => {
-  if (!isMultiline) {
-    return (<Singleline description={description} link={link ?? <></>} />);
-  }
+  if (isSingleline) return (<Singleline description={description} link={link ?? <></>} />);
 
   return (
     <Multiline
       title={title}
       description={description}
       iconHeader={iconHeader}
-      buttons={buttons}
+      primaryButton={primaryButton}
+      secondaryButton={secondaryButton}
     />
   );
 };

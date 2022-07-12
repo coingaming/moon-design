@@ -4,14 +4,16 @@ export interface Props {
   description: string;
   title?: string;
   iconHeader?: React.ReactElement;
-  buttons?: React.ReactElement[];
+  primaryButton?: React.ReactElement;
+  secondaryButton?: React.ReactElement;
 }
 
 const Multiline: React.FC<Props> = ({
   description,
   title,
   iconHeader,
-  buttons
+  secondaryButton,
+  primaryButton,
 }) => {
   return (<>
     {iconHeader && (<div className='w-full bg-goten flex rounded-lg justify-between'>
@@ -23,7 +25,7 @@ const Multiline: React.FC<Props> = ({
       </div>
       <div className='flex justify-end items-baseline p-4'>{iconHeader}</div>
     </div>)}
-    {!iconHeader && buttons?.length && (<div className='w-full bg-goten sm:flex rounded-lg justify-between'>
+    {!iconHeader && (!!primaryButton || !!secondaryButton) && (<div className='w-full bg-goten sm:flex rounded-lg justify-between'>
        <div className='flex-col p-6'>
          <div className='flex mb-2 justify-between'>
            <h5 className='font-semibold'>{title}</h5>
@@ -31,10 +33,8 @@ const Multiline: React.FC<Props> = ({
          <p className='block align-middle items-center text-trunks'>{description}</p>
        </div>
        <div className='flex flex-wrap justify-end mr-4 mb-4 sm:items-center sm:mr-8 sm:mb-0'>
-          {buttons && buttons.map((button, index) => (<span
-            key={index}
-            className='ml-2'
-          >{button}</span>))}
+         {!!secondaryButton && (<span className='ml-2'>{secondaryButton}</span>)}
+         {!!primaryButton && (<span className='ml-2'>{primaryButton}</span>)}
        </div>
     </div>)}
   </>);
