@@ -66,7 +66,6 @@ const Carousel: React.FC<CarouselProps> = ({
   const scrollStepToLeft = () => {
     if (containerRef.current && xPosition > 0) {
       const item = Array.from(containerRef.current.childNodes)[0] as HTMLElement;
-
       const newPosition = xPosition - (step * (item.offsetWidth + gap));
 
       setFocusedItem(focusedItem - step);
@@ -83,9 +82,25 @@ const Carousel: React.FC<CarouselProps> = ({
   const scrollStepToRight = () => {
     if (containerRef.current && xPosition < containerRef.current.scrollWidth - containerRef.current.offsetWidth) {
       const item = Array.from(containerRef.current.childNodes)[0] as HTMLElement;
-
       const newPosition = xPosition + (step * (item.offsetWidth + gap));
+
       setFocusedItem(focusedItem + step);
+      setXPosition(newPosition);
+
+      containerRef.current?.scrollTo({
+        top: 0,
+        left: newPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
+  const scrollIndicatorStep = (newFocusedItem: number) => {
+    if (containerRef.current && xPosition < containerRef.current.scrollWidth - containerRef.current.offsetWidth) {
+      const item = Array.from(containerRef.current.childNodes)[0] as HTMLElement;
+      const newPosition = newFocusedItem * (item.offsetWidth + gap);
+
+      setFocusedItem(newFocusedItem);
       setXPosition(newPosition);
 
       containerRef.current?.scrollTo({
@@ -146,6 +161,7 @@ const Carousel: React.FC<CarouselProps> = ({
         activeIndex={focusedItem}
         itemsCount={items.length}
         verticalPadding={verticalPadding}
+        onClick={scrollIndicatorStep}
       />
     </div>
   );
