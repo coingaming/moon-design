@@ -1,7 +1,8 @@
 import React, { ReactChild, ReactNode } from 'react';
-import '../styles/globals.css';
+// import '../styles/globals.css';
 import '../styles/themes.css';
 import '../styles/custom.css';
+import '../styles/output.min.css';
 // import '@moon/core/lib/loader/styles.css';
 import { NextPage } from 'next';
 import Head from 'next/head';
