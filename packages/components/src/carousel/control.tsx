@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 type Props = {
   isRtl?: boolean;
+  showArrows?: boolean;
 };
 
 /**
@@ -13,6 +14,7 @@ type Props = {
 export const CarouselControl = styled.button<Props>(
   ({
     isRtl,
+    showArrows,
     theme: {
       color,
       border,
@@ -24,6 +26,9 @@ export const CarouselControl = styled.button<Props>(
       breakpoint,
     },
   }) => ({
+    [mq(breakpoint.small, 'max-width')]: !showArrows ? {
+      display: 'none'
+    }: {},
     padding: rem(space.small) /* [1] */,
     verticalAlign: 'middle',
     border,
