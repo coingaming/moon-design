@@ -96,7 +96,7 @@ const Carousel: React.FC<CarouselProps> = ({
   };
 
   const scrollIndicatorStep = (newFocusedItem: number) => {
-    if (containerRef.current && xPosition < containerRef.current.scrollWidth - containerRef.current.offsetWidth) {
+    if (containerRef.current) {
       const item = Array.from(containerRef.current.childNodes)[0] as HTMLElement;
       const newPosition = newFocusedItem * (item.offsetWidth + gap);
 
@@ -132,6 +132,8 @@ const Carousel: React.FC<CarouselProps> = ({
           scrollLeft={scrollStepToLeft}
           scrollRight={scrollStepToRight}
           horizontalOffset={horizontalPadding}
+          showLeft={focusedItem > 0}
+          showRight={focusedItem < items.length - 2}
         />)}
 
         <ul
@@ -159,7 +161,7 @@ const Carousel: React.FC<CarouselProps> = ({
 
       <Indicator
         activeIndex={focusedItem}
-        itemsCount={items.length}
+        itemsCount={items.length - 1}
         verticalPadding={verticalPadding}
         onClick={scrollIndicatorStep}
       />
