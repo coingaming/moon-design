@@ -81,6 +81,7 @@ const DefaultScrollToLeftButton = ({
   scrollLeftCaption = 'Scroll Left',
   disabled = false,
   isRtl = false,
+  showArrows = false,
   ...rest
 }) =>
   disabled ? null : (
@@ -94,6 +95,7 @@ const DefaultScrollToRightButton = ({
   scrollRightCaption = 'Scroll Right',
   disabled = false,
   isRtl = false,
+  showArrows = false,
   ...rest
 }) =>
   disabled ? null : (
@@ -143,6 +145,7 @@ interface CarouselProps {
   space?: SpaceProps | CSSObject['margin'];
   horizontalEdgeGap?: number | boolean;
   hideScrollbar?: boolean;
+  showArrows?: boolean;
   isRtl?: boolean;
 }
 
@@ -157,6 +160,7 @@ const Carousel: React.FC<CarouselProps> = ({
   space,
   horizontalEdgeGap,
   hideScrollbar,
+  showArrows,
   selectedIndex,
   isRtl,
 }) => {
@@ -208,6 +212,7 @@ const Carousel: React.FC<CarouselProps> = ({
           onClick={scrollLeftToStep}
           disabled={!canScrollLeft}
           scrollLeftCaption={scrollLeftCaption}
+          showArrows={showArrows}
           isRtl={isRtl}
         />
       )}
@@ -234,6 +239,7 @@ const Carousel: React.FC<CarouselProps> = ({
         <DefaultScrollToRightButton
           onClick={scrollRightToStep}
           disabled={!canScrollRight}
+          showArrows={showArrows}
           scrollRightCaption={scrollRightCaption}
           isRtl={isRtl}
         />
