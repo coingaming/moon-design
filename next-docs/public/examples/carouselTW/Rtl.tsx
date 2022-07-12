@@ -1,4 +1,4 @@
-import { Carousel } from '@heathmont/moon-components';
+import { Carousel } from '@heathmont/moon-core-tw';
 import { rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
 
@@ -13,11 +13,10 @@ const ExampleContent = styled.div({
 });
 
 const Example = () => {
-  const items = Array.from({ length: 25 }, (_, index) => index);
+  const items = Array.from({ length: 10 }, (_, index) => index);
   return (
     <Carousel
       isRtl={true}
-      scrollTo={5}
       items={items.map((_, index) => (
         <ExampleContent>{index}</ExampleContent>
       ))}

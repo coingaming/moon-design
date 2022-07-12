@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, {useRef, useState} from "react";
 import CarouselItem from "./private/CarouselItem";
 import Controls from "./private/Controls";
 import Header from "./private/Header";
@@ -13,15 +13,16 @@ export enum ItemGapEnum {
 }
 
 const itemGapValues: {[key in ItemGapEnum]: number} = {
-  '2xs': 8,
-  'xs': 12,
-  'sm': 16,
-  'md': 24,
-  'lg': 32
+  '2xs': 0.5,
+  'xs': 0.7,
+  'sm': 1,
+  'md': 1.5,
+  'lg': 2
 }
 
 interface CarouselProps {
   items: React.ReactNode[];
+  isRtl?: boolean;
   step?: number;
   renderItem?: (item: any) => React.ReactNode;
   itemGap?: ItemGapEnum | keyof typeof ItemGapEnum;
@@ -40,6 +41,7 @@ interface CarouselProps {
 
 const Carousel: React.FC<CarouselProps> = ({
   items,
+  isRtl,
   step = 1,
   renderItem,
   itemGap = 'xs',
@@ -59,8 +61,7 @@ const Carousel: React.FC<CarouselProps> = ({
   const [xPosition, setXPosition] = useState(0);
   const containerRef = useRef<HTMLUListElement>(null);
 
-  const gap = itemGap ? itemGapValues[itemGap as ItemGapEnum] : 10;
-
+  const gap = itemGap ? itemGapValues[itemGap as ItemGapEnum] : 2.5;
   const shouldRenderHeader = headerTitle || headerDescription || seeAllButton || headerControls;
 
   const scrollStepToLeft = () => {
@@ -78,7 +79,6 @@ const Carousel: React.FC<CarouselProps> = ({
       });
     }
   };
-
   const scrollStepToRight = () => {
     if (containerRef.current && xPosition < containerRef.current.scrollWidth - containerRef.current.offsetWidth) {
       const item = Array.from(containerRef.current.childNodes)[0] as HTMLElement;
@@ -94,7 +94,6 @@ const Carousel: React.FC<CarouselProps> = ({
       });
     }
   };
-
   const scrollIndicatorStep = (newFocusedItem: number) => {
     if (containerRef.current) {
       const item = Array.from(containerRef.current.childNodes)[0] as HTMLElement;
@@ -140,21 +139,17 @@ const Carousel: React.FC<CarouselProps> = ({
           ref={containerRef}
           className='w-full flex overflow-x-auto y-hidden relative snap-mandatory snap-x scrollbar-hidden'
         >
-          {items.map((item, index) => {
-            if(renderItem) {
-              return renderItem(item);
-            } else {
-              return (
-                <CarouselItem
-                  key={index}
-                  itemGap={gap}
-                  fullWidth={itemFullWidth}
-                  lastChild={index === items.length - 1}
-                >
-                  {item}
-                </CarouselItem>
-              )
-            }
+          {(isRtl ? [...items].reverse() : items).map((item, index) => {
+            if (renderItem) { return renderItem(item); }
+
+            return (<CarouselItem
+              key={index}
+              itemGap={gap}
+              fullWidth={itemFullWidth}
+              lastChild={index === items.length - 1}
+            >
+              {item}
+            </CarouselItem>)
           })}
         </ul>
       </div>
