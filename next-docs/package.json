@@ -13,8 +13,8 @@
   },
   "dependencies": {
     "@headlessui/react": "1.6.1",
+    "@heathmont/assets": "2.0.3",
     "@heathmont/moon-accordion": "workspace:^9.2.5",
-    "@heathmont/moon-assets": "workspace:^9.2.5",
     "@heathmont/moon-charts": "workspace:^9.2.5",
     "@heathmont/moon-components": "workspace:^9.2.5",
     "@heathmont/moon-core": "workspace:^9.2.5",

@@ -1,4 +1,4 @@
-import { LogoMoonDesignShort } from '@heathmont/moon-assets';
+import { LogoMoonDesignShort } from '@heathmont/assets/styled';
 import { GenericMenu } from '@heathmont/moon-icons-tw';
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 

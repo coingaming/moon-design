@@ -4,7 +4,7 @@ import {
   LogoBitcasinoShort,
   LogoMoonDesignShort,
   LogoBetaddaShort,
-} from '@heathmont/moon-assets';
+} from '@heathmont/assets/styled';
 import useFeatureFlags from '../../../utils/useFeatureFlags';
 import useRtl from '../../../utils/useRtl';
 import { useDocsTheme, DocsBrands } from '../../themes/DocsThemeProvider';

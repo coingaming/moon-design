@@ -1,4 +1,4 @@
-import { LogoMoonDesignShort } from '@heathmont/moon-assets';
+import { LogoMoonDesignShort } from '@heathmont/assets/styled';
 import packageInfo from '../../package.json';
 
 const Version = () => (

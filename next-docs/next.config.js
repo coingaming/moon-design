@@ -1,6 +1,5 @@
 const withTM = require('next-transpile-modules')([
   '@heathmont/moon-accordion',
-  '@heathmont/moon-assets',
   '@heathmont/moon-charts',
   '@heathmont/moon-components',
   '@heathmont/moon-core',

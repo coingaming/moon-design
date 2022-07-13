@@ -4,7 +4,7 @@ import {
   LogoBitcasinoShort,
   LogoMoonDesignShort,
   LogoBetaddaShort,
-} from '@heathmont/moon-assets';
+} from '@heathmont/assets/styled';
 import useRtl from '../../../utils/useRtl';
 import ReactElixirSwitcher from '../common/ReactElixirSwitcher';
 import SettingsButton from '../common/SettingsButton';
