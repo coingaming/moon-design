@@ -1,5 +1,13 @@
 # Change Log
 
+## 9.2.5
+
+### Patch Changes
+
+- Fix authcode
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.2.5
+
 ## 9.2.4
 
 ### Patch Changes
