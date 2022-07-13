@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.2.5
+
+### Patch Changes
+
+- Fix authcode
+
 ## 9.2.4
 
 ### Patch Changes

@@ -1,5 +1,15 @@
 # @heathmont/moon-select
 
+## 9.2.5
+
+### Patch Changes
+
+- Fix authcode
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.2.5
+  - @heathmont/moon-themes@9.2.5
+  - @heathmont/moon-utils@9.2.5
+
 ## 9.2.4
 
 ### Patch Changes

@@ -1,5 +1,13 @@
 # @heathmont/moon-core-tw
 
+## 9.2.5
+
+### Patch Changes
+
+- Fix authcode
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.2.5
+
 ## 9.2.4
 
 ### Patch Changes
