@@ -289,7 +289,6 @@ importers:
 
   packages/core:
     specifiers:
-      '@heathmont/assets': 2.0.3
       '@heathmont/moon-components': workspace:^9.2.5
       '@heathmont/moon-icons': workspace:^9.2.5
       '@heathmont/moon-themes': workspace:^9.2.5
@@ -297,7 +296,6 @@ importers:
       '@reach/listbox': 0.16.2
       polished: 4.1.4
     dependencies:
-      '@heathmont/assets': 2.0.3_zxhai4qal7ezfht52cx4u672cu
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes

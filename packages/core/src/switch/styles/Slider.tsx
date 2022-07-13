@@ -1,7 +1,8 @@
 import React from 'react';
-import { IconMoon, IconSun } from '@heathmont/assets/styled';
 import { inlineSvg, rem } from '@heathmont/moon-utils';
 import styled from 'styled-components';
+import IconMoon from '../private/assets/IconMoon';
+import IconSun from '../private/assets/IconSun';
 import setIconPosition from '../private/utils/setIconPosition';
 import setIconSize from '../private/utils/setIconSize';
 import setTogglePosition from '../private/utils/setTogglePosition';
