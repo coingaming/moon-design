@@ -2,6 +2,7 @@ const navigation = [
   // { name: 'Home', href: '/' },
   { name: 'Vision', href: '/vision' },
   { name: 'Getting Started', href: '/gettingStarted' },
+  { name: 'Set up Moon-tw', href: '/setUpMoonTw' },
   { name: 'How to contribute', href: '/howToContribute' },
   // { name: 'Legacy Colours Palette', href: '/coloursLegacy' },
   { name: 'Colours Palette', href: '/colours' },
