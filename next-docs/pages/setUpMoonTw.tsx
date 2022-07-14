@@ -83,8 +83,7 @@ const PageGettingStarted = () => (
       <p className="text-moon-16">For the description of all ready-to-use components with examples, see the <a href='https://moon.io/' className='text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit'> Moon Design System</a> page, under <b>Tailwind</b>.</p>
       <p className='text-moon-16 font-semibold'>This package is installed as part of Moon DS installation so you don’t need to install it separately.</p>
 
-      <a name='themes' href=''/>
-      <h3 className='font-medium text-moon-20 pt-2'>Themes Package</h3>
+      <h3 className='font-medium text-moon-20 pt-2' id="themes">Themes Package</h3>
       <p className="text-moon-16 font-bold">@heathmont/moon-themes-tw</p>
       <h3 className='font-medium text-moon-18'>Installation (Optional)</h3>
       <p className="text-moon-16">Run:</p>
@@ -187,9 +186,7 @@ const PageGettingStarted = () => (
       </ul>
       <p className="text-moon-16 font-semibold">Warning! Do not delete any tokens, please, as it can affect the work of Moon DS.</p>
 
-
-      <a name='icons' href=''/>
-      <h3 className='font-medium text-moon-20 pt-2'>Icons Package</h3>
+      <h3 className='font-medium text-moon-20 pt-2' id='icons'>Icons Package</h3>
       <p className="text-moon-16 font-bold">@heathmont/moon-icons-tw</p>
       <h3 className='font-medium text-moon-18'>Installation</h3>
       <p className="text-moon-16">Run:</p>
