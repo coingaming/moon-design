@@ -11,6 +11,7 @@ const withTM = require('next-transpile-modules')([
   '@heathmont/moon-themes',
   '@heathmont/moon-utils',
   '@heathmont/moon-core-tw',
+  '@heathmont/assets'
 ]); // pass the modules you would like to see transpiled
 
 module.exports = withTM();

@@ -24,7 +24,7 @@ exports[`Switch renders 1`] = `
     />
     <span
       checked={true}
-      className="sc-bSGZAx QWqMn"
+      className="sc-fXywWY jqxBbk"
       size="small"
     />
   </label>
@@ -56,7 +56,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-bSGZAx jnPOGQ"
+        className="sc-fXywWY jSLyFv"
         size="medium"
       >
         <span
@@ -101,7 +101,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-bSGZAx jnPOGQ"
+        className="sc-fXywWY jSLyFv"
         size="large"
       >
         <span
@@ -152,7 +152,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-bSGZAx QWqMn"
+        className="sc-fXywWY jqxBbk"
         size="small"
       />
     </label>
@@ -181,7 +181,7 @@ Array [
       />
       <span
         checked={false}
-        className="sc-bSGZAx dHVbnr"
+        className="sc-fXywWY gNjZBc"
         size="small"
       />
     </label>
@@ -214,7 +214,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-bSGZAx ksZMvo"
+        className="sc-fXywWY nuQkt"
         size="twoxsmall"
       />
     </label>
@@ -242,7 +242,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-bSGZAx KeGfj"
+        className="sc-fXywWY LhLTq"
         size="xsmall"
       />
     </label>
@@ -270,7 +270,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-bSGZAx iXfRfc"
+        className="sc-fXywWY ABWXl"
         size="small"
       />
     </label>
@@ -303,7 +303,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-bSGZAx bBIAEj"
+        className="sc-fXywWY GocII"
         size="twoxsmall"
       />
     </label>
@@ -331,7 +331,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-bSGZAx hMUIMg"
+        className="sc-fXywWY ldmVJP"
         size="xsmall"
       />
     </label>
@@ -359,7 +359,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-bSGZAx QWqMn"
+        className="sc-fXywWY jqxBbk"
         size="small"
       />
     </label>

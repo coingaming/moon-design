@@ -7,7 +7,7 @@ import {
   LogoLuckyslotsShort,
   LogoSlotsShort,
   LogoSportsbetShort,
-} from '@heathmont/moon-assets';
+} from '@heathmont/assets/styled';
 import { Filter, TableChart, ChartIcons } from '@heathmont/moon-charts';
 import { Avatar, SingleItemSelect } from '@heathmont/moon-components';
 
