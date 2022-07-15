@@ -12,24 +12,21 @@ const Example = () => {
       <Switch
         onChange={onChange}
         checked={value}
-        button={false}
-        theme={true}
+        isThemeSwitcher={true}
         size="xs"
       />
 
       <Switch
         onChange={onChange}
         checked={value}
-        button={false}
-        theme={true}
+        isThemeSwitcher={true}
         size="sm"
       />
 
       <Switch
         onChange={onChange}
         checked={value}
-        button={false}
-        theme={true}
+        isThemeSwitcher={true}
         size="md"
       />
     </>

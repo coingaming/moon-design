@@ -2,6 +2,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Buttons from '../../public/examples/switchTW/Buttons';
+import CustomIcons from '../../public/examples/switchTW/CustomIcons';
 import Default from '../../public/examples/switchTW/Default';
 import Disabled from '../../public/examples/switchTW/Disabled';
 import Rtl from '../../public/examples/switchTW/Rtl';
@@ -35,6 +36,11 @@ export default function PageSwitch() {
         title="Theme switch"
         preview={<Theme />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Custom icons"
+        preview={<CustomIcons />}
+        code={examples ? examples.CustomIcons : 'Loading'}
       />
       <Preview
         title="Disabled"

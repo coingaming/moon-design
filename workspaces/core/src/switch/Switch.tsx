@@ -1,7 +1,8 @@
 import React from 'react';
-import { OtherSun, OtherMoon } from '@heathmont/moon-icons-tw';
 import classNames from '../private/utils/classnames';
 import getSizeClasses from './private/getSizeClasses';
+import IconMoon from './private/iconMoon';
+import IconSun from './private/iconSun';
 import SwitchProps from './private/switchProps';
 
 const Switch: React.FC<SwitchProps> = ({
@@ -10,8 +11,10 @@ const Switch: React.FC<SwitchProps> = ({
   checked,
   onChange,
   isRTL,
-  theme,
+  isThemeSwitcher,
   size,
+  customOnIcon,
+  customOffIcon,
 }) => {
   return (
     <>
@@ -44,8 +47,8 @@ const Switch: React.FC<SwitchProps> = ({
         <span
           className={classNames(
             'flex items-center flex-shrink-0 p-1 rounded-full duration-300 ease-in-out bg-beerus peer-checked:bg-piccolo after:bg-white after:shadow-md after:duration-300',
-            `${getSizeClasses({ button: !!button, size, isRTL })}`,
-            theme &&
+            getSizeClasses({ button: !!button, size, isRTL }),
+            isThemeSwitcher &&
               'bg-beerus peer-checked:bg-black after:z-1 peer-checked:cursor-pointer after:cursor-pointer',
             disabled
               ? 'cursor-not-allowed peer-checked:cursor-not-allowed after:cursor-not-allowed'
@@ -65,7 +68,7 @@ const Switch: React.FC<SwitchProps> = ({
                 className={classNames(
                   'flex items-center w-[31px] h-[24px] p-1 z-1 top-1 left-2 text-[14px] leading-6	',
                   size === 'lg' ? 'top-2 left-3' : '',
-                  checked === true ? ' text-white ' : ''
+                  !checked ? '' : 'text-white'
                 )}
               >
                 {button.offLabel}
@@ -81,7 +84,7 @@ const Switch: React.FC<SwitchProps> = ({
             </div>
           )}
 
-          {!!theme && (
+          {(!!isThemeSwitcher || !!customOnIcon || !!customOffIcon) && (
             <div
               className={classNames(
                 'w-[50%] h-full flex items-center justify-between absolute cursor-pointer',
@@ -98,10 +101,10 @@ const Switch: React.FC<SwitchProps> = ({
                     : size === 'xs'
                     ? 'w-3/4 h-3/4 p-0'
                     : 'w-full h-full p-1',
-                  checked === false ? 'invisible' : ''
+                  !checked ? 'invisible' : ''
                 )}
               >
-                <OtherMoon />
+                {customOnIcon ?? <IconMoon />}
               </span>
               <span
                 className={classNames(
@@ -110,10 +113,11 @@ const Switch: React.FC<SwitchProps> = ({
                     ? 'w-1/2 h-full py-1'
                     : size === 'xs'
                     ? 'w-4/5 h-3/4 pr-2'
-                    : 'w-4/5 h-3/4 py-1'
+                    : 'w-4/5 h-3/4 py-1',
+                  !checked ? '' : 'invisible'
                 )}
               >
-                <OtherSun />
+                {customOffIcon ?? <IconSun />}
               </span>
             </div>
           )}

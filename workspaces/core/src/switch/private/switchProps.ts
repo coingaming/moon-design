@@ -1,3 +1,5 @@
+import { ReactElement } from 'react';
+
 type SizeProps = '2xs' | 'xs' | 'sm' | 'md' | 'lg';
 
 type SwitchProps = {
@@ -8,8 +10,10 @@ type SwitchProps = {
     onLabel: string;
     offLabel: string;
   };
+  customOnIcon?: ReactElement;
+  customOffIcon?: ReactElement;
   isRTL?: boolean;
-  theme?: boolean;
+  isThemeSwitcher?: boolean;
   size: SizeProps;
 };
 
