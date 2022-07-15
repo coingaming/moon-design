@@ -2,11 +2,11 @@ import { Switch } from '@heathmont/moon-core-tw';
 import { useState } from 'react';
 
 const Example = () => {
-   const [value, setValue] = useState(false);
+  const [value, setValue] = useState(false);
 
-   const onChange = (val: boolean) => {
-     setValue(val);
-   };
+  const onChange = (val: boolean) => {
+    setValue(val);
+  };
   return (
     <>
       <Switch
@@ -16,7 +16,7 @@ const Example = () => {
           onLabel: 'ON',
           offLabel: 'OFF',
         }}
-        size="medium"
+        size="md"
       />
 
       <Switch
@@ -26,7 +26,7 @@ const Example = () => {
           onLabel: 'ON',
           offLabel: 'OFF',
         }}
-        size="large"
+        size="lg"
       />
     </>
   );

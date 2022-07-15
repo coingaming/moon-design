@@ -1,13 +1,4 @@
-import { ReactElement } from "react";
-
-export enum  Size {
-  XSMALL = 'xs',
-  SMALL = 'sm',
-  MEDIUM = 'md',
-  MEDIUMBUTTONS ='medium',
-  LARGE = 'large'
-}
-
+type SizeProps = '2xs' | 'xs' | 'sm' | 'md' | 'lg';
 
 type SwitchProps = {
   checked: boolean;
@@ -17,9 +8,9 @@ type SwitchProps = {
     onLabel: string;
     offLabel: string;
   };
-  isRTL?:boolean;
-  theme?:boolean;
-  size: Size;
+  isRTL?: boolean;
+  theme?: boolean;
+  size: SizeProps;
 };
 
 export default SwitchProps;

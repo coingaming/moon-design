@@ -4,15 +4,15 @@ import { useState } from 'react';
 const Example = () => {
   const [value, setValue] = useState(false);
 
-  const onChange = (val: boolean) => {
-    setValue(val);
-  };
   return (
     <>
-      <Switch onChange={onChange} checked={value} size="md" />
+      <Switch
+        onChange={(val: boolean) => setValue(val)}
+        checked={value}
+        size="md"
+      />
     </>
   );
-  
 };
 
 export default Example;
