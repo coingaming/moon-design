@@ -1,11 +1,29 @@
 import { Drawer, Button } from '@heathmont/moon-core-tw';
-import React from 'react';
+import React, {useState} from 'react';
 
 const Example = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="flex justify-around items-center w-[848px] h-[556px]">
+    <div className="flex justify-around items-center">
+      <div
+        className="flex flex-row justify-center items-center"
+        onClick={(e) => {
+          e.stopPropagation();
+          e.preventDefault();
+        }}
+      >
+        <Button
+          variant='primary'
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          Toggle drawer
+        </Button>
+      </div>
+
       <Drawer
-        title={'Title of the drawer'}
+        isOpen={isOpen}
+        title='Title of the drawer'
         width={45}
         content={(<>
           <div className="flex flex-wrap items-center justify-between gap-2">
@@ -28,6 +46,7 @@ const Example = () => {
           variant='ghost'
           onClick={() => console.log('Button three clicked')}
         >Tertiary</Button>)}
+        handleToggle={(newValue: boolean) => setIsOpen(newValue)}
       />
     </div>
   );

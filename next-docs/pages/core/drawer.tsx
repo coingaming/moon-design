@@ -7,7 +7,7 @@ import useExamples from '../../utils/useExamples';
 const Example = () => {
   const examples = useExamples('drawerTW');
   return (
-    <div className=''>
+    <div className='flex flex-col gap-2'>
       <ComponentPageDescription title="Drawer">
         <p>
           Moon drawer appears on the right of the screen by triggering with a
@@ -16,11 +16,13 @@ const Example = () => {
           in edit mode)
         </p>
       </ComponentPageDescription>
-      <Preview
-        title="Default"
-        preview={<Default />}
-        code={examples ? examples.Default : 'Loading'}
-      />
+      <div className='mb-6'>
+        <Preview
+          title="Default"
+          preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
+      </div>
       <PropsTable
         title="Props for Drawer component"
         data={[
