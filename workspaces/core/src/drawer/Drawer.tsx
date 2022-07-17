@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
-
+import { ControlsClose } from '@heathmont/moon-icons-tw';
 import Button from '../button/Button';
 import { DrawerProps } from './private/drawerProps';
 
 const Drawer: React.FC<DrawerProps> = ({
   title,
+  width = 30,
+  height = 100,
   content,
-  buttonOneLabel,
-  buttonTwoLabel,
-  buttonThreeLabel,
+  primaryButton,
+  secondaryButton,
+  tertiaryButton,
 }) => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   const onOutsideClick = () => {setIsOpen(false)}
 
@@ -33,7 +35,12 @@ const Drawer: React.FC<DrawerProps> = ({
         </Button>
       </div>
       <div
-        className={`w-[356px] h-[100vh] bg-white z-[99] fixed ease-in-out duration-300 top-0 left-[100%] ${
+        // TW not working for these classes, don't know why?
+        style={{
+          width: `${width}vw`,
+          height: `${height}vh`,
+        }}
+        className={`w-[${width}vw] h-[${height}vh] flex flex-col items-stretch justify-between bg-white z-[99] fixed ease-in-out duration-300 top-0 left-[100%] ${
           isOpen ? 'translate-x-[-100%]' : 'translate-x-full'
         }`}
         onClick={(e) => {
@@ -41,50 +48,27 @@ const Drawer: React.FC<DrawerProps> = ({
           e.preventDefault();
         }}
       >
-        <div className="h-[10%] w-full flex flex-row justify-between items-center mt-4 border border-x-0 border-t-0">
-          <p className="left-[252px] text-[18px] text-left mb-4 font-semibold leading-6 ml-6">
+        <div className="w-full flex flex-row justify-between items-center border-b">
+          <p className="text-left text-moon-18 mx-6 my-4 font-semibold leading-6">
             {title}
           </p>
           <Button
-            className="w-[13.5px] h-[13.5px] mr-8 mb-4"
-            onClick={() => {
-              setIsOpen(!isOpen);
-            }}
+            className="mr-6"
+            onClick={() => setIsOpen(!isOpen)}
           >
-            X
+            <ControlsClose fontSize='1.2rem'/>
           </Button>
         </div>
-        <div className="h-[75%] ">{content}</div>
-        {content && (
-          <div className="h-[10%] flex flex-row justify-between items-center mt-4 border border-x-0 border-b-0">
-            <div>
-              <Button
-                className=" text-[14px] text-[#999CA0] top-1 left-3 text-left mb-3 font-semibold leading-6 ml-6"
-                onClick={() => {
-                  console.log('Button one clicked');
-                }}
-              >
-                {buttonOneLabel || 'Label'}
-              </Button>
-            </div>
-            <div>
-              <Button
-                className="w-[61px] h-[32px] top-1 left-3 rounded-[8px] mr-3 mb-3 border border-[#4E46B4] text-center"
-                onClick={() => {
-                  console.log('Button two clicked');
-                }}
-              >
-                {buttonTwoLabel || 'Label'}
-              </Button>
-              <Button
-                className="w-[61px] h-[32px] top-1 left-3 rounded-[8px] bg-[#4E46B4] text-white mr-3 mb-3 text-center"
-                onClick={() => {
-                  console.log('Button three clicked');
-                }}
-              >
-                {buttonThreeLabel || 'Label'}
-              </Button>
-            </div>
+        {!!content && (<div className="grow m-6">{content}</div>)}
+        {(!!tertiaryButton && !!secondaryButton || !!primaryButton) && (
+          <div className="flex flex-row justify-between items-center p-3 border-t">
+            {!!tertiaryButton && (<div className='mr-2'>
+              {tertiaryButton}
+            </div>)}
+            {(!!secondaryButton || !!primaryButton) && (<div className='flex justify-center items-center gap-2'>
+              {!!secondaryButton && (secondaryButton)}
+              {!!primaryButton && (primaryButton)}
+            </div>)}
           </div>
         )}
       </div>

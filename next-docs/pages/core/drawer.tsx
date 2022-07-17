@@ -7,7 +7,7 @@ import useExamples from '../../utils/useExamples';
 const Example = () => {
   const examples = useExamples('drawerTW');
   return (
-    <>
+    <div className=''>
       <ComponentPageDescription title="Drawer">
         <p>
           Moon drawer appears on the right of the screen by triggering with a
@@ -59,10 +59,10 @@ const Example = () => {
             default: '-',
             description: 'Text for footer button',
           },
-          
+
         ]}
       />
-    </>
+    </div>
   );
 };
 
