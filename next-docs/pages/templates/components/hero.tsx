@@ -24,7 +24,7 @@ const Hero = ({
   >
     <div className="flex sm:items-center sm:relative sm:-left-[50px] sm:h-[679px] sm:mt-[120px]">
       <div className="flex justify-end self-end relative w-full h-full">
-        <div className="flex items-end justify-end max-w-[900px] h-full sm:min-w-[500px] md:ml-15 lg:min-w-[600px]">
+        <div className="flex items-end justify-end max-w-[700px] h-full sm:min-w-[500px] md:ml-15 xxl:min-w-[600px]">
           {heroImage}
         </div>
         <div
@@ -35,8 +35,8 @@ const Hero = ({
         />
       </div>
     </div>
-    <div className="flex flex-col absolute top-[60%] -bottom-48 px-8 -mb-10 z-1 sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center md:w-[65%]">
-      <div className="flex flex-col items-center bottom-4 max-w-full sm:items-start sm:mt-[244px] sm:w-[720px] sm:ml-[248px]">
+    <div className="flex flex-col absolute top-[60%] -bottom-48 px-8 -mb-10 z-1 sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center">
+      <div className="flex flex-col items-center bottom-4 max-w-full sm:items-start sm:mt-[244px] sm:w-[576px] sm:ml-[160px]">
         {headline}
         {subtitle}
         {button}
