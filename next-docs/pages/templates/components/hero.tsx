@@ -19,7 +19,7 @@ const Hero = ({
   bottomGradient,
 }: Props) => {
   return (<div
-    className={`flex flex-col justify-center items-center relative h-[600px] bg-bottom ${ wrapperClasses ? wrapperClasses : ''} sm:flex-row-reverse sm:items-stretch sm:h-[800px] sm:mb-0`}
+    className={`w-full flex flex-col justify-center items-center relative h-[600px] bg-bottom ${ wrapperClasses ? wrapperClasses : ''} sm:flex-row-reverse sm:items-stretch sm:h-[800px] sm:mb-0`}
     style={{ backgroundSize: 'auto 100%' }}
   >
     <div className="flex sm:items-center sm:relative sm:-left-[50px] sm:h-[679px] sm:mt-[120px]">

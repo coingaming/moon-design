@@ -11,8 +11,8 @@ const Family = ({
   subtitle,
   image
 }: Props) => {
-  return (<div className="flex flex-col items-center w-[100%] mt-[96px] mb-[96px] sm:flex-wrap sm:justify-center sm:flex-row-reverse sm:top-0 md:justify-center md:flex-nowrap  md:my-[246px]">
-      <div className="flex flex-col self-stretch items-center pb-8 sm:justify-center sm:ps-12 sm:w-[100%] lg:w-[100%] xl:w-[510px] xl:pl-0">
+  return (<div className="flex flex-col items-center w-full mt-[96px] mb-[96px] sm:flex-wrap sm:justify-center sm:flex-row-reverse sm:top-0 md:w-[80%] md:justify-center md:flex-nowrap md:my-[246px] xl:w-full ">
+      <div className="flex flex-col self-stretch items-center pb-8 sm:justify-center sm:ps-12 sm:w-full md:w-[full] lg:w-[510px] xl:pl-0">
         {title}
         {subtitle}
       </div>

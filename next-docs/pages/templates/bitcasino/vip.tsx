@@ -146,7 +146,7 @@ const Vip = () => {
   }, []);
 
   return (
-    <div className="flex flex-col grow overflow-hidden w-full">
+    <div className="flex flex-col grow overflow-hidden md:w-[80%] xl:w-full">
       <Header logo={<BitcasinoLogo />} height={30} isScrolled={isScrolled} />
       <Hero
         headline={
@@ -178,18 +178,18 @@ const Vip = () => {
         bottomGradient="linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F 100%"
       />
 
-      <div className="flex flex-col items-center self-center mt-[200px] xl:w-[75%] sm:mt-[124px]">
+      <div className="flex flex-col items-center self-center mt-[200px] sm:w-full sm:mt-[124px]">
         <Experience
           title={
             <Title
               text="A VIP experience tailored to your liking"
               classes="
-              w-[380px] leading-10 mb-4  sm:mb-0 xl:w-[944px] sm:w-[600px] sm:leading-0 md:flex-wrap"
+              w-[380px] leading-10 mb-4 sm:mb-0 xl:w-[944px] sm:w-[600px] sm:leading-0 md:flex-wrap"
             />
           }
           subtitle={
             <Subtitle
-              classes="w-[348px] p-5 xl:w-[700px] sm:w-[650px] sm:p-0 sm:pt-4"
+              classes="w-[348px] p-5 lg:w-[700px] sm:w-[650px] sm:p-0 sm:pt-4"
               text="Enjoy exclusive bonuses and invites to prestigious events for free.
               Get all your indulgences taken care of."
             />
@@ -201,7 +201,7 @@ const Vip = () => {
             title={
               <Title
                 text="Explore the world in true VIP style!"
-                classes="mb-4 text-center leading-10 sm:pl-0 sm:leading-0 xl:text-left"
+                classes="mb-4 text-center leading-10 sm:pl-0 sm:leading-0 md:flex-wrap xl:text-left"
               />
             }
             subtitle={
@@ -256,7 +256,7 @@ const Vip = () => {
       </div>
       <div className="flex flex-col">
         <div
-          className="flex flex-col items-center self-center h-full px-5 mt-16 sm:w-[80%] sm:mt-[124px] lg:w-[80%] xxl:w-[1232px]"
+          className="flex flex-col items-center  h-full px-5 mt-16 sm:w-[100%] sm:mt-[124px] md:w-[90%] lg:self-center xxl:w-[1232px]"
           style={{
             background: 'linear-gradient rgba(36, 3, 63, 0) 0% #24033F 100%',
           }}
@@ -280,24 +280,24 @@ const Vip = () => {
             </Button>
           </div>
         </div>
-        <div className=" p-0 mx-6 xxl:w-[1262px] md:p-5 md:mx-auto lg:w-[80%]">
+        <div className=" p-0 mx-6 lg:p-5 md:mx-0 lg:mx-auto md:w-[90%] xxl:w-[1262px] ">
           <div className="py-4 flex flex-row justify-start items-center border border-x-0 border-y-beerus">
             <Image src={bitcasinoLogo} />
             <ControlsChevronRight className="mx-3" />
             <p>Mainpage </p>
           </div>
-          <div className="flex flex-col py-3 mb-3 w-full lg:border lg:border-x-0 lg:border-t-0 lg:border-b-beerus lg:flex-row lg:justify-between">
+          <div className="flex flex-col py-3 mb-3 w-full md:border md:border-x-0 md:border-t-0 md:border-b-beerus md:flex-row md:justify-between">
             <div className="grow-1 mb-7 lg:mr-0 lg:mb-0 md:mr-4">
               <h2 className="text-goten text-sm font-bold mb-7">
                 About Bitcasino.io
               </h2>
-              <p className="text-xs text-trunks lg:w-[255px]">
+              <p className="text-xs text-trunks md:w-[255px]">
                 Bitcasino.io is owned and operated by Moon Technologies B.V. It
                 is licensed and regulated by the Government of Curaçao under the
                 gaming license 1668/JAZ.
               </p>
             </div>
-            <div className="hidden grow-3 lg:mr-0 lg:block ">
+            <div className="hidden grow-3 lg:mr-0 md:block ">
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">Games</h2>
                 <p className="mb-3 text-trunks text-xs">Slots</p>
@@ -313,7 +313,7 @@ const Vip = () => {
                 <p className="mb-3 text-trunks text-xs">Multiplayer</p>
               </div>
             </div>
-            <div className="grow-3 hidden lg:mr-0 lg:flex md:mr-4">
+            <div className="grow-3 hidden lg:mr-0 md:flex md:mr-4">
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">About</h2>
                 <p className="mb-3 text-trunks text-xs">Loyalty Club</p>
@@ -325,7 +325,7 @@ const Vip = () => {
                 <p className="mb-3 text-trunks text-xs">Gaming License</p>
               </div>
             </div>
-            <div className="grow-3 hidden lg:mr-0 lg:flex">
+            <div className="grow-3 hidden md:mr-0 md:flex">
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">Info</h2>
                 <p className="mb-3 text-trunks text-xs">
@@ -344,7 +344,7 @@ const Vip = () => {
                 <p className="mb-3 text-trunks text-xs">Responsible Gambling</p>
               </div>
             </div>
-            <div className="flex flex-col lg:hidden">
+            <div className="flex flex-col md:hidden">
               <div className=" mb-2">
                 <Accordion title={'Games'} isContentInside={true}>
                   <p className="mb-0.5 text-trunks text-s leading-6">Slots</p>
@@ -422,8 +422,8 @@ const Vip = () => {
                 </Accordion>
               </div>
             </div>
-            <div className="grow-4 flex justify-center mt-6 md:mt-0 md:block ">
-              <div className="hidden mb-4 justify-between items-center lg:w-[65%] lg:flex  ">
+            <div className="grow-4 flex justify-center mt-6 sm:mt-0 sm:block ">
+              <div className="hidden mb-4 justify-between items-center md:w-[65%] md:flex  ">
                 <p className="leading-4 text-[10px] font-semibold text-trunks">
                   AM
                 </p>
@@ -459,7 +459,7 @@ const Vip = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus lg:flex-row">
+          <div className="flex flex-col py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus md:flex-row">
             <div className="mb-7 lg:mb-0">
               <h2 className="text-goten text-sm font-bold mb-5">
                 Payment methods
