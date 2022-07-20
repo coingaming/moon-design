@@ -196,7 +196,7 @@ const Vip = () => {
           }
           carouselItems={experienceItems}
         />
-        <div className="mt-[6] sm:mt-[70px] lg:mt-[200px] xl:w-[1136px]">
+        <div className="mt-[6] sm:mt-[70px] md:w-[80%] lg:mt-[200px] xl:w-[1136px]">
           <Explore
             title={
               <Title
@@ -280,7 +280,7 @@ const Vip = () => {
             </Button>
           </div>
         </div>
-        <div className=" p-0 mx-6 lg:p-5 md:mx-0 lg:mx-auto md:w-[90%] xxl:w-[1262px] ">
+        <div className=" p-0 mx-6 md:mr-auto md:w-[85%] lg:w-[90%] lg:p-5 lg:mx-auto xxl:w-[1262px] ">
           <div className="py-4 flex flex-row justify-start items-center border border-x-0 border-y-beerus">
             <Image src={bitcasinoLogo} />
             <ControlsChevronRight className="mx-3" />
@@ -313,7 +313,7 @@ const Vip = () => {
                 <p className="mb-3 text-trunks text-xs">Multiplayer</p>
               </div>
             </div>
-            <div className="grow-3 hidden lg:mr-0 md:flex md:mr-4">
+            <div className="grow-3 hidden lg:mr-0 md:flex md:mr-4 flex-wrap">
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">About</h2>
                 <p className="mb-3 text-trunks text-xs">Loyalty Club</p>
@@ -518,7 +518,7 @@ const Vip = () => {
             </div>
             <div>
               <h2 className="text-goten text-sm font-bold mb-5">Licences</h2>
-              <div className="flex items-center">
+              <div className="flex flex-wrap items-center">
                 <Image src={licences1} />
                 <div className="mx-4">
                   <Image src={icon18} />

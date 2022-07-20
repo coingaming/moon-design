@@ -28,7 +28,7 @@ const Experience = ({
     <div className="flex flex-col items-center relative -top-[30px] w-full mb-8 sm:top-0 sm:mb-0 md:w-[930px] xxl:w-[1232px]">
       {title}
       {subtitle}
-      <div className="flex w-full items-center justify-center max-w-[100vw] px-5 pt-8 sm:max-w-[80vw] sm:mt-12 lg:w-full lg:max-w-[80vw] lg:mt-[124px] xl:max-w-[85vw]  xxl:min-w-[1226px]">
+      <div className="flex w-full items-center justify-center max-w-[100vw] px-5 pt-8 sm:max-w-[80vw] sm:mt-12 md:w-full lg:max-w-[80vw] lg:mt-[124px] xl:max-w-[85vw] xxl:min-w-[1226px]">
         <Carousel
           step={1}
           scrollToLeftButton={({
