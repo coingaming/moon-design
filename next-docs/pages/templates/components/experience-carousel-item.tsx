@@ -9,7 +9,7 @@ const ExperienceCarouselItem = ({
   points,
   backgroundColor
 }: ExperienceCarousel & { backgroundColor?: string }) => {
-  return (<div className={`w-[285px] h-full ${ backgroundColor ? `bg-${backgroundColor}` : 'bg-gohan' } rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${index && index % 2 ? 'sm:mt-[40%]' : ''}`}>
+  return (<div className={`w-[276px] h-full ${ backgroundColor ? `bg-${backgroundColor}` : 'bg-gohan' } rounded-lg flex flex-col p-4 sm:my-8 sm:h-auto ${index && index % 2 ? 'sm:mt-[40%]' : ''}`}>
     <div className="flex items-center justify-center pt-3 pb-4">
       <Image src={icon} alt={title} />
     </div>

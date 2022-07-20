@@ -22,7 +22,7 @@ const Explore = ({
       {title}
       {subtitle}
     </div>
-    <div className="flex items-center justify-center w-[410px] max-w-[100vw] py-8 md:w-[645px] sm:h-full sm:ml-0 sm:px-5 lg:w-[645px] lg:h-[684px]">
+    <div className="flex items-center justify-center w-[410px] max-w-[100vw] py-8 md:w-[645px] sm:h-full sm:ml-0 sm:px-5 lg:w-[630px] lg:h-[684px]">
       <Carousel
         step={1}
         scrollToLeftButton={({ scrollToStep, disabled }: { scrollToStep: any; disabled: boolean; }) =>

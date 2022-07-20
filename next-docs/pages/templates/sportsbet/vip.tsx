@@ -283,134 +283,169 @@ const Vip = () => {
   }, []);
 
   return (
-    <div className="flex flex-col grow overflow-hidden">
+    <div className="flex flex-col grow overflow-hidden md:w-[80%] xl:w-full">
       <Header
-        logo={(<div className="mt-2"><Image src={SportsbetLogo} /></div>)}
+        logo={
+          <div className="mt-2">
+            <Image src={SportsbetLogo} />
+          </div>
+        }
         height={40}
         isScrolled={isScrolled}
       />
       <Hero
-        headline={(<Headline
-          text="Bitcasino VIP: For money can’t buy experiences!"
-          classes="sm:px-0"
-        />)}
-        subtitle={(<Subtitle
-          classes="items-center mt-3 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
-          text=" Join the VIP Bitcasino Club - An exclusive world of crypto leaders
+        headline={
+          <Headline
+            text="Bitcasino VIP: For money can’t buy experiences!"
+            classes="break-words sm:px-0"
+          />
+        }
+        subtitle={
+          <Subtitle
+            classes="break-words items-center mt-3 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
+            text=" Join the VIP Bitcasino Club - An exclusive world of crypto leaders
               and high-rollers who dare to take risks and enjoy life to its
               fullest."
-        />)}
-        button={(<Button
-          variant="primary"
-          width={124}
-          height={48}
-          className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:mx-0 sm:px-0 sm:self-start w-full sm:w-[124px] "
-        >
-          Sign up now
-        </Button>)}
-        heroImage={(<div
-          className="w-full h-full bg-contain bg-bottom bg-no-repeat min-w-[100vw] min-h-[40vh] sm:min-w-[44vw] sm:min-h-[auto]"
-          style={{
-            backgroundImage: 'url(/templates/sportsbet/ambasadors.png)',
-          }}
-        />)}
-        bottomGradient='linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)'
+          />
+        }
+        button={
+          <Button
+            variant="primary"
+            width={124}
+            height={48}
+            className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:mx-0 sm:px-0 sm:self-start w-full sm:w-[124px] "
+          >
+            Sign up now
+          </Button>
+        }
+        heroImage={
+          <div
+            className="w-full h-full bg-contain bg-bottom bg-no-repeat min-w-[100vw] min-h-[40vh] sm:min-w-[44vw] sm:min-h-[auto]"
+            style={{
+              backgroundImage: 'url(/templates/sportsbet/ambasadors.png)',
+            }}
+          />
+        }
+        bottomGradient="linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)"
       />
 
-      <div className="flex flex-col items-center self-center mt-[200px] sm:w-[80%] sm:mt-[124px]">
+      <div className="flex flex-col items-center self-center mt-[200px] sm:w-full sm:mt-[124px]">
         <Experience
-          title={(<Title
-            text="A VIP experience tailored to your liking"
-            classes="w-[380px] leading-10 mb-4 sm:mb-0 md:w-[944px] sm:w-[600px] sm:leading-0"
-          />)}
-          subtitle={(<Subtitle
-            classes="w-[348px] p-5 md:w-[700px] sm:w-[650px] sm:p-0 sm:pt-4"
-            text="Enjoy exclusive bonuses and invites to prestigious events for free.
+          title={
+            <Title
+              text="A VIP experience tailored to your liking"
+              classes="w-[380px] leading-10 mb-4 sm:mb-0 xl:w-[944px] sm:w-[600px] sm:leading-0 md:flex-wrap"
+            />
+          }
+          subtitle={
+            <Subtitle
+              classes="w-[348px] p-5 lg:w-[700px] sm:w-[650px] sm:p-0 sm:pt-4"
+              text="Enjoy exclusive bonuses and invites to prestigious events for free.
               Get all your indulgences taken care of."
-          />)}
+            />
+          }
           carouselItems={experienceItems}
-          carouselItemBackground='goku'
+          carouselItemBackground="goku"
         />
 
-        <div className='mt-[6] sm:mt-[70px] lg:mt-[200px]'>
+        <div className="mt-[6] sm:mt-[70px] md:w-[80%] lg:mt-[200px] xl:w-[1136px]">
           <Explore
-            title={(<Title
-              text="Explore the world in true VIP style!"
-              classes="mb-4 text-center leading-10 sm:pl-0 sm:leading-0 xl:text-left"
-            />)}
-            subtitle={(<Subtitle
-              classes="text-center px-5 sm:px-0 xl:text-left"
-              text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
-            />)}
+            title={
+              <Title
+                text="Explore the world in true VIP style!"
+                classes="mb-4 text-center leading-10 sm:pl-0 sm:leading-0 xl:text-left"
+              />
+            }
+            subtitle={
+              <Subtitle
+                classes="text-center px-5 sm:px-0 xl:text-left"
+                text="Enjoy life at its fullest and create great memories as a Bitcasino VIP. We’ll make your dreams come true with money-can't-buy  experiences you’ll never forget. At Bitcasino, we know how indulge you!"
+              />
+            }
             carouselItems={exploreItems}
-            carouselItemBackground='goku'
+            carouselItemBackground="goku"
           />
         </div>
         <Family
-          title={(<Title
-            text="VIP runs in the family"
-            classes="mb-4 leading-10 sm:text-center md:text-left md:self-start lg:w-[510px]"
-          />)}
-          subtitle={(<Subtitle
-            classes="text-center w-[348px] px-5 pb-[32px] sm:pb-0 sm:w-[100%] md:text-left md:self-start lg:w-[510px]"
-            text="Sportsbet has legendary athletes in our VIP club. Join our high
+          title={
+            <Title
+              text="VIP runs in the family"
+              classes="mb-4 leading-10 sm:text-center md:text-left md:self-start lg:w-[510px]"
+            />
+          }
+          subtitle={
+            <Subtitle
+              classes="text-center w-[348px] px-5 pb-[32px] sm:pb-0 sm:w-[100%] md:text-left md:self-start lg:w-[510px]"
+              text="Sportsbet has legendary athletes in our VIP club. Join our high
               profile community of crypto leaders and high-rollers!"
-          />)}
-          image='/templates/sportsbet/partnership.png'
+            />
+          }
+          image="/templates/sportsbet/partnership.png"
         />
         <CTA
-          title={(<Title
-            text="Ready to step up the game?"
-            classes="mb-4 p-5 leading-10"
-          />)}
-          subtitle={(<Subtitle
-            text="Entry into our VIP Club is by invitation only. Get in touch with us
+          title={
+            <Title
+              text="Ready to step up the game?"
+              classes="mb-4 p-5 leading-10"
+            />
+          }
+          subtitle={
+            <Subtitle
+              text="Entry into our VIP Club is by invitation only. Get in touch with us
             to see what a tailored VIP package could look like for you. Join the
             family now!"
-            classes="w-[100%] mb-4 p-5"
-          />)}
+              classes="w-[100%] mb-4 p-5"
+            />
+          }
           handleSignup={() => console.log('SIGN UP clicked')}
           handleContact={() => console.log('CONTACT clicked')}
         />
-        <div className='mt-[70px] sm:mt-[88px]'>
+        <div className="mt-[70px] sm:mt-[88px]">
           <Social
-            title='Join us and talk to us'
+            title="Join us and talk to us"
             onClick={(social: string) => console.log(`Social link - ${social}`)}
           />
         </div>
       </div>
-      <div className='flex flex-col m-auto sm:w-[80%] sm:mt-[124px] lg:w-[90%] xl:w-[1232px]'>
+      <div className="flex flex-col m-auto sm:w-[80%] sm:mt-[124px] lg:w-[90%] xl:w-[1232px]">
         <div
           className="flex flex-col items-center self-center w-full h-full px-5 mt-16"
-          style={{ background: 'linear-gradient rgba(36, 3, 63, 0) 0% #24033F 100%' }}
+          style={{
+            background: 'linear-gradient rgba(36, 3, 63, 0) 0% #24033F 100%',
+          }}
         >
           <div className="flex flex-col lg:items-start">
             <p className="text-[24px] text-bulma !text-left leading-8 font-semibold sm:px-3 sm:text-left">
               Enjoy BTC gaming at the best Bitcoin casino
             </p>
             <p className="text-[18px] text-bulma opacity-60 !text-left !leading-8 my-2 sm:px-3 sm:text-left md:text-moon-16 lg:text-moon-16">
-              The future of gaming is here, we are the number one bitcoin casino in 2021 and into 2022.
-              Our range of casino-slots consistently make the top ten across the bitcoin casino world. Read more.
+              The future of gaming is here, we are the number one bitcoin casino
+              in 2021 and into 2022. Our range of casino-slots consistently make
+              the top ten across the bitcoin casino world. Read more.
             </p>
           </div>
           <div className="mt-3 mb-3">
             <Button
               className="flex justify-center items-center cursor-pointer bg-goku w-[32px] h-[32px] rounded-full"
               onClick={() => console.log('Read More')}
-            ><ControlsChevronDown /></Button>
+            >
+              <ControlsChevronDown />
+            </Button>
           </div>
         </div>
         <div className="w-full px-[38px] md:p-5 md:mx-auto">
           <div className="flex flex-col py-3 mb-3 md:border md:border-x-0 md:border-t-0 md:border-b-beerus md:flex-row md:justify-between">
             <div className="grow-1 mb-6 lg:mr-0 md:mr-4 md:mb-0">
-              <h2 className="text-goten text-sm font-bold mb-7">About Sportsbet.io</h2>
+              <h2 className="text-goten text-sm font-bold mb-7">
+                About Sportsbet.io
+              </h2>
               <p className="text-xs text-trunks w-full md:w-[148px]">
                 Sportsbet.io is owned and operated by mBet Solutions NV (Schout
                 Bij Nacht Doormanweg 40, P.O. Box 4745, Curaçao). It is licensed
                 and regulated by the Government of Curaçao under the gaming
                 license 1668/JAZ. Some payment methods are handled by its wholly
-                owned subsidiary, mProcessing Solutions Ltd, Cyprus (Menandrou 4,
-                1066, Nicosia, Cyprus).
+                owned subsidiary, mProcessing Solutions Ltd, Cyprus (Menandrou
+                4, 1066, Nicosia, Cyprus).
               </p>
             </div>
             <div className="grow-3 hidden lg:mr-0 md:block md:mr-4">
@@ -433,12 +468,18 @@ const Vip = () => {
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">Support</h2>
                 <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
-                <p className="mb-3 text-trunks text-xs">General Betting Rules</p>
+                <p className="mb-3 text-trunks text-xs">
+                  General Betting Rules
+                </p>
                 <p className="mb-3 text-trunks text-xs">Help Centre</p>
                 <p className="mb-3 text-trunks text-xs">Payment Options</p>
                 <p className="mb-3 text-trunks text-xs">Responsible Gambling</p>
-                <p className="mb-3 text-trunks text-xs">Reward Terms and Conditions</p>
-                <p className="mb-3 text-trunks text-xs">Self-Exclusion Terms and Conditions</p>
+                <p className="mb-3 text-trunks text-xs">
+                  Reward Terms and Conditions
+                </p>
+                <p className="mb-3 text-trunks text-xs">
+                  Self-Exclusion Terms and Conditions
+                </p>
                 <p className="mb-3 text-trunks text-xs">The Clubhouse FAQ</p>
               </div>
             </div>
@@ -447,12 +488,20 @@ const Vip = () => {
                 <h2 className="text-goten text-sm font-bold mb-5">About</h2>
                 <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
                 <p className="mb-3 text-trunks text-xs">Affiliates</p>
-                <p className="mb-3 text-trunks text-xs">Affiliate Terms and Conditions</p>
-                <p className="mb-3 text-trunks text-xs">Crypto Currency How To Guide</p>
+                <p className="mb-3 text-trunks text-xs">
+                  Affiliate Terms and Conditions
+                </p>
+                <p className="mb-3 text-trunks text-xs">
+                  Crypto Currency How To Guide
+                </p>
                 <p className="mb-3 text-trunks text-xs">Privacy Policy</p>
-                <p className="mb-3 text-trunks text-xs">Sportsbet.io Partnerships</p>
+                <p className="mb-3 text-trunks text-xs">
+                  Sportsbet.io Partnerships
+                </p>
                 <p className="mb-3 text-trunks text-xs">Terms and Conditions</p>
-                <p className="mb-3 text-trunks text-xs">The Clubhouse Terms and Conditions</p>
+                <p className="mb-3 text-trunks text-xs">
+                  The Clubhouse Terms and Conditions
+                </p>
                 <p className="mb-3 text-trunks text-xs">Vip</p>
               </div>
             </div>
@@ -477,7 +526,9 @@ const Vip = () => {
           </div>
           <div className=" hidden py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus md:flex ">
             <div>
-              <h2 className="text-goten text-sm font-bold mb-5">Payment methods</h2>
+              <h2 className="text-goten text-sm font-bold mb-5">
+                Payment methods
+              </h2>
               <div className="flex flex-row  md:w-[70%] sm:flex-wrap">
                 <div className=" bg-[#F7931A] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
                   <Bitcasino />
@@ -565,14 +616,14 @@ const Vip = () => {
               <Accordion
                 title={'List item'}
                 isContentInside={true}
-                backgroundColor='goku'
+                backgroundColor="goku"
               />
             </div>
             <div className=" mb-2">
               <Accordion
                 title={'Casino'}
                 isContentInside={true}
-                backgroundColor='goku'
+                backgroundColor="goku"
               >
                 <div className="flex flex-col">
                   <p className="mb-3 text-trunks text-xs">Casino</p>
@@ -582,7 +633,11 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-2">
-              <Accordion backgroundColor='goku' title={'Support'} isContentInside={true}>
+              <Accordion
+                backgroundColor="goku"
+                title={'Support'}
+                isContentInside={true}
+              >
                 <div className="flex flex-col">
                   <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
                   <p className="mb-3 text-trunks text-xs">
@@ -590,7 +645,9 @@ const Vip = () => {
                   </p>
                   <p className="mb-3 text-trunks text-xs">Help Centre</p>
                   <p className="mb-3 text-trunks text-xs">Payment Options</p>
-                  <p className="mb-3 text-trunks text-xs">Responsible Gambling</p>
+                  <p className="mb-3 text-trunks text-xs">
+                    Responsible Gambling
+                  </p>
                   <p className="mb-3 text-trunks text-xs">
                     Reward Terms and Conditions
                   </p>
@@ -602,7 +659,11 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-2">
-              <Accordion backgroundColor='goku' title={'About'} isContentInside={true}>
+              <Accordion
+                backgroundColor="goku"
+                title={'About'}
+                isContentInside={true}
+              >
                 <div className="flex flex-col">
                   <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
                   <p className="mb-3 text-trunks text-xs">Affiliates</p>
@@ -616,7 +677,9 @@ const Vip = () => {
                   <p className="mb-3 text-trunks text-xs">
                     Sportsbet.io Partnerships
                   </p>
-                  <p className="mb-3 text-trunks text-xs">Terms and Conditions</p>
+                  <p className="mb-3 text-trunks text-xs">
+                    Terms and Conditions
+                  </p>
                   <p className="mb-3 text-trunks text-xs">
                     The Clubhouse Terms and Conditions
                   </p>
@@ -625,7 +688,11 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-2">
-              <Accordion backgroundColor='goku' title={'Preferences'} isContentInside={true}>
+              <Accordion
+                backgroundColor="goku"
+                title={'Preferences'}
+                isContentInside={true}
+              >
                 <div className="flex flex-col">
                   <div className="rounded-[100px] flex flex-col bg-beerus mb-4 ">
                     <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
@@ -641,7 +708,11 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-2">
-              <Accordion backgroundColor='goku' title={'Accapted Methods'} isContentInside={true}>
+              <Accordion
+                backgroundColor="goku"
+                title={'Accapted Methods'}
+                isContentInside={true}
+              >
                 <div className="flex flex-col ">
                   <div className="flex w-[70%] flex-wrap items-center ">
                     <div className=" bg-[#345D9D] rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
@@ -681,7 +752,11 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-2">
-              <Accordion backgroundColor='goku' title={'Follow Sportsbook.io'} isContentInside={true}>
+              <Accordion
+                backgroundColor="goku"
+                title={'Follow Sportsbook.io'}
+                isContentInside={true}
+              >
                 <div className="flex flex-col">
                   <div className="flex flex-wrap">
                     <div className="bg-[#27A4DB] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
@@ -707,7 +782,11 @@ const Vip = () => {
               </Accordion>
             </div>
             <div className=" mb-5">
-              <Accordion backgroundColor='goku' title={'Sponsorships'} isContentInside={true}>
+              <Accordion
+                backgroundColor="goku"
+                title={'Sponsorships'}
+                isContentInside={true}
+              >
                 <div className="flex flex-wrap">
                   <div className="flex flex-wrap">
                     <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">

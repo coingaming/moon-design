@@ -223,8 +223,7 @@ const Vip = () => {
           subtitle={
             <Subtitle
               classes="text-center w-[348px] px-5 pb-[32px] sm:pb-0 sm:w-[100%] md:text-left md:self-start lg:w-[510px]"
-              text="Sportsbet has legendary athletes in our VIP club. Join our high
-              profile community of crypto leaders and high-rollers!"
+              text="From artists to visionaries, Bitcasino has the most talented individuals in our VIP club. Join our high profile group of crypto leaders and high-rollers!"
             />
           }
           image="/templates/bitcasino/partnership.png"
@@ -254,9 +253,9 @@ const Vip = () => {
           />
         </div>
       </div>
-      <div className="flex flex-col">
+      <div className="flex flex-col items-center  h-full px-5 mt-16 sm:w-[100%] sm:mt-[124px] md:w-[90%] lg:self-center xxl:w-[1232px]">
         <div
-          className="flex flex-col items-center  h-full px-5 mt-16 sm:w-[100%] sm:mt-[124px] md:w-[90%] lg:self-center xxl:w-[1232px]"
+          className="flex flex-col items-center self-center w-full h-full px-5 mt-16"
           style={{
             background: 'linear-gradient rgba(36, 3, 63, 0) 0% #24033F 100%',
           }}
@@ -280,7 +279,7 @@ const Vip = () => {
             </Button>
           </div>
         </div>
-        <div className=" p-0 mx-6 md:mr-auto md:w-[85%] lg:w-[90%] lg:p-5 lg:mx-auto xxl:w-[1262px] ">
+        <div className=" p-0 mx-6 md:mr-auto  lg:p-5 lg:mx-auto md:w-full xxl:w-[1262px] ">
           <div className="py-4 flex flex-row justify-start items-center border border-x-0 border-y-beerus">
             <Image src={bitcasinoLogo} />
             <ControlsChevronRight className="mx-3" />
