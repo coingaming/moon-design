@@ -20,7 +20,7 @@ const Social = ({
     <p className="text-[32px] text-center font-semibold p-4 mb-4">
       {title}
     </p>
-    <div className="flex gap-2">
+    <div className="flex gap-2 self-center items-center">
       <Button
         iconOnly
         onClick={() => onClick('telegram')}

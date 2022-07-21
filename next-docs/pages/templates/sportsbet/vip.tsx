@@ -53,128 +53,6 @@ import Watford from '../icons/watford';
 import XAbove from '../icons/xAbove';
 import Youtube from '../icons/youtube';
 
-
-interface ExperienceCarousel {
-  index?: number;
-  title: string;
-  points: string[];
-  icon: any;
-}
-
-const ExperienceCarouselItem = ({
-  index,
-  title,
-  icon,
-  points,
-}: ExperienceCarousel) => {
-  return (
-    <div
-      className={`w-[285px] h-full bg-goku rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
-        index && index % 2 ? 'sm:mt-[40%]' : ''
-      }`}
-    >
-      <div className="flex items-center justify-center pt-3 pb-4">
-        <Image src={icon} alt={title} />
-      </div>
-      <p className="text-moon-18 text-center font-semibold mb-4 w-full">
-        {title}
-      </p>
-      <ul className="w-full list-disc ps-4">
-        {points?.map((point: string) => (
-          <li>
-            <p className="text-moon-16 w-full">{point}</p>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
-const ExploreCarouselItem = ({
-  items,
-}: {
-  items: Array<{ image: any; title: string }>;
-}) => {
-  const [itemWidth, setItemWidth] = useState(160);
-  const [itemHeight, setItemHeight] = useState(200);
-
-  useEffect(() => {
-    const resizeItems = () => {
-      if (window?.innerWidth) {
-        setItemWidth(window.innerWidth <= 1024 ? 160 : 280);
-        setItemHeight(window.innerWidth <= 1024 ? 180 : 317);
-      }
-    };
-
-    resizeItems();
-
-    window.addEventListener("resize", resizeItems);
-
-    return () => {
-      window.removeEventListener("resize", resizeItems);
-    };
-  }, []);
-
-  return (
-    <div className="w-full h-full flex p-6">
-      <div className="w-[160px] me-4 flex flex-col items-stretch lg:w-[280px]">
-        <div className="h-16" />
-        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image
-            src={items[0].image}
-            width={itemWidth}
-            height={itemHeight}
-          />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[0].title}
-            </p>
-          </div>
-        </div>
-        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image
-            src={items[1].image}
-            width={itemWidth}
-            height={itemHeight}
-          />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[1].title}
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="w-[160px] me-5 flex flex-col items-stretch lg:w-[280px]">
-        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image
-            src={items[2].image}
-            width={itemWidth}
-            height={itemHeight}
-          />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[2].title}
-            </p>
-          </div>
-        </div>
-        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image
-            src={items[3].image}
-            width={itemWidth}
-            height={itemHeight}
-          />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[3].title}
-            </p>
-          </div>
-        </div>
-        <div className="h-16" />
-      </div>
-    </div>
-  );
-};
-
-
 const Title = ({ text, classes }: { text: string; classes?: string }) => (
   <p
     className={`text-[32px] text-center font-semibold p-4 lg:text-moon-48 sm:text-moon-32 ${
@@ -283,7 +161,7 @@ const Vip = () => {
   }, []);
 
   return (
-    <div className="flex flex-col grow overflow-hidden md:w-[80%] xl:w-full">
+    <div className="flex flex-col overflow-hidden md:w-[80%] lg:w-full">
       <Header
         logo={
           <div className="mt-2">
@@ -296,7 +174,7 @@ const Vip = () => {
       <Hero
         headline={
           <Headline
-            text="Bitcasino VIP: For money can’t buy experiences!"
+            text="Sportsbet VIP: For money can’t buy experiences"
             classes="break-words sm:px-0"
           />
         }
@@ -402,12 +280,12 @@ const Vip = () => {
         />
         <div className="mt-[70px] sm:mt-[88px]">
           <Social
-            title="Join us and talk to us"
+            title="Stay connected with us via social media"
             onClick={(social: string) => console.log(`Social link - ${social}`)}
           />
         </div>
       </div>
-      <div className="flex flex-col m-auto sm:w-[80%] sm:mt-[124px] lg:w-[90%] xl:w-[1232px]">
+      <div className="flex flex-col m-auto sm:w-[80%] sm:mt-[124px] lg:w-[90%] xl:w-[1136px]">
         <div
           className="flex flex-col items-center self-center w-full h-full px-5 mt-16"
           style={{
@@ -433,13 +311,13 @@ const Vip = () => {
             </Button>
           </div>
         </div>
-        <div className="w-full px-[38px] md:p-5 md:mx-auto">
-          <div className="flex flex-col py-3 mb-3 md:border md:border-x-0 md:border-t-0 md:border-b-beerus md:flex-row md:justify-between">
-            <div className="grow-1 mb-6 lg:mr-0 md:mr-4 md:mb-0">
+        <div className="w-full px-[38px] lg:p-5 lg:mx-auto">
+          <div className="flex flex-col py-3 mb-3 lg:border lg:border-x-0 lg:border-t-0 lg:border-b-beerus lg:flex-row lg:justify-between">
+            <div className="grow-1 mb-6  lg:mr-4 lg:mb-0">
               <h2 className="text-goten text-sm font-bold mb-7">
                 About Sportsbet.io
               </h2>
-              <p className="text-xs text-trunks w-full md:w-[148px]">
+              <p className="text-xs text-trunks w-full lg:w-[148px]">
                 Sportsbet.io is owned and operated by mBet Solutions NV (Schout
                 Bij Nacht Doormanweg 40, P.O. Box 4745, Curaçao). It is licensed
                 and regulated by the Government of Curaçao under the gaming
@@ -448,7 +326,7 @@ const Vip = () => {
                 4, 1066, Nicosia, Cyprus).
               </p>
             </div>
-            <div className="grow-3 hidden lg:mr-0 md:block md:mr-4">
+            <div className="grow-3 hidden  lg:block lg:mr-4">
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">Sports</h2>
                 <p className="mb-3 text-trunks text-xs">Promotions</p>
@@ -456,7 +334,7 @@ const Vip = () => {
                 <p className="mb-3 text-trunks text-xs">Upcoming</p>
               </div>
             </div>
-            <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
+            <div className="grow-3 hidden lg:block lg:mr-4">
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">Casino</h2>
                 <p className="mb-3 text-trunks text-xs">Casino</p>
@@ -464,7 +342,7 @@ const Vip = () => {
                 <p className="mb-3 text-trunks text-xs">Bombay club</p>
               </div>
             </div>
-            <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
+            <div className="grow-3 hidden lg:block lg:mr-4">
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">Support</h2>
                 <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
@@ -483,7 +361,7 @@ const Vip = () => {
                 <p className="mb-3 text-trunks text-xs">The Clubhouse FAQ</p>
               </div>
             </div>
-            <div className="grow-3 hidden lg:mr-0  md:block md:mr-4">
+            <div className="grow-3 hidden lg:block lg:mr-4">
               <div>
                 <h2 className="text-goten text-sm font-bold mb-5">About</h2>
                 <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
@@ -505,7 +383,7 @@ const Vip = () => {
                 <p className="mb-3 text-trunks text-xs">Vip</p>
               </div>
             </div>
-            <div className="grow-4 hidden md:block">
+            <div className="grow-4 hidden lg:block">
               <h2 className="text-goten text-sm font-bold mb-5">Preferences</h2>
               <div className="rounded-[100px] flex flex-col bg-beerus mb-4 ">
                 <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
@@ -524,12 +402,12 @@ const Vip = () => {
               </div>
             </div>
           </div>
-          <div className=" hidden py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus md:flex ">
+          <div className=" hidden py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus lg:flex ">
             <div>
               <h2 className="text-goten text-sm font-bold mb-5">
                 Payment methods
               </h2>
-              <div className="flex flex-row  md:w-[70%] sm:flex-wrap">
+              <div className="flex flex-row  lg:w-[70%] sm:flex-wrap">
                 <div className=" bg-[#F7931A] rounded-full mr-2 mb-2 flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
                   <Bitcasino />
                 </div>
@@ -567,9 +445,9 @@ const Vip = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden md:block sm:ml-3 sm:mr-3">
+            <div className="hidden lg:block sm:ml-3 sm:mr-3">
               <h2 className="text-goten text-sm font-bold mb-5">Follow us</h2>
-              <div className="flex flex-row md:flex-nowrap sm:flex-wrap">
+              <div className="flex flex-row lg:flex-nowrap sm:flex-wrap">
                 <div className="bg-[#27A4DB] rounded-full mr-2  flex items-center justify-center lg:w-[36px] lg:h-[36px] sm:w-[35px] sm:h-[35px]">
                   <Telegram />
                 </div>
@@ -592,7 +470,7 @@ const Vip = () => {
             </div>
 
             <div>
-              <h2 className="text-goten text-sm font-bold mb-5 hidden md:block">
+              <h2 className="text-goten text-sm font-bold mb-5 hidden lg:block">
                 Partnership
               </h2>
               <div className="flex items-center">
@@ -611,7 +489,7 @@ const Vip = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col md:hidden">
+          <div className="flex flex-col lg:hidden">
             <div className=" mb-2">
               <Accordion
                 title={'List item'}
@@ -806,7 +684,7 @@ const Vip = () => {
               </Accordion>
             </div>
           </div>
-          <div className="flex justify-center mb-6 md:hidden">
+          <div className="flex justify-center mb-6 lg:hidden">
             <div className="rounded-[100px] bg-beerus flex justify-center items-center">
               <span className="mt-[6px] ml-3 mr-[17px]">
                 <Image src={image1} className="mt-[6px]" />
@@ -815,7 +693,7 @@ const Vip = () => {
           </div>
           <div>
             <h2 className="text-goten text-sm font-bold mb-5">Awards</h2>
-            <div className="flex items-center flex-wrap md:flex-nowrap">
+            <div className="flex items-center flex-wrap lg:flex-nowrap">
               <div className="mr-2 ">
                 <Image src={Curacao} />
               </div>

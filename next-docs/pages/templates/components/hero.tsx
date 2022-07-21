@@ -35,9 +35,9 @@ const Hero = ({
         />
       </div>
     </div>
-    <div className="flex flex-col absolute top-[60%] -bottom-48 px-8 -mb-10 z-1 sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center">
-      <div className="flex flex-col items-center bottom-4 max-w-full sm:items-start sm:mt-[244px] sm:w-[576px] sm:ml-[160px]">
-        {headline}
+    <div className="flex flex-col absolute top-[60%] -bottom-48  -mb-10 z-1 sm:relative sm:top-0 sm:bottom-0 sm:mb-0 sm:pb-24 sm:pt-[72px] sm:w-[50%] sm:items-center">
+      <div className="flex flex-col items-center bottom-4 max-w-full sm:items-start sm:mt-[244px] sm:w-[576px] sm:ml-[160px] md:ml-[232px] lg:[160px] ">
+        {headline} 
         {subtitle}
         {button}
       </div>
