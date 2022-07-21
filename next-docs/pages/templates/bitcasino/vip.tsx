@@ -146,7 +146,7 @@ const Vip = () => {
   }, []);
 
   return (
-    <div className="flex flex-col grow overflow-hidden md:w-[80%] xl:w-full">
+    <div className="flex flex-col grow overflow-hidden md:w-[75%] lg:w-full">
       <Header logo={<BitcasinoLogo />} height={30} isScrolled={isScrolled} />
       <Hero
         headline={
@@ -178,7 +178,7 @@ const Vip = () => {
         bottomGradient="linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F 100%"
       />
 
-      <div className="flex flex-col items-center self-center mt-[200px] sm:w-full sm:mt-[124px]">
+      <div className="flex flex-col items-center self-center mt-[200px] sm:w-full sm:mt-[124px] xl:w-[1232px]">
         <Experience
           title={
             <Title

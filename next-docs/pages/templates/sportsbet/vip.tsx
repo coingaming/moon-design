@@ -53,6 +53,128 @@ import Watford from '../icons/watford';
 import XAbove from '../icons/xAbove';
 import Youtube from '../icons/youtube';
 
+
+interface ExperienceCarousel {
+  index?: number;
+  title: string;
+  points: string[];
+  icon: any;
+}
+
+const ExperienceCarouselItem = ({
+  index,
+  title,
+  icon,
+  points,
+}: ExperienceCarousel) => {
+  return (
+    <div
+      className={`w-[285px] h-full bg-goku rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
+        index && index % 2 ? 'sm:mt-[40%]' : ''
+      }`}
+    >
+      <div className="flex items-center justify-center pt-3 pb-4">
+        <Image src={icon} alt={title} />
+      </div>
+      <p className="text-moon-18 text-center font-semibold mb-4 w-full">
+        {title}
+      </p>
+      <ul className="w-full list-disc ps-4">
+        {points?.map((point: string) => (
+          <li>
+            <p className="text-moon-16 w-full">{point}</p>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+const ExploreCarouselItem = ({
+  items,
+}: {
+  items: Array<{ image: any; title: string }>;
+}) => {
+  const [itemWidth, setItemWidth] = useState(160);
+  const [itemHeight, setItemHeight] = useState(200);
+
+  useEffect(() => {
+    const resizeItems = () => {
+      if (window?.innerWidth) {
+        setItemWidth(window.innerWidth <= 1024 ? 160 : 280);
+        setItemHeight(window.innerWidth <= 1024 ? 180 : 317);
+      }
+    };
+
+    resizeItems();
+
+    window.addEventListener("resize", resizeItems);
+
+    return () => {
+      window.removeEventListener("resize", resizeItems);
+    };
+  }, []);
+
+  return (
+    <div className="w-full h-full flex p-6">
+      <div className="w-[160px] me-4 flex flex-col items-stretch lg:w-[280px]">
+        <div className="h-16" />
+        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image
+            src={items[0].image}
+            width={itemWidth}
+            height={itemHeight}
+          />
+          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
+            <p className="text-moon-18 font-semibold m-3 w-full">
+              {items[0].title}
+            </p>
+          </div>
+        </div>
+        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image
+            src={items[1].image}
+            width={itemWidth}
+            height={itemHeight}
+          />
+          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
+            <p className="text-moon-18 font-semibold m-3 w-full">
+              {items[1].title}
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="w-[160px] me-5 flex flex-col items-stretch lg:w-[280px]">
+        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image
+            src={items[2].image}
+            width={itemWidth}
+            height={itemHeight}
+          />
+          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
+            <p className="text-moon-18 font-semibold m-3 w-full">
+              {items[2].title}
+            </p>
+          </div>
+        </div>
+        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
+          <Image
+            src={items[3].image}
+            width={itemWidth}
+            height={itemHeight}
+          />
+          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
+            <p className="text-moon-18 font-semibold m-3 w-full">
+              {items[3].title}
+            </p>
+          </div>
+        </div>
+        <div className="h-16" />
+      </div>
+    </div>
+  );
+};
+
+
 const Title = ({ text, classes }: { text: string; classes?: string }) => (
   <p
     className={`text-[32px] text-center font-semibold p-4 lg:text-moon-48 sm:text-moon-32 ${
@@ -161,7 +283,7 @@ const Vip = () => {
   }, []);
 
   return (
-    <div className="flex flex-col overflow-hidden md:w-[80%] lg:w-full">
+    <div className="flex flex-col overflow-hidden sm:w-full max-w-[1300px]">
       <Header
         logo={
           <div className="mt-2">
@@ -174,7 +296,7 @@ const Vip = () => {
       <Hero
         headline={
           <Headline
-            text="Sportsbet VIP: For money can’t buy experiences"
+            text="Bitcasino VIP: For money can’t buy experiences!"
             classes="break-words sm:px-0"
           />
         }

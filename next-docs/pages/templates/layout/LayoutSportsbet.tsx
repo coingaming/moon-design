@@ -3,10 +3,10 @@ import Vip from '../sportsbet/vip';
 const Layout = () => {
   return (
     <div className="flex w-full h-full overflow-hidden">
-      <div className="hidden bg-goku w-[232px] sticky md:block rounded-br-3xl ">
-        <div className=" w-[100vw] h-[100vh]"></div>
+      <div className="hidden bg-goku w-[232px] sm:w-[15%] sticky xl:block rounded-br-3xl ">
+        <div className="w-[100vw] h-full"></div>
       </div>
-      <div>
+      <div className="max-w-full">
         <Vip />
       </div>
     </div>
