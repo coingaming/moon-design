@@ -20,6 +20,8 @@ export { default as setFontSize } from './label/utils/setFontSize';
 export * from './label/utils/setFontSize';
 export { default as setSpacing } from './label/utils/setSpacing';
 export * from './label/utils/setSpacing';
+export { default as ListItem } from './listItem/ListItem';
+export * from './listItem/ListItem';
 export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
 export { default as RadioButton } from './radioButton/RadioButton';
