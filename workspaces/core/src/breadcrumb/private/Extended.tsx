@@ -12,7 +12,9 @@ const Extended: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => (
             key={'crumb' + index}
             className="flex items-center gap-2 text-trunks"
           >
-            {index !== 0 && <ArrowsRight className="rtl:rotate-180" />}
+            {index !== 0 && (
+              <ArrowsRight className="rtl:rotate-180 text-moon-16" />
+            )}
             <span
               className={classNames(
                 'text-trunks transition-colors duration-200 hover:text-bulma',

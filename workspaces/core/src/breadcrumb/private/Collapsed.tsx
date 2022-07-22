@@ -42,15 +42,15 @@ const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
         </li>
         {restBreadcrumbs?.length !== 0 && (
           <li key={'crumb' + 1} ref={ref} className="relative">
-            <Button variant="ghost" iconOnly onClick={clickHandle}>
-              <Other3DotsHorizontal />
+            <Button variant="ghost" size="sm" iconOnly onClick={clickHandle}>
+              <Other3DotsHorizontal className="text-moon-16" />
             </Button>
             {isOpen && (
-              <ol className="absolute left-0 top-full bg-gohan p-1 mt-2 flex flex-col gap-2 shadow-moon-xl rounded-moon-s-xs z-10000 min-w-[12rem]">
+              <ol className="absolute ltr:left-0 rtl:right-0 top-full bg-gohan p-1 mt-3 flex flex-col gap-2 shadow-moon-lg rounded-moon-s-md z-10000 min-w-[8.5rem]">
                 {restBreadcrumbs.map((crumb, index) => (
                   <li
                     key={'innercrumb' + index}
-                    className="flex flex-col items-stretch text-bulma text-moon-14 brcrumb-li rounded-sm cursor-pointer hover:bg-goku"
+                    className="flex flex-col items-stretch text-bulma text-moon-14 p-2 rounded-moon-i-xs cursor-pointer transition-colors hover:bg-goku"
                   >
                     {crumb}
                   </li>
@@ -68,7 +68,7 @@ const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
                 key={'crumb' + index + 1}
                 className="flex items-center gap-2 text-trunks"
               >
-                <ArrowsRight />
+                <ArrowsRight className="rtl:rotate-180" />
                 <span
                   className={classNames(
                     'text-trunks transition-colors duration-200 hover:text-bulma',

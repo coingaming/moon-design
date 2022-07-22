@@ -7,7 +7,7 @@ const Breadcrumbs = () => {
   const [_, ...pages] = pathname === '/' ? [] : pathname.split('/');
   const breadcrumbsPath = [
     <Link href="/">
-      <a>Moon.io</a>
+      <a>Home</a>
     </Link>,
     pages.length > 0 &&
       pages.map((page) => (
@@ -19,7 +19,11 @@ const Breadcrumbs = () => {
   if (pathname === '/') {
     return null;
   }
-  return <Breadcrumb breadcrumbs={breadcrumbsPath} />;
+  return (
+    <div className="relative z-10 hidden lg:block pb-12">
+      <Breadcrumb breadcrumbs={breadcrumbsPath} />
+    </div>
+  );
 };
 
 export default Breadcrumbs;
