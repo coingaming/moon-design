@@ -4,6 +4,17 @@ import { Button , Accordion } from '@heathmont/moon-core-tw';
 
 import { ControlsChevronDown, ControlsChevronRight } from '@heathmont/moon-icons-tw';
 import Image from 'next/image';
+import CTA from "../../../components/templates/cta";
+import Experience from "../../../components/templates/experience";
+import Explore from "../../../components/templates/explore";
+import Family from "../../../components/templates/family";
+import Header from "../../../components/templates/header";
+import Headline from "../../../components/templates/headline";
+import Hero from "../../../components/templates/hero";
+import LayoutBitcasino from "../../../components/templates/layout-bitcasino";
+import Social from "../../../components/templates/social";
+import Subtitle from "../../../components/templates/subtitle";
+import Title from "../../../components/templates/title";
 import icon18 from '../../../public/templates/bitcasino/18+icon.png';
 import awards1 from '../../../public/templates/bitcasino/awards1.png';
 import awards2 from '../../../public/templates/bitcasino/awards2.png';
@@ -22,16 +33,6 @@ import gift from '../../../public/templates/gift.png';
 import handshake from '../../../public/templates/handshake.png';
 import promo from '../../../public/templates/promo.png';
 import support from '../../../public/templates/support.png';
-import CTA from "../components/cta";
-import Experience from "../components/experience";
-import Explore from "../components/explore";
-import Family from "../components/family";
-import Header from "../components/header";
-import Headline from "../components/headline";
-import Hero from "../components/hero";
-import Social from "../components/social";
-import Subtitle from "../components/subtitle";
-import Title from "../components/title";
 import Bitcasino from '../icons/bitcasino';
 import BitcasinoLogo from '../icons/bitcasino-logo';
 import Cardano from '../icons/cardano';
@@ -146,8 +147,12 @@ const Vip = () => {
   }, []);
 
   return (
-    <div className="flex flex-col grow overflow-hidden md:w-[75%] lg:w-full">
-      <Header logo={<BitcasinoLogo />} height={30} isScrolled={isScrolled} />
+    <div className="w-full flex flex-col grow overflow-hidden p-5 sm:p-0">
+      <Header
+        height={30}
+        isScrolled={isScrolled}
+        logo={(<BitcasinoLogo />)}
+      />
       <Hero
         headline={
           <Headline
@@ -178,7 +183,7 @@ const Vip = () => {
         bottomGradient="linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F 100%"
       />
 
-      <div className="flex flex-col items-center self-center mt-[200px] sm:w-full sm:mt-[124px] xl:w-[1232px]">
+      <div className="flex flex-col items-center self-center mt-[264px] sm:w-full sm:mt-[124px] xl:w-[1232px]">
         <Experience
           title={
             <Title
@@ -542,9 +547,13 @@ const Vip = () => {
 
 Vip.getLayout = function getLayout(page: ReactNode) {
   return (
-    <div className="w-full min-h-screen theme-bitcasino-dark bg-goku text-white">
-      {page}
-    </div>
+    <LayoutBitcasino
+      sidebar={(<div className="w-full h-full p-5">
+        <BitcasinoLogo />
+      </div>)}
+    >
+      <Vip />
+    </LayoutBitcasino>
   );
 };
 

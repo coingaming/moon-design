@@ -1,11 +1,11 @@
 import React from "react";
 import {Button} from "@heathmont/moon-core-tw";
-import Bitcasino from "../icons/bitcasino";
-import Instagram from "../icons/instagram";
-import Telegram from "../icons/telegram";
-import Tiktok from "../icons/tiktok";
-import Twitter from "../icons/twitter";
-import Youtube from "../icons/youtube";
+import Bitcasino from "../../pages/templates/icons/bitcasino";
+import Instagram from "../../pages/templates/icons/instagram";
+import Telegram from "../../pages/templates/icons/telegram";
+import Tiktok from "../../pages/templates/icons/tiktok";
+import Twitter from "../../pages/templates/icons/twitter";
+import Youtube from "../../pages/templates/icons/youtube";
 
 interface Props {
   title: string;
