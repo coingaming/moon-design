@@ -19,6 +19,7 @@ const navigation = [
       { name: 'Breadcrumb', href: '/core/breadcrumb' },
       { name: 'Checkbox', href: '/core/checkbox' },
       { name: 'Chip', href: '/core/chip' },
+      { name: 'Dialog', href: '/core/dialog' },
       { name: 'Icons', href: '/core/icons' },
       { name: 'Label', href: '/core/label' },
       { name: 'Loader', href: '/core/loader' },
