@@ -15,7 +15,7 @@ const CTA = ({
   handleSignup,
   handleContact
 }: Props) => {
-  return (<div className="flex flex-col w-[95vw] sm:mt-0 sm:w-[100%] md:w-[80%] md:mx-auto lg:w-[672px] ">
+  return (<div className="flex flex-col w-[95vw] p-4 sm:mt-0 sm:w-[100%] md:w-[80%] md:mx-auto lg:w-[672px] ">
     {title}
     {subtitle}
     <div className="flex flex-col w-full sm:flex-row sm:justify-center sm:items-center sm:w-auto">
