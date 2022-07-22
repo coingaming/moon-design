@@ -25,10 +25,10 @@ const Experience = ({
   carouselItemBackground = 'gohan'
 }: Props) => {
   return (
-    <div className="flex flex-col items-center relative -top-[30px] w-full mb-8 sm:top-0 sm:mb-0 md:w-[930px] xl:w-[1230px] lg:pr-6">
+    <div className="flex flex-col items-center relative -top-[30px] mb-8 sm:top-0 sm:mb-0 sm:w-[640px] lg:pr-6 xl:w-[930px] 2xl:w-[1230px]">
       {title}
       {subtitle}
-      <div className="flex w-full items-center justify-center max-w-[100vw] px-5 sm:max-w-[80vw] sm:mt-12 md:w-full lg:max-w-[75vw] lg:mt-[124px] xl:max-w-[78vw] xxl:min-w-[1226px]">
+      <div className="flex w-full items-center justify-center max-w-full px-5 sm:mt-12 lg:mt-[124px]">
         <Carousel
           step={1}
           scrollToLeftButton={({

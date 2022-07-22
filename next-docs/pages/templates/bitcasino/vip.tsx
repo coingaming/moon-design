@@ -176,7 +176,7 @@ const Vip = () => {
         bottomGradient="linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F 100%"
       />
 
-      <div className="flex flex-col items-center self-center mt-[264px] sm:w-full sm:mt-[124px] xl:w-[1232px]">
+      <div className="flex flex-col items-center self-center mt-[264px] sm:mt-[124px]">
         <Experience
           title={
             <Title
