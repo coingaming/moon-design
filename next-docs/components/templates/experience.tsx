@@ -25,7 +25,7 @@ const Experience = ({
   carouselItemBackground = 'gohan'
 }: Props) => {
   return (
-    <div className="flex flex-col items-center relative -top-[30px] mb-8 sm:top-0 sm:mb-0 sm:w-[640px] lg:pr-6 xl:w-[930px] 2xl:w-[1230px]">
+    <div className="flex flex-col items-center relative max-w-[100vw] -top-[30px] mb-8 sm:top-0 sm:mb-0 sm:w-[600px] lg:w-[640px] lg:pr-6 xl:w-[930px] 2xl:w-[1230px]">
       {title}
       {subtitle}
       <div className="flex w-full items-center justify-center max-w-full px-5 sm:mt-12 lg:mt-[124px]">

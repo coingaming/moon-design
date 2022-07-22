@@ -175,7 +175,6 @@ const Vip = () => {
         heroImage={<Image src={KingKaka} objectFit="contain" />}
         bottomGradient="linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F 100%"
       />
-
       <div className="flex flex-col items-center self-center mt-[264px] sm:mt-[124px]">
         <Experience
           title={
@@ -194,7 +193,7 @@ const Vip = () => {
           }
           carouselItems={experienceItems}
         />
-        <div className="mt-[6] sm:mt-[70px] md:w-[80%] lg:mt-[200px] xl:w-[1136px]">
+        <div className="mt-[6] sm:mt-[70px] sm:px-8 md:mt-[120px] xl:mt-[200px]">
           <Explore
             title={
               <Title

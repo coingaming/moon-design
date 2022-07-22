@@ -38,7 +38,7 @@ const Hero = ({
           />
         </div>
       </div>
-      <div className="flex flex-col items-center absolute -bottom-48 -mb-10 z-1 sm:w-[450px] sm:relative sm:top-[209px] sm:bottom-0 sm:mb-0 sm:pb-24 sm:items-start sm:ml-[60px] lg:ml-[160px] xl:w-[576px] xl:ml-[232px]">
+      <div className="flex flex-col items-center absolute -bottom-48 -mb-10 z-1 sm:w-[450px] sm:min-w-[450px] sm:relative sm:top-[209px] sm:bottom-0 sm:mb-0 sm:pb-24 sm:items-start sm:ml-[380px] lg:ml-[160px] xl:w-[576px] xl:ml-[232px]">
         {headline}
         {subtitle}
         {button}
