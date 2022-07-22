@@ -29,9 +29,9 @@ import explore1 from '../../../public/templates/explore-1.png';
 import explore2 from '../../../public/templates/explore-2.png';
 import explore3 from '../../../public/templates/explore-3.png';
 import explore4 from '../../../public/templates/explore-4.png';
-import gift from '../../../public/templates/gift.png';
 import handshake from '../../../public/templates/handshake.png';
-import promo from '../../../public/templates/promo.png';
+import limit from '../../../public/templates/limits.png';
+import reward from '../../../public/templates/rewards.png';
 import support from '../../../public/templates/support.png';
 import Bitcasino from '../icons/bitcasino';
 import BitcasinoLogo from '../icons/bitcasino-logo';
@@ -60,40 +60,33 @@ const Vip = () => {
         'A private casino experience tailored exactly as you deserve.',
       ],
     },
+
     {
-      icon: support,
-      title: '24/7 priority support',
-      points: ['No queues, no waiting.', 'We attend to your needs first.'],
-    },
-    {
-      icon: gift,
-      title: 'Luxurious holiday gifts',
+      icon: reward,
+      title: 'High-value rewards',
       points: [
-        'High-value gifts on your birthday and your anniversary.',
-        'Personalised seasonal offers.',
+        'Lucrative offers modelled just for you.',
+        'Wager free rewards.',
+        'Weekly & monthly bonuses.'
       ],
     },
     {
-      icon: promo,
-      title: 'VIP exclusive promos',
+      icon: limit,
+      title: 'Highest bet limits in the industry',
       points: [
-        'The best betting experiences are reserved for you.',
-        'Only visible to VIP members.',
-      ],
-    },
-    {
-      icon: handshake,
-      title: 'Dedicated VIP manager',
-      points: [
-        'Focused on ONLY your needs.',
-        'A private casino experience tailored exactly as you deserve.',
+        'No limits to withdrawals and deposits!',
       ],
     },
     {
       icon: support,
       title: '24/7 priority support',
       points: ['No queues, no waiting.', 'We attend to your needs first.'],
-    }
+    },
+    {
+      icon: support,
+      title: '24/7 priority support',
+      points: ['No queues, no waiting.', 'We attend to your needs first.'],
+    },
   ];
   const exploreItems = [
     [
