@@ -9,16 +9,18 @@ import Family from "../../../components/templates/family";
 import Header from "../../../components/templates/header";
 import Headline from "../../../components/templates/headline";
 import Hero from "../../../components/templates/hero";
+import LayoutSportsbet from "../../../components/templates/layout-sportsbet";
 import Social from "../../../components/templates/social";
 import Subtitle from "../../../components/templates/subtitle";
+import Title from "../../../components/templates/title";
 import image1 from '../../../public/templates/bitcasino/image1.png';
 import explore1 from '../../../public/templates/explore-1.png';
 import explore2 from '../../../public/templates/explore-2.png';
 import explore3 from '../../../public/templates/explore-3.png';
 import explore4 from '../../../public/templates/explore-4.png';
-import gift from '../../../public/templates/gift.png';
 import handshake from '../../../public/templates/handshake.png';
-import promo from '../../../public/templates/promo.png';
+import limit from "../../../public/templates/limits.png";
+import reward from "../../../public/templates/rewards.png";
 import Plus18 from '../../../public/templates/sportsbet/18plus.png';
 import Award1 from '../../../public/templates/sportsbet/award1.png';
 import Award2 from '../../../public/templates/sportsbet/award2.png';
@@ -53,138 +55,6 @@ import Watford from '../icons/watford';
 import XAbove from '../icons/xAbove';
 import Youtube from '../icons/youtube';
 
-
-interface ExperienceCarousel {
-  index?: number;
-  title: string;
-  points: string[];
-  icon: any;
-}
-
-const ExperienceCarouselItem = ({
-  index,
-  title,
-  icon,
-  points,
-}: ExperienceCarousel) => {
-  return (
-    <div
-      className={`w-[285px] h-full bg-goku rounded-lg flex flex-col p-6 sm:my-8 sm:h-auto ${
-        index && index % 2 ? 'sm:mt-[40%]' : ''
-      }`}
-    >
-      <div className="flex items-center justify-center pt-3 pb-4">
-        <Image src={icon} alt={title} />
-      </div>
-      <p className="text-moon-18 text-center font-semibold mb-4 w-full">
-        {title}
-      </p>
-      <ul className="w-full list-disc ps-4">
-        {points?.map((point: string) => (
-          <li>
-            <p className="text-moon-16 w-full">{point}</p>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
-};
-const ExploreCarouselItem = ({
-  items,
-}: {
-  items: Array<{ image: any; title: string }>;
-}) => {
-  const [itemWidth, setItemWidth] = useState(160);
-  const [itemHeight, setItemHeight] = useState(200);
-
-  useEffect(() => {
-    const resizeItems = () => {
-      if (window?.innerWidth) {
-        setItemWidth(window.innerWidth <= 1024 ? 160 : 280);
-        setItemHeight(window.innerWidth <= 1024 ? 180 : 317);
-      }
-    };
-
-    resizeItems();
-
-    window.addEventListener("resize", resizeItems);
-
-    return () => {
-      window.removeEventListener("resize", resizeItems);
-    };
-  }, []);
-
-  return (
-    <div className="w-full h-full flex p-6">
-      <div className="w-[160px] me-4 flex flex-col items-stretch lg:w-[280px]">
-        <div className="h-16" />
-        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image
-            src={items[0].image}
-            width={itemWidth}
-            height={itemHeight}
-          />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[0].title}
-            </p>
-          </div>
-        </div>
-        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image
-            src={items[1].image}
-            width={itemWidth}
-            height={itemHeight}
-          />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[1].title}
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="w-[160px] me-5 flex flex-col items-stretch lg:w-[280px]">
-        <div className="w-[160px] h-[180px] grow-1 mb-4 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image
-            src={items[2].image}
-            width={itemWidth}
-            height={itemHeight}
-          />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[2].title}
-            </p>
-          </div>
-        </div>
-        <div className="w-[160px] h-[180px] grow-1 relative rounded-lg lg:w-[280px] lg:h-[317px]">
-          <Image
-            src={items[3].image}
-            width={itemWidth}
-            height={itemHeight}
-          />
-          <div className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-            <p className="text-moon-18 font-semibold m-3 w-full">
-              {items[3].title}
-            </p>
-          </div>
-        </div>
-        <div className="h-16" />
-      </div>
-    </div>
-  );
-};
-
-
-const Title = ({ text, classes }: { text: string; classes?: string }) => (
-  <p
-    className={`text-[32px] text-center font-semibold p-4 lg:text-moon-48 sm:text-moon-32 ${
-      classes ?? ''
-    }`}
-  >
-    {text}
-  </p>
-);
-
 const Vip = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const experienceItems = [
@@ -197,33 +67,25 @@ const Vip = () => {
       ],
     },
     {
+      icon: reward,
+      title: 'High-value rewards',
+      points: [
+        'Lucrative offers modelled just for you.',
+        'Wager free rewards.',
+        'Weekly & monthly bonuses.'
+      ],
+    },
+    {
+      icon: limit,
+      title: 'Highest bet limits in the industry',
+      points: [
+        'No limits to withdrawals and deposits!',
+      ],
+    },
+    {
       icon: support,
       title: '24/7 priority support',
       points: ['No queues, no waiting.', 'We attend to your needs first.'],
-    },
-    {
-      icon: gift,
-      title: 'Luxurious holiday gifts',
-      points: [
-        'High-value gifts on your birthday and your anniversary.',
-        'Personalised seasonal offers.',
-      ],
-    },
-    {
-      icon: promo,
-      title: 'VIP exclusive promos',
-      points: [
-        'The best betting experiences are reserved for you.',
-        'Only visible to VIP members.',
-      ],
-    },
-    {
-      icon: handshake,
-      title: 'Dedicated VIP manager',
-      points: [
-        'Focused on ONLY your needs.',
-        'A private casino experience tailored exactly as you deserve.',
-      ],
     },
     {
       icon: support,
@@ -283,29 +145,25 @@ const Vip = () => {
   }, []);
 
   return (
-    <div className="flex flex-col overflow-hidden sm:w-full max-w-[1300px]">
+    <div className="w-full flex flex-col grow overflow-hidden">
       <Header
-        logo={
-          <div className="mt-2">
-            <Image src={SportsbetLogo} />
-          </div>
-        }
-        height={40}
+        height={30}
         isScrolled={isScrolled}
+        logo={(<div className="mt-2">
+          <Image src={SportsbetLogo} />
+        </div>)}
       />
       <Hero
         headline={
           <Headline
-            text="Bitcasino VIP: For money can’t buy experiences!"
-            classes="break-words sm:px-0"
+            text="Sportsbet VIP: For money can’t buy experiences"
+            classes="break-words sm:px-0 "
           />
         }
         subtitle={
           <Subtitle
             classes="break-words items-center mt-3 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
-            text=" Join the VIP Bitcasino Club - An exclusive world of crypto leaders
-              and high-rollers who dare to take risks and enjoy life to its
-              fullest."
+            text="Join the VIP Bitcasino Club - An exclusive world of crypto leaders and high-rollers who dare to take risks and enjoy life to its fullest."
           />
         }
         button={
@@ -318,18 +176,13 @@ const Vip = () => {
             Sign up now
           </Button>
         }
-        heroImage={
-          <div
-            className="w-full h-full bg-contain bg-bottom bg-no-repeat min-w-[100vw] min-h-[40vh] sm:min-w-[44vw] sm:min-h-[auto]"
-            style={{
-              backgroundImage: 'url(/templates/sportsbet/ambasadors.png)',
-            }}
-          />
-        }
-        bottomGradient="linear-gradient(180deg, rgba(26, 33, 42, 0) 0%, rgba(26, 33, 42, 0.479167) 47.92%, rgba(26, 33, 42, 0.81) 67.19%, #1A212A 82.29%, #1A212A 100%)"
+        heroImage={(<div
+          className="w-full h-full bg-contain bg-bottom bg-no-repeat min-w-[100vw] min-h-[40vh] sm:min-w-[44vw] sm:min-h-[auto]"
+          style={{ backgroundImage: 'url(/templates/sportsbet/ambasadors.png)' }}
+        />)}
+        bottomGradient="linear-gradient(rgba(35, 42, 51, 0) 0%, rgba(35, 42, 51, 0.8) 49.48%, rgba(35, 42, 51, 0.95) 100%)"
       />
-
-      <div className="flex flex-col items-center self-center mt-[200px] sm:w-full sm:mt-[124px]">
+      <div className="flex flex-col items-center self-center mt-[264px] sm:w-full sm:mt-[124px]">
         <Experience
           title={
             <Title
@@ -345,7 +198,7 @@ const Vip = () => {
             />
           }
           carouselItems={experienceItems}
-          carouselItemBackground="goku"
+          carouselItemBackground="gohan"
         />
 
         <div className="mt-[6] sm:mt-[70px] md:w-[80%] lg:mt-[200px] xl:w-[1136px]">
@@ -844,9 +697,13 @@ const Vip = () => {
 
 Vip.getLayout = function getLayout(page: ReactNode) {
   return (
-    <div className="w-full min-h-screen theme-sb-dark bg-gohan text-white">
-      {page}
-    </div>
+    <LayoutSportsbet
+      sidebar={(<div className="w-full h-full p-5">
+        <Image src={SportsbetLogo} />
+      </div>)}
+    >
+      <Vip />
+    </LayoutSportsbet>
   );
 };
 

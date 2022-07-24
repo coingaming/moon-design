@@ -60,7 +60,6 @@ const Vip = () => {
         'A private casino experience tailored exactly as you deserve.',
       ],
     },
-
     {
       icon: reward,
       title: 'High-value rewards',
