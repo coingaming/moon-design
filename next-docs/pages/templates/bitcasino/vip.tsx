@@ -249,7 +249,7 @@ const Vip = () => {
           />
         </div>
       </div>
-      <div className="flex flex-col items-center  h-full px-5 mt-16 sm:w-[100%] sm:mt-[124px] md:w-[90%] lg:self-center xxl:w-[1232px]">
+      <div className="flex flex-col items-center h-full px-5 mt-16 sm:w-[100%] sm:mt-[124px] md:w-[90%] lg:self-center xxl:w-[1232px]">
         <div
           className="flex flex-col items-center self-center w-full h-full px-5 mt-16"
           style={{
@@ -275,7 +275,7 @@ const Vip = () => {
             </Button>
           </div>
         </div>
-        <div className=" p-0 mx-6 md:mr-auto  lg:p-5 lg:mx-auto md:w-full xxl:w-[1262px] ">
+        <div className="p-0 mx-6 md:mr-auto  lg:p-5 lg:mx-auto md:w-full xxl:w-[1262px] ">
           <div className="py-4 flex flex-row justify-start items-center border border-x-0 border-y-beerus">
             <Image src={bitcasinoLogo} />
             <ControlsChevronRight className="mx-3" />

@@ -29,7 +29,7 @@ const Social = ({
           backgroundColor: '#27A4DB',
         }}
       >
-        <div className="w-[36px] h-[36px] flex justify-center items-center">
+        <div className="w-[28px] h-[28px] flex justify-center items-center">
           <Telegram />
         </div>
       </Button>
@@ -41,7 +41,7 @@ const Social = ({
           backgroundColor: '#FF0000',
         }}
       >
-        <div className="w-[36px] h-[36px] flex justify-center items-center">
+        <div className="w-[28px] h-[28px] flex justify-center items-center">
           <Youtube />
         </div>
       </Button>
@@ -53,7 +53,7 @@ const Social = ({
           backgroundColor: '#F7931A',
         }}
       >
-        <div className="w-[36px] h-[36px] flex justify-center items-center">
+        <div className="w-[28px] h-[28px] flex justify-center items-center">
           <Bitcasino />
         </div>
       </Button>
@@ -65,7 +65,7 @@ const Social = ({
           backgroundColor: '#1DA1F2',
         }}
       >
-        <div className="w-[36px] h-[36px] flex justify-center items-center">
+        <div className="w-[28px] h-[28px] flex justify-center items-center">
           <Twitter />
         </div>
       </Button>
@@ -78,7 +78,7 @@ const Social = ({
             'linear-gradient(49.12deg, #FFDD55 6.62%, #FF5D3F 47.35%, #FF543E 50.06%, #C837AB 93.5%)',
         }}
       >
-        <div className="w-[36px] h-[36px] flex justify-center items-center">
+        <div className="w-[28px] h-[28px] flex justify-center items-center">
           <Instagram />
         </div>
       </Button>
@@ -90,7 +90,7 @@ const Social = ({
           backgroundColor: '#000',
         }}
       >
-        <div className="w-[36px] h-[36px] flex justify-center items-center">
+        <div className="w-[28px] h-[28px] flex justify-center items-center">
           <Tiktok />
         </div>
       </Button>

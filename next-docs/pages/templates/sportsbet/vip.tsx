@@ -216,19 +216,19 @@ const Vip = () => {
               />
             }
             carouselItems={exploreItems}
-            carouselItemBackground="goku"
+            carouselItemBackground="gohan"
           />
         </div>
         <Family
           title={
             <Title
               text="VIP runs in the family"
-              classes="mb-4 leading-10 sm:text-center md:text-left md:self-start lg:w-[510px]"
+              classes="mb-4 leading-10 sm:text-center md:text-left md:self-start lg:w-[420px] xl:w-[510px]"
             />
           }
           subtitle={
             <Subtitle
-              classes="text-center w-[348px] px-5 pb-[32px] sm:pb-0 sm:w-[100%] md:text-left md:self-start lg:w-[510px]"
+              classes="text-center w-[348px] px-5 pb-[32px] sm:pb-0 sm:w-[100%] md:text-left md:self-start lg:w-[420px] xl:w-[510px]"
               text="Sportsbet has legendary athletes in our VIP club. Join our high
               profile community of crypto leaders and high-rollers!"
             />
