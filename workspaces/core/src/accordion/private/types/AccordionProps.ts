@@ -1,7 +1,7 @@
 import AccordionSizes from './AccordionSizes';
 
 type AccordionProps = {
-  title: string;
+  title: string | React.ReactNode;
   openByDefault?: boolean;
   children?: React.ReactNode;
   disableOpen?: boolean;
