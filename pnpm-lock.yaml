@@ -130,6 +130,7 @@ importers:
       identity-obj-proxy: 3.0.0
       jest: 27.4.7
       jest-environment-jsdom: 27.4.6
+      kbar: 0.1.0-beta.36
       lodash: 4.17.21
       next: 12.1.6
       next-transpile-modules: 9.0.0
@@ -178,6 +179,7 @@ importers:
       identity-obj-proxy: 3.0.0
       jest: 27.4.7
       jest-environment-jsdom: 27.4.6
+      kbar: 0.1.0-beta.36_zpnidt7m3osuk7shl3s4oenomq
       lodash: 4.17.21
       next: 12.1.6_ale2jwaolcy4uxz7oef5nxndha
       next-transpile-modules: 9.0.0
@@ -696,7 +698,7 @@ packages:
       '@babel/compat-data': 7.18.5
       '@babel/core': 7.18.5
       '@babel/helper-validator-option': 7.16.7
-      browserslist: 4.20.3
+      browserslist: 4.21.0
       semver: 6.3.0
 
   /@babel/helper-create-class-features-plugin/7.18.0_@babel+core@7.18.5:
@@ -822,7 +824,7 @@ packages:
     resolution: {integrity: sha512-kclUYSUBIjlvnzN2++K9f2qzYKFgjmnmjwL4zlmU5f8ZtzgWe8s0rUPSTGy2HmK4P8T52MQsS+HTQAgZd3dMEA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/helper-environment-visitor': 7.16.7
+      '@babel/helper-environment-visitor': 7.18.2
       '@babel/helper-module-imports': 7.16.7
       '@babel/helper-simple-access': 7.18.2
       '@babel/helper-split-export-declaration': 7.16.7
@@ -3134,6 +3136,19 @@ packages:
       tslib: 2.3.1
     dev: false
 
+  /@reach/portal/0.16.2_zpnidt7m3osuk7shl3s4oenomq:
+    resolution: {integrity: sha512-9ur/yxNkuVYTIjAcfi46LdKUvH0uYZPfEp4usWcpt6PIp+WDF57F/5deMe/uGi/B/nfDweQu8VVwuMVrCb97JQ==}
+    peerDependencies:
+      react: ^16.8.0 || 17.x
+      react-dom: ^16.8.0 || 17.x
+    dependencies:
+      '@reach/utils': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
+      tiny-warning: 1.0.3
+      tslib: 2.3.1
+    dev: false
+
   /@reach/rect/0.16.0_sfoxds7t5ydpegc3knd667wn6m:
     resolution: {integrity: sha512-/qO9jQDzpOCdrSxVPR6l674mRHNTqfEjkaxZHluwJ/2qGUtYsA0GSZiF/+wX/yOWeBif1ycxJDa6HusAMJZC5Q==}
     peerDependencies:
@@ -3157,6 +3172,18 @@ packages:
     dependencies:
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
+      tiny-warning: 1.0.3
+      tslib: 2.3.1
+    dev: false
+
+  /@reach/utils/0.16.0_zpnidt7m3osuk7shl3s4oenomq:
+    resolution: {integrity: sha512-PCggBet3qaQmwFNcmQ/GqHSefadAFyNCUekq9RrWoaU9hh/S4iaFgf2MBMdM47eQj5i/Bk0Mm07cP/XPFlkN+Q==}
+    peerDependencies:
+      react: ^16.8.0 || 17.x
+      react-dom: ^16.8.0 || 17.x
+    dependencies:
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
       tiny-warning: 1.0.3
       tslib: 2.3.1
     dev: false
@@ -4552,7 +4579,6 @@ packages:
       electron-to-chromium: 1.4.170
       node-releases: 2.0.5
       update-browserslist-db: 1.0.4_browserslist@4.21.0
-    dev: true
 
   /bser/2.1.1:
     resolution: {integrity: sha512-gQxTNE/GAfIIrmHLUE3oJyp5FO6HRBfhjnw4/wMmA63ZGDJnWBmgY/lyQBpnDUkGmAhbSe39tx2d/iTOAfglwQ==}
@@ -4644,7 +4670,6 @@ packages:
 
   /caniuse-lite/1.0.30001359:
     resolution: {integrity: sha512-Xln/BAsPzEuiVLgJ2/45IaqD9jShtk3Y33anKb4+yLwQzws3+v6odKfpgES/cDEaZMLzSChpIGdbOYtH9MyuHw==}
-    dev: true
 
   /ccount/1.1.0:
     resolution: {integrity: sha512-vlNK021QdI7PNeiUh/lKkC/mNHHfV0m/Ad5JoI0TYtlBnJAslM/JIkm/tGC88bkLIwO6OQ5uV6ztS6kVAtCDlg==}
@@ -4891,6 +4916,10 @@ packages:
   /comma-separated-tokens/1.0.8:
     resolution: {integrity: sha512-GHuDRO12Sypu2cV70d1dkA2EUmXHgntrzbpvOB+Qy+49ypNfGgFQIC2fhhXbnyrJRynDCAARsT7Ou0M6hirpfw==}
     dev: true
+
+  /command-score/0.1.2:
+    resolution: {integrity: sha512-VtDvQpIJBvBatnONUsPzXYFVKQQAhuf3XTNOAsdBxCNO/QCtUUd8LSgjn0GVarBkCad6aJCZfXgrjYbl/KRr7w==}
+    dev: false
 
   /commander/2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
@@ -5619,7 +5648,6 @@ packages:
 
   /electron-to-chromium/1.4.170:
     resolution: {integrity: sha512-rZ8PZLhK4ORPjFqLp9aqC4/S1j4qWFsPPz13xmWdrbBkU/LlxMcok+f+6f8YnQ57MiZwKtOaW15biZZsY5Igvw==}
-    dev: true
 
   /elegant-spinner/1.0.1:
     resolution: {integrity: sha1-2wQ1IcldfjA/2PNFvtwzSc+wcp4=}
@@ -8208,6 +8236,21 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
+  /kbar/0.1.0-beta.36_zpnidt7m3osuk7shl3s4oenomq:
+    resolution: {integrity: sha512-i5tU7VYkMmxHCoyG5qzkNeU3qViKBz2F0fjqvWWSKsgVABCF3BjxzAH570Mhn3Zy92x3NGZae8emkBpEk7MKgw==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@reach/portal': 0.16.2_zpnidt7m3osuk7shl3s4oenomq
+      command-score: 0.1.2
+      fast-equals: 2.0.3
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
+      react-virtual: 2.10.4_react@18.0.0
+      tiny-invariant: 1.2.0
+    dev: false
+
   /kind-of/2.0.1:
     resolution: {integrity: sha512-0u8i1NZ/mg0b+W3MGGw5I7+6Eib2nx72S/QvXa0hYjEkjTknYmEYQJwGu3mLC0BrhtJjtQafTkyRUQ75Kx0LVg==}
     engines: {node: '>=0.10.0'}
@@ -8867,7 +8910,6 @@ packages:
 
   /node-releases/2.0.5:
     resolution: {integrity: sha512-U9h1NLROZTq9uE1SNffn6WuPDg8icmi3ns4rEl/oTfIle4iLjTliCzgTsbaIFMq/Xn078/lfY/BL0GWZ+psK4Q==}
-    dev: true
 
   /normalize-package-data/2.5.0:
     resolution: {integrity: sha512-/5CMN3T0R4XTj4DcGaexo+roZSdSFW/0AOOTROrjxzCG1wrWXEsGbRKevjlIL+ZDE4sZlJr5ED4YW0yqmkK+eA==}
@@ -10023,6 +10065,15 @@ packages:
       throttle-debounce: 2.3.0
       ts-easing: 0.2.0
       tslib: 2.3.1
+    dev: false
+
+  /react-virtual/2.10.4_react@18.0.0:
+    resolution: {integrity: sha512-Ir6+oPQZTVHfa6+JL9M7cvMILstFZH/H3jqeYeKI4MSUX+rIruVwFC6nGVXw9wqAw8L0Kg2KvfXxI85OvYQdpQ==}
+    peerDependencies:
+      react: ^16.6.3 || ^17.0.0
+    dependencies:
+      '@reach/observe-rect': 1.2.0
+      react: 18.0.0
     dev: false
 
   /react/16.14.0:
@@ -11271,6 +11322,10 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
+  /tiny-invariant/1.2.0:
+    resolution: {integrity: sha512-1Uhn/aqw5C6RI4KejVeTg6mIS7IqxnLJ8Mv2tV5rTc0qWobay7pDUz6Wi392Cnc8ak1H0F2cjoRzb2/AW4+Fvg==}
+    dev: false
+
   /tiny-warning/1.0.3:
     resolution: {integrity: sha512-lBN9zLN/oAf68o3zNXYrdCt1kP8WsiGW8Oo2ka41b2IM5JL/S1CTyX1rW0mb/zSuJun0ZUrDxx4sqvYS2FWzPA==}
     dev: false
@@ -11620,7 +11675,6 @@ packages:
       browserslist: 4.21.0
       escalade: 3.1.1
       picocolors: 1.0.0
-    dev: true
 
   /uri-js/4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
