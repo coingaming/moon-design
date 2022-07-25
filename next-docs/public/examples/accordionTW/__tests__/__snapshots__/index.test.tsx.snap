@@ -786,7 +786,7 @@ exports[`Accordion renders without button 1`] = `
   className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
 >
   <div
-    className="bg-gohan w-full flex items-center relative gap-1 cursor-not-allowed bg-gohan"
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
   >
     <h3
@@ -794,27 +794,6 @@ exports[`Accordion renders without button 1`] = `
     >
       Test accordion
     </h3>
-    <button
-      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-not-allowed"
-      disabled={true}
-      type="button"
-    >
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </button>
   </div>
   <div
     className="overflow-hidden w-full text-bulma h-0"
