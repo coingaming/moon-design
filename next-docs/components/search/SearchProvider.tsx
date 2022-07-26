@@ -6,32 +6,16 @@ import {
   KBarPositioner,
   KBarSearch,
   KBarAnimator,
+  Action,
 } from 'kbar';
-import { useRouter } from 'next/router'
 import classNames from '../../utils/classNames';
 import RenderResults from './RenderResults';
-
+import getAction from './utils/getActions';
 
 const SearchProvider: React.FC<{ children: React.ReactNode }> = ({
   children,
 }) => {
-  const router = useRouter();
-  const actions = [
-    {
-      id: "vision",
-      name: "Vision",
-      shortcut: ["v"],
-      keywords: "vision",
-      perform: () => (router.push('/vision')),
-    },
-    {
-      id: "contact",
-      name: "Contact",
-      shortcut: ["c"],
-      keywords: "email",
-      perform: () => (window.location.pathname = "contact"),
-    },
-  ]
+  const actions: Action[] = getAction();
 
   return (
     <KBarProvider actions={actions}>
