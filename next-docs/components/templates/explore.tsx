@@ -1,33 +1,28 @@
 import React, {ReactElement} from "react";
 import {Carousel} from "@heathmont/moon-components";
-import ChevronLeft from "../icons/ChevronLeft";
-import ChevronRight from "../icons/ChevronRight";
-import ExperienceCarouselItem from "./experience-carousel-item";
-
-export interface ExperienceCarousel {
-  index?: number;
-  title: string;
-  points: string[];
-  icon: any;
-}
+import ChevronLeft from "../../pages/templates/icons/ChevronLeft";
+import ChevronRight from "../../pages/templates/icons/ChevronRight";
+import ExploreCarouselItem from "./explore-carousel-item";
 
 interface Props {
   title: ReactElement;
   subtitle: ReactElement;
-  carouselItems: ExperienceCarousel[];
+  carouselItems: Array<Array<{ title: string; image: any;}>>;
   carouselItemBackground?: string;
 }
 
-const Experience = ({
-  title,
-  subtitle,
-  carouselItems = [],
-  carouselItemBackground = 'gohan'
+const Explore = ({
+ title,
+ subtitle,
+ carouselItems = [],
+ carouselItemBackground = 'gohan'
 }: Props) => {
-  return (<div className="flex flex-col items-center relative -top-[30px] w-full mb-8 sm:top-0 sm:mb-0 md:w-[930px] xl:w-[1232px]">
-    {title}
-    {subtitle}
-    <div className="flex w-full items-center justify-center max-w-[100vw] px-5 pt-8 sm:max-w-[80vw] sm:mt-12 lg:w-full lg:max-w-[80vw] lg:mt-[124px] xl:min-w-[1226px]">
+  return (<div className="flex flex-col items-center sm:flex-row-reverse sm:flex-wrap sm:justify-center">
+    <div className="flex flex-col justify-center w-[380px] sm:self-stretch sm:w-[100%] sm:mb-[12] lg:mb-20 lg:pl-9 lg:ml-16 lg:px-0 xl:w-[30%] 2xl:ml-24">
+      {title}
+      {subtitle}
+    </div>
+    <div className="flex items-center justify-center w-[410px] max-w-[100vw] py-8 sm:h-full sm:ml-0 sm:px-5 lg:w-[630px] lg:h-[684px]">
       <Carousel
         step={1}
         scrollToLeftButton={({ scrollToStep, disabled }: { scrollToStep: any; disabled: boolean; }) =>
@@ -46,19 +41,12 @@ const Experience = ({
             }}
           ><ChevronRight fontSize="1.5rem" /></div>)
         }
-        items={carouselItems?.map((item, index) => (
-          <ExperienceCarouselItem
-            key={item.title + '-wrapper'}
-            title={item.title}
-            points={item.points}
-            icon={item.icon}
-            index={index}
-            backgroundColor={carouselItemBackground}
-          />
+        items={carouselItems?.map((items) => (
+          <ExploreCarouselItem items={items} />
         ))}
       />
     </div>
   </div>);
 };
 
-export default Experience;
+export default Explore;
