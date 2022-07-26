@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import Background from '../../public/examples/accordionTW/Background';
 import ContentHeader from '../../public/examples/accordionTW/ContentHeader';
 import ContentOutside from '../../public/examples/accordionTW/ContentOutside';
 import ContentOutsideSizes from '../../public/examples/accordionTW/ContentOutsideSizes';
@@ -65,6 +66,11 @@ const Example = () => {
         title="Sizes: content outside"
         preview={<ContentOutsideSizes />}
         code={examples ? examples.ContentOutsideSizes : 'Loading'}
+      />
+       <Preview
+        title="With background"
+        preview={<Background />}
+        code={examples ? examples.Background : 'Loading'}
       />
     </>
   );
