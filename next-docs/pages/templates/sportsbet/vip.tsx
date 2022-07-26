@@ -149,9 +149,11 @@ const Vip = () => {
       <Header
         height={30}
         isScrolled={isScrolled}
-        logo={(<div className="mt-2">
-          <Image src={SportsbetLogo} />
-        </div>)}
+        logo={
+          <div className="mt-2">
+            <Image src={SportsbetLogo} />
+          </div>
+        }
       />
       <Hero
         headline={
@@ -176,10 +178,14 @@ const Vip = () => {
             Sign up now
           </Button>
         }
-        heroImage={(<div
-          className="w-full h-full bg-contain bg-bottom bg-no-repeat min-w-[100vw] min-h-[40vh] sm:min-w-[44vw] sm:min-h-[auto]"
-          style={{ backgroundImage: 'url(/templates/sportsbet/ambasadors.png)' }}
-        />)}
+        heroImage={
+          <div
+            className="w-full h-full bg-contain bg-bottom bg-no-repeat min-w-[100vw] min-h-[40vh] sm:min-w-[44vw] sm:min-h-[auto]"
+            style={{
+              backgroundImage: 'url(/templates/sportsbet/ambasadors.png)',
+            }}
+          />
+        }
         bottomGradient="linear-gradient(rgba(35, 42, 51, 0) 0%, rgba(35, 42, 51, 0.8) 49.48%, rgba(35, 42, 51, 0.95) 100%)"
       />
       <div className="flex flex-col items-center self-center mt-[264px] sm:w-full sm:mt-[124px]">
@@ -469,14 +475,14 @@ const Vip = () => {
               <Accordion
                 title={'List item'}
                 isContentInside={true}
-                backgroundColor="goku"
+                backgroundColor="bg-gohan"
               />
             </div>
             <div className=" mb-2">
               <Accordion
                 title={'Casino'}
                 isContentInside={true}
-                backgroundColor="goku"
+                backgroundColor="bg-gohan"
               >
                 <div className="flex flex-col">
                   <p className="mb-3 text-trunks text-xs">Casino</p>
@@ -487,7 +493,7 @@ const Vip = () => {
             </div>
             <div className=" mb-2">
               <Accordion
-                backgroundColor="goku"
+                backgroundColor="bg-gohan"
                 title={'Support'}
                 isContentInside={true}
               >
@@ -513,7 +519,7 @@ const Vip = () => {
             </div>
             <div className=" mb-2">
               <Accordion
-                backgroundColor="goku"
+                backgroundColor="bg-gohan"
                 title={'About'}
                 isContentInside={true}
               >
@@ -542,7 +548,7 @@ const Vip = () => {
             </div>
             <div className=" mb-2">
               <Accordion
-                backgroundColor="goku"
+                backgroundColor="bg-gohan"
                 title={'Preferences'}
                 isContentInside={true}
               >
@@ -562,7 +568,7 @@ const Vip = () => {
             </div>
             <div className=" mb-2">
               <Accordion
-                backgroundColor="goku"
+                backgroundColor="bg-gohan"
                 title={'Accapted Methods'}
                 isContentInside={true}
               >
@@ -606,7 +612,7 @@ const Vip = () => {
             </div>
             <div className=" mb-2">
               <Accordion
-                backgroundColor="goku"
+                backgroundColor="bg-gohan"
                 title={'Follow Sportsbook.io'}
                 isContentInside={true}
               >
@@ -636,7 +642,7 @@ const Vip = () => {
             </div>
             <div className=" mb-5">
               <Accordion
-                backgroundColor="goku"
+                backgroundColor="bg-gohan"
                 title={'Sponsorships'}
                 isContentInside={true}
               >
