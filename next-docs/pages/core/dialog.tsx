@@ -1,6 +1,9 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import PropsTable from '../../components/PropsTable';
+import ContentOnly from '../../public/examples/dialogTW/ContentOnly';
 import Default from '../../public/examples/dialogTW/Default';
+import HeaderAndFooter from '../../public/examples/dialogTW/HeaderAndFooter';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -30,6 +33,49 @@ const Example = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Content only"
+        preview={<ContentOnly />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Header and Footer"
+        preview={<HeaderAndFooter />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <PropsTable
+        title="Props for Dialog component"
+        data={[
+          {
+            name: 'isOpen',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'isOpen is used for showing dialog component',
+          },
+          {
+            name: 'header',
+            type: 'ReactElement',
+            required: false,
+            default: '-',
+            description: 'Header of component',
+          },
+          {
+            name: 'content',
+            type: 'ReactElement',
+            required: true,
+            default: '-',
+            description: 'Main content for dialog component',
+          },
+          {
+            name: 'footer',
+            type: 'ReactElement',
+            required: false,
+            default: '-',
+            description: 'Footer of component',
+          },
+        ]}
       />
     </>
   );

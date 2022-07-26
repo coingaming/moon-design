@@ -5,7 +5,7 @@ type DialogProps = {
  header?: ReactElement;
  content: ReactElement;
  footer?: ReactElement;
- handleClick: () => void;
+ handleClick: (newValue:boolean) => any;
 };
 
 export default DialogProps;
