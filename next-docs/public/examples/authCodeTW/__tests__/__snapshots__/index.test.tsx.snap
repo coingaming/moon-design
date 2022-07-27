@@ -1,0 +1,271 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthCode renders 1`] = `
+<div
+  className="sc-futMm cibzVE"
+  dir="ltr"
+>
+  <div />
+</div>
+`;
+
+exports[`AuthCode renders Custom length 1`] = `
+<div
+  className="sc-futMm cibzVE"
+  dir="ltr"
+>
+  <div>
+    <div
+      className="sc-iDRUQT bmVMLQ"
+    >
+      <div
+        className="sc-hZiMVj kfaLav"
+        disabled={false}
+      >
+        <input
+          className="sc-hQikvm kjvnfL"
+          dir="ltr"
+          disabled={false}
+          id="auth-code-part-0"
+          inputMode="text"
+          maxLength={4}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-iDRUQT bmVMLQ"
+    >
+      <div
+        className="sc-hZiMVj ejLjyl"
+        disabled={true}
+      >
+        <input
+          className="sc-hQikvm kjvnfL"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-1"
+          inputMode="text"
+          maxLength={4}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-iDRUQT bmVMLQ"
+    >
+      <div
+        className="sc-hZiMVj ejLjyl"
+        disabled={true}
+      >
+        <input
+          className="sc-hQikvm kjvnfL"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-2"
+          inputMode="text"
+          maxLength={4}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-iDRUQT bmVMLQ"
+    >
+      <div
+        className="sc-hZiMVj ejLjyl"
+        disabled={true}
+      >
+        <input
+          className="sc-hQikvm kjvnfL"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-3"
+          inputMode="text"
+          maxLength={4}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AuthCode renders Error state 1`] = `
+<div
+  className="sc-futMm gisJgY"
+  dir="ltr"
+>
+  <div>
+    <div
+      className="sc-iDRUQT bmVMLQ"
+    >
+      <div
+        className="sc-hZiMVj kfaLav"
+        disabled={false}
+      >
+        <input
+          className="sc-hQikvm fQiIiJ"
+          dir="ltr"
+          disabled={false}
+          id="auth-code-part-0"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-iDRUQT bmVMLQ"
+    >
+      <div
+        className="sc-hZiMVj ejLjyl"
+        disabled={true}
+      >
+        <input
+          className="sc-hQikvm fQiIiJ"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-1"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-iDRUQT bmVMLQ"
+    >
+      <div
+        className="sc-hZiMVj ejLjyl"
+        disabled={true}
+      >
+        <input
+          className="sc-hQikvm fQiIiJ"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-2"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-iDRUQT bmVMLQ"
+    >
+      <div
+        className="sc-hZiMVj ejLjyl"
+        disabled={true}
+      >
+        <input
+          className="sc-hQikvm fQiIiJ"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-3"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-iDRUQT bmVMLQ"
+    >
+      <div
+        className="sc-hZiMVj ejLjyl"
+        disabled={true}
+      >
+        <input
+          className="sc-hQikvm fQiIiJ"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-4"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-iDRUQT bmVMLQ"
+    >
+      <div
+        className="sc-hZiMVj ejLjyl"
+        disabled={true}
+      >
+        <input
+          className="sc-hQikvm fQiIiJ"
+          dir="ltr"
+          disabled={true}
+          id="auth-code-part-5"
+          inputMode="text"
+          maxLength={6}
+          onChange={[Function]}
+          pattern="[a-z0-9]*"
+          placeholder=""
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <div
+      className="sc-eZgkGA cEsnvz"
+      data-testid="undefined-error"
+    >
+      <p
+        className="sc-cbDwiu hCgUPa"
+        color="chiChi.100"
+        size={12}
+      >
+        Provided value is not valid!
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AuthCode renders Only digits 1`] = `
+<div
+  className="sc-futMm cibzVE"
+  dir="ltr"
+>
+  <div />
+</div>
+`;
