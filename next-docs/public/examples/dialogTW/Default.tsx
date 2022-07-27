@@ -17,6 +17,7 @@ const Example = () =>{
       </div>
       <Dialog
         isOpen={isOpen}
+        handleClick={(newValue:boolean) => setIsOpen(newValue)}
         header="Title of sheet"
         content={
           <>

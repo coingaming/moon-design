@@ -12,9 +12,7 @@ const Dialog: FunctionComponent<DialogProps> = ({
   <div>
     {isOpen && (
       <div className="flex flex-col">
-        <div
-          className="w-full h-full absolute left-0 top-0 bg-slate-800 opacity-60	"
-        ></div>
+        <div className="w-full h-full absolute left-0 top-0 bg-slate-800 opacity-60" onClick={(e) => {if (handleClick) handleClick(false)}}></div>
         <div className="w-full ease-in-out duration-300 bg-gohan absolute translate-x-[-50%] bottom-0 rounded-t-2xl sm:static sm:w-[360px] sm:rounded-2xl sm:translate-x-0">
           <div className="w-full h-full flex justify-center items-center">
             <div className="w-12 h-[6px] bg-beerus mt-2 rounded-full"></div>
@@ -27,6 +25,7 @@ const Dialog: FunctionComponent<DialogProps> = ({
                 </p>
                 <div
                   className="mr-7 self-center cursor-pointer"
+                  onClick={() => (handleClick ? handleClick(!isOpen) : '')}
                 >
                   <ControlsClose />
                 </div>
@@ -34,7 +33,7 @@ const Dialog: FunctionComponent<DialogProps> = ({
             </div>
           )}
           <div className="w-full h-full flex flex-col">{content}</div>
-          {!!footer && (<div className="w-full h-full ">{footer}</div>)}
+          {!!footer && <div className="w-full h-full ">{footer}</div>}
         </div>
       </div>
     )}

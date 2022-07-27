@@ -16,6 +16,7 @@ const Example = () => {
       </div>
       <Dialog
         isOpen={isOpen}
+        handleClick={(newValue: boolean) => setIsOpen(newValue)}
         content={
           <>
             <div className="mx-4 mb-4 mt-3 flex justify-between items-center">
