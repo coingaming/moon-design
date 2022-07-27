@@ -2,7 +2,7 @@
 
 exports[`AuthCode renders 1`] = `
 <div
-  className="sc-futMm kYjPeF"
+  className="sc-futMm cibzVE"
   dir="ltr"
 >
   <div />
@@ -11,7 +11,7 @@ exports[`AuthCode renders 1`] = `
 
 exports[`AuthCode renders Custom length 1`] = `
 <div
-  className="sc-futMm kYjPeF"
+  className="sc-futMm cibzVE"
   dir="ltr"
 >
   <div>
@@ -109,7 +109,7 @@ exports[`AuthCode renders Custom length 1`] = `
 
 exports[`AuthCode renders Error state 1`] = `
 <div
-  className="sc-futMm bXPymp"
+  className="sc-futMm gisJgY"
   dir="ltr"
 >
   <div>
@@ -263,7 +263,7 @@ exports[`AuthCode renders Error state 1`] = `
 
 exports[`AuthCode renders Only digits 1`] = `
 <div
-  className="sc-futMm kYjPeF"
+  className="sc-futMm cibzVE"
   dir="ltr"
 >
   <div />

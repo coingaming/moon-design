@@ -784,10 +784,10 @@ Array [
 exports[`Accordion renders with background 1`] = `
 Array [
   <div
-    className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-bg-beerus py-2 ps-3 pe-2"
+    className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-beerus py-2 ps-3 pe-2"
   >
     <div
-      className="bg-bg-beerus w-full flex items-center relative gap-1 cursor-pointer bg-bg-beerus"
+      className="bg-beerus w-full flex items-center relative gap-1 cursor-pointer bg-beerus"
       onClick={[Function]}
     >
       <h3
@@ -796,7 +796,7 @@ Array [
         Test accordion with backgound
       </h3>
       <button
-        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-bg-beerus cursor-pointer"
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-beerus cursor-pointer"
         type="button"
       >
         <svg
@@ -830,7 +830,7 @@ Array [
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
   >
     <div
-      className="bg-bg-beerus w-full flex items-center relative gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+      className="bg-beerus w-full flex items-center relative gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
       onClick={[Function]}
     >
       <h3
@@ -839,7 +839,7 @@ Array [
         Test accordion with backgound: content outside
       </h3>
       <button
-        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-bg-beerus cursor-pointer"
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-beerus cursor-pointer"
         type="button"
       >
         <svg
