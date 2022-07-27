@@ -1,3 +1,4 @@
+import React from 'react';
 import classNames from '../../private/utils/classnames';
 
 const InputWrapper: React.FC = ({ children }) => {

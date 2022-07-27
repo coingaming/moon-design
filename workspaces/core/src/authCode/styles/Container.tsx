@@ -1,3 +1,4 @@
+import React from 'react';
 import classNames from '../../private/utils/classnames';
 import { ContainerProps } from '../private/types/ContainerProps';
 
