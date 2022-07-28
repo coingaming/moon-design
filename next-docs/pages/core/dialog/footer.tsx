@@ -2,6 +2,7 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import FooterDefault from "../../../public/examples/dialogTW/FooterDefault";
+import FooterVertical from "../../../public/examples/dialogTW/FooterVertical";
 import useExamples from '../../../utils/useExamples';
 
 const Example = () => {
@@ -19,6 +20,11 @@ const Example = () => {
         title="Default"
         preview={<FooterDefault />}
         code={examples ? examples.FooterDefault : 'Loading'}
+      />
+      <Preview
+        title="Vertical"
+        preview={<FooterVertical />}
+        code={examples ? examples.FooterVertical : 'Loading'}
       />
       <PropsTable
         title="Props for Dialog component"
