@@ -28,12 +28,11 @@ const Drawer: React.FC<DrawerProps> = ({
         />
       )}
       <div
-       // TW not working for these classes, don't know why?
         style={{
           width: `${viewportWidth}vw`,
           height: `${viewportHeight}vh`,
         }}
-        className={`w-[${viewportWidth}] h-[${viewportHeight}vh] flex flex-col items-stretch justify-between bg-white fixed ease-in-out duration-300 top-0 left-[100%] shadow-xl z-20 ${
+        className={`flex flex-col items-stretch justify-between bg-white fixed ease-in-out duration-300 top-0 left-[100%] shadow-xl z-20 ${
           isOpen ? 'translate-x-[-100%]' : 'translate-x-full'
         }`}
         onClick={(e) => {
