@@ -2,10 +2,10 @@ import { ReactElement } from "react";
 
 type DialogProps = {
  isOpen?: boolean;
- header?: ReactElement;
+ header?: string | ReactElement;
  content: ReactElement;
  footer?: ReactElement;
- handleClick: (newValue:boolean) => any;
+ handleClick: (newValue?: any) => any;
 };
 
 export default DialogProps;

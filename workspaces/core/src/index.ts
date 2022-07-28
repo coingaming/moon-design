@@ -16,6 +16,8 @@ export { default as Chip } from './chip/Chip';
 export * from './chip/Chip';
 export { default as Dialog } from './dialog/Dialog';
 export * from './dialog/Dialog';
+export { default as DialogHeader } from './dialog/Header';
+export * from './dialog/Header';
 export { default as Label } from './label/Label';
 export * from './label/Label';
 export { default as setFontSize } from './label/utils/setFontSize';

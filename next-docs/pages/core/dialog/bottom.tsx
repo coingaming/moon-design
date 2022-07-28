@@ -1,10 +1,10 @@
-import Preview from '../../components/codePreview/Preview';
-import ComponentPageDescription from '../../components/ComponentPageDescription';
-import PropsTable from '../../components/PropsTable';
-import ContentOnly from '../../public/examples/dialogTW/ContentOnly';
-import Default from '../../public/examples/dialogTW/Default';
-import HeaderAndFooter from '../../public/examples/dialogTW/HeaderAndFooter';
-import useExamples from '../../utils/useExamples';
+import Preview from '../../../components/codePreview/Preview';
+import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import PropsTable from '../../../components/PropsTable';
+import ContentOnly from '../../../public/examples/dialogTW/ContentOnly';
+import Default from '../../../public/examples/dialogTW/Default';
+import HeaderAndFooter from '../../../public/examples/dialogTW/HeaderAndFooter';
+import useExamples from '../../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('dialogTW');

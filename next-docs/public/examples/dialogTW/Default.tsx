@@ -12,7 +12,7 @@ const Example = () =>{
     >
       <div className="mb-5 ">
         <Button variant="primary" width={20} onClick={() => setIsOpen(!isOpen)}>
-          <p className="w-[280px] ">Tap</p>
+          <p className="w-[280px]">Tap</p>
         </Button>
       </div>
       <Dialog
@@ -29,9 +29,9 @@ const Example = () =>{
             </div>
           </>
         }
-      ></Dialog>
+      />
     </div>
   );
-} 
+}
 
 export default Example;

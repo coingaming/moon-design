@@ -19,7 +19,16 @@ const navigation = [
       { name: 'Breadcrumb', href: '/core/breadcrumb' },
       { name: 'Checkbox', href: '/core/checkbox' },
       { name: 'Chip', href: '/core/chip' },
-      { name: 'Dialog', href: '/core/dialog' },
+      {
+        name: 'Dialog',
+        children: [
+          { name: 'Bottom sheet', href: '/core/dialog/bottom' },
+          { name: 'Modal', href: '/core/dialog/modal' },
+          { name: 'Popover', href: '/core/dialog/popover' },
+          { name: 'Header', href: '/core/dialog/header' },
+          { name: 'Footer', href: '/core/dialog/footer' },
+        ]
+      },
       { name: 'Icons', href: '/core/icons' },
       { name: 'Label', href: '/core/label' },
       { name: 'Loader', href: '/core/loader' },

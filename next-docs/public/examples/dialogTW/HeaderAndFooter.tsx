@@ -34,14 +34,14 @@ const Example = () => {
                 <p className="my-3 text-white text-center">Label</p>
               </Button>
             </div>
-            <div className="mx-6 mb-6 ">
+            <div className="mx-6 mb-6">
               <Button className="w-full">
                 <p className="w-full">Label</p>
               </Button>
             </div>
           </div>
         }
-      ></Dialog>
+      />
     </div>
   );
 };
