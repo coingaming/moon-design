@@ -9,7 +9,7 @@ const Example = () => {
   return (
     <>
       <ComponentPageDescription title="Footer module">
-        <div className="w-[414px] leading-8">
+        <div className="leading-8">
           <p>
             Footer is a confirmation module to be used
             in the <strong>Modal dialogs, Popovers, Multi select Dropdown, Drawers</strong> and <strong>Bottom sheet</strong> </p>

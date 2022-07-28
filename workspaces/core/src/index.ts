@@ -20,6 +20,8 @@ export { default as DialogHeader } from './dialog/Header';
 export * from './dialog/Header';
 export { default as DialogFooter } from './dialog/Footer';
 export * from './dialog/Footer';
+export { default as DialogModal } from './dialog/Modal';
+export * from './dialog/Modal';
 export { default as Label } from './label/Label';
 export * from './label/Label';
 export { default as setFontSize } from './label/utils/setFontSize';

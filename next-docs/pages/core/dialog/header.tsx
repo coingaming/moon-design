@@ -11,7 +11,7 @@ const Example = () => {
   return (
     <>
       <ComponentPageDescription title="Header module">
-        <div className="w-[414px] leading-8">
+        <div className="leading-8">
           <p>
             Header module variants to be used in Modal dialogs, Popovers, Dropdowns, Drawers and Bottom sheet
           </p>
