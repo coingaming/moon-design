@@ -28,6 +28,7 @@ module.exports = {
         developer: 'rgba(149, 241, 213, 0.9)',
         transparent: 'transparent',
         current: 'currentColor',
+        backdrop: 'rgba(0, 0, 0, 0.56)'
       },
       screens: {
         sm: '640px',

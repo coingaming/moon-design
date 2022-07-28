@@ -1,5 +1,5 @@
 import { Drawer, Button } from '@heathmont/moon-core-tw';
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,34 +35,10 @@ const Example = () => {
             </div>
           </>
         }
-        primaryButton={
-          <Button
-            variant="primary"
-            onClick={() => console.log('Button one clicked')}
-          >
-            Primary
-          </Button>
-        }
-        secondaryButton={
-          <Button
-            variant="tertiary"
-            onClick={() => console.log('Button two clicked')}
-          >
-            Secondary
-          </Button>
-        }
-        tertiaryButton={
-          <Button
-            variant="ghost"
-            onClick={() => console.log('Button three clicked')}
-          >
-            Tertiary
-          </Button>
-        }
         handleToggle={(newValue: boolean) => setIsOpen(newValue)}
       />
     </div>
   );
-}
+};
 
 export default Example;

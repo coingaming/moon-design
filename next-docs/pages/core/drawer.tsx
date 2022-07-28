@@ -2,12 +2,13 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/drawerTW/Default';
+import WithoutButton from '../../public/examples/drawerTW/WithoutButton';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('drawerTW');
   return (
-    <div className='flex flex-col gap-2'>
+    <div className="flex flex-col gap-2">
       <ComponentPageDescription title="Drawer">
         <p>
           Moon drawer appears on the right of the screen by triggering with a
@@ -16,10 +17,17 @@ const Example = () => {
           in edit mode)
         </p>
       </ComponentPageDescription>
-      <div className='mb-6'>
+      <div className="mb-6">
         <Preview
           title="Default"
           preview={<Default />}
+          code={examples ? examples.Default : 'Loading'}
+        />
+      </div>
+      <div className="mb-6">
+        <Preview
+          title="Drawer without buttons"
+          preview={<WithoutButton />}
           code={examples ? examples.Default : 'Loading'}
         />
       </div>
@@ -41,27 +49,40 @@ const Example = () => {
             description: 'The contents of the drawer',
           },
           {
-            name: 'buttonOneLabel',
-            type: 'string',
+            name: 'viewportWidth',
+            type: 'number',
             required: false,
             default: '-',
-            description: 'Text for footer button',
+            description: 'Width for viewport',
           },
           {
-            name: 'buttonTwoLabel',
-            type: 'string',
+            name: 'viewportHeight',
+            type: 'number',
             required: false,
             default: '-',
-            description: 'Text for footer button',
+            description: 'Height for viewport',
           },
           {
-            name: 'buttonThreeLabel',
-            type: 'string',
+            name: 'primaryButton',
+            type: 'ReactElement',
             required: false,
             default: '-',
-            description: 'Text for footer button',
+            description: 'Button for footer',
           },
-
+          {
+            name: 'secondaryButton',
+            type: 'ReactElement',
+            required: false,
+            default: '-',
+            description: 'Button for footer',
+          },
+          {
+            name: 'tertiaryButton',
+            type: 'ReactElement',
+            required: false,
+            default: '-',
+            description: 'Button for footer',
+          },
         ]}
       />
     </div>

@@ -2,12 +2,12 @@ import { ReactElement } from "react";
 
 export interface DrawerProps {
   isOpen?: boolean;
-  title?: string;
-  width?: number;
-  height?: number;
+  title?: string | JSX.Element;
+  viewportWidth?: number;
+  viewportHeight?: number;
   content?: ReactElement;
-  primaryButton?: string;
-  secondaryButton?: string;
-  tertiaryButton?: string;
-  handleToggle?: (newValue: boolean) => any
+  primaryButton?: ReactElement;
+  secondaryButton?: ReactElement;
+  tertiaryButton?: ReactElement;
+  handleToggle?: (newValue: boolean) => any;
 }
