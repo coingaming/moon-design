@@ -1,8 +1,8 @@
 import React from 'react';
+import {OtherMoon,OtherSun} from '@heathmont/moon-icons-tw';
+
 import classNames from '../private/utils/classnames';
 import getSizeClasses from './private/getSizeClasses';
-import IconMoon from './private/iconMoon';
-import IconSun from './private/iconSun';
 import SwitchProps from './private/switchProps';
 
 const Switch: React.FC<SwitchProps> = ({
@@ -21,6 +21,7 @@ const Switch: React.FC<SwitchProps> = ({
       <label
         className={classNames(
           'relative flex justify-between items-center group p-2 text-xl',
+          !!button && '!p-0',
           disabled
             ? 'opacity-30 cursor-not-allowed'
             : 'cursor-pointer peer-checked:cursor-pointer'
@@ -66,16 +67,16 @@ const Switch: React.FC<SwitchProps> = ({
             >
               <p
                 className={classNames(
-                  'flex items-center w-[31px] h-[24px] p-1 z-1 top-1 left-2 text-[14px] leading-6	',
+                  'flex items-center w-[1.938rem] h-[1.5rem] p-1 z-1 top-1 left-2 text-moon-14 leading-6	',
                   size === 'lg' ? 'top-2 left-3' : '',
-                  !checked ? '' : 'text-white'
+                  checked && 'text-white'
                 )}
               >
                 {button.offLabel}
               </p>
               <p
                 className={classNames(
-                  'flex items-center  w-[31px] h-[24px] p-1 text-[14px] leading-6	',
+                  'flex items-center  w-[1.938rem] h-[1.5rem] p-1 text-moon-14 leading-6	',
                   size === 'lg' ? 'top-2 left-3' : ''
                 )}
               >
@@ -87,7 +88,7 @@ const Switch: React.FC<SwitchProps> = ({
           {(!!isThemeSwitcher || !!customOnIcon || !!customOffIcon) && (
             <div
               className={classNames(
-                'w-[50%] h-full flex items-center justify-between absolute cursor-pointer',
+                'w-1/2 h-full flex items-center justify-between absolute cursor-pointer',
                 disabled
                   ? 'cursor-not-allowed peer-checked:cursor-not-allowed after:cursor-not-allowed'
                   : 'cursor-pointer peer-checked:cursor-pointer after:cursor-pointer'
@@ -96,28 +97,22 @@ const Switch: React.FC<SwitchProps> = ({
               <span
                 className={classNames(
                   'flex items-center z-0 ',
-                  size === '2xs'
-                    ? 'w-1/2 h-full py-1'
-                    : size === 'xs'
-                    ? 'w-3/4 h-3/4 p-0'
-                    : 'w-full h-full p-1',
-                  !checked ? 'invisible' : ''
+                  size === '2xs' && 'w-1/2 h-full py-1',
+                  size === 'xs' ? 'w-3/4 h-3/4 p-0' : 'w-full h-full p-1',
+                  !checked && 'invisible'
                 )}
               >
-                {customOnIcon ?? <IconMoon />}
+                {customOnIcon ?? <OtherMoon color='white'/>}
               </span>
               <span
                 className={classNames(
                   'flex items-center',
-                  size === '2xs'
-                    ? 'w-1/2 h-full py-1'
-                    : size === 'xs'
-                    ? 'w-4/5 h-3/4 pr-2'
-                    : 'w-4/5 h-3/4 py-1',
-                  !checked ? '' : 'invisible'
+                  size === '2xs' && 'w-1/2 h-full py-1',
+                  size === 'xs' ? 'w-4/5 h-3/4 pr-2' : 'w-4/5 h-3/4 py-1',
+                  checked && 'invisible'
                 )}
               >
-                {customOffIcon ?? <IconSun />}
+                {customOffIcon ?? <OtherSun />}
               </span>
             </div>
           )}
