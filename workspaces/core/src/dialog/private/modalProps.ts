@@ -5,6 +5,9 @@ type ModalProps = {
  header?: ReactElement;
  content: ReactElement;
  footer?: ReactElement;
+ width?: string;
+ height?: string;
+ handleClick: (newValue?: any) => any;
 };
 
 export default ModalProps;

@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from "react";
-import DialogProps from "./private/dialogProps";
+import ModalProps from "./private/modalProps";
 
-const Dialog: FunctionComponent<DialogProps> = ({
+const Dialog: FunctionComponent<ModalProps> = ({
   width,
   height,
   isOpen,

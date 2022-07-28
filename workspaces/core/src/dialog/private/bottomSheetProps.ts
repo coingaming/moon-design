@@ -1,8 +1,7 @@
 import { ReactElement } from "react";
 
-type DialogProps = {
- height?: string;
- width?: string;
+type BottomSheetProps = {
+ height?: string
  isOpen?: boolean;
  header?: string | ReactElement;
  content: ReactElement;
@@ -10,4 +9,4 @@ type DialogProps = {
  handleClick: (newValue?: any) => any;
 };
 
-export default DialogProps;
+export default BottomSheetProps;

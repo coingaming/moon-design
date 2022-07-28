@@ -1,8 +1,8 @@
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
+import BottomSheet from "../../../public/examples/dialogTW/BottomSheet";
 import ContentOnly from '../../../public/examples/dialogTW/ContentOnly';
-import Default from '../../../public/examples/dialogTW/Default';
 import HeaderAndFooter from '../../../public/examples/dialogTW/HeaderAndFooter';
 import useExamples from '../../../utils/useExamples';
 
@@ -11,7 +11,7 @@ const Example = () => {
   return (
     <>
       <ComponentPageDescription title="Bottom sheet (mobile only)">
-        <div className="w-[414px] leading-8">
+        <div className="leading-8">
           <p>
             The bottom sheet component is a great way to present users with a
             wide variety of different content that is anchored to the bottom of
@@ -19,22 +19,22 @@ const Example = () => {
             <b> Modal dialog , Popover </b>
             and <b>Drawer</b>
           </p>
-          <p>
+          <p className='mt-2'>
             The bottom sheet component is divided into three different variants
           </p>
-          <ul className="list-disc">
+          <ul className="list-inside list-disc mt-2">
             <li>Content with Header module</li>
-            <li> Content only</li>
+            <li>Content only</li>
             <li>Content with Header module and Footer module</li>
           </ul>
         </div>
       </ComponentPageDescription>
       <Preview
         title="Default"
-        preview={<Default />}
-        code={examples ? examples.Default : 'Loading'}
+        preview={<BottomSheet />}
+        code={examples ? examples.BottomSheet : 'Loading'}
       />
-      <Preview
+      {/*<Preview
         title="Content only"
         preview={<ContentOnly />}
         code={examples ? examples.Default : 'Loading'}
@@ -43,7 +43,7 @@ const Example = () => {
         title="Header and Footer"
         preview={<HeaderAndFooter />}
         code={examples ? examples.Default : 'Loading'}
-      />
+      />*/}
       <PropsTable
         title="Props for Dialog component"
         data={[
