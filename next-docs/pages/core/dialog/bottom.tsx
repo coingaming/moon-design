@@ -1,9 +1,8 @@
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
+import ContentOnly from '../../../public/examples/dialogTW/BottmSheetContent';
 import BottomSheet from "../../../public/examples/dialogTW/BottomSheet";
-import ContentOnly from '../../../public/examples/dialogTW/ContentOnly';
-import HeaderAndFooter from '../../../public/examples/dialogTW/HeaderAndFooter';
 import useExamples from '../../../utils/useExamples';
 
 const Example = () => {
@@ -34,16 +33,11 @@ const Example = () => {
         preview={<BottomSheet />}
         code={examples ? examples.BottomSheet : 'Loading'}
       />
-      {/*<Preview
+      <Preview
         title="Content only"
         preview={<ContentOnly />}
-        code={examples ? examples.Default : 'Loading'}
+        code={examples ? examples.ContentOnly : 'Loading'}
       />
-      <Preview
-        title="Header and Footer"
-        preview={<HeaderAndFooter />}
-        code={examples ? examples.Default : 'Loading'}
-      />*/}
       <PropsTable
         title="Props for Dialog component"
         data={[

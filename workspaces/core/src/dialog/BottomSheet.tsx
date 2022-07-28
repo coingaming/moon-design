@@ -16,7 +16,7 @@ const DialogBottomSheet: FunctionComponent<BottomSheetProps> = ({
       />)}
       <div
         style={height ? { height } : {}}
-        className={`flex flex-col relative py-2 z-30 ease-in-out duration-300 bg-gohan rounded-tl-g rounded-t-2xl transition-all ${
+        className={`w-full flex flex-col relative py-2 z-30 ease-in-out duration-300 bg-gohan rounded-tl-g rounded-t-2xl transition-all ${
           isOpen ? 'translate-y-0' : 'translate-y-full'
         }`}
       >
