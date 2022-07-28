@@ -20,7 +20,7 @@ const Example = () => {
       <Preview
         title="Default"
         preview={<HeaderDefault />}
-        code={examples ? examples.Default : 'Loading'}
+        code={examples ? examples.HeaderDefault : 'Loading'}
       />
       <Preview
         title="With icons"
@@ -61,7 +61,7 @@ const Example = () => {
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Whether title should have bottom border and padding',
+            description: 'Whether header should have bottom border and padding',
           },
         ]}
       />
