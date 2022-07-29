@@ -1,4 +1,4 @@
-import { DialogHeader } from "@heathmont/moon-core-tw";
+import DialogHeader from '@heathmont/moon-core-tw/lib/dialog/Header';
 import { ControlsClose, FilesDraft, ControlsChevronLeft } from '@heathmont/moon-icons-tw';
 
 const Example = () => {

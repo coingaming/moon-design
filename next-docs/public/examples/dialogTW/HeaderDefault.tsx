@@ -1,4 +1,4 @@
-import { DialogHeader } from "@heathmont/moon-core-tw";
+import DialogHeader from "@heathmont/moon-core-tw/lib/dialog/Header";
 
 const Example = () =>{
   return (

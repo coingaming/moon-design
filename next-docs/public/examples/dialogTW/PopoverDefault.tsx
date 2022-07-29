@@ -1,5 +1,6 @@
 import {useState} from "react";
-import {DialogPopover, Button} from "@heathmont/moon-core-tw";
+import {Button} from "@heathmont/moon-core-tw";
+import DialogPopover from "@heathmont/moon-core-tw/lib/dialog/Popover";
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false);

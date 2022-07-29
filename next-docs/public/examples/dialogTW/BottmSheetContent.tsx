@@ -1,12 +1,13 @@
 import { useState } from 'react';
-import { Button, DialogBottomSheet } from '@heathmont/moon-core-tw';
+import { Button } from '@heathmont/moon-core-tw';
+import DialogBottomSheet from '@heathmont/moon-core-tw/lib/dialog/BottomSheet';
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div
-      className="w-full relative h-[830px] w-[410px] overflow-hidden rounded-lg border-2 border-popo flex flex-col items-center"
+      className="relative h-[830px] w-[410px] overflow-hidden rounded-lg border-2 border-popo flex flex-col items-center"
     >
       <div className="relative z-10 m-6">
         <Button variant="primary" width={20} onClick={() => setIsOpen(true)}>

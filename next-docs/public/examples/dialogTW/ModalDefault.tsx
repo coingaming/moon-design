@@ -1,5 +1,6 @@
 import {useState} from "react";
-import {DialogModal, Button} from "@heathmont/moon-core-tw";
+import { Button} from "@heathmont/moon-core-tw";
+import Dialog from "@heathmont/moon-core-tw/lib/dialog/Modal";
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,7 @@ const Example = () => {
           <p className="w-[280px]">Open</p>
         </Button>
       </div>
-      <DialogModal
+      <Dialog
         isOpen={isOpen}
         handleClick={(newValue:boolean) => setIsOpen(newValue)}
         content={

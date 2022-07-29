@@ -1,4 +1,5 @@
-import {DialogFooter, Button} from "@heathmont/moon-core-tw";
+import { Button} from "@heathmont/moon-core-tw";
+import DialogFooter from "@heathmont/moon-core-tw/lib/dialog/Footer";
 
 const Example = () =>{
   return (

@@ -1,6 +1,9 @@
 import {useState} from "react";
-import {DialogModal, DialogHeader, Button, DialogFooter} from "@heathmont/moon-core-tw";
+import {Button} from "@heathmont/moon-core-tw";
 import {ControlsChevronLeft, ControlsClose} from "@heathmont/moon-icons-tw";
+import Dialog from "@heathmont/moon-core-tw/lib/dialog/Modal";
+import DialogHeader from "@heathmont/moon-core-tw/lib/dialog/Header";
+import DialogFooter from "@heathmont/moon-core-tw/lib/dialog/Footer";
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,7 +18,7 @@ const Example = () => {
           <p className="w-[280px]">Open</p>
         </Button>
       </div>
-      <DialogModal
+      <Dialog
         isOpen={isOpen}
         handleClick={(newValue:boolean) => setIsOpen(newValue)}
         header={(<DialogHeader
@@ -27,7 +30,7 @@ const Example = () => {
           rightIcons={[
             <ControlsClose
               fontSize='2rem'
-              onClick={() => setIsOpen(false)}
+              onClick={() => setIsOpen(!isOpen)}
               className="cursor-pointer"
             />
           ]}
