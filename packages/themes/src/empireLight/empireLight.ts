@@ -11,8 +11,8 @@ const color = {
     80: '#FF51B9',
   },
   hit: {
-    120: '#4225B5',
-    100: '#4828C5',
+    120: '#A999EB',
+    100: '#B8A6FF',
     80: '#DAD4F3',
   },
   beerus: {
@@ -43,7 +43,7 @@ const color = {
 
 const colorNew = {
   piccolo: '#FF25A8',
-  hit: '#4828C5',
+  hit: '#B8A6FF',
   beerus: '#E5E4EA',
   goku: '#F0EEF5',
   gohan: '#ffffff',
