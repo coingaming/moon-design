@@ -125,6 +125,9 @@ module.exports = {
         'moon-s-md': 'var(--radius-s-md)',
         'moon-s-lg': 'var(--radius-s-lg)',
       },
+      backgroundColor: {
+        backdrop: 'rgba(0, 0, 0, 0.56)',
+      },
       zIndex: {
         1: '1',
         5: '5',

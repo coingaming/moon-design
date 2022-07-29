@@ -1,4 +1,4 @@
-import React  from 'react';
+import React from 'react';
 import { ControlsClose } from '@heathmont/moon-icons-tw';
 import Button from '../button/Button';
 import { DrawerProps } from './private/drawerProps';
@@ -18,7 +18,7 @@ const Drawer: React.FC<DrawerProps> = ({
     <div>
       {isOpen && (
         <div
-          className="flex fixed bg-backdrop  top-0 left-0 h-[100vh] w-full justify-end items-stretch z-10 cursor-pointer "
+          className="flex fixed bg-backdrop top-0 left-0 h-[100vh] w-full justify-end items-stretch z-10 cursor-pointer"
           onClick={(e) => {
             e.stopPropagation();
             e.preventDefault();
