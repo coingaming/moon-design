@@ -27,8 +27,7 @@ module.exports = {
         bgdeveloper: 'rgba(255, 255, 255, 0.6)', // active item colour
         developer: 'rgba(149, 241, 213, 0.9)',
         transparent: 'transparent',
-        current: 'currentColor',
-        backdrop: 'rgba(0, 0, 0, 0.56)'
+        current: 'currentColor'
       },
       screens: {
         sm: '640px',
