@@ -6,20 +6,20 @@ import supportiveColors from '../v2/colors/supportiveColors';
 
 const color = {
   piccolo: {
-    120: '#e6b400',
-    100: '#ffc800',
-    80: '#f9ca1f',
+    120: '#EB229B',
+    100: '#FF25A8',
+    80: '#FF51B9',
   },
   hit: {
-    120: '#e6e6e6',
-    100: '#ffffff',
-    80: '#ffffff',
+    120: '#4225B5',
+    100: '#4828C5',
+    80: '#DAD4F3',
   },
   beerus: {
-    100: '#f0f0f0',
+    100: '#E5E4EA',
   },
   goku: {
-    100: '#f3f3f2',
+    100: '#F0EEF5',
     80: '#e7e7e4',
     40: '#d0d0c8',
     10: '#b9b9ac',
@@ -31,25 +31,25 @@ const color = {
     10: '#d9d9d9',
   },
   goten: {
-    100: '#000000',
+    100: '#FFFFFF',
   },
   bulma: {
-    100: '#000000',
+    100: '#15064F',
   },
   trunks: {
-    100: '#828282',
+    100: '#5C5671',
   },
 };
 
 const colorNew = {
-  piccolo: '#ffc800',
-  hit: '#ffffff',
-  beerus: '#f0f0f0',
-  goku: '#f3f3f2',
+  piccolo: '#FF25A8',
+  hit: '#4828C5',
+  beerus: '#E5E4EA',
+  goku: '#F0EEF5',
   gohan: '#ffffff',
-  bulma: '#000000',
-  trunks: '#828282',
-  goten: '#000000',
+  bulma: '#15064F',
+  trunks: '#5C5671',
+  goten: '#FFFFFF',
   popo: '#000000',
 };
 
