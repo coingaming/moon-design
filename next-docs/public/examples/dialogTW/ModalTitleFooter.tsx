@@ -1,5 +1,5 @@
-import {DialogModal, DialogHeader, Button, DialogFooter} from "@heathmont/moon-core-tw";
 import {useState} from "react";
+import {DialogModal, DialogHeader, Button, DialogFooter} from "@heathmont/moon-core-tw";
 import {ControlsChevronLeft, ControlsClose} from "@heathmont/moon-icons-tw";
 
 const Example = () => {
