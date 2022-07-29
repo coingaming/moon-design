@@ -1,10 +1,9 @@
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
-import ModalCustomWidth from "../../../public/examples/dialogTW/ModalCustomWidth";
-import ModalDefault from "../../../public/examples/dialogTW/ModalDefault";
-import ModalTitle from "../../../public/examples/dialogTW/ModalTitle";
-import ModalTitleFooter from "../../../public/examples/dialogTW/ModalTitleFooter";
+import PopoverDefault from "../../../public/examples/dialogTW/PopoverDefault";
+import PopoverPositions from "../../../public/examples/dialogTW/PopoverPositions";
+import PopoverTitleFooter from "../../../public/examples/dialogTW/PopoverTitleFooter";
 import useExamples from '../../../utils/useExamples';
 
 const Example = () => {
@@ -14,31 +13,23 @@ const Example = () => {
       <ComponentPageDescription title="Modal">
         <div className="leading-8">
           <p>
-            The modal dialog (or modal as we call it) is used to capture attention so users are informed about a task, critical information or a decision they have to make. It usually resides on the top of a page. When modals are active, users are unable to see the content that’s currently on the page. They also won’t be able to return to what they were previously doing until the modal is dismissed or a task/decision is completed.
-          </p>
-          <p>
-            As experienced astronauts, we recommend using modals sparingly. They are effective when used correctly, but they can also be disruptive.
+            The Popover is a kind of dialog that is triggered by <strong>Buttons, Chips, Links, Search</strong> and appears in any place accordingly / in the context of the trigger position.
           </p>
         </div>
       </ComponentPageDescription>
       <Preview
         title="Default"
-        preview={<ModalDefault />}
+        preview={<PopoverDefault />}
         code={examples ? examples.ModalDefault : 'Loading'}
       />
       <Preview
-        title="With title"
-        preview={<ModalTitle />}
-        code={examples ? examples.ModalTitle : 'Loading'}
-      />
-      <Preview
         title="With title and footer"
-        preview={<ModalTitleFooter />}
+        preview={<PopoverTitleFooter />}
         code={examples ? examples.ModalTitleFooter : 'Loading'}
       />
       <Preview
-        title="Custom width and height"
-        preview={<ModalCustomWidth />}
+        title="Placement variations"
+        preview={<PopoverPositions />}
         code={examples ? examples.ModalCustomWidth : 'Loading'}
       />
       <PropsTable

@@ -22,6 +22,8 @@ export { default as DialogFooter } from './dialog/Footer';
 export * from './dialog/Footer';
 export { default as DialogModal } from './dialog/Modal';
 export * from './dialog/Modal';
+export { default as DialogPopover } from './dialog/Popover';
+export * from './dialog/Popover';
 export { default as Label } from './label/Label';
 export * from './label/Label';
 export { default as setFontSize } from './label/utils/setFontSize';
