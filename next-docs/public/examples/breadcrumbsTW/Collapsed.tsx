@@ -1,33 +1,25 @@
 import { Breadcrumb } from '@heathmont/moon-core-tw';
 import Link from 'next/link';
 
-const Example = () => {
-  const breadcrumbs = [
-    <Link href="/">
-      <a>Moon.io</a>
-    </Link>,
-    <Link href="/breadcrumb_item_1">
-      <a>Breadcrumb item 1</a>
-    </Link>,
-    <Link href="/breadcrumb_item_2">
-      <a>Breadcrumb item 2</a>
-    </Link>,
-    <Link href="/breadcrumb_item_3">
-      <a>Breadcrumb item 3</a>
-    </Link>,
-    <Link href="/breadcrumb_item_4">
-      <a>Breadcrumb item 4</a>
-    </Link>,
-    <Link href="/breadcrumb_item_5">
-      <span>Breadcrumb item 5</span>
-    </Link>,
-  ];
+const breadcrumbs = [
+  <Link href="">
+    <a>Home</a>
+  </Link>,
+  <Link href="">
+    <a>Page 1</a>
+  </Link>,
+  <Link href="">
+    <a>Page 2</a>
+  </Link>,
+  <Link href="">
+    <a>Page 3</a>
+  </Link>,
+  <Link href="">
+    <a>Page 4</a>
+  </Link>,
+  <span>Current page</span>,
+];
 
-  return (
-    <>
-      <Breadcrumb breadcrumbs={breadcrumbs} />
-    </>
-  );
-};
+const Example = () => <Breadcrumb breadcrumbs={breadcrumbs} />;
 
 export default Example;

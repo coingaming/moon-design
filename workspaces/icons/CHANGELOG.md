@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.3.0
+
+### Minor Changes
+
+- Search
+
 ## 9.2.5
 
 ### Patch Changes

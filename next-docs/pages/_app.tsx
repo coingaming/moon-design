@@ -6,6 +6,7 @@ import '../styles/custom.css';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import Layout from '../components/Layout';
+import SearchProvider from '../components/search/SearchProvider';
 import { DocsThemeProvider } from '../components/themes/DocsThemeProvider';
 import type { AppProps } from 'next/app';
 
@@ -30,16 +31,17 @@ function MyApp({ Component, pageProps }: MyAppProps) {
         <meta name="description" content="Moon Design System" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
-      <DocsThemeProvider>
-        {getLayout ? (
-          getLayout(<Component {...pageProps} />)
-        ) : (
-          <Layout>
-            <Component {...pageProps} />
-          </Layout>
-        )}
-      </DocsThemeProvider>
+      <SearchProvider>
+        <DocsThemeProvider>
+          {getLayout ? (
+            getLayout(<Component {...pageProps} />)
+          ) : (
+            <Layout>
+              <Component {...pageProps} />
+            </Layout>
+          )}
+        </DocsThemeProvider>
+      </SearchProvider>
     </>
   );
 }
