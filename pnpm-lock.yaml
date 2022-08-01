@@ -130,6 +130,7 @@ importers:
       identity-obj-proxy: 3.0.0
       jest: 27.4.7
       jest-environment-jsdom: 27.4.6
+      kbar: 0.1.0-beta.36
       lodash: 4.17.21
       next: 12.1.6
       next-transpile-modules: 9.0.0
@@ -178,6 +179,7 @@ importers:
       identity-obj-proxy: 3.0.0
       jest: 27.4.7
       jest-environment-jsdom: 27.4.6
+      kbar: 0.1.0-beta.36_zpnidt7m3osuk7shl3s4oenomq
       lodash: 4.17.21
       next: 12.1.6_ale2jwaolcy4uxz7oef5nxndha
       next-transpile-modules: 9.0.0
@@ -3134,6 +3136,19 @@ packages:
       tslib: 2.3.1
     dev: false
 
+  /@reach/portal/0.16.2_zpnidt7m3osuk7shl3s4oenomq:
+    resolution: {integrity: sha512-9ur/yxNkuVYTIjAcfi46LdKUvH0uYZPfEp4usWcpt6PIp+WDF57F/5deMe/uGi/B/nfDweQu8VVwuMVrCb97JQ==}
+    peerDependencies:
+      react: ^16.8.0 || 17.x
+      react-dom: ^16.8.0 || 17.x
+    dependencies:
+      '@reach/utils': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
+      tiny-warning: 1.0.3
+      tslib: 2.3.1
+    dev: false
+
   /@reach/rect/0.16.0_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-/qO9jQDzpOCdrSxVPR6l674mRHNTqfEjkaxZHluwJ/2qGUtYsA0GSZiF/+wX/yOWeBif1ycxJDa6HusAMJZC5Q==}
     peerDependencies:
@@ -3157,6 +3172,18 @@ packages:
     dependencies:
       react: 16.14.0
       react-dom: 16.14.0_react@16.14.0
+      tiny-warning: 1.0.3
+      tslib: 2.3.1
+    dev: false
+
+  /@reach/utils/0.16.0_zpnidt7m3osuk7shl3s4oenomq:
+    resolution: {integrity: sha512-PCggBet3qaQmwFNcmQ/GqHSefadAFyNCUekq9RrWoaU9hh/S4iaFgf2MBMdM47eQj5i/Bk0Mm07cP/XPFlkN+Q==}
+    peerDependencies:
+      react: ^16.8.0 || 17.x
+      react-dom: ^16.8.0 || 17.x
+    dependencies:
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
       tiny-warning: 1.0.3
       tslib: 2.3.1
     dev: false
@@ -4891,6 +4918,10 @@ packages:
   /comma-separated-tokens/1.0.8:
     resolution: {integrity: sha512-GHuDRO12Sypu2cV70d1dkA2EUmXHgntrzbpvOB+Qy+49ypNfGgFQIC2fhhXbnyrJRynDCAARsT7Ou0M6hirpfw==}
     dev: true
+
+  /command-score/0.1.2:
+    resolution: {integrity: sha512-VtDvQpIJBvBatnONUsPzXYFVKQQAhuf3XTNOAsdBxCNO/QCtUUd8LSgjn0GVarBkCad6aJCZfXgrjYbl/KRr7w==}
+    dev: false
 
   /commander/2.20.3:
     resolution: {integrity: sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==}
@@ -8208,6 +8239,21 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
+  /kbar/0.1.0-beta.36_zpnidt7m3osuk7shl3s4oenomq:
+    resolution: {integrity: sha512-i5tU7VYkMmxHCoyG5qzkNeU3qViKBz2F0fjqvWWSKsgVABCF3BjxzAH570Mhn3Zy92x3NGZae8emkBpEk7MKgw==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0
+      react-dom: ^16.0.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      '@reach/portal': 0.16.2_zpnidt7m3osuk7shl3s4oenomq
+      command-score: 0.1.2
+      fast-equals: 2.0.3
+      react: 18.0.0
+      react-dom: 18.0.0_react@18.0.0
+      react-virtual: 2.10.4_react@18.0.0
+      tiny-invariant: 1.2.0
+    dev: false
+
   /kind-of/2.0.1:
     resolution: {integrity: sha512-0u8i1NZ/mg0b+W3MGGw5I7+6Eib2nx72S/QvXa0hYjEkjTknYmEYQJwGu3mLC0BrhtJjtQafTkyRUQ75Kx0LVg==}
     engines: {node: '>=0.10.0'}
@@ -10014,6 +10060,15 @@ packages:
       tslib: 2.3.1
     dev: false
 
+  /react-virtual/2.10.4_react@18.0.0:
+    resolution: {integrity: sha512-Ir6+oPQZTVHfa6+JL9M7cvMILstFZH/H3jqeYeKI4MSUX+rIruVwFC6nGVXw9wqAw8L0Kg2KvfXxI85OvYQdpQ==}
+    peerDependencies:
+      react: ^16.6.3 || ^17.0.0
+    dependencies:
+      '@reach/observe-rect': 1.2.0
+      react: 18.0.0
+    dev: false
+
   /react/16.14.0:
     resolution: {integrity: sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==}
     engines: {node: '>=0.10.0'}
@@ -11243,6 +11298,10 @@ packages:
   /throttle-debounce/2.3.0:
     resolution: {integrity: sha512-H7oLPV0P7+jgvrk+6mwwwBDmxTaxnu9HMXmloNLXwnNO0ZxZ31Orah2n8lU1eMPvsaowP2CX+USCgyovXfdOFQ==}
     engines: {node: '>=8'}
+    dev: false
+
+  /tiny-invariant/1.2.0:
+    resolution: {integrity: sha512-1Uhn/aqw5C6RI4KejVeTg6mIS7IqxnLJ8Mv2tV5rTc0qWobay7pDUz6Wi392Cnc8ak1H0F2cjoRzb2/AW4+Fvg==}
     dev: false
 
   /tiny-warning/1.0.3:
