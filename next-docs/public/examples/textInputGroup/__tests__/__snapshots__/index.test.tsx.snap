@@ -426,7 +426,7 @@ exports[`TextInputGroup renders different types 1`] = `
       className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-hQikvm jztswv"
+        className="sc-hQikvm gvWbIW"
         dir="ltr"
         placeholder="Password"
         type="password"

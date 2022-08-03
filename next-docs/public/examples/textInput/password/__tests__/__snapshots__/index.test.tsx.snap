@@ -76,7 +76,7 @@ exports[`TextInput: type Password renders disabled 1`] = `
       className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-hQikvm FCXKv"
+        className="sc-hQikvm fhxQnS"
         disabled={true}
         placeholder=" "
         type="password"
@@ -174,7 +174,7 @@ exports[`TextInput: type Password renders error 1`] = `
       className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-hQikvm gjGhrl"
+        className="sc-hQikvm bExaqQ"
         placeholder="Placeholder"
         type="password"
       />
@@ -273,7 +273,7 @@ exports[`TextInput: type Password renders readOnly 1`] = `
       className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-hQikvm FCXKv"
+        className="sc-hQikvm fhxQnS"
         placeholder=" "
         readOnly={true}
         type="password"
@@ -371,7 +371,7 @@ exports[`TextInput: type Password renders with hint 1`] = `
       className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-hQikvm FCXKv"
+        className="sc-hQikvm fhxQnS"
         placeholder="Placeholder"
         type="password"
       />
@@ -456,7 +456,7 @@ exports[`TextInput: type Password renders with label 1`] = `
       className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-hQikvm FCXKv"
+        className="sc-hQikvm fhxQnS"
         placeholder="Placeholder"
         type="password"
       />
@@ -539,7 +539,7 @@ exports[`TextInput: type Password renders with label RTL 1`] = `
       className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-hQikvm FCXKv"
+        className="sc-hQikvm fhxQnS"
         dir="rtl"
         placeholder="Placeholder"
         type="password"
@@ -609,7 +609,7 @@ exports[`TextInput: type Password renders without label 1`] = `
       className="sc-eZkcaX fwAgtM"
     >
       <input
-        className="sc-hQikvm kgGjPi"
+        className="sc-hQikvm cpzsJT"
         placeholder="xlarge"
         type="password"
       />
@@ -698,7 +698,7 @@ exports[`TextInput: type Password supports background colour 1`] = `
       className="sc-eZkcaX huZTyb"
     >
       <input
-        className="sc-hQikvm kYCsbs"
+        className="sc-hQikvm fhxQnS"
         placeholder="Placeholder"
         type="password"
       />
