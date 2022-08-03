@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.3.1
+
+### Patch Changes
+
+- fix textInput
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.3.1
+  - @heathmont/moon-components@9.3.1
+  - @heathmont/moon-themes@9.3.1
+  - @heathmont/moon-utils@9.3.1
+
 ## 9.3.0
 
 ### Minor Changes
