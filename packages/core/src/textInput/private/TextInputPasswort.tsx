@@ -65,7 +65,6 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
       dir,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      bgColor: backgroundColor,
       ...rest,
     };
 
@@ -119,6 +118,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputPasswordProps>(
             ref={ref}
             id={id}
             isPassword={true}
+            bgColor={backgroundColor}
             {...inputProps}
             {...containerProps}
           />
