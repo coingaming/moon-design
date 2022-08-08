@@ -1,8 +1,10 @@
 import React from 'react';
-import {OtherMoon,OtherSun} from '@heathmont/moon-icons-tw';
 
 import classNames from '../private/utils/classnames';
 import getSizeClasses from './private/getSizeClasses';
+import IconMoon from './private/iconMoon';
+import IconSun from './private/iconSun';
+
 import SwitchProps from './private/switchProps';
 
 const Switch: React.FC<SwitchProps> = ({
@@ -59,29 +61,25 @@ const Switch: React.FC<SwitchProps> = ({
           {!!button && (
             <div
               className={classNames(
-                'w-full z-1 h-full flex items-center justify-between absolute cursor-pointer p-2',
+                'w-full z-1 h-full flex items-center justify-between absolute cursor-pointer pr-2',
                 disabled
-                  ? 'cursor-not-allowed peer-checked:cursor-not-allowed after:cursor-not-allowed'
-                  : 'cursor-pointer peer-checked:cursor-pointer after:cursor-pointer'
+                  ? 'cursor-not-allowed peer-checked:cursor-not-allowed'
+                  : 'cursor-pointer peer-checked:cursor-pointer'
               )}
             >
               <p
                 className={classNames(
-                  'flex items-center w-[1.938rem] h-[1.5rem] p-1 z-1 top-1 left-2 text-moon-14 leading-6	',
+                  'flex items-center justify-center w-1/2 h-full px-1 z-1 top-1 left-2 text-moon-14 leading-6 text-center',
                   size === 'lg' ? 'top-2 left-3' : '',
                   checked && 'text-white'
                 )}
-              >
-                {button.offLabel}
-              </p>
+              >{button.offLabel}</p>
               <p
                 className={classNames(
-                  'flex items-center  w-[1.938rem] h-[1.5rem] p-1 text-moon-14 leading-6	',
+                  'flex items-center justify-center w-1/2 h-full px-1 text-moon-14 leading-6 text-center',
                   size === 'lg' ? 'top-2 left-3' : ''
                 )}
-              >
-                {button.onLabel}
-              </p>
+              >{button.onLabel}</p>
             </div>
           )}
 
@@ -102,7 +100,7 @@ const Switch: React.FC<SwitchProps> = ({
                   !checked && 'invisible'
                 )}
               >
-                {customOnIcon ?? <OtherMoon color='white'/>}
+                {customOnIcon ?? <IconMoon />}
               </span>
               <span
                 className={classNames(
@@ -112,7 +110,7 @@ const Switch: React.FC<SwitchProps> = ({
                   checked && 'invisible'
                 )}
               >
-                {customOffIcon ?? <OtherSun />}
+                {customOffIcon ?? <IconSun />}
               </span>
             </div>
           )}
