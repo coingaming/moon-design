@@ -1,7 +1,7 @@
-import React, {FunctionComponent} from "react";
+import React from "react";
 import HeaderProps from "./private/headerProps";
 
-const DialogHeader: FunctionComponent<HeaderProps> = ({
+const DialogHeader: React.FC<HeaderProps> = ({
   leftIcons,
   title,
   rightIcons,

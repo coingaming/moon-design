@@ -1,8 +1,8 @@
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
-import ContentOnly from '../../../public/examples/dialogTW/BottmSheetContent';
 import BottomSheet from "../../../public/examples/dialogTW/BottomSheet";
+import ContentOnly from '../../../public/examples/dialogTW/BottomSheetContent';
 import useExamples from '../../../utils/useExamples';
 
 const Example = () => {

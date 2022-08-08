@@ -1,7 +1,7 @@
-import React, { FunctionComponent } from "react";
+import React  from "react";
 import BottomSheetProps from "./private/bottomSheetProps";
 
-const DialogBottomSheet: FunctionComponent<BottomSheetProps> = ({
+const DialogBottomSheet: React.FC<BottomSheetProps> = ({
   isOpen,
   height,
   header,

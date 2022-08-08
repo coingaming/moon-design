@@ -1,7 +1,7 @@
-import React, {FunctionComponent} from "react";
+import React from "react";
 import FooterProps from "./private/footerProps";
 
-const DialogFooter: FunctionComponent<FooterProps> = ({
+const DialogFooter: React.FC<FooterProps> = ({
   leftButtons,
   rightButtons,
   isDivider,

@@ -1,8 +1,8 @@
-import React, {FunctionComponent, useRef} from "react";
+import React, {useRef} from "react";
 import PopoverProps from "./private/popoverProps";
 import useOutsideClicker from "./private/useOutsideClicker";
 
-const DialogPopover: FunctionComponent<PopoverProps> = ({
+const DialogPopover: React.FC<PopoverProps> = ({
   width,
   height,
   isOpen,
