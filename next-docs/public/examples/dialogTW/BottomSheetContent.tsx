@@ -1,5 +1,6 @@
 import { useState } from 'react';
-import { DialogBottomSheet, Button } from '@heathmont/moon-core-tw';
+import { Button } from '@heathmont/moon-core-tw';
+import DialogBottomSheet from '@heathmont/moon-core-tw/lib/dialog/BottomSheet';
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
