@@ -9,10 +9,10 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
   (props, ref) => {
     const {
       id,
-      inputSize = 'md',
+      inputSize,
       type,
       disabled,
-      placeholder = ' ',
+      placeholder,
       label,
       hintText,
       isError,
@@ -23,7 +23,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      backgroundColor = 'bg-gohan',
+      backgroundColor,
       ...rest
     } = props;
     const inputProps = {

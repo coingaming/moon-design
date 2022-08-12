@@ -1,7 +1,6 @@
 import React, { forwardRef } from 'react';
 import classNames from '../../private/utils/classnames';
 import TextInputProps from '../private/types/TextInputProps';
-import getBorderRadius from '../private/utils/getBorderRadius';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
@@ -10,10 +9,10 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
   (props, ref) => {
     const {
       id,
-      inputSize = 'md',
+      inputSize,
       type,
       disabled,
-      placeholder = ' ',
+      placeholder,
       label,
       hintText,
       isError,
@@ -24,7 +23,7 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      backgroundColor = 'bg-gohan',
+      backgroundColor,
       ...rest
     } = props;
     const inputProps = {
@@ -41,14 +40,8 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
       ...rest,
     };
     return (
-      <Container disabled={disabled} inputSize={inputSize}>
-        <div
-          className={classNames(
-            'w-full max-w-full relative ',
-            !backgroundColor ? 'bg-transparent' : backgroundColor,
-            getBorderRadius(inputSize)
-          )}
-        >
+      <Container disabled={disabled}>
+        <div className="w-full max-w-full relative">
           <Input
             inputSize={inputSize}
             isError={isError}
@@ -56,11 +49,12 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
             id={id}
             isLabel={!!label}
             isRtl={dir === 'rtl'}
+            backgroundColor={backgroundColor}
             {...inputProps}
           />
           <label
             className={classNames(
-              'absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200',
+              'absolute text-[0.75rem] leading-3 text-trunks top-3 z-[3] transition-all ease-in-out duration-200',
               dir === 'rtl' ? 'right-4' : 'left-4'
             )}
           >
