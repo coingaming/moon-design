@@ -3,8 +3,18 @@ const { identity, filter, pipe, prop, head, map, replace } = require('ramda');
 
 const filterByPage = (pageFilter) => (data) => {
   const pagesList = data.shortcuts.pages;
+
   if (typeof pageFilter === 'string') {
     return filter((page) => page.name === pageFilter)(pagesList);
+  }
+  return filter(pageFilter)(pagesList);
+};
+
+const filterByPageId = (pageFilter) => (data) => {
+  const pagesList = data.shortcuts.pages;
+
+  if (typeof pageFilter === 'string') {
+    return filter((page) => page.id === pageFilter)(pagesList);
   }
   return filter(pageFilter)(pagesList);
 };
@@ -47,17 +57,20 @@ const getSvgDataFromImageData = (svgsUrls) => (node) => {
 
 const getSvgs =
   (client) =>
-  async ({ fileId, page }) => {
+  async ({ fileId, page, pageId }) => {
     console.log('Getting Figma Icons file.');
 
     const fileData = await client.file(fileId);
     console.log('Processing Figma Icons file.');
+
     const processedFile = processFile(fileData.data, fileId);
 
     const fileLastModified = fileData.data.lastModified;
     console.log('Figma Icons file last modified was: ', fileLastModified);
 
-    const optionallyFilterByPages = page ? filterByPage(page) : identity;
+    const optionallyFilterByPages = pageId
+      ? filterByPageId(pageId) : page
+        ? filterByPage(page) : identity;
 
     const componentsData = pipe(
       optionallyFilterByPages,
@@ -69,7 +82,6 @@ const getSvgs =
 
     const svgsIds = map(prop('id'))(componentsData);
 
-    console.log('Getting icons urls.');
     const svgsExportResponse = await client.fileImages(fileId, {
       format: 'svg',
       ids: svgsIds,
@@ -77,9 +89,7 @@ const getSvgs =
 
     const svgsUrls = svgsExportResponse.data.images;
 
-    const svgsData = map(getSvgDataFromImageData(svgsUrls))(componentsData);
-
-    return svgsData;
+    return map(getSvgDataFromImageData(svgsUrls))(componentsData);
   };
 
 exports.getSvgs = getSvgs;

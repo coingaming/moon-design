@@ -15,6 +15,7 @@ parser.add_argument('-v', '--version', { action: 'version', version });
 parser.add_argument('-t', '--token', { help: 'YOUR_FIGMA_API_TOKEN' });
 parser.add_argument('-f', '--fileId', { help: 'YOUR_FIGMA_FILE_ID' });
 parser.add_argument('-p', '--page', { help: 'YOUR_FIGMA_PAGE' });
+parser.add_argument('-pid', '--page-id', { help: 'YOUR_FIGMA_PAGE_ID' });
 parser.add_argument('-d', '--dir', {
   help: 'SAVE_DIRECTORY',
   default: SAVE_DIRECTORY,
@@ -24,7 +25,7 @@ parser.add_argument('-c', '--clean', {
   default: true,
 });
 
-const { token, fileId, page, dir, clean } = parser.parse_args();
+const { token, fileId, page, page_id: pageId, dir, clean } = parser.parse_args();
 
 const figmaApiExporter = (token) => {
   console.log('Connecting to Figma.');
@@ -45,6 +46,7 @@ exporter
   .getSvgs({
     fileId,
     page,
+    pageId
   })
   .then((svgsData) =>
     exporter.downloadSvgs({
