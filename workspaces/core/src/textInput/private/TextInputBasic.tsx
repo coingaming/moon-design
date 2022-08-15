@@ -1,9 +1,9 @@
 import React, { forwardRef } from 'react';
 import classNames from '../../private/utils/classnames';
-import TextInputProps from '../private/types/TextInputProps';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
+import type TextInputProps from '../private/types/TextInputProps';
 
 const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
   (props, ref) => {

@@ -1,10 +1,11 @@
 import React, { forwardRef } from 'react';
 import classNames from '../../private/utils/classnames';
-import TextInputProps from '../private/types/TextInputProps';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
 import ShowPassword from './ShowPassword';
+import getBorderRadius from './utils/getBorderRadus';
+import type TextInputProps from '../private/types/TextInputProps';
 
 const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
   (props, ref) => {
@@ -51,7 +52,13 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
     if (inputSize === 'xl') {
       return (
         <Container disabled={disabled}>
-          <div className="w-full max-w-full relative">
+          <div
+            className={classNames(
+              'w-full max-w-full relative ',
+              getBorderRadius(inputSize),
+              backgroundColor && backgroundColor
+            )}
+          >
             <Input
               inputSize={inputSize}
               type={passwordShown ? 'text' : 'password'}
@@ -60,12 +67,11 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
               id={id}
               isLabel={!!label}
               isPassword
-              backgroundColor={backgroundColor}
               {...inputProps}
             />
             <label
               className={classNames(
-                'absolute text-[0.75rem] leading-3 text-trunks top-3 z-[3] transition-all',
+                'absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all',
                 dir === 'rtl' ? 'right-4' : 'left-4'
               )}
             >
@@ -93,7 +99,12 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
             {label}
           </label>
         )}
-        <div className="w-full max-w-full relative">
+        <div
+          className={classNames(
+            'w-full max-w-full relative ',
+            getBorderRadius(inputSize)
+          )}
+        >
           <Input
             inputSize={inputSize}
             type={passwordShown ? 'text' : 'password'}
