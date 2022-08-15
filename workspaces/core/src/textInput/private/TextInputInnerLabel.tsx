@@ -3,7 +3,7 @@ import classNames from '../../private/utils/classnames';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
-import getBorderRadius from './utils/getBorderRadus';
+import getBorderRadius from './utils/getBorderRadius';
 import type TextInputProps from '../private/types/TextInputProps';
 
 const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
