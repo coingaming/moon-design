@@ -9,7 +9,7 @@ const Input = forwardRef<
   TextInputProps & { isLabel?: boolean; isRtl?: boolean; isPassword?: boolean }
 >((props, ref) => {
   const {
-    backgroundColor = 'bg-gohan',
+    backgroundColor,
     inputSize = 'md',
     isError,
     type = 'text',

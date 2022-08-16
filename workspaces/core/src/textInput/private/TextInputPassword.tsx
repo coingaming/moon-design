@@ -26,7 +26,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      backgroundColor,
+      backgroundColor = 'bg-gohan',
       ...rest
     } = props;
 

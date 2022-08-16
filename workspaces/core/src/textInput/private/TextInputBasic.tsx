@@ -23,7 +23,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      backgroundColor,
+      backgroundColor = 'bg-gohan',
       ...rest
     } = props;
     const inputProps = {
