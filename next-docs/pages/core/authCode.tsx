@@ -15,11 +15,12 @@ const PageAuthCodeGroup = () => {
 
   return (
     <>
-      <ComponentPageDescription title="AuthCode">
-        <p>
-          The AuthCode component consists of TextInput components with
-          additional logic that supports quick and easy one-time-password
-          handling.
+      <ComponentPageDescription title="Auth code input">
+        <p className='w-[416px] moon-text-16 leading-6'>
+          A one-time password (OTP) is an automatically generated numeric or
+          alphanumeric string of characters that authenticates a user for a
+          single transaction or login session.<br/> <br/> Component itself is combination
+          of input fields where character limit is 1 per field.
         </p>
       </ComponentPageDescription>
       <Preview

@@ -10,7 +10,7 @@ const Example = () => (
       onSubmit={(value: string) => {
         console.log('Submit value - ', value);
       }}
-      errorMessage="Provided value is not valid!"
+      errorMessage="Invalid authentication code. Please try again."
       errorPosition="center"
     />
     <AuthCode
@@ -20,7 +20,7 @@ const Example = () => (
       onSubmit={(value: string) => {
         console.log('Submit value - ', value);
       }}
-      errorMessage="Provided value is not valid!"
+      errorMessage="Invalid authentication code. Please try again."
       errorPosition="right"
     />
   </div>
