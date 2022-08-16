@@ -20,7 +20,7 @@ const Hero = ({
 }: Props) => {
   return (
     <div
-      className={`w-full flex flex-col justify-center items-center relative h-[600px] bg-bottom pt-[72px] ${
+      className={`w-full flex flex-col justify-center items-center relative h-[600px] bg-bottom pt-[72px] bg-[#24033F] ${
         wrapperClasses ? wrapperClasses : ''
       } sm:flex-row-reverse sm:items-stretch sm:h-[918px] sm:mb-0`}
       style={{ backgroundSize: 'auto 100%' }}
@@ -38,7 +38,7 @@ const Hero = ({
           />
         </div>
       </div>
-      <div className="flex flex-col items-center absolute -bottom-48 -mb-10 z-1 sm:w-[450px] sm:min-w-[450px] sm:relative sm:top-[209px] sm:bottom-0 sm:mb-0 sm:pb-24 sm:items-start sm:ml-[380px] lg:ml-[160px] xl:w-[576px] xl:ml-[232px]">
+      <div className="text-goten rounded-b-2xl p-5 bg-[#24033F] flex flex-col items-center absolute -bottom-48 -mb-10 z-1 sm:p-0 sm:bg-transparent sm:w-[450px] sm:min-w-[450px] sm:relative sm:top-[209px] sm:bottom-0 sm:mb-0 sm:pb-24 sm:items-start sm:ml-[380px] lg:ml-[160px] xl:w-[576px] xl:ml-[232px]">
         {headline}
         {subtitle}
         {button}
