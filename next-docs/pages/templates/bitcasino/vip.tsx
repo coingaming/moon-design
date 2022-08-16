@@ -139,7 +139,7 @@ const Vip = () => {
   }, []);
 
   return (
-    <div className="w-full flex flex-col grow overflow-hidden p-5 sm:p-0">
+    <div className="w-full flex flex-col grow overflow-hidden  sm:p-0">
       <Header
         height={30}
         isScrolled={isScrolled}
@@ -283,7 +283,7 @@ const Vip = () => {
           </div>
           <div className="flex flex-col py-3 mb-3 w-full md:border md:border-x-0 md:border-t-0 md:border-b-beerus md:flex-row md:justify-between">
             <div className="grow-1 mb-7 lg:mr-0 lg:mb-0 md:mr-4">
-              <h2 className="text-goten text-sm font-bold mb-7">
+              <h2 className="text-bulma text-sm font-bold mb-7">
                 About Bitcasino.io
               </h2>
               <p className="text-xs text-trunks md:w-[255px]">
@@ -294,7 +294,7 @@ const Vip = () => {
             </div>
             <div className="hidden grow-3 lg:mr-0 md:block ">
               <div>
-                <h2 className="text-goten text-sm font-bold mb-5">Games</h2>
+                <h2 className="text-bulma text-sm font-bold mb-5">Games</h2>
                 <p className="mb-3 text-trunks text-xs">Slots</p>
                 <p className="mb-3 text-trunks text-xs">Roulette</p>
                 <p className="mb-3 text-trunks text-xs">Live Baccarat</p>
@@ -310,7 +310,7 @@ const Vip = () => {
             </div>
             <div className="grow-3 hidden lg:mr-0 md:flex md:mr-4 flex-wrap">
               <div>
-                <h2 className="text-goten text-sm font-bold mb-5">About</h2>
+                <h2 className="text-bulma text-sm font-bold mb-5">About</h2>
                 <p className="mb-3 text-trunks text-xs">Loyalty Club</p>
                 <p className="mb-3 text-trunks text-xs">VIP</p>
                 <p className="mb-3 text-trunks text-xs">Rewards</p>
@@ -322,7 +322,7 @@ const Vip = () => {
             </div>
             <div className="grow-3 hidden md:mr-0 md:flex">
               <div>
-                <h2 className="text-goten text-sm font-bold mb-5">Info</h2>
+                <h2 className="text-bulma text-sm font-bold mb-5">Info</h2>
                 <p className="mb-3 text-trunks text-xs">
                   General Terms and Conditions
                 </p>
@@ -456,7 +456,7 @@ const Vip = () => {
           </div>
           <div className="flex flex-col py-3 mb-3 justify-between border border-x-0 border-t-0 border-b-beerus md:flex-row">
             <div className="mb-7 lg:mb-0">
-              <h2 className="text-goten text-sm font-bold mb-5">
+              <h2 className="text-bulma text-sm font-bold mb-5">
                 Payment methods
               </h2>
               <div className="flex flex-row lg:flex-nowrap sm:flex-wrap">
@@ -489,7 +489,7 @@ const Vip = () => {
               </div>
             </div>
             <div className="mb-7 lg:mb-0 lg:ml-3 lg:mr-3">
-              <h2 className="text-goten text-sm font-bold mb-5">Follow us</h2>
+              <h2 className="text-bulma text-sm font-bold mb-5">Follow us</h2>
               <div className="flex flex-row lg:flex-nowrap sm:flex-wrap">
                 <div className="bg-[#27A4DB] rounded-full mr-2 flex items-center justify-center w-[35px] h-[35px] lg:w-[36px] lg:h-[36px] ">
                   <Telegram />
@@ -512,7 +512,7 @@ const Vip = () => {
               </div>
             </div>
             <div>
-              <h2 className="text-goten text-sm font-bold mb-5">Licences</h2>
+              <h2 className="text-bulma text-sm font-bold mb-5">Licences</h2>
               <div className="flex flex-wrap items-center">
                 <Image src={licences1} />
                 <div className="mx-4">
@@ -523,7 +523,7 @@ const Vip = () => {
             </div>
           </div>
           <div className="mb-7">
-            <h2 className="text-goten text-sm font-bold mb-5">Awards</h2>
+            <h2 className="text-bulma text-sm font-bold mb-5">Awards</h2>
             <div className="flex items-center gap-2">
               <Image src={awards1} />
               <Image src={awards3} />
