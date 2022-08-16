@@ -1,4 +1,4 @@
-import TextInputTypes from './TextInputTypes';
+import type TextInputTypes from './TextInputTypes';
 
 export default interface TextInputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {

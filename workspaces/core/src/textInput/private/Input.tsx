@@ -1,8 +1,8 @@
 import React, { forwardRef } from 'react';
 import classNames from '../../private/utils/classnames';
-import TextInputProps from '../private/types/TextInputProps';
 import getSizeStyles from '../private/utils/getSizeStyles';
 import makeBorder from '../private/utils/makeBorder';
+import type TextInputProps from '../private/types/TextInputProps';
 
 const Input = forwardRef<
   HTMLInputElement,
@@ -10,10 +10,10 @@ const Input = forwardRef<
 >((props, ref) => {
   const {
     backgroundColor,
-    inputSize,
+    inputSize = 'md',
     isError,
-    type,
-    placeholder,
+    type = 'text',
+    placeholder = '',
     isLabel,
     isRtl,
     isSharpLeftSide,

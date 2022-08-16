@@ -128,7 +128,7 @@ exports[`TextInputGroup renders different types 1`] = `
         type="password"
       />
       <div
-        className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer right-[0.938rem]"
+        className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer right-4"
         onClick={[Function]}
         role="alert"
       />

@@ -1,6 +1,6 @@
 import React from 'react';
 import classNames from '../../private/utils/classnames';
-import getBorderRadius from '../private/utils/getBorderRadius';
+import getBorderRadius from './utils/getBorderRadius';
 
 const Container: React.FC<{ disabled?: boolean; inputSize?: string }> = ({
   children,

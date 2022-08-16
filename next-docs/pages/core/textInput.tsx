@@ -4,6 +4,7 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import Bg from '../../public/examples/textInputTW/Bg';
 import Date from '../../public/examples/textInputTW/Date';
 import DateTime from '../../public/examples/textInputTW/DateTime';
+import Default from '../../public/examples/textInputTW/Default';
 import Disabled from '../../public/examples/textInputTW/Disabled';
 import Email from '../../public/examples/textInputTW/Email';
 import Error from '../../public/examples/textInputTW/Error';
@@ -39,11 +40,51 @@ const Example = () => {
         </p>
       </ComponentPageDescription>
       <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
         title="Sizes"
         preview={<Sizes />}
         code={examples ? examples.Sizes : 'Loading'}
       />
-      <h3 className="text-moon-32 font-medium">Text input types</h3>
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+      <Preview
+        title="Error"
+        preview={<Error />}
+        code={examples ? examples.Error : 'Loading'}
+      />
+      <Preview
+        title="Readonly"
+        preview={<Readonly />}
+        code={examples ? examples.Readonly : 'Loading'}
+      />
+      <Preview
+        title="Sizes RTL"
+        preview={<SizesRTL />}
+        code={examples ? examples.SizesRTL : 'Loading'}
+      />
+      <Preview
+        title="Without Label"
+        preview={<WithoutLabel />}
+        code={examples ? examples.WithoutLabel : 'Loading'}
+      />
+      <Preview
+        title="Hint message"
+        preview={<Hint />}
+        code={examples ? examples.Hint : 'Loading'}
+      />
+      <Preview
+        title="Input with background color"
+        preview={<Bg />}
+        code={examples ? examples.Bg : 'Loading'}
+      />
+      <h3 className="text-moon-24 font-medium">Text input types</h3>
       <Preview
         title="Number"
         preview={<Number />}
@@ -88,42 +129,6 @@ const Example = () => {
         title="Url"
         preview={<Url />}
         code={examples ? examples.Url : 'Loading'}
-      />
-      <h3 className="text-moon-32 font-medium">Text input attributes</h3>
-      <Preview
-        title="Disabled"
-        preview={<Disabled />}
-        code={examples ? examples.Disabled : 'Loading'}
-      />
-      <Preview
-        title="Error"
-        preview={<Error />}
-        code={examples ? examples.Error : 'Loading'}
-      />
-      <Preview
-        title="Readonly"
-        preview={<Readonly />}
-        code={examples ? examples.Readonly : 'Loading'}
-      />
-      <Preview
-        title="Sizes RTL"
-        preview={<SizesRTL />}
-        code={examples ? examples.SizesRTL : 'Loading'}
-      />
-      <Preview
-        title="Without Label"
-        preview={<WithoutLabel />}
-        code={examples ? examples.WithoutLabel : 'Loading'}
-      />
-      <Preview
-        title="Hint message"
-        preview={<Hint />}
-        code={examples ? examples.Hint : 'Loading'}
-      />
-      <Preview
-        title="Input with background color"
-        preview={<Bg />}
-        code={examples ? examples.Bg : 'Loading'}
       />
     </>
   );

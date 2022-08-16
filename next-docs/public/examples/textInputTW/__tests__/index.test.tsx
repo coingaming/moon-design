@@ -8,6 +8,7 @@ import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import Bg from '../Bg';
 import Date from '../Date';
 import DateTime from '../DateTime';
+import Default from '../Default';
 import Disabled from '../Disabled';
 import Email from '../Email';
 import Error from '../Error';
@@ -28,6 +29,10 @@ const renderWithTheme = (component: JSX.Element) => (
 );
 
 describe('TextInput: type Date', () => {
+  it('renders default', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
   it('renders different sizes', () => {
     const testRenderer = renderer.create(renderWithTheme(<Sizes />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
