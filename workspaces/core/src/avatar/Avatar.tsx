@@ -10,7 +10,7 @@ const Avatar: React.FC<AvatarProps> = ({
   name,
   imageUrl = '',
   color = 'text-bulma',
-  backgroundColor = 'bg-gohan',
+  bgColor = 'bg-gohan',
   size = 'md',
   statusOrigin = { vertical: 'bottom', horizontal: 'right' },
   isStatusActive,
@@ -23,7 +23,7 @@ const Avatar: React.FC<AvatarProps> = ({
           size={size}
           imageUrl={imageUrl}
           color={color}
-          backgroundColor={backgroundColor}
+          bgColor={bgColor}
           isRounded={isRounded}
         />
       ) : (
@@ -31,7 +31,7 @@ const Avatar: React.FC<AvatarProps> = ({
           size={size}
           imageUrl={imageUrl}
           color={color}
-          backgroundColor={backgroundColor}
+          bgColor={bgColor}
           isRounded={isRounded}
         >
           {name || (

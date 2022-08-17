@@ -5,7 +5,7 @@ type AvatarProps = {
   imageUrl?: string;
   name?: string | JSX.Element;
   color?: string;
-  backgroundColor?: string;
+  bgColor?: string;
   size?: SizeProps;
   statusOrigin?: StatusOriginProps;
   isStatusActive?: boolean;

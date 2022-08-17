@@ -1,4 +1,4 @@
-import AccordionSizes from './AccordionSizes';
+import type AccordionSizes from './AccordionSizes';
 
 type AccordionProps = {
   title: string | React.ReactNode;
@@ -9,8 +9,7 @@ type AccordionProps = {
   size?: AccordionSizes;
   withButton?: boolean;
   isContentInside?: boolean;
-  isRtl?: boolean;
-  backgroundColor?: string;
+  bgColor?: string;
 };
 
 export default AccordionProps;

@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import PropsTable from '../../components/PropsTable';
 import Background from '../../public/examples/accordionTW/Background';
 import ContentHeader from '../../public/examples/accordionTW/ContentHeader';
 import ContentOutside from '../../public/examples/accordionTW/ContentOutside';
@@ -67,10 +68,72 @@ const Example = () => {
         preview={<ContentOutsideSizes />}
         code={examples ? examples.ContentOutsideSizes : 'Loading'}
       />
-       <Preview
+      <Preview
         title="With background"
         preview={<Background />}
         code={examples ? examples.Background : 'Loading'}
+      />
+      <PropsTable
+        title="Accordion props"
+        data={[
+          {
+            name: 'bgColor',
+            type: 'string',
+            required: false,
+            default: 'bg-gohan',
+            description: 'Alters background colour of accordion',
+          },
+          {
+            name: 'disableOpen',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Disables expand/collapse accordion',
+          },
+          {
+            name: 'headerContent',
+            type: 'React.ReactNode',
+            required: false,
+            default: '-',
+            description: 'Additional content to render in accordion header',
+          },
+          {
+            name: 'isContentInside',
+            type: 'boolean',
+            required: false,
+            default: 'true',
+            description:
+              'Displays content inside of the accordion header block',
+          },
+          {
+            name: 'openByDefault',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Expanded accordion by default',
+          },
+          {
+            name: 'size',
+            type: 'sm | md | lg | xl',
+            required: false,
+            default: 'md',
+            description: 'Size of accordion',
+          },
+          {
+            name: 'title',
+            type: 'string | React.ReactNode',
+            required: true,
+            default: '-',
+            description: 'Title of accordion',
+          },
+          {
+            name: 'withButton',
+            type: 'boolean',
+            required: false,
+            default: 'true',
+            description: 'Toggles expand/collapse arrow',
+          },
+        ]}
       />
     </>
   );
