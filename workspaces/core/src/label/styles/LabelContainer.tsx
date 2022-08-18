@@ -10,7 +10,7 @@ const LabelContainer: React.FC<LabelProps> = ({
   iconRight,
   isUppercase,
   color,
-  backgroundColor,
+  bgColor,
   children,
 }) => (
   <div
@@ -19,7 +19,7 @@ const LabelContainer: React.FC<LabelProps> = ({
       setSpacing({ size, iconRight, iconLeft }),
       setFontSize({ isUppercase, size }),
       color && color,
-      backgroundColor && backgroundColor
+      bgColor && bgColor
     )}
   >
     {children}

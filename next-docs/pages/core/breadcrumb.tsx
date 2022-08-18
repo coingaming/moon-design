@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import PropsTable from '../../components/PropsTable';
 import Collapsed from '../../public/examples/breadcrumbsTW/Collapsed';
 import FourItems from '../../public/examples/breadcrumbsTW/FourItems';
 import OneItem from '../../public/examples/breadcrumbsTW/OneItem';
@@ -48,6 +49,18 @@ const Example = () => {
         title="One item"
         preview={<OneItem />}
         code={examples ? examples.OneItem : 'Loading'}
+      />
+      <PropsTable
+        title="Breadcrumb props"
+        data={[
+          {
+            name: 'breadcrumbs',
+            type: 'React.ElementType[]',
+            required: true,
+            default: '-',
+            description: 'Contents of breadcrumb',
+          },
+        ]}
       />
     </>
   );

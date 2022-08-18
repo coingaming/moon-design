@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/buttonTW/Animations';
 import Default from '../../public/examples/buttonTW/Default';
 import Disabled from '../../public/examples/buttonTW/Disabled';
@@ -57,6 +58,74 @@ const Example = () => {
         title="Animations"
         preview={<Animations />}
         code={examples ? examples.Animations : 'Loading'}
+      />
+      <PropsTable
+        title="Button props"
+        data={[
+          {
+            name: 'animation',
+            type: 'progress | success | error | pulse',
+            required: false,
+            default: '-',
+            description: 'Animation of button',
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Disabled button',
+          },
+          {
+            name: 'fullWidth',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Full width button',
+          },
+          {
+            name: 'icon',
+            type: 'left | right | only',
+            required: false,
+            default: '-',
+            description: 'Button sizing based on icon',
+          },
+          {
+            name: 'iconLeft',
+            type: 'boolean | JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Left icon',
+          },
+          {
+            name: 'iconOnly',
+            type: 'boolean | JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Icon without text',
+          },
+          {
+            name: 'iconRight',
+            type: 'boolean | JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Right icon',
+          },
+          {
+            name: 'size',
+            type: 'xs | sm | md | lg | xl',
+            required: false,
+            default: 'md',
+            description: 'Size of button',
+          },
+          {
+            name: 'variant',
+            type: 'primary | secondary | tertiary | ghost',
+            required: false,
+            default: 'primary',
+            description: 'Visual/Logical variant of button',
+          },
+        ]}
       />
     </>
   );

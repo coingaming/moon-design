@@ -1,4 +1,4 @@
-import LabelProps from '../private/types/LabelProps';
+import type LabelProps from '../private/types/LabelProps';
 
 const setFontSize = ({ size, isUppercase }: LabelProps) => {
   if (isUppercase) {

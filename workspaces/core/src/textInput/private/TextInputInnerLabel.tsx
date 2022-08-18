@@ -24,7 +24,7 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      backgroundColor = 'bg-gohan',
+      bgColor = 'bg-gohan',
       ...rest
     } = props;
     const inputProps = {
@@ -45,7 +45,7 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
         <div
           className={classNames(
             'w-full max-w-full relative ',
-            !backgroundColor ? 'bg-transparent' : backgroundColor,
+            !bgColor ? 'bg-transparent' : bgColor,
             getBorderRadius(inputSize)
           )}
         >
