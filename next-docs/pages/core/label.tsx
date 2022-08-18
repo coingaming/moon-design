@@ -52,42 +52,35 @@ const Example = () => {
         code={examples ? examples.LetterCases : 'Loading'}
       />
       <PropsTable
-        title="Props for Label component"
+        title="Label props"
         data={[
           {
-            name: 'size',
-            type: '2xs | xs',
+            name: 'bgColor',
+            type: 'string',
             required: false,
-            default: 'xs',
-            description: 'Size for label',
-          },
-          {
-            name: 'iconLeft',
-            type: 'React.ReactElement',
-            required: false,
-            default: '-',
-            description: 'Left icon element',
-          },
-          {
-            name: 'iconRight',
-            type: 'React.ReactElement',
-            required: false,
-            default: '-',
-            description: 'Right text element',
+            default: 'bg-bulma',
+            description: 'Background colour',
           },
           {
             name: 'color',
             type: 'string',
             required: false,
             default: 'text-gohan',
-            description: 'Text color (tw class)',
+            description: 'Text colour',
           },
           {
-            name: 'backgroundColor',
-            type: 'string',
+            name: 'iconLeft',
+            type: 'React.ReactElement',
             required: false,
-            default: 'bg-bulma',
-            description: 'Background color (tw class)',
+            default: '-',
+            description: 'Left icon',
+          },
+          {
+            name: 'iconRight',
+            type: 'React.ReactElement',
+            required: false,
+            default: '-',
+            description: 'Right icon',
           },
           {
             name: 'isUppercase',
@@ -95,6 +88,13 @@ const Example = () => {
             required: false,
             default: 'true',
             description: 'Letter case',
+          },
+          {
+            name: 'size',
+            type: '2xs | xs',
+            required: false,
+            default: 'xs',
+            description: 'Size of label',
           },
         ]}
       />

@@ -9,7 +9,7 @@ const Input = forwardRef<
   TextInputProps & { isLabel?: boolean; isRtl?: boolean; isPassword?: boolean }
 >((props, ref) => {
   const {
-    backgroundColor,
+    bgColor,
     inputSize = 'md',
     isError,
     type = 'text',
@@ -38,7 +38,7 @@ const Input = forwardRef<
           'focus:shadow-input-focus focus:outline-none',
           isError &&
             'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-          !backgroundColor ? 'bg-transparent' : backgroundColor,
+          !bgColor ? 'bg-transparent' : bgColor,
           getSizeStyles(inputSize as string),
           'before:box-border after:box-border',
           'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',

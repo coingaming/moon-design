@@ -8,7 +8,7 @@ const Example = () => (
       label="Medium (md)"
       placeholder="Placeholder"
       hintText="Informative message holder"
-      backgroundColor="bg-beerus"
+      bgColor="bg-beerus"
     />
     <TextInput
       type="text"
@@ -16,7 +16,7 @@ const Example = () => (
       label="Large (lg)"
       placeholder="Placeholder"
       hintText="Informative message holder"
-      backgroundColor="bg-beerus"
+      bgColor="bg-beerus"
     />
     <TextInput
       type="text"
@@ -24,7 +24,7 @@ const Example = () => (
       label="Xlarge (xl)"
       placeholder="Placeholder"
       hintText="Informative message holder"
-      backgroundColor="bg-beerus"
+      bgColor="bg-beerus"
     />
   </div>
 );

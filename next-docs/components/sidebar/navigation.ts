@@ -25,7 +25,6 @@ const navigation = [
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInput Group', href: '/core/textInputGroup' },
       { name: 'Typography', href: '/core/typography' },
-      { name: 'Pagination', href: '/core/pagination' },
       { name: 'Radio button', href: '/core/radiobutton' },
     ],
   },
