@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import CodeSnippet from '../components/CodeSnippet';
 import PageSection from '../components/PageSection';
 
@@ -10,15 +9,14 @@ const PageHowToContribute = () => (
       <CodeSnippet>{`npm install -g pnpm`}</CodeSnippet>
       <p className="text-moon-16">
         Check{' '}
-        <Link href="https://pnpm.io/installation">
-          <a
-            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-            target="_blank"
-            rel="noreferrer"
-          >
-            pnpm docs
-          </a>
-        </Link>{' '}
+        <a
+          href="https://pnpm.io/installation"
+          className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+          target="_blank"
+          rel="noreferrer"
+        >
+          pnpm docs
+        </a>{' '}
         for additional ways.
       </p>
       <p className="text-moon-16">Clone the repository:</p>
@@ -46,26 +44,24 @@ const PageHowToContribute = () => (
     <PageSection title="Check our githib">
       <ul className="list-inside list-disc text-moon-16">
         <li>
-          <Link href="https://github.com/coingaming/moon-design">
-            <a
-              className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github repository
-            </a>
-          </Link>
+          <a
+            href="https://github.com/coingaming/moon-design"
+            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Github repository
+          </a>
         </li>
         <li>
-          <Link href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md">
-            <a
-              className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Contributing page
-            </a>
-          </Link>
+          <a
+            href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md"
+            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Contributing page
+          </a>
         </li>
       </ul>
     </PageSection>

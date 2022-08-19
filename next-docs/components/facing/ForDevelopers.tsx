@@ -39,11 +39,13 @@ const ForDevelopers = () => {
         </div>
       </div>
       <div className="hidden flex-wrap gap-1 3xl:flex">
-        <Link href="https://github.com/coingaming/moon-design">
-          <a target="_blank" rel="noreferrer">
-            <Button variant="secondary">Github</Button>
-          </a>
-        </Link>
+        <a
+          href="https://github.com/coingaming/moon-design"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button variant="secondary">Github</Button>
+        </a>
         <Link href="gettingStarted">
           <a>
             <Button variant="secondary">Getting Started</Button>
@@ -54,16 +56,20 @@ const ForDevelopers = () => {
             <Button variant="secondary">Design Tokens</Button>
           </a>
         </Link>
-        <Link href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts">
-          <a target="_blank" rel="noreferrer">
-            <Button variant="secondary">Creating Themes</Button>
-          </a>
-        </Link>
-        <Link href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md">
-          <a target="_blank" rel="noreferrer">
-            <Button variant="secondary">Contribution</Button>
-          </a>
-        </Link>
+        <a
+          href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button variant="secondary">Creating Themes</Button>
+        </a>
+        <a
+          href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button variant="secondary">Contribution</Button>
+        </a>
         <Link href="components/accordion">
           <a>
             <Button variant="secondary">Components</Button>

@@ -36,17 +36,19 @@ const ForDesigners = () => (
       </div>
     </div>
     <div className="hidden flex-wrap gap-1 3xl:flex">
-      <Link href="https://www.figma.com/community/file/1002945721703152933">
-        <a target="_blank" rel="noreferrer">
-          <Button variant="secondary">Figma</Button>
-        </a>
-      </Link>
+      <a
+        href="https://www.figma.com/community/file/1002945721703152933"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Button variant="secondary">Figma</Button>
+      </a>
       <Link href="gettingStarted">
         <a>
           <Button variant="secondary">Getting Started</Button>
         </a>
       </Link>
-      <Link href="typography">
+      <Link href="core/typography">
         <a>
           <Button variant="secondary">Typography</Button>
         </a>
