@@ -517,8 +517,10 @@ importers:
 
   workspaces/core:
     specifiers:
+      '@headlessui/react': 1.6.1
       '@heathmont/moon-icons-tw': workspace:^9.3.1
     dependencies:
+      '@headlessui/react': 1.6.1_biqbaboplfbrettd7655fr4n2y
       '@heathmont/moon-icons-tw': link:../icons
 
   workspaces/icons:
@@ -2308,6 +2310,17 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@headlessui/react/1.6.1_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-gMd6uIs1U4Oz718Z5gFoV0o/vD43/4zvbyiJN9Dt7PK9Ubxn+TmJwTmYwyNJc5KxxU1t0CmgTNgwZX9+4NjCnQ==}
+    engines: {node: '>=10'}
+    peerDependencies:
+      react: ^16 || ^17 || ^18
+      react-dom: ^16 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
 
   /@headlessui/react/1.6.1_zpnidt7m3osuk7shl3s4oenomq:
     resolution: {integrity: sha512-gMd6uIs1U4Oz718Z5gFoV0o/vD43/4zvbyiJN9Dt7PK9Ubxn+TmJwTmYwyNJc5KxxU1t0CmgTNgwZX9+4NjCnQ==}
