@@ -5,8 +5,7 @@ const Example = () => (
   <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
     <TextInput
       type="tel"
-      inputSize="md"
-      label="Medium (Default: md)"
+      label="Medium (md)"
       placeholder="e.g. +372 123 4567"
     />
     <TextInput

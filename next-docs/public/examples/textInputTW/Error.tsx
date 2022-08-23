@@ -5,8 +5,7 @@ const Example = () => (
   <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
     <TextInput
       type="text"
-      inputSize="md"
-      label="Medium (Default: md)"
+      label="Medium (md)"
       placeholder="Placeholder"
       hintText="Error message"
       isError

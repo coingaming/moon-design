@@ -1,7 +1,7 @@
 import { Accordion } from '@heathmont/moon-core-tw';
 
 const Example = () => (
-  <Accordion title="Test accordion" openByDefault={true}>
+  <Accordion title="Test accordion" openByDefault>
     <div className="text-moon-14">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

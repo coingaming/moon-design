@@ -32,9 +32,9 @@ const CTA = ({
       >
         <div className="flex flex-row justify-center w-full sm:justify-between">
           <div className="absolute left-4 sm:static sm:left-0">
-            <MailEnvelope width={24} height={24} />
+            <MailEnvelope width={24} height={24} color='bulma'/>
           </div>
-          <div>Contact us</div>
+          <div className="text-bulma">Contact us</div>
         </div>
       </Button>
     </div>

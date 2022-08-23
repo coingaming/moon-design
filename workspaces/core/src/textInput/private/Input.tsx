@@ -1,19 +1,19 @@
 import React, { forwardRef } from 'react';
 import classNames from '../../private/utils/classnames';
-import TextInputProps from '../private/types/TextInputProps';
 import getSizeStyles from '../private/utils/getSizeStyles';
 import makeBorder from '../private/utils/makeBorder';
+import type TextInputProps from '../private/types/TextInputProps';
 
 const Input = forwardRef<
   HTMLInputElement,
   TextInputProps & { isLabel?: boolean; isRtl?: boolean; isPassword?: boolean }
 >((props, ref) => {
   const {
-    backgroundColor,
-    inputSize,
+    bgColor,
+    inputSize = 'md',
     isError,
-    type,
-    placeholder,
+    type = 'text',
+    placeholder = '',
     isLabel,
     isRtl,
     isSharpLeftSide,
@@ -38,7 +38,7 @@ const Input = forwardRef<
           'focus:shadow-input-focus focus:outline-none',
           isError &&
             'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-          !backgroundColor ? 'bg-transparent' : backgroundColor,
+          !bgColor ? 'bg-transparent' : bgColor,
           getSizeStyles(inputSize as string),
           'before:box-border after:box-border',
           'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',

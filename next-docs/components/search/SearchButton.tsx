@@ -17,7 +17,7 @@ const SearchButton: React.FC<{ showShortcut?: boolean }> = ({
         <span className="mr-2 block w-3 w">
           <GenericSearch className="text-[1rem]" />
         </span>
-        <span className="mr-8 text-slate-400 dark:text-slate-500">
+        <span className="mr-8 text-slate-400">
           Search...
         </span>
       </span>

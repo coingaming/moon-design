@@ -8,7 +8,6 @@ const Example = () => (
   >
     <TextInput
       type="text"
-      inputSize="md"
       label="Medium (Default: md)"
       placeholder="Placeholder"
       dir={'rtl'}

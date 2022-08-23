@@ -5,10 +5,9 @@ const Example = () => (
   <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
     <TextInput
       type="text"
-      inputSize="md"
-      label="Medium (Default: md)"
+      label="Medium (md)"
       placeholder="Placeholder"
-      hintText="Error message"
+      hintText="Informative message holder"
       disabled
     />
     <TextInput
@@ -16,7 +15,7 @@ const Example = () => (
       inputSize="lg"
       label="Large (lg)"
       placeholder="Placeholder"
-      hintText="Error message"
+      hintText="Informative message holder"
       disabled
     />
     <TextInput
@@ -24,7 +23,7 @@ const Example = () => (
       inputSize="xl"
       label="Xlarge (xl)"
       placeholder="Placeholder"
-      hintText="Error message"
+      hintText="Informative message holder"
       disabled
     />
   </div>

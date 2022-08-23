@@ -5,7 +5,7 @@ const HintText: React.FC<{ isError?: boolean }> = ({ children, isError }) => (
   <p
     role="alert"
     className={classNames(
-      'inline-block mt-2 text-moon-12',
+      'inline-block mt-2 ps-4 text-moon-12',
       isError ? 'text-chiChi' : 'text-trunks'
     )}
   >

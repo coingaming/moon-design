@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.4.0
+
+### Minor Changes
+
+- Update all packages
+
 ## 9.3.1
 
 ### Patch Changes

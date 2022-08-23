@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import PropsTable from '../../components/PropsTable';
 import Colors from '../../public/examples/loaderTW/Colors';
 import Default from '../../public/examples/loaderTW/Default';
 import Sizes from '../../public/examples/loaderTW/Sizes';
@@ -36,6 +37,25 @@ const Example = () => {
         title="Colors"
         preview={<Colors />}
         code={examples ? examples.Colors : 'Loading'}
+      />
+      <PropsTable
+        title="Loader props"
+        data={[
+          {
+            name: 'color',
+            type: 'string',
+            required: false,
+            default: 'border-hit',
+            description: 'Colour of loader',
+          },
+          {
+            name: 'size',
+            type: '2xs | xs | sm | md | lg',
+            required: false,
+            default: 'md',
+            description: 'Size of loader',
+          },
+        ]}
       />
     </>
   );

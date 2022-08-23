@@ -35,7 +35,7 @@ const ExploreCarouselItem = ({
         <Image src={items[0]?.image} width={itemWidth} height={itemHeight}/>
         <div
           className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-          <p className="text-moon-18 font-semibold m-4 w-full">
+          <p className="text-moon-18 font-semibold m-4 w-full text-goten">
             {items[0]?.title}
           </p>
         </div>
@@ -44,7 +44,7 @@ const ExploreCarouselItem = ({
         <Image src={items[1]?.image} width={itemWidth} height={itemHeight}/>
         <div
           className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-          <p className="text-moon-18 font-semibold m-4 w-full">
+          <p className="text-moon-18 font-semibold m-4 w-full text-goten">
             {items[1]?.title}
           </p>
         </div>
@@ -55,7 +55,7 @@ const ExploreCarouselItem = ({
         <Image src={items[2]?.image} width={itemWidth} height={itemHeight}/>
         <div
           className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-          <p className="text-moon-18 font-semibold m-4 w-full">
+          <p className="text-moon-18 font-semibold m-4 w-full text-goten">
             {items[2]?.title}
           </p>
         </div>
@@ -64,7 +64,7 @@ const ExploreCarouselItem = ({
         <Image src={items[3]?.image} width={itemWidth} height={itemHeight}/>
         <div
           className="absolute top-0 left-0 opacity-0 w-full h-full flex items-end pointer hover:opacity-100 bg-[#0000008F]">
-          <p className="text-moon-18 font-semibold m-4 w-full">
+          <p className="text-moon-18 font-semibold m-4 w-full text-goten">
             {items[3]?.title}
           </p>
         </div>

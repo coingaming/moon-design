@@ -1,20 +1,20 @@
 import React, { forwardRef } from 'react';
 import classNames from '../../private/utils/classnames';
-import TextInputProps from '../private/types/TextInputProps';
-import getBorderRadius from '../private/utils/getBorderRadius';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
 import ShowPassword from './ShowPassword';
+import getBorderRadius from './utils/getBorderRadius';
+import type TextInputProps from '../private/types/TextInputProps';
 
 const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
   (props, ref) => {
     const {
       id,
-      inputSize = 'md',
+      inputSize,
       type,
       disabled,
-      placeholder = ' ',
+      placeholder,
       label,
       hintText,
       isError,
@@ -26,7 +26,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      backgroundColor = 'bg-gohan',
+      bgColor = 'bg-gohan',
       ...rest
     } = props;
 
@@ -56,7 +56,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
             className={classNames(
               'w-full max-w-full relative ',
               getBorderRadius(inputSize),
-              backgroundColor && backgroundColor
+              bgColor && bgColor
             )}
           >
             <Input
@@ -66,7 +66,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
               ref={ref}
               id={id}
               isLabel={!!label}
-              isPassword={true}
+              isPassword
               {...inputProps}
             />
             <label
@@ -111,8 +111,8 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
             isError={isError}
             ref={ref}
             id={id}
-            backgroundColor={backgroundColor}
-            isPassword={true}
+            bgColor={bgColor}
+            isPassword
             {...inputProps}
           />
           <ShowPassword onClick={togglePasswordVisiblity} isRtl={dir === 'rtl'}>
