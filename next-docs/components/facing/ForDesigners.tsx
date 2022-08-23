@@ -23,16 +23,16 @@ const ForDesigners = () => (
     <div className="flex gap-6 align-center justify-between grow 3xl:flex-col 3xl:justify-end">
       <FigmaIcon />
       <h2 className="text-moon-24 grow 3xl:grow-0">
-        <a
-          href="https://www.figma.com/community/file/1002945721703152933"
-          target="_blank"
-          rel="noreferrer"
-        >
-          For designers.
-        </a>
+        <Link href="/gettingStarted">
+          <a>For designers.</a>
+        </Link>
       </h2>
       <div className="3xl:absolute 3xl:top-6 ltr:3xl:right-6 rtl:3xl:left-6 rtl:-rotate-90">
-        <TopRightArrowIcon />
+        <Link href="/gettingStarted">
+          <a>
+            <TopRightArrowIcon />
+          </a>
+        </Link>
       </div>
     </div>
     <div className="hidden flex-wrap gap-1 3xl:flex">
@@ -41,17 +41,17 @@ const ForDesigners = () => (
           <Button variant="secondary">Figma</Button>
         </a>
       </Link>
-      <Link href="gettingStarted">
+      <Link href="/gettingStarted">
         <a>
           <Button variant="secondary">Getting Started</Button>
         </a>
       </Link>
-      <Link href="typography">
+      <Link href="/typography">
         <a>
           <Button variant="secondary">Typography</Button>
         </a>
       </Link>
-      <Link href="colours">
+      <Link href="/colours">
         <a>
           <Button variant="secondary">Colour Convention</Button>
         </a>

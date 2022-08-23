@@ -3,8 +3,8 @@ import DesDevSwitch from '../components/gettingStarted/DesDevSwitch';
 import DesGettingStarted from '../components/gettingStarted/desGettingStarted';
 import DevGettingStarted from '../components/gettingStarted/devGettingStarted';
 
-const PageGettingStarted = () => {
-  const [isDesActive, setActive] = useState(true);
+const PageGettingStartedDevs = () => {
+  const [isDesActive, setActive] = useState(false);
   const setDesActive = () => setActive(true);
   const setDevActive = () => setActive(false);
   return (
@@ -20,4 +20,4 @@ const PageGettingStarted = () => {
   );
 };
 
-export default PageGettingStarted;
+export default PageGettingStartedDevs;
