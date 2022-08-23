@@ -1,9 +1,8 @@
-import tokenImg from '../../public/illustartions/tokens.png';
 import PageSection from '../PageSection';
 
 const DesGettingStarted = () => (
   <>
-    <PageSection title="Components usage" image={tokenImg}>
+    <PageSection title="Components usage">
       <p className="text-trunks">
         Use search to find components, each component in the library has its own
         unique name, which corresponds to the name in the code.
@@ -19,7 +18,7 @@ const DesGettingStarted = () => (
         switch states.
       </p>
     </PageSection>
-    <PageSection title="Colour convention and rules" image={tokenImg}>
+    <PageSection title="Colour convention and rules">
       <p className="text-trunks">What makes our color system different?</p>
       <p>For that, we made a decision to give our colours unique names.</p>
       <p>
@@ -30,7 +29,7 @@ const DesGettingStarted = () => (
         these values are different.
       </p>
     </PageSection>
-    <PageSection title="Product colours" image={tokenImg}>
+    <PageSection title="Product colours">
       <p className="text-trunks">
         How to create your own custom colours based on the Moon colour
         convention.
@@ -56,7 +55,7 @@ const DesGettingStarted = () => (
         </li>
       </ul>
     </PageSection>
-    <PageSection title="Typography" image={tokenImg}>
+    <PageSection title="Typography">
       <p className="text-trunks">
         Grid of font sizes for web and mobile devices used in components.
       </p>
@@ -78,7 +77,7 @@ const DesGettingStarted = () => (
         </li>
       </ul>
     </PageSection>
-    <PageSection title="Product tokens" image={tokenImg}>
+    <PageSection title="Product tokens">
       <p className="text-trunks">
         Design tokens are the collections of variables that customise Moon
         components for your product.
