@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
@@ -14,15 +13,14 @@ export default function PageDialogOverlay() {
       <ComponentPageDescription title="Dialog Overlay">
         <p>
           Based on{' '}
-          <Link href="https://reach.tech/dialog">
-            <a
-              className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @reach/dialog
-            </a>
-          </Link>
+          <a
+            href="https://reach.tech/dialog"
+            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+            target="_blank"
+            rel="noreferrer"
+          >
+            @reach/dialog
+          </a>
           .
         </p>
         <p>

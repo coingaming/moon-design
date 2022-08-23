@@ -22,7 +22,7 @@ const GithubIcon = () => (
 
 const ForDevelopers = () => {
   return (
-    <div className="relative flex grow p-6 gap-6 theme-tokens rounded-moon-s-lg bg-cell 3xl:flex-col 3xl:h-96 3xl:w-80 ltr:3xl:rounded-tl-none rtl:3xl:rounded-tr-none 3xl:absolute 3xl:top-96 ltr:3xl:right-0 rtl:3xl:left-0">
+    <div className="relative z-50 flex grow p-6 gap-6 theme-tokens rounded-moon-s-lg bg-cell 3xl:flex-col 3xl:h-96 3xl:w-80 ltr:3xl:rounded-tl-none rtl:3xl:rounded-tr-none 3xl:absolute 3xl:top-96 ltr:3xl:right-0 rtl:3xl:left-0">
       <div className="flex gap-6 align-center justify-between grow 3xl:flex-col 3xl:justify-end">
         <GithubIcon />
         <h2 className="text-moon-24 grow 3xl:grow-0">
@@ -39,11 +39,13 @@ const ForDevelopers = () => {
         </div>
       </div>
       <div className="hidden flex-wrap gap-1 3xl:flex">
-        <Link href="https://github.com/coingaming/moon-design">
-          <a target="_blank" rel="noreferrer">
-            <Button variant="secondary">Github</Button>
-          </a>
-        </Link>
+        <a
+          href="https://github.com/coingaming/moon-design"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button variant="secondary">Github</Button>
+        </a>
         <Link href="/gettingStartedDevs">
           <a>
             <Button variant="secondary">Getting Started</Button>
@@ -54,16 +56,20 @@ const ForDevelopers = () => {
             <Button variant="secondary">Design Tokens</Button>
           </a>
         </Link>
-        <Link href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts">
-          <a target="_blank" rel="noreferrer">
-            <Button variant="secondary">Creating Themes</Button>
-          </a>
-        </Link>
-        <Link href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md">
-          <a target="_blank" rel="noreferrer">
-            <Button variant="secondary">Contribution</Button>
-          </a>
-        </Link>
+        <a
+          href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button variant="secondary">Creating Themes</Button>
+        </a>
+        <a
+          href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button variant="secondary">Contribution</Button>
+        </a>
         <Link href="/core/accordion">
           <a>
             <Button variant="secondary">Components</Button>

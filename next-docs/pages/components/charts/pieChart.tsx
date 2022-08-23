@@ -1,6 +1,5 @@
 import React from 'react';
 import { ChartIcons } from '@heathmont/moon-charts';
-import Link from 'next/link';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
@@ -18,15 +17,14 @@ export default function PageLineChart() {
       <ComponentPageDescription title="Pie">
         <p>
           Based on{' '}
-          <Link href="https://recharts.org/en-US/">
-            <a
-              className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Recharts
-            </a>
-          </Link>
+          <a
+            href="https://recharts.org/en-US/"
+            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Recharts
+          </a>
           .
         </p>
       </ComponentPageDescription>
