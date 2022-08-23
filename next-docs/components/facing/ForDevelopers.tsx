@@ -22,20 +22,20 @@ const GithubIcon = () => (
 
 const ForDevelopers = () => {
   return (
-    <div className="relative flex grow p-6 gap-6 theme-tokens rounded-moon-s-lg bg-cell 3xl:flex-col 3xl:h-96 3xl:w-80 ltr:3xl:rounded-tl-none rtl:3xl:rounded-tr-none 3xl:absolute 3xl:top-96 ltr:3xl:right-0 rtl:3xl:left-0">
+    <div className="relative z-50 flex grow p-6 gap-6 theme-tokens rounded-moon-s-lg bg-cell 3xl:flex-col 3xl:h-96 3xl:w-80 ltr:3xl:rounded-tl-none rtl:3xl:rounded-tr-none 3xl:absolute 3xl:top-96 ltr:3xl:right-0 rtl:3xl:left-0">
       <div className="flex gap-6 align-center justify-between grow 3xl:flex-col 3xl:justify-end">
         <GithubIcon />
         <h2 className="text-moon-24 grow 3xl:grow-0">
-          <a
-            href="https://github.com/coingaming/moon-design"
-            target="_blank"
-            rel="noreferrer"
-          >
-            For developers.
-          </a>
+          <Link href="/gettingStartedDevs">
+            <a>For developers.</a>
+          </Link>
         </h2>
         <div className="3xl:absolute 3xl:top-6 ltr:3xl:right-6 rtl:3xl:left-6 rtl:-rotate-90">
-          <TopRightArrowIcon />
+          <Link href="/gettingStartedDevs">
+            <a>
+              <TopRightArrowIcon />
+            </a>
+          </Link>
         </div>
       </div>
       <div className="hidden flex-wrap gap-1 3xl:flex">
@@ -46,12 +46,12 @@ const ForDevelopers = () => {
         >
           <Button variant="secondary">Github</Button>
         </a>
-        <Link href="gettingStarted">
+        <Link href="/gettingStartedDevs">
           <a>
             <Button variant="secondary">Getting Started</Button>
           </a>
         </Link>
-        <Link href="tokens">
+        <Link href="/tokens">
           <a>
             <Button variant="secondary">Design Tokens</Button>
           </a>
@@ -70,7 +70,7 @@ const ForDevelopers = () => {
         >
           <Button variant="secondary">Contribution</Button>
         </a>
-        <Link href="components/accordion">
+        <Link href="/core/accordion">
           <a>
             <Button variant="secondary">Components</Button>
           </a>
