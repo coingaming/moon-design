@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import DesDevSwitch from '../components/gettingStarted/DesDevSwitch';
-import DesGettingStarted from '../components/gettingStarted/desGettingStarted';
-import DevGettingStarted from '../components/gettingStarted/devGettingStarted';
+import DesGettingStarted from '../components/gettingStarted/DesGettingStarted';
+import DevGettingStarted from '../components/gettingStarted/DevGettingStarted';
 
 const PageGettingStartedDevs = () => {
   const [isDesActive, setActive] = useState(false);
