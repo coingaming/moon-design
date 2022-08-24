@@ -1,5 +1,17 @@
 # @heathmont/moon-datepicker
 
+## 9.4.2
+
+### Patch Changes
+
+- Trigger release
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.4.2
+  - @heathmont/moon-core@9.4.2
+  - @heathmont/moon-icons@9.4.2
+  - @heathmont/moon-themes@9.4.2
+  - @heathmont/moon-utils@9.4.2
+
 ## 9.4.1
 
 ### Patch Changes

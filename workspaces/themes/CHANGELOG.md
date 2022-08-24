@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.4.2
+
+### Patch Changes
+
+- Trigger release
+
 ## 9.4.1
 
 ### Patch Changes

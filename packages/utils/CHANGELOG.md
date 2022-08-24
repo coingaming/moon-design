@@ -1,5 +1,13 @@
 # Change Log
 
+## 9.4.2
+
+### Patch Changes
+
+- Trigger release
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.4.2
+
 ## 9.4.1
 
 ### Patch Changes
