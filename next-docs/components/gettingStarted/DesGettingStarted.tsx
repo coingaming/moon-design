@@ -1,8 +1,17 @@
+import colourRules from '../../public/illustartions/colourRules.webp';
+import productColours from '../../public/illustartions/productColours.webp';
+import tokens from '../../public/illustartions/tokens.webp';
+import typography from '../../public/illustartions/typography.webp';
+import usage from '../../public/illustartions/usage.webp';
 import PageSection from '../PageSection';
 
 const DesGettingStarted = () => (
   <>
-    <PageSection title="Components usage">
+    <video controls controlsList="nodownload" preload="">
+      <source src="https://s3.amazonaws.com/cdn.coingaming.io/videos/gettingStartedDesigners.mp4" />
+      Sorry, your browser doesn't support embedded videos.
+    </video>
+    <PageSection title="Components usage" image={usage}>
       <p className="text-trunks">
         Use search to find components, each component in the library has its own
         unique name, which corresponds to the name in the code.
@@ -18,7 +27,7 @@ const DesGettingStarted = () => (
         switch states.
       </p>
     </PageSection>
-    <PageSection title="Colour convention and rules">
+    <PageSection title="Colour convention and rules" image={colourRules}>
       <p className="text-trunks">What makes our color system different?</p>
       <p>For that, we made a decision to give our colours unique names.</p>
       <p>
@@ -29,7 +38,7 @@ const DesGettingStarted = () => (
         these values are different.
       </p>
     </PageSection>
-    <PageSection title="Product colours">
+    <PageSection title="Product colours" image={productColours}>
       <p className="text-trunks">
         How to create your own custom colours based on the Moon colour
         convention.
@@ -55,7 +64,7 @@ const DesGettingStarted = () => (
         </li>
       </ul>
     </PageSection>
-    <PageSection title="Typography">
+    <PageSection title="Typography" image={typography}>
       <p className="text-trunks">
         Grid of font sizes for web and mobile devices used in components.
       </p>
@@ -77,7 +86,7 @@ const DesGettingStarted = () => (
         </li>
       </ul>
     </PageSection>
-    <PageSection title="Product tokens">
+    <PageSection title="Product tokens" image={tokens}>
       <p className="text-trunks">
         Design tokens are the collections of variables that customise Moon
         components for your product.
