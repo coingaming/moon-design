@@ -25,8 +25,8 @@
 
 Thanks to [changeset](https://github.com/changesets/changesets), we can generate version bumps automatically.
 
-1. Ensure that `develop` branch is up to date with `master`. 
-2. Run `pnpm changeset` in the root of the repository and follow CLI instructions to generate a new changeset.
+1. Ensure that `develop` branch is up to date with `master`. Run these commands on `develop` branch 
+2. Run `pnpm changeset` in the root of the repository and follow CLI instructions to generate a new changeset. 
 3. Run `pnpm changeset version` command. This will bump the versions of the packages previously specified with pnpm changeset (and any dependents of those) and update the changelog files.
 4. Run `pnpm install`. This will update the lockfile and rebuild packages.
 5. Commit the changes. (e.g `git add .` and `git commit -m "chore: bump version X.X.X"`)
