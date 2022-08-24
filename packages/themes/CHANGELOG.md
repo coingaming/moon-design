@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.4.1
+
+### Patch Changes
+
+- Add images and video to Getting started page
+
 ## 9.4.0
 
 ### Minor Changes
