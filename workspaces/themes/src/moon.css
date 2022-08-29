@@ -1,8 +1,8 @@
 :root,
 :root.theme-moon-light,
 .theme-moon-light {
-  --piccolo: 78 70 180; /* #4e46b4 */
-  --hit: 64 166 159; /* #40a69f */
+  --hit: 78 70 180; /* #4e46b4 */
+  --piccolo: 64 166 159; /* #40a69f */
   --beerus: 235 235 235; /* #ebebeb */
   --gohan: 255 255 255; /* #ffffff */
   --goten: 255 255 255; /* #ffffff */
@@ -70,8 +70,8 @@
 
 :root.theme-moon-dark,
 .theme-moon-dark {
-  --piccolo: 78 70 180; /* #4e46b4 */
-  --hit: 64 166 159; /* #40a69f */
+  --hit: 78 70 180; /* #4e46b4 */
+  --piccolo: 64 166 159; /* #40a69f */
   --beerus: 68 68 68; /* #444444 */
   --gohan: 31 31 31; /* #1f1f1f */
   --goten: 255 255 255; /* #ffffff */
