@@ -7,7 +7,7 @@ import TopRightArrowIcon from '../icons/TopRightArrowIcon';
 
 const Future = () => (
   <Link href="/howToContribute">
-    <a className="group block relative px-14 py-8">
+    <a className="group block relative p-6 md:px-14 md:py-8">
       <div className="flex justify-between align-start">
         <div className="flex flex-col gap-6">
           <h3 className="relative text-goten text-moon-48 font-medium z-1">
@@ -18,10 +18,10 @@ const Future = () => (
             prototype to production.
           </p>
         </div>
-        <div className="relative z-1">
+        <div className="hidden md:block relative z-1">
           <Image alt="Future" src={imageFutureImage} />
         </div>
-        <div className="self-start relative text-goten z-1 rtl:-rotate-90">
+        <div className="absolute md:static top-6 ltr:right-6 rtl:left-6 text-goten z-1 rtl:-rotate-90">
           <TopRightArrowIcon />
         </div>
       </div>

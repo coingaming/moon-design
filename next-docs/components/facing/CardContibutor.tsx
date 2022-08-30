@@ -1,6 +1,6 @@
 import React from 'react';
-import { rem } from '@heathmont/moon-utils';
 import Image, { StaticImageData } from 'next/image';
+import classNames from '../../utils/classNames';
 
 type Props = {
   variant?: 'default' | 'tiny' | 'tall';
@@ -10,18 +10,9 @@ type Props = {
 };
 
 const variants = {
-  default: {
-    width: rem(384),
-    height: rem(384),
-  },
-  tiny: {
-    width: rem(256),
-    height: rem(320),
-  },
-  tall: {
-    width: rem(384),
-    height: rem(448),
-  },
+  tall: 'md:w-[24rem] md:h-[28rem]',
+  tiny: 'md:w-[16rem] md:h-[20rem]',
+  default: 'md:w-[24rem] md:h-[24rem]',
 };
 
 const CardContributor: React.FC<Props> = ({
@@ -32,12 +23,12 @@ const CardContributor: React.FC<Props> = ({
 }) => (
   <div className="flex flex-col">
     <div
-      className="relative"
-      style={
+      className={classNames(
+        'relative w-72 h-96',
         variant && variant in variants ? variants[variant] : variants.default
-      }
+      )}
     >
-      <p className="list-item absolute bottom-12 pb-2 ltr:left-full rtl:right-full whitespace-nowrap text-goten text-moon-24 transform origin-bottom-left -rotate-90 z-10 font-medium">
+      <p className="list-item absolute bottom-12 pb-2 ltr:left-full rtl:right-full whitespace-nowrap text-goten text-moon-24 transform origin-bottom-left -rotate-90 z-10 font-medium drop-shadow-sm">
         {title}
       </p>
       <Image
@@ -46,7 +37,6 @@ const CardContributor: React.FC<Props> = ({
         src={imageSrc}
         layout="fill"
         objectFit="cover"
-        quality={100}
       />
     </div>
     <p className="text-moon-24 mt-2 font-medium">{name}</p>

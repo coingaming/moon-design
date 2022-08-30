@@ -29,6 +29,7 @@ function MyApp({ Component, pageProps }: MyAppProps) {
       <Head>
         <title>Moon Design System</title>
         <meta name="description" content="Moon Design System" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <SearchProvider>
