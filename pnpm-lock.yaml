@@ -194,7 +194,7 @@ importers:
       sharp: 0.30.6
       styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
       swr: 1.0.1_react@18.0.0
-      tailwindcss: 3.1.3_postcss@8.4.14
+      tailwindcss: 3.1.3
       tailwindcss-rtl: 0.9.0
       typescript: 4.3.5
     devDependencies:
@@ -211,34 +211,20 @@ importers:
       '@heathmont/moon-icons': workspace:^9.4.3
       '@heathmont/moon-themes': workspace:^9.4.3
       '@heathmont/moon-utils': workspace:^9.4.3
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-core': link:../core
       '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/assets:
     specifiers:
       '@heathmont/moon-themes': workspace:^9.4.3
       '@heathmont/moon-utils': workspace:^9.4.3
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/calendar:
     specifiers:
@@ -248,9 +234,6 @@ importers:
       '@heathmont/moon-utils': workspace:^9.4.3
       '@types/date-fns': 2.6.0
       date-fns: 2.15.0
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-core': link:../core
@@ -258,10 +241,6 @@ importers:
       '@heathmont/moon-utils': link:../utils
       '@types/date-fns': 2.6.0
       date-fns: 2.15.0
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/charts:
     specifiers:
@@ -273,13 +252,10 @@ importers:
       '@heathmont/moon-utils': workspace:^9.4.3
       '@types/react-simple-maps': 1.0.3
       '@types/react-transition-group': 4.4.0
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
       react-simple-maps: 2.3.0
       react-transition-group: 4.4.1
       react-use: 15.3.8
       recharts: 2.0.9
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-components': link:../components
@@ -289,14 +265,10 @@ importers:
       '@heathmont/moon-utils': link:../utils
       '@types/react-simple-maps': 1.0.3
       '@types/react-transition-group': 4.4.0
-      react-simple-maps: 2.3.0_xw2k5ke7c4fkuho3lbp7joprty
-      react-transition-group: 4.4.1_zpnidt7m3osuk7shl3s4oenomq
-      react-use: 15.3.8_zpnidt7m3osuk7shl3s4oenomq
-      recharts: 2.0.9_xw2k5ke7c4fkuho3lbp7joprty
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
+      react-simple-maps: 2.3.0_ccrd4luiijsxnlhe6bgkvyy2z4
+      react-transition-group: 4.4.1_wcqkhtmu7mswc6yz4uyexck3ty
+      react-use: 15.3.8_wcqkhtmu7mswc6yz4uyexck3ty
+      recharts: 2.0.9_ccrd4luiijsxnlhe6bgkvyy2z4
 
   packages/components:
     specifiers:
@@ -309,18 +281,15 @@ importers:
       '@types/react-click-outside-hook': 1.0.0
       date-fns: 2.15.0
       polished: 4.1.4
-      react: '>= 18.0.0'
       react-click-outside-hook: 1.1.1
-      react-dom: '>= 18.0.0'
       scroll-into-view-if-needed: 2.2.22
       smooth-scroll-into-view-if-needed: 1.1.27
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
-      '@reach/dialog': 0.16.2_zpnidt7m3osuk7shl3s4oenomq
+      '@reach/dialog': 0.16.2_wcqkhtmu7mswc6yz4uyexck3ty
       '@types/date-fns': 2.6.0
       date-fns: 2.15.0
       polished: 4.1.4
@@ -329,9 +298,6 @@ importers:
       smooth-scroll-into-view-if-needed: 1.1.27
     devDependencies:
       '@types/react-click-outside-hook': 1.0.0
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/core:
     specifiers:
@@ -342,21 +308,14 @@ importers:
       '@heathmont/moon-utils': workspace:^9.4.3
       '@reach/listbox': 0.16.2
       polished: 4.1.4
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
-      '@reach/listbox': 0.16.2_zpnidt7m3osuk7shl3s4oenomq
+      '@reach/listbox': 0.16.2_wcqkhtmu7mswc6yz4uyexck3ty
       polished: 4.1.4
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/datepicker:
     specifiers:
@@ -368,10 +327,7 @@ importers:
       '@types/date-fns': 2.6.0
       date-fns: 2.28.0
       polished: 4.1.4
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
       react-select: ^5.2.1
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-core': link:../core
@@ -382,10 +338,6 @@ importers:
       date-fns: 2.28.0
       polished: 4.1.4
       react-select: 5.4.0_hbavo5rcrxpva3rqoclkpvthlq
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/draggabletable:
     specifiers:
@@ -396,14 +348,11 @@ importers:
       '@types/react-table': 7.7.6
       immutability-helper: 3.1.1
       polished: 4.1.4
-      react: '>= 18.0.0'
       react-dnd: 14.0.3
       react-dnd-html5-backend: 14.0.1
-      react-dom: '>= 18.0.0'
       react-table: 7.5.1
       react-table-hoc-fixed-columns: 2.3.3
       react-table-sticky: 1.1.3
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-table': link:../table
@@ -412,36 +361,22 @@ importers:
       '@types/react-table': 7.7.6
       immutability-helper: 3.1.1
       polished: 4.1.4
-      react-dnd: 14.0.3_react@18.0.0
+      react-dnd: 14.0.3_react@16.14.0
       react-dnd-html5-backend: 14.0.1
-      react-table: 7.5.1_react@18.0.0
-      react-table-hoc-fixed-columns: 2.3.3_zpnidt7m3osuk7shl3s4oenomq
+      react-table: 7.5.1_react@16.14.0
+      react-table-hoc-fixed-columns: 2.3.3_wcqkhtmu7mswc6yz4uyexck3ty
       react-table-sticky: 1.1.3
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/fonts:
-    specifiers:
-      styled-components: '>= 5.3.5'
-    devDependencies:
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
+    specifiers: {}
 
   packages/global:
     specifiers:
       '@heathmont/moon-themes': workspace:^9.4.3
       '@heathmont/moon-utils': workspace:^9.4.3
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/icons:
     specifiers:
@@ -456,10 +391,7 @@ importers:
       figma-transformer: 2.1.0
       fs: 0.0.1-security
       ramda: 0.27.1
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
       rimraf: 3.0.2
-      styled-components: '>= 5.3.5'
       ts-node-dev: 1.1.8
     dependencies:
       '@heathmont/moon-themes': link:../themes
@@ -474,26 +406,16 @@ importers:
       figma-transformer: 2.1.0
       fs: 0.0.1-security
       ramda: 0.27.1
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
       rimraf: 3.0.2
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
       ts-node-dev: 1.1.8_typescript@4.7.4
 
   packages/notifications:
     specifiers:
       '@heathmont/moon-themes': workspace:^9.4.3
       '@heathmont/moon-utils': workspace:^9.4.3
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/pagination:
     specifiers:
@@ -504,10 +426,7 @@ importers:
       '@heathmont/moon-themes': workspace:^9.4.3
       '@heathmont/moon-utils': workspace:^9.4.3
       '@types/react-paginate': 6.2.1
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
       react-paginate: 6.5.0
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-components': link:../components
@@ -516,11 +435,7 @@ importers:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       '@types/react-paginate': 6.2.1
-      react-paginate: 6.5.0_react@18.0.0
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
+      react-paginate: 6.5.0_react@16.14.0
 
   packages/popover:
     specifiers:
@@ -530,9 +445,6 @@ importers:
       '@heathmont/moon-utils': workspace:^9.4.3
       '@tippyjs/react': 4.2.0
       polished: 4.1.4
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-assets': link:../assets
       '@heathmont/moon-components': link:../components
@@ -540,48 +452,28 @@ importers:
       '@heathmont/moon-utils': link:../utils
       '@tippyjs/react': 4.2.0_zpnidt7m3osuk7shl3s4oenomq
       polished: 4.1.4
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/select:
     specifiers:
-      '@babel/core': '>= 7.0.0'
       '@heathmont/moon-core': workspace:^9.4.3
       '@heathmont/moon-themes': workspace:^9.4.3
       '@heathmont/moon-utils': workspace:^9.4.3
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
       react-merge-refs: ^1.1.0
       react-select: ^5.2.1
-      styled-components: '>= 5.3.5'
     dependencies:
-      '@babel/core': 7.18.10
       '@heathmont/moon-core': link:../core
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       react-merge-refs: 1.1.0
       react-select: 5.4.0_hbavo5rcrxpva3rqoclkpvthlq
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/sidebar:
     specifiers:
       '@heathmont/moon-themes': workspace:^9.4.3
       '@heathmont/moon-utils': workspace:^9.4.3
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/table:
     specifiers:
@@ -591,12 +483,9 @@ importers:
       '@heathmont/moon-utils': workspace:^9.4.3
       '@types/react-table': 7.7.6
       polished: 4.1.4
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
       react-table: 7.5.1
       react-table-hoc-fixed-columns: 2.3.3
       react-table-sticky: 1.1.3
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-components': link:../components
       '@heathmont/moon-core': link:../core
@@ -604,23 +493,12 @@ importers:
       '@heathmont/moon-utils': link:../utils
       '@types/react-table': 7.7.6
       polished: 4.1.4
-      react-table: 7.5.1_react@18.0.0
-      react-table-hoc-fixed-columns: 2.3.3_zpnidt7m3osuk7shl3s4oenomq
+      react-table: 7.5.1_react@16.14.0
+      react-table-hoc-fixed-columns: 2.3.3_wcqkhtmu7mswc6yz4uyexck3ty
       react-table-sticky: 1.1.3
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   packages/themes:
-    specifiers:
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
-      styled-components: '>= 5.3.5'
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
+    specifiers: {}
 
   packages/utils:
     specifiers:
@@ -630,9 +508,6 @@ importers:
       lodash.get: 4.4.2
       lodash.has: 4.5.2
       polished: 4.1.4
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
-      styled-components: '>= 5.3.5'
     dependencies:
       '@heathmont/moon-themes': link:../themes
       lodash.get: 4.4.2
@@ -641,20 +516,12 @@ importers:
     devDependencies:
       '@types/lodash.get': 4.4.6
       '@types/lodash.has': 4.5.6
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      styled-components: 5.3.5_twzut3cfsq3yt4edr3dzr6gksa
 
   workspaces/core:
     specifiers:
       '@heathmont/moon-icons-tw': workspace:^9.4.3
-      react: 18.0.0
-      react-dom: 18.0.0
     dependencies:
       '@heathmont/moon-icons-tw': link:../icons
-    devDependencies:
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
 
   workspaces/icons:
     specifiers:
@@ -667,8 +534,6 @@ importers:
       figma-transformer: 2.1.0
       fs: 0.0.1-security
       ramda: 0.27.1
-      react: '>= 18.0.0'
-      react-dom: '>= 18.0.0'
       rimraf: 3.0.2
       ts-node-dev: 1.1.8
     devDependencies:
@@ -681,8 +546,6 @@ importers:
       figma-transformer: 2.1.0
       fs: 0.0.1-security
       ramda: 0.27.1
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
       rimraf: 3.0.2
       ts-node-dev: 1.1.8_typescript@4.7.4
 
@@ -3136,74 +2999,74 @@ packages:
     resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
     dev: false
 
-  /@reach/auto-id/0.16.0_zpnidt7m3osuk7shl3s4oenomq:
+  /@reach/auto-id/0.16.0_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-5ssbeP5bCkM39uVsfQCwBBL+KT8YColdnMN5/Eto6Rj7929ql95R3HZUOkKIvj7mgPtEb60BLQxd1P3o6cjbmg==}
     peerDependencies:
       react: ^16.8.0 || 17.x
       react-dom: ^16.8.0 || 17.x
     dependencies:
-      '@reach/utils': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      '@reach/utils': 0.16.0_wcqkhtmu7mswc6yz4uyexck3ty
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       tslib: 2.4.0
     dev: false
 
-  /@reach/descendants/0.16.1_zpnidt7m3osuk7shl3s4oenomq:
+  /@reach/descendants/0.16.1_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-3WZgRnD9O4EORKE31rrduJDiPFNMOjUkATx0zl192ZxMq3qITe4tUj70pS5IbJl/+v9zk78JwyQLvA1pL7XAPA==}
     peerDependencies:
       react: ^16.8.0 || 17.x
       react-dom: ^16.8.0 || 17.x
     dependencies:
-      '@reach/utils': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      '@reach/utils': 0.16.0_wcqkhtmu7mswc6yz4uyexck3ty
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       tslib: 2.4.0
     dev: false
 
-  /@reach/dialog/0.16.2_zpnidt7m3osuk7shl3s4oenomq:
+  /@reach/dialog/0.16.2_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-qq8oX0cROgTb8LjOKWzzNm4SqaN9b89lJHr7UyVo2aQ6WbeNzZBxqXhGywFP7dkR+hNqOJnrA59PXFWhfttA9A==}
     peerDependencies:
       react: ^16.8.0 || 17.x
       react-dom: ^16.8.0 || 17.x
     dependencies:
-      '@reach/portal': 0.16.2_zpnidt7m3osuk7shl3s4oenomq
-      '@reach/utils': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
+      '@reach/portal': 0.16.2_wcqkhtmu7mswc6yz4uyexck3ty
+      '@reach/utils': 0.16.0_wcqkhtmu7mswc6yz4uyexck3ty
       prop-types: 15.8.1
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      react-focus-lock: 2.9.1_react@18.0.0
-      react-remove-scroll: 2.5.5_react@18.0.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
+      react-focus-lock: 2.9.1_react@16.14.0
+      react-remove-scroll: 2.5.5_react@16.14.0
       tslib: 2.3.1
     transitivePeerDependencies:
       - '@types/react'
     dev: false
 
-  /@reach/listbox/0.16.2_zpnidt7m3osuk7shl3s4oenomq:
+  /@reach/listbox/0.16.2_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-UBotBw7X8e2ajHn6tg1M9ArinisvSvwtu/aP3edEQKCvobd95nAa+dqnfAdihPAQFH2AQ2NFfa/73yawWV3LOQ==}
     peerDependencies:
       react: ^16.8.0 || 17.x
       react-dom: ^16.8.0 || 17.x
     dependencies:
-      '@reach/auto-id': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
-      '@reach/descendants': 0.16.1_zpnidt7m3osuk7shl3s4oenomq
-      '@reach/machine': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
-      '@reach/popover': 0.16.2_zpnidt7m3osuk7shl3s4oenomq
-      '@reach/utils': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
+      '@reach/auto-id': 0.16.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@reach/descendants': 0.16.1_wcqkhtmu7mswc6yz4uyexck3ty
+      '@reach/machine': 0.16.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@reach/popover': 0.16.2_wcqkhtmu7mswc6yz4uyexck3ty
+      '@reach/utils': 0.16.0_wcqkhtmu7mswc6yz4uyexck3ty
       prop-types: 15.8.1
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
     dev: false
 
-  /@reach/machine/0.16.0_zpnidt7m3osuk7shl3s4oenomq:
+  /@reach/machine/0.16.0_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-c8SRQz2xGtg5M9aXuuM5pFgaV1ZW5/nyMIYpZzBwHUlNFKGO+VBhwedbnqUxO0yLcbgl3wPvjPh740O3YjqiHg==}
     peerDependencies:
       react: ^16.8.0 || 17.x
       react-dom: ^16.8.0 || 17.x
     dependencies:
-      '@reach/utils': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
+      '@reach/utils': 0.16.0_wcqkhtmu7mswc6yz4uyexck3ty
       '@xstate/fsm': 1.4.0
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       tslib: 2.4.0
     dev: false
 
@@ -3211,19 +3074,32 @@ packages:
     resolution: {integrity: sha512-Ba7HmkFgfQxZqqaeIWWkNK0rEhpxVQHIoVyW1YDSkGsGIXzcaW4deC8B0pZrNSSyLTdIk7y+5olKt5+g0GmFIQ==}
     dev: false
 
-  /@reach/popover/0.16.2_zpnidt7m3osuk7shl3s4oenomq:
+  /@reach/popover/0.16.2_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-IwkRrHM7Vt33BEkSXneovymJv7oIToOfTDwRKpuYEB/BWYMAuNfbsRL7KVe6MjkgchDeQzAk24cYY1ztQj5HQQ==}
     peerDependencies:
       react: ^16.8.0 || 17.x
       react-dom: ^16.8.0 || 17.x
     dependencies:
-      '@reach/portal': 0.16.2_zpnidt7m3osuk7shl3s4oenomq
-      '@reach/rect': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
-      '@reach/utils': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      '@reach/portal': 0.16.2_wcqkhtmu7mswc6yz4uyexck3ty
+      '@reach/rect': 0.16.0_wcqkhtmu7mswc6yz4uyexck3ty
+      '@reach/utils': 0.16.0_wcqkhtmu7mswc6yz4uyexck3ty
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       tabbable: 4.0.0
       tslib: 2.4.0
+    dev: false
+
+  /@reach/portal/0.16.2_wcqkhtmu7mswc6yz4uyexck3ty:
+    resolution: {integrity: sha512-9ur/yxNkuVYTIjAcfi46LdKUvH0uYZPfEp4usWcpt6PIp+WDF57F/5deMe/uGi/B/nfDweQu8VVwuMVrCb97JQ==}
+    peerDependencies:
+      react: ^16.8.0 || 17.x
+      react-dom: ^16.8.0 || 17.x
+    dependencies:
+      '@reach/utils': 0.16.0_wcqkhtmu7mswc6yz4uyexck3ty
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
+      tiny-warning: 1.0.3
+      tslib: 2.3.1
     dev: false
 
   /@reach/portal/0.16.2_zpnidt7m3osuk7shl3s4oenomq:
@@ -3239,19 +3115,31 @@ packages:
       tslib: 2.3.1
     dev: false
 
-  /@reach/rect/0.16.0_zpnidt7m3osuk7shl3s4oenomq:
+  /@reach/rect/0.16.0_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-/qO9jQDzpOCdrSxVPR6l674mRHNTqfEjkaxZHluwJ/2qGUtYsA0GSZiF/+wX/yOWeBif1ycxJDa6HusAMJZC5Q==}
     peerDependencies:
       react: ^16.8.0 || 17.x
       react-dom: ^16.8.0 || 17.x
     dependencies:
       '@reach/observe-rect': 1.2.0
-      '@reach/utils': 0.16.0_zpnidt7m3osuk7shl3s4oenomq
+      '@reach/utils': 0.16.0_wcqkhtmu7mswc6yz4uyexck3ty
       prop-types: 15.8.1
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       tiny-warning: 1.0.3
       tslib: 2.4.0
+    dev: false
+
+  /@reach/utils/0.16.0_wcqkhtmu7mswc6yz4uyexck3ty:
+    resolution: {integrity: sha512-PCggBet3qaQmwFNcmQ/GqHSefadAFyNCUekq9RrWoaU9hh/S4iaFgf2MBMdM47eQj5i/Bk0Mm07cP/XPFlkN+Q==}
+    peerDependencies:
+      react: ^16.8.0 || 17.x
+      react-dom: ^16.8.0 || 17.x
+    dependencies:
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
+      tiny-warning: 1.0.3
+      tslib: 2.3.1
     dev: false
 
   /@reach/utils/0.16.0_zpnidt7m3osuk7shl3s4oenomq:
@@ -8745,7 +8633,7 @@ packages:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
     dev: true
 
-  /nano-css/5.3.5_zpnidt7m3osuk7shl3s4oenomq:
+  /nano-css/5.3.5_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-vSB9X12bbNu4ALBu7nigJgRViZ6ja3OU7CeuiV1zMIbXOdmkLahgtPmh3GBOlDxbKY0CitqlPdOReGlBLSp+yg==}
     peerDependencies:
       react: '*'
@@ -8755,8 +8643,8 @@ packages:
       csstype: 3.1.0
       fastest-stable-stringify: 2.0.2
       inline-style-prefixer: 6.0.1
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       rtl-css-js: 1.16.0
       sourcemap-codec: 1.4.8
       stacktrace-js: 2.0.2
@@ -9380,43 +9268,26 @@ packages:
       postcss: 6.0.23
     dev: true
 
-  /postcss-import/14.1.0_postcss@8.4.14:
+  /postcss-import/14.1.0_postcss@8.4.16:
     resolution: {integrity: sha512-flwI+Vgm4SElObFVPpTIT7SU7R3qk2L7PyduMcokiaVKuWv9d/U+Gm/QAd8NDLuykTWTkcrjOeD2Pp1rMeBTGw==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
-      postcss: 8.4.14
+      postcss: 8.4.16
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.1
     dev: false
 
-  /postcss-js/4.0.0_postcss@8.4.14:
+  /postcss-js/4.0.0_postcss@8.4.16:
     resolution: {integrity: sha512-77QESFBwgX4irogGVPgQ5s07vLvFqWr228qZY+w6lW599cRlK/HmnlivnnVUxkjHnCu4J16PDMHcH+e+2HbvTQ==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.3.3
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.14
-    dev: false
-
-  /postcss-load-config/3.1.4_postcss@8.4.14:
-    resolution: {integrity: sha512-6DiM4E7v4coTE4uzA8U//WhtPwyhiim3eyjEMFCnUpzbrkK9wJHgKDT2mR+HbtSrd/NubVaYTOpSpjUl8NQeRg==}
-    engines: {node: '>= 10'}
-    peerDependencies:
-      postcss: '>=8.0.9'
-      ts-node: '>=9.0.0'
-    peerDependenciesMeta:
-      postcss:
-        optional: true
-      ts-node:
-        optional: true
-    dependencies:
-      lilconfig: 2.0.6
-      postcss: 8.4.14
-      yaml: 1.10.2
+      postcss: 8.4.16
     dev: false
 
   /postcss-load-config/3.1.4_postcss@8.4.16:
@@ -9434,15 +9305,14 @@ packages:
       lilconfig: 2.0.6
       postcss: 8.4.16
       yaml: 1.10.2
-    dev: true
 
-  /postcss-nested/5.0.6_postcss@8.4.14:
+  /postcss-nested/5.0.6_postcss@8.4.16:
     resolution: {integrity: sha512-rKqm2Fk0KbA8Vt3AdGN0FB9OBOMDVajMG6ZCf/GoHgdxUJ4sBFp0A/uMIRm+MJUdo33YXEtjqIz8u7DAp8B7DA==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.14
+      postcss: 8.4.16
       postcss-selector-parser: 6.0.10
     dev: false
 
@@ -9485,7 +9355,6 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
-    dev: true
 
   /postcss/8.4.5:
     resolution: {integrity: sha512-jBDboWM8qpaqwkMwItqTQTiFikhs/67OYVvblFFTM7MrZjt6yMKd6r2kgXizEbTTljacm4NldIlZnhbjr84QYg==}
@@ -9658,13 +9527,13 @@ packages:
     resolution: {integrity: sha512-wIPef9ik68f/Tz/0uvuOZI7hE7XLOc2moKUGWu9c68LqYS8b0D9LnR7J9i0Uc0DiXZaJENlRqZpmaYJFhjADMA==}
     dev: false
 
-  /react-clientside-effect/1.2.6_react@18.0.0:
+  /react-clientside-effect/1.2.6_react@16.14.0:
     resolution: {integrity: sha512-XGGGRQAKY+q25Lz9a/4EPqom7WRjz3z9R2k4jhVKA/puQFH/5Nt27vFZYql4m4NVNdUvX8PS3O7r/Zzm7cjUlg==}
     peerDependencies:
       react: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
     dependencies:
       '@babel/runtime': 7.18.9
-      react: 18.0.0
+      react: 16.14.0
     dev: false
 
   /react-copy-to-clipboard/5.0.4_react@18.0.0:
@@ -9683,7 +9552,7 @@ packages:
       dnd-core: 14.0.0
     dev: false
 
-  /react-dnd/14.0.3_react@18.0.0:
+  /react-dnd/14.0.3_react@16.14.0:
     resolution: {integrity: sha512-i73Hx5SKfDRdwXe30+CjF/DidiRdt/gwpPN14ajkPR20t/0osnNKFNHg3DLV6RZym+DJ0pO9H5APeMsBWGU3+Q==}
     peerDependencies:
       '@types/hoist-non-react-statics': '>= 3.3.1'
@@ -9703,7 +9572,19 @@ packages:
       dnd-core: 14.0.0
       fast-deep-equal: 3.1.3
       hoist-non-react-statics: 3.3.2
-      react: 18.0.0
+      react: 16.14.0
+    dev: false
+
+  /react-dom/16.14.0_react@16.14.0:
+    resolution: {integrity: sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==}
+    peerDependencies:
+      react: ^16.14.0
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.8.1
+      react: 16.14.0
+      scheduler: 0.19.1
     dev: false
 
   /react-dom/18.0.0_react@18.0.0:
@@ -9715,7 +9596,7 @@ packages:
       react: 18.0.0
       scheduler: 0.21.0
 
-  /react-focus-lock/2.9.1_react@18.0.0:
+  /react-focus-lock/2.9.1_react@16.14.0:
     resolution: {integrity: sha512-pSWOQrUmiKLkffPO6BpMXN7SNKXMsuOakl652IBuALAu1esk+IcpJyM+ALcYzPTTFz1rD0R54aB9A4HuP5t1Wg==}
     peerDependencies:
       '@types/react': ^16.8.0 || ^17.0.0 || ^18.0.0
@@ -9727,10 +9608,10 @@ packages:
       '@babel/runtime': 7.18.9
       focus-lock: 0.11.2
       prop-types: 15.8.1
-      react: 18.0.0
-      react-clientside-effect: 1.2.6_react@18.0.0
-      use-callback-ref: 1.3.0_react@18.0.0
-      use-sidecar: 1.1.2_react@18.0.0
+      react: 16.14.0
+      react-clientside-effect: 1.2.6_react@16.14.0
+      use-callback-ref: 1.3.0_react@16.14.0
+      use-sidecar: 1.1.2_react@16.14.0
     dev: false
 
   /react-is/16.10.2:
@@ -9754,16 +9635,16 @@ packages:
     resolution: {integrity: sha512-alTKsjEL0dKH/ru1Iyn7vliS2QRcBp9zZPGoWxUOvRGWPUYgjo+V01is7p04It6KhgrzhJGnIj9GgX8W4bZoCQ==}
     dev: false
 
-  /react-paginate/6.5.0_react@18.0.0:
+  /react-paginate/6.5.0_react@16.14.0:
     resolution: {integrity: sha512-H7xSi9jyiJzgfaj+2nNhQcjZfwzJ/Mxb64V2RiyDctjZyCWojwsaGwMqhLBpQ58iAuMVtBMRQ7ECqMcUKG9QSQ==}
     peerDependencies:
       react: ^16.0.0
     dependencies:
       prop-types: 15.8.1
-      react: 18.0.0
+      react: 16.14.0
     dev: false
 
-  /react-remove-scroll-bar/2.3.3_react@18.0.0:
+  /react-remove-scroll-bar/2.3.3_react@16.14.0:
     resolution: {integrity: sha512-i9GMNWwpz8XpUpQ6QlevUtFjHGqnPG4Hxs+wlIJntu/xcsZVEpJcIV71K3ZkqNy2q3GfgvkD7y6t/Sv8ofYSbw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -9773,12 +9654,12 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      react: 18.0.0
-      react-style-singleton: 2.2.1_react@18.0.0
+      react: 16.14.0
+      react-style-singleton: 2.2.1_react@16.14.0
       tslib: 2.3.1
     dev: false
 
-  /react-remove-scroll/2.5.5_react@18.0.0:
+  /react-remove-scroll/2.5.5_react@16.14.0:
     resolution: {integrity: sha512-ImKhrzJJsyXJfBZ4bzu8Bwpka14c/fQt0k+cyFp/PBhTfyDnU5hjOtM4AG/0AMyy8oKzOTR0lDgJIM7pYXI0kw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -9788,15 +9669,15 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      react: 18.0.0
-      react-remove-scroll-bar: 2.3.3_react@18.0.0
-      react-style-singleton: 2.2.1_react@18.0.0
+      react: 16.14.0
+      react-remove-scroll-bar: 2.3.3_react@16.14.0
+      react-style-singleton: 2.2.1_react@16.14.0
       tslib: 2.3.1
-      use-callback-ref: 1.3.0_react@18.0.0
-      use-sidecar: 1.1.2_react@18.0.0
+      use-callback-ref: 1.3.0_react@16.14.0
+      use-sidecar: 1.1.2_react@16.14.0
     dev: false
 
-  /react-resize-detector/6.7.8_zpnidt7m3osuk7shl3s4oenomq:
+  /react-resize-detector/6.7.8_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-0FaEcUBAbn+pq3PT5a9hHRebUfuS1SRLGLpIw8LydU7zX429I6XJgKerKAMPsJH0qWAl6o5bVKNqFJqr6tGPYw==}
     peerDependencies:
       react: ^16.0.0 || ^17.0.0
@@ -9804,8 +9685,8 @@ packages:
     dependencies:
       '@types/resize-observer-browser': 0.1.7
       lodash: 4.17.21
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       resize-observer-polyfill: 1.5.1
     dev: false
 
@@ -9838,7 +9719,7 @@ packages:
       react: 18.0.0
       react-is: 18.2.0
 
-  /react-simple-maps/2.3.0_xw2k5ke7c4fkuho3lbp7joprty:
+  /react-simple-maps/2.3.0_ccrd4luiijsxnlhe6bgkvyy2z4:
     resolution: {integrity: sha512-IZVeiPSRZKwD6I/2NvXpQ2uENYGDGZp8DvZjkapcxuJ/LQHTfl+Byb+KNgY7s+iatRA2ad8LnZ3AgqcjziCCsw==}
     peerDependencies:
       prop-types: ^15.7.2
@@ -9849,12 +9730,12 @@ packages:
       d3-selection: 2.0.0
       d3-zoom: 2.0.0
       prop-types: 15.8.1
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       topojson-client: 3.1.0
     dev: false
 
-  /react-smooth/2.0.1_xw2k5ke7c4fkuho3lbp7joprty:
+  /react-smooth/2.0.1_ccrd4luiijsxnlhe6bgkvyy2z4:
     resolution: {integrity: sha512-Own9TA0GPPf3as4vSwFhDouVfXP15ie/wIHklhyKBH5AN6NFtdk0UpHBnonV11BtqDkAWlt40MOUc+5srmW7NA==}
     peerDependencies:
       prop-types: ^15.6.0
@@ -9863,12 +9744,12 @@ packages:
     dependencies:
       fast-equals: 2.0.4
       prop-types: 15.8.1
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      react-transition-group: 2.9.0_zpnidt7m3osuk7shl3s4oenomq
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
+      react-transition-group: 2.9.0_wcqkhtmu7mswc6yz4uyexck3ty
     dev: false
 
-  /react-style-singleton/2.2.1_react@18.0.0:
+  /react-style-singleton/2.2.1_react@16.14.0:
     resolution: {integrity: sha512-ZWj0fHEMyWkHzKYUr2Bs/4zU6XLmq9HsgBURm7g5pAVfyn49DgUiNgY2d4lXRlYSiCif9YBGpQleewkcqddc7g==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -9880,19 +9761,19 @@ packages:
     dependencies:
       get-nonce: 1.0.1
       invariant: 2.2.4
-      react: 18.0.0
+      react: 16.14.0
       tslib: 2.3.1
     dev: false
 
-  /react-table-hoc-fixed-columns/2.3.3_zpnidt7m3osuk7shl3s4oenomq:
+  /react-table-hoc-fixed-columns/2.3.3_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-c6FyOAhPpIBxV5gPIbhNgDiZo/BPKyYcQzN3TUXAGYu4E6KG3yWwifiTY+M4SNPR2K2Bdv6US8wp1MkHAXRDNA==}
     peerDependencies:
       react: ^15.3.0 || ^16.2.0
       react-dom: ^15.3.0 || ^16.2.0
     dependencies:
       classnames: 2.3.1
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       uniqid: 5.4.0
     dev: false
 
@@ -9900,12 +9781,12 @@ packages:
     resolution: {integrity: sha512-9hyjbveY1aDyo9wkyMOsmKIpQdFUaw2yG6/f8c5SPE4pOTuKm7L2zLnDa+AxpG+3315USulViaO4XSOkX1KdVA==}
     dev: false
 
-  /react-table/7.5.1_react@18.0.0:
+  /react-table/7.5.1_react@16.14.0:
     resolution: {integrity: sha512-rprrUElCqvj79lyY2XbUoYLzwA5Mm4CGS8ElQ8OyzocvmkvCcmunvvfbpIg9Jm9HnMBjVZcVyPFPZ1BFelIBKw==}
     peerDependencies:
       react: ^16.8.3
     dependencies:
-      react: 18.0.0
+      react: 16.14.0
     dev: false
 
   /react-test-renderer/18.0.0_react@18.0.0:
@@ -9918,7 +9799,7 @@ packages:
       react-shallow-renderer: 16.15.0_react@18.0.0
       scheduler: 0.21.0
 
-  /react-transition-group/2.9.0_zpnidt7m3osuk7shl3s4oenomq:
+  /react-transition-group/2.9.0_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-+HzNTCHpeQyl4MJ/bdE0u6XRMe9+XG/+aL4mCxVN4DnPBQ0/5bfHWPDuOZUzYdMj94daZaZdCCc1Dzt9R/xSSg==}
     peerDependencies:
       react: '>=15.0.0'
@@ -9927,12 +9808,12 @@ packages:
       dom-helpers: 3.4.0
       loose-envify: 1.4.0
       prop-types: 15.8.1
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       react-lifecycles-compat: 3.0.4
     dev: false
 
-  /react-transition-group/4.4.1_zpnidt7m3osuk7shl3s4oenomq:
+  /react-transition-group/4.4.1_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-Djqr7OQ2aPUiYurhPalTrVy9ddmFCCzwhqQmtN+J3+3DzLO209Fdr70QrN8Z3DsglWql6iY1lDWAfpFiBtuKGw==}
     peerDependencies:
       react: '>=16.6.0'
@@ -9942,8 +9823,8 @@ packages:
       dom-helpers: 5.2.1
       loose-envify: 1.4.0
       prop-types: 15.8.1
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
     dev: false
 
   /react-transition-group/4.4.5_zpnidt7m3osuk7shl3s4oenomq:
@@ -9960,17 +9841,17 @@ packages:
       react-dom: 18.0.0_react@18.0.0
     dev: false
 
-  /react-universal-interface/0.6.2_react@18.0.0+tslib@2.4.0:
+  /react-universal-interface/0.6.2_react@16.14.0+tslib@2.4.0:
     resolution: {integrity: sha512-dg8yXdcQmvgR13RIlZbTRQOoUrDciFVoSBZILwjE2LFISxZZ8loVJKAkuzswl5js8BHda79bIb2b84ehU8IjXw==}
     peerDependencies:
       react: '*'
       tslib: '*'
     dependencies:
-      react: 18.0.0
+      react: 16.14.0
       tslib: 2.4.0
     dev: false
 
-  /react-use/15.3.8_zpnidt7m3osuk7shl3s4oenomq:
+  /react-use/15.3.8_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-GeGcrmGuUvZrY5wER3Lnph9DSYhZt5nEjped4eKDq8BRGr2CnLf9bDQWG9RFc7oCPphnscUUdOovzq0E5F2c6Q==}
     peerDependencies:
       react: ^16.8.0  || ^17.0.0
@@ -9982,10 +9863,10 @@ packages:
       fast-deep-equal: 3.1.3
       fast-shallow-equal: 1.0.0
       js-cookie: 2.2.1
-      nano-css: 5.3.5_zpnidt7m3osuk7shl3s4oenomq
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      react-universal-interface: 0.6.2_react@18.0.0+tslib@2.4.0
+      nano-css: 5.3.5_wcqkhtmu7mswc6yz4uyexck3ty
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
+      react-universal-interface: 0.6.2_react@16.14.0+tslib@2.4.0
       resize-observer-polyfill: 1.5.1
       screenfull: 5.2.0
       set-harmonic-interval: 1.0.1
@@ -10001,6 +9882,15 @@ packages:
     dependencies:
       '@reach/observe-rect': 1.2.0
       react: 18.0.0
+    dev: false
+
+  /react/16.14.0:
+    resolution: {integrity: sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==}
+    engines: {node: '>=0.10.0'}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+      prop-types: 15.8.1
     dev: false
 
   /react/18.0.0:
@@ -10110,7 +10000,7 @@ packages:
       decimal.js-light: 2.5.1
     dev: false
 
-  /recharts/2.0.9_xw2k5ke7c4fkuho3lbp7joprty:
+  /recharts/2.0.9_ccrd4luiijsxnlhe6bgkvyy2z4:
     resolution: {integrity: sha512-JNsXE80PuF3hugUCE7JqDOMSvu5xQLxtjOaqFKKZI2pCJ1PVJzhwDv4TWk0nO4AvADbeWzYEHbg8C5Hcrh42UA==}
     peerDependencies:
       react: ^16.0.0 || ^17.0.0
@@ -10124,11 +10014,11 @@ packages:
       d3-shape: 2.1.0
       eventemitter3: 4.0.7
       lodash: 4.17.21
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      react: 16.14.0
+      react-dom: 16.14.0_react@16.14.0
       react-is: 16.10.2
-      react-resize-detector: 6.7.8_zpnidt7m3osuk7shl3s4oenomq
-      react-smooth: 2.0.1_xw2k5ke7c4fkuho3lbp7joprty
+      react-resize-detector: 6.7.8_wcqkhtmu7mswc6yz4uyexck3ty
+      react-smooth: 2.0.1_ccrd4luiijsxnlhe6bgkvyy2z4
       recharts-scale: 0.4.5
       reduce-css-calc: 2.1.8
     transitivePeerDependencies:
@@ -10399,6 +10289,13 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       xmlchars: 2.2.0
+
+  /scheduler/0.19.1:
+    resolution: {integrity: sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==}
+    dependencies:
+      loose-envify: 1.4.0
+      object-assign: 4.1.1
+    dev: false
 
   /scheduler/0.21.0:
     resolution: {integrity: sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==}
@@ -11071,12 +10968,10 @@ packages:
     resolution: {integrity: sha512-y7yC8QXjluDBEFMSX33tV6xMYrf0B3sa+tOB5JSQb6/G6laBU313a+Z+qxu55M1Qyn8tDMttjomsA8IsJD+k+w==}
     dev: false
 
-  /tailwindcss/3.1.3_postcss@8.4.14:
+  /tailwindcss/3.1.3:
     resolution: {integrity: sha512-PRJNYdSIthrb8hjmAyymEyEN8Yo61TMXpzyFUpxULeeyRn3Y3gpvuw6FlRTKrJvK7thSGKRnhT36VovVx4WeMA==}
     engines: {node: '>=12.13.0'}
     hasBin: true
-    peerDependencies:
-      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3
@@ -11091,11 +10986,11 @@ packages:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.0
-      postcss: 8.4.14
-      postcss-import: 14.1.0_postcss@8.4.14
-      postcss-js: 4.0.0_postcss@8.4.14
-      postcss-load-config: 3.1.4_postcss@8.4.14
-      postcss-nested: 5.0.6_postcss@8.4.14
+      postcss: 8.4.16
+      postcss-import: 14.1.0_postcss@8.4.16
+      postcss-js: 4.0.0_postcss@8.4.16
+      postcss-load-config: 3.1.4_postcss@8.4.16
+      postcss-nested: 5.0.6_postcss@8.4.16
       postcss-selector-parser: 6.0.10
       postcss-value-parser: 4.2.0
       quick-lru: 5.1.1
@@ -11536,7 +11431,7 @@ packages:
     deprecated: Please see https://github.com/lydell/urix#deprecated
     dev: true
 
-  /use-callback-ref/1.3.0_react@18.0.0:
+  /use-callback-ref/1.3.0_react@16.14.0:
     resolution: {integrity: sha512-3FT9PRuRdbB9HfXhEq35u4oZkvpJ5kuYbpqhCfmiZyReuRgpnhDlbr2ZEnnuS0RrJAPn6l23xjFg9kpDM+Ms7w==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -11546,11 +11441,11 @@ packages:
       '@types/react':
         optional: true
     dependencies:
-      react: 18.0.0
+      react: 16.14.0
       tslib: 2.3.1
     dev: false
 
-  /use-sidecar/1.1.2_react@18.0.0:
+  /use-sidecar/1.1.2_react@16.14.0:
     resolution: {integrity: sha512-epTbsLuzZ7lPClpz2TyryBfztm7m+28DlEv2ZCQ3MDr5ssiwyOwGH/e5F9CkfWjJ1t4clvI58yF822/GUkjjhw==}
     engines: {node: '>=10'}
     peerDependencies:
@@ -11561,7 +11456,7 @@ packages:
         optional: true
     dependencies:
       detect-node-es: 1.1.0
-      react: 18.0.0
+      react: 16.14.0
       tslib: 2.3.1
     dev: false
 
