@@ -19,6 +19,7 @@
     "build:js:es": "tsc --project tsconfig.esm.json",
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
+  "dependencies": {},
   "peerDependencies": {
     "styled-components": ">= 5.3.5"
   }

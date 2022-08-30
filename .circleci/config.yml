@@ -13,7 +13,7 @@ aliases:
   install_deps: &install_deps
     run:
       name: 'Installing dependencies and creating symlinks'
-      command: pnpm i --no-frozen-lockfile --silent
+      command: pnpm i --frozen-lockfile
 
   restore_cache: &restore_cache
     restore_cache:
