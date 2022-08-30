@@ -1,20 +1,23 @@
-import React, {ReactNode, useEffect, useState} from 'react';
+import React, { ReactNode, useEffect, useState } from 'react';
 import { Switch } from '@heathmont/moon-core';
-import { Button , Accordion } from '@heathmont/moon-core-tw';
+import { Button, Accordion } from '@heathmont/moon-core-tw';
 
-import { ControlsChevronDown, ControlsChevronRight } from '@heathmont/moon-icons-tw';
+import {
+  ControlsChevronDown,
+  ControlsChevronRight,
+} from '@heathmont/moon-icons-tw';
 import Image from 'next/image';
-import CTA from "../../../components/templates/cta";
-import Experience from "../../../components/templates/experience";
-import Explore from "../../../components/templates/explore";
-import Family from "../../../components/templates/family";
-import Header from "../../../components/templates/header";
-import Headline from "../../../components/templates/headline";
-import Hero from "../../../components/templates/hero";
-import LayoutBitcasino from "../../../components/templates/layout-bitcasino";
-import Social from "../../../components/templates/social";
-import Subtitle from "../../../components/templates/subtitle";
-import Title from "../../../components/templates/title";
+import CTA from '../../../components/templates/cta';
+import Experience from '../../../components/templates/experience';
+import Explore from '../../../components/templates/explore';
+import Family from '../../../components/templates/family';
+import Header from '../../../components/templates/header';
+import Headline from '../../../components/templates/headline';
+import Hero from '../../../components/templates/hero';
+import LayoutBitcasino from '../../../components/templates/layout-bitcasino';
+import Social from '../../../components/templates/social';
+import Subtitle from '../../../components/templates/subtitle';
+import Title from '../../../components/templates/title';
 import icon18 from '../../../public/templates/bitcasino/18+icon.png';
 import awards1 from '../../../public/templates/bitcasino/awards1.png';
 import awards2 from '../../../public/templates/bitcasino/awards2.png';
@@ -66,15 +69,13 @@ const Vip = () => {
       points: [
         'Lucrative offers modelled just for you.',
         'Wager free rewards.',
-        'Weekly & monthly bonuses.'
+        'Weekly & monthly bonuses.',
       ],
     },
     {
       icon: limit,
       title: 'Highest bet limits in the industry',
-      points: [
-        'No limits to withdrawals and deposits!',
-      ],
+      points: ['No limits to withdrawals and deposits!'],
     },
     {
       icon: support,
@@ -131,20 +132,16 @@ const Vip = () => {
       setIsScrolled(window.scrollY >= 30);
     };
 
-    window.addEventListener("scroll", toggleHeaderBackground);
+    window.addEventListener('scroll', toggleHeaderBackground);
 
     return () => {
-      window.removeEventListener("scroll", toggleHeaderBackground);
-    }
+      window.removeEventListener('scroll', toggleHeaderBackground);
+    };
   }, []);
 
   return (
     <div className="w-full flex flex-col grow overflow-hidden  sm:p-0">
-      <Header
-        height={30}
-        isScrolled={isScrolled}
-        logo={(<BitcasinoLogo />)}
-      />
+      <Header height={30} isScrolled={isScrolled} logo={<BitcasinoLogo />} />
       <Hero
         headline={
           <Headline
@@ -171,7 +168,13 @@ const Vip = () => {
           </Button>
         }
         wrapperClasses="sm:bg-[url('/templates/bitcasino/pattern.png')]"
-        heroImage={<Image src={KingKaka} objectFit="contain" />}
+        heroImage={
+          <Image
+            src={KingKaka}
+            objectFit="contain"
+            alt="Bitcasino VIP: For money can’t buy experiences!"
+          />
+        }
         bottomGradient="linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F 100%"
       />
       <div className="flex flex-col items-center self-center mt-[264px] sm:mt-[124px]">
@@ -277,7 +280,7 @@ const Vip = () => {
         </div>
         <div className="p-0 mx-6 md:mr-auto  lg:p-5 lg:mx-auto md:w-full xxl:w-[1262px] ">
           <div className="py-4 flex flex-row justify-start items-center border border-x-0 border-y-beerus">
-            <Image src={bitcasinoLogo} />
+            <Image src={bitcasinoLogo} alt="Logo" />
             <ControlsChevronRight className="mx-3" />
             <p>Mainpage </p>
           </div>
@@ -437,7 +440,7 @@ const Vip = () => {
               <div className="hidden rounded-[100px] flex-col bg-gohan mb-4 lg:flex">
                 <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
                   <div className="flex items-center">
-                    <Image src={uk} className="rounded-full" />
+                    <Image src={uk} className="rounded-full" alt="Flag" />
                     <span className="text-trunks text-xs ml-[5px]">
                       English
                     </span>
@@ -449,7 +452,11 @@ const Vip = () => {
               </div>
               <div className="rounded-[100px] bg-gohan flex justify-center align-middle lg:w-full">
                 <span className="flex items-center justify-center my-[6px] ml-3 mr-[17px]">
-                  <Image src={image1} className="mt-[6px]" />
+                  <Image
+                    src={image1}
+                    className="mt-[6px]"
+                    alt="Exchange rate"
+                  />
                 </span>
               </div>
             </div>
@@ -514,20 +521,20 @@ const Vip = () => {
             <div>
               <h2 className="text-bulma text-sm font-bold mb-5">Licences</h2>
               <div className="flex flex-wrap items-center">
-                <Image src={licences1} />
+                <Image src={licences1} alt="Curacao license" />
                 <div className="mx-4">
-                  <Image src={icon18} />
+                  <Image src={icon18} alt="18+" />
                 </div>
-                <Image src={hubb} />
+                <Image src={hubb} alt="Hub88" />
               </div>
             </div>
           </div>
           <div className="mb-7">
             <h2 className="text-bulma text-sm font-bold mb-5">Awards</h2>
             <div className="flex items-center gap-2">
-              <Image src={awards1} />
-              <Image src={awards3} />
-              <Image src={awards2} />
+              <Image src={awards1} alt="Award 1" />
+              <Image src={awards3} alt="Award 2" />
+              <Image src={awards2} alt="Award 3" />
             </div>
           </div>
         </div>
@@ -539,9 +546,11 @@ const Vip = () => {
 Vip.getLayout = function getLayout(page: ReactNode) {
   return (
     <LayoutBitcasino
-      sidebar={(<div className="w-full h-full p-5">
-        <BitcasinoLogo />
-      </div>)}
+      sidebar={
+        <div className="w-full h-full p-5">
+          <BitcasinoLogo />
+        </div>
+      }
     >
       <Vip />
     </LayoutBitcasino>

@@ -32,6 +32,7 @@ const Future = () => (
           layout="fill"
           objectFit="cover"
           quality={100}
+          alt=""
         />
       </div>
     </a>
