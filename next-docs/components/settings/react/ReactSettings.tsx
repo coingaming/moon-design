@@ -25,7 +25,6 @@ const ReactSettings = () => {
             <DarkLightModeSwitcher
               toggle={switchModeHandler}
               isEnabled={getMode() === 'dark'}
-              isRtlEnabled={isRtlEnabled}
             />
           </div>
           <div className="ltr:right-4 rtl:left-4 fixed bottom-[6.75rem] z-50">
