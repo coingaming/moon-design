@@ -10,7 +10,7 @@ import { ServerStyleSheet } from 'styled-components';
 class MyDocument extends Document {
   render() {
     return (
-      <Html dir="ltr">
+      <Html lang="en" dir="ltr">
         <Head />
         <body>
           <Main />
