@@ -1,5 +1,4 @@
 import React from 'react';
-import { rem } from '@heathmont/moon-utils';
 import classNames from '../../utils/classNames';
 
 type Props = {
@@ -11,18 +10,9 @@ type Props = {
 };
 
 const variants = {
-  default: {
-    width: rem(384),
-    height: rem(288),
-  },
-  tall: {
-    width: rem(288),
-    height: rem(448),
-  },
-  wide: {
-    width: rem(448),
-    height: rem(288),
-  },
+  tall: 'md:w-[18rem] md:h-[28rem] md:pe-9',
+  wide: 'md:w-[28rem] md:h-[18rem] md:pe-12',
+  default: 'md:w-[24rem] md:h-[18rem] md:pe-12',
 };
 
 const CardArcticle: React.FC<Props> = ({
@@ -31,28 +21,27 @@ const CardArcticle: React.FC<Props> = ({
   section,
   href,
   author,
-}) => (
-  <a href={href} target="_blank" rel="noreferrer">
-    <div
-      className={classNames(
-        variant === 'tall' ? 'pe-9' : 'pe-12',
-        `group relative flex flex-col justify-end ps-6 py-6 bg-goku rounded-moon-s-lg`
-      )}
-      style={
-        variant && variant in variants ? variants[variant] : variants.default
-      }
-    >
-      <p className="list-item absolute top-10 ltr:left-10 rtl:right-10 transform -rotate-90 origin-bottom-left text-moon-16 font-medium">
-        {section}
-      </p>
-      {author && (
-        <p className="absolute top-0 ltr:right-6 rtl:left-6 transform -rotate-90 origin-bottom-right text-moon-16 font-medium">
-          {author}
+}) => {
+  return (
+    <a href={href} target="_blank" rel="noreferrer">
+      <div
+        className={classNames(
+          `group relative w-72 h-96 flex flex-col justify-end p-6 bg-goku rounded-moon-s-lg`,
+          variant && variant in variants ? variants[variant] : variants.default
+        )}
+      >
+        <p className="list-item absolute top-10 ltr:left-10 rtl:right-10 transform -rotate-90 origin-bottom-left text-moon-16 font-medium">
+          {section}
         </p>
-      )}
-      <p className="text-moon-24 font-medium">{title}</p>
-    </div>
-  </a>
-);
+        {author && (
+          <p className="absolute top-0 ltr:right-6 rtl:left-6 transform -rotate-90 origin-bottom-right text-moon-16 font-medium">
+            {author}
+          </p>
+        )}
+        <p className="text-moon-24 font-medium">{title}</p>
+      </div>
+    </a>
+  );
+};
 
 export default CardArcticle;
