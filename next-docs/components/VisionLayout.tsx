@@ -1,8 +1,6 @@
 import { useState } from 'react';
-import useFeatureFlags from '../utils/useFeatureFlags';
 import Footer from './Footer';
 import Header from './Header';
-import ElixirSettings from './settings/elixir/ElixirSettings';
 import ReactSettings from './settings/react/ReactSettings';
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
@@ -12,9 +10,6 @@ const VisionLayout: React.FC<{ children: React.ReactNode }> = ({
 }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => setSidebarOpen(true);
-  const [isElixir, setIsElixir] = useState<boolean>(false); // React or Elixir view
-  const toggleReactAndElixir = () => setIsElixir(!isElixir);
-  const { isFeatureElixirEnabled } = useFeatureFlags();
   return (
     <div className="theme-moon-light bg-goku flex">
       {/* Dynamic sidebar with transition for mobile */}
@@ -31,17 +26,7 @@ const VisionLayout: React.FC<{ children: React.ReactNode }> = ({
           <Header openSidebar={openSidebar} />
           {/* TODO overflow-y-auto */}
           <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
-            {isFeatureElixirEnabled && isElixir ? (
-              <ElixirSettings
-                toggleReactAndElixir={toggleReactAndElixir}
-                isElixirEnabled={isElixir}
-              />
-            ) : (
-              <ReactSettings
-                toggleReactAndElixir={toggleReactAndElixir}
-                isReactEnabled={!isElixir}
-              />
-            )}
+            <ReactSettings />
             <div className="flex flex-col gap-12">{children}</div>
           </main>
           <Footer />
