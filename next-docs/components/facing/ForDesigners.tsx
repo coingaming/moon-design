@@ -22,11 +22,7 @@ const ForDesigners = () => (
   <div className="theme-moon-dark relative z-50 flex grow p-6 gap-6 theme-tokens rounded-moon-s-lg bg-whis text-bulma 3xl:flex-col 3xl:h-96 3xl:w-80 ltr:3xl:rounded-br-none rtl:3xl:rounded-bl-none 3xl:absolute 3xl:top-0 3xl:right-80 3xl:left-auto rtl:3xl:left-80 rtl:3xl:right-auto">
     <div className="flex gap-6 align-center justify-between grow 3xl:flex-col 3xl:justify-end">
       <FigmaIcon />
-      <h2 className="text-moon-24 grow 3xl:grow-0">
-        <Link href="/gettingStarted">
-          <a>For designers.</a>
-        </Link>
-      </h2>
+      <h2 className="text-moon-24 grow 3xl:grow-0">For designers.</h2>
       <div className="3xl:absolute 3xl:top-6 ltr:3xl:right-6 rtl:3xl:left-6 rtl:-rotate-90">
         <Link href="/gettingStarted">
           <a>

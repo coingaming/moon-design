@@ -13,20 +13,20 @@ aliases:
   install_deps: &install_deps
     run:
       name: 'Installing dependencies and creating symlinks'
-      command: pnpm i
+      command: pnpm install --frozen-lockfile
 
   restore_cache: &restore_cache
     restore_cache:
       name: 'Restoring cache'
       keys:
-        - project-deps-v6-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
-        - project-deps-v6-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}
-        - project-deps-v6-{{ .Environment.CIRCLE_PROJECT_REPONAME }}
+        - project-deps-v8-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
+        - project-deps-v8-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}
+        - project-deps-v8-{{ .Environment.CIRCLE_PROJECT_REPONAME }}
 
   save_cache: &save_cache
     save_cache:
       name: 'Saving cache'
-      key: project-deps-v6-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
+      key: project-deps-v8-{{ .Environment.CIRCLE_PROJECT_REPONAME }}-{{ checksum "pnpm-lock.yaml" }}-{{ .Revision }}
       paths:
         - node_modules
         - packages/*/node_modules/*

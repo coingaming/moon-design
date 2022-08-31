@@ -74,7 +74,7 @@ const IconPreview: React.FC<IconPreviewProps> = ({
       </div>
       <div className="flex items-center justify-between">
         <div className="w-16 h-16 p-2 bg-goku rounded-moon-s-sm">
-          <img className="h-full w-full" src={iconSrc} />
+          <img className="h-full w-full" src={iconSrc} alt="Icon preview" />
         </div>
         <CopyToClipboard text={data || ''} onCopy={() => setCopied(true)}>
           <Button animation={copied && 'success'}>Copy</Button>

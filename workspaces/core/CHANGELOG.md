@@ -1,5 +1,16 @@
 # @heathmont/moon-core-tw
 
+## 9.5.0
+
+### Minor Changes
+
+- Bump version to 9.5.0
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.5.0
+
 ## 9.4.3
 
 ### Patch Changes
