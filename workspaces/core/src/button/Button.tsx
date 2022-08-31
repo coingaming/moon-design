@@ -55,9 +55,9 @@ const Button: React.FC<ButtonProps> = ({
           {iconOnly}
         </>
       )}
-      <div
+      <span
         className={classNames(
-          'z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]',
+          'z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]',
           isHover && 'bg-bulma/[.07]'
         )}
       />

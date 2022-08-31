@@ -51,8 +51,8 @@ Array [
         Progress
       </div>
     </div>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -88,8 +88,8 @@ Array [
         Success
       </div>
     </div>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -98,8 +98,8 @@ Array [
     onMouseLeave={[Function]}
   >
     Error
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -108,8 +108,8 @@ Array [
     onMouseLeave={[Function]}
   >
     Pulse
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
 ]
@@ -122,8 +122,8 @@ exports[`Button renders default 1`] = `
   onMouseLeave={[Function]}
 >
   Default
-  <div
-    className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+  <span
+    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
 `;
@@ -135,8 +135,8 @@ exports[`Button renders default dark 1`] = `
   onMouseLeave={[Function]}
 >
   Default
-  <div
-    className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+  <span
+    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
 `;
@@ -151,8 +151,8 @@ exports[`Button renders default rtl 1`] = `
     onMouseLeave={[Function]}
   >
     Default
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
 </div>
@@ -165,8 +165,8 @@ exports[`Button renders disabled 1`] = `
   onMouseLeave={[Function]}
 >
   Disabled
-  <div
-    className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+  <span
+    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
 `;
@@ -195,8 +195,8 @@ exports[`Button renders full width 1`] = `
       stroke="currentColor"
     />
   </svg>
-  <div
-    className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+  <span
+    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
 `;
@@ -226,8 +226,8 @@ Array [
       />
     </svg>
     IconLeft
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -253,8 +253,8 @@ Array [
       />
     </svg>
     IconLeft
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -280,8 +280,8 @@ Array [
         stroke="currentColor"
       />
     </svg>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -307,8 +307,8 @@ Array [
         stroke="currentColor"
       />
     </svg>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -333,8 +333,8 @@ Array [
         stroke="currentColor"
       />
     </svg>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -359,8 +359,8 @@ Array [
         stroke="currentColor"
       />
     </svg>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
 ]
@@ -374,8 +374,8 @@ Array [
     onMouseLeave={[Function]}
   >
     xSmall
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -384,8 +384,8 @@ Array [
     onMouseLeave={[Function]}
   >
     Small
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -394,8 +394,8 @@ Array [
     onMouseLeave={[Function]}
   >
     Medium is default
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -404,8 +404,8 @@ Array [
     onMouseLeave={[Function]}
   >
     Large
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -414,8 +414,8 @@ Array [
     onMouseLeave={[Function]}
   >
     xLarge
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
 ]
@@ -429,8 +429,8 @@ Array [
     onMouseLeave={[Function]}
   >
     Primary is default
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -439,8 +439,8 @@ Array [
     onMouseLeave={[Function]}
   >
     Secondary
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -449,8 +449,8 @@ Array [
     onMouseLeave={[Function]}
   >
     Tertiary
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
@@ -459,8 +459,8 @@ Array [
     onMouseLeave={[Function]}
   >
     Ghost
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
 ]
