@@ -1,12 +1,17 @@
 import React from 'react';
-import { useTable, useBlockLayout } from 'react-table';
+import { useTable, useBlockLayout, Column } from 'react-table';
 import { FixedSizeList } from 'react-window';
 import { table, td, th, trHeader, trBody } from '../styled/StyledTable';
 
-// TODO Type any
-export default function Table({ columns, data }: any) {
-  // Use the state and functions returned from useTable to build your UI
+type Props<Columns, Data> = {
+  columns: Columns;
+  data: Data;
+};
 
+export default function Table<
+  Columns extends readonly Column<object>[],
+  Data extends readonly object[]
+>({ columns, data }: Props<Columns, Data>) {
   const defaultColumn = React.useMemo(
     () => ({
       // TODO pass as a prop
