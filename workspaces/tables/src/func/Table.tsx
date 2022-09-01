@@ -16,7 +16,7 @@ export default function Table({ columns, data }: any) {
   );
 
   // TODO pass as a prop
-  const scrollBarSize = 0 // px;
+  const scrollBarSize = 0; // px;
 
   const {
     getTableProps,
@@ -60,17 +60,15 @@ export default function Table({ columns, data }: any) {
 
   return (
     <div {...getTableProps()} className={table}>
-      <div>
-        {headerGroups.map((headerGroup) => (
-          <div {...headerGroup.getHeaderGroupProps()} className={tr}>
-            {headerGroup.headers.map((column) => (
-              <div {...column.getHeaderProps()} className={th}>
-                {column.render('Header')}
-              </div>
-            ))}
-          </div>
-        ))}
-      </div>
+      {headerGroups.map((headerGroup) => (
+        <div {...headerGroup.getHeaderGroupProps()} className={tr}>
+          {headerGroup.headers.map((column) => (
+            <div {...column.getHeaderProps()} className={th}>
+              {column.render('Header')}
+            </div>
+          ))}
+        </div>
+      ))}
 
       {/*  TODO pass as props */}
       <div {...getTableBodyProps()}>

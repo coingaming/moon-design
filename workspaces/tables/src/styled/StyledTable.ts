@@ -1,25 +1,4 @@
-export const table = 'inline-block border border-black border-spacing-0';
-export const tr = '';
-export const td = 'm-0 p-8 border-r border-b border-black last:border-b-0';
-export const th = 'm-0 p-8 border-r border-b border-black';
-
-/*
-original styles
-  .table {
-    .tr {
-      :last-child {
-        .td {
-          border-bottom: 0;
-        }
-      }
-    }
-
-    .th,
-    .td {
-      :last-child {
-        border-right: 1px solid black;
-      }
-
-*/
-
-export default { table, tr, td, th };
+export const table = 'rounded-moon-s-sm p-1';
+export const tr = 'rounded-moon-s-sm bg-gohan px-4 first:bg-goku';
+export const td = 'py-4';
+export const th = 'py-3';
