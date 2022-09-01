@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTable, useBlockLayout } from 'react-table';
 import { FixedSizeList } from 'react-window';
-import { table, td, th, tr } from '../styled/StyledTable';
+import { table, td, th, trHeader, trBody } from '../styled/StyledTable';
 
 // TODO Type any
 export default function Table({ columns, data }: any) {
@@ -43,7 +43,7 @@ export default function Table({ columns, data }: any) {
           {...row.getRowProps({
             style,
           })}
-          className={tr}
+          className={trBody}
         >
           {row.cells.map((cell) => {
             return (
@@ -61,7 +61,7 @@ export default function Table({ columns, data }: any) {
   return (
     <div {...getTableProps()} className={table}>
       {headerGroups.map((headerGroup) => (
-        <div {...headerGroup.getHeaderGroupProps()} className={tr}>
+        <div {...headerGroup.getHeaderGroupProps()} className={trHeader}>
           {headerGroup.headers.map((column) => (
             <div {...column.getHeaderProps()} className={th}>
               {column.render('Header')}
@@ -75,7 +75,7 @@ export default function Table({ columns, data }: any) {
         <FixedSizeList
           height={400}
           itemCount={rows.length}
-          itemSize={35}
+          itemSize={56}
           width={totalColumnsWidth + scrollBarSize}
         >
           {RenderRow}
