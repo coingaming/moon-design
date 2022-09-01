@@ -23,9 +23,9 @@ const ForDesigners = () => (
     <div className="flex gap-6 align-center justify-between grow 3xl:flex-col 3xl:justify-end">
       <FigmaIcon />
       <h2 className="text-moon-24 grow 3xl:grow-0">For designers.</h2>
-      <div className="3xl:absolute 3xl:top-6 ltr:3xl:right-6 rtl:3xl:left-6 rtl:-rotate-90">
+      <div className="absolute top-0 bottom-0 left-0 right-0 3xl:top-6 3xl:bottom-auto ltr:3xl:right-6 ltr:3xl:left-auto rtl:3xl:left-6 rtl:3xl:right-auto rtl:-rotate-90">
         <Link href="/gettingStarted">
-          <a>
+          <a className="flex items-center justify-end h-full pe-6 3xl:pe-0 w-full rounded-moon-s-lg">
             <TopRightArrowIcon />
           </a>
         </Link>
