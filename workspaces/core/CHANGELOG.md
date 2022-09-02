@@ -1,5 +1,16 @@
 # @heathmont/moon-core-tw
 
+## 9.6.0
+
+### Minor Changes
+
+- Add Table to Tailwind
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.6.0
+
 ## 9.5.0
 
 ### Minor Changes
