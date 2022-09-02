@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-select",
   "sideEffects": false,
-  "version": "9.5.0",
+  "version": "9.6.0",
   "files": [
     "lib"
   ],
@@ -20,9 +20,9 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-core": "workspace:^9.5.0",
-    "@heathmont/moon-themes": "workspace:^9.5.0",
-    "@heathmont/moon-utils": "workspace:^9.5.0",
+    "@heathmont/moon-core": "workspace:^9.6.0",
+    "@heathmont/moon-themes": "workspace:^9.6.0",
+    "@heathmont/moon-utils": "workspace:^9.6.0",
     "react-merge-refs": "^1.1.0",
     "react-select": "^5.2.1"
   },
