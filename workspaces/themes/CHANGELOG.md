@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.6.0
+
+### Minor Changes
+
+- Add Table to Tailwind
+
 ## 9.5.0
 
 ### Minor Changes

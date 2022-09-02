@@ -1,5 +1,18 @@
 # @heathmont/moon-select
 
+## 9.6.0
+
+### Minor Changes
+
+- Add Table to Tailwind
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.6.0
+  - @heathmont/moon-themes@9.6.0
+  - @heathmont/moon-utils@9.6.0
+
 ## 9.5.0
 
 ### Minor Changes

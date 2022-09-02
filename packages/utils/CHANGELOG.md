@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.6.0
+
+### Minor Changes
+
+- Add Table to Tailwind
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.6.0
+
 ## 9.5.0
 
 ### Minor Changes

@@ -1,5 +1,20 @@
 # Change Log
 
+## 9.6.0
+
+### Minor Changes
+
+- Add Table to Tailwind
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.6.0
+  - @heathmont/moon-components@9.6.0
+  - @heathmont/moon-icons@9.6.0
+  - @heathmont/moon-themes@9.6.0
+  - @heathmont/moon-utils@9.6.0
+
 ## 9.5.0
 
 ### Minor Changes
