@@ -526,8 +526,10 @@ importers:
 
   workspaces/core:
     specifiers:
+      '@headlessui/react': 1.6.1
       '@heathmont/moon-icons-tw': workspace:^9.6.0
     dependencies:
+      '@headlessui/react': 1.6.1_biqbaboplfbrettd7655fr4n2y
       '@heathmont/moon-icons-tw': link:../icons
 
   workspaces/icons:
