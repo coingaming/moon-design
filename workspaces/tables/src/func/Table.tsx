@@ -1,7 +1,14 @@
 import React from 'react';
 import { useTable, useBlockLayout, Column } from 'react-table';
 import { FixedSizeList } from 'react-window';
-import { table, td, th, trHeader, trBody } from '../styled/StyledTable';
+import {
+  table,
+  td,
+  th,
+  trHeader,
+  trBody,
+  trBodyInner,
+} from '../styled/StyledTable';
 
 type Props<Columns, Data> = {
   columns: Columns;
@@ -50,13 +57,15 @@ export default function Table<
           })}
           className={trBody}
         >
-          {row.cells.map((cell) => {
-            return (
-              <div {...cell.getCellProps()} className={td}>
-                {cell.render('Cell')}
-              </div>
-            );
-          })}
+          <div className={trBodyInner}>
+            {row.cells.map((cell) => {
+              return (
+                <div {...cell.getCellProps()} className={td}>
+                  {cell.render('Cell')}
+                </div>
+              );
+            })}
+          </div>
         </div>
       );
     },
@@ -80,7 +89,7 @@ export default function Table<
         <FixedSizeList
           height={400}
           itemCount={rows.length}
-          itemSize={56}
+          itemSize={60}
           width={totalColumnsWidth + scrollBarSize}
         >
           {RenderRow}
