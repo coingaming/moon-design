@@ -5,14 +5,14 @@ import type LabelProps from './private/types/LabelProps';
 const Label: React.FC<LabelProps> = ({
   children,
   color = 'text-gohan',
-  backgroundColor = 'bg-bulma',
+  bgColor = 'bg-bulma',
   iconLeft,
   iconRight,
   size = 'xs',
   isUppercase = true,
 }) => (
   <LabelContainer
-    backgroundColor={backgroundColor}
+    bgColor={bgColor}
     color={color}
     size={size}
     isUppercase={isUppercase}

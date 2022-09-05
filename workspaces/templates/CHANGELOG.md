@@ -1,5 +1,41 @@
 # @heathmont/moon-templates
 
+## 9.6.0
+
+### Minor Changes
+
+- Add Table to Tailwind
+
+## 9.5.0
+
+### Minor Changes
+
+- Bump version to 9.5.0
+
+## 9.4.3
+
+### Patch Changes
+
+- Bump version to 9.4.3
+
+## 9.4.2
+
+### Patch Changes
+
+- Trigger release
+
+## 9.4.1
+
+### Patch Changes
+
+- Add images and video to Getting started page
+
+## 9.4.0
+
+### Minor Changes
+
+- Update all packages
+
 ## 9.3.1
 
 ### Patch Changes

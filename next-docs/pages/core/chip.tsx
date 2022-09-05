@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chipTW/Active';
 import Default from '../../public/examples/chipTW/Default';
 import Icons from '../../public/examples/chipTW/Icons';
@@ -67,6 +68,60 @@ const Example = () => {
         title="Is Stroke with Icons"
         preview={<IsStrokeIcons />}
         code={examples ? examples.IsStrokeIcons : 'Loading'}
+      />
+      <PropsTable
+        title="Chip props"
+        data={[
+          {
+            name: 'iconLeft',
+            type: 'JSX.Element | boolean',
+            required: false,
+            default: '-',
+            description: 'Left icon',
+          },
+          {
+            name: 'iconOnly',
+            type: 'JSX.Element | boolean',
+            required: false,
+            default: '-',
+            description: 'Icon without text',
+          },
+          {
+            name: 'iconRight',
+            type: 'JSX.Element | boolean',
+            required: false,
+            default: '-',
+            description: 'Right icon',
+          },
+          {
+            name: 'isActive',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Active state',
+          },
+          {
+            name: 'isStroke',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Shows stroke on hover/active',
+          },
+          {
+            name: 'size',
+            type: 'sm | md',
+            required: false,
+            default: 'md',
+            description: 'Size of chip',
+          },
+          {
+            name: 'variant',
+            type: 'default | ghost',
+            required: false,
+            default: 'default',
+            description: 'Visual/Logical variant of chip',
+          },
+        ]}
       />
     </>
   );

@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
@@ -13,15 +12,14 @@ const PagePagination = () => {
       <ComponentPageDescription title="Pagination">
         <p>
           Pagination component based on{' '}
-          <Link href="https://github.com/AdeleD/react-paginate#readme">
-            <a
-              className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-              target="_blank"
-              rel="noreferrer"
-            >
-              react-paginate
-            </a>
-          </Link>
+          <a
+            href="https://github.com/AdeleD/react-paginate#readme"
+            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+            target="_blank"
+            rel="noreferrer"
+          >
+            react-paginate
+          </a>
           .
         </p>
       </ComponentPageDescription>

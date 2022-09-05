@@ -97,13 +97,11 @@ const IconSun = () => (
 interface IDarkModeSwitcher {
   isEnabled: boolean;
   toggle: () => void;
-  isRtlEnabled: boolean;
 }
 
 const DarkLightModeSwitcher: React.FC<IDarkModeSwitcher> = ({
   isEnabled,
   toggle,
-  isRtlEnabled,
 }) => (
   <button
     onClick={toggle}

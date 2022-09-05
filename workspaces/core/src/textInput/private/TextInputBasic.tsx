@@ -23,7 +23,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      backgroundColor = 'bg-gohan',
+      bgColor = 'bg-gohan',
       ...rest
     } = props;
     const inputProps = {
@@ -58,7 +58,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
           isError={isError}
           ref={ref}
           id={id}
-          backgroundColor={backgroundColor}
+          bgColor={bgColor}
           isRtl={dir === 'rtl'}
           {...inputProps}
         />

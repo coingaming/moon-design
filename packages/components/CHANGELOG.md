@@ -1,5 +1,80 @@
 # Change Log
 
+## 9.6.0
+
+### Minor Changes
+
+- Add Table to Tailwind
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.6.0
+  - @heathmont/moon-icons@9.6.0
+  - @heathmont/moon-themes@9.6.0
+  - @heathmont/moon-utils@9.6.0
+
+## 9.5.0
+
+### Minor Changes
+
+- Bump version to 9.5.0
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.5.0
+  - @heathmont/moon-assets@9.5.0
+  - @heathmont/moon-icons@9.5.0
+  - @heathmont/moon-utils@9.5.0
+
+## 9.4.3
+
+### Patch Changes
+
+- Bump version to 9.4.3
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.4.3
+  - @heathmont/moon-icons@9.4.3
+  - @heathmont/moon-themes@9.4.3
+  - @heathmont/moon-utils@9.4.3
+
+## 9.4.2
+
+### Patch Changes
+
+- Trigger release
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.4.2
+  - @heathmont/moon-icons@9.4.2
+  - @heathmont/moon-themes@9.4.2
+  - @heathmont/moon-utils@9.4.2
+
+## 9.4.1
+
+### Patch Changes
+
+- Add images and video to Getting started page
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.4.1
+  - @heathmont/moon-icons@9.4.1
+  - @heathmont/moon-themes@9.4.1
+  - @heathmont/moon-utils@9.4.1
+
+## 9.4.0
+
+### Minor Changes
+
+- Update all packages
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.4.0
+  - @heathmont/moon-icons@9.4.0
+  - @heathmont/moon-themes@9.4.0
+  - @heathmont/moon-utils@9.4.0
+
 ## 9.3.1
 
 ### Patch Changes

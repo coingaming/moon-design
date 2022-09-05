@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-core-tw",
   "sideEffects": false,
-  "version": "9.3.1",
+  "version": "9.6.0",
   "files": [
     "lib"
   ],
@@ -21,10 +21,10 @@
   },
   "dependencies": {
     "@headlessui/react": "1.6.1",
-    "@heathmont/moon-icons-tw": "workspace:^9.3.1"
+    "@heathmont/moon-icons-tw": "workspace:^9.6.0"
   },
   "peerDependencies": {
-    "react": ">= 17.0.2",
-    "react-dom": ">= 17.0.2"
+    "react": ">= 18.0.0",
+    "react-dom": ">= 18.0.0"
   }
 }

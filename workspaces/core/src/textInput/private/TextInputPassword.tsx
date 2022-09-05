@@ -26,7 +26,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      backgroundColor = 'bg-gohan',
+      bgColor = 'bg-gohan',
       ...rest
     } = props;
 
@@ -56,7 +56,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
             className={classNames(
               'w-full max-w-full relative ',
               getBorderRadius(inputSize),
-              backgroundColor && backgroundColor
+              bgColor && bgColor
             )}
           >
             <Input
@@ -111,7 +111,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
             isError={isError}
             ref={ref}
             id={id}
-            backgroundColor={backgroundColor}
+            bgColor={bgColor}
             isPassword
             {...inputProps}
           />
