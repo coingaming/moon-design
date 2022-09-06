@@ -10,7 +10,7 @@ const Button: React.FC<{ isActive: boolean; onClick: () => void }> = ({
   <button
     className={classNames(
       'group',
-      isActive ? 'text-gray-900 bg-white' : 'text-gray-600 ',
+      isActive ? 'text-bulma bg-gohan' : 'text-trunks',
       'group transition-colors flex-inline rounded-md p-1.5 lg:ps-2.5 lg:pe-3.5 flex items-center text-sm font-medium shadow-sm'
     )}
     {...rest}
@@ -41,7 +41,7 @@ const PreviewSwitch = ({
         size="lg"
       />
     )}
-    <div className="p-0.5 rounded-lg flex bg-gray-300">
+    <div className="p-0.5 rounded-lg flex bg-beerus">
       <Button isActive={isPreviewActive} onClick={setPreviewActive}>
         <>
           <svg
@@ -62,7 +62,7 @@ const PreviewSwitch = ({
       </Button>
       <Button isActive={!isPreviewActive} onClick={setCodeActive}>
         <svg
-          className="group-hover:text-gray-900"
+          className="group-hover:text-bulma"
           width="32"
           height="32"
           viewBox="0 0 32 32"
@@ -74,7 +74,7 @@ const PreviewSwitch = ({
             fill="currentColor"
           />
         </svg>
-        <span className="sr-only lg:not-sr-only group-hover:text-gray-900">
+        <span className="sr-only lg:not-sr-only group-hover:text-bulma">
           Code
         </span>
       </Button>

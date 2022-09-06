@@ -22,7 +22,7 @@ const GithubIcon = () => (
 
 const ForDevelopers = () => {
   return (
-    <div className="relative z-50 flex grow p-6 gap-6 theme-tokens rounded-moon-s-lg bg-cell 3xl:flex-col 3xl:h-96 3xl:w-80 ltr:3xl:rounded-tl-none rtl:3xl:rounded-tr-none 3xl:absolute 3xl:top-96 ltr:3xl:right-0 rtl:3xl:left-0">
+    <div className="theme-moon-light relative z-50 flex grow p-6 gap-6 theme-tokens rounded-moon-s-lg bg-cell text-bulma 3xl:flex-col 3xl:h-96 3xl:w-80 ltr:3xl:rounded-tl-none rtl:3xl:rounded-tr-none 3xl:absolute 3xl:top-96 ltr:3xl:right-0 rtl:3xl:left-0">
       <div className="flex gap-6 align-center justify-between grow 3xl:flex-col 3xl:justify-end">
         <GithubIcon />
         <h2 className="text-moon-24 grow 3xl:grow-0">For developers.</h2>
