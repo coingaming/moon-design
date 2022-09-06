@@ -13,25 +13,25 @@ const TokenTable = ({ data, title }: TokenTableProps) => (
   <section className="flex flex-col gap-6">
     {title && <h2 className="text-moon-24 font-medium">{title}</h2>}
     <div className="overflow-x-auto">
-      <table className="min-w-full divide-y divide-gray-200">
-        <thead className="bg-gray-50">
+      <table className="min-w-full divide-y divide-beerus">
+        <thead className="bg-goku">
           <tr>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-gray-500 uppercase tracking-wider"
+              className="px-4 py-3 text-start text-xs font-medium text-trunks uppercase tracking-wider"
             >
               Property
             </th>
 
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-gray-500 uppercase tracking-wider"
+              className="px-4 py-3 text-start text-xs font-medium text-trunks uppercase tracking-wider"
             >
               Key
             </th>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-gray-500 uppercase tracking-wider"
+              className="px-4 py-3 text-start text-xs font-medium text-trunks uppercase tracking-wider"
             >
               Value
             </th>
@@ -41,17 +41,17 @@ const TokenTable = ({ data, title }: TokenTableProps) => (
           {data.map((prop: Data, propIdx: number) => (
             <tr
               key={prop.key}
-              className={propIdx % 2 === 0 ? 'bg-white' : 'bg-gray-50'}
+              className={propIdx % 2 === 0 ? 'bg-gohan' : 'bg-goku'}
             >
-              <td className="px-4 py-4 whitespace-nowrap text-sm font-medium text-gray-900">
+              <td className="px-4 py-4 whitespace-nowrap text-sm font-medium text-bulma">
                 {prop.name}
               </td>
 
-              <td className="px-4 py-4 whitespace-nowrap text-sm text-gray-500">
+              <td className="px-4 py-4 whitespace-nowrap text-sm text-trunks">
                 {prop.key}
               </td>
 
-              <td className="px-4 py-4 text-sm text-gray-500">{prop.value}</td>
+              <td className="px-4 py-4 text-sm text-trunks">{prop.value}</td>
             </tr>
           ))}
         </tbody>

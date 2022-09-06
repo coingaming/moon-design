@@ -21,13 +21,13 @@ const ReactSettings = () => {
       <SettingsButton onClick={toggle} />
       {isOpened && (
         <>
-          <div className="ltr:right-4 rtl:left-4 fixed bottom-16 z-50">
+          <div className="ltr:right-4 rtl:left-4 fixed bottom-[4.5rem] z-50">
             <DarkLightModeSwitcher
               toggle={switchModeHandler}
               isEnabled={getMode() === 'dark'}
             />
           </div>
-          <div className="ltr:right-4 rtl:left-4 fixed bottom-[6.75rem] z-50">
+          <div className="ltr:right-4 rtl:left-4 fixed bottom-[6.5rem] z-50">
             <RTLModeSwitch toggle={toggleRtl} isEnabled={isRtlEnabled} />
           </div>
         </>

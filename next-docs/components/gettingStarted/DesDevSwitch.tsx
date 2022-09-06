@@ -9,7 +9,7 @@ const Button: React.FC<{ isActive: boolean; onClick: () => void }> = ({
   <button
     className={classNames(
       'group',
-      isActive ? 'text-gray-900 bg-white' : 'text-gray-600 ',
+      isActive ? 'text-bulma bg-gohan' : 'text-trunks',
       'group transition-colors flex-inline rounded-md p-1.5 lg:ps-2.5 lg:pe-3.5 flex items-center text-sm font-medium shadow-sm'
     )}
     {...rest}
@@ -26,7 +26,7 @@ type Props = {
 
 const DesDevSwitch = ({ isDesActive, setDesActive, setDevActive }: Props) => (
   <div className="flex flex-row gap-2">
-    <div className="p-0.5 rounded-lg flex bg-gray-300">
+    <div className="p-0.5 rounded-lg flex bg-beerus">
       <Link href="/gettingStarted">
         <a>
           <Button isActive={isDesActive} onClick={setDesActive}>

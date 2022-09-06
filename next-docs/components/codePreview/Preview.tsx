@@ -32,9 +32,7 @@ const Preview = ({ title, preview, code }: Props) => {
       </div>
       <div
         className={classNames(
-          isPreviewActive
-            ? `p-4 ${themeClassName || 'theme-moon-light'}`
-            : 'theme-moon-dark',
+          isPreviewActive ? `p-4` : 'theme-moon-dark',
           'flex bg-goku text-moon-14 rounded-moon-s-sm preview'
         )}
       >

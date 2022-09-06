@@ -42,7 +42,11 @@ function App() {
   // implement your own makeData function
   const data = React.useMemo(() => makeData(100000), []);
 
-  return <Table columns={columns} data={data} />;
+  return (
+    <div className="overflow-auto">
+      <Table columns={columns} data={data} />
+    </div>
+  );
 }
 
 export default App;

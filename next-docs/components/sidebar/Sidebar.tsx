@@ -10,7 +10,7 @@ import type ItemType from './ItemType';
 const Sidebar = () => {
   const { pathname } = useRouter();
   return (
-    <div className="theme-moon-light z-10 fixed top-0 h-screen w-80 flex flex-col flex-grow gap-10 pt-12 pb-6 px-5 lg:px-8 bg-goku overflow-y-scroll">
+    <div className="z-10 fixed top-0 h-screen w-80 flex flex-col flex-grow gap-10 pt-12 pb-6 px-5 lg:px-8 bg-goku overflow-y-scroll">
       <div className="flex items-center flex-shrink-0 ps-3">
         <LogoLink />
       </div>

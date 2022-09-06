@@ -1,7 +1,7 @@
 import React, { ReactNode } from 'react';
 import Image from 'next/image';
+import Layout from '../components/Layout';
 import ManifestCard from '../components/ManifestCard';
-import ManifestLayout from '../components/ManifestLayout';
 import Logo from '../components/sidebar/Logo';
 import SameDifferentSignature from '../components/sidebar/SameDifferentSignature';
 import imageMoon from '../public/moon.png';
@@ -77,7 +77,7 @@ const Manifest = () => (
 );
 
 Manifest.getLayout = function getLayout(page: ReactNode) {
-  return <ManifestLayout>{page}</ManifestLayout>;
+  return <Layout>{page}</Layout>;
 };
 
 export default Manifest;
