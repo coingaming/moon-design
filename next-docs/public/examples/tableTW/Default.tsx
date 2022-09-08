@@ -9,54 +9,40 @@ function App() {
       width: 150, // width is used for both the flex-basis and flex-grow
     }),
     []
-  )
+  );
 
   const columns = React.useMemo(
     () => [
       {
-        Header: 'Name',
-        columns: [
-          {
-            Header: 'First Name',
-            accessor: 'firstName',
-          },
-          {
-            Header: 'Last Name',
-            accessor: 'lastName',
-          },
-        ],
+        Header: 'Age',
+        accessor: 'age',
+        collapse: true,
+        width: 24,
       },
       {
-        Header: 'Info',
-        columns: [
-          {
-            Header: 'Age',
-            accessor: 'age',
-            collapse: true,
-          },
-          {
-            Header: 'Visits',
-            accessor: 'visits',
-            collapse: true,
-          },
-          {
-            Header: 'Status',
-            accessor: 'status',
-          },
-          {
-            Header: 'Profile Progress',
-            accessor: 'progress',
-            collapse: true,
-          },
-        ],
+        Header: 'Visits',
+        accessor: 'visits',
+        collapse: true,
+        width: 24,
+      },
+      {
+        Header: 'Status',
+        accessor: 'status',
+        width: 24,
+      },
+      {
+        Header: 'Profile Progress',
+        accessor: 'progress',
+        collapse: true,
+        width: 24,
       },
     ],
     []
-  )
+  );
 
   const data = React.useMemo(() => makeData(20), []);
 
-  return <Table columns={columns} data={data} defaultColumn={defaultColumn}/>;
+  return <Table columns={columns} data={data} defaultColumn={defaultColumn} />;
 }
 
 export default App;
