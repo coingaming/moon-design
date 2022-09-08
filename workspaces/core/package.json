@@ -20,6 +20,7 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
+    "@headlessui/react": "1.6.1",
     "@heathmont/moon-icons-tw": "workspace:^9.6.0"
   },
   "peerDependencies": {
