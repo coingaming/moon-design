@@ -1,7 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import Virtualized from '../../public/examples/tableTW/Virtualized';
+import Default from '../../public/examples/tableTW/Default';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -35,8 +35,8 @@ const Example = () => {
         </p>
       </ComponentPageDescription>
       <Preview
-        title="Virtualized table"
-        preview={<Virtualized />}
+        title="Table"
+        preview={<Default />}
         code={examples ? examples.Virtualized : 'Loading'}
       />
     </>

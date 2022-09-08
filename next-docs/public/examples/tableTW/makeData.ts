@@ -25,8 +25,8 @@ const newPerson = () => {
   };
 };
 
-// TODO any
-export default function makeData(...lens: any[]) {
+export default function makeData(...lens: number[]) {
+  // TODO any
   const makeDataLevel: any = (depth = 0) => {
     const len = lens[depth];
     return range(len).map((d) => {
