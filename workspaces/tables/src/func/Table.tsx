@@ -2,12 +2,12 @@ import React from 'react';
 import { useTable, Column, useFlexLayout } from 'react-table';
 import {
   table,
-  td,
-  th,
-  trHeader,
-  trBody,
   thead,
   tbody,
+  trHeader,
+  trBody,
+  th,
+  td,
 } from '../styled/StyledTable';
 
 type Props<Columns, Data> = {
@@ -29,7 +29,6 @@ export default function Table<
       },
       useFlexLayout
     );
-
   return (
     <table {...getTableProps()} className={table}>
       <thead className={thead}>
