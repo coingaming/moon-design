@@ -1,6 +1,6 @@
 :root,
-:root.theme-treadart-light,
-.theme-treadart-light {
+:root.theme-tradeart-light,
+.theme-tradeart-light {
   --piccolo: 62 147 248; /* #3e93f8 */
   --hit: 194 199 205; /* #c2c7cd */
   --beerus: 235 235 235; /* #ebebeb */
@@ -68,8 +68,8 @@
   --averta: 'Averta Std';
 }
 
-:root.theme-treadart-dark,
-.theme-treadart-dark {
+:root.theme-tradeart-dark,
+.theme-tradeart-dark {
   --piccolo: 62 147 248; /* #3e93f8 */
   --hit: 63 123 192; /* #3f7bc0 */
   --beerus: 68 68 68; /* #444444 */

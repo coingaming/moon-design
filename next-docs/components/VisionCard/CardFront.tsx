@@ -11,7 +11,7 @@ const CardFront: React.FC<CardFrontProps> = ({
   userImage,
 }) => {
   return (
-    <div className="flex flex-col items-center bg-goku rounded-moon-s-lg gap-14 p-2">
+    <div className="theme-moon-dark flex flex-col items-center bg-goku text-bulma rounded-moon-s-lg gap-14 p-2">
       <div className="flex flex-col gap-14 max-w-lg items-end">
         <Image src={headerImage} alt={altHeaderImage} />
         <p className="text-moon-16 max-w-md text-right text-trunks">

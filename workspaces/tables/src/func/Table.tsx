@@ -1,91 +1,67 @@
 import React from 'react';
-import { useTable, useBlockLayout, Column } from 'react-table';
-import { FixedSizeList } from 'react-window';
-import { table, td, th, trHeader, trBody } from '../styled/StyledTable';
+import { useTable, Column, useFlexLayout } from 'react-table';
+import {
+  table,
+  td,
+  th,
+  trHeader,
+  trBody,
+  trBodyInner,
+  tableContainer,
+  thead,
+} from '../styled/StyledTable';
 
 type Props<Columns, Data> = {
   columns: Columns;
   data: Data;
+  defaultColumn: Partial<Column<object>>;
 };
 
 export default function Table<
   Columns extends readonly Column<object>[],
   Data extends readonly object[]
->({ columns, data }: Props<Columns, Data>) {
-  const defaultColumn = React.useMemo(
-    () => ({
-      // TODO pass as a prop
-      width: 150,
-    }),
-    []
-  );
-
-  // TODO pass as a prop
-  const scrollBarSize = 0; // px;
-
-  const {
-    getTableProps,
-    getTableBodyProps,
-    headerGroups,
-    rows,
-    totalColumnsWidth,
-    prepareRow,
-  } = useTable(
-    {
-      columns,
-      data,
-      defaultColumn,
-    },
-    useBlockLayout
-  );
-
-  const RenderRow = React.useCallback(
-    ({ index, style }) => {
-      const row = rows[index];
-      prepareRow(row);
-      return (
-        <div
-          {...row.getRowProps({
-            style,
-          })}
-          className={trBody}
-        >
-          {row.cells.map((cell) => {
-            return (
-              <div {...cell.getCellProps()} className={td}>
-                {cell.render('Cell')}
-              </div>
-            );
-          })}
-        </div>
-      );
-    },
-    [prepareRow, rows]
-  );
+>({ columns, data, defaultColumn }: Props<Columns, Data>) {
+  const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } =
+    useTable(
+      {
+        columns,
+        data,
+        defaultColumn,
+      },
+      useFlexLayout
+    );
 
   return (
-    <div {...getTableProps()} className={table}>
-      {headerGroups.map((headerGroup) => (
-        <div {...headerGroup.getHeaderGroupProps()} className={trHeader}>
-          {headerGroup.headers.map((column) => (
-            <div {...column.getHeaderProps()} className={th}>
-              {column.render('Header')}
-            </div>
+    <div className={tableContainer}>
+      <table {...getTableProps()} className={table}>
+        <thead className={thead}>
+          {headerGroups.map((headerGroup) => (
+            <tr className={trHeader} {...headerGroup.getHeaderGroupProps()}>
+              {headerGroup.headers.map((column) => (
+                <th className={th} {...column.getHeaderProps()}>
+                  {column.render('Header')}
+                </th>
+              ))}
+            </tr>
           ))}
-        </div>
-      ))}
-
-      {/*  TODO pass as props */}
-      <div {...getTableBodyProps()}>
-        <FixedSizeList
-          height={400}
-          itemCount={rows.length}
-          itemSize={56}
-          width={totalColumnsWidth + scrollBarSize}
-        >
-          {RenderRow}
-        </FixedSizeList>
-      </div>
+        </thead>
+        <tbody {...getTableBodyProps()} className={trBody}>
+          {rows.map((row, i) => {
+            prepareRow(row);
+            return (
+              <tr className={trBody} {...row.getRowProps()}>
+                {row.cells.map((cell) => {
+                  return (
+                    <td className={td} {...cell.getCellProps()}>
+                      {cell.render('Cell')}
+                    </td>
+                  );
+                })}
+              </tr>
+            );
+          })}
+        </tbody>
+      </table>
     </div>
   );
 }
