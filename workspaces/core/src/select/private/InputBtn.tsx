@@ -13,12 +13,14 @@ type InputBtnProps = {
   disabled?: boolean;
 };
 
-const getSelectSize = (size?: 'md' | 'lg' | 'xl' | string) => {
+const getSelectSize = (size?: 'sm' | 'md' | 'lg' | 'xl' | string) => {
   switch (size) {
     case 'xl':
       return 'h-14 py-2 px-4';
     case 'lg':
       return 'h-12 py-3 px-4';
+    case 'sm':
+      return 'h-8 py-1 p-3';
     case 'md':
     default:
       return 'h-10 py-2 px-3';

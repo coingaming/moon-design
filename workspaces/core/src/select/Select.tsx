@@ -11,16 +11,20 @@ export type BaseOptionType = {
   value: string | number;
 };
 
-type SelectProps<T> = {
-  size?: 'md' | 'lg' | 'xl' | string;
+type SelectProps<T extends readonly object[]> = {
+  size?: 'sm' | 'md' | 'lg' | 'xl' | string;
   label?: JSX.Element | string;
   placeholder: JSX.Element | string;
   isError?: boolean;
   hintText?: JSX.Element | string;
-  options: unknown; //TODO: set correct type for option
+  value?: BaseOptionType;
+  onChange: (value: BaseOptionType | string | undefined) => void;
+  options: T;
+  formatOptionLabel?: (data: BaseOptionType) => JSX.Element | string;
+  menuWidth?: string;
 } & HTMLInputElement;
 
-const Select: React.FC<SelectProps<BaseOptionType>> = ({
+const Select: React.FC<SelectProps<BaseOptionType[]>> = ({
   label,
   placeholder,
   size = 'md',
@@ -28,18 +32,29 @@ const Select: React.FC<SelectProps<BaseOptionType>> = ({
   hintText,
   disabled,
   options,
+  value,
+  onChange,
+  formatOptionLabel,
+  menuWidth,
   ...rest
 }) => {
-  const [selectedPerson, setSelectedPerson] = useState<BaseOptionType>();
+  const [option, setOption] = useState<BaseOptionType>(value);
+  const onChangeHandler = (data: BaseOptionType) => {
+    onChange && data && onChange(data);
+    data && setOption(data);
+  };
   return (
     <Listbox
-      value={selectedPerson}
-      onChange={setSelectedPerson}
+      value={option}
+      onChange={(data) => onChangeHandler(data)}
       disabled={disabled}
     >
       {({ open }) => (
         <div
-          className={classNames(disabled && 'opacity-30 cursor-not-allowed')}
+          className={classNames(
+            'w-full',
+            disabled && 'opacity-30 cursor-not-allowed'
+          )}
         >
           <div className="relative">
             {label && size !== 'xl' && (
@@ -61,12 +76,23 @@ const Select: React.FC<SelectProps<BaseOptionType>> = ({
                     {label}
                   </Listbox.Label>
                 )}
-                {selectedPerson ? (
-                  <span className="text-moon-16 text-bulma">
-                    {selectedPerson?.label}
+                {option ? (
+                  <span
+                    className={classNames(
+                      size === 'sm' ? 'text-moon-14' : 'text-moon-16',
+                      'text-bulma'
+                    )}
+                  >
+                    {(formatOptionLabel && formatOptionLabel(option)) ||
+                      option?.label}
                   </span>
                 ) : placeholder ? (
-                  <span className="text-moon-16 text-trunks">
+                  <span
+                    className={classNames(
+                      size === 'sm' ? 'text-moon-14' : 'text-moon-16',
+                      'text-trunks'
+                    )}
+                  >
                     {placeholder}
                   </span>
                 ) : (
@@ -74,7 +100,13 @@ const Select: React.FC<SelectProps<BaseOptionType>> = ({
                 )}
               </div>
             </InputBtn>
-            {options && <Options options={options} />}
+            {options && (
+              <Options
+                options={options}
+                formatOptionLabel={formatOptionLabel}
+                menuWidth={menuWidth}
+              />
+            )}
           </div>
           {hintText && <HintText isError={isError}>{hintText}</HintText>}
         </div>

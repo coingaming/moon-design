@@ -1,89 +1,162 @@
-import React, { useState } from 'react';
-import { Select } from '@heathmont/moon-core-tw';
-// import Preview from '../../components/codePreview/Preview';
+import React from 'react';
+import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import PropsTable from '../../components/PropsTable';
+import Disabled from '../../public/examples/selectTw/single/Disabled';
+import Error from '../../public/examples/selectTw/single/Error';
+import Hint from '../../public/examples/selectTw/single/Hint';
+import Options from '../../public/examples/selectTw/single/Options';
+import OptionsWidth from '../../public/examples/selectTw/single/OptionsWidth';
+import WithLabel from '../../public/examples/selectTw/single/WithLabel';
+import WithoutLabel from '../../public/examples/selectTw/single/WithoutLabel';
 import useExamples from '../../utils/useExamples';
 
-const options = [
-  { label: 'English', value: 'en', flag: '🇬🇧' },
-  { label: 'Japanese', value: 'ja', flag: '🇯🇵' },
-  { label: 'Russian', value: 'ru', flag: '🇷🇺' },
-  { label: 'Portuguese', value: 'pt', flag: '🇧🇷' },
-  { label: 'Chinese', value: 'zh', flag: '🇨🇳' },
-  { label: 'Spanish', value: 'es', flag: '🇪🇸' },
-  { label: 'Korean', value: 'ko', flag: '🇰🇷' },
-  { label: 'Thai', value: 'th', flag: '🇹🇭' },
-  { label: 'German', value: 'de', flag: '🇩🇪' },
-  { label: 'Turkish', value: 'tr', flag: '🇹🇷' },
-  { label: 'Estonian', value: 'et', flag: '🇪🇪' },
-  { label: 'Swedish', value: 'sv', flag: '🇸🇪' },
-  { label: 'French', value: 'fr', flag: '🇫🇷' },
-  { label: 'Finnish', value: 'fi', flag: '🇫🇮' },
-  { label: 'Vietnamese', value: 'vi', flag: '🇻🇳' },
-  { label: 'Not set', value: 'default', flag: '🏳️' },
-];
-
-const options2 = [
-  {
-    value: 'Option 1',
-    label: 'Option 1',
-  },
-  {
-    value: 'Option 2',
-    label: 'Option 2',
-  },
-  {
-    value: 'Option 3',
-    label: 'Option 3',
-  },
-];
-
 const Example = () => {
-  const examples = useExamples('accordionTW');
-
+  const examples = useExamples('selectTw/single');
   return (
     <>
       <ComponentPageDescription title="Select">
         <p>
-          Like the accordion instrument, our accordion component reveals or
-          hides associated sections of content. This is done through the use of
-          a vertically stacked list of headers.
+          Select components are used for collecting user provided information
+          from a list of options.
         </p>
         <p>
-          Users can decide which sections to toggle, read and close as the
-          header titles will give them a high-level overview of the content
-          that's in the space.
+          Select has 3 sizes with a different views: <b>md</b> (by default),
+          <b>lg</b> and <b>xl</b>.
+        </p>
+        <p>
+          <b>md</b> and <b>lg</b> size has label outside input, <b>xl</b> has
+          label inside the input.
+        </p>
+        <p>
+          The width of select by default 100%, and should be controlled by the
+          parent container width.
         </p>
       </ComponentPageDescription>
-      <div className="p-4 flex bg-goku text-moon-14 rounded-moon-s-sm preview theme-moon-light">
-        <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
-          <div className="w-40">
-            <Select
-              options={options}
-              label="Input label text"
-              placeholder="Choose"
-              isError
-            />
-          </div>
-          <div className="w-96">
-            <Select
-              label="Input label text"
-              size="lg"
-              placeholder="Choose"
-              disabled
-            />
-          </div>
-          <div className="w-96">
-            <Select
-              options={options2}
-              label="Input label text"
-              size="xl"
-              placeholder="Choose"
-              hintText="Informative message holder"
-            />
-          </div>
-        </div>
-      </div>
+      <Preview
+        title="With Label"
+        preview={<WithLabel />}
+        code={examples ? examples.WithLabel : 'Loading'}
+      />
+
+      <Preview
+        title="Formatted options"
+        preview={<Options />}
+        code={examples ? examples.Options : 'Loading'}
+      />
+
+      <Preview
+        title="Hint message"
+        preview={<Hint />}
+        code={examples ? examples.Hint : 'Loading'}
+      />
+
+      <Preview
+        title="Error"
+        preview={<Error />}
+        code={examples ? examples.Error : 'Loading'}
+      />
+
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+
+      <Preview
+        title="Without label"
+        preview={<WithoutLabel />}
+        code={examples ? examples.WithoutLabel : 'Loading'}
+      />
+
+      <Preview
+        title="List options width"
+        preview={<OptionsWidth />}
+        code={examples ? examples.OptionsWidth : 'Loading'}
+      />
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'size',
+            type: 'sm | md | lg | xl',
+            required: false,
+            default: 'md',
+            description: `The option's value.`,
+          },
+          {
+            name: 'options',
+            type: 'Object[]',
+            required: true,
+            default: '-',
+            description: `List of options.`,
+          },
+          {
+            name: 'label',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: `Label title`,
+          },
+          {
+            name: 'placeholder',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Placeholder',
+          },
+          {
+            name: 'value',
+            type: 'Object',
+            required: false,
+            default: '-',
+            description: 'Controled value',
+          },
+          {
+            name: 'onChange',
+            type: 'funct',
+            required: false,
+            default: '-',
+            description: 'onChange event handler',
+          },
+          {
+            name: 'menuWidth',
+            type: 'string',
+            required: false,
+            default: '_',
+            description: 'Tailwind class for custom options container width',
+          },
+          {
+            name: 'hintText',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '_',
+            description: 'Inform message under select',
+          },
+          {
+            name: 'isError',
+            type: 'boolean',
+            required: false,
+            default: '_',
+            description: 'Set valid/not valid select',
+          },
+          {
+            name: 'isDisabled',
+            type: 'boolean',
+            required: false,
+            default: '_',
+            description: 'Set disabled/not disabled select',
+          },
+          {
+            name: 'formatOptionLabel',
+            type: 'funct',
+            required: false,
+            default: '-',
+            description:
+              'Function to customize the list options (like rendering an element as JSX)',
+          },
+        ]}
+      />
     </>
   );
 };
