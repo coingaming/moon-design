@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.7.0
+
+### Minor Changes
+
+- Add headless Table and Select
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.7.0
+
 ## 9.6.0
 
 ### Minor Changes

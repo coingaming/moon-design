@@ -1,5 +1,20 @@
 # @heathmont/moon-datepicker
 
+## 9.7.0
+
+### Minor Changes
+
+- Add headless Table and Select
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.7.0
+  - @heathmont/moon-core@9.7.0
+  - @heathmont/moon-icons@9.7.0
+  - @heathmont/moon-themes@9.7.0
+  - @heathmont/moon-utils@9.7.0
+
 ## 9.6.0
 
 ### Minor Changes
