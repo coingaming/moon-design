@@ -6,3 +6,5 @@ export { default as Table } from './func/Table';
 export * from './func/Table';
 export { default as StyledTable } from './styled/StyledTable';
 export * from './styled/StyledTable';
+export { default as classnames } from './utils/classnames';
+export * from './utils/classnames';
