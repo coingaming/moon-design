@@ -37,7 +37,7 @@ const Example = () => {
       <Preview
         title="Table"
         preview={<Default />}
-        code={examples ? examples.Virtualized : 'Loading'}
+        code={examples ? examples.Default : 'Loading'}
       />
     </>
   );

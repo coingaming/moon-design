@@ -11,18 +11,20 @@ export type BaseOptionType = {
   value: string | number;
 };
 
-type SelectProps<T extends readonly object[]> = {
-  size?: 'sm' | 'md' | 'lg' | 'xl' | string;
+export type SelectSize = 'sm' | 'md' | 'lg' | 'xl';
+export type SelectProps<T extends readonly object[]> = {
+  size?: SelectSize | string;
   label?: JSX.Element | string;
-  placeholder: JSX.Element | string;
+  placeholder?: JSX.Element | string;
   isError?: boolean;
   hintText?: JSX.Element | string;
   value?: BaseOptionType;
-  onChange: (value: BaseOptionType | string | undefined) => void;
+  onChange?: (value?: BaseOptionType | string | null) => void;
   options: T;
-  formatOptionLabel?: (data: BaseOptionType) => JSX.Element | string;
+  formatOptionLabel?: (data?: BaseOptionType) => JSX.Element | string;
   menuWidth?: string;
-} & HTMLInputElement;
+  disabled?: boolean;
+};
 
 const Select: React.FC<SelectProps<BaseOptionType[]>> = ({
   label,
@@ -38,8 +40,8 @@ const Select: React.FC<SelectProps<BaseOptionType[]>> = ({
   menuWidth,
   ...rest
 }) => {
-  const [option, setOption] = useState<BaseOptionType>(value);
-  const onChangeHandler = (data: BaseOptionType) => {
+  const [option, setOption] = useState<BaseOptionType | null>(value || null);
+  const onChangeHandler = (data: BaseOptionType | null) => {
     onChange && data && onChange(data);
     data && setOption(data);
   };

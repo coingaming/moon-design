@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.7.1
+
+### Patch Changes
+
+- new moon-v9.7.1
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.7.1
+  - @heathmont/moon-core@9.7.1
+  - @heathmont/moon-icons@9.7.1
+  - @heathmont/moon-themes@9.7.1
+  - @heathmont/moon-utils@9.7.1
+
 ## 9.7.0
 
 ### Minor Changes
