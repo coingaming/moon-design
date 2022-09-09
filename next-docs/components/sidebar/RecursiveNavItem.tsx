@@ -5,9 +5,10 @@ import type ItemType from './ItemType';
 type Props = {
   item: ItemType;
   pathname: string;
+  onClick?: () => void;
 };
 
-const RecursiveNavItem: React.FC<Props> = ({ item, pathname }) => {
+const RecursiveNavItem: React.FC<Props> = ({ item, pathname, onClick }) => {
   const { name, href, children } = item;
   const gettingStartedPathname =
     pathname === '/gettingStartedDevs' ? '/gettingStarted' : pathname;
@@ -21,6 +22,7 @@ const RecursiveNavItem: React.FC<Props> = ({ item, pathname }) => {
               key={subItem.name}
               item={subItem}
               pathname={pathname}
+              onClick={onClick}
             />
           ))}
         </div>
@@ -28,7 +30,7 @@ const RecursiveNavItem: React.FC<Props> = ({ item, pathname }) => {
     );
   }
   return (
-    <Link key={name} href={href} isActive={isCurrent}>
+    <Link key={name} href={href} isActive={isCurrent} onClick={onClick}>
       {name}
     </Link>
   );

@@ -6,11 +6,12 @@ type Props = {
   href: string;
   isActive: boolean;
   children: React.ReactNode;
+  onClick?: () => void;
 };
 
-const Link: React.FC<Props> = ({ href, children, isActive }) => (
+const Link: React.FC<Props> = ({ href, children, isActive, onClick }) => (
   <NextLink href={href}>
-    <a>
+    <a onClick={onClick}>
       <Chip variant="ghost" isActive={isActive}>
         {children}
       </Chip>
