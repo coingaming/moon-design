@@ -12,21 +12,21 @@ export type BaseOptionType = {
 };
 
 export type SelectSize = 'sm' | 'md' | 'lg' | 'xl';
-export type SelectProps<T extends readonly object[]> = {
+export type SelectProps<T extends readonly object[], BaseOptionType> = {
   size?: SelectSize | string;
   label?: JSX.Element | string;
   placeholder?: JSX.Element | string;
   isError?: boolean;
   hintText?: JSX.Element | string;
   value?: BaseOptionType;
-  onChange?: (value?: BaseOptionType | string | null) => void;
+  onChange?: (value?: BaseOptionType) => void;
   options: T;
   formatOptionLabel?: (data?: BaseOptionType) => JSX.Element | string;
   menuWidth?: string;
   disabled?: boolean;
 };
 
-const Select: React.FC<SelectProps<BaseOptionType[]>> = ({
+const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
   label,
   placeholder,
   size = 'md',
@@ -60,7 +60,12 @@ const Select: React.FC<SelectProps<BaseOptionType[]>> = ({
         >
           <div className="relative">
             {label && size !== 'xl' && (
-              <Listbox.Label className="block text-moon-16 text-bulma pb-2">
+              <Listbox.Label
+                className={classNames(
+                  'block text-bulma pb-2',
+                  size === 'sm' ? 'text-moon-14' : 'text-moon-16'
+                )}
+              >
                 {label}
               </Listbox.Label>
             )}

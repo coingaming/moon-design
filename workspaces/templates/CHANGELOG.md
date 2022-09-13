@@ -1,5 +1,11 @@
 # @heathmont/moon-templates
 
+## 9.7.2
+
+### Patch Changes
+
+- v9.7.2
+
 ## 9.7.1
 
 ### Patch Changes
