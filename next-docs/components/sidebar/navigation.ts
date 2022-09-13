@@ -23,6 +23,7 @@ const navigation = [
       { name: 'Label', href: '/core/label' },
       { name: 'Loader', href: '/core/loader' },
       { name: 'Select', href: '/core/select' },
+      { name: 'Switch', href: '/core/switch' },
       { name: 'Table', href: '/core/table' },
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInput Group', href: '/core/textInputGroup' },
