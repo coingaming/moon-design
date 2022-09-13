@@ -2,7 +2,9 @@ import React from 'react';
 import { Listbox } from '@headlessui/react';
 import {
   ControlsChevronDown,
+  ControlsChevronDownSmall,
   ControlsChevronUp,
+  ControlsChevronUpSmall,
 } from '@heathmont/moon-icons-tw';
 import classNames from '../../private/utils/classnames';
 
@@ -16,14 +18,14 @@ type InputBtnProps = {
 const getSelectSize = (size?: 'sm' | 'md' | 'lg' | 'xl' | string) => {
   switch (size) {
     case 'xl':
-      return 'h-14 py-2 px-4';
+      return 'h-14 py-2 px-4 rounded-moon-i-md';
     case 'lg':
-      return 'h-12 py-3 px-4';
+      return 'h-12 py-3 px-4 rounded-moon-i-sm';
     case 'sm':
-      return 'h-8 py-1 p-3';
+      return 'h-8 py-1 p-3 rounded-moon-i-xs';
     case 'md':
     default:
-      return 'h-10 py-2 px-3';
+      return 'h-10 py-2 px-3 rounded-moon-i-sm';
   }
 };
 const InputBtn: React.FC<InputBtnProps> = ({
@@ -38,7 +40,7 @@ const InputBtn: React.FC<InputBtnProps> = ({
     {...rest}
     className={classNames(
       'flex items-center justify-between',
-      'w-full rounded-moon-i-md bg-gohan border-beerus',
+      'w-full bg-gohan border-beerus',
       'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
       'focus:shadow-input-focus focus:outline-none',
       getSelectSize(size),
@@ -50,7 +52,13 @@ const InputBtn: React.FC<InputBtnProps> = ({
     {children}
     <div className="flex-shrink-0">
       {open ? (
-        <ControlsChevronUp className="text-[1.5rem] text-trunks" />
+        size === 'sm' ? (
+          <ControlsChevronUpSmall className="text-[1.5rem] text-trunks" />
+        ) : (
+          <ControlsChevronUp className="text-[1.5rem] text-trunks" />
+        )
+      ) : size === 'sm' ? (
+        <ControlsChevronDownSmall className="text-[1.5rem] text-trunks" />
       ) : (
         <ControlsChevronDown className="text-[1.5rem] text-trunks" />
       )}
