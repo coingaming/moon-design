@@ -11,7 +11,7 @@ exports[`Multi Select renders disabled 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-14"
         id="headlessui-listbox-label-:r10:"
         onClick={[Function]}
       >
@@ -19,7 +19,7 @@ exports[`Multi Select renders disabled 1`] = `
       </label>
       <button
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 opacity-30 cursor-not-allowed"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
         disabled={true}
         id="headlessui-listbox-button-:r11:"
         type="button"
@@ -45,7 +45,7 @@ exports[`Multi Select renders disabled 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M25 11.5l-9 9-9-9"
+              d="M22 13l-6 6-6-6"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -68,7 +68,7 @@ exports[`Multi Select renders disabled 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-16"
         id="headlessui-listbox-label-:r13:"
         onClick={[Function]}
       >
@@ -76,7 +76,7 @@ exports[`Multi Select renders disabled 1`] = `
       </label>
       <button
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 opacity-30 cursor-not-allowed"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
         disabled={true}
         id="headlessui-listbox-button-:r14:"
         type="button"
@@ -125,7 +125,7 @@ exports[`Multi Select renders disabled 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-16"
         id="headlessui-listbox-label-:r16:"
         onClick={[Function]}
       >
@@ -133,7 +133,7 @@ exports[`Multi Select renders disabled 1`] = `
       </label>
       <button
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 opacity-30 cursor-not-allowed"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
         disabled={true}
         id="headlessui-listbox-button-:r17:"
         type="button"
@@ -183,7 +183,7 @@ exports[`Multi Select renders disabled 1`] = `
     >
       <button
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 opacity-30 cursor-not-allowed"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
         disabled={true}
         id="headlessui-listbox-button-:r19:"
         type="button"
@@ -246,7 +246,7 @@ exports[`Multi Select renders error 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-14"
         id="headlessui-listbox-label-:r1c:"
         onClick={[Function]}
       >
@@ -255,7 +255,7 @@ exports[`Multi Select renders error 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
         disabled={false}
         id="headlessui-listbox-button-:r1d:"
         onClick={[Function]}
@@ -284,7 +284,7 @@ exports[`Multi Select renders error 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M25 11.5l-9 9-9-9"
+              d="M22 13l-6 6-6-6"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -307,7 +307,7 @@ exports[`Multi Select renders error 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-16"
         id="headlessui-listbox-label-:r1f:"
         onClick={[Function]}
       >
@@ -316,7 +316,7 @@ exports[`Multi Select renders error 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
         disabled={false}
         id="headlessui-listbox-button-:r1g:"
         onClick={[Function]}
@@ -368,7 +368,7 @@ exports[`Multi Select renders error 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-16"
         id="headlessui-listbox-label-:r1i:"
         onClick={[Function]}
       >
@@ -377,7 +377,7 @@ exports[`Multi Select renders error 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
         disabled={false}
         id="headlessui-listbox-button-:r1j:"
         onClick={[Function]}
@@ -431,7 +431,7 @@ exports[`Multi Select renders error 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
         disabled={false}
         id="headlessui-listbox-button-:r1l:"
         onClick={[Function]}
@@ -497,7 +497,7 @@ exports[`Multi Select renders with hint 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-14"
         id="headlessui-listbox-label-:rk:"
         onClick={[Function]}
       >
@@ -506,7 +506,7 @@ exports[`Multi Select renders with hint 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
         disabled={false}
         id="headlessui-listbox-button-:rl:"
         onClick={[Function]}
@@ -535,7 +535,7 @@ exports[`Multi Select renders with hint 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M25 11.5l-9 9-9-9"
+              d="M22 13l-6 6-6-6"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -558,7 +558,7 @@ exports[`Multi Select renders with hint 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-16"
         id="headlessui-listbox-label-:rn:"
         onClick={[Function]}
       >
@@ -567,7 +567,7 @@ exports[`Multi Select renders with hint 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
         disabled={false}
         id="headlessui-listbox-button-:ro:"
         onClick={[Function]}
@@ -619,7 +619,7 @@ exports[`Multi Select renders with hint 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-16"
         id="headlessui-listbox-label-:rq:"
         onClick={[Function]}
       >
@@ -628,7 +628,7 @@ exports[`Multi Select renders with hint 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
         disabled={false}
         id="headlessui-listbox-button-:rr:"
         onClick={[Function]}
@@ -682,7 +682,7 @@ exports[`Multi Select renders with hint 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
         disabled={false}
         id="headlessui-listbox-button-:rt:"
         onClick={[Function]}
@@ -748,7 +748,7 @@ exports[`Multi Select renders with label 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-14"
         id="headlessui-listbox-label-:r0:"
         onClick={[Function]}
       >
@@ -757,7 +757,7 @@ exports[`Multi Select renders with label 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
         disabled={false}
         id="headlessui-listbox-button-:r1:"
         onClick={[Function]}
@@ -786,7 +786,7 @@ exports[`Multi Select renders with label 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M25 11.5l-9 9-9-9"
+              d="M22 13l-6 6-6-6"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -803,7 +803,7 @@ exports[`Multi Select renders with label 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-16"
         id="headlessui-listbox-label-:r3:"
         onClick={[Function]}
       >
@@ -812,7 +812,7 @@ exports[`Multi Select renders with label 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
         disabled={false}
         id="headlessui-listbox-button-:r4:"
         onClick={[Function]}
@@ -858,7 +858,7 @@ exports[`Multi Select renders with label 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-16"
         id="headlessui-listbox-label-:r6:"
         onClick={[Function]}
       >
@@ -867,7 +867,7 @@ exports[`Multi Select renders with label 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
         disabled={false}
         id="headlessui-listbox-button-:r7:"
         onClick={[Function]}
@@ -915,7 +915,7 @@ exports[`Multi Select renders with label 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
         disabled={false}
         id="headlessui-listbox-button-:r9:"
         onClick={[Function]}
@@ -977,7 +977,7 @@ exports[`Multi Select renders without label 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
         disabled={false}
         id="headlessui-listbox-button-:rc:"
         onClick={[Function]}
@@ -1006,7 +1006,7 @@ exports[`Multi Select renders without label 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M25 11.5l-9 9-9-9"
+              d="M22 13l-6 6-6-6"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -1025,7 +1025,7 @@ exports[`Multi Select renders without label 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
         disabled={false}
         id="headlessui-listbox-button-:re:"
         onClick={[Function]}
@@ -1073,7 +1073,7 @@ exports[`Multi Select renders without label 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
         disabled={false}
         id="headlessui-listbox-button-:rg:"
         onClick={[Function]}
@@ -1121,7 +1121,7 @@ exports[`Multi Select renders without label 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
         disabled={false}
         id="headlessui-listbox-button-:ri:"
         onClick={[Function]}
@@ -1174,7 +1174,7 @@ exports[`Multi Select with diferent option 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-14"
         id="headlessui-listbox-label-:r1o:"
         onClick={[Function]}
       >
@@ -1183,7 +1183,7 @@ exports[`Multi Select with diferent option 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
         disabled={false}
         id="headlessui-listbox-button-:r1p:"
         onClick={[Function]}
@@ -1223,7 +1223,7 @@ exports[`Multi Select with diferent option 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M25 11.5l-9 9-9-9"
+              d="M22 13l-6 6-6-6"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -1240,7 +1240,7 @@ exports[`Multi Select with diferent option 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-16"
         id="headlessui-listbox-label-:r1r:"
         onClick={[Function]}
       >
@@ -1249,7 +1249,7 @@ exports[`Multi Select with diferent option 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
         disabled={false}
         id="headlessui-listbox-button-:r1s:"
         onClick={[Function]}
@@ -1306,7 +1306,7 @@ exports[`Multi Select with diferent option 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
+        className="block text-bulma pb-2 text-moon-16"
         id="headlessui-listbox-label-:r1u:"
         onClick={[Function]}
       >
@@ -1315,7 +1315,7 @@ exports[`Multi Select with diferent option 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
         disabled={false}
         id="headlessui-listbox-button-:r1v:"
         onClick={[Function]}
@@ -1374,7 +1374,7 @@ exports[`Multi Select with diferent option 1`] = `
       <button
         aria-expanded={false}
         aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4"
+        className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
         disabled={false}
         id="headlessui-listbox-button-:r21:"
         onClick={[Function]}
@@ -1450,7 +1450,7 @@ exports[`Multi Select with option width 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
           disabled={false}
           id="headlessui-listbox-button-:r24:"
           onClick={[Function]}
@@ -1479,7 +1479,7 @@ exports[`Multi Select with option width 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M25 11.5l-9 9-9-9"
+                d="M22 13l-6 6-6-6"
                 stroke="currentColor"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -1502,7 +1502,7 @@ exports[`Multi Select with option width 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r26:"
           onClick={[Function]}
@@ -1554,7 +1554,7 @@ exports[`Multi Select with option width 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r28:"
           onClick={[Function]}
@@ -1606,7 +1606,7 @@ exports[`Multi Select with option width 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
           disabled={false}
           id="headlessui-listbox-button-:r2a:"
           onClick={[Function]}
