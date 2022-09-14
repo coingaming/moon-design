@@ -25,6 +25,7 @@ const navigation = [
       { name: 'Select', href: '/core/select' },
       { name: 'Switch', href: '/core/switch' },
       { name: 'Table', href: '/core/table' },
+      { name: 'Tabs', href: '/core/tabs' },
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInput Group', href: '/core/textInputGroup' },
       { name: 'Typography', href: '/core/typography' },

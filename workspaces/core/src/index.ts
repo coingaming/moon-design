@@ -28,6 +28,8 @@ export { default as Select } from './select/Select';
 export * from './select/Select';
 export { default as Switch } from './switch/Switch';
 export * from './switch/Switch';
+export { default as Tabs } from './tabs/Tabs';
+export * from './tabs/Tabs';
 export { default as TextInput } from './textInput/TextInput';
 export * from './textInput/TextInput';
 export { default as TextInputGroup } from './textInputGroup/TextInputGroup';
