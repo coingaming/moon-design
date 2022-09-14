@@ -50,7 +50,10 @@ export default function Table<
         {rows.map((row, i) => {
           prepareRow(row);
           return (
-            <tr className={trBody} {...row.getRowProps()}>
+            <tr
+              className={classNames(trBody, 'hover:shadow-moon-xs')} //hover:bg-piccolo/[.12]
+              {...row.getRowProps()}
+            >
               {row.cells.map((cell) => {
                 return (
                   <td
