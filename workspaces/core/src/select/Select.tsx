@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Listbox } from '@headlessui/react';
 import classNames from '../private/utils/classnames';
 import HintText from './private/HintText';
@@ -19,7 +19,7 @@ export type SelectProps<T extends readonly object[], BaseOptionType> = {
   isError?: boolean;
   hintText?: JSX.Element | string;
   value?: BaseOptionType;
-  onChange?: (value?: BaseOptionType) => void;
+  onChange?: (value?: BaseOptionType | null) => void;
   options: T;
   formatOptionLabel?: (data?: BaseOptionType) => JSX.Element | string;
   menuWidth?: string;
@@ -42,9 +42,15 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
 }) => {
   const [option, setOption] = useState<BaseOptionType | null>(value || null);
   const onChangeHandler = (data: BaseOptionType | null) => {
-    onChange && data && onChange(data);
-    data && setOption(data);
+    onChange && (data ? onChange(data) : onChange(null));
+    data ? setOption(data) : setOption(null);
   };
+
+  useEffect(() => {
+    value ? onChangeHandler(value) : onChangeHandler(null);
+  }, [value]);
+
+
   return (
     <Listbox
       value={option}
