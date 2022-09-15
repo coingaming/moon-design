@@ -66,6 +66,14 @@
 
   /* fonts */
   --averta: 'Averta Std';
+
+  /* box-shadow */
+  --shadow-xs: 0px 4px 12px -6px rgba(0, 0, 0, 0.06);
+  --shadow-sm: 0 6px 6px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 12px 12px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0px 32px 32px -8px rgba(0, 0, 0, 0.08),
+    0px 0px 32px -8px rgba(0, 0, 0, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 :root.theme-tradeart-dark,
@@ -79,4 +87,14 @@
   --trunks: 153 156 160; /* #999ca0 */
   --goten: 255 255 255; /* #ffffff */
   --popo: 0 0 0; /* #000000 */
+
+  --shadow-xs: 0px 4px 12px -6px rgba(0, 0, 0, 0.64);
+  --shadow-sm: 0px 6px 6px -6px rgba(0, 0, 0, 0.64),
+    0px 0px 1px rgba(0, 0, 0, 0.56);
+  --shadow-md: 0px 12px 12px -6px rgba(0, 0, 0, 0.64),
+    0px 0px 1px rgba(0, 0, 0, 0.56);
+  --shadow-lg: 0px 24px 24px -6px rgba(0, 0, 0, 0.64),
+    0px 0px 1px rgba(0, 0, 0, 0.56);
+  --shadow-xl: 0px 48px 48px -6px rgba(0, 0, 0, 0.88),
+    0px 0px 1px rgba(0, 0, 0, 0.72);
 }

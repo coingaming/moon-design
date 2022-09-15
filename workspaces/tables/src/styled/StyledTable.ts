@@ -5,7 +5,7 @@ export const tbody = 'flex flex-col gap-1';
 export const trHeader =
   'flex gap-4 rounded-moon-s-sm bg-goku text-bulma moon-text-14 px-4';
 export const trBody =
-  'flex gap-4 rounded-moon-s-sm bg-gohan hover:bg-piccolo/[.12] transition-colors text-bulma moon-text-14 px-4';
+  'flex gap-4 rounded-moon-s-sm bg-gohan transition-colors text-bulma moon-text-14 px-4';
 export const th = 'py-3 text-start font-normal';
 export const td = 'py-4 relative text-start';
 export const tdDevider =
