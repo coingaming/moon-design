@@ -19,7 +19,7 @@ export type SelectProps<T extends readonly object[], BaseOptionType> = {
   isError?: boolean;
   hintText?: JSX.Element | string;
   value?: BaseOptionType;
-  onChange?: (value?: BaseOptionType | null) => void;
+  onChange?: (value?: BaseOptionType) => void;
   options: T;
   formatOptionLabel?: (data?: BaseOptionType) => JSX.Element | string;
   menuWidth?: string;
@@ -40,16 +40,17 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
   menuWidth,
   ...rest
 }) => {
-  const [option, setOption] = useState<BaseOptionType | null>(value || null);
-  const onChangeHandler = (data: BaseOptionType | null) => {
-    onChange && (data ? onChange(data) : onChange(null));
-    data ? setOption(data) : setOption(null);
+  const [option, setOption] = useState<BaseOptionType | undefined>(value);
+  const onChangeHandler = (data?: BaseOptionType) => {
+    if (onChange) {
+      onChange(data);
+    }
+    setOption(data);
   };
 
   useEffect(() => {
-    value ? onChangeHandler(value) : onChangeHandler(null);
+    onChangeHandler(value);
   }, [value]);
-
 
   return (
     <Listbox
