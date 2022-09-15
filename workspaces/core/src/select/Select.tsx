@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Listbox } from '@headlessui/react';
 import classNames from '../private/utils/classnames';
 import HintText from './private/HintText';
@@ -40,11 +40,18 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
   menuWidth,
   ...rest
 }) => {
-  const [option, setOption] = useState<BaseOptionType | null>(value || null);
-  const onChangeHandler = (data: BaseOptionType | null) => {
-    onChange && data && onChange(data);
-    data && setOption(data);
+  const [option, setOption] = useState<BaseOptionType | undefined>(value);
+  const onChangeHandler = (data?: BaseOptionType) => {
+    if (onChange) {
+      onChange(data);
+    }
+    setOption(data);
   };
+
+  useEffect(() => {
+    onChangeHandler(value);
+  }, [value]);
+
   return (
     <Listbox
       value={option}

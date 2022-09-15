@@ -139,14 +139,11 @@ module.exports = {
           '0 0 0 var(--border-i-width) rgb(var(--bulma) / 7%) inset, 0 0 0 var(--border-i-width) rgb(var(--beerus)) inset',
         'input-err': '0 0 0 var(--border-i-width) rgb(var(--chichi)) inset',
         'input-focus': '0 0 0 var(--border-i-width) rgb(var(--piccolo)) inset',
-        'moon-sm':
-          '0 6px 6px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
-        'moon-md':
-          '0 12px 12px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
-        'moon-lg':
-          '0 8px 24px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
-        'moon-xl':
-          '0 32px 32px -8px rgba(0, 0, 0, 0.08), 0 0 32px -8px rgba(0, 0, 0, 0.12), 0 0 1px rgba(0, 0, 0, 0.2)',
+        'moon-xs': 'var(--shadow-xs)',
+        'moon-sm': 'var(--shadow-sm)',
+        'moon-md': 'var(--shadow-md)',
+        'moon-lg': 'var(--shadow-lg)',
+        'moon-xl': 'var(--shadow-xl)',
       },
       opacity: {
         moon: 'var(--opacity-moon)',
