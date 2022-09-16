@@ -24,27 +24,27 @@ const Example = () => {
       <Preview
         title="Tab underline"
         preview={<IsUnderline />}
-        code={examples ? examples.Default : 'Loading'}
+        code={examples ? examples.IsUnderline : 'Loading'}
       />
       <Preview
         title="Tab pills"
         preview={<IsTabPills />}
-        code={examples ? examples.Default : 'Loading'}
+        code={examples ? examples.IsTabPills : 'Loading'}
       />
       <Preview
         title="Segment control"
         preview={<IsSegmented />}
-        code={examples ? examples.Default : 'Loading'}
+        code={examples ? examples.IsSegmented : 'Loading'}
       />
       <Preview
         title="Tab underline vertical"
         preview={<VerticalWithLine />}
-        code={examples ? examples.Default : 'Loading'}
+        code={examples ? examples.VerticalWithLine : 'Loading'}
       />
       <Preview
         title="Tab pills vertical"
         preview={<IsVertical />}
-        code={examples ? examples.Default : 'Loading'}
+        code={examples ? examples.IsVertical : 'Loading'}
       />
     </>
   );
