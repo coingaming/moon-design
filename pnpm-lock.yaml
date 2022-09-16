@@ -528,9 +528,11 @@ importers:
     specifiers:
       '@headlessui/react': 1.6.1
       '@heathmont/moon-icons-tw': workspace:^9.7.3
+      react-popper: ^2.3.0
     dependencies:
       '@headlessui/react': 1.6.1_biqbaboplfbrettd7655fr4n2y
       '@heathmont/moon-icons-tw': link:../icons
+      react-popper: 2.3.0_r6q5zrenym2zg7je7hgi674bti
 
   workspaces/icons:
     specifiers:
@@ -9642,6 +9644,10 @@ packages:
       react: 18.2.0
       scheduler: 0.23.0
 
+  /react-fast-compare/3.2.0:
+    resolution: {integrity: sha512-rtGImPZ0YyLrscKI9xTpV8psd6I8VAtjKCzQDlzyDvqJA8XOW78TXYQwNRNd8g8JZnDu8q9Fu/1v4HPAVwVdHA==}
+    dev: false
+
   /react-focus-lock/2.9.1_react@16.14.0:
     resolution: {integrity: sha512-pSWOQrUmiKLkffPO6BpMXN7SNKXMsuOakl652IBuALAu1esk+IcpJyM+ALcYzPTTFz1rD0R54aB9A4HuP5t1Wg==}
     peerDependencies:
@@ -9688,6 +9694,20 @@ packages:
     dependencies:
       prop-types: 15.8.1
       react: 16.14.0
+    dev: false
+
+  /react-popper/2.3.0_r6q5zrenym2zg7je7hgi674bti:
+    resolution: {integrity: sha512-e1hj8lL3uM+sgSR4Lxzn5h1GxBlpa4CQz0XLF8kx4MDrDRWY0Ena4c97PUeSX9i5W3UAfDP0z0FXCTQkoXUl3Q==}
+    peerDependencies:
+      '@popperjs/core': ^2.0.0
+      react: ^16.8.0 || ^17 || ^18
+      react-dom: ^16.8.0 || ^17 || ^18
+    dependencies:
+      '@popperjs/core': 2.11.6
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-fast-compare: 3.2.0
+      warning: 4.0.3
     dev: false
 
   /react-remove-scroll-bar/2.3.3_react@16.14.0:
@@ -11603,6 +11623,12 @@ packages:
     resolution: {integrity: sha512-ts/8E8l5b7kY0vlWLewOkDXMmPdLcVV4GmOQLyxuSswIJsweeFZtAsMF7k1Nszz+TYBQrlYRmzOnr398y1JemQ==}
     dependencies:
       makeerror: 1.0.12
+
+  /warning/4.0.3:
+    resolution: {integrity: sha512-rpJyN222KWIvHJ/F53XSZv0Zl/accqHR8et1kpaMTD/fLCRxtV8iX8czMzY7sVZupTI3zcUTg8eycS2kNF9l6w==}
+    dependencies:
+      loose-envify: 1.4.0
+    dev: false
 
   /wcwidth/1.0.1:
     resolution: {integrity: sha512-XHPEwS0q6TaxcvG85+8EYkbiCux2XtWG2mkc47Ng2A77BQu9+DqIOJldST4HgPkuea7dvKSj5VgX3P1d4rW8Tg==}

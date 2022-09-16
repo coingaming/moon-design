@@ -21,7 +21,8 @@
   },
   "dependencies": {
     "@headlessui/react": "1.6.1",
-    "@heathmont/moon-icons-tw": "workspace:^9.7.3"
+    "@heathmont/moon-icons-tw": "workspace:^9.7.3",
+    "react-popper": "^2.3.0"
   },
   "peerDependencies": {
     "react": ">= 18.0.0",
