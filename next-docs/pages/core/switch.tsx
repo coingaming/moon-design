@@ -2,6 +2,10 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
+
+import SizesCode from '../../public/examples/switchTW/codeExamples/Sizes';
+import SizesWithIconsCode from '../../public/examples/switchTW/codeExamples/SizesWithIcons';
+
 import Custom from '../../public/examples/switchTW/Custom';
 import Default from '../../public/examples/switchTW/Default';
 import Disabled from '../../public/examples/switchTW/Disabled';
@@ -12,6 +16,7 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('switchTw');
+  const examplesCode = useExamples('switchTw/codeExamples');
   return (
     <>
       <ComponentPageDescription title="Select">
@@ -32,6 +37,7 @@ const Example = () => {
           parent container width.
         </p>
       </ComponentPageDescription>
+
       <Preview
         title="Default"
         preview={<Default />}
@@ -146,6 +152,17 @@ const Example = () => {
             description: 'Set icon for unchecked state',
           },
         ]}
+      />
+
+      <Preview
+        title="Code exemples for full cistomization"
+        preview={<SizesCode />}
+        code={examplesCode ? examplesCode.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Code exemples with icons for full cistomization "
+        preview={<SizesWithIconsCode />}
+        code={examplesCode ? examplesCode.SizesWithIcons : 'Loading'}
       />
     </>
   );
