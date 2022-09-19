@@ -10,13 +10,13 @@ const Example = () => {
         <Tab.List className="flex h-10 p-1 bg-beerus rounded-xl">
           {items.map((item: string) => {
             return (
-              <div className="mr-2">
+              <div className="mr-1">
                 <Tab as={Fragment}>
                   {({ selected }) => (
                     <button
                       className={
                         selected
-                          ? 'bg-gohan  text-bulma rounded-lg px-2 py-1 focus:border-none shadow-sm '
+                          ? 'bg-gohan  text-bulma rounded-lg px-2 py-1 focus:border-none shadow-sm'
                           : 'text-bulma px-2 py-1'
                       }
                     >
