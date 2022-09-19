@@ -10,7 +10,7 @@ const Example = () => {
     <>
       <Tab.Group>
         <Tab.List className="flex p-1 bg-beerus rounded-xl">
-          {items.map((item:any) => {
+          {items.map((item: string) => {
             return (
               <Tab as={Fragment}>
                 {({ selected }) => (
