@@ -7,16 +7,16 @@ const Example = () => {
   return (
     <>
       <Tab.Group>
-        <Tab.List className="flex h-10 p-1 bg-beerus rounded-xl">
+        <Tab.List className="flex h-10 p-1 bg-beerus rounded-moon-i-md">
           {items.map((item: string) => {
             return (
-              <div className="mr-1">
+              <div className="me-1 last:me-0">
                 <Tab as={Fragment}>
                   {({ selected }) => (
                     <button
                       className={
                         selected
-                          ? 'bg-gohan  text-bulma rounded-lg px-2 py-1 focus:border-none shadow-sm'
+                          ? 'bg-gohan  text-bulma rounded-moon-s-sm px-2 py-1 focus:border-none shadow-sm'
                           : 'text-bulma px-2 py-1'
                       }
                     >
@@ -31,16 +31,16 @@ const Example = () => {
       </Tab.Group>
 
       <Tab.Group>
-        <Tab.List className="flex h-12 p-1 bg-beerus rounded-xl">
+        <Tab.List className="flex h-12 p-1 bg-beerus rounded-moon-i-md">
           {items.map((item: string) => {
             return (
-              <div className="mr-2">
+              <div className="me-2 last:me-0">
                 <Tab as={Fragment}>
                   {({ selected }) => (
                     <button
                       className={
                         selected
-                          ? 'bg-gohan text-bulma rounded-lg px-3 py-2 focus:border-none shadow-sm '
+                          ? 'bg-gohan text-bulma rounded-moon-s-sm px-3 py-2 focus:border-none shadow-sm '
                           : 'text-bulma px-3 py-2'
                       }
                     >
