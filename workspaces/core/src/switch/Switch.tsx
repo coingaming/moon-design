@@ -97,7 +97,7 @@ const Switch: FC<SwitchProps> = ({
         <span
           aria-hidden="true"
           className={classNames(
-            'z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out',
+            'z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out',
             getSwitchSpanSize(size),
             enabled ? 'left-full translate-x-[-100%]' : 'left-0'
           )}
