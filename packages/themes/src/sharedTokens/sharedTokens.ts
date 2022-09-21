@@ -325,6 +325,7 @@ export type Brand =
   | 'ShangriLa.io'
   | 'Empire.io'
   | 'Tajcasino'
+  | 'Tradeart'
   | 'Onetouch';
 
 export type ColorScheme = 'light' | 'dark';
