@@ -1,5 +1,23 @@
 # @heathmont/moon-table-tw
 
+## 9.7.6
+
+### Patch Changes
+
+- Bumn version
+
+## 9.7.5
+
+### Patch Changes
+
+- Bump version
+
+## 9.7.4
+
+### Patch Changes
+
+- Bump version
+
 ## 9.7.3
 
 ### Patch Changes
