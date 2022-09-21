@@ -16,6 +16,7 @@ import Icons from '../Icons';
 import FullWidth from '../FullWidth';
 import Disabled from '../Disabled';
 import Animations from '../Animations';
+import AsLink from '../AsLink';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -34,6 +35,11 @@ const renderWithDarkTheme = (component: JSX.Element) => (
 describe('Button', () => {
   it('renders default', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders as link', () => {
+    const testRenderer = renderer.create(renderWithTheme(<AsLink />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

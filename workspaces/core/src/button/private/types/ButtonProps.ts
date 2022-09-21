@@ -1,8 +1,9 @@
+import React from 'react';
 import type ButtonAnimations from './ButtonAnimations';
 import type ButtonIcons from './ButtonIcons';
 import type ButtonVariants from './ButtonVariants';
 
-type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
+type ButtonProps<C extends React.ElementType> = {
   variant?: ButtonVariants;
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
   icon?: ButtonIcons;
@@ -13,6 +14,15 @@ type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
   iconOnly?: JSX.Element | boolean;
   disabled?: boolean;
   fullWidth?: boolean;
+  children?: React.ReactNode;
+  as?: C;
 };
+
+export type Props<C extends React.ElementType> = React.PropsWithChildren<
+  ButtonProps<C>
+> &
+  Omit<React.ComponentPropsWithoutRef<C>, keyof ButtonProps<C>>;
+
+type PolymorphicComponentProp<C extends React.ElementType, Props = {}> = {};
 
 export default ButtonProps;

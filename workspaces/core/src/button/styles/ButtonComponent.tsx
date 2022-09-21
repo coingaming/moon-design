@@ -4,9 +4,9 @@ import errorAnimation from '../private/buttonAnimations/errorAnimation';
 import buttonSizes from '../private/buttonSizes/buttonSizes';
 import buttonCommonStyles from '../private/buttonStyles/buttonCommonStyles';
 import buttonVariants from '../private/buttonStyles/buttonVariants';
-import type ButtonProps from '../private/types/ButtonProps';
+import type { Props } from '../private/types/ButtonProps';
 
-const ButtonComponent: React.FC<ButtonProps> = ({
+const ButtonComponent = <C extends React.ElementType = 'button'>({
   variant,
   size,
   icon,
@@ -17,10 +17,12 @@ const ButtonComponent: React.FC<ButtonProps> = ({
   fullWidth,
   disabled,
   animation,
+  as,
   ...rest
-}) => {
+}: Props<C>) => {
+  const Component = as || 'button';
   return (
-    <button
+    <Component
       className={classNames(
         buttonSizes({ size, icon, iconLeft, iconRight, iconOnly }),
         buttonCommonStyles({ iconSize, disabled }),
