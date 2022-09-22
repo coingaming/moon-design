@@ -27,7 +27,7 @@ const PageTextInputGroup = () => {
         <p>
           Select type - <em>@heathmont/moon-select</em>
         </p>
-        <p className="font-bold">
+        <p className="font-medium">
           !!! TextInput Group is supported only in size `xlarge`.
         </p>
       </ComponentPageDescription>
