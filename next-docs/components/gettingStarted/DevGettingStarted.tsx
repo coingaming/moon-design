@@ -5,7 +5,7 @@ import PageSection from '../PageSection';
 const DevGettingStarted = () => (
   <>
     <PageSection title="Overview">
-      <p className="text-moon-16">
+      <p>
         <span className="font-medium">Moon Design System</span> is a collection
         of reusable components set up and grouped according to simple and clear
         standards. <span className="font-medium">Moon DS</span> component
@@ -15,17 +15,15 @@ const DevGettingStarted = () => (
         framework instead of the Styled-components (CSS-in-JS styling framework)
         that was used previously.
       </p>
-      <p className="text-moon-16 font-medium">
+      <p className="font-medium">
         NB! Please note that the Moon DS, which is based on the
         Styled-components framework, is still maintained, but it is no longer
         updated with new components.{' '}
       </p>
     </PageSection>
     <PageSection title="Prerequisites">
-      <p className="text-moon-16">
-        Before you can use Moon DS, you need to do the following:{' '}
-      </p>
-      <ol className="flex flex-col gap-1 list-decimal list-inside text-moon-16">
+      <p>Before you can use Moon DS, you need to do the following: </p>
+      <ol className="flex flex-col gap-1 list-decimal list-inside">
         <li>
           Install Tailwind CSS:{' '}
           <a
@@ -76,11 +74,11 @@ const DevGettingStarted = () => (
       </ol>
     </PageSection>
     <PageSection title="Installing Moon DS" id="install">
-      <p className="text-moon-16">Run:</p>
+      <p>Run:</p>
       <CodeSnippet>{`pnpm i @heathmont/moon-core-tw`}</CodeSnippet>
     </PageSection>
     <PageSection title="Configuring the Project" id="config">
-      <p className="text-moon-16">
+      <p>
         To configure your project to use{' '}
         <span className="font-medium">Moon DS</span> presets, add the following
         to{' '}
@@ -101,14 +99,14 @@ const DevGettingStarted = () => (
 ...
 }
 `}</CodeSnippet>
-      <p className="text-moon-16 font-medium">
+      <p className="font-medium">
         NB! Make sure you have the content list in{' '}
         <code className="bg-goku px-2 rounded-moon-s-xs">
           tailwind.config.js
         </code>
         , that is pointing to all files using tailwind.
       </p>
-      <p className="text-moon-16">
+      <p>
         Project-specific configurations contained in the{' '}
         <code className="bg-goku px-2 rounded-moon-s-xs">
           tailwind.config.js
@@ -134,14 +132,14 @@ const DevGettingStarted = () => (
       </p>
     </PageSection>
     <PageSection title="Installing and adding tailwindcss-rtl plugin" id="rtl">
-      <p className="text-moon-16">
+      <p>
         <code className="bg-goku px-2 rounded-moon-s-xs">tailwindcss-rtl</code>{' '}
         is a third-party plugin that provides new styles for Tailwind for
         right-to-left orientation.
       </p>
-      <p className="text-moon-16">1. Run:</p>
+      <p>1. Run:</p>
       <CodeSnippet>{`npm i tailwindcss-rtl`}</CodeSnippet>
-      <p className="text-moon-16">
+      <p>
         2. Add the plugin to your config{' '}
         <code className="bg-goku px-2 rounded-moon-s-xs">
           tailwind.config.js
@@ -157,7 +155,7 @@ const DevGettingStarted = () => (
 ...
 }
 `}</CodeSnippet>
-      <ul className="flex flex-col gap-1 list-disc list-inside text-moon-16">
+      <ul className="flex flex-col gap-1 list-disc list-inside">
         <li>
           {' '}
           For more information about tailwindcss-rtl plugin and the list of all
@@ -186,7 +184,7 @@ const DevGettingStarted = () => (
       </ul>
     </PageSection>
     <PageSection title="Moon DS additional information">
-      <ul className="flex flex-col gap-1 list-disc list-inside text-moon-16">
+      <ul className="flex flex-col gap-1 list-disc list-inside">
         <li>
           Fonts and reset CSS are configured on the project side. For more
           information, see:{' '}
@@ -217,11 +215,11 @@ const DevGettingStarted = () => (
       </ul>
     </PageSection>
     <PageSection title="Packages">
-      <p className="text-moon-16">
+      <p>
         For now, <span className="font-medium">Moon DS</span> provides three
         packages ready for use in projects with Tailwind CSS:
       </p>
-      <ul className="flex flex-col gap-1 list-disc list-inside text-moon-16">
+      <ul className="flex flex-col gap-1 list-disc list-inside">
         <li>
           <a href="#corePackage">Core Package</a>
         </li>
@@ -237,15 +235,15 @@ const DevGettingStarted = () => (
       <code className="bg-goku px-2 rounded-moon-s-xs self-start">
         @heathmont/moon-core-tw
       </code>
-      <p className="text-moon-16">Run:</p>
+      <p>Run:</p>
       <CodeSnippet>{`pnpm i @heathmont/moon-core-tw`}</CodeSnippet>
-      <p className="text-moon-16">
+      <p>
         This package contains the core components of{' '}
         <span className="font-medium">Moon DS</span> and a reusable preset with
         all configurations needed for using{' '}
         <span className="font-medium">Moon DS</span>.
       </p>
-      <p className="text-moon-16">
+      <p>
         For the description of all ready-to-use components with examples, see
         the{' '}
         <Link href="/">
@@ -256,7 +254,7 @@ const DevGettingStarted = () => (
         </Link>{' '}
         page, under Tailwind.
       </p>
-      <p className="text-moon-16">
+      <p>
         This package is installed as part of Moon DS installation so you don't
         need to install it separately.
       </p>
@@ -265,14 +263,14 @@ const DevGettingStarted = () => (
       <code className="bg-goku px-2 rounded-moon-s-xs self-start">
         @heathmont/moon-themes-tw
       </code>
-      <p className="text-moon-16">Run:</p>
+      <p>Run:</p>
       <CodeSnippet>{`pnpm i @heathmont/moon-themes-tw`}</CodeSnippet>
-      <p className="text-moon-16">
+      <p>
         This package contains all available themes as CSS files with configured
         tokens as CSS variables: main colors, support colors, border radius,
         border width, etc.
       </p>
-      <p className="text-moon-16">
+      <p>
         For theming, we use CSS variables as tokens for styling various aspects
         of the website in a different way, while still maintaining the overall
         look and feel. You can import a CSS file with a particular theme from
@@ -280,13 +278,13 @@ const DevGettingStarted = () => (
         theme for a particular brand. Each file contains the Light and Dark
         modes.
       </p>
-      <p className="text-moon-16">
+      <p>
         CSS variables are defined globally in the{' '}
         <code className="bg-goku px-2 rounded-moon-s-xs">:root</code> element
         and also within the relevant class selector. To switch between Light and
         Dark mode, you need to change classes.
       </p>
-      <p className="text-moon-16">
+      <p>
         Below is an example of a CSS file configured for the Sportsbet.io page:
       </p>
       <CodeSnippet>{`:root,
@@ -370,15 +368,11 @@ const DevGettingStarted = () => (
   --radius-i-md: 624.938rem; /* 9999px */
 }
 `}</CodeSnippet>
-      <p className="text-moon-16 font-medium">
-        NB! Setting up themes is optional.
-      </p>
-      <p className="text-moon-16">
-        It is up to you how to set up themes inside your project.
-      </p>
-      <p className="text-moon-16">For example, you can do the following:</p>
+      <p className="font-medium">NB! Setting up themes is optional.</p>
+      <p>It is up to you how to set up themes inside your project.</p>
+      <p>For example, you can do the following:</p>
       <CodeSnippet>{`@import '@heathmont/moon-themes-tw/src/sportsbet.css';`}</CodeSnippet>
-      <p className="text-moon-16">
+      <p>
         Alternatively, you can copy-paste the tokens from{' '}
         <a
           href="https://github.com/coingaming/moon-design/tree/master/workspaces/themes/src"
@@ -390,7 +384,7 @@ const DevGettingStarted = () => (
         </a>
         , and add them to your project.
       </p>
-      <p className="text-moon-16 font-medium">
+      <p className="font-medium">
         Warning! Do not delete any tokens, please, as it can affect the work of
         Moon DS.
       </p>
@@ -400,14 +394,14 @@ const DevGettingStarted = () => (
       <code className="bg-goku px-2 rounded-moon-s-xs self-start">
         @heathmont/moon-icons-tw
       </code>
-      <p className="text-moon-16">Run:</p>
+      <p>Run:</p>
       <CodeSnippet>{`pnpm i @heathmont/moon-icons-tw`}</CodeSnippet>
-      <p className="text-moon-16">
+      <p>
         This package contains all SVG assets that you might need to build an
         application. They are ready to work with Tailwind CSS, so you can change
         the size and color of icons with the help of TW classes.
       </p>
-      <p className="text-moon-16 font-medium">Example: </p>
+      <p>Example: </p>
       <CodeSnippet>{`import { FilesCopy } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
@@ -421,7 +415,7 @@ const Example = () => (
 
 export default Example;
 `}</CodeSnippet>
-      <p className="text-moon-16">
+      <p>
         For more information on <span className="font-medium">Moon DS</span>{' '}
         icons and icons preview, see:{' '}
         <Link href="/core/icons">
@@ -432,7 +426,7 @@ export default Example;
       </p>
     </PageSection>
     <PageSection title="Useful Links">
-      <ul className="flex flex-col gap-1 list-disc list-inside text-moon-16">
+      <ul className="flex flex-col gap-1 list-disc list-inside">
         <li>
           <a
             href="https://tailwindcss.com/docs/installation"
