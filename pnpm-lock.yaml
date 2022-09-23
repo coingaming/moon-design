@@ -528,10 +528,12 @@ importers:
     specifiers:
       '@headlessui/react': 1.6.1
       '@heathmont/moon-icons-tw': workspace:^9.7.6
+      '@popperjs/core': ^2.11.6
       react-popper: ^2.3.0
     dependencies:
       '@headlessui/react': 1.6.1_biqbaboplfbrettd7655fr4n2y
       '@heathmont/moon-icons-tw': link:../icons
+      '@popperjs/core': 2.11.6
       react-popper: 2.3.0_r6q5zrenym2zg7je7hgi674bti
 
   workspaces/icons:

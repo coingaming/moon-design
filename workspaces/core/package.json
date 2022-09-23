@@ -22,6 +22,7 @@
   "dependencies": {
     "@headlessui/react": "1.6.1",
     "@heathmont/moon-icons-tw": "workspace:^9.7.6",
+    "@popperjs/core": "^2.11.6",
     "react-popper": "^2.3.0"
   },
   "peerDependencies": {

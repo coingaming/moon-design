@@ -65,7 +65,7 @@ const Switch: FC<SwitchProps> = ({
       disabled={disabled}
       onChange={(data) => setEnabledHandler(data)}
       className={classNames(
-        'block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none',
+        'block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none',
         getSwitchSize(size),
         twWidth && twWidth,
         enabled ? bgColor : 'bg-beerus',
