@@ -1,3 +1,4 @@
+import React from 'react';
 import { rem, themed } from '@heathmont/moon-utils';
 import rgba from 'polished/lib/color/rgba';
 import styled from 'styled-components';

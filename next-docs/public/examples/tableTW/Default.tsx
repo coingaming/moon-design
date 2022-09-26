@@ -16,6 +16,7 @@ function App() {
     () => [
       {
         Header: 'Age',
+        Footer: 'Age',
         accessor: 'age',
         collapse: true,
         width: 40,
@@ -23,11 +24,13 @@ function App() {
       },
       {
         Header: 'Visits',
+        Footer: 'Visits',
         accessor: 'visits',
         collapse: true,
       },
       {
         Header: 'Status',
+        Footer: 'Status',
         accessor: 'status',
         collapse: true,
         width: 300,
@@ -35,6 +38,7 @@ function App() {
       },
       {
         Header: 'Profile Progress',
+        Footer: 'Profile Progress',
         accessor: 'progress',
         collapse: true,
       },
@@ -42,7 +46,7 @@ function App() {
     []
   );
 
-  const data = React.useMemo(() => makeData(20), []);
+  const data = React.useMemo(() => makeData(10), []);
 
   return (
     <Table
@@ -50,6 +54,8 @@ function App() {
       data={data}
       defaultColumn={defaultColumn}
       withCellBorder={true}
+      withFooter
+      withMinimap
     />
   );
 }
