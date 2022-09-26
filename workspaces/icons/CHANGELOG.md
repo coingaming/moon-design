@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.7.7
+
+### Patch Changes
+
+- udate v9.7.7
+
 ## 9.7.6
 
 ### Patch Changes
