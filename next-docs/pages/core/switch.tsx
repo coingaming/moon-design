@@ -4,7 +4,6 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import PropsTable from '../../components/PropsTable';
 
 import DefaultCode from '../../public/examples/switchTW/codeExamples/DefaultCode';
-
 import Custom from '../../public/examples/switchTW/Custom';
 import Default from '../../public/examples/switchTW/Default';
 import Disabled from '../../public/examples/switchTW/Disabled';
@@ -157,6 +156,17 @@ const Example = () => {
             description: 'Set icon for unchecked state',
           },
         ]}
+      />
+
+      <Preview
+        title="Code exemples for full cistomization"
+        preview={<SizesCode />}
+        code={examplesCode ? examplesCode.Sizes : 'Loading'}
+      />
+      <Preview
+        title="Code exemples with icons for full cistomization "
+        preview={<SizesWithIconsCode />}
+        code={examplesCode ? examplesCode.SizesWithIcons : 'Loading'}
       />
     </>
   );
