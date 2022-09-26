@@ -1,5 +1,14 @@
 # Change Log
 
+## 9.7.7
+
+### Patch Changes
+
+- udate v9.7.7
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.7.7
+  - @heathmont/moon-utils@9.7.7
+
 ## 9.7.6
 
 ### Patch Changes

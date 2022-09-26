@@ -6,9 +6,8 @@ import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
 import Default from '../Default';
-import Fill from '../Fill';
-import FillContainer from '../FillContainer';
-import IsTop from '../IsTop';
+import HorizontalVariants from '../HorizontalVariants';
+import VerticalVariants from '../VerticalVariants';
 import Small from '../Small';
 import Variant from '../Variant';
 
@@ -22,18 +21,15 @@ describe('Tabs', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders Fill', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Fill />));
+  it('renders HorizontalVariants', () => {
+    const testRenderer = renderer.create(
+      renderWithTheme(<HorizontalVariants />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders Fill Container', () => {
-    const testRenderer = renderer.create(renderWithTheme(<FillContainer />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Is Top', () => {
-    const testRenderer = renderer.create(renderWithTheme(<IsTop />));
+  it('renders VerticalVariants', () => {
+    const testRenderer = renderer.create(renderWithTheme(<VerticalVariants />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
