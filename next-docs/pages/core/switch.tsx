@@ -4,7 +4,6 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import PropsTable from '../../components/PropsTable';
 
 import DefaultCode from '../../public/examples/switchTW/codeExamples/DefaultCode';
-
 import Custom from '../../public/examples/switchTW/Custom';
 import Default from '../../public/examples/switchTW/Default';
 import Disabled from '../../public/examples/switchTW/Disabled';
