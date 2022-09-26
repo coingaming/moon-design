@@ -157,17 +157,6 @@ const Example = () => {
           },
         ]}
       />
-
-      <Preview
-        title="Code exemples for full cistomization"
-        preview={<SizesCode />}
-        code={examplesCode ? examplesCode.Sizes : 'Loading'}
-      />
-      <Preview
-        title="Code exemples with icons for full cistomization "
-        preview={<SizesWithIconsCode />}
-        code={examplesCode ? examplesCode.SizesWithIcons : 'Loading'}
-      />
     </>
   );
 };
