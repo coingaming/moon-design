@@ -114,6 +114,20 @@ const PageTabsNew = () => {
             default: '-',
             description: `The href attribute specifies the link's destination`,
           },
+          {
+            name: 'isActive',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: `Set item as active by default`,
+          },
+          {
+            name: 'onClick',
+            type: 'function',
+            required: false,
+            default: '-',
+            description: `Handler on click action`,
+          },
         ]}
       />
     </>

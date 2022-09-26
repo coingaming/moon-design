@@ -3,7 +3,7 @@
 exports[`Switch renders 1`] = `
 <button
   aria-checked={true}
-  className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-piccolo"
+  className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-piccolo"
   data-tests="test-id"
   id="headlessui-switch-:r0:"
   onClick={[Function]}
@@ -18,7 +18,7 @@ exports[`Switch renders 1`] = `
   >
     <span
       aria-hidden="true"
-      className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-full translate-x-[-100%]"
+      className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-full translate-x-[-100%]"
     />
   </span>
 </button>
@@ -28,7 +28,7 @@ exports[`Switch renders Disabled state 1`] = `
 Array [
   <button
     aria-checked={true}
-    className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
+    className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
     disabled={true}
     id="headlessui-switch-:r7:"
     role="switch"
@@ -40,13 +40,13 @@ Array [
     >
       <span
         aria-hidden="true"
-        className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-full translate-x-[-100%]"
+        className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-full translate-x-[-100%]"
       />
     </span>
   </button>,
   <button
     aria-checked={false}
-    className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
+    className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
     disabled={true}
     id="headlessui-switch-:r8:"
     role="switch"
@@ -58,7 +58,7 @@ Array [
     >
       <span
         aria-hidden="true"
-        className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-0"
+        className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-0"
       />
     </span>
   </button>,
@@ -69,7 +69,7 @@ exports[`Switch renders custom width and bg color 1`] = `
 Array [
   <button
     aria-checked={true}
-    className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-8 h-4 p-[0.125rem] !w-7 bg-piccolo"
+    className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-8 h-4 p-[0.125rem] !w-7 bg-piccolo"
     id="headlessui-switch-:r4:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -83,13 +83,13 @@ Array [
     >
       <span
         aria-hidden="true"
-        className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-3 h-3 left-full translate-x-[-100%]"
+        className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-3 h-3 left-full translate-x-[-100%]"
       />
     </span>
   </button>,
   <button
     aria-checked={true}
-    className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-roshi"
+    className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-roshi"
     id="headlessui-switch-:r5:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -103,7 +103,7 @@ Array [
     >
       <span
         aria-hidden="true"
-        className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-full translate-x-[-100%]"
+        className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-full translate-x-[-100%]"
       />
     </span>
   </button>,
@@ -114,7 +114,7 @@ exports[`Switch renders different Sizes 1`] = `
 Array [
   <button
     aria-checked={true}
-    className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-8 h-4 p-[0.125rem] bg-piccolo"
+    className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-8 h-4 p-[0.125rem] bg-piccolo"
     id="headlessui-switch-:r1:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -128,13 +128,13 @@ Array [
     >
       <span
         aria-hidden="true"
-        className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-3 h-3 left-full translate-x-[-100%]"
+        className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-3 h-3 left-full translate-x-[-100%]"
       />
     </span>
   </button>,
   <button
     aria-checked={true}
-    className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-11 h-6 p-1 bg-piccolo"
+    className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-11 h-6 p-1 bg-piccolo"
     id="headlessui-switch-:r2:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -148,13 +148,13 @@ Array [
     >
       <span
         aria-hidden="true"
-        className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-4 h-4 left-full translate-x-[-100%]"
+        className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-4 h-4 left-full translate-x-[-100%]"
       />
     </span>
   </button>,
   <button
     aria-checked={true}
-    className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-piccolo"
+    className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-piccolo"
     id="headlessui-switch-:r3:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -168,7 +168,7 @@ Array [
     >
       <span
         aria-hidden="true"
-        className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-full translate-x-[-100%]"
+        className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-full translate-x-[-100%]"
       />
     </span>
   </button>,
@@ -204,7 +204,7 @@ exports[`Switch renders with HTML forms 1`] = `
   />
   <button
     aria-checked={true}
-    className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-piccolo"
+    className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-piccolo"
     id="headlessui-switch-:r6:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -218,7 +218,7 @@ exports[`Switch renders with HTML forms 1`] = `
     >
       <span
         aria-hidden="true"
-        className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-full translate-x-[-100%]"
+        className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-full translate-x-[-100%]"
       />
     </span>
   </button>
@@ -229,7 +229,7 @@ exports[`Switch renders with on/off icons 1`] = `
 Array [
   <button
     aria-checked={true}
-    className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-8 h-4 p-[0.125rem] bg-piccolo"
+    className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-8 h-4 p-[0.125rem] bg-piccolo"
     id="headlessui-switch-:r9:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -293,13 +293,13 @@ Array [
       </span>
       <span
         aria-hidden="true"
-        className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-3 h-3 left-full translate-x-[-100%]"
+        className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-3 h-3 left-full translate-x-[-100%]"
       />
     </span>
   </button>,
   <button
     aria-checked={true}
-    className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-11 h-6 p-1 bg-piccolo"
+    className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-11 h-6 p-1 bg-piccolo"
     id="headlessui-switch-:ra:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -363,13 +363,13 @@ Array [
       </span>
       <span
         aria-hidden="true"
-        className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-4 h-4 left-full translate-x-[-100%]"
+        className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-4 h-4 left-full translate-x-[-100%]"
       />
     </span>
   </button>,
   <button
     aria-checked={false}
-    className="block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-beerus"
+    className="block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none w-[3.75rem] h-8 p-1 bg-beerus"
     id="headlessui-switch-:rb:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -433,7 +433,7 @@ Array [
       </span>
       <span
         aria-hidden="true"
-        className="z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-0"
+        className="z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out w-6 h-6 left-0"
       />
     </span>
   </button>,
