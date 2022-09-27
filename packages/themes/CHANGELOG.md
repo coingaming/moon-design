@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.7.8
+
+### Patch Changes
+
+- fix build
+
 ## 9.7.7
 
 ### Patch Changes
