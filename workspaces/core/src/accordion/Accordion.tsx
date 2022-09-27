@@ -32,20 +32,22 @@ const Accordion = ({
         setPadding(isContentInside, size)
       )}
     >
-      <div
+      <button
+        type="button"
         className={classNames(
           bgColor,
-          'w-full flex items-center relative gap-1',
+          'flex items-center relative w-full gap-1',
           disableOpen ? 'cursor-not-allowed' : 'cursor-pointer',
           isContentInside ? bgColor : 'transparent rounded-moon-s-sm',
           !isContentInside && setPadding(true, size)
         )}
         onClick={handleState}
+        aria-expanded={isOpen || false}
       >
         {title && (
           <h3
             className={classNames(
-              'flex-1 font-medium text-bulma',
+              'flex-1 font-medium text-bulma text-start',
               setFont(size)
             )}
           >
@@ -54,28 +56,18 @@ const Accordion = ({
         )}
         {headerContent && <React.Fragment>{headerContent}</React.Fragment>}
         {withButton && (
-          <button
-            type="button"
-            disabled={disableOpen}
+          <ControlsChevronRight
             className={classNames(
-              'align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent',
-              bgColor,
-              disableOpen ? 'cursor-not-allowed' : 'cursor-pointer'
+              'text-trunks text-moon-24 transition-transform transition-200',
+              setOpenIcon(isOpen)
             )}
-          >
-            <ControlsChevronRight
-              className={classNames(
-                'text-trunks text-moon-24 transition-transform transition-200',
-                setOpenIcon(isOpen)
-              )}
-            />
-          </button>
+          />
         )}
-      </div>
+      </button>
       <div
         className={classNames(
-          'overflow-hidden w-full text-bulma',
-          isOpen ? 'h-full' : 'h-0',
+          'overflow-hidden w-full text-bulma transition-all',
+          isOpen ? 'h-auto opacity-100' : 'h-0 opacity-0',
           isOpen && setMargin(size)
         )}
       >
