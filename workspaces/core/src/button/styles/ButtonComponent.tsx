@@ -10,7 +10,6 @@ const ButtonComponent = <C extends React.ElementType>({
   variant,
   size,
   icon,
-  // iconSize,
   iconLeft,
   iconRight,
   iconOnly,
@@ -25,7 +24,7 @@ const ButtonComponent = <C extends React.ElementType>({
     <Component
       className={classNames(
         buttonSizes({ size, icon, iconLeft, iconRight, iconOnly }),
-        buttonCommonStyles({ disabled }), //iconSize
+        buttonCommonStyles({ disabled }),
         buttonVariants({ variant }),
         animation === 'pulse' && 'anim-pulse animate-[pulse2_1.5s_infinite]',
         animation === 'error' && errorAnimation(),

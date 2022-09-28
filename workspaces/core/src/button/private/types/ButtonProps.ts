@@ -16,7 +16,6 @@ export type ButtonSettingsProps = {
 
 type ButtonProps<C extends React.ElementType> = {
   as?: C;
-  // iconSize?: number;
   fullWidth?: boolean;
 } & ButtonSettingsProps;
 

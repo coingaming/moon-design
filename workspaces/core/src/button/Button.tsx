@@ -15,7 +15,6 @@ const Button = <C extends React.ElementType = 'button'>({
   variant = 'primary',
   size = 'md',
   icon,
-  // iconSize = size === 'xs' ? 16 : 24,
   iconLeft,
   iconRight,
   iconOnly,
@@ -33,7 +32,6 @@ const Button = <C extends React.ElementType = 'button'>({
       size={size}
       variant={variant as ButtonVariants}
       icon={icon}
-      // iconSize={iconSize}
       iconLeft={iconLeft}
       iconRight={iconRight}
       iconOnly={iconOnly}
@@ -52,7 +50,6 @@ const Button = <C extends React.ElementType = 'button'>({
           iconRight={iconRight}
           iconOnly={iconOnly}
           animation={animation}
-          // variant={variant}
         />
       ) : (
         <>
