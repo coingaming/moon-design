@@ -1,7 +1,7 @@
 import React from 'react';
 import { rem } from '@heathmont/moon-utils-tw';
 
-const Footer: React.FC<FooterProps> = ({
+const Header: React.FC<HeaderProps> = ({
   headerBackgroundColor,
   selectable,
   children,
@@ -23,23 +23,9 @@ const Footer: React.FC<FooterProps> = ({
   );
 };
 
-type FooterProps = {
-  ref: React.RefObject<any>;
+type HeaderProps = {
   headerBackgroundColor: string;
   selectable?: boolean;
 };
 
-// [HeaderTR]: {
-//   '&:first-child': {
-//     [TH]: {
-//       boxShadow: `inset 0 1px 0 ${rgba(colorNew.trunks, 0.2)}`,
-//       '&:first-child': {
-//         borderTopLeftRadius: newTokens.borderRadius.surface.small,
-//       },
-//       '&:last-child': {
-//         borderTopRightRadius: newTokens.borderRadius.surface.small,
-//       },
-//     },
-//   },
-// },
-export default Footer;
+export default Header;

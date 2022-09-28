@@ -3,11 +3,13 @@ import React, {
   useCallback,
   useState,
   MutableRefObject,
+  ReactNode,
 } from 'react';
 
 type ClassesProps = {
   visible?: boolean;
   offset?: number;
+  children: ReactNode;
 };
 
 const Wrapper: React.FC<ClassesProps> = ({
@@ -28,7 +30,7 @@ const Wrapper: React.FC<ClassesProps> = ({
   );
 };
 
-const Viewport = ({ children }) => {
+const Viewport: React.FC<ClassesProps> = ({ children }) => {
   return (
     <div className="absolute w-0 h-0 overflow-hidden after:content-none after:absolute after:border-2 after:rounded after:w-full after:h-full">
       {children}
@@ -111,7 +113,7 @@ const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
       <Grid>
         <Viewport children={''} />
         {[...new Array(numberOfColumns)].map((_, index) => (
-          <Column key={index} />
+          <Column key={index} children={''} />
         ))}
       </Grid>
     </Wrapper>

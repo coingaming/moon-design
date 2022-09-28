@@ -1,4 +1,6 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
+
+import { ColorNames } from '@heathmont/moon-themes-tw';
 
 import {
   useTable,
@@ -6,188 +8,307 @@ import {
   useFlexLayout,
   useResizeColumns,
   useSortBy,
+  HeaderGroup,
+  Row,
+  UseResizeColumnsColumnProps,
+  UseSortByColumnProps,
+  useBlockLayout,
+  useExpanded,
+  PluginHook,
+  TableInstance,
 } from 'react-table';
+import Body from '../components/Body';
 import Footer from '../components/Footer';
+import Header from '../components/Header';
+import HeaderTR from '../components/HeaderTR';
+import HiddenTR from '../components/HiddenTR';
 import Minimap from '../components/Minimap';
-import {
-  table,
-  thead,
-  tbody,
-  trHeader,
-  trBody,
-  th,
-  td,
-  tdDevider,
-} from '../styled/StyledTable';
-import classNames from '../utils/classnames';
+import OuterWrapper from '../components/OuterWrapper';
+import TableWrapper from '../components/TableWrapper';
+import TH from '../components/TH';
+import useRowSpan, { RowSpanHeader } from '../hooks/useRowSpan';
+import useScrollState from '../hooks/useScrollState';
+import renderRows from '../utils/renderRows';
+import renderSpanRows from '../utils/renderSpanRows';
 
-type Props<Columns, Data> = {
-  columns: Columns;
-  data: Data;
-  defaultColumn: Partial<Column<object>>;
-  withCellBorder?: boolean;
-  withFooter?: boolean;
-  miniMap?: boolean;
+export type TableLayout = 'block';
+
+export type TableVariant = 'calendar';
+
+export type RowSubComponentProps<D extends object = {}> = {
+  row: Row<D>;
+  backgroundColor: ColorNames;
 };
 
-function Table<
-  Columns extends readonly Column<object>[],
-  Data extends readonly object[]
->({
+export type TableProps<D extends object = {}> = {
+  columns: ReadonlyArray<Column<D>>;
+  data: readonly D[];
+  defaultColumn?: Partial<Column<D>>;
+  width?: string | number;
+  height?: string | number;
+  maxWidth?: string | number;
+  maxHeight?: string | number;
+  variant?: TableVariant;
+  layout?: TableLayout;
+  withFooter?: boolean;
+  withMinimap?: boolean;
+  expandedByDefault?: boolean;
+  defaultRowBackgroundColor?: ColorNames;
+  evenRowBackgroundColor?: ColorNames;
+  headerBackgroundColor?: ColorNames;
+  isSticky?: boolean;
+  isSorting?: boolean;
+  selectable?: boolean;
+  useCheckbox?: boolean;
+  renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
+  getOnRowClickHandler?: (row: Row<D>) => (row: Row<D>) => void | (() => void);
+  getOnRowSelect?: () => (rows: Row<D>[]) => void | (() => void);
+};
+
+const Table: React.FC<TableProps> = ({
   columns,
   data,
   defaultColumn,
-  withCellBorder,
-  withFooter,
-  miniMap,
-}: Props<Columns, Data>) {
+  width,
+  height,
+  maxWidth,
+  maxHeight,
+  variant,
+  layout,
+  withFooter = false,
+  withMinimap = false,
+  expandedByDefault,
+  defaultRowBackgroundColor = 'gohan.100',
+  evenRowBackgroundColor = 'gohan.80',
+  headerBackgroundColor = 'goku.100',
+  isSticky = true,
+  isSorting = false,
+  selectable = false,
+  useCheckbox = false,
+  renderRowSubComponent,
+  getOnRowClickHandler = () => undefined,
+  getOnRowSelect = () => undefined,
+}) => {
+  const plugins = [
+    layout === 'block' ? useBlockLayout : useFlexLayout,
+    variant === 'calendar' ? useRowSpan : undefined,
+    useResizeColumns,
+    isSticky ? isSticky : undefined,
+    isSorting ? useSortBy : undefined,
+    useExpanded,
+  ].filter((plugin) => !!plugin) as PluginHook<{}>[];
+
   const {
     getTableProps,
     getTableBodyProps,
     headerGroups,
+    footerGroups,
     rows,
     prepareRow,
-    footerGroups,
+    visibleColumns,
+    toggleAllRowsExpanded,
+    rowSpanHeaders,
   } = useTable(
     {
       columns,
       data,
       defaultColumn,
     },
-    useSortBy,
-    useFlexLayout,
-    useResizeColumns
-  );
-  const handleMultiSortBy = (column, setSortBy, meinSortBy) => {
-    //set sort desc, aesc or none?
-    const desc =
-      column.isSortedDesc === true
-        ? undefined
-        : column.isSortedDesc === false
-        ? true
-        : false;
-
-    setSortBy([{ id: column.id, desc }, ...meinSortBy]);
+    ...plugins
+  ) as TableInstance<object> & {
+    toggleAllRowsExpanded: (isExpanded?: boolean) => void;
+    rowSpanHeaders: RowSpanHeader[];
   };
+  const lastHeaderGroup = headerGroups[headerGroups.length - 1];
   const tableRef = useRef<HTMLDivElement>(null);
   const footerRef = useRef<HTMLDivElement>(null);
-  return (
-    <table {...getTableProps()} className={table}>
-      <thead className={thead}>
-        {headerGroups.map((headerGroup) => (
-          <tr className={trHeader} {...headerGroup.getHeaderGroupProps()}>
-            {headerGroup.headers.map((column) => (
-              <th
-                className={th}
-                {...column.getHeaderProps()}
-                onClick={() => handleMultiSortBy(column, useSortBy, sortBy)}
-              >
-                {column.render('Header')}
-              </th>
-            ))}
-          </tr>
+  const onRowSelectHandler = getOnRowSelect
+    ? getOnRowSelect()
+    : () => undefined;
+
+  const { scrollState, handleScroll } = useScrollState(tableRef);
+  const [selectedRows, setSelectedRows] = useState<Row<{}>[]>([]);
+
+  useEffect(() => {
+    if (expandedByDefault === undefined || !data || !data.length) return;
+    toggleAllRowsExpanded(expandedByDefault);
+  }, [expandedByDefault, data, toggleAllRowsExpanded]);
+
+  useEffect(() => {
+    if (onRowSelectHandler) onRowSelectHandler(selectedRows);
+  }, [selectedRows]);
+
+  useEffect(() => {
+    setSelectedRows(
+      rows?.length
+        ? rows.filter((row: Row<{ isSelected?: boolean }>) => {
+            return row.original?.isSelected;
+          })
+        : []
+    );
+  }, []);
+
+  const getHeaderRowWhenSorting = (column: HeaderGroup<object>) => {
+    const sortingColumn = column as unknown as UseSortByColumnProps<object>;
+    const resizingColumn =
+      column as unknown as UseResizeColumnsColumnProps<object>;
+    return (
+      <TH
+        {...column.getHeaderProps(sortingColumn.getSortByToggleProps())}
+        headerBackgroundColor={headerBackgroundColor}
+      >
+        {column.render('Header')}
+        <div
+          {...resizingColumn.getResizerProps()}
+          className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
+        />
+      </TH>
+    );
+  };
+
+  const getHeaderRowWhenResizing = (column: HeaderGroup<object>) => {
+    const resizingColumn =
+      column as unknown as UseResizeColumnsColumnProps<object>;
+    return (
+      <TH
+        {...column.getHeaderProps()}
+        headerBackgroundColor={headerBackgroundColor}
+      >
+        {column.render('Header')}
+        <div
+          {...resizingColumn.getResizerProps()}
+          className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
+        />
+      </TH>
+    );
+  };
+
+  const getFooterRowWhenResizing = (column: HeaderGroup<object>) => {
+    const resizingColumn =
+      column as unknown as UseResizeColumnsColumnProps<object>;
+    return (
+      <TH
+        {...column.getHeaderProps()}
+        headerBackgroundColor={headerBackgroundColor}
+      >
+        {column.render('Footer')}
+
+        <div
+          {...resizingColumn.getResizerProps()}
+          className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
+        />
+      </TH>
+    );
+  };
+
+  const renderTableComponent = () => (
+    <TableWrapper
+      {...getTableProps()}
+      ref={tableRef}
+      onScroll={handleScroll}
+      className={isSticky ? 'sticky' : undefined}
+      isScrolledToLeft={scrollState.scrolledToLeft}
+      isScrolledToRight={scrollState.scrolledToRight}
+      style={{
+        width,
+        height,
+        maxWidth,
+        maxHeight,
+      }}
+      variant={variant}
+      defaultRowBackgroundColor={defaultRowBackgroundColor}
+      evenRowBackgroundColor={evenRowBackgroundColor}
+      headerBackgroundColor={headerBackgroundColor}
+    >
+      <Header
+        selectable={useCheckbox}
+        headerBackgroundColor={headerBackgroundColor}
+      >
+        {headerGroups.map((headerGroup: HeaderGroup<object>) => (
+          <HeaderTR {...headerGroup.getHeaderGroupProps()}>
+            {headerGroup.headers.map((column: HeaderGroup<object>) => {
+              const element = isSorting
+                ? getHeaderRowWhenSorting(column)
+                : getHeaderRowWhenResizing(column);
+
+              return element;
+            })}
+          </HeaderTR>
         ))}
-      </thead>
-      <tbody {...getTableBodyProps()} className={tbody}>
-        {rows.map((row, i) => {
-          prepareRow(row);
-          return (
-            <tr
-              className={classNames(trBody, 'hover:shadow-moon-xs')} //hover:bg-piccolo/[.12]
-              {...row.getRowProps()}
-            >
-              {row.cells.map((cell) => {
-                return (
-                  <td
-                    className={classNames(td, withCellBorder && tdDevider)}
-                    {...cell.getCellProps()}
-                  >
-                    {cell.render('Cell')}
-                  </td>
-                );
-              })}
-            </tr>
-          );
-        })}
-      </tbody>
+        <HiddenTR lastHeaderGroup={lastHeaderGroup} />
+      </Header>
+
+      <Body {...getTableBodyProps()}>
+        {variant === 'calendar'
+          ? renderSpanRows({
+              rows,
+              prepareRow,
+              getOnRowClickHandler,
+              evenRowBackgroundColor,
+              defaultRowBackgroundColor,
+              selectable,
+              useCheckbox,
+            })
+          : renderRows({
+              rows,
+              prepareRow,
+              getOnRowClickHandler,
+              getOnRowSelectHandler: (row) => () => {
+                let alreadySelectedRows = [...selectedRows];
+                const alreadySelectedRow = alreadySelectedRows.filter(
+                  (selectedRow) => row.id === selectedRow.id
+                )[0];
+
+                if (alreadySelectedRow) {
+                  alreadySelectedRows = alreadySelectedRows.filter(
+                    (selectedRow) => row.id !== selectedRow.id
+                  );
+                } else {
+                  alreadySelectedRows.push(row);
+                }
+
+                setSelectedRows(alreadySelectedRows);
+              },
+              evenRowBackgroundColor,
+              defaultRowBackgroundColor,
+              renderRowSubComponent,
+              selectable,
+              useCheckbox,
+            })}
+      </Body>
+
       {withFooter && (
-        <Footer headerBackgroundColor={''}>
-          {footerGroups.map((footerGroup) => (
-            <tr {...footerGroup.getFooterGroupProps()} className={trHeader}>
-              {footerGroup.headers.map((column) => (
-                <th className={th} {...column.getFooterProps()}>
-                  {column.render('Footer')}
-                </th>
-              ))}
-            </tr>
+        <Footer
+          ref={footerRef}
+          selectable={useCheckbox}
+          headerBackgroundColor={headerBackgroundColor}
+        >
+          {footerGroups.map((footerGroup: HeaderGroup<object>) => (
+            <HeaderTR {...footerGroup.getHeaderGroupProps()}>
+              {footerGroup.headers.map((column: HeaderGroup<object>) =>
+                getFooterRowWhenResizing(column)
+              )}
+            </HeaderTR>
           ))}
         </Footer>
       )}
-      {miniMap && (
-        <div className="relative w-full h-full">
-          <table {...getTableProps()} className={table}>
-            <thead className={thead}>
-              {headerGroups.map((headerGroup) => (
-                <tr className={trHeader} {...headerGroup.getHeaderGroupProps()}>
-                  {headerGroup.headers.map((column) => (
-                    <th className={th} {...column.getHeaderProps()}>
-                      {column.render('Header')}
-                    </th>
-                  ))}
-                </tr>
-              ))}
-            </thead>
-            <tbody {...getTableBodyProps()} className={tbody}>
-              {rows.map((row, i) => {
-                prepareRow(row);
-                return (
-                  <tr
-                    className={classNames(trBody, 'hover:shadow-moon-xs')} //hover:bg-piccolo/[.12]
-                    {...row.getRowProps()}
-                  >
-                    {row.cells.map((cell) => {
-                      return (
-                        <td
-                          className={classNames(
-                            td,
-                            withCellBorder && tdDevider
-                          )}
-                          {...cell.getCellProps()}
-                        >
-                          {cell.render('Cell')}
-                        </td>
-                      );
-                    })}
-                  </tr>
-                );
-              })}
-            </tbody>
-            {withFooter && (
-              <Footer headerBackgroundColor={''}>
-                {footerGroups.map((footerGroup) => (
-                  <tr
-                    {...footerGroup.getFooterGroupProps()}
-                    className={trHeader}
-                  >
-                    {footerGroup.headers.map((column) => (
-                      <th className={th} {...column.getFooterProps()}>
-                        {column.render('Footer')}
-                      </th>
-                    ))}
-                  </tr>
-                ))}
-              </Footer>
-            )}
-          </table>
-          <Minimap
-            numberOfColumns={4}
-            tableRef={tableRef}
-            footerRef={footerRef}
-          />
-        </div>
-      )}
-    </table>
+    </TableWrapper>
   );
-}
+
+  if (withMinimap) {
+    return (
+      <OuterWrapper>
+        {renderTableComponent()}
+        <Minimap
+          numberOfColumns={visibleColumns.length}
+          tableRef={tableRef}
+          footerRef={footerRef}
+        />
+      </OuterWrapper>
+    );
+  } else {
+    return renderTableComponent();
+  }
+};
 
 export default Table;

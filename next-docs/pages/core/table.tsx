@@ -1,7 +1,11 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeepTable from '../../public/examples/tableTW/DeepTable';
 import Default from '../../public/examples/tableTW/Default';
+import MiniMap from '../../public/examples/tableTW/MiniMap';
+import Sorting from '../../public/examples/tableTW/Sorting';
+import WithCheckbox from '../../public/examples/tableTW/withCheckbox';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -38,6 +42,26 @@ const Example = () => {
         title="Table"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="MiniMap"
+        preview={<MiniMap />}
+        code={examples ? examples.MiniMap : 'Loading'}
+      />
+      <Preview
+        title="DeepTable"
+        preview={<DeepTable />}
+        code={examples ? examples.DeepTable : 'Loading'}
+      />
+      <Preview
+        title="Table with checkboxes"
+        preview={<WithCheckbox />}
+        code={examples ? examples.WithCheckbox : 'Loading'}
+      />
+      <Preview
+        title="Table with sorting"
+        preview={<Sorting />}
+        code={examples ? examples.Sorting : 'Loading'}
       />
     </>
   );
