@@ -2,6 +2,8 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
+
+import DefaultCode from '../../public/examples/switchTW/codeExamples/DefaultCode';
 import Custom from '../../public/examples/switchTW/Custom';
 import Default from '../../public/examples/switchTW/Default';
 import Disabled from '../../public/examples/switchTW/Disabled';
@@ -12,6 +14,7 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('switchTw');
+  const examplesCode = useExamples('switchTw/codeExamples');
   return (
     <>
       <ComponentPageDescription title="Select">
@@ -32,6 +35,7 @@ const Example = () => {
           parent container width.
         </p>
       </ComponentPageDescription>
+
       <Preview
         title="Default"
         preview={<Default />}
@@ -61,6 +65,12 @@ const Example = () => {
         title="Using with HTML forms"
         preview={<Form />}
         code={examples ? examples.Form : 'Loading'}
+      />
+
+      <Preview
+        title="Code exemples for full cistomization"
+        preview={<DefaultCode />}
+        code={examplesCode ? examplesCode.DefaultCode : 'Loading'}
       />
 
       <PropsTable

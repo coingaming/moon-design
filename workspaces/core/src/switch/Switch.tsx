@@ -65,7 +65,7 @@ const Switch: FC<SwitchProps> = ({
       disabled={disabled}
       onChange={(data) => setEnabledHandler(data)}
       className={classNames(
-        'block relative p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none',
+        'block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none',
         getSwitchSize(size),
         twWidth && twWidth,
         enabled ? bgColor : 'bg-beerus',
@@ -97,7 +97,7 @@ const Switch: FC<SwitchProps> = ({
         <span
           aria-hidden="true"
           className={classNames(
-            'z-5 absolute top-1/2 left-0 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out',
+            'z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out',
             getSwitchSpanSize(size),
             enabled ? 'left-full translate-x-[-100%]' : 'left-0'
           )}
