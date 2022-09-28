@@ -71,7 +71,7 @@ const Example = () => {
         code={examples ? examples.IsStrokeIcons : 'Loading'}
       />
       <Preview
-        title="With onClick handker"
+        title="With onClick"
         preview={<OnClick />}
         code={examples ? examples.OnClick : 'Loading'}
       />
