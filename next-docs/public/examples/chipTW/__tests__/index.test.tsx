@@ -16,6 +16,7 @@ import Active from '../Active';
 import Icons from '../Icons';
 import IsStroke from '../IsStroke';
 import IsStrokeIcons from '../IsStrokeIcons';
+import OnClick from '../OnClick';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -74,6 +75,11 @@ describe('Chip', () => {
 
   it('renders stroke with icons', () => {
     const testRenderer = renderer.create(renderWithTheme(<IsStrokeIcons />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders with onClick hangler', () => {
+    const testRenderer = renderer.create(renderWithTheme(<OnClick />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
