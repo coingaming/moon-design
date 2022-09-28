@@ -1,5 +1,60 @@
 # Change Log
 
+## 9.7.8
+
+### Patch Changes
+
+- fix build
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.7.8
+  - @heathmont/moon-components@9.7.8
+  - @heathmont/moon-themes@9.7.8
+  - @heathmont/moon-utils@9.7.8
+
+## 9.7.7
+
+### Patch Changes
+
+- udate v9.7.7
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.7.7
+  - @heathmont/moon-components@9.7.7
+  - @heathmont/moon-themes@9.7.7
+  - @heathmont/moon-utils@9.7.7
+
+## 9.7.6
+
+### Patch Changes
+
+- Bumn version
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.7.6
+  - @heathmont/moon-components@9.7.6
+  - @heathmont/moon-themes@9.7.6
+  - @heathmont/moon-utils@9.7.6
+
+## 9.7.5
+
+### Patch Changes
+
+- Bump version
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.7.5
+  - @heathmont/moon-components@9.7.5
+  - @heathmont/moon-themes@9.7.5
+  - @heathmont/moon-utils@9.7.5
+
+## 9.7.4
+
+### Patch Changes
+
+- Bump version
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.7.4
+  - @heathmont/moon-components@9.7.4
+  - @heathmont/moon-themes@9.7.4
+  - @heathmont/moon-utils@9.7.4
+
 ## 9.7.3
 
 ### Patch Changes
