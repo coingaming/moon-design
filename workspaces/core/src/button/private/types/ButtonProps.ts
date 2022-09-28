@@ -3,25 +3,22 @@ import type ButtonAnimations from './ButtonAnimations';
 import type ButtonIcons from './ButtonIcons';
 import type ButtonVariants from './ButtonVariants';
 
-type ButtonProps<C extends React.ElementType> = {
-  variant?: ButtonVariants;
-  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+export type ButtonSettingsProps = {
   icon?: ButtonIcons;
-  animation?: ButtonAnimations;
-  iconSize?: number;
+  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
   iconLeft?: JSX.Element | boolean;
   iconRight?: JSX.Element | boolean;
   iconOnly?: JSX.Element | boolean;
+  animation?: ButtonAnimations;
   disabled?: boolean;
-  fullWidth?: boolean;
-  children?: React.ReactNode;
-  as?: C;
+  variant?: ButtonVariants;
 };
 
-export type Props<C extends React.ElementType> = React.PropsWithChildren<
-  ButtonProps<C>
-> &
-  Omit<React.ComponentPropsWithoutRef<C>, keyof ButtonProps<C>>;
+type ButtonProps<C extends React.ElementType> = {
+  as?: C;
+  // iconSize?: number;
+  fullWidth?: boolean;
+} & ButtonSettingsProps;
 
 type PolymorphicComponentProp<C extends React.ElementType, Props = {}> = {};
 

@@ -4,13 +4,13 @@ import errorAnimation from '../private/buttonAnimations/errorAnimation';
 import buttonSizes from '../private/buttonSizes/buttonSizes';
 import buttonCommonStyles from '../private/buttonStyles/buttonCommonStyles';
 import buttonVariants from '../private/buttonStyles/buttonVariants';
-import type { Props } from '../private/types/ButtonProps';
+import type ButtonProps from '../private/types/ButtonProps';
 
-const ButtonComponent = <C extends React.ElementType = 'button'>({
+const ButtonComponent = <C extends React.ElementType>({
   variant,
   size,
   icon,
-  iconSize,
+  // iconSize,
   iconLeft,
   iconRight,
   iconOnly,
@@ -19,13 +19,13 @@ const ButtonComponent = <C extends React.ElementType = 'button'>({
   animation,
   as,
   ...rest
-}: Props<C>) => {
+}: ButtonProps<C>) => {
   const Component = as || 'button';
   return (
     <Component
       className={classNames(
         buttonSizes({ size, icon, iconLeft, iconRight, iconOnly }),
-        buttonCommonStyles({ iconSize, disabled }),
+        buttonCommonStyles({ disabled }), //iconSize
         buttonVariants({ variant }),
         animation === 'pulse' && 'anim-pulse animate-[pulse2_1.5s_infinite]',
         animation === 'error' && errorAnimation(),

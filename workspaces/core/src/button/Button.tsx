@@ -5,12 +5,17 @@ import ButtonComponent from './styles/ButtonComponent';
 import type ButtonProps from './private/types/ButtonProps';
 import type ButtonVariants from './private/types/ButtonVariants';
 
-const Button = <C extends React.ElementType>({
+export type Props<C extends React.ElementType> = React.PropsWithChildren<
+  ButtonProps<C>
+> &
+  Omit<React.ComponentPropsWithoutRef<C>, keyof ButtonProps<C>>;
+
+const Button = <C extends React.ElementType = 'button'>({
   children,
   variant = 'primary',
   size = 'md',
   icon,
-  iconSize = size === 'xs' ? 16 : 24,
+  // iconSize = size === 'xs' ? 16 : 24,
   iconLeft,
   iconRight,
   iconOnly,
@@ -19,7 +24,7 @@ const Button = <C extends React.ElementType>({
   animation,
   as,
   ...rest
-}: ButtonProps<C>) => {
+}: Props<C>) => {
   const [isHover, setIsHover] = useState(false);
   const hasAnimationContent =
     animation === 'progress' || animation === 'success';
@@ -28,7 +33,7 @@ const Button = <C extends React.ElementType>({
       size={size}
       variant={variant as ButtonVariants}
       icon={icon}
-      iconSize={iconSize}
+      // iconSize={iconSize}
       iconLeft={iconLeft}
       iconRight={iconRight}
       iconOnly={iconOnly}
@@ -47,7 +52,7 @@ const Button = <C extends React.ElementType>({
           iconRight={iconRight}
           iconOnly={iconOnly}
           animation={animation}
-          variant={variant}
+          // variant={variant}
         />
       ) : (
         <>
