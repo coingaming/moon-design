@@ -3,7 +3,7 @@ import DesDevSwitch from '../components/gettingStarted/DesDevSwitch';
 import DesGettingStarted from '../components/gettingStarted/DesGettingStarted';
 import DevGettingStarted from '../components/gettingStarted/DevGettingStarted';
 import ScGettingStarted from '../components/gettingStarted/ScGettingStarted';
-import TwScSwitch from '../components/gettingStarted/TwScSwitch';
+import TailwindStyledComponentsSwitch from '../components/gettingStarted/TailwindStyledComponentsSwitch';
 
 const PageGettingStartedSc = () => {
   const [isDesActive, setIsDesActive] = useState(false);
@@ -22,7 +22,7 @@ const PageGettingStartedSc = () => {
       />
       <div className="w-full flex flex-col gap-2 text-moon-16">
         <p>Please choose your Framework:</p>
-        <TwScSwitch
+        <TailwindStyledComponentsSwitch
           isTwActive={isDevActive}
           setTwActive={setDevActive}
           setScActive={setScActive}

@@ -24,7 +24,11 @@ type Props = {
   setScActive: () => void;
 };
 
-const TwScSwitch = ({ isTwActive, setTwActive, setScActive }: Props) => (
+const TailwindStyledComponentsSwitch = ({
+  isTwActive,
+  setTwActive,
+  setScActive,
+}: Props) => (
   <div className="flex flex-row gap-2">
     <div className="p-0.5 rounded-lg flex bg-beerus">
       <Link href="/gettingStartedDevs">
@@ -45,4 +49,4 @@ const TwScSwitch = ({ isTwActive, setTwActive, setScActive }: Props) => (
   </div>
 );
 
-export default TwScSwitch;
+export default TailwindStyledComponentsSwitch;

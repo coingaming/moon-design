@@ -6,6 +6,7 @@ import Default from '../../public/examples/chipTW/Default';
 import Icons from '../../public/examples/chipTW/Icons';
 import IsStroke from '../../public/examples/chipTW/IsStroke';
 import IsStrokeIcons from '../../public/examples/chipTW/IsStrokeIcons';
+import OnClick from '../../public/examples/chipTW/OnClick';
 import Sizes from '../../public/examples/chipTW/Sizes';
 import Variants from '../../public/examples/chipTW/Variants';
 import useExamples from '../../utils/useExamples';
@@ -69,6 +70,11 @@ const Example = () => {
         preview={<IsStrokeIcons />}
         code={examples ? examples.IsStrokeIcons : 'Loading'}
       />
+      <Preview
+        title="With onClick"
+        preview={<OnClick />}
+        code={examples ? examples.OnClick : 'Loading'}
+      />
       <PropsTable
         title="Chip props"
         data={[
@@ -120,6 +126,14 @@ const Example = () => {
             required: false,
             default: 'default',
             description: 'Visual/Logical variant of chip',
+          },
+          {
+            name: 'onClick',
+            type: '() => void',
+            required: false,
+            default: 'default',
+            description:
+              'The onClick event occurs when the user clicks on an component.',
           },
         ]}
       />
