@@ -30,6 +30,8 @@ const ButtonComponent = <C extends React.ElementType>({
         animation === 'error' && errorAnimation(),
         fullWidth && !iconOnly ? 'w-full' : ''
       )}
+      {...((!as || as === 'button') && { type: 'button' })}
+      {...(disabled && { disabled })}
       {...rest}
     />
   );

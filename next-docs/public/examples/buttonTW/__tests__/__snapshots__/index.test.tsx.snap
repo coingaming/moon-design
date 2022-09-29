@@ -6,6 +6,7 @@ Array [
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <div
       className="relative h-full pointer-events-none"
@@ -59,6 +60,7 @@ Array [
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <div
       className="relative h-full pointer-events-none"
@@ -96,6 +98,7 @@ Array [
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary bg-chiChi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Error
     <span
@@ -106,6 +109,7 @@ Array [
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Pulse
     <span
@@ -134,6 +138,7 @@ exports[`Button renders default 1`] = `
   className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
+  type="button"
 >
   Default
   <span
@@ -147,6 +152,7 @@ exports[`Button renders default dark 1`] = `
   className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
+  type="button"
 >
   Default
   <span
@@ -163,6 +169,7 @@ exports[`Button renders default rtl 1`] = `
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Default
     <span
@@ -175,8 +182,10 @@ exports[`Button renders default rtl 1`] = `
 exports[`Button renders disabled 1`] = `
 <button
   className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus opacity-30 cursor-not-allowed btn-primary"
+  disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
+  type="button"
 >
   Disabled
   <span
@@ -190,6 +199,7 @@ exports[`Button renders full width 1`] = `
   className="py-2 ps-4 pe-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
+  type="button"
 >
   Full width
   <svg
@@ -221,6 +231,7 @@ Array [
     className="py-2 ps-2 pe-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -248,6 +259,7 @@ Array [
     className="py-2 ps-2 pe-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -275,6 +287,7 @@ Array [
     className="py-2 ps-4 pe-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     IconRight
     <svg
@@ -302,6 +315,7 @@ Array [
     className="py-2 ps-4 pe-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     IconRight
     <svg
@@ -329,6 +343,7 @@ Array [
     className="p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -355,6 +370,7 @@ Array [
     className="p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -386,6 +402,7 @@ Array [
     className="p-1 pe-2 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-16"
@@ -413,6 +430,7 @@ Array [
     className="p-1 pe-3 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -440,6 +458,7 @@ Array [
     className="py-2 ps-2 pe-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -467,6 +486,7 @@ Array [
     className="py-3 ps-3 pe-4 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -494,6 +514,7 @@ Array [
     className="py-4 ps-4 pe-6 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -526,6 +547,7 @@ Array [
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Primary is default
     <span
@@ -536,6 +558,7 @@ Array [
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Secondary
     <span
@@ -546,6 +569,7 @@ Array [
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Tertiary
     <span
@@ -556,6 +580,7 @@ Array [
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Ghost
     <span
