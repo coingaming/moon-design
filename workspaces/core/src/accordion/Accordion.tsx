@@ -11,7 +11,7 @@ const Accordion = ({
   title,
   openByDefault,
   children,
-  disableOpen,
+  disabled,
   headerContent,
   withButton = true,
   isContentInside = true,
@@ -20,7 +20,7 @@ const Accordion = ({
 }: AccordionProps) => {
   const [isOpen, setIsOpen] = useState(openByDefault);
   function handleState() {
-    if (!disableOpen) {
+    if (!disabled) {
       setIsOpen(!isOpen);
     }
   }
@@ -37,12 +37,13 @@ const Accordion = ({
         className={classNames(
           bgColor,
           'flex items-center relative w-full gap-1',
-          disableOpen ? 'cursor-not-allowed' : 'cursor-pointer',
+          disabled ? 'cursor-not-allowed opacity-30' : 'cursor-pointer',
           isContentInside ? bgColor : 'transparent rounded-moon-s-sm',
           !isContentInside && setPadding(true, size)
         )}
         onClick={handleState}
         aria-expanded={isOpen || false}
+        {...(disabled && { disabled })}
       >
         {title && (
           <h3
@@ -56,12 +57,14 @@ const Accordion = ({
         )}
         {headerContent && <React.Fragment>{headerContent}</React.Fragment>}
         {withButton && (
-          <ControlsChevronRight
-            className={classNames(
-              'text-trunks text-moon-24 transition-transform transition-200',
-              setOpenIcon(isOpen)
-            )}
-          />
+          <div className="flex items-center justify-center w-6 h-6">
+            <ControlsChevronRight
+              className={classNames(
+                'text-trunks text-moon-16 transition-transform transition-200',
+                setOpenIcon(isOpen)
+              )}
+            />
+          </div>
         )}
       </button>
       <div

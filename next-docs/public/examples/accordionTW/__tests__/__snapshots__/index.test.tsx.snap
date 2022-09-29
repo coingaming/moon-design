@@ -15,21 +15,25 @@ exports[`Accordion expands 1`] = `
     >
       Default
     </h3>
-    <svg
-      className="text-trunks text-moon-24 transition-transform transition-200 rotate-90"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <div
+      className="flex items-center justify-center w-6 h-6"
     >
-      <path
-        d="M11.5 7l9 9-9 9"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+      <svg
+        className="text-trunks text-moon-16 transition-transform transition-200 rotate-90"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </div>
   </button>
   <div
     className="overflow-hidden w-full text-bulma transition-all h-auto opacity-100 mt-2"
@@ -58,21 +62,25 @@ exports[`Accordion renders content outside 1`] = `
     >
       Test accordion
     </h3>
-    <svg
-      className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <div
+      className="flex items-center justify-center w-6 h-6"
     >
-      <path
-        d="M11.5 7l9 9-9 9"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+      <svg
+        className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </div>
   </button>
   <div
     className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -101,21 +109,25 @@ exports[`Accordion renders default 1`] = `
     >
       Default
     </h3>
-    <svg
-      className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <div
+      className="flex items-center justify-center w-6 h-6"
     >
-      <path
-        d="M11.5 7l9 9-9 9"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+      <svg
+        className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </div>
   </button>
   <div
     className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -144,21 +156,25 @@ exports[`Accordion renders default dark 1`] = `
     >
       Default
     </h3>
-    <svg
-      className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <div
+      className="flex items-center justify-center w-6 h-6"
     >
-      <path
-        d="M11.5 7l9 9-9 9"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+      <svg
+        className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </div>
   </button>
   <div
     className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -190,21 +206,25 @@ exports[`Accordion renders default rtl 1`] = `
       >
         Default
       </h3>
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="flex items-center justify-center w-6 h-6"
       >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+        <svg
+          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
     </button>
     <div
       className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -225,7 +245,8 @@ exports[`Accordion renders disabled 1`] = `
 >
   <button
     aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-not-allowed bg-gohan"
+    className="bg-gohan flex items-center relative w-full gap-1 cursor-not-allowed opacity-30 bg-gohan"
+    disabled={true}
     onClick={[Function]}
     type="button"
   >
@@ -234,21 +255,25 @@ exports[`Accordion renders disabled 1`] = `
     >
       Test accordion
     </h3>
-    <svg
-      className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <div
+      className="flex items-center justify-center w-6 h-6"
     >
-      <path
-        d="M11.5 7l9 9-9 9"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+      <svg
+        className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </div>
   </button>
   <div
     className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -331,21 +356,25 @@ exports[`Accordion renders header content 1`] = `
         />
       </svg>
     </div>
-    <svg
-      className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <div
+      className="flex items-center justify-center w-6 h-6"
     >
-      <path
-        d="M11.5 7l9 9-9 9"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+      <svg
+        className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </div>
   </button>
   <div
     className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -374,21 +403,25 @@ exports[`Accordion renders opened by default 1`] = `
     >
       Test accordion
     </h3>
-    <svg
-      className="text-trunks text-moon-24 transition-transform transition-200 rotate-90"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <div
+      className="flex items-center justify-center w-6 h-6"
     >
-      <path
-        d="M11.5 7l9 9-9 9"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
+      <svg
+        className="text-trunks text-moon-16 transition-transform transition-200 rotate-90"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </div>
   </button>
   <div
     className="overflow-hidden w-full text-bulma transition-all h-auto opacity-100 mt-2"
@@ -418,21 +451,25 @@ Array [
       >
         X Large (xl)
       </h3>
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="flex items-center justify-center w-6 h-6"
       >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+        <svg
+          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
     </button>
     <div
       className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -458,21 +495,25 @@ Array [
       >
         Large (lg)
       </h3>
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="flex items-center justify-center w-6 h-6"
       >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+        <svg
+          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
     </button>
     <div
       className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -498,21 +539,25 @@ Array [
       >
         Medium is default (md)
       </h3>
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="flex items-center justify-center w-6 h-6"
       >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+        <svg
+          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
     </button>
     <div
       className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -538,21 +583,25 @@ Array [
       >
         Small (sm)
       </h3>
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="flex items-center justify-center w-6 h-6"
       >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+        <svg
+          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
     </button>
     <div
       className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -583,21 +632,25 @@ Array [
       >
         X Large (Default)
       </h3>
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="flex items-center justify-center w-6 h-6"
       >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+        <svg
+          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
     </button>
     <div
       className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -623,21 +676,25 @@ Array [
       >
         Large (lg)
       </h3>
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="flex items-center justify-center w-6 h-6"
       >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+        <svg
+          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
     </button>
     <div
       className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -663,21 +720,25 @@ Array [
       >
         Medium is default (md)
       </h3>
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="flex items-center justify-center w-6 h-6"
       >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+        <svg
+          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
     </button>
     <div
       className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -703,21 +764,25 @@ Array [
       >
         Small (sm)
       </h3>
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="flex items-center justify-center w-6 h-6"
       >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+        <svg
+          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
     </button>
     <div
       className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -748,21 +813,25 @@ Array [
       >
         Test accordion with backgound
       </h3>
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="flex items-center justify-center w-6 h-6"
       >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+        <svg
+          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
     </button>
     <div
       className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
@@ -788,21 +857,25 @@ Array [
       >
         Test accordion with backgound: content outside
       </h3>
-      <svg
-        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        className="flex items-center justify-center w-6 h-6"
       >
-        <path
-          d="M11.5 7l9 9-9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
+        <svg
+          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
     </button>
     <div
       className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
