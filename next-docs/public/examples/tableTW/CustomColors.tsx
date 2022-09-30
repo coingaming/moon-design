@@ -1,5 +1,5 @@
-import { Table } from '@heathmont/moon-table-tw';
 import React from 'react';
+import { Table } from '@heathmont/moon-table-tw';
 
 const Example = () => {
   const columnsInitial = [
@@ -40,12 +40,6 @@ const Example = () => {
           accessor: 'activity',
           Footer: '',
         },
-        {
-          Header: 'Status',
-          width: 60,
-          accessor: 'status',
-          Footer: '',
-        },
       ],
     },
     {
@@ -72,36 +66,32 @@ const Example = () => {
         progress: <span>{Math.floor(index * 100)}</span>,
         status: Math.floor(index * 100),
         activity: Math.floor(index * 100),
-        isSelected: index === 3,
+        backgroundColor: index === 1 ? 'beerus.100' : '',
+        fontColor: index === 0 ? 'piccolo.100' : index < 3 ? 'trunks.100' : '',
       };
     });
   };
 
   const defaultColumn = React.useMemo(
     () => ({
-      minWidth: 100,
+      minWidth: 150,
       width: 150,
-      maxWidth: 1000,
+      maxWidth: 400,
     }),
     []
   );
 
   const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(8), []);
+  const data = React.useMemo(() => makeData(40), []);
 
   return (
     <Table
       columns={columns}
       data={data}
       defaultColumn={defaultColumn}
-      width={1000}
+      width={800}
       height={400}
       withFooter={true}
-      selectable={true}
-      useCheckbox={true}
-      getOnRowSelect={() => (rows: any) => {
-        console.log(`IDs of selected rows - ${rows.map((row: any) => row.id)}`);
-      }}
     />
   );
 };

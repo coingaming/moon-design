@@ -27,23 +27,20 @@ const Example = () => {
         {
           Header: 'Age',
           accessor: 'age',
+          sortType: 'basic',
           width: 50,
           Footer: '',
         },
         {
           Header: 'Visits',
           accessor: 'visits',
+          sortType: 'basic',
           Footer: '',
         },
         {
           Header: 'Activity',
           accessor: 'activity',
-          Footer: '',
-        },
-        {
-          Header: 'Status',
-          width: 60,
-          accessor: 'status',
+          sortType: 'basic',
           Footer: '',
         },
       ],
@@ -57,11 +54,19 @@ const Example = () => {
           Header: 'Profile Progress',
           Footer: '',
           accessor: 'progress',
+          sortType: 'basic',
         },
       ],
     },
   ];
-
+  const defaultColumn = React.useMemo(
+    () => ({
+      minWidth: 100,
+      width: 150,
+      maxWidth: 400,
+    }),
+    []
+  );
   const makeData = (length: number) => {
     return Array.from('_'.repeat(length)).map((_, index) => {
       return {
@@ -80,7 +85,14 @@ const Example = () => {
   const data = React.useMemo(() => makeData(5), []);
 
   return (
-    <Table columns={columns} data={data} isSticky={false} isSorting={true} />
+    <Table
+      columns={columns}
+      data={data}
+      isSorting={true}
+      defaultColumn={defaultColumn}
+      width={800}
+      height={400}
+    />
   );
 };
 

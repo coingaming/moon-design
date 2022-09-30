@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Checkbox } from '@heathmont/moon-core-tw';
 import { ColorNames } from '@heathmont/moon-themes-tw';
 import { Cell, Row } from 'react-table';
 import BodyTR from '../components/BodyTR';
@@ -10,6 +9,7 @@ import { RowSpanHeader } from '../hooks/useRowSpan';
 type RenderSpanRowsProps<D extends object = {}> = {
   rows: Row<D>[];
   prepareRow: (row: Row<D>) => void;
+  rowSpanHeaders: RowSpanHeader[];
   getOnRowClickHandler: (
     row: Row<D>
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
@@ -29,6 +29,7 @@ const renderSpanRows = ({
   getOnRowSelectHandler,
   evenRowBackgroundColor,
   defaultRowBackgroundColor,
+  rowSpanHeaders,
   selectable,
   useCheckbox,
 }: RenderSpanRowsProps) => {
@@ -56,6 +57,16 @@ const renderSpanRows = ({
         ? evenRowBackgroundColor
         : defaultRowBackgroundColor;
       const fontColor = row.original?.fontColor;
+      const isRowSpanned =
+        rowSpanHeaders &&
+        rowSpanHeaders.some((rowSpanHeader: RowSpanHeader) =>
+          row.cells.some(
+            (cell: Cell<{}>) =>
+              cell.column &&
+              rowSpanHeader.id === cell.column.id &&
+              rowSpanHeader.value === cell.value
+          )
+        );
       const [isSelected, setSelected] = useState(row.original?.isSelected);
 
       const makeCellForRowSpanned = (cell: Cell<{}>) => (
@@ -69,6 +80,7 @@ const renderSpanRows = ({
       return (
         <BodyTR
           {...row.getRowProps()}
+          withOffset={!isRowSpanned}
           customBackground={!!row.original?.backgroundColor}
           backgroundColor={backgroundColor}
           fontColor={fontColor}
@@ -91,10 +103,20 @@ const renderSpanRows = ({
           {useCheckbox && (
             <TD selectable={true}>
               <CheckboxTD>
-                <Checkbox
+                {/* <Checkbox
                   id={row.id}
                   checked={isSelected}
                   onClick={(e: any) => e.stopPropagation()}
+                  onChange={() => {
+                    setSelected(!isSelected);
+
+                    if (onRowSelectHandler) onRowSelectHandler(row);
+                  }}
+                /> */}
+                <input
+                  type="checkbox"
+                  checked={isSelected}
+                  onClick={(e) => e.stopPropagation()}
                   onChange={() => {
                     setSelected(!isSelected);
 
@@ -104,6 +126,24 @@ const renderSpanRows = ({
               </CheckboxTD>
             </TD>
           )}
+          {row.cells.map((cell: Cell<{}>) => {
+            if (!rowSpanHeaders) return makeCellForNormalRow(cell);
+
+            const rowSpanHeader = rowSpanHeaders.find(
+              (rowSpanHeader) =>
+                rowSpanHeader &&
+                cell.column &&
+                rowSpanHeader.id === cell.column.id
+            );
+            const isRowSpanned =
+              rowSpanHeader && rowSpanHeader.value === cell.value;
+
+            if (isRowSpanned) return makeCellForRowSpanned(cell);
+
+            if (rowSpanHeader) rowSpanHeader.value = cell.value;
+
+            return makeCellForNormalRow(cell);
+          })}
         </BodyTR>
       );
     }

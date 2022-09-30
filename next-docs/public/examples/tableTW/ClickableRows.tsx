@@ -89,8 +89,10 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      isSticky
       withFooter={true}
+      getOnRowClickHandler={(row: { id: any }) => () => {
+        console.log(`You clicked row with ID - ${row.id}`);
+      }}
     />
   );
 };

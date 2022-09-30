@@ -1,5 +1,10 @@
 import React from 'react';
-import { rem } from '@heathmont/moon-utils-tw';
+import { ColorNames } from '@heathmont/moon-themes-tw';
+
+type HeaderProps = {
+  headerBackgroundColor: ColorNames;
+  selectable?: boolean;
+};
 
 const Header: React.FC<HeaderProps> = ({
   headerBackgroundColor,
@@ -8,11 +13,10 @@ const Header: React.FC<HeaderProps> = ({
 }) => {
   return (
     <div
-      className={'sticky z-1 t-0'}
+      className={'flex flex-col gap-1 sticky'}
       style={
         selectable
           ? {
-              paddingLeft: rem(46),
               backgroundColor: `rgb(var(--${headerBackgroundColor}))`,
             }
           : {}
@@ -21,11 +25,6 @@ const Header: React.FC<HeaderProps> = ({
       {children}
     </div>
   );
-};
-
-type HeaderProps = {
-  headerBackgroundColor: string;
-  selectable?: boolean;
 };
 
 export default Header;

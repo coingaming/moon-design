@@ -5,11 +5,13 @@ import React, {
   MutableRefObject,
   ReactNode,
 } from 'react';
+import classNames from '../utils/classnames';
 
 type ClassesProps = {
   visible?: boolean;
   offset?: number;
   children: ReactNode;
+  style?: any;
 };
 
 const Wrapper: React.FC<ClassesProps> = ({
@@ -30,16 +32,21 @@ const Wrapper: React.FC<ClassesProps> = ({
   );
 };
 
-const Viewport: React.FC<ClassesProps> = ({ children }) => {
+const Viewport: React.FC<ClassesProps> = ({ children, style }) => {
   return (
-    <div className="absolute w-0 h-0 overflow-hidden after:content-none after:absolute after:border-2 after:rounded after:w-full after:h-full">
+    <div
+      className={classNames(
+        style && '',
+        'absolute w-0 h-0 overflow-hidden after:content-none after:absolute after:border-2 after:rounded after:w-full after:h-full'
+      )}
+    >
       {children}
     </div>
   );
 };
 const Grid: React.FC<ClassesProps> = ({ children }) => {
   return (
-    <div className={`grid auto-cols-auto	 h-full gap-1 relative`}>
+    <div className={`grid auto-cols-auto h-full gap-1 relative`}>
       {children}
     </div>
   );
@@ -111,10 +118,12 @@ const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
   return (
     <Wrapper visible={visible} offset={footerHeight}>
       <Grid>
-        <Viewport children={''} />
-        {[...new Array(numberOfColumns)].map((_, index) => (
-          <Column key={index} children={''} />
-        ))}
+        <Viewport
+          style={styles}
+          children={[...new Array(numberOfColumns)].map((_, index) => (
+            <Column key={index} children={''} />
+          ))}
+        />
       </Grid>
     </Wrapper>
   );

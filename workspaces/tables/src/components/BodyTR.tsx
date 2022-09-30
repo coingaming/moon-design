@@ -1,7 +1,6 @@
 import React, { ReactNode } from 'react';
 import { ColorNames } from '@heathmont/moon-themes-tw';
-import { rem } from '@heathmont/moon-utils-tw';
-import styled from 'styled-components';
+import classNames from '../utils/classnames';
 
 type BodyTRProps = {
   onClick?: () => void;
@@ -17,6 +16,7 @@ type BodyTRProps = {
   backgroundColor?: ColorNames;
   fontColor?: ColorNames;
   children?: ReactNode;
+  selectable?: boolean;
 };
 
 const BodyTR: React.FC<BodyTRProps> = ({
@@ -27,71 +27,36 @@ const BodyTR: React.FC<BodyTRProps> = ({
   hasParent,
   isLastNestedRow,
   isLastRow,
+  isSelected,
+  selectable,
   children,
+  backgroundColor,
+  fontColor,
+  customBackground,
   depth = 0,
 }) => {
   return (
     <div
-      className={`${
-        withOffset ? 'mt-[rem(8)]' : 'mt-[rem(2)]'
-      } relative first:mt-0 focus-visible:outline-none  
-    ${
-      (hasChildren && !isExpanded) || isLastNestedRow
-        ? `relative after:content-none after:h-px after:absolute after:right-${rem(
-            24
-          )} bg-beerus`
-        : ''
-    } 
-    ${hasParent ? 'mt-0' : ''}\
-    ${isLastRow ? 'after:hidden' : ''}
-    ${onClick ? 'hover:cursor-pointer' : ''}`}
+      className={classNames(
+        'relative first:mt-0 focus-visible:outline-none flex gap-4 rounded-moon-s-sm bg-gohan transition-colors text-bulma moon-text-14 pl-4',
+        withOffset ? 'mt-2' : 'mt-1',
+        hasParent ? 'mt-0' : '',
+        isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',
+        isLastRow
+          ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0'
+          : '',
+        onClick ? 'hover:cursor-pointer hover:bg-piccolo/10' : '',
+        isSelected ? 'text-popo bg-piccolo/10' : fontColor ? 'text-popo' : '',
+        isSelected && !customBackground
+          ? 'bg-piccolo/10 border-piccolo/10'
+          : `bg-${backgroundColor} border-${backgroundColor}`,
+        selectable &&
+          'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent bg-piccolo/10'
+      )}
     >
       {children}
     </div>
   );
 };
-
-// ...(onClick
-//     ? {
-//         '&:hover': {
-//           cursor: 'pointer',
-//           // [TD]: {
-//           //   backgroundColor: tint(0.88, theme.colorNew.piccolo),
-//           //   borderTop: `${rem(4)} solid ${tint(
-//           //     0.88,
-//           //     theme.colorNew.piccolo
-//           //   )}`,
-//           //   borderBottom: `${rem(4)} solid ${tint(
-//           //     0.88,
-//           //     theme.colorNew.piccolo
-//           //   )}`,
-//           //   boxSizing: 'border-box',
-//           //   '&:first-child': {
-//           //     borderLeft: `${rem(4)} solid ${tint(
-//           //       0.88,
-//           //       theme.colorNew.piccolo
-//           //     )}`,
-//           //   },
-//           //   '&:last-child': {
-//           //     borderRight: `${rem(4)} solid ${tint(
-//           //       0.88,
-//           //       theme.colorNew.piccolo
-//           //     )}`,
-//           //   },
-//           // },
-//         },
-//       }
-//     : {}),
-// [TD]: {
-//   borderTop: `${rem(4)} solid ${tint(0.88, theme.colorNew.piccolo)}`,
-//   borderBottom: `${rem(4)} solid ${tint(0.88, theme.colorNew.piccolo)}`,
-//   boxSizing: 'border-box',
-//   '&:first-child': {
-//     borderLeft: `${rem(4)} solid ${tint(0.88, theme.colorNew.piccolo)}`,
-//   },
-//   '&:last-child': {
-//     borderRight: `${rem(4)} solid ${tint(0.88, theme.colorNew.piccolo)}`,
-//   },
-// },
 
 export default BodyTR;

@@ -33,11 +33,6 @@ const Example = () => {
           Header: 'Activity',
           accessor: 'activity',
         },
-        {
-          Header: 'Status',
-          width: 60,
-          accessor: 'status',
-        },
       ],
     },
     {

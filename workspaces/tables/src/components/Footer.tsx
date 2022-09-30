@@ -1,6 +1,10 @@
 import React from 'react';
-import { rem } from '@heathmont/moon-utils-tw';
 
+type FooterProps = {
+  ref: React.RefObject<any>;
+  headerBackgroundColor: string;
+  selectable?: boolean;
+};
 const Footer: React.FC<FooterProps> = ({
   headerBackgroundColor,
   selectable,
@@ -8,11 +12,10 @@ const Footer: React.FC<FooterProps> = ({
 }) => {
   return (
     <div
-      className={'sticky z-1 t-0'}
+      className={'sticky z-1 t-0 '}
       style={
         selectable
           ? {
-              paddingLeft: rem(46),
               backgroundColor: `rgb(var(--${headerBackgroundColor}))`,
             }
           : {}
@@ -21,12 +24,6 @@ const Footer: React.FC<FooterProps> = ({
       {children}
     </div>
   );
-};
-
-type FooterProps = {
-  ref: React.RefObject<any>;
-  headerBackgroundColor: string;
-  selectable?: boolean;
 };
 
 // [HeaderTR]: {

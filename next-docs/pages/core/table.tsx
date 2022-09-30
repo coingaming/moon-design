@@ -1,11 +1,14 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import ClickableRows from '../../public/examples/tableTW/ClickableRows';
+import CustomColors from '../../public/examples/tableTW/CustomColors';
+import CustomContent from '../../public/examples/tableTW/CustomContent';
 import DeepTable from '../../public/examples/tableTW/DeepTable';
 import Default from '../../public/examples/tableTW/Default';
 import MiniMap from '../../public/examples/tableTW/MiniMap';
+import SelectableCheckboxes from '../../public/examples/tableTW/SelectableCheckboxes';
 import Sorting from '../../public/examples/tableTW/Sorting';
-import WithCheckbox from '../../public/examples/tableTW/withCheckbox';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -39,29 +42,44 @@ const Example = () => {
         </p>
       </ComponentPageDescription>
       <Preview
-        title="Table"
+        title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="MiniMap"
-        preview={<MiniMap />}
-        code={examples ? examples.MiniMap : 'Loading'}
+        title="Clickable rows"
+        preview={<ClickableRows />}
+        code={examples ? examples.ClickableRows : 'Loading'}
       />
       <Preview
-        title="DeepTable"
+        title="Selectable checkboxes"
+        preview={<SelectableCheckboxes />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Custom colors"
+        preview={<CustomColors />}
+        code={examples ? examples.CustomColors : 'Loading'}
+      />
+      <Preview
+        title="With Sorting"
+        preview={<Sorting />}
+        code={examples ? examples.Sorting : 'Loading'}
+      />
+      <Preview
+        title="Expanded Rows with deep nesting"
         preview={<DeepTable />}
         code={examples ? examples.DeepTable : 'Loading'}
       />
       <Preview
-        title="Table with checkboxes"
-        preview={<WithCheckbox />}
-        code={examples ? examples.WithCheckbox : 'Loading'}
+        title="Expanded rows with custom content"
+        preview={<CustomContent />}
+        code={examples ? examples.CustomContent : 'Loading'}
       />
       <Preview
-        title="Table with sorting"
-        preview={<Sorting />}
-        code={examples ? examples.Sorting : 'Loading'}
+        title="With minimap"
+        preview={<MiniMap />}
+        code={examples ? examples.MiniMap : 'Loading'}
       />
     </>
   );

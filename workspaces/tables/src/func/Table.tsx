@@ -1,21 +1,20 @@
 import React, { useRef, useState, useEffect } from 'react';
-
 import { ColorNames } from '@heathmont/moon-themes-tw';
 
 import {
   useTable,
   Column,
-  useFlexLayout,
-  useResizeColumns,
-  useSortBy,
   HeaderGroup,
   Row,
   UseResizeColumnsColumnProps,
   UseSortByColumnProps,
+  TableInstance,
   useBlockLayout,
+  useFlexLayout,
+  useResizeColumns,
+  useSortBy,
   useExpanded,
   PluginHook,
-  TableInstance,
 } from 'react-table';
 import Body from '../components/Body';
 import Footer from '../components/Footer';
@@ -89,14 +88,13 @@ const Table: React.FC<TableProps> = ({
   getOnRowClickHandler = () => undefined,
   getOnRowSelect = () => undefined,
 }) => {
-  const plugins = [
-    layout === 'block' ? useBlockLayout : useFlexLayout,
-    variant === 'calendar' ? useRowSpan : undefined,
-    useResizeColumns,
-    isSticky ? isSticky : undefined,
-    isSorting ? useSortBy : undefined,
-    useExpanded,
-  ].filter((plugin) => !!plugin) as PluginHook<{}>[];
+  // const plugins = [
+  //   layout === 'block' ? useBlockLayout : useFlexLayout,
+  //   variant === 'calendar' ? useRowSpan : undefined,
+  //   useResizeColumns,
+  //   isSorting ? useSortBy : undefined,
+  //   useExpanded,
+  // ].filter((plugin) => !!plugin) as PluginHook<{}>[];
 
   const {
     getTableProps,
@@ -113,8 +111,8 @@ const Table: React.FC<TableProps> = ({
       columns,
       data,
       defaultColumn,
-    },
-    ...plugins
+    }
+    // ...plugins
   ) as TableInstance<object> & {
     toggleAllRowsExpanded: (isExpanded?: boolean) => void;
     rowSpanHeaders: RowSpanHeader[];
@@ -154,12 +152,12 @@ const Table: React.FC<TableProps> = ({
       column as unknown as UseResizeColumnsColumnProps<object>;
     return (
       <TH
-        {...column.getHeaderProps(sortingColumn.getSortByToggleProps())}
+        {...column.getHeaderProps(sortingColumn.getSortByToggleProps)}
         headerBackgroundColor={headerBackgroundColor}
       >
         {column.render('Header')}
         <div
-          {...resizingColumn.getResizerProps()}
+          {...resizingColumn.getResizerProps}
           className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
         />
       </TH>
@@ -176,7 +174,7 @@ const Table: React.FC<TableProps> = ({
       >
         {column.render('Header')}
         <div
-          {...resizingColumn.getResizerProps()}
+          {...resizingColumn.getResizerProps}
           className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
         />
       </TH>
@@ -194,7 +192,7 @@ const Table: React.FC<TableProps> = ({
         {column.render('Footer')}
 
         <div
-          {...resizingColumn.getResizerProps()}
+          {...resizingColumn.getResizerProps}
           className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
         />
       </TH>
@@ -246,6 +244,7 @@ const Table: React.FC<TableProps> = ({
               getOnRowClickHandler,
               evenRowBackgroundColor,
               defaultRowBackgroundColor,
+              rowSpanHeaders,
               selectable,
               useCheckbox,
             })
