@@ -1,4 +1,5 @@
 import React, { Fragment, useState } from 'react';
+import { Checkbox } from '@heathmont/moon-core-tw';
 import { ColorNames } from '@heathmont/moon-themes-tw';
 import { Cell, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../components/BodyTR';
@@ -111,20 +112,10 @@ const renderRows = ({
                 isSelected={isSelected}
               >
                 <CheckboxTD>
-                  {/* <Checkbox
+                   <Checkbox
                     id={row.id}
                     checked={isSelected}
                     onClick={(e: any) => e.stopPropagation()}
-                  /> */}
-                  <input
-                    type="checkbox"
-                    onClick={(e) => e.stopPropagation()}
-                    checked={isSelected}
-                    onChange={() => {
-                      setSelected(!isSelected);
-
-                      if (onRowSelectHandler) onRowSelectHandler(row);
-                    }}
                   />
                 </CheckboxTD>
               </TD>
