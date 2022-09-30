@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
@@ -13,6 +14,15 @@ const PageAvatar = () => {
   return (
     <>
       <ComponentPageDescription title="Avatar">
+        <p className="font-medium">
+          NB! The component is depricated. Please use our{' '}
+          <Link href="/core/avatar">
+            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
+              new Avatar
+            </a>
+          </Link>{' '}
+          built with Tailwind.
+        </p>
         <p>
           Avatars are used to represent an individual, a business, or a
           celestial being when they interact with any Coingaming brand. While

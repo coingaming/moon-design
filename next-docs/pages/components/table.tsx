@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
@@ -20,6 +21,15 @@ export default function PageTable() {
   return (
     <>
       <ComponentPageDescription title="Table">
+        <p className="font-medium">
+          NB! The component is depricated. Please use our{' '}
+          <Link href="/core/table">
+            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
+              new Table
+            </a>
+          </Link>{' '}
+          built with Tailwind.
+        </p>
         <p>Lightweight, fast and extendable table.</p>
         <p>
           Based on{' '}
