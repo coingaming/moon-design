@@ -40,6 +40,12 @@ const Example = () => {
           accessor: 'activity',
           Footer: '',
         },
+        {
+          Header: 'Status',
+          width: 60,
+          accessor: 'status',
+          Footer: '',
+        },
       ],
     },
     {
@@ -89,7 +95,6 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      isSticky
       withFooter={true}
     />
   );

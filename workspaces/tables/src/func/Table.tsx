@@ -1,5 +1,5 @@
-import React, { useRef, useState, useEffect } from 'react';
-import { ColorNames } from '@heathmont/moon-themes-tw';
+import React, {useRef, useState, useEffect} from 'react';
+import {ColorNames} from '@heathmont/moon-themes-tw';
 
 import {
   useTable,
@@ -8,13 +8,7 @@ import {
   Row,
   UseResizeColumnsColumnProps,
   UseSortByColumnProps,
-  TableInstance,
-  useBlockLayout,
-  useFlexLayout,
-  useResizeColumns,
-  useSortBy,
-  useExpanded,
-  PluginHook,
+  TableInstance
 } from 'react-table';
 import Body from '../components/Body';
 import Footer from '../components/Footer';
@@ -25,7 +19,7 @@ import Minimap from '../components/Minimap';
 import OuterWrapper from '../components/OuterWrapper';
 import TableWrapper from '../components/TableWrapper';
 import TH from '../components/TH';
-import useRowSpan, { RowSpanHeader } from '../hooks/useRowSpan';
+import {RowSpanHeader} from '../hooks/useRowSpan';
 import useScrollState from '../hooks/useScrollState';
 import renderRows from '../utils/renderRows';
 import renderSpanRows from '../utils/renderSpanRows';
@@ -124,7 +118,7 @@ const Table: React.FC<TableProps> = ({
     ? getOnRowSelect()
     : () => undefined;
 
-  const { scrollState, handleScroll } = useScrollState(tableRef);
+  const {scrollState, handleScroll} = useScrollState(tableRef);
   const [selectedRows, setSelectedRows] = useState<Row<{}>[]>([]);
 
   useEffect(() => {
@@ -140,8 +134,8 @@ const Table: React.FC<TableProps> = ({
     setSelectedRows(
       rows?.length
         ? rows.filter((row: Row<{ isSelected?: boolean }>) => {
-            return row.original?.isSelected;
-          })
+          return row.original?.isSelected;
+        })
         : []
     );
   }, []);
@@ -199,115 +193,113 @@ const Table: React.FC<TableProps> = ({
     );
   };
 
-  const renderTableComponent = () => (
-    <TableWrapper
-      {...getTableProps()}
-      ref={tableRef}
-      onScroll={handleScroll}
-      className={isSticky ? 'sticky' : undefined}
-      isScrolledToLeft={scrollState.scrolledToLeft}
-      isScrolledToRight={scrollState.scrolledToRight}
-      style={{
-        width,
-        height,
-        maxWidth,
-        maxHeight,
-      }}
-      variant={variant}
-      defaultRowBackgroundColor={defaultRowBackgroundColor}
-      evenRowBackgroundColor={evenRowBackgroundColor}
+  const renderTableComponent = () => (<TableWrapper
+    {...getTableProps()}
+    ref={tableRef}
+    onScroll={handleScroll}
+    className={isSticky ? 'sticky' : ''}
+    isScrolledToLeft={scrollState.scrolledToLeft}
+    isScrolledToRight={scrollState.scrolledToRight}
+    style={{
+      width,
+      height,
+      maxWidth,
+      maxHeight,
+    }}
+    variant={variant}
+    defaultRowBackgroundColor={defaultRowBackgroundColor}
+    evenRowBackgroundColor={evenRowBackgroundColor}
+    headerBackgroundColor={headerBackgroundColor}
+  >
+    <Header
+      selectable={useCheckbox}
       headerBackgroundColor={headerBackgroundColor}
     >
-      <Header
-        selectable={useCheckbox}
-        headerBackgroundColor={headerBackgroundColor}
-      >
-        {headerGroups.map((headerGroup: HeaderGroup<object>) => (
-          <HeaderTR {...headerGroup.getHeaderGroupProps()}>
-            {headerGroup.headers.map((column: HeaderGroup<object>) => {
-              const element = isSorting
-                ? getHeaderRowWhenSorting(column)
-                : getHeaderRowWhenResizing(column);
+      {headerGroups.map((headerGroup: HeaderGroup<object>) => (
+        <HeaderTR {...headerGroup.getHeaderGroupProps()}>
+          {headerGroup.headers.map((column: HeaderGroup<object>) => {
+            const element = isSorting
+              ? getHeaderRowWhenSorting(column)
+              : getHeaderRowWhenResizing(column);
 
-              return element;
-            })}
-          </HeaderTR>
-        ))}
-        <HiddenTR lastHeaderGroup={lastHeaderGroup} />
-      </Header>
+            return element;
+          })}
+        </HeaderTR>
+      ))}
+      <HiddenTR lastHeaderGroup={lastHeaderGroup}/>
+    </Header>
 
+    <div className={`overflow-auto`}>
       <Body {...getTableBodyProps()}>
         {variant === 'calendar'
           ? renderSpanRows({
-              rows,
-              prepareRow,
-              getOnRowClickHandler,
-              evenRowBackgroundColor,
-              defaultRowBackgroundColor,
-              rowSpanHeaders,
-              selectable,
-              useCheckbox,
-            })
+            rows,
+            prepareRow,
+            getOnRowClickHandler,
+            evenRowBackgroundColor,
+            defaultRowBackgroundColor,
+            rowSpanHeaders,
+            selectable,
+            useCheckbox,
+          })
           : renderRows({
-              rows,
-              prepareRow,
-              getOnRowClickHandler,
-              getOnRowSelectHandler: (row) => () => {
-                let alreadySelectedRows = [...selectedRows];
-                const alreadySelectedRow = alreadySelectedRows.filter(
-                  (selectedRow) => row.id === selectedRow.id
-                )[0];
+            rows,
+            prepareRow,
+            getOnRowClickHandler,
+            getOnRowSelectHandler: (row) => () => {
+              let alreadySelectedRows = [...selectedRows];
+              const alreadySelectedRow = alreadySelectedRows.filter(
+                (selectedRow) => row.id === selectedRow.id
+              )[0];
 
-                if (alreadySelectedRow) {
-                  alreadySelectedRows = alreadySelectedRows.filter(
-                    (selectedRow) => row.id !== selectedRow.id
-                  );
-                } else {
-                  alreadySelectedRows.push(row);
-                }
+              if (alreadySelectedRow) {
+                alreadySelectedRows = alreadySelectedRows.filter(
+                  (selectedRow) => row.id !== selectedRow.id
+                );
+              } else {
+                alreadySelectedRows.push(row);
+              }
 
-                setSelectedRows(alreadySelectedRows);
-              },
-              evenRowBackgroundColor,
-              defaultRowBackgroundColor,
-              renderRowSubComponent,
-              selectable,
-              useCheckbox,
-            })}
+              setSelectedRows(alreadySelectedRows);
+            },
+            evenRowBackgroundColor,
+            defaultRowBackgroundColor,
+            renderRowSubComponent,
+            selectable,
+            useCheckbox,
+          })}
       </Body>
+    </div>
 
-      {withFooter && (
-        <Footer
-          ref={footerRef}
-          selectable={useCheckbox}
-          headerBackgroundColor={headerBackgroundColor}
-        >
-          {footerGroups.map((footerGroup: HeaderGroup<object>) => (
-            <HeaderTR {...footerGroup.getHeaderGroupProps()}>
-              {footerGroup.headers.map((column: HeaderGroup<object>) =>
-                getFooterRowWhenResizing(column)
-              )}
-            </HeaderTR>
-          ))}
-        </Footer>
-      )}
-    </TableWrapper>
-  );
+    {withFooter && (
+      <Footer
+        ref={footerRef}
+        selectable={useCheckbox}
+        headerBackgroundColor={headerBackgroundColor}
+      >
+        {footerGroups.map((footerGroup: HeaderGroup<object>) => (
+          <HeaderTR {...footerGroup.getHeaderGroupProps()}>
+            {footerGroup.headers.map((column: HeaderGroup<object>) =>
+              getFooterRowWhenResizing(column)
+            )}
+          </HeaderTR>
+        ))}
+      </Footer>
+    )}
+  </TableWrapper>);
 
   if (withMinimap) {
-    return (
-      <OuterWrapper>
-        {renderTableComponent()}
-        <Minimap
-          numberOfColumns={visibleColumns.length}
-          tableRef={tableRef}
-          footerRef={footerRef}
-        />
-      </OuterWrapper>
-    );
-  } else {
-    return renderTableComponent();
+    return (<OuterWrapper>
+      {renderTableComponent()}
+      <Minimap
+        numberOfColumns={visibleColumns.length}
+        tableRef={tableRef}
+        footerRef={footerRef}
+      />
+    </OuterWrapper>);
   }
+
+  return renderTableComponent();
 };
 
 export default Table;

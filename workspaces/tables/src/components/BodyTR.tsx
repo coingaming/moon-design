@@ -1,5 +1,5 @@
-import React, { ReactNode } from 'react';
-import { ColorNames } from '@heathmont/moon-themes-tw';
+import React, {ReactNode} from 'react';
+import {ColorNames} from '@heathmont/moon-themes-tw';
 import classNames from '../utils/classnames';
 
 type BodyTRProps = {
@@ -38,7 +38,7 @@ const BodyTR: React.FC<BodyTRProps> = ({
   return (
     <div
       className={classNames(
-        'relative first:mt-0 focus-visible:outline-none flex gap-4 rounded-moon-s-sm bg-gohan transition-colors text-bulma moon-text-14 pl-4',
+        'relative first:mt-0 focus-visible:outline-none flex gap-4 rounded-moon-s-sm bg-gohan transition-colors text-bulma moon-text-14 pl-1',
         withOffset ? 'mt-2' : 'mt-1',
         hasParent ? 'mt-0' : '',
         isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',

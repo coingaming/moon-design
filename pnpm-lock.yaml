@@ -568,17 +568,23 @@ importers:
       '@heathmont/moon-themes-tw': workspace:^9.7.8
       '@types/react-table': 7.7.12
       '@types/react-window': 1.8.5
+      react: 18.2.0
+      react-dom: 18.2.0
       react-table: ^7.8.0
       react-table-hoc-fixed-columns: 2.3.3
       react-table-sticky: 1.1.3
       react-window: ^1.8.7
+      tailwind-scrollbar-hide: ^1.1.7
     dependencies:
       '@heathmont/moon-core-tw': link:../core
       '@heathmont/moon-themes-tw': link:../themes
-      react-table: 7.8.0_react@16.14.0
-      react-table-hoc-fixed-columns: 2.3.3_wcqkhtmu7mswc6yz4uyexck3ty
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      react-table: 7.8.0_react@18.2.0
+      react-table-hoc-fixed-columns: 2.3.3_biqbaboplfbrettd7655fr4n2y
       react-table-sticky: 1.1.3
-      react-window: 1.8.7_wcqkhtmu7mswc6yz4uyexck3ty
+      react-window: 1.8.7_biqbaboplfbrettd7655fr4n2y
+      tailwind-scrollbar-hide: 1.1.7
     devDependencies:
       '@types/react-table': 7.7.12
       '@types/react-window': 1.8.5
@@ -9841,6 +9847,18 @@ packages:
       tslib: 2.3.1
     dev: false
 
+  /react-table-hoc-fixed-columns/2.3.3_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-c6FyOAhPpIBxV5gPIbhNgDiZo/BPKyYcQzN3TUXAGYu4E6KG3yWwifiTY+M4SNPR2K2Bdv6US8wp1MkHAXRDNA==}
+    peerDependencies:
+      react: ^15.3.0 || ^16.2.0
+      react-dom: ^15.3.0 || ^16.2.0
+    dependencies:
+      classnames: 2.3.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+      uniqid: 5.4.0
+    dev: false
+
   /react-table-hoc-fixed-columns/2.3.3_wcqkhtmu7mswc6yz4uyexck3ty:
     resolution: {integrity: sha512-c6FyOAhPpIBxV5gPIbhNgDiZo/BPKyYcQzN3TUXAGYu4E6KG3yWwifiTY+M4SNPR2K2Bdv6US8wp1MkHAXRDNA==}
     peerDependencies:
@@ -9865,12 +9883,12 @@ packages:
       react: 16.14.0
     dev: false
 
-  /react-table/7.8.0_react@16.14.0:
+  /react-table/7.8.0_react@18.2.0:
     resolution: {integrity: sha512-hNaz4ygkZO4bESeFfnfOft73iBUj8K5oKi1EcSHPAibEydfsX2MyU6Z8KCr3mv3C9Kqqh71U+DhZkFvibbnPbA==}
     peerDependencies:
       react: ^16.8.3 || ^17.0.0-0 || ^18.0.0
     dependencies:
-      react: 16.14.0
+      react: 18.2.0
     dev: false
 
   /react-test-renderer/18.0.0_react@18.2.0:
@@ -9968,7 +9986,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /react-window/1.8.7_wcqkhtmu7mswc6yz4uyexck3ty:
+  /react-window/1.8.7_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-JHEZbPXBpKMmoNO1bNhoXOOLg/ujhL/BU4IqVU9r8eQPcy5KQnGHIHDRkJ0ns9IM5+Aq5LNwt3j8t3tIrePQzA==}
     engines: {node: '>8.0.0'}
     peerDependencies:
@@ -9977,8 +9995,8 @@ packages:
     dependencies:
       '@babel/runtime': 7.18.9
       memoize-one: 5.2.1
-      react: 16.14.0
-      react-dom: 16.14.0_react@16.14.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /react/16.14.0:
@@ -11065,6 +11083,10 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
     dev: true
+
+  /tailwind-scrollbar-hide/1.1.7:
+    resolution: {integrity: sha512-X324n9OtpTmOMqEgDUEA/RgLrNfBF/jwJdctaPZDzB3mppxJk7TLIDmOreEDm1Bq4R9LSPu4Epf8VSdovNU+iA==}
+    dev: false
 
   /tailwindcss-rtl/0.9.0:
     resolution: {integrity: sha512-y7yC8QXjluDBEFMSX33tV6xMYrf0B3sa+tOB5JSQb6/G6laBU313a+Z+qxu55M1Qyn8tDMttjomsA8IsJD+k+w==}

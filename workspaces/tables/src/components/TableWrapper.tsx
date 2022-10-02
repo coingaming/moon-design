@@ -1,7 +1,8 @@
-import React, { ReactNode } from 'react';
-import { ColorNames } from '@heathmont/moon-themes-tw';
+import React, {ReactNode, RefObject, forwardRef} from 'react';
+import {ColorNames} from '@heathmont/moon-themes-tw';
 import styled from 'styled-components';
-import { TableVariant } from '../func/Table';
+import {TableVariant} from '../func/Table';
+import classNames from "../utils/classnames";
 import BodyTR from './BodyTR';
 import TD from './TD';
 import TH from './TH';
@@ -9,26 +10,41 @@ import TH from './TH';
 type TableWrapperProps = {
   isScrolledToLeft: boolean;
   isScrolledToRight: boolean;
+  style?: React.CSSProperties;
+  className?: string;
   variant?: TableVariant;
   defaultRowBackgroundColor?: ColorNames;
   evenRowBackgroundColor?: ColorNames;
   headerBackgroundColor?: ColorNames;
   children?: ReactNode;
+  ref?: any;
+  onScroll?: (tableRef: any) => any;
 };
 
-// const TableWrapperr: React.FC<TableWrapperProps> = ({
-//   isScrolledToLeft,
-//   isScrolledToRight,
-//   variant,
-//   defaultRowBackgroundColor,
-//   evenRowBackgroundColor,
-//   headerBackgroundColor,
-//   children,
-// }) => {
-//   return <div className={`scrolling-touch`}>{children}</div>;
-// };
+const TableWrapper = forwardRef<HTMLDivElement, TableWrapperProps>(({
+  isScrolledToLeft,
+  isScrolledToRight,
+  variant,
+  defaultRowBackgroundColor,
+  evenRowBackgroundColor,
+  headerBackgroundColor,
+  className,
+  style,
+  children,
+}) => {
+  return (<div
+    style={style ?? {}}
+    className={classNames(`
+      table-wrapper
+      overflow-hidden
+      flex
+      flex-col
+      ${className}
+    `)}
+  >{children}</div>);
+});
 
-const TableWrapper = styled.div<{
+const TableWrapperOne = styled.div<{
   isScrolledToLeft: boolean;
   isScrolledToRight: boolean;
   variant?: TableVariant;
@@ -43,27 +59,6 @@ const TableWrapper = styled.div<{
     variant,
     headerBackgroundColor,
   }) => ({
-    /**
-     * Scroll Behavior
-     * 2. Auto-hide scrollbars on IE/Edge.
-     * 3. Create 'padding' around the scrollbar.
-     */
-    WebkitOverflowScrolling: 'touch',
-    scrollbarWidth: 'thin',
-    '-ms-overflow-style': '-ms-autohiding-scrollbar' /* [2] */,
-    '::-webkit-scrollbar': {
-      width: 12,
-      height: 12,
-      cursor: 'pointer',
-    },
-    '::-webkit-scrollbar-thumb': {
-      backgroundColor: 'transparent',
-      backgroundClip: 'content-box' /* [3] */,
-      border: '3px solid transparent' /* [3] */,
-    },
-    ':hover::-webkit-scrollbar-thumb': {
-      backgroundColor: theme.color.goku[40],
-    },
     '&.sticky': {
       overflow: 'scroll',
       '.body': {
@@ -75,18 +70,18 @@ const TableWrapper = styled.div<{
       },
       ...(!isScrolledToLeft
         ? {
-            '[data-sticky-last-left-td]': {
-              boxShadow: `6px 0px 9px `,
-            },
-          }
+          '[data-sticky-last-left-td]': {
+            boxShadow: `6px 0px 9px `,
+          },
+        }
         : {}),
 
       ...(!isScrolledToRight
         ? {
-            '[data-sticky-first-right-td]': {
-              boxShadow: `-6px 0px 9px -10px`,
-            },
-          }
+          '[data-sticky-first-right-td]': {
+            boxShadow: `-6px 0px 9px -10px`,
+          },
+        }
         : {}),
     },
     // ...(variant === 'calendar'
