@@ -1,5 +1,4 @@
-import React, {ReactNode, RefObject, forwardRef} from 'react';
-import {ColorNames} from '@heathmont/moon-themes-tw';
+import React, {ReactNode, forwardRef} from 'react';
 import styled from 'styled-components';
 import {TableVariant} from '../func/Table';
 import classNames from "../utils/classnames";
@@ -8,20 +7,22 @@ import TD from './TD';
 import TH from './TH';
 
 type TableWrapperProps = {
+  reactTableProps: any;
   isScrolledToLeft: boolean;
   isScrolledToRight: boolean;
   style?: React.CSSProperties;
   className?: string;
   variant?: TableVariant;
-  defaultRowBackgroundColor?: ColorNames;
-  evenRowBackgroundColor?: ColorNames;
-  headerBackgroundColor?: ColorNames;
+  defaultRowBackgroundColor?: string;
+  evenRowBackgroundColor?: string;
+  headerBackgroundColor?: string;
   children?: ReactNode;
   ref?: any;
   onScroll?: (tableRef: any) => any;
 };
 
 const TableWrapper = forwardRef<HTMLDivElement, TableWrapperProps>(({
+  reactTableProps,
   isScrolledToLeft,
   isScrolledToRight,
   variant,
@@ -31,8 +32,12 @@ const TableWrapper = forwardRef<HTMLDivElement, TableWrapperProps>(({
   className,
   style,
   children,
+  onScroll,
+  ref
 }) => {
   return (<div
+    {...reactTableProps}
+    ref={ref}
     style={style ?? {}}
     className={classNames(`
       table-wrapper
@@ -41,6 +46,8 @@ const TableWrapper = forwardRef<HTMLDivElement, TableWrapperProps>(({
       flex-col
       ${className}
     `)}
+    variant={variant}
+    onScroll={onScroll}
   >{children}</div>);
 });
 
@@ -48,9 +55,9 @@ const TableWrapperOne = styled.div<{
   isScrolledToLeft: boolean;
   isScrolledToRight: boolean;
   variant?: TableVariant;
-  defaultRowBackgroundColor?: ColorNames;
-  evenRowBackgroundColor?: ColorNames;
-  headerBackgroundColor?: ColorNames;
+  defaultRowBackgroundColor?: string;
+  evenRowBackgroundColor?: string;
+  headerBackgroundColor?: string;
 }>(
   ({
     theme,

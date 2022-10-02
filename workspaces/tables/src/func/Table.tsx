@@ -1,15 +1,21 @@
 import React, {useRef, useState, useEffect} from 'react';
-import {ColorNames} from '@heathmont/moon-themes-tw';
 
 import {
   useTable,
+  useResizeColumns,
+  useExpanded,
+  useBlockLayout,
+  useFlexLayout,
+  useSortBy,
+  TableInstance,
+  PluginHook,
   Column,
-  HeaderGroup,
   Row,
+  HeaderGroup,
   UseResizeColumnsColumnProps,
   UseSortByColumnProps,
-  TableInstance
 } from 'react-table';
+import {useSticky} from "react-table-sticky";
 import Body from '../components/Body';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -19,7 +25,7 @@ import Minimap from '../components/Minimap';
 import OuterWrapper from '../components/OuterWrapper';
 import TableWrapper from '../components/TableWrapper';
 import TH from '../components/TH';
-import {RowSpanHeader} from '../hooks/useRowSpan';
+import useRowSpan, { RowSpanHeader } from '../hooks/useRowSpan';
 import useScrollState from '../hooks/useScrollState';
 import renderRows from '../utils/renderRows';
 import renderSpanRows from '../utils/renderSpanRows';
@@ -30,7 +36,7 @@ export type TableVariant = 'calendar';
 
 export type RowSubComponentProps<D extends object = {}> = {
   row: Row<D>;
-  backgroundColor: ColorNames;
+  backgroundColor: string;
 };
 
 export type TableProps<D extends object = {}> = {
@@ -46,9 +52,9 @@ export type TableProps<D extends object = {}> = {
   withFooter?: boolean;
   withMinimap?: boolean;
   expandedByDefault?: boolean;
-  defaultRowBackgroundColor?: ColorNames;
-  evenRowBackgroundColor?: ColorNames;
-  headerBackgroundColor?: ColorNames;
+  defaultRowBackgroundColor?: string;
+  evenRowBackgroundColor?: string;
+  headerBackgroundColor?: string;
   isSticky?: boolean;
   isSorting?: boolean;
   selectable?: boolean;
@@ -71,9 +77,9 @@ const Table: React.FC<TableProps> = ({
   withFooter = false,
   withMinimap = false,
   expandedByDefault,
-  defaultRowBackgroundColor = 'gohan.100',
-  evenRowBackgroundColor = 'gohan.80',
-  headerBackgroundColor = 'goku.100',
+  defaultRowBackgroundColor = 'gohan',
+  evenRowBackgroundColor = 'gohan',
+  headerBackgroundColor = 'goku',
   isSticky = true,
   isSorting = false,
   selectable = false,
@@ -82,13 +88,14 @@ const Table: React.FC<TableProps> = ({
   getOnRowClickHandler = () => undefined,
   getOnRowSelect = () => undefined,
 }) => {
-  // const plugins = [
-  //   layout === 'block' ? useBlockLayout : useFlexLayout,
-  //   variant === 'calendar' ? useRowSpan : undefined,
-  //   useResizeColumns,
-  //   isSorting ? useSortBy : undefined,
-  //   useExpanded,
-  // ].filter((plugin) => !!plugin) as PluginHook<{}>[];
+  const plugins = [
+    layout === 'block' ? useBlockLayout : useFlexLayout,
+    variant === 'calendar' ? useRowSpan : undefined,
+    useResizeColumns,
+    isSticky ? useSticky : undefined,
+    isSorting ? useSortBy : undefined,
+    useExpanded,
+  ].filter((plugin) => !!plugin) as PluginHook<{}>[];
 
   const {
     getTableProps,
@@ -105,8 +112,8 @@ const Table: React.FC<TableProps> = ({
       columns,
       data,
       defaultColumn,
-    }
-    // ...plugins
+    },
+    ...plugins
   ) as TableInstance<object> & {
     toggleAllRowsExpanded: (isExpanded?: boolean) => void;
     rowSpanHeaders: RowSpanHeader[];
@@ -114,9 +121,7 @@ const Table: React.FC<TableProps> = ({
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
   const tableRef = useRef<HTMLDivElement>(null);
   const footerRef = useRef<HTMLDivElement>(null);
-  const onRowSelectHandler = getOnRowSelect
-    ? getOnRowSelect()
-    : () => undefined;
+  const onRowSelectHandler = getOnRowSelect ? getOnRowSelect() : () => undefined;
 
   const {scrollState, handleScroll} = useScrollState(tableRef);
   const [selectedRows, setSelectedRows] = useState<Row<{}>[]>([]);
@@ -125,11 +130,9 @@ const Table: React.FC<TableProps> = ({
     if (expandedByDefault === undefined || !data || !data.length) return;
     toggleAllRowsExpanded(expandedByDefault);
   }, [expandedByDefault, data, toggleAllRowsExpanded]);
-
   useEffect(() => {
     if (onRowSelectHandler) onRowSelectHandler(selectedRows);
   }, [selectedRows]);
-
   useEffect(() => {
     setSelectedRows(
       rows?.length
@@ -140,13 +143,15 @@ const Table: React.FC<TableProps> = ({
     );
   }, []);
 
-  const getHeaderRowWhenSorting = (column: HeaderGroup<object>) => {
+  const getHeaderRow = (column: HeaderGroup<object>, isSorting?: boolean) => {
     const sortingColumn = column as unknown as UseSortByColumnProps<object>;
-    const resizingColumn =
-      column as unknown as UseResizeColumnsColumnProps<object>;
+    const resizingColumn = column as unknown as UseResizeColumnsColumnProps<object>;
+
     return (
       <TH
-        {...column.getHeaderProps(sortingColumn.getSortByToggleProps)}
+        reactTableProps={{
+          ...column.getHeaderProps(isSorting ? sortingColumn.getSortByToggleProps : undefined)
+        }}
         headerBackgroundColor={headerBackgroundColor}
       >
         {column.render('Header')}
@@ -157,30 +162,12 @@ const Table: React.FC<TableProps> = ({
       </TH>
     );
   };
-
-  const getHeaderRowWhenResizing = (column: HeaderGroup<object>) => {
-    const resizingColumn =
-      column as unknown as UseResizeColumnsColumnProps<object>;
-    return (
-      <TH
-        {...column.getHeaderProps()}
-        headerBackgroundColor={headerBackgroundColor}
-      >
-        {column.render('Header')}
-        <div
-          {...resizingColumn.getResizerProps}
-          className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
-        />
-      </TH>
-    );
-  };
-
   const getFooterRowWhenResizing = (column: HeaderGroup<object>) => {
     const resizingColumn =
       column as unknown as UseResizeColumnsColumnProps<object>;
     return (
       <TH
-        {...column.getHeaderProps()}
+        reactTableProps={{...column.getHeaderProps()}}
         headerBackgroundColor={headerBackgroundColor}
       >
         {column.render('Footer')}
@@ -194,7 +181,7 @@ const Table: React.FC<TableProps> = ({
   };
 
   const renderTableComponent = () => (<TableWrapper
-    {...getTableProps()}
+    reactTableProps={{...getTableProps()}}
     ref={tableRef}
     onScroll={handleScroll}
     className={isSticky ? 'sticky' : ''}
@@ -216,14 +203,8 @@ const Table: React.FC<TableProps> = ({
       headerBackgroundColor={headerBackgroundColor}
     >
       {headerGroups.map((headerGroup: HeaderGroup<object>) => (
-        <HeaderTR {...headerGroup.getHeaderGroupProps()}>
-          {headerGroup.headers.map((column: HeaderGroup<object>) => {
-            const element = isSorting
-              ? getHeaderRowWhenSorting(column)
-              : getHeaderRowWhenResizing(column);
-
-            return element;
-          })}
+        <HeaderTR reactTableProps={{...headerGroup.getHeaderGroupProps()}}>
+          {headerGroup.headers.map((column: HeaderGroup<object>) => getHeaderRow(column, isSorting))}
         </HeaderTR>
       ))}
       <HiddenTR lastHeaderGroup={lastHeaderGroup}/>
@@ -241,8 +222,8 @@ const Table: React.FC<TableProps> = ({
             rowSpanHeaders,
             selectable,
             useCheckbox,
-          })
-          : renderRows({
+          }) :
+          renderRows({
             rows,
             prepareRow,
             getOnRowClickHandler,
@@ -278,7 +259,7 @@ const Table: React.FC<TableProps> = ({
         headerBackgroundColor={headerBackgroundColor}
       >
         {footerGroups.map((footerGroup: HeaderGroup<object>) => (
-          <HeaderTR {...footerGroup.getHeaderGroupProps()}>
+          <HeaderTR reactTableProps={{...footerGroup.getHeaderGroupProps()}}>
             {footerGroup.headers.map((column: HeaderGroup<object>) =>
               getFooterRowWhenResizing(column)
             )}

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { ColorNames } from '@heathmont/moon-themes-tw';
 import { Cell, Row } from 'react-table';
 import BodyTR from '../components/BodyTR';
 import CheckboxTD from '../components/CheckboxTD';
@@ -16,8 +15,8 @@ type RenderSpanRowsProps<D extends object = {}> = {
   getOnRowSelectHandler?: (
     row: Row<D>
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  evenRowBackgroundColor: ColorNames;
-  defaultRowBackgroundColor: ColorNames;
+  evenRowBackgroundColor: string;
+  defaultRowBackgroundColor: string;
   selectable?: boolean;
   useCheckbox?: boolean;
 };
@@ -38,8 +37,8 @@ const renderSpanRows = ({
     (
       row: Row<{
         isSelected?: boolean;
-        backgroundColor?: ColorNames;
-        fontColor?: ColorNames;
+        backgroundColor?: string;
+        fontColor?: string;
       }>,
       index: number
     ) => {

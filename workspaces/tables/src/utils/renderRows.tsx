@@ -1,6 +1,5 @@
 import React, { Fragment, useState } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
-import { ColorNames } from '@heathmont/moon-themes-tw';
 import { Cell, Row, UseExpandedRowProps } from 'react-table';
 import BodyTR from '../components/BodyTR';
 import CheckboxTD from '../components/CheckboxTD';
@@ -10,8 +9,8 @@ import { RowSubComponentProps } from '../func/Table';
 type RenderRowsProps<D extends object = {}> = {
   rows: Row<D>[];
   prepareRow: (row: Row<D>) => void;
-  evenRowBackgroundColor: ColorNames;
-  defaultRowBackgroundColor: ColorNames;
+  evenRowBackgroundColor: string;
+  defaultRowBackgroundColor: string;
   getOnRowClickHandler: (
     row: Row<D>
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
@@ -39,8 +38,8 @@ const renderRows = ({
     (
       row: Row<{
         isSelected?: boolean;
-        backgroundColor?: ColorNames;
-        fontColor?: ColorNames;
+        backgroundColor?: string;
+        fontColor?: string;
       }>,
       index: number
     ) => {

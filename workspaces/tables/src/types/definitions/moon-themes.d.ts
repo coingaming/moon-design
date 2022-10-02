@@ -1,7 +1,7 @@
 declare module '@heathmont/moon-themes-tw' {
   import { CSSObject } from 'styled-components';
 
-  export type ColorNames =
+  export type string =
     | 'piccolo.120'
     | 'piccolo.100'
     | 'piccolo.80'
@@ -40,7 +40,7 @@ declare module '@heathmont/moon-themes-tw' {
     | 'nappa.10'
     | 'popo.100';
 
-  export type ColorProps = ColorNames | string;
+  export type ColorProps = string | string;
 
   export const useTheme: any;
 

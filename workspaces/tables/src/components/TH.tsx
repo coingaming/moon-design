@@ -1,25 +1,31 @@
-import React, { ReactNode } from 'react';
-import { ColorNames } from '@heathmont/moon-themes-tw';
+import React, {forwardRef, ReactNode} from 'react';
 
 const classNames = (...classes: string[]) => {
   return classes.filter(Boolean).join(' ');
 };
 type THProps = {
-  headerBackgroundColor?: ColorNames;
+  headerBackgroundColor?: string;
   children?: ReactNode;
+  reactTableProps?: any;
 };
-const TH: React.FC<THProps> = ({ headerBackgroundColor, children }) => {
+
+const TH = forwardRef<HTMLDivElement, THProps>(({
+  headerBackgroundColor,
+  children,
+  reactTableProps
+}) => {
   return (
     <div
+      {...reactTableProps}
       className={classNames(
-        `p-2 relative text-[12px] py-3 text-start font-normal justify-between w-full \
-       after:content-[""] after:absolute after:w-px after:bg-beerus after:h-[70%] after:bottom-[15%] after:right-0 \
+        `p-2 relative text-[12px] text-start font-normal justify-between w-full
+       after:content-[""] after:absolute after:w-px after:bg-beerus after:h-[70%] after:bottom-[15%] after:right-0
        text-trunks bg-${headerBackgroundColor}`
       )}
     >
       {children}
     </div>
   );
-};
+});
 
 export default TH;

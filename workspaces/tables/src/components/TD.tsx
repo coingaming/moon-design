@@ -1,5 +1,4 @@
 import React from 'react';
-import { ColorNames } from '@heathmont/moon-themes-tw';
 import classNames from '../utils/classnames';
 
 type TDProps = {
@@ -9,8 +8,8 @@ type TDProps = {
   hasParent?: boolean;
   isSelected?: boolean;
   customBackground?: boolean;
-  backgroundColor?: ColorNames;
-  fontColor?: ColorNames;
+  backgroundColor?: string;
+  fontColor?: string;
 };
 
 const TD: React.FC<TDProps> = ({

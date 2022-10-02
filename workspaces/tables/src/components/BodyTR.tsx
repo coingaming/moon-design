@@ -1,5 +1,4 @@
 import React, {ReactNode} from 'react';
-import {ColorNames} from '@heathmont/moon-themes-tw';
 import classNames from '../utils/classnames';
 
 type BodyTRProps = {
@@ -13,8 +12,8 @@ type BodyTRProps = {
   isLastNestedRow?: boolean;
   isSelected?: boolean;
   customBackground?: boolean;
-  backgroundColor?: ColorNames;
-  fontColor?: ColorNames;
+  backgroundColor?: string;
+  fontColor?: string;
   children?: ReactNode;
   selectable?: boolean;
 };
