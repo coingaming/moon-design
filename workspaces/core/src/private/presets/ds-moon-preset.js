@@ -134,6 +134,7 @@ module.exports = {
         inset: '0 0 0 1px rgb(var(--piccolo)) inset',
         interactive: '0 0 0 2px rgb(var(--piccolo)) inset',
         focus: `0 0 0 4px rgba(var(--piccolo), .13)`,
+        left: `rgb(var(--beerus)) -6px 0px 9px -10px`,
         input: '0 0 0 var(--border-width) rgb(var(--beerus)) inset',
         'input-hov':
           '0 0 0 var(--border-i-width) rgb(var(--bulma) / 7%) inset, 0 0 0 var(--border-i-width) rgb(var(--beerus)) inset',

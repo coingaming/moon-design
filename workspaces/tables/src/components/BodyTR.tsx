@@ -2,6 +2,7 @@ import React, {forwardRef, ReactNode} from 'react';
 import classNames from '../utils/classnames';
 
 type BodyTRProps = {
+  reactTableProps?: any;
   onClick?: () => void;
   depth?: number;
   withOffset?: boolean;
@@ -19,6 +20,7 @@ type BodyTRProps = {
 };
 
 const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
+  reactTableProps,
   onClick,
   withOffset,
   isExpanded,
@@ -36,8 +38,9 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
 }) => {
   return (
     <div
+      {...reactTableProps}
       className={classNames(
-        'relative first:mt-0 focus-visible:outline-none flex gap-4 rounded-moon-s-sm bg-gohan transition-colors text-bulma moon-text-14 pl-1',
+        'relative first:mt-0 focus-visible:outline-none flex rounded-moon-s-sm bg-gohan transition-colors text-bulma moon-text-14 pl-1',
         withOffset ? 'mt-2' : 'mt-1',
         hasParent ? 'mt-0' : '',
         isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',

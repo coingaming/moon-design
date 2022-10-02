@@ -34,6 +34,7 @@ const renderRows = ({
   useCheckbox,
 }: RenderRowsProps) => {
   if (!rows) return;
+
   return rows.map(
     (
       row: Row<{
@@ -58,22 +59,21 @@ const renderRows = ({
         nextRowItem && nextRowItem.id ? nextRowItem.id.split('.') : [];
 
       const mainRowIndex = Number(rowId[0]);
-      const backgroundColor = row.original?.backgroundColor
-        ? row.original?.backgroundColor
-        : mainRowIndex % 2
-        ? evenRowBackgroundColor
-        : defaultRowBackgroundColor;
+      const backgroundColor = row.original?.backgroundColor ?
+        row.original?.backgroundColor :
+          mainRowIndex % 2 ?
+            evenRowBackgroundColor :
+            defaultRowBackgroundColor;
       const fontColor = row.original?.fontColor;
       const isLastNestedRow = rowId.length > nextRowId.length;
       const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
       const [isSelected, setSelected] = useState(row.original?.isSelected);
-
       const expandedRow = row as unknown as UseExpandedRowProps<{}>;
 
       return (
         <Fragment key={`${row.id}-${rowProps.key}`}>
           <BodyTR
-            {...rowProps}
+            reactTableProps={{...rowProps}}
             depth={expandedRow.depth}
             isExpanded={expandedRow.isExpanded}
             hasChildren={expandedRow.canExpand}
@@ -85,18 +85,13 @@ const renderRows = ({
             backgroundColor={backgroundColor}
             fontColor={fontColor}
             onClick={
-              selectable
-                ? onRowSelectHandler
-                  ? () => {
-                      setSelected(!isSelected);
-                      onRowSelectHandler(row);
-                    }
-                  : onRowClickHandler
-                  ? () => onRowClickHandler(row)
-                  : undefined
-                : onRowClickHandler
-                ? () => onRowClickHandler(row)
-                : undefined
+              selectable ? onRowSelectHandler ? () => {
+                setSelected(!isSelected);
+                onRowSelectHandler(row);
+              } : onRowClickHandler ?
+                () => onRowClickHandler(row) :
+                undefined : onRowClickHandler ?
+                  () => onRowClickHandler(row) : undefined
             }
           >
             {useCheckbox && (
@@ -109,6 +104,8 @@ const renderRows = ({
                 fontColor={fontColor}
                 customBackground={!!row.original?.backgroundColor}
                 isSelected={isSelected}
+                // @ts-ignore
+                stickySide={cell.column.parent.sticky}
               >
                 <CheckboxTD>
                    <Checkbox
@@ -121,13 +118,20 @@ const renderRows = ({
             )}
 
             {row.cells.map((cell: Cell<{}>) => (
-              <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>
+              <TD
+                reactTableProps={{...cell.getCellProps()}}
+                // @ts-ignore
+                stickySide={cell.column.parent.sticky}
+              >
+                {cell.render('Cell')}
+              </TD>
             ))}
           </BodyTR>
 
-          {expandedRow.isExpanded && !!renderRowSubComponent
-            ? renderRowSubComponent({ row, backgroundColor })
-            : null}
+          {
+            expandedRow.isExpanded && !!renderRowSubComponent ?
+              renderRowSubComponent({ row, backgroundColor }) : null
+          }
         </Fragment>
       );
     }
