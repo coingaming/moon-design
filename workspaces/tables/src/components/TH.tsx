@@ -5,6 +5,7 @@ const classNames = (...classes: string[]) => {
 };
 type THProps = {
   headerBackgroundColor?: string;
+  stickySide?: string;
   children?: ReactNode;
   reactTableProps?: any;
 };
@@ -12,16 +13,21 @@ type THProps = {
 const TH = forwardRef<HTMLDivElement, THProps>(({
   headerBackgroundColor,
   children,
-  reactTableProps
+  reactTableProps,
+  stickySide
 }) => {
   return (
     <div
       {...reactTableProps}
-      className={classNames(
-        `p-2 relative text-[12px] text-start font-normal justify-between w-full
-       after:content-[""] after:absolute after:w-px after:bg-beerus after:h-[70%] after:bottom-[15%] after:right-0
-       text-trunks bg-${headerBackgroundColor}`
-      )}
+      style={{
+        ...reactTableProps?.style,
+        boxShadow: stickySide ? '-6px 0px 9px -10px rgb(var(--trunks) / 90%)' : ''
+      }}
+      className={classNames(`
+        p-2 relative text-[12px] text-start font-normal justify-between w-full
+        after:content-[""] after:absolute after:w-px after:bg-beerus after:h-[70%] after:bottom-[15%] after:right-0
+        text-trunks bg-${headerBackgroundColor}
+     `)}
     >
       {children}
     </div>

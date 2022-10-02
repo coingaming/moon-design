@@ -153,6 +153,8 @@ const Table: React.FC<TableProps> = ({
           ...column.getHeaderProps(isSorting ? sortingColumn.getSortByToggleProps : undefined)
         }}
         headerBackgroundColor={headerBackgroundColor}
+        // @ts-ignore
+        stickySide={column.sticky}
       >
         {column.render('Header')}
         <div
@@ -169,6 +171,8 @@ const Table: React.FC<TableProps> = ({
       <TH
         reactTableProps={{...column.getHeaderProps()}}
         headerBackgroundColor={headerBackgroundColor}
+        // @ts-ignore
+        stickySide={column.sticky}
       >
         {column.render('Footer')}
 
@@ -212,8 +216,9 @@ const Table: React.FC<TableProps> = ({
 
     <div className='overflow-auto no-scrollbar'>
       <Body {...getTableBodyProps()}>
-        {variant === 'calendar'
-          ? renderSpanRows({
+        {
+          variant === 'calendar' ?
+            renderSpanRows({
             rows,
             prepareRow,
             getOnRowClickHandler,
@@ -223,32 +228,33 @@ const Table: React.FC<TableProps> = ({
             selectable,
             useCheckbox,
           }) :
-          renderRows({
-            rows,
-            prepareRow,
-            getOnRowClickHandler,
-            getOnRowSelectHandler: (row) => () => {
-              let alreadySelectedRows = [...selectedRows];
-              const alreadySelectedRow = alreadySelectedRows.filter(
-                (selectedRow) => row.id === selectedRow.id
-              )[0];
+            renderRows({
+              rows,
+              prepareRow,
+              getOnRowClickHandler,
+              getOnRowSelectHandler: (row) => () => {
+                let alreadySelectedRows = [...selectedRows];
+                const alreadySelectedRow = alreadySelectedRows.filter(
+                  (selectedRow) => row.id === selectedRow.id
+                )[0];
 
-              if (alreadySelectedRow) {
-                alreadySelectedRows = alreadySelectedRows.filter(
-                  (selectedRow) => row.id !== selectedRow.id
-                );
-              } else {
-                alreadySelectedRows.push(row);
-              }
+                if (alreadySelectedRow) {
+                  alreadySelectedRows = alreadySelectedRows.filter(
+                    (selectedRow) => row.id !== selectedRow.id
+                  );
+                } else {
+                  alreadySelectedRows.push(row);
+                }
 
-              setSelectedRows(alreadySelectedRows);
-            },
-            evenRowBackgroundColor,
-            defaultRowBackgroundColor,
-            renderRowSubComponent,
-            selectable,
-            useCheckbox,
-          })}
+                setSelectedRows(alreadySelectedRows);
+              },
+              evenRowBackgroundColor,
+              defaultRowBackgroundColor,
+              renderRowSubComponent,
+              selectable,
+              useCheckbox,
+            })
+        }
       </Body>
     </div>
 
