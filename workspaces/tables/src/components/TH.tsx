@@ -19,14 +19,11 @@ const TH = forwardRef<HTMLDivElement, THProps>(({
   return (
     <div
       {...reactTableProps}
-      style={{
-        ...reactTableProps?.style,
-        boxShadow: stickySide ? '-6px 0px 9px -10px rgb(var(--trunks) / 90%)' : ''
-      }}
       className={classNames(`
         p-2 relative text-[12px] text-start font-normal justify-between w-full
         after:content-[""] after:absolute after:w-px after:bg-beerus after:h-[70%] after:bottom-[15%] after:right-0
         text-trunks bg-${headerBackgroundColor}
+        ${stickySide === 'right' ? 'before:content-[""] before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:right-0' : ''}
      `)}
     >
       {children}

@@ -1,4 +1,4 @@
-import React, {ReactNode} from 'react';
+import React, {forwardRef, ReactNode} from 'react';
 import classNames from '../utils/classnames';
 
 type BodyTRProps = {
@@ -18,7 +18,7 @@ type BodyTRProps = {
   selectable?: boolean;
 };
 
-const BodyTR: React.FC<BodyTRProps> = ({
+const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
   onClick,
   withOffset,
   isExpanded,
@@ -56,6 +56,6 @@ const BodyTR: React.FC<BodyTRProps> = ({
       {children}
     </div>
   );
-};
+});
 
 export default BodyTR;

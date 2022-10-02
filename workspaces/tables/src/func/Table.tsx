@@ -153,8 +153,12 @@ const Table: React.FC<TableProps> = ({
           ...column.getHeaderProps(isSorting ? sortingColumn.getSortByToggleProps : undefined)
         }}
         headerBackgroundColor={headerBackgroundColor}
-        // @ts-ignore
-        stickySide={column.sticky}
+        stickySide={
+          // @ts-ignore
+          column.sticky === 'left' && scrollState.scrolledToRight ? 'left' :
+            // @ts-ignore
+            column.sticky === 'right' ? 'right' : ''
+        }
       >
         {column.render('Header')}
         <div
@@ -171,8 +175,12 @@ const Table: React.FC<TableProps> = ({
       <TH
         reactTableProps={{...column.getHeaderProps()}}
         headerBackgroundColor={headerBackgroundColor}
-        // @ts-ignore
-        stickySide={column.sticky}
+        stickySide={
+          // @ts-ignore
+          column.sticky === 'left' && scrollState.scrolledToRight ? 'left' :
+          // @ts-ignore
+          column.sticky === 'right' && scrollState.scrolledToLeft ? 'right' : ''
+        }
       >
         {column.render('Footer')}
 
@@ -215,7 +223,7 @@ const Table: React.FC<TableProps> = ({
     </Header>
 
     <div className='overflow-auto no-scrollbar'>
-      <Body {...getTableBodyProps()}>
+      <Body reactTableProps={{...getTableBodyProps()}}>
         {
           variant === 'calendar' ?
             renderSpanRows({
