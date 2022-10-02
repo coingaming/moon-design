@@ -229,7 +229,7 @@ const Table: React.FC<TableProps> = ({
       <HiddenTR lastHeaderGroup={lastHeaderGroup}/>
     </Header>
 
-    <div className={`overflow-auto`}>
+    <div className='overflow-auto no-scrollbar'>
       <Body {...getTableBodyProps()}>
         {variant === 'calendar'
           ? renderSpanRows({
