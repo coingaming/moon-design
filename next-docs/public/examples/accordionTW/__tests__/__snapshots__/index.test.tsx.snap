@@ -51,22 +51,21 @@ exports[`Accordion renders content outside 1`] = `
 <div
   className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
 >
-  <button
-    aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
     onClick={[Function]}
-    type="button"
   >
     <h3
-      className="flex-1 font-medium text-bulma text-start text-moon-14"
+      className="flex-1 font-medium text-bulma text-moon-14"
     >
       Test accordion
     </h3>
-    <div
-      className="flex items-center justify-center w-6 h-6"
+    <button
+      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+      type="button"
     >
       <svg
-        className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -80,10 +79,10 @@ exports[`Accordion renders content outside 1`] = `
           strokeLinejoin="round"
         />
       </svg>
-    </div>
-  </button>
+    </button>
+  </div>
   <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+    className="overflow-hidden w-full text-bulma h-0"
   >
     <div
       className="text-moon-14"
@@ -98,22 +97,21 @@ exports[`Accordion renders default 1`] = `
 <div
   className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
 >
-  <button
-    aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
-    type="button"
   >
     <h3
-      className="flex-1 font-medium text-bulma text-start text-moon-14"
+      className="flex-1 font-medium text-bulma text-moon-14"
     >
       Default
     </h3>
-    <div
-      className="flex items-center justify-center w-6 h-6"
+    <button
+      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+      type="button"
     >
       <svg
-        className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -127,10 +125,10 @@ exports[`Accordion renders default 1`] = `
           strokeLinejoin="round"
         />
       </svg>
-    </div>
-  </button>
+    </button>
+  </div>
   <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+    className="overflow-hidden w-full text-bulma h-0"
   >
     <div
       className="text-moon-14"
@@ -145,22 +143,21 @@ exports[`Accordion renders default dark 1`] = `
 <div
   className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
 >
-  <button
-    aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
-    type="button"
   >
     <h3
-      className="flex-1 font-medium text-bulma text-start text-moon-14"
+      className="flex-1 font-medium text-bulma text-moon-14"
     >
       Default
     </h3>
-    <div
-      className="flex items-center justify-center w-6 h-6"
+    <button
+      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+      type="button"
     >
       <svg
-        className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -174,10 +171,10 @@ exports[`Accordion renders default dark 1`] = `
           strokeLinejoin="round"
         />
       </svg>
-    </div>
-  </button>
+    </button>
+  </div>
   <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+    className="overflow-hidden w-full text-bulma h-0"
   >
     <div
       className="text-moon-14"
@@ -195,22 +192,21 @@ exports[`Accordion renders default rtl 1`] = `
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
   >
-    <button
-      aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
-      type="button"
     >
       <h3
-        className="flex-1 font-medium text-bulma text-start text-moon-14"
+        className="flex-1 font-medium text-bulma text-moon-14"
       >
         Default
       </h3>
-      <div
-        className="flex items-center justify-center w-6 h-6"
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
       >
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -224,10 +220,10 @@ exports[`Accordion renders default rtl 1`] = `
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-    </button>
+      </button>
+    </div>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+      className="overflow-hidden w-full text-bulma h-0"
     >
       <div
         className="text-moon-14"
@@ -243,22 +239,22 @@ exports[`Accordion renders disabled 1`] = `
 <div
   className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
 >
-  <button
-    aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-not-allowed bg-gohan"
     onClick={[Function]}
-    type="button"
   >
     <h3
-      className="flex-1 font-medium text-bulma text-start text-moon-14"
+      className="flex-1 font-medium text-bulma text-moon-14"
     >
       Test accordion
     </h3>
-    <div
-      className="flex items-center justify-center w-6 h-6"
+    <button
+      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-not-allowed"
+      disabled={true}
+      type="button"
     >
       <svg
-        className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -272,10 +268,10 @@ exports[`Accordion renders disabled 1`] = `
           strokeLinejoin="round"
         />
       </svg>
-    </div>
-  </button>
+    </button>
+  </div>
   <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+    className="overflow-hidden w-full text-bulma h-0"
   >
     <div
       className="text-moon-14"
@@ -290,14 +286,12 @@ exports[`Accordion renders header content 1`] = `
 <div
   className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
 >
-  <button
-    aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
-    type="button"
   >
     <h3
-      className="flex-1 font-medium text-bulma text-start text-moon-14"
+      className="flex-1 font-medium text-bulma text-moon-14"
     >
       Test accordion
     </h3>
@@ -355,11 +349,12 @@ exports[`Accordion renders header content 1`] = `
         />
       </svg>
     </div>
-    <div
-      className="flex items-center justify-center w-6 h-6"
+    <button
+      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+      type="button"
     >
       <svg
-        className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+        className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -373,10 +368,10 @@ exports[`Accordion renders header content 1`] = `
           strokeLinejoin="round"
         />
       </svg>
-    </div>
-  </button>
+    </button>
+  </div>
   <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+    className="overflow-hidden w-full text-bulma h-0"
   >
     <div
       className="text-moon-14"
@@ -391,22 +386,21 @@ exports[`Accordion renders opened by default 1`] = `
 <div
   className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
 >
-  <button
-    aria-expanded={true}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
-    type="button"
   >
     <h3
-      className="flex-1 font-medium text-bulma text-start text-moon-14"
+      className="flex-1 font-medium text-bulma text-moon-14"
     >
       Test accordion
     </h3>
-    <div
-      className="flex items-center justify-center w-6 h-6"
+    <button
+      className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+      type="button"
     >
       <svg
-        className="text-trunks text-moon-16 transition-transform transition-200 rotate-90"
+        className="text-trunks text-moon-24 transition-transform transition-200 rotate-90"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -420,10 +414,10 @@ exports[`Accordion renders opened by default 1`] = `
           strokeLinejoin="round"
         />
       </svg>
-    </div>
-  </button>
+    </button>
+  </div>
   <div
-    className="overflow-hidden w-full text-bulma transition-all h-auto opacity-100 mt-2"
+    className="overflow-hidden w-full text-bulma h-full mt-2"
   >
     <div
       className="text-moon-14"
@@ -439,22 +433,21 @@ Array [
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
   >
-    <button
-      aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-4"
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer transparent rounded-moon-s-sm p-4"
       onClick={[Function]}
-      type="button"
     >
       <h3
-        className="flex-1 font-medium text-bulma text-start text-moon-16"
+        className="flex-1 font-medium text-bulma text-moon-16"
       >
         X Large (xl)
       </h3>
-      <div
-        className="flex items-center justify-center w-6 h-6"
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
       >
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -468,10 +461,10 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-    </button>
+      </button>
+    </div>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+      className="overflow-hidden w-full text-bulma h-0"
     >
       <div
         className="text-moon-14"
@@ -483,22 +476,21 @@ Array [
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
   >
-    <button
-      aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-3"
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer transparent rounded-moon-s-sm p-3"
       onClick={[Function]}
-      type="button"
     >
       <h3
-        className="flex-1 font-medium text-bulma text-start text-moon-14"
+        className="flex-1 font-medium text-bulma text-moon-14"
       >
         Large (lg)
       </h3>
-      <div
-        className="flex items-center justify-center w-6 h-6"
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
       >
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -512,10 +504,10 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-    </button>
+      </button>
+    </div>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+      className="overflow-hidden w-full text-bulma h-0"
     >
       <div
         className="text-moon-14"
@@ -527,22 +519,21 @@ Array [
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
   >
-    <button
-      aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
       onClick={[Function]}
-      type="button"
     >
       <h3
-        className="flex-1 font-medium text-bulma text-start text-moon-14"
+        className="flex-1 font-medium text-bulma text-moon-14"
       >
         Medium is default (md)
       </h3>
-      <div
-        className="flex items-center justify-center w-6 h-6"
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
       >
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -556,10 +547,10 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-    </button>
+      </button>
+    </div>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+      className="overflow-hidden w-full text-bulma h-0"
     >
       <div
         className="text-moon-14"
@@ -571,22 +562,21 @@ Array [
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
   >
-    <button
-      aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-1 ps-3 pe-1"
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer transparent rounded-moon-s-sm py-1 ps-3 pe-1"
       onClick={[Function]}
-      type="button"
     >
       <h3
-        className="flex-1 font-medium text-bulma text-start text-moon-14"
+        className="flex-1 font-medium text-bulma text-moon-14"
       >
         Small (sm)
       </h3>
-      <div
-        className="flex items-center justify-center w-6 h-6"
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
       >
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -600,10 +590,10 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-    </button>
+      </button>
+    </div>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+      className="overflow-hidden w-full text-bulma h-0"
     >
       <div
         className="text-moon-14"
@@ -620,22 +610,21 @@ Array [
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan p-4"
   >
-    <button
-      aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
-      type="button"
     >
       <h3
-        className="flex-1 font-medium text-bulma text-start text-moon-16"
+        className="flex-1 font-medium text-bulma text-moon-16"
       >
         X Large (xl)
       </h3>
-      <div
-        className="flex items-center justify-center w-6 h-6"
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
       >
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -649,10 +638,10 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-    </button>
+      </button>
+    </div>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+      className="overflow-hidden w-full text-bulma h-0"
     >
       <div
         className="text-moon-14"
@@ -664,22 +653,21 @@ Array [
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan p-3"
   >
-    <button
-      aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
-      type="button"
     >
       <h3
-        className="flex-1 font-medium text-bulma text-start text-moon-14"
+        className="flex-1 font-medium text-bulma text-moon-14"
       >
         Large (lg)
       </h3>
-      <div
-        className="flex items-center justify-center w-6 h-6"
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
       >
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -693,10 +681,10 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-    </button>
+      </button>
+    </div>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+      className="overflow-hidden w-full text-bulma h-0"
     >
       <div
         className="text-moon-14"
@@ -708,22 +696,21 @@ Array [
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
   >
-    <button
-      aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
-      type="button"
     >
       <h3
-        className="flex-1 font-medium text-bulma text-start text-moon-14"
+        className="flex-1 font-medium text-bulma text-moon-14"
       >
         Medium is default (md)
       </h3>
-      <div
-        className="flex items-center justify-center w-6 h-6"
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
       >
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -737,10 +724,10 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-    </button>
+      </button>
+    </div>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+      className="overflow-hidden w-full text-bulma h-0"
     >
       <div
         className="text-moon-14"
@@ -752,22 +739,21 @@ Array [
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-1 ps-3 pe-1"
   >
-    <button
-      aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    <div
+      className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
-      type="button"
     >
       <h3
-        className="flex-1 font-medium text-bulma text-start text-moon-14"
+        className="flex-1 font-medium text-bulma text-moon-14"
       >
         Small (sm)
       </h3>
-      <div
-        className="flex items-center justify-center w-6 h-6"
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-gohan cursor-pointer"
+        type="button"
       >
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -781,10 +767,10 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-    </button>
+      </button>
+    </div>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+      className="overflow-hidden w-full text-bulma h-0"
     >
       <div
         className="text-moon-14"
@@ -801,22 +787,21 @@ Array [
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-beerus py-2 ps-3 pe-2"
   >
-    <button
-      aria-expanded={false}
-      className="bg-beerus flex items-center relative w-full gap-1 cursor-pointer bg-beerus"
+    <div
+      className="bg-beerus w-full flex items-center relative gap-1 cursor-pointer bg-beerus"
       onClick={[Function]}
-      type="button"
     >
       <h3
-        className="flex-1 font-medium text-bulma text-start text-moon-14"
+        className="flex-1 font-medium text-bulma text-moon-14"
       >
         Test accordion with backgound
       </h3>
-      <div
-        className="flex items-center justify-center w-6 h-6"
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-beerus cursor-pointer"
+        type="button"
       >
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -830,10 +815,10 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-    </button>
+      </button>
+    </div>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+      className="overflow-hidden w-full text-bulma h-0"
     >
       <div
         className="text-moon-14"
@@ -845,22 +830,21 @@ Array [
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
   >
-    <button
-      aria-expanded={false}
-      className="bg-beerus flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+    <div
+      className="bg-beerus w-full flex items-center relative gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
       onClick={[Function]}
-      type="button"
     >
       <h3
-        className="flex-1 font-medium text-bulma text-start text-moon-14"
+        className="flex-1 font-medium text-bulma text-moon-14"
       >
         Test accordion with backgound: content outside
       </h3>
-      <div
-        className="flex items-center justify-center w-6 h-6"
+      <button
+        className="align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent bg-beerus cursor-pointer"
+        type="button"
       >
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200 rtl:rotate-180"
+          className="text-trunks text-moon-24 transition-transform transition-200 rtl:rotate-180"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -874,10 +858,10 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-    </button>
+      </button>
+    </div>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+      className="overflow-hidden w-full text-bulma h-0"
     >
       <div
         className="text-moon-14"
@@ -893,20 +877,18 @@ exports[`Accordion renders without button 1`] = `
 <div
   className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
 >
-  <button
-    aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+  <div
+    className="bg-gohan w-full flex items-center relative gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
-    type="button"
   >
     <h3
-      className="flex-1 font-medium text-bulma text-start text-moon-14"
+      className="flex-1 font-medium text-bulma text-moon-14"
     >
       Test accordion
     </h3>
-  </button>
+  </div>
   <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
+    className="overflow-hidden w-full text-bulma h-0"
   >
     <div
       className="text-moon-14"
