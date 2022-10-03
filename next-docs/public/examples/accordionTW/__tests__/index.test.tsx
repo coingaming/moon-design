@@ -90,7 +90,7 @@ describe('Accordion', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
     const testInstance = testRenderer.root;
     act(() => {
-      const button = testInstance.findByType('button');
+      const button = testInstance.findByType('button').parent;
       button && button?.props?.onClick();
     });
     expect(testRenderer.toJSON()).toMatchSnapshot();
