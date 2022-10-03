@@ -5,14 +5,20 @@ import { Switch } from '@heathmont/moon-core-tw';
 const Example = () => {
   const [state, setState] = useState(true);
   return (
-    <form action="/notification-settings" method="post">
+    <>
       <Switch
         checked={state}
         onChange={setState}
-        name="notification"
-        value="on"
+        onBgColor="bg-chiChi"
+        offBgColor="bg-krillin"
       />
-    </form>
+      <Switch
+        checked={state}
+        onChange={setState}
+        onBgColor="bg-roshi"
+        offBgColor="bg-nappa"
+      />
+    </>
   );
 };
 
