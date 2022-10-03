@@ -4,6 +4,7 @@ import classNames from '../utils/classnames';
 type BodyTRProps = {
   reactTableProps?: any;
   onClick?: () => void;
+  onHoverToggle?: (hover?: boolean) => void;
   depth?: number;
   withOffset?: boolean;
   isExpanded?: boolean;
@@ -22,6 +23,7 @@ type BodyTRProps = {
 const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
   reactTableProps,
   onClick,
+  onHoverToggle,
   withOffset,
   isExpanded,
   hasChildren,
@@ -53,6 +55,8 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
         selectable &&
           'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent bg-piccolo/10'
       )}
+      onMouseEnter={onHoverToggle ? () => onHoverToggle(true) : null}
+      onMouseLeave={onHoverToggle ? () => onHoverToggle(false) : null}
     >
       {children}
     </div>

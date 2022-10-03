@@ -14,6 +14,7 @@ type TDProps = {
   children?: ReactNode;
   stickySide?: string;
   isLastColumn?: boolean;
+  isHovered?: boolean;
 };
 
 const TD = forwardRef<HTMLDivElement, TDProps>(({
@@ -28,7 +29,8 @@ const TD = forwardRef<HTMLDivElement, TDProps>(({
   selectable,
   children,
   stickySide,
-  isLastColumn
+  isLastColumn,
+  isHovered
 }) => {
   return (
     <div
@@ -46,7 +48,8 @@ const TD = forwardRef<HTMLDivElement, TDProps>(({
         isSelected && !customBackground ?
           'bg-piccolo/10 border-piccolo/10' :
           backgroundColor ? `bg-${backgroundColor} border-${backgroundColor}` : '',
-        selectable && 'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent'
+        selectable && 'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent',
+        isHovered ? 'hover:cursor-pointer hover:bg-piccolo/10 bg-piccolo/10' : '',
       )}
     >
       {children}

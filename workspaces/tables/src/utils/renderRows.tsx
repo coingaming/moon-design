@@ -1,10 +1,10 @@
-import React, { Fragment, useState } from 'react';
-import { Checkbox } from '@heathmont/moon-core-tw';
-import { Cell, Row, UseExpandedRowProps } from 'react-table';
+import React, {Fragment, useState} from 'react';
+import {Checkbox} from '@heathmont/moon-core-tw';
+import {Cell, Row, UseExpandedRowProps} from 'react-table';
 import BodyTR from '../components/BodyTR';
 import CheckboxTD from '../components/CheckboxTD';
 import TD from '../components/TD';
-import { RowSubComponentProps } from '../func/Table';
+import {RowSubComponentProps} from '../func/Table';
 
 type RenderRowsProps<D extends object = {}> = {
   rows: Row<D>[];
@@ -33,6 +33,8 @@ const renderRows = ({
   selectable,
   useCheckbox,
 }: RenderRowsProps) => {
+  const [hoveredRow, setHoveredRow] = useState('');
+
   if (!rows) return;
 
   return rows.map(
@@ -62,18 +64,25 @@ const renderRows = ({
       const backgroundColor = row.original?.backgroundColor
         ? row.original?.backgroundColor
         : mainRowIndex % 2
-        ? evenRowBackgroundColor
-        : defaultRowBackgroundColor;
+          ? evenRowBackgroundColor
+          : defaultRowBackgroundColor;
       const fontColor = row.original?.fontColor;
       const isLastNestedRow = rowId.length > nextRowId.length;
       const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
       const [isSelected, setSelected] = useState(row.original?.isSelected);
       const expandedRow = row as unknown as UseExpandedRowProps<{}>;
+      const onRowClick = selectable ? onRowSelectHandler ?
+          () => {
+            setSelected(!isSelected);
+            onRowSelectHandler(row);
+          } : onRowClickHandler ?
+            () => onRowClickHandler(row) : undefined :
+              onRowClickHandler ? () => onRowClickHandler(row) : undefined;
 
       return (
         <Fragment key={`${row.id}-${rowProps.key}`}>
           <BodyTR
-            reactTableProps={{ ...rowProps }}
+            reactTableProps={{...rowProps}}
             depth={expandedRow.depth}
             isExpanded={expandedRow.isExpanded}
             hasChildren={expandedRow.canExpand}
@@ -84,20 +93,12 @@ const renderRows = ({
             customBackground={!!row.original?.backgroundColor}
             backgroundColor={backgroundColor}
             fontColor={fontColor}
-            onClick={
-              selectable
-                ? onRowSelectHandler
-                  ? () => {
-                      setSelected(!isSelected);
-                      onRowSelectHandler(row);
-                    }
-                  : onRowClickHandler
-                  ? () => onRowClickHandler(row)
-                  : undefined
-                : onRowClickHandler
-                ? () => onRowClickHandler(row)
+            onHoverToggle={
+              onRowClick ?
+                (hover?: boolean) => setHoveredRow(hover ? `${row.id}-${rowProps.key}` : '')
                 : undefined
             }
+            onClick={onRowClick}
           >
             {useCheckbox && (
               <TD
@@ -109,6 +110,7 @@ const renderRows = ({
                 fontColor={fontColor}
                 customBackground={!!row.original?.backgroundColor}
                 isSelected={isSelected}
+                isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
               >
                 <CheckboxTD>
                   <Checkbox
@@ -122,10 +124,11 @@ const renderRows = ({
 
             {row.cells.map((cell: Cell<{}>, index) => (
               <TD
-                reactTableProps={{ ...cell.getCellProps() }}
+                reactTableProps={{...cell.getCellProps()}}
                 // @ts-ignore
                 stickySide={cell?.column?.parent?.sticky}
                 isLastColumn={index === row.cells.length - 1}
+                isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
               >
                 {cell.render('Cell')}
               </TD>
@@ -133,7 +136,7 @@ const renderRows = ({
           </BodyTR>
 
           {expandedRow.isExpanded && !!renderRowSubComponent
-            ? renderRowSubComponent({ row, backgroundColor })
+            ? renderRowSubComponent({row, backgroundColor})
             : null}
         </Fragment>
       );

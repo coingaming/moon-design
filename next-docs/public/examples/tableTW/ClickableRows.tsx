@@ -40,6 +40,12 @@ const Example = () => {
           accessor: 'activity',
           Footer: '',
         },
+        {
+          Header: 'Status',
+          width: 60,
+          accessor: 'status',
+          Footer: '',
+        },
       ],
     },
     {

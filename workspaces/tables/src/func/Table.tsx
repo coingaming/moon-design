@@ -25,7 +25,7 @@ import Minimap from '../components/Minimap';
 import OuterWrapper from '../components/OuterWrapper';
 import TableWrapper from '../components/TableWrapper';
 import TH from '../components/TH';
-import useRowSpan, { RowSpanHeader } from '../hooks/useRowSpan';
+import useRowSpan, {RowSpanHeader} from '../hooks/useRowSpan';
 import useScrollState from '../hooks/useScrollState';
 import renderRows from '../utils/renderRows';
 import renderSpanRows from '../utils/renderSpanRows';
@@ -180,8 +180,8 @@ const Table: React.FC<TableProps> = ({
         stickySide={
           // @ts-ignore
           column.sticky === 'left' && scrollState.scrolledToRight ? 'left' :
-          // @ts-ignore
-          column.sticky === 'right' && scrollState.scrolledToLeft ? 'right' : ''
+            // @ts-ignore
+            column.sticky === 'right' && scrollState.scrolledToLeft ? 'right' : ''
         }
       >
         {column.render('Footer')}
@@ -232,15 +232,15 @@ const Table: React.FC<TableProps> = ({
       {
         variant === 'calendar' ?
           renderSpanRows({
-          rows,
-          prepareRow,
-          getOnRowClickHandler,
-          evenRowBackgroundColor,
-          defaultRowBackgroundColor,
-          rowSpanHeaders,
-          selectable,
-          useCheckbox,
-        }) :
+            rows,
+            prepareRow,
+            getOnRowClickHandler,
+            evenRowBackgroundColor,
+            defaultRowBackgroundColor,
+            rowSpanHeaders,
+            selectable,
+            useCheckbox,
+          }) :
           renderRows({
             rows,
             prepareRow,
