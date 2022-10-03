@@ -11,7 +11,7 @@ const Body = forwardRef<HTMLDivElement, BodyProps>(({
 }) => {
   return (<div
     {...reactTableProps}
-    className='flex flex-col gap-1 relative z-0'
+    className='flex flex-col gap-1 relative z-0 no-scrollbar'
   >{children}</div>);
 });
 
