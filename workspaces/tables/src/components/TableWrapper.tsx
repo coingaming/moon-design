@@ -41,7 +41,9 @@ const TableWrapper = forwardRef<HTMLDivElement, TableWrapperProps>(({
     style={style ?? {}}
     className={classNames(`
       table-wrapper
-      overflow-hidden
+      overflow-y-hidden
+      overflow-x-auto
+      no-scrollbar
       flex
       flex-col
       ${className}

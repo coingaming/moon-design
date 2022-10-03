@@ -12,7 +12,7 @@ const Header: React.FC<HeaderProps> = ({
 }) => {
   return (
     <div
-      className={'flex flex-col gap-1 sticky top-0 z-[99]'}
+      className={'flex flex-col sticky top-0 z-[99]'}
       style={selectable ? {backgroundColor: `rgb(var(--${headerBackgroundColor}))`} : {}}
     >
       {children}

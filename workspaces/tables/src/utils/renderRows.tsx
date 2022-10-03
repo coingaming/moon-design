@@ -117,11 +117,12 @@ const renderRows = ({
               </TD>
             )}
 
-            {row.cells.map((cell: Cell<{}>) => (
+            {row.cells.map((cell: Cell<{}>, index) => (
               <TD
                 reactTableProps={{...cell.getCellProps()}}
                 // @ts-ignore
                 stickySide={cell.column.parent.sticky}
+                isLastColumn={index === row.cells.length - 1}
               >
                 {cell.render('Cell')}
               </TD>

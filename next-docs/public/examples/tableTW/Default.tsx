@@ -86,7 +86,7 @@ const Example = () => {
   );
 
   const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(3), []);
+  const data = React.useMemo(() => makeData(40), []);
 
   return (
     <Table

@@ -40,13 +40,11 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
     <div
       {...reactTableProps}
       className={classNames(
-        'relative first:mt-0 focus-visible:outline-none flex rounded-moon-s-sm bg-gohan transition-colors text-bulma moon-text-14 pl-1',
+        'relative first:mt-0 focus-visible:outline-none flex rounded-moon-s-sm bg-gohan transition-colors text-bulma moon-text-14',
         withOffset ? 'mt-2' : 'mt-1',
         hasParent ? 'mt-0' : '',
         isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',
-        isLastRow
-          ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0'
-          : '',
+        isLastRow ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0' : '',
         onClick ? 'hover:cursor-pointer hover:bg-piccolo/10' : '',
         isSelected ? 'text-popo bg-piccolo/10' : fontColor ? 'text-popo' : '',
         isSelected && !customBackground

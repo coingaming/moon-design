@@ -143,7 +143,7 @@ const Table: React.FC<TableProps> = ({
     );
   }, []);
 
-  const getHeaderRow = (column: HeaderGroup<object>, isSorting?: boolean) => {
+  const getHeaderRow = (column: HeaderGroup<object>, isSorting?: boolean, isLastColumn?: boolean) => {
     const sortingColumn = column as unknown as UseSortByColumnProps<object>;
     const resizingColumn = column as unknown as UseResizeColumnsColumnProps<object>;
 
@@ -155,10 +155,12 @@ const Table: React.FC<TableProps> = ({
         headerBackgroundColor={headerBackgroundColor}
         stickySide={
           // @ts-ignore
-          column.sticky === 'left' && scrollState.scrolledToRight ? 'left' :
+          (column.sticky === 'left' || column.parent?.sticky === 'left') && scrollState.scrolledToRight ?
+            'left' :
             // @ts-ignore
-            column.sticky === 'right' ? 'right' : ''
+            (column.sticky === 'right' || column.parent?.sticky === 'right') ? 'right' : ''
         }
+        isLastColumn={isLastColumn}
       >
         {column.render('Header')}
         <div
@@ -216,55 +218,57 @@ const Table: React.FC<TableProps> = ({
     >
       {headerGroups.map((headerGroup: HeaderGroup<object>) => (
         <HeaderTR reactTableProps={{...headerGroup.getHeaderGroupProps()}}>
-          {headerGroup.headers.map((column: HeaderGroup<object>) => getHeaderRow(column, isSorting))}
+          {headerGroup.headers.map((column: HeaderGroup<object>, index) => getHeaderRow(
+            column,
+            isSorting,
+            index === headerGroup.headers.length - 1
+          ))}
         </HeaderTR>
       ))}
       <HiddenTR lastHeaderGroup={lastHeaderGroup}/>
     </Header>
 
-    <div className='overflow-auto no-scrollbar'>
-      <Body reactTableProps={{...getTableBodyProps()}}>
-        {
-          variant === 'calendar' ?
-            renderSpanRows({
+    <Body reactTableProps={{...getTableBodyProps()}}>
+      {
+        variant === 'calendar' ?
+          renderSpanRows({
+          rows,
+          prepareRow,
+          getOnRowClickHandler,
+          evenRowBackgroundColor,
+          defaultRowBackgroundColor,
+          rowSpanHeaders,
+          selectable,
+          useCheckbox,
+        }) :
+          renderRows({
             rows,
             prepareRow,
             getOnRowClickHandler,
+            getOnRowSelectHandler: (row) => () => {
+              let alreadySelectedRows = [...selectedRows];
+              const alreadySelectedRow = alreadySelectedRows.filter(
+                (selectedRow) => row.id === selectedRow.id
+              )[0];
+
+              if (alreadySelectedRow) {
+                alreadySelectedRows = alreadySelectedRows.filter(
+                  (selectedRow) => row.id !== selectedRow.id
+                );
+              } else {
+                alreadySelectedRows.push(row);
+              }
+
+              setSelectedRows(alreadySelectedRows);
+            },
             evenRowBackgroundColor,
             defaultRowBackgroundColor,
-            rowSpanHeaders,
+            renderRowSubComponent,
             selectable,
             useCheckbox,
-          }) :
-            renderRows({
-              rows,
-              prepareRow,
-              getOnRowClickHandler,
-              getOnRowSelectHandler: (row) => () => {
-                let alreadySelectedRows = [...selectedRows];
-                const alreadySelectedRow = alreadySelectedRows.filter(
-                  (selectedRow) => row.id === selectedRow.id
-                )[0];
-
-                if (alreadySelectedRow) {
-                  alreadySelectedRows = alreadySelectedRows.filter(
-                    (selectedRow) => row.id !== selectedRow.id
-                  );
-                } else {
-                  alreadySelectedRows.push(row);
-                }
-
-                setSelectedRows(alreadySelectedRows);
-              },
-              evenRowBackgroundColor,
-              defaultRowBackgroundColor,
-              renderRowSubComponent,
-              selectable,
-              useCheckbox,
-            })
-        }
-      </Body>
-    </div>
+          })
+      }
+    </Body>
 
     {withFooter && (
       <Footer
