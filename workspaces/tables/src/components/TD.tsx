@@ -42,14 +42,12 @@ const TD = forwardRef<HTMLDivElement, TDProps>(({
         isLastRow ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0' : '',
         isLastRow && hasParent ? 'first:rounded-tl-0 last:rounded-tr-0' : '',
         isLastRow && !isExpanded ? 'first:rounded-bl-2 last:rounded-br-2' : '',
-        isSelected ? 'text-popo bg-piccolo/10' : fontColor ? 'text-popo' : '',
-        stickySide ? customBackground ? `bg-${backgroundColor}` : 'bg-gohan' : '',
+        isSelected ? 'text-popo' : fontColor ? 'text-popo' : '',
         stickySide === 'right' ? 'before:content-[""] before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:left-0 before:-margin-l-2' : '',
-        isSelected && !customBackground ?
-          'bg-piccolo/10 border-piccolo/10' :
-          backgroundColor ? `bg-${backgroundColor} border-${backgroundColor}` : '',
-        selectable && 'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent',
-        isHovered ? 'hover:cursor-pointer hover:bg-piccolo/10 bg-piccolo/10' : '',
+        (isSelected && !customBackground) || isHovered ?
+          'bg-piccolo border-piccolo/10 cursor-pointer' :
+          customBackground ? `bg-${backgroundColor} border-${backgroundColor}` : 'bg-gohan',
+        selectable && 'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent'
       )}
     >
       {children}

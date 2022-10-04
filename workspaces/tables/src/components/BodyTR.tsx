@@ -18,6 +18,7 @@ type BodyTRProps = {
   fontColor?: string;
   children?: ReactNode;
   selectable?: boolean;
+  isHovered?: boolean;
 };
 
 const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
@@ -37,6 +38,7 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
   fontColor,
   customBackground,
   depth = 0,
+  isHovered
 }) => {
   return (
     <div
@@ -47,17 +49,16 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
         hasParent ? 'mt-0' : '',
         isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',
         isLastRow ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0' : '',
-        onClick ? 'hover:cursor-pointer hover:bg-piccolo/10' : '',
-        isSelected ? 'text-popo bg-piccolo/10' : fontColor ? 'text-popo' : '',
-        isSelected && !customBackground
-          ? 'bg-piccolo/10 border-piccolo/10'
-          : `bg-${backgroundColor} border-${backgroundColor}`,
+        isSelected ? 'text-popo bg-piccolo' : fontColor ? 'text-popo' : '',
+        (isSelected && !customBackground) || isHovered ?
+          'bg-piccolo border-piccolo/10 cursor-pointer' :
+          customBackground ? `bg-${backgroundColor} border-${backgroundColor}` : 'bg-gohan',
         selectable &&
-          'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent bg-piccolo/10'
+          'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent bg-piccolo'
       )}
       onMouseEnter={onHoverToggle ? () => onHoverToggle(true) : null}
       onMouseLeave={onHoverToggle ? () => onHoverToggle(false) : null}
-      onClick={() => onClick()}
+      onClick={() => onClick ? onClick() : null}
     >
       {children}
     </div>

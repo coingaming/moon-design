@@ -89,6 +89,7 @@ const renderRows = ({
             isLastNestedRow={isLastNestedRow}
             isLastRow={isLastRow}
             isSelected={isSelected}
+            isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
             customBackground={!!row.original?.backgroundColor}
             backgroundColor={backgroundColor}
             fontColor={fontColor}
