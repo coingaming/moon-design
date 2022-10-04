@@ -13,6 +13,7 @@ type TDProps = {
   fontColor?: string;
   children?: ReactNode;
   stickySide?: string;
+  isFirstColumn?: boolean;
   isLastColumn?: boolean;
   isHovered?: boolean;
 };
@@ -29,6 +30,7 @@ const TD = forwardRef<HTMLDivElement, TDProps>(({
   selectable,
   children,
   stickySide,
+  isFirstColumn,
   isLastColumn,
   isHovered
 }) => {
@@ -36,8 +38,9 @@ const TD = forwardRef<HTMLDivElement, TDProps>(({
     <div
       {...reactTableProps}
       className={classNames(
-        'p-3 pr-1 relative box-border py-4 justify-between items-center w-full text-start rounded-moon-i-sm',
-        isLastColumn ? 'rounded-moon-i-sm' : 'after:content-[""] after:absolute after:w-[1px] after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%]',
+        'p-3 pr-1 relative box-border py-4 justify-between items-center w-full text-start',
+        isFirstColumn ? 'rounded-l-lg' : '',
+        isLastColumn ? 'rounded-r-lg' : 'after:content-[""] after:absolute after:w-[1px] after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%]',
         isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',
         isLastRow ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0' : '',
         isLastRow && hasParent ? 'first:rounded-tl-0 last:rounded-tr-0' : '',
@@ -45,7 +48,7 @@ const TD = forwardRef<HTMLDivElement, TDProps>(({
         isSelected ? 'text-popo' : fontColor ? `text-${fontColor}` : 'text-popo',
         stickySide === 'right' ? 'before:content-[""] before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:left-0 before:-margin-l-2' : '',
         (isSelected && !customBackground) || isHovered ?
-          'bg-piccolo border-piccolo/10 cursor-pointer' :
+          'bg-[#e0e0ed] border-piccolo/10 cursor-pointer' :
           customBackground ? `bg-${backgroundColor} border-${backgroundColor}` : 'bg-gohan',
         selectable && 'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent'
       )}
