@@ -40,6 +40,9 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
   depth = 0,
   isHovered
 }) => {
+  console.log('customBackground', customBackground);
+  console.log('backgroundColor', backgroundColor);
+  console.log('fontColor', fontColor);
   return (
     <div
       {...reactTableProps}
@@ -49,12 +52,11 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
         hasParent ? 'mt-0' : '',
         isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',
         isLastRow ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0' : '',
-        isSelected ? 'text-popo bg-piccolo' : fontColor ? 'text-popo' : '',
+        isSelected ? 'text-popo bg-piccolo' : fontColor ? `text-${fontColor}` : 'text-popo',
         (isSelected && !customBackground) || isHovered ?
           'bg-piccolo border-piccolo/10 cursor-pointer' :
           customBackground ? `bg-${backgroundColor} border-${backgroundColor}` : 'bg-gohan',
-        selectable &&
-          'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent bg-piccolo'
+        selectable ? 'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent bg-piccolo' : ''
       )}
       onMouseEnter={onHoverToggle ? () => onHoverToggle(true) : null}
       onMouseLeave={onHoverToggle ? () => onHoverToggle(false) : null}

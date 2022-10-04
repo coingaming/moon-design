@@ -66,8 +66,8 @@ const Example = () => {
         progress: <span>{Math.floor(index * 100)}</span>,
         status: Math.floor(index * 100),
         activity: Math.floor(index * 100),
-        backgroundColor: index === 1 ? 'beerus.100' : '',
-        fontColor: index === 0 ? 'piccolo.100' : index < 3 ? 'trunks.100' : '',
+        backgroundColor: index === 1 ? 'beerus' : '',
+        fontColor: index === 0 ? 'piccolo' : index < 3 ? 'trunks' : '',
       };
     });
   };
@@ -82,7 +82,7 @@ const Example = () => {
   );
 
   const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(40), []);
+  const data = React.useMemo(() => makeData(10), []);
 
   return (
     <Table

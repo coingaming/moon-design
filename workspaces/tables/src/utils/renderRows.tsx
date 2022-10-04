@@ -110,9 +110,9 @@ const renderRows = ({
                 isExpanded={expandedRow.isExpanded}
                 isLastRow={isLastRow}
                 hasParent={!!expandedRow.depth}
+                customBackground={!!row.original?.backgroundColor}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
-                customBackground={!!row.original?.backgroundColor}
                 isSelected={isSelected}
                 isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
                 // @ts-ignore
@@ -136,6 +136,9 @@ const renderRows = ({
                 isLastColumn={index === row.cells.length - 1}
                 isSelected={isSelected}
                 isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
+                customBackground={!!row.original?.backgroundColor}
+                backgroundColor={backgroundColor}
+                fontColor={fontColor}
               >
                 {cell.render('Cell')}
               </TD>
