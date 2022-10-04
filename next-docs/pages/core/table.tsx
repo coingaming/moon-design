@@ -56,7 +56,7 @@ const Example = () => {
         preview={<SelectableCheckboxes />}
         code={examples ? examples.Default : 'Loading'}
       />
-      <Preview
+      {/*<Preview
         title="Custom colors"
         preview={<CustomColors />}
         code={examples ? examples.CustomColors : 'Loading'}

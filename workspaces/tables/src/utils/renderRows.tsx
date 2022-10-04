@@ -53,13 +53,10 @@ const renderRows = ({
       const nextRowItem = nextRow as Row;
       const nextRowId =
         nextRowItem && nextRowItem.id ? nextRowItem.id.split('.') : [];
-
       const mainRowIndex = Number(rowId[0]);
-      const backgroundColor = row.original?.backgroundColor
-        ? row.original?.backgroundColor
-        : mainRowIndex % 2
-          ? evenRowBackgroundColor
-          : defaultRowBackgroundColor;
+      const backgroundColor = row.original?.backgroundColor ?
+        row.original?.backgroundColor : mainRowIndex % 2 ?
+          evenRowBackgroundColor : defaultRowBackgroundColor;
       const fontColor = row.original?.fontColor;
       const isLastNestedRow = rowId.length > nextRowId.length;
       const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
@@ -118,6 +115,8 @@ const renderRows = ({
                 customBackground={!!row.original?.backgroundColor}
                 isSelected={isSelected}
                 isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
+                // @ts-ignore
+                stickySide={row.cells[0].parent?.sticky ? 'left' : ''}
               >
                 <CheckboxTD>
                   <Checkbox
