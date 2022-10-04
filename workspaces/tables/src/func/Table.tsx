@@ -196,7 +196,7 @@ const Table: React.FC<TableProps> = ({
 
   const renderTableComponent = () => (<TableWrapper
     reactTableProps={{...getTableProps()}}
-    ref={tableRef}
+    tableRef={tableRef}
     onScroll={handleScroll}
     className={isSticky ? 'sticky' : ''}
     isScrolledToLeft={scrollState.scrolledToLeft}

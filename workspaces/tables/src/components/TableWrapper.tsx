@@ -2,9 +2,6 @@ import React, {ReactNode, forwardRef} from 'react';
 import styled from 'styled-components';
 import {TableVariant} from '../func/Table';
 import classNames from "../utils/classnames";
-import BodyTR from './BodyTR';
-import TD from './TD';
-import TH from './TH';
 
 type TableWrapperProps = {
   reactTableProps: any;
@@ -17,7 +14,7 @@ type TableWrapperProps = {
   evenRowBackgroundColor?: string;
   headerBackgroundColor?: string;
   children?: ReactNode;
-  ref?: any;
+  tableRef?: any;
   onScroll?: (tableRef: any) => any;
 };
 
@@ -33,11 +30,11 @@ const TableWrapper = forwardRef<HTMLDivElement, TableWrapperProps>(({
   style,
   children,
   onScroll,
-  ref
+  tableRef
 }) => {
   return (<div
     {...reactTableProps}
-    ref={ref}
+    ref={tableRef}
     style={style ?? {}}
     className={classNames(`
       table-wrapper

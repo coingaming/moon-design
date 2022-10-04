@@ -4,7 +4,11 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import PropsTable from "../../components/PropsTable";
 import ClickableRows from "../../public/examples/tableTW/ClickableRows";
 import CustomColors from "../../public/examples/tableTW/CustomColors";
+import CustomContent from "../../public/examples/tableTW/CustomContent";
+import DeepTable from "../../public/examples/tableTW/DeepTable";
 import Default from '../../public/examples/tableTW/Default';
+import ExpandedRow from "../../public/examples/tableTW/ExpandedRow";
+import MiniMap from "../../public/examples/tableTW/MiniMap";
 import SelectableCheckboxes from "../../public/examples/tableTW/SelectableCheckboxes";
 import SelectableRows from "../../public/examples/tableTW/SelectableRows";
 import Sorting from "../../public/examples/tableTW/Sorting";
@@ -66,11 +70,16 @@ const Example = () => {
         code={examples ? examples.CustomColors : 'Loading'}
       />
       <Preview
+        title="Expanded Rows"
+        preview={<ExpandedRow />}
+        code={examples ? examples.ExpandedRow : 'Loading'}
+      />
+      <Preview
         title="With Sorting"
         preview={<Sorting />}
         code={examples ? examples.Sorting : 'Loading'}
       />
-      {/*<Preview
+      <Preview
         title="Expanded Rows with deep nesting"
         preview={<DeepTable />}
         code={examples ? examples.DeepTable : 'Loading'}
@@ -84,7 +93,7 @@ const Example = () => {
         title="With minimap"
         preview={<MiniMap />}
         code={examples ? examples.MiniMap : 'Loading'}
-      />*/}
+      />
       <PropsTable
         title="Props"
         data={[

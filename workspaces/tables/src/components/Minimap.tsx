@@ -21,39 +21,32 @@ const Wrapper: React.FC<ClassesProps> = ({
 }) => {
   return (
     <div
-      className={`absolute bottom-${
-        offset + 40
-      } right-10 w-auto h-[56px] z-1 bg-gohan rounded-moon-i-md p-1 pointer-events-none ${
-        visible ? 'opacity-10' : 'opacity-0'
-      }`}
-    >
-      {children}
-    </div>
-  );
-};
-
-const Viewport: React.FC<ClassesProps> = ({ children, style }) => {
-  return (
-    <div
       className={classNames(
-        style && '',
-        'absolute w-0 h-0 overflow-hidden after:content-none after:absolute after:border-2 after:rounded after:w-full after:h-full'
+        'absolute',
+        'bottom-4',
+        'shadow-md',
+        'right-10 w-auto h-[56px] z-1 bg-gohan rounded-moon-i-sm p-1 pointer-events-none',
+        visible ? '' : 'opacity-0'
       )}
     >
       {children}
     </div>
   );
 };
-const Grid: React.FC<ClassesProps> = ({ children }) => {
+const Grid: React.FC<ClassesProps> = ({children}) => {
   return (
-    <div className={`grid auto-cols-auto h-full gap-1 relative`}>
+    <div style={{ gridAutoFlow: 'column' }} className='grid grid-flow-col h-full gap-1 relative'>
       {children}
     </div>
   );
 };
-
-const Column: React.FC<ClassesProps> = ({ children }) => {
-  return <div className={`h-full w-2 bg-goku/80 rounded-sm`}>{children}</div>;
+const Viewport: React.FC<any> = () => {
+  return (<div
+    className='absolute w-0 h-0 overflow-hidden after:content-none after:absolute after:border-2 after:rounded after:w-full after:h-full'
+  />);
+};
+const Column: React.FC<ClassesProps> = ({children}) => {
+  return <div className='h-full w-2 bg-goku/80 rounded-sm'>{children}</div>;
 };
 
 type Props = {
@@ -65,7 +58,11 @@ type Props = {
 let timeoutId: ReturnType<typeof setTimeout>;
 const TIMEOUT = 150;
 
-const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
+const Minimap: React.FC<Props> = ({
+  tableRef,
+  footerRef,
+  numberOfColumns
+}) => {
   const [styles, setStyles] = useState({});
   const [visible, setVisible] = useState(false);
   const [footerHeight, setFooterHeight] = useState(0);
@@ -97,18 +94,16 @@ const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
       setVisible(false);
     }, TIMEOUT);
   }, [tableRef]);
-
   useEffect(() => {
     if (!footerRef || !footerRef.current) return;
     setFooterHeight(footerRef.current.clientHeight);
   }, [footerRef, setFooterHeight]);
-
   useEffect(() => {
     if (!tableRef || !tableRef.current) return;
     const current = tableRef.current;
 
     handleUpdateViewport();
-    current.addEventListener('scroll', handleUpdateViewport, { passive: true });
+    current.addEventListener('scroll', handleUpdateViewport, {passive: true});
     return () => {
       current.removeEventListener('scroll', handleUpdateViewport);
       clearTimeout(timeoutId);
@@ -120,10 +115,10 @@ const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
       <Grid>
         <Viewport
           style={styles}
-          children={[...new Array(numberOfColumns)].map((_, index) => (
-            <Column key={index} children={''} />
-          ))}
         />
+        {[...new Array(numberOfColumns)].map((_, index) => (
+          <Column key={index} children={''}/>
+        ))}
       </Grid>
     </Wrapper>
   );
