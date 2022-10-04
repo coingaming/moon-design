@@ -1,14 +1,12 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import ClickableRows from '../../public/examples/tableTW/ClickableRows';
-import CustomColors from '../../public/examples/tableTW/CustomColors';
-import CustomContent from '../../public/examples/tableTW/CustomContent';
-import DeepTable from '../../public/examples/tableTW/DeepTable';
+import PropsTable from "../../components/PropsTable";
+import ClickableRows from "../../public/examples/tableTW/ClickableRows";
+import CustomColors from "../../public/examples/tableTW/CustomColors";
 import Default from '../../public/examples/tableTW/Default';
-import MiniMap from '../../public/examples/tableTW/MiniMap';
-import SelectableCheckboxes from '../../public/examples/tableTW/SelectableCheckboxes';
-import Sorting from '../../public/examples/tableTW/Sorting';
+import SelectableCheckboxes from "../../public/examples/tableTW/SelectableCheckboxes";
+import SelectableRows from "../../public/examples/tableTW/SelectableRows";
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -52,6 +50,11 @@ const Example = () => {
         code={examples ? examples.ClickableRows : 'Loading'}
       />
       <Preview
+        title="Selectable rows"
+        preview={<SelectableRows />}
+        code={examples ? examples.SelectableRows : 'Loading'}
+      />
+      <Preview
         title="Selectable checkboxes"
         preview={<SelectableCheckboxes />}
         code={examples ? examples.Default : 'Loading'}
@@ -80,6 +83,67 @@ const Example = () => {
         title="With minimap"
         preview={<MiniMap />}
         code={examples ? examples.MiniMap : 'Loading'}
+      />*/}
+      <PropsTable
+        title="Props"
+        data={[
+          {
+            name: 'width',
+            type: 'string | number',
+            required: false,
+            default: '-',
+            description: 'Width of the table',
+          },
+          {
+            name: 'height',
+            type: 'string | number',
+            required: false,
+            default: '-',
+            description: 'Height of the table',
+          },
+          {
+            name: 'maxWidth',
+            type: 'string | number',
+            required: false,
+            default: '-',
+            description: 'Max width of the table',
+          },
+          {
+            name: 'maxHeight',
+            type: 'string | number',
+            required: false,
+            default: '-',
+            description: 'Max height of the table',
+          },
+          {
+            name: 'withFooter',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Display table footer',
+          },
+          {
+            name: 'selectable',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Allow rows to be selected',
+          },
+          {
+            name: 'getOnRowSelect',
+            type: 'function',
+            required: false,
+            default: '-',
+            description: 'Callback on selected row',
+          },
+          {
+            name: 'getOnRowClickHandler',
+            type: 'function',
+            required: false,
+            default: '-',
+            description: 'Callback on clicked row',
+          },
+        ]}
       />
     </>
   );
