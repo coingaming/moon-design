@@ -7,6 +7,7 @@ import CustomColors from "../../public/examples/tableTW/CustomColors";
 import Default from '../../public/examples/tableTW/Default';
 import SelectableCheckboxes from "../../public/examples/tableTW/SelectableCheckboxes";
 import SelectableRows from "../../public/examples/tableTW/SelectableRows";
+import Sorting from "../../public/examples/tableTW/Sorting";
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -64,12 +65,12 @@ const Example = () => {
         preview={<CustomColors />}
         code={examples ? examples.CustomColors : 'Loading'}
       />
-      {/*<Preview
+      <Preview
         title="With Sorting"
         preview={<Sorting />}
         code={examples ? examples.Sorting : 'Loading'}
       />
-      <Preview
+      {/*<Preview
         title="Expanded Rows with deep nesting"
         preview={<DeepTable />}
         code={examples ? examples.DeepTable : 'Loading'}
