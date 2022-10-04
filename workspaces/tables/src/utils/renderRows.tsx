@@ -11,7 +11,7 @@ type RenderRowsProps<D extends object = {}> = {
   prepareRow: (row: Row<D>) => void;
   evenRowBackgroundColor: string;
   defaultRowBackgroundColor: string;
-  getOnRowClickHandler: (
+  getOnRowClickHandler?: (
     row: Row<D>
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
   getOnRowSelectHandler?: (
@@ -48,10 +48,6 @@ const renderRows = ({
     ) => {
       prepareRow(row);
       const rowProps = row.getRowProps();
-      const onRowClickHandler = () => getOnRowClickHandler ? getOnRowClickHandler(row) : () => undefined;
-      const onRowSelectHandler = getOnRowSelectHandler
-        ? getOnRowSelectHandler(row)
-        : () => undefined;
       const rowId = row.id ? row.id.split('.') : [];
       const nextRow = rows[index + 1];
       const nextRowItem = nextRow as Row;
@@ -70,12 +66,23 @@ const renderRows = ({
       const [isSelected, setSelected] = useState(row.original?.isSelected);
       const expandedRow = row as unknown as UseExpandedRowProps<{}>;
       const resolveRowClick = () => {
-        if (!selectable) return onRowClickHandler();
-
-        return onRowSelectHandler ? () => {
+        const invokeClickHandler = () => {
+          const clickHandlerInvoked = getOnRowClickHandler ? getOnRowClickHandler(row) : undefined;
+          if (clickHandlerInvoked) clickHandlerInvoked(row);
+        };
+        const invokeSelectHandler = () => {
+          const selectHandlerInvoked = getOnRowSelectHandler ? getOnRowSelectHandler(row) : undefined;
+          if (selectHandlerInvoked) selectHandlerInvoked(row);
           setSelected(!isSelected);
-          onRowSelectHandler(row);
-        } : onRowClickHandler();
+        };
+
+        if (!selectable && getOnRowClickHandler) {
+          return invokeClickHandler();
+        }
+
+        return getOnRowSelectHandler ?
+          invokeSelectHandler() : getOnRowClickHandler ?
+            invokeClickHandler() : undefined;
       };
 
       return (
@@ -94,11 +101,11 @@ const renderRows = ({
             backgroundColor={backgroundColor}
             fontColor={fontColor}
             onHoverToggle={
-              resolveRowClick() ?
+              getOnRowClickHandler || getOnRowSelectHandler ?
                 (hover?: boolean) => setHoveredRow(hover ? `${row.id}-${rowProps.key}` : '')
                 : undefined
             }
-            onClick={resolveRowClick()}
+            onClick={() => resolveRowClick()}
           >
             {useCheckbox && (
               <TD
@@ -128,6 +135,7 @@ const renderRows = ({
                 // @ts-ignore
                 stickySide={cell?.column?.parent?.sticky}
                 isLastColumn={index === row.cells.length - 1}
+                isSelected={isSelected}
                 isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
               >
                 {cell.render('Cell')}

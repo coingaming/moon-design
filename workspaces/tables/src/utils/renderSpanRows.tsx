@@ -9,7 +9,7 @@ type RenderSpanRowsProps<D extends object = {}> = {
   rows: Row<D>[];
   prepareRow: (row: Row<D>) => void;
   rowSpanHeaders: RowSpanHeader[];
-  getOnRowClickHandler: (
+  getOnRowClickHandler?: (
     row: Row<D>
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
   getOnRowSelectHandler?: (

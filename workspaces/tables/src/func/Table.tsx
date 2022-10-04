@@ -85,8 +85,8 @@ const Table: React.FC<TableProps> = ({
   selectable = false,
   useCheckbox = false,
   renderRowSubComponent,
-  getOnRowClickHandler = () => undefined,
-  getOnRowSelect = () => undefined,
+  getOnRowClickHandler,
+  getOnRowSelect,
 }) => {
   const plugins = [
     layout === 'block' ? useBlockLayout : useFlexLayout,
@@ -245,7 +245,7 @@ const Table: React.FC<TableProps> = ({
             rows,
             prepareRow,
             getOnRowClickHandler,
-            getOnRowSelectHandler: (row) => () => {
+            getOnRowSelectHandler: !selectable ? undefined : (row) => () => {
               let alreadySelectedRows = [...selectedRows];
               const alreadySelectedRow = alreadySelectedRows.filter(
                 (selectedRow) => row.id === selectedRow.id

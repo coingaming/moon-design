@@ -44,7 +44,7 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
     <div
       {...reactTableProps}
       className={classNames(
-        'relative first:mt-0 focus-visible:outline-none flex rounded-moon-s-sm bg-gohan transition-colors text-bulma moon-text-14',
+        'relative first:mt-0 focus-visible:outline-none flex rounded-moon-s-sm transition-colors text-bulma moon-text-14',
         withOffset ? 'mt-2' : 'mt-1',
         hasParent ? 'mt-0' : '',
         isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',
