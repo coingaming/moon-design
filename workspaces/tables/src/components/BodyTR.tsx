@@ -40,9 +40,6 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
   depth = 0,
   isHovered
 }) => {
-  console.log('customBackground', customBackground);
-  console.log('backgroundColor', backgroundColor);
-  console.log('fontColor', fontColor);
   return (
     <div
       {...reactTableProps}

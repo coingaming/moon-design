@@ -41,7 +41,7 @@ const Example = () => {
           .
         </p>
       </ComponentPageDescription>
-      {/*<Preview
+      <Preview
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
@@ -55,7 +55,7 @@ const Example = () => {
         title="Selectable checkboxes"
         preview={<SelectableCheckboxes />}
         code={examples ? examples.Default : 'Loading'}
-      />*/}
+      />
       <Preview
         title="Custom colors"
         preview={<CustomColors />}
