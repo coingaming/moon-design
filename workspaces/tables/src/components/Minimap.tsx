@@ -3,7 +3,7 @@ import React, {
   useCallback,
   useState,
   MutableRefObject,
-  ReactNode,
+  ReactNode, CSSProperties,
 } from 'react';
 import classNames from '../utils/classnames';
 
@@ -40,9 +40,10 @@ const Grid: React.FC<ClassesProps> = ({children}) => {
     </div>
   );
 };
-const Viewport: React.FC<any> = () => {
+const Viewport: React.FC<{ styles: CSSProperties }> = ({ styles }) => {
   return (<div
-    className='absolute w-0 h-0 overflow-hidden after:content-none after:absolute after:border-2 after:rounded after:w-full after:h-full'
+    style={styles}
+    className='absolute w-0 h-0 overflow-hidden rounded-moon-i-sm border-2'
   />);
 };
 const Column: React.FC<ClassesProps> = ({children}) => {
@@ -84,6 +85,7 @@ const Minimap: React.FC<Props> = ({
       width: `${(viewportWidth / fullWidth) * 100}%`,
       top: `${(scrollTop / fullHeight) * 100}%`,
       left: `${(scrollLeft / fullWidth) * 100}%`,
+      borderColor: 'rgb(var(--piccolo))'
     });
 
     setVisible(true);
@@ -113,9 +115,7 @@ const Minimap: React.FC<Props> = ({
   return (
     <Wrapper visible={visible} offset={footerHeight}>
       <Grid>
-        <Viewport
-          style={styles}
-        />
+        <Viewport styles={styles}/>
         {[...new Array(numberOfColumns)].map((_, index) => (
           <Column key={index} children={''}/>
         ))}
