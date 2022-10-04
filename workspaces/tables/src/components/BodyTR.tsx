@@ -3,7 +3,7 @@ import classNames from '../utils/classnames';
 
 type BodyTRProps = {
   reactTableProps?: any;
-  onClick?: () => void;
+  onClick?: any;
   onHoverToggle?: (hover?: boolean) => void;
   depth?: number;
   withOffset?: boolean;
@@ -57,6 +57,7 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(({
       )}
       onMouseEnter={onHoverToggle ? () => onHoverToggle(true) : null}
       onMouseLeave={onHoverToggle ? () => onHoverToggle(false) : null}
+      onClick={() => onClick()}
     >
       {children}
     </div>

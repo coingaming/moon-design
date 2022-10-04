@@ -48,9 +48,7 @@ const renderRows = ({
     ) => {
       prepareRow(row);
       const rowProps = row.getRowProps();
-      const onRowClickHandler = getOnRowClickHandler
-        ? getOnRowClickHandler(row)
-        : () => undefined;
+      const onRowClickHandler = () => getOnRowClickHandler ? getOnRowClickHandler(row) : () => undefined;
       const onRowSelectHandler = getOnRowSelectHandler
         ? getOnRowSelectHandler(row)
         : () => undefined;
@@ -71,13 +69,14 @@ const renderRows = ({
       const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
       const [isSelected, setSelected] = useState(row.original?.isSelected);
       const expandedRow = row as unknown as UseExpandedRowProps<{}>;
-      const onRowClick = selectable ? onRowSelectHandler ?
-          () => {
-            setSelected(!isSelected);
-            onRowSelectHandler(row);
-          } : onRowClickHandler ?
-            () => onRowClickHandler(row) : undefined :
-              onRowClickHandler ? () => onRowClickHandler(row) : undefined;
+      const resolveRowClick = () => {
+        if (!selectable) return onRowClickHandler();
+
+        return onRowSelectHandler ? () => {
+          setSelected(!isSelected);
+          onRowSelectHandler(row);
+        } : onRowClickHandler();
+      };
 
       return (
         <Fragment key={`${row.id}-${rowProps.key}`}>
@@ -94,11 +93,11 @@ const renderRows = ({
             backgroundColor={backgroundColor}
             fontColor={fontColor}
             onHoverToggle={
-              onRowClick ?
+              resolveRowClick() ?
                 (hover?: boolean) => setHoveredRow(hover ? `${row.id}-${rowProps.key}` : '')
                 : undefined
             }
-            onClick={onRowClick}
+            onClick={resolveRowClick()}
           >
             {useCheckbox && (
               <TD
