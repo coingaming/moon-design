@@ -4,7 +4,7 @@ type AccordionProps = {
   title: string | React.ReactNode;
   openByDefault?: boolean;
   children?: React.ReactNode;
-  disableOpen?: boolean;
+  disabled?: boolean;
   headerContent?: React.ReactNode;
   size?: AccordionSizes;
   withButton?: boolean;
