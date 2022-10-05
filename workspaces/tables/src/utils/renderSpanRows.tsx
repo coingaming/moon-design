@@ -44,6 +44,12 @@ const renderSpanRows = ({
     ) => {
       prepareRow(row);
 
+      const nextRow = rows[index + 1];
+      const nextRowItem = nextRow as Row;
+      const nextRowId =
+        nextRowItem && nextRowItem.id ? nextRowItem.id.split('.') : [];
+      const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
+
       const onRowClickHandler = getOnRowClickHandler
         ? getOnRowClickHandler(row)
         : () => undefined;
@@ -83,6 +89,7 @@ const renderSpanRows = ({
           customBackground={!!row.original?.backgroundColor}
           backgroundColor={backgroundColor}
           fontColor={fontColor}
+          isLastRow={isLastRow}
           isSelected={isSelected}
           onClick={
             selectable

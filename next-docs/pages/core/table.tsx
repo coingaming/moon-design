@@ -1,12 +1,17 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import PropsTable from "../../components/PropsTable";
-import ClickableRows from "../../public/examples/tableTW/ClickableRows";
-import CustomColors from "../../public/examples/tableTW/CustomColors";
+import PropsTable from '../../components/PropsTable';
+import Calendar from '../../public/examples/tableTW/Calendar';
+import ClickableRows from '../../public/examples/tableTW/ClickableRows';
+import CustomColors from '../../public/examples/tableTW/CustomColors';
+import CustomContent from '../../public/examples/tableTW/CustomContent';
+import DeepTable from '../../public/examples/tableTW/DeepTable';
 import Default from '../../public/examples/tableTW/Default';
-import SelectableCheckboxes from "../../public/examples/tableTW/SelectableCheckboxes";
-import SelectableRows from "../../public/examples/tableTW/SelectableRows";
+import MiniMap from '../../public/examples/tableTW/MiniMap';
+import SelectableCheckboxes from '../../public/examples/tableTW/SelectableCheckboxes';
+import SelectableRows from '../../public/examples/tableTW/SelectableRows';
+import Sorting from '../../public/examples/tableTW/Sorting';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -64,7 +69,7 @@ const Example = () => {
         preview={<CustomColors />}
         code={examples ? examples.CustomColors : 'Loading'}
       />
-      {/*<Preview
+      <Preview
         title="With Sorting"
         preview={<Sorting />}
         code={examples ? examples.Sorting : 'Loading'}
@@ -83,7 +88,12 @@ const Example = () => {
         title="With minimap"
         preview={<MiniMap />}
         code={examples ? examples.MiniMap : 'Loading'}
-      />*/}
+      />
+      <Preview
+        title="Calendar"
+        preview={<Calendar />}
+        code={examples ? examples.Calendar : 'Loading'}
+      />
       <PropsTable
         title="Props"
         data={[

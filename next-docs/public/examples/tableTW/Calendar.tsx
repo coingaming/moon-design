@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
+import { Table } from '@heathmont/moon-table-tw';
 
 const Example = () => {
   const columnsInitial = [
@@ -7,7 +7,7 @@ const Example = () => {
       Header: '',
       accessor: 'date',
       sticky: 'left',
-      width: 160,
+      width: 100,
       withRowSpan: true,
     },
     {
@@ -18,10 +18,12 @@ const Example = () => {
     {
       Header: 'Visits',
       accessor: 'visits',
+      width: 100,
     },
     {
       Header: 'Activity',
       accessor: 'activity',
+      width: 100,
     },
     {
       Header: 'Status',
@@ -32,14 +34,14 @@ const Example = () => {
       Header: 'Profile Progress',
       Footer: 'Profile Progress',
       accessor: 'progress',
+      width: 100,
     },
   ];
 
   const makeData = (length: number) => {
     return Array.from('_'.repeat(length)).map((_, index) => {
       return {
-        firstName: 'Test',
-        lastName: 'Test',
+        date: `January ${Math.floor(index / 5) + 1}, 2020`,
         age: <span>{Math.floor(index * 30)}</span>,
         visits: <span>{Math.floor(index * 100)}</span>,
         progress: <span>{Math.floor(index * 100)}</span>,
@@ -52,14 +54,14 @@ const Example = () => {
   const defaultColumn = React.useMemo(
     () => ({
       minWidth: 100,
-      width: 150,
+      width: 260,
       maxWidth: 400,
     }),
     []
   );
 
   const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(20), []);
+  const data = React.useMemo(() => makeData(30), []);
 
   return (
     <Table
@@ -69,7 +71,7 @@ const Example = () => {
       width={800}
       height={400}
       variant="calendar"
-      getOnRowClickHandler={(row) => () => {}}
+      getOnRowClickHandler={(row: any) => () => {}}
       headerBackgroundColor="gohan.100"
       defaultRowBackgroundColor="gohan.40"
       evenRowBackgroundColor="gohan.80"
