@@ -565,7 +565,6 @@ importers:
   workspaces/tables:
     specifiers:
       '@heathmont/moon-core-tw': workspace:^9.7.8
-      '@heathmont/moon-themes-tw': workspace:^9.7.8
       '@types/react-table': 7.7.12
       '@types/react-window': 1.8.5
       react: 18.2.0
@@ -574,17 +573,14 @@ importers:
       react-table-hoc-fixed-columns: 2.3.3
       react-table-sticky: 1.1.3
       react-window: ^1.8.7
-      tailwind-scrollbar-hide: ^1.1.7
     dependencies:
       '@heathmont/moon-core-tw': link:../core
-      '@heathmont/moon-themes-tw': link:../themes
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       react-table: 7.8.0_react@18.2.0
       react-table-hoc-fixed-columns: 2.3.3_biqbaboplfbrettd7655fr4n2y
       react-table-sticky: 1.1.3
       react-window: 1.8.7_biqbaboplfbrettd7655fr4n2y
-      tailwind-scrollbar-hide: 1.1.7
     devDependencies:
       '@types/react-table': 7.7.12
       '@types/react-window': 1.8.5
@@ -11083,10 +11079,6 @@ packages:
       string-width: 4.2.3
       strip-ansi: 6.0.1
     dev: true
-
-  /tailwind-scrollbar-hide/1.1.7:
-    resolution: {integrity: sha512-X324n9OtpTmOMqEgDUEA/RgLrNfBF/jwJdctaPZDzB3mppxJk7TLIDmOreEDm1Bq4R9LSPu4Epf8VSdovNU+iA==}
-    dev: false
 
   /tailwindcss-rtl/0.9.0:
     resolution: {integrity: sha512-y7yC8QXjluDBEFMSX33tV6xMYrf0B3sa+tOB5JSQb6/G6laBU313a+Z+qxu55M1Qyn8tDMttjomsA8IsJD+k+w==}

@@ -123,6 +123,7 @@ const renderRows = ({
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
                 isSelected={isSelected}
+                isFirstColumn={true}
                 isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
                 // @ts-ignore
                 stickySide={row.cells[0].parent?.sticky ? 'left' : ''}
@@ -142,6 +143,7 @@ const renderRows = ({
                 reactTableProps={{ ...cell.getCellProps() }}
                 // @ts-ignore
                 stickySide={cell?.column?.parent?.sticky}
+                isFirstColumn={!useCheckbox && index === 0}
                 isLastColumn={index === row.cells.length - 1}
                 isSelected={isSelected}
                 isHovered={hoveredRow === `${row.id}-${rowProps.key}`}

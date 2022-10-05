@@ -14,6 +14,7 @@ type TDProps = {
   fontColor?: string;
   children?: ReactNode;
   stickySide?: string;
+  isFirstColumn?: boolean;
   isLastColumn?: boolean;
   isHovered?: boolean;
   variant?: TableVariant;
@@ -32,6 +33,7 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
     selectable,
     children,
     stickySide,
+    isFirstColumn,
     isLastColumn,
     isHovered,
     variant,
@@ -40,9 +42,10 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
       <div
         {...reactTableProps}
         className={classNames(
-          'p-3 pr-1 relative box-border py-4 justify-between items-center w-full text-start rounded-moon-i-sm',
+          'p-3 pr-1 relative box-border py-4 justify-between items-center w-full text-start',
+          isFirstColumn ? 'rounded-l-lg' : '',
           isLastColumn
-            ? 'rounded-moon-i-sm'
+            ? 'rounded-r-lg'
             : 'after:content-[""] after:absolute after:w-[1px] after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%]',
           isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',
           isLastRow
@@ -61,7 +64,7 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
             ? 'before:content-[""] before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:left-0 before:-margin-l-2'
             : '',
           (isSelected && !customBackground) || isHovered
-            ? 'bg-piccolo border-piccolo cursor-pointer'
+            ? 'bg-[#e0e0ed] border-piccolo cursor-pointer'
             : customBackground
             ? `bg-${backgroundColor} border-${backgroundColor}`
             : 'bg-gohan',

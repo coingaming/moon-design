@@ -43,6 +43,12 @@ const Example = () => {
           sortType: 'basic',
           Footer: '',
         },
+        {
+          Header: 'Status',
+          width: 60,
+          accessor: 'status',
+          Footer: '',
+        },
       ],
     },
     {
@@ -70,19 +76,19 @@ const Example = () => {
   const makeData = (length: number) => {
     return Array.from('_'.repeat(length)).map((_, index) => {
       return {
-        firstName: 'Test',
-        lastName: 'Test',
-        age: <span>{Math.floor(index * 30)}</span>,
-        visits: <span>{Math.floor(index * 100)}</span>,
-        progress: <span>{Math.floor(index * 100)}</span>,
-        status: Math.floor(index * 100),
-        activity: Math.floor(index * 100),
+        firstName: `Test ${index}`,
+        lastName: `Test ${index}`,
+        age: <span>{Math.floor(index + Math.ceil(Math.random() * 10))}</span>,
+        visits: <span>{Math.floor(index + Math.ceil(Math.random() * 10))}</span>,
+        progress: <span>{Math.floor(index + Math.ceil(Math.random() * 10))}</span>,
+        status: Math.floor(index + Math.ceil(Math.random() * 10)),
+        activity: Math.floor(index + Math.ceil(Math.random() * 10)),
       };
     });
   };
 
   const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(5), []);
+  const data = React.useMemo(() => makeData(40), []);
 
   return (
     <Table

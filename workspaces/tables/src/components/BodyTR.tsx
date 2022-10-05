@@ -53,17 +53,17 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
             ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0'
             : '',
           isSelected
-            ? 'text-popo bg-piccolo/10'
+            ? 'text-popo bg-[#e0e0ed]/10'
             : fontColor
             ? `text-${fontColor}`
             : 'text-popo',
           (isSelected && !customBackground) || isHovered
-            ? 'bg-piccolo border-piccolo/10 cursor-pointer'
+            ? 'bg-[#e0e0ed] border-piccolo/10 cursor-pointer'
             : customBackground
             ? `bg-${backgroundColor} border-${backgroundColor}`
             : 'bg-gohan',
           selectable
-            ? 'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent bg-piccolo'
+            ? 'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent bg-[#e0e0ed]'
             : ''
         )}
         onMouseEnter={onHoverToggle ? () => onHoverToggle(true) : null}

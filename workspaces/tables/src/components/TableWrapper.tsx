@@ -2,9 +2,6 @@ import React, {ReactNode, forwardRef} from 'react';
 import styled from 'styled-components';
 import {TableVariant} from '../func/Table';
 import classNames from "../utils/classnames";
-import BodyTR from './BodyTR';
-import TD from './TD';
-import TH from './TH';
 
 type TableWrapperProps = {
   reactTableProps: any;
@@ -17,7 +14,7 @@ type TableWrapperProps = {
   evenRowBackgroundColor?: string;
   headerBackgroundColor?: string;
   children?: ReactNode;
-  ref?: any;
+  tableRef?: any;
   onScroll?: (tableRef: any) => any;
 };
 
@@ -33,11 +30,11 @@ const TableWrapper = forwardRef<HTMLDivElement, TableWrapperProps>(({
   style,
   children,
   onScroll,
-  ref
+  tableRef
 }) => {
   return (<div
     {...reactTableProps}
-    ref={ref}
+    ref={tableRef}
     style={style ?? {}}
     className={classNames(`
       table-wrapper
@@ -51,74 +48,5 @@ const TableWrapper = forwardRef<HTMLDivElement, TableWrapperProps>(({
     onScroll={onScroll}
   >{children}</div>);
 });
-
-const TableWrapperOne = styled.div<{
-  isScrolledToLeft: boolean;
-  isScrolledToRight: boolean;
-  variant?: TableVariant;
-  defaultRowBackgroundColor?: string;
-  evenRowBackgroundColor?: string;
-  headerBackgroundColor?: string;
-}>(
-  ({
-    theme,
-    isScrolledToLeft,
-    isScrolledToRight,
-    variant,
-    headerBackgroundColor,
-  }) => ({
-    '&.sticky': {
-      overflow: 'scroll',
-      '.body': {
-        position: 'relative',
-        zIndex: 0,
-      },
-      '[data-sticky-td]': {
-        position: 'sticky',
-      },
-      ...(!isScrolledToLeft
-        ? {
-          '[data-sticky-last-left-td]': {
-            boxShadow: `6px 0px 9px `,
-          },
-        }
-        : {}),
-
-      ...(!isScrolledToRight
-        ? {
-          '[data-sticky-first-right-td]': {
-            boxShadow: `-6px 0px 9px -10px`,
-          },
-        }
-        : {}),
-    },
-    // ...(variant === 'calendar'
-    //   ? {
-    //       [TH]: {
-    //         '&:first-child': {
-    //           '&::after': {
-    //             display: 'none',
-    //           },
-    //         },
-    //       },
-    //       [BodyTR]: {
-    //         [TD]: {
-    //           '&:first-child': {
-    //             borderRadius: 0,
-    //             '&::after': {
-    //               display: 'none',
-    //             },
-    //             '& + div': {
-    //               borderTopLeftRadius: theme.newTokens.borderRadius.surface.small,
-    //               borderBottomLeftRadius:
-    //                 theme.newTokens.borderRadius.surface.small,
-    //             },
-    //           },
-    //         },
-    //       },
-    //     }
-    //   : {}),
-  })
-);
 
 export default TableWrapper;
