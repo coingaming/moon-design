@@ -2,17 +2,17 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Disabled from '../../public/examples/selectTW/single/Disabled';
-import Error from '../../public/examples/selectTW/single/Error';
-import Hint from '../../public/examples/selectTW/single/Hint';
-import Options from '../../public/examples/selectTW/single/Options';
-import OptionsWidth from '../../public/examples/selectTW/single/OptionsWidth';
-import WithLabel from '../../public/examples/selectTW/single/WithLabel';
-import WithoutLabel from '../../public/examples/selectTW/single/WithoutLabel';
+import Disabled from '../../public/examples/selectTw/single/Disabled';
+import Error from '../../public/examples/selectTw/single/Error';
+import Hint from '../../public/examples/selectTw/single/Hint';
+import Options from '../../public/examples/selectTw/single/Options';
+import OptionsWidth from '../../public/examples/selectTw/single/OptionsWidth';
+import WithLabel from '../../public/examples/selectTw/single/WithLabel';
+import WithoutLabel from '../../public/examples/selectTw/single/WithoutLabel';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('selectTW/single');
+  const examples = useExamples('selectTw/single');
   return (
     <>
       <ComponentPageDescription title="Select">
