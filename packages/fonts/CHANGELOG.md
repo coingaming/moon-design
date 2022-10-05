@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.8.0
+
+### Minor Changes
+
+- Deploy fixes
+
 ## 9.7.8
 
 ### Patch Changes
