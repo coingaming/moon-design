@@ -5,10 +5,10 @@ import DevGettingStarted from '../components/gettingStarted/DevGettingStarted';
 import ScGettingStarted from '../components/gettingStarted/ScGettingStarted';
 import TailwindStyledComponentsSwitch from '../components/gettingStarted/TailwindStyledComponentsSwitch';
 
-const PageGettingStartedDevs = () => {
+const PageGettingStartedSc = () => {
   const [isDesActive, setIsDesActive] = useState(false);
-  const [isDevActive, setIsDevActive] = useState(true);
-  const [isScActive, setIsScActive] = useState(false);
+  const [isDevActive, setIsDevActive] = useState(false);
+  const [isScActive, setIsScActive] = useState(true);
   const setDesActive = () => setIsDesActive(true);
   const setDevActive = () => setIsDevActive(true);
   const setScActive = () => setIsScActive(true);
@@ -35,4 +35,4 @@ const PageGettingStartedDevs = () => {
   );
 };
 
-export default PageGettingStartedDevs;
+export default PageGettingStartedSc;
