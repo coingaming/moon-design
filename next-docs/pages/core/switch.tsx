@@ -13,8 +13,8 @@ import WithIcons from '../../public/examples/switchTW/WithIcons';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('switchTw');
-  const examplesCode = useExamples('switchTw/codeExamples');
+  const examples = useExamples('switchTW');
+  const examplesCode = useExamples('switchTW/codeExamples');
   return (
     <>
       <ComponentPageDescription title="Switch">

@@ -1,5 +1,11 @@
 # @heathmont/moon-templates
 
+## 9.8.1
+
+### Patch Changes
+
+- Fix code view
+
 ## 9.8.0
 
 ### Minor Changes
