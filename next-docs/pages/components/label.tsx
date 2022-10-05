@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
@@ -12,6 +13,15 @@ const PageLabel = () => {
   return (
     <>
       <ComponentPageDescription title="Label">
+        <p className="font-medium">
+          NB! The component is depricated. Please use our{' '}
+          <Link href="/core/label">
+            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
+              new Label
+            </a>
+          </Link>{' '}
+          built with Tailwind.
+        </p>
         <p>
           Use tags to label, categorize, or organize items using keywords that
           describe them.

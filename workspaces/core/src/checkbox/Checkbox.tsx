@@ -1,4 +1,4 @@
-import React, { forwardRef, useState } from 'react';
+import React, { forwardRef, useCallback, useState } from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import classNames from '../private/utils/classnames';
 import inlineSvg from '../private/utils/inlineSvg/inlineSvg';
@@ -27,8 +27,8 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
     return (
       <div
         className="inline-block"
-        onMouseEnter={() => setIsHover(true)}
-        onMouseLeave={() => setIsHover(false)}
+        onMouseEnter={useCallback(() => setIsHover(true), [])}
+        onMouseLeave={useCallback(() => setIsHover(false), [])}
       >
         <label
           htmlFor={id}

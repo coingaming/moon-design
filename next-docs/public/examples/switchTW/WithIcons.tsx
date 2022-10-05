@@ -11,43 +11,21 @@ const Example = () => {
         checked={state}
         onChange={setState}
         size="2xs"
-        onIcon={
-          <span className="flex items-center w-3 h-3">
-            <GenericCheckRounded className="text-gohan text-[0.75rem]" />
-          </span>
-        }
-        offIcon={
-          <span className="flex justify-end items-center w-3 h-3">
-            <GenericClose className="text-trunks text-[0.75rem]" />
-          </span>
-        }
+        onIcon={<GenericCheckRounded className="text-goten text-moon-12" />}
+        offIcon={<GenericClose className="text-bulma text-moon-12" />}
       />
       <Switch
         checked={state}
         onChange={setState}
         size="xs"
-        onIcon={
-          <span className="flex items-center w-4 h-4">
-            <GenericCheckRounded className="text-gohan text-[1rem]" />
-          </span>
-        }
-        offIcon={
-          <span className="flex justify-end items-center w-4 h-4">
-            <GenericClose className="text-trunks text-[1rem]" />
-          </span>
-        }
+        onIcon={<GenericCheckRounded className="text-goten text-moon-16" />}
+        offIcon={<GenericClose className="text-bulma text-moon-16" />}
       />
       <Switch
-        onIcon={
-          <span className="flex items-center w-8 h-8">
-            <GenericCheckRounded className="text-gohan text-[1.5rem]" />
-          </span>
-        }
-        offIcon={
-          <span className="flex justify-end items-center w-8 h-8">
-            <GenericClose className="text-trunks text-[1.5rem]" />
-          </span>
-        }
+        checked={state}
+        onChange={setState}
+        onIcon={<GenericCheckRounded className="text-goten text-moon-24" />}
+        offIcon={<GenericClose className="text-bulma text-moon-24" />}
       />
     </>
   );
