@@ -4,7 +4,7 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import PropsTable from '../../components/PropsTable';
 
 import DefaultCode from '../../public/examples/switchTW/codeExamples/DefaultCode';
-import Custom from '../../public/examples/switchTW/Custom';
+import CustomBg from '../../public/examples/switchTW/CustomBg';
 import Default from '../../public/examples/switchTW/Default';
 import Disabled from '../../public/examples/switchTW/Disabled';
 import Form from '../../public/examples/switchTW/Form';
@@ -17,25 +17,14 @@ const Example = () => {
   const examplesCode = useExamples('switchTw/codeExamples');
   return (
     <>
-      <ComponentPageDescription title="Select">
+      <ComponentPageDescription title="Switch">
         <p>
-          Select components are used for collecting user provided information
-          from a list of options.
-        </p>
-        <p>
-          Select has 3 sizes with a different views: <b>md</b> (by default),
-          <b>lg</b> and <b>xl</b>.
-        </p>
-        <p>
-          <b>md</b> and <b>lg</b> size has label outside input, <b>xl</b> has
-          label inside the input.
-        </p>
-        <p>
-          The width of select by default 100%, and should be controlled by the
-          parent container width.
+          Switch is a control that is used to quickly switch between two
+          possible states. Switches are only used for these binary actions that
+          occur immediately after the user “flips” the switch. They are commonly
+          used for “on/off” switches.
         </p>
       </ComponentPageDescription>
-
       <Preview
         title="Default"
         preview={<Default />}
@@ -57,22 +46,20 @@ const Example = () => {
         code={examples ? examples.WithIcons : 'Loading'}
       />
       <Preview
-        title="Custom width and background color"
-        preview={<Custom />}
-        code={examples ? examples.Custom : 'Loading'}
+        title="Custom background colour"
+        preview={<CustomBg />}
+        code={examples ? examples.CustomBg : 'Loading'}
       />
       <Preview
         title="Using with HTML forms"
         preview={<Form />}
         code={examples ? examples.Form : 'Loading'}
       />
-
       <Preview
         title="Code exemples for full cistomization"
         preview={<DefaultCode />}
         code={examplesCode ? examplesCode.DefaultCode : 'Loading'}
       />
-
       <PropsTable
         title="Props"
         data={[
@@ -128,11 +115,18 @@ const Example = () => {
             description: 'Tailwind class for custom container width',
           },
           {
-            name: 'bgColor',
+            name: 'onBgColor',
             type: 'string',
             required: false,
-            default: '_',
-            description: 'Tailwind class for custom container background color',
+            default: 'bg-piccolo',
+            description: 'Tailwind class for custom on-state background color',
+          },
+          {
+            name: 'offBgColor',
+            type: 'string',
+            required: false,
+            default: 'bg-beerus',
+            description: 'Tailwind class for custom off-state background color',
           },
           {
             name: 'disabled',
