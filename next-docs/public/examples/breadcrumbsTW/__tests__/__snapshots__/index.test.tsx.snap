@@ -45,6 +45,7 @@ exports[`Breadcrumb renders collapsed 1`] = `
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
+        type="button"
       >
         <svg
           className="text-moon-16"

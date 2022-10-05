@@ -1,6 +1,11 @@
-import type ButtonProps from '../types/ButtonProps';
+import type { ButtonSettingsProps } from '../types/ButtonProps';
 
-const xsPadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
+const xsPadding = ({
+  icon,
+  iconLeft,
+  iconRight,
+  iconOnly,
+}: ButtonSettingsProps) => {
   if (icon === 'left' || iconLeft) {
     return 'p-1 pe-2';
   }
