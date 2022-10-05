@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
@@ -14,6 +15,15 @@ const PageButton = () => {
   return (
     <>
       <ComponentPageDescription title="Button">
+        <p className="font-medium">
+          NB! The component is depricated. Please use our{' '}
+          <Link href="/core/button">
+            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
+              new Button
+            </a>
+          </Link>{' '}
+          built with Tailwind.
+        </p>
         <p>
           Buttons are calls-to-action used to prompt users. They encourage users
           to interact with us in multiple ways throughout our galaxy, based on

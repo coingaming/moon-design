@@ -630,7 +630,7 @@ Array [
       <h3
         className="flex-1 font-medium text-bulma text-start text-moon-16"
       >
-        X Large (Default)
+        X Large (xl)
       </h3>
       <div
         className="flex items-center justify-center w-6 h-6"

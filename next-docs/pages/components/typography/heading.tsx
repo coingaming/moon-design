@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
@@ -16,6 +17,15 @@ const PageHeading = () => {
   return (
     <>
       <ComponentPageDescription title="Heading">
+        <p className="font-medium">
+          NB! The component is depricated. Please use our{' '}
+          <Link href="/core/typography">
+            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
+              new Typography
+            </a>
+          </Link>{' '}
+          built with Tailwind.
+        </p>
         <p>
           By default Heading renders as H3 tag with Bulma color, bold
           font-weight, and size of 16px.
