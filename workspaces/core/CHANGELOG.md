@@ -1,5 +1,13 @@
 # @heathmont/moon-core-tw
 
+## 9.7.9
+
+### Patch Changes
+
+- Fix code preview
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.7.9
+
 ## 9.7.8
 
 ### Patch Changes
