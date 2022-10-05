@@ -35,41 +35,47 @@ const ForDevelopers = () => {
         </div>
       </div>
       <div className="hidden flex-wrap gap-1 3xl:flex">
-        <a
+        <Button
+          as="a"
           href="https://github.com/coingaming/moon-design"
           target="_blank"
           rel="noreferrer"
+          variant="secondary"
         >
-          <Button variant="secondary">Github</Button>
-        </a>
+          Github
+        </Button>
         <Link href="/gettingStartedDevs">
-          <a>
-            <Button variant="secondary">Getting Started</Button>
-          </a>
+          <Button as="a" variant="secondary">
+            Getting Started
+          </Button>
         </Link>
         <Link href="/tokens">
-          <a>
-            <Button variant="secondary">Design Tokens</Button>
-          </a>
+          <Button as="a" variant="secondary">
+            Design Tokens
+          </Button>
         </Link>
-        <a
+        <Button
+          as="a"
           href="https://github.com/coingaming/moon-design/blob/develop/packages/themes/src/moonDesignDark/moonDesignDark.ts"
           target="_blank"
           rel="noreferrer"
+          variant="secondary"
         >
-          <Button variant="secondary">Creating Themes</Button>
-        </a>
-        <a
+          Creating Themes
+        </Button>
+        <Button
+          as="a"
           href="https://github.com/coingaming/moon-design/blob/develop/CONTRIBUTING.md"
           target="_blank"
           rel="noreferrer"
+          variant="secondary"
         >
-          <Button variant="secondary">Contribution</Button>
-        </a>
+          Contribution
+        </Button>
         <Link href="/core/accordion">
-          <a>
-            <Button variant="secondary">Components</Button>
-          </a>
+          <Button as="a" variant="secondary">
+            Components
+          </Button>
         </Link>
       </div>
     </div>
