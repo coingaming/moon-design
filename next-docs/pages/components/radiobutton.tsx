@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
@@ -13,6 +14,15 @@ export default function RadioButtonPage() {
   return (
     <>
       <ComponentPageDescription title="RadioButton">
+        <p className="font-medium">
+          NB! The component is depricated. Please use our{' '}
+          <Link href="/core/radiobutton">
+            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
+              new RadioButton
+            </a>
+          </Link>{' '}
+          built with Tailwind.
+        </p>
         <p>
           Radio buttons are used to represent a group or category of choices
           whereby users can only select one option - the main difference from

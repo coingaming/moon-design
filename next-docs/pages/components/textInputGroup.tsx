@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
@@ -20,6 +21,15 @@ const PageTextInputGroup = () => {
   return (
     <>
       <ComponentPageDescription title="TextInput Group">
+        <p className="font-medium">
+          NB! The component is depricated. Please use our{' '}
+          <Link href="/core/textInputGroup">
+            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
+              new TextInput Group
+            </a>
+          </Link>{' '}
+          built with Tailwind.
+        </p>
         <p>The TextInputGroup component lives in 2 different packages:</p>
         <p>
           Text type - <em>@heathmont/moon-core</em>
@@ -27,7 +37,7 @@ const PageTextInputGroup = () => {
         <p>
           Select type - <em>@heathmont/moon-select</em>
         </p>
-        <p className="font-bold">
+        <p className="font-medium">
           !!! TextInput Group is supported only in size `xlarge`.
         </p>
       </ComponentPageDescription>

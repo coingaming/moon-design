@@ -1,6 +1,11 @@
-import type ButtonProps from '../types/ButtonProps';
+import type { ButtonSettingsProps } from '../types/ButtonProps';
 
-const xlPadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
+const xlPadding = ({
+  icon,
+  iconLeft,
+  iconRight,
+  iconOnly,
+}: ButtonSettingsProps) => {
   if (icon === 'left' || iconLeft) {
     return 'py-4 ps-4 pe-6';
   }

@@ -3,13 +3,13 @@ import classNames from '../utils/classNames';
 
 type Props = {
   title?: string;
-  name?: string;
+  id?: string;
   image?: StaticImageData;
   children: React.ReactNode;
 };
 
-const PageSection: React.FC<Props> = ({ title, name, image, children }) => (
-  <section className="flex flex-col lg:flex-row gap-6" id={name}>
+const PageSection: React.FC<Props> = ({ title, id, image, children }) => (
+  <section className="flex flex-col lg:flex-row gap-6" id={id}>
     <div
       className={classNames(
         'flex flex-col w-full gap-6',

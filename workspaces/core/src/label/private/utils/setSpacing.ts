@@ -1,4 +1,4 @@
-import type LabelProps from '../private/types/LabelProps';
+import type LabelProps from '../types/LabelProps';
 
 const setSpacing = ({ size, iconRight, iconLeft }: LabelProps) => {
   if (size === '2xs') {
