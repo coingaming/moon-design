@@ -1,6 +1,6 @@
-import type ButtonProps from '../types/ButtonProps';
+import type { ButtonSettingsProps } from '../types/ButtonProps';
 
-const buttonVariants = ({ variant }: ButtonProps) => {
+const buttonVariants = ({ variant }: ButtonSettingsProps) => {
   if (variant === 'secondary') {
     return 'btn-secondary';
   }

@@ -25,12 +25,17 @@ function MyApp({ Component, pageProps }: MyAppProps) {
 
   return (
     <>
-      {/* TODO Add favicon.ico*/}
       <Head>
         <title>Moon Design System</title>
         <meta name="description" content="Moon Design System" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favs/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favs/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favs/favicon-16x16.png" />
+        <link rel="manifest" href="/favs/site.webmanifest" />
+        <link rel="mask-icon" href="/favs/safari-pinned-tab.svg" />
+        <link rel="shortcut icon" href="/favs/favicon.ico" />
+        <meta name="msapplication-config" content="/favs/browserconfig.xml" />
       </Head>
       <SearchProvider>
         <DocsThemeProvider>

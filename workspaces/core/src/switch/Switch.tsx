@@ -1,43 +1,9 @@
 import React, { FC, useState } from 'react';
 import { Switch as HeadlessSwitch } from '@headlessui/react';
 import classNames from '../private/utils/classnames';
-
-type SwitchProps = {
-  size?: '2xs' | 'xs' | 'sm' | string;
-  checked: boolean;
-  onChange?: (data: boolean) => void;
-  disabled?: boolean;
-  name?: string;
-  value?: string;
-  bgColor?: string;
-  twWidth?: string;
-  onIcon?: JSX.Element | string;
-  offIcon?: JSX.Element | string;
-};
-
-const getSwitchSize = (size?: '2xs' | 'xs' | 'sm' | string) => {
-  switch (size) {
-    case '2xs':
-      return 'w-8 h-4 p-[0.125rem]';
-    case 'xs':
-      return 'w-11 h-6 p-1';
-    case 'sm':
-    default:
-      return 'w-[3.75rem] h-8 p-1';
-  }
-};
-
-const getSwitchSpanSize = (size?: '2xs' | 'xs' | 'sm' | string) => {
-  switch (size) {
-    case '2xs':
-      return 'w-3 h-3';
-    case 'xs':
-      return 'w-4 h-4';
-    case 'sm':
-    default:
-      return 'w-6 h-6';
-  }
-};
+import getSwitchSize from './private/utils/getSwitchSize';
+import getSwitchSpanSize from './private/utils/getSwitchSpanSize';
+import type SwitchProps from './private/types/SwitchProps';
 
 const Switch: FC<SwitchProps> = ({
   size = 'sm',
@@ -46,8 +12,8 @@ const Switch: FC<SwitchProps> = ({
   name,
   value,
   onChange,
-  bgColor = 'bg-piccolo',
-  twWidth,
+  onBgColor = 'bg-piccolo',
+  offBgColor = 'bg-beerus',
   onIcon,
   offIcon,
   ...rest
@@ -65,10 +31,9 @@ const Switch: FC<SwitchProps> = ({
       disabled={disabled}
       onChange={(data) => setEnabledHandler(data)}
       className={classNames(
-        'block relative isolate p-1 cursor-pointer rounded-full transition-colors duration-200 ease-in-out focus:outline-none',
+        'block relative isolate cursor-pointer rounded-full transition focus:outline-none',
         getSwitchSize(size),
-        twWidth && twWidth,
-        enabled ? bgColor : 'bg-beerus',
+        enabled ? onBgColor : offBgColor,
         disabled && 'opacity-30 cursor-not-allowed select-none'
       )}
       {...rest}
@@ -77,8 +42,8 @@ const Switch: FC<SwitchProps> = ({
         {onIcon && (
           <span
             className={classNames(
-              'z-1 absolute left-0 top-1/2 translate-y-[-50%] opacity-0',
-              enabled && 'opacity-100'
+              'z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity',
+              enabled ? 'opacity-100' : 'opacity-0'
             )}
           >
             {onIcon}
@@ -87,8 +52,8 @@ const Switch: FC<SwitchProps> = ({
         {offIcon && (
           <span
             className={classNames(
-              'z-1 absolute right-0 top-1/2 translate-y-[-50%] opacity-0',
-              !enabled && 'opacity-100'
+              'z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity',
+              enabled ? 'opacity-0' : 'opacity-100'
             )}
           >
             {offIcon}
@@ -97,9 +62,11 @@ const Switch: FC<SwitchProps> = ({
         <span
           aria-hidden="true"
           className={classNames(
-            'z-5 absolute top-1/2 translate-y-[-50%] shadow-moon-sm pointer-events-none transform rounded-full bg-goten transition-all duration-200 ease-in-out',
+            'z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all',
             getSwitchSpanSize(size),
-            enabled ? 'left-full translate-x-[-100%]' : 'left-0'
+            enabled
+              ? 'ltr:left-full rtl:right-full ltr:-translate-x-full rtl:translate-x-full'
+              : 'ltr:left-0 rtl:right-0'
           )}
         />
       </span>

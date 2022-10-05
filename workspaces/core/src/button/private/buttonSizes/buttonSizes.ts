@@ -4,7 +4,7 @@ import mdPadding from './mdPadding';
 import smPadding from './smPadding';
 import xlPadding from './xlPadding';
 import xsPadding from './xsPadding';
-import type ButtonProps from '../types/ButtonProps';
+import type { ButtonSettingsProps } from '../types/ButtonProps';
 
 const buttonSizes = ({
   size,
@@ -12,7 +12,7 @@ const buttonSizes = ({
   iconLeft,
   iconRight,
   iconOnly,
-}: ButtonProps): string => {
+}: ButtonSettingsProps): string => {
   if (size === 'xs') {
     return classNames(
       xsPadding({ icon, iconLeft, iconRight, iconOnly }),
