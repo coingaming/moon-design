@@ -5,9 +5,9 @@ const Example = () => {
   const columnsInitial = [
     {
       Header: '',
-      accessor: 'date',
       sticky: 'left',
-      width: 100,
+      accessor: 'date',
+      width: 160,
       withRowSpan: true,
     },
     {
@@ -18,23 +18,20 @@ const Example = () => {
     {
       Header: 'Visits',
       accessor: 'visits',
-      width: 100,
     },
     {
       Header: 'Activity',
       accessor: 'activity',
-      width: 100,
     },
     {
       Header: 'Status',
-      width: 100,
       accessor: 'status',
+      width: 100,
     },
     {
       Header: 'Profile Progress',
       Footer: 'Profile Progress',
       accessor: 'progress',
-      width: 100,
     },
   ];
 
@@ -54,14 +51,14 @@ const Example = () => {
   const defaultColumn = React.useMemo(
     () => ({
       minWidth: 100,
-      width: 260,
+      width: 150,
       maxWidth: 400,
     }),
     []
   );
 
   const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(30), []);
+  const data = React.useMemo(() => makeData(40), []);
 
   return (
     <Table
@@ -70,9 +67,9 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      variant="calendar"
       getOnRowClickHandler={(row: any) => () => {}}
-      headerBackgroundColor="gohan.100"
+      variant="calendar"
+      headerBackgroundColor="gohan"
       defaultRowBackgroundColor="gohan.40"
       evenRowBackgroundColor="gohan.80"
     />

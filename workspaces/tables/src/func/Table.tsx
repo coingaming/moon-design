@@ -176,8 +176,10 @@ const Table: React.FC<TableProps> = ({
       >
         {column.render('Header')}
         <div
-          {...resizingColumn.getResizerProps}
-          className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
+          {...resizingColumn.getResizerProps()}
+          className={`inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 ${
+            resizingColumn.isResizing ? 'after:bg-piccolo' : ''
+          }`}
         />
       </TH>
     );
@@ -202,8 +204,10 @@ const Table: React.FC<TableProps> = ({
         {column.render('Footer')}
 
         <div
-          {...resizingColumn.getResizerProps}
-          className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
+          {...resizingColumn.getResizerProps()}
+          className={`resizer inline-block cursor-ew-resize w-2 h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 ${
+            resizingColumn.isResizing ? 'isResizing after:bg-piccolo' : ''
+          }`}
         />
       </TH>
     );

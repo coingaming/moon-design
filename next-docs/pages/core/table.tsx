@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
+import Calendar from '../../public/examples/tableTW/Calendar';
 import ClickableRows from '../../public/examples/tableTW/ClickableRows';
 import CustomColors from '../../public/examples/tableTW/CustomColors';
 import CustomContent from '../../public/examples/tableTW/CustomContent';

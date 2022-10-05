@@ -10,7 +10,7 @@ const HeaderTR = forwardRef<HTMLDivElement, HeaderTRProps>(
     return (
       <div
         {...reactTableProps}
-        className="flex rounded-moon-s-sm text-bulma moon-text-14 sticky bg-white"
+        className="flex rounded-moon-s-sm text-bulma moon-text-14 sticky"
       >
         {children}
       </div>

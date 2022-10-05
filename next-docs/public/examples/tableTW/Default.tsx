@@ -96,6 +96,7 @@ const Example = () => {
       width={800}
       height={400}
       withFooter={true}
+      isResizing
     />
   );
 };

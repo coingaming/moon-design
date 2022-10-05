@@ -18,6 +18,7 @@ type TDProps = {
   isLastColumn?: boolean;
   isHovered?: boolean;
   variant?: TableVariant;
+  headerBackgroundColor?: string;
 };
 
 const TD = forwardRef<HTMLDivElement, TDProps>(
@@ -37,6 +38,7 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
     isLastColumn,
     isHovered,
     variant,
+    headerBackgroundColor,
   }) => {
     return (
       <div
@@ -70,7 +72,8 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
             : 'bg-gohan',
           selectable &&
             'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent',
-          variant === 'calendar' ? 'hover:bg-piccolo/10' : ''
+          variant === 'calendar' &&
+            `first:bg-${headerBackgroundColor} after:hidden`
         )}
       >
         {children}
