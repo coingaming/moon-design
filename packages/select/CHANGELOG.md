@@ -1,5 +1,15 @@
 # @heathmont/moon-select
 
+## 9.8.1
+
+### Patch Changes
+
+- Fix code view
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.8.1
+  - @heathmont/moon-themes@9.8.1
+  - @heathmont/moon-utils@9.8.1
+
 ## 9.8.0
 
 ### Minor Changes
