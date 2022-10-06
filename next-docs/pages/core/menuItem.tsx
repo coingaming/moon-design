@@ -2,8 +2,12 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
+import Checkbox from '../../public/examples/menuItemTW/Checkbox';
 import Default from '../../public/examples/menuItemTW/Default';
-import Menu from '../../public/examples/menuItemTW/Menu';
+import MultiTitle from '../../public/examples/menuItemTW/MultiTitle';
+import Radio from '../../public/examples/menuItemTW/Radio';
+import WithIcon from '../../public/examples/menuItemTW/WithIcon';
+import WithMeta from '../../public/examples/menuItemTW/WithMeta';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -12,16 +16,14 @@ const Example = () => {
     <>
       <ComponentPageDescription title="Menu Item">
         <p>
-          Use tags to label, categorize, or organize items using keywords that
-          describe them.
+          Menu items are used in such vertical menues and containers as
+          Popovers, Sidebars, Drawers, Dialogs etc.
         </p>
-        <p>Multiple or single tags can be used to categorize items.</p>
         <p>
-          Use short labels for easy scanning. Use two words only if necessary to
-          describe the status and differentiate it from other tags.
+          Menu item row heights can vary based on the amount of content in each
+          row. The content in each row is flexible. By default, each menu item
+          row height is Medium(md) 40px for one line of content.
         </p>
-        <p>Default text style: Uppercase</p>
-        <p>Border radius: Interactive</p>
       </ComponentPageDescription>
       <Preview
         title="Default"
@@ -29,54 +31,47 @@ const Example = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Menu"
-        preview={<Menu />}
-        code={examples ? examples.Menu : 'Loading'}
+        title="With icon"
+        preview={<WithIcon />}
+        code={examples ? examples.WithIcon : 'Loading'}
+      />
+      <Preview
+        title="With meta"
+        preview={<WithMeta />}
+        code={examples ? examples.WithMeta : 'Loading'}
+      />
+      <Preview
+        title="Checkbox"
+        preview={<Checkbox />}
+        code={examples ? examples.Checkbox : 'Loading'}
+      />
+      <Preview
+        title="Radio"
+        preview={<Radio />}
+        code={examples ? examples.Radio : 'Loading'}
+      />
+      <Preview
+        title="MultiTitle"
+        preview={<MultiTitle />}
+        code={examples ? examples.MultiTitle : 'Loading'}
       />
       <PropsTable
         title="Label props"
         data={[
           {
-            name: 'bgColor',
+            name: 'width',
             type: 'string',
             required: false,
-            default: 'bg-bulma',
-            description: 'Background colour',
+            default: 'w-full',
+            description: 'ailwind class for custom container width',
           },
           {
-            name: 'color',
-            type: 'string',
-            required: false,
-            default: 'text-gohan',
-            description: 'Text colour',
-          },
-          {
-            name: 'iconLeft',
-            type: 'React.ReactElement',
-            required: false,
-            default: '-',
-            description: 'Left icon',
-          },
-          {
-            name: 'iconRight',
-            type: 'React.ReactElement',
-            required: false,
-            default: '-',
-            description: 'Right icon',
-          },
-          {
-            name: 'isUppercase',
+            name: 'isActive',
             type: 'boolean',
             required: false,
-            default: 'true',
-            description: 'Letter case',
-          },
-          {
-            name: 'size',
-            type: '2xs | xs',
-            required: false,
-            default: 'xs',
-            description: 'Size of label',
+            default: 'false',
+            description:
+              'Is menuItem checked/unchecked. For radio and checkbox variant.',
           },
         ]}
       />
