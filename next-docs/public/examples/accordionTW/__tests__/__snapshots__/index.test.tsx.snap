@@ -18,6 +18,7 @@ exports[`Accordion expands 1`] = `
       Default
     </span>
     <span
+      aria-hidden="true"
       className="flex items-center justify-center w-6 h-6"
     >
       <svg
@@ -67,6 +68,7 @@ exports[`Accordion renders content outside 1`] = `
       Test accordion
     </span>
     <span
+      aria-hidden="true"
       className="flex items-center justify-center w-6 h-6"
     >
       <svg
@@ -116,6 +118,7 @@ exports[`Accordion renders default 1`] = `
       Default
     </span>
     <span
+      aria-hidden="true"
       className="flex items-center justify-center w-6 h-6"
     >
       <svg
@@ -165,6 +168,7 @@ exports[`Accordion renders default dark 1`] = `
       Default
     </span>
     <span
+      aria-hidden="true"
       className="flex items-center justify-center w-6 h-6"
     >
       <svg
@@ -217,6 +221,7 @@ exports[`Accordion renders default rtl 1`] = `
         Default
       </span>
       <span
+        aria-hidden="true"
         className="flex items-center justify-center w-6 h-6"
       >
         <svg
@@ -268,6 +273,7 @@ exports[`Accordion renders disabled 1`] = `
       Test accordion
     </span>
     <span
+      aria-hidden="true"
       className="flex items-center justify-center w-6 h-6"
     >
       <svg
@@ -371,6 +377,7 @@ exports[`Accordion renders header content 1`] = `
       </svg>
     </div>
     <span
+      aria-hidden="true"
       className="flex items-center justify-center w-6 h-6"
     >
       <svg
@@ -420,6 +427,7 @@ exports[`Accordion renders opened by default 1`] = `
       Test accordion
     </span>
     <span
+      aria-hidden="true"
       className="flex items-center justify-center w-6 h-6"
     >
       <svg
@@ -470,6 +478,7 @@ Array [
         X Large (xl)
       </span>
       <span
+        aria-hidden="true"
         className="flex items-center justify-center w-6 h-6"
       >
         <svg
@@ -516,6 +525,7 @@ Array [
         Large (lg)
       </span>
       <span
+        aria-hidden="true"
         className="flex items-center justify-center w-6 h-6"
       >
         <svg
@@ -562,6 +572,7 @@ Array [
         Medium is default (md)
       </span>
       <span
+        aria-hidden="true"
         className="flex items-center justify-center w-6 h-6"
       >
         <svg
@@ -608,6 +619,7 @@ Array [
         Small (sm)
       </span>
       <span
+        aria-hidden="true"
         className="flex items-center justify-center w-6 h-6"
       >
         <svg
@@ -659,6 +671,7 @@ Array [
         X Large (xl)
       </span>
       <span
+        aria-hidden="true"
         className="flex items-center justify-center w-6 h-6"
       >
         <svg
@@ -705,6 +718,7 @@ Array [
         Large (lg)
       </span>
       <span
+        aria-hidden="true"
         className="flex items-center justify-center w-6 h-6"
       >
         <svg
@@ -751,6 +765,7 @@ Array [
         Medium is default (md)
       </span>
       <span
+        aria-hidden="true"
         className="flex items-center justify-center w-6 h-6"
       >
         <svg
@@ -797,6 +812,7 @@ Array [
         Small (sm)
       </span>
       <span
+        aria-hidden="true"
         className="flex items-center justify-center w-6 h-6"
       >
         <svg
@@ -848,6 +864,7 @@ Array [
         Test accordion with backgound
       </span>
       <span
+        aria-hidden="true"
         className="flex items-center justify-center w-6 h-6"
       >
         <svg
@@ -894,6 +911,7 @@ Array [
         Test accordion with backgound: content outside
       </span>
       <span
+        aria-hidden="true"
         className="flex items-center justify-center w-6 h-6"
       >
         <svg

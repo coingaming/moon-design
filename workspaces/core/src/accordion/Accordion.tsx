@@ -59,7 +59,10 @@ const Accordion = ({
         )}
         {headerContent && <React.Fragment>{headerContent}</React.Fragment>}
         {withButton && (
-          <span className="flex items-center justify-center w-6 h-6">
+          <span
+            aria-hidden="true"
+            className="flex items-center justify-center w-6 h-6"
+          >
             <ControlsChevronRight
               className={classNames(
                 'text-trunks text-moon-16 transition-transform transition-200',
