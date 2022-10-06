@@ -46,25 +46,27 @@ const Accordion = ({
         {...(disabled && { disabled })}
       >
         {title && (
-          <h3
+          <span
+            role="heading"
+            aria-level={3}
             className={classNames(
               'flex-1 font-medium text-bulma text-start',
               setFont(size)
             )}
           >
             {title}
-          </h3>
+          </span>
         )}
         {headerContent && <React.Fragment>{headerContent}</React.Fragment>}
         {withButton && (
-          <div className="flex items-center justify-center w-6 h-6">
+          <span className="flex items-center justify-center w-6 h-6">
             <ControlsChevronRight
               className={classNames(
                 'text-trunks text-moon-16 transition-transform transition-200',
                 setOpenIcon(isOpen)
               )}
             />
-          </div>
+          </span>
         )}
       </button>
       <div
