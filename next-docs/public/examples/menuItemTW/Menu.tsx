@@ -1,5 +1,5 @@
-import { Menu } from '@heathmont/moon-core-tw';
+import { List } from '@heathmont/moon-core-tw';
 
-const Example = () => <Menu width="w-56" />;
+const Example = () => <List width="w-56" />;
 
 export default Example;

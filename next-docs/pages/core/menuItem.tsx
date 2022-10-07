@@ -4,11 +4,13 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import PropsTable from '../../components/PropsTable';
 import Checkbox from '../../public/examples/menuItemTW/Checkbox';
 import Default from '../../public/examples/menuItemTW/Default';
+import Menu from '../../public/examples/menuItemTW/Menu';
 import MultiTitle from '../../public/examples/menuItemTW/MultiTitle';
 import Radio from '../../public/examples/menuItemTW/Radio';
 import WithIcon from '../../public/examples/menuItemTW/WithIcon';
 import WithMeta from '../../public/examples/menuItemTW/WithMeta';
 import useExamples from '../../utils/useExamples';
+
 
 const Example = () => {
   const examples = useExamples('menuItemTW');
@@ -25,6 +27,13 @@ const Example = () => {
           row height is Medium(md) 40px for one line of content.
         </p>
       </ComponentPageDescription>
+
+      <Preview
+        title="Menu"
+        preview={<Menu />}
+        code={examples ? examples.Menu : 'Loading'}
+      />
+
       <Preview
         title="Default"
         preview={<Default />}
@@ -49,6 +58,11 @@ const Example = () => {
         title="Radio"
         preview={<Radio />}
         code={examples ? examples.Radio : 'Loading'}
+      />
+      <Preview
+        title="MultiTitle"
+        preview={<MultiTitle />}
+        code={examples ? examples.MultiTitle : 'Loading'}
       />
       <Preview
         title="MultiTitle"
