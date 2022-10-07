@@ -14,7 +14,7 @@ type MenuItemComponentProps = <C extends React.ElementType = 'button'>(
   props: MenuItemPolymorphicProps<C>
 ) => React.ReactElement | null;
 
-type MenuItemStates = {
+type MenuItemState = {
   active?: boolean;
 };
 
@@ -27,7 +27,7 @@ type MultiTitleProps = {
   text?: JSX.Element | string;
 };
 
-const MenuItemContext = createContext<MenuItemStates>({});
+const MenuItemContext = createContext<MenuItemState>({});
 MenuItemContext.displayName = 'MenuItemContext';
 
 const useMenuItemContext = (component: string) => {
@@ -65,7 +65,6 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
           {...rest}
         >
           {children}
-          {/* {children({isActive})} */}
         </Component>
       </MenuItemContext.Provider>
     );
