@@ -6,22 +6,13 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import Bg from '../Bg';
-import Date from '../Date';
-import DateTime from '../DateTime';
 import Default from '../Default';
 import Disabled from '../Disabled';
-import Email from '../Email';
 import Error from '../Error';
 import Hint from '../Hint';
-import Number from '../Number';
-import Password from '../Password';
 import Readonly from '../Readonly';
-import Search from '../Search';
 import Sizes from '../Sizes';
-import SizesRTL from '../SizesRTL';
-import Telephone from '../Telephone';
-import Time from '../Time';
-import Url from '../Url';
+import Types from '../Types';
 import WithoutLabel from '../WithoutLabel';
 
 const renderWithTheme = (component: JSX.Element) => (
@@ -35,10 +26,6 @@ describe('TextInput: type Date', () => {
   });
   it('renders different sizes', () => {
     const testRenderer = renderer.create(renderWithTheme(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders RTL', () => {
-    const testRenderer = renderer.create(renderWithTheme(<SizesRTL />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders without label', () => {
@@ -66,48 +53,8 @@ describe('TextInput: type Date', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders Date', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Date />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders DateTime', () => {
-    const testRenderer = renderer.create(renderWithTheme(<DateTime />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Email', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Email />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Number', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Number />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Password', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Password />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Search', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Search />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Telephone', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Telephone />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Time', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Time />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Url', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Url />));
+  it('renders different types', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Types />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

@@ -12,14 +12,6 @@ const Example = () => (
     />
     <TextInput
       type="text"
-      inputSize="lg"
-      label="Large (lg)"
-      placeholder="Placeholder"
-      hintText="Error message"
-      isError
-    />
-    <TextInput
-      type="text"
       inputSize="xl"
       label="Xlarge (xl)"
       placeholder="Placeholder"
