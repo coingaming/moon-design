@@ -24,7 +24,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -39,7 +39,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "300 0 auto",
             "left": "0px",
-            "minWidth": "200px",
+            "minWidth": "300px",
             "position": "sticky",
             "width": "300px",
             "zIndex": 3,
@@ -67,10 +67,10 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "500 0 auto",
-            "minWidth": "400px",
+            "flex": "600 0 auto",
+            "minWidth": "600px",
             "position": "relative",
-            "width": "500px",
+            "width": "600px",
           }
         }
       >
@@ -98,7 +98,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -128,7 +128,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -142,7 +142,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -174,7 +174,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -202,10 +202,10 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
             "position": "relative",
-            "width": "100px",
+            "width": "150px",
           }
         }
       >
@@ -231,7 +231,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "relative",
             "width": "150px",
           }
@@ -259,7 +259,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "relative",
             "width": "150px",
           }
@@ -286,10 +286,10 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
             "position": "relative",
-            "width": "100px",
+            "width": "150px",
           }
         }
       >
@@ -317,7 +317,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -346,7 +346,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -360,7 +360,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "relative",
             "width": "150px",
             "zIndex": 3,
@@ -378,7 +378,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "relative",
             "width": "150px",
             "zIndex": 3,
@@ -392,22 +392,8 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "position": "relative",
-            "width": "100px",
-          }
-        }
-      />
-      <div
-        className="sc-jSMfEi fSbmwk"
-        colSpan={1}
-        role="columnheader"
-        style={
-          Object {
-            "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "relative",
             "width": "150px",
           }
@@ -421,7 +407,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "relative",
             "width": "150px",
           }
@@ -434,10 +420,24 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
             "position": "relative",
-            "width": "100px",
+            "width": "150px",
+          }
+        }
+      />
+      <div
+        className="sc-jSMfEi fSbmwk"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "position": "relative",
+            "width": "150px",
           }
         }
       />
@@ -451,7 +451,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "relative",
             "right": "0px",
             "width": "150px",
@@ -472,7 +472,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -485,7 +485,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -504,7 +504,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -519,24 +519,8 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
-          }
-        }
-      >
-        <span>
-          0
-        </span>
-      </div>
-      <div
-        className="sc-kDDrLX kSKZAI"
-        role="cell"
-        style={
-          Object {
-            "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -552,7 +536,23 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
+            "width": "150px",
+          }
+        }
+      >
+        <span>
+          0
+        </span>
+      </div>
+      <div
+        className="sc-kDDrLX kSKZAI"
+        role="cell"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -565,9 +565,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -582,7 +582,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -602,7 +602,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -615,7 +615,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -634,7 +634,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -649,9 +649,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -666,7 +666,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -682,7 +682,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -695,9 +695,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -712,7 +712,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -732,7 +732,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -745,7 +745,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -764,7 +764,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -779,9 +779,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -796,7 +796,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -812,7 +812,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -825,9 +825,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -842,7 +842,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -862,7 +862,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -875,7 +875,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -894,7 +894,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -909,9 +909,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -926,7 +926,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -942,7 +942,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -955,9 +955,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -972,7 +972,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -992,7 +992,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -1005,7 +1005,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1024,7 +1024,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1039,9 +1039,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1056,7 +1056,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1072,7 +1072,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1085,9 +1085,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1102,7 +1102,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -1122,7 +1122,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -1135,7 +1135,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1154,7 +1154,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1169,9 +1169,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1186,7 +1186,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1202,7 +1202,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1215,9 +1215,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1232,7 +1232,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -1252,7 +1252,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -1265,7 +1265,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1284,7 +1284,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1299,9 +1299,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1316,7 +1316,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1332,7 +1332,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1345,9 +1345,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1362,7 +1362,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -1382,7 +1382,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -1395,7 +1395,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1414,7 +1414,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1429,9 +1429,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1446,7 +1446,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1462,7 +1462,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1475,9 +1475,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1492,7 +1492,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -1512,7 +1512,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -1525,7 +1525,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1544,7 +1544,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1559,9 +1559,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1576,7 +1576,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1592,7 +1592,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1605,9 +1605,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1622,7 +1622,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -1642,7 +1642,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -1655,7 +1655,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1674,7 +1674,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1689,9 +1689,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1706,7 +1706,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1722,7 +1722,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1735,9 +1735,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1752,7 +1752,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -1772,7 +1772,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -1785,7 +1785,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1804,7 +1804,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1819,9 +1819,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1836,7 +1836,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1852,7 +1852,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1865,9 +1865,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1882,7 +1882,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -1902,7 +1902,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -1915,7 +1915,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1934,7 +1934,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -1949,9 +1949,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -1966,7 +1966,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1982,7 +1982,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -1995,9 +1995,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2012,7 +2012,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -2032,7 +2032,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -2045,7 +2045,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2064,7 +2064,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2079,9 +2079,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2096,7 +2096,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2112,7 +2112,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2125,9 +2125,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2142,7 +2142,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -2162,7 +2162,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -2175,7 +2175,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2194,7 +2194,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2209,9 +2209,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2226,7 +2226,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2242,7 +2242,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2255,9 +2255,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2272,7 +2272,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -2292,7 +2292,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -2305,7 +2305,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2324,7 +2324,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2339,9 +2339,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2356,7 +2356,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2372,7 +2372,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2385,9 +2385,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2402,7 +2402,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -2422,7 +2422,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -2435,7 +2435,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2454,7 +2454,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2469,9 +2469,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2486,7 +2486,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2502,7 +2502,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2515,9 +2515,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2532,7 +2532,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -2552,7 +2552,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -2565,7 +2565,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2584,7 +2584,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2599,9 +2599,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2616,7 +2616,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2632,7 +2632,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2645,9 +2645,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2662,7 +2662,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -2682,7 +2682,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -2695,7 +2695,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2714,7 +2714,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2729,9 +2729,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2746,7 +2746,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2762,7 +2762,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2775,9 +2775,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2792,7 +2792,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -2812,7 +2812,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -2825,7 +2825,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2844,7 +2844,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2859,9 +2859,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2876,7 +2876,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2892,7 +2892,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -2905,9 +2905,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -2922,7 +2922,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -2942,7 +2942,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -2955,7 +2955,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2974,7 +2974,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -2989,9 +2989,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3006,7 +3006,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3022,7 +3022,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3035,9 +3035,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3052,7 +3052,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -3072,7 +3072,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -3085,7 +3085,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3104,7 +3104,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3119,9 +3119,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3136,7 +3136,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3152,7 +3152,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3165,9 +3165,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3182,7 +3182,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -3202,7 +3202,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -3215,7 +3215,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3234,7 +3234,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3249,9 +3249,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3266,7 +3266,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3282,7 +3282,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3295,9 +3295,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3312,7 +3312,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -3332,7 +3332,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -3345,7 +3345,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3364,7 +3364,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3379,9 +3379,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3396,7 +3396,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3412,7 +3412,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3425,9 +3425,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3442,7 +3442,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -3462,7 +3462,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -3475,7 +3475,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3494,7 +3494,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3509,9 +3509,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3526,7 +3526,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3542,7 +3542,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3555,9 +3555,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3572,7 +3572,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -3592,7 +3592,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -3605,7 +3605,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3624,7 +3624,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3639,9 +3639,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3656,7 +3656,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3672,7 +3672,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3685,9 +3685,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3702,7 +3702,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -3722,7 +3722,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -3735,7 +3735,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3754,7 +3754,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3769,9 +3769,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3786,7 +3786,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3802,7 +3802,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3815,9 +3815,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3832,7 +3832,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -3852,7 +3852,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -3865,7 +3865,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3884,7 +3884,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -3899,9 +3899,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3916,7 +3916,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3932,7 +3932,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -3945,9 +3945,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -3962,7 +3962,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -3982,7 +3982,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -3995,7 +3995,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4014,7 +4014,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4029,9 +4029,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4046,7 +4046,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4062,7 +4062,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4075,9 +4075,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4092,7 +4092,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -4112,7 +4112,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -4125,7 +4125,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4144,7 +4144,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4159,9 +4159,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4176,7 +4176,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4192,7 +4192,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4205,9 +4205,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4222,7 +4222,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -4242,7 +4242,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -4255,7 +4255,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4274,7 +4274,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4289,9 +4289,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4306,7 +4306,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4322,7 +4322,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4335,9 +4335,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4352,7 +4352,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -4372,7 +4372,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -4385,7 +4385,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4404,7 +4404,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4419,9 +4419,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4436,7 +4436,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4452,7 +4452,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4465,9 +4465,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4482,7 +4482,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -4502,7 +4502,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -4515,7 +4515,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4534,7 +4534,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4549,9 +4549,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4566,7 +4566,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4582,7 +4582,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4595,9 +4595,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4612,7 +4612,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -4632,7 +4632,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -4645,7 +4645,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4664,7 +4664,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4679,9 +4679,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4696,7 +4696,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4712,7 +4712,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4725,9 +4725,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4742,7 +4742,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -4762,7 +4762,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -4775,7 +4775,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4794,7 +4794,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4809,9 +4809,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4826,7 +4826,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4842,7 +4842,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4855,9 +4855,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4872,7 +4872,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -4892,7 +4892,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -4905,7 +4905,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4924,7 +4924,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -4939,9 +4939,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -4956,7 +4956,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4972,7 +4972,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -4985,9 +4985,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -5002,7 +5002,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -5022,7 +5022,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -5035,7 +5035,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5054,7 +5054,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5069,9 +5069,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -5086,7 +5086,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -5102,7 +5102,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -5115,9 +5115,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -5132,7 +5132,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -5152,7 +5152,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -5165,7 +5165,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5184,7 +5184,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5199,9 +5199,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -5216,7 +5216,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -5232,7 +5232,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -5245,9 +5245,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -5262,7 +5262,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -5282,7 +5282,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -5295,7 +5295,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5314,7 +5314,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5329,9 +5329,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -5346,7 +5346,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -5362,7 +5362,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -5375,9 +5375,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -5392,7 +5392,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -5412,7 +5412,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -5425,7 +5425,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5444,7 +5444,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5459,9 +5459,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -5476,7 +5476,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -5492,7 +5492,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -5505,9 +5505,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -5522,7 +5522,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -5542,7 +5542,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -5555,7 +5555,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5574,7 +5574,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5589,9 +5589,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -5606,7 +5606,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -5622,7 +5622,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "width": "150px",
           }
         }
@@ -5635,9 +5635,9 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "width": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "width": "150px",
           }
         }
       >
@@ -5652,7 +5652,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -5676,7 +5676,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -5690,7 +5690,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "0px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5721,7 +5721,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "150 0 auto",
             "left": "150px",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "width": "150px",
             "zIndex": 3,
@@ -5748,35 +5748,8 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
-            "position": "relative",
-            "width": "100px",
-          }
-        }
-      >
-        <div
-          className="resizer "
-          draggable={false}
-          onMouseDown={[Function]}
-          onTouchStart={[Function]}
-          role="separator"
-          style={
-            Object {
-              "cursor": "ew-resize",
-            }
-          }
-        />
-      </div>
-      <div
-        className="sc-dkzDqf kvWWgZ"
-        colSpan={1}
-        role="columnheader"
-        style={
-          Object {
-            "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "relative",
             "width": "150px",
           }
@@ -5803,7 +5776,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "relative",
             "width": "150px",
           }
@@ -5829,10 +5802,37 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "100 0 auto",
-            "minWidth": "100px",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
             "position": "relative",
-            "width": "100px",
+            "width": "150px",
+          }
+        }
+      >
+        <div
+          className="resizer "
+          draggable={false}
+          onMouseDown={[Function]}
+          onTouchStart={[Function]}
+          role="separator"
+          style={
+            Object {
+              "cursor": "ew-resize",
+            }
+          }
+        />
+      </div>
+      <div
+        className="sc-dkzDqf kvWWgZ"
+        colSpan={1}
+        role="columnheader"
+        style={
+          Object {
+            "boxSizing": "border-box",
+            "flex": "150 0 auto",
+            "minWidth": "150px",
+            "position": "relative",
+            "width": "150px",
           }
         }
       >
@@ -5859,7 +5859,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
@@ -5888,7 +5888,7 @@ exports[`Table renders 1`] = `
         Object {
           "display": "flex",
           "flex": "1 0 auto",
-          "minWidth": "700px",
+          "minWidth": "1050px",
         }
       }
     >
@@ -5903,7 +5903,7 @@ exports[`Table renders 1`] = `
             "boxSizing": "border-box",
             "flex": "300 0 auto",
             "left": "0px",
-            "minWidth": "200px",
+            "minWidth": "300px",
             "position": "sticky",
             "width": "300px",
             "zIndex": 3,
@@ -5931,10 +5931,10 @@ exports[`Table renders 1`] = `
         style={
           Object {
             "boxSizing": "border-box",
-            "flex": "500 0 auto",
-            "minWidth": "400px",
+            "flex": "600 0 auto",
+            "minWidth": "600px",
             "position": "relative",
-            "width": "500px",
+            "width": "600px",
           }
         }
       >
@@ -5962,7 +5962,7 @@ exports[`Table renders 1`] = `
           Object {
             "boxSizing": "border-box",
             "flex": "150 0 auto",
-            "minWidth": "100px",
+            "minWidth": "150px",
             "position": "sticky",
             "right": "0px",
             "width": "150px",
