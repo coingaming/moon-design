@@ -12,14 +12,6 @@ const Example = () => (
     />
     <TextInput
       type="text"
-      inputSize="lg"
-      label="Large (lg)"
-      placeholder="Placeholder"
-      hintText="Informative message holder"
-      bgColor="bg-beerus"
-    />
-    <TextInput
-      type="text"
       inputSize="xl"
       label="Xlarge (xl)"
       placeholder="Placeholder"

@@ -3,6 +3,7 @@ import classNames from '../../private/utils/classnames';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
+import getLabelSize from './utils/getLabelSize';
 import type TextInputProps from '../private/types/TextInputProps';
 
 const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
@@ -46,7 +47,8 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
             dir={dir}
             htmlFor={id}
             className={classNames(
-              'block text-moon-16 text-bulma pb-2',
+              'block text-bulma pb-2',
+              getLabelSize(inputSize),
               disabled && 'opacity-30 cursor-not-allowed'
             )}
           >

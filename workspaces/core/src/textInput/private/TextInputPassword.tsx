@@ -5,6 +5,7 @@ import HintText from './HintText';
 import Input from './Input';
 import ShowPassword from './ShowPassword';
 import getBorderRadius from './utils/getBorderRadius';
+import getLabelSize from './utils/getLabelSize';
 import type TextInputProps from '../private/types/TextInputProps';
 
 const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
@@ -94,14 +95,17 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
           <label
             dir={dir}
             htmlFor={id}
-            className="block text-moon-16 text-bulma pb-2"
+            className={classNames(
+              'block text-bulma pb-2',
+              getLabelSize(inputSize)
+            )}
           >
             {label}
           </label>
         )}
         <div
           className={classNames(
-            'w-full max-w-full relative ',
+            'w-full max-w-full relative',
             getBorderRadius(inputSize)
           )}
         >

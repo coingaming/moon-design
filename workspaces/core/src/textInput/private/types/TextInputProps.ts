@@ -3,7 +3,7 @@ import type TextInputTypes from './TextInputTypes';
 export default interface TextInputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {
   id?: string;
-  inputSize?: 'md' | 'lg' | 'xl';
+  inputSize?: 'sm' | 'md' | 'lg' | 'xl';
   type?: TextInputTypes | string;
   label?: JSX.Element | string;
   placeholder?: string;
