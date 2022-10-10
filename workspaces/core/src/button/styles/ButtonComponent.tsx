@@ -6,29 +6,32 @@ import buttonCommonStyles from '../private/buttonStyles/buttonCommonStyles';
 import buttonVariants from '../private/buttonStyles/buttonVariants';
 import type ButtonProps from '../private/types/ButtonProps';
 
-const ButtonComponent: React.FC<ButtonProps> = ({
+const ButtonComponent = <C extends React.ElementType>({
   variant,
   size,
   icon,
-  iconSize,
   iconLeft,
   iconRight,
   iconOnly,
   fullWidth,
   disabled,
   animation,
+  as,
   ...rest
-}) => {
+}: ButtonProps<C>) => {
+  const Component = as || 'button';
   return (
-    <button
+    <Component
       className={classNames(
         buttonSizes({ size, icon, iconLeft, iconRight, iconOnly }),
-        buttonCommonStyles({ iconSize, disabled }),
+        buttonCommonStyles({ disabled }),
         buttonVariants({ variant }),
         animation === 'pulse' && 'anim-pulse animate-[pulse2_1.5s_infinite]',
         animation === 'error' && errorAnimation(),
         fullWidth && !iconOnly ? 'w-full' : ''
       )}
+      {...((!as || as === 'button') && { type: 'button' })}
+      {...(disabled && { disabled })}
       {...rest}
     />
   );

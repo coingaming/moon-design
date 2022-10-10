@@ -13,7 +13,7 @@ const RenderResults: React.FC = () => {
             <div>
               {typeof item === 'string' ? (
                 <div className="pt-3">
-                  <div className="block border-t border-gray-100 px-4 pt-6 pb-2 text-xs font-semibold uppercase text-slate-400">
+                  <div className="block border-t border-gray-100 px-4 pt-6 pb-2 text-xs font-medium uppercase text-slate-400">
                     {item}
                   </div>
                 </div>

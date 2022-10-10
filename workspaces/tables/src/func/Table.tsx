@@ -1,4 +1,4 @@
-import React, {useRef, useState, useEffect} from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 
 import {
   useTable,
@@ -15,7 +15,7 @@ import {
   UseResizeColumnsColumnProps,
   UseSortByColumnProps,
 } from 'react-table';
-import {useSticky} from "react-table-sticky";
+import { useSticky } from 'react-table-sticky';
 import Body from '../components/Body';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
@@ -25,7 +25,7 @@ import Minimap from '../components/Minimap';
 import OuterWrapper from '../components/OuterWrapper';
 import TableWrapper from '../components/TableWrapper';
 import TH from '../components/TH';
-import useRowSpan, {RowSpanHeader} from '../hooks/useRowSpan';
+import useRowSpan, { RowSpanHeader } from '../hooks/useRowSpan';
 import useScrollState from '../hooks/useScrollState';
 import renderRows from '../utils/renderRows';
 import renderSpanRows from '../utils/renderSpanRows';
@@ -121,9 +121,11 @@ const Table: React.FC<TableProps> = ({
   const lastHeaderGroup = headerGroups[headerGroups.length - 1];
   const tableRef = useRef<HTMLDivElement>(null);
   const footerRef = useRef<HTMLDivElement>(null);
-  const onRowSelectHandler = getOnRowSelect ? getOnRowSelect() : () => undefined;
+  const onRowSelectHandler = getOnRowSelect
+    ? getOnRowSelect()
+    : () => undefined;
 
-  const {scrollState, handleScroll} = useScrollState(tableRef);
+  const { scrollState, handleScroll } = useScrollState(tableRef);
   const [selectedRows, setSelectedRows] = useState<Row<{}>[]>([]);
 
   useEffect(() => {
@@ -137,35 +139,47 @@ const Table: React.FC<TableProps> = ({
     setSelectedRows(
       rows?.length
         ? rows.filter((row: Row<{ isSelected?: boolean }>) => {
-          return row.original?.isSelected;
-        })
+            return row.original?.isSelected;
+          })
         : []
     );
   }, []);
 
-  const getHeaderRow = (column: HeaderGroup<object>, isSorting?: boolean, isLastColumn?: boolean) => {
+  const getHeaderRow = (
+    column: HeaderGroup<object>,
+    isSorting?: boolean,
+    isLastColumn?: boolean
+  ) => {
     const sortingColumn = column as unknown as UseSortByColumnProps<object>;
-    const resizingColumn = column as unknown as UseResizeColumnsColumnProps<object>;
+    const resizingColumn =
+      column as unknown as UseResizeColumnsColumnProps<object>;
 
     return (
       <TH
         reactTableProps={{
-          ...column.getHeaderProps(isSorting ? sortingColumn.getSortByToggleProps : undefined)
+          ...column.getHeaderProps(
+            isSorting ? sortingColumn.getSortByToggleProps : undefined
+          ),
         }}
         headerBackgroundColor={headerBackgroundColor}
         stickySide={
           // @ts-ignore
-          (column.sticky === 'left' || column.parent?.sticky === 'left') && scrollState.scrolledToRight ?
-            'left' :
-            // @ts-ignore
-            (column.sticky === 'right' || column.parent?.sticky === 'right') ? 'right' : ''
+          (column.sticky === 'left' || column.parent?.sticky === 'left') &&
+          scrollState.scrolledToRight
+            ? 'left'
+            : // @ts-ignore
+            column.sticky === 'right' || column.parent?.sticky === 'right'
+            ? 'right'
+            : ''
         }
         isLastColumn={isLastColumn}
       >
         {column.render('Header')}
         <div
-          {...resizingColumn.getResizerProps}
-          className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
+          {...resizingColumn.getResizerProps()}
+          className={`inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 ${
+            resizingColumn.isResizing ? 'after:bg-piccolo' : ''
+          }`}
         />
       </TH>
     );
@@ -175,127 +189,140 @@ const Table: React.FC<TableProps> = ({
       column as unknown as UseResizeColumnsColumnProps<object>;
     return (
       <TH
-        reactTableProps={{...column.getHeaderProps()}}
+        reactTableProps={{ ...column.getHeaderProps() }}
         headerBackgroundColor={headerBackgroundColor}
         stickySide={
           // @ts-ignore
-          column.sticky === 'left' && scrollState.scrolledToRight ? 'left' :
-            // @ts-ignore
-            column.sticky === 'right' && scrollState.scrolledToLeft ? 'right' : ''
+          column.sticky === 'left' && scrollState.scrolledToRight
+            ? 'left'
+            : // @ts-ignore
+            column.sticky === 'right' && scrollState.scrolledToLeft
+            ? 'right'
+            : ''
         }
       >
         {column.render('Footer')}
 
         <div
-          {...resizingColumn.getResizerProps}
-          className={`resizer ${resizingColumn.isResizing ? 'isResizing' : ''}`}
+          {...resizingColumn.getResizerProps()}
+          className={`resizer inline-block cursor-ew-resize w-2 h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 ${
+            resizingColumn.isResizing ? 'isResizing after:bg-piccolo' : ''
+          }`}
         />
       </TH>
     );
   };
 
-  const renderTableComponent = () => (<TableWrapper
-    reactTableProps={{...getTableProps()}}
-    tableRef={tableRef}
-    onScroll={handleScroll}
-    className={isSticky ? 'sticky' : ''}
-    isScrolledToLeft={scrollState.scrolledToLeft}
-    isScrolledToRight={scrollState.scrolledToRight}
-    style={{
-      width,
-      height,
-      maxWidth,
-      maxHeight,
-    }}
-    variant={variant}
-    defaultRowBackgroundColor={defaultRowBackgroundColor}
-    evenRowBackgroundColor={evenRowBackgroundColor}
-    headerBackgroundColor={headerBackgroundColor}
-  >
-    <Header
-      selectable={useCheckbox}
+  const renderTableComponent = () => (
+    <TableWrapper
+      reactTableProps={{ ...getTableProps() }}
+      tableRef={tableRef}
+      onScroll={handleScroll}
+      className={isSticky ? 'sticky' : ''}
+      isScrolledToLeft={scrollState.scrolledToLeft}
+      isScrolledToRight={scrollState.scrolledToRight}
+      style={{
+        width,
+        height,
+        maxWidth,
+        maxHeight,
+      }}
+      variant={variant}
+      defaultRowBackgroundColor={defaultRowBackgroundColor}
+      evenRowBackgroundColor={evenRowBackgroundColor}
       headerBackgroundColor={headerBackgroundColor}
     >
-      {headerGroups.map((headerGroup: HeaderGroup<object>) => (
-        <HeaderTR reactTableProps={{...headerGroup.getHeaderGroupProps()}}>
-          {headerGroup.headers.map((column: HeaderGroup<object>, index) => getHeaderRow(
-            column,
-            isSorting,
-            index === headerGroup.headers.length - 1
-          ))}
-        </HeaderTR>
-      ))}
-      <HiddenTR lastHeaderGroup={lastHeaderGroup}/>
-    </Header>
-
-    <Body reactTableProps={{...getTableBodyProps()}}>
-      {
-        variant === 'calendar' ?
-          renderSpanRows({
-            rows,
-            prepareRow,
-            getOnRowClickHandler,
-            evenRowBackgroundColor,
-            defaultRowBackgroundColor,
-            rowSpanHeaders,
-            selectable,
-            useCheckbox,
-          }) :
-          renderRows({
-            rows,
-            prepareRow,
-            getOnRowClickHandler,
-            getOnRowSelectHandler: !selectable ? undefined : (row) => () => {
-              let alreadySelectedRows = [...selectedRows];
-              const alreadySelectedRow = alreadySelectedRows.filter(
-                (selectedRow) => row.id === selectedRow.id
-              )[0];
-
-              if (alreadySelectedRow) {
-                alreadySelectedRows = alreadySelectedRows.filter(
-                  (selectedRow) => row.id !== selectedRow.id
-                );
-              } else {
-                alreadySelectedRows.push(row);
-              }
-
-              setSelectedRows(alreadySelectedRows);
-            },
-            evenRowBackgroundColor,
-            defaultRowBackgroundColor,
-            renderRowSubComponent,
-            selectable,
-            useCheckbox,
-          })
-      }
-    </Body>
-
-    {withFooter && (
-      <Footer
-        ref={footerRef}
+      <Header
         selectable={useCheckbox}
         headerBackgroundColor={headerBackgroundColor}
       >
-        {footerGroups.map((footerGroup: HeaderGroup<object>) => (
-          <HeaderTR reactTableProps={{...footerGroup.getHeaderGroupProps()}}>
-            {footerGroup.headers.map((column: HeaderGroup<object>) =>
-              getFooterRowWhenResizing(column)
+        {headerGroups.map((headerGroup: HeaderGroup<object>) => (
+          <HeaderTR reactTableProps={{ ...headerGroup.getHeaderGroupProps() }}>
+            {headerGroup.headers.map((column: HeaderGroup<object>, index) =>
+              getHeaderRow(
+                column,
+                isSorting,
+                index === headerGroup.headers.length - 1
+              )
             )}
           </HeaderTR>
         ))}
-      </Footer>
-    )}
-  </TableWrapper>);
+        <HiddenTR lastHeaderGroup={lastHeaderGroup} />
+      </Header>
+
+      <Body reactTableProps={{ ...getTableBodyProps() }}>
+        {variant === 'calendar'
+          ? renderSpanRows({
+              rows,
+              prepareRow,
+              getOnRowClickHandler,
+              evenRowBackgroundColor,
+              defaultRowBackgroundColor,
+              rowSpanHeaders,
+              selectable,
+              useCheckbox,
+            })
+          : renderRows({
+              rows,
+              prepareRow,
+              getOnRowClickHandler,
+              getOnRowSelectHandler: !selectable
+                ? undefined
+                : (row) => () => {
+                    let alreadySelectedRows = [...selectedRows];
+                    const alreadySelectedRow = alreadySelectedRows.filter(
+                      (selectedRow) => row.id === selectedRow.id
+                    )[0];
+
+                    if (alreadySelectedRow) {
+                      alreadySelectedRows = alreadySelectedRows.filter(
+                        (selectedRow) => row.id !== selectedRow.id
+                      );
+                    } else {
+                      alreadySelectedRows.push(row);
+                    }
+
+                    setSelectedRows(alreadySelectedRows);
+                  },
+              evenRowBackgroundColor,
+              defaultRowBackgroundColor,
+              renderRowSubComponent,
+              selectable,
+              useCheckbox,
+            })}
+      </Body>
+
+      {withFooter && (
+        <Footer
+          ref={footerRef}
+          selectable={useCheckbox}
+          headerBackgroundColor={headerBackgroundColor}
+        >
+          {footerGroups.map((footerGroup: HeaderGroup<object>) => (
+            <HeaderTR
+              reactTableProps={{ ...footerGroup.getHeaderGroupProps() }}
+            >
+              {footerGroup.headers.map((column: HeaderGroup<object>) =>
+                getFooterRowWhenResizing(column)
+              )}
+            </HeaderTR>
+          ))}
+        </Footer>
+      )}
+    </TableWrapper>
+  );
 
   if (withMinimap) {
-    return (<OuterWrapper>
-      {renderTableComponent()}
-      <Minimap
-        numberOfColumns={visibleColumns.length}
-        tableRef={tableRef}
-        footerRef={footerRef}
-      />
-    </OuterWrapper>);
+    return (
+      <OuterWrapper>
+        {renderTableComponent()}
+        <Minimap
+          numberOfColumns={visibleColumns.length}
+          tableRef={tableRef}
+          footerRef={footerRef}
+        />
+      </OuterWrapper>
+    );
   }
 
   return renderTableComponent();

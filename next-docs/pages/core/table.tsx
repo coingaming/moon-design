@@ -1,17 +1,18 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import PropsTable from "../../components/PropsTable";
-import ClickableRows from "../../public/examples/tableTW/ClickableRows";
-import CustomColors from "../../public/examples/tableTW/CustomColors";
-import CustomContent from "../../public/examples/tableTW/CustomContent";
-import DeepTable from "../../public/examples/tableTW/DeepTable";
+import PropsTable from '../../components/PropsTable';
+import Calendar from '../../public/examples/tableTW/Calendar';
+import ClickableRows from '../../public/examples/tableTW/ClickableRows';
+import CustomColors from '../../public/examples/tableTW/CustomColors';
+import CustomContent from '../../public/examples/tableTW/CustomContent';
+import DeepTable from '../../public/examples/tableTW/DeepTable';
 import Default from '../../public/examples/tableTW/Default';
-import ExpandedRow from "../../public/examples/tableTW/ExpandedRow";
-import MiniMap from "../../public/examples/tableTW/MiniMap";
-import SelectableCheckboxes from "../../public/examples/tableTW/SelectableCheckboxes";
-import SelectableRows from "../../public/examples/tableTW/SelectableRows";
-import Sorting from "../../public/examples/tableTW/Sorting";
+import ExpandedRow from '../../public/examples/tableTW/ExpandedRow';
+import MiniMap from '../../public/examples/tableTW/MiniMap';
+import SelectableCheckboxes from '../../public/examples/tableTW/SelectableCheckboxes';
+import SelectableRows from '../../public/examples/tableTW/SelectableRows';
+import Sorting from '../../public/examples/tableTW/Sorting';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -93,6 +94,11 @@ const Example = () => {
         title="With minimap"
         preview={<MiniMap />}
         code={examples ? examples.MiniMap : 'Loading'}
+      />
+      <Preview
+        title="Calendar"
+        preview={<Calendar />}
+        code={examples ? examples.Calendar : 'Loading'}
       />
       <PropsTable
         title="Props"

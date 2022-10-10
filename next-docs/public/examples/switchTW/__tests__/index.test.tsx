@@ -5,7 +5,7 @@
 import React from 'react';
 import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-import Custom from '../Custom';
+import CustomBg from '../CustomBg';
 import Default from '../Default';
 import Form from '../Form';
 import Sizes from '../Sizes';
@@ -28,7 +28,7 @@ describe('Switch', () => {
   });
 
   it('renders custom width and bg color', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Custom />));
+    const testRenderer = renderer.create(renderWithTheme(<CustomBg />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 

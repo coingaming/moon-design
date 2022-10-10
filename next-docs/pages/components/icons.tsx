@@ -1,5 +1,7 @@
 import { useState } from 'react';
+import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import IconsBlock from '../../components/IconsBlock';
 import IconsImportHelper from '../../components/IconsImportHelper';
 import PageSection from '../../components/PageSection';
@@ -46,7 +48,17 @@ const PageIcons = () => {
   const examples = useExamples('icons');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Icons</h1>
+      <ComponentPageDescription title="Icons">
+        <p className="font-medium">
+          NB! The component is depricated. Please use our{' '}
+          <Link href="/core/icons">
+            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
+              new Icons
+            </a>
+          </Link>{' '}
+          built with Tailwind.
+        </p>
+      </ComponentPageDescription>
       <Preview
         title="Sizes and colours"
         preview={<DefaultIconSet />}

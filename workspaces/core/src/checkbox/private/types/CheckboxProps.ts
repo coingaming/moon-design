@@ -1,5 +1,5 @@
 type CheckboxProps = {
-  id: string;
+  id?: string;
   label?: JSX.Element | string;
   ariaLabel?: string;
   disabled?: boolean;

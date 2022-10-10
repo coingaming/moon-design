@@ -1,6 +1,11 @@
-import type ButtonProps from '../types/ButtonProps';
+import type { ButtonSettingsProps } from '../types/ButtonProps';
 
-const smPadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
+const smPadding = ({
+  icon,
+  iconLeft,
+  iconRight,
+  iconOnly,
+}: ButtonSettingsProps) => {
   if (icon === 'left' || iconLeft) {
     return 'p-1 pe-3';
   }

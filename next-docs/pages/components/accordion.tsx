@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
@@ -16,6 +17,15 @@ const PageAccordion = () => {
   return (
     <>
       <ComponentPageDescription title="Accordion">
+        <p className="font-medium">
+          NB! The component is depricated. Please use our{' '}
+          <Link href="/core/accordion">
+            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
+              new Accordion
+            </a>
+          </Link>{' '}
+          built with Tailwind.
+        </p>
         <p>
           Like the accordion instrument, our accordion component reveals or
           hides associated sections of content. This is done through the use of

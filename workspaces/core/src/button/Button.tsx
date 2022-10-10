@@ -5,20 +5,25 @@ import ButtonComponent from './styles/ButtonComponent';
 import type ButtonProps from './private/types/ButtonProps';
 import type ButtonVariants from './private/types/ButtonVariants';
 
-const Button: React.FC<ButtonProps> = ({
+export type Props<C extends React.ElementType> = React.PropsWithChildren<
+  ButtonProps<C>
+> &
+  Omit<React.ComponentPropsWithoutRef<C>, keyof ButtonProps<C>>;
+
+const Button = <C extends React.ElementType = 'button'>({
   children,
   variant = 'primary',
   size = 'md',
   icon,
-  iconSize = size === 'xs' ? 16 : 24,
   iconLeft,
   iconRight,
   iconOnly,
   fullWidth,
   disabled,
   animation,
+  as,
   ...rest
-}) => {
+}: Props<C>) => {
   const [isHover, setIsHover] = useState(false);
   const hasAnimationContent =
     animation === 'progress' || animation === 'success';
@@ -27,13 +32,13 @@ const Button: React.FC<ButtonProps> = ({
       size={size}
       variant={variant as ButtonVariants}
       icon={icon}
-      iconSize={iconSize}
       iconLeft={iconLeft}
       iconRight={iconRight}
       iconOnly={iconOnly}
       fullWidth={fullWidth}
       disabled={disabled}
       animation={animation}
+      as={as}
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
       {...rest}
@@ -45,7 +50,6 @@ const Button: React.FC<ButtonProps> = ({
           iconRight={iconRight}
           iconOnly={iconOnly}
           animation={animation}
-          variant={variant}
         />
       ) : (
         <>

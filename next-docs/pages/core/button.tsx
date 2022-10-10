@@ -3,6 +3,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/buttonTW/Animations';
+import AsLink from '../../public/examples/buttonTW/AsLink';
 import Default from '../../public/examples/buttonTW/Default';
 import Disabled from '../../public/examples/buttonTW/Disabled';
 import FullWidth from '../../public/examples/buttonTW/FullWidth';
@@ -28,6 +29,11 @@ const Example = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Button as a link HTML element"
+        preview={<AsLink />}
+        code={examples ? examples.AsLink : 'Loading'}
       />
       <Preview
         title="Variants"

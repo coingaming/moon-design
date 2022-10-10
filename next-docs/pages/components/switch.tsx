@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
@@ -18,6 +19,15 @@ export default function PageSwitch({ isRtl }: Props) {
   return (
     <>
       <ComponentPageDescription title="Switch">
+        <p className="font-medium">
+          NB! The component is depricated. Please use our{' '}
+          <Link href="/core/switch">
+            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
+              new Switch
+            </a>
+          </Link>{' '}
+          built with Tailwind.
+        </p>
         <p>
           Switch is a control that is used to quickly switch between two
           possible states. Switches are only used for these binary actions that
