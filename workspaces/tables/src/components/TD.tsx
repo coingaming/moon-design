@@ -44,12 +44,12 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
       <div
         {...reactTableProps}
         className={classNames(
-          'p-3 pr-1 relative box-border py-4 justify-between items-center w-full text-start',
+          'p-3 pr-1 relative box-border py-4 justify-between items-center w-full text-start -mt-1 ',
           isFirstColumn ? 'rounded-l-lg' : '',
           isLastColumn
             ? 'rounded-r-lg'
             : 'after:content-[""] after:absolute after:w-[1px] after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%]',
-          isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',
+          isExpanded ? 'first:rounded-bl-lg last:rounded-br-lg after:hidden' : '',
           isLastRow
             ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0'
             : '',
@@ -73,7 +73,7 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
           selectable &&
             'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent',
           variant === 'calendar' &&
-            `first:bg-${headerBackgroundColor} after:hidden`
+            `first:bg-${headerBackgroundColor} first:after:hidden`
         )}
       >
         {children}

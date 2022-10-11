@@ -1,5 +1,7 @@
+import { BodyTR } from '@heathmont/moon-table-tw';
+import { TD } from '@heathmont/moon-table-tw';
+import { Table } from '@heathmont/moon-table-tw';
 import React from 'react';
-import { BodyTR, Table, TD } from '@heathmont/moon-table-tw';
 
 const Example = () => {
   const columnsInitial = [
@@ -7,7 +9,7 @@ const Example = () => {
       id: 'expander',
       width: 50,
       Header: ({ getToggleAllRowsExpandedProps, isAllRowsExpanded }: any) => (
-        <span {...getToggleAllRowsExpandedProps}>
+        <span {...getToggleAllRowsExpandedProps()}>
           Expand
           {isAllRowsExpanded ? '👇' : '👉'}
         </span>
@@ -60,7 +62,8 @@ const Example = () => {
           ? () => (row as any).toggleRowExpanded()
           : undefined;
       }}
-      renderRowSubComponent={(row: any, backgroundColor: any) => {
+      // @ts-ignore
+      renderRowSubComponent={({ row, backgroundColor }) => {
         return (
           <BodyTR
             {...row.getRowProps()}
@@ -68,9 +71,10 @@ const Example = () => {
             hasParent={true}
             isLastRow={true}
             backgroundColor={backgroundColor}
+            isExpanded
           >
-            <TD style={{ width: '100%', textAlign: 'center' }}>
-              Custom content
+            <TD {...row.getRowProps()} isExpanded>
+              <p className='text-center'>Custom content</p>
             </TD>
           </BodyTR>
         );
