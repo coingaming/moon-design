@@ -263,7 +263,7 @@ const Table: React.FC<TableProps> = ({
               useCheckbox,
             })
           : renderRows({
-              rows,
+            rows,
               prepareRow,
               getOnRowClickHandler,
               getOnRowSelectHandler: !selectable

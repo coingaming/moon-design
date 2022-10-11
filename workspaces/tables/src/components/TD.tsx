@@ -8,7 +8,7 @@ type TDProps = {
   isExpanded?: boolean;
   isLastRow?: boolean;
   hasParent?: boolean;
-  isSelected?: boolean;
+  isSelected?: boolean ;
   customBackground?: boolean;
   backgroundColor?: string;
   fontColor?: string;

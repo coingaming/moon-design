@@ -1,5 +1,7 @@
 import React from 'react';
 import { Table } from '@heathmont/moon-table-tw';
+import { BodyTR } from '@heathmont/moon-table-tw';
+import { TD } from '@heathmont/moon-table-tw';
 
 interface HeaderProps {
   isAllRowsExpanded: boolean;
@@ -133,6 +135,24 @@ const Example = () => {
       height={400}
       defaultRowBackgroundColor="gohan"
       evenRowBackgroundColor="trunks"
+      isExpanded
+      // @ts-ignore
+      renderRowSubComponent ={({ row, backgroundColor }) => {
+        return (
+          <BodyTR
+            {...row.getRowProps()}
+            key={row.getRowProps().key + '1'}
+            hasParent={true}
+            isLastRow={true}
+            backgroundColor={backgroundColor}
+            isExpanded
+          >
+            <TD {...row.getRowProps()} isExpanded>
+              <p className='text-center'>Custom content</p>
+            </TD>
+          </BodyTR>
+        );
+      }}
     />
   );
 };
