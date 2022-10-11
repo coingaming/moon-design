@@ -9,6 +9,7 @@
     "test": "jest --watch",
     "test:update": "jest -u",
     "test:ci": "jest -w 1 --ci",
+
     "build:template:css": "npx tailwindcss -i ./styles/globals.css -o ./styles/output.css"
   },
   "dependencies": {
