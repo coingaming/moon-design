@@ -1,7 +1,7 @@
 import React from 'react';
-import Link from 'next/link';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import SearchBgColor from '../../../public/examples/textInput/search/SearchBgColor';
 import SearchDisabled from '../../../public/examples/textInput/search/SearchDisabled';
@@ -18,15 +18,7 @@ export default function PageSearchInput() {
   return (
     <>
       <ComponentPageDescription title="Search">
-        <p className="font-medium">
-          NB! The component is depricated. Please use our{' '}
-          <Link href="/core/textInput">
-            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
-              new TextInput
-            </a>
-          </Link>{' '}
-          built with Tailwind.
-        </p>
+        <DeprecationWarning href="/core/textInput" name="TextInput" />
         <p>
           The TextInput wrapper component is used when you need to let users
           enter the text of some kind, such as their name or phone number etc.
