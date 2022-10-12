@@ -9,6 +9,7 @@ import {
   ThemeProvider,
 } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
+import AsLink from '../AsLink';
 import Default from '../Default';
 import Sizes from '../Sizes';
 import Variants from '../Variants';
@@ -35,6 +36,11 @@ const renderWithDarkTheme = (component: JSX.Element) => (
 describe('Chip', () => {
   it('renders default', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders as link', () => {
+    const testRenderer = renderer.create(renderWithTheme(<AsLink />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
