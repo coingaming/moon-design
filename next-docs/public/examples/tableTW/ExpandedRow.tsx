@@ -15,8 +15,7 @@ const Example = () => {
       sticky: 'left',
       columns: [
         {
-          // Build our expander column
-          id: 'expander', // Make sure it has an ID
+          id: 'expander',
           Header: ({
             getToggleAllRowsExpandedProps,
             isAllRowsExpanded,
@@ -26,15 +25,10 @@ const Example = () => {
             </span>
           ),
           Cell: ({ row }: any) =>
-            // Use the row.canExpand and row.getToggleRowExpandedProps prop getter
-            // to build the toggle for expanding a row
             row.canExpand ? (
               <span
                 {...row.getToggleRowExpandedProps({
                   style: {
-                    // We can even use the row.depth property
-                    // and paddingLeft to indicate the depth
-                    // of the row
                     paddingLeft: `${row.depth * 2}rem`,
                   },
                 })}
@@ -136,23 +130,6 @@ const Example = () => {
       defaultRowBackgroundColor="gohan"
       evenRowBackgroundColor="trunks"
       isExpanded
-      // @ts-ignore
-      renderRowSubComponent ={({ row, backgroundColor }) => {
-        return (
-          <BodyTR
-            {...row.getRowProps()}
-            key={row.getRowProps().key + '1'}
-            hasParent={true}
-            isLastRow={true}
-            backgroundColor={backgroundColor}
-            isExpanded
-          >
-            <TD {...row.getRowProps()} isExpanded>
-              <p className='text-center'>Custom content</p>
-            </TD>
-          </BodyTR>
-        );
-      }}
     />
   );
 };

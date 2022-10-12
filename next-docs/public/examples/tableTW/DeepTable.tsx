@@ -1,5 +1,3 @@
-import { BodyTR } from '@heathmont/moon-table-tw';
-import { TD } from '@heathmont/moon-table-tw';
 import { Table } from '@heathmont/moon-table-tw';
 import React from 'react';
 
@@ -93,23 +91,6 @@ const Example = () => {
         (row as any).canExpand
           ? () => (row as any).toggleRowExpanded()
           : undefined;
-      }}
-      // @ts-ignore
-      renderRowSubComponent={({ row, backgroundColor}) => {
-        return (
-          <BodyTR
-            {...row.getRowProps()}
-            key={row.getRowProps().key + '1'}
-            hasParent={true}
-            isLastRow={true}
-            backgroundColor={backgroundColor}
-            isExpanded
-          >
-            <TD {...row.getRowProps()} isExpanded>
-              <p className='text-center'></p>
-            </TD>
-          </BodyTR>
-        );
       }}
     />
   );

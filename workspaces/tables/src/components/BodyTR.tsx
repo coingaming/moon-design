@@ -12,7 +12,7 @@ type BodyTRProps = {
   hasParent?: boolean;
   isLastRow?: boolean;
   isLastNestedRow?: boolean;
-  isSelected?: boolean;
+  isSelected?: boolean | string;
   customBackground?: boolean;
   backgroundColor?: string;
   fontColor?: string;
@@ -28,9 +28,7 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
     onHoverToggle,
     withOffset,
     isExpanded,
-    hasChildren,
     hasParent,
-    isLastNestedRow,
     isLastRow,
     isSelected,
     selectable,

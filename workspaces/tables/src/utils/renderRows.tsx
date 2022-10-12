@@ -20,6 +20,7 @@ type RenderRowsProps<D extends object = {}> = {
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
   selectable?: boolean;
   useCheckbox?: boolean;
+  
 };
 
 const renderRows = ({
@@ -35,16 +36,17 @@ const renderRows = ({
 }: RenderRowsProps) => {
   const [hoveredRow, setHoveredRow] = useState('');
   const [isSelected, setSelected] = useState(false);
+  
   if (!rows) return;
 
   return rows.map(
     (
-      row: Row<{
+     row: Row<{
         isSelected?: boolean;
         backgroundColor?: string;
         fontColor?: string;
       }>,
-      index: number
+     index: number
     ) => {
       prepareRow(row);
       const rowProps = row.getRowProps();
@@ -111,6 +113,7 @@ const renderRows = ({
                 : undefined
             }
             onClick={() => resolveRowClick()}
+            
           >
             {useCheckbox && (
               <TD
@@ -158,10 +161,14 @@ const renderRows = ({
           {expandedRow.isExpanded && !!renderRowSubComponent
             ? renderRowSubComponent({ row, backgroundColor })
             : null}
+          
         </Fragment>
       );
+      
     }
+    
   );
+  
 };
 
 export default renderRows;

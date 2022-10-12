@@ -34,6 +34,7 @@ const renderRows = ({
   selectable,
   useCheckbox
 }: RenderRowsProps) => {
+  const [isSelected, setSelected] = useState(false);
   if (!rows) return;
   return rows.map((
     row: Row<{
@@ -64,7 +65,7 @@ const renderRows = ({
     const fontColor = row.original?.fontColor;
     const isLastNestedRow = rowId.length > nextRowId.length;
     const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
-    const [isSelected, setSelected] = useState(row.original?.isSelected);
+    
 
     const expandedRow = row as unknown as UseExpandedRowProps<{}>;
 
@@ -94,7 +95,7 @@ const renderRows = ({
             <CheckboxTD>
               <Checkbox
                 checked={isSelected}
-                onClick={(e: Event) => e.stopPropagation()}
+                // onClick={(e: Event) => e.stopPropagation()}
                 onChange={() => {
                   /*setSelected(!isSelected)
 

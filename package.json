@@ -3,20 +3,20 @@
   "name": "moon-design",
   "scripts": {
     "watch": "pnpm run watch:legacy && pnpm run watch:tailwind",
-    "watch:legacy": "pnpm --filter ./packages/** --parallel -r run chokidar",
-    "watch:tailwind": "pnpm --filter ./workspaces/** --parallel -r run chokidar",
-    "next": "pnpm run --filter next-docs",
+    "watch:legacy": "pnpm --filter './packages/**' --parallel -r run chokidar",
+    "watch:tailwind": "pnpm --filter './workspaces/**' --parallel -r run chokidar",
+    "next": "pnpm run --filter 'next-docs'",
     "build": "pnpm run build:legacy && pnpm run build:tailwind",
-    "build:legacy": "pnpm --filter ./packages/** -r run build",
-    "build:tailwind": "pnpm --filter ./workspaces/** -r run build ",
+    "build:legacy": "pnpm --filter './packages/**' -r run build",
+    "build:tailwind": "pnpm --filter './workspaces/**' -r run build ",
     "clean": "rimraf packages/**/lib && pnpm run clean:docs",
     "clean:docs": "rimraf next-docs/{lib,dist,.cache}",
     "nuke": "pnpm run clean && rimraf next-docs/.next/ && rimraf packages/**/node_modules/ && rimraf next-docs/node_modules/ && rimraf node_modules/",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "publish": "pnpm run publish:packages && pnpm run publish:workspaces",
-    "publish:packages": "pnpm publish --no-git-checks --filter ./packages/** -r --access public",
-    "publish:workspaces": "pnpm publish --no-git-checks  --filter ./workspaces/** -r --access public"
+    "publish:packages": "pnpm publish --no-git-checks --filter './packages/**' -r --access public",
+    "publish:workspaces": "pnpm publish --no-git-checks  --filter './workspaces/**' -r --access public"
   },
   "eslintConfig": {
     "root": true,

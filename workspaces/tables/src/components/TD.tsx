@@ -8,7 +8,7 @@ type TDProps = {
   isExpanded?: boolean;
   isLastRow?: boolean;
   hasParent?: boolean;
-  isSelected?: boolean ;
+  isSelected?: boolean | any;
   customBackground?: boolean;
   backgroundColor?: string;
   fontColor?: string;
@@ -19,6 +19,7 @@ type TDProps = {
   isHovered?: boolean;
   variant?: TableVariant;
   headerBackgroundColor?: string;
+  onClick?: () => void
 };
 
 const TD = forwardRef<HTMLDivElement, TDProps>(

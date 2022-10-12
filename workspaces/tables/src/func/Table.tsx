@@ -113,7 +113,7 @@ const Table: React.FC<TableProps> = ({
       data,
       defaultColumn,
     },
-    ...plugins
+    ...plugins,
   ) as TableInstance<object> & {
     toggleAllRowsExpanded: (isExpanded?: boolean) => void;
     rowSpanHeaders: RowSpanHeader[];
