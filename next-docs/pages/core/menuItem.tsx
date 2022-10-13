@@ -4,6 +4,8 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import PropsTable from '../../components/PropsTable';
 import Checkbox from '../../public/examples/menuItemTW/Checkbox';
 import Default from '../../public/examples/menuItemTW/Default';
+import ExpandCollapse from '../../public/examples/menuItemTW/ExpandCollapse';
+import MultiLine from '../../public/examples/menuItemTW/MultiLine';
 import MultiTitle from '../../public/examples/menuItemTW/MultiTitle';
 import Radio from '../../public/examples/menuItemTW/Radio';
 import WithIcon from '../../public/examples/menuItemTW/WithIcon';
@@ -54,6 +56,16 @@ const Example = () => {
         title="MultiTitle"
         preview={<MultiTitle />}
         code={examples ? examples.MultiTitle : 'Loading'}
+      />
+      <Preview
+        title="Multi Line Items"
+        preview={<MultiLine />}
+        code={examples ? examples.MultiLine : 'Loading'}
+      />
+      <Preview
+        title="Expand collapse"
+        preview={<ExpandCollapse />}
+        code={examples ? examples.ExpandCollapse : 'Loading'}
       />
       <PropsTable
         title="Label props"
