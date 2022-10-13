@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import ContentOutside from '../../public/examples/accordionNew/ContentOutside';
 import Default from '../../public/examples/accordionNew/Default';
@@ -17,15 +17,7 @@ const PageAccordion = () => {
   return (
     <>
       <ComponentPageDescription title="Accordion">
-        <p className="font-medium">
-          NB! The component is depricated. Please use our{' '}
-          <Link href="/core/accordion">
-            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
-              new Accordion
-            </a>
-          </Link>{' '}
-          built with Tailwind.
-        </p>
+        <DeprecationWarning href="/core/accordion" name="Accordion" />
         <p>
           Like the accordion instrument, our accordion component reveals or
           hides associated sections of content. This is done through the use of

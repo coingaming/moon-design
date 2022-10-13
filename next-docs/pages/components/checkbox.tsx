@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/checkbox/Checked';
 import Default from '../../public/examples/checkbox/Default';
@@ -14,15 +14,7 @@ const PageAccordion = () => {
   return (
     <>
       <ComponentPageDescription title="Checkbox">
-        <p className="font-medium">
-          NB! The component is depricated. Please use our{' '}
-          <Link href="/core/checkbox">
-            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
-              new Checkbox
-            </a>
-          </Link>{' '}
-          built with Tailwind.
-        </p>
+        <DeprecationWarning href="/core/checkbox" name="Checkbox" />
         <p>
           Checkboxes are used as a list in our forms and signup pages so users
           can select options of their choice. Users are free to choose how many

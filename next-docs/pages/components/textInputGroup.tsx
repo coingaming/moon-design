@@ -1,7 +1,7 @@
 import React from 'react';
-import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import AccessValues from '../../public/examples/textInputGroup/AccessValues';
 import Combined from '../../public/examples/textInputGroup/Combined';
@@ -21,15 +21,10 @@ const PageTextInputGroup = () => {
   return (
     <>
       <ComponentPageDescription title="TextInput Group">
-        <p className="font-medium">
-          NB! The component is depricated. Please use our{' '}
-          <Link href="/core/textInputGroup">
-            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
-              new TextInput Group
-            </a>
-          </Link>{' '}
-          built with Tailwind.
-        </p>
+        <DeprecationWarning
+          href="/core/textInputGroup"
+          name="TextInput Group"
+        />
         <p>The TextInputGroup component lives in 2 different packages:</p>
         <p>
           Text type - <em>@heathmont/moon-core</em>

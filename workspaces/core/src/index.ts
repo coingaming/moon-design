@@ -18,6 +18,8 @@ export { default as Label } from './label/Label';
 export * from './label/Label';
 export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
+export { default as MenuItem } from './menuItem/MenuItem';
+export * from './menuItem/MenuItem';
 export { default as RadioButton } from './radioButton/RadioButton';
 export * from './radioButton/RadioButton';
 export { default as Select } from './select/Select';

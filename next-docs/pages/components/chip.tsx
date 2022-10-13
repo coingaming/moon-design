@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chip/Active';
 import Icons from '../../public/examples/chip/Icons';
@@ -14,15 +14,7 @@ const PageChip = () => {
   return (
     <>
       <ComponentPageDescription title="Chip">
-        <p className="font-medium">
-          NB! The component is depricated. Please use our{' '}
-          <Link href="/core/chip">
-            <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
-              new Chip
-            </a>
-          </Link>{' '}
-          built with Tailwind.
-        </p>
+        <DeprecationWarning href="/core/chip" name="Chip" />
         <p>
           Chips are compact little units that represent actions, filters or
           choices. When shown, they allow users to prompt actions, filter
