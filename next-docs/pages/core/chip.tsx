@@ -2,6 +2,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chipTW/Active';
+import AsLink from '../../public/examples/chipTW/AsLink';
 import Default from '../../public/examples/chipTW/Default';
 import Icons from '../../public/examples/chipTW/Icons';
 import IsStroke from '../../public/examples/chipTW/IsStroke';
@@ -39,6 +40,11 @@ const Example = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Chip as a link HTML element"
+        preview={<AsLink />}
+        code={examples ? examples.AsLink : 'Loading'}
       />
       <Preview
         title="Sizes"
