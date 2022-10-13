@@ -37,7 +37,6 @@ const renderRows = ({
   const [hoveredRow, setHoveredRow] = useState('');
   const [selectedRows, setSelectedRows] = useState<{ [key: string]: boolean}>({});
 
-
   if (!rows) return;
 
   return rows.map(
