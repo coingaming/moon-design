@@ -72,8 +72,8 @@ const Example = () => {
             backgroundColor={backgroundColor}
             isExpanded
           >
-            <TD {...row.getRowProps()} >
-              <p className='text-center'>Custom content</p>
+            <TD style={{ width: '100%', textAlign: 'center' }}>
+              Custom content
             </TD>
           </BodyTR>
         );
