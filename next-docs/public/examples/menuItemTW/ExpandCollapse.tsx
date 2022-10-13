@@ -70,7 +70,9 @@ const Example = () => {
           <MenuItem.Title><p className="leading-6 text-moon-14 font-semibold">Bitcasino</p></MenuItem.Title>
          </MenuItem>
         <MenuItem>
-          <ControlsChevronDown className="w-6 " color="trunks" onClick={() => setIsOpen(!isOpen)} />
+          {isOpen ?
+            <ControlsChevronUp onClick={() => setIsOpen(!isOpen)} />
+          : <ControlsChevronDown onClick={() => setIsOpen(!isOpen)} />}
           <span className='bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center' >
           <p className='leading-4 font-semibold text-moon-10'>CX</p>
           </span>
