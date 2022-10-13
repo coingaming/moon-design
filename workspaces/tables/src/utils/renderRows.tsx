@@ -20,7 +20,7 @@ type RenderRowsProps<D extends object = {}> = {
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
   selectable?: boolean;
   useCheckbox?: boolean;
-  
+
 };
 
 const renderRows = ({
@@ -35,17 +35,17 @@ const renderRows = ({
   useCheckbox,
 }: RenderRowsProps) => {
   const [hoveredRow, setHoveredRow] = useState('');
-  const [isSelected, setSelected] = useState(false);
-  
+  const [selectedRows, setSelectedRows] = useState<{ [key: string]: boolean}>({});
+
   if (!rows) return;
 
   return rows.map(
     (
      row: Row<{
-        isSelected?: boolean;
-        backgroundColor?: string;
-        fontColor?: string;
-      }>,
+      isSelected?: boolean;
+      backgroundColor?: string;
+      fontColor?: string;
+     }>,
      index: number
     ) => {
       prepareRow(row);
@@ -53,8 +53,7 @@ const renderRows = ({
       const rowId = row.id ? row.id.split('.') : [];
       const nextRow = rows[index + 1];
       const nextRowItem = nextRow as Row;
-      const nextRowId =
-        nextRowItem && nextRowItem.id ? nextRowItem.id.split('.') : [];
+      const nextRowId = nextRowItem && nextRowItem.id ? nextRowItem.id.split('.') : [];
       const mainRowIndex = Number(rowId[0]);
       const backgroundColor = row.original?.backgroundColor
         ? row.original?.backgroundColor
@@ -77,18 +76,19 @@ const renderRows = ({
             ? getOnRowSelectHandler(row)
             : undefined;
           if (selectHandlerInvoked) selectHandlerInvoked(row);
-          setSelected(!isSelected);
+          setSelectedRows({
+            ...selectedRows,
+            [`${row.id}-${rowProps.key}`]: !selectedRows[`${row.id}-${rowProps.key}`]
+          });
         };
 
         if (!selectable && getOnRowClickHandler) {
           return invokeClickHandler();
         }
 
-        return getOnRowSelectHandler
-          ? invokeSelectHandler()
-          : getOnRowClickHandler
-          ? invokeClickHandler()
-          : undefined;
+        return getOnRowSelectHandler ?
+          invokeSelectHandler() : getOnRowClickHandler ?
+            invokeClickHandler() : undefined;
       };
 
       return (
@@ -101,7 +101,7 @@ const renderRows = ({
             hasParent={!!expandedRow.depth}
             isLastNestedRow={isLastNestedRow}
             isLastRow={isLastRow}
-            isSelected={isSelected}
+            isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
             isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
             customBackground={!!row.original?.backgroundColor}
             backgroundColor={backgroundColor}
@@ -113,7 +113,7 @@ const renderRows = ({
                 : undefined
             }
             onClick={() => resolveRowClick()}
-            
+
           >
             {useCheckbox && (
               <TD
@@ -124,7 +124,7 @@ const renderRows = ({
                 customBackground={!!row.original?.backgroundColor}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
-                isSelected={isSelected}
+                isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
                 isFirstColumn={true}
                 isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
                 // @ts-ignore
@@ -133,7 +133,7 @@ const renderRows = ({
                 <CheckboxTD>
                   <Checkbox
                     id={row.id}
-                    checked={isSelected}
+                    checked={selectedRows[`${row.id}-${rowProps.key}`]}
                     onClick={(e: any) => e.stopPropagation()}
                   />
                 </CheckboxTD>
@@ -147,7 +147,7 @@ const renderRows = ({
                 stickySide={cell?.column?.parent?.sticky}
                 isFirstColumn={!useCheckbox && index === 0}
                 isLastColumn={index === row.cells.length - 1}
-                isSelected={isSelected}
+                isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
                 isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
                 customBackground={!!row.original?.backgroundColor}
                 backgroundColor={backgroundColor}
@@ -161,14 +161,14 @@ const renderRows = ({
           {expandedRow.isExpanded && !!renderRowSubComponent
             ? renderRowSubComponent({ row, backgroundColor })
             : null}
-          
+
         </Fragment>
       );
-      
+
     }
-    
+
   );
-  
+
 };
 
 export default renderRows;
