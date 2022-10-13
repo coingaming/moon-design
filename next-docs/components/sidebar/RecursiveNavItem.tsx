@@ -17,7 +17,7 @@ const RecursiveNavItem: React.FC<Props> = ({ item, pathname }) => {
   if (children) {
     return (
       <Accordion title={name} isContentInside={false}>
-        <div className="flex flex-col gap-2 ps-8">
+        <div className="flex flex-col items-start gap-2 ps-8">
           {children.map((subItem: ItemType) => (
             <RecursiveNavItem
               key={subItem.name}
