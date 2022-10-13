@@ -17,7 +17,10 @@ const Sidebar = () => {
       <div>
         <SearchButton />
       </div>
-      <nav className="flex-grow flex flex-col gap-2" aria-label="Sidebar">
+      <nav
+        className="flex-grow flex flex-col items-start gap-2"
+        aria-label="Sidebar"
+      >
         {navigation.map((item) => (
           <RecursiveNavItem
             key={item.name}
