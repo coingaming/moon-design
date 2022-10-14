@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.9.0
+
+### Minor Changes
+
+- Bump to 9.9.1
+
 ## 9.8.1
 
 ### Patch Changes
