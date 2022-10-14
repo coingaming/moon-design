@@ -1,61 +1,47 @@
+import { Table } from '@heathmont/moon-table-tw';
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
 
 const Example = () => {
   const columnsInitial = [
     {
       Header: 'Name',
       sticky: 'left',
-      Footer: 'Name footer',
       columns: [
         {
           Header: 'First Name',
           accessor: 'firstName',
-          Footer: '',
         },
         {
           Header: 'Last Name',
           accessor: 'lastName',
-          Footer: '',
         },
       ],
     },
     {
       Header: 'Info',
-      Footer: 'Info footer',
       columns: [
         {
           Header: 'Age',
           accessor: 'age',
           width: 50,
-          Footer: '',
         },
         {
           Header: 'Visits',
           accessor: 'visits',
-          Footer: '',
         },
         {
           Header: 'Activity',
           accessor: 'activity',
-          Footer: '',
-        },
-        {
-          Header: 'Status',
-          width: 60,
-          accessor: 'status',
-          Footer: '',
         },
       ],
     },
     {
       Header: 'Progress',
       sticky: 'right',
-      Footer: 'Progress footer',
       columns: [
         {
           Header: 'Profile Progress',
-          Footer: '',
+          Footer: 'Profile Progress',
           accessor: 'progress',
         },
       ],
@@ -78,7 +64,7 @@ const Example = () => {
 
   const defaultColumn = React.useMemo(
     () => ({
-      minWidth: 150,
+      minWidth: 100,
       width: 150,
       maxWidth: 400,
     }),
@@ -86,7 +72,7 @@ const Example = () => {
   );
 
   const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(40), []);
+  const data = React.useMemo(() => makeData(20), []);
 
   return (
     <Table
@@ -95,7 +81,7 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      withFooter={true}
+      withMinimap
     />
   );
 };

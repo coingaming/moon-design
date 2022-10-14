@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
+import { Table } from '@heathmont/moon-table-tw';
 
 const Example = () => {
   const columnsInitial = [
@@ -72,13 +72,14 @@ const Example = () => {
         progress: <span>{Math.floor(index * 100)}</span>,
         status: Math.floor(index * 100),
         activity: Math.floor(index * 100),
+        isSelected: index === 3
       };
     });
   };
 
   const defaultColumn = React.useMemo(
     () => ({
-      minWidth: 150,
+      minWidth: 100,
       width: 150,
       maxWidth: 400,
     }),
@@ -96,6 +97,11 @@ const Example = () => {
       width={800}
       height={400}
       withFooter={true}
+      selectable={true}
+      useCheckbox={true}
+      getOnRowSelect={() => (rows: any) => {
+        console.log(`IDs of selected rows - ${rows.map((row: any) => row.id)}`);
+      }}
     />
   );
 };

@@ -1,61 +1,84 @@
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
+import { Table } from '@heathmont/moon-table-tw';
+import { BodyTR } from '@heathmont/moon-table-tw';
+import { TD } from '@heathmont/moon-table-tw';
+
+interface HeaderProps {
+  isAllRowsExpanded: boolean;
+  getToggleAllRowsExpandedProps: () => React.HTMLAttributes<HTMLSpanElement>;
+}
 
 const Example = () => {
   const columnsInitial = [
     {
+      Header: 'Expand',
+      sticky: 'left',
+      columns: [
+        {
+          id: 'expander',
+          Header: ({
+            getToggleAllRowsExpandedProps,
+            isAllRowsExpanded,
+          }: HeaderProps) => (
+            <span {...getToggleAllRowsExpandedProps()}>
+              {isAllRowsExpanded ? '👇' : '👉'}
+            </span>
+          ),
+          Cell: ({ row }: any) =>
+            row.canExpand ? (
+              <span
+                {...row.getToggleRowExpandedProps({
+                  style: {
+                    paddingLeft: `${row.depth * 2}rem`,
+                  },
+                })}
+              >
+                {row.isExpanded ? '👇' : '👉'}
+              </span>
+            ) : null,
+        },
+      ],
+    },
+    {
       Header: 'Name',
       sticky: 'left',
-      Footer: 'Name footer',
       columns: [
         {
           Header: 'First Name',
           accessor: 'firstName',
-          Footer: '',
-        },
-        {
-          Header: 'Last Name',
-          accessor: 'lastName',
-          Footer: '',
         },
       ],
     },
     {
       Header: 'Info',
-      Footer: 'Info footer',
       columns: [
         {
           Header: 'Age',
           accessor: 'age',
           width: 50,
-          Footer: '',
         },
         {
           Header: 'Visits',
           accessor: 'visits',
-          Footer: '',
         },
         {
           Header: 'Activity',
           accessor: 'activity',
-          Footer: '',
         },
         {
           Header: 'Status',
           width: 60,
           accessor: 'status',
-          Footer: '',
         },
       ],
     },
     {
       Header: 'Progress',
       sticky: 'right',
-      Footer: 'Progress footer',
       columns: [
         {
           Header: 'Profile Progress',
-          Footer: '',
+          Footer: 'Profile Progress',
           accessor: 'progress',
         },
       ],
@@ -66,19 +89,28 @@ const Example = () => {
     return Array.from('_'.repeat(length)).map((_, index) => {
       return {
         firstName: 'Test',
-        lastName: 'Test',
         age: <span>{Math.floor(index * 30)}</span>,
         visits: <span>{Math.floor(index * 100)}</span>,
         progress: <span>{Math.floor(index * 100)}</span>,
         status: Math.floor(index * 100),
         activity: Math.floor(index * 100),
+        subRows: [
+          {
+            firstName: 'Sub Test',
+            age: <span>{Math.floor(index * 30)}</span>,
+            visits: <span>{Math.floor(index * 100)}</span>,
+            progress: <span>{Math.floor(index * 100)}</span>,
+            status: Math.floor(index * 100),
+            activity: Math.floor(index * 100),
+          },
+        ],
       };
     });
   };
 
   const defaultColumn = React.useMemo(
     () => ({
-      minWidth: 150,
+      minWidth: 100,
       width: 150,
       maxWidth: 400,
     }),
@@ -95,7 +127,9 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      withFooter={true}
+      defaultRowBackgroundColor="gohan"
+      evenRowBackgroundColor="trunks"
+      isExpanded
     />
   );
 };

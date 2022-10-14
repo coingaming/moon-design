@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
+import { Table } from '@heathmont/moon-table-tw';
 
 const Example = () => {
   const columnsInitial = [
@@ -40,12 +40,6 @@ const Example = () => {
           accessor: 'activity',
           Footer: '',
         },
-        {
-          Header: 'Status',
-          width: 60,
-          accessor: 'status',
-          Footer: '',
-        },
       ],
     },
     {
@@ -72,6 +66,8 @@ const Example = () => {
         progress: <span>{Math.floor(index * 100)}</span>,
         status: Math.floor(index * 100),
         activity: Math.floor(index * 100),
+        backgroundColor: index === 1 ? 'beerus' : '',
+        fontColor: index === 0 ? 'piccolo' : index < 3 ? 'trunks' : '',
       };
     });
   };

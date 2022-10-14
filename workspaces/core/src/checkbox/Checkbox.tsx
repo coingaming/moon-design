@@ -1,4 +1,4 @@
-import React, { forwardRef, useCallback, useState } from 'react';
+import React, { forwardRef, useCallback, useEffect, useState } from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import classNames from '../private/utils/classnames';
 import inlineSvg from '../private/utils/inlineSvg/inlineSvg';
@@ -24,6 +24,11 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
     const markIcon = inlineSvg(
       <GenericCheckAlternative style={{ color: '#ffffff' }} />
     );
+
+    useEffect(() => {
+      if (typeof checked !== undefined && checked !== isChecked) setIsChecked(!!checked);
+    }, [checked]);
+
     return (
       <div
         className="inline-block"

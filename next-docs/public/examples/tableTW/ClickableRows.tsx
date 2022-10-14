@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
+import { Table } from '@heathmont/moon-table-tw';
 
 const Example = () => {
   const columnsInitial = [
@@ -78,7 +78,7 @@ const Example = () => {
 
   const defaultColumn = React.useMemo(
     () => ({
-      minWidth: 150,
+      minWidth: 100,
       width: 150,
       maxWidth: 400,
     }),
@@ -96,6 +96,9 @@ const Example = () => {
       width={800}
       height={400}
       withFooter={true}
+      getOnRowClickHandler={(row: { id: any }) => () => {
+        console.log(`You clicked row with ID - ${row.id}`);
+      }}
     />
   );
 };

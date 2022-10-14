@@ -1,6 +1,7 @@
+import { BodyTR } from '@heathmont/moon-table-tw';
+import { TD } from '@heathmont/moon-table-tw';
+import { Table } from '@heathmont/moon-table-tw';
 import React from 'react';
-import { BodyTR, Table, TD } from '@heathmont/moon-table';
-import styled from 'styled-components';
 
 const Example = () => {
   const columnsInitial = [
@@ -56,13 +57,13 @@ const Example = () => {
       height={400}
       defaultRowBackgroundColor="gohan.40"
       evenRowBackgroundColor="gohan.80"
-      getOnRowClickHandler={(row) => () => {
+      getOnRowClickHandler={(row: any) => () => {
         (row as any).depth === 0
           ? () => (row as any).toggleRowExpanded()
           : undefined;
       }}
       // @ts-ignore
-      renderRowSubComponent={({ row, backgroundColor}) => {
+      renderRowSubComponent={({ row, backgroundColor }) => {
         return (
           <BodyTR
             {...row.getRowProps()}
@@ -72,8 +73,8 @@ const Example = () => {
             backgroundColor={backgroundColor}
             isExpanded
           >
-            <TD style={{ width: '100%', textAlign: 'center' }}>
-              Custom content
+            <TD {...row.getRowProps()} isExpanded>
+              <p className='text-center'>Custom content</p>
             </TD>
           </BodyTR>
         );

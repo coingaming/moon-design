@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Checkbox } from '@heathmont/moon-core';
-import { ColorNames } from '@heathmont/moon-themes';
+import { Checkbox } from '@heathmont/moon-core-tw';
 import { Cell, Row } from 'react-table';
 import BodyTR from '../components/BodyTR';
 import CheckboxTD from '../components/CheckboxTD';
@@ -11,14 +10,14 @@ type RenderSpanRowsProps<D extends object = {}> = {
   rows: Row<D>[];
   prepareRow: (row: Row<D>) => void;
   rowSpanHeaders: RowSpanHeader[];
-  getOnRowClickHandler: (
+  getOnRowClickHandler?: (
     row: Row<D>
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
   getOnRowSelectHandler?: (
     row: Row<D>
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
-  evenRowBackgroundColor: ColorNames;
-  defaultRowBackgroundColor: ColorNames;
+  evenRowBackgroundColor: string;
+  defaultRowBackgroundColor: string;
   selectable?: boolean;
   useCheckbox?: boolean;
 };
@@ -35,16 +34,24 @@ const renderSpanRows = ({
   useCheckbox,
 }: RenderSpanRowsProps) => {
   if (!rows) return;
+  const [hoveredRow, setHoveredRow] = useState('');
+
   return rows.map(
     (
       row: Row<{
         isSelected?: boolean;
-        backgroundColor?: ColorNames;
-        fontColor?: ColorNames;
+        backgroundColor?: string;
+        fontColor?: string;
       }>,
       index: number
     ) => {
       prepareRow(row);
+      const rowProps = row.getRowProps();
+      const nextRow = rows[index + 1];
+      const nextRowItem = nextRow as Row;
+      const nextRowId =
+        nextRowItem && nextRowItem.id ? nextRowItem.id.split('.') : [];
+      const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
 
       const onRowClickHandler = getOnRowClickHandler
         ? getOnRowClickHandler(row)
@@ -71,11 +78,19 @@ const renderSpanRows = ({
       const [isSelected, setSelected] = useState(row.original?.isSelected);
 
       const makeCellForRowSpanned = (cell: Cell<{}>) => (
-        <TD {...cell.getCellProps()} />
+        <TD
+          reactTableProps={{ ...cell.getCellProps() }}
+          isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
+        />
       );
 
       const makeCellForNormalRow = (cell: Cell<{}>) => (
-        <TD {...cell.getCellProps()}>{cell.render('Cell')}</TD>
+        <TD
+          reactTableProps={{ ...cell.getCellProps() }}
+          isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
+        >
+          {cell.render('Cell')}
+        </TD>
       );
 
       return (
@@ -85,7 +100,9 @@ const renderSpanRows = ({
           customBackground={!!row.original?.backgroundColor}
           backgroundColor={backgroundColor}
           fontColor={fontColor}
+          isLastRow={isLastRow}
           isSelected={isSelected}
+          isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
           onClick={
             selectable
               ? onRowSelectHandler
@@ -100,13 +117,20 @@ const renderSpanRows = ({
               ? () => onRowClickHandler(row)
               : undefined
           }
+          onHoverToggle={
+            getOnRowClickHandler || getOnRowSelectHandler
+              ? (hover?: boolean) =>
+                  setHoveredRow(hover ? `${row.id}-${rowProps.key}` : '')
+              : undefined
+          }
         >
           {useCheckbox && (
             <TD selectable={true}>
               <CheckboxTD>
                 <Checkbox
+                  id={row.id}
                   checked={isSelected}
-                  onClick={(e: Event) => e.stopPropagation()}
+                  onClick={(e: any) => e.stopPropagation()}
                   onChange={() => {
                     setSelected(!isSelected);
 
@@ -116,7 +140,6 @@ const renderSpanRows = ({
               </CheckboxTD>
             </TD>
           )}
-
           {row.cells.map((cell: Cell<{}>) => {
             if (!rowSpanHeaders) return makeCellForNormalRow(cell);
 
