@@ -1,5 +1,6 @@
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Colors from '../../../public/examples/text/Colors';
 import FontWeight from '../../../public/examples/text/FontWeight';
@@ -16,6 +17,7 @@ const PageText = () => {
   return (
     <>
       <ComponentPageDescription title="Text">
+        <DeprecationWarning href="/core/typography" name="Typography" />
         <p>
           By default Text renders as Paragpaph tag with Bulma color, regular
           font-weight, and size of 16px.

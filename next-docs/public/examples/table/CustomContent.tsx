@@ -1,5 +1,6 @@
 import React from 'react';
 import { BodyTR, Table, TD } from '@heathmont/moon-table';
+import styled from 'styled-components';
 
 const Example = () => {
   const columnsInitial = [
@@ -60,7 +61,8 @@ const Example = () => {
           ? () => (row as any).toggleRowExpanded()
           : undefined;
       }}
-      renderRowSubComponent={({ row, backgroundColor }) => {
+      // @ts-ignore
+      renderRowSubComponent={({ row, backgroundColor}) => {
         return (
           <BodyTR
             {...row.getRowProps()}
@@ -68,6 +70,7 @@ const Example = () => {
             hasParent={true}
             isLastRow={true}
             backgroundColor={backgroundColor}
+            isExpanded
           >
             <TD style={{ width: '100%', textAlign: 'center' }}>
               Custom content

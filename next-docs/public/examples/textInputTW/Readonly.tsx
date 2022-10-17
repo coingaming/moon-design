@@ -13,15 +13,6 @@ const Example = () => (
     />
     <TextInput
       type="text"
-      inputSize="lg"
-      value="Read only text"
-      label="Large (lg)"
-      placeholder="Placeholder"
-      hintText="Informative message holder"
-      readOnly
-    />
-    <TextInput
-      type="text"
       inputSize="xl"
       value="Read only text"
       label="Xlarge (xl)"

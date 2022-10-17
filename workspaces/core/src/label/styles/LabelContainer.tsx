@@ -1,7 +1,7 @@
 import React from 'react';
 import classNames from '../../private/utils/classnames';
-import setFontSize from '../utils/setFontSize';
-import setSpacing from '../utils/setSpacing';
+import setFontSize from '../private/utils/setFontSize';
+import setSpacing from '../private/utils/setSpacing';
 import type LabelProps from '../private/types/LabelProps';
 
 const LabelContainer: React.FC<LabelProps> = ({

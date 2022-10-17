@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import TimeBgColor from '../../../public/examples/textInput/time/TimeBgColor';
 import TimeDisabled from '../../../public/examples/textInput/time/TimeDisabled';
@@ -17,6 +18,7 @@ export default function PageTimeInput() {
   return (
     <>
       <ComponentPageDescription title="Time">
+        <DeprecationWarning href="/core/textInput" name="TextInput" />
         <p>
           The TextInput wrapper component is used when you need to let users
           enter the text of some kind, such as their name or phone number etc.

@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/radiobutton/radiobutton/Checked';
 import Default from '../../public/examples/radiobutton/radiobutton/Default';
@@ -13,6 +14,7 @@ export default function RadioButtonPage() {
   return (
     <>
       <ComponentPageDescription title="RadioButton">
+        <DeprecationWarning href="/core/radiobutton" name="RadioButton" />
         <p>
           Radio buttons are used to represent a group or category of choices
           whereby users can only select one option - the main difference from

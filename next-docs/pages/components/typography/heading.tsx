@@ -1,5 +1,6 @@
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Colors from '../../../public/examples/heading/Colors';
 import FontWeight from '../../../public/examples/heading/FontWeight';
@@ -16,6 +17,7 @@ const PageHeading = () => {
   return (
     <>
       <ComponentPageDescription title="Heading">
+        <DeprecationWarning href="/core/typography" name="Typography" />
         <p>
           By default Heading renders as H3 tag with Bulma color, bold
           font-weight, and size of 16px.

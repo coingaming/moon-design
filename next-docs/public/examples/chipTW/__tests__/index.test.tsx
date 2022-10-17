@@ -9,6 +9,7 @@ import {
   ThemeProvider,
 } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
+import AsLink from '../AsLink';
 import Default from '../Default';
 import Sizes from '../Sizes';
 import Variants from '../Variants';
@@ -16,6 +17,7 @@ import Active from '../Active';
 import Icons from '../Icons';
 import IsStroke from '../IsStroke';
 import IsStrokeIcons from '../IsStrokeIcons';
+import OnClick from '../OnClick';
 
 const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -34,6 +36,11 @@ const renderWithDarkTheme = (component: JSX.Element) => (
 describe('Chip', () => {
   it('renders default', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders as link', () => {
+    const testRenderer = renderer.create(renderWithTheme(<AsLink />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
@@ -74,6 +81,11 @@ describe('Chip', () => {
 
   it('renders stroke with icons', () => {
     const testRenderer = renderer.create(renderWithTheme(<IsStrokeIcons />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders with onClick hangler', () => {
+    const testRenderer = renderer.create(renderWithTheme(<OnClick />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

@@ -2,10 +2,12 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chipTW/Active';
+import AsLink from '../../public/examples/chipTW/AsLink';
 import Default from '../../public/examples/chipTW/Default';
 import Icons from '../../public/examples/chipTW/Icons';
 import IsStroke from '../../public/examples/chipTW/IsStroke';
 import IsStrokeIcons from '../../public/examples/chipTW/IsStrokeIcons';
+import OnClick from '../../public/examples/chipTW/OnClick';
 import Sizes from '../../public/examples/chipTW/Sizes';
 import Variants from '../../public/examples/chipTW/Variants';
 import useExamples from '../../utils/useExamples';
@@ -40,6 +42,11 @@ const Example = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
+        title="Chip as a link HTML element"
+        preview={<AsLink />}
+        code={examples ? examples.AsLink : 'Loading'}
+      />
+      <Preview
         title="Sizes"
         preview={<Sizes />}
         code={examples ? examples.Sizes : 'Loading'}
@@ -68,6 +75,11 @@ const Example = () => {
         title="Is Stroke with Icons"
         preview={<IsStrokeIcons />}
         code={examples ? examples.IsStrokeIcons : 'Loading'}
+      />
+      <Preview
+        title="With onClick"
+        preview={<OnClick />}
+        code={examples ? examples.OnClick : 'Loading'}
       />
       <PropsTable
         title="Chip props"
@@ -120,6 +132,14 @@ const Example = () => {
             required: false,
             default: 'default',
             description: 'Visual/Logical variant of chip',
+          },
+          {
+            name: 'onClick',
+            type: '() => void',
+            required: false,
+            default: 'default',
+            description:
+              'The onClick event occurs when the user clicks on an component.',
           },
         ]}
       />

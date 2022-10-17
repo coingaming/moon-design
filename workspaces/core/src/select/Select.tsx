@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Listbox } from '@headlessui/react';
+import { usePopper } from 'react-popper';
 import classNames from '../private/utils/classnames';
 import HintText from './private/HintText';
 import InputBtn from './private/InputBtn';
@@ -41,6 +42,16 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
   ...rest
 }) => {
   const [option, setOption] = useState<BaseOptionType | undefined>(value);
+  const referenceElement = useRef(null);
+  const popperElement = useRef(null);
+  let { styles, attributes } = usePopper(
+    referenceElement.current,
+    popperElement.current,
+    {
+      placement: 'bottom-start',
+    }
+  );
+
   const onChangeHandler = (data?: BaseOptionType) => {
     if (onChange) {
       onChange(data);
@@ -76,50 +87,58 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
                 {label}
               </Listbox.Label>
             )}
-
-            <InputBtn
-              size={size}
-              isError={isError}
-              disabled={disabled}
-              open={open}
-              {...rest}
-            >
-              <div className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
-                {label && size === 'xl' && (
-                  <Listbox.Label className="block text-moon-12 text-trunks">
-                    {label}
-                  </Listbox.Label>
-                )}
-                {option ? (
-                  <span
-                    className={classNames(
-                      size === 'sm' ? 'text-moon-14' : 'text-moon-16',
-                      'text-bulma'
-                    )}
-                  >
-                    {(formatOptionLabel && formatOptionLabel(option)) ||
-                      option?.label}
-                  </span>
-                ) : placeholder ? (
-                  <span
-                    className={classNames(
-                      size === 'sm' ? 'text-moon-14' : 'text-moon-16',
-                      'text-trunks'
-                    )}
-                  >
-                    {placeholder}
-                  </span>
-                ) : (
-                  ''
-                )}
-              </div>
-            </InputBtn>
+            <div ref={referenceElement}>
+              <InputBtn
+                size={size}
+                isError={isError}
+                disabled={disabled}
+                open={open}
+                {...rest}
+              >
+                <div className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
+                  {label && size === 'xl' && (
+                    <Listbox.Label className="block text-moon-12 text-trunks">
+                      {label}
+                    </Listbox.Label>
+                  )}
+                  {option ? (
+                    <span
+                      className={classNames(
+                        size === 'sm' ? 'text-moon-14' : 'text-moon-16',
+                        'text-bulma'
+                      )}
+                    >
+                      {(formatOptionLabel && formatOptionLabel(option)) ||
+                        option?.label}
+                    </span>
+                  ) : placeholder ? (
+                    <span
+                      className={classNames(
+                        size === 'sm' ? 'text-moon-14' : 'text-moon-16',
+                        'text-trunks'
+                      )}
+                    >
+                      {placeholder}
+                    </span>
+                  ) : (
+                    ''
+                  )}
+                </div>
+              </InputBtn>
+            </div>
             {options && (
-              <Options
-                options={options}
-                formatOptionLabel={formatOptionLabel}
-                menuWidth={menuWidth}
-              />
+              <div
+                ref={popperElement}
+                style={styles.popper}
+                {...attributes.popper}
+                className="z-5 relative"
+              >
+                <Options
+                  options={options}
+                  formatOptionLabel={formatOptionLabel}
+                  menuWidth={menuWidth}
+                />
+              </div>
             )}
           </div>
           {hintText && <HintText isError={isError}>{hintText}</HintText>}

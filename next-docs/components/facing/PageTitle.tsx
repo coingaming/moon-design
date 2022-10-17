@@ -10,9 +10,9 @@ const PageTitle = () => (
     </p>
     <p className="flex items-center gap-2 text-moon-16 max-w-screen-sm font-medium">
       <span>Try out Moon DS for </span>
-      <a href="https://surface.moon.io/" target="_blank">
-        <Button size="sm">Elixir</Button>
-      </a>
+      <Button as="a" href="https://surface.moon.io/" target="_blank" size="sm">
+        Elixir
+      </Button>
     </p>
   </div>
 );

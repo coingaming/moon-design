@@ -78,7 +78,7 @@ const Example = () => {
 
   const defaultColumn = React.useMemo(
     () => ({
-      minWidth: 100,
+      minWidth: 150,
       width: 150,
       maxWidth: 400,
     }),

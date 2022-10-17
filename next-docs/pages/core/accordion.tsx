@@ -44,7 +44,7 @@ const Example = () => {
         code={examples ? examples.WithoutButton : 'Loading'}
       />
       <Preview
-        title="Disable open"
+        title="Disabled"
         preview={<Disabled />}
         code={examples ? examples.Disabled : 'Loading'}
       />
@@ -84,11 +84,11 @@ const Example = () => {
             description: 'Alters background colour of accordion',
           },
           {
-            name: 'disableOpen',
+            name: 'disabled',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Disables expand/collapse accordion',
+            description: 'Disables accordion',
           },
           {
             name: 'headerContent',

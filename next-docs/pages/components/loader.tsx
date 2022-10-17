@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/examples/loader/Colours';
 import Default from '../../public/examples/loader/Default';
@@ -11,6 +12,7 @@ const PageLoader = () => {
   return (
     <>
       <ComponentPageDescription title="Loader">
+        <DeprecationWarning href="/core/loader" name="Loader" />
         <p>
           Fondly nicknamed “the launcher”, the Loader ensures users that
           progress is happening so they don't give up and leave the rocket page.
