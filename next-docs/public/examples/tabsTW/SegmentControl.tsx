@@ -40,7 +40,7 @@ const Example = () => {
                     <button
                       className={
                         selected
-                          ? 'bg-gohan text-bulma rounded-moon-s-sm px-3 py-2 focus:border-none shadow-sm '
+                          ? 'bg-gohan text-bulma rounded-moon-s-sm px-3 py-2 focus:border-none shadow-sm'
                           : 'text-bulma px-3 py-2'
                       }
                     >
