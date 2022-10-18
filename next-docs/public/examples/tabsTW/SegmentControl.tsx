@@ -39,9 +39,9 @@ const Example = () => {
                   {({ selected }) => (
                     <button
                       className={
-                        selected
-                          ? 'bg-gohan text-bulma rounded-moon-s-sm px-3 py-2 focus:border-none shadow-sm'
-                          : 'text-bulma px-3 py-2'
+                        selected ?
+                          'bg-gohan text-bulma rounded-moon-s-sm px-3 py-2 focus:border-none shadow-sm' :
+                          'text-bulma px-3 py-2'
                       }
                     >
                       <span className="leading-6 self-left"> {item} </span>
