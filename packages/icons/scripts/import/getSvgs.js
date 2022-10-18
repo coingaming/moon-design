@@ -7,7 +7,6 @@ const filterByPage = (pageFilter) => (data) => {
   if (typeof pageFilter === 'string') {
     return filter((page) => page.name === pageFilter)(pagesList);
   }
-
   return filter(pageFilter)(pagesList);
 };
 
