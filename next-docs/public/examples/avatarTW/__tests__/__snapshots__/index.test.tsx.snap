@@ -32,7 +32,7 @@ Array [
     className="relative"
   >
     <div
-      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-goten bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-goten bg-piccolo h-10 w-10 text-moon-14 rounded-moon-i-sm"
       style={
         Object {
           "backgroundImage": "url('')",
@@ -58,7 +58,7 @@ Array [
     className="relative"
   >
     <div
-      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-goten bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-goten bg-chiChi h-10 w-10 text-moon-14 rounded-moon-i-sm"
       style={
         Object {
           "backgroundImage": "url('')",
