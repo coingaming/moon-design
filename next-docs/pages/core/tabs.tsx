@@ -1,7 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import SegmentControl from '../../public/examples/tabsTW/segmentControl';
+import SegmentControl from '../../public/examples/tabsTW/SegmentControl';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -19,7 +19,7 @@ const Example = () => {
       </ComponentPageDescription>
       <Preview
         title="Segment control"
-        preview={<SegmentControl/>}
+        preview={<SegmentControl />}
         code={examples ? examples.SegmentControl : 'Loading'}
       />
     </>
