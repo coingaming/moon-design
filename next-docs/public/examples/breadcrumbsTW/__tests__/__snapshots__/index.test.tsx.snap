@@ -45,6 +45,7 @@ exports[`Breadcrumb renders collapsed 1`] = `
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
+        type="button"
       >
         <svg
           className="text-moon-16"
@@ -60,8 +61,8 @@ exports[`Breadcrumb renders collapsed 1`] = `
             strokeLinecap="round"
           />
         </svg>
-        <div
-          className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        <span
+          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
         />
       </button>
     </li>

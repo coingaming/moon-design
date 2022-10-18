@@ -46,11 +46,9 @@ exports[`Multi Select options content 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-16-listbox"
             aria-describedby="react-select-16-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-16-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -134,11 +132,9 @@ exports[`Multi Select options content 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-17-listbox"
             aria-describedby="react-select-17-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-17-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -229,11 +225,9 @@ exports[`Multi Select options wrapper width 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-14-listbox"
             aria-describedby="react-select-14-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-14-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -317,11 +311,9 @@ exports[`Multi Select options wrapper width 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-15-listbox"
             aria-describedby="react-select-15-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-15-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -412,11 +404,9 @@ exports[`Multi Select renders disabled 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-8-listbox"
             aria-describedby="react-select-8-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-8-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={true}
@@ -500,11 +490,9 @@ exports[`Multi Select renders disabled 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-9-listbox"
             aria-describedby="react-select-9-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-9-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={true}
@@ -598,11 +586,9 @@ exports[`Multi Select renders error 1`] = `
             </div>
             <input
               aria-autocomplete="list"
-              aria-controls="react-select-10-listbox"
               aria-describedby="react-select-10-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
-              aria-owns="react-select-10-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -695,11 +681,9 @@ exports[`Multi Select renders error 1`] = `
             </div>
             <input
               aria-autocomplete="list"
-              aria-controls="react-select-11-listbox"
               aria-describedby="react-select-11-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
-              aria-owns="react-select-11-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -799,11 +783,9 @@ exports[`Multi Select renders with hint 1`] = `
             </div>
             <input
               aria-autocomplete="list"
-              aria-controls="react-select-6-listbox"
               aria-describedby="react-select-6-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
-              aria-owns="react-select-6-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -896,11 +878,9 @@ exports[`Multi Select renders with hint 1`] = `
             </div>
             <input
               aria-autocomplete="list"
-              aria-controls="react-select-7-listbox"
               aria-describedby="react-select-7-placeholder"
               aria-expanded={false}
               aria-haspopup={true}
-              aria-owns="react-select-7-listbox"
               aria-readonly={true}
               className="css-mohuvp-dummyInput-DummyInput"
               disabled={false}
@@ -997,11 +977,9 @@ exports[`Multi Select renders with label 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-2-listbox"
             aria-describedby="react-select-2-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-2-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -1085,11 +1063,9 @@ exports[`Multi Select renders with label 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-3-listbox"
             aria-describedby="react-select-3-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-3-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -1175,11 +1151,9 @@ exports[`Multi Select renders without label 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-4-listbox"
             aria-describedby="react-select-4-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-4-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -1261,11 +1235,9 @@ exports[`Multi Select renders without label 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-5-listbox"
             aria-describedby="react-select-5-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-5-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -1356,11 +1328,9 @@ exports[`Multi Select with counter 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-12-listbox"
             aria-describedby="react-select-12-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-12-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
@@ -1444,11 +1414,9 @@ exports[`Multi Select with counter 1`] = `
           </div>
           <input
             aria-autocomplete="list"
-            aria-controls="react-select-13-listbox"
             aria-describedby="react-select-13-placeholder"
             aria-expanded={false}
             aria-haspopup={true}
-            aria-owns="react-select-13-listbox"
             aria-readonly={true}
             className="css-mohuvp-dummyInput-DummyInput"
             disabled={false}
