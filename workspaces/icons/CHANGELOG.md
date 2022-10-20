@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.10.0
+
+### Minor Changes
+
+- Add Table component
+
 ## 9.9.0
 
 ### Minor Changes

@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.10.0
+
+### Minor Changes
+
+- Add Table component
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.10.0
+
 ## 9.9.0
 
 ### Minor Changes

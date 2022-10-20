@@ -21,6 +21,7 @@ const navigation = [
       { name: 'Icons', href: '/core/icons' },
       { name: 'Label', href: '/core/label' },
       { name: 'Loader', href: '/core/loader' },
+      { name: 'Menu item', href: '/core/menuItem' },
       { name: 'Radio button', href: '/core/radiobutton' },
       { name: 'Select', href: '/core/select' },
       { name: 'Switch', href: '/core/switch' },
