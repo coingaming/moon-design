@@ -101,49 +101,14 @@ const Example = () => {
         code={examples ? examples.Calendar : 'Loading'}
       />
       <PropsTable
-        title="Props"
+        title="Table props"
         data={[
           {
-            name: 'width',
-            type: 'string | number',
+            name: 'getOnRowClickHandler',
+            type: 'function',
             required: false,
             default: '-',
-            description: 'Width of the table',
-          },
-          {
-            name: 'height',
-            type: 'string | number',
-            required: false,
-            default: '-',
-            description: 'Height of the table',
-          },
-          {
-            name: 'maxWidth',
-            type: 'string | number',
-            required: false,
-            default: '-',
-            description: 'Max width of the table',
-          },
-          {
-            name: 'maxHeight',
-            type: 'string | number',
-            required: false,
-            default: '-',
-            description: 'Max height of the table',
-          },
-          {
-            name: 'withFooter',
-            type: 'boolean',
-            required: false,
-            default: '-',
-            description: 'Display table footer',
-          },
-          {
-            name: 'selectable',
-            type: 'boolean',
-            required: false,
-            default: '-',
-            description: 'Allow rows to be selected',
+            description: 'Callback on clicked row',
           },
           {
             name: 'getOnRowSelect',
@@ -153,11 +118,46 @@ const Example = () => {
             description: 'Callback on selected row',
           },
           {
-            name: 'getOnRowClickHandler',
-            type: 'function',
+            name: 'height',
+            type: 'string | number',
             required: false,
             default: '-',
-            description: 'Callback on clicked row',
+            description: 'Height of the table',
+          },
+          {
+            name: 'maxHeight',
+            type: 'string | number',
+            required: false,
+            default: '-',
+            description: 'Max height of the table',
+          },
+          {
+            name: 'maxWidth',
+            type: 'string | number',
+            required: false,
+            default: '-',
+            description: 'Max width of the table',
+          },
+          {
+            name: 'selectable',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Allow rows to be selected',
+          },
+          {
+            name: 'width',
+            type: 'string | number',
+            required: false,
+            default: '-',
+            description: 'Width of the table',
+          },
+          {
+            name: 'withFooter',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Display table footer',
           },
         ]}
       />

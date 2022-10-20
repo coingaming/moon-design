@@ -1,4 +1,4 @@
-export type ChipSettingsProps = {
+type ChipProps = {
   isActive?: boolean;
   iconOnly?: JSX.Element | boolean;
   iconLeft?: JSX.Element | boolean;
@@ -6,11 +6,8 @@ export type ChipSettingsProps = {
   size?: 'sm' | 'md';
   isStroke?: boolean;
   variant?: 'default' | 'ghost';
-};
-
-type ChipProps<C extends React.ElementType> = {
-  as?: C;
   fullWidth?: boolean;
-} & ChipSettingsProps;
+  children?: JSX.Element;
+};
 
 export default ChipProps;

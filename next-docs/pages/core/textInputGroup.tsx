@@ -15,7 +15,7 @@ const Example = () => {
   const examples = useExamples('textInputGroupTW');
   return (
     <>
-      <ComponentPageDescription title="TextInput Group">
+      <ComponentPageDescription title="TextInputGroup">
         <p>
           Indeed, forms require input from all users, including astronauts. Text
           input fields help to gather both short and long-form information. The
@@ -65,7 +65,7 @@ const Example = () => {
         code={examples ? examples.AccessValues : 'Loading'}
       />
       <PropsTable
-        title="Props (Text types)"
+        title="TextInputGroup props"
         data={[
           {
             name: 'inputProps',
@@ -76,18 +76,18 @@ const Example = () => {
               'Props for the text input fields. See TextInput component',
           },
           {
-            name: 'orientation',
-            type: 'vertical | horizontal',
-            required: false,
-            default: 'horizontal',
-            description: 'How the fields are positioned with one another',
-          },
-          {
             name: 'isRtl',
             type: 'boolean',
             required: false,
             default: 'false',
             description: 'Text direction',
+          },
+          {
+            name: 'orientation',
+            type: 'vertical | horizontal',
+            required: false,
+            default: 'horizontal',
+            description: 'How the fields are positioned with one another',
           },
         ]}
       />

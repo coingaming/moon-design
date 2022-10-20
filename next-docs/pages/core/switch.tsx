@@ -61,22 +61,8 @@ const Example = () => {
         code={examplesCode ? examplesCode.DefaultCode : 'Loading'}
       />
       <PropsTable
-        title="Props"
+        title="Switch props"
         data={[
-          {
-            name: 'id',
-            type: 'string',
-            required: false,
-            default: '_',
-            description: `Unique element's identifier.`,
-          },
-          {
-            name: 'size',
-            type: '2xs | xs | sm',
-            required: false,
-            default: 'sm',
-            description: `The option's value.`,
-          },
           {
             name: 'checked',
             type: 'boolean',
@@ -85,11 +71,18 @@ const Example = () => {
             description: `Is switch checked/unchecked.`,
           },
           {
-            name: 'onChange',
-            type: '(data: boolean) => void',
+            name: 'disabled',
+            type: 'boolean',
             required: false,
-            default: '-',
-            description: `The function to call when the switch is toggled.`,
+            default: '_',
+            description: 'Set disabled/not disabled switch',
+          },
+          {
+            name: 'id',
+            type: 'string',
+            required: false,
+            default: '_',
+            description: `Unique element's identifier.`,
           },
           {
             name: 'name',
@@ -100,19 +93,18 @@ const Example = () => {
               'The name used when using this component inside a form.',
           },
           {
-            name: 'value',
+            name: 'offBgColor',
             type: 'string',
             required: false,
-            default: '-',
-            description:
-              'The value used when using this component inside a form, if it is checked.',
+            default: 'bg-beerus',
+            description: 'Tailwind class for custom off-state background color',
           },
           {
-            name: 'twWidth',
-            type: 'string',
+            name: 'offIcon',
+            type: 'JSX.Element | string',
             required: false,
-            default: '_',
-            description: 'Tailwind class for custom container width',
+            default: '-',
+            description: 'Set icon for unchecked state',
           },
           {
             name: 'onBgColor',
@@ -122,18 +114,11 @@ const Example = () => {
             description: 'Tailwind class for custom on-state background color',
           },
           {
-            name: 'offBgColor',
-            type: 'string',
+            name: 'onChange',
+            type: '(data: boolean) => void',
             required: false,
-            default: 'bg-beerus',
-            description: 'Tailwind class for custom off-state background color',
-          },
-          {
-            name: 'disabled',
-            type: 'boolean',
-            required: false,
-            default: '_',
-            description: 'Set disabled/not disabled switch',
+            default: '-',
+            description: `The function to call when the switch is toggled.`,
           },
           {
             name: 'onIcon',
@@ -143,11 +128,19 @@ const Example = () => {
             description: 'Set icon for checked state',
           },
           {
-            name: 'offIcon',
-            type: 'JSX.Element | string',
+            name: 'size',
+            type: '2xs | xs | sm',
+            required: false,
+            default: 'sm',
+            description: `The option's value.`,
+          },
+          {
+            name: 'value',
+            type: 'string',
             required: false,
             default: '-',
-            description: 'Set icon for unchecked state',
+            description:
+              'The value used when using this component inside a form, if it is checked.',
           },
         ]}
       />

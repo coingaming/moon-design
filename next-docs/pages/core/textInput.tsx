@@ -72,7 +72,7 @@ const Example = () => {
         code={examples ? examples.Bg : 'Loading'}
       />
       <Preview
-        title="Text Input types"
+        title="TextInput types"
         preview={<Types />}
         code={examples ? examples.Types : 'Loading'}
       />

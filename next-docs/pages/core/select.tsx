@@ -75,56 +75,15 @@ const Example = () => {
         code={examples ? examples.OptionsWidth : 'Loading'}
       />
       <PropsTable
-        title="Props"
+        title="Select props"
         data={[
           {
-            name: 'size',
-            type: 'sm | md | lg | xl',
-            required: false,
-            default: 'md',
-            description: `The option's value.`,
-          },
-          {
-            name: 'options',
-            type: 'Object[]',
-            required: true,
-            default: '-',
-            description: `List of options.`,
-          },
-          {
-            name: 'label',
-            type: 'JSX.Element | string',
-            required: false,
-            default: '-',
-            description: `Label title`,
-          },
-          {
-            name: 'placeholder',
-            type: 'JSX.Element | string',
-            required: false,
-            default: '-',
-            description: 'Placeholder',
-          },
-          {
-            name: 'value',
-            type: 'Object',
-            required: false,
-            default: '-',
-            description: 'Controled value',
-          },
-          {
-            name: 'onChange',
+            name: 'formatOptionLabel',
             type: 'funct',
             required: false,
             default: '-',
-            description: 'onChange event handler',
-          },
-          {
-            name: 'menuWidth',
-            type: 'string',
-            required: false,
-            default: '_',
-            description: 'Tailwind class for custom options container width',
+            description:
+              'Function to customize the list options (like rendering an element as JSX)',
           },
           {
             name: 'hintText',
@@ -134,13 +93,6 @@ const Example = () => {
             description: 'Inform message under select',
           },
           {
-            name: 'isError',
-            type: 'boolean',
-            required: false,
-            default: '_',
-            description: 'Set valid/not valid select',
-          },
-          {
             name: 'isDisabled',
             type: 'boolean',
             required: false,
@@ -148,12 +100,60 @@ const Example = () => {
             description: 'Set disabled/not disabled select',
           },
           {
-            name: 'formatOptionLabel',
+            name: 'isError',
+            type: 'boolean',
+            required: false,
+            default: '_',
+            description: 'Set valid/not valid select',
+          },
+          {
+            name: 'label',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: `Label title`,
+          },
+          {
+            name: 'menuWidth',
+            type: 'string',
+            required: false,
+            default: '_',
+            description: 'Tailwind class for custom options container width',
+          },
+          {
+            name: 'onChange',
             type: 'funct',
             required: false,
             default: '-',
-            description:
-              'Function to customize the list options (like rendering an element as JSX)',
+            description: 'onChange event handler',
+          },
+          {
+            name: 'options',
+            type: 'Object[]',
+            required: true,
+            default: '-',
+            description: `List of options.`,
+          },
+          {
+            name: 'placeholder',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Placeholder',
+          },
+          {
+            name: 'size',
+            type: 'sm | md | lg | xl',
+            required: false,
+            default: 'md',
+            description: `The option's value.`,
+          },
+          {
+            name: 'value',
+            type: 'Object',
+            required: false,
+            default: '-',
+            description: 'Controled value',
           },
         ]}
       />

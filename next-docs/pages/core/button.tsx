@@ -76,6 +76,13 @@ const Example = () => {
             description: 'Animation of button',
           },
           {
+            name: 'as',
+            type: 'a | button',
+            required: false,
+            default: 'button',
+            description: 'Rendered HTML element',
+          },
+          {
             name: 'disabled',
             type: 'boolean',
             required: false,
