@@ -110,7 +110,7 @@ const Table: React.FC<TableProps> = ({
       data,
       defaultColumn,
     },
-    ...plugins,
+    ...plugins
   ) as TableInstance<object> & {
     toggleAllRowsExpanded: (isExpanded?: boolean) => void;
     rowSpanHeaders: RowSpanHeader[];
@@ -248,45 +248,45 @@ const Table: React.FC<TableProps> = ({
       </Header>
 
       <Body reactTableProps={{ ...getTableBodyProps() }}>
-        {variant === 'calendar' ?
-          renderSpanRows({
-            rows,
-            prepareRow,
-            getOnRowClickHandler,
-            evenRowBackgroundColor,
-            defaultRowBackgroundColor,
-            rowSpanHeaders,
-            selectable,
-            useCheckbox,
-          }) :
-          renderRows({
-            rows,
-            prepareRow,
-            getOnRowClickHandler,
-            getOnRowSelectHandler: !selectable ?
-              undefined :
-              (row) => () => {
-                let alreadySelectedRows = [...selectedRows];
-                const alreadySelectedRow = alreadySelectedRows.filter(
-                  (selectedRow) => row.id === selectedRow.id
-                )[0];
+        {variant === 'calendar'
+          ? renderSpanRows({
+              rows,
+              prepareRow,
+              getOnRowClickHandler,
+              evenRowBackgroundColor,
+              defaultRowBackgroundColor,
+              rowSpanHeaders,
+              selectable,
+              useCheckbox,
+            })
+          : renderRows({
+              rows,
+              prepareRow,
+              getOnRowClickHandler,
+              getOnRowSelectHandler: !selectable
+                ? undefined
+                : (row) => () => {
+                    let alreadySelectedRows = [...selectedRows];
+                    const alreadySelectedRow = alreadySelectedRows.filter(
+                      (selectedRow) => row.id === selectedRow.id
+                    )[0];
 
-                if (alreadySelectedRow) {
-                  alreadySelectedRows = alreadySelectedRows.filter(
-                    (selectedRow) => row.id !== selectedRow.id
-                  );
-                } else {
-                  alreadySelectedRows.push(row);
-                }
+                    if (alreadySelectedRow) {
+                      alreadySelectedRows = alreadySelectedRows.filter(
+                        (selectedRow) => row.id !== selectedRow.id
+                      );
+                    } else {
+                      alreadySelectedRows.push(row);
+                    }
 
-                setSelectedRows(alreadySelectedRows);
-              },
-            evenRowBackgroundColor,
-            defaultRowBackgroundColor,
-            renderRowSubComponent,
-            selectable,
-            useCheckbox,
-        })}
+                    setSelectedRows(alreadySelectedRows);
+                  },
+              evenRowBackgroundColor,
+              defaultRowBackgroundColor,
+              renderRowSubComponent,
+              selectable,
+              useCheckbox,
+            })}
       </Body>
 
       {withFooter && (
