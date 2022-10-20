@@ -3,7 +3,8 @@ import React, {
   useCallback,
   useState,
   MutableRefObject,
-  ReactNode, CSSProperties,
+  ReactNode,
+  CSSProperties,
 } from 'react';
 import classNames from '../utils/classnames';
 
@@ -33,21 +34,26 @@ const Wrapper: React.FC<ClassesProps> = ({
     </div>
   );
 };
-const Grid: React.FC<ClassesProps> = ({children}) => {
+const Grid: React.FC<ClassesProps> = ({ children }) => {
   return (
-    <div style={{ gridAutoFlow: 'column' }} className='grid grid-flow-col h-full gap-1 relative'>
+    <div
+      style={{ gridAutoFlow: 'column' }}
+      className="grid grid-flow-col h-full gap-1 relative"
+    >
       {children}
     </div>
   );
 };
 const Viewport: React.FC<{ styles: CSSProperties }> = ({ styles }) => {
-  return (<div
-    style={styles}
-    className='absolute w-0 h-0 overflow-hidden rounded-moon-i-sm border-2'
-  />);
+  return (
+    <div
+      style={styles}
+      className="absolute w-0 h-0 overflow-hidden rounded-moon-i-sm border-2"
+    />
+  );
 };
-const Column: React.FC<ClassesProps> = ({children}) => {
-  return <div className='h-full w-2 bg-goku/80 rounded-sm'>{children}</div>;
+const Column: React.FC<ClassesProps> = ({ children }) => {
+  return <div className="h-full w-2 bg-goku/80 rounded-sm">{children}</div>;
 };
 
 type Props = {
@@ -59,11 +65,7 @@ type Props = {
 let timeoutId: ReturnType<typeof setTimeout>;
 const TIMEOUT = 150;
 
-const Minimap: React.FC<Props> = ({
-  tableRef,
-  footerRef,
-  numberOfColumns
-}) => {
+const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
   const [styles, setStyles] = useState({});
   const [visible, setVisible] = useState(false);
   const [footerHeight, setFooterHeight] = useState(0);
@@ -85,7 +87,7 @@ const Minimap: React.FC<Props> = ({
       width: `${(viewportWidth / fullWidth) * 100}%`,
       top: `${(scrollTop / fullHeight) * 100}%`,
       left: `${(scrollLeft / fullWidth) * 100}%`,
-      borderColor: 'rgb(var(--piccolo))'
+      borderColor: 'rgb(var(--piccolo))',
     });
 
     setVisible(true);
@@ -105,7 +107,7 @@ const Minimap: React.FC<Props> = ({
     const current = tableRef.current;
 
     handleUpdateViewport();
-    current.addEventListener('scroll', handleUpdateViewport, {passive: true});
+    current.addEventListener('scroll', handleUpdateViewport, { passive: true });
     return () => {
       current.removeEventListener('scroll', handleUpdateViewport);
       clearTimeout(timeoutId);
@@ -115,9 +117,9 @@ const Minimap: React.FC<Props> = ({
   return (
     <Wrapper visible={visible} offset={footerHeight}>
       <Grid>
-        <Viewport styles={styles}/>
+        <Viewport styles={styles} />
         {[...new Array(numberOfColumns)].map((_, index) => (
-          <Column key={index} children={''}/>
+          <Column key={index} children={''} />
         ))}
       </Grid>
     </Wrapper>
