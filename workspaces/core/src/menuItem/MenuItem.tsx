@@ -4,6 +4,7 @@ import classNames from '../private/utils/classnames';
 
 type MenuItemProps = {
   width?: string;
+  isSelected?: boolean;
   isActive?: boolean;
 };
 
@@ -15,11 +16,12 @@ type MenuItemComponentProps = <C extends React.ElementType = 'button'>(
 ) => React.ReactElement | null;
 
 type MenuItemState = {
+  selected?: boolean;
   active?: boolean;
 };
 
 type CheckboxRadioProps = {
-  isActive?: boolean;
+  isSelected?: boolean;
 };
 
 type MultiTitleProps = {
@@ -44,11 +46,19 @@ const useMenuItemContext = (component: string) => {
 
 const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
   <C extends React.ElementType = 'button'>(
-    { as, children, width, isActive, ...rest }: MenuItemPolymorphicProps<C>,
+    {
+      as,
+      children,
+      width,
+      isSelected,
+      isActive,
+      ...rest
+    }: MenuItemPolymorphicProps<C>,
     ref?: PolymorphicRef<C>
   ) => {
     const Component = as || 'button';
     const states = {
+      selected: isSelected,
       active: isActive,
     };
     return (
@@ -59,7 +69,7 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
             'flex gap-2 justify-between items-center p-2 bg-gohan rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus',
             'hover:bg-bulma/[0.08] transition',
             width ? width : 'w-full',
-            isActive && 'bg-bulma/[0.08]'
+            (isSelected || isActive) && 'bg-bulma/[0.08]'
           )}
           {...((!as || as === 'button') && { type: 'button' })}
           {...rest}
@@ -90,18 +100,18 @@ const MultiTitle: React.FC<MultiTitleProps> = ({ title, text }) => {
   );
 };
 
-const Radio: React.FC<CheckboxRadioProps> = ({ isActive }) => {
-  const { active = isActive } = useMenuItemContext('Menu.Items');
+const Radio: React.FC<CheckboxRadioProps> = ({ isSelected }) => {
+  const { selected = isSelected } = useMenuItemContext('Menu.Items');
   return (
     <span
       className={classNames(
         'block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] ',
-        active ? 'shadow-piccolo' : 'shadow-trunks'
+        selected ? 'shadow-piccolo' : 'shadow-trunks'
       )}
     >
       <span
         className={classNames(
-          active ? 'scale-100' : 'scale-0',
+          selected ? 'scale-100' : 'scale-0',
           'h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform'
         )}
       />
@@ -109,18 +119,18 @@ const Radio: React.FC<CheckboxRadioProps> = ({ isActive }) => {
   );
 };
 
-const Checkbox: React.FC<CheckboxRadioProps> = ({ isActive }) => {
-  const { active = isActive } = useMenuItemContext('Menu.Items');
+const Checkbox: React.FC<CheckboxRadioProps> = ({ isSelected }) => {
+  const { selected = isSelected } = useMenuItemContext('Menu.Items');
   return (
     <span
       className={classNames(
         'block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color]',
-        active
+        selected
           ? 'bg-piccolo shadow-none'
           : 'shadow-[0_0_0_1px_inset] shadow-trunks'
       )}
     >
-      {active && (
+      {selected && (
         <span className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
           <GenericCheckAlternative className="text-[1rem] text-goten" />
         </span>
