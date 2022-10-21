@@ -109,7 +109,7 @@ const Example = () => {
           },
           {
             name: 'inputSize',
-            type: 'md | lg | xl',
+            type: 'sm | md | lg | xl',
             required: false,
             default: 'md',
             description: 'Input size',
@@ -194,7 +194,7 @@ const Example = () => {
           },
           {
             name: 'type',
-            type: 'date | datetime-local | email | number | password | search | tel | text | time | url',
+            type: 'date | datetime-local | email | number | password | search | tel | text | time | url | string',
             required: false,
             default: 'text',
             description: 'Input type',

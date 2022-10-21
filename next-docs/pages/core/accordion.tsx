@@ -84,6 +84,13 @@ const Example = () => {
             description: 'Alters background colour of accordion',
           },
           {
+            name: 'children',
+            type: 'React.ReactNode',
+            required: false,
+            default: '-',
+            description: 'Children content',
+          },
+          {
             name: 'disabled',
             type: 'boolean',
             required: false,

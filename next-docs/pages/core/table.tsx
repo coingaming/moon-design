@@ -105,14 +105,14 @@ const Example = () => {
         data={[
           {
             name: 'getOnRowClickHandler',
-            type: 'function',
+            type: '(row) => (row) => void | () => void',
             required: false,
             default: '-',
             description: 'Callback on clicked row',
           },
           {
             name: 'getOnRowSelect',
-            type: 'function',
+            type: '(rows) => void | () => void',
             required: false,
             default: '-',
             description: 'Callback on selected row',

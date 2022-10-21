@@ -83,6 +83,13 @@ const Example = () => {
             description: 'Rendered HTML element',
           },
           {
+            name: 'children',
+            type: 'React.ReactNode;',
+            required: false,
+            default: '-',
+            description: 'Children content',
+          },
+          {
             name: 'disabled',
             type: 'boolean',
             required: false,
@@ -105,21 +112,21 @@ const Example = () => {
           },
           {
             name: 'iconLeft',
-            type: 'boolean | JSX.Element',
+            type: 'JSX.Element | boolean',
             required: false,
             default: '-',
             description: 'Left icon',
           },
           {
             name: 'iconOnly',
-            type: 'boolean | JSX.Element',
+            type: 'JSX.Element | boolean',
             required: false,
             default: '-',
             description: 'Icon without text',
           },
           {
             name: 'iconRight',
-            type: 'boolean | JSX.Element',
+            type: 'JSX.Element | boolean',
             required: false,
             default: '-',
             description: 'Right icon',

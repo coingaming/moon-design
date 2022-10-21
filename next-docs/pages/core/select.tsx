@@ -79,7 +79,7 @@ const Example = () => {
         data={[
           {
             name: 'formatOptionLabel',
-            type: 'funct',
+            type: '(data) => JSX.Element | string',
             required: false,
             default: '-',
             description:
@@ -93,18 +93,18 @@ const Example = () => {
             description: 'Inform message under select',
           },
           {
-            name: 'isDisabled',
+            name: 'disabled',
             type: 'boolean',
             required: false,
             default: '_',
-            description: 'Set disabled/not disabled select',
+            description: 'Set disabled/non-disabled select',
           },
           {
             name: 'isError',
             type: 'boolean',
             required: false,
             default: '_',
-            description: 'Set valid/not valid select',
+            description: 'Set valid/non-valid select',
           },
           {
             name: 'label',
@@ -122,17 +122,17 @@ const Example = () => {
           },
           {
             name: 'onChange',
-            type: 'funct',
+            type: '(value) => void',
             required: false,
             default: '-',
             description: 'onChange event handler',
           },
           {
             name: 'options',
-            type: 'Object[]',
+            type: '{ id: number, label: string, value: string | number }[]',
             required: true,
             default: '-',
-            description: `List of options.`,
+            description: `List of options`,
           },
           {
             name: 'placeholder',
@@ -146,11 +146,11 @@ const Example = () => {
             type: 'sm | md | lg | xl',
             required: false,
             default: 'md',
-            description: `The option's value.`,
+            description: `Size of select`,
           },
           {
             name: 'value',
-            type: 'Object',
+            type: '{ id: number, label: string, value: string | number }',
             required: false,
             default: '-',
             description: 'Controled value',

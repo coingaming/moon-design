@@ -78,13 +78,6 @@ const Example = () => {
             description: 'Set disabled/not disabled switch',
           },
           {
-            name: 'id',
-            type: 'string',
-            required: false,
-            default: '_',
-            description: `Unique element's identifier.`,
-          },
-          {
             name: 'name',
             type: 'string',
             required: false,
@@ -115,7 +108,7 @@ const Example = () => {
           },
           {
             name: 'onChange',
-            type: '(data: boolean) => void',
+            type: '(data) => void',
             required: false,
             default: '-',
             description: `The function to call when the switch is toggled.`,
@@ -129,7 +122,7 @@ const Example = () => {
           },
           {
             name: 'size',
-            type: '2xs | xs | sm',
+            type: '2xs | xs | sm | string',
             required: false,
             default: 'sm',
             description: `The option's value.`,

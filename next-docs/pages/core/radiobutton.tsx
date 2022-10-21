@@ -91,14 +91,14 @@ const Example = () => {
           },
           {
             name: 'onChange',
-            type: '() => void',
+            type: '(event) => void',
             required: false,
             default: '-',
             description: 'Change event handler',
           },
           {
             name: 'onClick',
-            type: '() => void',
+            type: '(event) => void',
             required: false,
             default: '-',
             description: 'Click event handler',

@@ -68,10 +68,17 @@ const Example = () => {
         title="TextInputGroup props"
         data={[
           {
+            name: 'backgroundColor',
+            type: 'string',
+            required: false,
+            default: 'bg-gohan',
+            description: 'Container background colour',
+          },
+          {
             name: 'inputProps',
-            type: 'object { input1: TextInputTypes, input2: TextInputTypes }',
-            required: true,
-            default: "object { inputSize: 'md', type: 'text' }",
+            type: '{ input1: TextInputTypes, input2: TextInputTypes }',
+            required: false,
+            default: "{ inputSize: 'md', type: 'text' }",
             description:
               'Props for the text input fields. See TextInput component',
           },

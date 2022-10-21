@@ -79,6 +79,13 @@ const Example = () => {
         title="Chip props"
         data={[
           {
+            name: 'children',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Children content',
+          },
+          {
             name: 'iconLeft',
             type: 'JSX.Element | boolean',
             required: false,
@@ -112,14 +119,6 @@ const Example = () => {
             required: false,
             default: 'false',
             description: 'Shows stroke on hover/active',
-          },
-          {
-            name: 'onClick',
-            type: '() => void',
-            required: false,
-            default: 'default',
-            description:
-              'The onClick event occurs when the user clicks on an component.',
           },
           {
             name: 'size',

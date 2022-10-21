@@ -5,6 +5,7 @@ import type ButtonVariants from './ButtonVariants';
 
 export type ButtonSettingsProps = {
   icon?: ButtonIcons;
+  children?: React.ReactNode;
   size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
   iconLeft?: JSX.Element | boolean;
   iconRight?: JSX.Element | boolean;
