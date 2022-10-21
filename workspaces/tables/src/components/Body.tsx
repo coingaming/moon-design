@@ -5,7 +5,7 @@ type BodyProps = {
   reactTableProps?: any;
 };
 
-const Body = forwardRef<HTMLDivElement, BodyProps>(
+const Body = forwardRef<HTMLDivElement,BodyProps>(
   ({ children, reactTableProps }) => {
     return (
       <div
