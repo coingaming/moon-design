@@ -1,5 +1,5 @@
 import React, {useRef, useEffect, useState} from 'react';
-import { ColorNames } from '@heathmont/moon-themes';
+import { ColorNames} from '@heathmont/moon-themes';
 import {
   useTable,
   useResizeColumns,
