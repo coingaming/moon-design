@@ -43,10 +43,10 @@ describe('Table', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  // it('renders with Mini Map', () => {
-  //   const testRenderer = renderer.create(renderWithTheme(<MiniMap />));
-  //   expect(testRenderer.toJSON()).toMatchSnapshot();
-  // });
+  it('renders with Mini Map', () => {
+    const testRenderer = renderer.create(renderWithTheme(<MiniMap />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 
   it('renders with Sorting', () => {
     const testRenderer = renderer.create(renderWithTheme(<Sorting />));
