@@ -41,17 +41,17 @@ const ForDesigners = () => (
       >
         Figma
       </Button>
-      <Link href="/gettingStarted">
+      <Link href="/gettingStarted" passHref>
         <Button as="a" variant="secondary">
           Getting Started
         </Button>
       </Link>
-      <Link href="/core/typography">
+      <Link href="/core/typography" passHref>
         <Button as="a" variant="secondary">
           Typography
         </Button>
       </Link>
-      <Link href="/colours">
+      <Link href="/colours" passHref>
         <Button as="a" variant="secondary">
           Colour Convention
         </Button>

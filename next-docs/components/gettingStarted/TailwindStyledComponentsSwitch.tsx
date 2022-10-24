@@ -31,12 +31,12 @@ const TailwindStyledComponentsSwitch = ({
 }: Props) => (
   <div className="flex flex-row gap-2">
     <div className="p-0.5 rounded-lg flex bg-beerus">
-      <Link href="/gettingStartedDevs">
+      <Link href="/gettingStartedDevs" passHref>
         <Button isActive={isTwActive} onClick={setTwActive}>
           I use Tailwind
         </Button>
       </Link>
-      <Link href="/gettingStartedSc">
+      <Link href="/gettingStartedSc" passHref>
         <Button isActive={!isTwActive} onClick={setScActive}>
           I use Styled Components
         </Button>

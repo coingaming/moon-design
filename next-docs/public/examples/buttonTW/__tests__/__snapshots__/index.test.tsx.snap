@@ -8,10 +8,10 @@ Array [
     onMouseLeave={[Function]}
     type="button"
   >
-    <div
-      className="relative h-full pointer-events-none"
+    <span
+      className="block relative h-full pointer-events-none"
     >
-      <div
+      <span
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <div
@@ -45,13 +45,13 @@ Array [
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
           />
         </div>
-      </div>
-      <div
-        className="opacity-0"
+      </span>
+      <span
+        className="block opacity-0"
       >
         Progress
-      </div>
-    </div>
+      </span>
+    </span>
     <span
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
@@ -62,10 +62,10 @@ Array [
     onMouseLeave={[Function]}
     type="button"
   >
-    <div
-      className="relative h-full pointer-events-none"
+    <span
+      className="block relative h-full pointer-events-none"
     >
-      <div
+      <span
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <svg
@@ -83,13 +83,13 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-      <div
-        className="opacity-0"
+      </span>
+      <span
+        className="block opacity-0"
       >
         Success
-      </div>
-    </div>
+      </span>
+    </span>
     <span
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
