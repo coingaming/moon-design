@@ -16,8 +16,7 @@
     "lint:fix": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
     "publish": "pnpm run publish:packages && pnpm run publish:workspaces",
     "publish:packages": "pnpm publish --no-git-checks --filter './packages/**' -r --access public",
-    "publish:workspaces": "pnpm publish --no-git-checks  --filter './workspaces/**' -r --access public",
-    "prepare": "husky install"
+    "publish:workspaces": "pnpm publish --no-git-checks  --filter './workspaces/**' -r --access public"
   },
   "eslintConfig": {
     "root": true,
@@ -57,8 +56,6 @@
     "@babel/preset-react": "7.17.12",
     "@babel/preset-typescript": "7.17.12",
     "@changesets/cli": "2.17.0",
-    "@commitlint/cli": "^17.1.2",
-    "@commitlint/config-conventional": "^17.1.0",
     "@svgr/cli": "4.1.0",
     "@svgr/plugin-jsx": "4.1.0",
     "@types/jest": "28.1.3",
