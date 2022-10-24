@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 module.exports = {
     "extends": ["@commitlint/config-conventional"],
     "rules": {
@@ -23,6 +24,7 @@ module.exports = {
             2,
             "never",
             "."
-        ]
+        ],
+        "scope-empty": [2, "never"],
     }
 };
