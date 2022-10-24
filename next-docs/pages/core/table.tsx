@@ -101,14 +101,21 @@ const Example = () => {
         code={examples ? examples.Calendar : 'Loading'}
       />
       <PropsTable
-        title="Props"
+        title="Table props"
         data={[
           {
-            name: 'width',
-            type: 'string | number',
+            name: 'getOnRowClickHandler',
+            type: '(row) => (row) => void | () => void',
             required: false,
             default: '-',
-            description: 'Width of the table',
+            description: 'Callback on clicked row',
+          },
+          {
+            name: 'getOnRowSelect',
+            type: '(rows) => void | () => void',
+            required: false,
+            default: '-',
+            description: 'Callback on selected row',
           },
           {
             name: 'height',
@@ -118,13 +125,6 @@ const Example = () => {
             description: 'Height of the table',
           },
           {
-            name: 'maxWidth',
-            type: 'string | number',
-            required: false,
-            default: '-',
-            description: 'Max width of the table',
-          },
-          {
             name: 'maxHeight',
             type: 'string | number',
             required: false,
@@ -132,11 +132,11 @@ const Example = () => {
             description: 'Max height of the table',
           },
           {
-            name: 'withFooter',
-            type: 'boolean',
+            name: 'maxWidth',
+            type: 'string | number',
             required: false,
             default: '-',
-            description: 'Display table footer',
+            description: 'Max width of the table',
           },
           {
             name: 'selectable',
@@ -146,18 +146,18 @@ const Example = () => {
             description: 'Allow rows to be selected',
           },
           {
-            name: 'getOnRowSelect',
-            type: 'function',
+            name: 'width',
+            type: 'string | number',
             required: false,
             default: '-',
-            description: 'Callback on selected row',
+            description: 'Width of the table',
           },
           {
-            name: 'getOnRowClickHandler',
-            type: 'function',
+            name: 'withFooter',
+            type: 'boolean',
             required: false,
             default: '-',
-            description: 'Callback on clicked row',
+            description: 'Display table footer',
           },
         ]}
       />

@@ -44,12 +44,12 @@ const ForDevelopers = () => {
         >
           Github
         </Button>
-        <Link href="/gettingStartedDevs">
+        <Link href="/gettingStartedDevs" passHref>
           <Button as="a" variant="secondary">
             Getting Started
           </Button>
         </Link>
-        <Link href="/tokens">
+        <Link href="/tokens" passHref>
           <Button as="a" variant="secondary">
             Design Tokens
           </Button>
@@ -72,7 +72,7 @@ const ForDevelopers = () => {
         >
           Contribution
         </Button>
-        <Link href="/core/accordion">
+        <Link href="/core/accordion" passHref>
           <Button as="a" variant="secondary">
             Components
           </Button>

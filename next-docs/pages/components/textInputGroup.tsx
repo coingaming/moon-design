@@ -21,10 +21,7 @@ const PageTextInputGroup = () => {
   return (
     <>
       <ComponentPageDescription title="TextInput Group">
-        <DeprecationWarning
-          href="/core/textInputGroup"
-          name="TextInput Group"
-        />
+        <DeprecationWarning href="/core/textInputGroup" name="TextInputGroup" />
         <p>The TextInputGroup component lives in 2 different packages:</p>
         <p>
           Text type - <em>@heathmont/moon-core</em>
