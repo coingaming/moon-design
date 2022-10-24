@@ -10,4 +10,4 @@ release:
   script:
     - semantic-release
   only:
-    - main
+    - develop
