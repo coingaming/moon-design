@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.11.0
+
+### Minor Changes
+
+- Bump minor version
+
 ## 9.10.0
 
 ### Minor Changes
