@@ -1,3 +1,21 @@
+#### 2022-10-25
+
+##### New Features
+
+*  added pre-commit linter (f4dcaafc)
+*  add code for changelog (59b7c5bf)
+*  pre-commit hook improvement (36a55a72)
+
+##### Bug Fixes
+
+* **000:**  remove eslint (be511b31)
+
+##### Tests
+
+*  testing changelog (d81c0b4b)
+*  test (93eaded7)
+*  testing husky (5f64446f)
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
