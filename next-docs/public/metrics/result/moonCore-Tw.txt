@@ -1,0 +1,32 @@
+************************************* 
+
+    Tue Oct 25 2022  
+  
+coingaming/sportsbet-packages:  {
+  "Button": 5
+} 
+coingaming/sportsbet-next:  {
+  "Loader": 2,
+  "Button": 10,
+  "Label": 1,
+  "TextInput": 2,
+  "Checkbox": 1,
+  "Select": 1
+} 
+coingaming/cashier:  {
+  "Button": 19
+} 
+coingaming/next-casino:  {
+  "Button": 3
+} 
+------------------------------------  
+
+Total result: {
+  "Button": 37,
+  "Loader": 2,
+  "Label": 1,
+  "TextInput": 2,
+  "Checkbox": 1,
+  "Select": 1
+} 
+  
