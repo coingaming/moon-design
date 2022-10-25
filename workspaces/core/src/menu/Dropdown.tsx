@@ -1,7 +1,7 @@
 import React, { Fragment, createContext, useContext, useRef } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import { Chip as MoonChip } from '../index';
+import { Chip as MoonChip, SelectButton } from '../index';
 import classNames from '../private/utils/classnames';
 
 type DropdownState = {
@@ -64,6 +64,7 @@ const DropdownRoot: React.FC<DropdownRootProps> = ({
   const states = {
     value: value,
     isError: isError,
+    size: size,
     pooper: {
       styles: styles,
       attributes: attributes,
@@ -74,7 +75,7 @@ const DropdownRoot: React.FC<DropdownRootProps> = ({
 
   return (
     <DropdownContext.Provider value={states}>
-      <div className=" w-64">
+      <div className="w-full">
         <Listbox value={value} onChange={onChange} {...rest}>
           {({ open }) => (
             <div className="relative mt-1">
@@ -153,6 +154,64 @@ const Chip: React.FC = ({ children }) => {
   );
 };
 
+type SelectProps = {
+  label?: JSX.Element | string;
+  placeholder?: JSX.Element | string;
+  open?: boolean;
+  value?: undefined;
+  innerLabel?: boolean;
+};
+
+//Dropdown.Select
+const Select: React.FC<SelectProps> = ({
+  open,
+  value,
+  label,
+  placeholder,
+  ...rest
+}) => {
+  const { size, pooper } = useDropdownContext('Dropdown.Select');
+  if (size === 'xl') {
+    return (
+      <div ref={pooper?.referenceElement}>
+        <Listbox.Button as={Fragment}>
+          <SelectButton size={size} open={open} {...rest}>
+            <SelectButton.Input>
+              <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
+              {value ? (
+                <SelectButton.Value>{value}</SelectButton.Value>
+              ) : (
+                <SelectButton.Placeholder>
+                  {placeholder}
+                </SelectButton.Placeholder>
+              )}
+            </SelectButton.Input>
+          </SelectButton>
+        </Listbox.Button>
+      </div>
+    );
+  }
+  return (
+    <>
+      <SelectButton.Label labelSize={size}>{label}</SelectButton.Label>
+      <div ref={pooper?.referenceElement}>
+        <Listbox.Button as={Fragment}>
+          <SelectButton size={size} open={open} {...rest}>
+            <SelectButton.Input>
+              {value ? (
+                <SelectButton.Value>{value}</SelectButton.Value>
+              ) : (
+                <SelectButton.Placeholder>
+                  {placeholder}
+                </SelectButton.Placeholder>
+              )}
+            </SelectButton.Input>
+          </SelectButton>
+        </Listbox.Button>
+      </div>
+    </>
+  );
+};
 //Dropdown.Trigger
 const Trigger: React.FC = ({ children }) => {
   const { pooper } = useDropdownContext('Dropdown.Trigger');
@@ -186,6 +245,7 @@ const Dropdown = Object.assign(DropdownRoot, {
   Trigger,
   Hint,
   Chip,
+  Select,
 });
 
 export default Dropdown;

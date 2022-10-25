@@ -8,21 +8,21 @@ import {
 } from '@heathmont/moon-icons-tw';
 import classNames from '../private/utils/classnames';
 
-type InputBtnState = {
+type SelectButtonState = {
   open?: boolean;
   size?: 'sm' | 'md' | 'lg' | 'xl' | string;
   isError?: boolean;
   disabled?: boolean;
 };
 
-const InputBtnContext = createContext<InputBtnState>({});
-InputBtnContext.displayName = 'InputBtnContext';
+const SelectButtonContext = createContext<SelectButtonState>({});
+SelectButtonContext.displayName = 'InputBtnContext';
 
-const useInputBtnContext = (component: string) => {
-  const context = useContext(InputBtnContext);
+const useSelectButtonContext = (component: string) => {
+  const context = useContext(SelectButtonContext);
   if (context === null) {
     const err = new Error(
-      `<${component}> is missing a parent <InputBtn /> component.`
+      `<${component}> is missing a parent <SelectButton /> component.`
     );
     // if (Error.captureStackTrace) Error.captureStackTrace(err, useInputBtnContext);
     throw err;
@@ -30,7 +30,7 @@ const useInputBtnContext = (component: string) => {
   return context;
 };
 
-type InputBtnProps = {
+type SelectButtonProps = {
   size?: 'md' | 'lg' | 'xl' | string;
   isError?: boolean;
   open?: boolean;
@@ -54,7 +54,7 @@ const getSelectSize = (size?: 'sm' | 'md' | 'lg' | 'xl' | string) => {
   }
 };
 
-const InputBtnRoot: React.FC<InputBtnProps> = ({
+const SelectButtonRoot: React.FC<SelectButtonProps> = ({
   label,
   placeholder,
   size = 'md',
@@ -70,48 +70,42 @@ const InputBtnRoot: React.FC<InputBtnProps> = ({
     size: size,
     isError: isError,
     disabled: disabled,
-
     ...rest,
   };
   return (
-    <InputBtnContext.Provider value={states}>
+    <SelectButtonContext.Provider value={states}>
       <div className="relative">{children}</div>
-    </InputBtnContext.Provider>
+    </SelectButtonContext.Provider>
   );
 };
 
-type InputProps = {
-  elRef?: React.MutableRefObject<null>;
-};
-const Input: React.FC<InputProps> = ({ children, elRef }) => {
-  const { size, isError, disabled, ...rest } = useInputBtnContext('Input');
-  console.log('ref in Input', elRef);
+const Input: React.FC = ({ children }) => {
+  const { size, isError, disabled, ...rest } =
+    useSelectButtonContext('SelectButton.Input');
   return (
-    <div ref={elRef}>
-      <Listbox.Button
-        {...rest}
-        className={classNames(
-          'flex items-center justify-between',
-          'w-full bg-gohan border-beerus',
-          'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
-          'focus:shadow-input-focus focus:outline-none',
-          getSelectSize(size),
-          isError &&
-            'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-          disabled && 'opacity-30 cursor-not-allowed'
-        )}
-      >
-        <div className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
-          {children}
-        </div>
-        <Control />
-      </Listbox.Button>
-    </div>
+    <button
+      {...rest}
+      className={classNames(
+        'flex items-center justify-between',
+        'w-full bg-gohan border-beerus',
+        'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
+        'focus:shadow-input-focus focus:outline-none',
+        getSelectSize(size),
+        isError &&
+          'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+        disabled && 'opacity-30 cursor-not-allowed'
+      )}
+    >
+      <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
+        {children}
+      </span>
+      <Control />
+    </button>
   );
 };
 
 const Value: React.FC = ({ children }) => {
-  const { size } = useInputBtnContext('Label');
+  const { size } = useSelectButtonContext('SelectButton.Value');
   return (
     <span
       className={classNames(
@@ -124,13 +118,19 @@ const Value: React.FC = ({ children }) => {
   );
 };
 
-const Label: React.FC = ({ children }) => {
-  const { size } = useInputBtnContext('Label');
+type LabelProps = {
+  labelSize?: 'sm' | 'md' | 'lg' | 'xl' | string;
+};
+
+const Label: React.FC<LabelProps> = ({ children, labelSize }) => {
+  const { size } = useSelectButtonContext('SelectButton.Label');
+  const currentSize = labelSize || size;
+  console.log('labelSize', labelSize);
   return (
     <Listbox.Label
       className={classNames(
         'block text-bulma pb-2',
-        size === 'sm' ? 'text-moon-14' : 'text-moon-16'
+        currentSize === 'sm' ? 'text-moon-14' : 'text-moon-16'
       )}
     >
       {children}
@@ -147,7 +147,7 @@ const FloatingLabel: React.FC = ({ children }) => {
 };
 
 const Placeholder: React.FC = ({ children }) => {
-  const { size } = useInputBtnContext('Placeholder');
+  const { size } = useSelectButtonContext('SelectButton.Placeholder');
   return (
     <span
       className={classNames(
@@ -161,9 +161,9 @@ const Placeholder: React.FC = ({ children }) => {
 };
 
 const Control: React.FC = () => {
-  const { open, size } = useInputBtnContext('Control');
+  const { open, size } = useSelectButtonContext('SelectButton.Control');
   return (
-    <div className="flex-shrink-0">
+    <span className="flex-shrink-0">
       {open ? (
         size === 'sm' ? (
           <ControlsChevronUpSmall className="text-[1.5rem] text-trunks" />
@@ -175,10 +175,10 @@ const Control: React.FC = () => {
       ) : (
         <ControlsChevronDown className="text-[1.5rem] text-trunks" />
       )}
-    </div>
+    </span>
   );
 };
-const InputBtn = Object.assign(InputBtnRoot, {
+const SelectButton = Object.assign(SelectButtonRoot, {
   Label,
   FloatingLabel,
   Placeholder,
@@ -187,4 +187,4 @@ const InputBtn = Object.assign(InputBtnRoot, {
   Value,
 });
 
-export default InputBtn;
+export default SelectButton;

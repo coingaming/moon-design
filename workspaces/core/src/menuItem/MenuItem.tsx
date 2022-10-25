@@ -66,7 +66,7 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
         <Component
           ref={ref}
           className={classNames(
-            'flex gap-2 justify-between items-center p-2 bg-gohan rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus',
+            'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus',
             'hover:bg-bulma/[0.08] transition',
             width ? width : 'w-full',
             (isSelected || isActive) && 'bg-bulma/[0.08]'

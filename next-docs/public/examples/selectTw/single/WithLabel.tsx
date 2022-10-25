@@ -6,6 +6,7 @@ import {
   Button,
   Chip,
   InputBtn,
+  Avatar,
 } from '@heathmont/moon-core-tw';
 import { MediaMusic } from '@heathmont/moon-icons-tw';
 
@@ -34,7 +35,7 @@ const people = [
 ];
 
 const Example = () => {
-  const [selected, setSelected] = useState(people[0]);
+  const [selected, setSelected] = useState(null);
   const [selectedPeople, setSelectedPeople] = useState([people[0], people[1]]);
   console.log('selected', selected);
 
@@ -70,23 +71,125 @@ const Example = () => {
           placeholder="Choose an option"
         />
       </div>
+
       <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2 pb-96">
-        <Dropdown value={selected} onChange={(d) => onChangeHandler(d)}>
-          {({ open, referenceElement }) => (
+        <Dropdown value={selected} onChange={onChangeHandler} size="sm">
+          {({ open }) => (
             <>
-              <InputBtn size="xl" open={open}>
-                {/* <InputBtn.Label>Small</InputBtn.Label> */}
-                <InputBtn.Input elRef={referenceElement}>
-                  <InputBtn.FloatingLabel>xLarge</InputBtn.FloatingLabel>
-                  {selected ? (
-                    <InputBtn.Value>{selected.name}</InputBtn.Value>
-                  ) : (
-                    <InputBtn.Placeholder>
-                      Choose an option
-                    </InputBtn.Placeholder>
-                  )}
-                </InputBtn.Input>
-              </InputBtn>
+              <Dropdown.Select
+                open={open}
+                value={selected?.name}
+                label="Small"
+                placeholder="Choose an option"
+                data-test="data-test"
+              />
+
+              <Dropdown.Options>
+                {people.map((person, index) => (
+                  <Dropdown.Option value={person} index={index}>
+                    {({ selected, active }) => (
+                      <MenuItem isActive={active} isSelected={selected}>
+                        <MenuItem.Title>{person.name}</MenuItem.Title>
+                        <MenuItem.Radio isSelected={selected} />
+                      </MenuItem>
+                    )}
+                  </Dropdown.Option>
+                ))}
+              </Dropdown.Options>
+            </>
+          )}
+        </Dropdown>
+
+        <Dropdown value={selected} onChange={(d) => onChangeHandler(d)}>
+          {({ open }) => (
+            <>
+              <Dropdown.Select
+                open={open}
+                value={selected?.name}
+                label="Medium"
+                placeholder="Choose an option"
+                data-test="data-test"
+              />
+
+              <Dropdown.Options>
+                {people.map((person, index) => (
+                  <Dropdown.Option value={person} index={index}>
+                    {({ selected, active }) => (
+                      <MenuItem isActive={active} isSelected={selected}>
+                        <MenuItem.Title>{person.name}</MenuItem.Title>
+                        <MenuItem.Radio isSelected={selected} />
+                      </MenuItem>
+                    )}
+                  </Dropdown.Option>
+                ))}
+              </Dropdown.Options>
+            </>
+          )}
+        </Dropdown>
+
+        <Dropdown
+          value={selected}
+          onChange={(d) => onChangeHandler(d)}
+          size="lg"
+        >
+          {({ open }) => (
+            <>
+              {/* <Dropdown.Select
+                open={open}
+                value={selected?.name}
+                label="Large"
+                placeholder="Choose an option"
+                data-test="data-test"
+              /> */}
+
+              {/* <Dropdown.Chip></> */}
+              <Dropdown.Trigger>
+                {/* <Select
+                  options={options}
+                  label="Medium"
+                  placeholder="Choose an option"
+                /> */}
+                <div>
+                  <Avatar
+                    isRounded
+                    imageUrl="https://www.fillmurray.com/200/200"
+                  />
+                </div>
+                {/* <Chip>Options</Chip> */}
+                {/* <span>Trigger</span> */}
+              </Dropdown.Trigger>
+
+              <Dropdown.Options>
+                {people.map((person, index) => (
+                  <Dropdown.Option value={person} index={index}>
+                    {({ selected, active }) => (
+                      <MenuItem isActive={active} isSelected={selected}>
+                        <MenuItem.Title>{person.name}</MenuItem.Title>
+                        <MenuItem.Radio isSelected={selected} />
+                      </MenuItem>
+                    )}
+                  </Dropdown.Option>
+                ))}
+              </Dropdown.Options>
+            </>
+          )}
+        </Dropdown>
+
+        <Dropdown
+          value={selected}
+          onChange={(d) => onChangeHandler(d)}
+          size="xl"
+        >
+          {({ open }) => (
+            <>
+              <Dropdown.Select
+                open={open}
+                value={selected?.name}
+                label="xLarge"
+                placeholder="Choose an option"
+                data-test="data-test"
+              />
+
               <Dropdown.Options>
                 {people.map((person, index) => (
                   <Dropdown.Option value={person} index={index}>
@@ -138,3 +241,23 @@ export default Example;
 //     })}
 //   </List.Dropdown>
 // </List>
+
+{
+  /* <DropdownContext.Provider value={states}>
+<div className="w-64">
+  <Listbox value={value} onChange={onChange} {...rest}>
+    {({ open }) => {
+      const arrayChildren =
+        typeof children === 'function'
+          ? Children.toArray(children({ open, referenceElement }))
+          : Children.toArray(children);
+      return (
+        <div className="relative mt-1">
+          {Children.map(arrayChildren, (child, index) => child)}
+        </div>
+      );
+    }}
+  </Listbox>
+</div>
+</DropdownContext.Provider> */
+}
