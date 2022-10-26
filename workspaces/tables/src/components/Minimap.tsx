@@ -36,10 +36,7 @@ const Wrapper: React.FC<ClassesProps> = ({
 };
 const Grid: React.FC<ClassesProps> = ({ children }) => {
   return (
-    <div
-      style={{ gridAutoFlow: 'column' }}
-      className="grid grid-flow-col h-full gap-1 relative"
-    >
+    <div className="grid grid-flow-col h-full gap-1 relative auto-cols-[minmax(0,_2fr)]">
       {children}
     </div>
   );
