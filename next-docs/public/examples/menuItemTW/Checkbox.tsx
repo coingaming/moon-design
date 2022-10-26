@@ -6,25 +6,26 @@ const Example = () => {
   const [activeOpt2, setActiveOpt2] = useState(false);
   return (
     <>
-      <MenuItem
-        role="сheckbox"
-        width="w-56"
-        isActive={activeOpt1}
-        onClick={useCallback(() => setActiveOpt1(!activeOpt1), [activeOpt1])}
-      >
-        <MenuItem.Checkbox />
-        <MenuItem.Title>Your value</MenuItem.Title>
-      </MenuItem>
-
-      <MenuItem
-        role="сheckbox"
-        width="w-56"
-        isActive={activeOpt2}
-        onClick={useCallback(() => setActiveOpt2(!activeOpt2), [activeOpt2])}
-      >
-        <MenuItem.Title>Your value</MenuItem.Title>
-        <MenuItem.Checkbox />
-      </MenuItem>
+      <div className="w-56">
+        <MenuItem
+          role="сheckbox"
+          isActive={activeOpt1}
+          onClick={useCallback(() => setActiveOpt1(!activeOpt1), [activeOpt1])}
+        >
+          <MenuItem.Checkbox />
+          <MenuItem.Title>Your value</MenuItem.Title>
+        </MenuItem>
+      </div>
+      <div className="w-56">
+        <MenuItem
+          role="сheckbox"
+          isActive={activeOpt2}
+          onClick={useCallback(() => setActiveOpt2(!activeOpt2), [activeOpt2])}
+        >
+          <MenuItem.Title>Your value</MenuItem.Title>
+          <MenuItem.Checkbox />
+        </MenuItem>
+      </div>
     </>
   );
 };

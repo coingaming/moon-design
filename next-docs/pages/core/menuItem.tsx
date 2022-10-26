@@ -4,7 +4,6 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import PropsTable from '../../components/PropsTable';
 import AsLink from '../../public/examples/menuItemTW/AsLink';
 import Checkbox from '../../public/examples/menuItemTW/Checkbox';
-import CustomWidth from '../../public/examples/menuItemTW/CustomWidth';
 import Default from '../../public/examples/menuItemTW/Default';
 import ExpandCollapse from '../../public/examples/menuItemTW/ExpandCollapse';
 import MultiLine from '../../public/examples/menuItemTW/MultiLine';
@@ -38,11 +37,6 @@ const Example = () => {
         title="AsLink"
         preview={<AsLink />}
         code={examples ? examples.AsLink : 'Loading'}
-      />
-      <Preview
-        title="Custom Width"
-        preview={<CustomWidth />}
-        code={examples ? examples.CustomWidth : 'Loading'}
       />
       <Preview
         title="With icon"
@@ -96,13 +90,6 @@ const Example = () => {
             default: 'false',
             description:
               'Is MenuItem checked/unchecked. For radio and checkbox variant.',
-          },
-          {
-            name: 'width',
-            type: 'string',
-            required: false,
-            default: 'w-full',
-            description: 'Tailwind class for custom container width',
           },
         ]}
       />
