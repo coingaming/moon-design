@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import { Dropdown, MenuItem, Chip, Button } from '@heathmont/moon-core-tw';
 import {
   ControlsChevronDown,
@@ -14,8 +14,26 @@ const people = [
   { name: 'Hellen Schmidt' },
 ];
 
+const countries = [
+  { name: 'Australia' },
+  { name: 'Canada' },
+  { name: 'China' },
+  { name: 'Germany' },
+  { name: 'Hungary' },
+  { name: 'Japan' },
+];
+
 const Example = () => {
   const [selected, setSelected] = useState(null);
+  const [selectedCountry, setSelectedCountry] = useState([
+    countries[0],
+    countries[3],
+  ]);
+
+  useEffect(() => {
+    console.log('selected: ', selectedCountry);
+  }, [selectedCountry]);
+
   return (
     <div className="flex flex-col lg:flex-row align-middle justify-around items-center w-full gap-2">
       {/** Custom trigger element */}
@@ -59,7 +77,7 @@ const Example = () => {
       </Dropdown>
 
       {/** Chip */}
-      <Dropdown value={selected} onChange={setSelected}>
+      <Dropdown value={selectedCountry} onChange={setSelectedCountry} multiple>
         {({ open }) => (
           <>
             <Dropdown.Trigger>
@@ -77,11 +95,12 @@ const Example = () => {
             </Dropdown.Trigger>
 
             <Dropdown.Options>
-              {people.map((person, index) => (
-                <Dropdown.Option value={person} index={index}>
+              {countries.map((country, index) => (
+                <Dropdown.Option value={country} index={index}>
                   {({ selected, active }) => (
                     <MenuItem isActive={active} isSelected={selected}>
-                      {person.name}
+                      <MenuItem.Title> {country.name}</MenuItem.Title>
+                      <MenuItem.Checkbox />
                     </MenuItem>
                   )}
                 </Dropdown.Option>
