@@ -3,15 +3,18 @@ import { SportBadminton } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <>
-    <MenuItem width="w-56">
-      <SportBadminton className="text-[1.5rem]" />
-      <MenuItem.Title>Your value</MenuItem.Title>
-    </MenuItem>
-
-    <MenuItem width="w-56">
-      <MenuItem.Title>Your value</MenuItem.Title>
-      <SportBadminton className="text-[1.5rem]" />
-    </MenuItem>
+    <div className="w-56">
+      <MenuItem>
+        <SportBadminton className="text-[1.5rem]" />
+        <MenuItem.Title>Your value</MenuItem.Title>
+      </MenuItem>
+    </div>
+    <div className="w-56">
+      <MenuItem>
+        <MenuItem.Title>Your value</MenuItem.Title>
+        <SportBadminton className="text-[1.5rem]" />
+      </MenuItem>
+    </div>
   </>
 );
 

@@ -12,7 +12,7 @@ const Example = () => {
 
   return (
     <div className="w-94 bg-white flex flex-col gap-3 rounded-moon-s-lg p-6">
-      <MenuItem width="w-80" isActive={activeOpt}>
+      <MenuItem isActive={activeOpt}>
         <span className="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center">
           <TravelAirplane className="text-2xl" color="#4E46B4" />
         </span>
@@ -21,7 +21,7 @@ const Example = () => {
           text={<span>find your dream design job</span>}
         />
       </MenuItem>
-      <MenuItem width="w-80">
+      <MenuItem>
         <span className="bg-[#3448F01F]/20 rounded-lg w-10 h-10 flex justify-center items-center">
           <TravelBill className="text-2xl" color="#3448F0" />
         </span>
@@ -31,7 +31,7 @@ const Example = () => {
         />
       </MenuItem>
       <hr className="w-80 border-px border-solid border-beerus left-6 top-40  self-stretch" />
-      <MenuItem width="w-80">
+      <MenuItem>
         <span className="bg-[#FFB3191F]/20 rounded-lg w-10 h-10 flex justify-center items-center">
           <GenericLoyalty className="text-2xl" color="#FFB319" />
         </span>
@@ -40,7 +40,7 @@ const Example = () => {
           text={<span>Get new leads in your inbox every day</span>}
         />
       </MenuItem>
-      <MenuItem width="w-80">
+      <MenuItem>
         <span className="bg-[#FF4E641F]/20 rounded-lg w-10 h-10 flex justify-center items-center">
           <DevicesJoystick className="text-2xl" color="#FF4E64" />
         </span>
