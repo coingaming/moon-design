@@ -12,7 +12,7 @@ type SelectButtonState = {
   open?: boolean;
   size?: 'sm' | 'md' | 'lg' | 'xl' | string;
   isError?: boolean;
-  disabled?: boolean;
+  idDisabled?: boolean;
 };
 
 const SelectButtonContext = createContext<SelectButtonState>({});
@@ -34,7 +34,7 @@ type SelectButtonProps = {
   size?: 'md' | 'lg' | 'xl' | string;
   isError?: boolean;
   open?: boolean;
-  disabled?: boolean;
+  idDisabled?: boolean;
   label?: JSX.Element | string;
   placeholder?: JSX.Element | string;
   ref?: React.MutableRefObject<null>;
@@ -59,7 +59,7 @@ const SelectButtonRoot: React.FC<SelectButtonProps> = ({
   placeholder,
   size = 'md',
   isError,
-  disabled,
+  idDisabled,
   open,
   children,
   ref,
@@ -69,9 +69,13 @@ const SelectButtonRoot: React.FC<SelectButtonProps> = ({
     open: open,
     size: size,
     isError: isError,
-    disabled: disabled,
+    idDisabled: idDisabled,
     ...rest,
   };
+
+  console.log('SelectButtonRoot: disabled', idDisabled);
+  console.log('SelectButtonRoot: states', states);
+
   return (
     <SelectButtonContext.Provider value={states}>
       <div className="relative">{children}</div>
@@ -80,8 +84,9 @@ const SelectButtonRoot: React.FC<SelectButtonProps> = ({
 };
 
 const Input: React.FC = ({ children }) => {
-  const { size, isError, disabled, ...rest } =
+  const { size, isError, idDisabled, ...rest } =
     useSelectButtonContext('SelectButton.Input');
+  console.log('SelectButton: disabled ', idDisabled);
   return (
     <button
       {...rest}
@@ -93,7 +98,7 @@ const Input: React.FC = ({ children }) => {
         getSelectSize(size),
         isError &&
           'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-        disabled && 'opacity-30 cursor-not-allowed'
+        idDisabled && 'opacity-30 cursor-not-allowed'
       )}
     >
       <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
@@ -120,17 +125,18 @@ const Value: React.FC = ({ children }) => {
 
 type LabelProps = {
   labelSize?: 'sm' | 'md' | 'lg' | 'xl' | string;
+  idDisabled?: boolean;
 };
 
-const Label: React.FC<LabelProps> = ({ children, labelSize }) => {
+const Label: React.FC<LabelProps> = ({ children, labelSize, idDisabled }) => {
   const { size } = useSelectButtonContext('SelectButton.Label');
   const currentSize = labelSize || size;
-  console.log('labelSize', labelSize);
   return (
     <Listbox.Label
       className={classNames(
         'block text-bulma pb-2',
-        currentSize === 'sm' ? 'text-moon-14' : 'text-moon-16'
+        currentSize === 'sm' ? 'text-moon-14' : 'text-moon-16',
+        idDisabled && 'opacity-30 cursor-not-allowed'
       )}
     >
       {children}

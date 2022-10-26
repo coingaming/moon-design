@@ -1,12 +1,13 @@
 import React, { Fragment, createContext, useContext, useRef } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import { Chip as MoonChip, SelectButton } from '../index';
+import { SelectButton } from '../index';
 import classNames from '../private/utils/classnames';
 
 type DropdownState = {
   value?: any;
   isError?: boolean;
+  disabled?: boolean;
   pooper?: {
     styles?: { [key: string]: React.CSSProperties };
     attributes?: { [key: string]: { [key: string]: string } | undefined };
@@ -40,6 +41,7 @@ type DropdownRootProps = {
   value: unknown;
   onChange(value: unknown): void;
   isError?: boolean;
+  disabled?: boolean;
   size?: 'sm' | 'md' | 'lg' | 'xl' | string;
 };
 
@@ -48,6 +50,7 @@ const DropdownRoot: React.FC<DropdownRootProps> = ({
   value,
   onChange,
   isError,
+  disabled,
   size = 'md',
   ...rest
 }) => {
@@ -65,6 +68,7 @@ const DropdownRoot: React.FC<DropdownRootProps> = ({
     value: value,
     isError: isError,
     size: size,
+    disabled: disabled,
     pooper: {
       styles: styles,
       attributes: attributes,
@@ -76,7 +80,12 @@ const DropdownRoot: React.FC<DropdownRootProps> = ({
   return (
     <DropdownContext.Provider value={states}>
       <div className="w-full">
-        <Listbox value={value} onChange={onChange} {...rest}>
+        <Listbox
+          value={value}
+          onChange={onChange}
+          disabled={disabled}
+          {...rest}
+        >
           {({ open }) => (
             <div className="relative mt-1">
               {typeof children === 'function'
@@ -95,7 +104,7 @@ type OptionsProps = {
   menuWidth?: string;
 };
 
-const Options: React.FC<OptionsProps> = ({ children, menuWidth }) => {
+const Options: React.FC<OptionsProps> = ({ children, menuWidth, ...rest }) => {
   const { pooper } = useDropdownContext('Dropdown.Options');
   return (
     <div
@@ -107,9 +116,10 @@ const Options: React.FC<OptionsProps> = ({ children, menuWidth }) => {
       <Listbox.Options
         className={classNames(
           menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
-          'z-1 py-2 px-1 my-2 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
+          'z-1 p-1 my-2 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
           'focus:outline-none'
         )}
+        {...rest}
       >
         {children}
       </Listbox.Options>
@@ -144,16 +154,6 @@ const Option: React.FC<OptionProps> = ({ children, value, index }) => {
   );
 };
 
-//Dropdown.Chip
-const Chip: React.FC = ({ children }) => {
-  const { pooper } = useDropdownContext('Dropdown.Chip');
-  return (
-    <div ref={pooper?.referenceElement}>
-      <Listbox.Button as={MoonChip}>{children}</Listbox.Button>
-    </div>
-  );
-};
-
 type SelectProps = {
   label?: JSX.Element | string;
   placeholder?: JSX.Element | string;
@@ -170,12 +170,20 @@ const Select: React.FC<SelectProps> = ({
   placeholder,
   ...rest
 }) => {
-  const { size, pooper } = useDropdownContext('Dropdown.Select');
+  const { size, pooper, isError, disabled } =
+    useDropdownContext('Dropdown.Select');
+  console.log('Dropdown: disabled ', disabled);
   if (size === 'xl') {
     return (
       <div ref={pooper?.referenceElement}>
         <Listbox.Button as={Fragment}>
-          <SelectButton size={size} open={open} {...rest}>
+          <SelectButton
+            size={size}
+            open={open}
+            isError={isError}
+            idDisabled={disabled}
+            {...rest}
+          >
             <SelectButton.Input>
               <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
               {value ? (
@@ -193,10 +201,18 @@ const Select: React.FC<SelectProps> = ({
   }
   return (
     <>
-      <SelectButton.Label labelSize={size}>{label}</SelectButton.Label>
+      <SelectButton.Label labelSize={size} idDisabled={disabled}>
+        {label}
+      </SelectButton.Label>
       <div ref={pooper?.referenceElement}>
         <Listbox.Button as={Fragment}>
-          <SelectButton size={size} open={open} {...rest}>
+          <SelectButton
+            size={size}
+            open={open}
+            isError={isError}
+            idDisabled={disabled}
+            {...rest}
+          >
             <SelectButton.Input>
               {value ? (
                 <SelectButton.Value>{value}</SelectButton.Value>
@@ -212,6 +228,7 @@ const Select: React.FC<SelectProps> = ({
     </>
   );
 };
+
 //Dropdown.Trigger
 const Trigger: React.FC = ({ children }) => {
   const { pooper } = useDropdownContext('Dropdown.Trigger');
@@ -224,13 +241,14 @@ const Trigger: React.FC = ({ children }) => {
 
 //Dropdown.Hint
 const Hint: React.FC = ({ children }) => {
-  const { isError } = useDropdownContext('Dropdown.Input');
+  const { isError, disabled } = useDropdownContext('Dropdown.Input');
   return (
     <p
       role="alert"
       className={classNames(
         'inline-block mt-2 ps-4 text-moon-12',
-        isError ? 'text-chiChi' : 'text-trunks'
+        isError ? 'text-chiChi' : 'text-trunks',
+        disabled && 'opacity-30 cursor-not-allowed'
       )}
     >
       {children}
@@ -244,7 +262,6 @@ const Dropdown = Object.assign(DropdownRoot, {
   Option,
   Trigger,
   Hint,
-  Chip,
   Select,
 });
 
