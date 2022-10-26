@@ -131,7 +131,7 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
                 ref={popperElement}
                 style={styles.popper}
                 {...attributes.popper}
-                className="z-5 relative"
+                className="z-5 absolute"
               >
                 <Options
                   options={options}
