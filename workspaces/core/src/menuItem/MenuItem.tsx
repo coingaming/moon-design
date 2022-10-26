@@ -93,18 +93,20 @@ const MultiTitle: React.FC<MultiTitleProps> = ({ title, text }) => {
 const Radio: React.FC<CheckboxRadioProps> = ({ isActive }) => {
   const { active = isActive } = useMenuItemContext('Menu.Items');
   return (
-    <span
-      className={classNames(
-        'block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] ',
-        active ? 'shadow-piccolo' : 'shadow-trunks'
-      )}
-    >
+    <span className="flex w-6 h-6 justify-center items-center">
       <span
         className={classNames(
-          active ? 'scale-100' : 'scale-0',
-          'h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform'
+          'block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] ',
+          active ? 'shadow-piccolo' : 'shadow-trunks'
         )}
-      />
+      >
+        <span
+          className={classNames(
+            active ? 'scale-100' : 'scale-0',
+            'h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform'
+          )}
+        />
+      </span>
     </span>
   );
 };
@@ -112,19 +114,21 @@ const Radio: React.FC<CheckboxRadioProps> = ({ isActive }) => {
 const Checkbox: React.FC<CheckboxRadioProps> = ({ isActive }) => {
   const { active = isActive } = useMenuItemContext('Menu.Items');
   return (
-    <span
-      className={classNames(
-        'block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color]',
-        active
-          ? 'bg-piccolo shadow-none'
-          : 'shadow-[0_0_0_1px_inset] shadow-trunks'
-      )}
-    >
-      {active && (
-        <span className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
-          <GenericCheckAlternative className="text-[1rem] text-goten" />
-        </span>
-      )}
+    <span className="flex w-6 h-6 justify-center items-center">
+      <span
+        className={classNames(
+          'block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color]',
+          active
+            ? 'bg-piccolo shadow-none'
+            : 'shadow-[0_0_0_1px_inset] shadow-trunks'
+        )}
+      >
+        {active && (
+          <span className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
+            <GenericCheckAlternative className="text-[1rem] text-goten" />
+          </span>
+        )}
+      </span>
     </span>
   );
 };

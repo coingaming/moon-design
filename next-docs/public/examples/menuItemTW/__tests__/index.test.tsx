@@ -8,7 +8,6 @@ import renderer from 'react-test-renderer';
 import Default from '../Default';
 import AsLink from '../AsLink';
 import Checkbox from '../Checkbox';
-import CustomWidth from '../CustomWidth';
 import ExpandCollapse from '../ExpandCollapse';
 import MultiLine from '../MultiLine';
 import MultiTitle from '../MultiTitle';
@@ -38,16 +37,6 @@ describe('Loader', () => {
 
   it('renders with radio', () => {
     const testRenderer = renderer.create(renderWithTheme(<Radio />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders custom width', () => {
-    const testRenderer = renderer.create(renderWithTheme(<CustomWidth />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders custom width', () => {
-    const testRenderer = renderer.create(renderWithTheme(<CustomWidth />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
