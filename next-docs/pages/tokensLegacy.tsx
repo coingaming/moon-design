@@ -54,9 +54,14 @@ export default function PageTokens() {
             <ul className="list-decimal list-inside">
               <ListItem>
                 Create your product{' '}
-                <NextLink href="https://github.com/coingaming/moon-design/tree/develop/packages/themes/src">
-                  <a className="underline">theme template file</a>
-                </NextLink>
+                <a
+                  href="https://github.com/coingaming/moon-design/tree/develop/packages/themes/src"
+                  target="_black"
+                  rel="noreferrer"
+                  className="underline"
+                >
+                  theme template file
+                </a>
                 .
               </ListItem>
 

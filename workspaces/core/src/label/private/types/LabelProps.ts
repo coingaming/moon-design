@@ -5,6 +5,7 @@ type LabelProps = {
   iconRight?: React.ReactElement;
   size?: '2xs' | 'xs';
   isUppercase?: boolean;
+  children?: React.ReactNode;
 };
 
 export default LabelProps;

@@ -2,8 +2,11 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
+import AsLink from '../../public/examples/menuItemTW/AsLink';
 import Checkbox from '../../public/examples/menuItemTW/Checkbox';
 import Default from '../../public/examples/menuItemTW/Default';
+import ExpandCollapse from '../../public/examples/menuItemTW/ExpandCollapse';
+import MultiLine from '../../public/examples/menuItemTW/MultiLine';
 import MultiTitle from '../../public/examples/menuItemTW/MultiTitle';
 import Radio from '../../public/examples/menuItemTW/Radio';
 import WithIcon from '../../public/examples/menuItemTW/WithIcon';
@@ -14,7 +17,7 @@ const Example = () => {
   const examples = useExamples('menuItemTW');
   return (
     <>
-      <ComponentPageDescription title="Menu Item">
+      <ComponentPageDescription title="MenuItem">
         <p>
           Menu items are used in such vertical menues and containers as
           Popovers, Sidebars, Drawers, Dialogs etc.
@@ -29,6 +32,11 @@ const Example = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="AsLink"
+        preview={<AsLink />}
+        code={examples ? examples.AsLink : 'Loading'}
       />
       <Preview
         title="With icon"
@@ -55,15 +63,25 @@ const Example = () => {
         preview={<MultiTitle />}
         code={examples ? examples.MultiTitle : 'Loading'}
       />
+      <Preview
+        title="Multi Line Items"
+        preview={<MultiLine />}
+        code={examples ? examples.MultiLine : 'Loading'}
+      />
+      <Preview
+        title="Expand collapse"
+        preview={<ExpandCollapse />}
+        code={examples ? examples.ExpandCollapse : 'Loading'}
+      />
       <PropsTable
-        title="Label props"
+        title="MenuItem props"
         data={[
           {
-            name: 'width',
-            type: 'string',
+            name: 'as',
+            type: 'a | button',
             required: false,
-            default: 'w-full',
-            description: 'ailwind class for custom container width',
+            default: 'button',
+            description: 'Rendered HTML element',
           },
           {
             name: 'isActive',
@@ -71,7 +89,7 @@ const Example = () => {
             required: false,
             default: 'false',
             description:
-              'Is menuItem checked/unchecked. For radio and checkbox variant.',
+              'Is MenuItem checked/unchecked. For radio and checkbox variant.',
           },
         ]}
       />

@@ -62,6 +62,13 @@ const Example = () => {
             description: 'Background colour',
           },
           {
+            name: 'children',
+            type: 'React.ReactNode',
+            required: false,
+            default: '-',
+            description: 'Children content',
+          },
+          {
             name: 'color',
             type: 'string',
             required: false,

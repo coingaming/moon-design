@@ -51,9 +51,19 @@ const Example = () => {
             diam tincidunt.
           </p>
           <Footer
-            primButton={<Button>Primary</Button>}
-            secButton={<Button variant="secondary">Secondary</Button>}
-            tertButton={<Button variant="ghost">Ghost</Button>}
+            primButton={
+              <Button onClick={() => setShowDialog(false)}>OK</Button>
+            }
+            secButton={
+              <Button variant="secondary" onClick={() => setShowDialog(false)}>
+                Cansel
+              </Button>
+            }
+            tertButton={
+              <Button variant="ghost" onClick={() => setShowDialog(false)}>
+                Decline
+              </Button>
+            }
             isDivider
           />
         </>

@@ -12,7 +12,7 @@ type RenderRowsProps<D extends object = {}> = {
   prepareRow: (row: Row<D>) => void;
   evenRowBackgroundColor: ColorNames;
   defaultRowBackgroundColor: ColorNames;
-  getOnRowClickHandler: (
+  getOnRowClickHandler?: (
     row: Row<D>
   ) => ((row: Row<D>) => void | (() => void)) | undefined;
   getOnRowSelectHandler?: (
@@ -34,6 +34,7 @@ const renderRows = ({
   selectable,
   useCheckbox
 }: RenderRowsProps) => {
+  const [selectedRows, setSelectedRows] = useState<{ [key: string]: boolean}>({});
   if (!rows) return;
   return rows.map((
     row: Row<{
@@ -64,9 +65,34 @@ const renderRows = ({
     const fontColor = row.original?.fontColor;
     const isLastNestedRow = rowId.length > nextRowId.length;
     const isLastRow = nextRowId.length === 0 || nextRowId.length === 1;
-    const [isSelected, setSelected] = useState(row.original?.isSelected);
-
+    
     const expandedRow = row as unknown as UseExpandedRowProps<{}>;
+     const resolveRowClick = () => {
+        const invokeClickHandler = () => {
+          const clickHandlerInvoked = getOnRowClickHandler
+            ? getOnRowClickHandler(row)
+            : undefined;
+          if (clickHandlerInvoked) clickHandlerInvoked(row);
+        };
+        const invokeSelectHandler = () => {
+          const selectHandlerInvoked = getOnRowSelectHandler
+            ? getOnRowSelectHandler(row)
+            : undefined;
+          if (selectHandlerInvoked) selectHandlerInvoked(row);
+          setSelectedRows({
+            ...selectedRows,
+            [`${row.id}-${rowProps.key}`]: !selectedRows[`${row.id}-${rowProps.key}`]
+          });
+        };
+
+        if (!selectable && getOnRowClickHandler) {
+          return invokeClickHandler();
+        }
+
+        return getOnRowSelectHandler ?
+          invokeSelectHandler() : getOnRowClickHandler ?
+            invokeClickHandler() : undefined;
+      };
 
     return (
       <Fragment key={`${row.id}-${rowProps.key}`}>
@@ -78,23 +104,18 @@ const renderRows = ({
           hasParent={!!expandedRow.depth}
           isLastNestedRow={isLastNestedRow}
           isLastRow={isLastRow}
-          isSelected={isSelected}
+          isSelected={selectedRows[`${row.id}-${rowProps.key}`]}
           customBackground={!!row.original?.backgroundColor}
           backgroundColor={backgroundColor}
           fontColor={fontColor}
-          onClick={selectable ?
-            onRowSelectHandler ? () => {
-              setSelected(!isSelected);
-              onRowSelectHandler(row);
-            } : onRowClickHandler ? () => onRowClickHandler(row) : undefined :
-            onRowClickHandler ? () => onRowClickHandler(row) : undefined
-          }
+          onClick={() => resolveRowClick()}
+
         >
           {useCheckbox && (<TD selectable={true}>
             <CheckboxTD>
               <Checkbox
-                checked={isSelected}
-                onClick={(e: Event) => e.stopPropagation()}
+                checked={selectedRows[`${row.id}-${rowProps.key}`]}
+                // onClick={(e: Event) => e.stopPropagation()}
                 onChange={() => {
                   /*setSelected(!isSelected)
 

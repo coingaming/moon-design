@@ -111,7 +111,7 @@ const Example = () => {
           },
           {
             name: 'statusOrigin',
-            type: 'StatusOrigin',
+            type: "{ vertical: 'top' | 'bottom', horizontal: 'left' | 'right' }",
             required: false,
             default: "{ vertical: 'bottom', horizontal: 'right' }",
             description: 'Position for status indicator',

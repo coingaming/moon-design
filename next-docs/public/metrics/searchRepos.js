@@ -27,24 +27,28 @@ const searchInRepos = require('./searchInRepos');
 const sortedByRepos = require('./sortedByRepos');
 
 const PackagesList = [
-  'moon-accordion',
   'moon-calendar',
   'moon-charts',
   'moon-components',
   'moon-core',
+  'moon-core-tw',
   'moon-datepicker',
   'moon-draggabletable',
   'moon-fonts',
   'moon-global',
   'moon-icons',
+  'moon-icons-tw',
   'moon-notifications',
   'moon-pagination',
   'moon-popover',
   'moon-select',
   'moon-sidebar',
   'moon-table',
+  'moon-table-tw',
   'moon-themes',
+  'moon-themes-tw',
   'moon-utils',
+  'moon-accordion',
 ];
 
 function processItemsRespons(result) {

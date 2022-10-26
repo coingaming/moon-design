@@ -15,7 +15,7 @@ const Example = () => {
   const examples = useExamples('textInputGroupTW');
   return (
     <>
-      <ComponentPageDescription title="TextInput Group">
+      <ComponentPageDescription title="TextInputGroup">
         <p>
           Indeed, forms require input from all users, including astronauts. Text
           input fields help to gather both short and long-form information. The
@@ -65,22 +65,22 @@ const Example = () => {
         code={examples ? examples.AccessValues : 'Loading'}
       />
       <PropsTable
-        title="Props (Text types)"
+        title="TextInputGroup props"
         data={[
           {
-            name: 'inputProps',
-            type: 'object { input1: TextInputTypes, input2: TextInputTypes }',
-            required: true,
-            default: "object { inputSize: 'md', type: 'text' }",
-            description:
-              'Props for the text input fields. See TextInput component',
+            name: 'backgroundColor',
+            type: 'string',
+            required: false,
+            default: 'bg-gohan',
+            description: 'Container background colour',
           },
           {
-            name: 'orientation',
-            type: 'vertical | horizontal',
+            name: 'inputProps',
+            type: '{ input1: TextInputTypes, input2: TextInputTypes }',
             required: false,
-            default: 'horizontal',
-            description: 'How the fields are positioned with one another',
+            default: "{ inputSize: 'md', type: 'text' }",
+            description:
+              'Props for the text input fields. See TextInput component',
           },
           {
             name: 'isRtl',
@@ -88,6 +88,13 @@ const Example = () => {
             required: false,
             default: 'false',
             description: 'Text direction',
+          },
+          {
+            name: 'orientation',
+            type: 'vertical | horizontal',
+            required: false,
+            default: 'horizontal',
+            description: 'How the fields are positioned with one another',
           },
         ]}
       />

@@ -27,12 +27,12 @@ type Props = {
 const DesDevSwitch = ({ isDesActive, setDesActive, setDevActive }: Props) => (
   <div className="flex flex-row gap-2">
     <div className="p-0.5 rounded-lg flex bg-beerus">
-      <Link href="/gettingStarted">
+      <Link href="/gettingStarted" passHref>
         <Button isActive={isDesActive} onClick={setDesActive}>
           I'm a designer
         </Button>
       </Link>
-      <Link href="/gettingStartedDevs">
+      <Link href="/gettingStartedDevs" passHref>
         <Button isActive={!isDesActive} onClick={setDevActive}>
           I'm a developer
         </Button>

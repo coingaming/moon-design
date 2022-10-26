@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import SingleLineItem from '../../public/examples/listItem/SingleLineItem';
 import SingleLineItemIcon from '../../public/examples/listItem/SingleLineItemIcon';
@@ -16,6 +17,7 @@ export default function PageListItem() {
   return (
     <>
       <ComponentPageDescription title="List item">
+        <DeprecationWarning href="/core/menuItem" name="MenuItem" />
         <p>
           List item component. The List item width is determined by the width of
           the parent container.

@@ -1,5 +1,33 @@
 # Change Log
 
+## 9.11.0
+
+### Minor Changes
+
+- Bump minor version
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.11.0
+  - @heathmont/moon-icons@9.11.0
+  - @heathmont/moon-themes@9.11.0
+  - @heathmont/moon-utils@9.11.0
+
+## 9.10.0
+
+### Minor Changes
+
+- Add Table component
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.10.0
+  - @heathmont/moon-icons@9.10.0
+  - @heathmont/moon-themes@9.10.0
+  - @heathmont/moon-utils@9.10.0
+
 ## 9.9.0
 
 ### Minor Changes
