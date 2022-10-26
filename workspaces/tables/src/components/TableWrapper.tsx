@@ -40,10 +40,12 @@ const TableWrapper = forwardRef<HTMLDivElement, TableWrapperProps>(
         style={style ?? {}}
         className={classNames(`
       table-wrapper
-      overflow-auto
+      sm:overflow-auto
+      overflow-scroll
       no-scrollbar
       flex
       flex-col
+
       ${className}
       ${variant === 'calendar' ? 'first:after:hidden' : ''}
     `)}
