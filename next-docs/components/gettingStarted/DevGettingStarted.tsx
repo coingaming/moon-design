@@ -25,6 +25,11 @@ const DevGettingStarted = () => (
       <p>Before you can use Moon DS, you need to do the following: </p>
       <ol className="flex flex-col gap-1 list-decimal list-inside">
         <li>
+          Set <code className="bg-goku px-2 rounded-moon-s-xs">dir="ltr"</code>{' '}
+          attribute to{' '}
+          <code className="bg-goku px-2 rounded-moon-s-xs">html</code> tag.
+        </li>
+        <li>
           Install Tailwind CSS:{' '}
           <a
             href="https://tailwindcss.com/docs/installation"
