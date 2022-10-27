@@ -1,4 +1,4 @@
-import React, { createContext, useContext } from 'react';
+import React, { createContext, useContext, useEffect, useState } from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import classNames from '../private/utils/classnames';
 
@@ -18,6 +18,7 @@ type MenuItemComponentProps = <C extends React.ElementType = 'button'>(
 type MenuItemState = {
   selected?: boolean;
   active?: boolean;
+  setNoBg?: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
 type CheckboxRadioProps = {
@@ -57,19 +58,23 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
     ref?: PolymorphicRef<C>
   ) => {
     const Component = as || 'button';
+    const [bg, setBg] = useState(true);
     const states = {
       selected: isSelected,
       active: isActive,
+      setNoBg: setBg,
     };
+
+    const innerSelected = bg ? isSelected : false;
     return (
       <MenuItemContext.Provider value={states}>
         <Component
           ref={ref}
           className={classNames(
             'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer',
-            'hover:bg-bulma/[0.08] transition',
+            'hover:bg-bulma/[0.04] transition',
             width ? width : 'w-full',
-            (isSelected || isActive) && 'bg-bulma/[0.08]'
+            (innerSelected || isActive) && 'bg-bulma/[0.04]'
           )}
           {...((!as || as === 'button') && { type: 'button' })}
           {...rest}
@@ -101,7 +106,10 @@ const MultiTitle: React.FC<MultiTitleProps> = ({ title, text }) => {
 };
 
 const Radio: React.FC<CheckboxRadioProps> = ({ isSelected }) => {
-  const { selected = isSelected } = useMenuItemContext('Menu.Items');
+  const { selected = isSelected, setNoBg } = useMenuItemContext('Menu.Items');
+  useEffect(() => {
+    setNoBg && setNoBg(false);
+  }, []);
   return (
     <span className="flex w-6 h-6 justify-center items-center">
       <span
@@ -122,7 +130,10 @@ const Radio: React.FC<CheckboxRadioProps> = ({ isSelected }) => {
 };
 
 const Checkbox: React.FC<CheckboxRadioProps> = ({ isSelected }) => {
-  const { selected = isSelected } = useMenuItemContext('Menu.Items');
+  const { selected = isSelected, setNoBg } = useMenuItemContext('Menu.Items');
+  useEffect(() => {
+    setNoBg && setNoBg(false);
+  }, []);
   return (
     <span className="flex w-6 h-6 justify-center items-center">
       <span

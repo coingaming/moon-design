@@ -11,15 +11,17 @@ const people = [
 ];
 
 const Example = () => {
-  const [selected, setSelected] = useState(people[0]);
+  const [option, setOption] = useState(null);
   return (
     <div className="w-56 h-80">
-      <Dropdown value={selected} onChange={setSelected}>
+      <Dropdown value={option} onChange={setOption}>
         <Dropdown.Trigger>
-          <span>{selected?.name}</span>
+          <span className="p-2 cursor-pointer hover:text-piccolo">
+            {option ? option?.name : 'Choose a name...'}
+          </span>
         </Dropdown.Trigger>
 
-        <Dropdown.Options static>
+        <Dropdown.Options>
           {people.map((person, index) => (
             <Dropdown.Option value={person} index={index}>
               {({ selected, active }) => (

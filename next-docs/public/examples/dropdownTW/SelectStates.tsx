@@ -11,22 +11,17 @@ const people = [
 ];
 
 const Example = () => {
-  const [option, setOption] = useState(null);
-  const [option2, setOption2] = useState(null);
-  const [option3, setOption3] = useState(null);
-  const [option4, setOption4] = useState(null);
+  const [selected, setSelected] = useState(people[2]);
+  const [selected2, setSelected2] = useState(people[0]);
+  const [selected3, setSelected3] = useState(null);
+  const [selected4, setSelected4] = useState(null);
   return (
-    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
-      <Dropdown value={option} onChange={setOption} size="sm">
+    <div className="flex flex-col lg:flex-row justify-around items-center w-full gap-2">
+      <Dropdown value={selected} onChange={setSelected} isError={true}>
         {({ open }) => (
           <>
-            <Dropdown.Select
-              open={open}
-              label="Small"
-              placeholder="Choose an option"
-              data-test="data-test"
-            >
-              {option?.name}
+            <Dropdown.Select open={open} label="Error">
+              {selected?.name}
             </Dropdown.Select>
 
             <Dropdown.Options>
@@ -34,8 +29,7 @@ const Example = () => {
                 <Dropdown.Option value={person} index={index}>
                   {({ selected, active }) => (
                     <MenuItem isActive={active} isSelected={selected}>
-                      <MenuItem.Title>{person.name}</MenuItem.Title>
-                      <MenuItem.Radio isSelected={selected} />
+                      {person.name}
                     </MenuItem>
                   )}
                 </Dropdown.Option>
@@ -46,24 +40,18 @@ const Example = () => {
         )}
       </Dropdown>
 
-      <Dropdown value={option2} onChange={setOption2}>
+      <Dropdown value={selected2} onChange={setSelected2} disabled={true}>
         {({ open }) => (
           <>
-            <Dropdown.Select
-              open={open}
-              label="Medium"
-              placeholder="Choose an option"
-              data-test="data-test"
-            >
-              {option2?.name}
+            <Dropdown.Select open={open} label="Disabled">
+              {selected2?.name}
             </Dropdown.Select>
             <Dropdown.Options>
               {people.map((person, index) => (
                 <Dropdown.Option value={person} index={index}>
                   {({ selected, active }) => (
                     <MenuItem isActive={active} isSelected={selected}>
-                      <MenuItem.Title>{person.name}</MenuItem.Title>
-                      <MenuItem.Radio isSelected={selected} />
+                      {person.name}
                     </MenuItem>
                   )}
                 </Dropdown.Option>
@@ -74,53 +62,47 @@ const Example = () => {
         )}
       </Dropdown>
 
-      <Dropdown value={option3} onChange={setOption3}>
+      <Dropdown value={selected3} onChange={setSelected3}>
         {({ open }) => (
           <>
             <Dropdown.Select
               open={open}
-              label="Large"
-              placeholder="Choose an option"
-              data-test="data-test"
+              placeholder="Without Label and Hint message"
             >
-              {option3?.name}
+              {selected3?.name}
             </Dropdown.Select>
             <Dropdown.Options>
               {people.map((person, index) => (
                 <Dropdown.Option value={person} index={index}>
                   {({ selected, active }) => (
                     <MenuItem isActive={active} isSelected={selected}>
-                      <MenuItem.Title>{person.name}</MenuItem.Title>
-                      <MenuItem.Radio isSelected={selected} />
+                      {person.name}
                     </MenuItem>
                   )}
                 </Dropdown.Option>
               ))}
             </Dropdown.Options>
-            <Dropdown.Hint>Informative message holder</Dropdown.Hint>
           </>
         )}
       </Dropdown>
 
-      <Dropdown value={option4} onChange={setOption4} size="xl">
+      <Dropdown value={selected4} onChange={setSelected4}>
         {({ open }) => (
           <>
             <Dropdown.Select
               open={open}
-              label="xLarge"
+              label="List options width"
               placeholder="Choose an option"
-              data-test="data-test"
             >
-              {option4?.name}
+              {selected4?.name}
             </Dropdown.Select>
 
-            <Dropdown.Options>
+            <Dropdown.Options menuWidth="w-40">
               {people.map((person, index) => (
                 <Dropdown.Option value={person} index={index}>
                   {({ selected, active }) => (
                     <MenuItem isActive={active} isSelected={selected}>
-                      <MenuItem.Title>{person.name}</MenuItem.Title>
-                      <MenuItem.Radio isSelected={selected} />
+                      {person.name}
                     </MenuItem>
                   )}
                 </Dropdown.Option>

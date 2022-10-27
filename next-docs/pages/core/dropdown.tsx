@@ -3,7 +3,9 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/dropdownTW/Default';
+import OptionsVariants from '../../public/examples/dropdownTW/OptionsVariants';
 import Select from '../../public/examples/dropdownTW/Select';
+import SelectStates from '../../public/examples/dropdownTW/SelectStates';
 import TriggerElements from '../../public/examples/dropdownTW/TriggerElements';
 import useExamples from '../../utils/useExamples';
 
@@ -33,10 +35,21 @@ const Example = () => {
         code={examples ? examples.TriggerElements : 'Loading'}
       />
       <Preview
+        title="Example layouts for options"
+        preview={<OptionsVariants />}
+        code={examples ? examples.OptionsVariants : 'Loading'}
+      />
+      <Preview
         title="Select"
         preview={<Select />}
         code={examples ? examples.Select : 'Loading'}
       />
+      <Preview
+        title="Different states for Select"
+        preview={<SelectStates />}
+        code={examples ? examples.SelectStates : 'Loading'}
+      />
+
       <PropsTable
         title="Label props"
         data={[

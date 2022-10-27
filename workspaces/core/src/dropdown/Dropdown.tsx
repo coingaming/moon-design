@@ -1,4 +1,12 @@
-import React, { Fragment, createContext, useContext, useRef } from 'react';
+import React, {
+  Fragment,
+  createContext,
+  useContext,
+  useRef,
+  useEffect,
+  useCallback,
+  useMemo,
+} from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton } from '../index';
@@ -56,13 +64,20 @@ const DropdownRoot: React.FC<DropdownRootProps> = ({
 }) => {
   const referenceElement = useRef(null);
   const popperElement = useRef(null);
-  let { styles, attributes } = usePopper(
-    referenceElement.current,
-    popperElement.current,
-    {
-      placement: 'bottom-start',
-    }
+
+  const [anchorEl, setAnchorEl] = React.useState(referenceElement.current);
+  const [popperElementRef, setPopperElementRef] = React.useState(
+    popperElement.current
   );
+
+  useEffect(() => {
+    setAnchorEl(referenceElement.current);
+    setPopperElementRef(popperElement.current);
+  });
+
+  let { styles, attributes } = usePopper(anchorEl, popperElementRef, {
+    placement: 'bottom-start',
+  });
 
   const states = {
     value: value,
@@ -77,6 +92,7 @@ const DropdownRoot: React.FC<DropdownRootProps> = ({
     },
   };
 
+  console.log('states', states);
   return (
     <DropdownContext.Provider value={states}>
       <div className="w-full">
@@ -168,11 +184,11 @@ const Select: React.FC<SelectProps> = ({
   value,
   label,
   placeholder,
+  children,
   ...rest
 }) => {
   const { size, pooper, isError, disabled } =
     useDropdownContext('Dropdown.Select');
-  console.log('Dropdown: disabled ', disabled);
   if (size === 'xl') {
     return (
       <div ref={pooper?.referenceElement}>
@@ -186,8 +202,8 @@ const Select: React.FC<SelectProps> = ({
           >
             <SelectButton.Input>
               <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
-              {value ? (
-                <SelectButton.Value>{value}</SelectButton.Value>
+              {children ? (
+                <SelectButton.Value>{children}</SelectButton.Value>
               ) : (
                 <SelectButton.Placeholder>
                   {placeholder}
@@ -214,8 +230,8 @@ const Select: React.FC<SelectProps> = ({
             {...rest}
           >
             <SelectButton.Input>
-              {value ? (
-                <SelectButton.Value>{value}</SelectButton.Value>
+              {children ? (
+                <SelectButton.Value>{children}</SelectButton.Value>
               ) : (
                 <SelectButton.Placeholder>
                   {placeholder}

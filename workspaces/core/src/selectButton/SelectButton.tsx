@@ -72,10 +72,6 @@ const SelectButtonRoot: React.FC<SelectButtonProps> = ({
     idDisabled: idDisabled,
     ...rest,
   };
-
-  console.log('SelectButtonRoot: disabled', idDisabled);
-  console.log('SelectButtonRoot: states', states);
-
   return (
     <SelectButtonContext.Provider value={states}>
       <div className="relative">{children}</div>
@@ -86,7 +82,6 @@ const SelectButtonRoot: React.FC<SelectButtonProps> = ({
 const Input: React.FC = ({ children }) => {
   const { size, isError, idDisabled, ...rest } =
     useSelectButtonContext('SelectButton.Input');
-  console.log('SelectButton: disabled ', idDisabled);
   return (
     <button
       {...rest}
@@ -98,7 +93,7 @@ const Input: React.FC = ({ children }) => {
         getSelectSize(size),
         isError &&
           'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-        idDisabled && 'opacity-30 cursor-not-allowed'
+        idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input'
       )}
     >
       <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
