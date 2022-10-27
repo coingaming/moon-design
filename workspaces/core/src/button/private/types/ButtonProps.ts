@@ -18,6 +18,7 @@ export type ButtonSettingsProps = {
 type ButtonProps<C extends React.ElementType> = {
   as?: C;
   fullWidth?: boolean;
+  customClassName?: string;
 } & ButtonSettingsProps;
 
 type PolymorphicComponentProp<C extends React.ElementType, Props = {}> = {};
