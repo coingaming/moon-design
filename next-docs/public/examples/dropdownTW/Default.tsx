@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import { Dropdown, MenuItem } from '@heathmont/moon-core-tw';
 
+type People = {
+  name?: string;
+};
+
 const people = [
   { name: 'Wade Cooper' },
   { name: 'Arlene Mccoy' },
@@ -11,13 +15,13 @@ const people = [
 ];
 
 const Example = () => {
-  const [option, setOption] = useState(null);
+  const [option, setOption] = useState<People>({ name: 'Choose a name...' });
   return (
     <div className="w-56 h-80">
       <Dropdown value={option} onChange={setOption}>
         <Dropdown.Trigger>
           <span className="p-2 cursor-pointer hover:text-piccolo">
-            {option ? option?.name : 'Choose a name...'}
+            {option?.name}
           </span>
         </Dropdown.Trigger>
 
