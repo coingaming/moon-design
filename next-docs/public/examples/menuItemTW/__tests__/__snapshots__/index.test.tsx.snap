@@ -5,7 +5,7 @@ exports[`Loader renders as link 1`] = `
   className="w-56"
 >
   <a
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     href="#"
   >
     Menu item text
@@ -15,7 +15,7 @@ exports[`Loader renders as link 1`] = `
 
 exports[`Loader renders default 1`] = `
 <button
-  className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+  className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
   type="button"
 >
   Menu item text
@@ -28,49 +28,49 @@ Array [
     className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       Vision
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       Getting started
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full bg-bulma/[0.08]"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
       type="button"
     >
       How to contribute?
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       Colours palette
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       Tokens
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       Transform SVG
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       Manifest
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full bg-bulma/[0.08]"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
       type="button"
     >
       Tailwind
@@ -91,7 +91,7 @@ Array [
       </svg>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -117,7 +117,7 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -143,7 +143,7 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -169,7 +169,7 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -195,7 +195,7 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -225,7 +225,7 @@ Array [
     className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -248,7 +248,7 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -283,7 +283,7 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -318,7 +318,7 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -354,7 +354,7 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -390,7 +390,7 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -426,7 +426,7 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -465,7 +465,7 @@ Array [
       className="flex flex-col gap-2 rounded-moon-s-lg"
     >
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
@@ -488,7 +488,7 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <svg
@@ -524,7 +524,7 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <svg
@@ -560,7 +560,7 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <svg
@@ -600,7 +600,7 @@ Array [
       className="flex flex-col gap-2 rounded-moon-s-lg "
     >
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
@@ -623,7 +623,7 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <svg
@@ -668,7 +668,7 @@ exports[`Loader renders multi line 1`] = `
   className="w-94 bg-white flex flex-col gap-3 rounded-moon-s-lg p-6"
 >
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full bg-bulma/[0.08]"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
     type="button"
   >
     <span
@@ -712,7 +712,7 @@ exports[`Loader renders multi line 1`] = `
     </span>
   </button>
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     type="button"
   >
     <span
@@ -758,7 +758,7 @@ exports[`Loader renders multi line 1`] = `
     className="w-80 border-px border-solid border-beerus left-6 top-40  self-stretch"
   />
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     type="button"
   >
     <span
@@ -801,7 +801,7 @@ exports[`Loader renders multi line 1`] = `
     </span>
   </button>
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     type="button"
   >
     <span
@@ -852,7 +852,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span>
@@ -903,7 +903,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       type="button"
     >
@@ -968,7 +968,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="сheckbox"
       type="button"
@@ -991,7 +991,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="сheckbox"
       type="button"
@@ -1019,7 +1019,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -1048,7 +1048,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -1082,7 +1082,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -1101,7 +1101,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -1140,7 +1140,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="radio"
       type="button"
@@ -1167,7 +1167,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="radio"
       type="button"
