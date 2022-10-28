@@ -1,6 +1,13 @@
-import React, { createContext, useContext, useEffect, useState } from 'react';
+import React, {
+  createContext,
+  useContext,
+  useEffect,
+  useReducer,
+  useCallback,
+} from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import classNames from '../private/utils/classnames';
+import stateReducer from '../private/utils/stateReducer';
 
 type MenuItemProps = {
   width?: string;
@@ -18,7 +25,7 @@ type MenuItemComponentProps = <C extends React.ElementType = 'button'>(
 type MenuItemState = {
   selected?: boolean;
   active?: boolean;
-  setNoBg?: React.Dispatch<React.SetStateAction<boolean>>;
+  registerChild?: (child: string) => () => void;
 };
 
 type CheckboxRadioProps = {
@@ -58,16 +65,27 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
     ref?: PolymorphicRef<C>
   ) => {
     const Component = as || 'button';
-    const [bg, setBg] = useState(true);
     const states = {
       selected: isSelected,
       active: isActive,
-      setNoBg: setBg,
     };
 
-    const innerSelected = bg ? isSelected : false;
+    const [state, dispatch] = useReducer(stateReducer, {
+      childrens: [],
+    });
+
+    const registerChild = useCallback((child: string) => {
+      dispatch && dispatch({ type: 'RegisterChild', children: child });
+      return () =>
+        dispatch && dispatch({ type: 'UnregisterChild', children: child });
+    }, []);
+
+    const isNoBg = state.childrens?.find(
+      (name) => name === 'Radio' || name === 'Checkbox'
+    );
+    const innerSelected = isNoBg ? false : isSelected;
     return (
-      <MenuItemContext.Provider value={states}>
+      <MenuItemContext.Provider value={{ ...states, ...state, registerChild }}>
         <Component
           ref={ref}
           className={classNames(
@@ -87,6 +105,10 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
 );
 
 const Title: React.FC = ({ children }) => {
+  const { registerChild } = useMenuItemContext('MenuItem.Title');
+  useEffect(() => {
+    registerChild && registerChild('Title');
+  }, []);
   return (
     <span className="block grow text-start text-bulma overflow-hidden">
       {children}
@@ -95,6 +117,10 @@ const Title: React.FC = ({ children }) => {
 };
 
 const MultiTitle: React.FC<MultiTitleProps> = ({ title, text }) => {
+  const { registerChild } = useMenuItemContext('MenuItem.MultiTitle');
+  useEffect(() => {
+    registerChild && registerChild('MultiTitle');
+  }, []);
   return (
     <span className="block grow text-start text-bulma overflow-hidden">
       <span className="block text-bulma text-moon-14">{title}</span>
@@ -106,9 +132,10 @@ const MultiTitle: React.FC<MultiTitleProps> = ({ title, text }) => {
 };
 
 const Radio: React.FC<CheckboxRadioProps> = ({ isSelected }) => {
-  const { selected = isSelected, setNoBg } = useMenuItemContext('Menu.Items');
+  const { selected = isSelected, registerChild } =
+    useMenuItemContext('MenuItem.Items');
   useEffect(() => {
-    setNoBg && setNoBg(false);
+    registerChild && registerChild('Radio');
   }, []);
   return (
     <span className="flex w-6 h-6 justify-center items-center">
@@ -130,9 +157,10 @@ const Radio: React.FC<CheckboxRadioProps> = ({ isSelected }) => {
 };
 
 const Checkbox: React.FC<CheckboxRadioProps> = ({ isSelected }) => {
-  const { selected = isSelected, setNoBg } = useMenuItemContext('Menu.Items');
+  const { selected = isSelected, registerChild } =
+    useMenuItemContext('MenuItem.Checkbox');
   useEffect(() => {
-    setNoBg && setNoBg(false);
+    registerChild && registerChild('Checkbox');
   }, []);
   return (
     <span className="flex w-6 h-6 justify-center items-center">

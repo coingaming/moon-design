@@ -4,8 +4,6 @@ import React, {
   useContext,
   useRef,
   useEffect,
-  useCallback,
-  useMemo,
 } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
@@ -92,7 +90,6 @@ const DropdownRoot: React.FC<DropdownRootProps> = ({
     },
   };
 
-  console.log('states', states);
   return (
     <DropdownContext.Provider value={states}>
       <div className="w-full">
