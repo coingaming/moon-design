@@ -22,6 +22,7 @@ const Button = <C extends React.ElementType = 'button'>({
   disabled,
   animation,
   as,
+  className,
   ...rest
 }: Props<C>) => {
   const [isHover, setIsHover] = useState(false);
@@ -41,6 +42,7 @@ const Button = <C extends React.ElementType = 'button'>({
       as={as}
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
+      customClassName={className}
       {...rest}
     >
       {hasAnimationContent ? (

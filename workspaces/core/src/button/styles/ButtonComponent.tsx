@@ -17,6 +17,7 @@ const ButtonComponent = <C extends React.ElementType>({
   disabled,
   animation,
   as,
+  customClassName,
   ...rest
 }: ButtonProps<C>) => {
   const Component = as || 'button';
@@ -28,7 +29,8 @@ const ButtonComponent = <C extends React.ElementType>({
         buttonVariants({ variant }),
         animation === 'pulse' && 'anim-pulse animate-[pulse2_1.5s_infinite]',
         animation === 'error' && errorAnimation(),
-        fullWidth && !iconOnly ? 'w-full' : ''
+        fullWidth && !iconOnly ? 'w-full' : '',
+        customClassName
       )}
       {...((!as || as === 'button') && { type: 'button' })}
       {...(disabled && { disabled })}

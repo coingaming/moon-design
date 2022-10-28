@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.11.1
+
+### Patch Changes
+
+- Components fixes
+
 ## 9.11.0
 
 ### Minor Changes
