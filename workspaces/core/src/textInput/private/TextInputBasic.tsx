@@ -1,18 +1,19 @@
 import React, { forwardRef } from 'react';
 import classNames from '../../private/utils/classnames';
-import TextInputProps from '../private/types/TextInputProps';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
+import getLabelSize from './utils/getLabelSize';
+import type TextInputProps from '../private/types/TextInputProps';
 
 const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
   (props, ref) => {
     const {
       id,
-      inputSize = 'md',
+      inputSize,
       type,
       disabled,
-      placeholder = ' ',
+      placeholder,
       label,
       hintText,
       isError,
@@ -23,7 +24,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
       isSharpBottomSide,
       isTopBottomBorderHidden,
       isSideBorderHidden,
-      backgroundColor = 'bg-gohan',
+      bgColor = 'bg-gohan',
       ...rest
     } = props;
     const inputProps = {
@@ -46,7 +47,8 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
             dir={dir}
             htmlFor={id}
             className={classNames(
-              'block text-moon-16 text-bulma pb-2',
+              'block text-bulma pb-2',
+              getLabelSize(inputSize),
               disabled && 'opacity-30 cursor-not-allowed'
             )}
           >
@@ -58,7 +60,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
           isError={isError}
           ref={ref}
           id={id}
-          backgroundColor={backgroundColor}
+          bgColor={bgColor}
           isRtl={dir === 'rtl'}
           {...inputProps}
         />

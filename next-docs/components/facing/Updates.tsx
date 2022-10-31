@@ -34,7 +34,7 @@ const Updates = () => (
         variant="wide"
         href="/gettingStarted"
         title="Learn how to get Moon Design System up and running in your project."
-        section=".tools"
+        section="tools"
       />
       <CardArticle
         variant="tall"

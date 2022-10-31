@@ -1,5 +1,6 @@
 import { LogoMoonDesignShort } from '@heathmont/moon-assets';
 import { GenericMenu } from '@heathmont/moon-icons-tw';
+import Link from 'next/link';
 import Breadcrumbs from './breadcrumbs/Breadcrumbs';
 
 type Props = {
@@ -17,11 +18,13 @@ const Header: React.FC<Props> = ({ openSidebar }) => (
         <span className="sr-only">Open sidebar</span>
         <GenericMenu className="text-moon-32" />
       </button>
-      <LogoMoonDesignShort fontSize="2rem" />
+      <Link href="/">
+        <a>
+          <LogoMoonDesignShort fontSize="2rem" />
+        </a>
+      </Link>
     </div>
-    <div className="relative z-10 hidden lg:block pb-12">
-      <Breadcrumbs />
-    </div>
+    <Breadcrumbs />
   </header>
 );
 

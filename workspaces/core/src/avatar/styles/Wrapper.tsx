@@ -9,23 +9,21 @@ const Wrapper: React.FC<AvatarProps> = ({
   size,
   imageUrl,
   color,
-  backgroundColor,
+  bgColor,
   isRounded,
-}) => {
-  return (
-    <div
-      className={classNames(
-        'overflow-hidden uppercase font-medium flex items-center justify-center bg-cover',
-        color && color,
-        backgroundColor && backgroundColor,
-        setWrapperSize(size),
-        setBorderRadius(size, isRounded)
-      )}
-      style={{ backgroundImage: `url('${imageUrl}')` }}
-    >
-      {children}
-    </div>
-  );
-};
+}) => (
+  <div
+    className={classNames(
+      'overflow-hidden uppercase font-medium flex items-center justify-center bg-cover',
+      color && color,
+      bgColor && bgColor,
+      setWrapperSize(size),
+      setBorderRadius(size, isRounded)
+    )}
+    style={{ backgroundImage: `url('${imageUrl}')` }}
+  >
+    {children}
+  </div>
+);
 
 export default Wrapper;

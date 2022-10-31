@@ -1,4 +1,3 @@
-import React from 'react';
 import classNames from '../../../utils/classNames';
 
 export interface IconProps {

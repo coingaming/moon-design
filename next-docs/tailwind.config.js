@@ -5,6 +5,7 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
     // './pages/templates/**/*.{js,ts,jsx,tsx}',
     './node_modules/@heathmont/moon-core-tw/**/*.{js,ts,jsx,tsx}',
+    './node_modules/@heathmont/moon-table-tw/**/*.{js,ts,jsx,tsx}',
   ],
   presets: [
     require('@heathmont/moon-core-tw/src/private/presets/ds-moon-preset'),
@@ -42,3 +43,4 @@ module.exports = {
   },
   plugins: [require('tailwindcss-rtl')],
 };
+//

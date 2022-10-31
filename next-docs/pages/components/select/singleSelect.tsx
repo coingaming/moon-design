@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Disabled from '../../../public/examples/select/singleReactSelect/Disabled';
 import Error from '../../../public/examples/select/singleReactSelect/Error';
@@ -17,6 +18,7 @@ export default function PageSelect() {
   return (
     <>
       <ComponentPageDescription title="Single Select">
+        <DeprecationWarning href="/core/select" name="Select" />
         <p>This Select based on react-select library.</p>
         <p>
           Select components are used for collecting user provided information

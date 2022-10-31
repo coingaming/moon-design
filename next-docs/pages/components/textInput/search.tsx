@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import SearchBgColor from '../../../public/examples/textInput/search/SearchBgColor';
 import SearchDisabled from '../../../public/examples/textInput/search/SearchDisabled';
@@ -17,6 +18,7 @@ export default function PageSearchInput() {
   return (
     <>
       <ComponentPageDescription title="Search">
+        <DeprecationWarning href="/core/textInput" name="TextInput" />
         <p>
           The TextInput wrapper component is used when you need to let users
           enter the text of some kind, such as their name or phone number etc.

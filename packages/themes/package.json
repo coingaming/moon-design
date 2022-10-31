@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/moon-themes",
-  "version": "9.2.5",
+  "version": "9.11.1",
   "sideEffects": false,
   "files": [
     "lib"
@@ -19,6 +19,7 @@
     "build:js:es": "tsc --project tsconfig.esm.json",
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
+  "dependencies": {},
   "peerDependencies": {
     "react": ">= 18.0.0",
     "react-dom": ">= 18.0.0",

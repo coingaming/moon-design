@@ -6,11 +6,12 @@ Array [
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
-    <div
-      className="relative h-full pointer-events-none"
+    <span
+      className="block relative h-full pointer-events-none"
     >
-      <div
+      <span
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <div
@@ -44,26 +45,27 @@ Array [
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
           />
         </div>
-      </div>
-      <div
-        className="opacity-0"
+      </span>
+      <span
+        className="block opacity-0"
       >
         Progress
-      </div>
-    </div>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      </span>
+    </span>
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
-    <div
-      className="relative h-full pointer-events-none"
+    <span
+      className="block relative h-full pointer-events-none"
     >
-      <div
+      <span
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <svg
@@ -81,38 +83,54 @@ Array [
             strokeLinejoin="round"
           />
         </svg>
-      </div>
-      <div
-        className="opacity-0"
+      </span>
+      <span
+        className="block opacity-0"
       >
         Success
-      </div>
-    </div>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      </span>
+    </span>
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary bg-chiChi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Error
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Pulse
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
 ]
+`;
+
+exports[`Button renders as link 1`] = `
+<a
+  className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+  href="/core/button"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+>
+  Link HTML element
+  <span
+    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+  />
+</a>
 `;
 
 exports[`Button renders default 1`] = `
@@ -120,10 +138,11 @@ exports[`Button renders default 1`] = `
   className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
+  type="button"
 >
   Default
-  <div
-    className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+  <span
+    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
 `;
@@ -133,10 +152,11 @@ exports[`Button renders default dark 1`] = `
   className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
+  type="button"
 >
   Default
-  <div
-    className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+  <span
+    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
 `;
@@ -149,10 +169,11 @@ exports[`Button renders default rtl 1`] = `
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Default
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
 </div>
@@ -161,12 +182,14 @@ exports[`Button renders default rtl 1`] = `
 exports[`Button renders disabled 1`] = `
 <button
   className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus opacity-30 cursor-not-allowed btn-primary"
+  disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
+  type="button"
 >
   Disabled
-  <div
-    className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+  <span
+    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
 `;
@@ -176,6 +199,7 @@ exports[`Button renders full width 1`] = `
   className="py-2 ps-4 pe-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
+  type="button"
 >
   Full width
   <svg
@@ -195,8 +219,8 @@ exports[`Button renders full width 1`] = `
       stroke="currentColor"
     />
   </svg>
-  <div
-    className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+  <span
+    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
 `;
@@ -207,6 +231,7 @@ Array [
     className="py-2 ps-2 pe-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -226,14 +251,15 @@ Array [
       />
     </svg>
     IconLeft
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
     className="py-2 ps-2 pe-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -253,14 +279,15 @@ Array [
       />
     </svg>
     IconLeft
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
     className="py-2 ps-4 pe-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     IconRight
     <svg
@@ -280,14 +307,15 @@ Array [
         stroke="currentColor"
       />
     </svg>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
     className="py-2 ps-4 pe-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     IconRight
     <svg
@@ -307,14 +335,15 @@ Array [
         stroke="currentColor"
       />
     </svg>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
     className="p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -333,14 +362,15 @@ Array [
         stroke="currentColor"
       />
     </svg>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
     className="p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     <svg
       className="text-moon-24"
@@ -359,8 +389,8 @@ Array [
         stroke="currentColor"
       />
     </svg>
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
 ]
@@ -369,53 +399,143 @@ Array [
 exports[`Button renders sizes 1`] = `
 Array [
   <button
-    className="py-1 px-2 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="p-1 pe-2 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
-    xSmall
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <svg
+      className="text-moon-16"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    XS Button
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-1 px-3 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="p-1 pe-3 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
-    Small
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <svg
+      className="text-moon-24"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    SM Button
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="py-2 ps-2 pe-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
-    Medium is default
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <svg
+      className="text-moon-24"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    MD Button is default
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-3 px-4 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="py-3 ps-3 pe-4 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
-    Large
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <svg
+      className="text-moon-24"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    LG Button
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-4 px-6 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="py-4 ps-4 pe-6 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
-    xLarge
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <svg
+      className="text-moon-24"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    XL Button
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
 ]
@@ -427,40 +547,44 @@ Array [
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Primary is default
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Secondary
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Tertiary
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
     className="py-2 px-4 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
+    type="button"
   >
     Ghost
-    <div
-      className="z-[-1] absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
 ]

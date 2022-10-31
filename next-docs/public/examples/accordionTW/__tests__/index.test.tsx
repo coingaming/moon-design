@@ -9,6 +9,7 @@ import {
   ThemeProvider,
 } from '@heathmont/moon-themes';
 import renderer, { act } from 'react-test-renderer';
+import Background from '../Background';
 import Default from '../Default';
 import ContentOutside from '../ContentOutside';
 import ContentHeader from '../ContentHeader';
@@ -89,9 +90,14 @@ describe('Accordion', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
     const testInstance = testRenderer.root;
     act(() => {
-      const button = testInstance.findByType('button').parent;
+      const button = testInstance.findByType('button');
       button && button?.props?.onClick();
     });
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders with background', () => {
+    const testRenderer = renderer.create(renderWithTheme(<Background />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

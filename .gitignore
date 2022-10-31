@@ -50,3 +50,7 @@ docs/public/
 
 #template
 /next-docs/styles/output.css
+
+#personal DS Metrics
+/next-docs/public/metrics/_token.js
+/next-docs/public/metrics/data

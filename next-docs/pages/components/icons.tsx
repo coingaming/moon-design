@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import IconsBlock from '../../components/IconsBlock';
 import IconsImportHelper from '../../components/IconsImportHelper';
 import PageSection from '../../components/PageSection';
@@ -46,7 +48,9 @@ const PageIcons = () => {
   const examples = useExamples('icons');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Icons</h1>
+      <ComponentPageDescription title="Icons">
+        <DeprecationWarning href="/core/icons" name="Icons" />
+      </ComponentPageDescription>
       <Preview
         title="Sizes and colours"
         preview={<DefaultIconSet />}

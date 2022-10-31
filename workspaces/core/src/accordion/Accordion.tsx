@@ -11,17 +11,16 @@ const Accordion = ({
   title,
   openByDefault,
   children,
-  disableOpen,
+  disabled,
   headerContent,
   withButton = true,
   isContentInside = true,
   size = 'md',
-  backgroundColor = 'gohan'
+  bgColor = 'bg-gohan',
 }: AccordionProps) => {
-  const backgroundColorClass = `bg-${backgroundColor}`;
   const [isOpen, setIsOpen] = useState(openByDefault);
   function handleState() {
-    if (!disableOpen) {
+    if (!disabled) {
       setIsOpen(!isOpen);
     }
   }
@@ -29,52 +28,54 @@ const Accordion = ({
     <div
       className={classNames(
         'w-full rounded-moon-s-sm h-max flex flex-col items-center',
-        isContentInside ? backgroundColorClass : 'transparent',
+        isContentInside ? bgColor : 'transparent',
         setPadding(isContentInside, size)
       )}
     >
-      <div
+      <button
+        type="button"
         className={classNames(
-          backgroundColorClass + ' w-full flex items-center relative gap-1',
-          disableOpen ? 'cursor-not-allowed' : 'cursor-pointer',
-          isContentInside ? backgroundColorClass : 'transparent rounded-moon-s-sm',
-          isContentInside ? '' : setPadding(true, size)
+          bgColor,
+          'flex items-center relative w-full gap-1',
+          disabled ? 'cursor-not-allowed opacity-30' : 'cursor-pointer',
+          isContentInside ? bgColor : 'transparent rounded-moon-s-sm',
+          !isContentInside && setPadding(true, size)
         )}
         onClick={handleState}
+        aria-expanded={isOpen || false}
+        {...(disabled && { disabled })}
       >
         {title && (
-          <h3
+          <span
+            role="heading"
+            aria-level={3}
             className={classNames(
-              'flex-1 font-medium text-bulma',
+              'flex-1 font-medium text-bulma text-start',
               setFont(size)
             )}
           >
             {title}
-          </h3>
+          </span>
         )}
         {headerContent && <React.Fragment>{headerContent}</React.Fragment>}
         {withButton && (
-          <button
-            type="button"
-            disabled={disableOpen}
-            className={classNames(
-              'align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent ' + backgroundColorClass,
-              disableOpen ? 'cursor-not-allowed' : 'cursor-pointer'
-            )}
+          <span
+            aria-hidden="true"
+            className="flex items-center justify-center w-6 h-6"
           >
             <ControlsChevronRight
               className={classNames(
-                'text-trunks text-moon-24 transition-transform transition-200',
+                'text-trunks text-moon-16 transition-transform transition-200',
                 setOpenIcon(isOpen)
               )}
             />
-          </button>
+          </span>
         )}
-      </div>
+      </button>
       <div
         className={classNames(
-          'overflow-hidden w-full text-bulma',
-          isOpen ? 'h-full' : 'h-0',
+          'overflow-hidden w-full text-bulma transition-all',
+          isOpen ? 'h-auto opacity-100' : 'h-0 opacity-0',
           isOpen && setMargin(size)
         )}
       >

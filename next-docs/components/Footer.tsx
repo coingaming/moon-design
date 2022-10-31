@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Logo from './sidebar/Logo';
 
 const Footer = () => (
@@ -6,26 +5,38 @@ const Footer = () => (
     <div className="flex gap-x-8 gap-y-6 flex-wrap justify-center items-center">
       <Logo height={16} />
       <div className="flex gap-x-8 gap-y-4 flex-wrap justify-center items-center">
-        <Link href="https://github.com/coingaming/moon-design">
-          <a className="hover:underline" target="_blank" rel="noreferrer">
-            Github
-          </a>
-        </Link>
-        <Link href="https://www.figma.com/community/file/1002945721703152933">
-          <a className="hover:underline" target="_blank" rel="noreferrer">
-            Figma
-          </a>
-        </Link>
-        <Link href="https://moonds.medium.com/">
-          <a className="hover:underline" target="_blank" rel="noreferrer">
-            Medium
-          </a>
-        </Link>
-        <Link href="https://www.linkedin.com/company/moon-io/">
-          <a className="hover:underline" target="_blank" rel="noreferrer">
-            LinkedIn
-          </a>
-        </Link>
+        <a
+          href="https://github.com/coingaming/moon-design"
+          className="hover:underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
+        <a
+          href="https://www.figma.com/community/file/1002945721703152933"
+          className="hover:underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Figma
+        </a>
+        <a
+          href="https://moonds.medium.com/"
+          className="hover:underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Medium
+        </a>
+        <a
+          href="https://www.linkedin.com/company/moon-io/"
+          className="hover:underline"
+          target="_blank"
+          rel="noreferrer"
+        >
+          LinkedIn
+        </a>
       </div>
     </div>
     <p>

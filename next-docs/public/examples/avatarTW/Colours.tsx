@@ -3,8 +3,8 @@ import { Avatar } from '@heathmont/moon-core-tw';
 const Example = () => (
   <>
     <Avatar />
-    <Avatar color="text-goten" backgroundColor="bg-piccolo" />
-    <Avatar color="text-goten" backgroundColor="bg-chiChi" />
+    <Avatar color="text-goten" bgColor="bg-piccolo" />
+    <Avatar color="text-goten" bgColor="bg-chiChi" />
   </>
 );
 

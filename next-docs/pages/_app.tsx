@@ -6,6 +6,7 @@ import '../styles/custom.css';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import Layout from '../components/Layout';
+import SearchProvider from '../components/search/SearchProvider';
 import { DocsThemeProvider } from '../components/themes/DocsThemeProvider';
 import type { AppProps } from 'next/app';
 
@@ -24,22 +25,29 @@ function MyApp({ Component, pageProps }: MyAppProps) {
 
   return (
     <>
-      {/* TODO Add favicon.ico*/}
       <Head>
         <title>Moon Design System</title>
         <meta name="description" content="Moon Design System" />
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favs/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favs/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favs/favicon-16x16.png" />
+        <link rel="manifest" href="/favs/site.webmanifest" />
+        <link rel="mask-icon" href="/favs/safari-pinned-tab.svg" />
+        <link rel="shortcut icon" href="/favs/favicon.ico" />
+        <meta name="msapplication-config" content="/favs/browserconfig.xml" />
       </Head>
-
-      <DocsThemeProvider>
-        {getLayout ? (
-          getLayout(<Component {...pageProps} />)
-        ) : (
-          <Layout>
-            <Component {...pageProps} />
-          </Layout>
-        )}
-      </DocsThemeProvider>
+      <SearchProvider>
+        <DocsThemeProvider>
+          {getLayout ? (
+            getLayout(<Component {...pageProps} />)
+          ) : (
+            <Layout>
+              <Component {...pageProps} />
+            </Layout>
+          )}
+        </DocsThemeProvider>
+      </SearchProvider>
     </>
   );
 }

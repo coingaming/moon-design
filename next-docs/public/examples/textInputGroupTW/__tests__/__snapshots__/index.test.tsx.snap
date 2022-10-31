@@ -6,20 +6,20 @@ exports[`TextInputGroup renders 1`] = `
   dir="ltr"
 >
   <div
-    className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
   >
     <input
-      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
       dir="ltr"
       placeholder="Country"
       type="text"
     />
   </div>
   <div
-    className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
   >
     <input
-      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
       dir="ltr"
       placeholder="Phone"
       type="text"
@@ -34,20 +34,20 @@ exports[`TextInputGroup renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
   >
     <input
-      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
       dir="rtl"
       placeholder="Country"
       type="text"
     />
   </div>
   <div
-    className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
   >
     <input
-      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
       dir="rtl"
       placeholder="Phone"
       type="text"
@@ -65,20 +65,20 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
     dir="ltr"
   >
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
       <input
-        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
         dir="ltr"
         placeholder="Country"
         type="text"
       />
     </div>
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
       <input
-        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
         dir="ltr"
         placeholder="Phone"
         type="text"
@@ -86,13 +86,13 @@ exports[`TextInputGroup renders and allows access to DOM and values for text fie
     </div>
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-trunks"
+    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
   >
     Country: 
     Estonia
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-trunks"
+    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
   >
     Phone: 
     +372 45678901
@@ -106,29 +106,29 @@ exports[`TextInputGroup renders different types 1`] = `
   dir="ltr"
 >
   <div
-    className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
   >
     <input
-      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
       dir="ltr"
       placeholder="Email"
       type="email"
     />
   </div>
   <div
-    className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
   >
     <div
-      className="w-full max-w-full relative  rounded-moon-i-sm"
+      className="w-full max-w-full relative rounded-moon-i-xs"
     >
       <input
-        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
         dir="ltr"
         placeholder="Password"
         type="password"
       />
       <div
-        className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer right-[0.938rem]"
+        className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer right-4"
         onClick={[Function]}
         role="alert"
       />
@@ -146,20 +146,20 @@ exports[`TextInputGroup renders sizes 1`] = `
     dir="ltr"
   >
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
       <input
-        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
         dir="ltr"
         placeholder="Country"
         type="text"
       />
     </div>
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
       <input
-        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
         dir="ltr"
         placeholder="Phone"
         type="text"
@@ -171,7 +171,7 @@ exports[`TextInputGroup renders sizes 1`] = `
     dir="ltr"
   >
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
@@ -181,7 +181,7 @@ exports[`TextInputGroup renders sizes 1`] = `
       />
     </div>
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
@@ -196,13 +196,13 @@ exports[`TextInputGroup renders sizes 1`] = `
     dir="ltr"
   >
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-md"
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="w-full max-w-full relative  bg-gohan rounded-moon-i-md"
+        className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
       >
         <input
-          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-md hover:rounded-moon-i-md focus:rounded-moon-i-md invalid:rounded-moon-i-md before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
           dir="ltr"
           placeholder="Country"
           type="text"
@@ -213,13 +213,13 @@ exports[`TextInputGroup renders sizes 1`] = `
       </div>
     </div>
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-md"
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="w-full max-w-full relative  bg-gohan rounded-moon-i-md"
+        className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
       >
         <input
-          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-md hover:rounded-moon-i-md focus:rounded-moon-i-md invalid:rounded-moon-i-md before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
           dir="ltr"
           placeholder="Phone"
           type="text"
@@ -242,20 +242,20 @@ exports[`TextInputGroup renders vertical 1`] = `
     dir="ltr"
   >
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
       <input
-        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-bl-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-bbb-hidden"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-bl-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-bbb-hidden"
         dir="ltr"
         placeholder="Country"
         type="text"
       />
     </div>
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
       <input
-        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-tr-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-tbb-hidden"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-tr-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-tbb-hidden"
         dir="ltr"
         placeholder="Phone"
         type="text"
@@ -267,13 +267,13 @@ exports[`TextInputGroup renders vertical 1`] = `
     dir="ltr"
   >
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-md"
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="w-full max-w-full relative  bg-gohan rounded-moon-i-md"
+        className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
       >
         <input
-          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-md hover:rounded-moon-i-md focus:rounded-moon-i-md invalid:rounded-moon-i-md before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-bl-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-bbb-hidden"
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-bl-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-bbb-hidden"
           dir="ltr"
           placeholder="Country"
           type="text"
@@ -284,13 +284,13 @@ exports[`TextInputGroup renders vertical 1`] = `
       </div>
     </div>
     <div
-      className="w-full max-w-full relative z-0 rounded-moon-i-md"
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="w-full max-w-full relative  bg-gohan rounded-moon-i-md"
+        className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
       >
         <input
-          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-md hover:rounded-moon-i-md focus:rounded-moon-i-md invalid:rounded-moon-i-md before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tl-none rounded-tr-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-tbb-hidden"
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tl-none rounded-tr-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-tbb-hidden"
           dir="ltr"
           placeholder="Phone"
           type="text"

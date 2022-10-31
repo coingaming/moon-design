@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Buttons from '../../public/examples/switch/Buttons';
 import Default from '../../public/examples/switch/Default';
@@ -18,6 +19,7 @@ export default function PageSwitch({ isRtl }: Props) {
   return (
     <>
       <ComponentPageDescription title="Switch">
+        <DeprecationWarning href="/core/switch" name="Switch" />
         <p>
           Switch is a control that is used to quickly switch between two
           possible states. Switches are only used for these binary actions that

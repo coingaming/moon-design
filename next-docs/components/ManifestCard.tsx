@@ -14,7 +14,7 @@ const ManifestCard: React.FC<Props> = ({
   <div
     className={classNames(
       'theme-moon-light flex flex-col gap-4 py-6 px-8 rounded-moon-s-lg',
-      isHighlighted ? 'bg-frieza text-goten' : 'bg-gohan text-bulma'
+      isHighlighted ? 'bg-frieza text-goten' : 'bg-goku text-bulma'
     )}
   >
     <h3 className="text-moon-24 font-medium">{title}</h3>

@@ -9,26 +9,30 @@ type Props = {
 
 const RecursiveNavItem: React.FC<Props> = ({ item, pathname }) => {
   const { name, href, children } = item;
-  const isCurrent = href === pathname;
-  if (!children) {
+  const gettingStartedPathname =
+    pathname === '/gettingStartedDevs' || pathname === '/gettingStartedSc'
+      ? '/gettingStarted'
+      : pathname;
+  const isCurrent = href === gettingStartedPathname;
+  if (children) {
     return (
-      <Link key={name} href={href} isActive={isCurrent}>
-        {name}
-      </Link>
+      <Accordion title={name} isContentInside={false}>
+        <div className="flex flex-col items-start gap-2 ps-8">
+          {children.map((subItem: ItemType) => (
+            <RecursiveNavItem
+              key={subItem.name}
+              item={subItem}
+              pathname={pathname}
+            />
+          ))}
+        </div>
+      </Accordion>
     );
   }
   return (
-    <Accordion title={name} isContentInside={false}>
-      <div className="flex flex-col gap-2 ps-8">
-        {children.map((subItem: ItemType) => (
-          <RecursiveNavItem
-            key={subItem.name}
-            item={subItem}
-            pathname={pathname}
-          />
-        ))}
-      </div>
-    </Accordion>
+    <Link key={name} href={href} isActive={isCurrent}>
+      {name}
+    </Link>
   );
 };
 

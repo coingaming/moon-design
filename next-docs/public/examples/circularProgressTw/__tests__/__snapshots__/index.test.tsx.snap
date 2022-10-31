@@ -1,0 +1,1259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton renders Colors in Dark theme 1`] = `
+Array [
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-whis"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-dodoria"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-roshi"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+]
+`;
+
+exports[`RadioButton renders Colors in Light theme 1`] = `
+Array [
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-whis"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-dodoria"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-roshi"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+]
+`;
+
+exports[`RadioButton renders Sizes in Dark theme 1`] = `
+Array [
+  <svg
+    fontSize="1rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="1.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="3rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+]
+`;
+
+exports[`RadioButton renders Sizes in Light theme 1`] = `
+Array [
+  <svg
+    fontSize="1rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="1.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="3rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+]
+`;
+
+exports[`RadioButton renders Values in Dark theme 1`] = `
+Array [
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "216.76989309769573px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "144.51326206513048px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+]
+`;
+
+exports[`RadioButton renders Values in Light theme 1`] = `
+Array [
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "216.76989309769573px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "144.51326206513048px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "72.25663103256524px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+  <svg
+    fontSize="2.5rem"
+    style={
+      Object {
+        "height": "1em",
+        "verticalAlign": "middle",
+        "width": "1em",
+      }
+    }
+    viewBox="0 0 100 100"
+  >
+    <path
+      className="stroke-[0.5rem] stroke-trunks/[.24]"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+        }
+      }
+    />
+    <path
+      className="stroke-[0.5rem] stroke-piccolo"
+      d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+      stroke-linecap="round"
+      style={
+        Object {
+          "fillOpacity": 0,
+          "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+          "strokeDashoffset": "0px",
+          "transition": "stroke-dashoffset 0.5s ease 0s",
+        }
+      }
+    />
+  </svg>,
+]
+`;
+
+exports[`RadioButton renders default in Dark theme 1`] = `
+<svg
+  fontSize="2.5rem"
+  style={
+    Object {
+      "height": "1em",
+      "verticalAlign": "middle",
+      "width": "1em",
+    }
+  }
+  viewBox="0 0 100 100"
+>
+  <path
+    className="stroke-[0.5rem] stroke-trunks/[.24]"
+    d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+    stroke-linecap="round"
+    style={
+      Object {
+        "fillOpacity": 0,
+        "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+        "strokeDashoffset": "0px",
+      }
+    }
+  />
+  <path
+    className="stroke-[0.5rem] stroke-piccolo"
+    d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+    stroke-linecap="round"
+    style={
+      Object {
+        "fillOpacity": 0,
+        "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+        "strokeDashoffset": "289.02652413026095px",
+        "transition": "none",
+      }
+    }
+  />
+</svg>
+`;
+
+exports[`RadioButton renders default in Light theme 1`] = `
+<svg
+  fontSize="2.5rem"
+  style={
+    Object {
+      "height": "1em",
+      "verticalAlign": "middle",
+      "width": "1em",
+    }
+  }
+  viewBox="0 0 100 100"
+>
+  <path
+    className="stroke-[0.5rem] stroke-trunks/[.24]"
+    d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+    stroke-linecap="round"
+    style={
+      Object {
+        "fillOpacity": 0,
+        "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+        "strokeDashoffset": "0px",
+      }
+    }
+  />
+  <path
+    className="stroke-[0.5rem] stroke-piccolo"
+    d="
+      M 50,50
+      m 0,-46
+      a 46,46 0 1 1 0,92
+      a 46,46 0 1 1 0,-92
+    "
+    stroke-linecap="round"
+    style={
+      Object {
+        "fillOpacity": 0,
+        "strokeDasharray": "289.02652413026095px 289.02652413026095px",
+        "strokeDashoffset": "289.02652413026095px",
+        "transition": "none",
+      }
+    }
+  />
+</svg>
+`;

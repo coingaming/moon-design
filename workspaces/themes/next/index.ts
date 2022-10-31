@@ -1,0 +1,1 @@
+import './betadda.css';

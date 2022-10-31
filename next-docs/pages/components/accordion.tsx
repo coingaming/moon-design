@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import ContentOutside from '../../public/examples/accordionNew/ContentOutside';
 import Default from '../../public/examples/accordionNew/Default';
@@ -16,6 +17,7 @@ const PageAccordion = () => {
   return (
     <>
       <ComponentPageDescription title="Accordion">
+        <DeprecationWarning href="/core/accordion" name="Accordion" />
         <p>
           Like the accordion instrument, our accordion component reveals or
           hides associated sections of content. This is done through the use of

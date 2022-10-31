@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton renders Colors in Dark theme 1`] = `
+Array [
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-whis h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`RadioButton renders Colors in Light theme 1`] = `
+Array [
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-whis h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`RadioButton renders Sizes in Dark theme 1`] = `
+Array [
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`RadioButton renders Sizes in Light theme 1`] = `
+Array [
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`RadioButton renders Values in Dark theme 1`] = `
+Array [
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "25%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`RadioButton renders Values in Light theme 1`] = `
+Array [
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "25%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`RadioButton renders default in Dark theme 1`] = `
+<div
+  className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+>
+  <span
+    className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+    style={
+      Object {
+        "width": "0%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`RadioButton renders default in Light theme 1`] = `
+<div
+  className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+>
+  <span
+    className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+    style={
+      Object {
+        "width": "0%",
+      }
+    }
+  />
+</div>
+`;

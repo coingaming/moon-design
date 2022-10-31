@@ -1,0 +1,1194 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader renders as link 1`] = `
+<div
+  className="w-56"
+>
+  <a
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+    href="#"
+  >
+    Menu item text
+  </a>
+</div>
+`;
+
+exports[`Loader renders default 1`] = `
+<button
+  className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+  type="button"
+>
+  Menu item text
+</button>
+`;
+
+exports[`Loader renders expand and collapse 1`] = `
+Array [
+  <div
+    className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      Vision
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      Getting started
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full bg-bulma/[0.08]"
+      type="button"
+    >
+      How to contribute?
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      Colours palette
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      Tokens
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      Transform SVG
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      Manifest
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full bg-bulma/[0.08]"
+      type="button"
+    >
+      Tailwind
+      <svg
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 20.5l9-9 9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="w-6 "
+        color="transparent"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 11.5l-9 9-9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+         Accordion
+      </span>
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="w-6 "
+        color="transparent"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 11.5l-9 9-9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+         Avatar
+      </span>
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="w-6 "
+        color="transparent"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 11.5l-9 9-9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+         Breadcrumb
+      </span>
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="w-6 "
+        color="transparent"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 11.5l-9 9-9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+         Button
+      </span>
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="w-6 "
+        color="transparent"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 11.5l-9 9-9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+         Checkbox
+      </span>
+    </button>
+  </div>,
+  <div
+    className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <span
+        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+      >
+        <p
+          className="leading-4 font-semibold text-moon-10"
+        >
+          B
+        </p>
+      </span>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        <p
+          className="leading-6 text-moon-14 font-semibold"
+        >
+          Bitcasino
+        </p>
+      </span>
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="w-6 "
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 20.5l9-9 9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+      >
+        <p
+          className="leading-4 font-semibold text-moon-10"
+        >
+          CX
+        </p>
+      </span>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+         Customer...
+      </span>
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="w-6 "
+        color="transparent"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 11.5l-9 9-9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+      >
+        <p
+          className="leading-4 font-semibold text-moon-10"
+        >
+          S
+        </p>
+      </span>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Sub nested item
+      </span>
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="w-6 "
+        color="transparent"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 11.5l-9 9-9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+      >
+        <p
+          className="leading-4 font-semibold text-moon-10"
+        >
+          S
+        </p>
+      </span>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Sub nested item
+      </span>
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="w-6 "
+        color="trunks"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 11.5l-9 9-9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+      >
+        <p
+          className="leading-4 font-semibold text-moon-10"
+        >
+          CX
+        </p>
+      </span>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Quality...
+      </span>
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="w-6 "
+        color="trunks"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 11.5l-9 9-9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+      >
+        <p
+          className="leading-4 font-semibold text-moon-10"
+        >
+          RG
+        </p>
+      </span>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Responsible...
+      </span>
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="w-6 "
+        color="trunks"
+        fill="none"
+        height="1em"
+        onClick={[Function]}
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M25 11.5l-9 9-9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+      >
+        <p
+          className="leading-4 font-semibold text-moon-10"
+        >
+          RG
+        </p>
+      </span>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Responsible...
+      </span>
+    </button>
+    <div
+      className="flex flex-col gap-2 rounded-moon-s-lg"
+    >
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        type="button"
+      >
+        <span
+          className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+        >
+          <p
+            className="leading-4 font-semibold text-moon-10"
+          >
+            S
+          </p>
+        </span>
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+          <p
+            className="leading-6 text-moon-14 font-semibold"
+          >
+            Sportsbet
+          </p>
+        </span>
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        type="button"
+      >
+        <svg
+          className="w-6 "
+          color="trunks"
+          fill="none"
+          height="1em"
+          onClick={[Function]}
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+        >
+          <p
+            className="leading-4 font-semibold text-moon-10"
+          >
+            RG
+          </p>
+        </span>
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+          Customer...
+        </span>
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        type="button"
+      >
+        <svg
+          className="w-6 "
+          color="trunks"
+          fill="none"
+          height="1em"
+          onClick={[Function]}
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+        >
+          <p
+            className="leading-4 font-semibold text-moon-10"
+          >
+            CX
+          </p>
+        </span>
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+          Quality...
+        </span>
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        type="button"
+      >
+        <svg
+          className="w-6 "
+          color="trunks"
+          fill="none"
+          height="1em"
+          onClick={[Function]}
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+        >
+          <p
+            className="leading-4 font-semibold text-moon-10"
+          >
+            RG
+          </p>
+        </span>
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+          Responsible...
+        </span>
+      </button>
+    </div>
+    <div
+      className="flex flex-col gap-2 rounded-moon-s-lg "
+    >
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        type="button"
+      >
+        <span
+          className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+        >
+          <p
+            className="leading-4 font-semibold text-moon-10"
+          >
+            L
+          </p>
+        </span>
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+          <p
+            className="leading-6 text-moon-14 font-semibold"
+          >
+            Livecasino
+          </p>
+        </span>
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+        type="button"
+      >
+        <svg
+          className="w-6 "
+          color="trunks"
+          fill="none"
+          height="1em"
+          onClick={[Function]}
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+        >
+          <p
+            className="leading-4 font-semibold text-moon-10"
+          >
+            RG
+          </p>
+        </span>
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+          Customer...
+        </span>
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Loader renders multi line 1`] = `
+<div
+  className="w-94 bg-white flex flex-col gap-3 rounded-moon-s-lg p-6"
+>
+  <button
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full bg-bulma/[0.08]"
+    type="button"
+  >
+    <span
+      className="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center"
+    >
+      <svg
+        className="text-2xl"
+        color="#4E46B4"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.552 14.96l3.322.002c.852-.006 3.126.694 3.126 1.538.016.86-2.264 1.534-3.116 1.528h-4.098l-.434.01-5.579 9.181a.724.724 0 01-1.313-.58l1.405-4.765c.136-.461.205-.94.205-1.42l-.003-2.416-.351-.01h-3.521a1 1 0 00-.784.38L7.579 20.72a.715.715 0 01-1.254-.62l.601-2.36a.251.251 0 00-.172-.304C5.772 17.183 5 16.86 5 16.491c.001-.36.736-.676 1.682-.927.416-.11.222-.467.116-.884l-.473-1.86a.714.714 0 011.253-.616L9.43 14.57a1 1 0 00.787.383l2.873.002 1 .01v-2.422a5 5 0 00-.205-1.414L12.48 6.362a.724.724 0 011.312-.58l5.579 9.18h1.18"
+          stroke="currentColor"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+    <span
+      className="block grow text-start text-bulma overflow-hidden"
+    >
+      <span
+        className="block text-bulma text-moon-14"
+      >
+        Job Board
+      </span>
+      <span
+        className="flex text-trunks text-moon-12"
+      >
+        <span
+          className="flex-1 truncate"
+        >
+          <span>
+            find your dream design job
+          </span>
+        </span>
+      </span>
+    </span>
+  </button>
+  <button
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+    type="button"
+  >
+    <span
+      className="bg-[#3448F01F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+    >
+      <svg
+        className="text-2xl"
+        color="#3448F0"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8 6l.34-.367A.5.5 0 007.5 6H8zm1.625 1.5l-.34.367a.5.5 0 00.68 0l-.34-.367zM11.25 6l.34-.367a.5.5 0 00-.68 0l.34.367zm1.625 1.5l-.34.367a.5.5 0 00.68 0l-.34-.367zM14.5 6l.34-.367a.5.5 0 00-.68 0L14.5 6zm1.625 1.5l-.34.367a.5.5 0 00.68 0l-.34-.367zM17.75 6l.34-.367a.5.5 0 00-.68 0l.34.367zm1.625 1.5l-.34.367a.5.5 0 00.68 0l-.34-.367zM21 6h.5a.5.5 0 00-.84-.367L21 6zm-.5 14a.5.5 0 001 0h-1zM14 22v-.5a.5.5 0 00-.5.5h.5zm11.5 0h.5v-.5h-.5v.5zM11 16.8a.5.5 0 000 1v-1zm6.5 1a.5.5 0 100-1v1zM11 19a.5.5 0 000 1v-1zm5.5 1a.5.5 0 000-1v1zm-.033-8.969a.5.5 0 100-1v1zM12.8 13.47a.5.5 0 000 1v-1zM15.133 9.5a.5.5 0 00-1 0h1zm-1 5.5a.5.5 0 101 0h-1zM7.661 6.367l1.625 1.5.678-.734-1.625-1.5-.678.734zm2.303 1.5l1.625-1.5-.678-.734-1.625 1.5.678.734zm.947-1.5l1.625 1.5.678-.734-1.625-1.5-.678.734zm2.303 1.5l1.625-1.5-.678-.734-1.625 1.5.678.734zm.947-1.5l1.625 1.5.678-.734-1.625-1.5-.678.734zm2.303 1.5l1.625-1.5-.678-.734-1.625 1.5.678.734zm.947-1.5l1.625 1.5.678-.734-1.625-1.5-.678.734zm2.303 1.5l1.625-1.5-.678-.734-1.625 1.5.678.734zM7.5 6v16h1V6h-1zm13 0v14h1V6h-1zm-7 16a2.5 2.5 0 01-2.5 2.5v1a3.5 3.5 0 003.5-3.5h-1zM11 24.5A2.5 2.5 0 018.5 22h-1a3.5 3.5 0 003.5 3.5v-1zm3-2h11.5v-1H14v1zm11-.5a2.5 2.5 0 01-2.5 2.5v1A3.5 3.5 0 0026 22h-1zm-2.5 2.5H11v1h11.5v-1zM11 17.8h6.5v-1H11v1zm0 2.2h5.5v-1H11v1zm2.717-8.25c-.261 0-.417-.19-.417-.36h-1c0 .781.665 1.36 1.417 1.36v-1zm-.417-.36c0-.168.156-.359.417-.359v-1c-.752 0-1.417.579-1.417 1.36h1zm.417-.359h.916v-1h-.916v1zm.916 0h1.834v-1h-1.834v1zm-.916 1.719h1.833v-1h-1.833v1zm1.833 1.719c.752 0 1.417-.579 1.417-1.36h-1c0 .169-.156.36-.417.36v1zm1.417-1.36c0-.78-.665-1.359-1.417-1.359v1c.261 0 .417.19.417.36h1zm-1.417.36h-.917v1h.917v-1zm-.917 0H12.8v1h1.833v-1zm.5-2.938V9.5h-1v1.031h1zm0 4.469v-1.031h-1V15h1z"
+          fill="currentColor"
+        />
+      </svg>
+    </span>
+    <span
+      className="block grow text-start text-bulma overflow-hidden"
+    >
+      <span
+        className="block text-bulma text-moon-14"
+      >
+        Freelance Projects
+      </span>
+      <span
+        className="flex text-trunks text-moon-12"
+      >
+        <span
+          className="flex-1 truncate"
+        >
+          <span>
+            An exclusive list for contract work
+          </span>
+        </span>
+      </span>
+    </span>
+  </button>
+  <hr
+    className="w-80 border-px border-solid border-beerus left-6 top-40  self-stretch"
+  />
+  <button
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+    type="button"
+  >
+    <span
+      className="bg-[#FFB3191F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+    >
+      <svg
+        className="text-2xl"
+        color="#FFB319"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6.5 12.657c.41-2.057 2.91-4.286 4.108-5.143 1.37-.343 5.443-.823 10.784 0 2.054.823 3.595 3.772 4.108 5.143m-19 0C6.842 15.4 9.17 21.71 15.743 25M6.5 12.657c4.108-.514 10.27-1.028 19 0M15.743 25c2.568-1.029 8.114-4.937 9.757-12.343M15.743 25c-2.875-5.76-4.45-10.971-4.621-12.857L14.202 7m1.541 18c2.876-5.76 4.45-10.971 4.622-12.857L17.284 7"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
+    <span
+      className="block grow text-start text-bulma overflow-hidden"
+    >
+      <span
+        className="block text-bulma text-moon-14"
+      >
+        Want freelance design projects?
+      </span>
+      <span
+        className="flex text-trunks text-moon-12"
+      >
+        <span
+          className="flex-1 truncate"
+        >
+          <span>
+            Get new leads in your inbox every day
+          </span>
+        </span>
+      </span>
+    </span>
+  </button>
+  <button
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+    type="button"
+  >
+    <span
+      className="bg-[#FF4E641F]/20 rounded-lg w-10 h-10 flex justify-center items-center"
+    >
+      <svg
+        className="text-2xl"
+        color="#FF4E64"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M18.895 18.301l.424-.265-.424.265zm-1.694-.937v-.5.5zm-2.402 0v-.5.5zm-8.402 3.558l-.495-.076.495.076zm17.453-8.106l1.26 8.182.988-.152-1.26-8.182-.988.152zm-16.689-.152l-1.259 8.182.989.152 1.259-8.182-.989-.152zM19.403 8h-6.806v1h6.806V8zM12.68 18.036l-2.6 4.15.846.53 2.601-4.149-.847-.531zm9.239 4.15l-2.6-4.15-.848.531 2.6 4.15.848-.532zm-4.72-5.322h-2.4v1h2.4v-1zm2.12 1.172a2.5 2.5 0 00-2.12-1.172v1a1.5 1.5 0 011.272.703l.847-.531zm-9.24 4.15A1.737 1.737 0 018.608 23v1c.943 0 1.819-.485 2.32-1.284l-.848-.53zM23.392 23a1.737 1.737 0 01-1.472-.815l-.847.531A2.738 2.738 0 0023.392 24v-1zm-9.864-4.433a1.5 1.5 0 011.271-.703v-1a2.5 2.5 0 00-2.118 1.172l.847.531zm11.31-5.903A5.5 5.5 0 0019.404 8v1a4.5 4.5 0 014.447 3.816l.989-.152zm-16.688.152A4.5 4.5 0 0112.597 9V8a5.5 5.5 0 00-5.436 4.664l.989.152zm-2.248 8.03A2.737 2.737 0 008.608 24v-1c-1.065 0-1.88-.95-1.717-2.002l-.989-.152zm19.207.152A1.737 1.737 0 0123.392 23v1a2.737 2.737 0 002.706-3.154l-.989.152z"
+          fill="currentColor"
+        />
+      </svg>
+    </span>
+    <span
+      className="block grow text-start text-bulma overflow-hidden"
+    >
+      <span
+        className="block text-bulma text-moon-14"
+      >
+        Personalized your profile with video
+      </span>
+      <span
+        className="flex text-trunks text-moon-12"
+      >
+        <span
+          className="flex-1 truncate"
+        >
+          <span>
+            Introduce yourself to new clients with Pitch
+          </span>
+        </span>
+      </span>
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Loader renders multi title 1`] = `
+Array [
+  <div
+    className="w-56"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <span>
+        <svg
+          className="text-[1.5rem]"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </span>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        <span
+          className="block text-bulma text-moon-14"
+        >
+          Your value
+        </span>
+        <span
+          className="flex text-trunks text-moon-12"
+        >
+          <span
+            className="flex-1 truncate"
+          >
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            </span>
+          </span>
+        </span>
+      </span>
+      <span
+        className="text-moon-12 text-trunks"
+      >
+        Meta
+      </span>
+    </button>
+  </div>,
+  <div
+    className="w-56"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      onClick={[Function]}
+      type="button"
+    >
+      <span
+        className="px-2"
+      >
+        <svg
+          className="text-[1.5rem]"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M13.562 8.731l-1.724-1.73a3.42 3.42 0 10-4.836 4.837l1.729 1.73 4.831-4.837zm0 0l11.402 5.872L26 17.021l-3.107-.347m0 0l.342 3.107h-3.454m3.112-3.107L18.4 13.567m1.382 6.214v3.454l-3.107-.342m3.107-3.112l-3.795-3.8m.688 6.912L17.021 26l-2.765-1.383-5.525-11.055m7.943 9.331L13.567 18.4m4.837-6.908v2.071h-2.765l.342 2.419-2.419-.342.005 2.765-2.418-.347m4.49-4.49l-3.801-3.111m1.73 5.183l-3.112-3.801"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </span>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        <span
+          className="block text-bulma text-moon-14"
+        >
+          Your value
+        </span>
+        <span
+          className="flex text-trunks text-moon-12"
+        >
+          <span
+            className="flex-1 truncate"
+          >
+            <span>
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry
+            </span>
+          </span>
+        </span>
+      </span>
+      <span
+        className="px-2"
+      >
+        <span
+          className="flex w-6 h-6 justify-center items-center"
+        >
+          <span
+            className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
+          />
+        </span>
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Loader renders with checkbox 1`] = `
+Array [
+  <div
+    className="w-56"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      onClick={[Function]}
+      role="сheckbox"
+      type="button"
+    >
+      <span
+        className="flex w-6 h-6 justify-center items-center"
+      >
+        <span
+          className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
+        />
+      </span>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+    </button>
+  </div>,
+  <div
+    className="w-56"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      onClick={[Function]}
+      role="сheckbox"
+      type="button"
+    >
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+      <span
+        className="flex w-6 h-6 justify-center items-center"
+      >
+        <span
+          className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
+        />
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Loader renders with icon 1`] = `
+Array [
+  <div
+    className="w-56"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="text-[1.5rem]"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.562 8.731l-1.724-1.73a3.42 3.42 0 10-4.836 4.837l1.729 1.73 4.831-4.837zm0 0l11.402 5.872L26 17.021l-3.107-.347m0 0l.342 3.107h-3.454m3.112-3.107L18.4 13.567m1.382 6.214v3.454l-3.107-.342m3.107-3.112l-3.795-3.8m.688 6.912L17.021 26l-2.765-1.383-5.525-11.055m7.943 9.331L13.567 18.4m4.837-6.908v2.071h-2.765l.342 2.419-2.419-.342.005 2.765-2.418-.347m4.49-4.49l-3.801-3.111m1.73 5.183l-3.112-3.801"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+    </button>
+  </div>,
+  <div
+    className="w-56"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+      <svg
+        className="text-[1.5rem]"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.562 8.731l-1.724-1.73a3.42 3.42 0 10-4.836 4.837l1.729 1.73 4.831-4.837zm0 0l11.402 5.872L26 17.021l-3.107-.347m0 0l.342 3.107h-3.454m3.112-3.107L18.4 13.567m1.382 6.214v3.454l-3.107-.342m3.107-3.112l-3.795-3.8m.688 6.912L17.021 26l-2.765-1.383-5.525-11.055m7.943 9.331L13.567 18.4m4.837-6.908v2.071h-2.765l.342 2.419-2.419-.342.005 2.765-2.418-.347m4.49-4.49l-3.801-3.111m1.73 5.183l-3.112-3.801"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Loader renders with meta 1`] = `
+Array [
+  <div
+    className="w-56"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+      <span
+        className="text-moon-12 text-trunks"
+      >
+        Meta
+      </span>
+    </button>
+  </div>,
+  <div
+    className="w-56"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      type="button"
+    >
+      <svg
+        className="text-[1.5rem]"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+      <span
+        className="text-moon-12 text-trunks"
+      >
+        Meta
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Loader renders with radio 1`] = `
+Array [
+  <div
+    className="w-56"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      onClick={[Function]}
+      role="radio"
+      type="button"
+    >
+      <span
+        className="flex w-6 h-6 justify-center items-center"
+      >
+        <span
+          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset]  shadow-trunks"
+        >
+          <span
+            className="scale-0 h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform"
+          />
+        </span>
+      </span>
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+    </button>
+  </div>,
+  <div
+    className="w-56"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.08] transition w-full"
+      onClick={[Function]}
+      role="radio"
+      type="button"
+    >
+      <span
+        className="block grow text-start text-bulma overflow-hidden"
+      >
+        Your value
+      </span>
+      <span
+        className="flex w-6 h-6 justify-center items-center"
+      >
+        <span
+          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset]  shadow-trunks"
+        >
+          <span
+            className="scale-0 h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform"
+          />
+        </span>
+      </span>
+    </button>
+  </div>,
+]
+`;

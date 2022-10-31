@@ -1,16 +1,15 @@
-import AccordionSizes from './AccordionSizes';
+import type AccordionSizes from './AccordionSizes';
 
 type AccordionProps = {
-  title: string;
+  title: string | React.ReactNode;
   openByDefault?: boolean;
   children?: React.ReactNode;
-  disableOpen?: boolean;
+  disabled?: boolean;
   headerContent?: React.ReactNode;
   size?: AccordionSizes;
   withButton?: boolean;
   isContentInside?: boolean;
-  isRtl?: boolean;
-  backgroundColor?: string;
+  bgColor?: string;
 };
 
 export default AccordionProps;

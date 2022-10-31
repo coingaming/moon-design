@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import UrlBgColor from '../../../public/examples/textInput/url/UrlBgColor';
 import UrlDisabled from '../../../public/examples/textInput/url/UrlDisabled';
@@ -17,6 +18,7 @@ export default function PageUrlInput() {
   return (
     <>
       <ComponentPageDescription title="Url">
+        <DeprecationWarning href="/core/textInput" name="TextInput" />
         <p>
           The TextInput wrapper component is used when you need to let users
           enter the text of some kind, such as their name or phone number etc.

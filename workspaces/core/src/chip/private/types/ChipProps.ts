@@ -4,9 +4,12 @@ type ChipProps = {
   iconLeft?: JSX.Element | boolean;
   iconRight?: JSX.Element | boolean;
   size?: 'sm' | 'md';
-  iconSize?: number;
   isStroke?: boolean;
   variant?: 'default' | 'ghost';
-};
+  children?: JSX.Element;
+} & React.DetailedHTMLProps<
+  React.ButtonHTMLAttributes<HTMLButtonElement>,
+  HTMLButtonElement
+>;
 
 export default ChipProps;
