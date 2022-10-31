@@ -24,6 +24,10 @@ const CircularProgress: React.FC<Props> = ({
       }}
       viewBox={`0 0 ${VIEWBOX_WIDTH} ${VIEWBOX_HEIGHT}`}
       fontSize={getSize(size)}
+      aria-valuemin={0}
+      aria-valuemax={100}
+      aria-valuenow={value}
+      role="progressbar"
     >
       <Path
         dashRatio={1}
@@ -36,7 +40,10 @@ const CircularProgress: React.FC<Props> = ({
         style={{
           transition: value === 0 ? 'none' : 'stroke-dashoffset 0.5s ease 0s',
         }}
-        classes={classNames('stroke-[0.5rem]', progressColor)}
+        classes={classNames(
+          'stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full',
+          progressColor
+        )}
       />
     </svg>
   );

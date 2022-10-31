@@ -13,7 +13,6 @@ type PathProps = {
   pathRadius: number;
   center?: Coordinate;
   style?: object;
-  isRtl?: boolean;
   classes?: string;
 };
 
@@ -30,11 +29,10 @@ const getPathDescription = (
 type DashStyleProps = {
   dashRatio: number;
   pathRadius: number;
-  isRtl?: boolean;
 };
-const getDashStyle = ({ dashRatio, pathRadius, isRtl }: DashStyleProps) => {
+const getDashStyle = ({ dashRatio, pathRadius }: DashStyleProps) => {
   const circumference = Math.PI * 2 * pathRadius;
-  const gapLength = (1 - dashRatio) * circumference * (isRtl ? -1 : 1);
+  const gapLength = (1 - dashRatio) * circumference;
 
   return {
     strokeDasharray: `${circumference}px ${circumference}px`,
@@ -45,17 +43,15 @@ const getDashStyle = ({ dashRatio, pathRadius, isRtl }: DashStyleProps) => {
 const Path: React.FC<PathProps> = ({
   dashRatio,
   pathRadius,
-  // strokeWidth,
   style,
   classes,
   center,
-  isRtl,
 }) => (
   <path
     stroke-linecap="round"
     style={{
       ...style,
-      ...getDashStyle({ pathRadius, dashRatio, isRtl }),
+      ...getDashStyle({ pathRadius, dashRatio }),
       fillOpacity: 0,
     }}
     d={getPathDescription(pathRadius, center)}

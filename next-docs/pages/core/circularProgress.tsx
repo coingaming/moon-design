@@ -8,7 +8,7 @@ import Values from '../../public/examples/circularProgressTw/Values';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('progressTW');
+  const examples = useExamples('circularProgressTW');
   return (
     <>
       <ComponentPageDescription title="CircularProgress">

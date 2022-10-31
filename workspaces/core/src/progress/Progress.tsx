@@ -15,6 +15,10 @@ const Progress: React.FC<Props> = ({
       bgColor,
       getSize(size)
     )}
+    aria-valuemin={0}
+    aria-valuemax={100}
+    aria-valuenow={value}
+    role="progressbar"
   >
     <span
       style={{ width: `${value}%` }}

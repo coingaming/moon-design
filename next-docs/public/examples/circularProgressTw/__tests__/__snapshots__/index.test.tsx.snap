@@ -3,7 +3,11 @@
 exports[`RadioButton renders Colors in Dark theme 1`] = `
 Array [
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -31,7 +35,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -50,7 +54,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -78,7 +86,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-dodoria"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-dodoria"
       d="
       M 50,50
       m 0,-46
@@ -97,7 +105,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -125,7 +137,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-roshi"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-roshi"
       d="
       M 50,50
       m 0,-46
@@ -149,7 +161,11 @@ Array [
 exports[`RadioButton renders Colors in Light theme 1`] = `
 Array [
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -177,7 +193,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -196,7 +212,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -224,7 +244,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-dodoria"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-dodoria"
       d="
       M 50,50
       m 0,-46
@@ -243,7 +263,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -271,7 +295,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-roshi"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-roshi"
       d="
       M 50,50
       m 0,-46
@@ -295,7 +319,11 @@ Array [
 exports[`RadioButton renders Sizes in Dark theme 1`] = `
 Array [
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="1rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -323,7 +351,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -342,7 +370,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="1.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -370,7 +402,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -389,7 +421,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -417,7 +453,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -436,7 +472,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -464,7 +504,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -483,7 +523,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="3rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -511,7 +555,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -535,7 +579,11 @@ Array [
 exports[`RadioButton renders Sizes in Light theme 1`] = `
 Array [
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="1rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -563,7 +611,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -582,7 +630,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="1.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -610,7 +662,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -629,7 +681,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -657,7 +713,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -676,7 +732,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -704,7 +764,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -723,7 +783,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="3rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -751,7 +815,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -775,7 +839,11 @@ Array [
 exports[`RadioButton renders Values in Dark theme 1`] = `
 Array [
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={25}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -803,7 +871,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -822,7 +890,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={50}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -850,7 +922,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -869,7 +941,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -897,7 +973,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -916,7 +992,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={100}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -944,7 +1024,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -968,7 +1048,11 @@ Array [
 exports[`RadioButton renders Values in Light theme 1`] = `
 Array [
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={25}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -996,7 +1080,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -1015,7 +1099,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={50}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -1043,7 +1131,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -1062,7 +1150,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -1090,7 +1182,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -1109,7 +1201,11 @@ Array [
     />
   </svg>,
   <svg
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={100}
     fontSize="2.5rem"
+    role="progressbar"
     style={
       Object {
         "height": "1em",
@@ -1137,7 +1233,7 @@ Array [
       }
     />
     <path
-      className="stroke-[0.5rem] stroke-piccolo"
+      className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
       d="
       M 50,50
       m 0,-46
@@ -1160,7 +1256,11 @@ Array [
 
 exports[`RadioButton renders default in Dark theme 1`] = `
 <svg
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={0}
   fontSize="2.5rem"
+  role="progressbar"
   style={
     Object {
       "height": "1em",
@@ -1188,7 +1288,7 @@ exports[`RadioButton renders default in Dark theme 1`] = `
     }
   />
   <path
-    className="stroke-[0.5rem] stroke-piccolo"
+    className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
     d="
       M 50,50
       m 0,-46
@@ -1210,7 +1310,11 @@ exports[`RadioButton renders default in Dark theme 1`] = `
 
 exports[`RadioButton renders default in Light theme 1`] = `
 <svg
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={0}
   fontSize="2.5rem"
+  role="progressbar"
   style={
     Object {
       "height": "1em",
@@ -1238,7 +1342,7 @@ exports[`RadioButton renders default in Light theme 1`] = `
     }
   />
   <path
-    className="stroke-[0.5rem] stroke-piccolo"
+    className="stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full stroke-piccolo"
     d="
       M 50,50
       m 0,-46

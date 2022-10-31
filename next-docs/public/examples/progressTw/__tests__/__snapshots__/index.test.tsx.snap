@@ -3,7 +3,11 @@
 exports[`RadioButton renders Colors in Dark theme 1`] = `
 Array [
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -15,7 +19,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-whis h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
@@ -27,7 +35,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
@@ -44,7 +56,11 @@ Array [
 exports[`RadioButton renders Colors in Light theme 1`] = `
 Array [
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -56,7 +72,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-whis h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
@@ -68,7 +88,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
@@ -85,7 +109,11 @@ Array [
 exports[`RadioButton renders Sizes in Dark theme 1`] = `
 Array [
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -97,7 +125,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -109,7 +141,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -121,7 +157,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -133,7 +173,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -150,7 +194,11 @@ Array [
 exports[`RadioButton renders Sizes in Light theme 1`] = `
 Array [
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -162,7 +210,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -174,7 +226,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -186,7 +242,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -198,7 +258,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -215,7 +279,11 @@ Array [
 exports[`RadioButton renders Values in Dark theme 1`] = `
 Array [
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={25}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -227,7 +295,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={50}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -239,7 +311,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -251,7 +327,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={100}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -268,7 +348,11 @@ Array [
 exports[`RadioButton renders Values in Light theme 1`] = `
 Array [
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={25}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -280,7 +364,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={50}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -292,7 +380,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -304,7 +396,11 @@ Array [
     />
   </div>,
   <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={100}
     className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
   >
     <span
       className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -320,7 +416,11 @@ Array [
 
 exports[`RadioButton renders default in Dark theme 1`] = `
 <div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={0}
   className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  role="progressbar"
 >
   <span
     className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
@@ -335,7 +435,11 @@ exports[`RadioButton renders default in Dark theme 1`] = `
 
 exports[`RadioButton renders default in Light theme 1`] = `
 <div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={0}
   className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  role="progressbar"
 >
   <span
     className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
