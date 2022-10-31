@@ -4,6 +4,8 @@ import React, {
   useContext,
   useRef,
   useEffect,
+  ReactChild,
+  ReactPortal,
 } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
@@ -38,12 +40,23 @@ const useDropdownContext = (component: string) => {
   return context;
 };
 
+type CallableChildren = (data: {
+  open?: boolean;
+  referenceElement?: React.MutableRefObject<null>;
+}) => ReactNode;
+
+type ReactNode =
+  | CallableChildren
+  | ReactChild
+  | Iterable<ReactNode>
+  | ReadonlyArray<ReactNode>
+  | ReactPortal
+  | boolean
+  | null
+  | undefined;
+
 //Dropdown
 type DropdownRootProps = {
-  children: (data: {
-    open?: boolean;
-    referenceElement?: React.MutableRefObject<null>;
-  }) => React.ReactElement;
   value: unknown;
   onChange(value: unknown): void;
   isError?: boolean;
@@ -51,7 +64,9 @@ type DropdownRootProps = {
   size?: 'sm' | 'md' | 'lg' | 'xl' | string;
 };
 
-const DropdownRoot: React.FC<DropdownRootProps> = ({
+type WithChildren<T = {}> = T & { children?: ReactNode };
+
+const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
   children,
   value,
   onChange,
@@ -90,6 +105,9 @@ const DropdownRoot: React.FC<DropdownRootProps> = ({
     },
   };
 
+  const childrens = React.Children.toArray(children);
+  const callableChildren =
+    typeof children === 'function' && (children as CallableChildren);
   return (
     <DropdownContext.Provider value={states}>
       <div className="w-full">
@@ -102,8 +120,9 @@ const DropdownRoot: React.FC<DropdownRootProps> = ({
           {({ open }) => (
             <div className="relative mt-1">
               {typeof children === 'function'
-                ? children({ open, referenceElement })
-                : children}
+                ? callableChildren &&
+                  callableChildren({ open, referenceElement })
+                : childrens.map((ch) => ch)}
             </div>
           )}
         </Listbox>
@@ -142,7 +161,7 @@ const Options: React.FC<OptionsProps> = ({ children, menuWidth, ...rest }) => {
 
 //Dropdown.Option
 type OptionProps = {
-  value?: undefined;
+  value?: unknown;
   index?: number;
   children: (data: {
     selected?: boolean;
@@ -152,12 +171,7 @@ type OptionProps = {
 
 const Option: React.FC<OptionProps> = ({ children, value, index }) => {
   return (
-    <Listbox.Option
-      as="span"
-      key={index}
-      value={value}
-      // className="p-2 mb-1 last:mb-0 cursor-pointer text-moon-14 text-bulma"
-    >
+    <Listbox.Option as="span" key={index} value={value}>
       {({ selected, active }) =>
         typeof children === 'function'
           ? children({ selected, active })
