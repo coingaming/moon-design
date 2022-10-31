@@ -11,14 +11,26 @@ const people = [
 ];
 
 const Example = () => {
-  const [option, setOption] = useState(null);
-  const [option2, setOption2] = useState(null);
-  const [option3, setOption3] = useState(null);
-  const [option4, setOption4] = useState(null);
+  const [option, setOption] =
+    useState<{
+      name: string;
+    } | null>(null);
+  const [option2, setOption2] =
+    useState<{
+      name: string;
+    } | null>(null);
+  const [option3, setOption3] =
+    useState<{
+      name: string;
+    } | null>(null);
+  const [option4, setOption4] =
+    useState<{
+      name: string;
+    } | null>(null);
   return (
     <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <Dropdown value={option} onChange={setOption} size="sm">
-        {({ open }) => (
+        {({ open }: { open: boolean }) => (
           <>
             <Dropdown.Select
               open={open}
@@ -32,7 +44,13 @@ const Example = () => {
             <Dropdown.Options>
               {people.map((person, index) => (
                 <Dropdown.Option value={person} index={index}>
-                  {({ selected, active }) => (
+                  {({
+                    selected,
+                    active,
+                  }: {
+                    selected: boolean;
+                    active: boolean;
+                  }) => (
                     <MenuItem isActive={active} isSelected={selected}>
                       <MenuItem.Title>{person.name}</MenuItem.Title>
                       <MenuItem.Radio isSelected={selected} />
@@ -47,7 +65,7 @@ const Example = () => {
       </Dropdown>
 
       <Dropdown value={option2} onChange={setOption2}>
-        {({ open }) => (
+        {({ open }: { open: boolean }) => (
           <>
             <Dropdown.Select
               open={open}
@@ -60,7 +78,13 @@ const Example = () => {
             <Dropdown.Options>
               {people.map((person, index) => (
                 <Dropdown.Option value={person} index={index}>
-                  {({ selected, active }) => (
+                  {({
+                    selected,
+                    active,
+                  }: {
+                    selected: boolean;
+                    active: boolean;
+                  }) => (
                     <MenuItem isActive={active} isSelected={selected}>
                       <MenuItem.Title>{person.name}</MenuItem.Title>
                       <MenuItem.Radio isSelected={selected} />
@@ -75,7 +99,7 @@ const Example = () => {
       </Dropdown>
 
       <Dropdown value={option3} onChange={setOption3}>
-        {({ open }) => (
+        {({ open }: { open: boolean }) => (
           <>
             <Dropdown.Select
               open={open}
@@ -88,7 +112,13 @@ const Example = () => {
             <Dropdown.Options>
               {people.map((person, index) => (
                 <Dropdown.Option value={person} index={index}>
-                  {({ selected, active }) => (
+                  {({
+                    selected,
+                    active,
+                  }: {
+                    selected: boolean;
+                    active: boolean;
+                  }) => (
                     <MenuItem isActive={active} isSelected={selected}>
                       <MenuItem.Title>{person.name}</MenuItem.Title>
                       <MenuItem.Radio isSelected={selected} />
@@ -103,7 +133,7 @@ const Example = () => {
       </Dropdown>
 
       <Dropdown value={option4} onChange={setOption4} size="xl">
-        {({ open }) => (
+        {({ open }: { open: boolean }) => (
           <>
             <Dropdown.Select
               open={open}
@@ -117,7 +147,13 @@ const Example = () => {
             <Dropdown.Options>
               {people.map((person, index) => (
                 <Dropdown.Option value={person} index={index}>
-                  {({ selected, active }) => (
+                  {({
+                    selected,
+                    active,
+                  }: {
+                    selected: boolean;
+                    active: boolean;
+                  }) => (
                     <MenuItem isActive={active} isSelected={selected}>
                       <MenuItem.Title>{person.name}</MenuItem.Title>
                       <MenuItem.Radio isSelected={selected} />

@@ -59,7 +59,13 @@ const Example = () => {
         <Dropdown.Options>
           {options.map((opt, index) => (
             <Dropdown.Option value={opt} index={index}>
-              {({ selected, active }) => (
+              {({
+                selected,
+                active,
+              }: {
+                selected: boolean;
+                active: boolean;
+              }) => (
                 <MenuItem isActive={active} isSelected={selected}>
                   {opt.icon}
                   <MenuItem.Title>{opt.name}</MenuItem.Title>
@@ -77,7 +83,13 @@ const Example = () => {
         <Dropdown.Options>
           {languages.map((opt, index) => (
             <Dropdown.Option value={opt} index={index}>
-              {({ selected, active }) => (
+              {({
+                selected,
+                active,
+              }: {
+                selected: boolean;
+                active: boolean;
+              }) => (
                 <MenuItem isActive={active} isSelected={selected}>
                   <MenuItem.Title>{opt.name}</MenuItem.Title>
                   <MenuItem.Radio />
@@ -95,7 +107,13 @@ const Example = () => {
         <Dropdown.Options>
           {countries.map((country, index) => (
             <Dropdown.Option value={country} index={index}>
-              {({ selected, active }) => (
+              {({
+                selected,
+                active,
+              }: {
+                selected: boolean;
+                active: boolean;
+              }) => (
                 <MenuItem isSelected={selected} isActive={active}>
                   <MenuItem.Title> {country.name}</MenuItem.Title>
                   <MenuItem.Checkbox />

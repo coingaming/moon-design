@@ -13,12 +13,18 @@ const people = [
 const Example = () => {
   const [selected, setSelected] = useState(people[2]);
   const [selected2, setSelected2] = useState(people[0]);
-  const [selected3, setSelected3] = useState(null);
-  const [selected4, setSelected4] = useState(null);
+  const [selected3, setSelected3] =
+    useState<{
+      name: string;
+    } | null>(null);
+  const [selected4, setSelected4] =
+    useState<{
+      name: string;
+    } | null>(null);
   return (
     <div className="flex flex-col lg:flex-row justify-around items-center w-full gap-2">
       <Dropdown value={selected} onChange={setSelected} isError={true}>
-        {({ open }) => (
+        {({ open }: { open: boolean }) => (
           <>
             <Dropdown.Select open={open} label="Error">
               {selected?.name}
@@ -27,7 +33,13 @@ const Example = () => {
             <Dropdown.Options>
               {people.map((person, index) => (
                 <Dropdown.Option value={person} index={index}>
-                  {({ selected, active }) => (
+                  {({
+                    selected,
+                    active,
+                  }: {
+                    selected: boolean;
+                    active: boolean;
+                  }) => (
                     <MenuItem isActive={active} isSelected={selected}>
                       {person.name}
                     </MenuItem>
@@ -41,7 +53,7 @@ const Example = () => {
       </Dropdown>
 
       <Dropdown value={selected2} onChange={setSelected2} disabled={true}>
-        {({ open }) => (
+        {({ open }: { open: boolean }) => (
           <>
             <Dropdown.Select open={open} label="Disabled">
               {selected2?.name}
@@ -49,7 +61,13 @@ const Example = () => {
             <Dropdown.Options>
               {people.map((person, index) => (
                 <Dropdown.Option value={person} index={index}>
-                  {({ selected, active }) => (
+                  {({
+                    selected,
+                    active,
+                  }: {
+                    selected: boolean;
+                    active: boolean;
+                  }) => (
                     <MenuItem isActive={active} isSelected={selected}>
                       {person.name}
                     </MenuItem>
@@ -63,7 +81,7 @@ const Example = () => {
       </Dropdown>
 
       <Dropdown value={selected3} onChange={setSelected3}>
-        {({ open }) => (
+        {({ open }: { open: boolean }) => (
           <>
             <Dropdown.Select
               open={open}
@@ -74,7 +92,13 @@ const Example = () => {
             <Dropdown.Options>
               {people.map((person, index) => (
                 <Dropdown.Option value={person} index={index}>
-                  {({ selected, active }) => (
+                  {({
+                    selected,
+                    active,
+                  }: {
+                    selected: boolean;
+                    active: boolean;
+                  }) => (
                     <MenuItem isActive={active} isSelected={selected}>
                       {person.name}
                     </MenuItem>
@@ -87,7 +111,7 @@ const Example = () => {
       </Dropdown>
 
       <Dropdown value={selected4} onChange={setSelected4}>
-        {({ open }) => (
+        {({ open }: { open: boolean }) => (
           <>
             <Dropdown.Select
               open={open}
@@ -100,7 +124,13 @@ const Example = () => {
             <Dropdown.Options menuWidth="w-40">
               {people.map((person, index) => (
                 <Dropdown.Option value={person} index={index}>
-                  {({ selected, active }) => (
+                  {({
+                    selected,
+                    active,
+                  }: {
+                    selected: boolean;
+                    active: boolean;
+                  }) => (
                     <MenuItem isActive={active} isSelected={selected}>
                       {person.name}
                     </MenuItem>
