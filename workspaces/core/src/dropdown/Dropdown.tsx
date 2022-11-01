@@ -118,7 +118,7 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
           {...rest}
         >
           {({ open }) => (
-            <div className="relative mt-1">
+            <div className="relative">
               {typeof children === 'function'
                 ? callableChildren &&
                   callableChildren({ open, referenceElement })
@@ -228,9 +228,11 @@ const Select: React.FC<SelectProps> = ({
   }
   return (
     <>
-      <SelectButton.Label labelSize={size} idDisabled={disabled}>
-        {label}
-      </SelectButton.Label>
+      {label && (
+        <SelectButton.Label labelSize={size} idDisabled={disabled}>
+          {label}
+        </SelectButton.Label>
+      )}
       <div ref={pooper?.referenceElement}>
         <Listbox.Button as={Fragment}>
           <SelectButton
