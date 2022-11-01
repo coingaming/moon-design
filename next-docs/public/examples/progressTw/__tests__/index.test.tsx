@@ -22,14 +22,23 @@ const renderWithDarkTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
 );
 
-describe('RadioButton', () => {
-  it('renders default in Light theme', () => {
+const renderWithRtl = (component: JSX.Element) => (
+  <div dir="rtl">{component}</div>
+);
+
+describe('Progress', () => {
+  it('renders Default in Light theme', () => {
     const testRenderer = renderer.create(renderWithTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders default in Dark theme', () => {
+  it('renders Default in Dark theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders Default in RTL', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
@@ -43,6 +52,11 @@ describe('RadioButton', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
+  it('renders Sizes in RTL', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Sizes />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
   it('renders Values in Light theme', () => {
     const testRenderer = renderer.create(renderWithTheme(<Values />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
@@ -53,6 +67,11 @@ describe('RadioButton', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
+  it('renders Values in RTL', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Values />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
   it('renders Colors in Light theme', () => {
     const testRenderer = renderer.create(renderWithTheme(<Colors />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
@@ -60,6 +79,11 @@ describe('RadioButton', () => {
 
   it('renders Colors in Dark theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Colors />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders Colors in RTL', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Colors />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

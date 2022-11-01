@@ -11,7 +11,12 @@ const Example = () => {
   const examples = useExamples('progressTW');
   return (
     <>
-      <ComponentPageDescription title="Progress">
+      <ComponentPageDescription
+        title="Progress"
+        isAriaSupport
+        isRtlSupport
+        isInProgress // Added 01.11.2022
+      >
         <p>
           A progress indicator (Circular and Linear) is a visual representation
           of a user's progress through a set of steps, guiding toward the
