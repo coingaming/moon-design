@@ -1,5 +1,13 @@
 # @heathmont/moon-table-tw
 
+## 9.11.2
+
+### Patch Changes
+
+- Add Lab and Partners themes
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.11.2
+
 ## 9.11.1
 
 ### Patch Changes
