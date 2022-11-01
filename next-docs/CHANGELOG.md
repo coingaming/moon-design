@@ -1,5 +1,31 @@
 # Change Log
 
+## 9.11.2
+
+### Patch Changes
+
+- Add Lab and Partners themes
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.11.2
+  - @heathmont/moon-themes-tw@9.11.2
+  - @heathmont/moon-accordion@9.11.2
+  - @heathmont/moon-assets@9.11.2
+  - @heathmont/moon-charts@9.11.2
+  - @heathmont/moon-components@9.11.2
+  - @heathmont/moon-core@9.11.2
+  - @heathmont/moon-datepicker@9.11.2
+  - @heathmont/moon-draggabletable@9.11.2
+  - @heathmont/moon-icons@9.11.2
+  - @heathmont/moon-pagination@9.11.2
+  - @heathmont/moon-popover@9.11.2
+  - @heathmont/moon-select@9.11.2
+  - @heathmont/moon-sidebar@9.11.2
+  - @heathmont/moon-table@9.11.2
+  - @heathmont/moon-themes@9.11.2
+  - @heathmont/moon-utils@9.11.2
+  - @heathmont/moon-icons-tw@9.11.2
+  - @heathmont/moon-table-tw@9.11.2
+
 ## 9.11.1
 
 ### Patch Changes
