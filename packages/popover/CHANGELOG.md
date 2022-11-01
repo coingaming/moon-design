@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.11.2
+
+### Patch Changes
+
+- Add Lab and Partners themes
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.11.2
+  - @heathmont/moon-components@9.11.2
+  - @heathmont/moon-themes@9.11.2
+  - @heathmont/moon-utils@9.11.2
+
 ## 9.11.1
 
 ### Patch Changes
