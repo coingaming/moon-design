@@ -23,6 +23,7 @@ const navigation = [
       { name: 'Loader', href: '/core/loader' },
       { name: 'MenuItem', href: '/core/menuItem' },
       { name: 'RadioButton', href: '/core/radiobutton' },
+      { name: 'Snackbar', href: '/core/snackbar' },
       { name: 'Select', href: '/core/select' },
       { name: 'Switch', href: '/core/switch' },
       { name: 'Table', href: '/core/table' },
