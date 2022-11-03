@@ -1,4 +1,4 @@
-import React, { FC, useState } from 'react';
+import React, { FC, useState, useEffect } from 'react';
 import { Switch as HeadlessSwitch } from '@headlessui/react';
 import classNames from '../private/utils/classnames';
 import getSwitchSize from './private/utils/getSwitchSize';
@@ -23,6 +23,12 @@ const Switch: FC<SwitchProps> = ({
     onChange && onChange(data);
     setEnabled(data);
   };
+
+  useEffect(() => {
+    if (typeof checked !== undefined && checked !== enabled)
+      setEnabled(!!checked);
+  }, [checked]);
+
   return (
     <HeadlessSwitch
       name={name}
