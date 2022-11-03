@@ -20,6 +20,8 @@ export { default as Loader } from './loader/Loader';
 export * from './loader/Loader';
 export { default as MenuItem } from './menuItem/MenuItem';
 export * from './menuItem/MenuItem';
+export { default as Modal } from './modal/Modal';
+export * from './modal/Modal';
 export { default as RadioButton } from './radioButton/RadioButton';
 export * from './radioButton/RadioButton';
 export { default as Select } from './select/Select';
