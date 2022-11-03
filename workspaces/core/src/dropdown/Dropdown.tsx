@@ -204,24 +204,26 @@ const Select: React.FC<SelectProps> = ({
     return (
       <div ref={pooper?.referenceElement}>
         <Listbox.Button as={Fragment}>
-          <SelectButton
-            size={size}
-            open={open}
-            isError={isError}
-            idDisabled={disabled}
-            {...rest}
-          >
-            <SelectButton.Input>
-              <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
-              {children ? (
-                <SelectButton.Value>{children}</SelectButton.Value>
-              ) : (
-                <SelectButton.Placeholder>
-                  {placeholder}
-                </SelectButton.Placeholder>
-              )}
-            </SelectButton.Input>
-          </SelectButton>
+          <div>
+            <SelectButton
+              size={size}
+              open={open}
+              isError={isError}
+              idDisabled={disabled}
+              {...rest}
+            >
+              <SelectButton.Input>
+                <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
+                {children ? (
+                  <SelectButton.Value>{children}</SelectButton.Value>
+                ) : (
+                  <SelectButton.Placeholder>
+                    {placeholder}
+                  </SelectButton.Placeholder>
+                )}
+              </SelectButton.Input>
+            </SelectButton>
+          </div>
         </Listbox.Button>
       </div>
     );
@@ -235,23 +237,25 @@ const Select: React.FC<SelectProps> = ({
       )}
       <div ref={pooper?.referenceElement}>
         <Listbox.Button as={Fragment}>
-          <SelectButton
-            size={size}
-            open={open}
-            isError={isError}
-            idDisabled={disabled}
-            {...rest}
-          >
-            <SelectButton.Input>
-              {children ? (
-                <SelectButton.Value>{children}</SelectButton.Value>
-              ) : (
-                <SelectButton.Placeholder>
-                  {placeholder}
-                </SelectButton.Placeholder>
-              )}
-            </SelectButton.Input>
-          </SelectButton>
+          <div>
+            <SelectButton
+              size={size}
+              open={open}
+              isError={isError}
+              idDisabled={disabled}
+              {...rest}
+            >
+              <SelectButton.Input>
+                {children ? (
+                  <SelectButton.Value>{children}</SelectButton.Value>
+                ) : (
+                  <SelectButton.Placeholder>
+                    {placeholder}
+                  </SelectButton.Placeholder>
+                )}
+              </SelectButton.Input>
+            </SelectButton>
+          </div>
         </Listbox.Button>
       </div>
     </>
@@ -263,7 +267,9 @@ const Trigger: React.FC = ({ children }) => {
   const { pooper } = useDropdownContext('Dropdown.Trigger');
   return (
     <div ref={pooper?.referenceElement}>
-      <Listbox.Button as={Fragment}>{children}</Listbox.Button>
+      <Listbox.Button as={Fragment}>
+        <div>{children}</div>
+      </Listbox.Button>
     </div>
   );
 };

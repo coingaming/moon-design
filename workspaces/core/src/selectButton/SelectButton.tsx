@@ -37,7 +37,6 @@ type SelectButtonProps = {
   idDisabled?: boolean;
   label?: JSX.Element | string;
   placeholder?: JSX.Element | string;
-  ref?: React.MutableRefObject<null>;
 };
 
 const getSelectSize = (size?: 'sm' | 'md' | 'lg' | 'xl' | string) => {
@@ -62,7 +61,6 @@ const SelectButtonRoot: React.FC<SelectButtonProps> = ({
   idDisabled,
   open,
   children,
-  ref,
   ...rest
 }) => {
   const states = {
@@ -73,9 +71,11 @@ const SelectButtonRoot: React.FC<SelectButtonProps> = ({
     ...rest,
   };
   return (
-    <SelectButtonContext.Provider value={states}>
-      <div className="relative">{children}</div>
-    </SelectButtonContext.Provider>
+    <div className="relative">
+      <SelectButtonContext.Provider value={states}>
+        {children}
+      </SelectButtonContext.Provider>
+    </div>
   );
 };
 
