@@ -1,7 +1,6 @@
 import React, { ReactNode, forwardRef } from 'react';
-import styled from 'styled-components';
 import { TableVariant } from '../func/Table';
-import classNames from '../utils/classnames';
+import classNames from '../private/utils/classnames';
 
 type TableWrapperProps = {
   reactTableProps: any;

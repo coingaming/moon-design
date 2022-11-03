@@ -3,6 +3,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Calendar from '../../public/examples/tableTW/Calendar';
+import CellBorder from '../../public/examples/tableTW/CellBorder';
 import ClickableRows from '../../public/examples/tableTW/ClickableRows';
 import CustomColors from '../../public/examples/tableTW/CustomColors';
 import CustomContent from '../../public/examples/tableTW/CustomContent';
@@ -10,6 +11,8 @@ import DeepTable from '../../public/examples/tableTW/DeepTable';
 import Default from '../../public/examples/tableTW/Default';
 import ExpandedRow from '../../public/examples/tableTW/ExpandedRow';
 import MiniMap from '../../public/examples/tableTW/MiniMap';
+import RowGaps from '../../public/examples/tableTW/RowGaps';
+import RowSizes from '../../public/examples/tableTW/RowSizes';
 import SelectableCheckboxes from '../../public/examples/tableTW/SelectableCheckboxes';
 import SelectableRows from '../../public/examples/tableTW/SelectableRows';
 import Sorting from '../../public/examples/tableTW/Sorting';
@@ -19,7 +22,7 @@ const Example = () => {
   const examples = useExamples('tableTW');
   return (
     <>
-      <ComponentPageDescription title="Table">
+      <ComponentPageDescription title="Table" isRtlSupport isInProgress>
         <p>
           Tables are great for presenting information with a clear, repeating
           structure. Our users are busy and may not want to read long sections
@@ -49,6 +52,21 @@ const Example = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="With cell borders"
+        preview={<CellBorder />}
+        code={examples ? examples.CellBorder : 'Loading'}
+      />
+      <Preview
+        title="Different row gaps"
+        preview={<RowGaps />}
+        code={examples ? examples.RowGaps : 'Loading'}
+      />
+      <Preview
+        title="Different row sizes"
+        preview={<RowSizes />}
+        code={examples ? examples.RowSizes : 'Loading'}
       />
       <Preview
         title="Clickable rows"
@@ -125,6 +143,13 @@ const Example = () => {
             description: 'Height of the table',
           },
           {
+            name: 'isCellBorder',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Divider between cells',
+          },
+          {
             name: 'maxHeight',
             type: 'string | number',
             required: false,
@@ -137,6 +162,20 @@ const Example = () => {
             required: false,
             default: '-',
             description: 'Max width of the table',
+          },
+          {
+            name: 'rowGap',
+            type: 'gap-0 | gap-1 | gap-2 | gap-3 | gap-4',
+            required: false,
+            default: 'gap-1',
+            description: 'Gap between table body rows. TW class',
+          },
+          {
+            name: 'rowSize',
+            type: '2xs | xs | sm | md | lg | xl | 2xl',
+            required: false,
+            default: 'md',
+            description: 'Size of table rows',
           },
           {
             name: 'selectable',

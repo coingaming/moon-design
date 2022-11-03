@@ -3,55 +3,8 @@ import React, {
   useCallback,
   useState,
   MutableRefObject,
-  ReactNode,
-  CSSProperties,
 } from 'react';
-import classNames from '../utils/classnames';
-
-type ClassesProps = {
-  visible?: boolean;
-  offset?: number;
-  children: ReactNode;
-  style?: any;
-};
-
-const Wrapper: React.FC<ClassesProps> = ({
-  children,
-  visible,
-  offset = 10,
-}) => {
-  return (
-    <div
-      className={classNames(
-        'absolute',
-        'bottom-4',
-        'shadow-md',
-        'right-10 w-auto h-[56px] z-1 bg-gohan rounded-moon-i-sm p-1 pointer-events-none',
-        visible ? '' : 'opacity-0'
-      )}
-    >
-      {children}
-    </div>
-  );
-};
-const Grid: React.FC<ClassesProps> = ({ children }) => {
-  return (
-    <div className="grid grid-flow-col h-full gap-1 relative auto-cols-[minmax(0,_2fr)]">
-      {children}
-    </div>
-  );
-};
-const Viewport: React.FC<{ styles: CSSProperties }> = ({ styles }) => {
-  return (
-    <div
-      style={styles}
-      className="absolute w-0 h-0 overflow-hidden rounded-moon-i-sm border-2"
-    />
-  );
-};
-const Column: React.FC<ClassesProps> = ({ children }) => {
-  return <div className="h-full w-2 bg-goku/80 rounded-sm">{children}</div>;
-};
+import classNames from '../private/utils/classnames';
 
 type Props = {
   numberOfColumns: number;
@@ -112,14 +65,26 @@ const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
   }, [tableRef, handleUpdateViewport]);
 
   return (
-    <Wrapper visible={visible} offset={footerHeight}>
-      <Grid>
-        <Viewport styles={styles} />
+    <div
+      className={classNames(
+        'absolute bottom-4 shadow-md ltr:right-10 rtl:left-10 w-auto h-14 z-1 bg-gohan rounded-moon-s-sm p-1 pointer-events-none transition-opacity',
+        visible ? 'opacity-1' : 'opacity-0'
+      )}
+    >
+      <div className="grid grid-flow-col h-full gap-1 relative auto-cols-[minmax(0,_2fr)]">
+        <div
+          style={styles}
+          className="absolute w-0 h-0 overflow-hidden rounded-moon-s-sm border-2"
+        />
         {[...new Array(numberOfColumns)].map((_, index) => (
-          <Column key={index} children={''} />
+          <div
+            className="h-full w-2 bg-goku/80 rounded-moon-s-sm"
+            key={index}
+            children={''}
+          />
         ))}
-      </Grid>
-    </Wrapper>
+      </div>
+    </div>
   );
 };
 

@@ -1,6 +1,10 @@
 import React, { forwardRef, ReactNode } from 'react';
 import { TableVariant } from '../func/Table';
-import classNames from '../utils/classnames';
+import classNames from '../private/utils/classnames';
+import getCellBorder from '../private/utils/getCellBorder';
+import getFontSize from '../private/utils/getFontSize';
+import getPadding from '../private/utils/getPadding';
+import type RowSizes from '../private/types/RowSizes';
 
 type TDProps = {
   reactTableProps?: any;
@@ -19,7 +23,9 @@ type TDProps = {
   isHovered?: boolean;
   variant?: TableVariant;
   headerBackgroundColor?: string;
-  onClick?: () => void
+  onClick?: () => void;
+  rowSize?: RowSizes;
+  isCellBorder?: boolean;
 };
 
 const TD = forwardRef<HTMLDivElement, TDProps>(
@@ -40,47 +46,45 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
     isHovered,
     variant,
     headerBackgroundColor,
-  }) => {
-    return (
-      <div
-        {...reactTableProps}
-        className={classNames(
-          'p-3 pr-1 relative box-border py-4 justify-between items-center w-full text-start -mt-1 ',
-          isFirstColumn ? 'rounded-l-lg' : '',
-          isLastColumn
-            ? 'rounded-r-lg'
-            : 'after:content-[""] after:absolute after:w-[1px] after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%]',
-          isExpanded ? 'first:rounded-bl-lg last:rounded-br-lg after:hidden' : '',
-          isLastRow
-            ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0'
-            : '',
-          isLastRow && hasParent ? 'first:rounded-tl-0 last:rounded-tr-0' : '',
-          isLastRow && !isExpanded
-            ? 'first:rounded-bl-2 last:rounded-br-2'
-            : '',
-          isSelected
-            ? 'text-popo'
-            : fontColor
-            ? `text-${fontColor}`
-            : 'text-popo',
-          stickySide === 'right'
-            ? 'before:content-[""] before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:left-0 before:-margin-l-2'
-            : '',
-          (isSelected && !customBackground) || isHovered
-            ? 'bg-[#e0e0ed] border-piccolo cursor-pointer'
-            : customBackground
-            ? `bg-${backgroundColor} border-${backgroundColor}`
-            : 'bg-gohan',
-          selectable &&
-            'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent',
-          variant === 'calendar' &&
-            `first:bg-${headerBackgroundColor} first:after:hidden`
-        )}
-      >
-        {children}
-      </div>
-    );
-  }
+    rowSize,
+    isCellBorder,
+  }) => (
+    <div
+      {...reactTableProps}
+      className={classNames(
+        'relative box-border justify-between items-center w-full text-start',
+        getFontSize(rowSize as RowSizes),
+        getPadding(rowSize as RowSizes),
+        isFirstColumn ? 'rounded-l-lg' : '',
+        isLastColumn ? 'rounded-r-lg' : getCellBorder(isCellBorder),
+        isExpanded ? 'first:rounded-bl-lg last:rounded-br-lg after:hidden' : '',
+        isLastRow
+          ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0'
+          : '',
+        isLastRow && hasParent ? 'first:rounded-tl-0 last:rounded-tr-0' : '',
+        isLastRow && !isExpanded ? 'first:rounded-bl-2 last:rounded-br-2' : '',
+        isSelected
+          ? 'text-popo'
+          : fontColor
+          ? `text-${fontColor}`
+          : 'text-popo',
+        stickySide === 'right'
+          ? 'before:content-[""] before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:left-0 before:-margin-l-2'
+          : '',
+        (isSelected && !customBackground) || isHovered
+          ? 'bg-[#e0e0ed] border-piccolo cursor-pointer'
+          : customBackground
+          ? `bg-${backgroundColor} border-${backgroundColor}`
+          : 'bg-gohan',
+        selectable &&
+          'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent',
+        variant === 'calendar' &&
+          `first:bg-${headerBackgroundColor} first:after:hidden`
+      )}
+    >
+      {children}
+    </div>
+  )
 );
 
 export default TD;

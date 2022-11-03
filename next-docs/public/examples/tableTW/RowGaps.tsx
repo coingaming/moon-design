@@ -44,9 +44,17 @@ const Example = () => {
   ];
 
   const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(5), []);
+  const data = React.useMemo(() => makeData(2), []);
 
-  return <Table columns={columns} data={data} />;
+  return (
+    <>
+      <Table columns={columns} data={data} rowGap="gap-0" />
+      <Table columns={columns} data={data} />
+      <Table columns={columns} data={data} rowGap="gap-2" />
+      <Table columns={columns} data={data} rowGap="gap-3" />
+      <Table columns={columns} data={data} rowGap="gap-4" />
+    </>
+  );
 };
 
 export default Example;

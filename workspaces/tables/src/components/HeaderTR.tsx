@@ -8,10 +8,7 @@ type HeaderTRProps = {
 const HeaderTR = forwardRef<HTMLDivElement, HeaderTRProps>(
   ({ reactTableProps, children }) => {
     return (
-      <div
-        {...reactTableProps}
-        className="flex rounded-moon-s-sm text-bulma moon-text-14 sticky"
-      >
+      <div {...reactTableProps} className="flex rounded-moon-s-sm sticky">
         {children}
       </div>
     );

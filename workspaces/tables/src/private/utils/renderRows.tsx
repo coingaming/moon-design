@@ -1,10 +1,11 @@
 import React, { Fragment, useState } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
 import { Cell, Row, UseExpandedRowProps } from 'react-table';
-import BodyTR from '../components/BodyTR';
-import CheckboxTD from '../components/CheckboxTD';
-import TD from '../components/TD';
-import { RowSubComponentProps } from '../func/Table';
+import BodyTR from '../../components/BodyTR';
+import CheckboxTD from '../../components/CheckboxTD';
+import TD from '../../components/TD';
+import { RowSubComponentProps } from '../../func/Table';
+import type RowSizes from '../types/RowSizes';
 
 type RenderRowsProps<D extends object = {}> = {
   rows: Row<D>[];
@@ -20,7 +21,8 @@ type RenderRowsProps<D extends object = {}> = {
   renderRowSubComponent?: (props: RowSubComponentProps) => JSX.Element;
   selectable?: boolean;
   useCheckbox?: boolean;
-
+  rowSize?: RowSizes;
+  isCellBorder?: boolean;
 };
 
 const renderRows = ({
@@ -33,27 +35,32 @@ const renderRows = ({
   renderRowSubComponent,
   selectable,
   useCheckbox,
+  rowSize,
+  isCellBorder,
 }: RenderRowsProps) => {
   const [hoveredRow, setHoveredRow] = useState('');
-  const [selectedRows, setSelectedRows] = useState<{ [key: string]: boolean}>({});
+  const [selectedRows, setSelectedRows] = useState<{ [key: string]: boolean }>(
+    {}
+  );
 
   if (!rows) return;
 
   return rows.map(
     (
-     row: Row<{
-      isSelected?: boolean;
-      backgroundColor?: string;
-      fontColor?: string;
-     }>,
-     index: number
+      row: Row<{
+        isSelected?: boolean;
+        backgroundColor?: string;
+        fontColor?: string;
+      }>,
+      index: number
     ) => {
       prepareRow(row);
       const rowProps = row.getRowProps();
       const rowId = row.id ? row.id.split('.') : [];
       const nextRow = rows[index + 1];
       const nextRowItem = nextRow as Row;
-      const nextRowId = nextRowItem && nextRowItem.id ? nextRowItem.id.split('.') : [];
+      const nextRowId =
+        nextRowItem && nextRowItem.id ? nextRowItem.id.split('.') : [];
       const mainRowIndex = Number(rowId[0]);
       const backgroundColor = row.original?.backgroundColor
         ? row.original?.backgroundColor
@@ -78,7 +85,8 @@ const renderRows = ({
           if (selectHandlerInvoked) selectHandlerInvoked(row);
           setSelectedRows({
             ...selectedRows,
-            [`${row.id}-${rowProps.key}`]: !selectedRows[`${row.id}-${rowProps.key}`]
+            [`${row.id}-${rowProps.key}`]:
+              !selectedRows[`${row.id}-${rowProps.key}`],
           });
         };
 
@@ -86,9 +94,11 @@ const renderRows = ({
           return invokeClickHandler();
         }
 
-        return getOnRowSelectHandler ?
-          invokeSelectHandler() : getOnRowClickHandler ?
-            invokeClickHandler() : undefined;
+        return getOnRowSelectHandler
+          ? invokeSelectHandler()
+          : getOnRowClickHandler
+          ? invokeClickHandler()
+          : undefined;
       };
 
       return (
@@ -113,7 +123,6 @@ const renderRows = ({
                 : undefined
             }
             onClick={() => resolveRowClick()}
-
           >
             {useCheckbox && (
               <TD
@@ -129,6 +138,8 @@ const renderRows = ({
                 isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
                 // @ts-ignore
                 stickySide={row.cells[0].parent?.sticky ? 'left' : ''}
+                rowSize={rowSize}
+                isCellBorder={isCellBorder}
               >
                 <CheckboxTD>
                   <Checkbox
@@ -152,6 +163,8 @@ const renderRows = ({
                 customBackground={!!row.original?.backgroundColor}
                 backgroundColor={backgroundColor}
                 fontColor={fontColor}
+                rowSize={rowSize}
+                isCellBorder={isCellBorder}
               >
                 {cell.render('Cell')}
               </TD>
@@ -161,14 +174,10 @@ const renderRows = ({
           {expandedRow.isExpanded && !!renderRowSubComponent
             ? renderRowSubComponent({ row, backgroundColor })
             : null}
-
         </Fragment>
       );
-
     }
-
   );
-
 };
 
 export default renderRows;

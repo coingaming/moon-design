@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Checkbox } from '@heathmont/moon-core-tw';
 import { Cell, Row } from 'react-table';
-import BodyTR from '../components/BodyTR';
-import CheckboxTD from '../components/CheckboxTD';
-import TD from '../components/TD';
-import { RowSpanHeader } from '../hooks/useRowSpan';
+import BodyTR from '../../components/BodyTR';
+import CheckboxTD from '../../components/CheckboxTD';
+import TD from '../../components/TD';
+import { RowSpanHeader } from '../../hooks/useRowSpan';
+import type RowSizes from '../types/RowSizes';
 
 type RenderSpanRowsProps<D extends object = {}> = {
   rows: Row<D>[];
@@ -20,6 +21,8 @@ type RenderSpanRowsProps<D extends object = {}> = {
   defaultRowBackgroundColor: string;
   selectable?: boolean;
   useCheckbox?: boolean;
+  rowSize?: RowSizes;
+  isCellBorder?: boolean;
 };
 
 const renderSpanRows = ({
@@ -32,6 +35,8 @@ const renderSpanRows = ({
   rowSpanHeaders,
   selectable,
   useCheckbox,
+  rowSize,
+  isCellBorder,
 }: RenderSpanRowsProps) => {
   if (!rows) return;
   const [hoveredRow, setHoveredRow] = useState('');
@@ -81,6 +86,8 @@ const renderSpanRows = ({
         <TD
           reactTableProps={{ ...cell.getCellProps() }}
           isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
+          rowSize={rowSize}
+          isCellBorder={isCellBorder}
         />
       );
 
@@ -88,6 +95,8 @@ const renderSpanRows = ({
         <TD
           reactTableProps={{ ...cell.getCellProps() }}
           isHovered={hoveredRow === `${row.id}-${rowProps.key}`}
+          rowSize={rowSize}
+          isCellBorder={isCellBorder}
         >
           {cell.render('Cell')}
         </TD>
@@ -125,7 +134,7 @@ const renderSpanRows = ({
           }
         >
           {useCheckbox && (
-            <TD selectable={true}>
+            <TD selectable={true} rowSize={rowSize} isCellBorder={isCellBorder}>
               <CheckboxTD>
                 <Checkbox
                   id={row.id}

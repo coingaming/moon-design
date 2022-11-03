@@ -46,7 +46,7 @@ const Example = () => {
   const columns = React.useMemo(() => columnsInitial, []);
   const data = React.useMemo(() => makeData(5), []);
 
-  return <Table columns={columns} data={data} />;
+  return <Table columns={columns} data={data} isCellBorder />;
 };
 
 export default Example;
