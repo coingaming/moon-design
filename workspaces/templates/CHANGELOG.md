@@ -1,5 +1,11 @@
 # @heathmont/moon-templates
 
+## 9.11.2
+
+### Patch Changes
+
+- Add Lab and Partners themes
+
 ## 9.11.1
 
 ### Patch Changes
