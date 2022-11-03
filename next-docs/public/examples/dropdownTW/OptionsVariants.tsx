@@ -58,7 +58,7 @@ const Example = () => {
         </Dropdown.Trigger>
         <Dropdown.Options>
           {options.map((opt, index) => (
-            <Dropdown.Option value={opt} index={index}>
+            <Dropdown.Option value={opt} index={index} key={index}>
               {({
                 selected,
                 active,
@@ -82,7 +82,7 @@ const Example = () => {
         </Dropdown.Trigger>
         <Dropdown.Options>
           {languages.map((opt, index) => (
-            <Dropdown.Option value={opt} index={index}>
+            <Dropdown.Option value={opt} index={index} key={index}>
               {({
                 selected,
                 active,
@@ -106,7 +106,7 @@ const Example = () => {
         </Dropdown.Trigger>
         <Dropdown.Options>
           {countries.map((country, index) => (
-            <Dropdown.Option value={country} index={index}>
+            <Dropdown.Option value={country} index={index} key={index}>
               {({
                 selected,
                 active,

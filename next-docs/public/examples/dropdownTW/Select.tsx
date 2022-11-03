@@ -43,7 +43,7 @@ const Example = () => {
 
             <Dropdown.Options>
               {people.map((person, index) => (
-                <Dropdown.Option value={person} index={index}>
+                <Dropdown.Option value={person} index={index} key={index}>
                   {({
                     selected,
                     active,
@@ -77,7 +77,7 @@ const Example = () => {
             </Dropdown.Select>
             <Dropdown.Options>
               {people.map((person, index) => (
-                <Dropdown.Option value={person} index={index}>
+                <Dropdown.Option value={person} index={index} key={index}>
                   {({
                     selected,
                     active,
@@ -111,7 +111,7 @@ const Example = () => {
             </Dropdown.Select>
             <Dropdown.Options>
               {people.map((person, index) => (
-                <Dropdown.Option value={person} index={index}>
+                <Dropdown.Option value={person} index={index} key={index}>
                   {({
                     selected,
                     active,
@@ -146,7 +146,7 @@ const Example = () => {
 
             <Dropdown.Options>
               {people.map((person, index) => (
-                <Dropdown.Option value={person} index={index}>
+                <Dropdown.Option value={person} index={index} key={index}>
                   {({
                     selected,
                     active,

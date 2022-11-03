@@ -51,22 +51,124 @@ const Example = () => {
       />
 
       <PropsTable
-        title="Label props"
+        title="Dropdown"
         data={[
           {
-            name: 'width',
-            type: 'string',
-            required: false,
-            default: 'w-full',
-            description: 'ailwind class for custom container width',
+            name: 'value',
+            type: 'T',
+            required: true,
+            default: '-',
+            description: 'The selected value.',
           },
           {
-            name: 'isActive',
+            name: 'onChange',
+            type: '(value: T) => void',
+            required: true,
+            default: '-',
+            description: 'The function to call when a new option is selected.',
+          },
+          {
+            name: 'isError',
             type: 'boolean',
             required: false,
-            default: 'false',
+            default: '-',
+            description: 'Set valid/non-valid',
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Set disabled/non-disabled',
+          },
+          {
+            name: 'size',
+            type: 'sm | md | lg | xl | string',
+            required: false,
+            default: 'md',
+            description: 'Size',
+          },
+          {
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
+          {
+            name: 'open',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the Listbox is open.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Dropdown.Options"
+        data={[
+          {
+            name: 'menuWidth',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind class for custom options container width.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Dropdown.Option"
+        data={[
+          {
+            name: 'value',
+            type: 'T',
+            required: false,
+            default: '-',
+            description: 'The option value.',
+          },
+          {
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
+          {
+            name: 'active',
+            type: 'boolean',
+            required: false,
+            default: '-',
             description:
-              'Is menuItem checked/unchecked. For radio and checkbox variant.',
+              'Whether or not the option is the active/focused option.',
+          },
+          {
+            name: 'selected',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the option is the selected option.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Dropdown.Select"
+        data={[
+          {
+            name: 'label',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Label title',
+          },
+          {
+            name: 'placeholder',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Placeholder',
           },
         ]}
       />
