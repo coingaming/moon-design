@@ -9,7 +9,7 @@ const Example = () => {
       <div className="w-56">
         <MenuItem
           role="сheckbox"
-          isActive={activeOpt1}
+          isSelected={activeOpt1}
           onClick={useCallback(() => setActiveOpt1(!activeOpt1), [activeOpt1])}
         >
           <MenuItem.Checkbox />
@@ -19,7 +19,7 @@ const Example = () => {
       <div className="w-56">
         <MenuItem
           role="сheckbox"
-          isActive={activeOpt2}
+          isSelected={activeOpt2}
           onClick={useCallback(() => setActiveOpt2(!activeOpt2), [activeOpt2])}
         >
           <MenuItem.Title>Your value</MenuItem.Title>

@@ -1,7 +1,7 @@
 type Data = {
   name: string;
   type: string;
-  required: boolean;
+  required: boolean | undefined;
   default: string | React.ReactNode;
   description: string;
 };
@@ -65,7 +65,11 @@ const PropsTable = ({ data, title }: TableProps) => (
                 {prop.type}
               </td>
               <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
-                {prop.required ? 'Yes' : 'No'}
+                {typeof prop.required === 'boolean'
+                  ? prop.required
+                    ? 'Yes'
+                    : 'No'
+                  : ''}
               </td>
               <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
                 {prop.default}
