@@ -1,4 +1,4 @@
-import React, { createRef, useEffect, useState } from 'react';
+import { createRef, useEffect, useState } from 'react';
 import { TextInputGroup, Label } from '@heathmont/moon-core-tw';
 
 const Example = () => {

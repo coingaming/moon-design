@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Pagination } from '@heathmont/moon-core-tw';
 
 const Example = () => {
@@ -7,7 +7,7 @@ const Example = () => {
   const onChange = (page: number) => {
     setPageNumber(page);
     console.log('pageNumber: ', page);
-  }
+  };
   return (
     <Pagination
       pageCount={40}
@@ -19,6 +19,6 @@ const Example = () => {
       onChange={onChange}
     />
   );
-}
+};
 
 export default Example;

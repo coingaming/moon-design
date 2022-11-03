@@ -15,7 +15,7 @@ const LabelContainer: React.FC<LabelProps> = ({
 }) => (
   <div
     className={classNames(
-      'flex items-center rounded-moon-i-xs gap-1',
+      'flex items-center rounded-moon-i-xs gap-1 select-none',
       setSpacing({ size, iconRight, iconLeft }),
       setFontSize({ isUppercase, size }),
       color && color,

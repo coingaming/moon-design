@@ -1,4 +1,3 @@
-import React from 'react';
 import { Select } from '@heathmont/moon-core-tw';
 
 const options = [

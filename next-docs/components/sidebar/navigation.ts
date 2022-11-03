@@ -22,6 +22,13 @@ const navigation = [
       { name: 'Label', href: '/core/label' },
       { name: 'Loader', href: '/core/loader' },
       { name: 'MenuItem', href: '/core/menuItem' },
+      {
+        name: 'Progress',
+        children: [
+          { name: 'CircularProgress', href: '/core/circularProgress' },
+          { name: 'Progress', href: '/core/progress' },
+        ],
+      },
       { name: 'RadioButton', href: '/core/radiobutton' },
       { name: 'Select', href: '/core/select' },
       { name: 'Switch', href: '/core/switch' },

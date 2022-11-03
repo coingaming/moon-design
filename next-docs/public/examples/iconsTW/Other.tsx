@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   Other3Dots,
   Other3DotsHorizontal,

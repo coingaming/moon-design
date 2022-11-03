@@ -2,7 +2,7 @@
 
 exports[`Label renders deafult 1`] = `
 <div
-  className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+  className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
 >
   Default
 </div>
@@ -10,7 +10,7 @@ exports[`Label renders deafult 1`] = `
 
 exports[`Label renders deafult dark 1`] = `
 <div
-  className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+  className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
 >
   Default
 </div>
@@ -21,7 +21,7 @@ exports[`Label renders deafult rtl 1`] = `
   dir="rtl"
 >
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
   >
     Default
   </div>
@@ -31,17 +31,17 @@ exports[`Label renders deafult rtl 1`] = `
 exports[`Label renders with different Colours 1`] = `
 Array [
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
   >
     Xsmall
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-goten bg-roshi"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-goten bg-roshi"
   >
     Xsmall
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-goten bg-dodoria"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-goten bg-dodoria"
   >
     Xsmall
   </div>,
@@ -54,7 +54,7 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
-      className="flex items-center rounded-moon-i-xs gap-1 py-0 ps-0.5 pe-2 text-moon-9-caption uppercase font-medium text-gohan bg-bulma"
+      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 ps-0.5 pe-2 text-moon-9-caption uppercase font-medium text-gohan bg-bulma"
     >
       <svg
         className="text-moon-12"
@@ -74,7 +74,7 @@ Array [
       Twoxsmall
     </div>
     <div
-      className="flex items-center rounded-moon-i-xs gap-1 py-0 ps-2 pe-0.5 text-moon-9-caption uppercase font-medium text-gohan bg-bulma"
+      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 ps-2 pe-0.5 text-moon-9-caption uppercase font-medium text-gohan bg-bulma"
     >
       Twoxsmall
       <svg
@@ -94,7 +94,7 @@ Array [
       </svg>
     </div>
     <div
-      className="flex items-center rounded-moon-i-xs gap-1 py-0 px-0.5 text-moon-9-caption uppercase font-medium text-gohan bg-bulma"
+      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-0.5 text-moon-9-caption uppercase font-medium text-gohan bg-bulma"
     >
       <svg
         className="text-moon-12"
@@ -133,7 +133,7 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
-      className="flex items-center rounded-moon-i-xs gap-1 py-1 ps-1 pe-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 ps-1 pe-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
     >
       <svg
         className="text-moon-16"
@@ -153,7 +153,7 @@ Array [
       Xsmall
     </div>
     <div
-      className="flex items-center rounded-moon-i-xs gap-1 py-1 ps-2 pe-1 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 ps-2 pe-1 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
     >
       Xsmall
       <svg
@@ -173,7 +173,7 @@ Array [
       </svg>
     </div>
     <div
-      className="flex items-center rounded-moon-i-xs gap-1 p-1 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+      className="flex items-center rounded-moon-i-xs gap-1 select-none p-1 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
     >
       <svg
         className="text-moon-16"
@@ -213,12 +213,12 @@ Array [
 exports[`Label renders with different LetterCases 1`] = `
 Array [
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
   >
     Default
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-12 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-12 text-gohan bg-bulma"
   >
     Lowercase
   </div>,
@@ -228,22 +228,22 @@ Array [
 exports[`Label renders with different Sizes 1`] = `
 Array [
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-0 px-2 text-moon-9-caption uppercase font-medium text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-2 text-moon-9-caption uppercase font-medium text-gohan bg-bulma"
   >
     Twoxsmall (2xs)
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
   >
     Xsmall (xs)
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-0 px-2 text-moon-10 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-2 text-moon-10 text-gohan bg-bulma"
   >
     Twoxsmall (2xs)
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 py-1 px-2 text-moon-12 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-12 text-gohan bg-bulma"
   >
     Xsmall (xs)
   </div>,
