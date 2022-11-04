@@ -1,11 +1,15 @@
-import { Snackbar } from '@heathmont/moon-core-tw';
+import { Snackbar, Button } from '@heathmont/moon-core-tw';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
-  <Snackbar position="top-center" type='success' autoClose={10000}>
-    <Snackbar.Message>Welcome to Sportsbet</Snackbar.Message>
+  <div>
+    <Button onClick={Snackbar.onOpenSnackbar}>Open Top Center Snackbar</Button>
+    <Snackbar position="top-center" type="success" autoClose={10000}>
       <Snackbar.Message>Welcome to Sportsbet</Snackbar.Message>
-  </Snackbar>
+      <Snackbar.Message>Welcome to Sportsbet</Snackbar.Message>
+      <Snackbar.Close />
+    </Snackbar>
+  </div>
 );
 
 export default Example;

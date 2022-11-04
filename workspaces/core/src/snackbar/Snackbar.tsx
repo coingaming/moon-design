@@ -1,7 +1,10 @@
 import React, { Children, createContext, useContext } from 'react';
-import { ControlsClose , GenericCheckAlternative } from '@heathmont/moon-icons-tw';
+import {
+  ControlsClose,
+  GenericCheckAlternative,
+} from '@heathmont/moon-icons-tw';
+import * as ToastPrimitive from '@radix-ui/react-toast';
 import classNames from '../private/utils/classnames';
-
 
 type SnackbarProps = {
   width?: string;
@@ -15,13 +18,15 @@ type SnackbarProps = {
     | 'bottom-right';
   borderRadius?: string;
   font?: string;
-  ref?: React.Ref<HTMLDivElement>;
+  ref?: null;
   className?: string;
+  type?: string;
   onClose: () => void;
 };
 
 type SnackbarState = {
-  duration?: number;
+  openSnackbar?: boolean;
+  setOpenSnackbar: (value: boolean) => void;
 };
 
 type IconProps = {
@@ -30,7 +35,7 @@ type IconProps = {
 };
 type ContentProps = {
   className?: string;
-}
+};
 
 type MessageProps = {
   className?: string;
@@ -39,7 +44,7 @@ type HeadingProps = {
   heading?: string;
 };
 
-const SnackbarContext = createContext<SnackbarState>({});
+const SnackbarContext = createContext<SnackbarState>({} as SnackbarState);
 SnackbarContext.displayName = 'SnackbarContext';
 
 const useSnackbarContext = (component: string) => {
@@ -54,26 +59,44 @@ const useSnackbarContext = (component: string) => {
   return context;
 };
 
-const SnackbarRoot: React.FC<SnackbarProps> = (
-    {
-      width,
-      autoClose,
-      position,
-      borderRadius,
-      font,
-      children,
-      ref,
-      className,
-      ...rest
-    },
-  
-  ) => {
-    const states = {
-      type,
-    };
-    return (
-      <SnackbarContext.Provider value={states}>
-        <div
+const { openSnackbar, setOpenSnackbar } =
+useSnackbarContext('SnackbarContext');
+const onOpenSnackbar = () => {
+    console.log(openSnackbar)
+  if (openSnackbar) {
+    setOpenSnackbar(false);
+    setTimeout(() => {
+      setOpenSnackbar(true);
+    }, 400);
+  } else {
+    setOpenSnackbar(true);
+  }
+  console.log(openSnackbar)
+};
+
+const SnackbarRoot: React.FC<SnackbarProps> = ({
+  width,
+  autoClose,
+  position,
+  borderRadius,
+  font,
+  children,
+  ref,
+  className,
+  type,
+  ...rest
+}) => {
+  const [openSnackbar, setOpenSnackbar] = React.useState(false);
+  const states = {
+    openSnackbar,
+    setOpenSnackbar,
+  };
+  return (
+    <SnackbarContext.Provider value={states}>
+      <ToastPrimitive.Provider swipeDirection="right">
+        <ToastPrimitive.Root
+          open={openSnackbar}
+          onOpenChange={setOpenSnackbar}
           ref={ref}
           className={classNames(
             'fixed w-full max-w-lg rounded-xl rounded-xl bg-goku px-4 py-6 text-left scale-100 flex items-center transition gap-2 medium transition.default',
@@ -91,20 +114,25 @@ const SnackbarRoot: React.FC<SnackbarProps> = (
           )}
           {...rest}
         >
-          {type === 'success' &&  <Icon className="bg-chiChi">
-        <GenericCheckAlternative className="text-[32px] text-dodoria" />
-      </Icon>}
-      {type ? <Content>{children}</Content> : children} 
-        </div>
-      </SnackbarContext.Provider>
-    );
-  };
+          {type === 'success' && (
+            <Icon className="bg-chiChi">
+              <GenericCheckAlternative className="text-[32px] text-dodoria" />
+            </Icon>
+          )}
+          {type ? <Content>{children}</Content> : children}
+        </ToastPrimitive.Root>
+      </ToastPrimitive.Provider>
+    </SnackbarContext.Provider>
+  );
+};
 
 const Header: React.FC<HeadingProps> = ({ children }) => {
   return (
-    <span className={classNames(
-      "text-moon-16 font-medium transition-colors text-bulma",
-    )}>
+    <span
+      className={classNames(
+        'text-moon-16 font-medium transition-colors text-bulma'
+      )}
+    >
       {children}
     </span>
   );
@@ -112,25 +140,25 @@ const Header: React.FC<HeadingProps> = ({ children }) => {
 
 const Message: React.FC<MessageProps> = ({ children, className }) => {
   return (
-    <p className={classNames(
-      "text-bulma text-moon-14 transition-colors",
-      className
-    )}>{children}</p>
+    <p
+      className={classNames(
+        'text-bulma text-moon-14 transition-colors',
+        className
+      )}
+    >
+      {children}
+    </p>
   );
 };
 
-const Content: React.FC<ContentProps> = ({children, className}) => {
-  return (
-    <div className={classNames(className)}>
-      {children}
-    </div>
-  )
-}
+const Content: React.FC<ContentProps> = ({ children, className }) => {
+  return <div className={classNames(className)}>{children}</div>;
+};
 
 const Icon: React.FC<IconProps> = ({
   backgroundColor,
   children,
-  className
+  className,
 }) => {
   return (
     <div
@@ -145,13 +173,11 @@ const Icon: React.FC<IconProps> = ({
   );
 };
 
-
-
 const Close: React.FC = () => {
   return (
-    <div className="absolute top-4 right-4">
+    <ToastPrimitive.Close className="absolute top-4 right-4">
       <ControlsClose className="text-[16px] text-bulma" />
-    </div>
+    </ToastPrimitive.Close>
   );
 };
 
@@ -161,6 +187,7 @@ const Snackbar = Object.assign(SnackbarRoot, {
   Message,
   Close,
   Icon,
+  onOpenSnackbar
 });
 
 export default Snackbar;
