@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.12.0
+
+### Minor Changes
+
+- Update design system
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.12.0
+  - @heathmont/moon-table-tw@9.12.0
+
 ## 9.11.2
 
 ### Patch Changes
