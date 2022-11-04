@@ -33,8 +33,14 @@ const Panel: React.FC<PanelProps> = ({ children, className }) => {
   );
 };
 
-const Backdrop: React.FC = () => {
-  return <div className="fixed inset-0 bg-black/[0.56]" />;
+type BackdropProps = {
+  className?: string;
+};
+
+const Backdrop: React.FC<BackdropProps> = ({ className }) => {
+  return (
+    <div className={classNames('fixed inset-0 bg-black/[0.56]', className)} />
+  );
 };
 
 const Title: React.FC = ({ children }) => {
