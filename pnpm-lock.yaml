@@ -103,7 +103,7 @@ importers:
       '@heathmont/moon-charts': workspace:^9.11.2
       '@heathmont/moon-components': workspace:^9.11.2
       '@heathmont/moon-core': workspace:^9.11.2
-      '@heathmont/moon-core-tw': workspace:^9.11.2
+      '@heathmont/moon-core-tw': workspace:^9.12.0
       '@heathmont/moon-datepicker': workspace:^9.11.2
       '@heathmont/moon-draggabletable': workspace:^9.11.2
       '@heathmont/moon-icons': workspace:^9.11.2
@@ -113,7 +113,7 @@ importers:
       '@heathmont/moon-select': workspace:^9.11.2
       '@heathmont/moon-sidebar': workspace:^9.11.2
       '@heathmont/moon-table': workspace:^9.11.2
-      '@heathmont/moon-table-tw': workspace:^9.11.2
+      '@heathmont/moon-table-tw': workspace:^9.12.0
       '@heathmont/moon-themes': workspace:^9.11.2
       '@heathmont/moon-themes-tw': workspace:^9.11.2
       '@heathmont/moon-utils': workspace:^9.11.2
@@ -566,7 +566,7 @@ importers:
 
   workspaces/tables:
     specifiers:
-      '@heathmont/moon-core-tw': workspace:^9.11.2
+      '@heathmont/moon-core-tw': workspace:^9.12.0
       '@types/react-table': 7.7.12
       '@types/react-window': 1.8.5
       react: 18.2.0
