@@ -15,9 +15,10 @@ const Avatar: React.FC<AvatarProps> = ({
   statusOrigin = { vertical: 'bottom', horizontal: 'right' },
   isStatusActive,
   isRounded,
+  ...rest
 }) => {
   return (
-    <div className="relative">
+    <div className="relative" {...rest}>
       {imageUrl ? (
         <Wrapper
           size={size}

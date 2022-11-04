@@ -27,8 +27,10 @@ import TableWrapper from '../components/TableWrapper';
 import TH from '../components/TH';
 import useRowSpan, { RowSpanHeader } from '../hooks/useRowSpan';
 import useScrollState from '../hooks/useScrollState';
-import renderRows from '../utils/renderRows';
-import renderSpanRows from '../utils/renderSpanRows';
+import renderRows from '../private/utils/renderRows';
+import renderSpanRows from '../private/utils/renderSpanRows';
+import type RowGaps from '../private/types/RowGaps';
+import type RowSizes from '../private/types/RowSizes';
 
 export type TableLayout = 'block';
 export type TableVariant = 'calendar';
@@ -52,6 +54,9 @@ export type TableProps<D extends object = {}> = {
   defaultRowBackgroundColor?: string;
   evenRowBackgroundColor?: string;
   headerBackgroundColor?: string;
+  rowGap?: RowGaps;
+  rowSize?: RowSizes;
+  isCellBorder?: boolean;
   isSticky?: boolean;
   isSorting?: boolean;
   selectable?: boolean;
@@ -71,16 +76,19 @@ const Table: React.FC<TableProps> = ({
   maxHeight,
   variant,
   layout,
-  withFooter = false,
-  withMinimap = false,
+  withFooter,
+  withMinimap,
   expandedByDefault,
   defaultRowBackgroundColor = 'gohan',
   evenRowBackgroundColor = 'gohan',
   headerBackgroundColor = 'goku',
+  rowGap = 'gap-1',
+  rowSize = 'md',
+  isCellBorder,
   isSticky = true,
-  isSorting = false,
-  selectable = false,
-  useCheckbox = false,
+  isSorting,
+  selectable,
+  useCheckbox,
   renderRowSubComponent,
   getOnRowClickHandler,
   getOnRowSelect,
@@ -170,6 +178,8 @@ const Table: React.FC<TableProps> = ({
             : ''
         }
         isLastColumn={isLastColumn}
+        rowSize={rowSize}
+        isCellBorder={isCellBorder}
       >
         {column.render('Header')}
         <div
@@ -197,6 +207,8 @@ const Table: React.FC<TableProps> = ({
             ? 'right'
             : ''
         }
+        rowSize={rowSize}
+        isCellBorder={isCellBorder}
       >
         {column.render('Footer')}
 
@@ -247,7 +259,7 @@ const Table: React.FC<TableProps> = ({
         <HiddenTR lastHeaderGroup={lastHeaderGroup} />
       </Header>
 
-      <Body reactTableProps={{ ...getTableBodyProps() }}>
+      <Body reactTableProps={{ ...getTableBodyProps() }} rowGap={rowGap}>
         {variant === 'calendar'
           ? renderSpanRows({
               rows,
@@ -258,6 +270,8 @@ const Table: React.FC<TableProps> = ({
               rowSpanHeaders,
               selectable,
               useCheckbox,
+              rowSize,
+              isCellBorder,
             })
           : renderRows({
               rows,
@@ -286,6 +300,8 @@ const Table: React.FC<TableProps> = ({
               renderRowSubComponent,
               selectable,
               useCheckbox,
+              rowSize,
+              isCellBorder,
             })}
       </Body>
 

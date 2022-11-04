@@ -1,5 +1,5 @@
 import React, { forwardRef, ReactNode } from 'react';
-import classNames from '../utils/classnames';
+import classNames from '../private/utils/classnames';
 
 type BodyTRProps = {
   reactTableProps?: any;
@@ -43,9 +43,9 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
       <div
         {...reactTableProps}
         className={classNames(
-          'relative first:mt-0 focus-visible:outline-none flex rounded-moon-s-sm transition-colors text-bulma moon-text-14',
-          withOffset ? 'mt-2' : 'mt-1',
-          hasParent ? 'mt-0' : '',
+          'relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors',
+          withOffset && '',
+          hasParent && '',
           isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',
           isLastRow
             ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0'
