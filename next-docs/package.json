@@ -9,7 +9,8 @@
     "test": "jest --watch",
     "test:update": "jest -u",
     "test:ci": "jest -w 1 --ci",
-    "build:template:css": "npx tailwindcss -i ./styles/globals.css -o ./styles/output.css"
+    "build:template:css": "npx tailwindcss -i ./styles/globals.css -o ./styles/output.css",
+    "analyze": "env ANALYZE=true next build"
   },
   "dependencies": {
     "@headlessui/react": "1.6.1",
@@ -33,6 +34,7 @@
     "@heathmont/moon-themes-tw": "workspace:^9.11.2",
     "@heathmont/moon-utils": "workspace:^9.11.2",
     "@jest/globals": "27.4.6",
+    "@next/bundle-analyzer": "^13.0.1",
     "@octokit/core": "3.5.1",
     "@testing-library/jest-dom": "5.16.4",
     "@types/react": "17.0.45",
