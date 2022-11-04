@@ -1,11 +1,11 @@
-import React, { createContext, useContext } from 'react';
-import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
+import React, { Children, createContext, useContext } from 'react';
+import { ControlsClose , GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import classNames from '../private/utils/classnames';
+
 
 type SnackbarProps = {
   width?: string;
-  autoClose?: boolean;
-  duration?: number;
+  autoClose?: number;
   position?:
     | 'top-left'
     | 'top-center'
@@ -15,16 +15,28 @@ type SnackbarProps = {
     | 'bottom-right';
   borderRadius?: string;
   font?: string;
+  ref?: React.Ref<HTMLDivElement>;
+  className?: string;
+  onClose: () => void;
 };
-
 
 type SnackbarState = {
-  duration?: boolean;
+  duration?: number;
 };
 
-type MultiTitleProps = {
-  title?: JSX.Element | string;
-  text?: JSX.Element | string;
+type IconProps = {
+  backgroundColor?: string;
+  className?: string;
+};
+type ContentProps = {
+  className?: string;
+}
+
+type MessageProps = {
+  className?: string;
+};
+type HeadingProps = {
+  heading?: string;
 };
 
 const SnackbarContext = createContext<SnackbarState>({});
@@ -42,97 +54,111 @@ const useSnackbarContext = (component: string) => {
   return context;
 };
 
-const SnackbarRoot: SnackbarProps = React.forwardRef(
-  <C extends React.ElementType = 'div'>(
-    { width,autoClose, duration, position, borderRadius, font, children, ...rest },
-    ref?: PolymorphicRef<C>
+const SnackbarRoot: React.FC<SnackbarProps> = (
+    {
+      width,
+      autoClose,
+      position,
+      borderRadius,
+      font,
+      children,
+      ref,
+      className,
+      ...rest
+    },
+  
   ) => {
     const states = {
-     duration
+      type,
     };
     return (
       <SnackbarContext.Provider value={states}>
         <div
           ref={ref}
           className={classNames(
-            'absolute w-full rounded-xl bg-goku px-4 py-6 text-left scale-100 flex items-center transition',
-            width ? width : 'max-w-lg',
-            borderRadius ? borderRadius : 'rounded-xl',
+            'fixed w-full max-w-lg rounded-xl rounded-xl bg-goku px-4 py-6 text-left scale-100 flex items-center transition gap-2 medium transition.default',
             position === 'top-left' ? 'top-4 left-4' : 'top-4 right-4',
-            position === 'top-center' ? 'top-4 left-0 right-0 ml-auto mr-auto' : 'top-4 right-4',   
+            position === 'top-center'
+              ? 'top-4 left-0 right-0 ml-auto mr-auto'
+              : 'top-4 right-4',
             position === 'top-right' ? 'top-4 right-4' : 'top-4 right-4',
             position === 'bottom-left' ? 'bottom-4 left-4' : 'top-4 right-4',
-            position === 'bottom-center' ? 'bottom-4 left-0 right-0 ml-auto mr-auto' : 'top-4 right-4',
-            position === 'bottom-right' ? 'bottom-4 right-4' : 'top-4 right-4'
-
+            position === 'bottom-center'
+              ? 'bottom-4 left-0 right-0 ml-auto mr-auto'
+              : 'top-4 right-4',
+            position === 'bottom-right' ? 'bottom-4 right-4' : 'top-4 right-4',
+            className
           )}
           {...rest}
         >
-          {children}
+          {type === 'success' &&  <Icon className="bg-chiChi">
+        <GenericCheckAlternative className="text-[32px] text-dodoria" />
+      </Icon>}
+      {type ? <Content>{children}</Content> : children} 
         </div>
       </SnackbarContext.Provider>
     );
-  }
-);
+  };
 
-const Header: React.FC = ({ children }) => {
+const Header: React.FC<HeadingProps> = ({ children }) => {
   return (
-    <span className="block grow text-start text-bulma overflow-hidden">
+    <span className={classNames(
+      "text-moon-16 font-medium transition-colors text-bulma",
+    )}>
       {children}
     </span>
   );
 };
 
-const Text: React.FC<MultiTitleProps> = ({ title, text }) => {
+const Message: React.FC<MessageProps> = ({ children, className }) => {
   return (
-    <span className="block grow text-start text-bulma overflow-hidden">
-      <span className="block text-bulma text-moon-14">{title}</span>
-      <span className="flex text-trunks text-moon-12">
-        <span className="flex-1 truncate">{text}</span>
-      </span>
-    </span>
+    <p className={classNames(
+      "text-bulma text-moon-14 transition-colors",
+      className
+    )}>{children}</p>
   );
 };
 
-const IconContainer: React.FC<MultiTitleProps> = ({ title, text }) => {
+const Content: React.FC<ContentProps> = ({children, className}) => {
   return (
-    <span className="block grow text-start text-bulma overflow-hidden">
-      <span className="block text-bulma text-moon-14">{title}</span>
-      <span className="flex text-trunks text-moon-12">
-        <span className="flex-1 truncate">{text}</span>
-      </span>
-    </span>
-  );
-};
+    <div className={classNames(className)}>
+      {children}
+    </div>
+  )
+}
 
-const Icon: React.FC<MultiTitleProps> = ({ title, text }) => {
+const Icon: React.FC<IconProps> = ({
+  backgroundColor,
+  children,
+  className
+}) => {
   return (
-    <span className="block grow text-start text-bulma overflow-hidden">
-      <span className="block text-bulma text-moon-14">{title}</span>
-      <span className="flex text-trunks text-moon-12">
-        <span className="flex-1 truncate">{text}</span>
-      </span>
-    </span>
-  );
-};
-
-const Close: React.FC<MultiTitleProps> = ({ title, text }) => {
-  return (
-    <span className="block grow text-start text-bulma overflow-hidden">
-      <span className="block text-bulma text-moon-14">{title}</span>
-      <span className="flex text-trunks text-moon-12">
-        <span className="flex-1 truncate">{text}</span>
-      </span>
-    </span>
+    <div
+      className={classNames(
+        'p-1 rounded-lg',
+        backgroundColor ? backgroundColor : '',
+        className
+      )}
+    >
+      {children}
+    </div>
   );
 };
 
 
+
+const Close: React.FC = () => {
+  return (
+    <div className="absolute top-4 right-4">
+      <ControlsClose className="text-[16px] text-bulma" />
+    </div>
+  );
+};
 
 const Snackbar = Object.assign(SnackbarRoot, {
+  Content,
   Header,
-  Text,
-  IconContainer,
+  Message,
   Close,
   Icon,
 });
