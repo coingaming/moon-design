@@ -9,7 +9,7 @@ const Example = () => {
       <div className="w-56">
         <MenuItem
           role="radio"
-          isActive={activeOpt1}
+          isSelected={activeOpt1}
           onClick={useCallback(() => setActiveOpt1(!activeOpt1), [activeOpt1])}
         >
           <MenuItem.Radio />
@@ -19,10 +19,11 @@ const Example = () => {
       <div className="w-56">
         <MenuItem
           role="radio"
+          isSelected={activeOpt2}
           onClick={useCallback(() => setActiveOpt2(!activeOpt2), [activeOpt2])}
         >
           <MenuItem.Title>Your value</MenuItem.Title>
-          <MenuItem.Radio isActive={activeOpt2} />
+          <MenuItem.Radio />
         </MenuItem>
       </div>
     </>

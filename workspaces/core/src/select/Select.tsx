@@ -148,4 +148,4 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
   );
 };
 
-export default Select;
+export default React.memo(Select);

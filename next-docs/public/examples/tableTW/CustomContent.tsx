@@ -74,7 +74,7 @@ const Example = () => {
             isExpanded
           >
             <TD {...row.getRowProps()} isExpanded>
-              <p className='text-center'>Custom content</p>
+              <p className="text-center">Custom content</p>
             </TD>
           </BodyTR>
         );

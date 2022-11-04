@@ -1,16 +1,23 @@
 import React, { forwardRef, ReactNode } from 'react';
+import classNames from '../private/utils/classnames';
+import type RowGaps from '../private/types/RowGaps';
 
 type BodyProps = {
   children?: ReactNode;
   reactTableProps?: any;
+  rowGap?: RowGaps;
 };
 
-const Body = forwardRef<HTMLDivElement,BodyProps>(
-  ({ children, reactTableProps }) => {
+const Body = forwardRef<HTMLDivElement, BodyProps>(
+  ({ children, reactTableProps, rowGap }) => {
+    console.log({ rowGap });
     return (
       <div
         {...reactTableProps}
-        className="flex flex-col gap-1 relative z-0 no-scrollbar"
+        className={classNames(
+          'flex flex-col relative z-0 no-scrollbar',
+          rowGap
+        )}
       >
         {children}
       </div>

@@ -18,10 +18,18 @@ const navigation = [
       { name: 'Button', href: '/core/button' },
       { name: 'Checkbox', href: '/core/checkbox' },
       { name: 'Chip', href: '/core/chip' },
+      { name: 'Dropdown', href: '/core/dropdown' },
       { name: 'Icons', href: '/core/icons' },
       { name: 'Label', href: '/core/label' },
       { name: 'Loader', href: '/core/loader' },
       { name: 'MenuItem', href: '/core/menuItem' },
+      {
+        name: 'Progress',
+        children: [
+          { name: 'CircularProgress', href: '/core/circularProgress' },
+          { name: 'Progress', href: '/core/progress' },
+        ],
+      },
       { name: 'RadioButton', href: '/core/radiobutton' },
       { name: 'Select', href: '/core/select' },
       { name: 'Switch', href: '/core/switch' },
