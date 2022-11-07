@@ -12,10 +12,15 @@ const Example = () => {
       <Snackbar
         isOpen={openSnackbar}
         setOpenSnackbar={setOpenSnackbar}
-        position="bottom-right"
+        position="bottom-left"
         autoClose={6000}
+        type="error"
       >
-        <Snackbar.Message>Something went wrong ...</Snackbar.Message>
+        <Snackbar.Header>Info</Snackbar.Header>
+        <Snackbar.Message>
+          Your registration completed successfully
+        </Snackbar.Message>
+        <Snackbar.Close />
       </Snackbar>
     </div>
   );

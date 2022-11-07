@@ -1,32 +1,26 @@
-import React, { Children, createContext, useContext } from 'react';
+import React, { Children, createContext, useContext, useEffect } from 'react';
 import {
   ControlsClose,
   GenericCheckAlternative,
+  GenericInfo, GenericClose, GenericAlarm, GenericCheckRounded
 } from '@heathmont/moon-icons-tw';
 import * as ToastPrimitive from '@radix-ui/react-toast';
 import classNames from '../private/utils/classnames';
 
 type SnackbarProps = {
-  width?: string;
   autoClose?: number;
-  position?:
+  position:
     | 'top-left'
     | 'top-center'
     | 'top-right'
     | 'bottom-left'
     | 'bottom-center'
     | 'bottom-right';
-  borderRadius?: string;
-  font?: string;
   ref?: null;
   className?: string;
-  type?: string;
-  onClose: () => void;
-};
-
-type SnackbarState = {
-  openSnackbar?: boolean;
-  setOpenSnackbar: (value: boolean) => void;
+  type?: 'success' | 'error' | 'info' | 'warning';
+  isOpen: boolean;
+  setOpenSnackbar: () => void;
 };
 
 type IconProps = {
@@ -44,85 +38,81 @@ type HeadingProps = {
   heading?: string;
 };
 
-const SnackbarContext = createContext<SnackbarState>({} as SnackbarState);
-SnackbarContext.displayName = 'SnackbarContext';
-
-const useSnackbarContext = (component: string) => {
-  const context = useContext(SnackbarContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <Menu /> component.`
-    );
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, useSnackbarContext);
-    throw err;
-  }
-  return context;
-};
-
-const { openSnackbar, setOpenSnackbar } =
-useSnackbarContext('SnackbarContext');
-const onOpenSnackbar = () => {
-    console.log(openSnackbar)
-  if (openSnackbar) {
-    setOpenSnackbar(false);
-    setTimeout(() => {
-      setOpenSnackbar(true);
-    }, 400);
-  } else {
-    setOpenSnackbar(true);
-  }
-  console.log(openSnackbar)
-};
-
 const SnackbarRoot: React.FC<SnackbarProps> = ({
-  width,
   autoClose,
   position,
-  borderRadius,
-  font,
   children,
   ref,
   className,
   type,
+  isOpen,
+  setOpenSnackbar,
   ...rest
 }) => {
-  const [openSnackbar, setOpenSnackbar] = React.useState(false);
-  const states = {
-    openSnackbar,
-    setOpenSnackbar,
-  };
+  const [open, setOpen] = React.useState(isOpen || false);
+  useEffect(() => {
+    if (isOpen) {
+      console.log(isOpen)
+      setOpen(false);
+      setTimeout(() => {
+        setOpen(true);
+      }, 400);
+    } else {
+      setOpen(true);
+    }
+  }, [isOpen]);
   return (
-    <SnackbarContext.Provider value={states}>
-      <ToastPrimitive.Provider swipeDirection="right">
-        <ToastPrimitive.Root
-          open={openSnackbar}
-          onOpenChange={setOpenSnackbar}
-          ref={ref}
-          className={classNames(
-            'fixed w-full max-w-lg rounded-xl rounded-xl bg-goku px-4 py-6 text-left scale-100 flex items-center transition gap-2 medium transition.default',
-            position === 'top-left' ? 'top-4 left-4' : 'top-4 right-4',
-            position === 'top-center'
-              ? 'top-4 left-0 right-0 ml-auto mr-auto'
-              : 'top-4 right-4',
-            position === 'top-right' ? 'top-4 right-4' : 'top-4 right-4',
-            position === 'bottom-left' ? 'bottom-4 left-4' : 'top-4 right-4',
-            position === 'bottom-center'
-              ? 'bottom-4 left-0 right-0 ml-auto mr-auto'
-              : 'top-4 right-4',
-            position === 'bottom-right' ? 'bottom-4 right-4' : 'top-4 right-4',
-            className
-          )}
-          {...rest}
-        >
-          {type === 'success' && (
-            <Icon className="bg-chiChi">
-              <GenericCheckAlternative className="text-[32px] text-dodoria" />
-            </Icon>
-          )}
-          {type ? <Content>{children}</Content> : children}
-        </ToastPrimitive.Root>
-      </ToastPrimitive.Provider>
-    </SnackbarContext.Provider>
+    <ToastPrimitive.Provider swipeDirection="right" duration={autoClose || 6000}>
+      <ToastPrimitive.Root
+        open={open}
+        onOpenChange={setOpen}
+        ref={ref}
+        className={classNames(
+          'z-50 fixed right-4 left-4 w-auto shadow-lg rounded-xl bg-goku px-4 py-6 bg-goku text-left flex items-center transition gap-2 medium',
+          'md:w-full md:max-w-sm md:right-4',
+          "data-[state=open]:animate-[toast-slide-in-bottom_150ms_cubic-bezier(0.16, 1, 0.3, 1)]",
+          "md:data-[state=open]:animate-[toast-slide-in-right_150ms_cubic-bezier(0.16, 1, 0.3, 1)]",
+          "radix-state-closed:animate-[toast-hide_100ms_ease-in_forwards]",
+          "radix-swipe-end:animate-[toast-swipe-out_100ms_ease-out_forwards]",
+          "translate-x-radix-toast-swipe-move-x",
+          "radix-swipe-cancel:translate-x-0 radix-swipe-cancel:duration-200 radix-swipe-cancel:ease-[ease]",
+          position === 'top-left' && 'top-4 md:left-4 md:right-auto',
+          position === 'top-center'
+           && 'top-4  ml-auto mr-auto md:left-0 md:right-0',
+          position === 'top-right'&& 'top-4 md:right-4 md:left-auto',
+          position === 'bottom-left'&& 'bottom-4 md:left-4 md:right-auto',
+          position === 'bottom-center'
+           && 'bottom-4  ml-auto mr-auto md:left-0 md:right-0',
+          position === 'bottom-right'&& 'bottom-4 md:right-4 md:left-auto',
+          className
+        )}
+        {...rest}
+      >
+        {/* Confirming color tokens from Rustam, will be updated accordingly */}
+        {type === 'success' && (
+          <Icon className="bg-chiChi">
+            <GenericCheckRounded className="text-[32px] text-dodoria" />
+          </Icon>
+        )}
+         {type === 'info' && (
+          <Icon className="bg-chiChi">
+            <GenericInfo className="text-[32px] text-dodoria" />
+          </Icon>
+        )}
+         {type === 'warning' && (
+          <Icon className="bg-chiChi">
+            <GenericAlarm className="text-[32px] text-dodoria" />
+          </Icon>
+        )}
+         {type === 'error' && (
+          <Icon className="bg-chiChi">
+            <GenericClose className="text-[32px] text-dodoria" />
+          </Icon>
+        )}
+        {type ? <Content>{children}</Content> : children}
+      </ToastPrimitive.Root>
+      <ToastPrimitive.Viewport /> 
+    </ToastPrimitive.Provider>
   );
 };
 
@@ -187,7 +177,6 @@ const Snackbar = Object.assign(SnackbarRoot, {
   Message,
   Close,
   Icon,
-  onOpenSnackbar
 });
 
 export default Snackbar;

@@ -34,6 +34,8 @@ export { default as Select } from './select/Select';
 export * from './select/Select';
 export { default as SelectButton } from './selectButton/SelectButton';
 export * from './selectButton/SelectButton';
+export { default as Snackbar } from './snackbar/Snackbar';
+export * from './snackbar/Snackbar';
 export { default as Switch } from './switch/Switch';
 export * from './switch/Switch';
 export { default as TextInput } from './textInput/TextInput';

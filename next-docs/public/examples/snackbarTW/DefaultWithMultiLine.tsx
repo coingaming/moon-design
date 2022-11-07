@@ -12,10 +12,13 @@ const Example = () => {
       <Snackbar
         isOpen={openSnackbar}
         setOpenSnackbar={setOpenSnackbar}
-        position="bottom-right"
+        position="bottom-center"
         autoClose={6000}
       >
-        <Snackbar.Message>Something went wrong ...</Snackbar.Message>
+        <Snackbar.Content>
+          <Snackbar.Message>Connection time out. </Snackbar.Message>
+          <Snackbar.Message>Showing the latest locallysaved version of the</Snackbar.Message>
+        </Snackbar.Content>
       </Snackbar>
     </div>
   );

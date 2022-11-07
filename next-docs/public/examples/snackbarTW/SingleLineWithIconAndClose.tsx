@@ -1,4 +1,5 @@
 import { Snackbar, Button } from '@heathmont/moon-core-tw';
+import { GenericInfo } from '@heathmont/moon-icons-tw';
 import { useState } from 'react';
 
 const Example = () => {
@@ -15,7 +16,11 @@ const Example = () => {
         position="bottom-right"
         autoClose={6000}
       >
-        <Snackbar.Message>Something went wrong ...</Snackbar.Message>
+        <Snackbar.Icon className="bg-chiChi">
+          <GenericInfo className="text-[32px] text-dodoria" />
+        </Snackbar.Icon>
+        <Snackbar.Message>Connection time out. </Snackbar.Message>
+        <Snackbar.Close />
       </Snackbar>
     </div>
   );
