@@ -17,7 +17,7 @@ export default function PageTextInput() {
   const examples = useExamples('textInput/password');
   return (
     <>
-      <ComponentPageDescription title="Password">
+      <ComponentPageDescription title="Password" isDeprecated>
         <DeprecationWarning href="/core/textInput" name="TextInput" />
         <p>
           The TextInput wrapper component is used when you need to let users

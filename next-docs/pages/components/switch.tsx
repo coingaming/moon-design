@@ -18,7 +18,7 @@ export default function PageSwitch({ isRtl }: Props) {
   const examples = useExamples('switch');
   return (
     <>
-      <ComponentPageDescription title="Switch">
+      <ComponentPageDescription title="Switch" isDeprecated>
         <DeprecationWarning href="/core/switch" name="Switch" />
         <p>
           Switch is a control that is used to quickly switch between two

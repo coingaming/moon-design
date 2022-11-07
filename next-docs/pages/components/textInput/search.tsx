@@ -17,7 +17,7 @@ export default function PageSearchInput() {
   const examples = useExamples('textInput/search');
   return (
     <>
-      <ComponentPageDescription title="Search">
+      <ComponentPageDescription title="Search" isDeprecated>
         <DeprecationWarning href="/core/textInput" name="TextInput" />
         <p>
           The TextInput wrapper component is used when you need to let users

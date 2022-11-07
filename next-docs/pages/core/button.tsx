@@ -16,7 +16,7 @@ const Example = () => {
   const examples = useExamples('buttonTW');
   return (
     <>
-      <ComponentPageDescription title="Button">
+      <ComponentPageDescription title="Button" isInProgress isRtlSupport>
         <p>
           Buttons are calls-to-action used to prompt users. They encourage users
           to interact with us in multiple ways throughout our galaxy, based on

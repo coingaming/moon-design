@@ -17,7 +17,7 @@ export default function PageTelephoneInput() {
   const examples = useExamples('textInput/text');
   return (
     <>
-      <ComponentPageDescription title="Telephone">
+      <ComponentPageDescription title="Telephone" isDeprecated>
         <DeprecationWarning href="/core/textInput" name="TextInput" />
         <p>
           The TextInput wrapper component is used when you need to let users

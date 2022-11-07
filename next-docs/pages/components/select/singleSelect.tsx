@@ -17,7 +17,7 @@ export default function PageSelect() {
   const examples = useExamples('select/singleReactSelect');
   return (
     <>
-      <ComponentPageDescription title="Single Select">
+      <ComponentPageDescription title="Single Select" isDeprecated>
         <DeprecationWarning href="/core/select" name="Select" />
         <p>This Select based on react-select library.</p>
         <p>

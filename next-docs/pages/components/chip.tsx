@@ -13,7 +13,7 @@ const PageChip = () => {
   const examples = useExamples('chip');
   return (
     <>
-      <ComponentPageDescription title="Chip">
+      <ComponentPageDescription title="Chip" isDeprecated>
         <DeprecationWarning href="/core/chip" name="Chip" />
         <p>
           Chips are compact little units that represent actions, filters or

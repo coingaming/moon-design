@@ -13,7 +13,7 @@ const PageCaption = () => {
   const examples = useExamples('caption');
   return (
     <>
-      <ComponentPageDescription title="Caption">
+      <ComponentPageDescription title="Caption" isDeprecated>
         <DeprecationWarning href="/core/typography" name="Typography" />
         <p>
           By default Caption renders as Span tag with Bulma color and size of

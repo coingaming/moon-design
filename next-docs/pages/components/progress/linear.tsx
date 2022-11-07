@@ -11,7 +11,7 @@ export default function PageProgressLinear() {
 
   return (
     <>
-      <ComponentPageDescription title="Linear">
+      <ComponentPageDescription title="Linear" isDeprecated>
         <DeprecationWarning href="/core/progress" name="Progress" />
         <p>
           A progress indicator is a visual representation of a user's progress

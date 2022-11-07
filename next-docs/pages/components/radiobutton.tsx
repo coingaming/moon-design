@@ -13,7 +13,7 @@ export default function RadioButtonPage() {
   const examples = useExamples('radiobutton/radiobutton');
   return (
     <>
-      <ComponentPageDescription title="RadioButton">
+      <ComponentPageDescription title="RadioButton" isDeprecated>
         <DeprecationWarning href="/core/radiobutton" name="RadioButton" />
         <p>
           Radio buttons are used to represent a group or category of choices

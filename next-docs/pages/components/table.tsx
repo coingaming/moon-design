@@ -20,7 +20,7 @@ export default function PageTable() {
   const examples = useExamples('table');
   return (
     <>
-      <ComponentPageDescription title="Table">
+      <ComponentPageDescription title="Table" isDeprecated>
         <DeprecationWarning href="/core/table" name="Table" />
         <p>Lightweight, fast and extendable table.</p>
         <p>

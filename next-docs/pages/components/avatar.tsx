@@ -13,7 +13,7 @@ const PageAvatar = () => {
   const examples = useExamples('avatar');
   return (
     <>
-      <ComponentPageDescription title="Avatar">
+      <ComponentPageDescription title="Avatar" isDeprecated>
         <DeprecationWarning href="/core/avatar" name="Avatar" />
         <p>
           Avatars are used to represent an individual, a business, or a

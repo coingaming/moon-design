@@ -16,7 +16,7 @@ const PageText = () => {
   const examples = useExamples('text');
   return (
     <>
-      <ComponentPageDescription title="Text">
+      <ComponentPageDescription title="Text" isDeprecated>
         <DeprecationWarning href="/core/typography" name="Typography" />
         <p>
           By default Text renders as Paragpaph tag with Bulma color, regular

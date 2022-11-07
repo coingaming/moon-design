@@ -11,7 +11,7 @@ const PageLoader = () => {
   const examples = useExamples('loader');
   return (
     <>
-      <ComponentPageDescription title="Loader">
+      <ComponentPageDescription title="Loader" isDeprecated>
         <DeprecationWarning href="/core/loader" name="Loader" />
         <p>
           Fondly nicknamed “the launcher”, the Loader ensures users that

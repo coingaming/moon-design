@@ -16,58 +16,95 @@ import NoLabel from '../NoLabel';
 import Disabled from '../Disabled';
 import ReadOnly from '../ReadOnly';
 
-const renderWithTheme = (component: JSX.Element) => (
+const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
-
-const renderWithThemeRTL = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>
-    <div dir="rtl">{component}</div>
-  </ThemeProvider>
 );
 
 const renderWithDarkTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
 );
 
-describe('Checkbox', () => {
-  it('renders default', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Default />));
+const renderWithRtl = (component: JSX.Element) => (
+  <div dir="rtl">{component}</div>
+);
+
+describe('Checkbox in Light Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders default rtl', () => {
-    const testRenderer = renderer.create(renderWithThemeRTL(<Default />));
+  it('renders WithLabel', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<WithLabel />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders NoLabel', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<NoLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Checked', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Checked />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Disabled', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders ReadOnly', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<ReadOnly />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
 
-  it('renders default dark', () => {
+describe('Checkbox in Dark Theme', () => {
+  it('renders Default', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders with label', () => {
-    const testRenderer = renderer.create(renderWithTheme(<WithLabel />));
+  it('renders WithLabel', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<WithLabel />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders checked', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Checked />));
+  it('renders NoLabel', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<NoLabel />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders without label', () => {
-    const testRenderer = renderer.create(renderWithTheme(<NoLabel />));
+  it('renders Checked', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Checked />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders disabled', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Disabled />));
+  it('renders Disabled', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Disabled />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders ReadOnly', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<ReadOnly />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
 
-  it('renders read only', () => {
-    const testRenderer = renderer.create(renderWithTheme(<ReadOnly />));
+describe('Checkbox in RTL', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders WithLabel', () => {
+    const testRenderer = renderer.create(renderWithRtl(<WithLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders NoLabel', () => {
+    const testRenderer = renderer.create(renderWithRtl(<NoLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Checked', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Checked />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Disabled', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders ReadOnly', () => {
+    const testRenderer = renderer.create(renderWithRtl(<ReadOnly />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

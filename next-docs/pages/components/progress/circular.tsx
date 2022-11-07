@@ -11,7 +11,7 @@ export default function PageProgressLinear() {
   const examples = useExamples('progress/circular');
   return (
     <>
-      <ComponentPageDescription title="Circular">
+      <ComponentPageDescription title="Circular" isDeprecated>
         <DeprecationWarning
           href="/core/circularProgress"
           name="CircularProgress"

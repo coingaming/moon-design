@@ -12,7 +12,7 @@ const PageLabel = () => {
   const examples = useExamples('label');
   return (
     <>
-      <ComponentPageDescription title="Label">
+      <ComponentPageDescription title="Label" isDeprecated>
         <DeprecationWarning href="/core/label" name="Label" />
         <p>
           Use tags to label, categorize, or organize items using keywords that

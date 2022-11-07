@@ -16,7 +16,7 @@ const PageHeading = () => {
   const examples = useExamples('heading');
   return (
     <>
-      <ComponentPageDescription title="Heading">
+      <ComponentPageDescription title="Heading" isDeprecated>
         <DeprecationWarning href="/core/typography" name="Typography" />
         <p>
           By default Heading renders as H3 tag with Bulma color, bold

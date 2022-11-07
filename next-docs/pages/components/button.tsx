@@ -14,7 +14,7 @@ const PageButton = () => {
   const examples = useExamples('button');
   return (
     <>
-      <ComponentPageDescription title="Button">
+      <ComponentPageDescription title="Button" isDeprecated>
         <DeprecationWarning href="/core/button" name="Button" />
         <p>
           Buttons are calls-to-action used to prompt users. They encourage users

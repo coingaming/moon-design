@@ -18,7 +18,7 @@ export default function PageNumberInput() {
 
   return (
     <>
-      <ComponentPageDescription title="Number">
+      <ComponentPageDescription title="Number" isDeprecated>
         <DeprecationWarning href="/core/textInput" name="TextInput" />
         <p>
           The TextInput wrapper component is used when you need to let users

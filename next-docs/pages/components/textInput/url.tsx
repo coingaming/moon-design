@@ -17,7 +17,7 @@ export default function PageUrlInput() {
   const examples = useExamples('textInput/text');
   return (
     <>
-      <ComponentPageDescription title="Url">
+      <ComponentPageDescription title="Url" isDeprecated>
         <DeprecationWarning href="/core/textInput" name="TextInput" />
         <p>
           The TextInput wrapper component is used when you need to let users

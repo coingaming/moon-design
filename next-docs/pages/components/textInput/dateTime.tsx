@@ -17,7 +17,7 @@ export default function PageDateInput() {
   const examples = useExamples('textInput/datetime');
   return (
     <>
-      <ComponentPageDescription title="Date Time">
+      <ComponentPageDescription title="Date Time" isDeprecated>
         <DeprecationWarning href="/core/textInput" name="TextInput" />
         <p>
           The TextInput wrapper component is used when you need to let users

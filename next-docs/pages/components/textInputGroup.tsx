@@ -20,7 +20,7 @@ const PageTextInputGroup = () => {
   const examples = useExamples('textInputGroup');
   return (
     <>
-      <ComponentPageDescription title="TextInput Group">
+      <ComponentPageDescription title="TextInput Group" isDeprecated>
         <DeprecationWarning href="/core/textInputGroup" name="TextInputGroup" />
         <p>The TextInputGroup component lives in 2 different packages:</p>
         <p>

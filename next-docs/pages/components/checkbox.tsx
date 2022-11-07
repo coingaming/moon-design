@@ -13,7 +13,7 @@ const PageAccordion = () => {
   const examples = useExamples('checkbox');
   return (
     <>
-      <ComponentPageDescription title="Checkbox">
+      <ComponentPageDescription title="Checkbox" isDeprecated>
         <DeprecationWarning href="/core/checkbox" name="Checkbox" />
         <p>
           Checkboxes are used as a list in our forms and signup pages so users

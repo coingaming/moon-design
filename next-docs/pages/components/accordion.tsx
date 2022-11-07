@@ -16,7 +16,7 @@ const PageAccordion = () => {
   const examples = useExamples('accordionNew');
   return (
     <>
-      <ComponentPageDescription title="Accordion">
+      <ComponentPageDescription title="Accordion" isDeprecated>
         <DeprecationWarning href="/core/accordion" name="Accordion" />
         <p>
           Like the accordion instrument, our accordion component reveals or
