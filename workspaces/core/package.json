@@ -1,12 +1,12 @@
 {
   "name": "@heathmont/moon-core-tw",
   "sideEffects": false,
-  "version": "9.11.2",
+  "version": "9.12.0",
   "files": [
     "lib"
   ],
   "main": "lib/index.js",
-  "module": "lib/index.js",
+  "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/moon-design",
   "author": "Yolo Group",
