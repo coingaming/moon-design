@@ -66,10 +66,9 @@ const SnackbarRoot: React.FC<SnackbarProps> = ({
         className={classNames(
           'z-50 fixed right-4 left-4 w-auto shadow-lg rounded-xl bg-goku px-4 py-6 bg-goku text-left flex items-center transition gap-2 medium',
           'md:w-full md:max-w-sm md:right-4',
-          'data-[state=open]:animate-[toast-slide-in-bottom_150ms_cubic-bezier(0.16, 1, 0.3, 1)]',
-          'md:data-[state=open]:animate-[toast-slide-in-right_150ms_cubic-bezier(0.16, 1, 0.3, 1)]',
-          'radix-state-closed:animate-[toast-hide_100ms_ease-in_forwards]',
-          'radix-swipe-end:animate-[toast-swipe-out_100ms_ease-out_forwards]',
+          "radix-state-open:animate-toast-slide-in-bottom md:radix-state-open:animate-toast-slide-in-right",
+          "radix-state-closed:animate-toast-hide",
+          "radix-swipe-end:animate-toast-swipe-out",
           'translate-x-radix-toast-swipe-move-x',
           'radix-swipe-cancel:translate-x-0 radix-swipe-cancel:duration-200 radix-swipe-cancel:ease-[ease]',
           position === 'top-left' && 'top-4 md:left-4 md:right-auto',
