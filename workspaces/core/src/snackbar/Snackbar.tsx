@@ -12,7 +12,7 @@ import classNames from '../private/utils/classnames';
 
 type SnackbarProps = {
   autoClose?: number;
-  position:
+  position?:
     | 'top-left'
     | 'top-center'
     | 'top-right'
@@ -39,6 +39,11 @@ type HeadingProps = {
   heading?: string;
 };
 
+type VariantProps = {
+  containerClassName?: string;
+  iconClassname?: string
+
+}
 const SnackbarRoot: React.FC<SnackbarProps> = ({
   autoClose,
   position,
@@ -49,6 +54,11 @@ const SnackbarRoot: React.FC<SnackbarProps> = ({
   setOpenSnackbar,
   ...rest
 }) => {
+
+  //Set Position default value
+  useEffect(() => {
+    if (!position) position = 'top-right';
+  }, []);
   return (
     <ToastPrimitive.Provider
       swipeDirection="right"
@@ -129,34 +139,34 @@ const Close: React.FC = () => {
   );
 };
 
-const Success: React.FC = () => {
+const Success: React.FC<VariantProps> = ({containerClassName, iconClassname }) => {
   return (
-    <Icon className="bg-chiChi">
-      <GenericCheckRounded className="text-[32px] text-dodoria" />
+    <Icon className={classNames('bg-chiChi', containerClassName)}>
+      <GenericCheckRounded className={classNames('text-[32px] text-dodoria', iconClassname)} />
     </Icon>
   );
 };
 
-const Info: React.FC = () => {
+const Info: React.FC<VariantProps> = ({containerClassName, iconClassname }) => {
   return (
-    <Icon className="bg-chiChi">
-      <GenericInfo className="text-[32px] text-dodoria" />
+    <Icon className={classNames('bg-chiChi', containerClassName)}>
+      <GenericInfo className={classNames('text-[32px] text-dodoria', iconClassname)} />
     </Icon>
   );
 };
 
-const Error: React.FC = () => {
+const Error: React.FC<VariantProps> = ({containerClassName, iconClassname }) => {
   return (
-    <Icon className="bg-chiChi">
-      <GenericClose className="text-[32px] text-dodoria" />
+    <Icon className={classNames('bg-chiChi', containerClassName)}>
+      <GenericClose className={classNames('text-[32px] text-dodoria', iconClassname)} />
     </Icon>
   );
 };
 
-const Warning: React.FC = () => {
+const Warning: React.FC<VariantProps> = ({containerClassName, iconClassname }) => {
   return (
-    <Icon className="bg-chiChi">
-      <GenericAlarm className="text-[32px] text-dodoria" />
+    <Icon className={classNames('bg-chiChi', containerClassName)}>
+      <GenericAlarm className={classNames('text-[32px] text-dodoria', iconClassname)} />
     </Icon>
   );
 };

@@ -3,13 +3,9 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/snackbarTW/Default';
-import DefaultWithClose from '../../public/examples/snackbarTW/DefaultWithClose';
-import DefaultWithMultiLine from '../../public/examples/snackbarTW/DefaultWithMultiLine';
-import DefaultWithMultiLineWithClose from '../../public/examples/snackbarTW/DefaultWithMultiLineWithClose';
-import MultiLineWithIcon from '../../public/examples/snackbarTW/MultiLineWithIcon';
-import MultiLineWithIconAndClose from '../../public/examples/snackbarTW/MultiLineWithIconAndClose';
-import SingleLineWithIconAndClose from '../../public/examples/snackbarTW/SingleLineWithIconAndClose';
-import TypedMultiLineWithIconAndClose from '../../public/examples/snackbarTW/TypedMultiLineWithIconAndClose';
+import SnackbarPositions from '../../public/examples/snackbarTW/SnackbarPositions';
+import SnackbarTypes from '../../public/examples/snackbarTW/SnackbarTypes';
+import SnackbarVariants from '../../public/examples/snackbarTW/SnackbarVariants';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -28,39 +24,19 @@ const Example = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Default With Close"
-        preview={<DefaultWithClose />}
-        code={examples ? examples.DefaultWithClose : 'Loading'}
+        title="Position"
+        preview={<SnackbarPositions />}
+        code={examples ? examples.SnackbarPositions : 'Loading'}
       />
       <Preview
-        title="Default With Muti Line"
-        preview={<DefaultWithMultiLine />}
-        code={examples ? examples.DefaultWithMultiLine : 'Loading'}
+        title="Snackbar Types"
+        preview={<SnackbarTypes />}
+        code={examples ? examples.SnackbarTypes : 'Loading'}
       />
       <Preview
-        title="Default With Muti Line With Close"
-        preview={<DefaultWithMultiLineWithClose />}
-        code={examples ? examples.DefaultWithMultiLineWithClose : 'Loading'}
-      />
-            <Preview
-        title="Single Line With Icon And Close"
-        preview={<SingleLineWithIconAndClose/>}
-        code={examples ? examples.SingleLineWithIconAndClose : 'Loading'}
-      />
-          <Preview
-        title="Muti Line With Icon"
-        preview={<MultiLineWithIcon/>}
-        code={examples ? examples.MultiLineWithIcon : 'Loading'}
-      />
-           <Preview
-        title="Muti Line With Icon And Close"
-        preview={<MultiLineWithIconAndClose/>}
-        code={examples ? examples.MultiLineWithIconAndClose : 'Loading'}
-      />
-           <Preview
-        title="Typed Muti Line With Icon And Close"
-        preview={<TypedMultiLineWithIconAndClose/>}
-        code={examples ? examples.TypedMultiLineWithIconAndClose : 'Loading'}
+        title="Snackbar Variants"
+        preview={<SnackbarVariants />}
+        code={examples ? examples.SnackbarVariants : 'Loading'}
       />
       <PropsTable
         title="Snackbar props"

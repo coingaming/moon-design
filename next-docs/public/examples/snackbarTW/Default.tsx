@@ -4,17 +4,21 @@ import { useState } from 'react';
 const Example = () => {
   const [openSnackbar, setOpenSnackbar] = useState(false);
 
+  const openSnackbarHandler = () => {
+    if (openSnackbar) {
+      setOpenSnackbar(false);
+      setTimeout(() => {
+        setOpenSnackbar(true);
+      }, 400);
+    } else {
+      setOpenSnackbar(true);
+    }
+  };
+
   return (
     <div>
-      <Button onClick={() => setOpenSnackbar(!openSnackbar)}>
-       Snackbar
-      </Button>
-      <Snackbar
-        isOpen={openSnackbar}
-        setOpenSnackbar={setOpenSnackbar}
-        position="bottom-right"
-        autoClose={6000}
-      >
+      <Button onClick={() => openSnackbarHandler()}>Default Snackbar</Button>
+      <Snackbar isOpen={openSnackbar} setOpenSnackbar={setOpenSnackbar}>
         <Snackbar.Message>Something went wrong ...</Snackbar.Message>
       </Snackbar>
     </div>
