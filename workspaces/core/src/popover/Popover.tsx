@@ -4,9 +4,11 @@ import React, {
   Fragment,
   useRef,
   ReactNode,
+  useEffect,
 } from 'react';
 import { Popover as HeadlessPopover } from '@headlessui/react';
 import { usePopper } from 'react-popper';
+import classNames from '../private/utils/classnames';
 
 type Placement =
   | 'top-start'
@@ -16,7 +18,11 @@ type Placement =
   | 'right-start'
   | 'right-end'
   | 'left-start'
-  | 'left-end';
+  | 'left-end'
+  | 'top'
+  | 'bottom'
+  | 'right'
+  | 'left';
 type PopoverRootProps = {
   position?: Placement;
 };
@@ -47,15 +53,24 @@ const usePopoverContext = (component: string) => {
   return context;
 };
 
-const PopoverRoot: React.FC<PopoverRootProps> = ({ children, position }) => {
+const PopoverRoot: React.FC<PopoverRootProps> = ({
+  children,
+  position = 'bottom',
+}) => {
   const referenceElement = useRef(null);
   const popperElement = useRef(null);
+
+  useEffect(() => {
+    setAnchorEl(referenceElement.current);
+    setPopperElementRef(popperElement.current);
+  });
 
   const [anchorEl, setAnchorEl] = React.useState(referenceElement.current);
   const [popperElementRef, setPopperElementRef] = React.useState(
     popperElement.current
   );
 
+  console.log('position', position);
   let { styles, attributes } = usePopper(anchorEl, popperElementRef, {
     placement: position,
   });
@@ -100,7 +115,33 @@ const Trigger: React.FC = ({ children }) => {
     </div>
   );
 };
+
+//Popover.Panel
+type PanelProps = {
+  menuWidth?: string;
+};
+const Panel: React.FC<PanelProps> = ({ children, menuWidth }) => {
+  const { pooper } = usePopoverContext('Popover.Trigger');
+  return (
+    <div
+      ref={pooper?.popperElement}
+      style={pooper?.styles?.popper}
+      {...pooper?.attributes?.popper}
+    >
+      <HeadlessPopover.Panel
+        className={classNames(
+          menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
+          'z-1 p-1 my-2 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
+          'focus:outline-none'
+        )}
+      >
+        {children}
+      </HeadlessPopover.Panel>
+    </div>
+  );
+};
+
 //Popover
-const Popover = Object.assign(PopoverRoot, { Trigger });
+const Popover = Object.assign(PopoverRoot, { Trigger, Panel });
 
 export default Popover;
