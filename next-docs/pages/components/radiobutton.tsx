@@ -13,13 +13,8 @@ export default function RadioButtonPage() {
   const examples = useExamples('radiobutton/radiobutton');
   return (
     <>
-      <ComponentPageDescription title="RadioButton" isDeprecated>
+      <ComponentPageDescription title="RadioButton">
         <DeprecationWarning href="/core/radiobutton" name="RadioButton" />
-        <p>
-          Radio buttons are used to represent a group or category of choices
-          whereby users can only select one option - the main difference from
-          checkboxes that allow users to select multiple options.
-        </p>
       </ComponentPageDescription>
       <Preview
         title="RadioButton"

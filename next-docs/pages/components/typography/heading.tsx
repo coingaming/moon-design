@@ -16,13 +16,8 @@ const PageHeading = () => {
   const examples = useExamples('heading');
   return (
     <>
-      <ComponentPageDescription title="Heading" isDeprecated>
+      <ComponentPageDescription title="Heading">
         <DeprecationWarning href="/core/typography" name="Typography" />
-        <p>
-          By default Heading renders as H3 tag with Bulma color, bold
-          font-weight, and size of 16px.
-        </p>
-        <p>We treat semantics and visuals as two totally separate things.</p>
       </ComponentPageDescription>
       <Preview
         title="Colors"

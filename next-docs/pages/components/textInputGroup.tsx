@@ -20,18 +20,8 @@ const PageTextInputGroup = () => {
   const examples = useExamples('textInputGroup');
   return (
     <>
-      <ComponentPageDescription title="TextInput Group" isDeprecated>
+      <ComponentPageDescription title="TextInput Group">
         <DeprecationWarning href="/core/textInputGroup" name="TextInputGroup" />
-        <p>The TextInputGroup component lives in 2 different packages:</p>
-        <p>
-          Text type - <em>@heathmont/moon-core</em>
-        </p>
-        <p>
-          Select type - <em>@heathmont/moon-select</em>
-        </p>
-        <p className="font-medium">
-          !!! TextInput Group is supported only in size `xlarge`.
-        </p>
       </ComponentPageDescription>
       <Preview
         title="Default"

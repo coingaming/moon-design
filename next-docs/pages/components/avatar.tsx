@@ -13,14 +13,8 @@ const PageAvatar = () => {
   const examples = useExamples('avatar');
   return (
     <>
-      <ComponentPageDescription title="Avatar" isDeprecated>
+      <ComponentPageDescription title="Avatar">
         <DeprecationWarning href="/core/avatar" name="Avatar" />
-        <p>
-          Avatars are used to represent an individual, a business, or a
-          celestial being when they interact with any Coingaming brand. While
-          they usually consist of an image, avatars are adaptable - letters or
-          object icons may sometimes be used as fallbacks.
-        </p>
       </ComponentPageDescription>
       <Preview
         title="Variants"

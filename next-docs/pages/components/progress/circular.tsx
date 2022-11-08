@@ -11,21 +11,11 @@ export default function PageProgressLinear() {
   const examples = useExamples('progress/circular');
   return (
     <>
-      <ComponentPageDescription title="Circular" isDeprecated>
+      <ComponentPageDescription title="Circular">
         <DeprecationWarning
           href="/core/circularProgress"
           name="CircularProgress"
         />
-        <p>
-          A progress indicator is a visual representation of a user’s progress
-          through a set of steps, guiding toward the completion of a specified
-          process.
-        </p>
-        <p>Use this when the process has a known duration.</p>
-        <p>
-          Circular progress indicators display progress by animating an
-          indicator along an invisible circular track in a clockwise direction.
-        </p>
       </ComponentPageDescription>
       <Preview
         title="Examples"

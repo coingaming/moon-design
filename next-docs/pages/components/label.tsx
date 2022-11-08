@@ -12,18 +12,8 @@ const PageLabel = () => {
   const examples = useExamples('label');
   return (
     <>
-      <ComponentPageDescription title="Label" isDeprecated>
+      <ComponentPageDescription title="Label">
         <DeprecationWarning href="/core/label" name="Label" />
-        <p>
-          Use tags to label, categorize, or organize items using keywords that
-          describe them.
-        </p>
-        <p>Multiple or single tags can be used to categorize items.</p>
-        <p>
-          Use short labels for easy scanning. Use two words only if necessary to
-          describe the status and differentiate it from other tags.
-        </p>
-        <p>Default text style: Uppercase</p>
       </ComponentPageDescription>
       <Preview
         title="Colours"

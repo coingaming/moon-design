@@ -48,7 +48,7 @@ const PageIcons = () => {
   const examples = useExamples('icons');
   return (
     <>
-      <ComponentPageDescription title="Icons" isDeprecated>
+      <ComponentPageDescription title="Icons">
         <DeprecationWarning href="/core/icons" name="Icons" />
       </ComponentPageDescription>
       <Preview

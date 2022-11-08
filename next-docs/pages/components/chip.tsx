@@ -13,28 +13,8 @@ const PageChip = () => {
   const examples = useExamples('chip');
   return (
     <>
-      <ComponentPageDescription title="Chip" isDeprecated>
+      <ComponentPageDescription title="Chip">
         <DeprecationWarning href="/core/chip" name="Chip" />
-        <p>
-          Chips are compact little units that represent actions, filters or
-          choices. When shown, they allow users to prompt actions, filter
-          games/content and choose options. We use three types of chips in the
-          Moon:
-        </p>
-        <div className="flex flex-col gap-2">
-          <p>
-            <p className="font-medium">Action chip</p>
-            Action chips prompt actions related to the game/content.
-          </p>
-          <p>
-            <p className="font-medium">Filter chip</p>
-            Filter chips let users sieve through large categories.
-          </p>
-          <p>
-            <p className="font-medium">Selection chip</p>
-            Selection chips allow users to select options that matter to them.
-          </p>
-        </div>
       </ComponentPageDescription>
       <Preview
         title="Sizes"

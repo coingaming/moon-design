@@ -16,12 +16,8 @@ export default function PageListItem() {
   const examples = useExamples('listItem');
   return (
     <>
-      <ComponentPageDescription title="List item" isDeprecated>
+      <ComponentPageDescription title="List item">
         <DeprecationWarning href="/core/menuItem" name="MenuItem" />
-        <p>
-          List item component. The List item width is determined by the width of
-          the parent container.
-        </p>
       </ComponentPageDescription>
       <Preview
         title="Single line item"
