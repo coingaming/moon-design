@@ -20,12 +20,6 @@ export default function PageSwitch({ isRtl }: Props) {
     <>
       <ComponentPageDescription title="Switch">
         <DeprecationWarning href="/core/switch" name="Switch" />
-        <p>
-          Switch is a control that is used to quickly switch between two
-          possible states. Switches are only used for these binary actions that
-          occur immediately after the user “flips” the switch. They are commonly
-          used for “on/off” switches.
-        </p>
       </ComponentPageDescription>
       <Preview
         title="Default"

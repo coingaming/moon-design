@@ -14,7 +14,7 @@ const Example = () => {
   const examples = useExamples('dropdownTW');
   return (
     <>
-      <ComponentPageDescription title="Dropdown" isInProgress={true}>
+      <ComponentPageDescription title="Dropdown" isInProgress>
         <p>
           Dropdowns is a custom select component that allows users to make
           single or multiple selections (Multi select not supported currently).

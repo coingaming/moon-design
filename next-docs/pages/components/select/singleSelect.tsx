@@ -19,17 +19,6 @@ export default function PageSelect() {
     <>
       <ComponentPageDescription title="Single Select">
         <DeprecationWarning href="/core/select" name="Select" />
-        <p>This Select based on react-select library.</p>
-        <p>
-          Select components are used for collecting user provided information
-          from a list of options.
-        </p>
-        <p>
-          Select has two sizes with a different views:{' '}
-          <span className="font-medium">large</span> (by default) and{' '}
-          <span className="font-medium">xLarge</span>. Large size has label
-          outside input, xLarge has label inside the input.
-        </p>
       </ComponentPageDescription>
       <Preview
         title="With Label"

@@ -9,20 +9,14 @@ type BodyProps = {
 };
 
 const Body = forwardRef<HTMLDivElement, BodyProps>(
-  ({ children, reactTableProps, rowGap }) => {
-    console.log({ rowGap });
-    return (
-      <div
-        {...reactTableProps}
-        className={classNames(
-          'flex flex-col relative z-0 no-scrollbar',
-          rowGap
-        )}
-      >
-        {children}
-      </div>
-    );
-  }
+  ({ children, reactTableProps, rowGap }) => (
+    <div
+      {...reactTableProps}
+      className={classNames('flex flex-col relative z-0 no-scrollbar', rowGap)}
+    >
+      {children}
+    </div>
+  )
 );
 
 export default Body;

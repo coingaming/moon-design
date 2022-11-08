@@ -39,7 +39,7 @@ const Example = () => {
           Based on{' '}
           <a
             href="https://github.com/tannerlinsley/react-table"
-            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+            className="transition-colors underline hover:text-piccolo"
             target="_blank"
             rel="noreferrer"
           >

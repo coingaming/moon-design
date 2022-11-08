@@ -15,11 +15,6 @@ const PageCaption = () => {
     <>
       <ComponentPageDescription title="Caption">
         <DeprecationWarning href="/core/typography" name="Typography" />
-        <p>
-          By default Caption renders as Span tag with Bulma color and size of
-          10px.
-        </p>
-        <p>We treat semantics and visuals as two totally separate things.</p>
       </ComponentPageDescription>
       <Preview
         title="Colors"

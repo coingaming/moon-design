@@ -6,12 +6,13 @@ type Props = {
 };
 
 const DeprecationWarning: React.FC<Props> = ({ href, name }) => (
-  <p className="font-medium">
-    NB! The component is deprecated. Please use our{' '}
+  <p>
+    <p className="text-krillin font-medium">
+      NB! The component will be deprecated soon.
+    </p>
+    Please check out a new{' '}
     <Link href={href}>
-      <a className="text-piccolo transition-colors duration-200 hover:text-hit visited:text-hit">
-        new {name}
-      </a>
+      <a className="transition-colors underline hover:text-piccolo">{name}</a>
     </Link>{' '}
     built with Tailwind.
   </p>

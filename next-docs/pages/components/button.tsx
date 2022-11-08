@@ -16,15 +16,6 @@ const PageButton = () => {
     <>
       <ComponentPageDescription title="Button">
         <DeprecationWarning href="/core/button" name="Button" />
-        <p>
-          Buttons are calls-to-action used to prompt users. They encourage users
-          to interact with us in multiple ways throughout our galaxy, based on
-          what the label of the button indicates.
-        </p>
-        <p>
-          Buttons are clickable elements with label text that describe the
-          action that will happen when the users interact with it.
-        </p>
       </ComponentPageDescription>
       <Preview
         title="Variants"

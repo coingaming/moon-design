@@ -2,41 +2,39 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import renderer from 'react-test-renderer';
-import Default from '../Default';
-import Colors from '../Colors';
-import Values from '../Values';
-import Sizes from '../Sizes';
 import {
   moonDesignDark,
   moonDesignLight,
   ThemeProvider,
 } from '@heathmont/moon-themes';
+import renderer from 'react-test-renderer';
+import React from 'react';
+import Text from '../Text';
+import Heading from '../Heading';
+import Caption from '../Caption';
+import Colors from '../Colors';
 
 const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
-
 const renderWithDarkTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
 );
-
 const renderWithRtl = (component: JSX.Element) => (
   <div dir="rtl">{component}</div>
 );
 
-describe('CircularProgress in Light theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
+describe('Typography in Light Theme', () => {
+  it('renders Text', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Text />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Sizes />));
+  it('renders Heading', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Heading />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Values', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Values />));
+  it('renders Caption', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Caption />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Colors', () => {
@@ -45,17 +43,17 @@ describe('CircularProgress in Light theme', () => {
   });
 });
 
-describe('CircularProgress in Dark theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
+describe('Typography in Dark Theme', () => {
+  it('renders Text', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Text />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Sizes />));
+  it('renders Heading', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Heading />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Values', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Values />));
+  it('renders Caption', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Caption />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Colors', () => {
@@ -64,17 +62,17 @@ describe('CircularProgress in Dark theme', () => {
   });
 });
 
-describe('CircularProgress in RTL', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
+describe('Typography in RTL', () => {
+  it('renders Text', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Text />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Sizes />));
+  it('renders Heading', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Heading />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Values', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Values />));
+  it('renders Caption', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Caption />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Colors', () => {

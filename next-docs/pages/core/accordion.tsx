@@ -16,7 +16,12 @@ const Example = () => {
   const examples = useExamples('accordionTW');
   return (
     <>
-      <ComponentPageDescription title="Accordion">
+      <ComponentPageDescription
+        title="Accordion"
+        isInProgress
+        isRtlSupport
+        isAriaSupport
+      >
         <p>
           Like the accordion instrument, our accordion component reveals or
           hides associated sections of content. This is done through the use of
@@ -69,7 +74,7 @@ const Example = () => {
         code={examples ? examples.ContentOutsideSizes : 'Loading'}
       />
       <Preview
-        title="With background"
+        title="Custom background"
         preview={<Background />}
         code={examples ? examples.Background : 'Loading'}
       />

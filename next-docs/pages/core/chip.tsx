@@ -15,7 +15,7 @@ const Example = () => {
   const examples = useExamples('chipTW');
   return (
     <>
-      <ComponentPageDescription title="Chip">
+      <ComponentPageDescription title="Chip" isInProgress isRtlSupport>
         <p>
           Chips are compact little units that represent actions, filters or
           choices. When shown, they allow users to prompt actions, filter
