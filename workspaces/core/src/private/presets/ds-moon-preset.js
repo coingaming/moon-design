@@ -194,11 +194,11 @@ module.exports = {
       },
       animation: {
         // Toast
-        "toast-hide": "toast-hide 100ms ease-in forwards",
+        "toast-hide": "toast-hide 300ms ease-in forwards",
         "toast-slide-in-right":
-          "toast-slide-in-right 150ms cubic-bezier(0.16, 1, 0.3, 1)",
+          "toast-slide-in-right 300ms cubic-bezier(0.16, 1, 0.3, 1)",
         "toast-slide-in-bottom":
-          "toast-slide-in-bottom 150ms cubic-bezier(0.16, 1, 0.3, 1)",
+          "toast-slide-in-bottom 300ms cubic-bezier(0.16, 1, 0.3, 1)",
         "toast-swipe-out": "toast-swipe-out 100ms ease-out forwards",
       },
       colors: {

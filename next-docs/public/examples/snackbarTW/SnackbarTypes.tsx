@@ -3,26 +3,26 @@ import { GenericInfo } from '@heathmont/moon-icons-tw';
 import { useState } from 'react';
 
 const Example = () => {
-  const [openSnackbar, setOpenSnackbar] = useState(false);
+  const [snackbar, setSnackbar] = useState('')
 
-  const openSnackbarHandler = () => {
-    if (openSnackbar) {
-      setOpenSnackbar(false);
+  const openSnackbarHandler = (type: string) => {
+    if (snackbar) {
+      setSnackbar('');
       setTimeout(() => {
-        setOpenSnackbar(true);
+        setSnackbar(type);
       }, 400);
     } else {
-      setOpenSnackbar(true);
+      setSnackbar(type);
     }
   };
 
   return (
     <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <div>
-        <Button onClick={() => openSnackbarHandler()}>Multi Line</Button>
+        <Button onClick={() => openSnackbarHandler('mutliline')}>Multi Line</Button>
         <Snackbar
-          isOpen={openSnackbar}
-          setOpenSnackbar={setOpenSnackbar}
+          isOpen={snackbar === 'mutliline'}
+          setSnackbar={setSnackbar}
           position="bottom-center"
           autoClose={6000}
         >
@@ -35,12 +35,12 @@ const Example = () => {
         </Snackbar>
       </div>
       <div>
-        <Button onClick={() => openSnackbarHandler()}>
+        <Button onClick={() => openSnackbarHandler('multiline-close')}>
           Multi Line With Close
         </Button>
         <Snackbar
-          isOpen={openSnackbar}
-          setOpenSnackbar={setOpenSnackbar}
+          isOpen={snackbar === 'multiline-close'}
+          setSnackbar={setSnackbar}
           position="top-right"
           autoClose={6000}
         >
@@ -54,12 +54,12 @@ const Example = () => {
         </Snackbar>
       </div>
       <div>
-        <Button onClick={() => openSnackbarHandler()}>
+        <Button onClick={() => openSnackbarHandler('multiline-icon')}>
           Multi Line With Icon
         </Button>
         <Snackbar
-          isOpen={openSnackbar}
-          setOpenSnackbar={setOpenSnackbar}
+          isOpen={snackbar === 'multiline-icon'}
+          setSnackbar={setSnackbar}
           position="top-left"
           autoClose={6000}
         >
@@ -75,12 +75,12 @@ const Example = () => {
         </Snackbar>
       </div>
       <div>
-        <Button onClick={() => openSnackbarHandler()}>
+        <Button onClick={() => openSnackbarHandler('multiline-icon-close')}>
           Multi Line With Icon And Close
         </Button>
         <Snackbar
-          isOpen={openSnackbar}
-          setOpenSnackbar={setOpenSnackbar}
+          isOpen={snackbar === 'multiline-icon-close'}
+          setSnackbar={setSnackbar}
           position="top-center"
           autoClose={6000}
         >
@@ -97,12 +97,12 @@ const Example = () => {
         </Snackbar>
       </div>
       <div>
-        <Button onClick={() => openSnackbarHandler()}>
-          Sign Line With Icon
+        <Button onClick={() => openSnackbarHandler('singleline-icon')}>
+          Single Line With Icon
         </Button>
         <Snackbar
-          isOpen={openSnackbar}
-          setOpenSnackbar={setOpenSnackbar}
+          isOpen={snackbar === 'singleline-icon'}
+          setSnackbar={setSnackbar}
           position="bottom-left"
           autoClose={6000}
         >
@@ -113,12 +113,12 @@ const Example = () => {
         </Snackbar>
       </div>
       <div>
-        <Button onClick={() => openSnackbarHandler()}>
+        <Button onClick={() => openSnackbarHandler('singleline-icon-close')}>
         Single Line with Icon and Close
         </Button>
         <Snackbar
-        isOpen={openSnackbar}
-        setOpenSnackbar={setOpenSnackbar}
+        isOpen={snackbar === 'singleline-icon-close'}
+        setSnackbar={setSnackbar}
         position="bottom-right"
         autoClose={6000}
       >

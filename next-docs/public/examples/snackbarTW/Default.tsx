@@ -2,23 +2,25 @@ import { Snackbar, Button } from '@heathmont/moon-core-tw';
 import { useState } from 'react';
 
 const Example = () => {
-  const [openSnackbar, setOpenSnackbar] = useState(false);
+  const [snackbar, setSnackbar] = useState('');
 
-  const openSnackbarHandler = () => {
-    if (openSnackbar) {
-      setOpenSnackbar(false);
+  const openSnackbarHandler = (type: string) => {
+    if (snackbar) {
+      setSnackbar('');
       setTimeout(() => {
-        setOpenSnackbar(true);
+        setSnackbar(type);
       }, 400);
     } else {
-      setOpenSnackbar(true);
+      setSnackbar(type);
     }
   };
 
   return (
     <div>
-      <Button onClick={() => openSnackbarHandler()}>Default Snackbar</Button>
-      <Snackbar isOpen={openSnackbar} setOpenSnackbar={setOpenSnackbar}>
+      <Button onClick={() => openSnackbarHandler('default')}>
+        Default Snackbar
+      </Button>
+      <Snackbar isOpen={snackbar === 'default'} setSnackbar={setSnackbar}>
         <Snackbar.Message>Something went wrong ...</Snackbar.Message>
       </Snackbar>
     </div>

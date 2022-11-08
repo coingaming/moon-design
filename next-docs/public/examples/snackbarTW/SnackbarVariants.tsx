@@ -1,30 +1,30 @@
 import { Snackbar, Button } from '@heathmont/moon-core-tw';
-import { GenericInfo } from '@heathmont/moon-icons-tw';
 import { useState } from 'react';
 
 const Example = () => {
-  const [openSnackbar, setOpenSnackbar] = useState(false);
 
-  const openSnackbarHandler = () => {
-    if (openSnackbar) {
-      setOpenSnackbar(false);
+  const [snackbar, setSnackbar] = useState('')
+
+  const openSnackbarHandler = (type: string) => {
+    if (snackbar) {
+      setSnackbar('');
       setTimeout(() => {
-        setOpenSnackbar(true);
+        setSnackbar(type);
       }, 400);
     } else {
-      setOpenSnackbar(true);
+      setSnackbar(type);
     }
   };
 
   return (
     <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
       <div>
-        <Button onClick={() => openSnackbarHandler()}>
+        <Button onClick={() => openSnackbarHandler('success')}>
          Success Snackbar
         </Button>
         <Snackbar
-          isOpen={openSnackbar}
-          setOpenSnackbar={setOpenSnackbar}
+          isOpen={snackbar === 'success'}
+          setSnackbar={setSnackbar}
           position="top-center"
           autoClose={6000}
         >
@@ -40,12 +40,12 @@ const Example = () => {
       </div>
 
       <div>
-        <Button onClick={() => openSnackbarHandler()}>
+        <Button onClick={() => openSnackbarHandler('info')}>
          Info Snackbar
         </Button>
         <Snackbar
-          isOpen={openSnackbar}
-          setOpenSnackbar={setOpenSnackbar}
+          isOpen={snackbar === 'info'}
+          setSnackbar={setSnackbar}
           position="top-left"
           autoClose={6000}
         >
@@ -61,12 +61,12 @@ const Example = () => {
       </div>
 
       <div>
-        <Button onClick={() => openSnackbarHandler()}>
+        <Button onClick={() => openSnackbarHandler('error')}>
          Error Snackbar
         </Button>
         <Snackbar
-          isOpen={openSnackbar}
-          setOpenSnackbar={setOpenSnackbar}
+          isOpen={snackbar === 'error'}
+          setSnackbar={setSnackbar}
           position="top-right"
           autoClose={6000}
         >
@@ -82,12 +82,12 @@ const Example = () => {
       </div>
 
       <div>
-        <Button onClick={() => openSnackbarHandler()}>
+        <Button onClick={() => openSnackbarHandler('warning')}>
          Warning Snackbar
         </Button>
         <Snackbar
-          isOpen={openSnackbar}
-          setOpenSnackbar={setOpenSnackbar}
+          isOpen={snackbar === 'warning'}
+          setSnackbar={setSnackbar}
           position="bottom-center"
           autoClose={6000}
         >
