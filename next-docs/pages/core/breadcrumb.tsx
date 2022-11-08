@@ -11,7 +11,7 @@ const Example = () => {
   const examples = useExamples('breadcrumbsTW');
   return (
     <>
-      <ComponentPageDescription title="Breadcrumb">
+      <ComponentPageDescription title="Breadcrumb" isInProgress isRtlSupport>
         <p>
           As users navigate through your website, they'll want to know where
           they are and how to get back to where they were. Use breadcrumbs to

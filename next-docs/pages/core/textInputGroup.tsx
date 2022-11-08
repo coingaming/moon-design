@@ -15,7 +15,7 @@ const Example = () => {
   const examples = useExamples('textInputGroupTW');
   return (
     <>
-      <ComponentPageDescription title="TextInputGroup">
+      <ComponentPageDescription title="TextInputGroup" isInProgress>
         <p>
           Indeed, forms require input from all users, including astronauts. Text
           input fields help to gather both short and long-form information. The

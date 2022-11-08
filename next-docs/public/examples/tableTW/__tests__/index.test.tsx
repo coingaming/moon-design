@@ -3,7 +3,11 @@
  */
 
 import React from 'react';
-import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
+import {
+  moonDesignDark,
+  moonDesignLight,
+  ThemeProvider,
+} from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
 import Default from '../Default';
 import CellBorder from '../CellBorder';
@@ -14,7 +18,7 @@ const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
+  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
 );
 const renderWithRtl = (component: JSX.Element) => (
   <div dir="rtl">{component}</div>

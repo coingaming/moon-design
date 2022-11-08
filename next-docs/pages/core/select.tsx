@@ -15,7 +15,7 @@ const Example = () => {
   const examples = useExamples('selectTw/single');
   return (
     <>
-      <ComponentPageDescription title="Select">
+      <ComponentPageDescription title="Select" isInProgress>
         <p>
           Select components are used for collecting user provided information
           from a list of options.

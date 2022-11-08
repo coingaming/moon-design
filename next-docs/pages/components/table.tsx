@@ -22,19 +22,6 @@ export default function PageTable() {
     <>
       <ComponentPageDescription title="Table">
         <DeprecationWarning href="/core/table" name="Table" />
-        <p>Lightweight, fast and extendable table.</p>
-        <p>
-          Based on{' '}
-          <a
-            href="https://github.com/tannerlinsley/react-table"
-            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-            target="_blank"
-            rel="noreferrer"
-          >
-            react-table
-          </a>
-          .
-        </p>
       </ComponentPageDescription>
       <Preview
         title="Default"
