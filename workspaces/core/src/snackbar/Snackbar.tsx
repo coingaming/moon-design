@@ -46,7 +46,7 @@ type VariantProps = {
 }
 const SnackbarRoot: React.FC<SnackbarProps> = ({
   autoClose,
-  position,
+  position = 'top-right',
   children,
   ref,
   className,
@@ -54,11 +54,6 @@ const SnackbarRoot: React.FC<SnackbarProps> = ({
   setOpenSnackbar,
   ...rest
 }) => {
-
-  //Set Position default value
-  useEffect(() => {
-    if (!position) position = 'top-right';
-  }, []);
   return (
     <ToastPrimitive.Provider
       swipeDirection="right"

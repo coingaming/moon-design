@@ -24,7 +24,7 @@ const Example = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Position"
+        title="Snackbar Positions"
         preview={<SnackbarPositions />}
         code={examples ? examples.SnackbarPositions : 'Loading'}
       />
@@ -64,19 +64,30 @@ const Example = () => {
               'Change the duration the snackbar takes',
           },
           {
-            name: 'type',
-            required: false,
-            type: 'success | error | info | warning',
-            default: '-',
-            description:
-              'Change the type of the snackbar using the preset types',
-          },
-          {
             name: 'position',
             required: true,
             type: 'top-left | top-center | top-right | bottom-left | bottom-center | bottom-right',
             default: 'top-right',
             description: 'Change the position of snackbar',
+          },
+        ]}
+      />
+        <PropsTable
+        title="Variant props"
+        data={[
+          {
+            name: 'containerClassName',
+            type: 'Tailwind classes',
+            required: false,
+            default: '-',
+            description: 'Change the styles of the icon container',
+          },
+          {
+            name: 'iconClassName',
+            type: 'Tailwind classes',
+            required: false,
+            default: '-',
+            description: 'Change the styles of the icon',
           },
         ]}
       />
