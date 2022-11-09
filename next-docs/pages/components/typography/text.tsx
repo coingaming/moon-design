@@ -18,11 +18,6 @@ const PageText = () => {
     <>
       <ComponentPageDescription title="Text">
         <DeprecationWarning href="/core/typography" name="Typography" />
-        <p>
-          By default Text renders as Paragpaph tag with Bulma color, regular
-          font-weight, and size of 16px.
-        </p>
-        <p>We treat semantics and visuals as two totally separate things.</p>
       </ComponentPageDescription>
       <Preview
         title="Colors"
