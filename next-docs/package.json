@@ -1,6 +1,6 @@
 {
   "name": "next-docs",
-  "version": "9.12.1",
+  "version": "9.12.2",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -29,9 +29,9 @@
     "@heathmont/moon-select": "workspace:^9.11.2",
     "@heathmont/moon-sidebar": "workspace:^9.11.2",
     "@heathmont/moon-table": "workspace:^9.11.2",
-    "@heathmont/moon-table-tw": "workspace:^9.12.1",
+    "@heathmont/moon-table-tw": "workspace:^9.12.2",
     "@heathmont/moon-themes": "workspace:^9.11.2",
-    "@heathmont/moon-themes-tw": "workspace:^9.11.2",
+    "@heathmont/moon-themes-tw": "workspace:^9.11.3",
     "@heathmont/moon-utils": "workspace:^9.11.2",
     "@jest/globals": "27.4.6",
     "@next/bundle-analyzer": "^13.0.1",
