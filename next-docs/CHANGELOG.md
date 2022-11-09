@@ -1,5 +1,14 @@
 # Change Log
 
+## 9.12.1
+
+### Patch Changes
+
+- Deploy fixes
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.12.1
+  - @heathmont/moon-table-tw@9.12.1
+
 ## 9.12.0
 
 ### Minor Changes
