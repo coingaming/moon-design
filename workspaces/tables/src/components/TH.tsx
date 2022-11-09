@@ -31,7 +31,7 @@ const TH = forwardRef<HTMLDivElement, THProps>(
     <div
       {...reactTableProps}
       className={classNames(
-        'relative text-start justify-between w-full font-medium',
+        'relative text-start justify-between font-medium',
         getFontSize(rowSize as RowSizes),
         getPadding(rowSize as RowSizes),
         isLastColumn ? '' : getCellBorder(isCellBorder),

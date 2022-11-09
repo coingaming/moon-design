@@ -40,7 +40,7 @@ exports[`Table in Dark Theme renders CellBorder 1`] = `
       }
     >
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -68,7 +68,7 @@ exports[`Table in Dark Theme renders CellBorder 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -96,7 +96,7 @@ exports[`Table in Dark Theme renders CellBorder 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -124,7 +124,7 @@ exports[`Table in Dark Theme renders CellBorder 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -152,7 +152,7 @@ exports[`Table in Dark Theme renders CellBorder 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -180,7 +180,7 @@ exports[`Table in Dark Theme renders CellBorder 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -867,7 +867,7 @@ exports[`Table in Dark Theme renders Default 1`] = `
       }
     >
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -895,7 +895,7 @@ exports[`Table in Dark Theme renders Default 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -923,7 +923,7 @@ exports[`Table in Dark Theme renders Default 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -951,7 +951,7 @@ exports[`Table in Dark Theme renders Default 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -979,7 +979,7 @@ exports[`Table in Dark Theme renders Default 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -1007,7 +1007,7 @@ exports[`Table in Dark Theme renders Default 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -1695,7 +1695,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -1723,7 +1723,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -1751,7 +1751,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -1779,7 +1779,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -1807,7 +1807,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -1835,7 +1835,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2210,7 +2210,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2238,7 +2238,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2266,7 +2266,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2294,7 +2294,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2322,7 +2322,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2350,7 +2350,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2725,7 +2725,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2753,7 +2753,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2781,7 +2781,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2809,7 +2809,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2837,7 +2837,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -2865,7 +2865,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3240,7 +3240,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3268,7 +3268,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3296,7 +3296,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3324,7 +3324,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3352,7 +3352,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3380,7 +3380,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3755,7 +3755,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3783,7 +3783,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3811,7 +3811,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3839,7 +3839,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3867,7 +3867,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -3895,7 +3895,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4275,7 +4275,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4303,7 +4303,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4331,7 +4331,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4359,7 +4359,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4387,7 +4387,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4415,7 +4415,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4790,7 +4790,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4818,7 +4818,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4846,7 +4846,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4874,7 +4874,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4902,7 +4902,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -4930,7 +4930,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5305,7 +5305,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5333,7 +5333,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5361,7 +5361,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5389,7 +5389,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5417,7 +5417,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5445,7 +5445,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5820,7 +5820,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5848,7 +5848,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5876,7 +5876,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5904,7 +5904,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5932,7 +5932,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -5960,7 +5960,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6335,7 +6335,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6363,7 +6363,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6391,7 +6391,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6419,7 +6419,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6447,7 +6447,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6475,7 +6475,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6850,7 +6850,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6878,7 +6878,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6906,7 +6906,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6934,7 +6934,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6962,7 +6962,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -6990,7 +6990,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -7365,7 +7365,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -7393,7 +7393,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -7421,7 +7421,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -7449,7 +7449,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -7477,7 +7477,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -7505,7 +7505,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -7884,7 +7884,7 @@ exports[`Table in Light Theme renders CellBorder 1`] = `
       }
     >
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -7912,7 +7912,7 @@ exports[`Table in Light Theme renders CellBorder 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -7940,7 +7940,7 @@ exports[`Table in Light Theme renders CellBorder 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -7968,7 +7968,7 @@ exports[`Table in Light Theme renders CellBorder 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -7996,7 +7996,7 @@ exports[`Table in Light Theme renders CellBorder 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -8024,7 +8024,7 @@ exports[`Table in Light Theme renders CellBorder 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -8711,7 +8711,7 @@ exports[`Table in Light Theme renders Default 1`] = `
       }
     >
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -8739,7 +8739,7 @@ exports[`Table in Light Theme renders Default 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -8767,7 +8767,7 @@ exports[`Table in Light Theme renders Default 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -8795,7 +8795,7 @@ exports[`Table in Light Theme renders Default 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -8823,7 +8823,7 @@ exports[`Table in Light Theme renders Default 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -8851,7 +8851,7 @@ exports[`Table in Light Theme renders Default 1`] = `
         />
       </div>
       <div
-        className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+        className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
         colSpan={1}
         role="columnheader"
         style={
@@ -9539,7 +9539,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -9567,7 +9567,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -9595,7 +9595,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -9623,7 +9623,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -9651,7 +9651,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -9679,7 +9679,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10054,7 +10054,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10082,7 +10082,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10110,7 +10110,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10138,7 +10138,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10166,7 +10166,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10194,7 +10194,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10569,7 +10569,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10597,7 +10597,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10625,7 +10625,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10653,7 +10653,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10681,7 +10681,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -10709,7 +10709,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11084,7 +11084,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11112,7 +11112,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11140,7 +11140,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11168,7 +11168,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11196,7 +11196,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11224,7 +11224,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11599,7 +11599,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11627,7 +11627,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11655,7 +11655,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11683,7 +11683,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11711,7 +11711,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -11739,7 +11739,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12119,7 +12119,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12147,7 +12147,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12175,7 +12175,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12203,7 +12203,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12231,7 +12231,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12259,7 +12259,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12634,7 +12634,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12662,7 +12662,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12690,7 +12690,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12718,7 +12718,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12746,7 +12746,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -12774,7 +12774,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13149,7 +13149,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13177,7 +13177,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13205,7 +13205,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13233,7 +13233,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13261,7 +13261,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13289,7 +13289,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13664,7 +13664,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13692,7 +13692,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13720,7 +13720,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13748,7 +13748,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13776,7 +13776,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -13804,7 +13804,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14179,7 +14179,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14207,7 +14207,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14235,7 +14235,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14263,7 +14263,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14291,7 +14291,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14319,7 +14319,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14694,7 +14694,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14722,7 +14722,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14750,7 +14750,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14778,7 +14778,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14806,7 +14806,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -14834,7 +14834,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15209,7 +15209,7 @@ Array [
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15237,7 +15237,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15265,7 +15265,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15293,7 +15293,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15321,7 +15321,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15349,7 +15349,7 @@ Array [
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15731,7 +15731,7 @@ exports[`Table in RTL mode renders CellBorder 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15759,7 +15759,7 @@ exports[`Table in RTL mode renders CellBorder 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15787,7 +15787,7 @@ exports[`Table in RTL mode renders CellBorder 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15815,7 +15815,7 @@ exports[`Table in RTL mode renders CellBorder 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15843,7 +15843,7 @@ exports[`Table in RTL mode renders CellBorder 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 after:content-[\\"\\"] after:absolute after:w-px after:bg-beerus after:h-3/5 after:bottom-[20%] after:right-0 after:translate-x-[-50%] bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -15871,7 +15871,7 @@ exports[`Table in RTL mode renders CellBorder 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -16562,7 +16562,7 @@ exports[`Table in RTL mode renders Default 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -16590,7 +16590,7 @@ exports[`Table in RTL mode renders Default 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -16618,7 +16618,7 @@ exports[`Table in RTL mode renders Default 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -16646,7 +16646,7 @@ exports[`Table in RTL mode renders Default 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -16674,7 +16674,7 @@ exports[`Table in RTL mode renders Default 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -16702,7 +16702,7 @@ exports[`Table in RTL mode renders Default 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -17393,7 +17393,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -17421,7 +17421,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -17449,7 +17449,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -17477,7 +17477,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -17505,7 +17505,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -17533,7 +17533,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -17908,7 +17908,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -17936,7 +17936,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -17964,7 +17964,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -17992,7 +17992,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -18020,7 +18020,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -18048,7 +18048,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -18423,7 +18423,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -18451,7 +18451,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -18479,7 +18479,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -18507,7 +18507,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -18535,7 +18535,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -18563,7 +18563,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -18938,7 +18938,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -18966,7 +18966,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -18994,7 +18994,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -19022,7 +19022,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -19050,7 +19050,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -19078,7 +19078,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -19453,7 +19453,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -19481,7 +19481,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -19509,7 +19509,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -19537,7 +19537,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -19565,7 +19565,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -19593,7 +19593,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -19975,7 +19975,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -20003,7 +20003,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -20031,7 +20031,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -20059,7 +20059,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -20087,7 +20087,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -20115,7 +20115,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-10 px-2 py-0 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-10 px-2 py-0 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -20490,7 +20490,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -20518,7 +20518,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -20546,7 +20546,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -20574,7 +20574,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -20602,7 +20602,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -20630,7 +20630,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-12 px-2 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-12 px-2 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21005,7 +21005,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21033,7 +21033,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21061,7 +21061,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21089,7 +21089,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21117,7 +21117,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21145,7 +21145,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-1 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-1 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21520,7 +21520,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21548,7 +21548,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21576,7 +21576,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21604,7 +21604,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21632,7 +21632,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -21660,7 +21660,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-2 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22035,7 +22035,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22063,7 +22063,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22091,7 +22091,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22119,7 +22119,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22147,7 +22147,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22175,7 +22175,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-3 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-3 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22550,7 +22550,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22578,7 +22578,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22606,7 +22606,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22634,7 +22634,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22662,7 +22662,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -22690,7 +22690,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-4 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-4 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -23065,7 +23065,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
         }
       >
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -23093,7 +23093,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -23121,7 +23121,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -23149,7 +23149,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -23177,7 +23177,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
@@ -23205,7 +23205,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
           />
         </div>
         <div
-          className="relative text-start justify-between w-full font-medium text-moon-14 px-3 py-5 bg-goku"
+          className="relative text-start justify-between font-medium text-moon-14 px-3 py-5 bg-goku"
           colSpan={1}
           role="columnheader"
           style={
