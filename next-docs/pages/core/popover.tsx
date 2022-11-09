@@ -3,6 +3,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/popoverTW/Default';
+import Position from '../../public/examples/popoverTW/Position';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -24,6 +25,12 @@ const Example = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+
+      <Preview
+        title="Position"
+        preview={<Position />}
+        code={examples ? examples.Position : 'Loading'}
       />
 
       <PropsTable

@@ -25,6 +25,12 @@ type Placement =
   | 'left';
 type PopoverRootProps = {
   position?: Placement;
+  modifiers: [
+    {
+      name: 'flip';
+      enabled: false;
+    }
+  ];
 };
 
 type CallableChildren = (data: { open?: boolean }) => ReactNode;
@@ -60,19 +66,24 @@ const PopoverRoot: React.FC<PopoverRootProps> = ({
   const referenceElement = useRef(null);
   const popperElement = useRef(null);
 
-  useEffect(() => {
-    setAnchorEl(referenceElement.current);
-    setPopperElementRef(popperElement.current);
-  });
-
   const [anchorEl, setAnchorEl] = React.useState(referenceElement.current);
   const [popperElementRef, setPopperElementRef] = React.useState(
     popperElement.current
   );
 
-  console.log('position', position);
+  useEffect(() => {
+    setAnchorEl(referenceElement.current);
+    setPopperElementRef(popperElement.current);
+  });
+
   let { styles, attributes } = usePopper(anchorEl, popperElementRef, {
     placement: position,
+    modifiers: [
+      {
+        name: 'flip',
+        enabled: false,
+      },
+    ],
   });
 
   const states = {
@@ -89,7 +100,7 @@ const PopoverRoot: React.FC<PopoverRootProps> = ({
     typeof children === 'function' && (children as CallableChildren);
   return (
     <PopoverContext.Provider value={states}>
-      <div className="w-full">
+      <div>
         <HeadlessPopover>
           {({ open }) => (
             <div className="relative">
@@ -127,11 +138,14 @@ const Panel: React.FC<PanelProps> = ({ children, menuWidth }) => {
       ref={pooper?.popperElement}
       style={pooper?.styles?.popper}
       {...pooper?.attributes?.popper}
+      className={classNames(
+        menuWidth ? menuWidth : 'w-[18.75rem]',
+        'inline-block m-2 z-[999999]'
+      )}
     >
       <HeadlessPopover.Panel
         className={classNames(
-          menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
-          'z-1 p-1 my-2 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
+          'w-full p-1 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
           'focus:outline-none'
         )}
       >
