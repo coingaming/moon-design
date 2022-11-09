@@ -1,5 +1,11 @@
 # @heathmont/moon-core-tw
 
+## 9.12.1
+
+### Patch Changes
+
+- Deploy fixes
+
 ## 9.12.0
 
 ### Minor Changes
