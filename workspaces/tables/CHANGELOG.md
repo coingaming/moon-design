@@ -1,5 +1,11 @@
 # @heathmont/moon-table-tw
 
+## 9.12.2
+
+### Patch Changes
+
+- Table fix
+
 ## 9.12.1
 
 ### Patch Changes

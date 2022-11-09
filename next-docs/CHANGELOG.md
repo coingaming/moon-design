@@ -1,5 +1,14 @@
 # Change Log
 
+## 9.12.2
+
+### Patch Changes
+
+- Table fix
+- Updated dependencies [undefined]
+  - @heathmont/moon-table-tw@9.12.2
+  - @heathmont/moon-themes-tw@9.11.3
+
 ## 9.12.1
 
 ### Patch Changes
