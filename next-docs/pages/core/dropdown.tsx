@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/dropdownTW/Default';
@@ -24,6 +25,19 @@ const Example = () => {
           Sidebars, Drawers, Dialogs etc.
         </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>{`
+  <Dropdown>
+    <Dropdown.Trigger>
+      ...
+    </Dropdown.Trigger>
+    <Dropdown.Options>
+      <Dropdown.Option>
+        ...
+      </Dropdown.Option>
+    </Dropdown.Options>
+    <Dropdown.Hint>...</Dropdown.Hint>
+  </Dropdown>
+      `}</ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
@@ -39,6 +53,19 @@ const Example = () => {
         preview={<OptionsVariants />}
         code={examples ? examples.OptionsVariants : 'Loading'}
       />
+      <ComponentAnatomy>{`
+  <Dropdown>
+    <Dropdown.Select>
+      ...
+    </Dropdown.Select>
+    <Dropdown.Options>
+      <Dropdown.Option>
+        ...
+      </Dropdown.Option>
+    </Dropdown.Options>
+    <Dropdown.Hint>...</Dropdown.Hint>
+  </Dropdown>
+      `}</ComponentAnatomy>
       <Preview
         title="Select"
         preview={<Select />}
