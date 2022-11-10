@@ -3,9 +3,9 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/checkboxTW/Checked';
+import Colors from '../../public/examples/checkboxTW/Colors';
 import Default from '../../public/examples/checkboxTW/Default';
 import Disabled from '../../public/examples/checkboxTW/Disabled';
-import NoLabel from '../../public/examples/checkboxTW/NoLabel';
 import ReadOnly from '../../public/examples/checkboxTW/ReadOnly';
 import WithLabel from '../../public/examples/checkboxTW/WithLabel';
 import useExamples from '../../utils/useExamples';
@@ -36,11 +36,6 @@ const Example = () => {
         code={examples ? examples.WithLabel : 'Loading'}
       />
       <Preview
-        title="No Label"
-        preview={<NoLabel />}
-        code={examples ? examples.NoLabel : 'Loading'}
-      />
-      <Preview
         title="Checked"
         preview={<Checked />}
         code={examples ? examples.Checked : 'Loading'}
@@ -55,6 +50,11 @@ const Example = () => {
         preview={<ReadOnly />}
         code={examples ? examples.ReadOnly : 'Loading'}
       />
+      <Preview
+        title="Customization"
+        preview={<Colors />}
+        code={examples ? examples.Colors : 'Loading'}
+      />
       <PropsTable
         title="Checkbox props"
         data={[
@@ -64,6 +64,13 @@ const Example = () => {
             required: false,
             default: '-',
             description: 'ARIA description of checkbox',
+          },
+          {
+            name: 'bgColor',
+            type: 'string',
+            required: false,
+            default: 'bg-piccolo',
+            description: 'Checked state of checkbox',
           },
           {
             name: 'checked',

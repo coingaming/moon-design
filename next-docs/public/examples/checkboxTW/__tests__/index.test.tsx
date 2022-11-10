@@ -12,7 +12,7 @@ import renderer from 'react-test-renderer';
 import Default from '../Default';
 import WithLabel from '../WithLabel';
 import Checked from '../Checked';
-import NoLabel from '../NoLabel';
+import Colors from '../Colors';
 import Disabled from '../Disabled';
 import ReadOnly from '../ReadOnly';
 
@@ -37,10 +37,6 @@ describe('Checkbox in Light Theme', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<WithLabel />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders NoLabel', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<NoLabel />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
   it('renders Checked', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<Checked />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
@@ -53,6 +49,10 @@ describe('Checkbox in Light Theme', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<ReadOnly />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders Colors', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Colors />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 });
 
 describe('Checkbox in Dark Theme', () => {
@@ -62,10 +62,6 @@ describe('Checkbox in Dark Theme', () => {
   });
   it('renders WithLabel', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<WithLabel />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders NoLabel', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<NoLabel />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Checked', () => {
@@ -80,6 +76,10 @@ describe('Checkbox in Dark Theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<ReadOnly />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders Colors', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Colors />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 });
 
 describe('Checkbox in RTL', () => {
@@ -89,10 +89,6 @@ describe('Checkbox in RTL', () => {
   });
   it('renders WithLabel', () => {
     const testRenderer = renderer.create(renderWithRtl(<WithLabel />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders NoLabel', () => {
-    const testRenderer = renderer.create(renderWithRtl(<NoLabel />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Checked', () => {
@@ -105,6 +101,10 @@ describe('Checkbox in RTL', () => {
   });
   it('renders ReadOnly', () => {
     const testRenderer = renderer.create(renderWithRtl(<ReadOnly />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Colors', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Colors />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

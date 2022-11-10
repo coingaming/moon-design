@@ -1,597 +1,948 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Checkbox in Dark Theme renders Checked 1`] = `
-<div
-  className="inline-block"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
+<label
+  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  htmlFor="checked"
 >
-  <label
-    className="flex items-center text-moon-14 text-bulma cursor-pointer "
-    htmlFor="checked"
+  <input
+    checked={true}
+    className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+    id="checked"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <span
+    aria-hidden="true"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
   >
-    <span
-      className="flex me-3 relative"
+    <svg
+      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <span
-        className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-piccolo/[.12]"
+      <path
+        d="M7 14.941L13.667 22 25 10"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
-      <input
-        checked={true}
-        className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none"
-        id="checked"
-        onChange={[Function]}
-        onClick={[Function]}
-        style={
-          Object {
-            "backgroundImage": "url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%23ffffff%22%3E%3Cpath%20d%3D%22M7%2014.941L13.667%2022%2025%2010%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')",
-          }
-        }
-        type="checkbox"
-      />
+    </svg>
+  </span>
+  Checked
+</label>
+`;
+
+exports[`Checkbox in Dark Theme renders Colors 1`] = `
+Array [
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
     </span>
-    Checked
-  </label>
-</div>
+  </label>,
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten rounded-none"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+  </label>,
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten shadow-krillin"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+  </label>,
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten text-krillin-60"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+  </label>,
+]
 `;
 
 exports[`Checkbox in Dark Theme renders Default 1`] = `
-<div
-  className="inline-block"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
+<label
+  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
 >
-  <label
-    className="flex items-center text-moon-14 text-bulma cursor-pointer "
+  <input
+    checked={true}
+    className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <span
+    aria-hidden="true"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
   >
-    <span
-      className="flex me-3 relative"
+    <svg
+      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <span
-        className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+      <path
+        d="M7 14.941L13.667 22 25 10"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
-      <input
-        checked={false}
-        className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
-        onChange={[Function]}
-        onClick={[Function]}
-        style={
-          Object {
-            "backgroundImage": "",
-          }
-        }
-        type="checkbox"
-      />
-    </span>
-  </label>
-</div>
+    </svg>
+  </span>
+</label>
 `;
 
 exports[`Checkbox in Dark Theme renders Disabled 1`] = `
 Array [
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-  >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  opacity-30 cursor-not-allowed select-none"
-      htmlFor="disabled1"
-    >
-      <span
-        className="flex me-3 relative"
-      >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
-        />
-        <input
-          checked={false}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks opacity-30 cursor-not-allowed select-none"
-          disabled={true}
-          id="disabled1"
-          onChange={[Function]}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundImage": "",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      Disabled
-    </label>
-  </div>,
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-  >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  opacity-30 cursor-not-allowed select-none"
-      htmlFor="disabled2"
-    >
-      <span
-        className="flex me-3 relative"
-      >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-piccolo/[.12]"
-        />
-        <input
-          checked={true}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none opacity-30 cursor-not-allowed select-none"
-          disabled={true}
-          id="disabled2"
-          onChange={[Function]}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundImage": "url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%23ffffff%22%3E%3Cpath%20d%3D%22M7%2014.941L13.667%2022%2025%2010%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      Disabled Checked
-    </label>
-  </div>,
-]
-`;
-
-exports[`Checkbox in Dark Theme renders NoLabel 1`] = `
-<div
-  className="inline-block"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
->
   <label
-    className="flex items-center text-moon-14 text-bulma cursor-pointer "
-    htmlFor="noLabel"
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    htmlFor="disabled1"
   >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      disabled={true}
+      id="disabled1"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
     <span
-      className="flex me-3 relative"
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
-      <span
-        className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
-      />
-      <input
-        checked={false}
-        className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
-        id="noLabel"
-        onChange={[Function]}
-        onClick={[Function]}
-        style={
-          Object {
-            "backgroundImage": "",
-          }
-        }
-        type="checkbox"
-      />
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
     </span>
-  </label>
-</div>
+    Disabled
+  </label>,
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    htmlFor="disabled2"
+  >
+    <input
+      checked={true}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      disabled={true}
+      id="disabled2"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+    Disabled Checked
+  </label>,
+]
 `;
 
 exports[`Checkbox in Dark Theme renders ReadOnly 1`] = `
 Array [
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    htmlFor="readOnly1"
   >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  cursor-not-allowed select-none"
-      htmlFor="readOnly1"
+    <input
+      checked={true}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      id="readOnly1"
+      onChange={[Function]}
+      onClick={[Function]}
+      readOnly={true}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
-      <span
-        className="flex me-3 relative"
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <input
-          checked={false}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks cursor-not-allowed select-none"
-          id="readOnly1"
-          onChange={[Function]}
-          onClick={[Function]}
-          readOnly={true}
-          style={
-            Object {
-              "backgroundImage": "",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      ReadOnly
-    </label>
-  </div>,
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+      </svg>
+    </span>
+    ReadOnly
+  </label>,
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    htmlFor="readOnly2"
   >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  cursor-not-allowed select-none"
-      htmlFor="readOnly2"
+    <input
+      checked={true}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      id="readOnly2"
+      onChange={[Function]}
+      onClick={[Function]}
+      readOnly={true}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
-      <span
-        className="flex me-3 relative"
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-piccolo/[.12]"
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <input
-          checked={true}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none cursor-not-allowed select-none"
-          id="readOnly2"
-          onChange={[Function]}
-          onClick={[Function]}
-          readOnly={true}
-          style={
-            Object {
-              "backgroundImage": "url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%23ffffff%22%3E%3Cpath%20d%3D%22M7%2014.941L13.667%2022%2025%2010%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      ReadOnly Checked
-    </label>
-  </div>,
+      </svg>
+    </span>
+    ReadOnly Checked
+  </label>,
 ]
 `;
 
 exports[`Checkbox in Dark Theme renders WithLabel 1`] = `
-<div
-  className="inline-block"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
+<label
+  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  htmlFor="withLabel"
 >
-  <label
-    className="flex items-center text-moon-14 text-bulma cursor-pointer "
-    htmlFor="withLabel"
+  <input
+    checked={false}
+    className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+    id="withLabel"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <span
+    aria-hidden="true"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
   >
-    <span
-      className="flex me-3 relative"
+    <svg
+      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <span
-        className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+      <path
+        d="M7 14.941L13.667 22 25 10"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
-      <input
-        checked={false}
-        className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
-        id="withLabel"
-        onChange={[Function]}
-        onClick={[Function]}
-        style={
-          Object {
-            "backgroundImage": "",
-          }
-        }
-        type="checkbox"
-      />
-    </span>
-    With label
-  </label>
-</div>
+    </svg>
+  </span>
+  With label
+</label>
 `;
 
 exports[`Checkbox in Light Theme renders Checked 1`] = `
-<div
-  className="inline-block"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
+<label
+  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  htmlFor="checked"
 >
-  <label
-    className="flex items-center text-moon-14 text-bulma cursor-pointer "
-    htmlFor="checked"
+  <input
+    checked={true}
+    className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+    id="checked"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <span
+    aria-hidden="true"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
   >
-    <span
-      className="flex me-3 relative"
+    <svg
+      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <span
-        className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-piccolo/[.12]"
+      <path
+        d="M7 14.941L13.667 22 25 10"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
-      <input
-        checked={true}
-        className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none"
-        id="checked"
-        onChange={[Function]}
-        onClick={[Function]}
-        style={
-          Object {
-            "backgroundImage": "url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%23ffffff%22%3E%3Cpath%20d%3D%22M7%2014.941L13.667%2022%2025%2010%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')",
-          }
-        }
-        type="checkbox"
-      />
+    </svg>
+  </span>
+  Checked
+</label>
+`;
+
+exports[`Checkbox in Light Theme renders Colors 1`] = `
+Array [
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
     </span>
-    Checked
-  </label>
-</div>
+  </label>,
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten rounded-none"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+  </label>,
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten shadow-krillin"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+  </label>,
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten text-krillin-60"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+  </label>,
+]
 `;
 
 exports[`Checkbox in Light Theme renders Default 1`] = `
-<div
-  className="inline-block"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
+<label
+  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
 >
-  <label
-    className="flex items-center text-moon-14 text-bulma cursor-pointer "
+  <input
+    checked={false}
+    className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <span
+    aria-hidden="true"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
   >
-    <span
-      className="flex me-3 relative"
+    <svg
+      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <span
-        className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+      <path
+        d="M7 14.941L13.667 22 25 10"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
-      <input
-        checked={false}
-        className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
-        onChange={[Function]}
-        onClick={[Function]}
-        style={
-          Object {
-            "backgroundImage": "",
-          }
-        }
-        type="checkbox"
-      />
-    </span>
-  </label>
-</div>
+    </svg>
+  </span>
+</label>
 `;
 
 exports[`Checkbox in Light Theme renders Disabled 1`] = `
 Array [
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-  >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  opacity-30 cursor-not-allowed select-none"
-      htmlFor="disabled1"
-    >
-      <span
-        className="flex me-3 relative"
-      >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
-        />
-        <input
-          checked={false}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks opacity-30 cursor-not-allowed select-none"
-          disabled={true}
-          id="disabled1"
-          onChange={[Function]}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundImage": "",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      Disabled
-    </label>
-  </div>,
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-  >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  opacity-30 cursor-not-allowed select-none"
-      htmlFor="disabled2"
-    >
-      <span
-        className="flex me-3 relative"
-      >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-piccolo/[.12]"
-        />
-        <input
-          checked={true}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none opacity-30 cursor-not-allowed select-none"
-          disabled={true}
-          id="disabled2"
-          onChange={[Function]}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundImage": "url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%23ffffff%22%3E%3Cpath%20d%3D%22M7%2014.941L13.667%2022%2025%2010%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      Disabled Checked
-    </label>
-  </div>,
-]
-`;
-
-exports[`Checkbox in Light Theme renders NoLabel 1`] = `
-<div
-  className="inline-block"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
->
   <label
-    className="flex items-center text-moon-14 text-bulma cursor-pointer "
-    htmlFor="noLabel"
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    htmlFor="disabled1"
   >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      disabled={true}
+      id="disabled1"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
     <span
-      className="flex me-3 relative"
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
-      <span
-        className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
-      />
-      <input
-        checked={false}
-        className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
-        id="noLabel"
-        onChange={[Function]}
-        onClick={[Function]}
-        style={
-          Object {
-            "backgroundImage": "",
-          }
-        }
-        type="checkbox"
-      />
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
     </span>
-  </label>
-</div>
+    Disabled
+  </label>,
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    htmlFor="disabled2"
+  >
+    <input
+      checked={true}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      disabled={true}
+      id="disabled2"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+    Disabled Checked
+  </label>,
+]
 `;
 
 exports[`Checkbox in Light Theme renders ReadOnly 1`] = `
 Array [
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    htmlFor="readOnly1"
   >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  cursor-not-allowed select-none"
-      htmlFor="readOnly1"
+    <input
+      checked={true}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      id="readOnly1"
+      onChange={[Function]}
+      onClick={[Function]}
+      readOnly={true}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
-      <span
-        className="flex me-3 relative"
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <input
-          checked={false}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks cursor-not-allowed select-none"
-          id="readOnly1"
-          onChange={[Function]}
-          onClick={[Function]}
-          readOnly={true}
-          style={
-            Object {
-              "backgroundImage": "",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      ReadOnly
-    </label>
-  </div>,
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+      </svg>
+    </span>
+    ReadOnly
+  </label>,
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    htmlFor="readOnly2"
   >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  cursor-not-allowed select-none"
-      htmlFor="readOnly2"
+    <input
+      checked={true}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      id="readOnly2"
+      onChange={[Function]}
+      onClick={[Function]}
+      readOnly={true}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
-      <span
-        className="flex me-3 relative"
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-piccolo/[.12]"
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <input
-          checked={true}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none cursor-not-allowed select-none"
-          id="readOnly2"
-          onChange={[Function]}
-          onClick={[Function]}
-          readOnly={true}
-          style={
-            Object {
-              "backgroundImage": "url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%23ffffff%22%3E%3Cpath%20d%3D%22M7%2014.941L13.667%2022%2025%2010%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      ReadOnly Checked
-    </label>
-  </div>,
+      </svg>
+    </span>
+    ReadOnly Checked
+  </label>,
 ]
 `;
 
 exports[`Checkbox in Light Theme renders WithLabel 1`] = `
-<div
-  className="inline-block"
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
+<label
+  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  htmlFor="withLabel"
 >
-  <label
-    className="flex items-center text-moon-14 text-bulma cursor-pointer "
-    htmlFor="withLabel"
+  <input
+    checked={true}
+    className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+    id="withLabel"
+    onChange={[Function]}
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <span
+    aria-hidden="true"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
   >
-    <span
-      className="flex me-3 relative"
+    <svg
+      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <span
-        className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+      <path
+        d="M7 14.941L13.667 22 25 10"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
-      <input
-        checked={false}
-        className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
-        id="withLabel"
-        onChange={[Function]}
-        onClick={[Function]}
-        style={
-          Object {
-            "backgroundImage": "",
-          }
-        }
-        type="checkbox"
-      />
-    </span>
-    With label
-  </label>
-</div>
+    </svg>
+  </span>
+  With label
+</label>
 `;
 
 exports[`Checkbox in RTL renders Checked 1`] = `
 <div
   dir="rtl"
 >
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    htmlFor="checked"
   >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer "
-      htmlFor="checked"
+    <input
+      checked={true}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      id="checked"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
-      <span
-        className="flex me-3 relative"
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-piccolo/[.12]"
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <input
-          checked={true}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none"
-          id="checked"
-          onChange={[Function]}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundImage": "url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%23ffffff%22%3E%3Cpath%20d%3D%22M7%2014.941L13.667%2022%2025%2010%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')",
-            }
-          }
-          type="checkbox"
+      </svg>
+    </span>
+    Checked
+  </label>
+</div>
+`;
+
+exports[`Checkbox in RTL renders Colors 1`] = `
+<div
+  dir="rtl"
+>
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-      </span>
-      Checked
-    </label>
-  </div>
+      </svg>
+    </span>
+  </label>
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten rounded-none"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+  </label>
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten shadow-krillin"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+  </label>
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  >
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten text-krillin-60"
+    >
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
+  </label>
 </div>
 `;
 
@@ -599,35 +950,37 @@ exports[`Checkbox in RTL renders Default 1`] = `
 <div
   dir="rtl"
 >
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer "
+    <input
+      checked={true}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
-      <span
-        className="flex me-3 relative"
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <input
-          checked={false}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
-          onChange={[Function]}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundImage": "",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-    </label>
-  </div>
+      </svg>
+    </span>
+  </label>
 </div>
 `;
 
@@ -635,110 +988,76 @@ exports[`Checkbox in RTL renders Disabled 1`] = `
 <div
   dir="rtl"
 >
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    htmlFor="disabled1"
   >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  opacity-30 cursor-not-allowed select-none"
-      htmlFor="disabled1"
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      disabled={true}
+      id="disabled1"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
-      <span
-        className="flex me-3 relative"
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <input
-          checked={false}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks opacity-30 cursor-not-allowed select-none"
-          disabled={true}
-          id="disabled1"
-          onChange={[Function]}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundImage": "",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      Disabled
-    </label>
-  </div>
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+      </svg>
+    </span>
+    Disabled
+  </label>
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    htmlFor="disabled2"
   >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  opacity-30 cursor-not-allowed select-none"
-      htmlFor="disabled2"
+    <input
+      checked={true}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      disabled={true}
+      id="disabled2"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
-      <span
-        className="flex me-3 relative"
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-piccolo/[.12]"
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <input
-          checked={true}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none opacity-30 cursor-not-allowed select-none"
-          disabled={true}
-          id="disabled2"
-          onChange={[Function]}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundImage": "url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%23ffffff%22%3E%3Cpath%20d%3D%22M7%2014.941L13.667%2022%2025%2010%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      Disabled Checked
-    </label>
-  </div>
-</div>
-`;
-
-exports[`Checkbox in RTL renders NoLabel 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-  >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer "
-      htmlFor="noLabel"
-    >
-      <span
-        className="flex me-3 relative"
-      >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
-        />
-        <input
-          checked={false}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
-          id="noLabel"
-          onChange={[Function]}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundImage": "",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-    </label>
-  </div>
+      </svg>
+    </span>
+    Disabled Checked
+  </label>
 </div>
 `;
 
@@ -746,72 +1065,76 @@ exports[`Checkbox in RTL renders ReadOnly 1`] = `
 <div
   dir="rtl"
 >
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    htmlFor="readOnly1"
   >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  cursor-not-allowed select-none"
-      htmlFor="readOnly1"
+    <input
+      checked={true}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      id="readOnly1"
+      onChange={[Function]}
+      onClick={[Function]}
+      readOnly={true}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
-      <span
-        className="flex me-3 relative"
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <input
-          checked={false}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks cursor-not-allowed select-none"
-          id="readOnly1"
-          onChange={[Function]}
-          onClick={[Function]}
-          readOnly={true}
-          style={
-            Object {
-              "backgroundImage": "",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      ReadOnly
-    </label>
-  </div>
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+      </svg>
+    </span>
+    ReadOnly
+  </label>
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    htmlFor="readOnly2"
   >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer  cursor-not-allowed select-none"
-      htmlFor="readOnly2"
+    <input
+      checked={true}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      id="readOnly2"
+      onChange={[Function]}
+      onClick={[Function]}
+      readOnly={true}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
-      <span
-        className="flex me-3 relative"
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-piccolo/[.12]"
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <input
-          checked={true}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer bg-piccolo shadow-none cursor-not-allowed select-none"
-          id="readOnly2"
-          onChange={[Function]}
-          onClick={[Function]}
-          readOnly={true}
-          style={
-            Object {
-              "backgroundImage": "url('data:image/svg+xml;utf8, %3Csvg%20width%3D%221em%22%20height%3D%221em%22%20viewBox%3D%220%200%2032%2032%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20style%3D%22color%3A%23ffffff%22%3E%3Cpath%20d%3D%22M7%2014.941L13.667%2022%2025%2010%22%20stroke%3D%22currentColor%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E')",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      ReadOnly Checked
-    </label>
-  </div>
+      </svg>
+    </span>
+    ReadOnly Checked
+  </label>
 </div>
 `;
 
@@ -819,37 +1142,39 @@ exports[`Checkbox in RTL renders WithLabel 1`] = `
 <div
   dir="rtl"
 >
-  <div
-    className="inline-block"
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
+  <label
+    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    htmlFor="withLabel"
   >
-    <label
-      className="flex items-center text-moon-14 text-bulma cursor-pointer "
-      htmlFor="withLabel"
+    <input
+      checked={false}
+      className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+      id="withLabel"
+      onChange={[Function]}
+      onClick={[Function]}
+      type="checkbox"
+    />
+    <span
+      aria-hidden="true"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
-      <span
-        className="flex me-3 relative"
+      <svg
+        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
       >
-        <span
-          className="w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color] hover:bg-trunks/[.12]"
+        <path
+          d="M7 14.941L13.667 22 25 10"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
         />
-        <input
-          checked={false}
-          className="appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer shadow-[0_0_0_1px_inset] shadow-trunks"
-          id="withLabel"
-          onChange={[Function]}
-          onClick={[Function]}
-          style={
-            Object {
-              "backgroundImage": "",
-            }
-          }
-          type="checkbox"
-        />
-      </span>
-      With label
-    </label>
-  </div>
+      </svg>
+    </span>
+    With label
+  </label>
 </div>
 `;
