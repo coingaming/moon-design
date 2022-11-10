@@ -20,10 +20,7 @@ const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
     })
     .filter((crumd) => crumd);
 
-  const clickHandle = () => {
-    console.log('isOpen', isOpen);
-    toggleDropdown(!isOpen);
-  };
+  const clickHandle = () => toggleDropdown(!isOpen);
 
   React.useEffect(() => {
     if (hasClickedOutside) {

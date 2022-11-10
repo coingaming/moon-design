@@ -2,8 +2,7 @@ import { Snackbar, Button } from '@heathmont/moon-core-tw';
 import { useState } from 'react';
 
 const Example = () => {
-
-  const [snackbar, setSnackbar] = useState('')
+  const [snackbar, setSnackbar] = useState('');
 
   const openSnackbarHandler = (type: string) => {
     if (snackbar) {
@@ -17,10 +16,10 @@ const Example = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
+    <>
       <div>
         <Button onClick={() => openSnackbarHandler('success')}>
-         Success Snackbar
+          Success Snackbar
         </Button>
         <Snackbar
           isOpen={snackbar === 'success'}
@@ -28,7 +27,7 @@ const Example = () => {
           position="top-center"
           autoClose={6000}
         >
-        <Snackbar.Success/>
+          <Snackbar.Success />
           <Snackbar.Content>
             <Snackbar.Header>Success</Snackbar.Header>
             <Snackbar.Message>
@@ -41,7 +40,7 @@ const Example = () => {
 
       <div>
         <Button onClick={() => openSnackbarHandler('info')}>
-         Info Snackbar
+          Info Snackbar
         </Button>
         <Snackbar
           isOpen={snackbar === 'info'}
@@ -49,7 +48,7 @@ const Example = () => {
           position="top-left"
           autoClose={6000}
         >
-        <Snackbar.Info/>
+          <Snackbar.Info />
           <Snackbar.Content>
             <Snackbar.Header>Info</Snackbar.Header>
             <Snackbar.Message>
@@ -62,7 +61,7 @@ const Example = () => {
 
       <div>
         <Button onClick={() => openSnackbarHandler('error')}>
-         Error Snackbar
+          Error Snackbar
         </Button>
         <Snackbar
           isOpen={snackbar === 'error'}
@@ -70,7 +69,7 @@ const Example = () => {
           position="top-right"
           autoClose={6000}
         >
-        <Snackbar.Error/>
+          <Snackbar.Error />
           <Snackbar.Content>
             <Snackbar.Header>Error</Snackbar.Header>
             <Snackbar.Message>
@@ -83,7 +82,7 @@ const Example = () => {
 
       <div>
         <Button onClick={() => openSnackbarHandler('warning')}>
-         Warning Snackbar
+          Warning Snackbar
         </Button>
         <Snackbar
           isOpen={snackbar === 'warning'}
@@ -91,7 +90,7 @@ const Example = () => {
           position="bottom-center"
           autoClose={6000}
         >
-        <Snackbar.Warning/>
+          <Snackbar.Warning />
           <Snackbar.Content>
             <Snackbar.Header>Warning</Snackbar.Header>
             <Snackbar.Message>
@@ -101,7 +100,7 @@ const Example = () => {
           <Snackbar.Close />
         </Snackbar>
       </div>
-    </div>
+    </>
   );
 };
 

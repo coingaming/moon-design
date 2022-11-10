@@ -3,7 +3,7 @@ import { GenericInfo } from '@heathmont/moon-icons-tw';
 import { useState } from 'react';
 
 const Example = () => {
-  const [snackbar, setSnackbar] = useState('')
+  const [snackbar, setSnackbar] = useState('');
 
   const openSnackbarHandler = (type: string) => {
     if (snackbar) {
@@ -17,9 +17,11 @@ const Example = () => {
   };
 
   return (
-    <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
+    <>
       <div>
-        <Button onClick={() => openSnackbarHandler('mutliline')}>Multi Line</Button>
+        <Button onClick={() => openSnackbarHandler('mutliline')}>
+          Multi Line
+        </Button>
         <Snackbar
           isOpen={snackbar === 'mutliline'}
           setSnackbar={setSnackbar}
@@ -114,22 +116,22 @@ const Example = () => {
       </div>
       <div>
         <Button onClick={() => openSnackbarHandler('singleline-icon-close')}>
-        Single Line with Icon and Close
+          Single Line with Icon and Close
         </Button>
         <Snackbar
-        isOpen={snackbar === 'singleline-icon-close'}
-        setSnackbar={setSnackbar}
-        position="bottom-right"
-        autoClose={6000}
-      >
-        <Snackbar.Icon className="bg-chiChi">
-          <GenericInfo className="text-[32px] text-dodoria" />
-        </Snackbar.Icon>
-        <Snackbar.Message>Connection time out. </Snackbar.Message>
-        <Snackbar.Close />
-      </Snackbar>
+          isOpen={snackbar === 'singleline-icon-close'}
+          setSnackbar={setSnackbar}
+          position="bottom-right"
+          autoClose={6000}
+        >
+          <Snackbar.Icon className="bg-chiChi">
+            <GenericInfo className="text-[32px] text-dodoria" />
+          </Snackbar.Icon>
+          <Snackbar.Message>Connection time out. </Snackbar.Message>
+          <Snackbar.Close />
+        </Snackbar>
       </div>
-    </div>
+    </>
   );
 };
 

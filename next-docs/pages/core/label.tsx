@@ -13,7 +13,7 @@ const Example = () => {
   const examples = useExamples('labelTW');
   return (
     <>
-      <ComponentPageDescription title="Label">
+      <ComponentPageDescription title="Label" isInProgress>
         <p>
           Use tags to label, categorize, or organize items using keywords that
           describe them.

@@ -14,7 +14,7 @@ import {
   ThemeProvider,
 } from '@heathmont/moon-themes';
 
-const renderWithTheme = (component: JSX.Element) => (
+const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
@@ -26,63 +26,58 @@ const renderWithRtl = (component: JSX.Element) => (
   <div dir="rtl">{component}</div>
 );
 
-describe('Progress', () => {
-  it('renders Default in Light theme', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Default />));
+describe('Progress in Light theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders Sizes', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Sizes />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Values', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Values />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Colors', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Colors />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
 
-  it('renders Default in Dark theme', () => {
+describe('Progress in Dark theme', () => {
+  it('renders Default', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders Default in RTL', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Sizes in Light theme', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Sizes in Dark theme', () => {
+  it('renders Sizes', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Sizes />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders Sizes in RTL', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Values in Light theme', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Values />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Values in Dark theme', () => {
+  it('renders Values', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Values />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders Values in RTL', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Values />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Colors in Light theme', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Colors />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Colors in Dark theme', () => {
+  it('renders Colors', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Colors />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+});
 
-  it('renders Colors in RTL', () => {
+describe('Progress in RTL', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Sizes', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Sizes />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Values', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Values />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Colors', () => {
     const testRenderer = renderer.create(renderWithRtl(<Colors />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
