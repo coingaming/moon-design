@@ -12,8 +12,8 @@
   "author": "Yolo Group",
   "license": "MIT",
   "scripts": {
-    "build": "pnpm run copy",
-    "copy": "cpy src lib --flat"
+    "build": "pnpm run build:copy",
+    "build:copy": "cpy src lib --flat"
   },
   "devDependencies": {},
   "dependencies": {},
