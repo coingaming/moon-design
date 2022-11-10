@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.11.4
+
+### Patch Changes
+
+- SB theme fix
+
 ## 9.11.3
 
 ### Patch Changes
