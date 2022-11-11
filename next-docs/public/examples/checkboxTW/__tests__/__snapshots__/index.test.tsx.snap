@@ -6,6 +6,7 @@ exports[`Checkbox in Dark Theme renders Checked 1`] = `
   htmlFor="checked"
 >
   <input
+    aria-checked={true}
     checked={true}
     className="peer appearance-none h-6 w-6 outline-none align-top select-none"
     id="checked"
@@ -18,7 +19,7 @@ exports[`Checkbox in Dark Theme renders Checked 1`] = `
     className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
   >
     <svg
-      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      className="transition-opacity opacity-100"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -43,6 +44,7 @@ Array [
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -54,7 +56,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -74,6 +76,7 @@ Array [
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -85,7 +88,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten rounded-none"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -105,6 +108,7 @@ Array [
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -116,7 +120,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten shadow-krillin"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -136,6 +140,7 @@ Array [
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -147,7 +152,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten text-krillin-60"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -171,7 +176,8 @@ exports[`Checkbox in Dark Theme renders Default 1`] = `
   className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
 >
   <input
-    checked={true}
+    aria-checked={false}
+    checked={false}
     className="peer appearance-none h-6 w-6 outline-none align-top select-none"
     onChange={[Function]}
     onClick={[Function]}
@@ -179,10 +185,10 @@ exports[`Checkbox in Dark Theme renders Default 1`] = `
   />
   <span
     aria-hidden="true"
-    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
   >
     <svg
-      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      className="transition-opacity opacity-0"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -207,6 +213,7 @@ Array [
     htmlFor="disabled1"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       disabled={true}
@@ -220,7 +227,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -242,6 +249,7 @@ Array [
     htmlFor="disabled2"
   >
     <input
+      aria-checked={true}
       checked={true}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       disabled={true}
@@ -255,7 +263,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-100"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -282,7 +290,8 @@ Array [
     htmlFor="readOnly1"
   >
     <input
-      checked={true}
+      aria-checked={false}
+      checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       id="readOnly1"
       onChange={[Function]}
@@ -292,10 +301,10 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -317,6 +326,7 @@ Array [
     htmlFor="readOnly2"
   >
     <input
+      aria-checked={true}
       checked={true}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       id="readOnly2"
@@ -330,7 +340,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-100"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -356,6 +366,7 @@ exports[`Checkbox in Dark Theme renders WithLabel 1`] = `
   htmlFor="withLabel"
 >
   <input
+    aria-checked={false}
     checked={false}
     className="peer appearance-none h-6 w-6 outline-none align-top select-none"
     id="withLabel"
@@ -368,7 +379,7 @@ exports[`Checkbox in Dark Theme renders WithLabel 1`] = `
     className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
   >
     <svg
-      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      className="transition-opacity opacity-0"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -393,6 +404,7 @@ exports[`Checkbox in Light Theme renders Checked 1`] = `
   htmlFor="checked"
 >
   <input
+    aria-checked={true}
     checked={true}
     className="peer appearance-none h-6 w-6 outline-none align-top select-none"
     id="checked"
@@ -405,7 +417,7 @@ exports[`Checkbox in Light Theme renders Checked 1`] = `
     className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
   >
     <svg
-      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      className="transition-opacity opacity-100"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -430,6 +442,7 @@ Array [
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -441,7 +454,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -461,6 +474,7 @@ Array [
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -472,7 +486,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten rounded-none"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -492,6 +506,7 @@ Array [
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -503,7 +518,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten shadow-krillin"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -523,6 +538,7 @@ Array [
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -534,7 +550,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten text-krillin-60"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -558,6 +574,7 @@ exports[`Checkbox in Light Theme renders Default 1`] = `
   className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
 >
   <input
+    aria-checked={false}
     checked={false}
     className="peer appearance-none h-6 w-6 outline-none align-top select-none"
     onChange={[Function]}
@@ -569,7 +586,7 @@ exports[`Checkbox in Light Theme renders Default 1`] = `
     className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
   >
     <svg
-      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      className="transition-opacity opacity-0"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -594,6 +611,7 @@ Array [
     htmlFor="disabled1"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       disabled={true}
@@ -607,7 +625,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -629,6 +647,7 @@ Array [
     htmlFor="disabled2"
   >
     <input
+      aria-checked={true}
       checked={true}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       disabled={true}
@@ -642,7 +661,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-100"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -669,7 +688,8 @@ Array [
     htmlFor="readOnly1"
   >
     <input
-      checked={true}
+      aria-checked={false}
+      checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       id="readOnly1"
       onChange={[Function]}
@@ -679,10 +699,10 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -704,6 +724,7 @@ Array [
     htmlFor="readOnly2"
   >
     <input
+      aria-checked={true}
       checked={true}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       id="readOnly2"
@@ -717,7 +738,7 @@ Array [
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-100"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -743,7 +764,8 @@ exports[`Checkbox in Light Theme renders WithLabel 1`] = `
   htmlFor="withLabel"
 >
   <input
-    checked={true}
+    aria-checked={false}
+    checked={false}
     className="peer appearance-none h-6 w-6 outline-none align-top select-none"
     id="withLabel"
     onChange={[Function]}
@@ -752,10 +774,10 @@ exports[`Checkbox in Light Theme renders WithLabel 1`] = `
   />
   <span
     aria-hidden="true"
-    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
   >
     <svg
-      className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+      className="transition-opacity opacity-0"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
@@ -783,6 +805,7 @@ exports[`Checkbox in RTL renders Checked 1`] = `
     htmlFor="checked"
   >
     <input
+      aria-checked={true}
       checked={true}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       id="checked"
@@ -795,7 +818,7 @@ exports[`Checkbox in RTL renders Checked 1`] = `
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-100"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -823,6 +846,7 @@ exports[`Checkbox in RTL renders Colors 1`] = `
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -834,7 +858,7 @@ exports[`Checkbox in RTL renders Colors 1`] = `
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -854,6 +878,7 @@ exports[`Checkbox in RTL renders Colors 1`] = `
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -865,7 +890,7 @@ exports[`Checkbox in RTL renders Colors 1`] = `
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten rounded-none"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -885,6 +910,7 @@ exports[`Checkbox in RTL renders Colors 1`] = `
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -896,7 +922,7 @@ exports[`Checkbox in RTL renders Colors 1`] = `
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten shadow-krillin"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -916,6 +942,7 @@ exports[`Checkbox in RTL renders Colors 1`] = `
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
@@ -927,7 +954,7 @@ exports[`Checkbox in RTL renders Colors 1`] = `
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten text-krillin-60"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -954,7 +981,8 @@ exports[`Checkbox in RTL renders Default 1`] = `
     className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
   >
     <input
-      checked={true}
+      aria-checked={false}
+      checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       onChange={[Function]}
       onClick={[Function]}
@@ -962,10 +990,10 @@ exports[`Checkbox in RTL renders Default 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -993,6 +1021,7 @@ exports[`Checkbox in RTL renders Disabled 1`] = `
     htmlFor="disabled1"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       disabled={true}
@@ -1006,7 +1035,7 @@ exports[`Checkbox in RTL renders Disabled 1`] = `
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -1028,6 +1057,7 @@ exports[`Checkbox in RTL renders Disabled 1`] = `
     htmlFor="disabled2"
   >
     <input
+      aria-checked={true}
       checked={true}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       disabled={true}
@@ -1041,7 +1071,7 @@ exports[`Checkbox in RTL renders Disabled 1`] = `
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-100"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -1070,7 +1100,8 @@ exports[`Checkbox in RTL renders ReadOnly 1`] = `
     htmlFor="readOnly1"
   >
     <input
-      checked={true}
+      aria-checked={false}
+      checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       id="readOnly1"
       onChange={[Function]}
@@ -1080,10 +1111,10 @@ exports[`Checkbox in RTL renders ReadOnly 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -1105,6 +1136,7 @@ exports[`Checkbox in RTL renders ReadOnly 1`] = `
     htmlFor="readOnly2"
   >
     <input
+      aria-checked={true}
       checked={true}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       id="readOnly2"
@@ -1118,7 +1150,7 @@ exports[`Checkbox in RTL renders ReadOnly 1`] = `
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-100"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -1147,6 +1179,7 @@ exports[`Checkbox in RTL renders WithLabel 1`] = `
     htmlFor="withLabel"
   >
     <input
+      aria-checked={false}
       checked={false}
       className="peer appearance-none h-6 w-6 outline-none align-top select-none"
       id="withLabel"
@@ -1159,7 +1192,7 @@ exports[`Checkbox in RTL renders WithLabel 1`] = `
       className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
-        className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100"
+        className="transition-opacity opacity-0"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"

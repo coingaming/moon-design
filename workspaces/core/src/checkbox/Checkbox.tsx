@@ -11,7 +11,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
       ariaLabel,
       label,
       id,
-      checked,
+      checked = false,
       onChange,
       bgColor = 'bg-piccolo',
       className,
@@ -39,10 +39,11 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
           readOnly={readOnly}
           aria-label={ariaLabel}
           ref={ref}
-          checked={isChecked}
           className="peer appearance-none h-6 w-6 outline-none align-top select-none"
           {...inputProps}
           type="checkbox"
+          aria-checked={isChecked}
+          checked={isChecked}
           onClick={(e) => {
             if (disabled || readOnly) {
               e.preventDefault();
@@ -62,7 +63,12 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
           )}
           aria-hidden="true"
         >
-          <GenericCheckAlternative className="opacity-100 transition-opacity opacity-0 peer-checked:opacity-100" />
+          <GenericCheckAlternative
+            className={classNames(
+              'transition-opacity',
+              isChecked ? 'opacity-100' : 'opacity-0'
+            )}
+          />
         </span>
         {label}
       </label>

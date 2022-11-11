@@ -14,7 +14,12 @@ const Example = () => {
   const examples = useExamples('checkboxTW');
   return (
     <>
-      <ComponentPageDescription title="Checkbox" isInProgress isRtlSupport>
+      <ComponentPageDescription
+        title="Checkbox"
+        isInProgress
+        isRtlSupport
+        isAriaSupport
+      >
         <p>
           Checkboxes are used as a list in our forms and signup pages so users
           can select options of their choice. Users are free to choose how many
