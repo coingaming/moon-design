@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-themes-tw",
   "sideEffects": false,
-  "version": "9.11.3",
+  "version": "9.11.4",
   "files": [
     "lib"
   ],
@@ -12,8 +12,8 @@
   "author": "Yolo Group",
   "license": "MIT",
   "scripts": {
-    "build": "pnpm run copy",
-    "copy": "cpy src lib --flat"
+    "build": "pnpm run build:copy",
+    "build:copy": "cpy src lib --flat"
   },
   "devDependencies": {},
   "dependencies": {},

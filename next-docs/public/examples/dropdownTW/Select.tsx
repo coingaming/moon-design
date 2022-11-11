@@ -98,7 +98,7 @@ const Example = () => {
         )}
       </Dropdown>
 
-      <Dropdown value={option3} onChange={setOption3}>
+      <Dropdown value={option3} onChange={setOption3} size="lg">
         {({ open }: { open: boolean }) => (
           <>
             <Dropdown.Select

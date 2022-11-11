@@ -347,7 +347,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
               data-test="data-test"
               open={false}
             >
@@ -1289,7 +1289,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
               data-test="data-test"
               open={false}
             >
@@ -2242,7 +2242,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
               className="relative"
             >
               <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
                 data-test="data-test"
                 open={false}
               >
