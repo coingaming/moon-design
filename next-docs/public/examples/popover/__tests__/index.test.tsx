@@ -12,11 +12,17 @@ const renderWithTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
+type PopoverPortal = (
+  children: React.ReactNode,
+  container: Element | DocumentFragment,
+  key?: string | null | undefined
+) => React.ReactPortal;
+
 describe('Popover', () => {
   beforeAll(() => {
     ReactDOM.createPortal = jest.fn((element, node) => {
       return element;
-    }) as any;
+    }) as PopoverPortal;
   });
 
   it('renders', () => {

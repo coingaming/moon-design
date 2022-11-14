@@ -14,7 +14,7 @@ const Example = () => {
   const examples = useExamples('radiobuttonTW');
   return (
     <>
-      <ComponentPageDescription title="RadioButton">
+      <ComponentPageDescription title="RadioButton" isInProgress>
         <p>
           Radio buttons are used to represent a group or category of choices
           whereby users can only select one option - the main difference from

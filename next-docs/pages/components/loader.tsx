@@ -13,15 +13,6 @@ const PageLoader = () => {
     <>
       <ComponentPageDescription title="Loader">
         <DeprecationWarning href="/core/loader" name="Loader" />
-        <p>
-          Fondly nicknamed “the launcher”, the Loader ensures users that
-          progress is happening so they don't give up and leave the rocket page.
-        </p>
-        <p>
-          The Loader, along with a succinct message, is especially important
-          after a user initiates an action that requires them to wait. This is
-          so that they know there's no need to repeat what they've done.
-        </p>
       </ComponentPageDescription>
       <Preview
         title="Default"

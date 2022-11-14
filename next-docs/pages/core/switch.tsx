@@ -17,7 +17,7 @@ const Example = () => {
   const examplesCode = useExamples('switchTW/codeExamples');
   return (
     <>
-      <ComponentPageDescription title="Switch">
+      <ComponentPageDescription title="Switch" isInProgress>
         <p>
           Switch is a control that is used to quickly switch between two
           possible states. Switches are only used for these binary actions that

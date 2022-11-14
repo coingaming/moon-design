@@ -14,7 +14,7 @@ const Example = () => {
   const examples = useExamples('avatarTW');
   return (
     <>
-      <ComponentPageDescription title="Avatar">
+      <ComponentPageDescription title="Avatar" isInProgress isRtlSupport>
         <p>
           Avatars are used to represent an individual, a business, or a
           celestial being when they interact with any Coingaming brand. While
@@ -38,7 +38,7 @@ const Example = () => {
         code={examples ? examples.Rounded : 'Loading'}
       />
       <Preview
-        title="Different colours"
+        title="Custom colours"
         preview={<Colours />}
         code={examples ? examples.Colours : 'Loading'}
       />
