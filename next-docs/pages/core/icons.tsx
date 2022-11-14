@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
 import IconsBlock from '../../components/IconsBlock';
 import IconsImportHelper from '../../components/IconsImportHelper';
 import PageSection from '../../components/PageSection';
@@ -7,7 +8,8 @@ import Arrows from '../../public/examples/iconsTW/Arrows';
 import Chart from '../../public/examples/iconsTW/Chart';
 import Chat from '../../public/examples/iconsTW/Chat';
 import Controls from '../../public/examples/iconsTW/Controls';
-import DefaultIconSet from '../../public/examples/iconsTW/DefaultIconSet';
+import Customization from '../../public/examples/iconsTW/Customization';
+import Default from '../../public/examples/iconsTW/Default';
 import Devices from '../../public/examples/iconsTW/Devices';
 import Files from '../../public/examples/iconsTW/Files';
 import Generic from '../../public/examples/iconsTW/Generic';
@@ -23,12 +25,11 @@ import Sport from '../../public/examples/iconsTW/Sport';
 import Text from '../../public/examples/iconsTW/Text';
 import Time from '../../public/examples/iconsTW/Time';
 import Travel from '../../public/examples/iconsTW/Travel';
-import Type from '../../public/examples/iconsTW/Type';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const [selectedIcons, setSelectedIcons] = useState<string[]>([]);
-  const props = { className: 'text-[2rem]' };
+  const props = { className: 'text-moon-32' };
   const addIconToSelected: (iconName: string) => string[] = (iconName) =>
     selectedIcons.concat(iconName);
   const removeIconFromSelected = (removedIconName: string) =>
@@ -46,20 +47,28 @@ const Example = () => {
   const examples = useExamples('iconsTW');
   return (
     <>
-      <h1 className="text-moon-32 font-medium">Icons</h1>
+      <ComponentPageDescription title="Icons" isInProgress>
+        <p>Icons are used in other components and user interfaces.</p>
+      </ComponentPageDescription>
       <Preview
-        title="Sizes and colours"
-        preview={<DefaultIconSet />}
-        code={examples ? examples.DefaultIconSet : 'Loading'}
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
       />
-      <p className="text-moon-16">Please select icons for Import</p>
+      <Preview
+        title="Different sizes and colours"
+        preview={<Customization />}
+        code={examples ? examples.Customization : 'Loading'}
+      />
       {displaySelectedIconsImport ? (
         <IconsImportHelper
           text={`import { ${selectedIcons.join(
             ', '
           )} } from '@heathmont/moon-icons-tw';`}
         />
-      ) : null}
+      ) : (
+        <p className="text-moon-16">Please select icons for Import</p>
+      )}
       <PageSection title="Arrows">
         <IconsBlock>
           <Arrows wrapperProps={wrapperProps} props={props} />
@@ -153,11 +162,6 @@ const Example = () => {
       <PageSection title="Travel">
         <IconsBlock>
           <Travel wrapperProps={wrapperProps} props={props} />
-        </IconsBlock>
-      </PageSection>
-      <PageSection title="Type">
-        <IconsBlock>
-          <Type wrapperProps={wrapperProps} props={props} />
         </IconsBlock>
       </PageSection>
     </>

@@ -17,7 +17,7 @@ const Example = () => {
   const examples = useExamples('menuItemTW');
   return (
     <>
-      <ComponentPageDescription title="MenuItem">
+      <ComponentPageDescription title="MenuItem" isInProgress>
         <p>
           Menu items are used in such vertical menues and containers as
           Popovers, Sidebars, Drawers, Dialogs etc.

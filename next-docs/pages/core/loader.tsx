@@ -11,7 +11,7 @@ const Example = () => {
   const examples = useExamples('loaderTW');
   return (
     <>
-      <ComponentPageDescription title="Loader">
+      <ComponentPageDescription title="Loader" isInProgress>
         <p>
           Fondly nicknamed “the launcher”, the Loader ensures users that
           progress is happening so they don't give up and leave the rocket page.

@@ -52,7 +52,7 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
     <div
       {...reactTableProps}
       className={classNames(
-        'relative box-border justify-between items-center w-full text-start',
+        'relative box-border justify-between items-center text-start',
         getFontSize(rowSize as RowSizes),
         getPadding(rowSize as RowSizes),
         isFirstColumn ? 'rounded-l-lg' : '',

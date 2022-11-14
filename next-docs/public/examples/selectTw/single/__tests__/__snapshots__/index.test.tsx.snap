@@ -1,6 +1,1998 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Multi Select renders disabled 1`] = `
+exports[`Select in Dark Theme renders Disabled 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full opacity-30 cursor-not-allowed"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r3d:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:r3e:"
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full opacity-30 cursor-not-allowed"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r3g:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:r3h:"
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full opacity-30 cursor-not-allowed"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r3j:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:r3k:"
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full opacity-30 cursor-not-allowed"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:r3m:"
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r3n:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders Error 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r3p:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-listbox-button-:r3q:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r3s:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-listbox-button-:r3t:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r3v:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-listbox-button-:r40:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-listbox-button-:r42:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r43:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders Hint 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r31:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:r32:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r34:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r35:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r37:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r38:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:r3a:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r3b:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders Options 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r45:"
+        onClick={[Function]}
+      >
+        Country
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:r46:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r48:"
+        onClick={[Function]}
+      >
+        Country
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r49:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r4b:"
+        onClick={[Function]}
+      >
+        Country
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r4c:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:r4e:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r4f:"
+              onClick={[Function]}
+            >
+              Country
+            </label>
+            <span
+              className="text-moon-16 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders OptionsWidth 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-40"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            disabled={false}
+            id="headlessui-listbox-button-:r4h:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-40"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r4j:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-64"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r4l:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-64"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            disabled={false}
+            id="headlessui-listbox-button-:r4n:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r4o:"
+                onClick={[Function]}
+              >
+                xLarge
+              </label>
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders WithLabel 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r2d:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:r2e:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r2g:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r2h:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r2j:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r2k:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:r2m:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r2n:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders WithoutLabel 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:r2p:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r2r:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r2t:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:r2v:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders Disabled 1`] = `
 <div
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
@@ -283,7 +2275,7 @@ exports[`Multi Select renders disabled 1`] = `
 </div>
 `;
 
-exports[`Multi Select renders error 1`] = `
+exports[`Select in Light Theme renders Error 1`] = `
 <div
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
@@ -582,7 +2574,7 @@ exports[`Multi Select renders error 1`] = `
 </div>
 `;
 
-exports[`Multi Select renders with hint 1`] = `
+exports[`Select in Light Theme renders Hint 1`] = `
 <div
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
@@ -881,529 +2873,7 @@ exports[`Multi Select renders with hint 1`] = `
 </div>
 `;
 
-exports[`Multi Select renders with label 1`] = `
-<div
-  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
->
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-bulma pb-2 text-moon-14"
-        id="headlessui-listbox-label-:r0:"
-        onClick={[Function]}
-      >
-        Small
-      </label>
-      <div>
-        <button
-          aria-expanded={false}
-          aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
-          disabled={false}
-          id="headlessui-listbox-button-:r1:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          type="button"
-        >
-          <div
-            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-          >
-            <span
-              className="text-moon-14 text-trunks"
-            >
-              Choose an option
-            </span>
-          </div>
-          <div
-            className="flex-shrink-0"
-          >
-            <svg
-              className="text-[1.5rem] text-trunks"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M22 13l-6 6-6-6"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </button>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-bulma pb-2 text-moon-16"
-        id="headlessui-listbox-label-:r3:"
-        onClick={[Function]}
-      >
-        Medium
-      </label>
-      <div>
-        <button
-          aria-expanded={false}
-          aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
-          disabled={false}
-          id="headlessui-listbox-button-:r4:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          type="button"
-        >
-          <div
-            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-          >
-            <span
-              className="text-moon-16 text-trunks"
-            >
-              Choose an option
-            </span>
-          </div>
-          <div
-            className="flex-shrink-0"
-          >
-            <svg
-              className="text-[1.5rem] text-trunks"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </button>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-bulma pb-2 text-moon-16"
-        id="headlessui-listbox-label-:r6:"
-        onClick={[Function]}
-      >
-        Large
-      </label>
-      <div>
-        <button
-          aria-expanded={false}
-          aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
-          disabled={false}
-          id="headlessui-listbox-button-:r7:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          type="button"
-        >
-          <div
-            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-          >
-            <span
-              className="text-moon-16 text-trunks"
-            >
-              Choose an option
-            </span>
-          </div>
-          <div
-            className="flex-shrink-0"
-          >
-            <svg
-              className="text-[1.5rem] text-trunks"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </button>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <div>
-        <button
-          aria-expanded={false}
-          aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
-          disabled={false}
-          id="headlessui-listbox-button-:r9:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          type="button"
-        >
-          <div
-            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-          >
-            <label
-              className="block text-moon-12 text-trunks"
-              id="headlessui-listbox-label-:ra:"
-              onClick={[Function]}
-            >
-              xLarge
-            </label>
-            <span
-              className="text-moon-16 text-trunks"
-            >
-              Choose an option
-            </span>
-          </div>
-          <div
-            className="flex-shrink-0"
-          >
-            <svg
-              className="text-[1.5rem] text-trunks"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </button>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Multi Select renders without label 1`] = `
-<div
-  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
->
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <div>
-        <button
-          aria-expanded={false}
-          aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
-          disabled={false}
-          id="headlessui-listbox-button-:rc:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          type="button"
-        >
-          <div
-            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-          >
-            <span
-              className="text-moon-14 text-trunks"
-            >
-              Choose an option
-            </span>
-          </div>
-          <div
-            className="flex-shrink-0"
-          >
-            <svg
-              className="text-[1.5rem] text-trunks"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M22 13l-6 6-6-6"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </button>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <div>
-        <button
-          aria-expanded={false}
-          aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
-          disabled={false}
-          id="headlessui-listbox-button-:re:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          type="button"
-        >
-          <div
-            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-          >
-            <span
-              className="text-moon-16 text-trunks"
-            >
-              Choose an option
-            </span>
-          </div>
-          <div
-            className="flex-shrink-0"
-          >
-            <svg
-              className="text-[1.5rem] text-trunks"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </button>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <div>
-        <button
-          aria-expanded={false}
-          aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
-          disabled={false}
-          id="headlessui-listbox-button-:rg:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          type="button"
-        >
-          <div
-            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-          >
-            <span
-              className="text-moon-16 text-trunks"
-            >
-              Choose an option
-            </span>
-          </div>
-          <div
-            className="flex-shrink-0"
-          >
-            <svg
-              className="text-[1.5rem] text-trunks"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </button>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <div>
-        <button
-          aria-expanded={false}
-          aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
-          disabled={false}
-          id="headlessui-listbox-button-:ri:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          type="button"
-        >
-          <div
-            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-          >
-            <span
-              className="text-moon-16 text-trunks"
-            >
-              Choose an option
-            </span>
-          </div>
-          <div
-            className="flex-shrink-0"
-          >
-            <svg
-              className="text-[1.5rem] text-trunks"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </button>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Multi Select with diferent option 1`] = `
+exports[`Select in Light Theme renders Options 1`] = `
 <div
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
@@ -1722,7 +3192,7 @@ exports[`Multi Select with diferent option 1`] = `
 </div>
 `;
 
-exports[`Multi Select with option width 1`] = `
+exports[`Select in Light Theme renders OptionsWidth 1`] = `
 <div
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
@@ -1953,6 +3423,2548 @@ exports[`Multi Select with option width 1`] = `
                 className="text-moon-16 text-trunks"
               >
                 Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders WithLabel 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r0:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:r1:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r3:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r4:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r6:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r7:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:r9:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:ra:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders WithoutLabel 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:rc:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:re:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:rg:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:ri:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders Disabled 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full opacity-30 cursor-not-allowed"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          id="headlessui-listbox-label-:r5q:"
+          onClick={[Function]}
+        >
+          Small
+        </label>
+        <div>
+          <button
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
+            disabled={true}
+            id="headlessui-listbox-button-:r5r:"
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full opacity-30 cursor-not-allowed"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r5t:"
+          onClick={[Function]}
+        >
+          Medium
+        </label>
+        <div>
+          <button
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+            disabled={true}
+            id="headlessui-listbox-button-:r5u:"
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full opacity-30 cursor-not-allowed"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r60:"
+          onClick={[Function]}
+        >
+          Large
+        </label>
+        <div>
+          <button
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+            disabled={true}
+            id="headlessui-listbox-button-:r61:"
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full opacity-30 cursor-not-allowed"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
+            disabled={true}
+            id="headlessui-listbox-button-:r63:"
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r64:"
+                onClick={[Function]}
+              >
+                xLarge
+              </label>
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders Error 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          id="headlessui-listbox-label-:r66:"
+          onClick={[Function]}
+        >
+          Small
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-listbox-button-:r67:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r69:"
+          onClick={[Function]}
+        >
+          Medium
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-listbox-button-:r6a:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r6c:"
+          onClick={[Function]}
+        >
+          Large
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-listbox-button-:r6d:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-listbox-button-:r6f:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r6g:"
+                onClick={[Function]}
+              >
+                xLarge
+              </label>
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders Hint 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          id="headlessui-listbox-label-:r5e:"
+          onClick={[Function]}
+        >
+          Small
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            disabled={false}
+            id="headlessui-listbox-button-:r5f:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r5h:"
+          onClick={[Function]}
+        >
+          Medium
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r5i:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r5k:"
+          onClick={[Function]}
+        >
+          Large
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r5l:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            disabled={false}
+            id="headlessui-listbox-button-:r5n:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r5o:"
+                onClick={[Function]}
+              >
+                xLarge
+              </label>
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders Options 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          id="headlessui-listbox-label-:r6i:"
+          onClick={[Function]}
+        >
+          Country
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            disabled={false}
+            id="headlessui-listbox-button-:r6j:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-bulma"
+              >
+                <div
+                  className="flex "
+                >
+                  <div
+                    className="me-4"
+                  >
+                    🇬🇧
+                  </div>
+                  <div>
+                    English
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r6l:"
+          onClick={[Function]}
+        >
+          Country
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r6m:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-bulma"
+              >
+                <div
+                  className="flex "
+                >
+                  <div
+                    className="me-4"
+                  >
+                    🇬🇧
+                  </div>
+                  <div>
+                    English
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r6o:"
+          onClick={[Function]}
+        >
+          Country
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r6p:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-bulma"
+              >
+                <div
+                  className="flex "
+                >
+                  <div
+                    className="me-4"
+                  >
+                    🇬🇧
+                  </div>
+                  <div>
+                    English
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            disabled={false}
+            id="headlessui-listbox-button-:r6r:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r6s:"
+                onClick={[Function]}
+              >
+                Country
+              </label>
+              <span
+                className="text-moon-16 text-bulma"
+              >
+                <div
+                  className="flex "
+                >
+                  <div
+                    className="me-4"
+                  >
+                    🇬🇧
+                  </div>
+                  <div>
+                    English
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders OptionsWidth 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-40"
+    >
+      <div
+        className="w-full"
+      >
+        <div
+          className="relative"
+        >
+          <div>
+            <button
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+              disabled={false}
+              id="headlessui-listbox-button-:r6u:"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <div
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <span
+                  className="text-moon-14 text-trunks"
+                >
+                  Choose...
+                </span>
+              </div>
+              <div
+                className="flex-shrink-0"
+              >
+                <svg
+                  className="text-[1.5rem] text-trunks"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div
+            className="z-5 absolute"
+            style={
+              Object {
+                "left": "0",
+                "position": "absolute",
+                "top": "0",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-40"
+    >
+      <div
+        className="w-full"
+      >
+        <div
+          className="relative"
+        >
+          <div>
+            <button
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              disabled={false}
+              id="headlessui-listbox-button-:r70:"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <div
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <span
+                  className="text-moon-16 text-trunks"
+                >
+                  Choose...
+                </span>
+              </div>
+              <div
+                className="flex-shrink-0"
+              >
+                <svg
+                  className="text-[1.5rem] text-trunks"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5l-9 9-9-9"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div
+            className="z-5 absolute"
+            style={
+              Object {
+                "left": "0",
+                "position": "absolute",
+                "top": "0",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-64"
+    >
+      <div
+        className="w-full"
+      >
+        <div
+          className="relative"
+        >
+          <div>
+            <button
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+              disabled={false}
+              id="headlessui-listbox-button-:r72:"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <div
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <span
+                  className="text-moon-16 text-trunks"
+                >
+                  Choose...
+                </span>
+              </div>
+              <div
+                className="flex-shrink-0"
+              >
+                <svg
+                  className="text-[1.5rem] text-trunks"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5l-9 9-9-9"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div
+            className="z-5 absolute"
+            style={
+              Object {
+                "left": "0",
+                "position": "absolute",
+                "top": "0",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-64"
+    >
+      <div
+        className="w-full"
+      >
+        <div
+          className="relative"
+        >
+          <div>
+            <button
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              disabled={false}
+              id="headlessui-listbox-button-:r74:"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <div
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <label
+                  className="block text-moon-12 text-trunks"
+                  id="headlessui-listbox-label-:r75:"
+                  onClick={[Function]}
+                >
+                  xLarge
+                </label>
+                <span
+                  className="text-moon-16 text-trunks"
+                >
+                  Choose...
+                </span>
+              </div>
+              <div
+                className="flex-shrink-0"
+              >
+                <svg
+                  className="text-[1.5rem] text-trunks"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5l-9 9-9-9"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+          <div
+            className="z-5 absolute"
+            style={
+              Object {
+                "left": "0",
+                "position": "absolute",
+                "top": "0",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders WithLabel 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          id="headlessui-listbox-label-:r4q:"
+          onClick={[Function]}
+        >
+          Small
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            disabled={false}
+            id="headlessui-listbox-button-:r4r:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r4t:"
+          onClick={[Function]}
+        >
+          Medium
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r4u:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r50:"
+          onClick={[Function]}
+        >
+          Large
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r51:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            disabled={false}
+            id="headlessui-listbox-button-:r53:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r54:"
+                onClick={[Function]}
+              >
+                xLarge
+              </label>
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders WithoutLabel 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            disabled={false}
+            id="headlessui-listbox-button-:r56:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r58:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r5a:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            disabled={false}
+            id="headlessui-listbox-button-:r5c:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
               </span>
             </div>
             <div

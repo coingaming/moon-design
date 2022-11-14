@@ -11,7 +11,7 @@ const Container: React.FC<{
   <div
     dir={dir}
     className={classNames(
-      'flex border-none shadow-input relative ',
+      'flex border-none shadow-input relative h-fit',
       orientation === 'horizontal' ? 'flex-row' : 'flex-col',
       backgroundColor && backgroundColor,
       isXLarge ? 'rounded-moon-i-md' : 'rounded-moon-i-sm',
