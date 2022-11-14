@@ -1,10 +1,10 @@
 import { Snackbar, Button } from '@heathmont/moon-core-tw';
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 
 const Example = () => {
   const [snackbar, setSnackbar] = useState('');
 
-  const openSnackbarHandler = (type: string) => {
+  const openSnackbarHandler = useCallback((type: string) => {
     if (snackbar) {
       setSnackbar('');
       setTimeout(() => {
@@ -13,7 +13,7 @@ const Example = () => {
     } else {
       setSnackbar(type);
     }
-  };
+  }, [snackbar]);
 
   return (
     <div>
