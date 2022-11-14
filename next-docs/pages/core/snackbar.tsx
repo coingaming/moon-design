@@ -3,16 +3,16 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/snackbarTW/Default';
-import SnackbarPositions from '../../public/examples/snackbarTW/SnackbarPositions';
-import SnackbarTypes from '../../public/examples/snackbarTW/SnackbarTypes';
-import SnackbarVariants from '../../public/examples/snackbarTW/SnackbarVariants';
+import Positions from '../../public/examples/snackbarTW/Positions';
+import Types from '../../public/examples/snackbarTW/Types';
+import Variants from '../../public/examples/snackbarTW/Variants';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('SnackbarTW');
   return (
     <>
-      <ComponentPageDescription title="Snackbar">
+      <ComponentPageDescription title="Snackbar" isInProgress>
         <p>
           A type of alert which appears in a layer above other content, visually
           similar to a mobile or desktop push notification.
@@ -24,29 +24,29 @@ const Example = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Snackbar Positions"
-        preview={<SnackbarPositions />}
-        code={examples ? examples.SnackbarPositions : 'Loading'}
+        title="Snackbar positions"
+        preview={<Positions />}
+        code={examples ? examples.Positions : 'Loading'}
       />
       <Preview
-        title="Snackbar Types"
-        preview={<SnackbarTypes />}
-        code={examples ? examples.SnackbarTypes : 'Loading'}
+        title="Snackbar types"
+        preview={<Types />}
+        code={examples ? examples.Types : 'Loading'}
       />
       <Preview
-        title="Snackbar Variants"
-        preview={<SnackbarVariants />}
-        code={examples ? examples.SnackbarVariants : 'Loading'}
+        title="Snackbar variants"
+        preview={<Variants />}
+        code={examples ? examples.Variants : 'Loading'}
       />
       <PropsTable
         title="Snackbar props"
         data={[
           {
-            name: 'className',
-            type: 'Tailwind classes',
+            name: 'autoClose',
+            type: 'number',
             required: false,
-            default: '-',
-            description: 'Change the styles',
+            default: 6000,
+            description: 'Change the duration the snackbar takes',
           },
           {
             name: 'children',
@@ -56,25 +56,12 @@ const Example = () => {
             description: 'Children content',
           },
           {
-            name: 'autoClose',
-            type: 'number',
+            name: 'className',
+            type: 'Tailwind classes',
             required: false,
-            default: 6000,
-            description:
-              'Change the duration the snackbar takes',
+            default: '-',
+            description: 'Change the styles',
           },
-          {
-            name: 'position',
-            required: true,
-            type: 'top-left | top-center | top-right | bottom-left | bottom-center | bottom-right',
-            default: 'top-right',
-            description: 'Change the position of snackbar',
-          },
-        ]}
-      />
-        <PropsTable
-        title="Variant props"
-        data={[
           {
             name: 'containerClassName',
             type: 'Tailwind classes',
@@ -88,6 +75,13 @@ const Example = () => {
             required: false,
             default: '-',
             description: 'Change the styles of the icon',
+          },
+          {
+            name: 'position',
+            required: true,
+            type: 'top-left | top-center | top-right | bottom-left | bottom-center | bottom-right',
+            default: 'top-right',
+            description: 'Change the position of snackbar',
           },
         ]}
       />
