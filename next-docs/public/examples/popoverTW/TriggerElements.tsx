@@ -1,30 +1,33 @@
 import React from 'react';
-import { Popover, Button } from '@heathmont/moon-core-tw';
+import { Popover, Button, Chip, MenuItem } from '@heathmont/moon-core-tw';
+import { ControlsChevronDown } from '@heathmont/moon-icons-tw';
 
 const Example = () => {
   return (
     <div className="flex align-middle justify-around items-center w-full gap-2">
-      <Popover position="top">
+      <Popover>
         <Popover.Trigger>
-          <Button>Top</Button>
+          <Button>Button</Button>
         </Popover.Trigger>
         <Popover.Panel>
           <Content />
         </Popover.Panel>
       </Popover>
 
-      <Popover position="right">
+      <Popover position="bottom-end">
         <Popover.Trigger>
-          <Button>Right</Button>
+          <Chip iconOnly={<ControlsChevronDown className="text-moon-24" />} />
         </Popover.Trigger>
         <Popover.Panel>
           <Content />
         </Popover.Panel>
       </Popover>
 
-      <Popover position="left">
+      <Popover position="bottom-start">
         <Popover.Trigger>
-          <Button>Left</Button>
+          <span className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo">
+            Open popover
+          </span>
         </Popover.Trigger>
         <Popover.Panel>
           <Content />
@@ -35,11 +38,10 @@ const Example = () => {
 };
 
 const Content: React.FC = () => (
-  <p className="p-4 text-moon-14">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat.
-  </p>
+  <div>
+    <MenuItem>Tournaments</MenuItem>
+    <MenuItem>Promotions</MenuItem>
+    <MenuItem>Providers</MenuItem>
+  </div>
 );
 export default Example;

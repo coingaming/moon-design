@@ -16,7 +16,7 @@ const Example = () => {
       <Popover.Trigger>
         <Button>Toggle Popover</Button>
       </Popover.Trigger>
-      <Popover.Panel menuWidth="w-96">
+      <Popover.Panel className="!w-96">
         {({ open, close }: RenderProps) => (
           <Content close={close} open={open} />
         )}
@@ -36,7 +36,7 @@ const Content: React.FC<RenderProps> = ({ open, close }) => {
   }, [open]);
 
   return (
-    <div className="p-8 flex flex-col gap-6">
+    <div className="p-6 flex flex-col gap-6">
       <MenuItem>
         <span className="flex w-11 h-11 bg-goku items-center justify-center rounded-lg">
           <GenericTrophy className="text-bulma text-[1.5rem]" />
