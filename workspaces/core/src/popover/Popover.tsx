@@ -1,11 +1,4 @@
-import React, {
-  createContext,
-  useContext,
-  Fragment,
-  useRef,
-  ReactNode,
-  useEffect,
-} from 'react';
+import React, { createContext, useContext, ReactNode } from 'react';
 import { Popover as HeadlessPopover } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import classNames from '../private/utils/classnames';
@@ -25,22 +18,26 @@ type Placement =
   | 'left';
 type PopoverRootProps = {
   position?: Placement;
-  modifiers: [
-    {
-      name: 'flip';
-      enabled: false;
-    }
-  ];
 };
 
-type CallableChildren = (data: { open?: boolean }) => ReactNode;
+type CallableChildren = (data: {
+  open?: boolean;
+  close?: (
+    focusableElement?:
+      | HTMLElement
+      | React.MutableRefObject<HTMLElement | null>
+      | undefined
+  ) => void;
+}) => ReactNode;
 
 type PopoverState = {
-  pooper?: {
+  popper?: {
     styles?: { [key: string]: React.CSSProperties };
     attributes?: { [key: string]: { [key: string]: string } | undefined };
-    referenceElement: React.MutableRefObject<null>;
-    popperElement: React.MutableRefObject<null>;
+    setAnchor: React.Dispatch<React.SetStateAction<Element | null | undefined>>;
+    setPopper: React.Dispatch<
+      React.SetStateAction<HTMLElement | null | undefined>
+    >;
   };
 };
 
@@ -63,35 +60,19 @@ const PopoverRoot: React.FC<PopoverRootProps> = ({
   children,
   position = 'bottom',
 }) => {
-  const referenceElement = useRef(null);
-  const popperElement = useRef(null);
+  const [anchorEl, setAnchorEl] = React.useState<Element | null>();
+  const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
 
-  const [anchorEl, setAnchorEl] = React.useState(referenceElement.current);
-  const [popperElementRef, setPopperElementRef] = React.useState(
-    popperElement.current
-  );
-
-  useEffect(() => {
-    setAnchorEl(referenceElement.current);
-    setPopperElementRef(popperElement.current);
-  });
-
-  let { styles, attributes } = usePopper(anchorEl, popperElementRef, {
+  let { styles, attributes } = usePopper(anchorEl, popperEl, {
     placement: position,
-    modifiers: [
-      {
-        name: 'flip',
-        enabled: false,
-      },
-    ],
   });
 
   const states = {
-    pooper: {
+    popper: {
       styles: styles,
       attributes: attributes,
-      referenceElement: referenceElement,
-      popperElement: popperElement,
+      setAnchor: setAnchorEl,
+      setPopper: setPopperEl,
     },
   };
 
@@ -117,45 +98,57 @@ const PopoverRoot: React.FC<PopoverRootProps> = ({
 
 //Popover.Trigger
 const Trigger: React.FC = ({ children }) => {
-  const { pooper } = usePopoverContext('Popover.Trigger');
+  const { popper } = usePopoverContext('Popover.Trigger');
   return (
-    <div ref={pooper?.referenceElement}>
-      <HeadlessPopover.Button as={Fragment}>
-        <div>{children}</div>
-      </HeadlessPopover.Button>
-    </div>
+    <HeadlessPopover.Button as={'div'} ref={popper?.setAnchor}>
+      <div>{children}</div>
+    </HeadlessPopover.Button>
   );
 };
 
 //Popover.Panel
 type PanelProps = {
   menuWidth?: string;
+  className?: string;
 };
-const Panel: React.FC<PanelProps> = ({ children, menuWidth }) => {
-  const { pooper } = usePopoverContext('Popover.Trigger');
+const Panel: React.FC<PanelProps> = ({ children, menuWidth, className }) => {
+  const { popper } = usePopoverContext('Popover.Trigger');
+  const childrens = React.Children.toArray(children);
+  const callableChildren =
+    typeof children === 'function' && (children as CallableChildren);
   return (
-    <div
-      ref={pooper?.popperElement}
-      style={pooper?.styles?.popper}
-      {...pooper?.attributes?.popper}
+    <HeadlessPopover.Panel
+      ref={popper?.setPopper}
+      style={popper?.styles?.popper}
+      {...popper?.attributes?.popper}
       className={classNames(
         menuWidth ? menuWidth : 'w-[18.75rem]',
-        'inline-block m-2 z-[999999]'
+        'm-2 z-[999999] w-full p-1 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
+        'focus:outline-none',
+        className && className
       )}
     >
-      <HeadlessPopover.Panel
-        className={classNames(
-          'w-full p-1 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
-          'focus:outline-none'
-        )}
-      >
-        {children}
-      </HeadlessPopover.Panel>
-    </div>
+      {({ open, close }) => (
+        <div className="relative">
+          {typeof children === 'function'
+            ? callableChildren && callableChildren({ open, close })
+            : childrens.map((ch) => ch)}
+        </div>
+      )}
+    </HeadlessPopover.Panel>
   );
 };
 
+type GroupProps = {
+  className?: string;
+};
+const Group: React.FC<GroupProps> = ({ children, className }) => (
+  <HeadlessPopover.Group className={className}>
+    {children}
+  </HeadlessPopover.Group>
+);
+
 //Popover
-const Popover = Object.assign(PopoverRoot, { Trigger, Panel });
+const Popover = Object.assign(PopoverRoot, { Trigger, Panel, Group });
 
 export default Popover;

@@ -4,6 +4,7 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/popoverTW/Default';
 import Position from '../../public/examples/popoverTW/Position';
+import WithClose from '../../public/examples/popoverTW/WithClose';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -12,13 +13,8 @@ const Example = () => {
     <>
       <ComponentPageDescription title="Dropdown">
         <p>
-          Dropdowns is a custom select component that allows users to make
-          single or multiple selections (Multi select not supported currently).
-        </p>
-        <p>
-          An option that’s been selected can represent a corresponding value in
-          forms or be used to filter/sort content.containers as Popovers,
-          Sidebars, Drawers, Dialogs etc.
+          Popovers are perfect for floating panels with arbitrary content like
+          navigation menus, mobile menus and flyout menus
         </p>
       </ComponentPageDescription>
       <Preview
@@ -29,47 +25,26 @@ const Example = () => {
 
       <Preview
         title="Position"
+        description="The complete list of all possible positions is in the props table below."
         preview={<Position />}
         code={examples ? examples.Position : 'Loading'}
       />
 
+      <Preview
+        title="WithClose"
+        preview={<WithClose />}
+        code={examples ? examples.WithClose : 'Loading'}
+      />
+
       <PropsTable
-        title="Dropdown"
+        title="Popover"
         data={[
           {
-            name: 'value',
-            type: 'T',
-            required: true,
-            default: '-',
-            description: 'The selected value.',
-          },
-          {
-            name: 'onChange',
-            type: '(value: T) => void',
-            required: true,
-            default: '-',
-            description: 'The function to call when a new option is selected.',
-          },
-          {
-            name: 'isError',
-            type: 'boolean',
+            name: 'position',
+            type: 'top-start | top-end | bottom-start | bottom-end | right-start | right-end \n\n | left-start| left-end | top | bottom | right| left',
             required: false,
-            default: '-',
-            description: 'Set valid/non-valid',
-          },
-          {
-            name: 'disabled',
-            type: 'boolean',
-            required: false,
-            default: '-',
-            description: 'Set disabled/non-disabled',
-          },
-          {
-            name: 'size',
-            type: 'sm | md | lg | xl | string',
-            required: false,
-            default: 'md',
-            description: 'Size',
+            default: 'bottom',
+            description: 'Set placement for popover',
           },
           {
             name: 'Render Props: ',
@@ -83,13 +58,13 @@ const Example = () => {
             type: 'boolean',
             required: false,
             default: '-',
-            description: 'Whether or not the Listbox is open.',
+            description: 'Whether or not the popover is open.',
           },
         ]}
       />
 
       <PropsTable
-        title="Dropdown.Options"
+        title="Popover.Panel"
         data={[
           {
             name: 'menuWidth',
@@ -97,19 +72,6 @@ const Example = () => {
             required: false,
             default: '-',
             description: 'Tailwind class for custom options container width.',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="Dropdown.Option"
-        data={[
-          {
-            name: 'value',
-            type: 'T',
-            required: false,
-            default: '-',
-            description: 'The option value.',
           },
           {
             name: 'Render Props: ',
@@ -119,39 +81,18 @@ const Example = () => {
             description: '',
           },
           {
-            name: 'active',
+            name: 'open',
             type: 'boolean',
             required: false,
             default: '-',
-            description:
-              'Whether or not the option is the active/focused option.',
+            description: 'Whether or not the popover is open.',
           },
           {
-            name: 'selected',
-            type: 'boolean',
+            name: 'close',
+            type: '() => void',
             required: false,
             default: '-',
-            description: 'Whether or not the option is the selected option.',
-          },
-        ]}
-      />
-
-      <PropsTable
-        title="Dropdown.Select"
-        data={[
-          {
-            name: 'label',
-            type: 'JSX.Element | string',
-            required: false,
-            default: '-',
-            description: 'Label title',
-          },
-          {
-            name: 'placeholder',
-            type: 'JSX.Element | string',
-            required: false,
-            default: '-',
-            description: 'Placeholder',
+            description: 'Closes the popover.',
           },
         ]}
       />

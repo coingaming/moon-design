@@ -8,9 +8,10 @@ type Props = {
   title?: string;
   preview: React.ReactNode;
   code?: string;
+  description?: string;
 };
 
-const Preview = ({ title, preview, code }: Props) => {
+const Preview = ({ title, description, preview, code }: Props) => {
   const [isPreviewActive, setActive] = useState(true);
   const setPreviewActive = () => setActive(true);
   const setCodeActive = () => setActive(false);
@@ -30,6 +31,7 @@ const Preview = ({ title, preview, code }: Props) => {
           copyCode={copyCode}
         />
       </div>
+      {description && <p className="text-moon-16">{description}</p>}
       <div
         className={classNames(
           isPreviewActive ? `p-4` : 'theme-moon-dark',

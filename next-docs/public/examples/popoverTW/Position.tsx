@@ -9,14 +9,7 @@ const Example = () => {
           <Button>Top</Button>
         </Popover.Trigger>
         <Popover.Panel menuWidth="w-96">
-          <p className="p-4 text-moon-14">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.Lorem ipsum dolor sit amet.
-          </p>
+          <Content />
         </Popover.Panel>
       </Popover>
 
@@ -25,14 +18,7 @@ const Example = () => {
           <Button>Right</Button>
         </Popover.Trigger>
         <Popover.Panel menuWidth="w-96">
-          <p className="p-4 text-moon-14">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.Lorem ipsum dolor sit amet.
-          </p>
+          <Content />
         </Popover.Panel>
       </Popover>
 
@@ -41,18 +27,20 @@ const Example = () => {
           <Button>Left</Button>
         </Popover.Trigger>
         <Popover.Panel menuWidth="w-96">
-          <p className="p-4 text-moon-14">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.Lorem ipsum dolor sit amet.
-          </p>
+          <Content />
         </Popover.Panel>
       </Popover>
     </div>
   );
 };
 
+const Content: React.FC = () => (
+  <p className="p-4 text-moon-14">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur.Lorem ipsum dolor sit amet.
+  </p>
+);
 export default Example;
