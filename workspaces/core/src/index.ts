@@ -26,6 +26,8 @@ export { default as Menu } from './menu/Menu';
 export * from './menu/Menu';
 export { default as MenuItem } from './menuItem/MenuItem';
 export * from './menuItem/MenuItem';
+export { default as Popover } from './popover/Popover';
+export * from './popover/Popover';
 export { default as Modal } from './modal/Modal';
 export * from './modal/Modal';
 export { default as Progress } from './progress/Progress';
