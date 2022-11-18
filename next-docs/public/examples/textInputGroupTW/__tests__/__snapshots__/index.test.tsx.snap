@@ -5,7 +5,7 @@ exports[`TextInputGroup in Dark Theme renders AccessValues 1`] = `
   className="flex flex-col justify-around items-center w-full gap-2"
 >
   <div
-    className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -30,13 +30,13 @@ exports[`TextInputGroup in Dark Theme renders AccessValues 1`] = `
     </div>
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
   >
     Country: 
     Estonia
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
   >
     Phone: 
     +372 45678901
@@ -46,7 +46,7 @@ exports[`TextInputGroup in Dark Theme renders AccessValues 1`] = `
 
 exports[`TextInputGroup in Dark Theme renders Default 1`] = `
 <div
-  className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
   dir="ltr"
 >
   <div
@@ -74,7 +74,7 @@ exports[`TextInputGroup in Dark Theme renders Default 1`] = `
 
 exports[`TextInputGroup in Dark Theme renders Rtl 1`] = `
 <div
-  className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
   dir="rtl"
 >
   <div
@@ -105,7 +105,7 @@ exports[`TextInputGroup in Dark Theme renders Sizes 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -130,7 +130,7 @@ exports[`TextInputGroup in Dark Theme renders Sizes 1`] = `
     </div>
   </div>
   <div
-    className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -155,7 +155,7 @@ exports[`TextInputGroup in Dark Theme renders Sizes 1`] = `
     </div>
   </div>
   <div
-    className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -198,7 +198,7 @@ exports[`TextInputGroup in Dark Theme renders Sizes 1`] = `
 
 exports[`TextInputGroup in Dark Theme renders Types 1`] = `
 <div
-  className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
   dir="ltr"
 >
   <div
@@ -238,7 +238,7 @@ exports[`TextInputGroup in Dark Theme renders Vertical 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="flex border-none shadow-input relative  flex-col bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -263,7 +263,7 @@ exports[`TextInputGroup in Dark Theme renders Vertical 1`] = `
     </div>
   </div>
   <div
-    className="flex border-none shadow-input relative  flex-col bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -309,7 +309,7 @@ exports[`TextInputGroup in Light Theme renders AccessValues 1`] = `
   className="flex flex-col justify-around items-center w-full gap-2"
 >
   <div
-    className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -334,13 +334,13 @@ exports[`TextInputGroup in Light Theme renders AccessValues 1`] = `
     </div>
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
   >
     Country: 
     Estonia
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
   >
     Phone: 
     +372 45678901
@@ -350,7 +350,7 @@ exports[`TextInputGroup in Light Theme renders AccessValues 1`] = `
 
 exports[`TextInputGroup in Light Theme renders Default 1`] = `
 <div
-  className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
   dir="ltr"
 >
   <div
@@ -378,7 +378,7 @@ exports[`TextInputGroup in Light Theme renders Default 1`] = `
 
 exports[`TextInputGroup in Light Theme renders Rtl 1`] = `
 <div
-  className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
   dir="rtl"
 >
   <div
@@ -409,7 +409,7 @@ exports[`TextInputGroup in Light Theme renders Sizes 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -434,7 +434,7 @@ exports[`TextInputGroup in Light Theme renders Sizes 1`] = `
     </div>
   </div>
   <div
-    className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -459,7 +459,7 @@ exports[`TextInputGroup in Light Theme renders Sizes 1`] = `
     </div>
   </div>
   <div
-    className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -502,7 +502,7 @@ exports[`TextInputGroup in Light Theme renders Sizes 1`] = `
 
 exports[`TextInputGroup in Light Theme renders Types 1`] = `
 <div
-  className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
   dir="ltr"
 >
   <div
@@ -542,7 +542,7 @@ exports[`TextInputGroup in Light Theme renders Vertical 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="flex border-none shadow-input relative  flex-col bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -567,7 +567,7 @@ exports[`TextInputGroup in Light Theme renders Vertical 1`] = `
     </div>
   </div>
   <div
-    className="flex border-none shadow-input relative  flex-col bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -616,7 +616,7 @@ exports[`TextInputGroup in RTL renders AccessValues 1`] = `
     className="flex flex-col justify-around items-center w-full gap-2"
   >
     <div
-      className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
       dir="ltr"
     >
       <div
@@ -641,13 +641,13 @@ exports[`TextInputGroup in RTL renders AccessValues 1`] = `
       </div>
     </div>
     <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
     >
       Country: 
       Estonia
     </div>
     <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium text-gohan bg-bulma"
+      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
     >
       Phone: 
       +372 45678901
@@ -661,7 +661,7 @@ exports[`TextInputGroup in RTL renders Default 1`] = `
   dir="rtl"
 >
   <div
-    className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -693,7 +693,7 @@ exports[`TextInputGroup in RTL renders Rtl 1`] = `
   dir="rtl"
 >
   <div
-    className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="rtl"
   >
     <div
@@ -728,7 +728,7 @@ exports[`TextInputGroup in RTL renders Sizes 1`] = `
     className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
   >
     <div
-      className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
       dir="ltr"
     >
       <div
@@ -753,7 +753,7 @@ exports[`TextInputGroup in RTL renders Sizes 1`] = `
       </div>
     </div>
     <div
-      className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
       dir="ltr"
     >
       <div
@@ -778,7 +778,7 @@ exports[`TextInputGroup in RTL renders Sizes 1`] = `
       </div>
     </div>
     <div
-      className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
       dir="ltr"
     >
       <div
@@ -825,7 +825,7 @@ exports[`TextInputGroup in RTL renders Types 1`] = `
   dir="rtl"
 >
   <div
-    className="flex border-none shadow-input relative  flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
   >
     <div
@@ -869,7 +869,7 @@ exports[`TextInputGroup in RTL renders Vertical 1`] = `
     className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
   >
     <div
-      className="flex border-none shadow-input relative  flex-col bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
       dir="ltr"
     >
       <div
@@ -894,7 +894,7 @@ exports[`TextInputGroup in RTL renders Vertical 1`] = `
       </div>
     </div>
     <div
-      className="flex border-none shadow-input relative  flex-col bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
       dir="ltr"
     >
       <div

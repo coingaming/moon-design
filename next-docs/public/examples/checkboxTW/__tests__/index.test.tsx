@@ -12,7 +12,7 @@ import renderer from 'react-test-renderer';
 import Default from '../Default';
 import WithLabel from '../WithLabel';
 import Checked from '../Checked';
-import Colors from '../Colors';
+import Customize from '../Customize';
 import Disabled from '../Disabled';
 import ReadOnly from '../ReadOnly';
 
@@ -49,8 +49,8 @@ describe('Checkbox in Light Theme', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<ReadOnly />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Colors', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Colors />));
+  it('renders Customize', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Customize />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
@@ -76,8 +76,8 @@ describe('Checkbox in Dark Theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<ReadOnly />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Colors', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Colors />));
+  it('renders Customize', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Customize />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
@@ -103,8 +103,8 @@ describe('Checkbox in RTL', () => {
     const testRenderer = renderer.create(renderWithRtl(<ReadOnly />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Colors', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Colors />));
+  it('renders Customize', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Customize />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

@@ -3,7 +3,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/checkboxTW/Checked';
-import Colors from '../../public/examples/checkboxTW/Colors';
+import Customize from '../../public/examples/checkboxTW/Customize';
 import Default from '../../public/examples/checkboxTW/Default';
 import Disabled from '../../public/examples/checkboxTW/Disabled';
 import ReadOnly from '../../public/examples/checkboxTW/ReadOnly';
@@ -57,8 +57,8 @@ const Example = () => {
       />
       <Preview
         title="Customization"
-        preview={<Colors />}
-        code={examples ? examples.Colors : 'Loading'}
+        preview={<Customize />}
+        code={examples ? examples.Customize : 'Loading'}
       />
       <PropsTable
         title="Checkbox props"

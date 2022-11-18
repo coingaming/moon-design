@@ -23,7 +23,8 @@
     "@headlessui/react": "1.6.1",
     "@heathmont/moon-icons-tw": "workspace:^9.11.2",
     "@popperjs/core": "^2.11.6",
-    "react-popper": "^2.3.0"
+    "react-popper": "^2.3.0",
+    "tailwind-merge": "1.8.0"
   },
   "peerDependencies": {
     "react": ">= 18.0.0",

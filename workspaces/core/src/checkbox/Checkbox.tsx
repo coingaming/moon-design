@@ -1,6 +1,6 @@
 import React, { forwardRef, useEffect, useState } from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../private/utils/mergeClassnames';
 import type CheckboxProps from './private/types/CheckboxProps';
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
@@ -27,7 +27,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
     return (
       <label
         htmlFor={id}
-        className={classNames(
+        className={mergeClassnames(
           'relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer',
           disabled && 'opacity-30 cursor-not-allowed select-none',
           readOnly && 'cursor-not-allowed select-none'
@@ -56,7 +56,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
           onChange={onChange ? onChange : (e) => {}}
         />
         <span
-          className={classNames(
+          className={mergeClassnames(
             'absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten',
             isChecked && bgColor,
             className && className
@@ -64,7 +64,7 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
           aria-hidden="true"
         >
           <GenericCheckAlternative
-            className={classNames(
+            className={mergeClassnames(
               'transition-opacity',
               isChecked ? 'opacity-100' : 'opacity-0'
             )}
