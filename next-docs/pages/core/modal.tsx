@@ -12,7 +12,7 @@ const Example = () => {
   const examples = useExamples('modalTW');
   return (
     <>
-      <ComponentPageDescription title="Modal">
+      <ComponentPageDescription title="Modal" isInProgress>
         <p>
           A modal is an interface element that appears over other content. It
           requires an interaction from the user before they can return to

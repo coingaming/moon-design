@@ -23,6 +23,8 @@ const navigation = [
       { name: 'Label', href: '/core/label' },
       { name: 'Loader', href: '/core/loader' },
       { name: 'MenuItem', href: '/core/menuItem' },
+      { name: 'Modal', href: '/core/modal' },
+      { name: 'Popover', href: '/core/popover' },
       {
         name: 'Progress',
         children: [
