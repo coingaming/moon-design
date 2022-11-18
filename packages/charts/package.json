@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-charts",
   "sideEffects": false,
-  "version": "9.11.2",
+  "version": "9.14.0",
   "files": [
     "lib"
   ],
@@ -20,12 +20,12 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-assets": "workspace:^9.11.2",
-    "@heathmont/moon-components": "workspace:^9.11.2",
-    "@heathmont/moon-core": "workspace:^9.11.2",
-    "@heathmont/moon-icons": "workspace:^9.11.2",
-    "@heathmont/moon-themes": "workspace:^9.11.2",
-    "@heathmont/moon-utils": "workspace:^9.11.2",
+    "@heathmont/moon-assets": "workspace:^9.14.0",
+    "@heathmont/moon-components": "workspace:^9.14.0",
+    "@heathmont/moon-core": "workspace:^9.14.0",
+    "@heathmont/moon-icons": "workspace:^9.14.0",
+    "@heathmont/moon-themes": "workspace:^9.14.0",
+    "@heathmont/moon-utils": "workspace:^9.14.0",
     "@types/react-simple-maps": "1.0.3",
     "@types/react-transition-group": "4.4.0",
     "react-simple-maps": "2.3.0",

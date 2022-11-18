@@ -2,7 +2,7 @@
 
 exports[`Checkbox in Dark Theme renders Checked 1`] = `
 <label
-  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  className="relative flex items-center gap-2 text-bulma cursor-pointer"
   htmlFor="checked"
 >
   <input
@@ -41,7 +41,7 @@ exports[`Checkbox in Dark Theme renders Checked 1`] = `
 exports[`Checkbox in Dark Theme renders Customize 1`] = `
 Array [
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -73,7 +73,7 @@ Array [
     </span>
   </label>,
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -105,7 +105,7 @@ Array [
     </span>
   </label>,
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -137,7 +137,7 @@ Array [
     </span>
   </label>,
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -173,7 +173,7 @@ Array [
 
 exports[`Checkbox in Dark Theme renders Default 1`] = `
 <label
-  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  className="relative flex items-center gap-2 text-bulma cursor-pointer"
 >
   <input
     aria-checked={false}
@@ -209,7 +209,7 @@ exports[`Checkbox in Dark Theme renders Default 1`] = `
 exports[`Checkbox in Dark Theme renders Disabled 1`] = `
 Array [
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma opacity-30 cursor-not-allowed select-none"
     htmlFor="disabled1"
   >
     <input
@@ -245,7 +245,7 @@ Array [
     Disabled
   </label>,
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma opacity-30 cursor-not-allowed select-none"
     htmlFor="disabled2"
   >
     <input
@@ -286,7 +286,7 @@ Array [
 exports[`Checkbox in Dark Theme renders ReadOnly 1`] = `
 Array [
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma cursor-not-allowed select-none"
     htmlFor="readOnly1"
   >
     <input
@@ -322,7 +322,7 @@ Array [
     ReadOnly
   </label>,
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma cursor-not-allowed select-none"
     htmlFor="readOnly2"
   >
     <input
@@ -362,7 +362,7 @@ Array [
 
 exports[`Checkbox in Dark Theme renders WithLabel 1`] = `
 <label
-  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  className="relative flex items-center gap-2 text-bulma cursor-pointer"
   htmlFor="withLabel"
 >
   <input
@@ -400,7 +400,7 @@ exports[`Checkbox in Dark Theme renders WithLabel 1`] = `
 
 exports[`Checkbox in Light Theme renders Checked 1`] = `
 <label
-  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  className="relative flex items-center gap-2 text-bulma cursor-pointer"
   htmlFor="checked"
 >
   <input
@@ -439,7 +439,7 @@ exports[`Checkbox in Light Theme renders Checked 1`] = `
 exports[`Checkbox in Light Theme renders Customize 1`] = `
 Array [
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -471,7 +471,7 @@ Array [
     </span>
   </label>,
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -503,7 +503,7 @@ Array [
     </span>
   </label>,
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -535,7 +535,7 @@ Array [
     </span>
   </label>,
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -571,7 +571,7 @@ Array [
 
 exports[`Checkbox in Light Theme renders Default 1`] = `
 <label
-  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  className="relative flex items-center gap-2 text-bulma cursor-pointer"
 >
   <input
     aria-checked={false}
@@ -607,7 +607,7 @@ exports[`Checkbox in Light Theme renders Default 1`] = `
 exports[`Checkbox in Light Theme renders Disabled 1`] = `
 Array [
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma opacity-30 cursor-not-allowed select-none"
     htmlFor="disabled1"
   >
     <input
@@ -643,7 +643,7 @@ Array [
     Disabled
   </label>,
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma opacity-30 cursor-not-allowed select-none"
     htmlFor="disabled2"
   >
     <input
@@ -684,7 +684,7 @@ Array [
 exports[`Checkbox in Light Theme renders ReadOnly 1`] = `
 Array [
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma cursor-not-allowed select-none"
     htmlFor="readOnly1"
   >
     <input
@@ -720,7 +720,7 @@ Array [
     ReadOnly
   </label>,
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma cursor-not-allowed select-none"
     htmlFor="readOnly2"
   >
     <input
@@ -760,7 +760,7 @@ Array [
 
 exports[`Checkbox in Light Theme renders WithLabel 1`] = `
 <label
-  className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+  className="relative flex items-center gap-2 text-bulma cursor-pointer"
   htmlFor="withLabel"
 >
   <input
@@ -801,7 +801,7 @@ exports[`Checkbox in RTL renders Checked 1`] = `
   dir="rtl"
 >
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
     htmlFor="checked"
   >
     <input
@@ -843,7 +843,7 @@ exports[`Checkbox in RTL renders Customize 1`] = `
   dir="rtl"
 >
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -875,7 +875,7 @@ exports[`Checkbox in RTL renders Customize 1`] = `
     </span>
   </label>
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -907,7 +907,7 @@ exports[`Checkbox in RTL renders Customize 1`] = `
     </span>
   </label>
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -939,7 +939,7 @@ exports[`Checkbox in RTL renders Customize 1`] = `
     </span>
   </label>
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -978,7 +978,7 @@ exports[`Checkbox in RTL renders Default 1`] = `
   dir="rtl"
 >
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
   >
     <input
       aria-checked={false}
@@ -1017,7 +1017,7 @@ exports[`Checkbox in RTL renders Disabled 1`] = `
   dir="rtl"
 >
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma opacity-30 cursor-not-allowed select-none"
     htmlFor="disabled1"
   >
     <input
@@ -1053,7 +1053,7 @@ exports[`Checkbox in RTL renders Disabled 1`] = `
     Disabled
   </label>
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer opacity-30 cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma opacity-30 cursor-not-allowed select-none"
     htmlFor="disabled2"
   >
     <input
@@ -1096,7 +1096,7 @@ exports[`Checkbox in RTL renders ReadOnly 1`] = `
   dir="rtl"
 >
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma cursor-not-allowed select-none"
     htmlFor="readOnly1"
   >
     <input
@@ -1132,7 +1132,7 @@ exports[`Checkbox in RTL renders ReadOnly 1`] = `
     ReadOnly
   </label>
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer cursor-not-allowed select-none"
+    className="relative flex items-center gap-2 text-bulma cursor-not-allowed select-none"
     htmlFor="readOnly2"
   >
     <input
@@ -1175,7 +1175,7 @@ exports[`Checkbox in RTL renders WithLabel 1`] = `
   dir="rtl"
 >
   <label
-    className="relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer"
+    className="relative flex items-center gap-2 text-bulma cursor-pointer"
     htmlFor="withLabel"
   >
     <input
