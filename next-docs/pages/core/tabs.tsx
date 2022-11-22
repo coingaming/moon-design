@@ -107,7 +107,7 @@ const Example = () => {
       />
 
       <PropsTable
-        title="Dropdown.Tab"
+        title="Tabs.Tab"
         data={[
           {
             name: 'disabled',
@@ -127,7 +127,7 @@ const Example = () => {
       />
 
       <PropsTable
-        title="Dropdown.Pill"
+        title="Tabs.Pill"
         data={[
           {
             name: 'disabled',
@@ -147,7 +147,7 @@ const Example = () => {
       />
 
       <PropsTable
-        title="Dropdown.Panels"
+        title="Tabs.Panels"
         data={[
           {
             name: 'className',
@@ -160,7 +160,7 @@ const Example = () => {
       />
 
       <PropsTable
-        title="Dropdown.Panel"
+        title="Tabs.Panel"
         data={[
           {
             name: 'className',
