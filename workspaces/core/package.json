@@ -25,6 +25,7 @@
     "@popperjs/core": "^2.11.6",
     "@radix-ui/react-toast": "1.1.1",
     "react-popper": "^2.3.0",
+    "tailwind-merge": "1.8.0",
     "tailwindcss-radix": "^2.6.1"
   },
   "peerDependencies": {

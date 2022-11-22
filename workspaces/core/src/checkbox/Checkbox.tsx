@@ -1,7 +1,6 @@
-import React, { forwardRef, useCallback, useEffect, useState } from 'react';
+import React, { forwardRef, useEffect, useState } from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
-import classNames from '../private/utils/classnames';
-import inlineSvg from '../private/utils/inlineSvg/inlineSvg';
+import mergeClassnames from '../private/utils/mergeClassnames';
 import type CheckboxProps from './private/types/CheckboxProps';
 
 const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
@@ -12,87 +11,67 @@ const Checkbox = forwardRef<HTMLInputElement, CheckboxProps>(
       ariaLabel,
       label,
       id,
-      checked,
+      checked = false,
       onChange,
+      bgColor = 'bg-piccolo',
+      className,
       ...inputProps
     },
     ref
   ) => {
     const [isChecked, setIsChecked] = useState(checked || false);
-    const [isHover, setIsHover] = useState(false);
-    //TODO: Investigate how to pass icon color from the theme
-    const markIcon = inlineSvg(
-      <GenericCheckAlternative style={{ color: '#ffffff' }} />
-    );
-
     useEffect(() => {
-      if (typeof checked !== undefined && checked !== isChecked) setIsChecked(!!checked);
+      if (typeof checked !== undefined && checked !== isChecked)
+        setIsChecked(!checked);
     }, [checked]);
-
     return (
-      <div
-        className="inline-block"
-        onMouseEnter={useCallback(() => setIsHover(true), [])}
-        onMouseLeave={useCallback(() => setIsHover(false), [])}
+      <label
+        htmlFor={id}
+        className={mergeClassnames(
+          'relative flex items-center gap-2 text-moon-14 text-bulma cursor-pointer',
+          disabled && 'opacity-30 cursor-not-allowed select-none',
+          readOnly && 'cursor-not-allowed select-none'
+        )}
       >
-        <label
-          htmlFor={id}
-          className={classNames(
-            'flex items-center text-moon-14 text-bulma cursor-pointer ',
-            disabled && 'opacity-30 cursor-not-allowed select-none',
-            readOnly && 'cursor-not-allowed select-none'
+        <input
+          id={id}
+          disabled={disabled}
+          readOnly={readOnly}
+          aria-label={ariaLabel}
+          ref={ref}
+          className="peer appearance-none h-6 w-6 outline-none align-top select-none"
+          {...inputProps}
+          type="checkbox"
+          aria-checked={isChecked}
+          checked={isChecked}
+          onClick={(e) => {
+            if (disabled || readOnly) {
+              e.preventDefault();
+              e.stopPropagation();
+              return;
+            }
+            if (inputProps.onClick) inputProps.onClick(e);
+            setIsChecked(e?.currentTarget?.checked);
+          }}
+          onChange={onChange ? onChange : (e) => {}}
+        />
+        <span
+          className={mergeClassnames(
+            'absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten',
+            isChecked && bgColor,
+            className && className
           )}
+          aria-hidden="true"
         >
-          <span className={classNames('flex me-3 relative')}>
-            <span
-              className={classNames(
-                'w-6 h-6 rounded-moon-i-xs duration-200 absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-[background-color]',
-                isChecked ? 'hover:bg-piccolo/[.12]' : 'hover:bg-trunks/[.12]',
-                !disabled &&
-                  !readOnly &&
-                  isHover &&
-                  isChecked &&
-                  'bg-piccolo/[.12]',
-                !disabled &&
-                  !readOnly &&
-                  isHover &&
-                  !isChecked &&
-                  'bg-trunks/[.12]'
-              )}
-            />
-            <input
-              id={id}
-              disabled={disabled}
-              readOnly={readOnly}
-              aria-label={ariaLabel}
-              ref={ref}
-              checked={isChecked}
-              className={classNames(
-                'appearance-none h-4 w-4 rounded-moon-i-xs focus:outline-none transition duration-200 align-top bg-no-repeat bg-center bg-contain float-start cursor-pointer',
-                isChecked
-                  ? 'bg-piccolo shadow-none'
-                  : 'shadow-[0_0_0_1px_inset] shadow-trunks',
-                disabled && 'opacity-30 cursor-not-allowed select-none',
-                readOnly && 'cursor-not-allowed select-none'
-              )}
-              {...inputProps}
-              style={{ backgroundImage: isChecked ? markIcon : '' }}
-              type="checkbox"
-              onClick={(e) => {
-                if (disabled || readOnly) {
-                  e.preventDefault();
-                  e.stopPropagation();
-                  return;
-                }
-                if (inputProps.onClick) inputProps.onClick(e);
-                setIsChecked(e?.currentTarget?.checked);
-              }}
-              onChange={onChange ? onChange : (e) => {}}
-            />
-          </span>
-          {label}
-        </label>
-      </div>
+          <GenericCheckAlternative
+            className={mergeClassnames(
+              'transition-opacity',
+              isChecked ? 'opacity-100' : 'opacity-0'
+            )}
+          />
+        </span>
+        {label}
+      </label>
     );
   }
 );
