@@ -1,4 +1,4 @@
-import React, { useState, Fragment } from 'react';
+import React, { useState } from 'react';
 import { Tabs } from '@heathmont/moon-core-tw';
 
 const Example = () => {
@@ -8,9 +8,9 @@ const Example = () => {
     <div>
       <Tabs selectedIndex={selectedIndex} onChange={setSelectedIndex}>
         <Tabs.List>
-          <Tabs.Tab as={Fragment}>Tab 1</Tabs.Tab>
-          <Tabs.Tab as={Fragment}>Tab 2</Tabs.Tab>
-          <Tabs.Tab as={Fragment}>Tab 3</Tabs.Tab>
+          <Tabs.Tab>Tab 1</Tabs.Tab>
+          <Tabs.Tab>Tab 2</Tabs.Tab>
+          <Tabs.Tab>Tab 3</Tabs.Tab>
         </Tabs.List>
         <Tabs.Panels>
           <Tabs.Panel>
