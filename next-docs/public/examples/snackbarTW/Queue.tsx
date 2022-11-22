@@ -25,14 +25,8 @@ class Queue {
     this.head++;
     return item;
   }
-  peek() {
-    return this.elements[this.head];
-  }
   get length() { 
     return this.tail - this.head;
-  }
-  get isEmpty() {
-    return this.length === 0;
   }
 }
 const notifications = new Queue();
