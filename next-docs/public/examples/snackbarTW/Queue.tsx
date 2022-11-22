@@ -7,7 +7,7 @@ type NotificationType = {
 };
 
 class Queue {
-  elements: Array<NotificationType>;
+  elements: Record<string, NotificationType>;
   head: number;
   tail: number;
   constructor() {
@@ -32,38 +32,25 @@ class Queue {
 const notifications = new Queue();
  
 const Example = () => {
-  const [snackbar, setSnackbar] = useState({message: "", type: ""});
+  const [snackbar, setSnackbar] = useState({message: '', type: ''});
 
   const snackbarNotification = () => {
-    setSnackbar({message: "", type: ""}) 
-    if(notifications.length) {
-      setTimeout(() => {
-        setSnackbar(notifications.dequeue())
-      }, 400);
-     
-    }
+    setNotifications(notifications.dequeue());
   }
 
   const openSnackbarHandler = useCallback(
-    (notification: NotificationType) => {
-      if(snackbar?.type) {
-        notifications.enqueue(notification)
-      }
-      else {
-        setSnackbar(notification)
-        notifications.enqueue(notification)
-      }
-      
+    (notification: NotificationType) => {  
+      setSnackbar(notifications.enqueue(notification));
     },
     [snackbar]
   );
 
   return (
     <div>
-      <Button onClick={() => openSnackbarHandler({message: "Something went wrong ...", type: 'info'})}>
+      <Button onClick={() => openSnackbarHandler({message: 'Something went wrong ...', type: 'info'})}>
         Default Snackbar
       </Button>
-      <Snackbar isOpen={snackbar?.type === "info"} setSnackbar={snackbarNotification}>
+      <Snackbar isOpen={snackbar?.type === 'info'} setSnackbar={snackbarNotification}>
         <Snackbar.Message>{snackbar?.message}</Snackbar.Message>
       </Snackbar>
     </div>
