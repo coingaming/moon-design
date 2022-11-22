@@ -72,15 +72,16 @@ const Accordion = ({
           </span>
         )}
       </button>
-      <div
-        className={classNames(
-          'overflow-hidden w-full text-bulma transition-all',
-          isOpen ? 'h-auto opacity-100' : 'h-0 opacity-0',
-          isOpen && setMargin(size)
-        )}
-      >
-        {children}
-      </div>
+      {isOpen && (
+        <div
+          className={classNames(
+            'overflow-hidden w-full text-bulma',
+            isOpen && setMargin(size)
+          )}
+        >
+          {children}
+        </div>
+      )}
     </div>
   );
 };
