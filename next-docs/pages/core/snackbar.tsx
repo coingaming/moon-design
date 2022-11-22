@@ -9,7 +9,7 @@ import Variants from '../../public/examples/snackbarTW/Variants';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('SnackbarTW');
+  const examples = useExamples('snackbarTW');
   return (
     <>
       <ComponentPageDescription title="Snackbar" isInProgress>
