@@ -103,7 +103,7 @@ const useThemeTW = () => {
 
   const setTheme = (className: string) => {
     // document.documentElement.className = className;
-    const previewElements = document.getElementsByClassName('layout');
+    const previewElements = document.getElementsByTagName('body');
     const themeClasses = [];
     for (var key in themes) {
       const brandName = key as Brand;

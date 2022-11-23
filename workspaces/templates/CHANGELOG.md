@@ -1,5 +1,17 @@
 # @heathmont/moon-templates
 
+## 9.14.0
+
+### Minor Changes
+
+- Fix version
+
+## 9.13.0
+
+### Minor Changes
+
+- release
+
 ## 9.12.0
 
 ### Minor Changes
