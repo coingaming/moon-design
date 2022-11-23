@@ -13,7 +13,7 @@ const Example = () => {
   const examples = useExamples('popoverTW');
   return (
     <>
-      <ComponentPageDescription title="Dropdown">
+      <ComponentPageDescription title="Popover" isInProgress>
         <p>
           Popovers are perfect for floating panels with arbitrary content like
           navigation menus, mobile menus and flyout menus

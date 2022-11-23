@@ -39,7 +39,7 @@ exports[`Accordion in Dark Theme expands Default 1`] = `
     </span>
   </button>
   <div
-    className="overflow-hidden w-full text-bulma transition-all h-auto opacity-100 mt-2"
+    className="overflow-hidden w-full text-bulma mt-2"
   >
     <div
       className="text-moon-14"
@@ -89,15 +89,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -136,15 +127,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
 ]
 `;
@@ -241,15 +223,6 @@ exports[`Accordion in Dark Theme renders ContentHeader 1`] = `
       </svg>
     </span>
   </button>
-  <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-  >
-    <div
-      className="text-moon-14"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
 </div>
 `;
 
@@ -291,15 +264,6 @@ exports[`Accordion in Dark Theme renders ContentOutside 1`] = `
       </svg>
     </span>
   </button>
-  <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-  >
-    <div
-      className="text-moon-14"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
 </div>
 `;
 
@@ -342,15 +306,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -389,15 +344,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -436,15 +382,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -483,15 +420,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
 ]
 `;
@@ -534,15 +462,6 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
       </svg>
     </span>
   </button>
-  <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-  >
-    <div
-      className="text-moon-14"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
 </div>
 `;
 
@@ -585,15 +504,6 @@ exports[`Accordion in Dark Theme renders Disabled 1`] = `
       </svg>
     </span>
   </button>
-  <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-  >
-    <div
-      className="text-moon-14"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
 </div>
 `;
 
@@ -636,7 +546,7 @@ exports[`Accordion in Dark Theme renders OpenDefault 1`] = `
     </span>
   </button>
   <div
-    className="overflow-hidden w-full text-bulma transition-all h-auto opacity-100 mt-2"
+    className="overflow-hidden w-full text-bulma mt-2"
   >
     <div
       className="text-moon-14"
@@ -686,15 +596,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan p-3"
@@ -733,15 +634,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
@@ -780,15 +672,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-1 ps-3 pe-1"
@@ -827,15 +710,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
 ]
 `;
@@ -858,15 +732,6 @@ exports[`Accordion in Dark Theme renders WithoutButton 1`] = `
       Test accordion
     </span>
   </button>
-  <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-  >
-    <div
-      className="text-moon-14"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
 </div>
 `;
 
@@ -909,7 +774,7 @@ exports[`Accordion in Light Theme expands Default 1`] = `
     </span>
   </button>
   <div
-    className="overflow-hidden w-full text-bulma transition-all h-auto opacity-100 mt-2"
+    className="overflow-hidden w-full text-bulma mt-2"
   >
     <div
       className="text-moon-14"
@@ -959,15 +824,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -1006,15 +862,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
 ]
 `;
@@ -1111,15 +958,6 @@ exports[`Accordion in Light Theme renders ContentHeader 1`] = `
       </svg>
     </span>
   </button>
-  <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-  >
-    <div
-      className="text-moon-14"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
 </div>
 `;
 
@@ -1161,15 +999,6 @@ exports[`Accordion in Light Theme renders ContentOutside 1`] = `
       </svg>
     </span>
   </button>
-  <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-  >
-    <div
-      className="text-moon-14"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
 </div>
 `;
 
@@ -1212,15 +1041,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -1259,15 +1079,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -1306,15 +1117,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -1353,15 +1155,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
 ]
 `;
@@ -1404,15 +1197,6 @@ exports[`Accordion in Light Theme renders Default 1`] = `
       </svg>
     </span>
   </button>
-  <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-  >
-    <div
-      className="text-moon-14"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
 </div>
 `;
 
@@ -1455,15 +1239,6 @@ exports[`Accordion in Light Theme renders Disabled 1`] = `
       </svg>
     </span>
   </button>
-  <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-  >
-    <div
-      className="text-moon-14"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
 </div>
 `;
 
@@ -1506,7 +1281,7 @@ exports[`Accordion in Light Theme renders OpenDefault 1`] = `
     </span>
   </button>
   <div
-    className="overflow-hidden w-full text-bulma transition-all h-auto opacity-100 mt-2"
+    className="overflow-hidden w-full text-bulma mt-2"
   >
     <div
       className="text-moon-14"
@@ -1556,15 +1331,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan p-3"
@@ -1603,15 +1369,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
@@ -1650,15 +1407,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-1 ps-3 pe-1"
@@ -1697,15 +1445,6 @@ Array [
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>,
 ]
 `;
@@ -1728,15 +1467,6 @@ exports[`Accordion in Light Theme renders WithoutButton 1`] = `
       Test accordion
     </span>
   </button>
-  <div
-    className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-  >
-    <div
-      className="text-moon-14"
-    >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    </div>
-  </div>
 </div>
 `;
 
@@ -1782,7 +1512,7 @@ exports[`Accordion in RTL expands Default 1`] = `
       </span>
     </button>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-auto opacity-100 mt-2"
+      className="overflow-hidden w-full text-bulma mt-2"
     >
       <div
         className="text-moon-14"
@@ -1835,15 +1565,6 @@ exports[`Accordion in RTL renders Background 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -1882,15 +1603,6 @@ exports[`Accordion in RTL renders Background 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
 </div>
 `;
@@ -1990,15 +1702,6 @@ exports[`Accordion in RTL renders ContentHeader 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
 </div>
 `;
@@ -2044,15 +1747,6 @@ exports[`Accordion in RTL renders ContentOutside 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
 </div>
 `;
@@ -2098,15 +1792,6 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -2145,15 +1830,6 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -2192,15 +1868,6 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center transparent"
@@ -2239,15 +1906,6 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
 </div>
 `;
@@ -2293,15 +1951,6 @@ exports[`Accordion in RTL renders Default 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
 </div>
 `;
@@ -2348,15 +1997,6 @@ exports[`Accordion in RTL renders Disabled 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
 </div>
 `;
@@ -2403,7 +2043,7 @@ exports[`Accordion in RTL renders OpenDefault 1`] = `
       </span>
     </button>
     <div
-      className="overflow-hidden w-full text-bulma transition-all h-auto opacity-100 mt-2"
+      className="overflow-hidden w-full text-bulma mt-2"
     >
       <div
         className="text-moon-14"
@@ -2456,15 +2096,6 @@ exports[`Accordion in RTL renders Sizes 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan p-3"
@@ -2503,15 +2134,6 @@ exports[`Accordion in RTL renders Sizes 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-2 ps-3 pe-2"
@@ -2550,15 +2172,6 @@ exports[`Accordion in RTL renders Sizes 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
   <div
     className="w-full rounded-moon-s-sm h-max flex flex-col items-center bg-gohan py-1 ps-3 pe-1"
@@ -2597,15 +2210,6 @@ exports[`Accordion in RTL renders Sizes 1`] = `
         </svg>
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
 </div>
 `;
@@ -2631,15 +2235,6 @@ exports[`Accordion in RTL renders WithoutButton 1`] = `
         Test accordion
       </span>
     </button>
-    <div
-      className="overflow-hidden w-full text-bulma transition-all h-0 opacity-0"
-    >
-      <div
-        className="text-moon-14"
-      >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </div>
-    </div>
   </div>
 </div>
 `;

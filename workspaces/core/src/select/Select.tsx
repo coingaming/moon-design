@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import classNames from '../private/utils/classnames';
@@ -11,6 +11,20 @@ export type BaseOptionType = {
   label: string;
   value: string | number;
 };
+
+type Placement =
+  | 'top-start'
+  | 'top-end'
+  | 'bottom-start'
+  | 'bottom-end'
+  | 'right-start'
+  | 'right-end'
+  | 'left-start'
+  | 'left-end'
+  | 'top'
+  | 'bottom'
+  | 'right'
+  | 'left';
 
 export type SelectSize = 'sm' | 'md' | 'lg' | 'xl';
 export type SelectProps<T extends readonly object[], BaseOptionType> = {
@@ -25,6 +39,7 @@ export type SelectProps<T extends readonly object[], BaseOptionType> = {
   formatOptionLabel?: (data?: BaseOptionType) => JSX.Element | string;
   menuWidth?: string;
   disabled?: boolean;
+  position?: Placement;
 };
 
 const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
@@ -39,18 +54,17 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
   onChange,
   formatOptionLabel,
   menuWidth,
+  position = 'bottom-start',
   ...rest
 }) => {
   const [option, setOption] = useState<BaseOptionType | undefined>(value);
-  const referenceElement = useRef(null);
-  const popperElement = useRef(null);
-  let { styles, attributes } = usePopper(
-    referenceElement.current,
-    popperElement.current,
-    {
-      placement: 'bottom-start',
-    }
-  );
+
+  const [anchorEl, setAnchorEl] = React.useState<Element | null>(null);
+  const [popperEl, setPopperEl] = React.useState<HTMLElement | null>(null);
+
+  const { styles, attributes } = usePopper(anchorEl, popperEl, {
+    placement: position,
+  });
 
   const onChangeHandler = (data?: BaseOptionType) => {
     if (onChange) {
@@ -87,7 +101,7 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
                 {label}
               </Listbox.Label>
             )}
-            <div ref={referenceElement}>
+            <div ref={setAnchorEl}>
               <InputBtn
                 size={size}
                 isError={isError}
@@ -126,9 +140,9 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
                 </div>
               </InputBtn>
             </div>
-            {options && (
+            {options && open && (
               <div
-                ref={popperElement}
+                ref={setPopperEl}
                 style={styles.popper}
                 {...attributes.popper}
                 className="z-5 absolute"

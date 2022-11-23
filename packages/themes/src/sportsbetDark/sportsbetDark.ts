@@ -9,38 +9,44 @@ const boxShadow =
 
 const color = {
   piccolo: {
-    120: '#02c054',
-    100: '#0ccf61',
-    80: '#18dc6d',
+    120: '#49B356',
+    100: '#49B356',
+    80: '#62BE6D',
   },
   hit: {
-    120: '#2d3139',
-    100: '#393e47',
-    80: '#454a54',
+    120: '#4C515A',
+    100: '#4C515A',
+    80: '#4C515A',
   },
   beerus: {
-    100: '#31373f',
+    100: '#FFFFFF1F',
   },
   goku: {
-    100: '#232a33',
-    80: '#353c44',
-    40: '#4c5159',
-    10: '#62676d',
+    100: '#2C323A',
+    80: '#2C323A',
+    40: '#2C323A',
+    10: '#2C323A',
   },
   gohan: {
-    100: '#1a212a',
-    80: '#31373f',
-    40: '#5f646a',
-    10: '#8c9095',
+    100: '#1A212A',
+    80: '#1A212A',
+    40: '#1A212A',
+    10: '#1A212A',
   },
   goten: {
-    100: '#ffffff',
+    100: '#FFFFFF',
   },
   bulma: {
-    100: '#ffffff',
+    100: '#FFFFFF',
   },
   trunks: {
-    100: '#8697a2',
+    100: '#8D9DA8',
+  },
+  ghost: {
+    100: '#49B35652',
+  },
+  popo: {
+    100: '#000000',
   },
   whis: {
     100: '#1da1f2',
@@ -49,15 +55,17 @@ const color = {
 };
 
 const colorNew = {
-  piccolo: '#0ccf61',
-  hit: '#393e47',
-  beerus: '#31373f',
-  goku: '#232a33',
-  gohan: '#1a212a',
-  bulma: '#ffffff',
-  trunks: '#8697a2',
-  goten: '#ffffff',
+  piccolo: '#49B356',
+  hit: '#4C515A',
+  beerus: '#FFFFFF1F',
+  goku: '#2C323A',
+  gohan: '#1A212A',
+  bulma: '#FFFFFF',
+  trunks: '#8D9DA8',
+  goten: '#FFFFFF',
+  ghost: '#49B35652',
   popo: '#000000',
+  whis: '#1da1f2',
 };
 
 const sportsbetDark: Theme = {
