@@ -80,7 +80,8 @@ const Example = () => {
       />
 
       <Preview
-        title="WithCustomStyles"
+        title="With custom styles"
+        description="There are two ways to add a custom style for the `selected` state: 1) with help of the render prop `selected` or 2) with help of the tailwind prefix `moon-selected: `."
         preview={<WithCustomStyles />}
         code={examples ? examples.WithCustomStyles : 'Loading'}
       />
