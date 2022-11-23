@@ -1,6 +1,6 @@
 import React, { createContext, useContext, ElementType } from 'react';
 import { Tab as HeadlesssTab } from '@headlessui/react';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../private/utils/mergeClassnames';
 
 type TabsState = {
   size?: 'sm' | 'md';
@@ -70,7 +70,7 @@ const Tab: React.FC<TabProps> = React.forwardRef(
       <HeadlesssTab
         disabled={disabled}
         className={({ selected }) =>
-          classNames(
+          mergeClassnames(
             size === 'sm' ? 'px-2 py-1 gap-1' : 'py-2 px-3 gap-2',
             'focus:outline-none py-2 px-3 gap-2',
             'text-moon-14 text-bulma font-semibold flex items-center justify-center cursor-pointer',
@@ -106,7 +106,7 @@ const Pill: React.FC<PillProps> = React.forwardRef(
       <HeadlesssTab
         disabled={disabled}
         className={({ selected }) =>
-          classNames(
+          mergeClassnames(
             size === 'sm' ? 'px-2 py-1 gap-1' : 'py-2 px-3 gap-2',
             'focus:outline-none text-moon-14 text-bulma font-semibold flex items-center justify-center transition-colors cursor-pointer',
             'hover:bg-gohan rounded-moon-i-sm',
