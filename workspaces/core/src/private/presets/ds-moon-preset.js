@@ -434,5 +434,17 @@ module.exports = {
         },
       });
     }),
+    plugin(function ({ addVariant }) {
+      for (let state of ['open', 'checked', 'selected', 'active', 'disabled']) {
+        addVariant(`moon-${state}`, [
+          `&[aria-${state}="true"]`,
+          `:where([aria-${state}="true"]) &`,
+        ]);
+        addVariant(`moon-not-${state}`, [
+          `&[aria-${state}="false"]`,
+          `:where([aria-${state}="false"]) &`,
+        ]);
+      }
+    }),
   ],
 };

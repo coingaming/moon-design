@@ -21,7 +21,7 @@ const useTabsContext = (component: string) => {
   return context;
 };
 
-//Tabs.Pill
+//Tabs
 type TabsProps = {
   size?: 'sm' | 'md';
   selectedIndex?: number;
@@ -60,36 +60,33 @@ const List: React.FC = ({ children }) => {
 type TabProps = {
   disabled?: boolean;
   as?: ElementType<any>;
-  className?: string;
+  className?: string | (({ selected }: { selected: boolean }) => string);
 };
 
-//after:-bottom-1
 const Tab: React.FC<TabProps> = React.forwardRef(
   ({ children, disabled, as, className, ...rest }, ref) => {
     const { size } = useTabsContext('Tabs.Tab');
     return (
       <HeadlesssTab
         disabled={disabled}
-        className="focus:outline-none"
+        className={({ selected }) =>
+          classNames(
+            size === 'sm' ? 'px-2 py-1 gap-1' : 'py-2 px-3 gap-2',
+            'focus:outline-none py-2 px-3 gap-2',
+            'text-moon-14 text-bulma font-semibold flex items-center justify-center cursor-pointer',
+            'relative after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo  after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100',
+            'hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo',
+            selected && 'after:origin-top-left after:scale-x-100 text-piccolo',
+            typeof className === 'function'
+              ? className({ selected: selected })
+              : className
+          )
+        }
         as={as || 'button'}
         ref={ref}
         {...rest}
       >
-        {({ selected }) => (
-          <span
-            className={classNames(
-              size === 'sm' ? 'px-2 py-1 gap-1' : 'py-2 px-3 gap-2',
-              'text-moon-14 text-bulma font-semibold flex  items-center justify-center cursor-pointer',
-              'relative after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo  after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100',
-              'hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo',
-              selected &&
-                'after:origin-top-left after:scale-x-100 text-piccolo',
-              className && className
-            )}
-          >
-            {children}
-          </span>
-        )}
+        {children}
       </HeadlesssTab>
     );
   }
@@ -99,33 +96,30 @@ const Tab: React.FC<TabProps> = React.forwardRef(
 type PillProps = {
   disabled?: boolean;
   as?: ElementType<any>;
-  className?: string;
-  bgColor?: string;
+  className?: string | (({ selected }: { selected: boolean }) => string);
 };
 
 const Pill: React.FC<PillProps> = React.forwardRef(
-  ({ children, disabled, className, bgColor, ...rest }, ref) => {
-    const { size } = useTabsContext('Tabs.Tab');
+  ({ children, disabled, className, ...rest }, ref) => {
+    const { size } = useTabsContext('Tabs.Pill');
     return (
       <HeadlesssTab
         disabled={disabled}
-        className="focus:outline-none"
+        className={({ selected }) =>
+          classNames(
+            size === 'sm' ? 'px-2 py-1 gap-1' : 'py-2 px-3 gap-2',
+            'focus:outline-none text-moon-14 text-bulma font-semibold flex items-center justify-center transition-colors cursor-pointer',
+            'hover:bg-gohan rounded-moon-i-sm',
+            selected && 'bg-gohan',
+            typeof className === 'function'
+              ? className({ selected: selected })
+              : className
+          )
+        }
         ref={ref}
         {...rest}
       >
-        {({ selected }) => (
-          <span
-            className={classNames(
-              size === 'sm' ? 'px-2 py-1 gap-1' : 'py-2 px-3 gap-2',
-              'text-moon-14 text-bulma font-semibold flex items-center justify-center transition-colors cursor-pointer',
-              'hover:bg-gohan rounded-moon-i-sm',
-              selected && (bgColor || 'bg-gohan'),
-              className && className
-            )}
-          >
-            {children}
-          </span>
-        )}
+        {children}
       </HeadlesssTab>
     );
   }

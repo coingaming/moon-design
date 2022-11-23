@@ -7,6 +7,7 @@ import Default from '../../public/examples/tabsTW/Default';
 import DefaultPills from '../../public/examples/tabsTW/DefaultPills';
 import NoPanels from '../../public/examples/tabsTW/NoPanels';
 import Sizes from '../../public/examples/tabsTW/Sizes';
+import WithCustomStyles from '../../public/examples/tabsTW/WithCustomStyles';
 import WithHandler from '../../public/examples/tabsTW/WithHandler';
 import useExamples from '../../utils/useExamples';
 
@@ -76,6 +77,12 @@ const Example = () => {
         title="WithHandler"
         preview={<WithHandler />}
         code={examples ? examples.WithHandler : 'Loading'}
+      />
+
+      <Preview
+        title="WithCustomStyles"
+        preview={<WithCustomStyles />}
+        code={examples ? examples.WithCustomStyles : 'Loading'}
       />
 
       <PropsTable
