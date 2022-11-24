@@ -4,7 +4,7 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/snackbarTW/Default';
 import Positions from '../../public/examples/snackbarTW/Positions';
-import Queue from '../../public/examples/snackbarTW/Queue';
+import SnackbarQueue from '../../public/examples/snackbarTW/SnackbarQueue';
 import Types from '../../public/examples/snackbarTW/Types';
 import Variants from '../../public/examples/snackbarTW/Variants';
 import useExamples from '../../utils/useExamples';
@@ -40,9 +40,9 @@ const Example = () => {
         code={examples ? examples.Variants : 'Loading'}
       />
         <Preview
-        title="Snackbar queue"
-        preview={<Queue />}
-        code={examples ? examples.Queue : 'Loading'}
+        title="Snackbar Queue"
+        preview={<SnackbarQueue />}
+        code={examples ? examples.SnackbarQueue : 'Loading'}
       />
       <PropsTable
         title="Snackbar props"
