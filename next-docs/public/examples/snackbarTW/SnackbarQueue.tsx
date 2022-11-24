@@ -6,15 +6,17 @@ type NotificationType = {
   type: string;
 };
 
-function useQueueState<NotificationType>(initialList: NotificationType[]): [
-  NotificationType[],
-  {
+type QueueType = [
+  list: NotificationType[],
+  options: {
     dequeue: () => NotificationType | undefined;
     enqueue: (item: NotificationType) => number;
     length: number;
     peek: () => NotificationType | undefined;
   }
-] {
+];
+
+const useQueueState = (initialList: NotificationType[]): QueueType => {
   const [list, setList] = useState<NotificationType[]>([...initialList]);
   const enqueue = useCallback(
     (item: NotificationType) => {
@@ -49,22 +51,21 @@ function useQueueState<NotificationType>(initialList: NotificationType[]): [
   };
 
   return [list, options];
-}
+};
 
-const delay = (delayMs: number) => new Promise ((res) => {
-  setTimeout(() => {
-    res()
-  }, delayMs)
-})
+const delay = (delayMs: number) =>
+  new Promise<void>((resolve) => {
+    setTimeout(() => {
+      resolve();
+    }, delayMs);
+  });
 
 const Example = () => {
-  const [list, options] = useQueueState(
-    [] as NotificationType[]
-  );
+  const [list, options] = useQueueState([] as NotificationType[]);
   const [isAnimated, setIsAnimated] = useState(false);
   const onOpenChange = async () => {
     setIsAnimated(true);
-    await delay(100)
+    await delay(100);
     setIsAnimated(false);
     options.dequeue();
   };
@@ -74,7 +75,7 @@ const Example = () => {
     },
     [list]
   );
-  const isOpen = options?.length && !isAnimated
+  const isOpen = options?.length && !isAnimated;
   return (
     <div>
       <Button
