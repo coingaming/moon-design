@@ -6,52 +6,82 @@ type NotificationType = {
   type: string;
 };
 
-class Queue {
-  elements: Record<string, NotificationType>;
-  head: number;
-  tail: number;
-  constructor() {
-    this.elements = {};
-    this.head = 0;
-    this.tail = 0;
+function useQueueState<NotificationType>(initialList: NotificationType[]): [
+  NotificationType[],
+  {
+    dequeue: () => NotificationType;
+    enqueue: (item: NotificationType) => number;
+    length: number;
+    peek: () => NotificationType;
   }
-  enqueue(element: NotificationType) {
-    this.elements[this.tail] = element;
-    this.tail++;
-  }
-  dequeue() {
-    const item = this.elements[this.head];
-    delete this.elements[this.head];
-    this.head++;
-    return item;
-  }
-  get length() { 
-    return this.tail - this.head;
-  }
+] {
+  const [list, setList] = useState<NotificationType[]>([...initialList]);
+  const enqueue = useCallback(
+    (item: NortificationType) => {
+      const newList = [...list, item];
+      setList(newList);
+      return newList.length;
+    },
+    [list]
+  );
+
+  const dequeue = useCallback(() => {
+    if (list.length > 0) {
+      const firstItem = list[0];
+      setList([...list.slice(1)]);
+      return firstItem;
+    }
+    return undefined;
+  }, [list]);
+
+  const peek = useCallback(() => {
+    if (list.length > 0) {
+      return list[0];
+    }
+    return undefined;
+  }, [list]);
+
+  const notifications = {
+    dequeue,
+    enqueue,
+    length: list.length,
+    peek,
+  };
+
+  return [list, notifications];
 }
-const notifications = new Queue();
+
  
 const Example = () => {
-  const [snackbar, setSnackbar] = useState({message: '', type: ''});
-
-  const snackbarNotification = () => {
-    setNotifications(notifications.dequeue());
+  const [notificationList, notifications] = useQueueState([]);
+  const [isOpen, setIsOpen] = useState(false)
+  const onOpenChange = () => {
+  setIsOpen(false) 
+  if(notifications.length > 1){
+    setTimeout(() => {
+      setIsOpen(true)
+      notifications.dequeue()
+    }, 400);
+  }else {
+    notifications.dequeue()
+  } 
   }
-
   const openSnackbarHandler = useCallback(
-    (notification: NotificationType) => {  
-      setSnackbar(notifications.enqueue(notification));
+    (notification: NotificationType) => {
+      setIsOpen(true)
+      notifications.enqueue(notification)
     },
-    [snackbar]
+    [notificationList]
   );
 
   return (
     <div>
-      <Button onClick={() => openSnackbarHandler({message: 'Something went wrong ...', type: 'info'})}>
-        Default Snackbar
+      <Button onClick={() => openSnackbarHandler({message: `'Something went wrong ...' + ${Math.random()}`, type: 'info'})}>
+        Queue Snackbar
       </Button>
-      <Snackbar isOpen={snackbar?.type === 'info'} setSnackbar={snackbarNotification}>
-        <Snackbar.Message>{snackbar?.message}</Snackbar.Message>
+      <Snackbar isOpen={isOpen} onOpenChange={onOpenChange}>
+        <Snackbar.Message>{notifications?.peek()?.message}</Snackbar.Message>
+        <Snackbar.Close />
       </Snackbar>
     </div>
   );
