@@ -20,7 +20,7 @@ const Example = () => {
       <Button onClick={() => openSnackbarHandler('default')}>
         Default Snackbar
       </Button>
-      <Snackbar isOpen={snackbar === 'default'} setSnackbar={setSnackbar}>
+      <Snackbar isOpen={snackbar === 'default'} onOpenChange={setSnackbar}>
         <Snackbar.Message>Something went wrong ...</Snackbar.Message>
       </Snackbar>
     </div>
