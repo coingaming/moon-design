@@ -9,10 +9,10 @@ type NotificationType = {
 function useQueueState<NotificationType>(initialList: NotificationType[]): [
   NotificationType[],
   {
-    dequeue: () => NotificationType;
+    dequeue: () => NotificationType | undefined;
     enqueue: (item: NotificationType) => number;
     length: number;
-    peek: () => NotificationType;
+    peek: () => NotificationType | undefined;
   }
 ] {
   const [list, setList] = useState<NotificationType[]>([...initialList]);
@@ -30,8 +30,8 @@ function useQueueState<NotificationType>(initialList: NotificationType[]): [
       const firstItem = list[0];
       setList([...list.slice(1)]);
       return firstItem;
-    }
-    return undefined;
+    } 
+    return undefined
   }, [list]);
 
   const peek = useCallback(() => {
@@ -53,7 +53,7 @@ function useQueueState<NotificationType>(initialList: NotificationType[]): [
 
  
 const Example = () => {
-  const [notificationList, notifications] = useQueueState([]);
+  const [notificationList, notifications] = useQueueState([] as NotificationType[]);
   const [isOpen, setIsOpen] = useState(false)
   const onOpenChange = () => {
   setIsOpen(false) 
