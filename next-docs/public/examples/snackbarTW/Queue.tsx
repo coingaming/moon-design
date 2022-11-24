@@ -76,7 +76,7 @@ const Example = () => {
 
   return (
     <div>
-      <Button onClick={() => openSnackbarHandler({message: `'Something went wrong ...' + ${Math.random()}`, type: 'info'})}>
+      <Button onClick={() => openSnackbarHandler({message: `Number ${notifications.length + 1} Snackbar`, type: 'info'})}>
         Queue Snackbar
       </Button>
       <Snackbar isOpen={isOpen} onOpenChange={onOpenChange}>
