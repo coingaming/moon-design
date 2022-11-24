@@ -17,7 +17,7 @@ function useQueueState<NotificationType>(initialList: NotificationType[]): [
 ] {
   const [list, setList] = useState<NotificationType[]>([...initialList]);
   const enqueue = useCallback(
-    (item: NortificationType) => {
+    (item: NotificationType) => {
       const newList = [...list, item];
       setList(newList);
       return newList.length;
