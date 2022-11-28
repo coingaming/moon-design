@@ -23,7 +23,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'success'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="top-center"
           autoClose={6000}
         >
@@ -44,7 +44,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'info'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="top-left"
           autoClose={6000}
         >
@@ -65,7 +65,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'error'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="top-right"
           autoClose={6000}
         >
@@ -86,7 +86,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'warning'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="bottom-center"
           autoClose={6000}
         >

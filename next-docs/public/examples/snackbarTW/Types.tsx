@@ -24,7 +24,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'mutliline'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="bottom-center"
           autoClose={6000}
         >
@@ -42,7 +42,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'multiline-close'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="top-right"
           autoClose={6000}
         >
@@ -61,7 +61,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'multiline-icon'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="top-left"
           autoClose={6000}
         >
@@ -82,7 +82,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'multiline-icon-close'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="top-center"
           autoClose={6000}
         >
@@ -104,7 +104,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'singleline-icon'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="bottom-left"
           autoClose={6000}
         >
@@ -120,7 +120,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'singleline-icon-close'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="bottom-right"
           autoClose={6000}
         >

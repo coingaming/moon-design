@@ -22,7 +22,7 @@ type SnackbarProps = {
   ref?: null;
   className?: string;
   isOpen: boolean;
-  setSnackbar: () => void;
+  onOpenChange: () => void;
 };
 
 type IconProps = {
@@ -51,7 +51,7 @@ const SnackbarRoot: React.FC<SnackbarProps> = ({
   ref,
   className,
   isOpen,
-  setSnackbar,
+  onOpenChange,
   ...rest
 }) => {
   return (
@@ -61,7 +61,7 @@ const SnackbarRoot: React.FC<SnackbarProps> = ({
     >
       <ToastPrimitive.Root
         open={isOpen}
-        onOpenChange={setSnackbar}
+        onOpenChange={onOpenChange}
         ref={ref}
         className={classNames(
           'z-50 fixed right-4 left-4 w-auto shadow-lg rounded-xl bg-goku px-4 py-6 bg-goku text-left flex items-center transition gap-2 medium',
