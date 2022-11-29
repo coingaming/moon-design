@@ -27,7 +27,7 @@ const Example = () => {
 
         <Dropdown.Options>
           {people.map((person, index) => (
-            <Dropdown.Option value={person} index={index} key={index}>
+            <Dropdown.Option value={person} key={index}>
               {({
                 selected,
                 active,

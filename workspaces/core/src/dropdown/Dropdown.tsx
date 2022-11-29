@@ -136,7 +136,11 @@ type OptionsProps = {
   menuWidth?: string;
 };
 
-const Options: React.FC<OptionsProps> = ({ children, menuWidth, ...rest }) => {
+const Options: React.FC<WithChildren<OptionsProps>> = ({
+  children,
+  menuWidth,
+  ...rest
+}) => {
   const { pooper } = useDropdownContext('Dropdown.Options');
   return (
     <div
@@ -162,16 +166,15 @@ const Options: React.FC<OptionsProps> = ({ children, menuWidth, ...rest }) => {
 //Dropdown.Option
 type OptionProps = {
   value?: unknown;
-  index?: number;
   children: (data: {
     selected?: boolean;
     active?: boolean;
   }) => React.ReactElement;
 };
 
-const Option: React.FC<OptionProps> = ({ children, value, index }) => {
+const Option: React.FC<OptionProps> = ({ children, value }) => {
   return (
-    <Listbox.Option as="span" key={index} value={value}>
+    <Listbox.Option as="span" value={value}>
       {({ selected, active }) =>
         typeof children === 'function'
           ? children({ selected, active })
@@ -181,6 +184,7 @@ const Option: React.FC<OptionProps> = ({ children, value, index }) => {
   );
 };
 
+//Dropdown.Select
 type SelectProps = {
   label?: JSX.Element | string;
   placeholder?: JSX.Element | string;
@@ -189,8 +193,7 @@ type SelectProps = {
   innerLabel?: boolean;
 };
 
-//Dropdown.Select
-const Select: React.FC<SelectProps> = ({
+const Select: React.FC<WithChildren<SelectProps>> = ({
   open,
   value,
   label,
@@ -263,7 +266,7 @@ const Select: React.FC<SelectProps> = ({
 };
 
 //Dropdown.Trigger
-const Trigger: React.FC = ({ children }) => {
+const Trigger: React.FC<{ children?: ReactNode }> = ({ children }) => {
   const { pooper } = useDropdownContext('Dropdown.Trigger');
   return (
     <div ref={pooper?.referenceElement}>
@@ -275,7 +278,7 @@ const Trigger: React.FC = ({ children }) => {
 };
 
 //Dropdown.Hint
-const Hint: React.FC = ({ children }) => {
+const Hint: React.FC<{ children?: ReactNode }> = ({ children }) => {
   const { isError, disabled } = useDropdownContext('Dropdown.Input');
   return (
     <p
