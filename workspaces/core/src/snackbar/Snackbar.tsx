@@ -21,7 +21,7 @@ type Props = {
 };
 
 const SnackbarRoot: React.FC<Props> = ({
-  autoClose = 60000,
+  autoClose,
   position = 'top-right',
   children,
   ref,

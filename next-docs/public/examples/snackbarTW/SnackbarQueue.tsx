@@ -79,6 +79,7 @@ const Example = () => {
   return (
     <div>
       <Button
+        variant="secondary"
         onClick={() =>
           openSnackbarHandler({
             message: `Number ${options.length + 1} Snackbar`,
