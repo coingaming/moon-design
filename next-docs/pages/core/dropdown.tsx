@@ -25,19 +25,15 @@ const Example = () => {
           Sidebars, Drawers, Dialogs etc.
         </p>
       </ComponentPageDescription>
-      <ComponentAnatomy>{`
-  <Dropdown>
-    <Dropdown.Trigger>
-      ...
-    </Dropdown.Trigger>
-    <Dropdown.Options>
-      <Dropdown.Option>
-        ...
-      </Dropdown.Option>
-    </Dropdown.Options>
-    <Dropdown.Hint>...</Dropdown.Hint>
-  </Dropdown>
-      `}</ComponentAnatomy>
+      <ComponentAnatomy>
+        {`<Dropdown>
+  <Dropdown.Trigger>...</Dropdown.Trigger>
+  <Dropdown.Options>
+    <Dropdown.Option>...</Dropdown.Option>
+  </Dropdown.Options>
+  <Dropdown.Hint>...</Dropdown.Hint>
+</Dropdown>`}
+      </ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
@@ -53,19 +49,15 @@ const Example = () => {
         preview={<OptionsVariants />}
         code={examples ? examples.OptionsVariants : 'Loading'}
       />
-      <ComponentAnatomy>{`
-  <Dropdown>
-    <Dropdown.Select>
-      ...
-    </Dropdown.Select>
-    <Dropdown.Options>
-      <Dropdown.Option>
-        ...
-      </Dropdown.Option>
-    </Dropdown.Options>
-    <Dropdown.Hint>...</Dropdown.Hint>
-  </Dropdown>
-      `}</ComponentAnatomy>
+      <ComponentAnatomy>
+        {`<Dropdown>
+  <Dropdown.Select>...</Dropdown.Select>
+  <Dropdown.Options>
+    <Dropdown.Option>...</Dropdown.Option>
+  </Dropdown.Options>
+  <Dropdown.Hint>...</Dropdown.Hint>
+</Dropdown>`}
+      </ComponentAnatomy>
       <Preview
         title="Select"
         preview={<Select />}

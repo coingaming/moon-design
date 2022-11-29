@@ -26,35 +26,31 @@ const Example = () => {
           different genres of music, or different themes of documents.
         </p>
       </ComponentPageDescription>
-      <ComponentAnatomy>{`
-  <Tabs>
-    <Tabs.List>
-      <Tabs.Tab>...</Tabs.Tab>
-      <Tabs.Tab>...</Tabs.Tab>
-    </Tabs.List>
-    <Tabs.Panels>
-      <Tabs.Panel>...</Tabs.Panel>
-      <Tabs.Panel>...</Tabs.Panel>
-    </Tabs.Panels>
-  </Tabs>
-      `}</ComponentAnatomy>
+      <ComponentAnatomy>
+        {`<Tabs>
+  <Tabs.List>
+    <Tabs.Tab>...</Tabs.Tab>
+  </Tabs.List>
+  <Tabs.Panels>
+    <Tabs.Panel>...</Tabs.Panel>
+  </Tabs.Panels>
+</Tabs>`}
+      </ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
-      <ComponentAnatomy>{`
-  <Tabs>
-    <Tabs.List>
-      <Tabs.Pill>...</Tabs.Pill>
-      <Tabs.Pill>...</Tabs.Pill>
-    </Tabs.List>
-    <Tabs.Panels>
-      <Tabs.Panel>...</Tabs.Panel>
-      <Tabs.Panel>...</Tabs.Panel>
-    </Tabs.Panels>
-  </Tabs>
-      `}</ComponentAnatomy>
+      <ComponentAnatomy>
+        {`<Tabs>
+  <Tabs.List>
+    <Tabs.Pill>...</Tabs.Pill>
+  </Tabs.List>
+  <Tabs.Panels>
+    <Tabs.Panel>...</Tabs.Panel>
+  </Tabs.Panels>
+</Tabs>`}
+      </ComponentAnatomy>
       <Preview
         title="Default"
         preview={<DefaultPills />}

@@ -1,85 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Snackbar in Dark Theme renders Default 1`] = `
-<div>
-  <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    type="button"
-  >
-    Default Snackbar
-    <span
-      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-    />
-  </button>
-  <div
-    aria-label="Notifications (F8)"
-    role="region"
-    style={
-      Object {
-        "pointerEvents": undefined,
-      }
-    }
-    tabIndex={-1}
-  >
-    <span
-      aria-hidden={true}
-      onFocus={[Function]}
-      style={
-        Object {
-          "border": 0,
-          "clip": "rect(0, 0, 0, 0)",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "fixed",
-          "whiteSpace": "nowrap",
-          "width": 1,
-          "wordWrap": "normal",
-        }
-      }
-      tabIndex={0}
-    />
-    <ol
-      tabIndex={-1}
-    />
-    <span
-      aria-hidden={true}
-      onFocus={[Function]}
-      style={
-        Object {
-          "border": 0,
-          "clip": "rect(0, 0, 0, 0)",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "fixed",
-          "whiteSpace": "nowrap",
-          "width": 1,
-          "wordWrap": "normal",
-        }
-      }
-      tabIndex={0}
-    />
-  </div>
-</div>
-`;
-
-exports[`Snackbar in Dark Theme renders Positions 1`] = `
+exports[`Snackbar in Dark Theme renders AutoClose 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Top Right Snackbar
+      Close after 1 sec
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -139,125 +70,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Top Left Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>,
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Top Center Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>,
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Bottom Right Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>,
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Bottom Left Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>,
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Bottom Center Snackbar
+      Close after 3 sec
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -280,11 +99,263 @@ Array [
 ]
 `;
 
-exports[`Snackbar in Dark Theme renders Types 1`] = `
+exports[`Snackbar in Dark Theme renders Customization 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Border radius
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Width
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always light
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always dark
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Fonts
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Dark Theme renders Default 1`] = `
+<div>
+  <button
+    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    Default
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+  <div
+    aria-label="Notifications (F8)"
+    role="region"
+    style={
+      Object {
+        "pointerEvents": undefined,
+      }
+    }
+    tabIndex={-1}
+  >
+    <span
+      aria-hidden={true}
+      onFocus={[Function]}
+      style={
+        Object {
+          "border": 0,
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "whiteSpace": "nowrap",
+          "width": 1,
+          "wordWrap": "normal",
+        }
+      }
+      tabIndex={0}
+    />
+    <ol
+      tabIndex={-1}
+    />
+    <span
+      aria-hidden={true}
+      onFocus={[Function]}
+      style={
+        Object {
+          "border": 0,
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "whiteSpace": "nowrap",
+          "width": 1,
+          "wordWrap": "normal",
+        }
+      }
+      tabIndex={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`Snackbar in Dark Theme renders Options 1`] = `
+Array [
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -350,13 +421,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Multi Line With Close
+      With Header
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -378,13 +449,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Multi Line With Icon
+      With Close
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -406,13 +477,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Multi Line With Icon And Close
+      With Icon
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -434,13 +505,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Single Line With Icon
+      Multi Line with Icon
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -462,13 +533,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Single Line with Icon and Close
+      With Close and Icon
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -491,17 +562,17 @@ Array [
 ]
 `;
 
-exports[`Snackbar in Dark Theme renders Variants 1`] = `
+exports[`Snackbar in Dark Theme renders Positions 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Success Snackbar
+      Top left
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -561,13 +632,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Info Snackbar
+      Top center
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -589,13 +660,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Error Snackbar
+      Top right
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -617,13 +688,478 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Warning Snackbar
+      Bottom left
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom center
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom right
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Dark Theme renders Semantics 1`] = `
+Array [
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Success
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Warning
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Error
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Light Theme renders AutoClose 1`] = `
+Array [
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Close after 1 sec
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Close after 3 sec
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Light Theme renders Customization 1`] = `
+Array [
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Border radius
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Width
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always light
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always dark
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Fonts
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -649,13 +1185,13 @@ Array [
 exports[`Snackbar in Light Theme renders Default 1`] = `
 <div>
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    Default Snackbar
+    Default
     <span
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
@@ -715,222 +1251,11 @@ exports[`Snackbar in Light Theme renders Default 1`] = `
 </div>
 `;
 
-exports[`Snackbar in Light Theme renders Positions 1`] = `
+exports[`Snackbar in Light Theme renders Options 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Top Right Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": undefined,
-        }
-      }
-      tabIndex={-1}
-    >
-      <span
-        aria-hidden={true}
-        onFocus={[Function]}
-        style={
-          Object {
-            "border": 0,
-            "clip": "rect(0, 0, 0, 0)",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "fixed",
-            "whiteSpace": "nowrap",
-            "width": 1,
-            "wordWrap": "normal",
-          }
-        }
-        tabIndex={0}
-      />
-      <ol
-        tabIndex={-1}
-      />
-      <span
-        aria-hidden={true}
-        onFocus={[Function]}
-        style={
-          Object {
-            "border": 0,
-            "clip": "rect(0, 0, 0, 0)",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "fixed",
-            "whiteSpace": "nowrap",
-            "width": 1,
-            "wordWrap": "normal",
-          }
-        }
-        tabIndex={0}
-      />
-    </div>
-  </div>,
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Top Left Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>,
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Top Center Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>,
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Bottom Right Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>,
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Bottom Left Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>,
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Bottom Center Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>,
-]
-`;
-
-exports[`Snackbar in Light Theme renders Types 1`] = `
-Array [
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -996,13 +1321,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Multi Line With Close
+      With Header
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1024,13 +1349,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Multi Line With Icon
+      With Close
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1052,13 +1377,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Multi Line With Icon And Close
+      With Icon
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1080,13 +1405,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Single Line With Icon
+      Multi Line with Icon
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1108,13 +1433,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Single Line with Icon and Close
+      With Close and Icon
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1137,17 +1462,17 @@ Array [
 ]
 `;
 
-exports[`Snackbar in Light Theme renders Variants 1`] = `
+exports[`Snackbar in Light Theme renders Positions 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Success Snackbar
+      Top left
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1207,13 +1532,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Info Snackbar
+      Top center
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1235,13 +1560,13 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Error Snackbar
+      Top right
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1263,13 +1588,69 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Warning Snackbar
+      Bottom left
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom center
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom right
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1290,6 +1671,419 @@ Array [
     </div>
   </div>,
 ]
+`;
+
+exports[`Snackbar in Light Theme renders Semantics 1`] = `
+Array [
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Success
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Warning
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Error
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in RTL renders AutoClose 1`] = `
+<div
+  dir="rtl"
+>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Close after 1 sec
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Close after 3 sec
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snackbar in RTL renders Customization 1`] = `
+<div
+  dir="rtl"
+>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Border radius
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Width
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always light
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always dark
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Fonts
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+</div>
 `;
 
 exports[`Snackbar in RTL renders Default 1`] = `
@@ -1298,13 +2092,13 @@ exports[`Snackbar in RTL renders Default 1`] = `
 >
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Default Snackbar
+      Default
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1359,6 +2153,219 @@ exports[`Snackbar in RTL renders Default 1`] = `
           }
         }
         tabIndex={0}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snackbar in RTL renders Options 1`] = `
+<div
+  dir="rtl"
+>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Multi Line
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Header
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Close
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Icon
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Multi Line with Icon
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Close and Icon
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
       />
     </div>
   </div>
@@ -1371,13 +2378,13 @@ exports[`Snackbar in RTL renders Positions 1`] = `
 >
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Top Right Snackbar
+      Top left
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1437,13 +2444,13 @@ exports[`Snackbar in RTL renders Positions 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Top Left Snackbar
+      Top center
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1465,13 +2472,13 @@ exports[`Snackbar in RTL renders Positions 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Top Center Snackbar
+      Top right
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1493,13 +2500,13 @@ exports[`Snackbar in RTL renders Positions 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Bottom Right Snackbar
+      Bottom left
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1521,13 +2528,13 @@ exports[`Snackbar in RTL renders Positions 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Bottom Left Snackbar
+      Bottom center
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1549,13 +2556,13 @@ exports[`Snackbar in RTL renders Positions 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Bottom Center Snackbar
+      Bottom right
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1578,19 +2585,19 @@ exports[`Snackbar in RTL renders Positions 1`] = `
 </div>
 `;
 
-exports[`Snackbar in RTL renders Types 1`] = `
+exports[`Snackbar in RTL renders Semantics 1`] = `
 <div
   dir="rtl"
 >
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Multi Line
+      Success
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1650,13 +2657,13 @@ exports[`Snackbar in RTL renders Types 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Multi Line With Close
+      Warning
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
@@ -1678,254 +2685,13 @@ exports[`Snackbar in RTL renders Types 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
     >
-      Multi Line With Icon
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Multi Line With Icon And Close
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Single Line With Icon
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Single Line with Icon and Close
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Snackbar in RTL renders Variants 1`] = `
-<div
-  dir="rtl"
->
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Success Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": undefined,
-        }
-      }
-      tabIndex={-1}
-    >
-      <span
-        aria-hidden={true}
-        onFocus={[Function]}
-        style={
-          Object {
-            "border": 0,
-            "clip": "rect(0, 0, 0, 0)",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "fixed",
-            "whiteSpace": "nowrap",
-            "width": 1,
-            "wordWrap": "normal",
-          }
-        }
-        tabIndex={0}
-      />
-      <ol
-        tabIndex={-1}
-      />
-      <span
-        aria-hidden={true}
-        onFocus={[Function]}
-        style={
-          Object {
-            "border": 0,
-            "clip": "rect(0, 0, 0, 0)",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "fixed",
-            "whiteSpace": "nowrap",
-            "width": 1,
-            "wordWrap": "normal",
-          }
-        }
-        tabIndex={0}
-      />
-    </div>
-  </div>
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Info Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Error Snackbar
-      <span
-        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-      />
-    </button>
-    <div
-      aria-label="Notifications (F8)"
-      role="region"
-      style={
-        Object {
-          "pointerEvents": "none",
-        }
-      }
-      tabIndex={-1}
-    >
-      <ol
-        tabIndex={-1}
-      />
-    </div>
-  </div>
-  <div>
-    <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-      onClick={[Function]}
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      type="button"
-    >
-      Warning Snackbar
+      Error
       <span
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />

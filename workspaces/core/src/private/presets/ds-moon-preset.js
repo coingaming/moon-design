@@ -181,8 +181,16 @@ module.exports = {
           '0%': { transform: `translateX(calc(100% + 1rem))` },
           '100%': { transform: 'translateX(0)' },
         },
-        'toast-slide-in-bottom': {
+        'toast-slide-in-left': {
+          '0%': { transform: `translateX(calc(-100% + 1rem))` },
+          '100%': { transform: 'translateX(0)' },
+        },
+        'toast-slide-in-down': {
           '0%': { transform: `translateY(calc(100% + 1rem))` },
+          '100%': { transform: 'translateY(0)' },
+        },
+        'toast-slide-in-up': {
+          '0%': { transform: `translateY(calc(-100% + 1rem))` },
           '100%': { transform: 'translateY(0)' },
         },
         'toast-swipe-out': {
@@ -197,8 +205,12 @@ module.exports = {
         'toast-hide': 'toast-hide 300ms ease-in forwards',
         'toast-slide-in-right':
           'toast-slide-in-right 300ms cubic-bezier(0.16, 1, 0.3, 1)',
-        'toast-slide-in-bottom':
-          'toast-slide-in-bottom 300ms cubic-bezier(0.16, 1, 0.3, 1)',
+        'toast-slide-in-left':
+          'toast-slide-in-left 300ms cubic-bezier(0.16, 1, 0.3, 1)',
+        'toast-slide-in-down':
+          'toast-slide-in-down 300ms cubic-bezier(0.16, 1, 0.3, 1)',
+        'toast-slide-in-up':
+          'toast-slide-in-up 300ms cubic-bezier(0.16, 1, 0.3, 1)',
         'toast-swipe-out': 'toast-swipe-out 100ms ease-out forwards',
       },
       colors: {

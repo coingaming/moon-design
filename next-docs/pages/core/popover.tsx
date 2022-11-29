@@ -19,16 +19,12 @@ const Example = () => {
           navigation menus, mobile menus and flyout menus
         </p>
       </ComponentPageDescription>
-      <ComponentAnatomy>{`
-  <Popover>
-    <Popover.Trigger>
-      ...
-    </Popover.Trigger>
-    <Popover.Panel>
-      ...
-    </Popover.Panel>
-  </Popover>
-      `}</ComponentAnatomy>
+      <ComponentAnatomy>
+        {`<Popover>
+  <Popover.Trigger>...</Popover.Trigger>
+  <Popover.Panel>...</Popover.Panel>
+</Popover>`}
+      </ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
