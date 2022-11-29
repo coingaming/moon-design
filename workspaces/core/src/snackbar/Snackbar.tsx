@@ -15,7 +15,7 @@ type Props = {
   ref?: null;
   className?: string;
   isOpen: boolean;
-  setSnackbar: () => void;
+  onOpenChange: () => void;
   children?: React.ReactNode;
   ariaLabel?: string;
 };
@@ -27,12 +27,12 @@ const SnackbarRoot: React.FC<Props> = ({
   ref,
   className,
   isOpen,
-  setSnackbar,
+  onOpenChange,
 }) => (
   <ToastPrimitive.Provider swipeDirection="right" duration={autoClose}>
     <ToastPrimitive.Root
       open={isOpen}
-      onOpenChange={setSnackbar}
+      onOpenChange={onOpenChange}
       ref={ref}
       aria-live="polite"
       className={mergeClassnames(

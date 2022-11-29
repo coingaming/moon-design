@@ -9,6 +9,7 @@ import Default from '../../public/examples/snackbarTW/Default';
 import Options from '../../public/examples/snackbarTW/Options';
 import Positions from '../../public/examples/snackbarTW/Positions';
 import Semantics from '../../public/examples/snackbarTW/Semantics';
+import SnackbarQueue from '../../public/examples/snackbarTW/SnackbarQueue';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -78,6 +79,11 @@ const Example = () => {
         preview={<Customization />}
         code={examples ? examples.Customization : 'Loading'}
       />
+      <Preview
+        title="Snackbar Queue"
+        preview={<SnackbarQueue />}
+        code={examples ? examples.SnackbarQueue : 'Loading'}
+      />
       <PropsTable
         title="Snackbar props"
         data={[
@@ -117,7 +123,7 @@ const Example = () => {
             description: 'Position of snackbar',
           },
           {
-            name: 'setSnackbar',
+            name: 'onOpenChange',
             type: '() => void',
             required: true,
             default: '-',

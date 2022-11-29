@@ -29,7 +29,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'top-left'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="top-left"
         >
           <Snackbar.Message>
@@ -46,7 +46,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'top-center'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="top-center"
         >
           <Snackbar.Message>
@@ -61,7 +61,7 @@ const Example = () => {
         >
           Top right
         </Button>
-        <Snackbar isOpen={snackbar === 'top-right'} setSnackbar={setSnackbar}>
+        <Snackbar isOpen={snackbar === 'top-right'} onOpenChange={setSnackbar}>
           <Snackbar.Message>
             Snackbar at top-right screen corner
           </Snackbar.Message>
@@ -76,7 +76,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'bottom-left'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="bottom-left"
         >
           <Snackbar.Message>
@@ -93,7 +93,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'bottom-center'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="bottom-center"
         >
           <Snackbar.Message>
@@ -110,7 +110,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'bottom-right'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="bottom-right"
         >
           <Snackbar.Message>

@@ -26,7 +26,7 @@ const Example = () => {
       >
         Default
       </Button>
-      <Snackbar isOpen={snackbar === 'default'} setSnackbar={setSnackbar}>
+      <Snackbar isOpen={snackbar === 'default'} onOpenChange={setSnackbar}>
         <Snackbar.Message>Snackbar message</Snackbar.Message>
       </Snackbar>
     </div>
