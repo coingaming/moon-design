@@ -25,11 +25,29 @@ Array [
       type="button"
     >
       <span
-        className="flex w-6 h-6 justify-center items-center"
+        className="flex w-6 h-6 justify-center items-center relative"
       >
         <span
-          className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
-        />
+          aria-checked={false}
+          aria-hidden="true"
+          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+        >
+          <svg
+            className="transition-opacity opacity-0"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 14.941L13.667 22 25 10"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </span>
       </span>
       <span
         className="block grow text-start text-bulma overflow-hidden"
@@ -53,11 +71,29 @@ Array [
         Your value
       </span>
       <span
-        className="flex w-6 h-6 justify-center items-center"
+        className="flex w-6 h-6 justify-center items-center relative"
       >
         <span
-          className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
-        />
+          aria-checked={false}
+          aria-hidden="true"
+          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+        >
+          <svg
+            className="transition-opacity opacity-0"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 14.941L13.667 22 25 10"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </span>
       </span>
     </button>
   </div>,
@@ -74,80 +110,62 @@ exports[`Loader in Dark Theme renders Default 1`] = `
 `;
 
 exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
-Array [
+<div
+  className="flex items-start flex-wrap justify-around gap-2 w-full"
+>
   <div
     className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
   >
-    <button
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Vision
-    </button>
-    <button
+    </a>
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Getting started
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
-      type="button"
+    </a>
+    <a
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      href="/"
     >
       How to contribute?
-    </button>
-    <button
+    </a>
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Colours palette
-    </button>
-    <button
+    </a>
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Tokens
-    </button>
-    <button
+    </a>
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Transform SVG
-    </button>
-    <button
+    </a>
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Manifest
-    </button>
+    </a>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+      onClick={[Function]}
       type="button"
     >
       Tailwind
       <svg
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 20.5l9-9 9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
+        className="w-6 rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -161,117 +179,62 @@ Array [
           strokeLinejoin="round"
         />
       </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Accordion
-      </span>
     </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+    <div
+      className="pl-6"
     >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
       >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+           Accordion
+        </span>
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
       >
-         Avatar
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+           Avatar
+        </span>
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
       >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+           Breadcrumb
+        </span>
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
       >
-         Breadcrumb
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+           Button
+        </span>
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
       >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Button
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Checkbox
-      </span>
-    </button>
-  </div>,
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+           Checkbox
+        </span>
+      </a>
+    </div>
+  </div>
   <div
     className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
   >
@@ -299,25 +262,10 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+      onClick={[Function]}
       type="button"
     >
-      <svg
-        className="w-6 "
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 20.5l9-9 9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
       <span
         className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
       >
@@ -332,14 +280,8 @@ Array [
       >
          Customer...
       </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
       <svg
-        className="w-6 "
-        color="transparent"
+        className="w-6 rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -353,78 +295,53 @@ Array [
           strokeLinejoin="round"
         />
       </svg>
-      <span
-        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+    </button>
+    <div
+      className="pl-10"
+    >
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        type="button"
       >
-        <p
-          className="leading-4 font-semibold text-moon-10"
+        <span
+          className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
-          S
-        </p>
-      </span>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-        Sub nested item
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
-      >
-        <p
-          className="leading-4 font-semibold text-moon-10"
+          <p
+            className="leading-4 font-semibold text-moon-10"
+          >
+            S
+          </p>
+        </span>
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
         >
-          S
-        </p>
-      </span>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
+          Sub nested item
+        </span>
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        type="button"
       >
-        Sub nested item
-      </span>
-    </button>
+        <span
+          className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+        >
+          <p
+            className="leading-4 font-semibold text-moon-10"
+          >
+            S
+          </p>
+        </span>
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+          Sub nested item
+        </span>
+      </button>
+    </div>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
-      <svg
-        className="w-6 "
-        color="trunks"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
       <span
         className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
       >
@@ -441,26 +358,9 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
-      <svg
-        className="w-6 "
-        color="trunks"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
       <span
         className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
       >
@@ -477,26 +377,9 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
-      <svg
-        className="w-6 "
-        color="trunks"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
       <span
         className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
       >
@@ -539,26 +422,9 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
-        <svg
-          className="w-6 "
-          color="trunks"
-          fill="none"
-          height="1em"
-          onClick={[Function]}
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M25 11.5l-9 9-9-9"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
@@ -575,26 +441,9 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
-        <svg
-          className="w-6 "
-          color="trunks"
-          fill="none"
-          height="1em"
-          onClick={[Function]}
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M25 11.5l-9 9-9-9"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
@@ -611,26 +460,9 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
-        <svg
-          className="w-6 "
-          color="trunks"
-          fill="none"
-          height="1em"
-          onClick={[Function]}
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M25 11.5l-9 9-9-9"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
@@ -674,26 +506,9 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
-        <svg
-          className="w-6 "
-          color="trunks"
-          fill="none"
-          height="1em"
-          onClick={[Function]}
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M25 11.5l-9 9-9-9"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
@@ -710,8 +525,8 @@ Array [
         </span>
       </button>
     </div>
-  </div>,
-]
+  </div>
+</div>
 `;
 
 exports[`Loader in Dark Theme renders MultiLine 1`] = `
@@ -719,7 +534,7 @@ exports[`Loader in Dark Theme renders MultiLine 1`] = `
   className="w-94 bg-white flex flex-col gap-3 rounded-moon-s-lg p-6"
 >
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+    className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
     type="button"
   >
     <span
@@ -1001,11 +816,28 @@ Array [
         className="px-2"
       >
         <span
-          className="flex w-6 h-6 justify-center items-center"
+          className="flex w-6 h-6 justify-center items-center relative"
         >
           <span
-            className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
-          />
+            aria-hidden="true"
+            className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+          >
+            <svg
+              className="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 14.941L13.667 22 25 10"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </span>
         </span>
       </span>
     </button>
@@ -1028,12 +860,9 @@ Array [
         className="flex w-6 h-6 justify-center items-center"
       >
         <span
-          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset]  shadow-trunks"
-        >
-          <span
-            className="scale-0 h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform"
-          />
-        </span>
+          aria-checked={false}
+          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+        />
       </span>
       <span
         className="block grow text-start text-bulma overflow-hidden"
@@ -1060,12 +889,9 @@ Array [
         className="flex w-6 h-6 justify-center items-center"
       >
         <span
-          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset]  shadow-trunks"
-        >
-          <span
-            className="scale-0 h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform"
-          />
-        </span>
+          aria-checked={false}
+          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
+        />
       </span>
     </button>
   </div>,
@@ -1218,11 +1044,29 @@ Array [
       type="button"
     >
       <span
-        className="flex w-6 h-6 justify-center items-center"
+        className="flex w-6 h-6 justify-center items-center relative"
       >
         <span
-          className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
-        />
+          aria-checked={false}
+          aria-hidden="true"
+          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+        >
+          <svg
+            className="transition-opacity opacity-0"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 14.941L13.667 22 25 10"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </span>
       </span>
       <span
         className="block grow text-start text-bulma overflow-hidden"
@@ -1246,11 +1090,29 @@ Array [
         Your value
       </span>
       <span
-        className="flex w-6 h-6 justify-center items-center"
+        className="flex w-6 h-6 justify-center items-center relative"
       >
         <span
-          className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
-        />
+          aria-checked={false}
+          aria-hidden="true"
+          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+        >
+          <svg
+            className="transition-opacity opacity-0"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 14.941L13.667 22 25 10"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </span>
       </span>
     </button>
   </div>,
@@ -1267,80 +1129,62 @@ exports[`Loader in Light Theme renders Default 1`] = `
 `;
 
 exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
-Array [
+<div
+  className="flex items-start flex-wrap justify-around gap-2 w-full"
+>
   <div
     className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
   >
-    <button
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Vision
-    </button>
-    <button
+    </a>
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Getting started
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
-      type="button"
+    </a>
+    <a
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      href="/"
     >
       How to contribute?
-    </button>
-    <button
+    </a>
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Colours palette
-    </button>
-    <button
+    </a>
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Tokens
-    </button>
-    <button
+    </a>
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Transform SVG
-    </button>
-    <button
+    </a>
+    <a
       className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+      href="/"
     >
       Manifest
-    </button>
+    </a>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+      onClick={[Function]}
       type="button"
     >
       Tailwind
       <svg
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 20.5l9-9 9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
+        className="w-6 rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -1354,117 +1198,62 @@ Array [
           strokeLinejoin="round"
         />
       </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Accordion
-      </span>
     </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
+    <div
+      className="pl-6"
     >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
       >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+           Accordion
+        </span>
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
       >
-         Avatar
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+           Avatar
+        </span>
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
       >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+           Breadcrumb
+        </span>
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
       >
-         Breadcrumb
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+           Button
+        </span>
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
       >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Button
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Checkbox
-      </span>
-    </button>
-  </div>,
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+           Checkbox
+        </span>
+      </a>
+    </div>
+  </div>
   <div
     className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
   >
@@ -1492,25 +1281,10 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+      onClick={[Function]}
       type="button"
     >
-      <svg
-        className="w-6 "
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 20.5l9-9 9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
       <span
         className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
       >
@@ -1525,14 +1299,8 @@ Array [
       >
          Customer...
       </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
       <svg
-        className="w-6 "
-        color="transparent"
+        className="w-6 rotate-180"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -1546,78 +1314,53 @@ Array [
           strokeLinejoin="round"
         />
       </svg>
-      <span
-        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+    </button>
+    <div
+      className="pl-10"
+    >
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        type="button"
       >
-        <p
-          className="leading-4 font-semibold text-moon-10"
+        <span
+          className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
-          S
-        </p>
-      </span>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-        Sub nested item
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
-      >
-        <p
-          className="leading-4 font-semibold text-moon-10"
+          <p
+            className="leading-4 font-semibold text-moon-10"
+          >
+            S
+          </p>
+        </span>
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
         >
-          S
-        </p>
-      </span>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
+          Sub nested item
+        </span>
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        type="button"
       >
-        Sub nested item
-      </span>
-    </button>
+        <span
+          className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+        >
+          <p
+            className="leading-4 font-semibold text-moon-10"
+          >
+            S
+          </p>
+        </span>
+        <span
+          className="block grow text-start text-bulma overflow-hidden"
+        >
+          Sub nested item
+        </span>
+      </button>
+    </div>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
-      <svg
-        className="w-6 "
-        color="trunks"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
       <span
         className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
       >
@@ -1634,26 +1377,9 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
-      <svg
-        className="w-6 "
-        color="trunks"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
       <span
         className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
       >
@@ -1670,26 +1396,9 @@ Array [
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
-      <svg
-        className="w-6 "
-        color="trunks"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
       <span
         className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
       >
@@ -1732,26 +1441,9 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
-        <svg
-          className="w-6 "
-          color="trunks"
-          fill="none"
-          height="1em"
-          onClick={[Function]}
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M25 11.5l-9 9-9-9"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
@@ -1768,26 +1460,9 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
-        <svg
-          className="w-6 "
-          color="trunks"
-          fill="none"
-          height="1em"
-          onClick={[Function]}
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M25 11.5l-9 9-9-9"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
@@ -1804,26 +1479,9 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
-        <svg
-          className="w-6 "
-          color="trunks"
-          fill="none"
-          height="1em"
-          onClick={[Function]}
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M25 11.5l-9 9-9-9"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
@@ -1867,26 +1525,9 @@ Array [
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
-        <svg
-          className="w-6 "
-          color="trunks"
-          fill="none"
-          height="1em"
-          onClick={[Function]}
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M25 11.5l-9 9-9-9"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
@@ -1903,8 +1544,8 @@ Array [
         </span>
       </button>
     </div>
-  </div>,
-]
+  </div>
+</div>
 `;
 
 exports[`Loader in Light Theme renders MultiLine 1`] = `
@@ -1912,7 +1553,7 @@ exports[`Loader in Light Theme renders MultiLine 1`] = `
   className="w-94 bg-white flex flex-col gap-3 rounded-moon-s-lg p-6"
 >
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+    className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
     type="button"
   >
     <span
@@ -2194,11 +1835,28 @@ Array [
         className="px-2"
       >
         <span
-          className="flex w-6 h-6 justify-center items-center"
+          className="flex w-6 h-6 justify-center items-center relative"
         >
           <span
-            className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
-          />
+            aria-hidden="true"
+            className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+          >
+            <svg
+              className="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 14.941L13.667 22 25 10"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </span>
         </span>
       </span>
     </button>
@@ -2221,12 +1879,9 @@ Array [
         className="flex w-6 h-6 justify-center items-center"
       >
         <span
-          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset]  shadow-trunks"
-        >
-          <span
-            className="scale-0 h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform"
-          />
-        </span>
+          aria-checked={false}
+          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+        />
       </span>
       <span
         className="block grow text-start text-bulma overflow-hidden"
@@ -2253,12 +1908,9 @@ Array [
         className="flex w-6 h-6 justify-center items-center"
       >
         <span
-          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset]  shadow-trunks"
-        >
-          <span
-            className="scale-0 h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform"
-          />
-        </span>
+          aria-checked={false}
+          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
+        />
       </span>
     </button>
   </div>,
@@ -2417,11 +2069,29 @@ exports[`Loader in RTL renders Checkbox 1`] = `
       type="button"
     >
       <span
-        className="flex w-6 h-6 justify-center items-center"
+        className="flex w-6 h-6 justify-center items-center relative"
       >
         <span
-          className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
-        />
+          aria-checked={false}
+          aria-hidden="true"
+          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+        >
+          <svg
+            className="transition-opacity opacity-0"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 14.941L13.667 22 25 10"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </span>
       </span>
       <span
         className="block grow text-start text-bulma overflow-hidden"
@@ -2445,11 +2115,29 @@ exports[`Loader in RTL renders Checkbox 1`] = `
         Your value
       </span>
       <span
-        className="flex w-6 h-6 justify-center items-center"
+        className="flex w-6 h-6 justify-center items-center relative"
       >
         <span
-          className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
-        />
+          aria-checked={false}
+          aria-hidden="true"
+          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-goten moon-checked:shadow-none rounded-none shadow-roshi moon-checked:bg-roshi"
+        >
+          <svg
+            className="transition-opacity opacity-0"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 14.941L13.667 22 25 10"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </span>
       </span>
     </button>
   </div>
@@ -2474,444 +2162,132 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
   dir="rtl"
 >
   <div
-    className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
+    className="flex items-start flex-wrap justify-around gap-2 w-full"
   >
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      Vision
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      Getting started
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
-      type="button"
-    >
-      How to contribute?
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      Colours palette
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      Tokens
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      Transform SVG
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      Manifest
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
-      type="button"
-    >
-      Tailwind
-      <svg
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 20.5l9-9 9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Accordion
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Avatar
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Breadcrumb
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Button
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Checkbox
-      </span>
-    </button>
-  </div>
-  <div
-    className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
-  >
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <span
-        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
-      >
-        <p
-          className="leading-4 font-semibold text-moon-10"
-        >
-          B
-        </p>
-      </span>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-        <p
-          className="leading-6 text-moon-14 font-semibold"
-        >
-          Bitcasino
-        </p>
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 20.5l9-9 9 9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
-      >
-        <p
-          className="leading-4 font-semibold text-moon-10"
-        >
-          CX
-        </p>
-      </span>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-         Customer...
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
-      >
-        <p
-          className="leading-4 font-semibold text-moon-10"
-        >
-          S
-        </p>
-      </span>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-        Sub nested item
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="transparent"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
-      >
-        <p
-          className="leading-4 font-semibold text-moon-10"
-        >
-          S
-        </p>
-      </span>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-        Sub nested item
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="trunks"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
-      >
-        <p
-          className="leading-4 font-semibold text-moon-10"
-        >
-          CX
-        </p>
-      </span>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-        Quality...
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="trunks"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
-      >
-        <p
-          className="leading-4 font-semibold text-moon-10"
-        >
-          RG
-        </p>
-      </span>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-        Responsible...
-      </span>
-    </button>
-    <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-      type="button"
-    >
-      <svg
-        className="w-6 "
-        color="trunks"
-        fill="none"
-        height="1em"
-        onClick={[Function]}
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M25 11.5l-9 9-9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
-      >
-        <p
-          className="leading-4 font-semibold text-moon-10"
-        >
-          RG
-        </p>
-      </span>
-      <span
-        className="block grow text-start text-bulma overflow-hidden"
-      >
-        Responsible...
-      </span>
-    </button>
     <div
-      className="flex flex-col gap-2 rounded-moon-s-lg"
+      className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
+    >
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
+      >
+        Vision
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
+      >
+        Getting started
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
+      >
+        How to contribute?
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
+      >
+        Colours palette
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
+      >
+        Tokens
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
+      >
+        Transform SVG
+      </a>
+      <a
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        href="/"
+      >
+        Manifest
+      </a>
+      <button
+        className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+        onClick={[Function]}
+        type="button"
+      >
+        Tailwind
+        <svg
+          className="w-6 rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M25 11.5l-9 9-9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+      <div
+        className="pl-6"
+      >
+        <a
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          href="/"
+        >
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+             Accordion
+          </span>
+        </a>
+        <a
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          href="/"
+        >
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+             Avatar
+          </span>
+        </a>
+        <a
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          href="/"
+        >
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+             Breadcrumb
+          </span>
+        </a>
+        <a
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          href="/"
+        >
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+             Button
+          </span>
+        </a>
+        <a
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          href="/"
+        >
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+             Checkbox
+          </span>
+        </a>
+      </div>
+    </div>
+    <div
+      className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
     >
       <button
         className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
@@ -2923,7 +2299,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           <p
             className="leading-4 font-semibold text-moon-10"
           >
-            S
+            B
           </p>
         </span>
         <span
@@ -2932,56 +2308,33 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           <p
             className="leading-6 text-moon-14 font-semibold"
           >
-            Sportsbet
+            Bitcasino
           </p>
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        onClick={[Function]}
         type="button"
       >
-        <svg
-          className="w-6 "
-          color="trunks"
-          fill="none"
-          height="1em"
-          onClick={[Function]}
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M25 11.5l-9 9-9-9"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
           <p
             className="leading-4 font-semibold text-moon-10"
           >
-            RG
+            CX
           </p>
         </span>
         <span
           className="block grow text-start text-bulma overflow-hidden"
         >
-          Customer...
+           Customer...
         </span>
-      </button>
-      <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-        type="button"
-      >
         <svg
-          className="w-6 "
-          color="trunks"
+          className="w-6 rotate-180"
           fill="none"
           height="1em"
-          onClick={[Function]}
           viewBox="0 0 32 32"
           width="1em"
           xmlns="http://www.w3.org/2000/svg"
@@ -2993,6 +2346,53 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
             strokeLinejoin="round"
           />
         </svg>
+      </button>
+      <div
+        className="pl-10"
+      >
+        <button
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          type="button"
+        >
+          <span
+            className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+          >
+            <p
+              className="leading-4 font-semibold text-moon-10"
+            >
+              S
+            </p>
+          </span>
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+            Sub nested item
+          </span>
+        </button>
+        <button
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          type="button"
+        >
+          <span
+            className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+          >
+            <p
+              className="leading-4 font-semibold text-moon-10"
+            >
+              S
+            </p>
+          </span>
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+            Sub nested item
+          </span>
+        </button>
+      </div>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        type="button"
+      >
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
@@ -3009,26 +2409,9 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
-        <svg
-          className="w-6 "
-          color="trunks"
-          fill="none"
-          height="1em"
-          onClick={[Function]}
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M25 11.5l-9 9-9-9"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
@@ -3044,54 +2427,10 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           Responsible...
         </span>
       </button>
-    </div>
-    <div
-      className="flex flex-col gap-2 rounded-moon-s-lg "
-    >
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
-        <span
-          className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
-        >
-          <p
-            className="leading-4 font-semibold text-moon-10"
-          >
-            L
-          </p>
-        </span>
-        <span
-          className="block grow text-start text-bulma overflow-hidden"
-        >
-          <p
-            className="leading-6 text-moon-14 font-semibold"
-          >
-            Livecasino
-          </p>
-        </span>
-      </button>
-      <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-        type="button"
-      >
-        <svg
-          className="w-6 "
-          color="trunks"
-          fill="none"
-          height="1em"
-          onClick={[Function]}
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M25 11.5l-9 9-9-9"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
         <span
           className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
         >
@@ -3104,9 +2443,139 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
         <span
           className="block grow text-start text-bulma overflow-hidden"
         >
-          Customer...
+          Responsible...
         </span>
       </button>
+      <div
+        className="flex flex-col gap-2 rounded-moon-s-lg"
+      >
+        <button
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          type="button"
+        >
+          <span
+            className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+          >
+            <p
+              className="leading-4 font-semibold text-moon-10"
+            >
+              S
+            </p>
+          </span>
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+            <p
+              className="leading-6 text-moon-14 font-semibold"
+            >
+              Sportsbet
+            </p>
+          </span>
+        </button>
+        <button
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          type="button"
+        >
+          <span
+            className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+          >
+            <p
+              className="leading-4 font-semibold text-moon-10"
+            >
+              RG
+            </p>
+          </span>
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+            Customer...
+          </span>
+        </button>
+        <button
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          type="button"
+        >
+          <span
+            className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+          >
+            <p
+              className="leading-4 font-semibold text-moon-10"
+            >
+              CX
+            </p>
+          </span>
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+            Quality...
+          </span>
+        </button>
+        <button
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          type="button"
+        >
+          <span
+            className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+          >
+            <p
+              className="leading-4 font-semibold text-moon-10"
+            >
+              RG
+            </p>
+          </span>
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+            Responsible...
+          </span>
+        </button>
+      </div>
+      <div
+        className="flex flex-col gap-2 rounded-moon-s-lg "
+      >
+        <button
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          type="button"
+        >
+          <span
+            className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+          >
+            <p
+              className="leading-4 font-semibold text-moon-10"
+            >
+              L
+            </p>
+          </span>
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+            <p
+              className="leading-6 text-moon-14 font-semibold"
+            >
+              Livecasino
+            </p>
+          </span>
+        </button>
+        <button
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          type="button"
+        >
+          <span
+            className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center"
+          >
+            <p
+              className="leading-4 font-semibold text-moon-10"
+            >
+              RG
+            </p>
+          </span>
+          <span
+            className="block grow text-start text-bulma overflow-hidden"
+          >
+            Customer...
+          </span>
+        </button>
+      </div>
     </div>
   </div>
 </div>
@@ -3120,7 +2589,7 @@ exports[`Loader in RTL renders MultiLine 1`] = `
     className="w-94 bg-white flex flex-col gap-3 rounded-moon-s-lg p-6"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
       type="button"
     >
       <span
@@ -3405,11 +2874,28 @@ exports[`Loader in RTL renders MultiTitle 1`] = `
         className="px-2"
       >
         <span
-          className="flex w-6 h-6 justify-center items-center"
+          className="flex w-6 h-6 justify-center items-center relative"
         >
           <span
-            className="block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color] shadow-[0_0_0_1px_inset] shadow-trunks"
-          />
+            aria-hidden="true"
+            className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+          >
+            <svg
+              className="transition-opacity opacity-0"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 14.941L13.667 22 25 10"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </span>
         </span>
       </span>
     </button>
@@ -3434,12 +2920,9 @@ exports[`Loader in RTL renders Radio 1`] = `
         className="flex w-6 h-6 justify-center items-center"
       >
         <span
-          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset]  shadow-trunks"
-        >
-          <span
-            className="scale-0 h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform"
-          />
-        </span>
+          aria-checked={false}
+          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100"
+        />
       </span>
       <span
         className="block grow text-start text-bulma overflow-hidden"
@@ -3466,12 +2949,9 @@ exports[`Loader in RTL renders Radio 1`] = `
         className="flex w-6 h-6 justify-center items-center"
       >
         <span
-          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset]  shadow-trunks"
-        >
-          <span
-            className="scale-0 h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform"
-          />
-        </span>
+          aria-checked={false}
+          className="block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks after:content-[\\"\\"] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:transition-transform after:scale-0 moon-checked:after:scale-100 moon-checked:shadow-hit after:bg-hit"
+        />
       </span>
     </button>
   </div>
