@@ -1,5 +1,15 @@
 # @heathmont/moon-select
 
+## 9.14.2
+
+### Patch Changes
+
+- Bump version
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.14.2
+  - @heathmont/moon-core@9.14.2
+  - @heathmont/moon-utils@9.14.2
+
 ## 9.14.1
 
 ### Patch Changes

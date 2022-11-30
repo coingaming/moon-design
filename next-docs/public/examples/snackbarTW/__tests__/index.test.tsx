@@ -11,8 +11,10 @@ import React from 'react';
 import renderer, { act } from 'react-test-renderer';
 import Default from '../Default';
 import Positions from '../Positions';
-import Types from '../Types';
-import Variants from '../Variants';
+import Options from '../Options';
+import Semantics from '../Semantics';
+import Customization from '../Customization';
+import AutoClose from '../AutoClose';
 
 const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -45,8 +47,8 @@ describe('Snackbar in Light Theme', () => {
     });
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Types', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Types />));
+  it('renders Options', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Options />));
     const testInstance = testRenderer.root;
     act(() => {
       const button = testInstance.findAllByType('button')[0];
@@ -54,8 +56,28 @@ describe('Snackbar in Light Theme', () => {
     });
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Variants', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Variants />));
+  it('renders Semantics', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Semantics />));
+    const testInstance = testRenderer.root;
+    act(() => {
+      const button = testInstance.findAllByType('button')[0];
+      button && button?.props?.onClick();
+    });
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders AutoClose', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<AutoClose />));
+    const testInstance = testRenderer.root;
+    act(() => {
+      const button = testInstance.findAllByType('button')[0];
+      button && button?.props?.onClick();
+    });
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Customization', () => {
+    const testRenderer = renderer.create(
+      renderWithLightTheme(<Customization />)
+    );
     const testInstance = testRenderer.root;
     act(() => {
       const button = testInstance.findAllByType('button')[0];
@@ -84,8 +106,8 @@ describe('Snackbar in Dark Theme', () => {
     });
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Types', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Types />));
+  it('renders Options', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Options />));
     const testInstance = testRenderer.root;
     act(() => {
       const button = testInstance.findAllByType('button')[0];
@@ -93,8 +115,28 @@ describe('Snackbar in Dark Theme', () => {
     });
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Variants', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Variants />));
+  it('renders Semantics', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Semantics />));
+    const testInstance = testRenderer.root;
+    act(() => {
+      const button = testInstance.findAllByType('button')[0];
+      button && button?.props?.onClick();
+    });
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders AutoClose', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<AutoClose />));
+    const testInstance = testRenderer.root;
+    act(() => {
+      const button = testInstance.findAllByType('button')[0];
+      button && button?.props?.onClick();
+    });
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Customization', () => {
+    const testRenderer = renderer.create(
+      renderWithDarkTheme(<Customization />)
+    );
     const testInstance = testRenderer.root;
     act(() => {
       const button = testInstance.findAllByType('button')[0];
@@ -123,8 +165,8 @@ describe('Snackbar in RTL', () => {
     });
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Types', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Types />));
+  it('renders Options', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Options />));
     const testInstance = testRenderer.root;
     act(() => {
       const button = testInstance.findAllByType('button')[0];
@@ -132,8 +174,26 @@ describe('Snackbar in RTL', () => {
     });
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Variants', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Variants />));
+  it('renders Semantics', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Semantics />));
+    const testInstance = testRenderer.root;
+    act(() => {
+      const button = testInstance.findAllByType('button')[0];
+      button && button?.props?.onClick();
+    });
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders AutoClose', () => {
+    const testRenderer = renderer.create(renderWithRtl(<AutoClose />));
+    const testInstance = testRenderer.root;
+    act(() => {
+      const button = testInstance.findAllByType('button')[0];
+      button && button?.props?.onClick();
+    });
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Customization', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Customization />));
     const testInstance = testRenderer.root;
     act(() => {
       const button = testInstance.findAllByType('button')[0];

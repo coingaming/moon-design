@@ -4,96 +4,118 @@ import { useCallback, useState } from 'react';
 const Example = () => {
   const [snackbar, setSnackbar] = useState('');
 
-
-  const openSnackbarHandler = useCallback((type: string) => {
-    if (snackbar) {
-      setSnackbar('');
-      setTimeout(() => {
+  const openSnackbarHandler = useCallback(
+    (type: string) => {
+      if (snackbar) {
+        setSnackbar('');
+        setTimeout(() => {
+          setSnackbar(type);
+        }, 400);
+      } else {
         setSnackbar(type);
-      }, 400);
-    } else {
-      setSnackbar(type);
-    }
-  }, [snackbar]);
+      }
+    },
+    [snackbar]
+  );
 
   return (
     <>
       <div>
-        <Button onClick={() => openSnackbarHandler('top-right')}>
-          Top Right Snackbar
-        </Button>
-        <Snackbar
-          isOpen={snackbar === 'top-right'}
-          setSnackbar={setSnackbar}
-          position="top-right"
-          autoClose={6000}
+        <Button
+          variant="secondary"
+          onClick={() => openSnackbarHandler('top-left')}
         >
-          <Snackbar.Message>Something went wrong ...</Snackbar.Message>
-        </Snackbar>
-      </div>
-      <div>
-        <Button onClick={() => openSnackbarHandler('top-left')}>
-          Top Left Snackbar
+          Top left
         </Button>
         <Snackbar
           isOpen={snackbar === 'top-left'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="top-left"
-          autoClose={6000}
         >
-          <Snackbar.Message>Something went wrong ...</Snackbar.Message>
+          <Snackbar.Message>
+            Snackbar at top-left screen corner
+          </Snackbar.Message>
         </Snackbar>
       </div>
       <div>
-        <Button onClick={() => openSnackbarHandler('top-center')}>
-          Top Center Snackbar
+        <Button
+          variant="secondary"
+          onClick={() => openSnackbarHandler('top-center')}
+        >
+          Top center
         </Button>
         <Snackbar
           isOpen={snackbar === 'top-center'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="top-center"
-          autoClose={6000}
         >
-          <Snackbar.Message>Something went wrong ...</Snackbar.Message>
+          <Snackbar.Message>
+            Snackbar at top-center screen edge
+          </Snackbar.Message>
         </Snackbar>
       </div>
       <div>
-        <Button onClick={() => openSnackbarHandler('bottom-right')}>
-          Bottom Right Snackbar
+        <Button
+          variant="secondary"
+          onClick={() => openSnackbarHandler('top-right')}
+        >
+          Top right
         </Button>
-        <Snackbar
-          isOpen={snackbar === 'bottom-right'}
-          setSnackbar={setSnackbar}
-          position="bottom-right"
-          autoClose={6000}
-        >
-          <Snackbar.Message>Something went wrong ...</Snackbar.Message>
+        <Snackbar isOpen={snackbar === 'top-right'} onOpenChange={setSnackbar}>
+          <Snackbar.Message>
+            Snackbar at top-right screen corner
+          </Snackbar.Message>
         </Snackbar>
       </div>
       <div>
-        <Button onClick={() => openSnackbarHandler('bottom-left')}>
-          Bottom Left Snackbar
+        <Button
+          variant="secondary"
+          onClick={() => openSnackbarHandler('bottom-left')}
+        >
+          Bottom left
         </Button>
         <Snackbar
           isOpen={snackbar === 'bottom-left'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="bottom-left"
-          autoClose={6000}
         >
-          <Snackbar.Message>Something went wrong ...</Snackbar.Message>
+          <Snackbar.Message>
+            Snackbar at bottom-left screen corner
+          </Snackbar.Message>
         </Snackbar>
       </div>
       <div>
-        <Button onClick={() => openSnackbarHandler('bottom-center')}>
-          Bottom Center Snackbar
+        <Button
+          variant="secondary"
+          onClick={() => openSnackbarHandler('bottom-center')}
+        >
+          Bottom center
         </Button>
         <Snackbar
           isOpen={snackbar === 'bottom-center'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           position="bottom-center"
-          autoClose={6000}
         >
-          <Snackbar.Message>Something went wrong ...</Snackbar.Message>
+          <Snackbar.Message>
+            Snackbar at bottom-center screen edge
+          </Snackbar.Message>
+        </Snackbar>
+      </div>
+      <div>
+        <Button
+          variant="secondary"
+          onClick={() => openSnackbarHandler('bottom-right')}
+        >
+          Bottom right
+        </Button>
+        <Snackbar
+          isOpen={snackbar === 'bottom-right'}
+          onOpenChange={setSnackbar}
+          position="bottom-right"
+        >
+          <Snackbar.Message>
+            Snackbar at bottom-right screen corner
+          </Snackbar.Message>
         </Snackbar>
       </div>
     </>

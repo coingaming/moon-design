@@ -99,7 +99,7 @@ const DevGettingStarted = () => (
     './node_modules/@heathmont/moon-core-tw/**/*.{js,ts,jsx,tsx}',
   ],
   presets: [
-    require('@heathmont/moon-core-tw/src/private/presets/ds-moon-preset'),
+    require('@heathmont/moon-core-tw/lib/private/presets/ds-moon-preset'),
   ],
 ...
 }
@@ -376,7 +376,7 @@ const DevGettingStarted = () => (
       <p className="font-medium">NB! Setting up themes is optional.</p>
       <p>It is up to you how to set up themes inside your project.</p>
       <p>For example, you can do the following:</p>
-      <CodeSnippet>{`@import '@heathmont/moon-themes-tw/src/sportsbet.css';`}</CodeSnippet>
+      <CodeSnippet>{`@import '@heathmont/moon-themes-tw/lib/sportsbet.css';`}</CodeSnippet>
       <p>
         Alternatively, you can copy-paste the tokens from{' '}
         <a

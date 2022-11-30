@@ -4,24 +4,30 @@ import { useState, useCallback } from 'react';
 const Example = () => {
   const [snackbar, setSnackbar] = useState('');
 
-  const openSnackbarHandler = useCallback((type: string) => {
-    if (snackbar) {
-      setSnackbar('');
-      setTimeout(() => {
+  const openSnackbarHandler = useCallback(
+    (type: string) => {
+      if (snackbar) {
+        setSnackbar('');
+        setTimeout(() => {
+          setSnackbar(type);
+        }, 400);
+      } else {
         setSnackbar(type);
-      }, 400);
-    } else {
-      setSnackbar(type);
-    }
-  }, [snackbar]);
+      }
+    },
+    [snackbar]
+  );
 
   return (
     <div>
-      <Button onClick={() => openSnackbarHandler('default')}>
-        Default Snackbar
+      <Button
+        variant="secondary"
+        onClick={() => openSnackbarHandler('default')}
+      >
+        Default
       </Button>
-      <Snackbar isOpen={snackbar === 'default'} setSnackbar={setSnackbar}>
-        <Snackbar.Message>Something went wrong ...</Snackbar.Message>
+      <Snackbar isOpen={snackbar === 'default'} onOpenChange={setSnackbar}>
+        <Snackbar.Message>Snackbar message</Snackbar.Message>
       </Snackbar>
     </div>
   );

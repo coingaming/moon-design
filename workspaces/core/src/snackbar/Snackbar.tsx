@@ -1,16 +1,9 @@
-import React, { Children, createContext, useContext, useEffect } from 'react';
-import {
-  ControlsClose,
-  GenericCheckAlternative,
-  GenericInfo,
-  GenericClose,
-  GenericAlarm,
-  GenericCheckRounded,
-} from '@heathmont/moon-icons-tw';
+import React from 'react';
+import { ControlsCloseSmall } from '@heathmont/moon-icons-tw';
 import * as ToastPrimitive from '@radix-ui/react-toast';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../private/utils/mergeClassnames';
 
-type SnackbarProps = {
+type Props = {
   autoClose?: number;
   position?:
     | 'top-left'
@@ -22,148 +15,108 @@ type SnackbarProps = {
   ref?: null;
   className?: string;
   isOpen: boolean;
-  setSnackbar: () => void;
+  onOpenChange: () => void;
+  children?: React.ReactNode;
+  ariaLabel?: string;
 };
 
-type IconProps = {
-  className?: string;
-};
-type ContentProps = {
-  className?: string;
-};
-
-type MessageProps = {
-  className?: string;
-};
-type HeadingProps = {
-  heading?: string;
-};
-
-type VariantProps = {
-  containerClassName?: string;
-  iconClassname?: string
-
-}
-const SnackbarRoot: React.FC<SnackbarProps> = ({
+const SnackbarRoot: React.FC<Props> = ({
   autoClose,
   position = 'top-right',
   children,
   ref,
   className,
   isOpen,
-  setSnackbar,
-  ...rest
-}) => {
-  return (
-    <ToastPrimitive.Provider
-      swipeDirection="right"
-      duration={autoClose || 6000}
+  onOpenChange,
+}) => (
+  <ToastPrimitive.Provider swipeDirection="right" duration={autoClose}>
+    <ToastPrimitive.Root
+      open={isOpen}
+      onOpenChange={onOpenChange}
+      ref={ref}
+      aria-live="polite"
+      className={mergeClassnames(
+        'z-50 flex fixed w-[calc(100%-32px)] md:w-fit transition',
+        'radix-state-closed:animate-toast-hide',
+        'radix-swipe-end:animate-toast-swipe-out',
+        'translate-x-radix-toast-swipe-move-x',
+        'radix-swipe-cancel:translate-x-0 radix-swipe-cancel:duration-200 radix-swipe-cancel:ease-[ease]',
+        position === 'top-left' &&
+          'top-4 ltr:left-4 ltr:radix-state-open:animate-toast-slide-in-left rtl:right-4 rtl:radix-state-open:animate-toast-slide-in-right',
+        position === 'top-center' &&
+          'justify-center top-4 left-4 right-4 md:m-auto radix-state-open:animate-toast-slide-in-up',
+        position === 'top-right' &&
+          'justify-end top-4 ltr:right-4 ltr:radix-state-open:animate-toast-slide-in-right rtl:left-4 rtl:radix-state-open:animate-toast-slide-in-left',
+        position === 'bottom-left' &&
+          'bottom-4 ltr:left-4 ltr:radix-state-open:animate-toast-slide-in-left rtl:right-4 rtl:radix-state-open:animate-toast-slide-in-right',
+        position === 'bottom-center' &&
+          'justify-center bottom-4 left-4 right-4 m-auto radix-state-open:animate-toast-slide-in-down',
+        position === 'bottom-right' &&
+          'justify-end bottom-4 ltr:right-4 ltr:radix-state-open:animate-toast-slide-in-right rtl:left-4 lrtltr:radix-state-open:animate-toast-slide-in-left'
+      )}
     >
-      <ToastPrimitive.Root
-        open={isOpen}
-        onOpenChange={setSnackbar}
-        ref={ref}
-        className={classNames(
-          'z-50 fixed right-4 left-4 w-auto shadow-lg rounded-xl bg-goku px-4 py-6 bg-goku text-left flex items-center transition gap-2 medium',
-          'md:w-full md:max-w-sm md:right-4',
-          "radix-state-open:animate-toast-slide-in-bottom md:radix-state-open:animate-toast-slide-in-right",
-          "radix-state-closed:animate-toast-hide",
-          "radix-swipe-end:animate-toast-swipe-out",
-          'translate-x-radix-toast-swipe-move-x',
-          'radix-swipe-cancel:translate-x-0 radix-swipe-cancel:duration-200 radix-swipe-cancel:ease-[ease]',
-          position === 'top-left' && 'top-4 md:left-4 md:right-auto',
-          position === 'top-center' &&
-            'top-4  ml-auto mr-auto md:left-0 md:right-0',
-          position === 'top-right' && 'top-4 md:right-4 md:left-auto',
-          position === 'bottom-left' && 'bottom-4 md:left-4 md:right-auto',
-          position === 'bottom-center' &&
-            'bottom-4  ml-auto mr-auto md:left-0 md:right-0',
-          position === 'bottom-right' && 'bottom-4 md:right-4 md:left-auto',
+      <div
+        className={mergeClassnames(
+          'flex w-fit max-w-xs items-center gap-4 p-4 bg-gohan shadow-moon-lg rounded-moon-s-sm',
           className
         )}
-        {...rest}
       >
         {children}
-      </ToastPrimitive.Root>
-      <ToastPrimitive.Viewport />
-    </ToastPrimitive.Provider>
-  );
-};
+      </div>
+    </ToastPrimitive.Root>
+    <ToastPrimitive.Viewport />
+  </ToastPrimitive.Provider>
+);
 
-const Header: React.FC<HeadingProps> = ({ children }) => {
-  return (
-    <span
-      className={classNames(
-        'text-moon-16 font-medium transition-colors text-bulma'
-      )}
-    >
-      {children}
-    </span>
-  );
-};
+const Header: React.FC<Props> = ({ children, className }) => (
+  <p
+    className={mergeClassnames(
+      'w-full text-moon-14 font-medium transition-colors text-bulma',
+      className
+    )}
+  >
+    {children}
+  </p>
+);
 
-const Message: React.FC<MessageProps> = ({ children, className }) => {
-  return (
-    <p
-      className={classNames(
-        'text-bulma text-moon-14 transition-colors',
-        className
-      )}
-    >
-      {children}
-    </p>
-  );
-};
+const Message: React.FC<Props> = ({ children, className }) => (
+  <p
+    className={mergeClassnames(
+      'w-full text-moon-14 transition-colors text-bulma',
+      className
+    )}
+  >
+    {children}
+  </p>
+);
 
-const Content: React.FC<ContentProps> = ({ children, className }) => {
-  return <div className={classNames(className)}>{children}</div>;
-};
+const Content: React.FC<Props> = ({ children, className }) => (
+  <div className={mergeClassnames('w-full', className)}>{children}</div>
+);
 
-const Icon: React.FC<IconProps> = ({ children, className }) => {
-  return (
-    <div className={classNames('p-1 rounded-lg', className)}>{children}</div>
-  );
-};
+const Icon: React.FC<Props> = ({ children, className }) => (
+  <div
+    aria-hidden="true"
+    className={mergeClassnames(
+      'flex h-8 aspect-square items-center justify-center rounded-moon-s-sm text-moon-32',
+      className
+    )}
+  >
+    {children}
+  </div>
+);
 
-const Close: React.FC = () => {
-  return (
-    <ToastPrimitive.Close className="absolute top-4 right-4">
-      <ControlsClose className="text-[16px] text-bulma" />
-    </ToastPrimitive.Close>
-  );
-};
-
-const Success: React.FC<VariantProps> = ({containerClassName, iconClassname }) => {
-  return (
-    <Icon className={classNames('bg-chiChi', containerClassName)}>
-      <GenericCheckRounded className={classNames('text-[32px] text-dodoria', iconClassname)} />
-    </Icon>
-  );
-};
-
-const Info: React.FC<VariantProps> = ({containerClassName, iconClassname }) => {
-  return (
-    <Icon className={classNames('bg-chiChi', containerClassName)}>
-      <GenericInfo className={classNames('text-[32px] text-dodoria', iconClassname)} />
-    </Icon>
-  );
-};
-
-const Error: React.FC<VariantProps> = ({containerClassName, iconClassname }) => {
-  return (
-    <Icon className={classNames('bg-chiChi', containerClassName)}>
-      <GenericClose className={classNames('text-[32px] text-dodoria', iconClassname)} />
-    </Icon>
-  );
-};
-
-const Warning: React.FC<VariantProps> = ({containerClassName, iconClassname }) => {
-  return (
-    <Icon className={classNames('bg-chiChi', containerClassName)}>
-      <GenericAlarm className={classNames('text-[32px] text-dodoria', iconClassname)} />
-    </Icon>
-  );
-};
+const Close: React.FC<Props> = ({ className, ariaLabel = 'Close' }) => (
+  <ToastPrimitive.Close
+    aria-label={ariaLabel}
+    className={mergeClassnames(
+      'flex h-8 aspect-square items-center justify-center text-bulma text-moon-24',
+      className
+    )}
+  >
+    <ControlsCloseSmall />
+  </ToastPrimitive.Close>
+);
 
 const Snackbar = Object.assign(SnackbarRoot, {
   Content,
@@ -171,10 +124,6 @@ const Snackbar = Object.assign(SnackbarRoot, {
   Message,
   Close,
   Icon,
-  Success,
-  Info,
-  Error,
-  Warning,
 });
 
 export default Snackbar;
