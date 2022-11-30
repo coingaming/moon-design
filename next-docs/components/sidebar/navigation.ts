@@ -14,6 +14,7 @@ const navigation = [
     children: [
       { name: 'Accordion', href: '/core/accordion' },
       { name: 'Avatar', href: '/core/avatar' },
+      { name: 'Bottomsheet', href: '/core/bottomsheet' },
       { name: 'Breadcrumb', href: '/core/breadcrumb' },
       { name: 'Button', href: '/core/button' },
       { name: 'Checkbox', href: '/core/checkbox' },
