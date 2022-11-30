@@ -6,13 +6,14 @@ import React, {
   useCallback,
 } from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../private/utils/mergeClassnames';
 import stateReducer from '../private/utils/stateReducer';
 
 type MenuItemProps = {
   width?: string;
   isSelected?: boolean;
   isActive?: boolean;
+  className?: string;
 };
 
 type MenuItemPolymorphicProps<C extends React.ElementType> =
@@ -30,6 +31,7 @@ type MenuItemState = {
 
 type CheckboxRadioProps = {
   isSelected?: boolean;
+  className?: string;
 };
 
 type MultiTitleProps = {
@@ -60,6 +62,7 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
       width,
       isSelected,
       isActive,
+      className,
       ...rest
     }: MenuItemPolymorphicProps<C>,
     ref?: PolymorphicRef<C>
@@ -88,11 +91,12 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
       <MenuItemContext.Provider value={{ ...states, ...state, registerChild }}>
         <Component
           ref={ref}
-          className={classNames(
+          className={mergeClassnames(
             'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer',
             'hover:bg-bulma/[0.04] transition',
             width ? width : 'w-full',
-            (innerSelected || isActive) && 'bg-bulma/[0.04]'
+            (innerSelected || isActive) && 'bg-bulma/[0.04]',
+            className && className
           )}
           {...((!as || as === 'button') && { type: 'button' })}
           {...rest}
@@ -131,7 +135,7 @@ const MultiTitle: React.FC<MultiTitleProps> = ({ title, text }) => {
   );
 };
 
-const Radio: React.FC<CheckboxRadioProps> = ({ isSelected }) => {
+const Radio: React.FC<CheckboxRadioProps> = ({ isSelected, className }) => {
   const { selected = isSelected, registerChild } =
     useMenuItemContext('MenuItem.Items');
   useEffect(() => {
@@ -140,43 +144,39 @@ const Radio: React.FC<CheckboxRadioProps> = ({ isSelected }) => {
   return (
     <span className="flex w-6 h-6 justify-center items-center">
       <span
-        className={classNames(
-          'block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] ',
-          selected ? 'shadow-piccolo' : 'shadow-trunks'
+        aria-checked={selected}
+        className={mergeClassnames(
+          'block relative w-4 h-4 rounded-full shadow-[0_0_0_1px_inset] shadow-trunks moon-checked:shadow-piccolo',
+          'after:content-[""] after:h-2 after:w-2 after:rounded-full after:absolute after:top-1/2 after:left-1/2 after:translate-x-[-50%] after:translate-y-[-50%] after:bg-piccolo after:transition-transform after:scale-0 moon-checked:after:scale-100',
+          className && className
         )}
-      >
-        <span
-          className={classNames(
-            selected ? 'scale-100' : 'scale-0',
-            'h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo transition-transform'
-          )}
-        />
-      </span>
+      />
     </span>
   );
 };
 
-const Checkbox: React.FC<CheckboxRadioProps> = ({ isSelected }) => {
+const Checkbox: React.FC<CheckboxRadioProps> = ({ isSelected, className }) => {
   const { selected = isSelected, registerChild } =
     useMenuItemContext('MenuItem.Checkbox');
   useEffect(() => {
     registerChild && registerChild('Checkbox');
   }, []);
   return (
-    <span className="flex w-6 h-6 justify-center items-center">
+    <span className="flex w-6 h-6 justify-center items-center relative">
       <span
-        className={classNames(
-          'block relative w-4 min-w-[1rem] h-4 rounded-moon-i-xs duration-200 transition-[background-color]',
-          selected
-            ? 'bg-piccolo shadow-none'
-            : 'shadow-[0_0_0_1px_inset] shadow-trunks'
+        aria-checked={selected}
+        className={mergeClassnames(
+          'absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo',
+          className && className
         )}
+        aria-hidden="true"
       >
-        {selected && (
-          <span className="absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%]">
-            <GenericCheckAlternative className="text-[1rem] text-goten" />
-          </span>
-        )}
+        <GenericCheckAlternative
+          className={mergeClassnames(
+            'transition-opacity',
+            selected ? 'opacity-100' : 'opacity-0'
+          )}
+        />
       </span>
     </span>
   );
