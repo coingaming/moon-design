@@ -23,7 +23,7 @@ const Example = () => {
           onClick={useCallback(() => setActiveOpt2(!activeOpt2), [activeOpt2])}
         >
           <MenuItem.Title>Your value</MenuItem.Title>
-          <MenuItem.Checkbox />
+          <MenuItem.Checkbox className="rounded-none shadow-roshi moon-checked:bg-roshi" />
         </MenuItem>
       </div>
     </>
