@@ -131,7 +131,7 @@ const Panel: React.FC<PanelProps> = ({
   );
 };
 
-const Draghandle = ({ children }) => {
+const Draghandle = ({ children }: { children: ReactNode }) => {
   const { registerChild, draghandleRef } = useBottomsheetContext(
     'Bottomsheet.Draghandle'
   );
