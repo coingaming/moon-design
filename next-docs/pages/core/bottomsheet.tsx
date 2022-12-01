@@ -70,6 +70,19 @@ const Example = () => {
         ]}
       />
       <PropsTable
+        title="Bottomsheet.Draghandle"
+        data={[
+          {
+            name: 'children',
+            type: 'Bottomsheet.Draghandle',
+            required: false,
+            default: '-',
+            description:
+              'Optional title as a child to render text next to the drag handle.',
+          },
+        ]}
+      />
+      <PropsTable
         title="Bottomsheet.Title"
         data={[
           {
