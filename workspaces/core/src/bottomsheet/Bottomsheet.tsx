@@ -49,16 +49,8 @@ const Panel: React.FC<PanelProps> = ({
   hasShadow,
   onClose,
 }) => {
-  const dragHandleRef = useRef<HTMLDivElement>(null);
-  const panelRef = useRef<HTMLDivElement>(null);
-  const contentRef = useRef<HTMLDivElement>(null);
-  const { isTransition } = useDrag(
-    dragHandleRef,
-    panelRef,
-    contentRef,
-    onClose
-  );
-
+  const { isTransition, dragHandleRef, panelRef, contentRef } =
+    useDrag(onClose);
   let height;
   switch (size) {
     case 'md':
@@ -127,10 +119,7 @@ const Title: React.FC<TitleProps> = ({ children, className }) => (
   <div className="p-4 border-b-2 border-beerus">
     <Dialog.Title
       as="h3"
-      className={classNames(
-        'text-lg font-medium leading-6 text-gray-900',
-        className
-      )}
+      className={classNames('text-moon-18 text-bulma font-semibold', className)}
     >
       {children}
     </Dialog.Title>

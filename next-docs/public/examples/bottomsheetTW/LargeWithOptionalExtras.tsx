@@ -26,7 +26,7 @@ const Example = () => {
           <Bottomsheet.Title className="text-center">
             Forgot password?
           </Bottomsheet.Title>
-          <p className="p-2">
+          <p className="p-2 text-trunks">
             If you change your password, you will be unable to withdraw for 48
             hours due to security reasons.
           </p>
@@ -43,13 +43,13 @@ const Example = () => {
               Send
             </Button>
             <div className="p-2 mt-4 rounded-lg bg-goku">
-              <h3 className="p-2 text-lg font-medium leading-6 text-gray-900 border-b-2 border-beerus">
+              <h3 className="p-2 text-lg font-medium leading-6 border-b-2 text-bulma border-beerus">
                 Need some help?
               </h3>
               <div className="flex mt-2">
                 <MailEnvelope className="text-moon-48 text-bulma" />
                 <div className="px-2">
-                  <p className="font-semibold">Email us</p>
+                  <p className="font-semibold text-bulma">Email us</p>
                   <p className="text-xs text-trunks">Contact us via email</p>
                 </div>
               </div>

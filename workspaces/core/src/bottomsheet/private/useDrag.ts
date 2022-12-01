@@ -1,18 +1,22 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
-const useDrag = (dragHandleRef, panelRef, contentRef, onClose) => {
+const useDrag = (onClose: () => void) => {
+  const dragHandleRef = useRef<HTMLDivElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
+
   const [initialCursorY, setInitialCursorY] = useState<number>(0);
   const [cursorY, setCursorY] = useState<number>(0);
   const [isClosing, setIsClosing] = useState<boolean>(false);
   const delta = cursorY - initialCursorY;
 
-  const onTouchStart = (e) => {
+  const onTouchStart = (e: TouchEvent) => {
     const [{ screenY }] = e.changedTouches;
     setInitialCursorY(screenY);
     setCursorY(screenY);
   };
 
-  const onTouchMove = (e) => {
+  const onTouchMove = (e: TouchEvent) => {
     setCursorY(e.changedTouches[0].screenY);
   };
 
@@ -71,6 +75,9 @@ const useDrag = (dragHandleRef, panelRef, contentRef, onClose) => {
 
   return {
     isTransition: delta === 0 || isClosing,
+    dragHandleRef,
+    panelRef,
+    contentRef,
   };
 };
 

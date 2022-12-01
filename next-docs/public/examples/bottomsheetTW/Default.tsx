@@ -15,7 +15,7 @@ const Example = () => {
       <Bottomsheet open={isOpen} onClose={closeBottomsheet}>
         <Bottomsheet.Panel>
           <Bottomsheet.Title>Do you wear skinny jeans?</Bottomsheet.Title>
-          <p className="p-4">
+          <p className="p-4 text-trunks">
             I'm baby vaporware flexitarian scenester lyft activated charcoal
             tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo
             lyft air plant edison bulb. Salvia next level pitchfork
