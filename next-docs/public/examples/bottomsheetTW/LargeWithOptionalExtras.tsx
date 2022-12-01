@@ -14,18 +14,14 @@ const Example = () => {
   return (
     <>
       <Button onClick={openBottomsheet}>Show it to me!</Button>
-      <Bottomsheet
-        open={isOpen}
-        onClose={closeBottomsheet}
-        size="lg"
-        hasDragHandle
-        hasShadow
-      >
+      <Bottomsheet open={isOpen} onClose={closeBottomsheet} size="lg" hasShadow>
         <Bottomsheet.Backdrop />
         <Bottomsheet.Panel>
-          <Bottomsheet.Title className="text-center">
-            Forgot password?
-          </Bottomsheet.Title>
+          <Bottomsheet.Draghandle>
+            <Bottomsheet.Title className="text-center">
+              Forgot password?
+            </Bottomsheet.Title>
+          </Bottomsheet.Draghandle>
           <p className="p-2 text-trunks">
             If you change your password, you will be unable to withdraw for 48
             hours due to security reasons.

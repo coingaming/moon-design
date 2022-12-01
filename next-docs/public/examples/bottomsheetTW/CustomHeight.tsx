@@ -55,19 +55,15 @@ const Example = () => {
   return (
     <>
       <Button onClick={openBottomsheet}>Initialize uncloaking</Button>
-      <Bottomsheet
-        open={isOpen}
-        onClose={closeBottomsheet}
-        size="77%"
-        hasDragHandle
-        hasShadow
-      >
+      <Bottomsheet open={isOpen} onClose={closeBottomsheet} hasShadow>
         <Bottomsheet.Backdrop />
-        <Bottomsheet.Panel>
+        <Bottomsheet.Panel className="h-[77%]">
           <>
-            <Bottomsheet.Title className="text-center">
-              I am gonna show you some data whether you like it or not!
-            </Bottomsheet.Title>
+            <Bottomsheet.Draghandle>
+              <Bottomsheet.Title className="text-center">
+                I am gonna show you some data whether you like it or not!
+              </Bottomsheet.Title>
+            </Bottomsheet.Draghandle>
             <div className="p-2">
               <Table columns={columns} data={data} />
             </div>

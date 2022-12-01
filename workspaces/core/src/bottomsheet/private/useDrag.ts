@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 
 const useDrag = (onClose: () => void) => {
-  const dragHandleRef = useRef<HTMLDivElement>(null);
+  const draghandleRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
 
@@ -38,7 +38,7 @@ const useDrag = (onClose: () => void) => {
   };
 
   useEffect(() => {
-    const ref = dragHandleRef?.current;
+    const ref = draghandleRef?.current;
     if (!ref) {
       return;
     }
@@ -50,7 +50,7 @@ const useDrag = (onClose: () => void) => {
       ref.removeEventListener('touchmove', onTouchMove);
       ref.removeEventListener('touchend', onTouchEnd);
     };
-  }, [dragHandleRef, onTouchStart, onTouchMove, onTouchEnd]);
+  }, [draghandleRef, onTouchStart, onTouchMove, onTouchEnd]);
 
   useEffect(() => {
     const ref = panelRef?.current;
@@ -75,7 +75,7 @@ const useDrag = (onClose: () => void) => {
 
   return {
     isTransition: delta === 0 || isClosing,
-    dragHandleRef,
+    draghandleRef,
     panelRef,
     contentRef,
   };

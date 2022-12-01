@@ -1,42 +1,79 @@
-import React, { ReactNode, useRef } from 'react';
+import React, {
+  createContext,
+  ReactNode,
+  useCallback,
+  useContext,
+  useEffect,
+  useReducer,
+} from 'react';
 import { Dialog } from '@headlessui/react';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../private/utils/mergeClassnames';
+import stateReducer from './private/stateReducer';
 import useDrag from './private/useDrag';
 
 type BottomsheetRootProps = {
   open: boolean;
   onClose: () => void;
-  hasDragHandle?: boolean;
   hasShadow?: boolean;
   size?: 'sm' | 'md' | 'lg' | string;
+};
+
+const BottomsheetContext = createContext<{
+  size?: 'sm' | 'md' | 'lg' | string;
+  registerChild?: (child: string) => () => void;
+  bottomsheetChildren?: any[];
+  draghandleRef?: React.RefObject<HTMLDivElement>;
+  dispatch: any;
+}>({ dispatch: () => {} });
+
+BottomsheetContext.displayName = 'BottomsheetContext';
+
+const useBottomsheetContext = (component: string) => {
+  const context = useContext(BottomsheetContext);
+  if (context === null) {
+    throw new Error(
+      `<${component}> is missing a parent <Bottomsheet /> component`
+    );
+  }
+  return context;
 };
 
 const BottomsheetRoot: React.FC<BottomsheetRootProps> = ({
   open,
   onClose,
-  hasDragHandle,
   hasShadow,
   size,
   children,
-}) => (
-  <Dialog as="div" open={open} className="relative z-10" onClose={onClose}>
-    {React.Children.map<ReactNode, ReactNode>(children, (child) => {
-      if (React.isValidElement(child)) {
-        let extraProps = {};
-        if (typeof child.type !== 'string' && child.type.name === 'Panel') {
-          extraProps = { onClose, hasDragHandle, hasShadow, size };
-        }
-        return React.cloneElement(child, extraProps);
-      }
-      return null;
-    })}
-  </Dialog>
-);
+}) => {
+  const [state, dispatch] = useReducer(stateReducer, {
+    bottomsheetChildren: [],
+  });
+  const registerChild = useCallback((child: string) => {
+    dispatch?.({ type: 'RegisterChild', children: child });
+    return () => dispatch?.({ type: 'UnregisterChild', children: child });
+  }, []);
+  return (
+    <BottomsheetContext.Provider
+      value={{ ...state, size, registerChild, dispatch }}
+    >
+      <Dialog as="div" open={open} className="relative z-10" onClose={onClose}>
+        {React.Children.map<ReactNode, ReactNode>(children, (child) => {
+          if (React.isValidElement(child)) {
+            let extraProps = {};
+            if (typeof child.type !== 'string' && child.type.name === 'Panel') {
+              extraProps = { onClose, hasShadow };
+            }
+            return React.cloneElement(child, extraProps);
+          }
+          return null;
+        })}
+      </Dialog>
+    </BottomsheetContext.Provider>
+  );
+};
 
 type PanelProps = {
   className: string;
-  size?: 'sm' | 'md' | 'lg' | string;
-  hasDragHandle?: boolean;
   hasShadow?: boolean;
   onClose: () => void;
 };
@@ -44,61 +81,70 @@ type PanelProps = {
 const Panel: React.FC<PanelProps> = ({
   children,
   className,
-  size,
-  hasDragHandle,
   hasShadow,
   onClose,
 }) => {
-  const { isTransition, dragHandleRef, panelRef, contentRef } =
+  const { size, bottomsheetChildren, dispatch } =
+    useBottomsheetContext('Bottomsheet.Panel');
+  const { isTransition, draghandleRef, panelRef, contentRef } =
     useDrag(onClose);
+  const hasDraghandle = bottomsheetChildren?.includes('Draghandle');
+  useEffect(() => {
+    if (hasDraghandle) {
+      dispatch?.({ type: 'RegisterDraghandleRef', draghandleRef });
+    }
+  }, [hasDraghandle, bottomsheetChildren, dispatch, draghandleRef]);
   let height;
   switch (size) {
-    case 'md':
-      height = 'h-[64%]';
-      break;
     case 'lg':
       height = 'h-[88%]';
       break;
     case 'sm':
-    case undefined:
       height = 'h-[32%]';
       break;
+    case 'md':
     default:
-      height = `h-[${size}]`;
+      height = 'h-[64%]';
   }
-
   return (
     <div className="fixed inset-0">
       <Dialog.Panel
-        className={classNames(
+        className={mergeClassnames(
           'absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full',
           height,
-          !hasDragHandle && 'overflow-y-auto',
+          !hasDraghandle && 'overflow-y-auto',
           hasShadow && 'shadow-moon-lg',
           isTransition && 'duration-200 transition-all',
           className
         )}
         ref={panelRef}
       >
-        {hasDragHandle ? (
-          <>
-            <div
-              className="flex items-center justify-center h-12"
-              ref={dragHandleRef}
-            >
-              <div className="w-10 h-2 rounded bg-beerus"></div>
-            </div>
-            <div
-              className="overflow-y-auto h-[calc(100%_-_48px)]"
-              ref={contentRef}
-            >
-              {children}
-            </div>
-          </>
+        {hasDraghandle ? (
+          <div className="h-full overflow-y-auto" ref={contentRef}>
+            {children}
+          </div>
         ) : (
           children
         )}
       </Dialog.Panel>
+    </div>
+  );
+};
+
+const Draghandle = ({ children }) => {
+  const { registerChild, draghandleRef } = useBottomsheetContext(
+    'Bottomsheet.Draghandle'
+  );
+  useEffect(() => {
+    registerChild?.('Draghandle');
+  }, [registerChild]);
+  return (
+    <div
+      className="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
+      ref={draghandleRef}
+    >
+      <div className="w-10 h-1 rounded bg-beerus"></div>
+      {children && <div className="w-full">{children}</div>}
     </div>
   );
 };
@@ -108,7 +154,9 @@ type BackdropProps = {
 };
 
 const Backdrop: React.FC<BackdropProps> = ({ className }) => (
-  <div className={classNames('fixed inset-0 bg-black/[0.56]', className)} />
+  <div
+    className={mergeClassnames('fixed inset-0 bg-black/[0.56]', className)}
+  ></div>
 );
 
 type TitleProps = {
@@ -119,7 +167,10 @@ const Title: React.FC<TitleProps> = ({ children, className }) => (
   <div className="p-4 border-b-2 border-beerus">
     <Dialog.Title
       as="h3"
-      className={classNames('text-moon-18 text-bulma font-semibold', className)}
+      className={mergeClassnames(
+        'text-moon-18 text-bulma font-semibold',
+        className
+      )}
     >
       {children}
     </Dialog.Title>
@@ -128,6 +179,7 @@ const Title: React.FC<TitleProps> = ({ children, className }) => (
 
 const Bottomsheet = Object.assign(BottomsheetRoot, {
   Backdrop,
+  Draghandle,
   Title,
   Panel,
 });

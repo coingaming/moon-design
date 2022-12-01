@@ -53,14 +53,6 @@ const Example = () => {
             description: 'Called when the Bottomsheet is dismissed.',
           },
           {
-            name: 'hasDragHandle',
-            type: 'boolean',
-            required: false,
-            default: '-',
-            description:
-              'Whether the Bottomsheet has a drag handle to collapse/extend it or not.',
-          },
-          {
             name: 'hasShadow',
             type: 'boolean',
             required: false,
