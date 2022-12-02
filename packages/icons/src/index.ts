@@ -284,6 +284,8 @@ export { default as GenericMultiBet } from './icons/GenericMultiBet';
 export * from './icons/GenericMultiBet';
 export { default as GenericNews } from './icons/GenericNews';
 export * from './icons/GenericNews';
+export { default as GenericPartners } from './icons/GenericPartners';
+export * from './icons/GenericPartners';
 export { default as GenericPending } from './icons/GenericPending';
 export * from './icons/GenericPending';
 export { default as GenericPicture } from './icons/GenericPicture';
