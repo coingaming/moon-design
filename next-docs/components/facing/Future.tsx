@@ -1,9 +1,9 @@
 import React from 'react';
+import { ArrowsTopRight } from '@heathmont/moon-icons-tw';
 import Image from 'next/image';
 import Link from 'next/link';
 import imageFutureBg from '../../public/future_bg.png';
 import imageFutureImage from '../../public/future_image.svg';
-import TopRightArrowIcon from '../icons/TopRightArrowIcon';
 
 const Future = () => (
   <Link href="/howToContribute">
@@ -21,8 +21,8 @@ const Future = () => (
         <div className="hidden md:block relative z-1">
           <Image alt="Future" src={imageFutureImage} />
         </div>
-        <div className="absolute md:static top-6 ltr:right-6 rtl:left-6 text-goten z-1 rtl:-rotate-90">
-          <TopRightArrowIcon />
+        <div className="absolute md:static top-6 ltr:right-6 rtl:left-6 text-goten z-1 rtl:-rotate-90 text-moon-32">
+          <ArrowsTopRight />
         </div>
       </div>
       <div className="w-full md:h-full">

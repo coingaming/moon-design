@@ -64,15 +64,15 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
         isLastRow && hasParent ? 'first:rounded-tl-0 last:rounded-tr-0' : '',
         isLastRow && !isExpanded ? 'first:rounded-bl-2 last:rounded-br-2' : '',
         isSelected
-          ? 'text-popo'
+          ? 'text-bulma'
           : fontColor
           ? `text-${fontColor}`
-          : 'text-popo',
+          : 'text-bulma',
         stickySide === 'right'
           ? 'before:content-[""] before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:left-0 before:-margin-l-2'
           : '',
         (isSelected && !customBackground) || isHovered
-          ? 'bg-[#e0e0ed] border-piccolo cursor-pointer'
+          ? 'border-piccolo cursor-pointer'
           : customBackground
           ? `bg-${backgroundColor} border-${backgroundColor}`
           : 'bg-gohan',
