@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { useBottomsheetContext } from './context';
 
 const useDrag = (onClose: () => void) => {
   const draghandleRef = useRef<HTMLDivElement>(null);
@@ -73,11 +74,22 @@ const useDrag = (onClose: () => void) => {
     }, 0);
   }, [contentRef, panelRef]);
 
+  const { bottomsheetChildren, dispatch } =
+    useBottomsheetContext('Bottomsheet.Panel');
+
+  const hasDraghandle = bottomsheetChildren?.includes('Draghandle');
+  useEffect(() => {
+    if (hasDraghandle) {
+      dispatch?.({ type: 'RegisterDraghandleRef', draghandleRef });
+    }
+  }, [hasDraghandle, bottomsheetChildren, dispatch, draghandleRef]);
+
   return {
     isTransition: delta === 0 || isClosing,
     draghandleRef,
     panelRef,
     contentRef,
+    hasDraghandle,
   };
 };
 

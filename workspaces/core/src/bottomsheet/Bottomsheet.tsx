@@ -1,13 +1,7 @@
-import React, {
-  createContext,
-  ReactNode,
-  useCallback,
-  useContext,
-  useEffect,
-  useReducer,
-} from 'react';
+import React, { ReactNode, useCallback, useEffect, useReducer } from 'react';
 import { Dialog } from '@headlessui/react';
 import mergeClassnames from '../private/utils/mergeClassnames';
+import BottomsheetContext, { useBottomsheetContext } from './private/context';
 import stateReducer from './private/stateReducer';
 import useDrag from './private/useDrag';
 
@@ -16,26 +10,6 @@ type BottomsheetRootProps = {
   onClose: () => void;
   hasShadow?: boolean;
   size?: 'sm' | 'md' | 'lg' | string;
-};
-
-const BottomsheetContext = createContext<{
-  size?: 'sm' | 'md' | 'lg' | string;
-  registerChild?: (child: string) => () => void;
-  bottomsheetChildren?: any[];
-  draghandleRef?: React.RefObject<HTMLDivElement>;
-  dispatch: any;
-}>({ dispatch: () => {} });
-
-BottomsheetContext.displayName = 'BottomsheetContext';
-
-const useBottomsheetContext = (component: string) => {
-  const context = useContext(BottomsheetContext);
-  if (context === null) {
-    throw new Error(
-      `<${component}> is missing a parent <Bottomsheet /> component`
-    );
-  }
-  return context;
 };
 
 const BottomsheetRoot: React.FC<BottomsheetRootProps> = ({
@@ -84,16 +58,9 @@ const Panel: React.FC<PanelProps> = ({
   hasShadow,
   onClose,
 }) => {
-  const { size, bottomsheetChildren, dispatch } =
-    useBottomsheetContext('Bottomsheet.Panel');
-  const { isTransition, draghandleRef, panelRef, contentRef } =
+  const { size } = useBottomsheetContext('Bottomsheet.Panel');
+  const { isTransition, hasDraghandle, panelRef, contentRef } =
     useDrag(onClose);
-  const hasDraghandle = bottomsheetChildren?.includes('Draghandle');
-  useEffect(() => {
-    if (hasDraghandle) {
-      dispatch?.({ type: 'RegisterDraghandleRef', draghandleRef });
-    }
-  }, [hasDraghandle, bottomsheetChildren, dispatch, draghandleRef]);
   let height;
   switch (size) {
     case 'lg':
