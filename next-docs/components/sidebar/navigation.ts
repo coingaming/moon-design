@@ -13,6 +13,7 @@ const navigation = [
     name: 'Tailwind',
     children: [
       { name: 'Accordion', href: '/core/accordion' },
+      { name: 'AuthCode', href: '/core/authcode' },
       { name: 'Avatar', href: '/core/avatar' },
       { name: 'Breadcrumb', href: '/core/breadcrumb' },
       { name: 'Button', href: '/core/button' },
