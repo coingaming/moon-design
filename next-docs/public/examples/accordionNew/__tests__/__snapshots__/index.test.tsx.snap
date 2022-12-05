@@ -2,21 +2,21 @@
 
 exports[`Accordion New collapses 1`] = `
 <div
-  className="sc-deiPdS kdFWwD"
+  className="sc-jbOfQH cewSYA"
   size="medium"
 >
   <div
-    className="sc-dYtREw kzChzg"
+    className="sc-jVZirl cvfPjU"
     size="medium"
   >
     <h3
-      className="sc-dOaiCS bKdMCw"
+      className="sc-jLFzpH jGegF"
       onClick={[Function]}
     >
       Test accordion
     </h3>
     <button
-      className="sc-jVZirl bqFnXK"
+      className="sc-deiPdS crsHOM"
       onClick={[Function]}
       type="button"
     >
@@ -39,11 +39,11 @@ exports[`Accordion New collapses 1`] = `
     </button>
   </div>
   <div
-    className="sc-jLFzpH cpCLic"
+    className="sc-dYtREw bXXffL"
     size="medium"
   >
     <div
-      className="sc-jbOfQH jCnpXS"
+      className="sc-doCyfw ebKQDK"
       size="medium"
     >
       <div>
@@ -56,21 +56,21 @@ exports[`Accordion New collapses 1`] = `
 
 exports[`Accordion New expands 1`] = `
 <div
-  className="sc-deiPdS kdFWwD"
+  className="sc-jbOfQH cewSYA"
   size="medium"
 >
   <div
-    className="sc-dYtREw kzChzg"
+    className="sc-jVZirl cvfPjU"
     size="medium"
   >
     <h3
-      className="sc-dOaiCS bKdMCw"
+      className="sc-jLFzpH jGegF"
       onClick={[Function]}
     >
       Test accordion
     </h3>
     <button
-      className="sc-jVZirl bqFnXK"
+      className="sc-deiPdS crsHOM"
       onClick={[Function]}
       type="button"
     >
@@ -93,11 +93,11 @@ exports[`Accordion New expands 1`] = `
     </button>
   </div>
   <div
-    className="sc-jLFzpH jiyJPZ"
+    className="sc-dYtREw eIqxtW"
     size="medium"
   >
     <div
-      className="sc-jbOfQH jCnpXS"
+      className="sc-doCyfw ebKQDK"
       size="medium"
     >
       <div>
@@ -110,21 +110,21 @@ exports[`Accordion New expands 1`] = `
 
 exports[`Accordion New renders 1`] = `
 <div
-  className="sc-deiPdS kdFWwD"
+  className="sc-jbOfQH cewSYA"
   size="medium"
 >
   <div
-    className="sc-dYtREw kzChzg"
+    className="sc-jVZirl cvfPjU"
     size="medium"
   >
     <h3
-      className="sc-dOaiCS bKdMCw"
+      className="sc-jLFzpH jGegF"
       onClick={[Function]}
     >
       Test accordion
     </h3>
     <button
-      className="sc-jVZirl bqFnXK"
+      className="sc-deiPdS crsHOM"
       onClick={[Function]}
       type="button"
     >
@@ -147,11 +147,11 @@ exports[`Accordion New renders 1`] = `
     </button>
   </div>
   <div
-    className="sc-jLFzpH cpCLic"
+    className="sc-dYtREw bXXffL"
     size="medium"
   >
     <div
-      className="sc-jbOfQH jCnpXS"
+      className="sc-doCyfw ebKQDK"
       size="medium"
     >
       <div>
@@ -167,21 +167,21 @@ exports[`Accordion New renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="sc-deiPdS kdFWwD"
+    className="sc-jbOfQH cewSYA"
     size="medium"
   >
     <div
-      className="sc-dYtREw kzChzg"
+      className="sc-jVZirl cvfPjU"
       size="medium"
     >
       <h3
-        className="sc-dOaiCS bKdMCw"
+        className="sc-jLFzpH jGegF"
         onClick={[Function]}
       >
         Test accordion
       </h3>
       <button
-        className="sc-jVZirl bqFnXK"
+        className="sc-deiPdS crsHOM"
         onClick={[Function]}
         type="button"
       >
@@ -204,11 +204,11 @@ exports[`Accordion New renders RTL 1`] = `
       </button>
     </div>
     <div
-      className="sc-jLFzpH cpCLic"
+      className="sc-dYtREw bXXffL"
       size="medium"
     >
       <div
-        className="sc-jbOfQH jCnpXS"
+        className="sc-doCyfw ebKQDK"
         size="medium"
       >
         <div>
@@ -222,21 +222,21 @@ exports[`Accordion New renders RTL 1`] = `
 
 exports[`Accordion New renders content outside 1`] = `
 <div
-  className="sc-deiPdS yoXUj"
+  className="sc-jbOfQH bCSDrc"
   size="medium"
 >
   <div
-    className="sc-dYtREw jqeapD"
+    className="sc-jVZirl gyNNRf"
     size="medium"
   >
     <h3
-      className="sc-dOaiCS bKdMCw"
+      className="sc-jLFzpH jGegF"
       onClick={[Function]}
     >
       Test accordion
     </h3>
     <button
-      className="sc-jVZirl bqFnXK"
+      className="sc-deiPdS crsHOM"
       onClick={[Function]}
       type="button"
     >
@@ -259,11 +259,11 @@ exports[`Accordion New renders content outside 1`] = `
     </button>
   </div>
   <div
-    className="sc-jLFzpH cpCLic"
+    className="sc-dYtREw bXXffL"
     size="medium"
   >
     <div
-      className="sc-jbOfQH jCnpXS"
+      className="sc-doCyfw ebKQDK"
       size="medium"
     >
       <div>
@@ -276,21 +276,21 @@ exports[`Accordion New renders content outside 1`] = `
 
 exports[`Accordion New renders disable open 1`] = `
 <div
-  className="sc-deiPdS kdFWwD"
+  className="sc-jbOfQH cewSYA"
   size="medium"
 >
   <div
-    className="sc-dYtREw kzChzg"
+    className="sc-jVZirl cvfPjU"
     size="medium"
   >
     <h3
-      className="sc-dOaiCS bKdMCw"
+      className="sc-jLFzpH jGegF"
       onClick={[Function]}
     >
       Test accordion
     </h3>
     <button
-      className="sc-jVZirl fIwkWt"
+      className="sc-deiPdS eZvlBH"
       disabled={true}
       onClick={[Function]}
       type="button"
@@ -314,11 +314,11 @@ exports[`Accordion New renders disable open 1`] = `
     </button>
   </div>
   <div
-    className="sc-jLFzpH cpCLic"
+    className="sc-dYtREw bXXffL"
     size="medium"
   >
     <div
-      className="sc-jbOfQH jCnpXS"
+      className="sc-doCyfw ebKQDK"
       size="medium"
     >
       <div>
@@ -331,15 +331,15 @@ exports[`Accordion New renders disable open 1`] = `
 
 exports[`Accordion New renders header content 1`] = `
 <div
-  className="sc-deiPdS kdFWwD"
+  className="sc-jbOfQH cewSYA"
   size="medium"
 >
   <div
-    className="sc-dYtREw kzChzg"
+    className="sc-jVZirl cvfPjU"
     size="medium"
   >
     <h3
-      className="sc-dOaiCS bKdMCw"
+      className="sc-jLFzpH jGegF"
       onClick={[Function]}
     >
       Test accordion
@@ -407,7 +407,7 @@ exports[`Accordion New renders header content 1`] = `
       </svg>
     </div>
     <button
-      className="sc-jVZirl bqFnXK"
+      className="sc-deiPdS crsHOM"
       onClick={[Function]}
       type="button"
     >
@@ -430,11 +430,11 @@ exports[`Accordion New renders header content 1`] = `
     </button>
   </div>
   <div
-    className="sc-jLFzpH cpCLic"
+    className="sc-dYtREw bXXffL"
     size="medium"
   >
     <div
-      className="sc-jbOfQH jCnpXS"
+      className="sc-doCyfw ebKQDK"
       size="medium"
     >
       <div>
@@ -447,21 +447,21 @@ exports[`Accordion New renders header content 1`] = `
 
 exports[`Accordion New renders open by default 1`] = `
 <div
-  className="sc-deiPdS kdFWwD"
+  className="sc-jbOfQH cewSYA"
   size="medium"
 >
   <div
-    className="sc-dYtREw kzChzg"
+    className="sc-jVZirl cvfPjU"
     size="medium"
   >
     <h3
-      className="sc-dOaiCS bKdMCw"
+      className="sc-jLFzpH jGegF"
       onClick={[Function]}
     >
       Test accordion
     </h3>
     <button
-      className="sc-jVZirl bqFnXK"
+      className="sc-deiPdS crsHOM"
       onClick={[Function]}
       type="button"
     >
@@ -484,11 +484,11 @@ exports[`Accordion New renders open by default 1`] = `
     </button>
   </div>
   <div
-    className="sc-jLFzpH jiyJPZ"
+    className="sc-dYtREw eIqxtW"
     size="medium"
   >
     <div
-      className="sc-jbOfQH jCnpXS"
+      className="sc-doCyfw ebKQDK"
       size="medium"
     >
       <div>
@@ -502,21 +502,21 @@ exports[`Accordion New renders open by default 1`] = `
 exports[`Accordion New renders sizes variants 1`] = `
 Array [
   <div
-    className="sc-deiPdS dilWyV"
+    className="sc-jbOfQH Nonqi"
     size="xlarge"
   >
     <div
-      className="sc-dYtREw gmgUJu"
+      className="sc-jVZirl kyjppm"
       size="xlarge"
     >
       <h3
-        className="sc-dOaiCS bKdMCw"
+        className="sc-jLFzpH jGegF"
         onClick={[Function]}
       >
         X Large (Default)
       </h3>
       <button
-        className="sc-jVZirl bqFnXK"
+        className="sc-deiPdS crsHOM"
         onClick={[Function]}
         type="button"
       >
@@ -539,11 +539,11 @@ Array [
       </button>
     </div>
     <div
-      className="sc-jLFzpH cpCLic"
+      className="sc-dYtREw bXXffL"
       size="xlarge"
     >
       <div
-        className="sc-jbOfQH kIAUng"
+        className="sc-doCyfw hVSuzE"
         size="xlarge"
       >
         <div>
@@ -553,21 +553,21 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-deiPdS fNcZYQ"
+    className="sc-jbOfQH bLeoAn"
     size="large"
   >
     <div
-      className="sc-dYtREw fBzTEk"
+      className="sc-jVZirl hbksTM"
       size="large"
     >
       <h3
-        className="sc-dOaiCS bKdMCw"
+        className="sc-jLFzpH jGegF"
         onClick={[Function]}
       >
         Large
       </h3>
       <button
-        className="sc-jVZirl bqFnXK"
+        className="sc-deiPdS crsHOM"
         onClick={[Function]}
         type="button"
       >
@@ -590,11 +590,11 @@ Array [
       </button>
     </div>
     <div
-      className="sc-jLFzpH cpCLic"
+      className="sc-dYtREw bXXffL"
       size="large"
     >
       <div
-        className="sc-jbOfQH hNYBR"
+        className="sc-doCyfw fHlGDB"
         size="large"
       >
         <div>
@@ -604,21 +604,21 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-deiPdS kdFWwD"
+    className="sc-jbOfQH cewSYA"
     size="medium"
   >
     <div
-      className="sc-dYtREw kzChzg"
+      className="sc-jVZirl cvfPjU"
       size="medium"
     >
       <h3
-        className="sc-dOaiCS bKdMCw"
+        className="sc-jLFzpH jGegF"
         onClick={[Function]}
       >
         Medium
       </h3>
       <button
-        className="sc-jVZirl bqFnXK"
+        className="sc-deiPdS crsHOM"
         onClick={[Function]}
         type="button"
       >
@@ -641,11 +641,11 @@ Array [
       </button>
     </div>
     <div
-      className="sc-jLFzpH cpCLic"
+      className="sc-dYtREw bXXffL"
       size="medium"
     >
       <div
-        className="sc-jbOfQH jCnpXS"
+        className="sc-doCyfw ebKQDK"
         size="medium"
       >
         <div>
@@ -655,21 +655,21 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-deiPdS gmcxAV"
+    className="sc-jbOfQH jqerC"
     size="small"
   >
     <div
-      className="sc-dYtREw eoOJgD"
+      className="sc-jVZirl jocavz"
       size="small"
     >
       <h3
-        className="sc-dOaiCS bKdMCw"
+        className="sc-jLFzpH jGegF"
         onClick={[Function]}
       >
         Small
       </h3>
       <button
-        className="sc-jVZirl bqFnXK"
+        className="sc-deiPdS crsHOM"
         onClick={[Function]}
         type="button"
       >
@@ -692,11 +692,11 @@ Array [
       </button>
     </div>
     <div
-      className="sc-jLFzpH cpCLic"
+      className="sc-dYtREw bXXffL"
       size="small"
     >
       <div
-        className="sc-jbOfQH VTtBw"
+        className="sc-doCyfw gLSKtE"
         size="small"
       >
         <div>
@@ -711,21 +711,21 @@ Array [
 exports[`Accordion New renders sizes variants with content outside 1`] = `
 Array [
   <div
-    className="sc-deiPdS yoXUj"
+    className="sc-jbOfQH bCSDrc"
     size="xlarge"
   >
     <div
-      className="sc-dYtREw bTInTu"
+      className="sc-jVZirl lfzBeq"
       size="xlarge"
     >
       <h3
-        className="sc-dOaiCS bKdMCw"
+        className="sc-jLFzpH jGegF"
         onClick={[Function]}
       >
         X Large (Default)
       </h3>
       <button
-        className="sc-jVZirl bqFnXK"
+        className="sc-deiPdS crsHOM"
         onClick={[Function]}
         type="button"
       >
@@ -748,11 +748,11 @@ Array [
       </button>
     </div>
     <div
-      className="sc-jLFzpH cpCLic"
+      className="sc-dYtREw bXXffL"
       size="xlarge"
     >
       <div
-        className="sc-jbOfQH kIAUng"
+        className="sc-doCyfw hVSuzE"
         size="xlarge"
       >
         <div>
@@ -762,21 +762,21 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-deiPdS yoXUj"
+    className="sc-jbOfQH bCSDrc"
     size="large"
   >
     <div
-      className="sc-dYtREw cXQtOm"
+      className="sc-jVZirl efuOSu"
       size="large"
     >
       <h3
-        className="sc-dOaiCS bKdMCw"
+        className="sc-jLFzpH jGegF"
         onClick={[Function]}
       >
         Large
       </h3>
       <button
-        className="sc-jVZirl bqFnXK"
+        className="sc-deiPdS crsHOM"
         onClick={[Function]}
         type="button"
       >
@@ -799,11 +799,11 @@ Array [
       </button>
     </div>
     <div
-      className="sc-jLFzpH cpCLic"
+      className="sc-dYtREw bXXffL"
       size="large"
     >
       <div
-        className="sc-jbOfQH hNYBR"
+        className="sc-doCyfw fHlGDB"
         size="large"
       >
         <div>
@@ -813,21 +813,21 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-deiPdS yoXUj"
+    className="sc-jbOfQH bCSDrc"
     size="medium"
   >
     <div
-      className="sc-dYtREw jqeapD"
+      className="sc-jVZirl gyNNRf"
       size="medium"
     >
       <h3
-        className="sc-dOaiCS bKdMCw"
+        className="sc-jLFzpH jGegF"
         onClick={[Function]}
       >
         Medium
       </h3>
       <button
-        className="sc-jVZirl bqFnXK"
+        className="sc-deiPdS crsHOM"
         onClick={[Function]}
         type="button"
       >
@@ -850,11 +850,11 @@ Array [
       </button>
     </div>
     <div
-      className="sc-jLFzpH cpCLic"
+      className="sc-dYtREw bXXffL"
       size="medium"
     >
       <div
-        className="sc-jbOfQH jCnpXS"
+        className="sc-doCyfw ebKQDK"
         size="medium"
       >
         <div>
@@ -864,21 +864,21 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-deiPdS yoXUj"
+    className="sc-jbOfQH bCSDrc"
     size="small"
   >
     <div
-      className="sc-dYtREw lnOQAN"
+      className="sc-jVZirl eSsEPJ"
       size="small"
     >
       <h3
-        className="sc-dOaiCS bKdMCw"
+        className="sc-jLFzpH jGegF"
         onClick={[Function]}
       >
         Small
       </h3>
       <button
-        className="sc-jVZirl bqFnXK"
+        className="sc-deiPdS crsHOM"
         onClick={[Function]}
         type="button"
       >
@@ -901,11 +901,11 @@ Array [
       </button>
     </div>
     <div
-      className="sc-jLFzpH cpCLic"
+      className="sc-dYtREw bXXffL"
       size="small"
     >
       <div
-        className="sc-jbOfQH VTtBw"
+        className="sc-doCyfw gLSKtE"
         size="small"
       >
         <div>
@@ -919,26 +919,26 @@ Array [
 
 exports[`Accordion New renders without button 1`] = `
 <div
-  className="sc-deiPdS kdFWwD"
+  className="sc-jbOfQH cewSYA"
   size="medium"
 >
   <div
-    className="sc-dYtREw kzChzg"
+    className="sc-jVZirl cvfPjU"
     size="medium"
   >
     <h3
-      className="sc-dOaiCS bKdMCw"
+      className="sc-jLFzpH jGegF"
       onClick={[Function]}
     >
       Test accordion
     </h3>
   </div>
   <div
-    className="sc-jLFzpH cpCLic"
+    className="sc-dYtREw bXXffL"
     size="medium"
   >
     <div
-      className="sc-jbOfQH jCnpXS"
+      className="sc-doCyfw ebKQDK"
       size="medium"
     >
       <div>

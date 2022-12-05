@@ -9,14 +9,14 @@ Array [
     tabIndex={-1}
   >
     <button
-      className="sc-kSzVC kdrggf"
+      className="sc-bhpuBD bJBXpN"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Toggle Popover
       <div
-        className="sc-jNxMLV lesvys"
+        className="sc-ctuRtO hAGojo"
       />
     </button>
   </div>,
@@ -32,30 +32,30 @@ Array [
           className="p-8 space-y-4"
         >
           <h3
-            className="sc-jLFzpH iyygo"
+            className="sc-dYtREw fcdcYL"
             size={20}
           >
             Agents
           </h3>
           <p
-            className="sc-hZiMVj iUhvAi"
+            className="sc-dDaJoQ ilPuZd"
             size={14}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           </p>
         </div>
         <div
-          className="sc-eirfIE geuoxP"
+          className="sc-hfufsb fQxmkL"
           size="small"
         >
           <div
-            className="sc-hfufsb dKhJMC"
+            className="sc-dmWEhm jyUzvI"
           >
             <div
-              className="sc-iaOGTt khIAMB"
+              className="sc-eirfIE mRtlB"
             >
               <button
-                className="sc-kSzVC kWlBNN"
+                className="sc-bhpuBD bgxfP"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
@@ -63,15 +63,15 @@ Array [
               >
                 OK
                 <div
-                  className="sc-jNxMLV lesvys"
+                  className="sc-ctuRtO hAGojo"
                 />
               </button>
             </div>
             <div
-              className="sc-iaOGTt khIAMB"
+              className="sc-eirfIE mRtlB"
             >
               <button
-                className="sc-kSzVC kqjQey"
+                className="sc-bhpuBD eelIJA"
                 onClick={[Function]}
                 onMouseEnter={[Function]}
                 onMouseLeave={[Function]}
@@ -79,16 +79,16 @@ Array [
               >
                 Cansel
                 <div
-                  className="sc-jNxMLV lesvys"
+                  className="sc-ctuRtO hAGojo"
                 />
               </button>
             </div>
           </div>
           <div
-            className="sc-iaOGTt khIAMB"
+            className="sc-eirfIE mRtlB"
           >
             <button
-              className="sc-kSzVC cIpHYY"
+              className="sc-bhpuBD cLuZSu"
               onClick={[Function]}
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
@@ -96,7 +96,7 @@ Array [
             >
               Decline
               <div
-                className="sc-jNxMLV lesvys"
+                className="sc-ctuRtO hAGojo"
               />
             </button>
           </div>

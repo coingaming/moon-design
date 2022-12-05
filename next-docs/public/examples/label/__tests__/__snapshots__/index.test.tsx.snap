@@ -3,18 +3,18 @@
 exports[`Label renders with different Colours 1`] = `
 Array [
   <span
-    className="sc-cmvVVv dilWGd"
+    className="sc-bgA-dc hFCLOZ"
   >
     Xsmall
   </span>,
   <span
-    className="sc-cmvVVv ibPxIW"
+    className="sc-bgA-dc bxSOEq"
     color="goten.100"
   >
     Xsmall
   </span>,
   <span
-    className="sc-cmvVVv dlWIHG"
+    className="sc-bgA-dc jIDZvG"
     color="goten.100"
   >
     Xsmall
@@ -28,11 +28,11 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <span
-      className="sc-cmvVVv cCJbhu"
+      className="sc-bgA-dc gbski"
       size="twoxsmall"
     >
       <span
-        className="sc-joKenV gVrssK"
+        className="sc-fduepK cWcCvs"
         size="twoxsmall"
       >
         <svg
@@ -54,12 +54,12 @@ Array [
       Twoxsmall
     </span>
     <span
-      className="sc-cmvVVv fOfKnm"
+      className="sc-bgA-dc iehwxe"
       size="twoxsmall"
     >
       Twoxsmall
       <span
-        className="sc-fduepK jaxnf"
+        className="sc-cmvVVv fPVuqE"
         size="twoxsmall"
       >
         <svg
@@ -80,11 +80,11 @@ Array [
       </span>
     </span>
     <span
-      className="sc-cmvVVv hGosRg"
+      className="sc-bgA-dc iqlAPo"
       size="twoxsmall"
     >
       <span
-        className="sc-joKenV gVrssK"
+        className="sc-fduepK cWcCvs"
         size="twoxsmall"
       >
         <svg
@@ -105,7 +105,7 @@ Array [
       </span>
       Twoxsmall
       <span
-        className="sc-fduepK jaxnf"
+        className="sc-cmvVVv fPVuqE"
         size="twoxsmall"
       >
         <svg
@@ -130,10 +130,10 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <span
-      className="sc-cmvVVv uayAj"
+      className="sc-bgA-dc hjTIDT"
     >
       <span
-        className="sc-joKenV cbCEjn"
+        className="sc-fduepK cHJErN"
       >
         <svg
           className="sc-iqGgem"
@@ -154,11 +154,11 @@ Array [
       Xsmall
     </span>
     <span
-      className="sc-cmvVVv ehFmFf"
+      className="sc-bgA-dc lcYaeH"
     >
       Xsmall
       <span
-        className="sc-fduepK fJtLaK"
+        className="sc-cmvVVv kKLWYR"
       >
         <svg
           className="sc-gSAPjG"
@@ -178,10 +178,10 @@ Array [
       </span>
     </span>
     <span
-      className="sc-cmvVVv KcrNh"
+      className="sc-bgA-dc kmgzHF"
     >
       <span
-        className="sc-joKenV cbCEjn"
+        className="sc-fduepK cHJErN"
       >
         <svg
           className="sc-iqGgem"
@@ -201,7 +201,7 @@ Array [
       </span>
       Xsmall
       <span
-        className="sc-fduepK fJtLaK"
+        className="sc-cmvVVv kKLWYR"
       >
         <svg
           className="sc-gSAPjG"
@@ -227,12 +227,12 @@ Array [
 exports[`Label renders with different LetterCases 1`] = `
 Array [
   <span
-    className="sc-cmvVVv dilWGd"
+    className="sc-bgA-dc hFCLOZ"
   >
     Default
   </span>,
   <span
-    className="sc-cmvVVv iiSpFu"
+    className="sc-bgA-dc AowLm"
   >
     Lowercase
   </span>,
@@ -242,24 +242,24 @@ Array [
 exports[`Label renders with different Sizes 1`] = `
 Array [
   <span
-    className="sc-cmvVVv erlhGs"
+    className="sc-bgA-dc dZNqZg"
     size="twoxsmall"
   >
     Twoxsmall
   </span>,
   <span
-    className="sc-cmvVVv dilWGd"
+    className="sc-bgA-dc hFCLOZ"
   >
     Xsmall
   </span>,
   <span
-    className="sc-cmvVVv btiGjp"
+    className="sc-bgA-dc jTEiiJ"
     size="twoxsmall"
   >
     Twoxsmall
   </span>,
   <span
-    className="sc-cmvVVv iiSpFu"
+    className="sc-bgA-dc AowLm"
   >
     Xsmall
   </span>,
