@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import ButtonMd from '../../../public/examples/dialog/footer/ButtonMd';
 import ButtonSm from '../../../public/examples/dialog/footer/ButtonSm';
@@ -12,10 +13,7 @@ export default function PageDialogFooter() {
   return (
     <>
       <ComponentPageDescription title="Dialog Footer">
-        <p>
-          Footer is a confirmatiuon module to be used in the Dialogs: Modal,
-          Popover and the Multi select Dropdown
-        </p>
+        <DeprecationWarning href="/core/modal" name="Modal" />
       </ComponentPageDescription>
       <Preview
         title="Buttons size: xs"

@@ -2,27 +2,25 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Animations from '../../public/examples/buttonTW/Animations';
-import AsLink from '../../public/examples/buttonTW/AsLink';
-import Default from '../../public/examples/buttonTW/Default';
-import Disabled from '../../public/examples/buttonTW/Disabled';
-import FullWidth from '../../public/examples/buttonTW/FullWidth';
-import Icons from '../../public/examples/buttonTW/Icons';
-import Sizes from '../../public/examples/buttonTW/Sizes';
-import Variants from '../../public/examples/buttonTW/Variants';
+import Animations from '../../public/examples/iconButtonTW/Animations';
+import AsLink from '../../public/examples/iconButtonTW/AsLink';
+import Default from '../../public/examples/iconButtonTW/Default';
+import Disabled from '../../public/examples/iconButtonTW/Disabled';
+import Sizes from '../../public/examples/iconButtonTW/Sizes';
+import Variants from '../../public/examples/iconButtonTW/Variants';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('buttonTW');
+  const examples = useExamples('iconButtonTW');
   return (
     <>
-      <ComponentPageDescription title="Button" isInProgress isRtlSupport>
+      <ComponentPageDescription title="IconButton" isInProgress isRtlSupport>
         <p>
-          Buttons are calls-to-action used to prompt users. They encourage users
-          to interact with us in multiple ways throughout our galaxy, based on
-          what the label of the button indicates. Buttons are clickable elements
-          with label text that describe the action that will happen when the
-          users interact with it.
+          Icon buttons are calls-to-action used to prompt users. They encourage
+          users to interact with us in multiple ways throughout our galaxy,
+          based on what the icon of the button indicates. Icon buttons are
+          clickable elements with an icon that describe the action that will
+          happen when the users interact with it.
         </p>
       </ComponentPageDescription>
       <Preview
@@ -44,16 +42,6 @@ const Example = () => {
         title="Sizes"
         preview={<Sizes />}
         code={examples ? examples.Sizes : 'Loading'}
-      />
-      <Preview
-        title="Icons"
-        preview={<Icons />}
-        code={examples ? examples.Icons : 'Loading'}
-      />
-      <Preview
-        title="Full width"
-        preview={<FullWidth />}
-        code={examples ? examples.FullWidth : 'Loading'}
       />
       <Preview
         title="Disabled"
@@ -97,25 +85,11 @@ const Example = () => {
             description: 'Disabled button',
           },
           {
-            name: 'fullWidth',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description: 'Full width button',
-          },
-          {
-            name: 'iconLeft',
+            name: 'icon',
             type: 'JSX.Element',
             required: false,
             default: '-',
-            description: 'Left icon',
-          },
-          {
-            name: 'iconRight',
-            type: 'JSX.Element',
-            required: false,
-            default: '-',
-            description: 'Right icon',
+            description: 'Icon',
           },
           {
             name: 'size',

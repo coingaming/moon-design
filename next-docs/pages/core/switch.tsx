@@ -24,6 +24,18 @@ const Example = () => {
           occur immediately after the user “flips” the switch. They are commonly
           used for “on/off” switches.
         </p>
+        <p>
+          Based on{' '}
+          <a
+            href="https://headlessui.com/"
+            className="transition-colors underline hover:text-piccolo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Headless UI
+          </a>
+          .
+        </p>
       </ComponentPageDescription>
       <Preview
         title="Default"
