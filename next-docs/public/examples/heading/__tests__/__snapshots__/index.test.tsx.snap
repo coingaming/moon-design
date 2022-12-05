@@ -2,7 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <h3
-  className="sc-dOaiCS bKdMCw"
+  className="sc-jLFzpH jGegF"
 >
   Heading
 </h3>
@@ -11,24 +11,24 @@ exports[`Caption renders 1`] = `
 exports[`Caption renders colors 1`] = `
 Array [
   <h3
-    className="sc-dOaiCS bKdMCw"
+    className="sc-jLFzpH jGegF"
   >
     Default color is Bulma
   </h3>,
   <h3
-    className="sc-dOaiCS kTlNDp"
+    className="sc-jLFzpH bfKaYQ"
     color="piccolo.100"
   >
     Piccolo
   </h3>,
   <h3
-    className="sc-dOaiCS ilcjEL"
+    className="sc-jLFzpH hXqjse"
     color="trunks.100"
   >
     Trunks
   </h3>,
   <h3
-    className="sc-dOaiCS lVSkx"
+    className="sc-jLFzpH cvoDBI"
     color="krillin.100"
   >
     Krillin
@@ -39,12 +39,12 @@ Array [
 exports[`Caption renders font-weight 1`] = `
 Array [
   <h3
-    className="sc-dOaiCS bKdMCw"
+    className="sc-jLFzpH jGegF"
   >
     Default font-weight is bold
   </h3>,
   <h3
-    className="sc-dOaiCS dHMzPd"
+    className="sc-jLFzpH eGzghk"
   >
     Font-weight is regular
   </h3>,
@@ -54,12 +54,12 @@ Array [
 exports[`Caption renders line height 1`] = `
 Array [
   <h3
-    className="sc-dOaiCS bKdMCw"
+    className="sc-jLFzpH jGegF"
   >
     Line-height is pre-calculated
   </h3>,
   <h3
-    className="sc-dOaiCS dVvsYl"
+    className="sc-jLFzpH jxsivE"
   >
     Custon line-height
   </h3>,
@@ -69,17 +69,17 @@ Array [
 exports[`Caption renders semantic tags 1`] = `
 Array [
   <h3
-    className="sc-dOaiCS bKdMCw"
+    className="sc-jLFzpH jGegF"
   >
     H3 is a default tag
   </h3>,
   <h2
-    className="sc-dOaiCS bKdMCw"
+    className="sc-jLFzpH jGegF"
   >
     H2 tag
   </h2>,
   <h6
-    className="sc-dOaiCS bKdMCw"
+    className="sc-jLFzpH jGegF"
   >
     H6 tag
   </h6>,
@@ -89,18 +89,18 @@ Array [
 exports[`Caption renders sizes 1`] = `
 Array [
   <h3
-    className="sc-dOaiCS bKdMCw"
+    className="sc-jLFzpH jGegF"
   >
     Default font-size is 16px
   </h3>,
   <h3
-    className="sc-dOaiCS fxqcRP"
+    className="sc-jLFzpH hKfpqe"
     size={24}
   >
     Size is 24px
   </h3>,
   <h3
-    className="sc-dOaiCS hodSjj"
+    className="sc-jLFzpH kFmZZa"
     size={48}
   >
     Size is 48px
@@ -111,17 +111,17 @@ Array [
 exports[`Caption renders text-align 1`] = `
 Array [
   <h3
-    className="sc-dOaiCS bKdMCw"
+    className="sc-jLFzpH jGegF"
   >
     Text-align is not specified
   </h3>,
   <h3
-    className="sc-dOaiCS bQCcsP"
+    className="sc-jLFzpH dASHOW"
   >
     Centered Heading
   </h3>,
   <h3
-    className="sc-dOaiCS cqxbgs"
+    className="sc-jLFzpH buxASB"
   >
     Right alignment
   </h3>,
@@ -131,12 +131,12 @@ Array [
 exports[`Caption renders underline 1`] = `
 Array [
   <h3
-    className="sc-dOaiCS bKdMCw"
+    className="sc-jLFzpH jGegF"
   >
     Default text-decoration is none
   </h3>,
   <h3
-    className="sc-dOaiCS gPNupN"
+    className="sc-jLFzpH etEBqY"
   >
     Underline Heading
   </h3>,
@@ -146,12 +146,12 @@ Array [
 exports[`Caption renders uppercase 1`] = `
 Array [
   <h3
-    className="sc-dOaiCS bKdMCw"
+    className="sc-jLFzpH jGegF"
   >
     Default text-transform is none
   </h3>,
   <h3
-    className="sc-dOaiCS eHwDyD"
+    className="sc-jLFzpH dvmsVq"
   >
     Uppercase Heading
   </h3>,
