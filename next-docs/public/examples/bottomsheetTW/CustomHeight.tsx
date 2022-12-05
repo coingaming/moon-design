@@ -4,10 +4,9 @@ import { Table } from '@heathmont/moon-table-tw';
 
 const generateTableData = (length: number) =>
   Array.from('_'.repeat(length)).map((_, index) => {
-    const isTails = Math.random() < 0.5;
     return {
-      firstName: isTails ? 'Milton' : 'Thomas',
-      lastName: isTails ? 'Friedman' : 'Sowell',
+      firstName: index % 2 === 0 ? 'Milton' : 'Thomas',
+      lastName: index % 2 === 0 ? 'Friedman' : 'Sowell',
       age: <span>{Math.floor(index * 22)}</span>,
       money: <span>{Math.floor(index * 10000)}</span>,
       progress: <span>{Math.floor(index * 100)}</span>,
