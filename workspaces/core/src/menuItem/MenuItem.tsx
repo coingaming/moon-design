@@ -92,8 +92,7 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
         <Component
           ref={ref}
           className={mergeClassnames(
-            'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer',
-            'hover:bg-bulma/[0.04] transition',
+            'flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition',
             width ? width : 'w-full',
             (innerSelected || isActive) && 'bg-bulma/[0.04]',
             className && className
