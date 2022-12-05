@@ -1,76 +1,58 @@
-import avertaStd from '../sharedTokens/avertaStd';
+import bitcasinoLight from '../bitcasinoLight/bitcasinoLight';
 import componentsTokens from '../sharedTokens/componentsTokens';
 import sharedTokens, { Theme } from '../sharedTokens/sharedTokens';
 import supportColors from '../supportColors/supportColors';
 import supportiveColors from '../v2/colors/supportiveColors';
 
-const color = {
+const colors = {
   piccolo: {
-    120: '#cda770',
-    100: '#cdae7e',
-    80: '#ceb48d',
+    100: 'rgba(255, 79, 15, 1)',
   },
   hit: {
-    120: '#2d2824',
-    100: '#3b3530',
-    80: '#48423c',
+    100: 'rgba(32, 32, 32, 1)',
   },
   goten: {
-    100: '#090e15',
+    100: 'rgba(255, 255, 255, 1)',
   },
   goku: {
-    100: '#0b0d0e',
-    80: '#17191c',
-    40: '#2f3337',
-    10: '#484c51',
+    100: 'rgba(0, 0, 0, 1)',
   },
   gohan: {
-    100: '#2d2925',
-    80: '#3a3631',
-    40: '#554f4a',
-    10: '#6e6863',
+    100: 'rgba(19, 19, 19, 1)',
   },
   beerus: {
-    100: '#443f3c',
+    100: 'background: rgba(255, 255, 255, 0.08)',
   },
   bulma: {
-    100: '#ffffff',
+    100: 'rgba(255, 255, 255, 1)',
   },
   trunks: {
-    100: '#9a8565',
+    100: 'rgba(122, 122, 122, 1)',
   },
 };
 
 const colorNew = {
-  piccolo: '#cdae7e',
-  hit: '#3b3530',
-  beerus: '#443f3c',
-  goku: '#0b0d0e',
-  gohan: '#2d2925',
+  piccolo: '#FF4F0F',
+  hit: '#202020',
+  beerus: colors.beerus[100],
+  goku: colors.goku[100],
+  gohan: '#0C0C0C',
   bulma: '#ffffff',
-  trunks: '#9a8565',
-  goten: '#090e15',
+  trunks: '#7A7A7A',
+  goten: '#ffffff',
   popo: '#000000',
 };
 
+const { hover: bombayClubHover } = bitcasinoLight;
+
 const bombayClub: Theme = {
   ...sharedTokens,
-  radius: {
-    small: 4,
-    default: 8,
-    largest: 8,
-  },
   brand: 'BombayClub',
-  fontFace: avertaStd.fontFace,
-  fontFamily: avertaStd.fontStack,
-  fontSize: {
-    body: 14,
-  },
   color: {
-    text: color.bulma[100],
-    background: color.goku[100],
+    text: colors.bulma[100],
+    background: colors.goku[100],
     ...supportColors,
-    ...color,
+    ...colors,
   },
   colorNew: {
     ...colorNew,
@@ -78,6 +60,10 @@ const bombayClub: Theme = {
   },
   ...componentsTokens(colorNew),
   colorScheme: 'dark',
+  hover: {
+    ...bombayClubHover,
+    primary: colors.beerus[100],
+  },
 };
 
 export default bombayClub;
