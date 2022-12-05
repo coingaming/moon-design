@@ -138,7 +138,7 @@ module.exports = {
         input: '0 0 0 var(--border-width) rgb(var(--beerus)) inset',
         'input-hov':
           '0 0 0 var(--border-i-width) rgb(var(--bulma) / 7%) inset, 0 0 0 var(--border-i-width) rgb(var(--beerus)) inset',
-        'input-err': '0 0 0 var(--border-i-width) rgb(var(--chichi)) inset',
+        'input-err': '0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset',
         'input-focus': '0 0 0 var(--border-i-width) rgb(var(--piccolo)) inset',
         'moon-xs': 'var(--shadow-xs)',
         'moon-sm': 'var(--shadow-sm)',
@@ -248,9 +248,9 @@ module.exports = {
           10: withOpacityValue('--krillin-10'),
         },
         chiChi: {
-          DEFAULT: withOpacityValue('--chichi'),
-          60: withOpacityValue('--chichi-60'),
-          10: withOpacityValue('--chichi-10'),
+          DEFAULT: withOpacityValue('--chi-chi'),
+          60: withOpacityValue('--chi-chi-60'),
+          10: withOpacityValue('--chi-chi-10'),
         },
         roshi: {
           DEFAULT: withOpacityValue('--roshi'),
