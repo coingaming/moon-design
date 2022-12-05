@@ -634,7 +634,7 @@ Array [
               role="rowgroup"
             >
               <div
-                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-popo bg-gohan"
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
                 onClick={[Function]}
                 onMouseEnter={null}
                 onMouseLeave={null}
@@ -648,7 +648,7 @@ Array [
                 }
               >
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -662,7 +662,7 @@ Array [
                   Milton
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -676,7 +676,7 @@ Array [
                   Friedman
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -692,7 +692,7 @@ Array [
                   </span>
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -708,7 +708,7 @@ Array [
                   </span>
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -722,7 +722,7 @@ Array [
                   0
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -737,7 +737,7 @@ Array [
                 </div>
               </div>
               <div
-                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-popo bg-gohan"
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
                 onClick={[Function]}
                 onMouseEnter={null}
                 onMouseLeave={null}
@@ -751,7 +751,7 @@ Array [
                 }
               >
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -765,7 +765,7 @@ Array [
                   Thomas
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -779,7 +779,7 @@ Array [
                   Sowell
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -795,7 +795,7 @@ Array [
                   </span>
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -811,7 +811,7 @@ Array [
                   </span>
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -825,7 +825,7 @@ Array [
                   100
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -840,7 +840,7 @@ Array [
                 </div>
               </div>
               <div
-                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-popo bg-gohan"
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
                 onClick={[Function]}
                 onMouseEnter={null}
                 onMouseLeave={null}
@@ -854,7 +854,7 @@ Array [
                 }
               >
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -868,7 +868,7 @@ Array [
                   Milton
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -882,7 +882,7 @@ Array [
                   Friedman
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -898,7 +898,7 @@ Array [
                   </span>
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -914,7 +914,7 @@ Array [
                   </span>
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -928,7 +928,7 @@ Array [
                   200
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -943,7 +943,7 @@ Array [
                 </div>
               </div>
               <div
-                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-popo bg-gohan"
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
                 onClick={[Function]}
                 onMouseEnter={null}
                 onMouseLeave={null}
@@ -957,7 +957,7 @@ Array [
                 }
               >
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -971,7 +971,7 @@ Array [
                   Thomas
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -985,7 +985,7 @@ Array [
                   Sowell
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -1001,7 +1001,7 @@ Array [
                   </span>
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -1017,7 +1017,7 @@ Array [
                   </span>
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -1031,7 +1031,7 @@ Array [
                   300
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -1046,7 +1046,7 @@ Array [
                 </div>
               </div>
               <div
-                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-popo bg-gohan"
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
                 onClick={[Function]}
                 onMouseEnter={null}
                 onMouseLeave={null}
@@ -1060,7 +1060,7 @@ Array [
                 }
               >
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -1074,7 +1074,7 @@ Array [
                   Milton
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -1088,7 +1088,7 @@ Array [
                   Friedman
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -1104,7 +1104,7 @@ Array [
                   </span>
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -1120,7 +1120,7 @@ Array [
                   </span>
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
@@ -1134,7 +1134,7 @@ Array [
                   400
                 </div>
                 <div
-                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-popo bg-gohan"
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
                   role="cell"
                   style={
                     Object {
