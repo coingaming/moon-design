@@ -11,7 +11,7 @@ const Example = () => {
   const [activeOpt, setActiveOpt] = useState(true);
 
   return (
-    <div className="w-94 bg-white flex flex-col gap-3 rounded-moon-s-lg p-6">
+    <div className="w-94 bg-gohan flex flex-col gap-3 rounded-moon-s-lg p-6">
       <MenuItem isActive={activeOpt}>
         <span className="bg-piccolo/20 rounded-lg w-10 h-10 flex justify-center items-center">
           <TravelAirplane className="text-2xl" color="#4E46B4" />

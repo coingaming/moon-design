@@ -19,7 +19,7 @@ const Example = () => {
 
   return (
     <div className="flex items-start flex-wrap justify-around gap-2 w-full">
-      <div className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4">
+      <div className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4">
         <MenuItem as="a" href="/">
           Vision
         </MenuItem>
@@ -67,7 +67,7 @@ const Example = () => {
         )}
       </div>
 
-      <div className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4">
+      <div className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4">
         <MenuItem>
           <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
             <p className="leading-4 font-semibold text-moon-10">B</p>
