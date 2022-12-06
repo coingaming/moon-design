@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.14.3
+
+### Patch Changes
+
+- Bump version
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons@9.14.3
+  - @heathmont/moon-themes@9.14.3
+  - @heathmont/moon-components@9.14.3
+  - @heathmont/moon-core@9.14.3
+  - @heathmont/moon-utils@9.14.3
+
 ## 9.14.2
 
 ### Patch Changes
