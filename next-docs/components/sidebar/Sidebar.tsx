@@ -7,11 +7,11 @@ import RecursiveNavItem from './RecursiveNavItem';
 import Version from './Version';
 import type ItemType from './ItemType';
 
-interface SidebarProps {
+type Props = {
   closeSidebar?: () => void;
-}
+};
 
-const Sidebar: React.FC<SidebarProps> = ({ closeSidebar }) => {
+const Sidebar: React.FC<Props> = ({ closeSidebar }) => {
   const { pathname } = useRouter();
   return (
     <div className="z-10 fixed top-0 h-screen w-80 flex flex-col flex-grow gap-10 pt-12 pb-6 px-5 lg:px-8 bg-goku overflow-y-scroll">
