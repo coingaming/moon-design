@@ -46,7 +46,7 @@ const ForDesigners = () => (
           Getting Started
         </Button>
       </Link>
-      <Link href="/core/typography" passHref>
+      <Link href="/typography" passHref>
         <Button as="a" variant="secondary">
           Typography
         </Button>

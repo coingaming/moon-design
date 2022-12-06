@@ -14,7 +14,7 @@ const PageAuthCodeGroup = () => {
 
   return (
     <>
-      <ComponentPageDescription title="AuthCode">
+      <ComponentPageDescription title="AuthCode" isInProgress>
         <p>
           The AuthCode component consists of TextInput components with
           additional logic that supports quick and easy one-time-password

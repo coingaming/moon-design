@@ -6,7 +6,7 @@ import coloursImg from '../public/illustartions/colors.png';
 
 const PageColours = () => (
   <>
-    <ComponentPageDescription title="Colours Palette" image={coloursImg}>
+    <ComponentPageDescription title="Colours" image={coloursImg}>
       <p>
         Our design system is decentralized and built for multi-product purposes.
         Having different-color naming conventions and numbers etc... makes it

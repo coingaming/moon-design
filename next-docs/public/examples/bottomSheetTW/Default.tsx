@@ -1,20 +1,20 @@
 import React, { useState } from 'react';
-import { Bottomsheet, Button } from '@heathmont/moon-core-tw';
+import { BottomSheet, Button } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const closeBottomsheet = () => {
+  const closeBottomSheet = () => {
     setIsOpen(false);
   };
-  const openBottomsheet = () => {
+  const openBottomSheet = () => {
     setIsOpen(true);
   };
   return (
     <>
-      <Button onClick={openBottomsheet}>My mind is ready</Button>
-      <Bottomsheet open={isOpen} onClose={closeBottomsheet}>
-        <Bottomsheet.Panel>
-          <Bottomsheet.Title>Do you wear skinny jeans?</Bottomsheet.Title>
+      <Button onClick={openBottomSheet}>My mind is ready</Button>
+      <BottomSheet open={isOpen} onClose={closeBottomSheet}>
+        <BottomSheet.Panel>
+          <BottomSheet.Title>Do you wear skinny jeans?</BottomSheet.Title>
           <p className="p-4 text-trunks">
             I'm baby vaporware flexitarian scenester lyft activated charcoal
             tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo
@@ -26,12 +26,12 @@ const Example = () => {
             williamsburg tousled ugh.
           </p>
           <div className="p-4">
-            <Button onClick={closeBottomsheet} size="lg" fullWidth>
+            <Button onClick={closeBottomSheet} size="lg" fullWidth>
               I'm honestly done
             </Button>
           </div>
-        </Bottomsheet.Panel>
-      </Bottomsheet>
+        </BottomSheet.Panel>
+      </BottomSheet>
     </>
   );
 };

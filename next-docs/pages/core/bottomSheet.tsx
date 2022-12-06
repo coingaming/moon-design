@@ -2,22 +2,23 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import CustomHeight from '../../public/examples/bottomsheetTW/CustomHeight';
-import Default from '../../public/examples/bottomsheetTW/Default';
-import LargeWithOptionalExtras from '../../public/examples/bottomsheetTW/LargeWithOptionalExtras';
+import CustomHeight from '../../public/examples/bottomSheetTW/CustomHeight';
+import Default from '../../public/examples/bottomSheetTW/Default';
+import LargeWithOptionalExtras from '../../public/examples/bottomSheetTW/LargeWithOptionalExtras';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('bottomsheetTW');
+  const examples = useExamples('bottomSheetTW');
   return (
     <>
-      <ComponentPageDescription title="Bottomsheet" isInProgress>
+      <ComponentPageDescription title="BottomSheet" isInProgress>
         <p>
-          A Bottomsheet is an interface element that appears over other content.
-          It requires an interaction from the user before they can return to
-          whatever is underneath. It is different from a modal in that it's
-          always anchored to the bottom of the viewport and can be slid away
-          downwards to collapse it. It is designed for small mobile screens.
+          A Bottom sheet is an interface element that appears over other
+          content. It requires an interaction from the user before they can
+          return to whatever is underneath. It is different from a modal in that
+          it's always anchored to the bottom of the viewport and can be slid
+          away downwards to collapse it. It is designed for small mobile
+          screens.
         </p>
       </ComponentPageDescription>
       <Preview
@@ -36,28 +37,28 @@ const Example = () => {
         code={examples ? examples.CustomHeight : 'Loading'}
       />
       <PropsTable
-        title="Bottomsheet"
+        title="BottomSheet"
         data={[
           {
             name: 'open',
             type: 'boolean',
             required: true,
             default: '-',
-            description: 'Whether the Bottomsheet is open or not.',
+            description: 'Whether the BottomSheet is open or not.',
           },
           {
             name: 'onClose',
             type: '() => void',
             required: true,
             default: '-',
-            description: 'Called when the Bottomsheet is dismissed.',
+            description: 'Called when the BottomSheet is dismissed.',
           },
           {
             name: 'hasShadow',
             type: 'boolean',
             required: false,
             default: '-',
-            description: 'Whether the Bottomsheet has a shadow or not.',
+            description: 'Whether the BottomSheet has a shadow or not.',
           },
           {
             name: 'size',
@@ -65,16 +66,16 @@ const Example = () => {
             required: false,
             default: 'sm',
             description:
-              'The size of the Bottomsheet, sm, md, lg or custom pixel/percentage/rem value.',
+              'The size of the BottomSheet, sm, md, lg or custom pixel/percentage/rem value.',
           },
         ]}
       />
       <PropsTable
-        title="Bottomsheet.Draghandle"
+        title="BottomSheet.Draghandle"
         data={[
           {
             name: 'children',
-            type: 'Bottomsheet.Draghandle',
+            type: 'BottomSheet.Draghandle',
             required: false,
             default: '-',
             description:
@@ -83,7 +84,7 @@ const Example = () => {
         ]}
       />
       <PropsTable
-        title="Bottomsheet.Title"
+        title="BottomSheet.Title"
         data={[
           {
             name: 'className',
@@ -91,12 +92,12 @@ const Example = () => {
             required: false,
             default: '-',
             description:
-              'Tailwind classes for customization of Bottomsheet Title.',
+              'Tailwind classes for customization of BottomSheet Title.',
           },
         ]}
       />
       <PropsTable
-        title="Bottomsheet.Panel"
+        title="BottomSheet.Panel"
         data={[
           {
             name: 'className',
@@ -104,12 +105,12 @@ const Example = () => {
             required: false,
             default: '-',
             description:
-              'Tailwind classes for customization of Bottomsheet Panel.',
+              'Tailwind classes for customization of BottomSheet Panel.',
           },
         ]}
       />
       <PropsTable
-        title="Bottomsheet.Backdrop"
+        title="BottomSheet.Backdrop"
         data={[
           {
             name: 'className',
@@ -117,7 +118,7 @@ const Example = () => {
             required: false,
             default: '-',
             description:
-              'Tailwind classes for customization of Bottomsheet Backdrop.',
+              'Tailwind classes for customization of BottomSheet Backdrop.',
           },
         ]}
       />
