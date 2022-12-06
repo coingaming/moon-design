@@ -1999,7 +1999,7 @@ video {
 }
 .bg-chiChi {
   --tw-bg-opacity: 1;
-  background-color: rgb(var(--chichi) / var(--tw-bg-opacity));
+  background-color: rgb(var(--chi-chi) / var(--tw-bg-opacity));
 }
 .bg-opacity-75 {
   --tw-bg-opacity: 0.75;
@@ -2469,7 +2469,7 @@ video {
 }
 .text-chiChi {
   --tw-text-opacity: 1;
-  color: rgb(var(--chichi) / var(--tw-text-opacity));
+  color: rgb(var(--chi-chi) / var(--tw-text-opacity));
 }
 .text-\[\#999CA0\] {
   --tw-text-opacity: 1;
@@ -2564,7 +2564,7 @@ video {
     0 8px 10px -6px var(--tw-shadow-color);
 }
 .shadow-input-err {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
 }
 .shadow-input,
@@ -3132,7 +3132,7 @@ video {
   border-radius: var(--radius-i-sm);
 }
 .invalid\:shadow-input-err:invalid {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -3226,7 +3226,7 @@ video {
     inset 0 0 0 var(--tw-shadow-color);
 }
 .hover\:shadow-input-err:hover {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -3236,7 +3236,7 @@ video {
   display: none;
 }
 .invalid\:hover\:shadow-input-err:hover:invalid {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -3272,7 +3272,7 @@ video {
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .focus\:shadow-input-err:focus {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
 }
 .focus\:outline-none:focus {
@@ -3280,7 +3280,7 @@ video {
   outline-offset: 2px;
 }
 .invalid\:focus\:shadow-input-err:focus:invalid {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -4160,9 +4160,9 @@ video {
   --krillin: 255 179 25;
   --krillin-60: 255 198 82;
   --krillin-10: 255 217 141;
-  --chichi: 255 78 100;
-  --chichi-60: 255 118 135;
-  --chichi-10: 255 150 163;
+  --chi-chi: 255 78 100;
+  --chi-chi-60: 255 118 135;
+  --chi-chi-10: 255 150 163;
   --roshi: 74 209 95;
   --roshi-60: 100 220 119;
   --roshi-10: 127 242 145;
@@ -4226,9 +4226,9 @@ video {
   --krillin: 255 179 25;
   --krillin-60: 255 198 82;
   --krillin-10: 255 217 141;
-  --chichi: 255 78 100;
-  --chichi-60: 255 118 135;
-  --chichi-10: 255 150 163;
+  --chi-chi: 255 78 100;
+  --chi-chi-60: 255 118 135;
+  --chi-chi-10: 255 150 163;
   --roshi: 74 209 95;
   --roshi-60: 100 220 119;
   --roshi-10: 127 242 145;
@@ -4289,9 +4289,9 @@ video {
   --krillin: 255 179 25;
   --krillin-60: 255 198 82;
   --krillin-10: 255 217 141;
-  --chichi: 255 78 100;
-  --chichi-60: 255 118 135;
-  --chichi-10: 255 150 163;
+  --chi-chi: 255 78 100;
+  --chi-chi-60: 255 118 135;
+  --chi-chi-10: 255 150 163;
   --roshi: 74 209 95;
   --roshi-60: 100 220 119;
   --roshi-10: 127 242 145;
@@ -4352,9 +4352,9 @@ video {
   --krillin: 255 179 25;
   --krillin-60: 255 198 82;
   --krillin-10: 255 217 141;
-  --chichi: 255 78 100;
-  --chichi-60: 255 118 135;
-  --chichi-10: 255 150 163;
+  --chi-chi: 255 78 100;
+  --chi-chi-60: 255 118 135;
+  --chi-chi-10: 255 150 163;
   --roshi: 74 209 95;
   --roshi-60: 100 220 119;
   --roshi-10: 127 242 145;
