@@ -4,110 +4,149 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
+import {
+  moonDesignDark,
+  moonDesignLight,
+  ThemeProvider,
+} from '@heathmont/moon-themes';
 import Bg from '../Bg';
-import Date from '../Date';
-import DateTime from '../DateTime';
 import Default from '../Default';
 import Disabled from '../Disabled';
-import Email from '../Email';
 import Error from '../Error';
 import Hint from '../Hint';
-import Number from '../Number';
-import Password from '../Password';
 import Readonly from '../Readonly';
-import Search from '../Search';
 import Sizes from '../Sizes';
-import SizesRTL from '../SizesRTL';
-import Telephone from '../Telephone';
-import Time from '../Time';
-import Url from '../Url';
+import Types from '../Types';
 import WithoutLabel from '../WithoutLabel';
 
-const renderWithTheme = (component: JSX.Element) => (
+const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
+const renderWithDarkTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
+);
+const renderWithRtl = (component: JSX.Element) => (
+  <div dir="rtl">{component}</div>
+);
 
-describe('TextInput: type Date', () => {
-  it('renders default', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Default />));
+describe('TextInput in Light Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders different sizes', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Sizes />));
+  it('renders Sizes', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Sizes />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders RTL', () => {
-    const testRenderer = renderer.create(renderWithTheme(<SizesRTL />));
+  it('renders WithoutLabel', () => {
+    const testRenderer = renderer.create(
+      renderWithLightTheme(<WithoutLabel />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders without label', () => {
-    const testRenderer = renderer.create(renderWithTheme(<WithoutLabel />));
+  it('renders Hint', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Hint />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders with hint', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Hint />));
+  it('renders Disabled', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Disabled />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders disabled', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Disabled />));
+  it('renders Error', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Error />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders error', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Error />));
+  it('renders Bg', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Bg />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('supports background colour', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Bg />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders readOnly', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Readonly />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Date', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Date />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders DateTime', () => {
-    const testRenderer = renderer.create(renderWithTheme(<DateTime />));
+  it('renders Readonly', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Readonly />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders Email', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Email />));
+  it('renders Types', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Types />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
+
+describe('TextInput in Dark Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Sizes', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Sizes />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders WithoutLabel', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<WithoutLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Hint', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Hint />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Disabled', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Error', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Error />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Bg', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Bg />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Readonly', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Readonly />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders Number', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Number />));
+  it('renders Types', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Types />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
+
+describe('TextInput in RTL', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Sizes', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Sizes />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders WithoutLabel', () => {
+    const testRenderer = renderer.create(renderWithRtl(<WithoutLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Hint', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Hint />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Disabled', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Error', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Error />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Bg', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Bg />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Readonly', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Readonly />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
-  it('renders Password', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Password />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Search', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Search />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Telephone', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Telephone />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Time', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Time />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders Url', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Url />));
+  it('renders Types', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Types />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

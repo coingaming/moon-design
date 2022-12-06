@@ -16,7 +16,12 @@ const Example = () => {
   const examples = useExamples('accordionTW');
   return (
     <>
-      <ComponentPageDescription title="Accordion">
+      <ComponentPageDescription
+        title="Accordion"
+        isInProgress
+        isRtlSupport
+        isAriaSupport
+      >
         <p>
           Like the accordion instrument, our accordion component reveals or
           hides associated sections of content. This is done through the use of
@@ -44,7 +49,7 @@ const Example = () => {
         code={examples ? examples.WithoutButton : 'Loading'}
       />
       <Preview
-        title="Disable open"
+        title="Disabled"
         preview={<Disabled />}
         code={examples ? examples.Disabled : 'Loading'}
       />
@@ -69,7 +74,7 @@ const Example = () => {
         code={examples ? examples.ContentOutsideSizes : 'Loading'}
       />
       <Preview
-        title="With background"
+        title="Custom background"
         preview={<Background />}
         code={examples ? examples.Background : 'Loading'}
       />
@@ -84,11 +89,18 @@ const Example = () => {
             description: 'Alters background colour of accordion',
           },
           {
-            name: 'disableOpen',
+            name: 'children',
+            type: 'React.ReactNode',
+            required: false,
+            default: '-',
+            description: 'Children content',
+          },
+          {
+            name: 'disabled',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Disables expand/collapse accordion',
+            description: 'Disables accordion',
           },
           {
             name: 'headerContent',

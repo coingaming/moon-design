@@ -3,6 +3,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/buttonTW/Animations';
+import AsLink from '../../public/examples/buttonTW/AsLink';
 import Default from '../../public/examples/buttonTW/Default';
 import Disabled from '../../public/examples/buttonTW/Disabled';
 import FullWidth from '../../public/examples/buttonTW/FullWidth';
@@ -15,7 +16,7 @@ const Example = () => {
   const examples = useExamples('buttonTW');
   return (
     <>
-      <ComponentPageDescription title="Button">
+      <ComponentPageDescription title="Button" isInProgress isRtlSupport>
         <p>
           Buttons are calls-to-action used to prompt users. They encourage users
           to interact with us in multiple ways throughout our galaxy, based on
@@ -28,6 +29,11 @@ const Example = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Button as a link HTML element"
+        preview={<AsLink />}
+        code={examples ? examples.AsLink : 'Loading'}
       />
       <Preview
         title="Variants"
@@ -70,6 +76,20 @@ const Example = () => {
             description: 'Animation of button',
           },
           {
+            name: 'as',
+            type: 'a | button',
+            required: false,
+            default: 'button',
+            description: 'Rendered HTML element',
+          },
+          {
+            name: 'children',
+            type: 'React.ReactNode;',
+            required: false,
+            default: '-',
+            description: 'Children content',
+          },
+          {
             name: 'disabled',
             type: 'boolean',
             required: false,
@@ -92,21 +112,21 @@ const Example = () => {
           },
           {
             name: 'iconLeft',
-            type: 'boolean | JSX.Element',
+            type: 'JSX.Element | boolean',
             required: false,
             default: '-',
             description: 'Left icon',
           },
           {
             name: 'iconOnly',
-            type: 'boolean | JSX.Element',
+            type: 'JSX.Element | boolean',
             required: false,
             default: '-',
             description: 'Icon without text',
           },
           {
             name: 'iconRight',
-            type: 'boolean | JSX.Element',
+            type: 'JSX.Element | boolean',
             required: false,
             default: '-',
             description: 'Right icon',

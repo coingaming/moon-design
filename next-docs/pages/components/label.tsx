@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Colours from '../../public/examples/label/Colours';
 import Icons from '../../public/examples/label/Icons';
@@ -12,16 +13,7 @@ const PageLabel = () => {
   return (
     <>
       <ComponentPageDescription title="Label">
-        <p>
-          Use tags to label, categorize, or organize items using keywords that
-          describe them.
-        </p>
-        <p>Multiple or single tags can be used to categorize items.</p>
-        <p>
-          Use short labels for easy scanning. Use two words only if necessary to
-          describe the status and differentiate it from other tags.
-        </p>
-        <p>Default text style: Uppercase</p>
+        <DeprecationWarning href="/core/label" name="Label" />
       </ComponentPageDescription>
       <Preview
         title="Colours"

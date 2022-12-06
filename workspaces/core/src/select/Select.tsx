@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Listbox } from '@headlessui/react';
+import { usePopper } from 'react-popper';
 import classNames from '../private/utils/classnames';
 import HintText from './private/HintText';
 import InputBtn from './private/InputBtn';
@@ -11,20 +12,37 @@ export type BaseOptionType = {
   value: string | number;
 };
 
-type SelectProps<T extends readonly object[]> = {
-  size?: 'sm' | 'md' | 'lg' | 'xl' | string;
+type Placement =
+  | 'top-start'
+  | 'top-end'
+  | 'bottom-start'
+  | 'bottom-end'
+  | 'right-start'
+  | 'right-end'
+  | 'left-start'
+  | 'left-end'
+  | 'top'
+  | 'bottom'
+  | 'right'
+  | 'left';
+
+export type SelectSize = 'sm' | 'md' | 'lg' | 'xl';
+export type SelectProps<T extends readonly object[], BaseOptionType> = {
+  size?: SelectSize | string;
   label?: JSX.Element | string;
-  placeholder: JSX.Element | string;
+  placeholder?: JSX.Element | string;
   isError?: boolean;
   hintText?: JSX.Element | string;
   value?: BaseOptionType;
-  onChange: (value: BaseOptionType | string | undefined) => void;
+  onChange?: (value?: BaseOptionType) => void;
   options: T;
-  formatOptionLabel?: (data: BaseOptionType) => JSX.Element | string;
+  formatOptionLabel?: (data?: BaseOptionType) => JSX.Element | string;
   menuWidth?: string;
-} & HTMLInputElement;
+  disabled?: boolean;
+  position?: Placement;
+};
 
-const Select: React.FC<SelectProps<BaseOptionType[]>> = ({
+const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
   label,
   placeholder,
   size = 'md',
@@ -36,13 +54,29 @@ const Select: React.FC<SelectProps<BaseOptionType[]>> = ({
   onChange,
   formatOptionLabel,
   menuWidth,
+  position = 'bottom-start',
   ...rest
 }) => {
-  const [option, setOption] = useState<BaseOptionType>(value);
-  const onChangeHandler = (data: BaseOptionType) => {
-    onChange && data && onChange(data);
-    data && setOption(data);
+  const [option, setOption] = useState<BaseOptionType | undefined>(value);
+
+  const [anchorEl, setAnchorEl] = React.useState<Element | null>(null);
+  const [popperEl, setPopperEl] = React.useState<HTMLElement | null>(null);
+
+  const { styles, attributes } = usePopper(anchorEl, popperEl, {
+    placement: position,
+  });
+
+  const onChangeHandler = (data?: BaseOptionType) => {
+    if (onChange) {
+      onChange(data);
+    }
+    setOption(data);
   };
+
+  useEffect(() => {
+    onChangeHandler(value);
+  }, [value]);
+
   return (
     <Listbox
       value={option}
@@ -58,54 +92,67 @@ const Select: React.FC<SelectProps<BaseOptionType[]>> = ({
         >
           <div className="relative">
             {label && size !== 'xl' && (
-              <Listbox.Label className="block text-moon-16 text-bulma pb-2">
+              <Listbox.Label
+                className={classNames(
+                  'block text-bulma pb-2',
+                  size === 'sm' ? 'text-moon-14' : 'text-moon-16'
+                )}
+              >
                 {label}
               </Listbox.Label>
             )}
-
-            <InputBtn
-              size={size}
-              isError={isError}
-              disabled={disabled}
-              open={open}
-              {...rest}
-            >
-              <div className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
-                {label && size === 'xl' && (
-                  <Listbox.Label className="block text-moon-12 text-trunks">
-                    {label}
-                  </Listbox.Label>
-                )}
-                {option ? (
-                  <span
-                    className={classNames(
-                      size === 'sm' ? 'text-moon-14' : 'text-moon-16',
-                      'text-bulma'
-                    )}
-                  >
-                    {(formatOptionLabel && formatOptionLabel(option)) ||
-                      option?.label}
-                  </span>
-                ) : placeholder ? (
-                  <span
-                    className={classNames(
-                      size === 'sm' ? 'text-moon-14' : 'text-moon-16',
-                      'text-trunks'
-                    )}
-                  >
-                    {placeholder}
-                  </span>
-                ) : (
-                  ''
-                )}
+            <div ref={setAnchorEl}>
+              <InputBtn
+                size={size}
+                isError={isError}
+                disabled={disabled}
+                open={open}
+                {...rest}
+              >
+                <div className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
+                  {label && size === 'xl' && (
+                    <Listbox.Label className="block text-moon-12 text-trunks">
+                      {label}
+                    </Listbox.Label>
+                  )}
+                  {option ? (
+                    <span
+                      className={classNames(
+                        size === 'sm' ? 'text-moon-14' : 'text-moon-16',
+                        'text-bulma'
+                      )}
+                    >
+                      {(formatOptionLabel && formatOptionLabel(option)) ||
+                        option?.label}
+                    </span>
+                  ) : placeholder ? (
+                    <span
+                      className={classNames(
+                        size === 'sm' ? 'text-moon-14' : 'text-moon-16',
+                        'text-trunks'
+                      )}
+                    >
+                      {placeholder}
+                    </span>
+                  ) : (
+                    ''
+                  )}
+                </div>
+              </InputBtn>
+            </div>
+            {options && open && (
+              <div
+                ref={setPopperEl}
+                style={styles.popper}
+                {...attributes.popper}
+                className="z-5 absolute"
+              >
+                <Options
+                  options={options}
+                  formatOptionLabel={formatOptionLabel}
+                  menuWidth={menuWidth}
+                />
               </div>
-            </InputBtn>
-            {options && (
-              <Options
-                options={options}
-                formatOptionLabel={formatOptionLabel}
-                menuWidth={menuWidth}
-              />
             )}
           </div>
           {hintText && <HintText isError={isError}>{hintText}</HintText>}
@@ -115,4 +162,4 @@ const Select: React.FC<SelectProps<BaseOptionType[]>> = ({
   );
 };
 
-export default Select;
+export default React.memo(Select);

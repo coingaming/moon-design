@@ -10,7 +10,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const openSidebar = () => setSidebarOpen(true);
   const closeSidebar = () => setSidebarOpen(false);
   return (
-    <div className="layout theme-moon-light bg-goku text-bulma flex">
+    <div className="layout bg-goku text-bulma flex">
       {/* Dynamic sidebar with transition for mobile */}
       <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
         <Sidebar closeSidebar={closeSidebar} />
@@ -23,7 +23,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <div className="flex flex-col grow max-w-screen-xl">
           {/* Opens sidebar on mobile */}
           <Header openSidebar={openSidebar} />
-          <main className="flex flex-col flex-1 relative overflow-y-auto focus:outline-none">
+          <main className="flex flex-col flex-1 relative focus:outline-none">
             <ReactSettings />
             <div className="flex flex-col gap-12">{children}</div>
           </main>

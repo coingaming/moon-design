@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/progress/circular/Default';
 import Rtl from '../../../public/examples/progress/circular/Rtl';
@@ -11,16 +12,10 @@ export default function PageProgressLinear() {
   return (
     <>
       <ComponentPageDescription title="Circular">
-        <p>
-          A progress indicator is a visual representation of a user’s progress
-          through a set of steps, guiding toward the completion of a specified
-          process.
-        </p>
-        <p>Use this when the process has a known duration.</p>
-        <p>
-          Circular progress indicators display progress by animating an
-          indicator along an invisible circular track in a clockwise direction.
-        </p>
+        <DeprecationWarning
+          href="/core/circularProgress"
+          name="CircularProgress"
+        />
       </ComponentPageDescription>
       <Preview
         title="Examples"

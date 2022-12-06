@@ -4,159 +4,59 @@
 
 import React from 'react';
 import renderer from 'react-test-renderer';
-import Arrows from '../Arrows';
-import Chart from '../Chart';
-import Chat from '../Chat';
-import Controls from '../Controls';
-import Devices from '../Devices';
-import Files from '../Files';
-import Generic from '../Generic';
-import Mail from '../Mail';
-import Maps from '../Maps';
-import Media from '../Media';
-import Notifications from '../Notifications';
-import Other from '../Other';
-import Security from '../Security';
-import Shop from '../Shop';
-import Software from '../Software';
-import Sport from '../Sport';
-import Text from '../Text';
-import Time from '../Time';
-import Travel from '../Travel';
-import Type from '../Type';
-import DefaultIconSet from '../DefaultIconSet';
+import Default from '../Default';
+import Customization from '../Customization';
+import {
+  moonDesignDark,
+  moonDesignLight,
+  ThemeProvider,
+} from '@heathmont/moon-themes';
 
-const wrapperProps = {
-  onClick: (iconName: string) => {},
-  selectedIcons: [],
-};
+const renderWithLightTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
+);
 
-const props = {
-  className: 'text-[14px]',
-};
+const renderWithDarkTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
+);
 
-describe('Icons', () => {
-  it('renders DefaultIconSet', () => {
-    const testRender = renderer.create(<DefaultIconSet />);
+const renderWithRtl = (component: JSX.Element) => (
+  <div dir="rtl">{component}</div>
+);
+
+describe('Icons in Light Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Arrows', () => {
+  it('renders Customization', () => {
     const testRenderer = renderer.create(
-      <Arrows wrapperProps={wrapperProps} props={props} />
+      renderWithLightTheme(<Customization />)
     );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Chart', () => {
+});
+
+describe('Icons in Dark Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Customization', () => {
     const testRenderer = renderer.create(
-      <Chart wrapperProps={wrapperProps} props={props} />
+      renderWithDarkTheme(<Customization />)
     );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Chat', () => {
-    const testRenderer = renderer.create(
-      <Chat wrapperProps={wrapperProps} props={props} />
-    );
+});
+
+describe('Icons in RTL', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Controls', () => {
-    const testRenderer = renderer.create(
-      <Controls wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Devices', () => {
-    const testRenderer = renderer.create(
-      <Devices wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Files', () => {
-    const testRenderer = renderer.create(
-      <Files wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Generic', () => {
-    const testRenderer = renderer.create(
-      <Generic wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Mail', () => {
-    const testRenderer = renderer.create(
-      <Mail wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Maps', () => {
-    const testRenderer = renderer.create(
-      <Maps wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Media', () => {
-    const testRenderer = renderer.create(
-      <Media wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Notifications', () => {
-    const testRenderer = renderer.create(
-      <Notifications wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Other', () => {
-    const testRenderer = renderer.create(
-      <Other wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Security', () => {
-    const testRenderer = renderer.create(
-      <Security wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Shop', () => {
-    const testRenderer = renderer.create(
-      <Shop wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Software', () => {
-    const testRenderer = renderer.create(
-      <Software wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Sport', () => {
-    const testRenderer = renderer.create(
-      <Sport wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Text', () => {
-    const testRenderer = renderer.create(
-      <Text wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Time', () => {
-    const testRenderer = renderer.create(
-      <Time wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Travel', () => {
-    const testRenderer = renderer.create(
-      <Travel wrapperProps={wrapperProps} props={props} />
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Type', () => {
-    const testRenderer = renderer.create(
-      <Type wrapperProps={wrapperProps} props={props} />
-    );
+  it('renders Customization', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Customization />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

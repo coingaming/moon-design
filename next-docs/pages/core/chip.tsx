@@ -6,6 +6,7 @@ import Default from '../../public/examples/chipTW/Default';
 import Icons from '../../public/examples/chipTW/Icons';
 import IsStroke from '../../public/examples/chipTW/IsStroke';
 import IsStrokeIcons from '../../public/examples/chipTW/IsStrokeIcons';
+import OnClick from '../../public/examples/chipTW/OnClick';
 import Sizes from '../../public/examples/chipTW/Sizes';
 import Variants from '../../public/examples/chipTW/Variants';
 import useExamples from '../../utils/useExamples';
@@ -14,7 +15,7 @@ const Example = () => {
   const examples = useExamples('chipTW');
   return (
     <>
-      <ComponentPageDescription title="Chip">
+      <ComponentPageDescription title="Chip" isInProgress isRtlSupport>
         <p>
           Chips are compact little units that represent actions, filters or
           choices. When shown, they allow users to prompt actions, filter
@@ -69,9 +70,21 @@ const Example = () => {
         preview={<IsStrokeIcons />}
         code={examples ? examples.IsStrokeIcons : 'Loading'}
       />
+      <Preview
+        title="With onClick"
+        preview={<OnClick />}
+        code={examples ? examples.OnClick : 'Loading'}
+      />
       <PropsTable
         title="Chip props"
         data={[
+          {
+            name: 'children',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Children content',
+          },
           {
             name: 'iconLeft',
             type: 'JSX.Element | boolean',

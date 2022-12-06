@@ -11,7 +11,7 @@ const Accordion = ({
   title,
   openByDefault,
   children,
-  disableOpen,
+  disabled,
   headerContent,
   withButton = true,
   isContentInside = true,
@@ -20,7 +20,7 @@ const Accordion = ({
 }: AccordionProps) => {
   const [isOpen, setIsOpen] = useState(openByDefault);
   function handleState() {
-    if (!disableOpen) {
+    if (!disabled) {
       setIsOpen(!isOpen);
     }
   }
@@ -32,55 +32,56 @@ const Accordion = ({
         setPadding(isContentInside, size)
       )}
     >
-      <div
+      <button
+        type="button"
         className={classNames(
           bgColor,
-          'w-full flex items-center relative gap-1',
-          disableOpen ? 'cursor-not-allowed' : 'cursor-pointer',
+          'flex items-center relative w-full gap-1',
+          disabled ? 'cursor-not-allowed opacity-30' : 'cursor-pointer',
           isContentInside ? bgColor : 'transparent rounded-moon-s-sm',
           !isContentInside && setPadding(true, size)
         )}
         onClick={handleState}
+        aria-expanded={isOpen || false}
+        {...(disabled && { disabled })}
       >
         {title && (
-          <h3
+          <span
+            role="heading"
+            aria-level={3}
             className={classNames(
-              'flex-1 font-medium text-bulma',
+              'flex-1 font-medium text-bulma text-start',
               setFont(size)
             )}
           >
             {title}
-          </h3>
+          </span>
         )}
         {headerContent && <React.Fragment>{headerContent}</React.Fragment>}
         {withButton && (
-          <button
-            type="button"
-            disabled={disableOpen}
-            className={classNames(
-              'align-middle text-[0.5rem] leading-none no-underline text-trunks border-transparent',
-              bgColor,
-              disableOpen ? 'cursor-not-allowed' : 'cursor-pointer'
-            )}
+          <span
+            aria-hidden="true"
+            className="flex items-center justify-center w-6 h-6"
           >
             <ControlsChevronRight
               className={classNames(
-                'text-trunks text-moon-24 transition-transform transition-200',
+                'text-trunks text-moon-16 transition-transform transition-200',
                 setOpenIcon(isOpen)
               )}
             />
-          </button>
+          </span>
         )}
-      </div>
-      <div
-        className={classNames(
-          'overflow-hidden w-full text-bulma',
-          isOpen ? 'h-full' : 'h-0',
-          isOpen && setMargin(size)
-        )}
-      >
-        {children}
-      </div>
+      </button>
+      {isOpen && (
+        <div
+          className={classNames(
+            'overflow-hidden w-full text-bulma',
+            isOpen && setMargin(size)
+          )}
+        >
+          {children}
+        </div>
+      )}
     </div>
   );
 };

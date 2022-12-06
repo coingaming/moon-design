@@ -13,7 +13,7 @@ const Example = () => {
   const examples = useExamples('labelTW');
   return (
     <>
-      <ComponentPageDescription title="Label">
+      <ComponentPageDescription title="Label" isInProgress>
         <p>
           Use tags to label, categorize, or organize items using keywords that
           describe them.
@@ -60,6 +60,13 @@ const Example = () => {
             required: false,
             default: 'bg-bulma',
             description: 'Background colour',
+          },
+          {
+            name: 'children',
+            type: 'React.ReactNode',
+            required: false,
+            default: '-',
+            description: 'Children content',
           },
           {
             name: 'color',

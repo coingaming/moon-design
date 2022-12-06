@@ -12,7 +12,7 @@ class MyDocument extends Document {
     return (
       <Html lang="en" dir="ltr">
         <Head />
-        <body>
+        <body className="theme-moon-light">
           <Main />
           <NextScript />
         </body>

@@ -134,19 +134,17 @@ module.exports = {
         inset: '0 0 0 1px rgb(var(--piccolo)) inset',
         interactive: '0 0 0 2px rgb(var(--piccolo)) inset',
         focus: `0 0 0 4px rgba(var(--piccolo), .13)`,
+        left: `rgb(var(--beerus)) -6px 0px 9px -10px`,
         input: '0 0 0 var(--border-width) rgb(var(--beerus)) inset',
         'input-hov':
           '0 0 0 var(--border-i-width) rgb(var(--bulma) / 7%) inset, 0 0 0 var(--border-i-width) rgb(var(--beerus)) inset',
-        'input-err': '0 0 0 var(--border-i-width) rgb(var(--chichi)) inset',
+        'input-err': '0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset',
         'input-focus': '0 0 0 var(--border-i-width) rgb(var(--piccolo)) inset',
-        'moon-sm':
-          '0 6px 6px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
-        'moon-md':
-          '0 12px 12px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
-        'moon-lg':
-          '0 8px 24px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
-        'moon-xl':
-          '0 32px 32px -8px rgba(0, 0, 0, 0.08), 0 0 32px -8px rgba(0, 0, 0, 0.12), 0 0 1px rgba(0, 0, 0, 0.2)',
+        'moon-xs': 'var(--shadow-xs)',
+        'moon-sm': 'var(--shadow-sm)',
+        'moon-md': 'var(--shadow-md)',
+        'moon-lg': 'var(--shadow-lg)',
+        'moon-xl': 'var(--shadow-xl)',
       },
       opacity: {
         moon: 'var(--opacity-moon)',
@@ -174,6 +172,46 @@ module.exports = {
           '70%': { transform: 'scale(1)', boxShadow: '0 0 0 30px transparent' },
           '100%': { transform: 'scale(1)', boxShadow: '0 0 0 0 transparent' },
         },
+        // Toast
+        'toast-hide': {
+          '0%': { opacity: 1 },
+          '100%': { opacity: 0 },
+        },
+        'toast-slide-in-right': {
+          '0%': { transform: `translateX(calc(100% + 1rem))` },
+          '100%': { transform: 'translateX(0)' },
+        },
+        'toast-slide-in-left': {
+          '0%': { transform: `translateX(calc(-100% + 1rem))` },
+          '100%': { transform: 'translateX(0)' },
+        },
+        'toast-slide-in-down': {
+          '0%': { transform: `translateY(calc(100% + 1rem))` },
+          '100%': { transform: 'translateY(0)' },
+        },
+        'toast-slide-in-up': {
+          '0%': { transform: `translateY(calc(-100% + 1rem))` },
+          '100%': { transform: 'translateY(0)' },
+        },
+        'toast-swipe-out': {
+          '0%': { transform: 'translateX(var(--radix-toast-swipe-end-x))' },
+          '100%': {
+            transform: `translateX(calc(100% + 1rem))`,
+          },
+        },
+      },
+      animation: {
+        // Toast
+        'toast-hide': 'toast-hide 300ms ease-in forwards',
+        'toast-slide-in-right':
+          'toast-slide-in-right 300ms cubic-bezier(0.16, 1, 0.3, 1)',
+        'toast-slide-in-left':
+          'toast-slide-in-left 300ms cubic-bezier(0.16, 1, 0.3, 1)',
+        'toast-slide-in-down':
+          'toast-slide-in-down 300ms cubic-bezier(0.16, 1, 0.3, 1)',
+        'toast-slide-in-up':
+          'toast-slide-in-up 300ms cubic-bezier(0.16, 1, 0.3, 1)',
+        'toast-swipe-out': 'toast-swipe-out 100ms ease-out forwards',
       },
       colors: {
         piccolo: {
@@ -210,9 +248,9 @@ module.exports = {
           10: withOpacityValue('--krillin-10'),
         },
         chiChi: {
-          DEFAULT: withOpacityValue('--chichi'),
-          60: withOpacityValue('--chichi-60'),
-          10: withOpacityValue('--chichi-10'),
+          DEFAULT: withOpacityValue('--chi-chi'),
+          60: withOpacityValue('--chi-chi-60'),
+          10: withOpacityValue('--chi-chi-10'),
         },
         roshi: {
           DEFAULT: withOpacityValue('--roshi'),
@@ -256,6 +294,7 @@ module.exports = {
     extend: {},
   },
   plugins: [
+    require('tailwindcss-radix')(),
     plugin(function ({ addComponents }) {
       addComponents({
         '.btn-primary': {
@@ -406,6 +445,18 @@ module.exports = {
           },
         },
       });
+    }),
+    plugin(function ({ addVariant }) {
+      for (let state of ['open', 'checked', 'selected', 'active', 'disabled']) {
+        addVariant(`moon-${state}`, [
+          `&[aria-${state}="true"]`,
+          `:where([aria-${state}="true"]) &`,
+        ]);
+        addVariant(`moon-not-${state}`, [
+          `&[aria-${state}="false"]`,
+          `:where([aria-${state}="false"]) &`,
+        ]);
+      }
     }),
   ],
 };

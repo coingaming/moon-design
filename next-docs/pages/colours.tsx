@@ -1,259 +1,226 @@
 import React from 'react';
-import { useTheme } from '@heathmont/moon-themes';
 import ColoursPalette from '../components/ColoursPalette';
 import ComponentPageDescription from '../components/ComponentPageDescription';
 import PageSection from '../components/PageSection';
 import coloursImg from '../public/illustartions/colors.png';
 
-const PageColours = () => {
-  const theme = useTheme();
-  return (
-    <>
-      <ComponentPageDescription title="Colours Palette" image={coloursImg}>
-        <p>
-          Our design system is decentralized and built for multi-product
-          purposes. Having different-color naming conventions and numbers etc...
-          makes it harder to maintain it.
-        </p>
-        <p>For that, we made a decision to give our colours unique names.</p>
-        <p>
-          Meet the <span className="font-medium">Dragon Ball Z approach</span>.
-        </p>
-        <p>
-          Each color name is assigned for specific purpose and for each product
-          these values are different.
-        </p>
-        <p>
-          Please never use Hex values, they won't change if you need theme
-          support.
-        </p>
-      </ComponentPageDescription>
-      <PageSection title="Main colours">
-        <ColoursPalette
-          title="Accent colours"
-          colors={[
-            {
-              name: theme.colorNew.piccolo as string,
-              description: 'piccolo',
-            },
-            { name: theme.colorNew.hit as string, description: 'hit' },
-          ]}
-        />
-        <ColoursPalette
-          title="Border and line colours"
-          colors={[
-            { name: theme.colorNew.beerus as string, description: 'beerus' },
-          ]}
-        />
-        <ColoursPalette
-          title="Background colours"
-          colors={[
-            { name: theme.colorNew.goku as string, description: 'goku' },
-            { name: theme.colorNew.gohan as string, description: 'gohan' },
-          ]}
-        />
-        <ColoursPalette
-          title="Text and icon colours"
-          colors={[
-            { name: theme.colorNew.bulma as string, description: 'bulma' },
-            { name: theme.colorNew.trunks as string, description: 'trunks' },
-          ]}
-        />
-        <ColoursPalette
-          title="Forced colours"
-          colors={[
-            { name: theme.colorNew.goten as string, description: 'goten' },
-            { name: theme.colorNew.popo as string, description: 'popo' },
-          ]}
-        />
-      </PageSection>
-      <PageSection title="Supportive colours">
-        <ColoursPalette
-          title="Krillin"
-          description="Warning colour"
-          colors={[
-            {
-              name: theme.colorNew.krillin[100] as string,
-              description: 'krillin',
-              value: 100,
-            },
-            {
-              name: theme.colorNew.krillin[60] as string,
-              description: 'krillin',
-              value: 60,
-            },
-            {
-              name: theme.colorNew.krillin[10] as string,
-              description: 'krillin',
-              value: 10,
-            },
-          ]}
-        />
-        <ColoursPalette
-          title="Chi Chi"
-          description="Error colour"
-          colors={[
-            {
-              name: theme.colorNew.chiChi[100] as string,
-              description: 'chiChi',
-              value: 100,
-            },
-            {
-              name: theme.colorNew.chiChi[60] as string,
-              description: 'chiChi',
-              value: 60,
-            },
-            {
-              name: theme.colorNew.chiChi[10] as string,
-              description: 'chiChi',
-              value: 10,
-            },
-          ]}
-        />
-        <ColoursPalette
-          title="Roshi"
-          description="Success colour"
-          colors={[
-            {
-              name: theme.colorNew.roshi[100] as string,
-              description: 'roshi',
-              value: 100,
-            },
-            {
-              name: theme.colorNew.roshi[60] as string,
-              description: 'roshi',
-              value: 60,
-            },
-            {
-              name: theme.colorNew.roshi[10] as string,
-              description: 'roshi',
-              value: 10,
-            },
-          ]}
-        />
-        <ColoursPalette
-          title="Dodoria"
-          colors={[
-            {
-              name: theme.colorNew.dodoria[100] as string,
-              description: 'dodoria',
-              value: 100,
-            },
-            {
-              name: theme.colorNew.dodoria[60] as string,
-              description: 'dodoria',
-              value: 60,
-            },
-            {
-              name: theme.colorNew.dodoria[10] as string,
-              description: 'dodoria',
-              value: 10,
-            },
-          ]}
-        />
-        <ColoursPalette
-          title="Cell"
-          colors={[
-            {
-              name: theme.colorNew.cell[100] as string,
-              description: 'cell',
-              value: 100,
-            },
-            {
-              name: theme.colorNew.cell[60] as string,
-              description: 'cell',
-              value: 60,
-            },
-            {
-              name: theme.colorNew.cell[10] as string,
-              description: 'cell',
-              value: 10,
-            },
-          ]}
-        />
-        <ColoursPalette
-          title="Raditz"
-          colors={[
-            {
-              name: theme.colorNew.raditz[100] as string,
-              description: 'raditz',
-              value: 100,
-            },
-            {
-              name: theme.colorNew.raditz[60] as string,
-              description: 'raditz',
-              value: 60,
-            },
-            {
-              name: theme.colorNew.raditz[10] as string,
-              description: 'raditz',
-              value: 10,
-            },
-          ]}
-        />
-        <ColoursPalette
-          title="Whis"
-          colors={[
-            {
-              name: theme.colorNew.whis[100] as string,
-              description: 'whis',
-              value: 100,
-            },
-            {
-              name: theme.colorNew.whis[60] as string,
-              description: 'whis',
-              value: 60,
-            },
-            {
-              name: theme.colorNew.whis[10] as string,
-              description: 'whis',
-              value: 10,
-            },
-          ]}
-        />
-        <ColoursPalette
-          title="Frieza"
-          colors={[
-            {
-              name: theme.colorNew.frieza[100] as string,
-              description: 'frieza',
-              value: 100,
-            },
-            {
-              name: theme.colorNew.frieza[60] as string,
-              description: 'frieza',
-              value: 60,
-            },
-            {
-              name: theme.colorNew.frieza[10] as string,
-              description: 'frieza',
-              value: 10,
-            },
-          ]}
-        />
-        <ColoursPalette
-          title="Nappa"
-          colors={[
-            {
-              name: theme.colorNew.nappa[100] as string,
-              description: 'nappa',
-              value: 100,
-            },
-            {
-              name: theme.colorNew.nappa[60] as string,
-              description: 'nappa',
-              value: 60,
-            },
-            {
-              name: theme.colorNew.nappa[10] as string,
-              description: 'nappa',
-              value: 10,
-            },
-          ]}
-        />
-      </PageSection>
-    </>
-  );
-};
+const PageColours = () => (
+  <>
+    <ComponentPageDescription title="Colours" image={coloursImg}>
+      <p>
+        Our design system is decentralized and built for multi-product purposes.
+        Having different-color naming conventions and numbers etc... makes it
+        harder to maintain it.
+      </p>
+      <p>For that, we made a decision to give our colours unique names.</p>
+      <p>
+        Meet the <span className="font-medium">Dragon Ball Z approach</span>.
+      </p>
+      <p>
+        Each color name is assigned for specific purpose and for each product
+        these values are different.
+      </p>
+      <p>
+        Please never use Hex values, they won't change if you need theme
+        support.
+      </p>
+    </ComponentPageDescription>
+    <PageSection title="Main colours">
+      <ColoursPalette
+        title="Accent colours"
+        colors={[
+          {
+            name: 'bg-piccolo',
+            description: 'piccolo',
+          },
+          { name: 'bg-hit', description: 'hit' },
+        ]}
+      />
+      <ColoursPalette
+        title="Border and line colours"
+        colors={[{ name: 'bg-beerus', description: 'beerus' }]}
+      />
+      <ColoursPalette
+        title="Background colours"
+        colors={[
+          { name: 'bg-goku', description: 'goku' },
+          { name: 'bg-gohan', description: 'gohan' },
+        ]}
+      />
+      <ColoursPalette
+        title="Text and icon colours"
+        colors={[
+          { name: 'bg-bulma', description: 'bulma' },
+          { name: 'bg-trunks', description: 'trunks' },
+        ]}
+      />
+      <ColoursPalette
+        title="Forced colours"
+        colors={[
+          { name: 'bg-goten', description: 'goten' },
+          { name: 'bg-popo', description: 'popo' },
+        ]}
+      />
+    </PageSection>
+    <PageSection title="Supportive colours">
+      <ColoursPalette
+        title="Krillin"
+        description="Warning colour"
+        colors={[
+          {
+            name: 'bg-krillin',
+            description: 'krillin',
+          },
+          {
+            name: 'bg-krillin-60',
+            description: 'krillin-60',
+          },
+          {
+            name: 'bg-krillin-10',
+            description: 'krillin-10',
+          },
+        ]}
+      />
+      <ColoursPalette
+        title="Chi Chi"
+        description="Error colour"
+        colors={[
+          {
+            name: 'bg-chiChi',
+            description: 'chiChi',
+          },
+          {
+            name: 'bg-chiChi-60',
+            description: 'chiChi-60',
+          },
+          {
+            name: 'bg-chiChi-10',
+            description: 'chiChi-10',
+          },
+        ]}
+      />
+      <ColoursPalette
+        title="Roshi"
+        description="Success colour"
+        colors={[
+          {
+            name: 'bg-roshi',
+            description: 'roshi',
+          },
+          {
+            name: 'bg-roshi-60',
+            description: 'roshi-60',
+          },
+          {
+            name: 'bg-roshi-10',
+            description: 'roshi-10',
+          },
+        ]}
+      />
+      <ColoursPalette
+        title="Dodoria"
+        colors={[
+          {
+            name: 'bg-dodoria',
+            description: 'dodoria',
+          },
+          {
+            name: 'bg-dodoria-60',
+            description: 'dodoria-60',
+          },
+          {
+            name: 'bg-dodoria-10',
+            description: 'dodoria-10',
+          },
+        ]}
+      />
+      <ColoursPalette
+        title="Cell"
+        colors={[
+          {
+            name: 'bg-cell',
+            description: 'cell',
+          },
+          {
+            name: 'bg-cell-60',
+            description: 'cell-60',
+          },
+          {
+            name: 'bg-cell-10',
+            description: 'cell-10',
+          },
+        ]}
+      />
+      <ColoursPalette
+        title="Raditz"
+        colors={[
+          {
+            name: 'bg-raditz',
+            description: 'raditz',
+          },
+          {
+            name: 'bg-raditz-60',
+            description: 'raditz-60',
+          },
+          {
+            name: 'bg-raditz-10',
+            description: 'raditz-10',
+          },
+        ]}
+      />
+      <ColoursPalette
+        title="Whis"
+        colors={[
+          {
+            name: 'bg-whis',
+            description: 'whis',
+          },
+          {
+            name: 'bg-whis-60',
+            description: 'whis-60',
+          },
+          {
+            name: 'bg-whis-10',
+            description: 'whis-10',
+          },
+        ]}
+      />
+      <ColoursPalette
+        title="Frieza"
+        colors={[
+          {
+            name: 'bg-frieza',
+            description: 'frieza',
+          },
+          {
+            name: 'bg-frieza-60',
+            description: 'frieza-60',
+          },
+          {
+            name: 'bg-frieza-10',
+            description: 'frieza-10',
+          },
+        ]}
+      />
+      <ColoursPalette
+        title="Nappa"
+        colors={[
+          {
+            name: 'bg-nappa',
+            description: 'nappa',
+          },
+          {
+            name: 'bg-nappa-60',
+            description: 'nappa-60',
+          },
+          {
+            name: 'bg-nappa-10',
+            description: 'nappa-10',
+          },
+        ]}
+      />
+    </PageSection>
+  </>
+);
 
 export default PageColours;

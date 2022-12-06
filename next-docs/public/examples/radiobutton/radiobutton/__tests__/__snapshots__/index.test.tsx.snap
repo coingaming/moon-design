@@ -8,76 +8,76 @@ exports[`Radiobutton renders 1`] = `
     Please select your age:
   </p>
   <label
-    className="sc-yGKTs gtKvvj"
+    className="sc-bvdFzt eQGBHZ"
     htmlFor="age1"
   >
     <input
       aria-label="0 - 30"
-      className="sc-dbbhXq fsOTUY"
+      className="sc-dXycDr kLERNZ"
       id="age1"
       name="age"
       onClick={[Function]}
       type="radio"
     />
     <span
-      className="sc-dXycDr dhgzGn"
+      className="sc-jFAcUc ldZTnH"
     >
       <div
-        className="sc-jFAcUc ilVYDH"
+        className="sc-kBWXA-d iagXCt"
       />
     </span>
     <span
-      className="sc-bvdFzt bDQaZp"
+      className="sc-dbbhXq lorTGM"
     >
       0 - 30
     </span>
   </label>
   <label
-    className="sc-yGKTs gtKvvj"
+    className="sc-bvdFzt eQGBHZ"
     htmlFor="age2"
   >
     <input
       aria-label="31 - 60"
-      className="sc-dbbhXq fsOTUY"
+      className="sc-dXycDr kLERNZ"
       id="age2"
       name="age"
       onClick={[Function]}
       type="radio"
     />
     <span
-      className="sc-dXycDr dhgzGn"
+      className="sc-jFAcUc ldZTnH"
     >
       <div
-        className="sc-jFAcUc ilVYDH"
+        className="sc-kBWXA-d iagXCt"
       />
     </span>
     <span
-      className="sc-bvdFzt bDQaZp"
+      className="sc-dbbhXq lorTGM"
     >
       31 - 60
     </span>
   </label>
   <label
-    className="sc-yGKTs gtKvvj"
+    className="sc-bvdFzt eQGBHZ"
     htmlFor="age3"
   >
     <input
       aria-label="61 - 100"
-      className="sc-dbbhXq fsOTUY"
+      className="sc-dXycDr kLERNZ"
       id="age3"
       name="age"
       onClick={[Function]}
       type="radio"
     />
     <span
-      className="sc-dXycDr dhgzGn"
+      className="sc-jFAcUc ldZTnH"
     >
       <div
-        className="sc-jFAcUc ilVYDH"
+        className="sc-kBWXA-d iagXCt"
       />
     </span>
     <span
-      className="sc-bvdFzt bDQaZp"
+      className="sc-dbbhXq lorTGM"
     >
       61 - 100
     </span>
@@ -87,24 +87,24 @@ exports[`Radiobutton renders 1`] = `
 
 exports[`Radiobutton renders Checked 1`] = `
 <label
-  className="sc-yGKTs gtKvvj"
+  className="sc-bvdFzt eQGBHZ"
 >
   <input
     checked={true}
-    className="sc-dbbhXq fsOTUY"
+    className="sc-dXycDr kLERNZ"
     onClick={[Function]}
     readOnly={true}
     type="radio"
   />
   <span
-    className="sc-dXycDr dhgzGn"
+    className="sc-jFAcUc ldZTnH"
   >
     <div
-      className="sc-jFAcUc ilVYDH"
+      className="sc-kBWXA-d iagXCt"
     />
   </span>
   <span
-    className="sc-bvdFzt bDQaZp"
+    className="sc-dbbhXq lorTGM"
   >
     Checked radio button
   </span>
@@ -113,23 +113,23 @@ exports[`Radiobutton renders Checked 1`] = `
 
 exports[`Radiobutton renders Disabled 1`] = `
 <label
-  className="sc-yGKTs gtKvvj"
+  className="sc-bvdFzt eQGBHZ"
 >
   <input
-    className="sc-dbbhXq fsOTUY"
+    className="sc-dXycDr kLERNZ"
     disabled={true}
     onClick={[Function]}
     type="radio"
   />
   <span
-    className="sc-dXycDr dhgzGn"
+    className="sc-jFAcUc ldZTnH"
   >
     <div
-      className="sc-jFAcUc ilVYDH"
+      className="sc-kBWXA-d iagXCt"
     />
   </span>
   <span
-    className="sc-bvdFzt bDQaZp"
+    className="sc-dbbhXq lorTGM"
   >
     Disabled radio button
   </span>
@@ -141,21 +141,21 @@ exports[`Radiobutton renders No label 1`] = `
   dir="rtl"
 >
   <label
-    className="sc-yGKTs gtKvvj"
+    className="sc-bvdFzt eQGBHZ"
     htmlFor="button1"
   >
     <input
-      className="sc-dbbhXq fsOTUY"
+      className="sc-dXycDr kLERNZ"
       id="button1"
       name="button"
       onClick={[Function]}
       type="radio"
     />
     <span
-      className="sc-dXycDr dhgzGn"
+      className="sc-jFAcUc ldZTnH"
     >
       <div
-        className="sc-jFAcUc ilVYDH"
+        className="sc-kBWXA-d iagXCt"
       />
     </span>
   </label>
@@ -173,76 +173,76 @@ exports[`Radiobutton renders RTL 1`] = `
       Please select your age:
     </p>
     <label
-      className="sc-yGKTs gtKvvj"
+      className="sc-bvdFzt eQGBHZ"
       htmlFor="age1"
     >
       <input
         aria-label="0 - 30"
-        className="sc-dbbhXq fsOTUY"
+        className="sc-dXycDr kLERNZ"
         id="age1"
         name="age"
         onClick={[Function]}
         type="radio"
       />
       <span
-        className="sc-dXycDr dhgzGn"
+        className="sc-jFAcUc ldZTnH"
       >
         <div
-          className="sc-jFAcUc ilVYDH"
+          className="sc-kBWXA-d iagXCt"
         />
       </span>
       <span
-        className="sc-bvdFzt bDQaZp"
+        className="sc-dbbhXq lorTGM"
       >
         0 - 30
       </span>
     </label>
     <label
-      className="sc-yGKTs gtKvvj"
+      className="sc-bvdFzt eQGBHZ"
       htmlFor="age2"
     >
       <input
         aria-label="31 - 60"
-        className="sc-dbbhXq fsOTUY"
+        className="sc-dXycDr kLERNZ"
         id="age2"
         name="age"
         onClick={[Function]}
         type="radio"
       />
       <span
-        className="sc-dXycDr dhgzGn"
+        className="sc-jFAcUc ldZTnH"
       >
         <div
-          className="sc-jFAcUc ilVYDH"
+          className="sc-kBWXA-d iagXCt"
         />
       </span>
       <span
-        className="sc-bvdFzt bDQaZp"
+        className="sc-dbbhXq lorTGM"
       >
         31 - 60
       </span>
     </label>
     <label
-      className="sc-yGKTs gtKvvj"
+      className="sc-bvdFzt eQGBHZ"
       htmlFor="age3"
     >
       <input
         aria-label="61 - 100"
-        className="sc-dbbhXq fsOTUY"
+        className="sc-dXycDr kLERNZ"
         id="age3"
         name="age"
         onClick={[Function]}
         type="radio"
       />
       <span
-        className="sc-dXycDr dhgzGn"
+        className="sc-jFAcUc ldZTnH"
       >
         <div
-          className="sc-jFAcUc ilVYDH"
+          className="sc-kBWXA-d iagXCt"
         />
       </span>
       <span
-        className="sc-bvdFzt bDQaZp"
+        className="sc-dbbhXq lorTGM"
       >
         61 - 100
       </span>

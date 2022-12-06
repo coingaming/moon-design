@@ -3,9 +3,9 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/checkboxTW/Checked';
+import Customize from '../../public/examples/checkboxTW/Customize';
 import Default from '../../public/examples/checkboxTW/Default';
 import Disabled from '../../public/examples/checkboxTW/Disabled';
-import NoLabel from '../../public/examples/checkboxTW/NoLabel';
 import ReadOnly from '../../public/examples/checkboxTW/ReadOnly';
 import WithLabel from '../../public/examples/checkboxTW/WithLabel';
 import useExamples from '../../utils/useExamples';
@@ -14,7 +14,12 @@ const Example = () => {
   const examples = useExamples('checkboxTW');
   return (
     <>
-      <ComponentPageDescription title="Checkbox">
+      <ComponentPageDescription
+        title="Checkbox"
+        isInProgress
+        isRtlSupport
+        isAriaSupport
+      >
         <p>
           Checkboxes are used as a list in our forms and signup pages so users
           can select options of their choice. Users are free to choose how many
@@ -36,11 +41,6 @@ const Example = () => {
         code={examples ? examples.WithLabel : 'Loading'}
       />
       <Preview
-        title="No Label"
-        preview={<NoLabel />}
-        code={examples ? examples.NoLabel : 'Loading'}
-      />
-      <Preview
         title="Checked"
         preview={<Checked />}
         code={examples ? examples.Checked : 'Loading'}
@@ -55,6 +55,11 @@ const Example = () => {
         preview={<ReadOnly />}
         code={examples ? examples.ReadOnly : 'Loading'}
       />
+      <Preview
+        title="Customization"
+        preview={<Customize />}
+        code={examples ? examples.Customize : 'Loading'}
+      />
       <PropsTable
         title="Checkbox props"
         data={[
@@ -64,6 +69,13 @@ const Example = () => {
             required: false,
             default: '-',
             description: 'ARIA description of checkbox',
+          },
+          {
+            name: 'bgColor',
+            type: 'string',
+            required: false,
+            default: 'bg-piccolo',
+            description: 'Checked state of checkbox',
           },
           {
             name: 'checked',
@@ -82,27 +94,27 @@ const Example = () => {
           {
             name: 'id',
             type: 'string',
-            required: true,
+            required: false,
             default: '-',
             description: 'Unique id of checkbox',
           },
           {
             name: 'label',
-            type: 'string | JSX.Element',
+            type: 'JSX.Element | string',
             required: false,
             default: '-',
             description: "Describes checkbox's purpose",
           },
           {
             name: 'onChange',
-            type: '() => void',
+            type: '(event) => void',
             required: false,
             default: '-',
             description: 'Change event handler',
           },
           {
             name: 'onClick',
-            type: '() => void',
+            type: '(event) => void',
             required: false,
             default: '-',
             description: 'Click event handler',

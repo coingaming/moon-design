@@ -1,62 +1,52 @@
 import React from 'react';
 import { Table } from '@heathmont/moon-table-tw';
 
-import makeData from './makeData';
+const makeData = (length: number) => {
+  return Array.from('_'.repeat(length)).map((_, index) => {
+    return {
+      firstName: 'Test',
+      lastName: 'Test',
+      age: <span>{Math.floor(index * 30)}</span>,
+      visits: <span>{Math.floor(index * 100)}</span>,
+      progress: <span>{Math.floor(index * 100)}</span>,
+      status: Math.floor(index * 100),
+      activity: Math.floor(index * 100),
+    };
+  });
+};
 
-function App() {
-  const defaultColumn = React.useMemo(
-    () => ({
-      width: 150, // width is used for both the flex-basis and flex-grow
-    }),
-    []
-  )
+const Example = () => {
+  const columnsInitial = [
+    {
+      Header: 'First Name',
+      accessor: 'firstName',
+    },
+    {
+      Header: 'Last Name',
+      accessor: 'lastName',
+    },
+    {
+      Header: 'Age',
+      accessor: 'age',
+    },
+    {
+      Header: 'Visits',
+      accessor: 'visits',
+    },
+    {
+      Header: 'Activity',
+      accessor: 'activity',
+    },
+    {
+      Header: 'Status',
+      accessor: 'status',
+    },
+  ];
 
-  const columns = React.useMemo(
-    () => [
-      {
-        Header: 'Name',
-        columns: [
-          {
-            Header: 'First Name',
-            accessor: 'firstName',
-          },
-          {
-            Header: 'Last Name',
-            accessor: 'lastName',
-          },
-        ],
-      },
-      {
-        Header: 'Info',
-        columns: [
-          {
-            Header: 'Age',
-            accessor: 'age',
-            collapse: true,
-          },
-          {
-            Header: 'Visits',
-            accessor: 'visits',
-            collapse: true,
-          },
-          {
-            Header: 'Status',
-            accessor: 'status',
-          },
-          {
-            Header: 'Profile Progress',
-            accessor: 'progress',
-            collapse: true,
-          },
-        ],
-      },
-    ],
-    []
-  )
+  const columns = React.useMemo(() => columnsInitial, []);
+  const data = React.useMemo(() => makeData(5), []);
 
-  const data = React.useMemo(() => makeData(20), []);
+  return <Table columns={columns} data={data} />;
+};
 
-  return <Table columns={columns} data={data} defaultColumn={defaultColumn}/>;
-}
-
-export default App;
+export default Example;

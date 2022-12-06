@@ -14,7 +14,7 @@ const Example = () => {
   const examples = useExamples('radiobuttonTW');
   return (
     <>
-      <ComponentPageDescription title="RadioButton">
+      <ComponentPageDescription title="RadioButton" isInProgress>
         <p>
           Radio buttons are used to represent a group or category of choices
           whereby users can only select one option - the main difference from
@@ -59,46 +59,46 @@ const Example = () => {
             type: 'string',
             required: false,
             default: '-',
-            description: 'ARIA description of radio button',
+            description: 'ARIA description of RadioButton',
           },
           {
             name: 'checked',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Checked state of radio button',
+            description: 'Checked state of RadioButton',
           },
           {
             name: 'disabled',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Disables radio button',
+            description: 'Disables RadioButton',
           },
           {
             name: 'id',
             type: 'string',
             required: false,
             default: '-',
-            description: `Sets radio button id`,
+            description: `Sets RadioButton id`,
           },
           {
             name: 'label',
             type: 'JSX.Element | string',
             required: false,
             default: '-',
-            description: 'Label for radio button',
+            description: 'Label for RadioButton',
           },
           {
             name: 'onChange',
-            type: '() => void',
+            type: '(event) => void',
             required: false,
             default: '-',
             description: 'Change event handler',
           },
           {
             name: 'onClick',
-            type: '() => void',
+            type: '(event) => void',
             required: false,
             default: '-',
             description: 'Click event handler',
@@ -108,7 +108,7 @@ const Example = () => {
             type: 'boolean',
             required: false,
             default: 'false',
-            description: "Value of radio button can't be changed",
+            description: "Value of RadioButton can't be changed",
           },
         ]}
       />

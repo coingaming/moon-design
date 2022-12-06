@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   GenericAbout,
   GenericAlarm,
@@ -36,6 +35,7 @@ import {
   GenericMinus,
   GenericMultiBet,
   GenericNews,
+  GenericPartners,
   GenericPending,
   GenericPicture,
   GenericPlus,
@@ -173,6 +173,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="GenericNews">
       <GenericNews {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="GenericPartners">
+      <GenericPartners {...props} />
     </Icon>
     <Icon {...wrapperProps} name="GenericPending">
       <GenericPending {...props} />

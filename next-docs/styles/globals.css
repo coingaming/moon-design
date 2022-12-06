@@ -31,3 +31,12 @@ body {
   -webkit-font-smoothing: antialiased; /* Consistent font display behavior on OSX. */
   -moz-osx-font-smoothing: grayscale; /* Consistent font display behavior on OSX. */
 }
+/* Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}

@@ -18,6 +18,10 @@
     "publish:packages": "pnpm publish --no-git-checks --filter './packages/**' -r --access public",
     "publish:workspaces": "pnpm publish --no-git-checks  --filter './workspaces/**' -r --access public"
   },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=7"
+  },
   "eslintConfig": {
     "root": true,
     "extends": [
@@ -40,11 +44,11 @@
   },
   "lint-staged": {
     "*.{json,html,css,mdx,yml}": [
-      "yarn prettier --write",
+      "pnpm prettier --write",
       "git add"
     ],
     "*.{js,jsx,ts,tsx}": [
-      "yarn eslint --fix",
+      "pnpm eslint --fix",
       "git add"
     ]
   },

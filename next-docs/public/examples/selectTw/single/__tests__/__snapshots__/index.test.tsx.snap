@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Multi Select renders disabled 1`] = `
+exports[`Select in Dark Theme renders Disabled 1`] = `
 <div
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
@@ -11,105 +11,50 @@ exports[`Multi Select renders disabled 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r10:"
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r25:"
         onClick={[Function]}
       >
         Small
       </label>
-      <button
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 opacity-30 cursor-not-allowed"
-        disabled={true}
-        id="headlessui-listbox-button-:r11:"
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:r26:"
+          type="button"
         >
-          <span
-            className="text-moon-14 text-trunks"
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
           >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
           >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-    <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
-      role="alert"
-    >
-      Informative message holder
-    </p>
-  </div>
-  <div
-    className="w-full opacity-30 cursor-not-allowed"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r13:"
-        onClick={[Function]}
-      >
-        Medium
-      </label>
-      <button
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 opacity-30 cursor-not-allowed"
-        disabled={true}
-        id="headlessui-listbox-button-:r14:"
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
     </div>
     <p
       className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
@@ -125,48 +70,50 @@ exports[`Multi Select renders disabled 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r16:"
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r27:"
         onClick={[Function]}
       >
-        Large
+        Medium
       </label>
-      <button
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 opacity-30 cursor-not-allowed"
-        disabled={true}
-        id="headlessui-listbox-button-:r17:"
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:r28:"
+          type="button"
         >
-          <span
-            className="text-moon-16 text-trunks"
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
           >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
           >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
     </div>
     <p
       className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
@@ -181,303 +128,113 @@ exports[`Multi Select renders disabled 1`] = `
     <div
       className="relative"
     >
-      <button
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 opacity-30 cursor-not-allowed"
-        disabled={true}
-        id="headlessui-listbox-button-:r19:"
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <label
-            className="block text-moon-12 text-trunks"
-            id="headlessui-listbox-label-:r1a:"
-            onClick={[Function]}
-          >
-            xLarge
-          </label>
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-    <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
-      role="alert"
-    >
-      Informative message holder
-    </p>
-  </div>
-</div>
-`;
-
-exports[`Multi Select renders error 1`] = `
-<div
-  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
->
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
       <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r1c:"
-        onClick={[Function]}
-      >
-        Small
-      </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 shadow-input-err hover:shadow-input-err focus:shadow-input-err"
-        disabled={false}
-        id="headlessui-listbox-button-:r1d:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-14 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-    <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
-      role="alert"
-    >
-      Informative message holder
-    </p>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r1f:"
-        onClick={[Function]}
-      >
-        Medium
-      </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 shadow-input-err hover:shadow-input-err focus:shadow-input-err"
-        disabled={false}
-        id="headlessui-listbox-button-:r1g:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-    <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
-      role="alert"
-    >
-      Informative message holder
-    </p>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r1i:"
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r29:"
         onClick={[Function]}
       >
         Large
       </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 shadow-input-err hover:shadow-input-err focus:shadow-input-err"
-        disabled={false}
-        id="headlessui-listbox-button-:r1j:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:r2a:"
+          type="button"
         >
-          <span
-            className="text-moon-16 text-trunks"
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
           >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
           >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="w-full"
+    className="w-full opacity-30 cursor-not-allowed"
   >
     <div
       className="relative"
     >
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 shadow-input-err hover:shadow-input-err focus:shadow-input-err"
-        disabled={false}
-        id="headlessui-listbox-button-:r1l:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:r2b:"
+          type="button"
         >
-          <label
-            className="block text-moon-12 text-trunks"
-            id="headlessui-listbox-label-:r1m:"
-            onClick={[Function]}
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
           >
-            xLarge
-          </label>
-          <span
-            className="text-moon-16 text-trunks"
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r2c:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
           >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
       role="alert"
     >
       Informative message holder
@@ -486,7 +243,7 @@ exports[`Multi Select renders error 1`] = `
 </div>
 `;
 
-exports[`Multi Select renders with hint 1`] = `
+exports[`Select in Dark Theme renders Error 1`] = `
 <div
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
@@ -497,962 +254,19 @@ exports[`Multi Select renders with hint 1`] = `
       className="relative"
     >
       <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:rk:"
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r2d:"
         onClick={[Function]}
       >
         Small
       </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3"
-        disabled={false}
-        id="headlessui-listbox-button-:rl:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-14 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-    <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
-      role="alert"
-    >
-      Informative message holder
-    </p>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:rn:"
-        onClick={[Function]}
-      >
-        Medium
-      </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3"
-        disabled={false}
-        id="headlessui-listbox-button-:ro:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-    <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
-      role="alert"
-    >
-      Informative message holder
-    </p>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:rq:"
-        onClick={[Function]}
-      >
-        Large
-      </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4"
-        disabled={false}
-        id="headlessui-listbox-button-:rr:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-    <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
-      role="alert"
-    >
-      Informative message holder
-    </p>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4"
-        disabled={false}
-        id="headlessui-listbox-button-:rt:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <label
-            className="block text-moon-12 text-trunks"
-            id="headlessui-listbox-label-:ru:"
-            onClick={[Function]}
-          >
-            xLarge
-          </label>
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-    <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
-      role="alert"
-    >
-      Informative message holder
-    </p>
-  </div>
-</div>
-`;
-
-exports[`Multi Select renders with label 1`] = `
-<div
-  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
->
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r0:"
-        onClick={[Function]}
-      >
-        Small
-      </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3"
-        disabled={false}
-        id="headlessui-listbox-button-:r1:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-14 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r3:"
-        onClick={[Function]}
-      >
-        Medium
-      </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3"
-        disabled={false}
-        id="headlessui-listbox-button-:r4:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r6:"
-        onClick={[Function]}
-      >
-        Large
-      </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4"
-        disabled={false}
-        id="headlessui-listbox-button-:r7:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4"
-        disabled={false}
-        id="headlessui-listbox-button-:r9:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <label
-            className="block text-moon-12 text-trunks"
-            id="headlessui-listbox-label-:ra:"
-            onClick={[Function]}
-          >
-            xLarge
-          </label>
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Multi Select renders without label 1`] = `
-<div
-  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
->
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3"
-        disabled={false}
-        id="headlessui-listbox-button-:rc:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-14 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3"
-        disabled={false}
-        id="headlessui-listbox-button-:re:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4"
-        disabled={false}
-        id="headlessui-listbox-button-:rg:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4"
-        disabled={false}
-        id="headlessui-listbox-button-:ri:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-16 text-trunks"
-          >
-            Choose an option
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Multi Select with diferent option 1`] = `
-<div
-  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
->
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r1o:"
-        onClick={[Function]}
-      >
-        Country
-      </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3"
-        disabled={false}
-        id="headlessui-listbox-button-:r1p:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-14 text-bulma"
-          >
-            <div
-              className="flex "
-            >
-              <div
-                className="me-4"
-              >
-                🇬🇧
-              </div>
-              <div>
-                English
-              </div>
-            </div>
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r1r:"
-        onClick={[Function]}
-      >
-        Country
-      </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3"
-        disabled={false}
-        id="headlessui-listbox-button-:r1s:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-16 text-bulma"
-          >
-            <div
-              className="flex "
-            >
-              <div
-                className="me-4"
-              >
-                🇬🇧
-              </div>
-              <div>
-                English
-              </div>
-            </div>
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <label
-        className="block text-moon-16 text-bulma pb-2"
-        id="headlessui-listbox-label-:r1u:"
-        onClick={[Function]}
-      >
-        Country
-      </label>
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4"
-        disabled={false}
-        id="headlessui-listbox-button-:r1v:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <span
-            className="text-moon-16 text-bulma"
-          >
-            <div
-              className="flex "
-            >
-              <div
-                className="me-4"
-              >
-                🇬🇧
-              </div>
-              <div>
-                English
-              </div>
-            </div>
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <button
-        aria-expanded={false}
-        aria-haspopup={true}
-        className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4"
-        disabled={false}
-        id="headlessui-listbox-button-:r21:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        type="button"
-      >
-        <div
-          className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-        >
-          <label
-            className="block text-moon-12 text-trunks"
-            id="headlessui-listbox-label-:r22:"
-            onClick={[Function]}
-          >
-            Country
-          </label>
-          <span
-            className="text-moon-16 text-bulma"
-          >
-            <div
-              className="flex "
-            >
-              <div
-                className="me-4"
-              >
-                🇬🇧
-              </div>
-              <div>
-                English
-              </div>
-            </div>
-          </span>
-        </div>
-        <div
-          className="flex-shrink-0"
-        >
-          <svg
-            className="text-[1.5rem] text-trunks"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Multi Select with option width 1`] = `
-<div
-  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
->
-  <div
-    className="w-40"
-  >
-    <div
-      className="w-full"
-    >
-      <div
-        className="relative"
-      >
+      <div>
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
           disabled={false}
-          id="headlessui-listbox-button-:r24:"
+          id="headlessui-listbox-button-:r2e:"
           onClick={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
@@ -1464,7 +278,70 @@ exports[`Multi Select with option width 1`] = `
             <span
               className="text-moon-14 text-trunks"
             >
-              Choose...
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r2f:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-listbox-button-:r2g:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
             </span>
           </div>
           <div
@@ -1487,6 +364,737 @@ exports[`Multi Select with option width 1`] = `
             </svg>
           </div>
         </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r2h:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-listbox-button-:r2i:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-listbox-button-:r2j:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r2k:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders Hint 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r1t:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:r1u:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r1v:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r20:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r21:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r22:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:r23:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r24:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders Options 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r2l:"
+        onClick={[Function]}
+      >
+        Country
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:r2m:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r2n:"
+        onClick={[Function]}
+      >
+        Country
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r2o:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r2p:"
+        onClick={[Function]}
+      >
+        Country
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r2q:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:r2r:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r2s:"
+              onClick={[Function]}
+            >
+              Country
+            </label>
+            <span
+              className="text-moon-16 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders OptionsWidth 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-40"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            disabled={false}
+            id="headlessui-listbox-button-:r2t:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
       </div>
     </div>
   </div>
@@ -1499,12 +1107,250 @@ exports[`Multi Select with option width 1`] = `
       <div
         className="relative"
       >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r2u:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-64"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r2v:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-64"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            disabled={false}
+            id="headlessui-listbox-button-:r30:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r31:"
+                onClick={[Function]}
+              >
+                xLarge
+              </label>
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders WithLabel 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r1h:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div>
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
           disabled={false}
-          id="headlessui-listbox-button-:r26:"
+          id="headlessui-listbox-button-:r1i:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r1j:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r1k:"
           onClick={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
@@ -1516,7 +1362,7 @@ exports[`Multi Select with option width 1`] = `
             <span
               className="text-moon-16 text-trunks"
             >
-              Choose...
+              Choose an option
             </span>
           </div>
           <div
@@ -1543,20 +1389,25 @@ exports[`Multi Select with option width 1`] = `
     </div>
   </div>
   <div
-    className="w-64"
+    className="w-full"
   >
     <div
-      className="w-full"
+      className="relative"
     >
-      <div
-        className="relative"
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r1l:"
+        onClick={[Function]}
       >
+        Large
+      </label>
+      <div>
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
           disabled={false}
-          id="headlessui-listbox-button-:r28:"
+          id="headlessui-listbox-button-:r1m:"
           onClick={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
@@ -1568,7 +1419,7 @@ exports[`Multi Select with option width 1`] = `
             <span
               className="text-moon-16 text-trunks"
             >
-              Choose...
+              Choose an option
             </span>
           </div>
           <div
@@ -1595,20 +1446,18 @@ exports[`Multi Select with option width 1`] = `
     </div>
   </div>
   <div
-    className="w-64"
+    className="w-full"
   >
     <div
-      className="w-full"
+      className="relative"
     >
-      <div
-        className="relative"
-      >
+      <div>
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full rounded-moon-i-md bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
           disabled={false}
-          id="headlessui-listbox-button-:r2a:"
+          id="headlessui-listbox-button-:r1n:"
           onClick={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
@@ -1619,7 +1468,7 @@ exports[`Multi Select with option width 1`] = `
           >
             <label
               className="block text-moon-12 text-trunks"
-              id="headlessui-listbox-label-:r2b:"
+              id="headlessui-listbox-label-:r1o:"
               onClick={[Function]}
             >
               xLarge
@@ -1627,7 +1476,7 @@ exports[`Multi Select with option width 1`] = `
             <span
               className="text-moon-16 text-trunks"
             >
-              Choose...
+              Choose an option
             </span>
           </div>
           <div
@@ -1650,6 +1499,3665 @@ exports[`Multi Select with option width 1`] = `
             </svg>
           </div>
         </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders WithoutLabel 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:r1p:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r1q:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r1r:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:r1s:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders Disabled 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full opacity-30 cursor-not-allowed"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:rk:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:rl:"
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full opacity-30 cursor-not-allowed"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:rm:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:rn:"
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full opacity-30 cursor-not-allowed"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:ro:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:rp:"
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full opacity-30 cursor-not-allowed"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
+          disabled={true}
+          id="headlessui-listbox-button-:rq:"
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:rr:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders Error 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:rs:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-listbox-button-:rt:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:ru:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-listbox-button-:rv:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r10:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-listbox-button-:r11:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-listbox-button-:r12:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r13:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders Hint 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:rc:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:rd:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:re:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:rf:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:rg:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:rh:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:ri:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:rj:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders Options 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r14:"
+        onClick={[Function]}
+      >
+        Country
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:r15:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r16:"
+        onClick={[Function]}
+      >
+        Country
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r17:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r18:"
+        onClick={[Function]}
+      >
+        Country
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r19:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:r1a:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r1b:"
+              onClick={[Function]}
+            >
+              Country
+            </label>
+            <span
+              className="text-moon-16 text-bulma"
+            >
+              <div
+                className="flex "
+              >
+                <div
+                  className="me-4"
+                >
+                  🇬🇧
+                </div>
+                <div>
+                  English
+                </div>
+              </div>
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders OptionsWidth 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-40"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            disabled={false}
+            id="headlessui-listbox-button-:r1c:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-40"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r1d:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-64"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r1e:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-64"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            disabled={false}
+            id="headlessui-listbox-button-:r1f:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r1g:"
+                onClick={[Function]}
+              >
+                xLarge
+              </label>
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose...
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders WithLabel 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r0:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:r1:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r2:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r3:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r4:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r5:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:r6:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <label
+              className="block text-moon-12 text-trunks"
+              id="headlessui-listbox-label-:r7:"
+              onClick={[Function]}
+            >
+              xLarge
+            </label>
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders WithoutLabel 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          disabled={false}
+          id="headlessui-listbox-button-:r8:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-14 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M22 13l-6 6-6-6"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:r9:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          disabled={false}
+          id="headlessui-listbox-button-:ra:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          disabled={false}
+          id="headlessui-listbox-button-:rb:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          type="button"
+        >
+          <div
+            className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+          >
+            <span
+              className="text-moon-16 text-trunks"
+            >
+              Choose an option
+            </span>
+          </div>
+          <div
+            className="flex-shrink-0"
+          >
+            <svg
+              className="text-[1.5rem] text-trunks"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders Disabled 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full opacity-30 cursor-not-allowed"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          id="headlessui-listbox-label-:r3m:"
+          onClick={[Function]}
+        >
+          Small
+        </label>
+        <div>
+          <button
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
+            disabled={true}
+            id="headlessui-listbox-button-:r3n:"
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full opacity-30 cursor-not-allowed"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r3o:"
+          onClick={[Function]}
+        >
+          Medium
+        </label>
+        <div>
+          <button
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+            disabled={true}
+            id="headlessui-listbox-button-:r3p:"
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full opacity-30 cursor-not-allowed"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r3q:"
+          onClick={[Function]}
+        >
+          Large
+        </label>
+        <div>
+          <button
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+            disabled={true}
+            id="headlessui-listbox-button-:r3r:"
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full opacity-30 cursor-not-allowed"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
+            disabled={true}
+            id="headlessui-listbox-button-:r3s:"
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r3t:"
+                onClick={[Function]}
+              >
+                xLarge
+              </label>
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders Error 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          id="headlessui-listbox-label-:r3u:"
+          onClick={[Function]}
+        >
+          Small
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-listbox-button-:r3v:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r40:"
+          onClick={[Function]}
+        >
+          Medium
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-listbox-button-:r41:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r42:"
+          onClick={[Function]}
+        >
+          Large
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-listbox-button-:r43:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-listbox-button-:r44:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r45:"
+                onClick={[Function]}
+              >
+                xLarge
+              </label>
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders Hint 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          id="headlessui-listbox-label-:r3e:"
+          onClick={[Function]}
+        >
+          Small
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            disabled={false}
+            id="headlessui-listbox-button-:r3f:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r3g:"
+          onClick={[Function]}
+        >
+          Medium
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r3h:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r3i:"
+          onClick={[Function]}
+        >
+          Large
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r3j:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            disabled={false}
+            id="headlessui-listbox-button-:r3k:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r3l:"
+                onClick={[Function]}
+              >
+                xLarge
+              </label>
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders Options 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          id="headlessui-listbox-label-:r46:"
+          onClick={[Function]}
+        >
+          Country
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            disabled={false}
+            id="headlessui-listbox-button-:r47:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-bulma"
+              >
+                <div
+                  className="flex "
+                >
+                  <div
+                    className="me-4"
+                  >
+                    🇬🇧
+                  </div>
+                  <div>
+                    English
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r48:"
+          onClick={[Function]}
+        >
+          Country
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r49:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-bulma"
+              >
+                <div
+                  className="flex "
+                >
+                  <div
+                    className="me-4"
+                  >
+                    🇬🇧
+                  </div>
+                  <div>
+                    English
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r4a:"
+          onClick={[Function]}
+        >
+          Country
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r4b:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-bulma"
+              >
+                <div
+                  className="flex "
+                >
+                  <div
+                    className="me-4"
+                  >
+                    🇬🇧
+                  </div>
+                  <div>
+                    English
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            disabled={false}
+            id="headlessui-listbox-button-:r4c:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r4d:"
+                onClick={[Function]}
+              >
+                Country
+              </label>
+              <span
+                className="text-moon-16 text-bulma"
+              >
+                <div
+                  className="flex "
+                >
+                  <div
+                    className="me-4"
+                  >
+                    🇬🇧
+                  </div>
+                  <div>
+                    English
+                  </div>
+                </div>
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders OptionsWidth 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-40"
+    >
+      <div
+        className="w-full"
+      >
+        <div
+          className="relative"
+        >
+          <div>
+            <button
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+              disabled={false}
+              id="headlessui-listbox-button-:r4e:"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <div
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <span
+                  className="text-moon-14 text-trunks"
+                >
+                  Choose...
+                </span>
+              </div>
+              <div
+                className="flex-shrink-0"
+              >
+                <svg
+                  className="text-[1.5rem] text-trunks"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-40"
+    >
+      <div
+        className="w-full"
+      >
+        <div
+          className="relative"
+        >
+          <div>
+            <button
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              disabled={false}
+              id="headlessui-listbox-button-:r4f:"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <div
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <span
+                  className="text-moon-16 text-trunks"
+                >
+                  Choose...
+                </span>
+              </div>
+              <div
+                className="flex-shrink-0"
+              >
+                <svg
+                  className="text-[1.5rem] text-trunks"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5l-9 9-9-9"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-64"
+    >
+      <div
+        className="w-full"
+      >
+        <div
+          className="relative"
+        >
+          <div>
+            <button
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+              disabled={false}
+              id="headlessui-listbox-button-:r4g:"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <div
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <span
+                  className="text-moon-16 text-trunks"
+                >
+                  Choose...
+                </span>
+              </div>
+              <div
+                className="flex-shrink-0"
+              >
+                <svg
+                  className="text-[1.5rem] text-trunks"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5l-9 9-9-9"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-64"
+    >
+      <div
+        className="w-full"
+      >
+        <div
+          className="relative"
+        >
+          <div>
+            <button
+              aria-expanded={false}
+              aria-haspopup={true}
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              disabled={false}
+              id="headlessui-listbox-button-:r4h:"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              type="button"
+            >
+              <div
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <label
+                  className="block text-moon-12 text-trunks"
+                  id="headlessui-listbox-label-:r4i:"
+                  onClick={[Function]}
+                >
+                  xLarge
+                </label>
+                <span
+                  className="text-moon-16 text-trunks"
+                >
+                  Choose...
+                </span>
+              </div>
+              <div
+                className="flex-shrink-0"
+              >
+                <svg
+                  className="text-[1.5rem] text-trunks"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5l-9 9-9-9"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders WithLabel 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          id="headlessui-listbox-label-:r32:"
+          onClick={[Function]}
+        >
+          Small
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            disabled={false}
+            id="headlessui-listbox-button-:r33:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r34:"
+          onClick={[Function]}
+        >
+          Medium
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r35:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r36:"
+          onClick={[Function]}
+        >
+          Large
+        </label>
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r37:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            disabled={false}
+            id="headlessui-listbox-button-:r38:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <label
+                className="block text-moon-12 text-trunks"
+                id="headlessui-listbox-label-:r39:"
+                onClick={[Function]}
+              >
+                xLarge
+              </label>
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders WithoutLabel 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            disabled={false}
+            id="headlessui-listbox-button-:r3a:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-14 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r3b:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            disabled={false}
+            id="headlessui-listbox-button-:r3c:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="relative"
+      >
+        <div>
+          <button
+            aria-expanded={false}
+            aria-haspopup={true}
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            disabled={false}
+            id="headlessui-listbox-button-:r3d:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            type="button"
+          >
+            <div
+              className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+            >
+              <span
+                className="text-moon-16 text-trunks"
+              >
+                Choose an option
+              </span>
+            </div>
+            <div
+              className="flex-shrink-0"
+            >
+              <svg
+                className="text-[1.5rem] text-trunks"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </div>
+          </button>
+        </div>
       </div>
     </div>
   </div>

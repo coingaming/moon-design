@@ -15,7 +15,7 @@ const Example = () => {
   const examples = useExamples('selectTw/single');
   return (
     <>
-      <ComponentPageDescription title="Select">
+      <ComponentPageDescription title="Select" isInProgress>
         <p>
           Select components are used for collecting user provided information
           from a list of options.
@@ -75,56 +75,15 @@ const Example = () => {
         code={examples ? examples.OptionsWidth : 'Loading'}
       />
       <PropsTable
-        title="Props"
+        title="Select props"
         data={[
           {
-            name: 'size',
-            type: 'sm | md | lg | xl',
-            required: false,
-            default: 'md',
-            description: `The option's value.`,
-          },
-          {
-            name: 'options',
-            type: 'Object[]',
-            required: true,
-            default: '-',
-            description: `List of options.`,
-          },
-          {
-            name: 'label',
-            type: 'JSX.Element | string',
+            name: 'formatOptionLabel',
+            type: '(data) => JSX.Element | string',
             required: false,
             default: '-',
-            description: `Label title`,
-          },
-          {
-            name: 'placeholder',
-            type: 'JSX.Element | string',
-            required: false,
-            default: '-',
-            description: 'Placeholder',
-          },
-          {
-            name: 'value',
-            type: 'Object',
-            required: false,
-            default: '-',
-            description: 'Controled value',
-          },
-          {
-            name: 'onChange',
-            type: 'funct',
-            required: false,
-            default: '-',
-            description: 'onChange event handler',
-          },
-          {
-            name: 'menuWidth',
-            type: 'string',
-            required: false,
-            default: '_',
-            description: 'Tailwind class for custom options container width',
+            description:
+              'Function to customize the list options (like rendering an element as JSX)',
           },
           {
             name: 'hintText',
@@ -134,26 +93,67 @@ const Example = () => {
             description: 'Inform message under select',
           },
           {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: '_',
+            description: 'Set disabled/non-disabled select',
+          },
+          {
             name: 'isError',
             type: 'boolean',
             required: false,
             default: '_',
-            description: 'Set valid/not valid select',
+            description: 'Set valid/non-valid select',
           },
           {
-            name: 'isDisabled',
-            type: 'boolean',
-            required: false,
-            default: '_',
-            description: 'Set disabled/not disabled select',
-          },
-          {
-            name: 'formatOptionLabel',
-            type: 'funct',
+            name: 'label',
+            type: 'JSX.Element | string',
             required: false,
             default: '-',
-            description:
-              'Function to customize the list options (like rendering an element as JSX)',
+            description: `Label title`,
+          },
+          {
+            name: 'menuWidth',
+            type: 'string',
+            required: false,
+            default: '_',
+            description: 'Tailwind class for custom options container width',
+          },
+          {
+            name: 'onChange',
+            type: '(value) => void',
+            required: false,
+            default: '-',
+            description: 'onChange event handler',
+          },
+          {
+            name: 'options',
+            type: '{ id: number, label: string, value: string | number }[]',
+            required: true,
+            default: '-',
+            description: `List of options`,
+          },
+          {
+            name: 'placeholder',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Placeholder',
+          },
+          {
+            name: 'size',
+            type: 'sm | md | lg | xl',
+            required: false,
+            default: 'md',
+            description: `Size of select`,
+          },
+          {
+            name: 'value',
+            type: '{ id: number, label: string, value: string | number }',
+            required: false,
+            default: '-',
+            description: 'Controled value',
           },
         ]}
       />

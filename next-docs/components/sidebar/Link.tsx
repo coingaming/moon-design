@@ -1,6 +1,5 @@
-import { Chip } from '@heathmont/moon-core-tw';
+import { MenuItem } from '@heathmont/moon-core-tw';
 import NextLink from 'next/link';
-import classNames from '../../utils/classNames';
 
 type Props = {
   href: string;
@@ -10,12 +9,10 @@ type Props = {
 };
 
 const Link: React.FC<Props> = ({ href, children, isActive, onClick }) => (
-  <NextLink href={href}>
-    <a onClick={onClick}>
-      <Chip variant="ghost" isActive={isActive}>
-        {children}
-      </Chip>
-    </a>
+  <NextLink href={href} passHref>
+    <MenuItem as="a" isActive={isActive} onClick={onClick}>
+      {children}
+    </MenuItem>
   </NextLink>
 );
 

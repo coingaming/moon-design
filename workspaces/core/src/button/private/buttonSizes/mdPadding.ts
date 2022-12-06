@@ -1,6 +1,11 @@
-import type ButtonProps from '../types/ButtonProps';
+import type { ButtonSettingsProps } from '../types/ButtonProps';
 
-const mdPadding = ({ icon, iconLeft, iconRight, iconOnly }: ButtonProps) => {
+const mdPadding = ({
+  icon,
+  iconLeft,
+  iconRight,
+  iconOnly,
+}: ButtonSettingsProps) => {
   if (icon === 'left' || iconLeft) {
     return 'py-2 ps-2 pe-4';
   }

@@ -1,12 +1,12 @@
 {
   "name": "@heathmont/moon-core-tw",
   "sideEffects": false,
-  "version": "9.7.0",
+  "version": "9.14.3",
   "files": [
     "lib"
   ],
   "main": "lib/index.js",
-  "module": "lib/index.js",
+  "module": "lib/es/index.js",
   "typings": "lib/index.d.ts",
   "repository": "https://github.com/coingaming/moon-design",
   "author": "Yolo Group",
@@ -21,7 +21,12 @@
   },
   "dependencies": {
     "@headlessui/react": "1.6.1",
-    "@heathmont/moon-icons-tw": "workspace:^9.7.0"
+    "@heathmont/moon-icons-tw": "workspace:^9.14.3",
+    "@popperjs/core": "^2.11.6",
+    "@radix-ui/react-toast": "1.1.1",
+    "react-popper": "^2.3.0",
+    "tailwind-merge": "1.8.0",
+    "tailwindcss-radix": "^2.6.1"
   },
   "peerDependencies": {
     "react": ">= 18.0.0",

@@ -13,30 +13,26 @@ const Chip: React.FC<ChipProps> = ({
   isStroke,
   variant = 'default',
   ...rest
-}) => {
-  return (
-    <>
-      <button
-        className={classNames(
-          'z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200',
-          iconOnly ? 'center' : 'space-between',
-          size === 'sm' ? 'h-8 gap-1' : 'h-10 gap-2',
-          setPadding(size, iconLeft, iconRight, iconOnly),
-          variant === 'ghost' ? '' : 'bg-gohan',
-          isActive ? 'bg-piccolo/[.12] text-piccolo' : 'text-bulma',
-          isStroke && 'hover:shadow-interactive',
-          isActive && isStroke && 'shadow-interactive',
-          'hover:bg-piccolo/[.12] hover:text-piccolo'
-        )}
-        {...rest}
-      >
-        {iconLeft}
-        {children}
-        {iconOnly}
-        {iconRight}
-      </button>
-    </>
-  );
-};
+}) => (
+  <button
+    className={classNames(
+      'z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200',
+      iconOnly ? 'center' : 'space-between',
+      size === 'sm' ? 'h-8 gap-1' : 'h-10 gap-2',
+      setPadding(size, iconLeft, iconRight, iconOnly),
+      variant === 'ghost' ? '' : 'bg-gohan',
+      isActive ? 'bg-piccolo/[.12] text-piccolo' : 'text-bulma',
+      isStroke && 'hover:shadow-interactive',
+      isActive && isStroke && 'shadow-interactive',
+      'hover:bg-piccolo/[.12] hover:text-piccolo'
+    )}
+    {...rest}
+  >
+    {iconLeft}
+    {children}
+    {iconOnly}
+    {iconRight}
+  </button>
+);
 
 export default Chip;

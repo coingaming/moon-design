@@ -1,18 +1,26 @@
+import React from 'react';
 import type ButtonAnimations from './ButtonAnimations';
 import type ButtonIcons from './ButtonIcons';
 import type ButtonVariants from './ButtonVariants';
 
-type ButtonProps = React.ButtonHTMLAttributes<HTMLButtonElement> & {
-  variant?: ButtonVariants;
-  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+export type ButtonSettingsProps = {
   icon?: ButtonIcons;
-  animation?: ButtonAnimations;
-  iconSize?: number;
+  children?: React.ReactNode;
+  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
   iconLeft?: JSX.Element | boolean;
   iconRight?: JSX.Element | boolean;
   iconOnly?: JSX.Element | boolean;
+  animation?: ButtonAnimations;
   disabled?: boolean;
-  fullWidth?: boolean;
+  variant?: ButtonVariants;
 };
+
+type ButtonProps<C extends React.ElementType> = {
+  as?: C;
+  fullWidth?: boolean;
+  customClassName?: string;
+} & ButtonSettingsProps;
+
+type PolymorphicComponentProp<C extends React.ElementType, Props = {}> = {};
 
 export default ButtonProps;

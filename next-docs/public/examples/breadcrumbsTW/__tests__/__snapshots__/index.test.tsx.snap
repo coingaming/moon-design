@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Breadcrumb renders collapsed 1`] = `
+exports[`Breadcrumb in Dark Theme renders collapsed 1`] = `
 <nav
   aria-label="Breadcrumb"
 >
@@ -41,10 +41,11 @@ exports[`Breadcrumb renders collapsed 1`] = `
       className="relative"
     >
       <button
-        className="p-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+        className="p-1 h-8 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
+        type="button"
       >
         <svg
           className="text-moon-16"
@@ -125,7 +126,7 @@ exports[`Breadcrumb renders collapsed 1`] = `
 </nav>
 `;
 
-exports[`Breadcrumb renders four items 1`] = `
+exports[`Breadcrumb in Dark Theme renders four items 1`] = `
 <nav
   aria-label="Breadcrumb"
 >
@@ -237,7 +238,7 @@ exports[`Breadcrumb renders four items 1`] = `
 </nav>
 `;
 
-exports[`Breadcrumb renders one item 1`] = `
+exports[`Breadcrumb in Dark Theme renders one item 1`] = `
 <nav
   aria-label="Breadcrumb"
 >
@@ -259,7 +260,7 @@ exports[`Breadcrumb renders one item 1`] = `
 </nav>
 `;
 
-exports[`Breadcrumb renders two items 1`] = `
+exports[`Breadcrumb in Dark Theme renders two items 1`] = `
 <nav
   aria-label="Breadcrumb"
 >
@@ -309,4 +310,644 @@ exports[`Breadcrumb renders two items 1`] = `
     </li>
   </ol>
 </nav>
+`;
+
+exports[`Breadcrumb in Light Theme renders collapsed 1`] = `
+<nav
+  aria-label="Breadcrumb"
+>
+  <ol
+    className="flex flex-wrap gap-2 items-center text-moon-14"
+  >
+    <li
+      className="flex items-center gap-2 text-trunks"
+    >
+      <span
+        className="text-trunks transition-colors duration-200 hover:text-bulma"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Home
+        </a>
+      </span>
+      <svg
+        className="rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </li>
+    <li
+      className="relative"
+    >
+      <button
+        className="p-1 h-8 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+        onClick={[Function]}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        type="button"
+      >
+        <svg
+          className="text-moon-16"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
+            stroke="currentColor"
+            strokeLinecap="round"
+          />
+        </svg>
+        <span
+          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+    </li>
+    <li
+      className="flex items-center gap-2 text-trunks"
+    >
+      <svg
+        className="rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="text-trunks transition-colors duration-200 hover:text-bulma"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Page 4
+        </a>
+      </span>
+    </li>
+    <li
+      className="flex items-center gap-2 text-trunks"
+    >
+      <svg
+        className="rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+      >
+        <span>
+          Current page
+        </span>
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb in Light Theme renders four items 1`] = `
+<nav
+  aria-label="Breadcrumb"
+>
+  <ol
+    className="flex flex-wrap gap-2 items-center text-moon-14"
+  >
+    <li
+      className="flex items-center gap-2 text-trunks"
+    >
+      <span
+        className="text-trunks transition-colors duration-200 hover:text-bulma"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Home
+        </a>
+      </span>
+    </li>
+    <li
+      className="flex items-center gap-2 text-trunks"
+    >
+      <svg
+        className="rtl:rotate-180 text-moon-16"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="text-trunks transition-colors duration-200 hover:text-bulma"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Page 1
+        </a>
+      </span>
+    </li>
+    <li
+      className="flex items-center gap-2 text-trunks"
+    >
+      <svg
+        className="rtl:rotate-180 text-moon-16"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="text-trunks transition-colors duration-200 hover:text-bulma"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Page 2
+        </a>
+      </span>
+    </li>
+    <li
+      className="flex items-center gap-2 text-trunks"
+    >
+      <svg
+        className="rtl:rotate-180 text-moon-16"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+      >
+        <span>
+          Current page
+        </span>
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb in Light Theme renders one item 1`] = `
+<nav
+  aria-label="Breadcrumb"
+>
+  <ol
+    className="flex flex-wrap gap-2 items-center text-moon-14"
+  >
+    <li
+      className="flex items-center gap-2 text-trunks"
+    >
+      <span
+        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+      >
+        <span>
+          Current page
+        </span>
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb in Light Theme renders two items 1`] = `
+<nav
+  aria-label="Breadcrumb"
+>
+  <ol
+    className="flex flex-wrap gap-2 items-center text-moon-14"
+  >
+    <li
+      className="flex items-center gap-2 text-trunks"
+    >
+      <span
+        className="text-trunks transition-colors duration-200 hover:text-bulma"
+      >
+        <a
+          href="/"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+        >
+          Home
+        </a>
+      </span>
+    </li>
+    <li
+      className="flex items-center gap-2 text-trunks"
+    >
+      <svg
+        className="rtl:rotate-180 text-moon-16"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+      >
+        <span>
+          Current page
+        </span>
+      </span>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Breadcrumb in RTL renders collapsed 1`] = `
+<div
+  dir="rtl"
+>
+  <nav
+    aria-label="Breadcrumb"
+  >
+    <ol
+      className="flex flex-wrap gap-2 items-center text-moon-14"
+    >
+      <li
+        className="flex items-center gap-2 text-trunks"
+      >
+        <span
+          className="text-trunks transition-colors duration-200 hover:text-bulma"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Home
+          </a>
+        </span>
+        <svg
+          className="rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </li>
+      <li
+        className="relative"
+      >
+        <button
+          className="p-1 h-8 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+          onClick={[Function]}
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
+        >
+          <svg
+            className="text-moon-16"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
+              stroke="currentColor"
+              strokeLinecap="round"
+            />
+          </svg>
+          <span
+            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+      </li>
+      <li
+        className="flex items-center gap-2 text-trunks"
+      >
+        <svg
+          className="rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          className="text-trunks transition-colors duration-200 hover:text-bulma"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Page 4
+          </a>
+        </span>
+      </li>
+      <li
+        className="flex items-center gap-2 text-trunks"
+      >
+        <svg
+          className="rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        >
+          <span>
+            Current page
+          </span>
+        </span>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;
+
+exports[`Breadcrumb in RTL renders four items 1`] = `
+<div
+  dir="rtl"
+>
+  <nav
+    aria-label="Breadcrumb"
+  >
+    <ol
+      className="flex flex-wrap gap-2 items-center text-moon-14"
+    >
+      <li
+        className="flex items-center gap-2 text-trunks"
+      >
+        <span
+          className="text-trunks transition-colors duration-200 hover:text-bulma"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Home
+          </a>
+        </span>
+      </li>
+      <li
+        className="flex items-center gap-2 text-trunks"
+      >
+        <svg
+          className="rtl:rotate-180 text-moon-16"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          className="text-trunks transition-colors duration-200 hover:text-bulma"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Page 1
+          </a>
+        </span>
+      </li>
+      <li
+        className="flex items-center gap-2 text-trunks"
+      >
+        <svg
+          className="rtl:rotate-180 text-moon-16"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          className="text-trunks transition-colors duration-200 hover:text-bulma"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Page 2
+          </a>
+        </span>
+      </li>
+      <li
+        className="flex items-center gap-2 text-trunks"
+      >
+        <svg
+          className="rtl:rotate-180 text-moon-16"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        >
+          <span>
+            Current page
+          </span>
+        </span>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;
+
+exports[`Breadcrumb in RTL renders one item 1`] = `
+<div
+  dir="rtl"
+>
+  <nav
+    aria-label="Breadcrumb"
+  >
+    <ol
+      className="flex flex-wrap gap-2 items-center text-moon-14"
+    >
+      <li
+        className="flex items-center gap-2 text-trunks"
+      >
+        <span
+          className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        >
+          <span>
+            Current page
+          </span>
+        </span>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;
+
+exports[`Breadcrumb in RTL renders two items 1`] = `
+<div
+  dir="rtl"
+>
+  <nav
+    aria-label="Breadcrumb"
+  >
+    <ol
+      className="flex flex-wrap gap-2 items-center text-moon-14"
+    >
+      <li
+        className="flex items-center gap-2 text-trunks"
+      >
+        <span
+          className="text-trunks transition-colors duration-200 hover:text-bulma"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+          >
+            Home
+          </a>
+        </span>
+      </li>
+      <li
+        className="flex items-center gap-2 text-trunks"
+      >
+        <svg
+          className="rtl:rotate-180 text-moon-16"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        >
+          <span>
+            Current page
+          </span>
+        </span>
+      </li>
+    </ol>
+  </nav>
+</div>
 `;

@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
 import HorizontalVariants from '../../public/examples/tabs/HorizontalVariants';
@@ -14,15 +15,7 @@ const PageTabsNew = () => {
   return (
     <>
       <ComponentPageDescription title="Tabs">
-        <p>
-          Use tabs to allow users to navigate easily between views within the
-          same context.
-        </p>
-        <p>
-          Each tab should contain content that is distinct from other tabs in a
-          set. For example, tabs can present different sections of news,
-          different genres of music, or different themes of documents.
-        </p>
+        <DeprecationWarning href="/core/tabs" name="Tabs" />
       </ComponentPageDescription>
       <Preview
         title="Default"
@@ -113,6 +106,20 @@ const PageTabsNew = () => {
             required: false,
             default: '-',
             description: `The href attribute specifies the link's destination`,
+          },
+          {
+            name: 'isActive',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: `Set item as active by default`,
+          },
+          {
+            name: 'onClick',
+            type: 'function',
+            required: false,
+            default: '-',
+            description: `Handler on click action`,
           },
         ]}
       />

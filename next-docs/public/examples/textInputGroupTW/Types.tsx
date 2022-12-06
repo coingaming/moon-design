@@ -1,4 +1,3 @@
-import React from 'react';
 import { TextInputGroup } from '@heathmont/moon-core-tw';
 
 const Example = () => {

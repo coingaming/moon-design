@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import AccessValues from '../../public/examples/textInputGroup/AccessValues';
 import Combined from '../../public/examples/textInputGroup/Combined';
@@ -20,16 +21,7 @@ const PageTextInputGroup = () => {
   return (
     <>
       <ComponentPageDescription title="TextInput Group">
-        <p>The TextInputGroup component lives in 2 different packages:</p>
-        <p>
-          Text type - <em>@heathmont/moon-core</em>
-        </p>
-        <p>
-          Select type - <em>@heathmont/moon-select</em>
-        </p>
-        <p className="font-bold">
-          !!! TextInput Group is supported only in size `xlarge`.
-        </p>
+        <DeprecationWarning href="/core/textInputGroup" name="TextInputGroup" />
       </ComponentPageDescription>
       <Preview
         title="Default"

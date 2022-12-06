@@ -16,64 +16,121 @@ import Icons from '../Icons';
 import FullWidth from '../FullWidth';
 import Disabled from '../Disabled';
 import Animations from '../Animations';
+import AsLink from '../AsLink';
 
-const renderWithTheme = (component: JSX.Element) => (
+const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
-
-const renderWithThemeRTL = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>
-    <div dir="rtl">{component}</div>
-  </ThemeProvider>
 );
 
 const renderWithDarkTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
 );
 
-describe('Button', () => {
-  it('renders default', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Default />));
+const renderWithRtl = (component: JSX.Element) => (
+  <div dir="rtl">{component}</div>
+);
+
+describe('Button in Light Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders default rtl', () => {
-    const testRenderer = renderer.create(renderWithThemeRTL(<Default />));
+  it('renders AsLink', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<AsLink />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders Variants', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Variants />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Sizes', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Sizes />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Icons', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Icons />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders FullWidth', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<FullWidth />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Disabled', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Animations', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Animations />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
 
-  it('renders default dark', () => {
+describe('Button in Dark Theme', () => {
+  it('renders Default', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders variants', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Variants />));
+  it('renders AsLink', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<AsLink />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders sizes', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Sizes />));
+  it('renders Variants', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Variants />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders icons', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Icons />));
+  it('renders Sizes', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Sizes />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders full width', () => {
-    const testRenderer = renderer.create(renderWithTheme(<FullWidth />));
+  it('renders Icons', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Icons />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders disabled', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Disabled />));
+  it('renders FullWidth', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<FullWidth />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders Disabled', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Animations', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Animations />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
 
-  it('renders animations', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Animations />));
+describe('Button in RTL', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders AsLink', () => {
+    const testRenderer = renderer.create(renderWithRtl(<AsLink />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Variants', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Variants />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Sizes', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Sizes />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Icons', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Icons />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders FullWidth', () => {
+    const testRenderer = renderer.create(renderWithRtl(<FullWidth />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Disabled', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Animations', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Animations />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

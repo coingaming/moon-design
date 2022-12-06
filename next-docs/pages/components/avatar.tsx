@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import ActiveStatus from '../../public/examples/avatar/ActiveStatus';
 import Colours from '../../public/examples/avatar/Colours';
@@ -13,12 +14,7 @@ const PageAvatar = () => {
   return (
     <>
       <ComponentPageDescription title="Avatar">
-        <p>
-          Avatars are used to represent an individual, a business, or a
-          celestial being when they interact with any Coingaming brand. While
-          they usually consist of an image, avatars are adaptable - letters or
-          object icons may sometimes be used as fallbacks.
-        </p>
+        <DeprecationWarning href="/core/avatar" name="Avatar" />
       </ComponentPageDescription>
       <Preview
         title="Variants"

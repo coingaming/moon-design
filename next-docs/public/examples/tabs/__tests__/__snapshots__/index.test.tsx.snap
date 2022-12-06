@@ -2,89 +2,89 @@
 
 exports[`Tabs renders 1`] = `
 <nav
-  className="sc-jwYuju eBQonn"
+  className="sc-gA-DJDv cAmVeO"
 >
   <a
-    className="sc-gPKDLW duTKia"
+    className="sc-ksWjrO kSPgqB"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="sc-frlyyo sc-cuQNSp cdSTba"
+    className="sc-cuQNSp sc-jwYuju ivFoxT dKCwSY"
   >
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#2"
       >
         Featured
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#3"
       >
         Today
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#4"
       >
         Tomorrow
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#5"
       >
         Future
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#6"
       >
         Outright
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#7"
       >
         Leagues
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#8"
       >
         News
@@ -97,316 +97,312 @@ exports[`Tabs renders 1`] = `
 </nav>
 `;
 
-exports[`Tabs renders Fill 1`] = `
-<nav
-  className="sc-jwYuju eBQonn"
->
-  <a
-    className="sc-gPKDLW duTKia"
-    href="#nav-test-id-1"
+exports[`Tabs renders HorizontalVariants 1`] = `
+Array [
+  <nav
+    className="sc-gA-DJDv cAmVeO"
   >
-    Skip to content
-  </a>
-  <ul
-    className="sc-frlyyo sc-cuQNSp cdSTba"
+    <a
+      className="sc-ksWjrO kSPgqB"
+      href="#nav-test-id-1"
+    >
+      Skip to content
+    </a>
+    <ul
+      className="sc-cuQNSp sc-jwYuju ivFoxT dKCwSY"
+    >
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#2"
+        >
+          Featured
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#3"
+        >
+          Today
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#4"
+        >
+          Tomorrow
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#5"
+        >
+          Future
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#6"
+        >
+          Outright
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#7"
+        >
+          Leagues
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#8"
+        >
+          News
+        </a>
+      </li>
+    </ul>
+    <span
+      id="nav-test-id-1"
+    />
+  </nav>,
+  <nav
+    className="sc-gA-DJDv cAmVeO"
   >
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
+    <a
+      className="sc-ksWjrO kSPgqB"
+      href="#nav-test-id-2"
     >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#2"
-      >
-        Featured
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
+      Skip to content
+    </a>
+    <ul
+      className="sc-cuQNSp sc-jwYuju ivFoxT dKCwSY"
     >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#3"
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
       >
-        Today
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#4"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#2"
+        >
+          Featured
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
       >
-        Tomorrow
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#5"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#3"
+        >
+          Today
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
       >
-        Future
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#6"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#4"
+        >
+          Tomorrow
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
       >
-        Outright
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#7"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#5"
+        >
+          Future
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
       >
-        Leagues
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#8"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#6"
+        >
+          Outright
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
       >
-        News
-      </a>
-    </li>
-  </ul>
-  <span
-    id="nav-test-id-1"
-  />
-</nav>
-`;
-
-exports[`Tabs renders Fill Container 1`] = `
-<nav
-  className="sc-jwYuju hnWKYh"
->
-  <a
-    className="sc-gPKDLW duTKia"
-    href="#nav-test-id-1"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#7"
+        >
+          Leagues
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo ePAnix"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#8"
+        >
+          News
+        </a>
+      </li>
+    </ul>
+    <span
+      id="nav-test-id-2"
+    />
+  </nav>,
+  <nav
+    className="sc-gA-DJDv eHnLUo"
   >
-    Skip to content
-  </a>
-  <ul
-    className="sc-frlyyo sc-cuQNSp cdSTba ekAFZp"
-  >
-    <li
-      className="sc-hwByLP kawJDf"
-      onClick={[Function]}
+    <a
+      className="sc-ksWjrO kSPgqB"
+      href="#nav-test-id-1"
     >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#2"
-      >
-        Featured
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP kawJDf"
-      onClick={[Function]}
+      Skip to content
+    </a>
+    <ul
+      className="sc-cuQNSp sc-jwYuju ivFoxT frjcne"
     >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#3"
+      <li
+        className="sc-frlyyo hngLEo active"
+        onClick={[Function]}
       >
-        Today
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP kawJDf"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#4"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#2"
+        >
+          Featured
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hngLEo"
+        onClick={[Function]}
       >
-        Tomorrow
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP kawJDf"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#5"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#3"
+        >
+          Today
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hngLEo"
+        onClick={[Function]}
       >
-        Future
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP kawJDf"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#6"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#4"
+        >
+          Tomorrow
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hngLEo"
+        onClick={[Function]}
       >
-        Outright
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP kawJDf"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#7"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#5"
+        >
+          Future
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hngLEo"
+        onClick={[Function]}
       >
-        Leagues
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP kawJDf"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-WJksd hhVxiG tab-link-fill"
-        href="#8"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#6"
+        >
+          Outright
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hngLEo"
+        onClick={[Function]}
       >
-        News
-      </a>
-    </li>
-  </ul>
-  <span
-    id="nav-test-id-1"
-  />
-</nav>
-`;
-
-exports[`Tabs renders Is Top 1`] = `
-<nav
-  className="sc-jwYuju eBQonn"
->
-  <a
-    className="sc-gPKDLW duTKia"
-    href="#nav-test-id-1"
-  >
-    Skip to content
-  </a>
-  <ul
-    className="sc-frlyyo sc-cuQNSp cdSTba"
-  >
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-knTjpY kYxkHm"
-        href="#2"
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#7"
+        >
+          Leagues
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hngLEo"
+        onClick={[Function]}
       >
-        Featured
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-knTjpY kYxkHm"
-        href="#3"
-      >
-        Today
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-knTjpY kYxkHm"
-        href="#4"
-      >
-        Tomorrow
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-knTjpY kYxkHm"
-        href="#5"
-      >
-        Future
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-knTjpY kYxkHm"
-        href="#6"
-      >
-        Outright
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-knTjpY kYxkHm"
-        href="#7"
-      >
-        Leagues
-      </a>
-    </li>
-    <li
-      className="sc-hwByLP fIHlVm"
-      onClick={[Function]}
-    >
-      <a
-        className="sc-knTjpY kYxkHm"
-        href="#8"
-      >
-        News
-      </a>
-    </li>
-  </ul>
-  <span
-    id="nav-test-id-1"
-  />
-</nav>
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#8"
+        >
+          News
+        </a>
+      </li>
+    </ul>
+    <span
+      id="nav-test-id-1"
+    />
+  </nav>,
+]
 `;
 
 exports[`Tabs renders Small 1`] = `
 <nav
-  className="sc-jwYuju eBQonn"
+  className="sc-gA-DJDv cAmVeO"
 >
   <a
-    className="sc-gPKDLW duTKia"
+    className="sc-ksWjrO kSPgqB"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="sc-frlyyo sc-cuQNSp cdSTba"
+    className="sc-cuQNSp sc-jwYuju ivFoxT dKCwSY"
   >
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY cbiJza"
+        className="sc-jLOYlT dUjYCo"
         href="#2"
         size="small"
       >
@@ -414,11 +410,11 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY cbiJza"
+        className="sc-jLOYlT dUjYCo"
         href="#3"
         size="small"
       >
@@ -426,11 +422,11 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY cbiJza"
+        className="sc-jLOYlT dUjYCo"
         href="#4"
         size="small"
       >
@@ -438,11 +434,11 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY cbiJza"
+        className="sc-jLOYlT dUjYCo"
         href="#5"
         size="small"
       >
@@ -450,11 +446,11 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY cbiJza"
+        className="sc-jLOYlT dUjYCo"
         href="#6"
         size="small"
       >
@@ -462,11 +458,11 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY cbiJza"
+        className="sc-jLOYlT dUjYCo"
         href="#7"
         size="small"
       >
@@ -474,11 +470,11 @@ exports[`Tabs renders Small 1`] = `
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY cbiJza"
+        className="sc-jLOYlT dUjYCo"
         href="#8"
         size="small"
       >
@@ -494,54 +490,54 @@ exports[`Tabs renders Small 1`] = `
 
 exports[`Tabs renders Variant 1`] = `
 <nav
-  className="sc-jwYuju eBQonn"
+  className="sc-gA-DJDv cAmVeO"
 >
   <a
-    className="sc-gPKDLW duTKia"
+    className="sc-ksWjrO kSPgqB"
     href="#nav-test-id-1"
   >
     Skip to content
   </a>
   <ul
-    className="sc-frlyyo sc-cuQNSp cdSTba"
+    className="sc-cuQNSp sc-jwYuju ivFoxT dKCwSY"
   >
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#2"
       >
         Featured
         <span
-          className="sc-gRFyCy eDsNaV"
+          className="sc-WJksd jmittI"
         >
           00
         </span>
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#3"
       >
         Today
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#4"
       >
         <div
-          className="sc-jLOYlT XptmO"
+          className="sc-gRFyCy gXcHYy"
         >
           <svg
             className="sc-dvwKko"
@@ -562,15 +558,15 @@ exports[`Tabs renders Variant 1`] = `
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#5"
       >
         <div
-          className="sc-jLOYlT XptmO"
+          className="sc-gRFyCy gXcHYy"
         >
           <svg
             className="sc-dvwKko"
@@ -589,40 +585,40 @@ exports[`Tabs renders Variant 1`] = `
         </div>
         Future
         <span
-          className="sc-gRFyCy eDsNaV"
+          className="sc-WJksd jmittI"
         >
           00
         </span>
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#6"
       >
         Outright
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#7"
       >
         Leagues
       </a>
     </li>
     <li
-      className="sc-hwByLP fIHlVm"
+      className="sc-frlyyo ePAnix"
       onClick={[Function]}
     >
       <a
-        className="sc-knTjpY ecxyEj"
+        className="sc-jLOYlT hIiJfh"
         href="#8"
       >
         News
@@ -633,4 +629,293 @@ exports[`Tabs renders Variant 1`] = `
     id="nav-test-id-1"
   />
 </nav>
+`;
+
+exports[`Tabs renders VerticalVariants 1`] = `
+<div
+  className="flex flex-row justify-around items-end w-full gap-2"
+>
+  <nav
+    className="sc-gA-DJDv cXLaha"
+  >
+    <a
+      className="sc-ksWjrO kSPgqB"
+      href="#nav-test-id-1"
+    >
+      Skip to content
+    </a>
+    <ul
+      className="sc-cuQNSp sc-jwYuju ivFoxT dKCwSY"
+    >
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT hIiJfh"
+          href="#2"
+        >
+          Featured
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT hIiJfh"
+          href="#3"
+        >
+          Today
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT hIiJfh"
+          href="#4"
+        >
+          Tomorrow
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT hIiJfh"
+          href="#5"
+        >
+          Future
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT hIiJfh"
+          href="#6"
+        >
+          Outright
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT hIiJfh"
+          href="#7"
+        >
+          Leagues
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT hIiJfh"
+          href="#8"
+        >
+          News
+        </a>
+      </li>
+    </ul>
+    <span
+      id="nav-test-id-1"
+    />
+  </nav>
+  <nav
+    className="sc-gA-DJDv saotD"
+  >
+    <a
+      className="sc-ksWjrO kSPgqB"
+      href="#nav-test-id-1"
+    >
+      Skip to content
+    </a>
+    <ul
+      className="sc-cuQNSp sc-jwYuju ivFoxT dKCwSY"
+    >
+      <li
+        className="sc-frlyyo itkWHn"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#2"
+        >
+          Featured
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo itkWHn"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#3"
+        >
+          Today
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo itkWHn"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#4"
+        >
+          Tomorrow
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo itkWHn"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#5"
+        >
+          Future
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo itkWHn"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#6"
+        >
+          Outright
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo itkWHn"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#7"
+        >
+          Leagues
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo itkWHn"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jLOYlT gehdCA"
+          href="#8"
+        >
+          News
+        </a>
+      </li>
+    </ul>
+    <span
+      id="nav-test-id-1"
+    />
+  </nav>
+  <nav
+    className="sc-gA-DJDv cXLaha"
+  >
+    <a
+      className="sc-ksWjrO kSPgqB"
+      href="#nav-test-id-1"
+    >
+      Skip to content
+    </a>
+    <ul
+      className="sc-cuQNSp sc-jwYuju ivFoxT dKCwSY"
+    >
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#2"
+        >
+          Featured
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#3"
+        >
+          Today
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#4"
+        >
+          Tomorrow
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#5"
+        >
+          Future
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#6"
+        >
+          Outright
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#7"
+        >
+          Leagues
+        </a>
+      </li>
+      <li
+        className="sc-frlyyo hhOqxv"
+        onClick={[Function]}
+      >
+        <a
+          className="sc-jrVuhE cITKZl tab-link-fill"
+          href="#8"
+        >
+          News
+        </a>
+      </li>
+    </ul>
+    <span
+      id="nav-test-id-1"
+    />
+  </nav>
+</div>
 `;

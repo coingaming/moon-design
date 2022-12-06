@@ -1,7 +1,7 @@
 type Data = {
   name: string;
   type: string;
-  required: boolean;
+  required: boolean | undefined;
   default: string | React.ReactNode;
   description: string;
 };
@@ -27,25 +27,25 @@ const PropsTable = ({ data, title }: TableProps) => (
 
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-trunks uppercase tracking-wider"
+              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
             >
               Type
             </th>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-trunks uppercase tracking-wider"
+              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
             >
               Required
             </th>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-trunks uppercase tracking-wider"
+              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
             >
               Default
             </th>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-trunks uppercase tracking-wider"
+              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
             >
               Description
             </th>
@@ -61,16 +61,20 @@ const PropsTable = ({ data, title }: TableProps) => (
                 {prop.name}
               </td>
 
-              <td className="px-4 py-4 whitespace-nowrap text-sm text-trunks">
+              <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
                 {prop.type}
               </td>
-              <td className="px-4 py-4 whitespace-nowrap text-sm text-trunks">
-                {prop.required ? 'Yes' : 'No'}
+              <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
+                {typeof prop.required === 'boolean'
+                  ? prop.required
+                    ? 'Yes'
+                    : 'No'
+                  : ''}
               </td>
-              <td className="px-4 py-4 whitespace-nowrap text-sm text-trunks">
+              <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
                 {prop.default}
               </td>
-              <td className="px-4 py-4 text-sm text-trunks">
+              <td className="px-4 py-4 text-sm text-bulma">
                 {prop.description}
               </td>
             </tr>

@@ -10,6 +10,8 @@ export interface TabLinkFillProps {
   isTop?: boolean;
   href?: string;
   children?: React.ReactNode;
+  isActive?: boolean;
+  onClick?: () => void;
 }
 
 const ElementLeftWrapper = styled.div({
@@ -27,7 +29,7 @@ const TabLinkFill: React.FC<TabLinkFillProps> = ({
   size,
   count,
 }) => (
-  <Container size={size} href={href} className='tab-link-fill'>
+  <Container size={size} href={href} className="tab-link-fill">
     {elementLeft && <ElementLeftWrapper>{elementLeft}</ElementLeftWrapper>}
     {children}
     {count && <CountWrapper>{count}</CountWrapper>}

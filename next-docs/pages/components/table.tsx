@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Calendar from '../../public/examples/table/Calendar';
 import ClickableRows from '../../public/examples/table/ClickableRows';
@@ -20,19 +21,7 @@ export default function PageTable() {
   return (
     <>
       <ComponentPageDescription title="Table">
-        <p>Lightweight, fast and extendable table.</p>
-        <p>
-          Based on{' '}
-          <a
-            href="https://github.com/tannerlinsley/react-table"
-            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-            target="_blank"
-            rel="noreferrer"
-          >
-            react-table
-          </a>
-          .
-        </p>
+        <DeprecationWarning href="/core/table" name="Table" />
       </ComponentPageDescription>
       <Preview
         title="Default"

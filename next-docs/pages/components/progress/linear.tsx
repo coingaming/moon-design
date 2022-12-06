@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/examples/progress/linear/Default';
 import useExamples from '../../../utils/useExamples';
@@ -11,12 +12,7 @@ export default function PageProgressLinear() {
   return (
     <>
       <ComponentPageDescription title="Linear">
-        <p>
-          A progress indicator is a visual representation of a user's progress
-          through a set of steps, guiding toward the completion of a specified
-          process.
-        </p>
-        <p>Use this when the process has a known duration.</p>
+        <DeprecationWarning href="/core/progress" name="Progress" />
       </ComponentPageDescription>
       <Preview
         title="Examples"

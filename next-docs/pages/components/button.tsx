@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/button/Animations';
 import Disabled from '../../public/examples/button/Disabled';
@@ -14,15 +15,7 @@ const PageButton = () => {
   return (
     <>
       <ComponentPageDescription title="Button">
-        <p>
-          Buttons are calls-to-action used to prompt users. They encourage users
-          to interact with us in multiple ways throughout our galaxy, based on
-          what the label of the button indicates.
-        </p>
-        <p>
-          Buttons are clickable elements with label text that describe the
-          action that will happen when the users interact with it.
-        </p>
+        <DeprecationWarning href="/core/button" name="Button" />
       </ComponentPageDescription>
       <Preview
         title="Variants"

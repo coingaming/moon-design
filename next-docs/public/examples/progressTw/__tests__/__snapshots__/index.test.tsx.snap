@@ -1,0 +1,689 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress in Dark theme renders Colors 1`] = `
+Array [
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-whis h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`Progress in Dark theme renders Default 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={0}
+  className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  role="progressbar"
+>
+  <span
+    className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+    style={
+      Object {
+        "width": "0%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Progress in Dark theme renders Sizes 1`] = `
+Array [
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`Progress in Dark theme renders Values 1`] = `
+Array [
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={25}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "25%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={50}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={100}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`Progress in Light theme renders Colors 1`] = `
+Array [
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-whis h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`Progress in Light theme renders Default 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={0}
+  className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+  role="progressbar"
+>
+  <span
+    className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+    style={
+      Object {
+        "width": "0%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Progress in Light theme renders Sizes 1`] = `
+Array [
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`Progress in Light theme renders Values 1`] = `
+Array [
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={25}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "25%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={50}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>,
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={100}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`Progress in RTL renders Colors 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-whis h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress in RTL renders Default 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={0}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "0%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress in RTL renders Sizes 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Progress in RTL renders Values 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={25}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "25%",
+        }
+      }
+    />
+  </div>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={50}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "50%",
+        }
+      }
+    />
+  </div>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={75}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "75%",
+        }
+      }
+    />
+  </div>
+  <div
+    aria-valuemax={100}
+    aria-valuemin={0}
+    aria-valuenow={100}
+    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+    role="progressbar"
+  >
+    <span
+      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+    />
+  </div>
+</div>
+`;

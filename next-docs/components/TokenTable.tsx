@@ -18,20 +18,20 @@ const TokenTable = ({ data, title }: TokenTableProps) => (
           <tr>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-trunks uppercase tracking-wider"
+              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
             >
               Property
             </th>
 
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-trunks uppercase tracking-wider"
+              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
             >
               Key
             </th>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-trunks uppercase tracking-wider"
+              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
             >
               Value
             </th>
@@ -47,11 +47,11 @@ const TokenTable = ({ data, title }: TokenTableProps) => (
                 {prop.name}
               </td>
 
-              <td className="px-4 py-4 whitespace-nowrap text-sm text-trunks">
+              <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
                 {prop.key}
               </td>
 
-              <td className="px-4 py-4 text-sm text-trunks">{prop.value}</td>
+              <td className="px-4 py-4 text-sm text-bulma">{prop.value}</td>
             </tr>
           ))}
         </tbody>

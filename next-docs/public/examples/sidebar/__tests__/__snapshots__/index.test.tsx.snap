@@ -74,11 +74,11 @@ exports[`Sidebar renders RTL 1`] = `
       </svg>
     </div>
     <div
-      className="sc-bhpuBD hgDlLw"
+      className="sc-fJoEar gVNoco"
       fontSize="2rem"
     >
       <svg
-        className="sc-kkKunT bVEztn"
+        className="sc-bWijRQ eItcq"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -130,11 +130,11 @@ exports[`Sidebar renders initially closed 1`] = `
     </svg>
   </div>
   <div
-    className="sc-bhpuBD hgDlLw"
+    className="sc-fJoEar gVNoco"
     fontSize="2rem"
   >
     <svg
-      className="sc-kkKunT bVEztn"
+      className="sc-bWijRQ eItcq"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"

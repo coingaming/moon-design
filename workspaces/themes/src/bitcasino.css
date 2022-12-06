@@ -16,9 +16,9 @@
   --krillin-60: 255 198 82; /* #ffc652 */
   --krillin-10: 255 217 141; /* #ffd98d */
 
-  --chichi: 255 78 100; /* #ff4e64 */
-  --chichi-60: 255 118 135; /* #ff7687 */
-  --chichi-10: 255 150 163; /* #ff96a3 */
+  --chi-chi: 255 78 100; /* #ff4e64 */
+  --chi-chi-60: 255 118 135; /* #ff7687 */
+  --chi-chi-10: 255 150 163; /* #ff96a3 */
 
   --roshi: 74 209 95; /* #4ad15f */
   --roshi-60: 100 220 119; /* #64dc77 */
@@ -66,6 +66,14 @@
 
   /* fonts */
   --averta: 'Averta Std';
+
+  /* box-shadow */
+  --shadow-xs: 0px 4px 12px -6px rgba(0, 0, 0, 0.06);
+  --shadow-sm: 0 6px 6px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 12px 12px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 8px 24px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0px 32px 32px -8px rgba(0, 0, 0, 0.08),
+    0px 0px 32px -8px rgba(0, 0, 0, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
 :root.theme-bitcasino-dark,
@@ -79,4 +87,14 @@
   --bulma: 255 255 255; /* #ffffff */
   --trunks: 161 142 180; /* #a18eb4 */
   --popo: 0 0 0; /* #000000 */
+
+  --shadow-xs: 0px 4px 12px -6px rgba(0, 0, 0, 0.64);
+  --shadow-sm: 0px 6px 6px -6px rgba(0, 0, 0, 0.64),
+    0px 0px 1px rgba(0, 0, 0, 0.56);
+  --shadow-md: 0px 12px 12px -6px rgba(0, 0, 0, 0.64),
+    0px 0px 1px rgba(0, 0, 0, 0.56);
+  --shadow-lg: 0px 24px 24px -6px rgba(0, 0, 0, 0.64),
+    0px 0px 1px rgba(0, 0, 0, 0.56);
+  --shadow-xl: 0px 48px 48px -6px rgba(0, 0, 0, 0.88),
+    0px 0px 1px rgba(0, 0, 0, 0.72);
 }

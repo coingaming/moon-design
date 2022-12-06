@@ -1,4 +1,3 @@
-import React from 'react';
 import { TextInput } from '@heathmont/moon-core-tw';
 
 const Example = () => (
@@ -7,15 +6,6 @@ const Example = () => (
       type="text"
       value="Read only text"
       label="Medium (md)"
-      placeholder="Placeholder"
-      hintText="Informative message holder"
-      readOnly
-    />
-    <TextInput
-      type="text"
-      inputSize="lg"
-      value="Read only text"
-      label="Large (lg)"
       placeholder="Placeholder"
       hintText="Informative message holder"
       readOnly

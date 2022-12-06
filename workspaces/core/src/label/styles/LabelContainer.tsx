@@ -1,7 +1,8 @@
 import React from 'react';
 import classNames from '../../private/utils/classnames';
-import setFontSize from '../utils/setFontSize';
-import setSpacing from '../utils/setSpacing';
+import setFontSize from '../private/utils/setFontSize';
+import setHeight from '../private/utils/setHeight';
+import setSpacing from '../private/utils/setSpacing';
 import type LabelProps from '../private/types/LabelProps';
 
 const LabelContainer: React.FC<LabelProps> = ({
@@ -15,9 +16,10 @@ const LabelContainer: React.FC<LabelProps> = ({
 }) => (
   <div
     className={classNames(
-      'flex items-center rounded-moon-i-xs gap-1',
+      'flex items-center rounded-moon-i-xs gap-1 select-none',
       setSpacing({ size, iconRight, iconLeft }),
       setFontSize({ isUppercase, size }),
+      setHeight({ size }),
       color && color,
       bgColor && bgColor
     )}

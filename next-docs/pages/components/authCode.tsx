@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
@@ -16,11 +17,7 @@ const PageAuthCodeGroup = () => {
   return (
     <>
       <ComponentPageDescription title="AuthCode">
-        <p>
-          The AuthCode component consists of TextInput components with
-          additional logic that supports quick and easy one-time-password
-          handling.
-        </p>
+        <DeprecationWarning href="/core/authCode" name="AuthCode" />
       </ComponentPageDescription>
       <Preview
         title="Default"
