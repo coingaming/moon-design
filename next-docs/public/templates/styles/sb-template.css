@@ -1618,7 +1618,7 @@ video {
 
 .border-chiChi {
   --tw-border-opacity: 1;
-  border-color: rgb(var(--chi-chi) / var(--tw-border-opacity));
+  border-color: rgb(var(--chichi) / var(--tw-border-opacity));
 }
 
 .border-beerus {
@@ -1685,7 +1685,7 @@ video {
 
 .bg-chiChi {
   --tw-bg-opacity: 1;
-  background-color: rgb(var(--chi-chi) / var(--tw-bg-opacity));
+  background-color: rgb(var(--chichi) / var(--tw-bg-opacity));
 }
 
 .bg-contain {
@@ -2009,7 +2009,7 @@ video {
 
 .text-chiChi {
   --tw-text-opacity: 1;
-  color: rgb(var(--chi-chi) / var(--tw-text-opacity));
+  color: rgb(var(--chichi) / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2077,7 +2077,7 @@ video {
 }
 
 .shadow-input-err {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -2110,7 +2110,7 @@ video {
 }
 
 .outline-chiChi {
-  outline-color: rgb(var(--chi-chi));
+  outline-color: rgb(var(--chichi));
 }
 
 .blur {
@@ -2325,11 +2325,11 @@ video {
   /* #ffc652 */
   --krillin-10: 255 217 141;
   /* #ffd98d */
-  --chi-chi: 255 78 100;
+  --chichi: 255 78 100;
   /* #ff4e64 */
-  --chi-chi-60: 255 118 135;
+  --chichi-60: 255 118 135;
   /* #ff7687 */
-  --chi-chi-10: 255 150 163;
+  --chichi-10: 255 150 163;
   /* #ff96a3 */
   --roshi: 74 209 95;
   /* #4ad15f */
@@ -2455,11 +2455,11 @@ video {
   /* #ffc652 */
   --krillin-10: 255 217 141;
   /* #ffd98d */
-  --chi-chi: 255 78 100;
+  --chichi: 255 78 100;
   /* #ff4e64 */
-  --chi-chi-60: 255 118 135;
+  --chichi-60: 255 118 135;
   /* #ff7687 */
-  --chi-chi-10: 255 150 163;
+  --chichi-10: 255 150 163;
   /* #ff96a3 */
   --roshi: 74 209 95;
   /* #4ad15f */
@@ -2706,7 +2706,7 @@ video {
 }
 
 .invalid\:shadow-input-err:invalid {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -2803,7 +2803,7 @@ video {
 }
 
 .hover\:shadow-input-err:hover {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -2823,7 +2823,7 @@ video {
 }
 
 .invalid\:hover\:shadow-input-err:hover:invalid {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -2863,7 +2863,7 @@ video {
 }
 
 .focus\:shadow-input-err:focus {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -2875,7 +2875,7 @@ video {
 }
 
 .invalid\:focus\:shadow-input-err:focus:invalid {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
