@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Bottomsheet, Button } from '@heathmont/moon-core-tw';
+import { BottomSheet, Button } from '@heathmont/moon-core-tw';
 import { Table } from '@heathmont/moon-table-tw';
 
 const generateTableData = (length: number) =>
@@ -17,10 +17,10 @@ const generateTableData = (length: number) =>
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const closeBottomsheet = () => {
+  const closeBottomSheet = () => {
     setIsOpen(false);
   };
-  const openBottomsheet = () => {
+  const openBottomSheet = () => {
     setIsOpen(true);
   };
   const columnsInitial = [
@@ -53,27 +53,27 @@ const Example = () => {
   const data = React.useMemo(() => generateTableData(5), []);
   return (
     <>
-      <Button onClick={openBottomsheet}>Initialize uncloaking</Button>
-      <Bottomsheet open={isOpen} onClose={closeBottomsheet} hasShadow>
-        <Bottomsheet.Backdrop />
-        <Bottomsheet.Panel className="h-[77%]">
+      <Button onClick={openBottomSheet}>Initialize uncloaking</Button>
+      <BottomSheet open={isOpen} onClose={closeBottomSheet} hasShadow>
+        <BottomSheet.Backdrop />
+        <BottomSheet.Panel className="h-[77%]">
           <>
-            <Bottomsheet.Draghandle>
-              <Bottomsheet.Title className="text-center">
+            <BottomSheet.Draghandle>
+              <BottomSheet.Title className="text-center">
                 I am gonna show you some data whether you like it or not!
-              </Bottomsheet.Title>
-            </Bottomsheet.Draghandle>
+              </BottomSheet.Title>
+            </BottomSheet.Draghandle>
             <div className="p-2">
               <Table columns={columns} data={data} />
             </div>
             <div className="p-2">
-              <Button onClick={closeBottomsheet} variant="ghost" fullWidth>
+              <Button onClick={closeBottomSheet} variant="ghost" fullWidth>
                 I don't wanna see this
               </Button>
             </div>
           </>
-        </Bottomsheet.Panel>
-      </Bottomsheet>
+        </BottomSheet.Panel>
+      </BottomSheet>
     </>
   );
 };

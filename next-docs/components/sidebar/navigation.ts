@@ -13,7 +13,7 @@ const navigation = [
       { name: 'Accordion', href: '/core/accordion' },
       { name: 'AuthCode', href: '/core/authCode' },
       { name: 'Avatar', href: '/core/avatar' },
-      { name: 'Bottomsheet', href: '/core/bottomsheet' },
+      { name: 'BottomSheet', href: '/core/bottomSheet' },
       { name: 'Breadcrumb', href: '/core/breadcrumb' },
       { name: 'Button', href: '/core/button' },
       { name: 'Checkbox', href: '/core/checkbox' },

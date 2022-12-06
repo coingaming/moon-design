@@ -1,27 +1,27 @@
 import React, { useState } from 'react';
-import { Bottomsheet, Button } from '@heathmont/moon-core-tw';
+import { BottomSheet, Button } from '@heathmont/moon-core-tw';
 import { TextInput } from '@heathmont/moon-core-tw';
 import { MailEnvelope } from '@heathmont/moon-icons-tw';
 
 const Example = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const closeBottomsheet = () => {
+  const closeBottomSheet = () => {
     setIsOpen(false);
   };
-  const openBottomsheet = () => {
+  const openBottomSheet = () => {
     setIsOpen(true);
   };
   return (
     <>
-      <Button onClick={openBottomsheet}>Show it to me!</Button>
-      <Bottomsheet open={isOpen} onClose={closeBottomsheet} size="lg" hasShadow>
-        <Bottomsheet.Backdrop />
-        <Bottomsheet.Panel>
-          <Bottomsheet.Draghandle>
-            <Bottomsheet.Title className="text-center">
+      <Button onClick={openBottomSheet}>Show it to me!</Button>
+      <BottomSheet open={isOpen} onClose={closeBottomSheet} size="lg" hasShadow>
+        <BottomSheet.Backdrop />
+        <BottomSheet.Panel>
+          <BottomSheet.Draghandle>
+            <BottomSheet.Title className="text-center">
               Forgot password?
-            </Bottomsheet.Title>
-          </Bottomsheet.Draghandle>
+            </BottomSheet.Title>
+          </BottomSheet.Draghandle>
           <p className="p-2 text-trunks">
             If you change your password, you will be unable to withdraw for 48
             hours due to security reasons.
@@ -31,7 +31,7 @@ const Example = () => {
           </div>
           <div className="p-2">
             <Button
-              onClick={closeBottomsheet}
+              onClick={closeBottomSheet}
               variant="tertiary"
               size="lg"
               fullWidth
@@ -51,8 +51,8 @@ const Example = () => {
               </div>
             </div>
           </div>
-        </Bottomsheet.Panel>
-      </Bottomsheet>
+        </BottomSheet.Panel>
+      </BottomSheet>
     </>
   );
 };

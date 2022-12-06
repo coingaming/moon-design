@@ -1,23 +1,23 @@
-type BottomsheetActions =
+type BottomSheetActions =
   | { type: 'RegisterChild'; children: string }
   | { type: 'RegisterDraghandleRef'; draghandleRef: HTMLDivElement }
   | { type: 'UnregisterChild'; children: string };
 
 type StateProps = {
-  bottomsheetChildren?: string[];
+  bottomSheetChildren?: string[];
 };
 
 function stateReducer<T extends StateProps>(
   state: T,
-  action: BottomsheetActions
+  action: BottomSheetActions
 ) {
   switch (action.type) {
     case 'RegisterChild': {
-      if (state.bottomsheetChildren?.includes(action.children)) return state;
-      const currentChildren = state?.bottomsheetChildren || [];
+      if (state.bottomSheetChildren?.includes(action.children)) return state;
+      const currentChildren = state?.bottomSheetChildren || [];
       return {
         ...state,
-        bottomsheetChildren: [...currentChildren, action.children],
+        bottomSheetChildren: [...currentChildren, action.children],
       };
     }
     case 'RegisterDraghandleRef': {
@@ -26,7 +26,7 @@ function stateReducer<T extends StateProps>(
     case 'UnregisterChild': {
       return {
         ...state,
-        bottomsheetChildren: state.bottomsheetChildren?.filter(
+        bottomSheetChildren: state.bottomSheetChildren?.filter(
           (child) => child !== action.children
         ),
       };

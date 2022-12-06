@@ -1,18 +1,18 @@
 import React, { ReactNode, useCallback, useEffect, useReducer } from 'react';
 import { Dialog } from '@headlessui/react';
 import mergeClassnames from '../private/utils/mergeClassnames';
-import BottomsheetContext, { useBottomsheetContext } from './private/context';
+import BottomSheetContext, { useBottomSheetContext } from './private/context';
 import stateReducer from './private/stateReducer';
 import useDrag from './private/useDrag';
 
-type BottomsheetRootProps = {
+type BottomSheetRootProps = {
   open: boolean;
   onClose: () => void;
   hasShadow?: boolean;
   size?: 'sm' | 'md' | 'lg' | string;
 };
 
-const BottomsheetRoot: React.FC<BottomsheetRootProps> = ({
+const BottomSheetRoot: React.FC<BottomSheetRootProps> = ({
   open,
   onClose,
   hasShadow,
@@ -20,14 +20,14 @@ const BottomsheetRoot: React.FC<BottomsheetRootProps> = ({
   children,
 }) => {
   const [state, dispatch] = useReducer(stateReducer, {
-    bottomsheetChildren: [],
+    bottomSheetChildren: [],
   });
   const registerChild = useCallback((child: string) => {
     dispatch?.({ type: 'RegisterChild', children: child });
     return () => dispatch?.({ type: 'UnregisterChild', children: child });
   }, []);
   return (
-    <BottomsheetContext.Provider
+    <BottomSheetContext.Provider
       value={{ ...state, size, registerChild, dispatch }}
     >
       <Dialog as="div" open={open} className="relative z-10" onClose={onClose}>
@@ -42,7 +42,7 @@ const BottomsheetRoot: React.FC<BottomsheetRootProps> = ({
           return null;
         })}
       </Dialog>
-    </BottomsheetContext.Provider>
+    </BottomSheetContext.Provider>
   );
 };
 
@@ -58,7 +58,7 @@ const Panel: React.FC<PanelProps> = ({
   hasShadow,
   onClose,
 }) => {
-  const { size } = useBottomsheetContext('Bottomsheet.Panel');
+  const { size } = useBottomSheetContext('BottomSheet.Panel');
   const { isTransition, hasDraghandle, panelRef, contentRef } =
     useDrag(onClose);
   let height;
@@ -99,8 +99,8 @@ const Panel: React.FC<PanelProps> = ({
 };
 
 const Draghandle = ({ children }: { children: ReactNode }) => {
-  const { registerChild, draghandleRef } = useBottomsheetContext(
-    'Bottomsheet.Draghandle'
+  const { registerChild, draghandleRef } = useBottomSheetContext(
+    'BottomSheet.Draghandle'
   );
   useEffect(() => {
     registerChild?.('Draghandle');
@@ -144,11 +144,11 @@ const Title: React.FC<TitleProps> = ({ children, className }) => (
   </div>
 );
 
-const Bottomsheet = Object.assign(BottomsheetRoot, {
+const BottomSheet = Object.assign(BottomSheetRoot, {
   Backdrop,
   Draghandle,
   Title,
   Panel,
 });
 
-export default Bottomsheet;
+export default BottomSheet;

@@ -1,23 +1,23 @@
 import React, { createContext, useContext } from 'react';
 
-const BottomsheetContext = createContext<{
+const BottomSheetContext = createContext<{
   size?: 'sm' | 'md' | 'lg' | string;
   registerChild?: (child: string) => () => void;
-  bottomsheetChildren?: any[];
+  bottomSheetChildren?: any[];
   draghandleRef?: React.RefObject<HTMLDivElement>;
   dispatch: any;
 }>({ dispatch: () => {} });
 
-BottomsheetContext.displayName = 'BottomsheetContext';
+BottomSheetContext.displayName = 'BottomSheetContext';
 
-export const useBottomsheetContext = (component: string) => {
-  const context = useContext(BottomsheetContext);
+export const useBottomSheetContext = (component: string) => {
+  const context = useContext(BottomSheetContext);
   if (context === null) {
     throw new Error(
-      `<${component}> is missing a parent <Bottomsheet /> component`
+      `<${component}> is missing a parent <BottomSheet /> component`
     );
   }
   return context;
 };
 
-export default BottomsheetContext;
+export default BottomSheetContext;

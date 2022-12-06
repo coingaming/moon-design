@@ -22,15 +22,15 @@ const renderWithDarkTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
 );
 
-type BottomsheetPortal = (
+type BottomSheetPortal = (
   children: React.ReactNode,
   container: Element | DocumentFragment,
   key?: string | null | undefined
 ) => React.ReactPortal;
 
-describe('Bottomsheet', () => {
+describe('BottomSheet', () => {
   beforeAll(() => {
-    ReactDOM.createPortal = jest.fn((element) => element) as BottomsheetPortal;
+    ReactDOM.createPortal = jest.fn((element) => element) as BottomSheetPortal;
   });
 
   it('renders default', async () => {
