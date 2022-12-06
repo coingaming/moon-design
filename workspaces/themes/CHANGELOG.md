@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.14.3
+
+### Patch Changes
+
+- Bump version
+
 ## 9.14.2
 
 ### Patch Changes
