@@ -14,7 +14,7 @@ const PageCaption = () => {
   return (
     <>
       <ComponentPageDescription title="Caption">
-        <DeprecationWarning href="/core/typography" name="Typography" />
+        <DeprecationWarning href="/typography" name="Typography" />
       </ComponentPageDescription>
       <Preview
         title="Colors"

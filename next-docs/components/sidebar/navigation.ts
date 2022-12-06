@@ -4,6 +4,7 @@ const navigation = [
   { name: 'How to contribute', href: '/howToContribute' },
   { name: 'Colours', href: '/colours' },
   { name: 'Tokens', href: '/tokens' },
+  { name: 'Typography', href: '/typography' },
   { name: 'Transform SVG', href: '/transformSvg' },
   { name: 'Manifest', href: '/manifest' },
   {
@@ -39,7 +40,6 @@ const navigation = [
       { name: 'Tabs', href: '/core/tabs' },
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInputGroup', href: '/core/textInputGroup' },
-      { name: 'Typography', href: '/core/typography' },
     ],
   },
   {
