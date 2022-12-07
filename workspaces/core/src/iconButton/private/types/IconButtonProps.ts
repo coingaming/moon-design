@@ -1,11 +1,12 @@
 import React from 'react';
+import ButtonSizes from '../../../button/private/types/ButtonSizes';
 import type ButtonAnimations from '../../../button/private/types/ButtonAnimations';
 import type ButtonVariants from '../../../button/private/types/ButtonVariants';
 
 export type IconButtonSettingsProps = {
   icon?: JSX.Element;
   children?: React.ReactNode;
-  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+  size?: ButtonSizes;
   animation?: ButtonAnimations;
   disabled?: boolean;
   variant?: ButtonVariants;

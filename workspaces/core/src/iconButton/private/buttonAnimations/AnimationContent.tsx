@@ -3,12 +3,9 @@ import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import Loader from '../../../loader/Loader';
 import type { IconButtonSettingsProps } from '../types/IconButtonProps';
 
-type AnimationContentProps = {
-  children?: React.ReactNode;
-} & IconButtonSettingsProps;
-
-const AnimationContent: React.FC<AnimationContentProps> = ({
+const AnimationContent: React.FC<IconButtonSettingsProps> = ({
   children,
+  icon,
   animation,
 }) => (
   <span className="block relative h-full pointer-events-none">
@@ -18,7 +15,10 @@ const AnimationContent: React.FC<AnimationContentProps> = ({
         <GenericCheckAlternative className="text-moon-24" />
       )}
     </span>
-    <span className="block opacity-0">{children}</span>
+    <span className="block opacity-0">
+      {icon}
+      {children}
+    </span>
   </span>
 );
 

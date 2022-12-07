@@ -21,13 +21,12 @@ const Example = () => {
         isAriaSupport
       >
         <p>
-          Checkboxes are used as a list in our forms and signup pages so users
-          can select options of their choice. Users are free to choose how many
-          options to select, from zero to all of them.
+          The checkbox is shown as a square box that is ticked (checked) when
+          activated.
         </p>
         <p>
-          As each checkbox is independent, this means that additional checkboxes
-          do not affect any other selections… or planets.
+          Checkboxes are used to let a user select one or more options of a
+          limited number of choices.
         </p>
       </ComponentPageDescription>
       <Preview

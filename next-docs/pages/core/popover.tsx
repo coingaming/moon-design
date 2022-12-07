@@ -16,7 +16,7 @@ const Example = () => {
       <ComponentPageDescription title="Popover" isInProgress>
         <p>
           Popovers are perfect for floating panels with arbitrary content like
-          navigation menus, mobile menus and flyout menus
+          navigation menus, mobile menus and flyout menus.
         </p>
         <p>
           Based on{' '}

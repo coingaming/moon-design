@@ -1,9 +1,9 @@
 import React from 'react';
+import errorAnimation from '../../button/private/buttonAnimations/errorAnimation';
+import buttonCommonStyles from '../../button/private/buttonStyles/buttonCommonStyles';
+import buttonVariants from '../../button/private/buttonStyles/buttonVariants';
 import classNames from '../../private/utils/classnames';
-import errorAnimation from '../private/buttonAnimations/errorAnimation';
 import buttonSizes from '../private/buttonSizes/buttonSizes';
-import buttonCommonStyles from '../private/buttonStyles/buttonCommonStyles';
-import buttonVariants from '../private/buttonStyles/buttonVariants';
 import type IconButtonProps from '../private/types/IconButtonProps';
 
 const IconButtonComponent = <C extends React.ElementType>({

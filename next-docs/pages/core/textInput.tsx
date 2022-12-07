@@ -19,16 +19,12 @@ const Example = () => {
     <>
       <ComponentPageDescription title="TextInput" isInProgress>
         <p>
-          Indeed, forms require input from all users, including astronauts. Text
-          input fields help to gather both short and long-form information. The
-          size of the text field should correspond to the length of information
-          that's required.
+          Text input fields allow users to enter text and can be used to collect
+          user feedback or enter information in data entry forms.
         </p>
         <p>
-          Text input fields can contain various rules to ensure the right
-          information is obtained from users. Users should also be given prompts
-          to guide them on what's needed, or if they've made an error while
-          doing so.
+          These types of input fields are used on their own, or in combination
+          with other inputs such as number entry, date picker, etc.
         </p>
       </ComponentPageDescription>
       <Preview

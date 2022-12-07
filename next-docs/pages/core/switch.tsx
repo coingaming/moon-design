@@ -20,10 +20,13 @@ const Example = () => {
       <ComponentPageDescription title="Switch" isInProgress>
         <p>
           Switch is a control that is used to quickly switch between two
-          possible states. Switches are only used for these binary actions that
-          occur immediately after the user “flips” the switch. They are commonly
-          used for “on/off” switches.
+          possible states.
         </p>
+        <p>
+          Switches are only used for these binary actions that occur immediately
+          after the user “flips” the switch.
+        </p>
+        <p>They are commonly used for “on/off” switches.</p>
         <p>
           Based on{' '}
           <a

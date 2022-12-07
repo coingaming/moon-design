@@ -14,14 +14,21 @@ const Example = () => {
   const examples = useExamples('iconButtonTW');
   return (
     <>
-      <ComponentPageDescription title="IconButton" isInProgress isRtlSupport>
+      <ComponentPageDescription title="IconButton" isInProgress>
         <p>
-          Icon buttons are calls-to-action used to prompt users. They encourage
-          users to interact with us in multiple ways throughout our galaxy,
-          based on what the icon of the button indicates. Icon buttons are
-          clickable elements with an icon that describe the action that will
-          happen when the users interact with it.
+          Buttons allow users to take actions, and make choices, with a single
+          tap.
         </p>
+        <p>
+          Buttons communicate actions that users can take. They are typically
+          placed throughout your UI, in places like:
+        </p>
+        <ul className="list-disc ps-5">
+          <li>Modal windows</li>
+          <li>Forms</li>
+          <li>Cards</li>
+          <li>Toolbars</li>
+        </ul>
       </ComponentPageDescription>
       <Preview
         title="Default"
@@ -72,7 +79,7 @@ const Example = () => {
           },
           {
             name: 'children',
-            type: 'React.ReactNode;',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Children content',

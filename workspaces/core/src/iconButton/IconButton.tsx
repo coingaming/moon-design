@@ -38,9 +38,16 @@ const IconButton = <C extends React.ElementType = 'button'>({
       {...rest}
     >
       {hasAnimationContent ? (
-        <AnimationContent children={children} animation={animation} />
+        <AnimationContent
+          icon={icon}
+          children={children}
+          animation={animation}
+        />
       ) : (
-        { children }
+        <>
+          {icon}
+          {children}
+        </>
       )}
       <span
         className={classNames(
