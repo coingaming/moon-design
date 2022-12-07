@@ -5,11 +5,12 @@ type Props = {
   href: string;
   isActive: boolean;
   children: React.ReactNode;
+  onClick?: () => void;
 };
 
-const Link: React.FC<Props> = ({ href, children, isActive }) => (
+const Link: React.FC<Props> = ({ href, children, isActive, onClick }) => (
   <NextLink href={href} passHref>
-    <MenuItem as="a" isActive={isActive}>
+    <MenuItem as="a" isActive={isActive} onClick={onClick}>
       {children}
     </MenuItem>
   </NextLink>

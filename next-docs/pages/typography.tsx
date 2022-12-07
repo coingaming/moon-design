@@ -1,16 +1,16 @@
-import Preview from '../../components/codePreview/Preview';
-import ComponentPageDescription from '../../components/ComponentPageDescription';
-import Caption from '../../public/examples/typographyTW/Caption';
-import Colors from '../../public/examples/typographyTW/Colors';
-import Heading from '../../public/examples/typographyTW/Heading';
-import Text from '../../public/examples/typographyTW/Text';
-import useExamples from '../../utils/useExamples';
+import Preview from '../components/codePreview/Preview';
+import ComponentPageDescription from '../components/ComponentPageDescription';
+import Caption from '../public/examples/typographyTW/Caption';
+import Colors from '../public/examples/typographyTW/Colors';
+import Heading from '../public/examples/typographyTW/Heading';
+import Text from '../public/examples/typographyTW/Text';
+import useExamples from '../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('typographyTW');
   return (
     <>
-      <ComponentPageDescription title="Typography" isInProgress>
+      <ComponentPageDescription title="Typography">
         <p>Typography includes text, headings, and captions.</p>
       </ComponentPageDescription>
       <Preview

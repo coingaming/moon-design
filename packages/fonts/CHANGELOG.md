@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.15.0
+
+### Minor Changes
+
+- Version bump
+
+## 9.14.3
+
+### Patch Changes
+
+- Bump version
+
 ## 9.14.2
 
 ### Patch Changes

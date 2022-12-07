@@ -13,52 +13,61 @@ const Example = () => {
     setIsOpen(!isOpen);
   }, [isOpen]);
 
+  const toggleOpt = useCallback(() => {
+    setActiveOpt(!activeOpt);
+  }, [activeOpt]);
+
   return (
-    <>
-      <div className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4">
-        <MenuItem>Vision</MenuItem>
-        <MenuItem>Getting started</MenuItem>
-        <MenuItem isActive={activeOpt}>How to contribute?</MenuItem>
-        <MenuItem>Colours palette</MenuItem>
-        <MenuItem>Tokens</MenuItem>
-        <MenuItem>Transform SVG</MenuItem>
-        <MenuItem>Manifest</MenuItem>
-        <MenuItem isActive={activeOpt}>
+    <div className="flex items-start flex-wrap justify-around gap-2 w-full">
+      <div className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4">
+        <MenuItem as="a" href="/">
+          Vision
+        </MenuItem>
+        <MenuItem as="a" href="/">
+          Getting started
+        </MenuItem>
+        <MenuItem as="a" href="/">
+          How to contribute?
+        </MenuItem>
+        <MenuItem as="a" href="/">
+          Colours palette
+        </MenuItem>
+        <MenuItem as="a" href="/">
+          Tokens
+        </MenuItem>
+        <MenuItem as="a" href="/">
+          Transform SVG
+        </MenuItem>
+        <MenuItem as="a" href="/">
+          Manifest
+        </MenuItem>
+        <MenuItem isActive={activeOpt} onClick={toggleOpt}>
           Tailwind
-          {isOpen ? (
-            <ControlsChevronUp onClick={toggleClick} />
-          ) : (
-            <ControlsChevronDown onClick={toggleClick} />
-          )}
+          <ControlsChevronDown className={`w-6 ${activeOpt && 'rotate-180'}`} />
         </MenuItem>
 
-        {isOpen && (
-          <>
-            <MenuItem>
-              <ControlsChevronDown className="w-6 " color="transparent" />
+        {activeOpt && (
+          <div className="pl-6">
+            <MenuItem as="a" href="/">
               <MenuItem.Title> Accordion</MenuItem.Title>
             </MenuItem>
-            <MenuItem>
-              <ControlsChevronDown className="w-6 " color="transparent" />
+            <MenuItem as="a" href="/">
               <MenuItem.Title> Avatar</MenuItem.Title>
             </MenuItem>
-            <MenuItem>
-              <ControlsChevronDown className="w-6 " color="transparent" />
+            <MenuItem as="a" href="/">
               <MenuItem.Title> Breadcrumb</MenuItem.Title>
             </MenuItem>
-            <MenuItem>
-              <ControlsChevronDown className="w-6 " color="transparent" />
+            <MenuItem as="a" href="/">
               <MenuItem.Title> Button</MenuItem.Title>
             </MenuItem>
-            <MenuItem>
-              <ControlsChevronDown className="w-6 " color="transparent" />
+            <MenuItem as="a" href="/">
               <MenuItem.Title> Checkbox</MenuItem.Title>
             </MenuItem>
-          </>
+          </div>
         )}
       </div>
 
-      <div className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4">
+      <div className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4">
         <MenuItem>
           <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
             <p className="leading-4 font-semibold text-moon-10">B</p>
@@ -67,69 +76,44 @@ const Example = () => {
             <p className="leading-6 text-moon-14 font-semibold">Bitcasino</p>
           </MenuItem.Title>
         </MenuItem>
-        <MenuItem>
-          {isOpen ? (
-            <ControlsChevronUp className="w-6 " onClick={toggleClick} />
-          ) : (
-            <ControlsChevronDown className="w-6 " onClick={toggleClick} />
-          )}
+        <MenuItem className="pl-6" onClick={toggleClick}>
           <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
             <p className="leading-4 font-semibold text-moon-10">CX</p>
           </span>
           <MenuItem.Title> Customer...</MenuItem.Title>
+          <ControlsChevronDown className={`w-6 ${isOpen && 'rotate-180'}`} />
         </MenuItem>
 
         {isOpen && (
-          <>
+          <div className="pl-10">
             <MenuItem>
-              <ControlsChevronDown className="w-6 " color="transparent" />
               <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
                 <p className="leading-4 font-semibold text-moon-10">S</p>
               </span>
               <MenuItem.Title>Sub nested item</MenuItem.Title>
             </MenuItem>
             <MenuItem>
-              <ControlsChevronDown
-                className="w-6 "
-                color="transparent"
-                onClick={() => ''}
-              />
               <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
                 <p className="leading-4 font-semibold text-moon-10">S</p>
               </span>
               <MenuItem.Title>Sub nested item</MenuItem.Title>
             </MenuItem>
-          </>
+          </div>
         )}
 
-        <MenuItem>
-          <ControlsChevronDown
-            className="w-6 "
-            color="trunks"
-            onClick={() => ''}
-          />
+        <MenuItem className="pl-6">
           <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
             <p className="leading-4 font-semibold text-moon-10">CX</p>
           </span>
           <MenuItem.Title>Quality...</MenuItem.Title>
         </MenuItem>
-        <MenuItem>
-          <ControlsChevronDown
-            className="w-6 "
-            color="trunks"
-            onClick={() => ''}
-          />
+        <MenuItem className="pl-6">
           <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
             <p className="leading-4 font-semibold text-moon-10">RG</p>
           </span>
           <MenuItem.Title>Responsible...</MenuItem.Title>
         </MenuItem>
-        <MenuItem>
-          <ControlsChevronDown
-            className="w-6 "
-            color="trunks"
-            onClick={() => ''}
-          />
+        <MenuItem className="pl-6">
           <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
             <p className="leading-4 font-semibold text-moon-10">RG</p>
           </span>
@@ -144,34 +128,19 @@ const Example = () => {
               <p className="leading-6 text-moon-14 font-semibold">Sportsbet</p>
             </MenuItem.Title>
           </MenuItem>
-          <MenuItem>
-            <ControlsChevronDown
-              className="w-6 "
-              color="trunks"
-              onClick={() => ''}
-            />
+          <MenuItem className="pl-6">
             <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
               <p className="leading-4 font-semibold text-moon-10">RG</p>
             </span>
             <MenuItem.Title>Customer...</MenuItem.Title>
           </MenuItem>
-          <MenuItem>
-            <ControlsChevronDown
-              className="w-6 "
-              color="trunks"
-              onClick={() => ''}
-            />
+          <MenuItem className="pl-6">
             <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
               <p className="leading-4 font-semibold text-moon-10">CX</p>
             </span>
             <MenuItem.Title>Quality...</MenuItem.Title>
           </MenuItem>
-          <MenuItem>
-            <ControlsChevronDown
-              className="w-6 "
-              color="trunks"
-              onClick={() => ''}
-            />
+          <MenuItem className="pl-6">
             <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
               <p className="leading-4 font-semibold text-moon-10">RG</p>
             </span>
@@ -187,12 +156,7 @@ const Example = () => {
               <p className="leading-6 text-moon-14 font-semibold">Livecasino</p>
             </MenuItem.Title>
           </MenuItem>
-          <MenuItem>
-            <ControlsChevronDown
-              className="w-6 "
-              color="trunks"
-              onClick={() => ''}
-            />
+          <MenuItem className="pl-6">
             <span className="bg-goku w-6 h-6 top-2 left-2 rounded-full flex justify-center items-center">
               <p className="leading-4 font-semibold text-moon-10">RG</p>
             </span>
@@ -200,7 +164,7 @@ const Example = () => {
           </MenuItem>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

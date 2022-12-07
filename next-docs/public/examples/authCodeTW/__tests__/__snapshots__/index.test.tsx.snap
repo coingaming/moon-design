@@ -1,0 +1,323 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AuthCode renders 1`] = `
+<div
+  className="grid gap-4"
+>
+  <div
+    className="flex flex-row w-full justify-center"
+  />
+</div>
+`;
+
+exports[`AuthCode renders Custom length 1`] = `
+<div
+  className="grid gap-4"
+>
+  <div
+    className="flex flex-row w-full justify-center"
+  >
+    <div
+      className="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="auth-code-part-0"
+            inputMode="text"
+            maxLength={4}
+            onChange={[Function]}
+            pattern="[a-z0-9]*"
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="auth-code-part-1"
+            inputMode="text"
+            maxLength={4}
+            onChange={[Function]}
+            pattern="[a-z0-9]*"
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="auth-code-part-2"
+            inputMode="text"
+            maxLength={4}
+            onChange={[Function]}
+            pattern="[a-z0-9]*"
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="auth-code-part-3"
+            inputMode="text"
+            maxLength={4}
+            onChange={[Function]}
+            pattern="[a-z0-9]*"
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`AuthCode renders Error state 1`] = `
+<div
+  className="grid gap-4"
+>
+  <div
+    className="flex flex-row w-full justify-center"
+  >
+    <div
+      className="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="auth-code-part-0"
+            inputMode="text"
+            maxLength={6}
+            onChange={[Function]}
+            pattern="[a-z0-9]*"
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="auth-code-part-1"
+            inputMode="text"
+            maxLength={6}
+            onChange={[Function]}
+            pattern="[a-z0-9]*"
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="auth-code-part-2"
+            inputMode="text"
+            maxLength={6}
+            onChange={[Function]}
+            pattern="[a-z0-9]*"
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="auth-code-part-3"
+            inputMode="text"
+            maxLength={6}
+            onChange={[Function]}
+            pattern="[a-z0-9]*"
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="auth-code-part-4"
+            inputMode="text"
+            maxLength={6}
+            onChange={[Function]}
+            pattern="[a-z0-9]*"
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-12 mx-1 text-moon-20 [&>div>div>input]:text-center [&>div>div>input]:text-moon-24"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="auth-code-part-5"
+            inputMode="text"
+            maxLength={6}
+            onChange={[Function]}
+            pattern="[a-z0-9]*"
+            placeholder=""
+            type="text"
+            value=""
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="px-2"
+    data-testid="undefined-error"
+  >
+    <p
+      className="text-moon-12 text-chiChi"
+    >
+      Provided value is not valid!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`AuthCode renders Only digits 1`] = `
+<div
+  className="grid gap-4"
+>
+  <div
+    className="flex flex-row w-full justify-center"
+  />
+</div>
+`;

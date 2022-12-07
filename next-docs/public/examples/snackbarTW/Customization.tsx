@@ -38,6 +38,21 @@ const Example = () => {
       <div>
         <Button
           variant="secondary"
+          onClick={() => openSnackbarHandler('background')}
+        >
+          Background
+        </Button>
+        <Snackbar
+          isOpen={snackbar === 'background'}
+          setSnackbar={setSnackbar}
+          className="bg-roshi"
+        >
+          <Snackbar.Message>Custom background color</Snackbar.Message>
+        </Snackbar>
+      </div>
+      <div>
+        <Button
+          variant="secondary"
           onClick={() => openSnackbarHandler('width')}
         >
           Width

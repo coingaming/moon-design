@@ -3,7 +3,7 @@
 exports[`Chip renders different Sizes 1`] = `
 Array [
   <button
-    className="sc-jnWwQn eyIQlL"
+    className="sc-fvyVFy idCilE"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="small"
@@ -11,7 +11,7 @@ Array [
     Small
   </button>,
   <button
-    className="sc-jnWwQn cBARDu"
+    className="sc-fvyVFy immra-d"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -24,7 +24,7 @@ Array [
 exports[`Chip renders isActive 1`] = `
 Array [
   <button
-    className="sc-jnWwQn XZlQy"
+    className="sc-fvyVFy euIqzx"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="small"
@@ -32,7 +32,7 @@ Array [
     Active
   </button>,
   <button
-    className="sc-jnWwQn cCHmmP"
+    className="sc-fvyVFy fDoUgQ"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"
@@ -48,13 +48,13 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <button
-      className="sc-jnWwQn hWWLCt"
+      className="sc-fvyVFy ikuuFC"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -69,14 +69,14 @@ Array [
       Left Icon
     </button>
     <button
-      className="sc-jnWwQn cPMwFh"
+      className="sc-fvyVFy kfYFXK"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
     >
       Right Icon
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -90,13 +90,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn dMQyrT"
+      className="sc-fvyVFy beXUEc"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -110,7 +110,7 @@ Array [
       </svg>
       Left/Right Icons
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -124,13 +124,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn dMQyrT"
+      className="sc-fvyVFy beXUEc"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -143,7 +143,7 @@ Array [
         />
       </svg>
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -157,13 +157,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn hCApTv"
+      className="sc-fvyVFy fnzhPo"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
     >
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -181,13 +181,13 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <button
-      className="sc-jnWwQn hkzsCV"
+      className="sc-fvyVFy jWHInG"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -202,14 +202,14 @@ Array [
       Left Icon
     </button>
     <button
-      className="sc-jnWwQn iwEOCp"
+      className="sc-fvyVFy ijBgrq"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Right Icon
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -223,13 +223,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn chnkOi"
+      className="sc-fvyVFy kerhcB"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -243,7 +243,7 @@ Array [
       </svg>
       Left/Right Icons
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -257,13 +257,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn chnkOi"
+      className="sc-fvyVFy kerhcB"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -276,7 +276,7 @@ Array [
         />
       </svg>
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -290,13 +290,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn iGgagO"
+      className="sc-fvyVFy hDRjBV"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -319,13 +319,13 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <button
-      className="sc-jnWwQn cdcIfP"
+      className="sc-fvyVFy fQSBZk"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -340,14 +340,14 @@ Array [
       Left Icon
     </button>
     <button
-      className="sc-jnWwQn cBDgOT"
+      className="sc-fvyVFy dmUwNQ"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
     >
       Right Icon
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -361,13 +361,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn hsCVCF"
+      className="sc-fvyVFy ecdzOu"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -381,7 +381,7 @@ Array [
       </svg>
       Left/Right Icons
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -395,13 +395,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn hsCVCF"
+      className="sc-fvyVFy ecdzOu"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -414,7 +414,7 @@ Array [
         />
       </svg>
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -428,13 +428,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn kBSvih"
+      className="sc-fvyVFy hjtNVW"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="small"
     >
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -452,13 +452,13 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <button
-      className="sc-jnWwQn hDoeRL"
+      className="sc-fvyVFy hJkMzM"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -473,14 +473,14 @@ Array [
       Left Icon
     </button>
     <button
-      className="sc-jnWwQn bgqsZL"
+      className="sc-fvyVFy SUXQc"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       Right Icon
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -494,13 +494,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn fXYUrc"
+      className="sc-fvyVFy lfiLpX"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -514,7 +514,7 @@ Array [
       </svg>
       Left/Right Icons
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -528,13 +528,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn fXYUrc"
+      className="sc-fvyVFy lfiLpX"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       <svg
-        className="sc-hQRsPl"
+        className="sc-fThYeS"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -547,7 +547,7 @@ Array [
         />
       </svg>
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -561,13 +561,13 @@ Array [
       </svg>
     </button>
     <button
-      className="sc-jnWwQn cQzRXA"
+      className="sc-fvyVFy TODFP"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       size="medium"
     >
       <svg
-        className="sc-jevyBF"
+        className="sc-cqYYBx"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -587,7 +587,7 @@ Array [
 exports[`Chip renders with stroke 1`] = `
 Array [
   <button
-    className="sc-jnWwQn grEkht"
+    className="sc-fvyVFy bIZHsS"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="small"
@@ -595,7 +595,7 @@ Array [
     Stroke on hover
   </button>,
   <button
-    className="sc-jnWwQn ggEgug"
+    className="sc-fvyVFy ckQzHP"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     size="medium"

@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import AsLink from '../../public/examples/menuItemTW/AsLink';
@@ -28,6 +29,9 @@ const Example = () => {
           row height is Medium(md) 40px for one line of content.
         </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>{`
+    <MenuItem>...</MenuItem>
+      `}</ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
@@ -38,6 +42,13 @@ const Example = () => {
         preview={<AsLink />}
         code={examples ? examples.AsLink : 'Loading'}
       />
+      <ComponentAnatomy>{`
+    <MenuItem>
+      ...
+      <MenuItem.Title>...</MenuItem.Title>
+      ...
+    </MenuItem>
+      `}</ComponentAnatomy>
       <Preview
         title="With icon"
         preview={<WithIcon />}
@@ -48,16 +59,39 @@ const Example = () => {
         preview={<WithMeta />}
         code={examples ? examples.WithMeta : 'Loading'}
       />
+      <ComponentAnatomy>{`
+    <MenuItem>
+      ...
+      <MenuItem.Title>...</MenuItem.Title>
+      <MenuItem.Checkbox />
+      ...
+    </MenuItem>
+      `}</ComponentAnatomy>
       <Preview
         title="Checkbox"
         preview={<Checkbox />}
         code={examples ? examples.Checkbox : 'Loading'}
       />
+      <ComponentAnatomy>{`
+    <MenuItem>
+      ...
+      <MenuItem.Title>...</MenuItem.Title>
+      <MenuItem.Radio />
+      ...
+    </MenuItem>
+      `}</ComponentAnatomy>
       <Preview
         title="Radio"
         preview={<Radio />}
         code={examples ? examples.Radio : 'Loading'}
       />
+      <ComponentAnatomy>{`
+    <MenuItem>
+      ...
+      <MenuItem.MultiTitle />
+      ...
+    </MenuItem>
+      `}</ComponentAnatomy>
       <Preview
         title="MultiTitle"
         preview={<MultiTitle />}
@@ -74,7 +108,7 @@ const Example = () => {
         code={examples ? examples.ExpandCollapse : 'Loading'}
       />
       <PropsTable
-        title="MenuItem props"
+        title="MenuItem"
         data={[
           {
             name: 'as',
@@ -90,6 +124,13 @@ const Example = () => {
             default: 'false',
             description:
               'Is MenuItem checked/unchecked. For radio and checkbox variant.',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: true,
+            default: '-',
+            description: 'Tailwind classes for customization of wrapper.',
           },
         ]}
       />

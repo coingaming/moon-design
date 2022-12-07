@@ -6,13 +6,14 @@ import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [isSidebarOpen, setSidebarOpen] = useState(false);
   const openSidebar = () => setSidebarOpen(true);
+  const closeSidebar = () => setSidebarOpen(false);
   return (
     <div className="layout bg-goku text-bulma flex">
       {/* Dynamic sidebar with transition for mobile */}
-      <SidebarTransition isOpen={sidebarOpen} setIsOpen={setSidebarOpen}>
-        <Sidebar />
+      <SidebarTransition isOpen={isSidebarOpen} setIsOpen={setSidebarOpen}>
+        <Sidebar closeSidebar={closeSidebar} />
       </SidebarTransition>
       {/* Static sidebar for desktop, hidden for mobile */}
       <aside className="hidden fixed h-screen lg:flex lg:flex-shrink-0 w-80 flex-col">

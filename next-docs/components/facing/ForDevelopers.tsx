@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@heathmont/moon-core-tw';
+import { ArrowsTopRight } from '@heathmont/moon-icons-tw';
 import Link from 'next/link';
-import TopRightArrowIcon from '../icons/TopRightArrowIcon';
 
 const GithubIcon = () => (
   <svg
@@ -28,8 +28,8 @@ const ForDevelopers = () => {
         <h2 className="text-moon-24 grow 3xl:grow-0">For developers.</h2>
         <div className="absolute top-0 bottom-0 left-0 right-0 3xl:top-6 3xl:bottom-auto ltr:3xl:right-6 ltr:3xl:left-auto rtl:3xl:left-6 rtl:3xl:right-auto rtl:-rotate-90">
           <Link href="/gettingStartedDevs">
-            <a className="flex items-center justify-end h-full pe-6 3xl:pe-0 w-full rounded-moon-s-lg">
-              <TopRightArrowIcon />
+            <a className="flex items-center justify-end h-full pe-6 3xl:pe-0 w-full rounded-moon-s-lg text-moon-32">
+              <ArrowsTopRight />
             </a>
           </Link>
         </div>
