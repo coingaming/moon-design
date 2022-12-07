@@ -10,6 +10,7 @@ type BottomSheetRootProps = {
   onClose: () => void;
   hasShadow?: boolean;
   size?: 'sm' | 'md' | 'lg' | string;
+  children?: ReactNode;
 };
 
 const BottomSheetRoot: React.FC<BottomSheetRootProps> = ({
@@ -50,6 +51,7 @@ type PanelProps = {
   className: string;
   hasShadow?: boolean;
   onClose: () => void;
+  children?: ReactNode;
 };
 
 const Panel: React.FC<PanelProps> = ({
@@ -128,6 +130,7 @@ const Backdrop: React.FC<BackdropProps> = ({ className }) => (
 
 type TitleProps = {
   className?: string;
+  children?: ReactNode;
 };
 
 const Title: React.FC<TitleProps> = ({ children, className }) => (
