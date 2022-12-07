@@ -24,6 +24,7 @@ const Input = forwardRef<
     isSideBorderHidden,
     isFirst,
     isPassword,
+    className,
     ...rest
   } = props;
   return (
@@ -71,7 +72,8 @@ const Input = forwardRef<
             isFirst,
             isRtl,
             isError
-          )
+          ),
+          className && className
         )}
         {...rest}
       />
