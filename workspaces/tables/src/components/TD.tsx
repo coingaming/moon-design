@@ -1,6 +1,6 @@
 import React, { forwardRef, ReactNode } from 'react';
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 import { TableVariant } from '../func/Table';
-import classNames from '../private/utils/classnames';
 import getCellBorder from '../private/utils/getCellBorder';
 import getFontSize from '../private/utils/getFontSize';
 import getPadding from '../private/utils/getPadding';
@@ -51,26 +51,24 @@ const TD = forwardRef<HTMLDivElement, TDProps>(
   }) => (
     <div
       {...reactTableProps}
-      className={classNames(
+      className={mergeClassnames(
         'relative box-border justify-between items-center text-start',
         getFontSize(rowSize as RowSizes),
         getPadding(rowSize as RowSizes),
-        isFirstColumn ? 'rounded-l-lg' : '',
+        isFirstColumn && 'rounded-l-lg',
         isLastColumn ? 'rounded-r-lg' : getCellBorder(isCellBorder),
-        isExpanded ? 'first:rounded-bl-lg last:rounded-br-lg after:hidden' : '',
-        isLastRow
-          ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0'
-          : '',
-        isLastRow && hasParent ? 'first:rounded-tl-0 last:rounded-tr-0' : '',
-        isLastRow && !isExpanded ? 'first:rounded-bl-2 last:rounded-br-2' : '',
+        isExpanded && 'first:rounded-bl-lg last:rounded-br-lg after:hidden',
+        isLastRow &&
+          'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0',
+        isLastRow && hasParent && 'first:rounded-tl-0 last:rounded-tr-0',
+        isLastRow && !isExpanded && 'first:rounded-bl-2 last:rounded-br-2',
         isSelected
           ? 'text-bulma'
           : fontColor
           ? `text-${fontColor}`
           : 'text-bulma',
-        stickySide === 'right'
-          ? 'before:content-[""] before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:left-0 before:-margin-l-2'
-          : '',
+        stickySide === 'right' &&
+          'before:content-[""] before:absolute before:w-px before:bg-beerus before:h-[70%] before:bottom-[15%] before:left-0 before:-margin-l-2',
         (isSelected && !customBackground) || isHovered
           ? 'border-piccolo cursor-pointer'
           : customBackground

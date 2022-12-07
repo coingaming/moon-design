@@ -20,7 +20,7 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
       <div>
         <button
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
           disabled={true}
           id="headlessui-listbox-button-:r26:"
           type="button"
@@ -79,7 +79,7 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
       <div>
         <button
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
           disabled={true}
           id="headlessui-listbox-button-:r28:"
           type="button"
@@ -138,7 +138,7 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
       <div>
         <button
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
           disabled={true}
           id="headlessui-listbox-button-:r2a:"
           type="button"
@@ -190,7 +190,7 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
       <div>
         <button
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
           disabled={true}
           id="headlessui-listbox-button-:r2b:"
           type="button"
@@ -264,7 +264,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-8 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
           disabled={false}
           id="headlessui-listbox-button-:r2e:"
           onClick={[Function]}
@@ -327,7 +327,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
           disabled={false}
           id="headlessui-listbox-button-:r2g:"
           onClick={[Function]}
@@ -390,7 +390,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
           disabled={false}
           id="headlessui-listbox-button-:r2i:"
           onClick={[Function]}
@@ -446,7 +446,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
           disabled={false}
           id="headlessui-listbox-button-:r2j:"
           onClick={[Function]}
@@ -523,7 +523,7 @@ exports[`Select in Dark Theme renders Hint 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
           disabled={false}
           id="headlessui-listbox-button-:r1u:"
           onClick={[Function]}
@@ -586,7 +586,7 @@ exports[`Select in Dark Theme renders Hint 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r20:"
           onClick={[Function]}
@@ -649,7 +649,7 @@ exports[`Select in Dark Theme renders Hint 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r22:"
           onClick={[Function]}
@@ -705,7 +705,7 @@ exports[`Select in Dark Theme renders Hint 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
           disabled={false}
           id="headlessui-listbox-button-:r23:"
           onClick={[Function]}
@@ -782,7 +782,7 @@ exports[`Select in Dark Theme renders Options 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
           disabled={false}
           id="headlessui-listbox-button-:r2m:"
           onClick={[Function]}
@@ -850,7 +850,7 @@ exports[`Select in Dark Theme renders Options 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r2o:"
           onClick={[Function]}
@@ -918,7 +918,7 @@ exports[`Select in Dark Theme renders Options 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r2q:"
           onClick={[Function]}
@@ -979,7 +979,7 @@ exports[`Select in Dark Theme renders Options 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
           disabled={false}
           id="headlessui-listbox-button-:r2r:"
           onClick={[Function]}
@@ -1057,7 +1057,7 @@ exports[`Select in Dark Theme renders OptionsWidth 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
             disabled={false}
             id="headlessui-listbox-button-:r2t:"
             onClick={[Function]}
@@ -1111,7 +1111,7 @@ exports[`Select in Dark Theme renders OptionsWidth 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r2u:"
             onClick={[Function]}
@@ -1165,7 +1165,7 @@ exports[`Select in Dark Theme renders OptionsWidth 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r2v:"
             onClick={[Function]}
@@ -1219,7 +1219,7 @@ exports[`Select in Dark Theme renders OptionsWidth 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
             disabled={false}
             id="headlessui-listbox-button-:r30:"
             onClick={[Function]}
@@ -1291,7 +1291,7 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
           disabled={false}
           id="headlessui-listbox-button-:r1i:"
           onClick={[Function]}
@@ -1348,7 +1348,7 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r1k:"
           onClick={[Function]}
@@ -1405,7 +1405,7 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r1m:"
           onClick={[Function]}
@@ -1455,7 +1455,7 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
           disabled={false}
           id="headlessui-listbox-button-:r1n:"
           onClick={[Function]}
@@ -1519,7 +1519,7 @@ exports[`Select in Dark Theme renders WithoutLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
           disabled={false}
           id="headlessui-listbox-button-:r1p:"
           onClick={[Function]}
@@ -1569,7 +1569,7 @@ exports[`Select in Dark Theme renders WithoutLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r1q:"
           onClick={[Function]}
@@ -1619,7 +1619,7 @@ exports[`Select in Dark Theme renders WithoutLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r1r:"
           onClick={[Function]}
@@ -1669,7 +1669,7 @@ exports[`Select in Dark Theme renders WithoutLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
           disabled={false}
           id="headlessui-listbox-button-:r1s:"
           onClick={[Function]}
@@ -1732,7 +1732,7 @@ exports[`Select in Light Theme renders Disabled 1`] = `
       <div>
         <button
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
           disabled={true}
           id="headlessui-listbox-button-:rl:"
           type="button"
@@ -1791,7 +1791,7 @@ exports[`Select in Light Theme renders Disabled 1`] = `
       <div>
         <button
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
           disabled={true}
           id="headlessui-listbox-button-:rn:"
           type="button"
@@ -1850,7 +1850,7 @@ exports[`Select in Light Theme renders Disabled 1`] = `
       <div>
         <button
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
           disabled={true}
           id="headlessui-listbox-button-:rp:"
           type="button"
@@ -1902,7 +1902,7 @@ exports[`Select in Light Theme renders Disabled 1`] = `
       <div>
         <button
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
           disabled={true}
           id="headlessui-listbox-button-:rq:"
           type="button"
@@ -1976,7 +1976,7 @@ exports[`Select in Light Theme renders Error 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-8 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
           disabled={false}
           id="headlessui-listbox-button-:rt:"
           onClick={[Function]}
@@ -2039,7 +2039,7 @@ exports[`Select in Light Theme renders Error 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
           disabled={false}
           id="headlessui-listbox-button-:rv:"
           onClick={[Function]}
@@ -2102,7 +2102,7 @@ exports[`Select in Light Theme renders Error 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
           disabled={false}
           id="headlessui-listbox-button-:r11:"
           onClick={[Function]}
@@ -2158,7 +2158,7 @@ exports[`Select in Light Theme renders Error 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
           disabled={false}
           id="headlessui-listbox-button-:r12:"
           onClick={[Function]}
@@ -2235,7 +2235,7 @@ exports[`Select in Light Theme renders Hint 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
           disabled={false}
           id="headlessui-listbox-button-:rd:"
           onClick={[Function]}
@@ -2298,7 +2298,7 @@ exports[`Select in Light Theme renders Hint 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:rf:"
           onClick={[Function]}
@@ -2361,7 +2361,7 @@ exports[`Select in Light Theme renders Hint 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:rh:"
           onClick={[Function]}
@@ -2417,7 +2417,7 @@ exports[`Select in Light Theme renders Hint 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
           disabled={false}
           id="headlessui-listbox-button-:ri:"
           onClick={[Function]}
@@ -2494,7 +2494,7 @@ exports[`Select in Light Theme renders Options 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
           disabled={false}
           id="headlessui-listbox-button-:r15:"
           onClick={[Function]}
@@ -2562,7 +2562,7 @@ exports[`Select in Light Theme renders Options 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r17:"
           onClick={[Function]}
@@ -2630,7 +2630,7 @@ exports[`Select in Light Theme renders Options 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r19:"
           onClick={[Function]}
@@ -2691,7 +2691,7 @@ exports[`Select in Light Theme renders Options 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
           disabled={false}
           id="headlessui-listbox-button-:r1a:"
           onClick={[Function]}
@@ -2769,7 +2769,7 @@ exports[`Select in Light Theme renders OptionsWidth 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
             disabled={false}
             id="headlessui-listbox-button-:r1c:"
             onClick={[Function]}
@@ -2823,7 +2823,7 @@ exports[`Select in Light Theme renders OptionsWidth 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r1d:"
             onClick={[Function]}
@@ -2877,7 +2877,7 @@ exports[`Select in Light Theme renders OptionsWidth 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r1e:"
             onClick={[Function]}
@@ -2931,7 +2931,7 @@ exports[`Select in Light Theme renders OptionsWidth 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
             disabled={false}
             id="headlessui-listbox-button-:r1f:"
             onClick={[Function]}
@@ -3003,7 +3003,7 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
           disabled={false}
           id="headlessui-listbox-button-:r1:"
           onClick={[Function]}
@@ -3060,7 +3060,7 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r3:"
           onClick={[Function]}
@@ -3117,7 +3117,7 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r5:"
           onClick={[Function]}
@@ -3167,7 +3167,7 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
           disabled={false}
           id="headlessui-listbox-button-:r6:"
           onClick={[Function]}
@@ -3231,7 +3231,7 @@ exports[`Select in Light Theme renders WithoutLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
           disabled={false}
           id="headlessui-listbox-button-:r8:"
           onClick={[Function]}
@@ -3281,7 +3281,7 @@ exports[`Select in Light Theme renders WithoutLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:r9:"
           onClick={[Function]}
@@ -3331,7 +3331,7 @@ exports[`Select in Light Theme renders WithoutLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
           disabled={false}
           id="headlessui-listbox-button-:ra:"
           onClick={[Function]}
@@ -3381,7 +3381,7 @@ exports[`Select in Light Theme renders WithoutLabel 1`] = `
         <button
           aria-expanded={false}
           aria-haspopup={true}
-          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
           disabled={false}
           id="headlessui-listbox-button-:rb:"
           onClick={[Function]}
@@ -3447,7 +3447,7 @@ exports[`Select in RTL renders Disabled 1`] = `
         <div>
           <button
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs opacity-30 cursor-not-allowed"
             disabled={true}
             id="headlessui-listbox-button-:r3n:"
             type="button"
@@ -3506,7 +3506,7 @@ exports[`Select in RTL renders Disabled 1`] = `
         <div>
           <button
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed"
             disabled={true}
             id="headlessui-listbox-button-:r3p:"
             type="button"
@@ -3565,7 +3565,7 @@ exports[`Select in RTL renders Disabled 1`] = `
         <div>
           <button
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm opacity-30 cursor-not-allowed"
             disabled={true}
             id="headlessui-listbox-button-:r3r:"
             type="button"
@@ -3617,7 +3617,7 @@ exports[`Select in RTL renders Disabled 1`] = `
         <div>
           <button
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed"
             disabled={true}
             id="headlessui-listbox-button-:r3s:"
             type="button"
@@ -3695,7 +3695,7 @@ exports[`Select in RTL renders Error 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-8 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
             disabled={false}
             id="headlessui-listbox-button-:r3v:"
             onClick={[Function]}
@@ -3758,7 +3758,7 @@ exports[`Select in RTL renders Error 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
             disabled={false}
             id="headlessui-listbox-button-:r41:"
             onClick={[Function]}
@@ -3821,7 +3821,7 @@ exports[`Select in RTL renders Error 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
             disabled={false}
             id="headlessui-listbox-button-:r43:"
             onClick={[Function]}
@@ -3877,7 +3877,7 @@ exports[`Select in RTL renders Error 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
             disabled={false}
             id="headlessui-listbox-button-:r44:"
             onClick={[Function]}
@@ -3958,7 +3958,7 @@ exports[`Select in RTL renders Hint 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
             disabled={false}
             id="headlessui-listbox-button-:r3f:"
             onClick={[Function]}
@@ -4021,7 +4021,7 @@ exports[`Select in RTL renders Hint 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r3h:"
             onClick={[Function]}
@@ -4084,7 +4084,7 @@ exports[`Select in RTL renders Hint 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r3j:"
             onClick={[Function]}
@@ -4140,7 +4140,7 @@ exports[`Select in RTL renders Hint 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
             disabled={false}
             id="headlessui-listbox-button-:r3k:"
             onClick={[Function]}
@@ -4221,7 +4221,7 @@ exports[`Select in RTL renders Options 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
             disabled={false}
             id="headlessui-listbox-button-:r47:"
             onClick={[Function]}
@@ -4289,7 +4289,7 @@ exports[`Select in RTL renders Options 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r49:"
             onClick={[Function]}
@@ -4357,7 +4357,7 @@ exports[`Select in RTL renders Options 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r4b:"
             onClick={[Function]}
@@ -4418,7 +4418,7 @@ exports[`Select in RTL renders Options 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
             disabled={false}
             id="headlessui-listbox-button-:r4c:"
             onClick={[Function]}
@@ -4500,7 +4500,7 @@ exports[`Select in RTL renders OptionsWidth 1`] = `
             <button
               aria-expanded={false}
               aria-haspopup={true}
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
               disabled={false}
               id="headlessui-listbox-button-:r4e:"
               onClick={[Function]}
@@ -4554,7 +4554,7 @@ exports[`Select in RTL renders OptionsWidth 1`] = `
             <button
               aria-expanded={false}
               aria-haspopup={true}
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               disabled={false}
               id="headlessui-listbox-button-:r4f:"
               onClick={[Function]}
@@ -4608,7 +4608,7 @@ exports[`Select in RTL renders OptionsWidth 1`] = `
             <button
               aria-expanded={false}
               aria-haspopup={true}
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
               disabled={false}
               id="headlessui-listbox-button-:r4g:"
               onClick={[Function]}
@@ -4662,7 +4662,7 @@ exports[`Select in RTL renders OptionsWidth 1`] = `
             <button
               aria-expanded={false}
               aria-haspopup={true}
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
               disabled={false}
               id="headlessui-listbox-button-:r4h:"
               onClick={[Function]}
@@ -4738,7 +4738,7 @@ exports[`Select in RTL renders WithLabel 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
             disabled={false}
             id="headlessui-listbox-button-:r33:"
             onClick={[Function]}
@@ -4795,7 +4795,7 @@ exports[`Select in RTL renders WithLabel 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r35:"
             onClick={[Function]}
@@ -4852,7 +4852,7 @@ exports[`Select in RTL renders WithLabel 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r37:"
             onClick={[Function]}
@@ -4902,7 +4902,7 @@ exports[`Select in RTL renders WithLabel 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
             disabled={false}
             id="headlessui-listbox-button-:r38:"
             onClick={[Function]}
@@ -4970,7 +4970,7 @@ exports[`Select in RTL renders WithoutLabel 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
             disabled={false}
             id="headlessui-listbox-button-:r3a:"
             onClick={[Function]}
@@ -5020,7 +5020,7 @@ exports[`Select in RTL renders WithoutLabel 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r3b:"
             onClick={[Function]}
@@ -5070,7 +5070,7 @@ exports[`Select in RTL renders WithoutLabel 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
             disabled={false}
             id="headlessui-listbox-button-:r3c:"
             onClick={[Function]}
@@ -5120,7 +5120,7 @@ exports[`Select in RTL renders WithoutLabel 1`] = `
           <button
             aria-expanded={false}
             aria-haspopup={true}
-            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
             disabled={false}
             id="headlessui-listbox-button-:r3d:"
             onClick={[Function]}

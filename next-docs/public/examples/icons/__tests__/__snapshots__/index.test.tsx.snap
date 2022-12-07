@@ -3,7 +3,7 @@
 exports[`Icons renders Arrows 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -22,7 +22,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -43,7 +43,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -64,7 +64,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -85,7 +85,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -106,7 +106,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -127,7 +127,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -148,7 +148,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -169,7 +169,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -190,7 +190,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -211,7 +211,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -232,7 +232,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -253,7 +253,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -274,7 +274,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -295,7 +295,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -316,7 +316,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -335,7 +335,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -356,7 +356,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -377,7 +377,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -398,7 +398,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -419,7 +419,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -440,7 +440,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -461,7 +461,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -482,7 +482,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -503,7 +503,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -524,7 +524,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -548,7 +548,7 @@ Array [
 exports[`Icons renders Chart 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -569,7 +569,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -590,7 +590,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -611,7 +611,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -632,7 +632,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -653,7 +653,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -674,7 +674,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -695,7 +695,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -714,7 +714,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -737,7 +737,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -761,7 +761,7 @@ Array [
 exports[`Icons renders Chat 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -782,7 +782,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -801,7 +801,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -820,7 +820,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -841,7 +841,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -860,7 +860,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -879,7 +879,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -898,7 +898,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -917,7 +917,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -936,7 +936,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -960,7 +960,7 @@ Array [
 exports[`Icons renders Controls 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -981,7 +981,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1002,7 +1002,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1023,7 +1023,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1044,7 +1044,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1065,7 +1065,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1086,7 +1086,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1107,7 +1107,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1128,7 +1128,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1158,7 +1158,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1179,7 +1179,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1200,7 +1200,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1221,7 +1221,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1242,7 +1242,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1263,7 +1263,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1284,7 +1284,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1305,7 +1305,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1324,7 +1324,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1343,7 +1343,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1364,7 +1364,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1385,7 +1385,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1411,7 +1411,7 @@ Array [
 exports[`Icons renders Devices 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1430,7 +1430,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1449,7 +1449,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1468,7 +1468,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1487,7 +1487,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1506,7 +1506,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1525,7 +1525,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1544,7 +1544,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1565,7 +1565,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1584,7 +1584,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1608,7 +1608,7 @@ Array [
 exports[`Icons renders Files 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1627,7 +1627,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1646,7 +1646,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1665,7 +1665,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1684,7 +1684,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1703,7 +1703,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1722,7 +1722,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1741,7 +1741,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1760,7 +1760,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1779,7 +1779,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1798,7 +1798,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1817,7 +1817,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1836,7 +1836,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1855,7 +1855,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1874,7 +1874,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1893,7 +1893,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1912,7 +1912,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1931,7 +1931,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1950,7 +1950,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1969,7 +1969,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -1988,7 +1988,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2007,7 +2007,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2026,7 +2026,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2045,7 +2045,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2064,7 +2064,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2083,7 +2083,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2102,7 +2102,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2126,7 +2126,7 @@ Array [
 exports[`Icons renders Generic 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2148,7 +2148,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2167,7 +2167,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2187,7 +2187,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2206,7 +2206,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2226,7 +2226,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2245,7 +2245,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2264,7 +2264,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2283,7 +2283,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2303,7 +2303,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2323,7 +2323,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2344,7 +2344,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2371,7 +2371,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2390,7 +2390,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2411,7 +2411,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2430,7 +2430,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2451,7 +2451,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2471,7 +2471,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2492,7 +2492,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2511,7 +2511,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2530,7 +2530,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2551,7 +2551,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2570,7 +2570,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2589,7 +2589,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2610,7 +2610,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2629,7 +2629,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2648,7 +2648,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2667,7 +2667,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2688,7 +2688,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2709,7 +2709,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2730,7 +2730,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2749,7 +2749,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2768,7 +2768,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2788,7 +2788,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2807,7 +2807,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2826,7 +2826,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2847,7 +2847,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2867,7 +2867,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2891,7 +2891,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2910,7 +2910,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2929,7 +2929,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2948,7 +2948,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2971,7 +2971,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -2990,7 +2990,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3009,7 +3009,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3028,7 +3028,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3047,7 +3047,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3066,7 +3066,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3092,7 +3092,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3111,7 +3111,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3132,7 +3132,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3151,7 +3151,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3177,7 +3177,7 @@ Array [
 exports[`Icons renders Mail 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3196,7 +3196,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3215,7 +3215,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3234,7 +3234,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3253,7 +3253,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3272,7 +3272,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3293,7 +3293,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3314,7 +3314,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3333,7 +3333,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3357,7 +3357,7 @@ Array [
 exports[`Icons renders Maps 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3384,7 +3384,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3403,7 +3403,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3422,7 +3422,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3447,7 +3447,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3468,7 +3468,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3487,7 +3487,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3506,7 +3506,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3527,7 +3527,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3553,7 +3553,7 @@ Array [
 exports[`Icons renders Media 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3572,7 +3572,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3591,7 +3591,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3610,7 +3610,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3629,7 +3629,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3648,7 +3648,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3667,7 +3667,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3686,7 +3686,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3705,7 +3705,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3724,7 +3724,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3743,7 +3743,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3762,7 +3762,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3781,7 +3781,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3800,7 +3800,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3819,7 +3819,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3838,7 +3838,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3857,7 +3857,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3876,7 +3876,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3895,7 +3895,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3926,7 +3926,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3945,7 +3945,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3964,7 +3964,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -3983,7 +3983,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4002,7 +4002,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4021,7 +4021,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4040,7 +4040,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4059,7 +4059,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4082,7 +4082,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4101,7 +4101,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4121,7 +4121,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4140,7 +4140,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4159,7 +4159,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4178,7 +4178,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4197,7 +4197,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4216,7 +4216,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4240,7 +4240,7 @@ Array [
 exports[`Icons renders Notifications 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4259,7 +4259,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4283,7 +4283,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4302,7 +4302,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4322,7 +4322,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4341,7 +4341,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4360,7 +4360,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4379,7 +4379,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4398,7 +4398,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4417,7 +4417,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4436,7 +4436,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4455,7 +4455,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4474,7 +4474,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4498,7 +4498,7 @@ Array [
 exports[`Icons renders Other 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4518,7 +4518,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4538,7 +4538,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4558,7 +4558,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4582,7 +4582,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4601,7 +4601,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4622,7 +4622,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4641,7 +4641,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4660,7 +4660,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4679,7 +4679,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4698,7 +4698,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4717,7 +4717,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4736,7 +4736,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4756,7 +4756,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4776,7 +4776,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4796,7 +4796,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4821,7 +4821,7 @@ Array [
 exports[`Icons renders Security 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4846,7 +4846,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4865,7 +4865,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4884,7 +4884,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4903,7 +4903,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4922,7 +4922,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4945,7 +4945,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4964,7 +4964,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -4983,7 +4983,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5002,7 +5002,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5021,7 +5021,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5040,7 +5040,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5059,7 +5059,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5086,7 +5086,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5110,7 +5110,7 @@ Array [
 exports[`Icons renders Shop 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5129,7 +5129,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5151,7 +5151,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5170,7 +5170,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5197,7 +5197,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5216,7 +5216,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5236,7 +5236,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5257,7 +5257,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5284,7 +5284,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5303,7 +5303,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5328,7 +5328,7 @@ Array [
 exports[`Icons renders Software 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5347,7 +5347,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5378,7 +5378,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5397,7 +5397,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5418,7 +5418,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5439,7 +5439,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5458,7 +5458,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5477,7 +5477,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5496,7 +5496,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5517,7 +5517,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5538,7 +5538,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5561,7 +5561,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5580,7 +5580,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5599,7 +5599,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5620,7 +5620,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5639,7 +5639,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5659,7 +5659,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5683,7 +5683,7 @@ Array [
 exports[`Icons renders Sport 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5705,7 +5705,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5726,7 +5726,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5745,7 +5745,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5765,7 +5765,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5785,7 +5785,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5804,7 +5804,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5825,7 +5825,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5846,7 +5846,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5865,7 +5865,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5887,7 +5887,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5906,7 +5906,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5925,7 +5925,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5946,7 +5946,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5966,7 +5966,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -5985,7 +5985,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6004,7 +6004,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6023,7 +6023,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6042,7 +6042,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6061,7 +6061,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6081,7 +6081,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6100,7 +6100,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6120,7 +6120,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6142,7 +6142,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6161,7 +6161,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6183,7 +6183,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6202,7 +6202,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6221,7 +6221,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6240,7 +6240,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6260,7 +6260,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6282,7 +6282,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6303,7 +6303,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6322,7 +6322,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6344,7 +6344,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6365,7 +6365,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6385,7 +6385,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6406,7 +6406,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6425,7 +6425,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6444,7 +6444,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6470,7 +6470,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6491,7 +6491,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6511,7 +6511,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6531,7 +6531,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6564,7 +6564,7 @@ Array [
 exports[`Icons renders Text 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6585,7 +6585,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6604,7 +6604,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6623,7 +6623,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6642,7 +6642,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6661,7 +6661,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6682,7 +6682,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6703,7 +6703,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6722,7 +6722,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6743,7 +6743,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6762,7 +6762,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6781,7 +6781,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6802,7 +6802,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6823,7 +6823,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6844,7 +6844,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6865,7 +6865,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6886,7 +6886,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6906,7 +6906,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6927,7 +6927,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6948,7 +6948,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6969,7 +6969,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -6990,7 +6990,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7011,7 +7011,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7032,7 +7032,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7059,7 +7059,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7083,7 +7083,7 @@ Array [
 exports[`Icons renders Time 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7104,7 +7104,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7123,7 +7123,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7142,7 +7142,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7161,7 +7161,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7180,7 +7180,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7199,7 +7199,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7218,7 +7218,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7239,7 +7239,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7258,7 +7258,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7279,7 +7279,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7300,7 +7300,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7319,7 +7319,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7343,7 +7343,7 @@ Array [
 exports[`Icons renders Travel 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7363,7 +7363,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7384,7 +7384,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7405,7 +7405,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7448,7 +7448,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7467,7 +7467,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7486,7 +7486,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7513,7 +7513,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7534,7 +7534,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7553,7 +7553,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7572,7 +7572,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7592,7 +7592,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7611,7 +7611,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7632,7 +7632,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7651,7 +7651,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7671,7 +7671,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7690,7 +7690,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7709,7 +7709,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7735,7 +7735,7 @@ Array [
 exports[`Icons renders Type 1`] = `
 Array [
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7809,7 +7809,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7877,7 +7877,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -7940,7 +7940,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -8008,7 +8008,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -8082,7 +8082,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -8152,7 +8152,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -8238,7 +8238,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -8313,7 +8313,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -8416,7 +8416,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg
@@ -8486,7 +8486,7 @@ Array [
     </svg>
   </div>,
   <div
-    className="text-gray-400 relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active"
+    className="relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active text-gray-400"
     onClick={[Function]}
   >
     <svg

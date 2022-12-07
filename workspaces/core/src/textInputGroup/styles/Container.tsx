@@ -1,5 +1,5 @@
 import React from 'react';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 
 const Container: React.FC<{
   orientation?: 'vertical' | 'horizontal';
@@ -10,7 +10,7 @@ const Container: React.FC<{
 }> = ({ orientation, isXLarge, dir, backgroundColor, isError, children }) => (
   <div
     dir={dir}
-    className={classNames(
+    className={mergeClassnames(
       'flex border-none shadow-input relative h-fit',
       orientation === 'horizontal' ? 'flex-row' : 'flex-col',
       backgroundColor && backgroundColor,

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { ControlsChevronRight } from '@heathmont/moon-icons-tw';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../utils/mergeClassnames';
 import setFont from './private/utils/setFont';
 import setMargin from './private/utils/setMargin';
 import setOpenIcon from './private/utils/setOpenIcon';
@@ -26,7 +26,7 @@ const Accordion = ({
   }
   return (
     <div
-      className={classNames(
+      className={mergeClassnames(
         'w-full rounded-moon-s-sm h-max flex flex-col items-center',
         isContentInside ? bgColor : 'transparent',
         setPadding(isContentInside, size)
@@ -34,8 +34,7 @@ const Accordion = ({
     >
       <button
         type="button"
-        className={classNames(
-          bgColor,
+        className={mergeClassnames(
           'flex items-center relative w-full gap-1',
           disabled ? 'cursor-not-allowed opacity-30' : 'cursor-pointer',
           isContentInside ? bgColor : 'transparent rounded-moon-s-sm',
@@ -49,7 +48,7 @@ const Accordion = ({
           <span
             role="heading"
             aria-level={3}
-            className={classNames(
+            className={mergeClassnames(
               'flex-1 font-medium text-bulma text-start',
               setFont(size)
             )}
@@ -64,7 +63,7 @@ const Accordion = ({
             className="flex items-center justify-center w-6 h-6"
           >
             <ControlsChevronRight
-              className={classNames(
+              className={mergeClassnames(
                 'text-trunks text-moon-16 transition-transform transition-200',
                 setOpenIcon(isOpen)
               )}
@@ -74,7 +73,7 @@ const Accordion = ({
       </button>
       {isOpen && (
         <div
-          className={classNames(
+          className={mergeClassnames(
             'overflow-hidden w-full text-bulma',
             isOpen && setMargin(size)
           )}

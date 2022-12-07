@@ -1,7 +1,7 @@
 import React, { createContext, useContext, ReactNode } from 'react';
 import { Popover as HeadlessPopover } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../utils/mergeClassnames';
 
 type Placement =
   | 'top-start'
@@ -128,9 +128,8 @@ const Panel: React.FC<PanelProps> = ({ children, className }) => {
       ref={popper?.setPopper}
       style={popper?.styles?.popper}
       {...popper?.attributes?.popper}
-      className={classNames(
-        'w-72 z-[999999] w-full p-1 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
-        'focus:outline-none',
+      className={mergeClassnames(
+        'w-72 z-[999999] w-full p-1 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none',
         className && className
       )}
     >

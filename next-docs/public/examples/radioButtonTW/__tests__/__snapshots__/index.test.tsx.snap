@@ -143,7 +143,7 @@ Array [
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group opacity-30 cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group opacity-30 cursor-not-allowed select-none"
       htmlFor="disabled1"
     >
       <span
@@ -178,7 +178,7 @@ Array [
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group opacity-30 cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group opacity-30 cursor-not-allowed select-none"
       htmlFor="disabled2"
     >
       <span
@@ -308,7 +308,7 @@ Array [
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group cursor-not-allowed select-none"
       htmlFor="readOnly1"
     >
       <span
@@ -342,7 +342,7 @@ Array [
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group cursor-not-allowed select-none"
       htmlFor="readOnly2"
     >
       <span
@@ -626,7 +626,7 @@ Array [
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group opacity-30 cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group opacity-30 cursor-not-allowed select-none"
       htmlFor="disabled1"
     >
       <span
@@ -661,7 +661,7 @@ Array [
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group opacity-30 cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group opacity-30 cursor-not-allowed select-none"
       htmlFor="disabled2"
     >
       <span
@@ -791,7 +791,7 @@ Array [
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group cursor-not-allowed select-none"
       htmlFor="readOnly1"
     >
       <span
@@ -825,7 +825,7 @@ Array [
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group cursor-not-allowed select-none"
       htmlFor="readOnly2"
     >
       <span
@@ -1117,7 +1117,7 @@ exports[`RadioButton in RTL renders Disabled 1`] = `
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group opacity-30 cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group opacity-30 cursor-not-allowed select-none"
       htmlFor="disabled1"
     >
       <span
@@ -1152,7 +1152,7 @@ exports[`RadioButton in RTL renders Disabled 1`] = `
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group opacity-30 cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group opacity-30 cursor-not-allowed select-none"
       htmlFor="disabled2"
     >
       <span
@@ -1286,7 +1286,7 @@ exports[`RadioButton in RTL renders ReadOnly 1`] = `
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group cursor-not-allowed select-none"
       htmlFor="readOnly1"
     >
       <span
@@ -1320,7 +1320,7 @@ exports[`RadioButton in RTL renders ReadOnly 1`] = `
     className="flex"
   >
     <label
-      className="flex flex-row flex-start items-center cursor-pointer group cursor-not-allowed select-none"
+      className="flex flex-row flex-start items-center group cursor-not-allowed select-none"
       htmlFor="readOnly2"
     >
       <span

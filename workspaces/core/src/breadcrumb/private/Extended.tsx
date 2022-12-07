@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowsRight } from '@heathmont/moon-icons-tw';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 import type BreadcrumbProps from './types/BreadcrumbProps';
 
 const Extended: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => (
@@ -16,7 +16,7 @@ const Extended: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => (
               <ArrowsRight className="rtl:rotate-180 text-moon-16" />
             )}
             <span
-              className={classNames(
+              className={mergeClassnames(
                 'text-trunks transition-colors duration-200 hover:text-bulma',
                 index === breadcrumbs.length - 1 && 'text-bulma font-medium'
               )}

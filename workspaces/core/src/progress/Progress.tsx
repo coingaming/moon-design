@@ -1,5 +1,5 @@
 import React from 'react';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../utils/mergeClassnames';
 import getSize from './private/utils/getSize';
 import type Props from './private/types/Props';
 
@@ -10,7 +10,7 @@ const Progress: React.FC<Props> = ({
   progressColor = 'bg-piccolo',
 }) => (
   <div
-    className={classNames(
+    className={mergeClassnames(
       'w-full relative rounded-full overflow-hidden',
       bgColor,
       getSize(size)
@@ -22,7 +22,7 @@ const Progress: React.FC<Props> = ({
   >
     <span
       style={{ width: `${value}%` }}
-      className={classNames(
+      className={mergeClassnames(
         'block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all',
         progressColor
       )}

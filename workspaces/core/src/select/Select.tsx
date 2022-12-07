@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../utils/mergeClassnames';
 import HintText from './private/HintText';
 import InputBtn from './private/InputBtn';
 import Options from './private/Options';
@@ -85,7 +85,7 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
     >
       {({ open }) => (
         <div
-          className={classNames(
+          className={mergeClassnames(
             'w-full',
             disabled && 'opacity-30 cursor-not-allowed'
           )}
@@ -93,7 +93,7 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
           <div className="relative">
             {label && size !== 'xl' && (
               <Listbox.Label
-                className={classNames(
+                className={mergeClassnames(
                   'block text-bulma pb-2',
                   size === 'sm' ? 'text-moon-14' : 'text-moon-16'
                 )}
@@ -117,7 +117,7 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
                   )}
                   {option ? (
                     <span
-                      className={classNames(
+                      className={mergeClassnames(
                         size === 'sm' ? 'text-moon-14' : 'text-moon-16',
                         'text-bulma'
                       )}
@@ -127,7 +127,7 @@ const Select: React.FC<SelectProps<BaseOptionType[], BaseOptionType>> = ({
                     </span>
                   ) : placeholder ? (
                     <span
-                      className={classNames(
+                      className={mergeClassnames(
                         size === 'sm' ? 'text-moon-14' : 'text-moon-16',
                         'text-trunks'
                       )}

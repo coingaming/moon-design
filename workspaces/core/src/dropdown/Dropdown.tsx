@@ -10,7 +10,7 @@ import React, {
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton } from '../index';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../utils/mergeClassnames';
 
 type DropdownState = {
   value?: any;
@@ -150,10 +150,9 @@ const Options: React.FC<WithChildren<OptionsProps>> = ({
       className="z-5 absolute"
     >
       <Listbox.Options
-        className={classNames(
+        className={mergeClassnames(
           menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
-          'z-1 p-1 my-2 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
-          'focus:outline-none'
+          'z-1 p-1 my-2 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none'
         )}
         {...rest}
       >
@@ -283,7 +282,7 @@ const Hint: React.FC<{ children?: ReactNode }> = ({ children }) => {
   return (
     <p
       role="alert"
-      className={classNames(
+      className={mergeClassnames(
         'inline-block mt-2 ps-4 text-moon-12',
         isError ? 'text-chiChi' : 'text-trunks',
         disabled && 'opacity-30 cursor-not-allowed'

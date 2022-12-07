@@ -8,7 +8,6 @@ import {
   KBarAnimator,
   Action,
 } from 'kbar';
-import classNames from '../../utils/classNames';
 import RenderResults from './RenderResults';
 import getAction from './utils/getActions';
 
@@ -22,11 +21,7 @@ const SearchProvider: React.FC<{ children: React.ReactNode }> = ({
       <KBarPortal>
         <KBarPositioner className="z-10000 bg-gray-300/50 p-4 backdrop-blur backdrop-filter">
           <KBarAnimator className="w-full max-w-xl">
-            <div
-              className={classNames(
-                'overflow-hidden rounded-2xl border border-gray-100 bg-gray-50'
-              )}
-            >
+            <div className="overflow-hidden rounded-2xl border border-gray-100 bg-gray-50">
               <div className="flex items-center space-x-4 p-4">
                 <span className="block w-5">
                   <GenericSearch className="text-[2rem]" />

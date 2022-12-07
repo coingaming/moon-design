@@ -1,5 +1,5 @@
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 import Link from 'next/link';
-import classNames from '../../utils/classNames';
 
 const Button: React.FC<{ isActive: boolean; onClick: () => void }> = ({
   children,
@@ -7,10 +7,9 @@ const Button: React.FC<{ isActive: boolean; onClick: () => void }> = ({
   ...rest
 }) => (
   <a
-    className={classNames(
-      'group',
-      isActive ? 'text-bulma bg-gohan' : 'text-trunks',
-      'group cursor-pointer transition-colors flex-inline rounded-md p-1.5 lg:ps-2.5 lg:pe-3.5 flex items-center text-sm font-medium shadow-sm'
+    className={mergeClassnames(
+      'group cursor-pointer transition-colors flex-inline rounded-md p-1.5 lg:ps-2.5 lg:pe-3.5 flex items-center text-sm font-medium shadow-sm',
+      isActive ? 'text-bulma bg-gohan' : 'text-trunks'
     )}
     {...rest}
   >

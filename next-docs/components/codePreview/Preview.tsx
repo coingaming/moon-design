@@ -1,6 +1,6 @@
 import { useState } from 'react';
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 import useThemeTW from '../../components/themes/useThemesTW';
-import classNames from '../../utils/classNames';
 import CodeSnippet from '../CodeSnippet';
 import PreviewSwitch from './PreviewSwitch';
 
@@ -33,9 +33,9 @@ const Preview = ({ title, description, preview, code }: Props) => {
       </div>
       {description && <p className="text-moon-16">{description}</p>}
       <div
-        className={classNames(
-          isPreviewActive ? `p-4` : 'theme-moon-dark',
-          'flex bg-goku text-moon-14 rounded-moon-s-sm preview'
+        className={mergeClassnames(
+          'flex bg-goku text-moon-14 rounded-moon-s-sm preview',
+          isPreviewActive ? `p-4` : 'theme-moon-dark'
         )}
       >
         {isPreviewActive ? (
