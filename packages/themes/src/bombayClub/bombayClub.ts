@@ -21,7 +21,7 @@ const colors = {
     100: 'rgba(19, 19, 19, 1)',
   },
   beerus: {
-    100: 'background: rgba(255, 255, 255, 0.08)',
+    100: 'rgba(255, 255, 255, 0.08)',
   },
   bulma: {
     100: 'rgba(255, 255, 255, 1)',
@@ -34,8 +34,8 @@ const colors = {
 const colorNew = {
   piccolo: '#FF4F0F',
   hit: '#202020',
-  beerus: colors.beerus[100],
-  goku: colors.goku[100],
+  beerus: '#FFFFFF14',
+  goku: '#000000',
   gohan: '#0C0C0C',
   bulma: '#ffffff',
   trunks: '#7A7A7A',
@@ -48,6 +48,11 @@ const { hover: bombayClubHover } = bitcasinoLight;
 const bombayClub: Theme = {
   ...sharedTokens,
   brand: 'BombayClub',
+  radius: {
+    small: 4,
+    default: 8,
+    largest: 8,
+  },
   color: {
     text: colors.bulma[100],
     background: colors.goku[100],
