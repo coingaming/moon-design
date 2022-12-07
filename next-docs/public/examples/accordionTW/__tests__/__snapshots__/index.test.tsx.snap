@@ -95,7 +95,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+      className="bg-beerus flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
       onClick={[Function]}
       type="button"
     >
@@ -232,7 +232,7 @@ exports[`Accordion in Dark Theme renders ContentOutside 1`] = `
 >
   <button
     aria-expanded={false}
-    className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
     onClick={[Function]}
     type="button"
   >
@@ -274,7 +274,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-4"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-4"
       onClick={[Function]}
       type="button"
     >
@@ -312,7 +312,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-3"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-3"
       onClick={[Function]}
       type="button"
     >
@@ -350,7 +350,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
       onClick={[Function]}
       type="button"
     >
@@ -388,7 +388,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-1 ps-3 pe-1"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-1 ps-3 pe-1"
       onClick={[Function]}
       type="button"
     >
@@ -830,7 +830,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+      className="bg-beerus flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
       onClick={[Function]}
       type="button"
     >
@@ -967,7 +967,7 @@ exports[`Accordion in Light Theme renders ContentOutside 1`] = `
 >
   <button
     aria-expanded={false}
-    className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
     onClick={[Function]}
     type="button"
   >
@@ -1009,7 +1009,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-4"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-4"
       onClick={[Function]}
       type="button"
     >
@@ -1047,7 +1047,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-3"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-3"
       onClick={[Function]}
       type="button"
     >
@@ -1085,7 +1085,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
       onClick={[Function]}
       type="button"
     >
@@ -1123,7 +1123,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-1 ps-3 pe-1"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-1 ps-3 pe-1"
       onClick={[Function]}
       type="button"
     >
@@ -1571,7 +1571,7 @@ exports[`Accordion in RTL renders Background 1`] = `
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+      className="bg-beerus flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
       onClick={[Function]}
       type="button"
     >
@@ -1715,7 +1715,7 @@ exports[`Accordion in RTL renders ContentOutside 1`] = `
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
       onClick={[Function]}
       type="button"
     >
@@ -1760,7 +1760,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-4"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-4"
       onClick={[Function]}
       type="button"
     >
@@ -1798,7 +1798,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-3"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm p-3"
       onClick={[Function]}
       type="button"
     >
@@ -1836,7 +1836,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-2 ps-3 pe-2"
       onClick={[Function]}
       type="button"
     >
@@ -1874,7 +1874,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
   >
     <button
       aria-expanded={false}
-      className="flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-1 ps-3 pe-1"
+      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer transparent rounded-moon-s-sm py-1 ps-3 pe-1"
       onClick={[Function]}
       type="button"
     >

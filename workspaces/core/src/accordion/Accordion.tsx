@@ -35,6 +35,7 @@ const Accordion = ({
       <button
         type="button"
         className={mergeClassnames(
+          bgColor,
           'flex items-center relative w-full gap-1',
           disabled ? 'cursor-not-allowed opacity-30' : 'cursor-pointer',
           isContentInside ? bgColor : 'transparent rounded-moon-s-sm',
