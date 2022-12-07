@@ -2,15 +2,18 @@ const navigation = [
   { name: 'Vision', href: '/vision' },
   { name: 'Getting Started', href: '/gettingStarted' },
   { name: 'How to contribute', href: '/howToContribute' },
-  { name: 'Colours Palette', href: '/colours' },
+  { name: 'Colours', href: '/colours' },
   { name: 'Tokens', href: '/tokens' },
-  { name: 'Transform SVG', href: '/transformIcon' },
+  { name: 'Typography', href: '/typography' },
+  { name: 'Transform SVG', href: '/transformSvg' },
   { name: 'Manifest', href: '/manifest' },
   {
     name: 'Tailwind',
     children: [
       { name: 'Accordion', href: '/core/accordion' },
+      { name: 'AuthCode', href: '/core/authCode' },
       { name: 'Avatar', href: '/core/avatar' },
+      { name: 'BottomSheet', href: '/core/bottomSheet' },
       { name: 'Breadcrumb', href: '/core/breadcrumb' },
       {
         name: 'Button',
@@ -35,7 +38,7 @@ const navigation = [
           { name: 'Progress', href: '/core/progress' },
         ],
       },
-      { name: 'RadioButton', href: '/core/radiobutton' },
+      { name: 'RadioButton', href: '/core/radioButton' },
       { name: 'Select', href: '/core/select' },
       { name: 'Snackbar', href: '/core/snackbar' },
       { name: 'Switch', href: '/core/switch' },
@@ -43,7 +46,6 @@ const navigation = [
       { name: 'Tabs', href: '/core/tabs' },
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInputGroup', href: '/core/textInputGroup' },
-      { name: 'Typography', href: '/core/typography' },
     ],
   },
   {

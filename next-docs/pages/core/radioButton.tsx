@@ -2,16 +2,16 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Checked from '../../public/examples/radiobuttonTW/Checked';
-import Default from '../../public/examples/radiobuttonTW/Default';
-import Disabled from '../../public/examples/radiobuttonTW/Disabled';
-import NoLabel from '../../public/examples/radiobuttonTW/NoLabel';
-import ReadOnly from '../../public/examples/radiobuttonTW/ReadOnly';
-import WithLabel from '../../public/examples/radiobuttonTW/WithLabel';
+import Checked from '../../public/examples/radioButtonTW/Checked';
+import Default from '../../public/examples/radioButtonTW/Default';
+import Disabled from '../../public/examples/radioButtonTW/Disabled';
+import NoLabel from '../../public/examples/radioButtonTW/NoLabel';
+import ReadOnly from '../../public/examples/radioButtonTW/ReadOnly';
+import WithLabel from '../../public/examples/radioButtonTW/WithLabel';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('radiobuttonTW');
+  const examples = useExamples('radioButtonTW');
   return (
     <>
       <ComponentPageDescription title="RadioButton" isInProgress>

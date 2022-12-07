@@ -1,6 +1,7 @@
+import classNames from '../utils/classNames';
+
 type PalleteColorProp = {
   name: string;
-  value?: 10 | 60 | 100;
   description?: string;
 };
 
@@ -26,13 +27,12 @@ const ColoursPalette = ({
             key={index}
           >
             <div
-              style={{ backgroundColor: color.name }}
-              className={`w-full h-40 rounded-moon-s-sm border border-beerus`}
+              className={classNames(
+                `w-full h-40 rounded-moon-s-sm border border-beerus`,
+                color.name
+              )}
             />
-            <p>
-              {color.description}
-              {color.value && ' - ' + color.value}
-            </p>
+            <p>{color.description}</p>
           </div>
         ))}
       </div>

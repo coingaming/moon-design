@@ -5,7 +5,7 @@ exports[`Loader in Dark Theme renders AsLink 1`] = `
   className="w-56"
 >
   <a
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     href="#"
   >
     Menu item text
@@ -19,7 +19,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="сheckbox"
       type="button"
@@ -60,7 +60,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="сheckbox"
       type="button"
@@ -102,7 +102,7 @@ Array [
 
 exports[`Loader in Dark Theme renders Default 1`] = `
 <button
-  className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+  className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
   type="button"
 >
   Menu item text
@@ -114,52 +114,52 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
   className="flex items-start flex-wrap justify-around gap-2 w-full"
 >
   <div
-    className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
+    className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
   >
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Vision
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Getting started
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       How to contribute?
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Colours palette
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Tokens
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Transform SVG
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Manifest
     </a>
     <button
-      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
       onClick={[Function]}
       type="button"
     >
@@ -184,7 +184,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
       className="pl-6"
     >
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         <span
@@ -194,7 +194,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
         </span>
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         <span
@@ -204,7 +204,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
         </span>
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         <span
@@ -214,7 +214,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
         </span>
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         <span
@@ -224,7 +224,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
         </span>
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         <span
@@ -236,10 +236,10 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
     </div>
   </div>
   <div
-    className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
+    className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -262,7 +262,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       onClick={[Function]}
       type="button"
     >
@@ -300,7 +300,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
       className="pl-10"
     >
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
@@ -319,7 +319,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
@@ -339,7 +339,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
       </button>
     </div>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
       <span
@@ -358,7 +358,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
       <span
@@ -377,7 +377,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
       <span
@@ -399,7 +399,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
       className="flex flex-col gap-2 rounded-moon-s-lg"
     >
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
@@ -422,7 +422,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
         <span
@@ -441,7 +441,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
         <span
@@ -460,7 +460,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
         <span
@@ -483,7 +483,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
       className="flex flex-col gap-2 rounded-moon-s-lg "
     >
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
@@ -506,7 +506,7 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
         <span
@@ -531,10 +531,10 @@ exports[`Loader in Dark Theme renders ExpandCollapse 1`] = `
 
 exports[`Loader in Dark Theme renders MultiLine 1`] = `
 <div
-  className="w-94 bg-white flex flex-col gap-3 rounded-moon-s-lg p-6"
+  className="w-94 bg-gohan flex flex-col gap-3 rounded-moon-s-lg p-6"
 >
   <button
-    className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+    className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
     type="button"
   >
     <span
@@ -578,7 +578,7 @@ exports[`Loader in Dark Theme renders MultiLine 1`] = `
     </span>
   </button>
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     type="button"
   >
     <span
@@ -624,7 +624,7 @@ exports[`Loader in Dark Theme renders MultiLine 1`] = `
     className="w-80 border-px border-solid border-beerus left-6 top-40  self-stretch"
   />
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     type="button"
   >
     <span
@@ -667,7 +667,7 @@ exports[`Loader in Dark Theme renders MultiLine 1`] = `
     </span>
   </button>
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     type="button"
   >
     <span
@@ -718,7 +718,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span>
@@ -769,7 +769,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       type="button"
     >
@@ -851,7 +851,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="radio"
       type="button"
@@ -875,7 +875,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="radio"
       type="button"
@@ -904,7 +904,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -933,7 +933,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -967,7 +967,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -986,7 +986,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -1024,7 +1024,7 @@ exports[`Loader in Light Theme renders AsLink 1`] = `
   className="w-56"
 >
   <a
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     href="#"
   >
     Menu item text
@@ -1038,7 +1038,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="сheckbox"
       type="button"
@@ -1079,7 +1079,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="сheckbox"
       type="button"
@@ -1121,7 +1121,7 @@ Array [
 
 exports[`Loader in Light Theme renders Default 1`] = `
 <button
-  className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+  className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
   type="button"
 >
   Menu item text
@@ -1133,52 +1133,52 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
   className="flex items-start flex-wrap justify-around gap-2 w-full"
 >
   <div
-    className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
+    className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
   >
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Vision
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Getting started
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       How to contribute?
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Colours palette
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Tokens
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Transform SVG
     </a>
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="/"
     >
       Manifest
     </a>
     <button
-      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
       onClick={[Function]}
       type="button"
     >
@@ -1203,7 +1203,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
       className="pl-6"
     >
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         <span
@@ -1213,7 +1213,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
         </span>
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         <span
@@ -1223,7 +1223,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
         </span>
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         <span
@@ -1233,7 +1233,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
         </span>
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         <span
@@ -1243,7 +1243,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
         </span>
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         <span
@@ -1255,10 +1255,10 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
     </div>
   </div>
   <div
-    className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
+    className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -1281,7 +1281,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       onClick={[Function]}
       type="button"
     >
@@ -1319,7 +1319,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
       className="pl-10"
     >
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
@@ -1338,7 +1338,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
@@ -1358,7 +1358,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
       </button>
     </div>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
       <span
@@ -1377,7 +1377,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
       <span
@@ -1396,7 +1396,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
       type="button"
     >
       <span
@@ -1418,7 +1418,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
       className="flex flex-col gap-2 rounded-moon-s-lg"
     >
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
@@ -1441,7 +1441,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
         <span
@@ -1460,7 +1460,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
         <span
@@ -1479,7 +1479,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
         <span
@@ -1502,7 +1502,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
       className="flex flex-col gap-2 rounded-moon-s-lg "
     >
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
@@ -1525,7 +1525,7 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
         <span
@@ -1550,10 +1550,10 @@ exports[`Loader in Light Theme renders ExpandCollapse 1`] = `
 
 exports[`Loader in Light Theme renders MultiLine 1`] = `
 <div
-  className="w-94 bg-white flex flex-col gap-3 rounded-moon-s-lg p-6"
+  className="w-94 bg-gohan flex flex-col gap-3 rounded-moon-s-lg p-6"
 >
   <button
-    className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+    className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
     type="button"
   >
     <span
@@ -1597,7 +1597,7 @@ exports[`Loader in Light Theme renders MultiLine 1`] = `
     </span>
   </button>
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     type="button"
   >
     <span
@@ -1643,7 +1643,7 @@ exports[`Loader in Light Theme renders MultiLine 1`] = `
     className="w-80 border-px border-solid border-beerus left-6 top-40  self-stretch"
   />
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     type="button"
   >
     <span
@@ -1686,7 +1686,7 @@ exports[`Loader in Light Theme renders MultiLine 1`] = `
     </span>
   </button>
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     type="button"
   >
     <span
@@ -1737,7 +1737,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span>
@@ -1788,7 +1788,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       type="button"
     >
@@ -1870,7 +1870,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="radio"
       type="button"
@@ -1894,7 +1894,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="radio"
       type="button"
@@ -1923,7 +1923,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -1952,7 +1952,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -1986,7 +1986,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -2005,7 +2005,7 @@ Array [
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -2046,7 +2046,7 @@ exports[`Loader in RTL renders AsLink 1`] = `
     className="w-56"
   >
     <a
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       href="#"
     >
       Menu item text
@@ -2063,7 +2063,7 @@ exports[`Loader in RTL renders Checkbox 1`] = `
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="сheckbox"
       type="button"
@@ -2104,7 +2104,7 @@ exports[`Loader in RTL renders Checkbox 1`] = `
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="сheckbox"
       type="button"
@@ -2149,7 +2149,7 @@ exports[`Loader in RTL renders Default 1`] = `
   dir="rtl"
 >
   <button
-    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+    className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
     type="button"
   >
     Menu item text
@@ -2165,52 +2165,52 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
     className="flex items-start flex-wrap justify-around gap-2 w-full"
   >
     <div
-      className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
+      className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
     >
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         Vision
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         Getting started
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         How to contribute?
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         Colours palette
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         Tokens
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         Transform SVG
       </a>
       <a
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         href="/"
       >
         Manifest
       </a>
       <button
-        className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+        className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
         onClick={[Function]}
         type="button"
       >
@@ -2235,7 +2235,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
         className="pl-6"
       >
         <a
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
           href="/"
         >
           <span
@@ -2245,7 +2245,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           </span>
         </a>
         <a
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
           href="/"
         >
           <span
@@ -2255,7 +2255,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           </span>
         </a>
         <a
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
           href="/"
         >
           <span
@@ -2265,7 +2265,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           </span>
         </a>
         <a
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
           href="/"
         >
           <span
@@ -2275,7 +2275,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           </span>
         </a>
         <a
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
           href="/"
         >
           <span
@@ -2287,10 +2287,10 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
       </div>
     </div>
     <div
-      className="w-56 bg-white flex flex-col gap-2 rounded-moon-s-lg p-4"
+      className="w-56 bg-gohan flex flex-col gap-2 rounded-moon-s-lg p-4"
     >
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
         type="button"
       >
         <span
@@ -2313,7 +2313,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         onClick={[Function]}
         type="button"
       >
@@ -2351,7 +2351,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
         className="pl-10"
       >
         <button
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
           type="button"
         >
           <span
@@ -2370,7 +2370,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           </span>
         </button>
         <button
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
           type="button"
         >
           <span
@@ -2390,7 +2390,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
         </button>
       </div>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
         <span
@@ -2409,7 +2409,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
         <span
@@ -2428,7 +2428,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
         </span>
       </button>
       <button
-        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
         type="button"
       >
         <span
@@ -2450,7 +2450,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
         className="flex flex-col gap-2 rounded-moon-s-lg"
       >
         <button
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
           type="button"
         >
           <span
@@ -2473,7 +2473,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           </span>
         </button>
         <button
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
           type="button"
         >
           <span
@@ -2492,7 +2492,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           </span>
         </button>
         <button
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
           type="button"
         >
           <span
@@ -2511,7 +2511,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           </span>
         </button>
         <button
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
           type="button"
         >
           <span
@@ -2534,7 +2534,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
         className="flex flex-col gap-2 rounded-moon-s-lg "
       >
         <button
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
           type="button"
         >
           <span
@@ -2557,7 +2557,7 @@ exports[`Loader in RTL renders ExpandCollapse 1`] = `
           </span>
         </button>
         <button
-          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
+          className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full pl-6"
           type="button"
         >
           <span
@@ -2586,10 +2586,10 @@ exports[`Loader in RTL renders MultiLine 1`] = `
   dir="rtl"
 >
   <div
-    className="w-94 bg-white flex flex-col gap-3 rounded-moon-s-lg p-6"
+    className="w-94 bg-gohan flex flex-col gap-3 rounded-moon-s-lg p-6"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
+      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
       type="button"
     >
       <span
@@ -2633,7 +2633,7 @@ exports[`Loader in RTL renders MultiLine 1`] = `
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -2679,7 +2679,7 @@ exports[`Loader in RTL renders MultiLine 1`] = `
       className="w-80 border-px border-solid border-beerus left-6 top-40  self-stretch"
     />
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -2722,7 +2722,7 @@ exports[`Loader in RTL renders MultiLine 1`] = `
       </span>
     </button>
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -2776,7 +2776,7 @@ exports[`Loader in RTL renders MultiTitle 1`] = `
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span>
@@ -2827,7 +2827,7 @@ exports[`Loader in RTL renders MultiTitle 1`] = `
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       type="button"
     >
@@ -2911,7 +2911,7 @@ exports[`Loader in RTL renders Radio 1`] = `
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="radio"
       type="button"
@@ -2935,7 +2935,7 @@ exports[`Loader in RTL renders Radio 1`] = `
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       onClick={[Function]}
       role="radio"
       type="button"
@@ -2966,7 +2966,7 @@ exports[`Loader in RTL renders WithIcon 1`] = `
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg
@@ -2995,7 +2995,7 @@ exports[`Loader in RTL renders WithIcon 1`] = `
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -3031,7 +3031,7 @@ exports[`Loader in RTL renders WithMeta 1`] = `
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <span
@@ -3050,7 +3050,7 @@ exports[`Loader in RTL renders WithMeta 1`] = `
     className="w-56"
   >
     <button
-      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
       type="button"
     >
       <svg

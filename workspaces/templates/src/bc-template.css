@@ -1895,7 +1895,7 @@ video {
 
 .border-chiChi {
   --tw-border-opacity: 1;
-  border-color: rgb(var(--chichi) / var(--tw-border-opacity));
+  border-color: rgb(var(--chi-chii) / var(--tw-border-opacity));
 }
 
 .border-beerus {
@@ -2092,7 +2092,7 @@ video {
 
 .bg-chiChi {
   --tw-bg-opacity: 1;
-  background-color: rgb(var(--chichi) / var(--tw-bg-opacity));
+  background-color: rgb(var(--chi-chii) / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -2521,7 +2521,7 @@ video {
 
 .text-chiChi {
   --tw-text-opacity: 1;
-  color: rgb(var(--chichi) / var(--tw-text-opacity));
+  color: rgb(var(--chi-chii) / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2593,7 +2593,7 @@ video {
 }
 
 .shadow-input-err {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chii)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -2633,7 +2633,7 @@ video {
 }
 
 .outline-chiChi {
-  outline-color: rgb(var(--chichi));
+  outline-color: rgb(var(--chi-chii));
 }
 
 .blur {
@@ -3040,7 +3040,7 @@ body {
 }
 
 .invalid\:shadow-input-err:invalid {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chii)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -3137,7 +3137,7 @@ body {
 }
 
 .hover\:shadow-input-err:hover {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chii)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -3157,7 +3157,7 @@ body {
 }
 
 .invalid\:hover\:shadow-input-err:hover:invalid {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chii)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -3197,7 +3197,7 @@ body {
 }
 
 .focus\:shadow-input-err:focus {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chii)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -3209,7 +3209,7 @@ body {
 }
 
 .invalid\:focus\:shadow-input-err:focus:invalid {
-  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chichi)) inset;
+  --tw-shadow: 0 0 0 var(--border-i-width) rgb(var(--chi-chii)) inset;
   --tw-shadow-colored: inset 0 0 0 var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
     var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
@@ -3954,9 +3954,9 @@ body {
   --krillin: 255 179 25;
   --krillin-60: 255 198 82;
   --krillin-10: 255 217 141;
-  --chichi: 255 78 100;
-  --chichi-60: 255 118 135;
-  --chichi-10: 255 150 163;
+  --chi-chii: 255 78 100;
+  --chi-chii-60: 255 118 135;
+  --chi-chii-10: 255 150 163;
   --roshi: 74 209 95;
   --roshi-60: 100 220 119;
   --roshi-10: 127 242 145;
@@ -4020,9 +4020,9 @@ body {
   --krillin: 255 179 25;
   --krillin-60: 255 198 82;
   --krillin-10: 255 217 141;
-  --chichi: 255 78 100;
-  --chichi-60: 255 118 135;
-  --chichi-10: 255 150 163;
+  --chi-chii: 255 78 100;
+  --chi-chii-60: 255 118 135;
+  --chi-chii-10: 255 150 163;
   --roshi: 74 209 95;
   --roshi-60: 100 220 119;
   --roshi-10: 127 242 145;
@@ -4083,9 +4083,9 @@ body {
   --krillin: 255 179 25;
   --krillin-60: 255 198 82;
   --krillin-10: 255 217 141;
-  --chichi: 255 78 100;
-  --chichi-60: 255 118 135;
-  --chichi-10: 255 150 163;
+  --chi-chii: 255 78 100;
+  --chi-chii-60: 255 118 135;
+  --chi-chii-10: 255 150 163;
   --roshi: 74 209 95;
   --roshi-60: 100 220 119;
   --roshi-10: 127 242 145;
@@ -4146,9 +4146,9 @@ body {
   --krillin: 255 179 25;
   --krillin-60: 255 198 82;
   --krillin-10: 255 217 141;
-  --chichi: 255 78 100;
-  --chichi-60: 255 118 135;
-  --chichi-10: 255 150 163;
+  --chi-chii: 255 78 100;
+  --chi-chii-60: 255 118 135;
+  --chi-chii-10: 255 150 163;
   --roshi: 74 209 95;
   --roshi-60: 100 220 119;
   --roshi-10: 127 242 145;
