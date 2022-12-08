@@ -1,5 +1,5 @@
 import React from 'react';
-import classNames from '../../utils/classNames';
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 
 type Props = {
   variant?: 'default' | 'tall' | 'wide';
@@ -25,7 +25,7 @@ const CardArcticle: React.FC<Props> = ({
   return (
     <a href={href} target="_blank" rel="noreferrer">
       <div
-        className={classNames(
+        className={mergeClassnames(
           `group relative w-72 h-96 flex flex-col justify-end p-6 bg-goku rounded-moon-s-lg`,
           variant && variant in variants ? variants[variant] : variants.default
         )}

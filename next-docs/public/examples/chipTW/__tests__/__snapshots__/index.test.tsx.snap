@@ -3,12 +3,12 @@
 exports[`Chip in Dark Theme renders Active 1`] = `
 Array [
   <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-8 gap-1 py-1 px-2 bg-gohan bg-piccolo/[.12] text-piccolo hover:bg-piccolo/[.12] hover:text-piccolo"
+    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-8 gap-1 py-1 px-2 bg-piccolo/[.12] text-piccolo hover:bg-piccolo/[.12] hover:text-piccolo"
   >
     Active
   </button>,
   <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan bg-piccolo/[.12] text-piccolo hover:shadow-interactive shadow-interactive hover:bg-piccolo/[.12] hover:text-piccolo"
+    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-piccolo/[.12] text-piccolo hover:shadow-interactive shadow-interactive hover:bg-piccolo/[.12] hover:text-piccolo"
   >
     Active
   </button>,
@@ -562,12 +562,12 @@ Array [
 exports[`Chip in Light Theme renders Active 1`] = `
 Array [
   <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-8 gap-1 py-1 px-2 bg-gohan bg-piccolo/[.12] text-piccolo hover:bg-piccolo/[.12] hover:text-piccolo"
+    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-8 gap-1 py-1 px-2 bg-piccolo/[.12] text-piccolo hover:bg-piccolo/[.12] hover:text-piccolo"
   >
     Active
   </button>,
   <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan bg-piccolo/[.12] text-piccolo hover:shadow-interactive shadow-interactive hover:bg-piccolo/[.12] hover:text-piccolo"
+    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-piccolo/[.12] text-piccolo hover:shadow-interactive shadow-interactive hover:bg-piccolo/[.12] hover:text-piccolo"
   >
     Active
   </button>,
@@ -1123,12 +1123,12 @@ exports[`Chip in RTL renders Active 1`] = `
   dir="rtl"
 >
   <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-8 gap-1 py-1 px-2 bg-gohan bg-piccolo/[.12] text-piccolo hover:bg-piccolo/[.12] hover:text-piccolo"
+    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-8 gap-1 py-1 px-2 bg-piccolo/[.12] text-piccolo hover:bg-piccolo/[.12] hover:text-piccolo"
   >
     Active
   </button>
   <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan bg-piccolo/[.12] text-piccolo hover:shadow-interactive shadow-interactive hover:bg-piccolo/[.12] hover:text-piccolo"
+    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-piccolo/[.12] text-piccolo hover:shadow-interactive shadow-interactive hover:bg-piccolo/[.12] hover:text-piccolo"
   >
     Active
   </button>

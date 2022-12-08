@@ -1,6 +1,6 @@
 import React, { ReactNode, useCallback, useEffect, useReducer } from 'react';
 import { Dialog } from '@headlessui/react';
-import mergeClassnames from '../private/utils/mergeClassnames';
+import mergeClassnames from '../utils/mergeClassnames';
 import BottomSheetContext, { useBottomSheetContext } from './private/context';
 import stateReducer from './private/stateReducer';
 import useDrag from './private/useDrag';

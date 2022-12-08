@@ -1,5 +1,5 @@
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 import Image, { StaticImageData } from 'next/image';
-import classNames from '../utils/classNames';
 
 type Props = {
   title?: string;
@@ -11,9 +11,9 @@ type Props = {
 const PageSection: React.FC<Props> = ({ title, id, image, children }) => (
   <section className="flex flex-col lg:flex-row gap-6" id={id}>
     <div
-      className={classNames(
+      className={mergeClassnames(
         'flex flex-col w-full gap-6',
-        image && image ? 'basis-1/2' : ''
+        image && 'basis-1/2'
       )}
     >
       {title && <h2 className="text-moon-24 font-medium">{title}</h2>}

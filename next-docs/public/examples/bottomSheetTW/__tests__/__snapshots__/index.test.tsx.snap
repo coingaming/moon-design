@@ -327,17 +327,7 @@ Array [
           className="p-2"
         >
           <div
-            className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+            className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
             onScroll={[Function]}
             role="table"
             style={

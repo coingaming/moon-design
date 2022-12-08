@@ -115,7 +115,7 @@ exports[`Breadcrumb in Dark Theme renders collapsed 1`] = `
         />
       </svg>
       <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
       >
         <span>
           Current page
@@ -227,7 +227,7 @@ exports[`Breadcrumb in Dark Theme renders four items 1`] = `
         />
       </svg>
       <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
       >
         <span>
           Current page
@@ -249,7 +249,7 @@ exports[`Breadcrumb in Dark Theme renders one item 1`] = `
       className="flex items-center gap-2 text-trunks"
     >
       <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
       >
         <span>
           Current page
@@ -301,7 +301,7 @@ exports[`Breadcrumb in Dark Theme renders two items 1`] = `
         />
       </svg>
       <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
       >
         <span>
           Current page
@@ -427,7 +427,7 @@ exports[`Breadcrumb in Light Theme renders collapsed 1`] = `
         />
       </svg>
       <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
       >
         <span>
           Current page
@@ -539,7 +539,7 @@ exports[`Breadcrumb in Light Theme renders four items 1`] = `
         />
       </svg>
       <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
       >
         <span>
           Current page
@@ -561,7 +561,7 @@ exports[`Breadcrumb in Light Theme renders one item 1`] = `
       className="flex items-center gap-2 text-trunks"
     >
       <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
       >
         <span>
           Current page
@@ -613,7 +613,7 @@ exports[`Breadcrumb in Light Theme renders two items 1`] = `
         />
       </svg>
       <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
       >
         <span>
           Current page
@@ -742,7 +742,7 @@ exports[`Breadcrumb in RTL renders collapsed 1`] = `
           />
         </svg>
         <span
-          className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+          className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
         >
           <span>
             Current page
@@ -858,7 +858,7 @@ exports[`Breadcrumb in RTL renders four items 1`] = `
           />
         </svg>
         <span
-          className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+          className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
         >
           <span>
             Current page
@@ -884,7 +884,7 @@ exports[`Breadcrumb in RTL renders one item 1`] = `
         className="flex items-center gap-2 text-trunks"
       >
         <span
-          className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+          className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
         >
           <span>
             Current page
@@ -940,7 +940,7 @@ exports[`Breadcrumb in RTL renders two items 1`] = `
           />
         </svg>
         <span
-          className="text-trunks transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+          className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
         >
           <span>
             Current page

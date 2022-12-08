@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ArrowsRight, Other3DotsHorizontal } from '@heathmont/moon-icons-tw';
 import Button from '../../button/Button';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 import useClickOutside from './hooks/useClickOutside';
 import type BreadcrumbProps from './types/BreadcrumbProps';
 
@@ -67,7 +67,7 @@ const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
               >
                 <ArrowsRight className="rtl:rotate-180" />
                 <span
-                  className={classNames(
+                  className={mergeClassnames(
                     'text-trunks transition-colors duration-200 hover:text-bulma',
                     index === collapseBreadcrumbs.length - 1 &&
                       'text-bulma font-medium'

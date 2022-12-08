@@ -185,7 +185,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
               data-test="data-test"
               open={false}
             >
@@ -266,7 +266,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               data-test="data-test"
               open={false}
             >
@@ -347,7 +347,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
               data-test="data-test"
               open={false}
             >
@@ -421,7 +421,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
               data-test="data-test"
               open={false}
             >
@@ -516,7 +516,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
               open={false}
             >
               <span
@@ -592,7 +592,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
               open={false}
             >
               <span
@@ -665,7 +665,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               open={false}
             >
               <span
@@ -739,7 +739,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               open={false}
             >
               <span
@@ -1127,7 +1127,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
               data-test="data-test"
               open={false}
             >
@@ -1208,7 +1208,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               data-test="data-test"
               open={false}
             >
@@ -1289,7 +1289,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
               data-test="data-test"
               open={false}
             >
@@ -1363,7 +1363,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
               data-test="data-test"
               open={false}
             >
@@ -1458,7 +1458,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
               open={false}
             >
               <span
@@ -1534,7 +1534,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
               open={false}
             >
               <span
@@ -1607,7 +1607,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               open={false}
             >
               <span
@@ -1681,7 +1681,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               open={false}
             >
               <span
@@ -2080,7 +2080,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
               className="relative"
             >
               <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-8 py-1 p-3 rounded-moon-i-xs"
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
                 data-test="data-test"
                 open={false}
               >
@@ -2161,7 +2161,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
               className="relative"
             >
               <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 data-test="data-test"
                 open={false}
               >
@@ -2242,7 +2242,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
               className="relative"
             >
               <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
                 data-test="data-test"
                 open={false}
               >
@@ -2316,7 +2316,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
               className="relative"
             >
               <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
                 data-test="data-test"
                 open={false}
               >
@@ -2415,7 +2415,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
               className="relative"
             >
               <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
                 open={false}
               >
                 <span
@@ -2491,7 +2491,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
               className="relative"
             >
               <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm opacity-30 cursor-not-allowed hover:shadow-input"
                 open={false}
               >
                 <span
@@ -2564,7 +2564,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
               className="relative"
             >
               <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 open={false}
               >
                 <span
@@ -2638,7 +2638,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
               className="relative"
             >
               <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200  focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
                 open={false}
               >
                 <span

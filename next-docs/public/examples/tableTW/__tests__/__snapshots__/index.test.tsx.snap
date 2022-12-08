@@ -2,17 +2,7 @@
 
 exports[`Table in Dark Theme renders CellBorder 1`] = `
 <div
-  className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+  className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
   onScroll={[Function]}
   role="table"
   style={
@@ -829,17 +819,7 @@ exports[`Table in Dark Theme renders CellBorder 1`] = `
 
 exports[`Table in Dark Theme renders Default 1`] = `
 <div
-  className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+  className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
   onScroll={[Function]}
   role="table"
   style={
@@ -1657,17 +1637,7 @@ exports[`Table in Dark Theme renders Default 1`] = `
 exports[`Table in Dark Theme renders RowGaps 1`] = `
 Array [
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -2172,17 +2142,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -2687,17 +2647,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -3202,17 +3152,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -3717,17 +3657,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -4237,17 +4167,7 @@ Array [
 exports[`Table in Dark Theme renders RowSizes 1`] = `
 Array [
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -4752,17 +4672,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -5267,17 +5177,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -5782,17 +5682,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -6297,17 +6187,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -6812,17 +6692,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -7327,17 +7197,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -7846,17 +7706,7 @@ Array [
 
 exports[`Table in Light Theme renders CellBorder 1`] = `
 <div
-  className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+  className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
   onScroll={[Function]}
   role="table"
   style={
@@ -8673,17 +8523,7 @@ exports[`Table in Light Theme renders CellBorder 1`] = `
 
 exports[`Table in Light Theme renders Default 1`] = `
 <div
-  className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+  className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
   onScroll={[Function]}
   role="table"
   style={
@@ -9501,17 +9341,7 @@ exports[`Table in Light Theme renders Default 1`] = `
 exports[`Table in Light Theme renders RowGaps 1`] = `
 Array [
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -10016,17 +9846,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -10531,17 +10351,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -11046,17 +10856,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -11561,17 +11361,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -12081,17 +11871,7 @@ Array [
 exports[`Table in Light Theme renders RowSizes 1`] = `
 Array [
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -12596,17 +12376,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -13111,17 +12881,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -13626,17 +13386,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -14141,17 +13891,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -14656,17 +14396,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -15171,17 +14901,7 @@ Array [
     </div>
   </div>,
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -15693,17 +15413,7 @@ exports[`Table in RTL mode renders CellBorder 1`] = `
   dir="rtl"
 >
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -16524,17 +16234,7 @@ exports[`Table in RTL mode renders Default 1`] = `
   dir="rtl"
 >
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -17355,17 +17055,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
   dir="rtl"
 >
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -17870,17 +17560,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
     </div>
   </div>
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -18385,17 +18065,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
     </div>
   </div>
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -18900,17 +18570,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
     </div>
   </div>
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -19415,17 +19075,7 @@ exports[`Table in RTL mode renders RowGaps 1`] = `
     </div>
   </div>
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -19937,17 +19587,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
   dir="rtl"
 >
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -20452,17 +20092,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
     </div>
   </div>
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -20967,17 +20597,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
     </div>
   </div>
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -21482,17 +21102,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
     </div>
   </div>
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -21997,17 +21607,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
     </div>
   </div>
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -22512,17 +22112,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
     </div>
   </div>
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={
@@ -23027,17 +22617,7 @@ exports[`Table in RTL mode renders RowSizes 1`] = `
     </div>
   </div>
   <div
-    className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+    className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
     onScroll={[Function]}
     role="table"
     style={

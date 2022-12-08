@@ -1,5 +1,5 @@
 import React, { forwardRef, ReactNode } from 'react';
-import classNames from '../private/utils/classnames';
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 
 type BodyTRProps = {
   reactTableProps?: any;
@@ -42,14 +42,11 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
     return (
       <div
         {...reactTableProps}
-        className={classNames(
+        className={mergeClassnames(
           'relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors',
-          withOffset && '',
-          hasParent && '',
-          isExpanded ? 'first:rounded-bl-0 last:rounded-br-0' : '',
-          isLastRow
-            ? 'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0'
-            : '',
+          isExpanded && 'first:rounded-bl-0 last:rounded-br-0',
+          isLastRow &&
+            'first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0',
           isSelected
             ? 'text-bulma bg-bulma/[.04]'
             : fontColor
@@ -60,9 +57,8 @@ const BodyTR = forwardRef<HTMLDivElement, BodyTRProps>(
             : customBackground
             ? `bg-${backgroundColor} border-${backgroundColor}`
             : 'bg-gohan',
-          selectable
-            ? 'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent bg-bulma/[.04]'
-            : ''
+          selectable &&
+            'pl-2 text-bulma border-t-1 border-t-transparent border-b-1 border-b-transparent bg-bulma/[.04]'
         )}
         onMouseEnter={onHoverToggle ? () => onHoverToggle(true) : null}
         onMouseLeave={onHoverToggle ? () => onHoverToggle(false) : null}

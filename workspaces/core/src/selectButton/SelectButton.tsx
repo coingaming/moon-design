@@ -6,7 +6,7 @@ import {
   ControlsChevronUp,
   ControlsChevronUpSmall,
 } from '@heathmont/moon-icons-tw';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../utils/mergeClassnames';
 
 type SelectButtonState = {
   open?: boolean;
@@ -85,7 +85,7 @@ const Input: React.FC = ({ children }) => {
   return (
     <button
       {...rest}
-      className={classNames(
+      className={mergeClassnames(
         'flex items-center justify-between',
         'w-full bg-gohan border-beerus',
         'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
@@ -108,7 +108,7 @@ const Value: React.FC = ({ children }) => {
   const { size } = useSelectButtonContext('SelectButton.Value');
   return (
     <span
-      className={classNames(
+      className={mergeClassnames(
         size === 'sm' ? 'text-moon-14' : 'text-moon-16',
         'text-bulma'
       )}
@@ -128,7 +128,7 @@ const Label: React.FC<LabelProps> = ({ children, labelSize, idDisabled }) => {
   const currentSize = labelSize || size;
   return (
     <Listbox.Label
-      className={classNames(
+      className={mergeClassnames(
         'block text-bulma pb-2',
         currentSize === 'sm' ? 'text-moon-14' : 'text-moon-16',
         idDisabled && 'opacity-30 cursor-not-allowed'
@@ -151,7 +151,7 @@ const Placeholder: React.FC = ({ children }) => {
   const { size } = useSelectButtonContext('SelectButton.Placeholder');
   return (
     <span
-      className={classNames(
+      className={mergeClassnames(
         size === 'sm' ? 'text-moon-14' : 'text-moon-16',
         'text-trunks'
       )}

@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../utils/mergeClassnames';
 import type Props from './private/types/Props';
 
 const RadioButton = forwardRef<HTMLInputElement, Props>(
@@ -19,7 +19,7 @@ const RadioButton = forwardRef<HTMLInputElement, Props>(
     <span className="flex">
       <label
         htmlFor={id}
-        className={classNames(
+        className={mergeClassnames(
           'flex flex-row flex-start items-center cursor-pointer group',
           disabled && 'opacity-30 cursor-not-allowed select-none',
           readOnly && 'cursor-not-allowed select-none'
@@ -35,10 +35,7 @@ const RadioButton = forwardRef<HTMLInputElement, Props>(
             checked={checked}
             aria-label={ariaLabel}
             {...inputProps}
-            className={classNames(
-              'block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer',
-              'shadow-trunks checked:shadow-piccolo'
-            )}
+            className="block appearance-none h-4 w-4  rounded-full cursor-pointer focus:outline-none shadow-[0_0_0_1px_inset] peer shadow-trunks checked:shadow-piccolo"
             onClick={(e) => {
               if (disabled || readOnly) {
                 e.preventDefault();
@@ -51,7 +48,7 @@ const RadioButton = forwardRef<HTMLInputElement, Props>(
           />
           <span className="h-2 w-2 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] bg-piccolo scale-0 transition-transform peer-checked:scale-100" />
           <span
-            className={classNames(
+            className={mergeClassnames(
               'w-6 h-6 rounded-full absolute top-1/2 left-1/2 translate-x-[-50%] translate-y-[-50%] transition-colors',
               !disabled &&
                 !readOnly &&

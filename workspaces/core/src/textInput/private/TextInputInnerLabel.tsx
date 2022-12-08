@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
@@ -43,9 +43,9 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
     return (
       <Container disabled={disabled} inputSize={inputSize}>
         <div
-          className={classNames(
-            'w-full max-w-full relative ',
-            !bgColor ? 'bg-transparent' : bgColor,
+          className={mergeClassnames(
+            'w-full max-w-full relative',
+            bgColor ? bgColor : 'bg-transparent',
             getBorderRadius(inputSize)
           )}
         >
@@ -58,12 +58,7 @@ const TextInputInnerLabel = forwardRef<HTMLInputElement, TextInputProps>(
             isRtl={dir === 'rtl'}
             {...inputProps}
           />
-          <label
-            className={classNames(
-              'absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200',
-              dir === 'rtl' ? 'right-4' : 'left-4'
-            )}
-          >
+          <label className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4">
             {label}
           </label>
         </div>

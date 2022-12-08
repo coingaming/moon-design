@@ -1,6 +1,6 @@
 import React, { createContext, useContext, ElementType } from 'react';
 import { Tab as HeadlesssTab } from '@headlessui/react';
-import mergeClassnames from '../private/utils/mergeClassnames';
+import mergeClassnames from '../utils/mergeClassnames';
 
 type TabsState = {
   size?: 'sm' | 'md';

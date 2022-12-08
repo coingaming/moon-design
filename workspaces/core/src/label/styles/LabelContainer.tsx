@@ -1,5 +1,5 @@
 import React from 'react';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 import setFontSize from '../private/utils/setFontSize';
 import setHeight from '../private/utils/setHeight';
 import setSpacing from '../private/utils/setSpacing';
@@ -15,7 +15,7 @@ const LabelContainer: React.FC<LabelProps> = ({
   children,
 }) => (
   <div
-    className={classNames(
+    className={mergeClassnames(
       'flex items-center rounded-moon-i-xs gap-1 select-none',
       setSpacing({ size, iconRight, iconLeft }),
       setFontSize({ isUppercase, size }),

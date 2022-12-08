@@ -1,6 +1,6 @@
 import React, { ReactNode, forwardRef } from 'react';
 import { Dialog } from '@headlessui/react';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../utils/mergeClassnames';
 
 type WithChildren<T = {}> = T & { children?: ReactNode };
 
@@ -27,7 +27,7 @@ const Panel: React.FC<WithChildren<PanelProps>> = ({ children, className }) => {
     <div className="fixed inset-0 overflow-y-auto">
       <div className="flex min-h-full items-center justify-center p-4">
         <Dialog.Panel
-          className={classNames(
+          className={mergeClassnames(
             'w-full max-w-sm inline-block transform rounded-xl bg-gohan align-middle shadow-moon-lg transition-all',
             className
           )}
@@ -45,7 +45,9 @@ type BackdropProps = {
 
 const Backdrop: React.FC<BackdropProps> = ({ className }) => {
   return (
-    <div className={classNames('fixed inset-0 bg-black/[0.56]', className)} />
+    <div
+      className={mergeClassnames('fixed inset-0 bg-black/[0.56]', className)}
+    />
   );
 };
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 import getBorderRadius from './utils/getBorderRadius';
 
 const Container: React.FC<{ disabled?: boolean; inputSize?: string }> = ({
@@ -8,7 +8,7 @@ const Container: React.FC<{ disabled?: boolean; inputSize?: string }> = ({
   inputSize,
 }) => (
   <div
-    className={classNames(
+    className={mergeClassnames(
       'w-full max-w-full relative z-0',
       disabled && 'opacity-30 cursor-not-allowed',
       getBorderRadius(inputSize)

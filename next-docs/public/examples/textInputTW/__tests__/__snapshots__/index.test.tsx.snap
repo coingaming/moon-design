@@ -28,7 +28,7 @@ exports[`TextInput in Dark Theme renders Bg 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-beerus rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-beerus rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -36,7 +36,7 @@ exports[`TextInput in Dark Theme renders Bg 1`] = `
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -92,7 +92,7 @@ exports[`TextInput in Dark Theme renders Disabled 1`] = `
     className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -101,7 +101,7 @@ exports[`TextInput in Dark Theme renders Disabled 1`] = `
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -129,7 +129,7 @@ exports[`TextInput in Dark Theme renders Error 1`] = `
       Medium (md)
     </label>
     <input
-      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
       placeholder="Placeholder"
       type="text"
     />
@@ -144,15 +144,15 @@ exports[`TextInput in Dark Theme renders Error 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
-        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
         placeholder="Placeholder"
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -195,7 +195,7 @@ exports[`TextInput in Dark Theme renders Hint 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -203,7 +203,7 @@ exports[`TextInput in Dark Theme renders Hint 1`] = `
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -248,7 +248,7 @@ exports[`TextInput in Dark Theme renders Readonly 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -258,7 +258,7 @@ exports[`TextInput in Dark Theme renders Readonly 1`] = `
         value="Read only text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -323,7 +323,7 @@ exports[`TextInput in Dark Theme renders Sizes 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -331,7 +331,7 @@ exports[`TextInput in Dark Theme renders Sizes 1`] = `
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -436,7 +436,7 @@ Array [
           type="password"
         />
         <div
-          className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer right-4"
+          className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer rtl:left-4 ltr:right-4"
           onClick={[Function]}
           role="alert"
         >
@@ -511,7 +511,7 @@ exports[`TextInput in Dark Theme renders WithoutLabel 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -519,7 +519,7 @@ exports[`TextInput in Dark Theme renders WithoutLabel 1`] = `
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       />
     </div>
   </div>
@@ -554,7 +554,7 @@ exports[`TextInput in Light Theme renders Bg 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-beerus rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-beerus rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -562,7 +562,7 @@ exports[`TextInput in Light Theme renders Bg 1`] = `
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -618,7 +618,7 @@ exports[`TextInput in Light Theme renders Disabled 1`] = `
     className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -627,7 +627,7 @@ exports[`TextInput in Light Theme renders Disabled 1`] = `
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -655,7 +655,7 @@ exports[`TextInput in Light Theme renders Error 1`] = `
       Medium (md)
     </label>
     <input
-      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
       placeholder="Placeholder"
       type="text"
     />
@@ -670,15 +670,15 @@ exports[`TextInput in Light Theme renders Error 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
-        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
         placeholder="Placeholder"
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -721,7 +721,7 @@ exports[`TextInput in Light Theme renders Hint 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -729,7 +729,7 @@ exports[`TextInput in Light Theme renders Hint 1`] = `
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -774,7 +774,7 @@ exports[`TextInput in Light Theme renders Readonly 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -784,7 +784,7 @@ exports[`TextInput in Light Theme renders Readonly 1`] = `
         value="Read only text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -849,7 +849,7 @@ exports[`TextInput in Light Theme renders Sizes 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -857,7 +857,7 @@ exports[`TextInput in Light Theme renders Sizes 1`] = `
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       >
         Xlarge (xl)
       </label>
@@ -962,7 +962,7 @@ Array [
           type="password"
         />
         <div
-          className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer right-4"
+          className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer rtl:left-4 ltr:right-4"
           onClick={[Function]}
           role="alert"
         >
@@ -1037,7 +1037,7 @@ exports[`TextInput in Light Theme renders WithoutLabel 1`] = `
     className="w-full max-w-full relative z-0 rounded-moon-i-sm"
   >
     <div
-      className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+      className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -1045,7 +1045,7 @@ exports[`TextInput in Light Theme renders WithoutLabel 1`] = `
         type="text"
       />
       <label
-        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
       />
     </div>
   </div>
@@ -1083,7 +1083,7 @@ exports[`TextInput in RTL renders Bg 1`] = `
       className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="w-full max-w-full relative  bg-beerus rounded-moon-i-sm"
+        className="w-full max-w-full relative bg-beerus rounded-moon-i-sm"
       >
         <input
           className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -1091,7 +1091,7 @@ exports[`TextInput in RTL renders Bg 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
         >
           Xlarge (xl)
         </label>
@@ -1155,7 +1155,7 @@ exports[`TextInput in RTL renders Disabled 1`] = `
       className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
     >
       <div
-        className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
       >
         <input
           className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -1164,7 +1164,7 @@ exports[`TextInput in RTL renders Disabled 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
         >
           Xlarge (xl)
         </label>
@@ -1196,7 +1196,7 @@ exports[`TextInput in RTL renders Error 1`] = `
         Medium (md)
       </label>
       <input
-        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
         placeholder="Placeholder"
         type="text"
       />
@@ -1211,15 +1211,15 @@ exports[`TextInput in RTL renders Error 1`] = `
       className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
       >
         <input
-          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
           placeholder="Placeholder"
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
         >
           Xlarge (xl)
         </label>
@@ -1266,7 +1266,7 @@ exports[`TextInput in RTL renders Hint 1`] = `
       className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
       >
         <input
           className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -1274,7 +1274,7 @@ exports[`TextInput in RTL renders Hint 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
         >
           Xlarge (xl)
         </label>
@@ -1323,7 +1323,7 @@ exports[`TextInput in RTL renders Readonly 1`] = `
       className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
       >
         <input
           className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -1333,7 +1333,7 @@ exports[`TextInput in RTL renders Readonly 1`] = `
           value="Read only text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
         >
           Xlarge (xl)
         </label>
@@ -1402,7 +1402,7 @@ exports[`TextInput in RTL renders Sizes 1`] = `
       className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
       >
         <input
           className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -1410,7 +1410,7 @@ exports[`TextInput in RTL renders Sizes 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
         >
           Xlarge (xl)
         </label>
@@ -1518,7 +1518,7 @@ exports[`TextInput in RTL renders Types 1`] = `
           type="password"
         />
         <div
-          className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer right-4"
+          className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer rtl:left-4 ltr:right-4"
           onClick={[Function]}
           role="alert"
         >
@@ -1596,7 +1596,7 @@ exports[`TextInput in RTL renders WithoutLabel 1`] = `
       className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="w-full max-w-full relative  bg-gohan rounded-moon-i-sm"
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
       >
         <input
           className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -1604,7 +1604,7 @@ exports[`TextInput in RTL renders WithoutLabel 1`] = `
           type="text"
         />
         <label
-          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 left-4"
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
         />
       </div>
     </div>

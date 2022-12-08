@@ -1,5 +1,5 @@
 import React from 'react';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 import setBorderRadius from '../private/utils/setBorderRadius';
 import setWrapperSize from '../private/utils/setWrapperSize';
 import type AvatarProps from '../private/types/AvatarProps';
@@ -13,7 +13,7 @@ const Wrapper: React.FC<AvatarProps> = ({
   isRounded,
 }) => (
   <div
-    className={classNames(
+    className={mergeClassnames(
       'overflow-hidden uppercase font-medium flex items-center justify-center bg-cover',
       color && color,
       bgColor && bgColor,

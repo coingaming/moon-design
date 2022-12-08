@@ -1,6 +1,6 @@
 import React from 'react';
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 import Image, { StaticImageData } from 'next/image';
-import classNames from '../../utils/classNames';
 
 type Props = {
   variant?: 'default' | 'tiny' | 'tall';
@@ -23,7 +23,7 @@ const CardContributor: React.FC<Props> = ({
 }) => (
   <div className="flex flex-col">
     <div
-      className={classNames(
+      className={mergeClassnames(
         'relative w-72 h-96',
         variant && variant in variants ? variants[variant] : variants.default
       )}

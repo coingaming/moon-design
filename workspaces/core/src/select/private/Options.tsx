@@ -1,6 +1,6 @@
 import React from 'react';
 import { Listbox } from '@headlessui/react';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 
 export type BaseOptionType = {
   id: number;
@@ -14,7 +14,7 @@ const Options: React.FC<{
   menuWidth?: string;
 }> = ({ options, formatOptionLabel, menuWidth }) => (
   <Listbox.Options
-    className={classNames(
+    className={mergeClassnames(
       menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
       'max-h-[18.75rem] z-1 py-2 px-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
       'focus:outline-none'
