@@ -16,9 +16,13 @@ const Example = () => {
     <>
       <ComponentPageDescription title="RadioButton" isInProgress>
         <p>
-          Radio buttons are used to represent a group or category of choices
-          whereby users can only select one option - the main difference from
-          checkboxes that allow users to select multiple options.
+          Radio buttons are used to represent a group of choices whereby users
+          can only select one option.
+        </p>
+        <p>
+          The main difference between the radio button and the checkbox is,
+          users are allowed to select single options whereas in the checkbox you
+          can have multiple options.
         </p>
       </ComponentPageDescription>
       <Preview

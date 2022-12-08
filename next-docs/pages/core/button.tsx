@@ -18,12 +18,19 @@ const Example = () => {
     <>
       <ComponentPageDescription title="Button" isInProgress isRtlSupport>
         <p>
-          Buttons are calls-to-action used to prompt users. They encourage users
-          to interact with us in multiple ways throughout our galaxy, based on
-          what the label of the button indicates. Buttons are clickable elements
-          with label text that describe the action that will happen when the
-          users interact with it.
+          Buttons allow users to take actions, and make choices, with a single
+          tap.
         </p>
+        <p>
+          Buttons communicate actions that users can take. They are typically
+          placed throughout your UI, in places like:
+        </p>
+        <ul className="list-disc ps-5">
+          <li>Modal windows</li>
+          <li>Forms</li>
+          <li>Cards</li>
+          <li>Toolbars</li>
+        </ul>
       </ComponentPageDescription>
       <Preview
         title="Default"
@@ -104,29 +111,15 @@ const Example = () => {
             description: 'Full width button',
           },
           {
-            name: 'icon',
-            type: 'left | right | only',
-            required: false,
-            default: '-',
-            description: 'Button sizing based on icon',
-          },
-          {
             name: 'iconLeft',
-            type: 'JSX.Element | boolean',
+            type: 'JSX.Element',
             required: false,
             default: '-',
             description: 'Left icon',
           },
           {
-            name: 'iconOnly',
-            type: 'JSX.Element | boolean',
-            required: false,
-            default: '-',
-            description: 'Icon without text',
-          },
-          {
             name: 'iconRight',
-            type: 'JSX.Element | boolean',
+            type: 'JSX.Element',
             required: false,
             default: '-',
             description: 'Right icon',

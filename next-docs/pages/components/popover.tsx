@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import CodeSnippet from '../../components/CodeSnippet';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/popover/Default';
 import useExamples from '../../utils/useExamples';
@@ -11,7 +12,7 @@ const PagePopover = () => {
   return (
     <>
       <ComponentPageDescription title="Popover">
-        <p>Popover</p>
+        <DeprecationWarning href="/core/popover" name="Popover" />
       </ComponentPageDescription>
       <Preview
         title="Default"

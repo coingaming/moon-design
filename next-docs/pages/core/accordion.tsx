@@ -23,14 +23,10 @@ const Example = () => {
         isAriaSupport
       >
         <p>
-          Like the accordion instrument, our accordion component reveals or
-          hides associated sections of content. This is done through the use of
-          a vertically stacked list of headers.
-        </p>
-        <p>
-          Users can decide which sections to toggle, read and close as the
-          header titles will give them a high-level overview of the content
-          that's in the space.
+          An accordion is a vertical stack of interactive headings used to
+          toggle the display of further information; each item can be
+          'collapsed' with just a short label visible or 'expanded' to show the
+          full content.
         </p>
       </ComponentPageDescription>
       <Preview

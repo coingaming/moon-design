@@ -3,11 +3,7 @@ import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import Loader from '../../../loader/Loader';
 import type { ButtonSettingsProps } from '../types/ButtonProps';
 
-type AnimationContentProps = {
-  children?: React.ReactNode;
-} & ButtonSettingsProps;
-
-const AnimationContent: React.FC<AnimationContentProps> = ({
+const AnimationContent: React.FC<ButtonSettingsProps> = ({
   children,
   iconLeft,
   iconRight,

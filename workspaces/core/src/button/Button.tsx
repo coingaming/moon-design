@@ -14,10 +14,10 @@ const Button = <C extends React.ElementType = 'button'>({
   children,
   variant = 'primary',
   size = 'md',
-  icon,
-  iconLeft,
-  iconRight,
-  iconOnly,
+  icon, // obsolete prop
+  iconLeft, // not boolean anymore
+  iconRight, // not boolean anymore
+  iconOnly, // obsolete prop
   fullWidth,
   disabled,
   animation,

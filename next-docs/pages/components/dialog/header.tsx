@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Example1 from '../../../public/examples/dialog/header/Example1';
 import Example2 from '../../../public/examples/dialog/header/Example2';
@@ -14,13 +15,7 @@ export default function PageDialogHeader() {
   return (
     <>
       <ComponentPageDescription title="Dialog Header">
-        <p>Header module variants to be used in Modal dialogs and popovers.</p>
-        <p>
-          <p className="font-medium">About RTL and icon mirroring</p>
-          The icons are slots passed to the component. It is the developer's
-          responsibility to pass a mirrored icon for RTL views, (ie, pass left
-          or right arrows depending on the direction).
-        </p>
+        <DeprecationWarning href="/core/modal" name="Modal" />
       </ComponentPageDescription>
       <Preview
         title=""

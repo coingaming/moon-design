@@ -15,7 +15,13 @@ const navigation = [
       { name: 'Avatar', href: '/core/avatar' },
       { name: 'BottomSheet', href: '/core/bottomSheet' },
       { name: 'Breadcrumb', href: '/core/breadcrumb' },
-      { name: 'Button', href: '/core/button' },
+      {
+        name: 'Button',
+        children: [
+          { name: 'Button', href: '/core/button' },
+          { name: 'IconButton', href: '/core/iconButton' },
+        ],
+      },
       { name: 'Checkbox', href: '/core/checkbox' },
       { name: 'Chip', href: '/core/chip' },
       { name: 'Dropdown', href: '/core/dropdown' },

@@ -22,6 +22,8 @@ export { default as CircularProgress } from './circularProgress/CircularProgress
 export * from './circularProgress/CircularProgress';
 export { default as Dropdown } from './dropdown/Dropdown';
 export * from './dropdown/Dropdown';
+export { default as IconButton } from './iconButton/IconButton';
+export * from './iconButton/IconButton';
 export { default as Label } from './label/Label';
 export * from './label/Label';
 export { default as Loader } from './loader/Loader';

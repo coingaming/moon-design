@@ -14,7 +14,7 @@ import Default from '../Default';
 import StyledContent from '../StyledContent';
 import WithSelect from '../WithSelect';
 
-const renderWithTheme = (component: JSX.Element) => (
+const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
@@ -22,29 +22,67 @@ const renderWithDarkTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
 );
 
-describe('Modal', () => {
-  it('renders default', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Default />));
+const renderWithRtl = (component: JSX.Element) => (
+  <div dir="rtl">{component}</div>
+);
+
+describe('Modal in Light Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders BigContent', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<BigContent />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders StyledContent', () => {
+    const testRenderer = renderer.create(
+      renderWithLightTheme(<StyledContent />)
+    );
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders WithSelect', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<WithSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
 
-  it('renders default dark', () => {
+describe('Modal in Dark Theme', () => {
+  it('renders Default', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders with a lot of content', () => {
-    const testRenderer = renderer.create(renderWithTheme(<BigContent />));
+  it('renders BigContent', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<BigContent />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders with styled content', () => {
-    const testRenderer = renderer.create(renderWithTheme(<StyledContent />));
+  it('renders StyledContent', () => {
+    const testRenderer = renderer.create(
+      renderWithDarkTheme(<StyledContent />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders WithSelect', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<WithSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
 
-  it('renders with selects', () => {
-    const testRenderer = renderer.create(renderWithTheme(<WithSelect />));
+describe('Modal in RTL', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders BigContent', () => {
+    const testRenderer = renderer.create(renderWithRtl(<BigContent />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders StyledContent', () => {
+    const testRenderer = renderer.create(renderWithRtl(<StyledContent />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders WithSelect', () => {
+    const testRenderer = renderer.create(renderWithRtl(<WithSelect />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

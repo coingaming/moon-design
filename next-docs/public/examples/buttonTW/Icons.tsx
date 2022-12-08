@@ -6,20 +6,8 @@ const Example = () => (
     <Button iconLeft={<GenericSettings className="text-moon-24" />}>
       IconLeft
     </Button>
-    <Button iconLeft>
-      <GenericSettings className="text-moon-24" />
-      IconLeft
-    </Button>
     <Button iconRight={<GenericSettings className="text-moon-24" />}>
       IconRight
-    </Button>
-    <Button iconRight>
-      IconRight
-      <GenericSettings className="text-moon-24" />
-    </Button>
-    <Button iconOnly={<GenericSettings className="text-moon-24" />} />
-    <Button iconOnly>
-      <GenericSettings className="text-moon-24" />
     </Button>
   </>
 );

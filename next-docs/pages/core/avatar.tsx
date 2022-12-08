@@ -16,10 +16,8 @@ const Example = () => {
     <>
       <ComponentPageDescription title="Avatar" isInProgress isRtlSupport>
         <p>
-          Avatars are used to represent an individual, a business, or a
-          celestial being when they interact with any Coingaming brand. While
-          they usually consist of an image, avatars are adaptable - letters or
-          object icons may sometimes be used as fallbacks.
+          The Avatar component is typically used to display images, icons, or
+          initials representing people or other entities.
         </p>
       </ComponentPageDescription>
       <Preview
