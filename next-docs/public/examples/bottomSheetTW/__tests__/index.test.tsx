@@ -14,12 +14,16 @@ import LargeWithOptionalExtras from '../LargeWithOptionalExtras';
 import Default from '../Default';
 import CustomHeight from '../CustomHeight';
 
-const renderWithTheme = (component: JSX.Element) => (
+const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
 const renderWithDarkTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
+);
+
+const renderWithRtl = (component: JSX.Element) => (
+  <div dir="rtl">{component}</div>
 );
 
 type BottomSheetPortal = (
@@ -28,33 +32,72 @@ type BottomSheetPortal = (
   key?: string | null | undefined
 ) => React.ReactPortal;
 
-describe('BottomSheet', () => {
+describe('BottomSheet in Light Theme', () => {
   beforeAll(() => {
     ReactDOM.createPortal = jest.fn((element) => element) as BottomSheetPortal;
   });
-
-  it('renders default', async () => {
-    const testRenderer = renderer.create(renderWithTheme(<Default />));
+  it('renders Default', async () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
     testRenderer.root.findAllByType('button')[0].props.onClick();
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders default dark', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    testRenderer.root.findAllByType('button')[0].props.onClick();
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders with a form and drag handle and shadow and backdrop', () => {
+  it('renders LargeWithOptionalExtras', () => {
     const testRenderer = renderer.create(
-      renderWithTheme(<LargeWithOptionalExtras />)
+      renderWithLightTheme(<LargeWithOptionalExtras />)
     );
     testRenderer.root.findAllByType('button')[0].props.onClick();
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders CustomHeight', () => {
+    const testRenderer = renderer.create(
+      renderWithLightTheme(<CustomHeight />)
+    );
+    testRenderer.root.findAllByType('button')[0].props.onClick();
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
 
-  it('renders with custom height & table', () => {
-    const testRenderer = renderer.create(renderWithTheme(<CustomHeight />));
+describe('BottomSheet in Dark Theme', () => {
+  beforeAll(() => {
+    ReactDOM.createPortal = jest.fn((element) => element) as BottomSheetPortal;
+  });
+  it('renders Default', async () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
+    testRenderer.root.findAllByType('button')[0].props.onClick();
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders LargeWithOptionalExtras', () => {
+    const testRenderer = renderer.create(
+      renderWithDarkTheme(<LargeWithOptionalExtras />)
+    );
+    testRenderer.root.findAllByType('button')[0].props.onClick();
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders CustomHeight', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<CustomHeight />));
+    testRenderer.root.findAllByType('button')[0].props.onClick();
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
+
+describe('BottomSheet in RTL', () => {
+  beforeAll(() => {
+    ReactDOM.createPortal = jest.fn((element) => element) as BottomSheetPortal;
+  });
+  it('renders Default', async () => {
+    const testRenderer = renderer.create(renderWithRtl(<Default />));
+    testRenderer.root.findAllByType('button')[0].props.onClick();
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders LargeWithOptionalExtras', () => {
+    const testRenderer = renderer.create(
+      renderWithRtl(<LargeWithOptionalExtras />)
+    );
+    testRenderer.root.findAllByType('button')[0].props.onClick();
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders CustomHeight', () => {
+    const testRenderer = renderer.create(renderWithRtl(<CustomHeight />));
     testRenderer.root.findAllByType('button')[0].props.onClick();
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });

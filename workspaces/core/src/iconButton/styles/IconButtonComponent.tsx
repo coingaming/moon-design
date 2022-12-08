@@ -2,7 +2,7 @@ import React from 'react';
 import errorAnimation from '../../button/private/buttonAnimations/errorAnimation';
 import buttonCommonStyles from '../../button/private/buttonStyles/buttonCommonStyles';
 import buttonVariants from '../../button/private/buttonStyles/buttonVariants';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 import buttonSizes from '../private/buttonSizes/buttonSizes';
 import type IconButtonProps from '../private/types/IconButtonProps';
 
@@ -19,7 +19,7 @@ const IconButtonComponent = <C extends React.ElementType>({
   const Component = as || 'button';
   return (
     <Component
-      className={classNames(
+      className={mergeClassnames(
         buttonSizes({ size }),
         buttonCommonStyles({ disabled }),
         buttonVariants({ variant }),
