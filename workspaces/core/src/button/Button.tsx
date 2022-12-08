@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../utils/mergeClassnames';
 import AnimationContent from './private/buttonAnimations/AnimationContent';
 import ButtonComponent from './styles/ButtonComponent';
 import type ButtonProps from './private/types/ButtonProps';
@@ -14,10 +14,10 @@ const Button = <C extends React.ElementType = 'button'>({
   children,
   variant = 'primary',
   size = 'md',
-  icon,
-  iconLeft,
-  iconRight,
-  iconOnly,
+  icon, // obsolete prop
+  iconLeft, // not boolean anymore
+  iconRight, // not boolean anymore
+  iconOnly, // obsolete prop
   fullWidth,
   disabled,
   animation,
@@ -62,7 +62,7 @@ const Button = <C extends React.ElementType = 'button'>({
         </>
       )}
       <span
-        className={classNames(
+        className={mergeClassnames(
           'z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]',
           isHover && 'bg-bulma/[.07]'
         )}

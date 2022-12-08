@@ -4,7 +4,7 @@ import React, {
   useState,
   MutableRefObject,
 } from 'react';
-import classNames from '../private/utils/classnames';
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 
 type Props = {
   numberOfColumns: number;
@@ -66,7 +66,7 @@ const Minimap: React.FC<Props> = ({ tableRef, footerRef, numberOfColumns }) => {
 
   return (
     <div
-      className={classNames(
+      className={mergeClassnames(
         'absolute bottom-4 shadow-md ltr:right-10 rtl:left-10 w-auto h-14 z-1 bg-gohan rounded-moon-s-sm p-1 pointer-events-none transition-opacity',
         visible ? 'opacity-1' : 'opacity-0'
       )}

@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
@@ -54,8 +54,8 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
       return (
         <Container disabled={disabled}>
           <div
-            className={classNames(
-              'w-full max-w-full relative ',
+            className={mergeClassnames(
+              'w-full max-w-full relative',
               getBorderRadius(inputSize),
               bgColor && bgColor
             )}
@@ -70,18 +70,10 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
               isPassword
               {...inputProps}
             />
-            <label
-              className={classNames(
-                'absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all',
-                dir === 'rtl' ? 'right-4' : 'left-4'
-              )}
-            >
+            <label className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all rtl:right-4 ltr:left-4">
               {label}
             </label>
-            <ShowPassword
-              onClick={togglePasswordVisiblity}
-              isRtl={dir === 'rtl'}
-            >
+            <ShowPassword onClick={togglePasswordVisiblity}>
               {showPasswordText}
             </ShowPassword>
           </div>
@@ -95,7 +87,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
           <label
             dir={dir}
             htmlFor={id}
-            className={classNames(
+            className={mergeClassnames(
               'block text-bulma pb-2',
               getLabelSize(inputSize)
             )}
@@ -104,7 +96,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
           </label>
         )}
         <div
-          className={classNames(
+          className={mergeClassnames(
             'w-full max-w-full relative',
             getBorderRadius(inputSize)
           )}
@@ -119,7 +111,7 @@ const TextInputPassword = forwardRef<HTMLInputElement, TextInputProps>(
             isPassword
             {...inputProps}
           />
-          <ShowPassword onClick={togglePasswordVisiblity} isRtl={dir === 'rtl'}>
+          <ShowPassword onClick={togglePasswordVisiblity}>
             {showPasswordText}
           </ShowPassword>
         </div>

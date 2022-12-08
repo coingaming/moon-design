@@ -1,276 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`BottomSheet renders default 1`] = `
-Array [
-  <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    type="button"
-  >
-    My mind is ready
-    <span
-      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-    />
-  </button>,
-  <div
-    aria-labelledby={null}
-    aria-modal={true}
-    className="relative z-10"
-    id="headlessui-dialog-:r0:"
-    onClick={[Function]}
-    role="dialog"
-  >
-    <div
-      className="fixed inset-0"
-    >
-      <div
-        className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[64%] overflow-y-auto duration-200 transition-all"
-        id="headlessui-dialog-panel-:r1:"
-      >
-        <div
-          className="p-4 border-b-2 border-beerus"
-        >
-          <h3
-            className="text-moon-18 text-bulma font-semibold"
-            id="headlessui-dialog-title-:r2:"
-          >
-            Do you wear skinny jeans?
-          </h3>
-        </div>
-        <p
-          className="p-4 text-trunks"
-        >
-          I'm baby vaporware flexitarian scenester lyft activated charcoal tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo lyft air plant edison bulb. Salvia next level pitchfork single-origin coffee adaptogen. Neutra tilde sartorial Brooklyn shaman schlitz. Roof party irony tattooed bicycle rights. Ethical you probably haven't heard of them literally bespoke PBR&B. Tattooed artisan twee, kinfolk kale chips taxidermy austin kitsch williamsburg tousled ugh.
-        </p>
-        <div
-          className="p-4"
-        >
-          <button
-            className="py-3 px-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            I'm honestly done
-            <span
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>,
-]
-`;
-
-exports[`BottomSheet renders default dark 1`] = `
-Array [
-  <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    type="button"
-  >
-    My mind is ready
-    <span
-      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-    />
-  </button>,
-  <div
-    aria-labelledby={null}
-    aria-modal={true}
-    className="relative z-10"
-    id="headlessui-dialog-:r3:"
-    onClick={[Function]}
-    role="dialog"
-  >
-    <div
-      className="fixed inset-0"
-    >
-      <div
-        className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[64%] overflow-y-auto duration-200 transition-all"
-        id="headlessui-dialog-panel-:r4:"
-      >
-        <div
-          className="p-4 border-b-2 border-beerus"
-        >
-          <h3
-            className="text-moon-18 text-bulma font-semibold"
-            id="headlessui-dialog-title-:r5:"
-          >
-            Do you wear skinny jeans?
-          </h3>
-        </div>
-        <p
-          className="p-4 text-trunks"
-        >
-          I'm baby vaporware flexitarian scenester lyft activated charcoal tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo lyft air plant edison bulb. Salvia next level pitchfork single-origin coffee adaptogen. Neutra tilde sartorial Brooklyn shaman schlitz. Roof party irony tattooed bicycle rights. Ethical you probably haven't heard of them literally bespoke PBR&B. Tattooed artisan twee, kinfolk kale chips taxidermy austin kitsch williamsburg tousled ugh.
-        </p>
-        <div
-          className="p-4"
-        >
-          <button
-            className="py-3 px-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            I'm honestly done
-            <span
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>,
-]
-`;
-
-exports[`BottomSheet renders with a form and drag handle and shadow and backdrop 1`] = `
-Array [
-  <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    type="button"
-  >
-    Show it to me!
-    <span
-      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-    />
-  </button>,
-  <div
-    aria-labelledby={null}
-    aria-modal={true}
-    className="relative z-10"
-    id="headlessui-dialog-:r6:"
-    onClick={[Function]}
-    role="dialog"
-  >
-    <div
-      className="fixed inset-0 bg-black/[0.56]"
-    />
-    <div
-      className="fixed inset-0"
-    >
-      <div
-        className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[88%] overflow-y-auto shadow-moon-lg duration-200 transition-all"
-        id="headlessui-dialog-panel-:r7:"
-      >
-        <div
-          className="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
-        >
-          <div
-            className="w-10 h-1 rounded bg-beerus"
-          />
-          <div
-            className="w-full"
-          >
-            <div
-              className="p-4 border-b-2 border-beerus"
-            >
-              <h3
-                className="text-moon-18 text-bulma font-semibold text-center"
-                id="headlessui-dialog-title-:r8:"
-              >
-                Forgot password?
-              </h3>
-            </div>
-          </div>
-        </div>
-        <p
-          className="p-2 text-trunks"
-        >
-          If you change your password, you will be unable to withdraw for 48 hours due to security reasons.
-        </p>
-        <div
-          className="p-2"
-        >
-          <div
-            className="w-full max-w-full relative z-0 rounded-moon-i-xs"
-          >
-            <label
-              className="block text-bulma pb-2 text-moon-16"
-            >
-              Username or email
-            </label>
-            <input
-              className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-              placeholder=""
-              type="email"
-            />
-          </div>
-        </div>
-        <div
-          className="p-2"
-        >
-          <button
-            className="py-3 px-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary w-full"
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Send
-            <span
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-          <div
-            className="p-2 mt-4 rounded-lg bg-goku"
-          >
-            <h3
-              className="p-2 text-lg font-medium leading-6 border-b-2 text-bulma border-beerus"
-            >
-              Need some help?
-            </h3>
-            <div
-              className="flex mt-2"
-            >
-              <svg
-                className="text-moon-48 text-bulma"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M13.822 15.753l-.272.42.272-.42zM6.5 11H6h.5zm11.678 4.753l-.272-.42.272.42zM23.5 23v-.5.5zm-15 0v.5-.5zm17-2h.5-.5zm-19 0H7h-.5zm17-12v.5V9zm-15 0v-.5.5zm5.594 6.334L6.772 10.58l-.544.838 7.322 4.753.544-.838zm4.356.838l7.322-4.753-.544-.838-7.322 4.753.544.838zm-4.9 0a4.5 4.5 0 004.9 0l-.544-.838a3.5 3.5 0 01-3.812 0l-.544.838zM23.5 22.5h-15v1h15v-1zM25 11v10h1V11h-1zM6 11v10h1V11H6zm17.5-2.5h-15v1h15v-1zM26 11a2.5 2.5 0 00-2.5-2.5v1A1.5 1.5 0 0125 11h1zM7 11a1.5 1.5 0 011.5-1.5v-1A2.5 2.5 0 006 11h1zm1.5 11.5A1.5 1.5 0 017 21H6a2.5 2.5 0 002.5 2.5v-1zm15 1A2.5 2.5 0 0026 21h-1a1.5 1.5 0 01-1.5 1.5v1z"
-                  fill="currentColor"
-                />
-              </svg>
-              <div
-                className="px-2"
-              >
-                <p
-                  className="font-semibold text-bulma"
-                >
-                  Email us
-                </p>
-                <p
-                  className="text-xs text-trunks"
-                >
-                  Contact us via email
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>,
-]
-`;
-
-exports[`BottomSheet renders with custom height & table 1`] = `
+exports[`BottomSheet in Dark Theme renders CustomHeight 1`] = `
 Array [
   <button
     className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
@@ -288,7 +18,7 @@ Array [
     aria-labelledby={null}
     aria-modal={true}
     className="relative z-10"
-    id="headlessui-dialog-:r9:"
+    id="headlessui-dialog-:rh:"
     onClick={[Function]}
     role="dialog"
   >
@@ -300,7 +30,7 @@ Array [
     >
       <div
         className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full overflow-y-auto shadow-moon-lg duration-200 transition-all h-[77%]"
-        id="headlessui-dialog-panel-:rb:"
+        id="headlessui-dialog-panel-:rj:"
       >
         <div
           className="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
@@ -316,7 +46,7 @@ Array [
             >
               <h3
                 className="text-moon-18 text-bulma font-semibold text-center"
-                id="headlessui-dialog-title-:rc:"
+                id="headlessui-dialog-title-:rk:"
               >
                 I am gonna show you some data whether you like it or not!
               </h3>
@@ -327,17 +57,7 @@ Array [
           className="p-2"
         >
           <div
-            className="
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      sticky
-      
-    "
+            className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
             onScroll={[Function]}
             role="table"
             style={
@@ -1171,4 +891,2408 @@ Array [
     </div>
   </div>,
 ]
+`;
+
+exports[`BottomSheet in Dark Theme renders Default 1`] = `
+Array [
+  <button
+    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    My mind is ready
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>,
+  <div
+    aria-labelledby={null}
+    aria-modal={true}
+    className="relative z-10"
+    id="headlessui-dialog-:ra:"
+    onClick={[Function]}
+    role="dialog"
+  >
+    <div
+      className="fixed inset-0"
+    >
+      <div
+        className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[64%] overflow-y-auto duration-200 transition-all"
+        id="headlessui-dialog-panel-:rc:"
+      >
+        <div
+          className="p-4 border-b-2 border-beerus"
+        >
+          <h3
+            className="text-moon-18 text-bulma font-semibold"
+            id="headlessui-dialog-title-:rd:"
+          >
+            Do you wear skinny jeans?
+          </h3>
+        </div>
+        <p
+          className="p-4 text-trunks"
+        >
+          I'm baby vaporware flexitarian scenester lyft activated charcoal tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo lyft air plant edison bulb. Salvia next level pitchfork single-origin coffee adaptogen. Neutra tilde sartorial Brooklyn shaman schlitz. Roof party irony tattooed bicycle rights. Ethical you probably haven't heard of them literally bespoke PBR&B. Tattooed artisan twee, kinfolk kale chips taxidermy austin kitsch williamsburg tousled ugh.
+        </p>
+        <div
+          className="p-4"
+        >
+          <button
+            className="py-3 px-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            I'm honestly done
+            <span
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`BottomSheet in Dark Theme renders LargeWithOptionalExtras 1`] = `
+Array [
+  <button
+    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    Show it to me!
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>,
+  <div
+    aria-labelledby={null}
+    aria-modal={true}
+    className="relative z-10"
+    id="headlessui-dialog-:re:"
+    onClick={[Function]}
+    role="dialog"
+  >
+    <div
+      className="fixed inset-0 bg-black/[0.56]"
+    />
+    <div
+      className="fixed inset-0"
+    >
+      <div
+        className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[88%] overflow-y-auto shadow-moon-lg duration-200 transition-all"
+        id="headlessui-dialog-panel-:rf:"
+      >
+        <div
+          className="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
+        >
+          <div
+            className="w-10 h-1 rounded bg-beerus"
+          />
+          <div
+            className="w-full"
+          >
+            <div
+              className="p-4 border-b-2 border-beerus"
+            >
+              <h3
+                className="text-moon-18 text-bulma font-semibold text-center"
+                id="headlessui-dialog-title-:rg:"
+              >
+                Forgot password?
+              </h3>
+            </div>
+          </div>
+        </div>
+        <p
+          className="p-2 text-trunks"
+        >
+          If you change your password, you will be unable to withdraw for 48 hours due to security reasons.
+        </p>
+        <div
+          className="p-2"
+        >
+          <div
+            className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+          >
+            <label
+              className="block text-bulma pb-2 text-moon-16"
+            >
+              Username or email
+            </label>
+            <input
+              className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+              placeholder=""
+              type="email"
+            />
+          </div>
+        </div>
+        <div
+          className="p-2"
+        >
+          <button
+            className="py-3 px-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary w-full"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            Send
+            <span
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+          <div
+            className="p-2 mt-4 rounded-lg bg-goku"
+          >
+            <h3
+              className="p-2 text-lg font-medium leading-6 border-b-2 text-bulma border-beerus"
+            >
+              Need some help?
+            </h3>
+            <div
+              className="flex mt-2"
+            >
+              <svg
+                className="text-moon-48 text-bulma"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.822 15.753l-.272.42.272-.42zM6.5 11H6h.5zm11.678 4.753l-.272-.42.272.42zM23.5 23v-.5.5zm-15 0v.5-.5zm17-2h.5-.5zm-19 0H7h-.5zm17-12v.5V9zm-15 0v-.5.5zm5.594 6.334L6.772 10.58l-.544.838 7.322 4.753.544-.838zm4.356.838l7.322-4.753-.544-.838-7.322 4.753.544.838zm-4.9 0a4.5 4.5 0 004.9 0l-.544-.838a3.5 3.5 0 01-3.812 0l-.544.838zM23.5 22.5h-15v1h15v-1zM25 11v10h1V11h-1zM6 11v10h1V11H6zm17.5-2.5h-15v1h15v-1zM26 11a2.5 2.5 0 00-2.5-2.5v1A1.5 1.5 0 0125 11h1zM7 11a1.5 1.5 0 011.5-1.5v-1A2.5 2.5 0 006 11h1zm1.5 11.5A1.5 1.5 0 017 21H6a2.5 2.5 0 002.5 2.5v-1zm15 1A2.5 2.5 0 0026 21h-1a1.5 1.5 0 01-1.5 1.5v1z"
+                  fill="currentColor"
+                />
+              </svg>
+              <div
+                className="px-2"
+              >
+                <p
+                  className="font-semibold text-bulma"
+                >
+                  Email us
+                </p>
+                <p
+                  className="text-xs text-trunks"
+                >
+                  Contact us via email
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`BottomSheet in Light Theme renders CustomHeight 1`] = `
+Array [
+  <button
+    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    Initialize uncloaking
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>,
+  <div
+    aria-labelledby={null}
+    aria-modal={true}
+    className="relative z-10"
+    id="headlessui-dialog-:r6:"
+    onClick={[Function]}
+    role="dialog"
+  >
+    <div
+      className="fixed inset-0 bg-black/[0.56]"
+    />
+    <div
+      className="fixed inset-0"
+    >
+      <div
+        className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full overflow-y-auto shadow-moon-lg duration-200 transition-all h-[77%]"
+        id="headlessui-dialog-panel-:r8:"
+      >
+        <div
+          className="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
+        >
+          <div
+            className="w-10 h-1 rounded bg-beerus"
+          />
+          <div
+            className="w-full"
+          >
+            <div
+              className="p-4 border-b-2 border-beerus"
+            >
+              <h3
+                className="text-moon-18 text-bulma font-semibold text-center"
+                id="headlessui-dialog-title-:r9:"
+              >
+                I am gonna show you some data whether you like it or not!
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div
+          className="p-2"
+        >
+          <div
+            className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
+            onScroll={[Function]}
+            role="table"
+            style={
+              Object {
+                "height": undefined,
+                "maxHeight": undefined,
+                "maxWidth": undefined,
+                "width": undefined,
+              }
+            }
+          >
+            <div
+              className="flex flex-col sticky top-0 z-[99]"
+              style={Object {}}
+            >
+              <div
+                className="flex rounded-moon-s-sm sticky"
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  First Name
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Last Name
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Age
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Money
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Activity
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Status
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <div
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="flex flex-col relative z-0 no-scrollbar gap-1"
+              role="rowgroup"
+            >
+              <div
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                onClick={[Function]}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Milton
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Friedman
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    0
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    0
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  0
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  0
+                </div>
+              </div>
+              <div
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                onClick={[Function]}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Thomas
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Sowell
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    22
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    10000
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  100
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  100
+                </div>
+              </div>
+              <div
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                onClick={[Function]}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Milton
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Friedman
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    44
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    20000
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  200
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  200
+                </div>
+              </div>
+              <div
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                onClick={[Function]}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Thomas
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Sowell
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    66
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    30000
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  300
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  300
+                </div>
+              </div>
+              <div
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                onClick={[Function]}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Milton
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Friedman
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    88
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    40000
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  400
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  400
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="p-2"
+        >
+          <button
+            className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma w-full"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            I don't wanna see this
+            <span
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`BottomSheet in Light Theme renders Default 1`] = `
+Array [
+  <button
+    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    My mind is ready
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>,
+  <div
+    aria-labelledby={null}
+    aria-modal={true}
+    className="relative z-10"
+    id="headlessui-dialog-:r0:"
+    onClick={[Function]}
+    role="dialog"
+  >
+    <div
+      className="fixed inset-0"
+    >
+      <div
+        className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[64%] overflow-y-auto duration-200 transition-all"
+        id="headlessui-dialog-panel-:r1:"
+      >
+        <div
+          className="p-4 border-b-2 border-beerus"
+        >
+          <h3
+            className="text-moon-18 text-bulma font-semibold"
+            id="headlessui-dialog-title-:r2:"
+          >
+            Do you wear skinny jeans?
+          </h3>
+        </div>
+        <p
+          className="p-4 text-trunks"
+        >
+          I'm baby vaporware flexitarian scenester lyft activated charcoal tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo lyft air plant edison bulb. Salvia next level pitchfork single-origin coffee adaptogen. Neutra tilde sartorial Brooklyn shaman schlitz. Roof party irony tattooed bicycle rights. Ethical you probably haven't heard of them literally bespoke PBR&B. Tattooed artisan twee, kinfolk kale chips taxidermy austin kitsch williamsburg tousled ugh.
+        </p>
+        <div
+          className="p-4"
+        >
+          <button
+            className="py-3 px-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            I'm honestly done
+            <span
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`BottomSheet in Light Theme renders LargeWithOptionalExtras 1`] = `
+Array [
+  <button
+    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    Show it to me!
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>,
+  <div
+    aria-labelledby={null}
+    aria-modal={true}
+    className="relative z-10"
+    id="headlessui-dialog-:r3:"
+    onClick={[Function]}
+    role="dialog"
+  >
+    <div
+      className="fixed inset-0 bg-black/[0.56]"
+    />
+    <div
+      className="fixed inset-0"
+    >
+      <div
+        className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[88%] overflow-y-auto shadow-moon-lg duration-200 transition-all"
+        id="headlessui-dialog-panel-:r4:"
+      >
+        <div
+          className="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
+        >
+          <div
+            className="w-10 h-1 rounded bg-beerus"
+          />
+          <div
+            className="w-full"
+          >
+            <div
+              className="p-4 border-b-2 border-beerus"
+            >
+              <h3
+                className="text-moon-18 text-bulma font-semibold text-center"
+                id="headlessui-dialog-title-:r5:"
+              >
+                Forgot password?
+              </h3>
+            </div>
+          </div>
+        </div>
+        <p
+          className="p-2 text-trunks"
+        >
+          If you change your password, you will be unable to withdraw for 48 hours due to security reasons.
+        </p>
+        <div
+          className="p-2"
+        >
+          <div
+            className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+          >
+            <label
+              className="block text-bulma pb-2 text-moon-16"
+            >
+              Username or email
+            </label>
+            <input
+              className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+              placeholder=""
+              type="email"
+            />
+          </div>
+        </div>
+        <div
+          className="p-2"
+        >
+          <button
+            className="py-3 px-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary w-full"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            Send
+            <span
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+          <div
+            className="p-2 mt-4 rounded-lg bg-goku"
+          >
+            <h3
+              className="p-2 text-lg font-medium leading-6 border-b-2 text-bulma border-beerus"
+            >
+              Need some help?
+            </h3>
+            <div
+              className="flex mt-2"
+            >
+              <svg
+                className="text-moon-48 text-bulma"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.822 15.753l-.272.42.272-.42zM6.5 11H6h.5zm11.678 4.753l-.272-.42.272.42zM23.5 23v-.5.5zm-15 0v.5-.5zm17-2h.5-.5zm-19 0H7h-.5zm17-12v.5V9zm-15 0v-.5.5zm5.594 6.334L6.772 10.58l-.544.838 7.322 4.753.544-.838zm4.356.838l7.322-4.753-.544-.838-7.322 4.753.544.838zm-4.9 0a4.5 4.5 0 004.9 0l-.544-.838a3.5 3.5 0 01-3.812 0l-.544.838zM23.5 22.5h-15v1h15v-1zM25 11v10h1V11h-1zM6 11v10h1V11H6zm17.5-2.5h-15v1h15v-1zM26 11a2.5 2.5 0 00-2.5-2.5v1A1.5 1.5 0 0125 11h1zM7 11a1.5 1.5 0 011.5-1.5v-1A2.5 2.5 0 006 11h1zm1.5 11.5A1.5 1.5 0 017 21H6a2.5 2.5 0 002.5 2.5v-1zm15 1A2.5 2.5 0 0026 21h-1a1.5 1.5 0 01-1.5 1.5v1z"
+                  fill="currentColor"
+                />
+              </svg>
+              <div
+                className="px-2"
+              >
+                <p
+                  className="font-semibold text-bulma"
+                >
+                  Email us
+                </p>
+                <p
+                  className="text-xs text-trunks"
+                >
+                  Contact us via email
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`BottomSheet in RTL renders CustomHeight 1`] = `
+<div
+  dir="rtl"
+>
+  <button
+    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    Initialize uncloaking
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+  <div
+    aria-labelledby={null}
+    aria-modal={true}
+    className="relative z-10"
+    id="headlessui-dialog-:rs:"
+    onClick={[Function]}
+    role="dialog"
+  >
+    <div
+      className="fixed inset-0 bg-black/[0.56]"
+    />
+    <div
+      className="fixed inset-0"
+    >
+      <div
+        className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full overflow-y-auto shadow-moon-lg duration-200 transition-all h-[77%]"
+        id="headlessui-dialog-panel-:ru:"
+      >
+        <div
+          className="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
+        >
+          <div
+            className="w-10 h-1 rounded bg-beerus"
+          />
+          <div
+            className="w-full"
+          >
+            <div
+              className="p-4 border-b-2 border-beerus"
+            >
+              <h3
+                className="text-moon-18 text-bulma font-semibold text-center"
+                id="headlessui-dialog-title-:rv:"
+              >
+                I am gonna show you some data whether you like it or not!
+              </h3>
+            </div>
+          </div>
+        </div>
+        <div
+          className="p-2"
+        >
+          <div
+            className="table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col sticky"
+            onScroll={[Function]}
+            role="table"
+            style={
+              Object {
+                "height": undefined,
+                "maxHeight": undefined,
+                "maxWidth": undefined,
+                "width": undefined,
+              }
+            }
+          >
+            <div
+              className="flex flex-col sticky top-0 z-[99]"
+              style={Object {}}
+            >
+              <div
+                className="flex rounded-moon-s-sm sticky"
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  First Name
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Last Name
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Age
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Money
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Activity
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+                <div
+                  className="relative text-start justify-between font-medium text-moon-14 px-3 py-2 bg-goku"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Status
+                  <div
+                    className="inline-block w-px h-full absolute top-0 right-0 z-1 after:content-none after:absolute after:w-px after:h-[70%] after:bottom-[15%] after:right-0 "
+                    draggable={false}
+                    onMouseDown={[Function]}
+                    onTouchStart={[Function]}
+                    role="separator"
+                    style={
+                      Object {
+                        "cursor": "col-resize",
+                      }
+                    }
+                  />
+                </div>
+              </div>
+              <div
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+                <div
+                  className="relative"
+                  colSpan={1}
+                  role="columnheader"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "position": "relative",
+                      "width": "150px",
+                    }
+                  }
+                />
+              </div>
+            </div>
+            <div
+              className="flex flex-col relative z-0 no-scrollbar gap-1"
+              role="rowgroup"
+            >
+              <div
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                onClick={[Function]}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Milton
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Friedman
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    0
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    0
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  0
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  0
+                </div>
+              </div>
+              <div
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                onClick={[Function]}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Thomas
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Sowell
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    22
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    10000
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  100
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  100
+                </div>
+              </div>
+              <div
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                onClick={[Function]}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Milton
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Friedman
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    44
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    20000
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  200
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  200
+                </div>
+              </div>
+              <div
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                onClick={[Function]}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Thomas
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Sowell
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    66
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    30000
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  300
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  300
+                </div>
+              </div>
+              <div
+                className="relative focus-visible:outline-none flex rounded-moon-s-sm transition-colors first:rounded-tl-0 first:rounded-bl-0 last:rounded-tl-0 last:rounded-br-0 after:mt-0 text-bulma bg-gohan"
+                onClick={[Function]}
+                onMouseEnter={null}
+                onMouseLeave={null}
+                role="row"
+                style={
+                  Object {
+                    "display": "flex",
+                    "flex": "1 0 auto",
+                    "minWidth": "0px",
+                  }
+                }
+              >
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-l-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Milton
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  Friedman
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    88
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  <span>
+                    40000
+                  </span>
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  400
+                </div>
+                <div
+                  className="relative box-border justify-between items-center text-start text-moon-14 px-3 py-2 rounded-r-lg text-bulma bg-gohan"
+                  role="cell"
+                  style={
+                    Object {
+                      "boxSizing": "border-box",
+                      "flex": "150 0 auto",
+                      "minWidth": "0px",
+                      "width": "150px",
+                    }
+                  }
+                >
+                  400
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="p-2"
+        >
+          <button
+            className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma w-full"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            I don't wanna see this
+            <span
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BottomSheet in RTL renders Default 1`] = `
+<div
+  dir="rtl"
+>
+  <button
+    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    My mind is ready
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+  <div
+    aria-labelledby={null}
+    aria-modal={true}
+    className="relative z-10"
+    id="headlessui-dialog-:rl:"
+    onClick={[Function]}
+    role="dialog"
+  >
+    <div
+      className="fixed inset-0"
+    >
+      <div
+        className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[64%] overflow-y-auto duration-200 transition-all"
+        id="headlessui-dialog-panel-:rn:"
+      >
+        <div
+          className="p-4 border-b-2 border-beerus"
+        >
+          <h3
+            className="text-moon-18 text-bulma font-semibold"
+            id="headlessui-dialog-title-:ro:"
+          >
+            Do you wear skinny jeans?
+          </h3>
+        </div>
+        <p
+          className="p-4 text-trunks"
+        >
+          I'm baby vaporware flexitarian scenester lyft activated charcoal tacos. Hashtag etsy literally irony yr 3 wolf moon PBR&B cred banjo lyft air plant edison bulb. Salvia next level pitchfork single-origin coffee adaptogen. Neutra tilde sartorial Brooklyn shaman schlitz. Roof party irony tattooed bicycle rights. Ethical you probably haven't heard of them literally bespoke PBR&B. Tattooed artisan twee, kinfolk kale chips taxidermy austin kitsch williamsburg tousled ugh.
+        </p>
+        <div
+          className="p-4"
+        >
+          <button
+            className="py-3 px-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            I'm honestly done
+            <span
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`BottomSheet in RTL renders LargeWithOptionalExtras 1`] = `
+<div
+  dir="rtl"
+>
+  <button
+    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    Show it to me!
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+  <div
+    aria-labelledby={null}
+    aria-modal={true}
+    className="relative z-10"
+    id="headlessui-dialog-:rp:"
+    onClick={[Function]}
+    role="dialog"
+  >
+    <div
+      className="fixed inset-0 bg-black/[0.56]"
+    />
+    <div
+      className="fixed inset-0"
+    >
+      <div
+        className="absolute inset-x-0 bottom-0 rounded-t-xl bg-gohan translate-y-full h-[88%] overflow-y-auto shadow-moon-lg duration-200 transition-all"
+        id="headlessui-dialog-panel-:rq:"
+      >
+        <div
+          className="sticky inset-x-0 top-0 flex flex-col items-center justify-start pt-2 min-h-[48px] z-10 bg-gohan rounded-t-xl"
+        >
+          <div
+            className="w-10 h-1 rounded bg-beerus"
+          />
+          <div
+            className="w-full"
+          >
+            <div
+              className="p-4 border-b-2 border-beerus"
+            >
+              <h3
+                className="text-moon-18 text-bulma font-semibold text-center"
+                id="headlessui-dialog-title-:rr:"
+              >
+                Forgot password?
+              </h3>
+            </div>
+          </div>
+        </div>
+        <p
+          className="p-2 text-trunks"
+        >
+          If you change your password, you will be unable to withdraw for 48 hours due to security reasons.
+        </p>
+        <div
+          className="p-2"
+        >
+          <div
+            className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+          >
+            <label
+              className="block text-bulma pb-2 text-moon-16"
+            >
+              Username or email
+            </label>
+            <input
+              className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+              placeholder=""
+              type="email"
+            />
+          </div>
+        </div>
+        <div
+          className="p-2"
+        >
+          <button
+            className="py-3 px-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary w-full"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            Send
+            <span
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+          <div
+            className="p-2 mt-4 rounded-lg bg-goku"
+          >
+            <h3
+              className="p-2 text-lg font-medium leading-6 border-b-2 text-bulma border-beerus"
+            >
+              Need some help?
+            </h3>
+            <div
+              className="flex mt-2"
+            >
+              <svg
+                className="text-moon-48 text-bulma"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M13.822 15.753l-.272.42.272-.42zM6.5 11H6h.5zm11.678 4.753l-.272-.42.272.42zM23.5 23v-.5.5zm-15 0v.5-.5zm17-2h.5-.5zm-19 0H7h-.5zm17-12v.5V9zm-15 0v-.5.5zm5.594 6.334L6.772 10.58l-.544.838 7.322 4.753.544-.838zm4.356.838l7.322-4.753-.544-.838-7.322 4.753.544.838zm-4.9 0a4.5 4.5 0 004.9 0l-.544-.838a3.5 3.5 0 01-3.812 0l-.544.838zM23.5 22.5h-15v1h15v-1zM25 11v10h1V11h-1zM6 11v10h1V11H6zm17.5-2.5h-15v1h15v-1zM26 11a2.5 2.5 0 00-2.5-2.5v1A1.5 1.5 0 0125 11h1zM7 11a1.5 1.5 0 011.5-1.5v-1A2.5 2.5 0 006 11h1zm1.5 11.5A1.5 1.5 0 017 21H6a2.5 2.5 0 002.5 2.5v-1zm15 1A2.5 2.5 0 0026 21h-1a1.5 1.5 0 01-1.5 1.5v1z"
+                  fill="currentColor"
+                />
+              </svg>
+              <div
+                className="px-2"
+              >
+                <p
+                  className="font-semibold text-bulma"
+                >
+                  Email us
+                </p>
+                <p
+                  className="text-xs text-trunks"
+                >
+                  Contact us via email
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 `;

@@ -16,24 +16,7 @@ const Example = () => {
   return (
     <>
       <ComponentPageDescription title="Chip" isInProgress isRtlSupport>
-        <p>
-          Chips are compact little units that represent actions, filters or
-          choices. When shown, they allow users to prompt actions, filter
-          games/content and choose options. We use three types of chips in the
-          Moon:
-        </p>
-        <p>
-          <p className="font-medium">Action chip</p>
-          Action chips prompt actions related to the game/content.
-        </p>
-        <p>
-          <p className="font-medium">Filter chip</p>
-          Filter chips let users sieve through large categories.
-        </p>
-        <p>
-          <p className="font-medium">Selection chip</p>
-          Selection chips allow users to select options that matter to them.
-        </p>
+        <p>Chips help filter content, or trigger actions.</p>
       </ComponentPageDescription>
       <Preview
         title="Default"

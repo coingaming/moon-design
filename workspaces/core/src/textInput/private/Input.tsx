@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 import getSizeStyles from '../private/utils/getSizeStyles';
 import makeBorder from '../private/utils/makeBorder';
 import type TextInputProps from '../private/types/TextInputProps';
@@ -24,6 +24,7 @@ const Input = forwardRef<
     isSideBorderHidden,
     isFirst,
     isPassword,
+    className,
     ...rest
   } = props;
   return (
@@ -32,13 +33,13 @@ const Input = forwardRef<
         ref={ref}
         type={type}
         placeholder={placeholder}
-        className={classNames(
+        className={mergeClassnames(
           'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2]',
           'shadow-input hover:shadow-input-hov',
           'focus:shadow-input-focus focus:outline-none',
           isError &&
             'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-          !bgColor ? 'bg-transparent' : bgColor,
+          bgColor ? bgColor : 'bg-transparent',
           getSizeStyles(inputSize as string),
           'before:box-border after:box-border',
           'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
@@ -71,7 +72,8 @@ const Input = forwardRef<
             isFirst,
             isRtl,
             isError
-          )
+          ),
+          className && className
         )}
         {...rest}
       />

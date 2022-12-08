@@ -1,4 +1,4 @@
-import classNames from '../utils/classNames';
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 
 type Props = {
   title: string;
@@ -12,7 +12,7 @@ const ManifestCard: React.FC<Props> = ({
   isHighlighted,
 }) => (
   <div
-    className={classNames(
+    className={mergeClassnames(
       'theme-moon-light flex flex-col gap-4 py-6 px-8 rounded-moon-s-lg',
       isHighlighted ? 'bg-frieza text-goten' : 'bg-goku text-bulma'
     )}

@@ -6,7 +6,7 @@ import {
   ControlsChevronUp,
   ControlsChevronUpSmall,
 } from '@heathmont/moon-icons-tw';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 
 type InputBtnProps = {
   size?: 'md' | 'lg' | 'xl' | string;
@@ -38,10 +38,10 @@ const InputBtn: React.FC<InputBtnProps> = ({
 }) => (
   <Listbox.Button
     {...rest}
-    className={classNames(
+    className={mergeClassnames(
       'flex items-center justify-between',
       'w-full bg-gohan border-beerus',
-      'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
+      'shadow-input hover:shadow-input-hov transition-shadow duration-200',
       'focus:shadow-input-focus focus:outline-none',
       getSelectSize(size),
       isError &&

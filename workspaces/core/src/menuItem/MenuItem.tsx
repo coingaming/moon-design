@@ -6,8 +6,8 @@ import React, {
   useCallback,
 } from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
-import mergeClassnames from '../private/utils/mergeClassnames';
 import stateReducer from '../private/utils/stateReducer';
+import mergeClassnames from '../utils/mergeClassnames';
 
 type MenuItemProps = {
   width?: string;

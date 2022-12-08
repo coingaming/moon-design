@@ -1,4 +1,4 @@
-import classNames from '../utils/classNames';
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 
 type PalleteColorProp = {
   name: string;
@@ -27,7 +27,7 @@ const ColoursPalette = ({
             key={index}
           >
             <div
-              className={classNames(
+              className={mergeClassnames(
                 `w-full h-40 rounded-moon-s-sm border border-beerus`,
                 color.name
               )}

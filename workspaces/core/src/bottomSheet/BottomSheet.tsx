@@ -1,6 +1,6 @@
 import React, { ReactNode, useCallback, useEffect, useReducer } from 'react';
 import { Dialog } from '@headlessui/react';
-import mergeClassnames from '../private/utils/mergeClassnames';
+import mergeClassnames from '../utils/mergeClassnames';
 import BottomSheetContext, { useBottomSheetContext } from './private/context';
 import stateReducer from './private/stateReducer';
 import useDrag from './private/useDrag';
@@ -10,6 +10,7 @@ type BottomSheetRootProps = {
   onClose: () => void;
   hasShadow?: boolean;
   size?: 'sm' | 'md' | 'lg' | string;
+  children?: ReactNode;
 };
 
 const BottomSheetRoot: React.FC<BottomSheetRootProps> = ({
@@ -50,6 +51,7 @@ type PanelProps = {
   className: string;
   hasShadow?: boolean;
   onClose: () => void;
+  children?: ReactNode;
 };
 
 const Panel: React.FC<PanelProps> = ({
@@ -128,6 +130,7 @@ const Backdrop: React.FC<BackdropProps> = ({ className }) => (
 
 type TitleProps = {
   className?: string;
+  children?: ReactNode;
 };
 
 const Title: React.FC<TitleProps> = ({ children, className }) => (

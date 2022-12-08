@@ -13,12 +13,23 @@ const Example = () => {
     <>
       <ComponentPageDescription title="BottomSheet" isInProgress>
         <p>
-          A Bottom sheet is an interface element that appears over other
-          content. It requires an interaction from the user before they can
-          return to whatever is underneath. It is different from a modal in that
-          it's always anchored to the bottom of the viewport and can be slid
-          away downwards to collapse it. It is designed for small mobile
-          screens.
+          The bottom sheet component is a modified dialog that slides from the
+          bottom of the screen, common pattern in mobile apps.
+        </p>
+        <p>
+          Bottom sheets can contain any anything so let your imagination fly.
+        </p>
+        <p>
+          Based on{' '}
+          <a
+            href="https://headlessui.com/"
+            className="transition-colors underline hover:text-piccolo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Headless UI
+          </a>
+          .
         </p>
       </ComponentPageDescription>
       <Preview

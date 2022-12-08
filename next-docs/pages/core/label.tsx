@@ -15,16 +15,10 @@ const Example = () => {
     <>
       <ComponentPageDescription title="Label" isInProgress>
         <p>
-          Use tags to label, categorize, or organize items using keywords that
-          describe them.
+          Labels represent a set of interactive keywords that help organize and
+          categorize objects.
         </p>
-        <p>Multiple or single tags can be used to categorize items.</p>
-        <p>
-          Use short labels for easy scanning. Use two words only if necessary to
-          describe the status and differentiate it from other tags.
-        </p>
-        <p>Default text style: Uppercase</p>
-        <p>Border radius: Interactive</p>
+        <p>Labels can be added or removed from an object.</p>
       </ComponentPageDescription>
       <Preview
         title="Default"

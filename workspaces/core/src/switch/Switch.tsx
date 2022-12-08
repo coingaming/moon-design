@@ -1,6 +1,6 @@
 import React, { FC, useState, useEffect } from 'react';
 import { Switch as HeadlessSwitch } from '@headlessui/react';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../utils/mergeClassnames';
 import getSwitchSize from './private/utils/getSwitchSize';
 import getSwitchSpanSize from './private/utils/getSwitchSpanSize';
 import type SwitchProps from './private/types/SwitchProps';
@@ -36,7 +36,7 @@ const Switch: FC<SwitchProps> = ({
       checked={enabled}
       disabled={disabled}
       onChange={(data) => setEnabledHandler(data)}
-      className={classNames(
+      className={mergeClassnames(
         'block relative isolate cursor-pointer rounded-full transition focus:outline-none',
         getSwitchSize(size),
         enabled ? onBgColor : offBgColor,
@@ -47,7 +47,7 @@ const Switch: FC<SwitchProps> = ({
       <span className="block relative">
         {onIcon && (
           <span
-            className={classNames(
+            className={mergeClassnames(
               'z-1 absolute ltr:left-0 rtl:right-0 top-1/2 -translate-y-1/2 transition-opacity',
               enabled ? 'opacity-100' : 'opacity-0'
             )}
@@ -57,7 +57,7 @@ const Switch: FC<SwitchProps> = ({
         )}
         {offIcon && (
           <span
-            className={classNames(
+            className={mergeClassnames(
               'z-1 absolute ltr:right-0 rtl:left-0 top-1/2 -translate-y-1/2 transition-opacity',
               enabled ? 'opacity-0' : 'opacity-100'
             )}
@@ -67,7 +67,7 @@ const Switch: FC<SwitchProps> = ({
         )}
         <span
           aria-hidden="true"
-          className={classNames(
+          className={mergeClassnames(
             'z-5 absolute top-1/2 -translate-y-1/2 shadow-moon-sm pointer-events-none rounded-full bg-goten transition-all',
             getSwitchSpanSize(size),
             enabled

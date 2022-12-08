@@ -1,5 +1,13 @@
 # Change Log
 
+## 9.15.1
+
+### Patch Changes
+
+- Bump version
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.15.1
+
 ## 9.15.0
 
 ### Minor Changes

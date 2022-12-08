@@ -1,5 +1,5 @@
 import React from 'react';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 import errorAnimation from '../private/buttonAnimations/errorAnimation';
 import buttonSizes from '../private/buttonSizes/buttonSizes';
 import buttonCommonStyles from '../private/buttonStyles/buttonCommonStyles';
@@ -23,13 +23,13 @@ const ButtonComponent = <C extends React.ElementType>({
   const Component = as || 'button';
   return (
     <Component
-      className={classNames(
+      className={mergeClassnames(
         buttonSizes({ size, icon, iconLeft, iconRight, iconOnly }),
         buttonCommonStyles({ disabled }),
         buttonVariants({ variant }),
         animation === 'pulse' && 'anim-pulse animate-[pulse2_1.5s_infinite]',
         animation === 'error' && errorAnimation(),
-        fullWidth && !iconOnly ? 'w-full' : '',
+        fullWidth && !iconOnly && 'w-full',
         customClassName
       )}
       {...((!as || as === 'button') && { type: 'button' })}

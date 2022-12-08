@@ -1,5 +1,5 @@
 import React from 'react';
-import classNames from '../private/utils/classnames';
+import mergeClassnames from '../utils/mergeClassnames';
 import Path from './private/Path';
 import getPathRatio from './private/utils/getPathRatio';
 import getSize from './private/utils/getSize';
@@ -32,7 +32,7 @@ const CircularProgress: React.FC<Props> = ({
       <Path
         dashRatio={1}
         pathRadius={PATH_RADIUS}
-        classes={classNames('stroke-[0.5rem]', bgColor)}
+        classes={mergeClassnames('stroke-[0.5rem]', bgColor)}
       />
       <Path
         dashRatio={pathRatio}
@@ -40,7 +40,7 @@ const CircularProgress: React.FC<Props> = ({
         style={{
           transition: value === 0 ? 'none' : 'stroke-dashoffset 0.5s ease 0s',
         }}
-        classes={classNames(
+        classes={mergeClassnames(
           'stroke-[0.5rem] rtl:-scale-x-100 rtl:translate-x-full',
           progressColor
         )}

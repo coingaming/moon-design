@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import classNames from '../../private/utils/classnames';
+import mergeClassnames from '../../utils/mergeClassnames';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';
@@ -46,7 +46,7 @@ const TextInputBasic = forwardRef<HTMLInputElement, TextInputProps>(
           <label
             dir={dir}
             htmlFor={id}
-            className={classNames(
+            className={mergeClassnames(
               'block text-bulma pb-2',
               getLabelSize(inputSize),
               disabled && 'opacity-30 cursor-not-allowed'

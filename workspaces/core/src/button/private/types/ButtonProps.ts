@@ -1,12 +1,13 @@
 import React from 'react';
 import type ButtonAnimations from './ButtonAnimations';
 import type ButtonIcons from './ButtonIcons';
+import type ButtonSizes from './ButtonSizes';
 import type ButtonVariants from './ButtonVariants';
 
 export type ButtonSettingsProps = {
   icon?: ButtonIcons;
   children?: React.ReactNode;
-  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl';
+  size?: ButtonSizes;
   iconLeft?: JSX.Element | boolean;
   iconRight?: JSX.Element | boolean;
   iconOnly?: JSX.Element | boolean;

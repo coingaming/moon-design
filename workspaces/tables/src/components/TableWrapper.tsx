@@ -1,6 +1,6 @@
 import React, { ReactNode, forwardRef } from 'react';
+import { mergeClassnames } from '@heathmont/moon-core-tw';
 import { TableVariant } from '../func/Table';
-import classNames from '../private/utils/classnames';
 
 type TableWrapperProps = {
   reactTableProps: any;
@@ -37,17 +37,11 @@ const TableWrapper = forwardRef<HTMLDivElement, TableWrapperProps>(
         {...reactTableProps}
         ref={tableRef}
         style={style ?? {}}
-        className={classNames(`
-      table-wrapper
-      sm:overflow-auto
-      overflow-scroll
-      no-scrollbar
-      flex
-      flex-col
-
-      ${className}
-      ${variant === 'calendar' ? 'first:after:hidden' : ''}
-    `)}
+        className={mergeClassnames(
+          'table-wrapper sm:overflow-auto overflow-scroll no-scrollbar flex flex-col',
+          className,
+          variant === 'calendar' && 'first:after:hidden'
+        )}
         variant={variant}
         onScroll={onScroll}
       >

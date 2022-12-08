@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useState } from 'react';
-import mergeClassnames from '../private/utils/mergeClassnames';
 import TextInput from '../textInput/TextInput';
+import mergeClassnames from '../utils/mergeClassnames';
 import useDebounce from './private/useDebounce';
 
 type AuthCodeProps = {

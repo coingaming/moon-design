@@ -1,4 +1,4 @@
-import classNames from '../../../private/utils/classnames';
+import mergeClassnames from '../../../utils/mergeClassnames';
 import lgPadding from './lgPadding';
 import mdPadding from './mdPadding';
 import smPadding from './smPadding';
@@ -14,30 +14,30 @@ const buttonSizes = ({
   iconOnly,
 }: ButtonSettingsProps): string => {
   if (size === 'xs') {
-    return classNames(
+    return mergeClassnames(
       xsPadding({ icon, iconLeft, iconRight, iconOnly }),
       'h-6 gap-1 text-moon-12 rounded-moon-i-xs'
     );
   }
   if (size === 'sm') {
-    return classNames(
+    return mergeClassnames(
       smPadding({ icon, iconLeft, iconRight, iconOnly }),
       'h-8 gap-1 text-moon-14 rounded-moon-i-sm'
     );
   }
   if (size === 'lg') {
-    return classNames(
+    return mergeClassnames(
       lgPadding({ icon, iconLeft, iconRight, iconOnly }),
       'h-12 gap-2 text-moon-16 rounded-moon-i-sm'
     );
   }
   if (size === 'xl') {
-    return classNames(
+    return mergeClassnames(
       xlPadding({ icon, iconLeft, iconRight, iconOnly }),
       'h-14 gap-2 text-moon-16 rounded-moon-i-md'
     );
   }
-  return classNames(
+  return mergeClassnames(
     mdPadding({ icon, iconLeft, iconRight, iconOnly }),
     'h-10 gap-2 text-moon-14 rounded-moon-i-sm'
   );

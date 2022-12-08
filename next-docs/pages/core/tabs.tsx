@@ -25,6 +25,18 @@ const Example = () => {
           set for example, tabs can present different sections of news,
           different genres of music, or different themes of documents.
         </p>
+        <p>
+          Based on{' '}
+          <a
+            href="https://headlessui.com/"
+            className="transition-colors underline hover:text-piccolo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Headless UI
+          </a>
+          .
+        </p>
       </ComponentPageDescription>
       <ComponentAnatomy>
         {`<Tabs>

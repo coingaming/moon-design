@@ -6,7 +6,7 @@ exports[`Accordion in Dark Theme expands Default 1`] = `
 >
   <button
     aria-expanded={true}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
     type="button"
   >
@@ -57,7 +57,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="bg-beerus flex items-center relative w-full gap-1 cursor-pointer bg-beerus"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-beerus"
       onClick={[Function]}
       type="button"
     >
@@ -137,7 +137,7 @@ exports[`Accordion in Dark Theme renders ContentHeader 1`] = `
 >
   <button
     aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
     type="button"
   >
@@ -430,7 +430,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
 >
   <button
     aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
     type="button"
   >
@@ -471,7 +471,7 @@ exports[`Accordion in Dark Theme renders Disabled 1`] = `
 >
   <button
     aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-not-allowed opacity-30 bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-not-allowed opacity-30 bg-gohan"
     disabled={true}
     onClick={[Function]}
     type="button"
@@ -513,7 +513,7 @@ exports[`Accordion in Dark Theme renders OpenDefault 1`] = `
 >
   <button
     aria-expanded={true}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
     type="button"
   >
@@ -564,7 +564,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -602,7 +602,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -640,7 +640,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -678,7 +678,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -720,7 +720,7 @@ exports[`Accordion in Dark Theme renders WithoutButton 1`] = `
 >
   <button
     aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
     type="button"
   >
@@ -741,7 +741,7 @@ exports[`Accordion in Light Theme expands Default 1`] = `
 >
   <button
     aria-expanded={true}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
     type="button"
   >
@@ -792,7 +792,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="bg-beerus flex items-center relative w-full gap-1 cursor-pointer bg-beerus"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-beerus"
       onClick={[Function]}
       type="button"
     >
@@ -872,7 +872,7 @@ exports[`Accordion in Light Theme renders ContentHeader 1`] = `
 >
   <button
     aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
     type="button"
   >
@@ -1165,7 +1165,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
 >
   <button
     aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
     type="button"
   >
@@ -1206,7 +1206,7 @@ exports[`Accordion in Light Theme renders Disabled 1`] = `
 >
   <button
     aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-not-allowed opacity-30 bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-not-allowed opacity-30 bg-gohan"
     disabled={true}
     onClick={[Function]}
     type="button"
@@ -1248,7 +1248,7 @@ exports[`Accordion in Light Theme renders OpenDefault 1`] = `
 >
   <button
     aria-expanded={true}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
     type="button"
   >
@@ -1299,7 +1299,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -1337,7 +1337,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -1375,7 +1375,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -1413,7 +1413,7 @@ Array [
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -1455,7 +1455,7 @@ exports[`Accordion in Light Theme renders WithoutButton 1`] = `
 >
   <button
     aria-expanded={false}
-    className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+    className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
     onClick={[Function]}
     type="button"
   >
@@ -1479,7 +1479,7 @@ exports[`Accordion in RTL expands Default 1`] = `
   >
     <button
       aria-expanded={true}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -1533,7 +1533,7 @@ exports[`Accordion in RTL renders Background 1`] = `
   >
     <button
       aria-expanded={false}
-      className="bg-beerus flex items-center relative w-full gap-1 cursor-pointer bg-beerus"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-beerus"
       onClick={[Function]}
       type="button"
     >
@@ -1616,7 +1616,7 @@ exports[`Accordion in RTL renders ContentHeader 1`] = `
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -1919,7 +1919,7 @@ exports[`Accordion in RTL renders Default 1`] = `
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -1964,7 +1964,7 @@ exports[`Accordion in RTL renders Disabled 1`] = `
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-not-allowed opacity-30 bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-not-allowed opacity-30 bg-gohan"
       disabled={true}
       onClick={[Function]}
       type="button"
@@ -2010,7 +2010,7 @@ exports[`Accordion in RTL renders OpenDefault 1`] = `
   >
     <button
       aria-expanded={true}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -2064,7 +2064,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -2102,7 +2102,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -2140,7 +2140,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -2178,7 +2178,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
@@ -2223,7 +2223,7 @@ exports[`Accordion in RTL renders WithoutButton 1`] = `
   >
     <button
       aria-expanded={false}
-      className="bg-gohan flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
+      className="flex items-center relative w-full gap-1 cursor-pointer bg-gohan"
       onClick={[Function]}
       type="button"
     >
