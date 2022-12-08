@@ -1,5 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import BigContent from '../../public/examples/modalTW/BigContent';
@@ -18,7 +19,26 @@ const Example = () => {
           requires an interaction from the user before they can return to
           whatever is underneath.
         </p>
+        <p>
+          Based on{' '}
+          <a
+            href="https://headlessui.com/"
+            className="transition-colors underline hover:text-piccolo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Headless UI
+          </a>
+          .
+        </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>
+        {`<Modal>
+  <Modal.Backdrop />
+  <Modal.Title>...<Modal.Title>
+  <Modal.Panel>...<Modal.Panel>
+</Modal>`}
+      </ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}

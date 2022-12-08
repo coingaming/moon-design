@@ -18,9 +18,9 @@ const Example = () => {
         isInProgress // Added 01.11.2022
       >
         <p>
-          A progress indicator (Circular and Linear) is a visual representation
-          of a user's progress through a set of steps, guiding toward the
-          completion of a specified process.
+          A circular progress indicator is a visual representation of a user's
+          progress through a set of steps, guiding toward the completion of a
+          specified process.
         </p>
       </ComponentPageDescription>
       <Preview

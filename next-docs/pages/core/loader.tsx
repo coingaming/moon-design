@@ -13,15 +13,9 @@ const Example = () => {
     <>
       <ComponentPageDescription title="Loader" isInProgress>
         <p>
-          Fondly nicknamed “the launcher”, the Loader ensures users that
-          progress is happening so they don't give up and leave the rocket page.
+          Loaders provide a visual cue that an action is processing awaiting a
+          course of change or a result.
         </p>
-        <p>
-          The Loader, along with a succinct message, is especially important
-          after a user initiates an action that requires them to wait. This is
-          so that they know there's no need to repeat what they've done.
-        </p>
-        <p>Default colour: Hit</p>
       </ComponentPageDescription>
       <Preview
         title="Default"

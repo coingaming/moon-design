@@ -17,20 +17,13 @@ const Example = () => {
     <>
       <ComponentPageDescription title="Select" isInProgress>
         <p>
-          Select components are used for collecting user provided information
-          from a list of options.
+          A form input used for selecting a value: when collapsed it shows the
+          currently selected option and when expanded, it shows a scrollable
+          list of predefined options for the user to choose from.
         </p>
         <p>
-          Select has 3 sizes with a different views: <b>md</b> (by default),
-          <b>lg</b> and <b>xl</b>.
-        </p>
-        <p>
-          <b>md</b> and <b>lg</b> size has label outside input, <b>xl</b> has
-          label inside the input.
-        </p>
-        <p>
-          The width of select by default 100%, and should be controlled by the
-          parent container width.
+          Moon.io supports two types of selects, one whichs opens browser's
+          native styling option list and custom "Dropdown".
         </p>
       </ComponentPageDescription>
       <Preview

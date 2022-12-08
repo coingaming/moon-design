@@ -1,24 +1,20 @@
 import React, { useState } from 'react';
 import classNames from '../private/utils/classnames';
 import AnimationContent from './private/buttonAnimations/AnimationContent';
-import ButtonComponent from './styles/ButtonComponent';
-import type ButtonProps from './private/types/ButtonProps';
-import type ButtonVariants from './private/types/ButtonVariants';
+import IconButtonComponent from './styles/IconButtonComponent';
+import type ButtonVariants from '../button/private/types/ButtonVariants';
+import type IconButtonProps from './private/types/IconButtonProps';
 
-export type Props<C extends React.ElementType> = React.PropsWithChildren<
-  ButtonProps<C>
+type Props<C extends React.ElementType> = React.PropsWithChildren<
+  IconButtonProps<C>
 > &
-  Omit<React.ComponentPropsWithoutRef<C>, keyof ButtonProps<C>>;
+  Omit<React.ComponentPropsWithoutRef<C>, keyof IconButtonProps<C>>;
 
-const Button = <C extends React.ElementType = 'button'>({
+const IconButton = <C extends React.ElementType = 'button'>({
   children,
   variant = 'primary',
   size = 'md',
-  icon, // obsolete prop
-  iconLeft, // not boolean anymore
-  iconRight, // not boolean anymore
-  iconOnly, // obsolete prop
-  fullWidth,
+  icon,
   disabled,
   animation,
   as,
@@ -29,14 +25,10 @@ const Button = <C extends React.ElementType = 'button'>({
   const hasAnimationContent =
     animation === 'progress' || animation === 'success';
   return (
-    <ButtonComponent
+    <IconButtonComponent
       size={size}
       variant={variant as ButtonVariants}
       icon={icon}
-      iconLeft={iconLeft}
-      iconRight={iconRight}
-      iconOnly={iconOnly}
-      fullWidth={fullWidth}
       disabled={disabled}
       animation={animation}
       as={as}
@@ -47,18 +39,14 @@ const Button = <C extends React.ElementType = 'button'>({
     >
       {hasAnimationContent ? (
         <AnimationContent
-          iconLeft={iconLeft}
+          icon={icon}
           children={children}
-          iconRight={iconRight}
-          iconOnly={iconOnly}
           animation={animation}
         />
       ) : (
         <>
-          {iconLeft}
+          {icon}
           {children}
-          {iconRight}
-          {iconOnly}
         </>
       )}
       <span
@@ -67,8 +55,8 @@ const Button = <C extends React.ElementType = 'button'>({
           isHover && 'bg-bulma/[.07]'
         )}
       />
-    </ButtonComponent>
+    </IconButtonComponent>
   );
 };
 
-export default Button;
+export default IconButton;

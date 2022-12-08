@@ -2,21 +2,19 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Animations from '../../public/examples/buttonTW/Animations';
-import AsLink from '../../public/examples/buttonTW/AsLink';
-import Default from '../../public/examples/buttonTW/Default';
-import Disabled from '../../public/examples/buttonTW/Disabled';
-import FullWidth from '../../public/examples/buttonTW/FullWidth';
-import Icons from '../../public/examples/buttonTW/Icons';
-import Sizes from '../../public/examples/buttonTW/Sizes';
-import Variants from '../../public/examples/buttonTW/Variants';
+import Animations from '../../public/examples/iconButtonTW/Animations';
+import AsLink from '../../public/examples/iconButtonTW/AsLink';
+import Default from '../../public/examples/iconButtonTW/Default';
+import Disabled from '../../public/examples/iconButtonTW/Disabled';
+import Sizes from '../../public/examples/iconButtonTW/Sizes';
+import Variants from '../../public/examples/iconButtonTW/Variants';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('buttonTW');
+  const examples = useExamples('iconButtonTW');
   return (
     <>
-      <ComponentPageDescription title="Button" isInProgress isRtlSupport>
+      <ComponentPageDescription title="IconButton" isInProgress>
         <p>
           Buttons allow users to take actions, and make choices, with a single
           tap.
@@ -53,16 +51,6 @@ const Example = () => {
         code={examples ? examples.Sizes : 'Loading'}
       />
       <Preview
-        title="Icons"
-        preview={<Icons />}
-        code={examples ? examples.Icons : 'Loading'}
-      />
-      <Preview
-        title="Full width"
-        preview={<FullWidth />}
-        code={examples ? examples.FullWidth : 'Loading'}
-      />
-      <Preview
         title="Disabled"
         preview={<Disabled />}
         code={examples ? examples.Disabled : 'Loading'}
@@ -91,7 +79,7 @@ const Example = () => {
           },
           {
             name: 'children',
-            type: 'React.ReactNode;',
+            type: 'React.ReactNode',
             required: false,
             default: '-',
             description: 'Children content',
@@ -104,25 +92,11 @@ const Example = () => {
             description: 'Disabled button',
           },
           {
-            name: 'fullWidth',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description: 'Full width button',
-          },
-          {
-            name: 'iconLeft',
+            name: 'icon',
             type: 'JSX.Element',
             required: false,
             default: '-',
-            description: 'Left icon',
-          },
-          {
-            name: 'iconRight',
-            type: 'JSX.Element',
-            required: false,
-            default: '-',
-            description: 'Right icon',
+            description: 'Icon',
           },
           {
             name: 'size',
