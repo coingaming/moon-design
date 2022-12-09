@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.15.2
+
+### Patch Changes
+
+- Add Empire theme
+
 ## 9.15.1
 
 ### Patch Changes

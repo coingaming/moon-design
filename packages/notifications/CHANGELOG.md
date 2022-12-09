@@ -1,5 +1,14 @@
 # Change Log
 
+## 9.15.2
+
+### Patch Changes
+
+- Add Empire theme
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.15.2
+  - @heathmont/moon-utils@9.15.2
+
 ## 9.15.1
 
 ### Patch Changes
