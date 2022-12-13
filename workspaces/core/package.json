@@ -23,6 +23,7 @@
     "@headlessui/react": "1.6.1",
     "@heathmont/moon-icons-tw": "workspace:^9.15.2",
     "@popperjs/core": "^2.11.6",
+    "@radix-ui/react-accordion": "1.0.1",
     "@radix-ui/react-toast": "1.1.1",
     "react-popper": "^2.3.0",
     "tailwind-merge": "1.8.0",
