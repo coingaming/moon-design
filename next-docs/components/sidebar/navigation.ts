@@ -26,7 +26,7 @@ const navigation = [
       { name: 'Chip', href: '/core/chip' },
       { name: 'Dropdown', href: '/core/dropdown' },
       { name: 'Icons', href: '/core/icons' },
-      { name: 'Label', href: '/core/label' },
+      { name: 'Tag', href: '/core/tag' },
       { name: 'Loader', href: '/core/loader' },
       { name: 'MenuItem', href: '/core/menuItem' },
       { name: 'Modal', href: '/core/modal' },

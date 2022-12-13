@@ -1,4 +1,4 @@
-import { Label } from '@heathmont/moon-core-tw';
+import { Tag } from '@heathmont/moon-core-tw';
 import Contributors from '../components/facing/Contributors';
 import ForDesigners from '../components/facing/ForDesigners';
 import ForDevelopers from '../components/facing/ForDevelopers';
@@ -11,7 +11,7 @@ const Home = () => (
   <>
     <div className="relative z-5 flex flex-col gap-12">
       <div className="self-start">
-        <Label size="2xs">Open Source</Label>
+        <Tag size="2xs">Open Source</Tag>
       </div>
       <div className="flex flex-col gap-16">
         <PageTitle />
