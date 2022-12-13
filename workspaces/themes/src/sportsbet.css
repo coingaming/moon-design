@@ -78,14 +78,14 @@
 
 :root.theme-sb-dark,
 .theme-sb-dark {
-  --piccolo: 12 207 97; /* #0ccf61 */
-  --hit: 57 62 71; /* #393e47 */
-  --beerus: 49 55 63; /* #31373f */
-  --goku: 35 42 51; /* #232a33 */
-  --gohan: 26 33 42; /* #1a212a */
-  --bulma: 255 255 255; /* #ffffff */
-  --trunks: 134 151 162; /* #8697a2 */
-  --goten: 255 255 255; /* #ffffff */
+  --piccolo: 73 179 86; /* #49B356 */
+  --hit: 76 81 90; /* #4C515A */
+  --beerus: 16 20 25; /* #101419 */ 
+  --goku: 44 50 58; /* #2C323A */
+  --gohan: 26 33 42; /* #1A212A */
+  --bulma: 255 255 255; /* #FFFFFF */
+  --trunks: 141 157 168; /* #8D9DA8 */
+  --goten: 255 255 255; /* #FFFFFF */
   --popo: 0 0 0; /* #000000 */
 
   --radius-i-xs: 624.938rem; /* 9999px */
