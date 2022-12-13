@@ -13,7 +13,7 @@ const PageLabel = () => {
   return (
     <>
       <ComponentPageDescription title="Label">
-        <DeprecationWarning href="/core/label" name="Label" />
+        <DeprecationWarning href="/core/tag" name="Tag" />
       </ComponentPageDescription>
       <Preview
         title="Colours"
