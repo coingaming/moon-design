@@ -1,5 +1,5 @@
 import { createRef, useEffect, useState } from 'react';
-import { TextInputGroup, Label } from '@heathmont/moon-core-tw';
+import { TextInputGroup, Tag } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   var ref1 = createRef<HTMLInputElement>();
@@ -49,12 +49,12 @@ const Example = () => {
           input2: inputProps2,
         }}
       />
-      <Label size="xsmall" backgroundColor="bg-trunks">
+      <Tag size="xsmall" backgroundColor="bg-trunks">
         Country: {country}
-      </Label>
-      <Label size="xsmall" backgroundColor="bg-trunks">
+      </Tag>
+      <Tag size="xsmall" backgroundColor="bg-trunks">
         Phone: {phone}
-      </Label>
+      </Tag>
     </div>
   );
 };
