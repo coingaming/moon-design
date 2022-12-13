@@ -1,8 +1,8 @@
 import React from 'react';
-import LabelContainer from './styles/LabelContainer';
-import type LabelProps from './private/types/LabelProps';
+import TagContainer from './styles/TagContainer';
+import type TagProps from './private/types/TagProps';
 
-const Label: React.FC<LabelProps> = ({
+const Tag: React.FC<TagProps> = ({
   children,
   color = 'text-gohan',
   bgColor = 'bg-bulma',
@@ -11,7 +11,7 @@ const Label: React.FC<LabelProps> = ({
   size = 'xs',
   isUppercase = true,
 }) => (
-  <LabelContainer
+  <TagContainer
     bgColor={bgColor}
     color={color}
     size={size}
@@ -22,7 +22,7 @@ const Label: React.FC<LabelProps> = ({
     {iconLeft && iconLeft}
     {children}
     {iconRight && iconRight}
-  </LabelContainer>
+  </TagContainer>
 );
 
-export default Label;
+export default Tag;
