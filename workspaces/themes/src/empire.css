@@ -1,36 +1,36 @@
 :root,
-:root.theme-sb-light,
-.theme-sb-light {
-  --piccolo: 12 207 97; /* #0ccf61 */
-  --hit: 223 224 226; /* #dfe0e2 */
-  --beerus: 230 230 230; /* #e6e6e6 */
-  --goku: 255 255 255; /* #ffffff */
-  --gohan: 247 247 247; /* #f7f7f7 */
-  --bulma: 26 33 42; /* #1a212a */
-  --trunks: 96 118 128; /* #607680 */
+:root.theme-empire-light,
+.theme-empire-light {
+  --piccolo: 255 37 168; /* #ff25a8 */
+  --hit: 184 166 255; /* #b8a6ff */
+  --beerus: 229 228 234; /* #e5e4ea */
+  --gohan: 255 255 255; /* #ffffff */
   --goten: 255 255 255; /* #ffffff */
+  --goku: 240 238 245; /* #f0eef5 */
+  --bulma: 21 6 79; /* #15064f */
+  --trunks: 92 86 113; /* #5c5671 */
   --popo: 0 0 0; /* #000000 */
 
   /* support-colors  */
-  --krillin: 255 179 25; /* #ffb319 */
+  --krillin: 255 180 53; /* #ffb319 */
   --krillin-60: 255 198 82; /* #ffc652 */
-  --krillin-10: 255 217 141; /* #ffd98d */
+  --krillin-10: 255 217 14; /* #ffd98d */
 
-  --chichi: 255 78 100; /* #ff4e64 */
+  --chichi: 250 76 128; /* #ff4e64 */
   --chichi-60: 255 118 135; /* #ff7687 */
   --chichi-10: 255 150 163; /* #ff96a3 */
 
-  --roshi: 74 209 95; /* #4ad15f */
-  --roshi-60: 100 220 119; /* #64dc77 */
-  --roshi-10: 127 242 145; /* #7ff291 */
+  --roshi: 765 217 185; /* #4ad15f */
+  --roshi-60: 95 227 200; /* #64dc77 */
+  --roshi-10: 145 246 225; /* #7ff291 */
 
   --dodoria: 211 48 48; /* #d33030 */
   --dodoria-60: 219 78 78; /* #db4e4e */
   --dodoria-10: 240 103 103; /* #f06767 */
 
-  --cell: 149 241 213; /* #95f1d5 */
-  --cell-60: 162 250 223; /* #a2fadf */
-  --cell-10: 191 255 236; /* #bfffec */
+  --cell: 10 183 88; /* #0ab758 */
+  --cell-60: 98 227 156; /* #62e39c */
+  --cell-10: 168 249 205; /* #a8f9cd */
 
   --raditz: 179 128 74; /* #b3804a */
   --raditz-60: 193 145 93; /* #c1915d */
@@ -49,9 +49,9 @@
   --nappa-10: 161 134 129; /* #a18681 */
 
   /* border-radius */
-  --radius-i-xs: 624.938rem; /* 9999px */
-  --radius-i-sm: 624.938rem; /* 9999px */
-  --radius-i-md: 624.938rem; /* 9999px */
+  --radius-i-xs: 0.25rem; /* 4px */
+  --radius-i-sm: 0.5rem; /* 8px */
+  --radius-i-md: 0.75rem; /* 12px */
   --radius-s-xs: 0.25rem; /* 4px */
   --radius-s-sm: 0.5rem; /* 8px */
   --radius-s-md: 0.75rem; /* 12px */
@@ -65,7 +65,7 @@
   --opacity-moon: 0.32;
 
   /* fonts */
-  --averta: 'Averta Std';
+  --fira: 'Fira Sans';
 
   /* box-shadow */
   --shadow-xs: 0px 4px 12px -6px rgba(0, 0, 0, 0.06);
@@ -76,21 +76,17 @@
     0px 0px 32px -8px rgba(0, 0, 0, 0.12), 0px 0px 1px rgba(0, 0, 0, 0.2);
 }
 
-:root.theme-sb-dark,
-.theme-sb-dark {
-  --piccolo: 73 179 86; /* #49B356 */
-  --hit: 76 81 90; /* #4C515A */
-  --beerus: 16 20 25; /* #101419 */ 
-  --goku: 44 50 58; /* #2C323A */
-  --gohan: 26 33 42; /* #1A212A */
-  --bulma: 255 255 255; /* #FFFFFF */
-  --trunks: 141 157 168; /* #8D9DA8 */
-  --goten: 255 255 255; /* #FFFFFF */
+:root.theme-empire-dark,
+.theme-empire-dark {
+  --piccolo: 255 37 168; /* #ff25a8 */
+  --hit: 184 166 255; /* #b8a6ff */
+  --beerus: 101 74 206; /* #654ace */
+  --gohan: 72 40 197; /* #4828c5 */
+  --goten: 255 255 255; /* #ffffff */
+  --goku: 21 6 79; /* #15064f */
+  --bulma: 255 255 255; /* #ffffff */
+  --trunks: 200 190 238; /* #c8befe */
   --popo: 0 0 0; /* #000000 */
-
-  --radius-i-xs: 624.938rem; /* 9999px */
-  --radius-i-sm: 624.938rem; /* 9999px */
-  --radius-i-md: 624.938rem; /* 9999px */
 
   --shadow-xs: 0px 4px 12px -6px rgba(0, 0, 0, 0.64);
   --shadow-sm: 0px 6px 6px -6px rgba(0, 0, 0, 0.64),

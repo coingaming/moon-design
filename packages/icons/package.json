@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-icons",
   "sideEffects": false,
-  "version": "9.15.0",
+  "version": "9.15.2",
   "files": [
     "lib"
   ],
@@ -35,8 +35,8 @@
     "ts-node-dev": "1.1.8"
   },
   "dependencies": {
-    "@heathmont/moon-themes": "workspace:^9.15.0",
-    "@heathmont/moon-utils": "workspace:^9.15.0"
+    "@heathmont/moon-themes": "workspace:^9.15.2",
+    "@heathmont/moon-utils": "workspace:^9.15.2"
   },
   "peerDependencies": {
     "react": ">= 18.0.0",

@@ -1,34 +1,32 @@
-import { Label } from '@heathmont/moon-core-tw';
+import { Tag } from '@heathmont/moon-core-tw';
 import { ControlsClose, GenericInfo } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Label size="2xs" iconLeft={<GenericInfo className="text-moon-12" />}>
+      <Tag size="2xs" iconLeft={<GenericInfo className="text-moon-12" />}>
         Twoxsmall
-      </Label>
-      <Label size="2xs" iconRight={<ControlsClose className="text-moon-12" />}>
+      </Tag>
+      <Tag size="2xs" iconRight={<ControlsClose className="text-moon-12" />}>
         Twoxsmall
-      </Label>
-      <Label
+      </Tag>
+      <Tag
         size="2xs"
         iconLeft={<GenericInfo className="text-moon-12" />}
         iconRight={<ControlsClose className="text-moon-12" />}
       >
         Twoxsmall
-      </Label>
+      </Tag>
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Label iconLeft={<GenericInfo className="text-moon-16" />}>Xsmall</Label>
-      <Label iconRight={<ControlsClose className="text-moon-16" />}>
-        Xsmall
-      </Label>
-      <Label
+      <Tag iconLeft={<GenericInfo className="text-moon-16" />}>Xsmall</Tag>
+      <Tag iconRight={<ControlsClose className="text-moon-16" />}>Xsmall</Tag>
+      <Tag
         iconLeft={<GenericInfo className="text-moon-16" />}
         iconRight={<ControlsClose />}
       >
         Xsmall
-      </Label>
+      </Tag>
     </div>
   </>
 );

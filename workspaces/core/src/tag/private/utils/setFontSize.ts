@@ -1,6 +1,6 @@
-import type LabelProps from '../types/LabelProps';
+import type TagProps from '../types/TagProps';
 
-const setFontSize = ({ size, isUppercase }: LabelProps) => {
+const setFontSize = ({ size, isUppercase }: TagProps) => {
   if (isUppercase) {
     return size === '2xs'
       ? 'text-moon-9-caption uppercase font-medium'

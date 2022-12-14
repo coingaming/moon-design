@@ -1,5 +1,29 @@
 # @heathmont/moon-datepicker
 
+## 9.15.2
+
+### Patch Changes
+
+- Add Empire theme
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.15.2
+  - @heathmont/moon-core@9.15.2
+  - @heathmont/moon-icons@9.15.2
+  - @heathmont/moon-themes@9.15.2
+  - @heathmont/moon-utils@9.15.2
+
+## 9.15.1
+
+### Patch Changes
+
+- Bump version
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.15.1
+  - @heathmont/moon-components@9.15.1
+  - @heathmont/moon-core@9.15.1
+  - @heathmont/moon-icons@9.15.1
+  - @heathmont/moon-utils@9.15.1
+
 ## 9.15.0
 
 ### Minor Changes

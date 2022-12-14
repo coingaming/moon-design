@@ -2,23 +2,23 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Colours from '../../public/examples/labelTW/Colours';
-import Default from '../../public/examples/labelTW/Default';
-import Icons from '../../public/examples/labelTW/Icons';
-import LetterCases from '../../public/examples/labelTW/LetterCases';
-import Sizes from '../../public/examples/labelTW/Sizes';
+import Colours from '../../public/examples/tagTW/Colours';
+import Default from '../../public/examples/tagTW/Default';
+import Icons from '../../public/examples/tagTW/Icons';
+import LetterCases from '../../public/examples/tagTW/LetterCases';
+import Sizes from '../../public/examples/tagTW/Sizes';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('labelTW');
+  const examples = useExamples('tagTW');
   return (
     <>
-      <ComponentPageDescription title="Label" isInProgress>
+      <ComponentPageDescription title="Tag" isInProgress>
         <p>
-          Labels represent a set of interactive keywords that help organize and
+          Tag represent a set of interactive keywords that help organize and
           categorize objects.
         </p>
-        <p>Labels can be added or removed from an object.</p>
+        <p>Tags can be added or removed from an object.</p>
       </ComponentPageDescription>
       <Preview
         title="Default"
@@ -36,7 +36,7 @@ const Example = () => {
         code={examples ? examples.Sizes : 'Loading'}
       />
       <Preview
-        title="Label with icons"
+        title="Tag with icons"
         preview={<Icons />}
         code={examples ? examples.Icons : 'Loading'}
       />
@@ -46,7 +46,7 @@ const Example = () => {
         code={examples ? examples.LetterCases : 'Loading'}
       />
       <PropsTable
-        title="Label props"
+        title="Tag props"
         data={[
           {
             name: 'bgColor',
@@ -95,7 +95,7 @@ const Example = () => {
             type: '2xs | xs',
             required: false,
             default: 'xs',
-            description: 'Size of label',
+            description: 'Size of tag',
           },
         ]}
       />

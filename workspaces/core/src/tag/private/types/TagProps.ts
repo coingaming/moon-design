@@ -1,4 +1,4 @@
-type LabelProps = {
+type TagProps = {
   color?: string;
   bgColor?: string;
   iconLeft?: React.ReactElement;
@@ -8,4 +8,4 @@ type LabelProps = {
   children?: React.ReactNode;
 };
 
-export default LabelProps;
+export default TagProps;

@@ -1,6 +1,6 @@
-import type LabelProps from '../types/LabelProps';
+import type TagProps from '../types/TagProps';
 
-const setSpacing = ({ size, iconRight, iconLeft }: LabelProps) => {
+const setSpacing = ({ size, iconRight, iconLeft }: TagProps) => {
   if (size === '2xs') {
     if (iconLeft && !iconRight) {
       return 'py-0 ps-0.5 pe-2';
