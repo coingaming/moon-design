@@ -1,4 +1,4 @@
-import React, { createContext, MutableRefObject, ReactNode, useContext, useRef } from 'react';
+import React, { createContext, useContext, useRef } from 'react';
 import * as RadixAccordion from '@radix-ui/react-accordion';
 import mergeClassnames from '../utils/mergeClassnames';
 import AccordionItemState from './private/types/AccordionItemState';
@@ -135,7 +135,7 @@ const Button: React.FC<ButtonProps> = ({ children, className }) => {
   );
 };
 
-const Content: React.FC<{ className: string }> = ({ children, className }) => {
+const Content: React.FC<{ className?: string }> = ({ children, className }) => {
   const { contentElement } = useAccordionItemContext('Accordion.Content');
   return (
     <RadixAccordion.Content
@@ -150,7 +150,7 @@ const Content: React.FC<{ className: string }> = ({ children, className }) => {
   );
 };
 
-const ContentOutside: React.FC<{ className: string }> = ({ children, className }) => {
+const ContentOutside: React.FC<{ className?: string }> = ({ children, className }) => {
   const { size } = useAccordionItemContext('Accordion.ContentOutside');
   return (
     <RadixAccordion.Content
