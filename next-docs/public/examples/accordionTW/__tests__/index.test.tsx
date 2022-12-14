@@ -79,15 +79,6 @@ describe('Accordion in Light Theme', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<Background />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('expands Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findByType('button');
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
 });
 
 describe('Accordion in Dark Theme', () => {
@@ -137,15 +128,6 @@ describe('Accordion in Dark Theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Background />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('expands Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findByType('button');
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
 });
 
 describe('Accordion in RTL', () => {
@@ -189,15 +171,6 @@ describe('Accordion in RTL', () => {
   });
   it('renders Background', () => {
     const testRenderer = renderer.create(renderWithRtl(<Background />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('expands Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findByType('button');
-      button && button?.props?.onClick();
-    });
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
