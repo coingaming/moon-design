@@ -63,7 +63,7 @@ const Example = () => {
         code={examples ? examples.Hint : 'Loading'}
       />
       <Preview
-        title="Custom background colour"
+        title="Custom styles"
         preview={<Bg />}
         code={examples ? examples.Bg : 'Loading'}
       />
