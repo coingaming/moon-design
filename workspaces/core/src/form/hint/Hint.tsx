@@ -5,9 +5,15 @@ import { useFormItemContext } from '../Form';
 type HintProps = {
   error?: boolean;
   className?: string;
+  disabled?: boolean;
 };
 
-const Hint: React.FC<HintProps> = ({ children, error, className }) => {
+const Hint: React.FC<HintProps> = ({
+  children,
+  error,
+  disabled,
+  className,
+}) => {
   const { error: formItemError } = useFormItemContext('Label');
   return (
     <p
@@ -15,6 +21,7 @@ const Hint: React.FC<HintProps> = ({ children, error, className }) => {
       className={mergeClassnames(
         'inline-block mt-2 ps-4 text-moon-12',
         error || formItemError ? 'text-chiChi' : 'text-trunks',
+        disabled && 'opacity-30 cursor-not-allowed',
         className && className
       )}
     >

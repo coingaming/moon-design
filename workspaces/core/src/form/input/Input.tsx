@@ -42,6 +42,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
         ref={ref}
         type={type}
         id={id}
+        disabled={disabled}
         className={mergeClassnames(
           'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2]',
           'bg-gohan shadow-input hover:shadow-input-hov',

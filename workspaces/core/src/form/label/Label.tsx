@@ -10,7 +10,7 @@ type LabelProps = {
   size?: 'sm' | 'md' | 'lg';
   disabled?: boolean;
 };
-const LabelInput = forwardRef<HTMLLabelElement, WithChildren<LabelProps>>(
+const Label = forwardRef<HTMLLabelElement, WithChildren<LabelProps>>(
   (
     { children, size: labelSize, disabled: labelDisabled, className, ...rest },
     ref
@@ -37,4 +37,4 @@ const LabelInput = forwardRef<HTMLLabelElement, WithChildren<LabelProps>>(
   }
 );
 
-export default LabelInput;
+export default Label;
