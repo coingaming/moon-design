@@ -5,7 +5,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import Default from '../Default';
-import NoLabel from '../NoLabel';
+import WithRadioButtonGroup from '../WithRadioButtonGroup';
 import Disabled from '../Disabled';
 import Checked from '../Checked';
 import ReadOnly from '../ReadOnly';
@@ -15,6 +15,7 @@ import {
   moonDesignLight,
   ThemeProvider,
 } from '@heathmont/moon-themes';
+import Customization from '../Customization';
 
 const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -37,8 +38,10 @@ describe('RadioButton in Light Theme', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<WithLabel />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders NoLabel', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<NoLabel />));
+  it('renders WithRadioButtonGroup', () => {
+    const testRenderer = renderer.create(
+      renderWithLightTheme(<WithRadioButtonGroup />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Checked', () => {
@@ -53,6 +56,12 @@ describe('RadioButton in Light Theme', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<ReadOnly />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders Customization', () => {
+    const testRenderer = renderer.create(
+      renderWithLightTheme(<Customization />)
+    );
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 });
 
 describe('RadioButton in Dark Theme', () => {
@@ -64,8 +73,10 @@ describe('RadioButton in Dark Theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<WithLabel />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders NoLabel', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<NoLabel />));
+  it('renders WithRadioButtonGroup', () => {
+    const testRenderer = renderer.create(
+      renderWithDarkTheme(<WithRadioButtonGroup />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Checked', () => {
@@ -80,6 +91,12 @@ describe('RadioButton in Dark Theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<ReadOnly />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders Customization', () => {
+    const testRenderer = renderer.create(
+      renderWithDarkTheme(<Customization />)
+    );
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 });
 
 describe('RadioButton in RTL', () => {
@@ -91,8 +108,10 @@ describe('RadioButton in RTL', () => {
     const testRenderer = renderer.create(renderWithRtl(<WithLabel />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders NoLabel', () => {
-    const testRenderer = renderer.create(renderWithRtl(<NoLabel />));
+  it('renders WithRadioButtonGroup', () => {
+    const testRenderer = renderer.create(
+      renderWithRtl(<WithRadioButtonGroup />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Checked', () => {
@@ -105,6 +124,10 @@ describe('RadioButton in RTL', () => {
   });
   it('renders ReadOnly', () => {
     const testRenderer = renderer.create(renderWithRtl(<ReadOnly />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Customization', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Customization />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

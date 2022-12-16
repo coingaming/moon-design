@@ -3,18 +3,24 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/radioButtonTW/Checked';
+import Customization from '../../public/examples/radioButtonTW/Customization';
 import Default from '../../public/examples/radioButtonTW/Default';
 import Disabled from '../../public/examples/radioButtonTW/Disabled';
-import NoLabel from '../../public/examples/radioButtonTW/NoLabel';
 import ReadOnly from '../../public/examples/radioButtonTW/ReadOnly';
 import WithLabel from '../../public/examples/radioButtonTW/WithLabel';
+import WithRadioButtonGroup from '../../public/examples/radioButtonTW/WithRadioButtonGroup';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('radioButtonTW');
   return (
     <>
-      <ComponentPageDescription title="RadioButton" isInProgress>
+      <ComponentPageDescription
+        title="RadioButton"
+        isInProgress
+        isAriaSupport
+        isRtlSupport
+      >
         <p>
           Radio buttons are used to represent a group of choices whereby users
           can only select one option.
@@ -36,9 +42,9 @@ const Example = () => {
         code={examples ? examples.WithLabel : 'Loading'}
       />
       <Preview
-        title="No Label"
-        preview={<NoLabel />}
-        code={examples ? examples.NoLabel : 'Loading'}
+        title="With RadioButtonGroup"
+        preview={<WithRadioButtonGroup />}
+        code={examples ? examples.WithRadioButtonGroup : 'Loading'}
       />
       <Preview
         title="Checked"
@@ -54,6 +60,11 @@ const Example = () => {
         title="ReadOnly"
         preview={<ReadOnly />}
         code={examples ? examples.ReadOnly : 'Loading'}
+      />
+      <Preview
+        title="Customization"
+        preview={<Customization />}
+        code={examples ? examples.Customization : 'Loading'}
       />
       <PropsTable
         title="RadioButton props"
@@ -71,6 +82,20 @@ const Example = () => {
             required: false,
             default: 'false',
             description: 'Checked state of RadioButton',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind class for unchecked state of RadioButton',
+          },
+          {
+            name: 'color',
+            type: 'string',
+            required: false,
+            default: 'border-piccolo',
+            description: 'Tailwind class for checked state of RadioButton',
           },
           {
             name: 'disabled',
