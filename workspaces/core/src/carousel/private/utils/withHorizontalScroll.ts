@@ -108,10 +108,15 @@ const calculateActualScrollForIndex = (
 const showHideIndicator = (
   itemRefs: HTMLElement[],
   setLeftIndicator: (isShow: boolean) => void,
-  setRightIndicator: (isShow: boolean) => void
+  setRightIndicator: (isShow: boolean) => void,
+  setFirstVisibleIndex: (index: number) => void,
+  setLastVisibleIndex: (index: number) => void
 ) => {
   const firstVisibleIndex = findFirstVisibleIndex(itemRefs);
   const lastVisibleIndex = findLastVisibleIndex(itemRefs);
+  setFirstVisibleIndex(firstVisibleIndex);
+  setLastVisibleIndex(lastVisibleIndex);
+  console.log(`visible ${firstVisibleIndex}-${lastVisibleIndex}`)
   lastVisibleIndex < itemRefs.length - 1
     ? setRightIndicator(true)
     : setRightIndicator(false);
@@ -129,6 +134,9 @@ const showHideIndicator = (
 export const withHorizontalScroll = (options: Options): any => {
   const [leftIndicator, setLeftIndicator] = React.useState(false);
   const [rightIndicator, setRightIndicator] = React.useState(false);
+  const [firstVisibleIndex, setFirstVisibleIndex] = React.useState(-1);
+  const [lastVisibleIndex, setLastVisibleIndex] = React.useState(-1);
+  const [itemsCount, setItemsCount] = React.useState(0);
   const containerRef = React.useRef(null);
 
   const { scrollStep, scrollInContainer, scrollTo } = options;
@@ -147,6 +155,8 @@ export const withHorizontalScroll = (options: Options): any => {
             itemRefs,
             setLeftIndicator,
             setRightIndicator,
+            setFirstVisibleIndex,
+            setLastVisibleIndex
           );
         });
       },
@@ -179,6 +189,7 @@ export const withHorizontalScroll = (options: Options): any => {
       return;
     }
     itemRefs.push(element);
+    setItemsCount(itemRefs.length);
   };
 
   React.useEffect(() => {
@@ -209,6 +220,8 @@ export const withHorizontalScroll = (options: Options): any => {
   return {
     itemRef,
     containerRef,
+    firstVisibleIndex,
+    lastVisibleIndex,
     scrollLeftToStep: () =>
       scrollLeftToStep(
         scrollStep || 0,
@@ -231,6 +244,7 @@ export const withHorizontalScroll = (options: Options): any => {
       ),
     canScrollLeft: leftIndicator,
     canScrollRight: rightIndicator,
+    itemsCount,
   };
 };
 
