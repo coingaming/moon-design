@@ -463,7 +463,7 @@ module.exports = {
       });
     }),
     plugin(function ({ addVariant }) {
-      for (let state of ['open', 'checked', 'selected', 'active', 'disabled']) {
+      for (let state of ['checked', 'selected', 'active', 'disabled']) {
         addVariant(`moon-${state}`, [
           `&[aria-${state}="true"]`,
           `:where([aria-${state}="true"]) &`,
@@ -473,6 +473,12 @@ module.exports = {
           `:where([aria-${state}="false"]) &`,
         ]);
       }
+      addVariant(`moon-open`, [
+        `&[aria-open="true"]`,
+        `:where([aria-open="true"]) &`,
+        `&[data-state="open"]`,
+        `:where([data-state="open"]) &`,
+      ]);
     }),
   ],
 };
