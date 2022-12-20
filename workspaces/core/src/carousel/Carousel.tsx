@@ -7,11 +7,12 @@ import mergeClassnames from '../utils/mergeClassnames';
 import withHorizontalScroll from './private/utils/withHorizontalScroll';
 
 type CarouselState = {
-  itemRef?: any;
+  itemRef?: RefObject<HTMLLIElement>;
   scrollLeftToStep?: () => void;
   scrollRightToStep?: () => void;
   canScrollLeft?: boolean;
   canScrollRight?: boolean;
+  containerRef?: RefObject<HTMLUListElement>;
 };
 
 const CarouselContext = createContext<CarouselState>({});
@@ -60,11 +61,9 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
   }, []);
 
   return (
-    <CarouselContext.Provider value={{itemRef, scrollLeftToStep, scrollRightToStep, canScrollLeft, canScrollRight}}>
+    <CarouselContext.Provider value={{itemRef, scrollLeftToStep, scrollRightToStep, canScrollLeft, canScrollRight, containerRef}}>
       <div className={mergeClassnames('relative w-full', className)}>
-        <Reel containerRef={containerRef}>
-          { children }
-        </Reel>
+        { typeof children === 'function' ? children({scrollLeftToStep, scrollRightToStep}) : children }
       </div>
     </CarouselContext.Provider>
   );
@@ -73,6 +72,28 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
 type SubcomponentProps = {
   className?: string;
 }
+
+const Reel: React.FC<SubcomponentProps> = ({
+  children,
+  className,
+}) => {
+  const { containerRef } = useCarouselContext('Carousel.Reel');
+  return (
+    <ul className={mergeClassnames(
+      'flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll',
+      '[-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar]',
+      '[&>li]:list-none [&>li]:before:absolute [&>li]:before:content-["\\200B"]',
+      '[&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto',
+      'rtl:[&>*+*]:mr-4 ltr:[&>*+*]:ml-4',
+      'snap-mandatory',
+      className,
+    )}
+      ref={containerRef}
+    >
+      { children }
+    </ul>
+  );
+};
 
 const Item: React.FC<SubcomponentProps> = ({
   children,
@@ -125,29 +146,8 @@ const RightArrow: React.FC<SubcomponentProps> = ({ children, className }) => {
   );
 };
 
-type ReelProps = {
-  className?: string;
-  containerRef?: RefObject<HTMLUListElement>;
-}
-
-const Reel: React.FC<ReelProps> = ({ children, containerRef }) => {
-  return (
-    <ul className={mergeClassnames(
-      'flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll',
-      '[-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar]',
-      '[&>li]:list-none [&>li]:before:absolute [&>li]:before:content-["\\200B"]',
-      '[&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto',
-      'rtl:[&>*+*]:mr-4 ltr:[&>*+*]:ml-4',
-      'snap-mandatory'
-    )}
-      ref={containerRef}
-    >
-      { children }
-    </ul>
-  );
-};
-
 const Carousel = Object.assign(CarouselRoot, {
+  Reel,
   LeftArrow,
   RightArrow,
   Item,

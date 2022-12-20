@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Carousel } from "@heathmont/moon-core-tw";
 
 const Example = () => {
@@ -5,17 +6,22 @@ const Example = () => {
   return (
     <Carousel
       scrollTo={5}
-      className="my-7"
     >
-      <Carousel.LeftArrow className="top-0 border-none bg-none shadow-none moon-text-14">
-        Scroll to left
-      </Carousel.LeftArrow>
-      {items.map((item, index) => (
-        <Carousel.Item key={index} className="w-[320px] h-[192px] flex bg-[darkgray] rounded-[0.5rem] items-center justify-center">{index}</Carousel.Item>
-      ))}
-      <Carousel.RightArrow className="bottom-0 top-auto shadow-none bg-none border-none moon-text-14 left-0 right-auto m-0">
-        Scroll to Right
-      </Carousel.RightArrow>
+      {({scrollLeftToStep, scrollRightToStep}) => (
+        <>
+          <button onClick={scrollLeftToStep}>
+            Scroll to left
+          </button>
+          <Carousel.Reel>
+            {items.map((_, index) => (
+              <Carousel.Item key={index} className="w-[320px] h-[192px] flex bg-[darkgray] rounded-[0.5rem] items-center justify-center">{index}</Carousel.Item>
+            ))}
+          </Carousel.Reel>
+          <button onClick={scrollRightToStep}>
+            Scroll to Right
+          </button>
+        </>
+      )}
     </Carousel>
   );
 };
