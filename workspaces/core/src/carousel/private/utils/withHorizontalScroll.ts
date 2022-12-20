@@ -7,6 +7,7 @@ export const THRESHOLD = 0.75;
 type Options = {
   scrollStep?: number;
   scrollInContainer?: boolean;
+  scrollTo?: number;
 };
 
 const findLastVisibleIndex = (childRefs: any[]): any => {
@@ -37,6 +38,12 @@ const scrollToIndex = (
       behavior: 'smooth',
       boundary: containerRef,
     });
+
+    // scrollIntoViewSmoothly doesn't work for scrolling rtl in rtl mode
+    if (itemRef.offsetLeft < 0) {
+      console.log(itemRef, itemRef.offsetLeft);
+      itemRef.scrollIntoView({behavior: "smooth", inline: 'center'});
+    }
   }
 };
 
@@ -101,14 +108,10 @@ const calculateActualScrollForIndex = (
 const showHideIndicator = (
   itemRefs: HTMLElement[],
   setLeftIndicator: (isShow: boolean) => void,
-  setRightIndicator: (isShow: boolean) => void,
-  setFirstVisibleIndex: (index: number) => void,
-  setLastVisibleIndex: (index: number) => void
+  setRightIndicator: (isShow: boolean) => void
 ) => {
   const firstVisibleIndex = findFirstVisibleIndex(itemRefs);
   const lastVisibleIndex = findLastVisibleIndex(itemRefs);
-  setFirstVisibleIndex(firstVisibleIndex);
-  setLastVisibleIndex(lastVisibleIndex);
   lastVisibleIndex < itemRefs.length - 1
     ? setRightIndicator(true)
     : setRightIndicator(false);
@@ -126,11 +129,9 @@ const showHideIndicator = (
 export const withHorizontalScroll = (options: Options): any => {
   const [leftIndicator, setLeftIndicator] = React.useState(false);
   const [rightIndicator, setRightIndicator] = React.useState(false);
-  const [firstVisibleIndex, setFirstVisibleIndex] = React.useState(-1);
-  const [lastVisibleIndex, setLastVisibleIndex] = React.useState(-1);
   const containerRef = React.useRef(null);
 
-  const { scrollStep, scrollInContainer } = options;
+  const { scrollStep, scrollInContainer, scrollTo } = options;
 
   const itemRefs: HTMLElement[] = [];
   let scrollIntoViewSmoothly: any = scrollIntoView;
@@ -146,8 +147,6 @@ export const withHorizontalScroll = (options: Options): any => {
             itemRefs,
             setLeftIndicator,
             setRightIndicator,
-            setFirstVisibleIndex,
-            setLastVisibleIndex
           );
         });
       },
@@ -182,11 +181,34 @@ export const withHorizontalScroll = (options: Options): any => {
     itemRefs.push(element);
   };
 
+  React.useEffect(() => {
+    if (!scrollTo || !itemRefs.length) {
+      return;
+    }
+    // We scroll for another extra item because we defined our THRESHOLD = 0.75;
+    // It means that item will be visible for 75%.
+    // We scroll one more to guarantee 100% visibility.
+    // "items.length - 1" because indices start from 0.
+    if (scrollTo && scrollTo < itemRefs.length - 1) {
+      scrollToIndex(
+        itemRefs[scrollTo + 1],
+        scrollIntoViewSmoothly,
+        scrollInContainer && containerRef && containerRef.current
+      )
+    }
+    // No point for scroll another extra item because that's the last one
+    if (scrollTo && scrollTo === itemRefs.length - 1) {
+      scrollToIndex(
+        itemRefs[scrollTo],
+        scrollIntoViewSmoothly,
+        scrollInContainer && containerRef && containerRef.current
+      )
+    }
+  }, []);
+
   return {
     itemRef,
     containerRef,
-    firstVisibleIndex,
-    lastVisibleIndex,
     scrollLeftToStep: () =>
       scrollLeftToStep(
         scrollStep || 0,
