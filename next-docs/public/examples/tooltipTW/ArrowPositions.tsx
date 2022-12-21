@@ -7,7 +7,7 @@ const Example = () => (
         <Tooltip.Trigger>
           <Chip>Trigger</Chip>
         </Tooltip.Trigger>
-        <Tooltip.Content align="start">
+        <Tooltip.Content position="top-start">
           Top-start position
           <Tooltip.Arrow />
         </Tooltip.Content>
@@ -25,7 +25,7 @@ const Example = () => (
         <Tooltip.Trigger>
           <Chip>Trigger</Chip>
         </Tooltip.Trigger>
-        <Tooltip.Content align="end">
+        <Tooltip.Content position="top-end">
           Top-end position
           <Tooltip.Arrow />
         </Tooltip.Content>
@@ -34,7 +34,7 @@ const Example = () => (
         <Tooltip.Trigger>
           <Chip>Trigger</Chip>
         </Tooltip.Trigger>
-        <Tooltip.Content side="right">
+        <Tooltip.Content position="right">
           Right side position
           <Tooltip.Arrow />
         </Tooltip.Content>
@@ -45,7 +45,7 @@ const Example = () => (
         <Tooltip.Trigger>
           <Chip>Trigger</Chip>
         </Tooltip.Trigger>
-        <Tooltip.Content align="start" side="bottom">
+        <Tooltip.Content position="bottom-start">
           Bottom-start position
           <Tooltip.Arrow />
         </Tooltip.Content>
@@ -54,7 +54,7 @@ const Example = () => (
         <Tooltip.Trigger>
           <Chip>Trigger</Chip>
         </Tooltip.Trigger>
-        <Tooltip.Content side="bottom">
+        <Tooltip.Content position="bottom-center">
           Bottom-center position
           <Tooltip.Arrow />
         </Tooltip.Content>
@@ -63,7 +63,7 @@ const Example = () => (
         <Tooltip.Trigger>
           <Chip>Trigger</Chip>
         </Tooltip.Trigger>
-        <Tooltip.Content align="end" side="bottom">
+        <Tooltip.Content position="bottom-end">
           Bottom-end position
           <Tooltip.Arrow />
         </Tooltip.Content>
@@ -72,7 +72,7 @@ const Example = () => (
         <Tooltip.Trigger>
           <Chip>Trigger</Chip>
         </Tooltip.Trigger>
-        <Tooltip.Content side="left">
+        <Tooltip.Content position="left">
           Left side position
           <Tooltip.Arrow />
         </Tooltip.Content>

@@ -48,17 +48,69 @@ const useTooltipContext = (component: string) => {
   return context;
 };
 
+type Side = 'top' | 'right' | 'bottom' | 'left';
+type Align = 'start' | 'center' | 'end' | undefined;
+type Position =
+  | 'top-start'
+  | 'top-center'
+  | 'top-end'
+  | 'bottom-start'
+  | 'bottom-center'
+  | 'bottom-end'
+  | 'right'
+  | 'left';
+
 type ContentProps = {
-  side?: 'top' | 'right' | 'bottom' | 'left';
-  align?: 'start' | 'center' | 'end';
+  position?: Position;
   withShadow?: boolean;
   className?: string;
   children?: React.ReactNode;
 };
 
+const getSide = (position: ContentProps['position']): Side => {
+  switch (position) {
+    case 'top-start':
+      return 'top';
+    case 'top-end':
+      return 'top';
+    case 'bottom-start':
+      return 'bottom';
+    case 'bottom-center':
+      return 'bottom';
+    case 'bottom-end':
+      return 'bottom';
+    case 'left':
+      return 'left';
+    case 'right':
+      return 'right';
+    default:
+      return 'top';
+  }
+};
+
+const getAlign = (position: ContentProps['position']): Align => {
+  switch (position) {
+    case 'top-start':
+      return 'start';
+    case 'top-end':
+      return 'end';
+    case 'bottom-start':
+      return 'start';
+    case 'bottom-center':
+      return 'center';
+    case 'bottom-end':
+      return 'end';
+    case 'left':
+      return undefined;
+    case 'right':
+      return undefined;
+    default:
+      return 'center';
+  }
+};
+
 const Content: React.FC<ContentProps> = ({
-  side = 'top',
-  align = 'center',
+  position = 'top-center',
   withShadow = true,
   className,
   children,
@@ -79,8 +131,8 @@ const Content: React.FC<ContentProps> = ({
     <TooltipContext.Provider value={{ ...states, ...state, registerChild }}>
       <RadixTooltip.Portal>
         <RadixTooltip.Content
-          side={side}
-          align={align}
+          side={getSide(position)}
+          align={getAlign(position)}
           sideOffset={isArrow ? 4 : 8}
           className={mergeClassnames(
             'p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan',

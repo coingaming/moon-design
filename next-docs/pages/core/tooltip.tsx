@@ -82,13 +82,6 @@ const Example = () => {
         title="Tooltip.Content props"
         data={[
           {
-            name: 'align',
-            type: 'start | center | end',
-            required: false,
-            default: 'center',
-            description: 'Horizontal alignment of Tooltip',
-          },
-          {
             name: 'className',
             type: 'string',
             required: false,
@@ -96,10 +89,10 @@ const Example = () => {
             description: 'Tailwind classes for customization',
           },
           {
-            name: 'side',
-            type: 'top | right | bottom | left',
+            name: 'position',
+            type: 'top-start | top-center | top-end | bottom-start | bottom-center | bottom-end | right | left',
             required: false,
-            default: 'top',
+            default: 'top-center',
             description: 'Position of Tooltip',
           },
           {
