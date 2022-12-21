@@ -67,6 +67,15 @@ const mergeClassnames = extendTailwindMerge({
         ],
       },
     ],
+    boxShadow: [
+      {
+        shadow: [
+          {
+            moon: ['xs', 'sm', 'md', 'lg', 'xl'],
+          },
+        ],
+      },
+    ],
   },
 });
 
