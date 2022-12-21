@@ -89,13 +89,6 @@ const Example = () => {
             description: 'Horizontal alignment of Tooltip',
           },
           {
-            name: 'bgColor',
-            type: 'string',
-            required: false,
-            default: 'bg-gohan',
-            description: 'Tailwind class for background colour customization',
-          },
-          {
             name: 'className',
             type: 'string',
             required: false,
@@ -110,18 +103,23 @@ const Example = () => {
             description: 'Position of Tooltip',
           },
           {
-            name: 'withArrow',
-            type: 'boolean',
-            required: false,
-            default: 'true',
-            description: 'Shows Tooltip arrow',
-          },
-          {
             name: 'withShadow',
             type: 'boolean',
             required: false,
             default: 'true',
             description: 'Shows Tooltip shadow',
+          },
+        ]}
+      />
+      <PropsTable
+        title="Tooltip.Arrow props"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
           },
         ]}
       />

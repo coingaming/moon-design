@@ -5,7 +5,10 @@ const Example = () => (
     <Tooltip.Trigger>
       <Chip>Trigger</Chip>
     </Tooltip.Trigger>
-    <Tooltip.Content>This is the default tooltip</Tooltip.Content>
+    <Tooltip.Content>
+      This is the default tooltip
+      <Tooltip.Arrow />
+    </Tooltip.Content>
   </Tooltip>
 );
 
