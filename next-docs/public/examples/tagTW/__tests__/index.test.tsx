@@ -27,7 +27,7 @@ const renderWithRtl = (component: JSX.Element) => (
   <div dir="rtl">{component}</div>
 );
 
-describe('Label in Light Theme', () => {
+describe('Tag in Light Theme', () => {
   it('renders Deafult', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
@@ -50,7 +50,7 @@ describe('Label in Light Theme', () => {
   });
 });
 
-describe('Label in Dark Theme', () => {
+describe('Tag in Dark Theme', () => {
   it('renders Deafult', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
@@ -73,7 +73,7 @@ describe('Label in Dark Theme', () => {
   });
 });
 
-describe('Label in RTL', () => {
+describe('Tag in RTL', () => {
   it('renders Deafult', () => {
     const testRenderer = renderer.create(renderWithRtl(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();

@@ -1,4 +1,4 @@
-import { Label } from '@heathmont/moon-core-tw';
+import { Tag } from '@heathmont/moon-core-tw';
 import Image, { StaticImageData } from 'next/image';
 
 type Props = {
@@ -30,24 +30,24 @@ const ComponentPageDescription: React.FC<Props> = ({
           {isLabelsVisible && (
             <div className="flex items-start gap-2">
               {isDeprecated && (
-                <Label size="2xs" bgColor="bg-chiChi-60" color="text-popo">
+                <Tag size="2xs" bgColor="bg-chiChi-60" color="text-popo">
                   Deprecated
-                </Label>
+                </Tag>
               )}
               {isInProgress && (
-                <Label size="2xs" bgColor="bg-krillin-60" color="text-popo">
+                <Tag size="2xs" bgColor="bg-krillin-60" color="text-popo">
                   In progress
-                </Label>
+                </Tag>
               )}
               {isAriaSupport && (
-                <Label size="2xs" bgColor="bg-nappa" color="text-goten">
+                <Tag size="2xs" bgColor="bg-nappa" color="text-goten">
                   ARIA
-                </Label>
+                </Tag>
               )}
               {isRtlSupport && (
-                <Label size="2xs" bgColor="bg-whis" color="text-goten">
+                <Tag size="2xs" bgColor="bg-whis" color="text-goten">
                   RTL
-                </Label>
+                </Tag>
               )}
             </div>
           )}

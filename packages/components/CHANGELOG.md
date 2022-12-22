@@ -1,5 +1,19 @@
 # Change Log
 
+## 9.16.0
+
+### Minor Changes
+
+- Accordeion, Tag, Tooltip
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.16.0
+  - @heathmont/moon-icons@9.16.0
+  - @heathmont/moon-themes@9.16.0
+  - @heathmont/moon-utils@9.16.0
+
 ## 9.15.2
 
 ### Patch Changes

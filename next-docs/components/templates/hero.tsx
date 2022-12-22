@@ -1,5 +1,5 @@
-import React, {ReactElement} from "react";
-import Image, {StaticImageData} from "next/image";
+import React, { ReactElement } from 'react';
+import Image, { StaticImageData } from 'next/image';
 
 interface Props {
   headline: ReactElement;

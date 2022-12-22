@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Label in Dark Theme renders Colours 1`] = `
+exports[`Tag in Dark Theme renders Colours 1`] = `
 Array [
   <div
     className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
@@ -20,7 +20,7 @@ Array [
 ]
 `;
 
-exports[`Label in Dark Theme renders Deafult 1`] = `
+exports[`Tag in Dark Theme renders Deafult 1`] = `
 <div
   className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
 >
@@ -28,7 +28,7 @@ exports[`Label in Dark Theme renders Deafult 1`] = `
 </div>
 `;
 
-exports[`Label in Dark Theme renders Icons 1`] = `
+exports[`Tag in Dark Theme renders Icons 1`] = `
 Array [
   <div
     className="flex flex-wrap items-center justify-around gap-2 w-full"
@@ -190,7 +190,7 @@ Array [
 ]
 `;
 
-exports[`Label in Dark Theme renders LetterCases 1`] = `
+exports[`Tag in Dark Theme renders LetterCases 1`] = `
 Array [
   <div
     className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
@@ -205,7 +205,7 @@ Array [
 ]
 `;
 
-exports[`Label in Dark Theme renders Sizes 1`] = `
+exports[`Tag in Dark Theme renders Sizes 1`] = `
 Array [
   <div
     className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-2 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
@@ -230,7 +230,7 @@ Array [
 ]
 `;
 
-exports[`Label in Light Theme renders Colours 1`] = `
+exports[`Tag in Light Theme renders Colours 1`] = `
 Array [
   <div
     className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
@@ -250,7 +250,7 @@ Array [
 ]
 `;
 
-exports[`Label in Light Theme renders Deafult 1`] = `
+exports[`Tag in Light Theme renders Deafult 1`] = `
 <div
   className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
 >
@@ -258,7 +258,7 @@ exports[`Label in Light Theme renders Deafult 1`] = `
 </div>
 `;
 
-exports[`Label in Light Theme renders Icons 1`] = `
+exports[`Tag in Light Theme renders Icons 1`] = `
 Array [
   <div
     className="flex flex-wrap items-center justify-around gap-2 w-full"
@@ -420,7 +420,7 @@ Array [
 ]
 `;
 
-exports[`Label in Light Theme renders LetterCases 1`] = `
+exports[`Tag in Light Theme renders LetterCases 1`] = `
 Array [
   <div
     className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
@@ -435,7 +435,7 @@ Array [
 ]
 `;
 
-exports[`Label in Light Theme renders Sizes 1`] = `
+exports[`Tag in Light Theme renders Sizes 1`] = `
 Array [
   <div
     className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-2 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
@@ -460,7 +460,7 @@ Array [
 ]
 `;
 
-exports[`Label in RTL renders Colours 1`] = `
+exports[`Tag in RTL renders Colours 1`] = `
 <div
   dir="rtl"
 >
@@ -482,7 +482,7 @@ exports[`Label in RTL renders Colours 1`] = `
 </div>
 `;
 
-exports[`Label in RTL renders Deafult 1`] = `
+exports[`Tag in RTL renders Deafult 1`] = `
 <div
   dir="rtl"
 >
@@ -494,7 +494,7 @@ exports[`Label in RTL renders Deafult 1`] = `
 </div>
 `;
 
-exports[`Label in RTL renders Icons 1`] = `
+exports[`Tag in RTL renders Icons 1`] = `
 <div
   dir="rtl"
 >
@@ -658,7 +658,7 @@ exports[`Label in RTL renders Icons 1`] = `
 </div>
 `;
 
-exports[`Label in RTL renders LetterCases 1`] = `
+exports[`Tag in RTL renders LetterCases 1`] = `
 <div
   dir="rtl"
 >
@@ -675,7 +675,7 @@ exports[`Label in RTL renders LetterCases 1`] = `
 </div>
 `;
 
-exports[`Label in RTL renders Sizes 1`] = `
+exports[`Tag in RTL renders Sizes 1`] = `
 <div
   dir="rtl"
 >

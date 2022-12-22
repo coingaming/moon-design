@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Content from '../../public/examples/tooltip/Content';
 import Default from '../../public/examples/tooltip/Default';
@@ -12,7 +13,7 @@ export default function PageTooltip() {
   return (
     <>
       <ComponentPageDescription title="Tooltip">
-        <p>Tooltips offer further contextual information to users.</p>
+        <DeprecationWarning href="/core/tooltip" name="Tooltip" />
       </ComponentPageDescription>
       <Preview
         title="Default"
