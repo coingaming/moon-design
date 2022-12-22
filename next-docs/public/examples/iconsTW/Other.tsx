@@ -1,6 +1,7 @@
 import {
   Other3Dots,
   Other3DotsHorizontal,
+  OtherClaps,
   OtherFrame,
   OtherFreebet,
   OtherId,
@@ -35,6 +36,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="Other3DotsHorizontal">
       <Other3DotsHorizontal {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="OtherClaps">
+      <OtherClaps {...props} />
     </Icon>
     <Icon {...wrapperProps} name="OtherFrame">
       <OtherFrame {...props} />
