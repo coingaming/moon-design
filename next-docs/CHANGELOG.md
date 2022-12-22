@@ -1,5 +1,34 @@
 # Change Log
 
+## 9.16.0
+
+### Minor Changes
+
+- Accordeion, Tag, Tooltip
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.16.0
+  - @heathmont/moon-themes-tw@9.16.0
+  - @heathmont/moon-accordion@9.16.0
+  - @heathmont/moon-assets@9.16.0
+  - @heathmont/moon-charts@9.16.0
+  - @heathmont/moon-components@9.16.0
+  - @heathmont/moon-core@9.16.0
+  - @heathmont/moon-datepicker@9.16.0
+  - @heathmont/moon-draggabletable@9.16.0
+  - @heathmont/moon-icons@9.16.0
+  - @heathmont/moon-pagination@9.16.0
+  - @heathmont/moon-popover@9.16.0
+  - @heathmont/moon-select@9.16.0
+  - @heathmont/moon-sidebar@9.16.0
+  - @heathmont/moon-table@9.16.0
+  - @heathmont/moon-themes@9.16.0
+  - @heathmont/moon-utils@9.16.0
+  - @heathmont/moon-icons-tw@9.16.0
+  - @heathmont/moon-table-tw@9.16.0
+
 ## 9.15.2
 
 ### Patch Changes
