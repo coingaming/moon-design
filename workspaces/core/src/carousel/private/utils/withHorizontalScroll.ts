@@ -116,7 +116,6 @@ const showHideIndicator = (
   const lastVisibleIndex = findLastVisibleIndex(itemRefs);
   setFirstVisibleIndex(firstVisibleIndex);
   setLastVisibleIndex(lastVisibleIndex);
-  console.log(`visible ${firstVisibleIndex}-${lastVisibleIndex}`)
   lastVisibleIndex < itemRefs.length - 1
     ? setRightIndicator(true)
     : setRightIndicator(false);

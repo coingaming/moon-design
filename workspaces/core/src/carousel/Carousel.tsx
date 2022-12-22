@@ -7,7 +7,7 @@ import mergeClassnames from '../utils/mergeClassnames';
 import withHorizontalScroll from './private/utils/withHorizontalScroll';
 
 type CarouselState = {
-  itemRef?: RefObject<HTMLLIElement>;
+  itemRef?: (element: HTMLLIElement) => void;
   scrollLeftToStep?: () => void;
   scrollRightToStep?: () => void;
   canScrollLeft?: boolean;
@@ -40,6 +40,7 @@ type CarouselRootProps = {
   selectedIndex?: number;
 };
 
+// TODO: add auto slide with slide indicator timer
 const CarouselRoot: React.FC<CarouselRootProps> = ({
   children,
   scrollTo,
@@ -68,9 +69,16 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
   }, []);
 
   return (
-    <CarouselContext.Provider value={{itemRef, scrollLeftToStep, scrollRightToStep, canScrollLeft, canScrollRight, containerRef, selectedIndex, itemsCount, firstVisibleIndex, lastVisibleIndex}}>
+    <CarouselContext.Provider value={{
+      itemRef, scrollLeftToStep, scrollRightToStep, canScrollLeft, canScrollRight, containerRef,
+      selectedIndex, itemsCount, firstVisibleIndex, lastVisibleIndex
+    }}>
       <div className={mergeClassnames('relative w-full', className)}>
-        { typeof children === 'function' ? children({scrollLeftToStep, scrollRightToStep}) : children }
+        { 
+          typeof children === 'function' ?
+          children({scrollLeftToStep, scrollRightToStep, canScrollLeft, canScrollRight, firstVisibleIndex, lastVisibleIndex}) :
+          children
+        }
       </div>
     </CarouselContext.Provider>
   );
@@ -91,7 +99,7 @@ const Reel: React.FC<SubcomponentProps> = ({
       '[-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar]',
       '[&>li]:list-none [&>li]:before:absolute [&>li]:before:content-["\\200B"]',
       '[&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto',
-      'snap-mandatory',
+      'snap-x snap-mandatory',
       className,
     )}
       ref={containerRef}
@@ -101,13 +109,17 @@ const Reel: React.FC<SubcomponentProps> = ({
   );
 };
 
+// TODO: highlight selected item (mark it as selected)
 const Item: React.FC<SubcomponentProps> = ({
   children,
   className,
 }) => {
   const { itemRef } = useCarouselContext('Carousel.Item');
   return (
-    <li className={mergeClassnames('snap-center', className)} ref={itemRef}>
+    <li
+      className={mergeClassnames('snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center', className)}
+      ref={itemRef}
+    >
       {children}
     </li>
   );
@@ -122,7 +134,8 @@ type ControlProps = {
 const CarouselControl: React.FC<ControlProps> = ({ children, className, onClick, disabled }) => {
   return (
     <button className={mergeClassnames(
-      'max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5',
+      'max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan',
+      'text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5',
       'disabled:opacity-moon disabled:cursor-not-allowed',
       className,
     )}
@@ -137,7 +150,10 @@ const CarouselControl: React.FC<ControlProps> = ({ children, className, onClick,
 const LeftArrow: React.FC<SubcomponentProps> = ({ children, className }) => {
   const { scrollLeftToStep = () => {}, canScrollLeft } = useCarouselContext('Carousel.LeftArrow');
   return (
-    <CarouselControl className={mergeClassnames('rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180', className)} onClick={scrollLeftToStep} disabled={!canScrollLeft}>
+    <CarouselControl
+      className={mergeClassnames('rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180', className)}
+      onClick={scrollLeftToStep} disabled={!canScrollLeft}
+    >
       { children }
     </CarouselControl>
   );
@@ -146,7 +162,10 @@ const LeftArrow: React.FC<SubcomponentProps> = ({ children, className }) => {
 const RightArrow: React.FC<SubcomponentProps> = ({ children, className }) => {
   const { scrollRightToStep = () => {}, canScrollRight } = useCarouselContext('Carousel.RightArrow');
   return (
-    <CarouselControl className={mergeClassnames('rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180', className)} onClick={scrollRightToStep} disabled={!canScrollRight}>
+    <CarouselControl
+      className={mergeClassnames('rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180', className)}
+      onClick={scrollRightToStep} disabled={!canScrollRight}
+    >
       { children }
     </CarouselControl>
   );

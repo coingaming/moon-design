@@ -11,7 +11,7 @@ const Example = () => {
       </Carousel.LeftArrow>
       <Carousel.Reel className="gap-10">
         {items.map((_, index) => (
-          <Carousel.Item key={index} className="w-[320px] h-[192px] flex bg-gohan rounded-[0.5rem] items-center justify-center shink-0">{index}</Carousel.Item>
+          <Carousel.Item key={index} className="w-80 h-48">{index}</Carousel.Item>
         ))}
       </Carousel.Reel>
       <Carousel.RightArrow>
