@@ -1,5 +1,11 @@
 # @heathmont/moon-templates
 
+## 9.16.0
+
+### Minor Changes
+
+- Accordeion, Tag, Tooltip
+
 ## 9.15.2
 
 ### Patch Changes
