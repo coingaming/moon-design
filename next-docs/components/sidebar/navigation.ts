@@ -46,6 +46,7 @@ const navigation = [
       { name: 'Tag', href: '/core/tag' },
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInputGroup', href: '/core/textInputGroup' },
+      { name: 'Tooltip', href: '/core/tooltip' },
     ],
   },
   {
