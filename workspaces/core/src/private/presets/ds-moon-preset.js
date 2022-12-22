@@ -457,7 +457,7 @@ module.exports = {
             border: '3px solid transparent',
           },
           '&:hover::-webkit-scrollbar-thumb': {
-            backgroundColor: withOpacityValue('--goku'),
+            backgroundColor: 'rgb(var(--goku))',
           },
         },
       });
