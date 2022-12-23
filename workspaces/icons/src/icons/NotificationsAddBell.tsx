@@ -1,5 +1,4 @@
 import React from 'react';
-
 const NotificationsAddBell = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -16,5 +15,4 @@ const NotificationsAddBell = (props: React.SVGProps<SVGSVGElement>) => (
     <path d="M26.5 1.5v8m-4-4h8" stroke="currentColor" strokeLinecap="round" />
   </svg>
 );
-
 export default NotificationsAddBell;

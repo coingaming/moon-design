@@ -1,5 +1,4 @@
 import React from 'react';
-
 const OtherSun = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -16,5 +15,4 @@ const OtherSun = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default OtherSun;

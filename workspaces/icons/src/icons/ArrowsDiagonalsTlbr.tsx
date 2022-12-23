@@ -1,5 +1,4 @@
 import React from 'react';
-
 const ArrowsDiagonalsTlbr = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -17,5 +16,4 @@ const ArrowsDiagonalsTlbr = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default ArrowsDiagonalsTlbr;
