@@ -95,13 +95,6 @@ const Example = () => {
             default: 'top-center',
             description: 'Position of Tooltip',
           },
-          {
-            name: 'withShadow',
-            type: 'boolean',
-            required: false,
-            default: 'true',
-            description: 'Shows Tooltip shadow',
-          },
         ]}
       />
       <PropsTable
