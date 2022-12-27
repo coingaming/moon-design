@@ -12,7 +12,7 @@ import type TooltipRootProps from './private/types/TooltipRootProps';
 import type TriggerProps from './private/types/TriggerProps';
 
 const TooltipRoot: React.FC<TooltipRootProps> = ({ children }) => (
-  <RadixTooltip.Provider>
+  <RadixTooltip.Provider delayDuration={100}>
     <RadixTooltip.Root>{children}</RadixTooltip.Root>
   </RadixTooltip.Provider>
 );
