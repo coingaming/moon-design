@@ -226,9 +226,10 @@ importers:
       '@heathmont/moon-icons': link:../icons
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
+      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
 
   packages/assets:
     specifiers:
@@ -240,9 +241,10 @@ importers:
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
+      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
 
   packages/calendar:
     specifiers:
@@ -262,9 +264,10 @@ importers:
       '@heathmont/moon-utils': link:../utils
       '@types/date-fns': 2.6.0
       date-fns: 2.15.0
+      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
 
   packages/charts:
     specifiers:
@@ -292,13 +295,14 @@ importers:
       '@heathmont/moon-utils': link:../utils
       '@types/react-simple-maps': 1.0.3
       '@types/react-transition-group': 4.4.0
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
       react-simple-maps: 2.3.0_v2m5e27vhdewzwhryxwfaorcca
       react-transition-group: 4.4.1_biqbaboplfbrettd7655fr4n2y
       react-use: 15.3.8_biqbaboplfbrettd7655fr4n2y
       recharts: 2.0.9_v2m5e27vhdewzwhryxwfaorcca
       styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
 
   packages/components:
     specifiers:
@@ -326,14 +330,14 @@ importers:
       '@types/date-fns': 2.6.0
       date-fns: 2.15.0
       polished: 4.1.4
-      react: 18.2.0
       react-click-outside-hook: 1.1.1
-      react-dom: 18.2.0_react@18.2.0
       scroll-into-view-if-needed: 2.2.22
       smooth-scroll-into-view-if-needed: 1.1.27
       styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
     devDependencies:
       '@types/react-click-outside-hook': 1.0.0
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
 
   packages/core:
     specifiers:
@@ -355,9 +359,10 @@ importers:
       '@heathmont/moon-utils': link:../utils
       '@reach/listbox': 0.16.2_biqbaboplfbrettd7655fr4n2y
       polished: 4.1.4
+      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
 
   packages/datepicker:
     specifiers:
@@ -382,10 +387,11 @@ importers:
       '@types/date-fns': 2.6.0
       date-fns: 2.28.0
       polished: 4.1.4
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
       react-select: 5.7.0_7xlrwlvvs7cv2obrs6a5y6oxxq
       styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
 
   packages/draggabletable:
     specifiers:
@@ -412,14 +418,15 @@ importers:
       '@types/react-table': 7.7.6
       immutability-helper: 3.1.1
       polished: 4.1.4
-      react: 18.2.0
       react-dnd: 14.0.3_react@18.2.0
       react-dnd-html5-backend: 14.0.1
-      react-dom: 18.2.0_react@18.2.0
       react-table: 7.5.1_react@18.2.0
       react-table-hoc-fixed-columns: 2.3.3_biqbaboplfbrettd7655fr4n2y
       react-table-sticky: 1.1.3
       styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
 
   packages/fonts:
     specifiers:
@@ -437,9 +444,10 @@ importers:
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
+      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
 
   packages/icons:
     specifiers:
@@ -462,8 +470,6 @@ importers:
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
       styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
     devDependencies:
       '@types/node': 13.13.52
@@ -475,6 +481,8 @@ importers:
       figma-transformer: 2.1.0
       fs: 0.0.1-security
       ramda: 0.27.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
       rimraf: 3.0.2
       ts-node-dev: 1.1.8_typescript@4.9.4
 
@@ -488,9 +496,10 @@ importers:
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
+      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
 
   packages/pagination:
     specifiers:
@@ -513,10 +522,11 @@ importers:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
       '@types/react-paginate': 6.2.1
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
       react-paginate: 6.5.0_react@18.2.0
       styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
 
   packages/popover:
     specifiers:
@@ -536,9 +546,10 @@ importers:
       '@heathmont/moon-utils': link:../utils
       '@tippyjs/react': 4.2.0_biqbaboplfbrettd7655fr4n2y
       polished: 4.1.4
+      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
 
   packages/select:
     specifiers:
@@ -555,13 +566,13 @@ importers:
       '@heathmont/moon-core': link:../core
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
       react-merge-refs: 1.1.0
       react-select: 5.7.0_7xlrwlvvs7cv2obrs6a5y6oxxq
       styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
     devDependencies:
       '@babel/core': 7.20.7
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
 
   packages/sidebar:
     specifiers:
@@ -573,9 +584,10 @@ importers:
     dependencies:
       '@heathmont/moon-themes': link:../themes
       '@heathmont/moon-utils': link:../utils
+      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
 
   packages/table:
     specifiers:
@@ -598,12 +610,13 @@ importers:
       '@heathmont/moon-utils': link:../utils
       '@types/react-table': 7.7.6
       polished: 4.1.4
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
       react-table: 7.5.1_react@18.2.0
       react-table-hoc-fixed-columns: 2.3.3_biqbaboplfbrettd7655fr4n2y
       react-table-sticky: 1.1.3
       styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
 
   packages/themes:
     specifiers:
@@ -611,9 +624,10 @@ importers:
       react-dom: '>= 18.0.0'
       styled-components: '>= 5.3.5'
     dependencies:
+      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
+    devDependencies:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
-      styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
 
   packages/utils:
     specifiers:
@@ -631,12 +645,12 @@ importers:
       lodash.get: 4.4.2
       lodash.has: 4.5.2
       polished: 4.1.4
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
       styled-components: 5.3.6_7i5myeigehqah43i5u7wbekgba
     devDependencies:
       '@types/lodash.get': 4.4.6
       '@types/lodash.has': 4.5.6
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
 
   workspaces/core:
     specifiers:
@@ -658,11 +672,12 @@ importers:
       '@radix-ui/react-accordion': 1.0.1_biqbaboplfbrettd7655fr4n2y
       '@radix-ui/react-toast': 1.1.1_biqbaboplfbrettd7655fr4n2y
       '@radix-ui/react-tooltip': 1.0.2_biqbaboplfbrettd7655fr4n2y
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
       react-popper: 2.3.0_r6q5zrenym2zg7je7hgi674bti
       tailwind-merge: 1.8.0
       tailwindcss-radix: 2.6.1
+    devDependencies:
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
 
   workspaces/icons:
     specifiers:
@@ -679,9 +694,6 @@ importers:
       react-dom: '>= 18.0.0'
       rimraf: 3.0.2
       ts-node-dev: 1.1.8
-    dependencies:
-      react: 18.2.0
-      react-dom: 18.2.0_react@18.2.0
     devDependencies:
       '@types/node': 13.13.52
       '@types/ramda': 0.26.44
@@ -692,6 +704,8 @@ importers:
       figma-transformer: 2.1.0
       fs: 0.0.1-security
       ramda: 0.27.1
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
       rimraf: 3.0.2
       ts-node-dev: 1.1.8_typescript@4.9.4
 
@@ -784,6 +798,7 @@ packages:
       semver: 6.3.0
     transitivePeerDependencies:
       - supports-color
+    dev: true
 
   /@babel/core/7.20.7:
     resolution: {integrity: sha512-t1ZjCluspe5DW24bn2Rr1CDb2v9rn/hROtg9a2tmd0+QYf4bsloYfLQzjG4qHPNMhWtKdGC33R5AxGR2Af2cBw==}
@@ -841,6 +856,7 @@ packages:
       browserslist: 4.21.4
       lru-cache: 5.1.1
       semver: 6.3.0
+    dev: true
 
   /@babel/helper-compilation-targets/7.20.7_@babel+core@7.20.7:
     resolution: {integrity: sha512-4tGORmfQcrc+bvrjb5y3dG9Mx1IOZjsHqQVUz7XCNHO+iTmqxWnVg3KRygjGmpRLJGdQSKuvFinbIb0CnZwHAQ==}
@@ -3671,7 +3687,7 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       tiny-warning: 1.0.3
-      tslib: 2.4.1
+      tslib: 2.3.1
     dev: false
 
   /@reach/rect/0.16.0_biqbaboplfbrettd7655fr4n2y:
@@ -7766,7 +7782,7 @@ packages:
     resolution: {integrity: sha512-pzqtp31nLv/XFOzXGuvhCb8qhjmTVo5vjVk19XE4CRlSWz0KoeJ3bw9XsA7nOp9YBf4qHjwBxkDzKcME/J29Yg==}
     engines: {node: '>=8'}
     dependencies:
-      '@babel/core': 7.18.5
+      '@babel/core': 7.20.7
       '@babel/parser': 7.20.7
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.0
