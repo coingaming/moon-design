@@ -1,4 +1,5 @@
 import React from 'react';
+
 const MediaMp3 = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -14,4 +15,5 @@ const MediaMp3 = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default MediaMp3;

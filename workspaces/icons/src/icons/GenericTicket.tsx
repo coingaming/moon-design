@@ -1,4 +1,5 @@
 import React from 'react';
+
 const GenericTicket = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -21,4 +22,5 @@ const GenericTicket = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default GenericTicket;

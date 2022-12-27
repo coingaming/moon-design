@@ -1,4 +1,5 @@
 import React from 'react';
+
 const SecurityPassportAlert = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -18,4 +19,5 @@ const SecurityPassportAlert = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default SecurityPassportAlert;

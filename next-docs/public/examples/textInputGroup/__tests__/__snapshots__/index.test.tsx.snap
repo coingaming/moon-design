@@ -218,12 +218,12 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-b5xmou-control"
+          className=" css-18kgzmi-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
           <div
-            className=" css-px9mr7-ValueContainer"
+            className=" css-1f3h6sw-ValueContainer"
           >
             <div
               className="sc-bGpPMD bObwJT"
@@ -232,7 +232,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
               className="sc-iSyBji iXAXqI"
             >
               <div
-                className=" css-1rtvqhl-placeholder"
+                className=" css-wuj7bk-placeholder"
                 id="react-select-10-placeholder"
               >
                 <div
@@ -306,12 +306,12 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
           className="css-1f43avz-a11yText-A11yText"
         />
         <div
-          className=" css-x13ut4-control"
+          className=" css-91yr6k-control"
           onMouseDown={[Function]}
           onTouchEnd={[Function]}
         >
           <div
-            className=" css-px9mr7-ValueContainer"
+            className=" css-1f3h6sw-ValueContainer"
           >
             <div
               className="sc-bGpPMD bObwJT"
@@ -320,7 +320,7 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
               className="sc-iSyBji iXAXqI"
             >
               <div
-                className=" css-1rtvqhl-placeholder"
+                className=" css-wuj7bk-placeholder"
                 id="react-select-11-placeholder"
               >
                 <div
@@ -394,44 +394,44 @@ exports[`TextInputGroup renders and allows event listeners for the select fields
 
 exports[`TextInputGroup renders different types 1`] = `
 <div
-  className="sc-ewcqwX fxoGSj"
+  className="sc-evnJpU iVDOLJ"
   dir="ltr"
   orientation="horizontal"
 >
   <div
-    className="sc-dDPqvT fdEorB"
+    className="sc-dDaJoQ khFMuk"
   >
     <div
-      className="sc-hixjlP huoRxK"
+      className="sc-hhICeM fOxxeU"
     >
       <input
-        className="sc-eZceyY lefxSM"
+        className="sc-eZkcaX cSPEhM"
         dir="ltr"
         placeholder="Email"
         type="email"
       />
       <label
-        className="sc-erijoS htSbIl"
+        className="sc-eqKtKx aGCUy"
       />
     </div>
   </div>
   <div
-    className="sc-dDPqvT fvXjep"
+    className="sc-dDaJoQ kGGCnw"
   >
     <div
-      className="sc-hixjlP huoRxK"
+      className="sc-hhICeM fOxxeU"
     >
       <input
-        className="sc-eZceyY dyWHfE"
+        className="sc-eZkcaX epngZk"
         dir="ltr"
         placeholder="Password"
         type="password"
       />
       <label
-        className="sc-erijoS htSbIl"
+        className="sc-eqKtKx aGCUy"
       />
       <div
-        className="sc-fDnMV iaIvqn"
+        className="sc-futMm ktwkcM"
         onClick={[Function]}
       />
     </div>
@@ -463,12 +463,12 @@ exports[`TextInputGroup renders multi select 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-b5xmou-control"
+        className=" css-18kgzmi-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-13urifb-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
             className="sc-bGpPMD bObwJT"
@@ -479,7 +479,7 @@ exports[`TextInputGroup renders multi select 1`] = `
             className="sc-kzriHz beWVnq"
           >
             <div
-              className=" css-elkbxv-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-4-placeholder"
             >
               <div
@@ -553,12 +553,12 @@ exports[`TextInputGroup renders multi select 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-x13ut4-control"
+        className=" css-91yr6k-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-13urifb-ValueContainer"
+          className=" css-112g2nh-ValueContainer"
         >
           <div
             className="sc-bGpPMD bObwJT"
@@ -569,7 +569,7 @@ exports[`TextInputGroup renders multi select 1`] = `
             className="sc-kzriHz beWVnq"
           >
             <div
-              className=" css-elkbxv-placeholder"
+              className=" css-jexdti-placeholder"
               id="react-select-5-placeholder"
             >
               <div
@@ -652,12 +652,12 @@ exports[`TextInputGroup renders single select 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-b5xmou-control"
+        className=" css-18kgzmi-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-bGpPMD bObwJT"
@@ -666,7 +666,7 @@ exports[`TextInputGroup renders single select 1`] = `
             className="sc-iSyBji iXAXqI"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-2-placeholder"
             >
               <div
@@ -740,12 +740,12 @@ exports[`TextInputGroup renders single select 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-x13ut4-control"
+        className=" css-91yr6k-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-bGpPMD bObwJT"
@@ -754,7 +754,7 @@ exports[`TextInputGroup renders single select 1`] = `
             className="sc-iSyBji iXAXqI"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-3-placeholder"
             >
               <div
@@ -837,12 +837,12 @@ exports[`TextInputGroup renders single select RTL 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-x13ut4-control"
+        className=" css-91yr6k-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-bGpPMD bObwJT"
@@ -851,7 +851,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             className="sc-iSyBji iXAXqI"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-8-placeholder"
             >
               <div
@@ -925,12 +925,12 @@ exports[`TextInputGroup renders single select RTL 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-b5xmou-control"
+        className=" css-18kgzmi-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-bGpPMD bObwJT"
@@ -941,7 +941,7 @@ exports[`TextInputGroup renders single select RTL 1`] = `
             className="sc-iSyBji iXAXqI"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-9-placeholder"
             >
               <div
@@ -1024,12 +1024,12 @@ exports[`TextInputGroup renders single select vertical 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-1rambzq-control"
+        className=" css-1lbmnj-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-bGpPMD bObwJT"
@@ -1040,7 +1040,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             className="sc-iSyBji iXAXqI"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-6-placeholder"
             >
               <div
@@ -1114,12 +1114,12 @@ exports[`TextInputGroup renders single select vertical 1`] = `
         className="css-1f43avz-a11yText-A11yText"
       />
       <div
-        className=" css-xt06d1-control"
+        className=" css-ouirde-control"
         onMouseDown={[Function]}
         onTouchEnd={[Function]}
       >
         <div
-          className=" css-px9mr7-ValueContainer"
+          className=" css-1f3h6sw-ValueContainer"
         >
           <div
             className="sc-bGpPMD bObwJT"
@@ -1130,7 +1130,7 @@ exports[`TextInputGroup renders single select vertical 1`] = `
             className="sc-iSyBji iXAXqI"
           >
             <div
-              className=" css-1rtvqhl-placeholder"
+              className=" css-wuj7bk-placeholder"
               id="react-select-7-placeholder"
             >
               <div

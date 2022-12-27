@@ -1,4 +1,5 @@
 import React from 'react';
+
 const MailBox = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -14,4 +15,5 @@ const MailBox = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default MailBox;

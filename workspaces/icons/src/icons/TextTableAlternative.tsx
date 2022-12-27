@@ -1,4 +1,5 @@
 import React from 'react';
+
 const TextTableAlternative = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -15,4 +16,5 @@ const TextTableAlternative = (props: React.SVGProps<SVGSVGElement>) => (
     <rect x={6} y={14} width={20} height={4} rx={1} stroke="currentColor" />
   </svg>
 );
+
 export default TextTableAlternative;

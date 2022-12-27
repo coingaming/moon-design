@@ -1,4 +1,5 @@
 import React from 'react';
+
 const MapsMarker = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -20,4 +21,5 @@ const MapsMarker = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default MapsMarker;

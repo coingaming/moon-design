@@ -1,4 +1,5 @@
 import React from 'react';
+
 const ArrowsRightCurved = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -16,4 +17,5 @@ const ArrowsRightCurved = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default ArrowsRightCurved;

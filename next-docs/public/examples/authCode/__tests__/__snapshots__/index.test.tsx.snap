@@ -2,7 +2,7 @@
 
 exports[`AuthCode renders 1`] = `
 <div
-  className="sc-iDJXoU fznKoJ"
+  className="sc-iDRUQT izIXaI"
   dir="ltr"
 >
   <div />
@@ -11,19 +11,19 @@ exports[`AuthCode renders 1`] = `
 
 exports[`AuthCode renders Custom length 1`] = `
 <div
-  className="sc-iDJXoU fznKoJ"
+  className="sc-iDRUQT izIXaI"
   dir="ltr"
 >
   <div>
     <div
-      className="sc-eZURND gHVUqq"
+      className="sc-eZgkGA lfAHqK"
     >
       <div
-        className="sc-dDPqvT drzQbB"
+        className="sc-dDaJoQ NoVrw"
         disabled={false}
       >
         <input
-          className="sc-eZceyY doHeXV"
+          className="sc-eZkcaX kjRHRl"
           dir="ltr"
           disabled={false}
           id="auth-code-part-0"
@@ -38,14 +38,14 @@ exports[`AuthCode renders Custom length 1`] = `
       </div>
     </div>
     <div
-      className="sc-eZURND gHVUqq"
+      className="sc-eZgkGA lfAHqK"
     >
       <div
-        className="sc-dDPqvT lbBxjT"
+        className="sc-dDaJoQ GYDHa"
         disabled={true}
       >
         <input
-          className="sc-eZceyY doHeXV"
+          className="sc-eZkcaX kjRHRl"
           dir="ltr"
           disabled={true}
           id="auth-code-part-1"
@@ -60,14 +60,14 @@ exports[`AuthCode renders Custom length 1`] = `
       </div>
     </div>
     <div
-      className="sc-eZURND gHVUqq"
+      className="sc-eZgkGA lfAHqK"
     >
       <div
-        className="sc-dDPqvT lbBxjT"
+        className="sc-dDaJoQ GYDHa"
         disabled={true}
       >
         <input
-          className="sc-eZceyY doHeXV"
+          className="sc-eZkcaX kjRHRl"
           dir="ltr"
           disabled={true}
           id="auth-code-part-2"
@@ -82,14 +82,14 @@ exports[`AuthCode renders Custom length 1`] = `
       </div>
     </div>
     <div
-      className="sc-eZURND gHVUqq"
+      className="sc-eZgkGA lfAHqK"
     >
       <div
-        className="sc-dDPqvT lbBxjT"
+        className="sc-dDaJoQ GYDHa"
         disabled={true}
       >
         <input
-          className="sc-eZceyY doHeXV"
+          className="sc-eZkcaX kjRHRl"
           dir="ltr"
           disabled={true}
           id="auth-code-part-3"
@@ -109,19 +109,19 @@ exports[`AuthCode renders Custom length 1`] = `
 
 exports[`AuthCode renders Error state 1`] = `
 <div
-  className="sc-iDJXoU jYgTfN"
+  className="sc-iDRUQT ivYSXE"
   dir="ltr"
 >
   <div>
     <div
-      className="sc-eZURND gHVUqq"
+      className="sc-eZgkGA lfAHqK"
     >
       <div
-        className="sc-dDPqvT drzQbB"
+        className="sc-dDaJoQ NoVrw"
         disabled={false}
       >
         <input
-          className="sc-eZceyY eNHHez"
+          className="sc-eZkcaX kBGJNX"
           dir="ltr"
           disabled={false}
           id="auth-code-part-0"
@@ -136,14 +136,14 @@ exports[`AuthCode renders Error state 1`] = `
       </div>
     </div>
     <div
-      className="sc-eZURND gHVUqq"
+      className="sc-eZgkGA lfAHqK"
     >
       <div
-        className="sc-dDPqvT lbBxjT"
+        className="sc-dDaJoQ GYDHa"
         disabled={true}
       >
         <input
-          className="sc-eZceyY eNHHez"
+          className="sc-eZkcaX kBGJNX"
           dir="ltr"
           disabled={true}
           id="auth-code-part-1"
@@ -158,14 +158,14 @@ exports[`AuthCode renders Error state 1`] = `
       </div>
     </div>
     <div
-      className="sc-eZURND gHVUqq"
+      className="sc-eZgkGA lfAHqK"
     >
       <div
-        className="sc-dDPqvT lbBxjT"
+        className="sc-dDaJoQ GYDHa"
         disabled={true}
       >
         <input
-          className="sc-eZceyY eNHHez"
+          className="sc-eZkcaX kBGJNX"
           dir="ltr"
           disabled={true}
           id="auth-code-part-2"
@@ -180,14 +180,14 @@ exports[`AuthCode renders Error state 1`] = `
       </div>
     </div>
     <div
-      className="sc-eZURND gHVUqq"
+      className="sc-eZgkGA lfAHqK"
     >
       <div
-        className="sc-dDPqvT lbBxjT"
+        className="sc-dDaJoQ GYDHa"
         disabled={true}
       >
         <input
-          className="sc-eZceyY eNHHez"
+          className="sc-eZkcaX kBGJNX"
           dir="ltr"
           disabled={true}
           id="auth-code-part-3"
@@ -202,14 +202,14 @@ exports[`AuthCode renders Error state 1`] = `
       </div>
     </div>
     <div
-      className="sc-eZURND gHVUqq"
+      className="sc-eZgkGA lfAHqK"
     >
       <div
-        className="sc-dDPqvT lbBxjT"
+        className="sc-dDaJoQ GYDHa"
         disabled={true}
       >
         <input
-          className="sc-eZceyY eNHHez"
+          className="sc-eZkcaX kBGJNX"
           dir="ltr"
           disabled={true}
           id="auth-code-part-4"
@@ -224,14 +224,14 @@ exports[`AuthCode renders Error state 1`] = `
       </div>
     </div>
     <div
-      className="sc-eZURND gHVUqq"
+      className="sc-eZgkGA lfAHqK"
     >
       <div
-        className="sc-dDPqvT lbBxjT"
+        className="sc-dDaJoQ GYDHa"
         disabled={true}
       >
         <input
-          className="sc-eZceyY eNHHez"
+          className="sc-eZkcaX kBGJNX"
           dir="ltr"
           disabled={true}
           id="auth-code-part-5"
@@ -246,11 +246,11 @@ exports[`AuthCode renders Error state 1`] = `
       </div>
     </div>
     <div
-      className="sc-ciFRQG fwcaQl"
+      className="sc-ciicml eaZYzL"
       data-testid="undefined-error"
     >
       <p
-        className="sc-hYufOg hZFsNh"
+        className="sc-hZiMVj eKDjdK"
         color="chiChi.100"
         size={12}
       >
@@ -263,7 +263,7 @@ exports[`AuthCode renders Error state 1`] = `
 
 exports[`AuthCode renders Only digits 1`] = `
 <div
-  className="sc-iDJXoU fznKoJ"
+  className="sc-iDRUQT izIXaI"
   dir="ltr"
 >
   <div />

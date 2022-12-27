@@ -1,4 +1,5 @@
 import React from 'react';
+
 const MediaZip = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -14,4 +15,5 @@ const MediaZip = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default MediaZip;

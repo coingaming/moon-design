@@ -1,4 +1,5 @@
 import React from 'react';
+
 const TypeZoomOut = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -54,4 +55,5 @@ const TypeZoomOut = (props: React.SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
+
 export default TypeZoomOut;

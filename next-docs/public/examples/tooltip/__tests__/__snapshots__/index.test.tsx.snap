@@ -3,24 +3,24 @@
 exports[`Tooltip renders 1`] = `
 Array [
   <div
-    className="sc-jvmttB kpasvJ"
+    className="sc-jvdzsS jKKeCf"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
   >
     <p
-      className="sc-hYufOg ddRnfV"
+      className="sc-hZiMVj iUhvAi"
       size={14}
     >
       Default tooltip
     </p>
     <div
-      className="sc-byKeJm kfQcsM"
+      className="sc-bySYJV imYCVg"
     >
       <div
-        className="sc-gxUhFQ hmMKLy"
+        className="sc-gyIOMT VGWnh"
       >
         <p
-          className="sc-hYufOg jpspsO"
+          className="sc-hZiMVj iiTXCd"
           size={12}
         >
           Only textual content
@@ -29,27 +29,27 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jvmttB kpasvJ"
+    className="sc-jvdzsS jKKeCf"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
   >
     <p
-      className="sc-hYufOg ddRnfV"
+      className="sc-hZiMVj iUhvAi"
       size={14}
     >
       With icon
     </p>
     <div
-      className="sc-byKeJm kfQcsM"
+      className="sc-bySYJV imYCVg"
     >
       <div
-        className="sc-gxUhFQ hmMKLy"
+        className="sc-gyIOMT VGWnh"
       >
         <div
-          className="sc-gXIsUp feqvno"
+          className="sc-gYgiyK fVGdbF"
         >
           <svg
-            className="sc-hsWlPz"
+            className="sc-hsOonA"
             fill="none"
             fontSize="1rem"
             height="1em"
@@ -64,7 +64,7 @@ Array [
           </svg>
         </div>
         <p
-          className="sc-hYufOg jpspsO"
+          className="sc-hZiMVj iiTXCd"
           size={12}
         >
           Icon and text

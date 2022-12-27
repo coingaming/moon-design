@@ -1,4 +1,5 @@
 import React from 'react';
+
 const ArrowsLeftShort = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -16,4 +17,5 @@ const ArrowsLeftShort = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default ArrowsLeftShort;

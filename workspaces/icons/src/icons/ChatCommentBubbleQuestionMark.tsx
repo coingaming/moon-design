@@ -1,4 +1,5 @@
 import React from 'react';
+
 const ChatCommentBubbleQuestionMark = (
   props: React.SVGProps<SVGSVGElement>
 ) => (
@@ -16,4 +17,5 @@ const ChatCommentBubbleQuestionMark = (
     />
   </svg>
 );
+
 export default ChatCommentBubbleQuestionMark;

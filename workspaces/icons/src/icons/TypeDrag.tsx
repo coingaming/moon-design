@@ -1,4 +1,5 @@
 import React from 'react';
+
 const TypeDrag = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -47,4 +48,5 @@ const TypeDrag = (props: React.SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
+
 export default TypeDrag;

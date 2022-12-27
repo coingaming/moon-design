@@ -1,4 +1,5 @@
 import React from 'react';
+
 const TypeClosedHand = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -58,4 +59,5 @@ const TypeClosedHand = (props: React.SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
+
 export default TypeClosedHand;

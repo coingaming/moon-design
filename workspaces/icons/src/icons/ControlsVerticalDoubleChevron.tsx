@@ -1,4 +1,5 @@
 import React from 'react';
+
 const ControlsVerticalDoubleChevron = (
   props: React.SVGProps<SVGSVGElement>
 ) => (
@@ -18,4 +19,5 @@ const ControlsVerticalDoubleChevron = (
     />
   </svg>
 );
+
 export default ControlsVerticalDoubleChevron;

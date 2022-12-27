@@ -1,4 +1,5 @@
 import React from 'react';
+
 const TravelBeachChair = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -38,4 +39,5 @@ const TravelBeachChair = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default TravelBeachChair;

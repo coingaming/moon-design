@@ -1,4 +1,5 @@
 import React from 'react';
+
 const TextListView = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -16,4 +17,5 @@ const TextListView = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default TextListView;

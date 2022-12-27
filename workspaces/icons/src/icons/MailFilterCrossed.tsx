@@ -1,4 +1,5 @@
 import React from 'react';
+
 const MailFilterCrossed = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -14,4 +15,5 @@ const MailFilterCrossed = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default MailFilterCrossed;

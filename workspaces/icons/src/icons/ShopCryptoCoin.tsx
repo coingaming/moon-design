@@ -1,4 +1,5 @@
 import React from 'react';
+
 const ShopCryptoCoin = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -22,4 +23,5 @@ const ShopCryptoCoin = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default ShopCryptoCoin;

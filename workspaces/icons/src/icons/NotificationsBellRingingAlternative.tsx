@@ -1,4 +1,5 @@
 import React from 'react';
+
 const NotificationsBellRingingAlternative = (
   props: React.SVGProps<SVGSVGElement>
 ) => (
@@ -16,4 +17,5 @@ const NotificationsBellRingingAlternative = (
     />
   </svg>
 );
+
 export default NotificationsBellRingingAlternative;

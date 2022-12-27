@@ -1,4 +1,5 @@
 import React from 'react';
+
 const MediaPause = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -12,4 +13,5 @@ const MediaPause = (props: React.SVGProps<SVGSVGElement>) => (
     <rect x={6.5} y={6} width={6.5} height={20} rx={2} stroke="currentColor" />
   </svg>
 );
+
 export default MediaPause;

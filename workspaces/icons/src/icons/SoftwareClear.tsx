@@ -1,4 +1,5 @@
 import React from 'react';
+
 const SoftwareClear = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -26,4 +27,5 @@ const SoftwareClear = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default SoftwareClear;

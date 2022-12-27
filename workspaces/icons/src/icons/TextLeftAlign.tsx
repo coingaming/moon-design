@@ -1,4 +1,5 @@
 import React from 'react';
+
 const TextLeftAlign = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -16,4 +17,5 @@ const TextLeftAlign = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
+
 export default TextLeftAlign;

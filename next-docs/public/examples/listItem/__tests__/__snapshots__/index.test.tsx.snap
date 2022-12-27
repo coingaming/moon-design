@@ -225,44 +225,44 @@ exports[`List Item renders Two Line Items 1`] = `
 
 exports[`List Item renders Two Line Items with Checkbox 1`] = `
 <div
-  className="sc-iAbQMe cnvqeZ"
+  className="sc-izEbhJ bGwRLr"
   size="medium"
 >
   <div
-    className="sc-fTOOzd fNHdNG"
+    className="sc-fUmEdy cYOkmf"
   >
     Two lines item
   </div>
   <span
-    className="sc-dSyEWX bRxauf"
+    className="sc-dSqHuY gerape"
   >
     <label
-      className="sc-jnhPJk fHjApr"
+      className="sc-jnWwQn dTEycW"
     >
       <input
-        className="sc-DRkuH bugQPy"
+        className="sc-DJmSI knOmFg"
         onClick={[Function]}
         type="checkbox"
       />
       <div
-        className="sc-evXUcO aecoS"
+        className="sc-ewgOdx gsVWQl"
       >
         <span
-          className="sc-bQtnlh dQCJmR"
+          className="sc-bQRcPC kesCjG"
         >
           <div
             checked={false}
-            className="sc-fIzWTo jVmhYf"
+            className="sc-fJoEar iyEIfo"
           />
         </span>
       </div>
     </label>
   </span>
   <div
-    className="sc-jLVyhk cLuvsA"
+    className="sc-jMKfon hKlVJK"
   >
     <div
-      className="sc-bHnazb disPFx"
+      className="sc-bHfcXc bgmhn"
     >
       Lorem Ipsum is simply dummy text of the printing and typesetting industry
     </div>
