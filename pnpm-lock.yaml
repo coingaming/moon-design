@@ -3698,7 +3698,7 @@ packages:
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
       tiny-warning: 1.0.3
-      tslib: 2.3.1
+      tslib: 2.4.1
     dev: false
 
   /@react-dnd/asap/4.0.1:
