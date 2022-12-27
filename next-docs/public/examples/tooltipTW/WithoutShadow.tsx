@@ -5,7 +5,7 @@ const Example = () => (
     <Tooltip.Trigger>
       <Chip>Trigger</Chip>
     </Tooltip.Trigger>
-    <Tooltip.Content withShadow={false}>
+    <Tooltip.Content position="right" className="shadow-none drop-shadow-none">
       Without shadow
       <Tooltip.Arrow />
     </Tooltip.Content>
