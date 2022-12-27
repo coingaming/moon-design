@@ -5,16 +5,16 @@ exports[`TextInput: type Text renders RTL 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
       dir="rtl"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-eZceyY doHeXV"
       dir="rtl"
       placeholder=" "
       readOnly={true}
@@ -22,23 +22,23 @@ exports[`TextInput: type Text renders RTL 1`] = `
       value="Read only text"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
       dir="rtl"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-eZceyY dNMcoK"
       dir="rtl"
       placeholder=" "
       readOnly={true}
@@ -46,20 +46,20 @@ exports[`TextInput: type Text renders RTL 1`] = `
       value="Read only text"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-hixjlP huoRxK"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-eZceyY cexKEg"
         dir="rtl"
         placeholder=" "
         readOnly={true}
@@ -67,13 +67,13 @@ exports[`TextInput: type Text renders RTL 1`] = `
         value="Read only text"
       />
       <label
-        className="sc-eqKtKx uXXXN"
+        className="sc-erijoS kPCrAG"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
@@ -87,73 +87,73 @@ exports[`TextInput: type Text renders disabled 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ GYDHa"
+    className="sc-dDPqvT lbBxjT"
     disabled={true}
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-eZceyY doHeXV"
       disabled={true}
       placeholder=" "
       type="text"
       value="Text"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ GYDHa"
+    className="sc-dDPqvT lbBxjT"
     disabled={true}
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-eZceyY dNMcoK"
       disabled={true}
       placeholder=" "
       type="text"
       value="Text"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ GYDHa"
+    className="sc-dDPqvT lbBxjT"
     disabled={true}
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-hixjlP huoRxK"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-eZceyY cexKEg"
         disabled={true}
         placeholder=" "
         type="text"
         value="Text"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-erijoS htSbIl"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
@@ -167,64 +167,64 @@ exports[`TextInput: type Text renders error 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kBGJNX"
+      className="sc-eZceyY eNHHez"
       placeholder="Placeholder"
       type="text"
     />
     <p
-      className="sc-hQikvm bhrXDV"
+      className="sc-hQrevV loSChI"
       role="alert"
     >
       Error message
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX igbTSY"
+      className="sc-eZceyY kTwDzI"
       placeholder="Placeholder"
       type="text"
     />
     <p
-      className="sc-hQikvm bhrXDV"
+      className="sc-hQrevV loSChI"
       role="alert"
     >
       Error message
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-hixjlP huoRxK"
     >
       <input
-        className="sc-eZkcaX fhOWWW"
+        className="sc-eZceyY jTdfvW"
         placeholder="Placeholder"
         type="text"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-erijoS htSbIl"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-hQikvm bhrXDV"
+      className="sc-hQrevV loSChI"
       role="alert"
     >
       Error message
@@ -238,70 +238,70 @@ exports[`TextInput: type Text renders readOnly 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-eZceyY doHeXV"
       placeholder=" "
       readOnly={true}
       type="text"
       value="Read only text"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-eZceyY dNMcoK"
       placeholder=" "
       readOnly={true}
       type="text"
       value="Read only text"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-hixjlP huoRxK"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-eZceyY cexKEg"
         placeholder=" "
         readOnly={true}
         type="text"
         value="Read only text"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-erijoS htSbIl"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
@@ -315,64 +315,64 @@ exports[`TextInput: type Text renders with hint 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-eZceyY doHeXV"
       placeholder="Placeholder"
       type="text"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-eZceyY dNMcoK"
       placeholder="Placeholder"
       type="text"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-hixjlP huoRxK"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-eZceyY cexKEg"
         placeholder="Placeholder"
         type="text"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-erijoS htSbIl"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
@@ -386,46 +386,46 @@ exports[`TextInput: type Text renders with label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-eZceyY doHeXV"
       placeholder="Placeholder"
       type="text"
     />
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-eZceyY dNMcoK"
       placeholder="Placeholder"
       type="text"
     />
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-hixjlP huoRxK"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-eZceyY cexKEg"
         placeholder="Placeholder"
         type="text"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-erijoS htSbIl"
       >
         xlarge
       </label>
@@ -439,36 +439,36 @@ exports[`TextInput: type Text renders without label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-eZceyY doHeXV"
       placeholder="medium"
       type="text"
     />
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-eZceyY dNMcoK"
       placeholder="large"
       type="text"
     />
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-hixjlP huoRxK"
     >
       <input
-        className="sc-eZkcaX iAgEXF"
+        className="sc-eZceyY qyezZ"
         placeholder="xlarge"
         type="text"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-erijoS htSbIl"
       />
     </div>
   </div>
@@ -480,64 +480,64 @@ exports[`TextInput: type Text supports background colour 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX jwaXyu"
+      className="sc-eZceyY jPBdqa"
       placeholder="Placeholder"
       type="text"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-MAqyW czGgYr"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX hpzrQJ"
+      className="sc-eZceyY kkoGQh"
       placeholder="Placeholder"
       type="text"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-dDPqvT drzQbB"
   >
     <div
-      className="sc-hhICeM eLTOhr"
+      className="sc-hixjlP kJWjmt"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-eZceyY cexKEg"
         placeholder="Placeholder"
         type="text"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-erijoS htSbIl"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-hQrevV dKIWOw"
       role="alert"
     >
       Informative message holder

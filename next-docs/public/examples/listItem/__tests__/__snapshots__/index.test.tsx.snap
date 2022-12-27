@@ -5,21 +5,21 @@ exports[`List Item renders Single Line Item 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-izEbhJ bGwRLr"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Single line item
     </div>
   </div>
   <div
-    className="sc-izEbhJ bGwRLr"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Single line item
     </div>
@@ -32,14 +32,14 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-izEbhJ bGwRLr"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
     <span
-      className="sc-hKOiFN gaezwE"
+      className="sc-hKFoFe dapHDn"
     >
       <svg
-        className="sc-dvwKko"
+        className="sc-dvEHMn"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -54,71 +54,25 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
       </svg>
     </span>
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Single line item
     </div>
   </div>
   <div
-    className="sc-izEbhJ bGwRLr"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Single line item
     </div>
     <span
-      className="sc-dSqHuY gerape"
+      className="sc-dSyEWX bRxauf"
     >
       <svg
-        className="sc-dvwKko"
-        fill="none"
-        fontSize="1.5rem"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12.337 25.5H7.855c-.752 0-1.36-.614-1.355-1.367l.062-8.143a1.356 1.356 0 011.355-1.347h4.42m0 10.857h9.326c.635 0 1.184-.442 1.322-1.063l2.482-9.708a1.357 1.357 0 00-1.323-1.652h-3.781c-.854 0-1.524-.573-1.359-1.412l.7-3.545a1.357 1.357 0 00-1.33-1.62h-.266c-.482 0-.928.256-1.17.673l-4.6 7.47m0 10.857V14.643"
-          stroke="currentColor"
-        />
-      </svg>
-    </span>
-  </div>
-  <div
-    className="sc-izEbhJ bGwRLr"
-    size="medium"
-  >
-    <span
-      className="sc-hKOiFN gaezwE"
-    >
-      <svg
-        className="sc-dvwKko"
-        fill="none"
-        fontSize="1.5rem"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M12.337 25.5H7.855c-.752 0-1.36-.614-1.355-1.367l.062-8.143a1.356 1.356 0 011.355-1.347h4.42m0 10.857h9.326c.635 0 1.184-.442 1.322-1.063l2.482-9.708a1.357 1.357 0 00-1.323-1.652h-3.781c-.854 0-1.524-.573-1.359-1.412l.7-3.545a1.357 1.357 0 00-1.33-1.62h-.266c-.482 0-.928.256-1.17.673l-4.6 7.47m0 10.857V14.643"
-          stroke="currentColor"
-        />
-      </svg>
-    </span>
-    <div
-      className="sc-fUmEdy cYOkmf"
-    >
-      Single line item
-    </div>
-    <span
-      className="sc-dSqHuY gerape"
-    >
-      <svg
-        className="sc-dvwKko"
+        className="sc-dvEHMn"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -134,16 +88,62 @@ exports[`List Item renders Single Line Item with Icon 1`] = `
     </span>
   </div>
   <div
-    className="sc-izEbhJ hyGbfQ"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
+    <span
+      className="sc-hKFoFe dapHDn"
+    >
+      <svg
+        className="sc-dvEHMn"
+        fill="none"
+        fontSize="1.5rem"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.337 25.5H7.855c-.752 0-1.36-.614-1.355-1.367l.062-8.143a1.356 1.356 0 011.355-1.347h4.42m0 10.857h9.326c.635 0 1.184-.442 1.322-1.063l2.482-9.708a1.357 1.357 0 00-1.323-1.652h-3.781c-.854 0-1.524-.573-1.359-1.412l.7-3.545a1.357 1.357 0 00-1.33-1.62h-.266c-.482 0-.928.256-1.17.673l-4.6 7.47m0 10.857V14.643"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Single line item
     </div>
     <span
-      className="sc-fzCEhR eqjylo"
+      className="sc-dSyEWX bRxauf"
+    >
+      <svg
+        className="sc-dvEHMn"
+        fill="none"
+        fontSize="1.5rem"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M12.337 25.5H7.855c-.752 0-1.36-.614-1.355-1.367l.062-8.143a1.356 1.356 0 011.355-1.347h4.42m0 10.857h9.326c.635 0 1.184-.442 1.322-1.063l2.482-9.708a1.357 1.357 0 00-1.323-1.652h-3.781c-.854 0-1.524-.573-1.359-1.412l.7-3.545a1.357 1.357 0 00-1.33-1.62h-.266c-.482 0-.928.256-1.17.673l-4.6 7.47m0 10.857V14.643"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    className="sc-iAbQMe ijLvMW"
+    size="medium"
+  >
+    <div
+      className="sc-fTOOzd fNHdNG"
+    >
+      Single line item
+    </div>
+    <span
+      className="sc-fztKhi elXLNp"
     >
       Meta
     </span>
@@ -156,21 +156,21 @@ exports[`List Item renders Single Line Item with differen Sizes 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-izEbhJ iYBQvd"
+    className="sc-iAbQMe jRNstL"
     size="large"
   >
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Large
     </div>
   </div>
   <div
-    className="sc-izEbhJ bGwRLr"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Medium
     </div>
@@ -183,38 +183,38 @@ exports[`List Item renders Two Line Items 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-izEbhJ bGwRLr"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Two lines item
     </div>
     <div
-      className="sc-jMKfon hKlVJK"
+      className="sc-jLVyhk cLuvsA"
     >
       <div
-        className="sc-bHfcXc bgmhn"
+        className="sc-bHnazb disPFx"
       >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry
       </div>
     </div>
   </div>
   <div
-    className="sc-izEbhJ bGwRLr"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Two lines item
     </div>
     <div
-      className="sc-jMKfon hKlVJK"
+      className="sc-jLVyhk cLuvsA"
     >
       <div
-        className="sc-bHfcXc bgmhn"
+        className="sc-bHnazb disPFx"
       >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry
       </div>
@@ -225,44 +225,44 @@ exports[`List Item renders Two Line Items 1`] = `
 
 exports[`List Item renders Two Line Items with Checkbox 1`] = `
 <div
-  className="sc-izEbhJ bGwRLr"
+  className="sc-iAbQMe cnvqeZ"
   size="medium"
 >
   <div
-    className="sc-fUmEdy cYOkmf"
+    className="sc-fTOOzd fNHdNG"
   >
     Two lines item
   </div>
   <span
-    className="sc-dSqHuY gerape"
+    className="sc-dSyEWX bRxauf"
   >
     <label
-      className="sc-jnWwQn dTEycW"
+      className="sc-jnhPJk fHjApr"
     >
       <input
-        className="sc-DJmSI knOmFg"
+        className="sc-DRkuH bugQPy"
         onClick={[Function]}
         type="checkbox"
       />
       <div
-        className="sc-ewgOdx gsVWQl"
+        className="sc-evXUcO aecoS"
       >
         <span
-          className="sc-bQRcPC kesCjG"
+          className="sc-bQtnlh dQCJmR"
         >
           <div
             checked={false}
-            className="sc-fJoEar iyEIfo"
+            className="sc-fIzWTo jVmhYf"
           />
         </span>
       </div>
     </label>
   </span>
   <div
-    className="sc-jMKfon hKlVJK"
+    className="sc-jLVyhk cLuvsA"
   >
     <div
-      className="sc-bHfcXc bgmhn"
+      className="sc-bHnazb disPFx"
     >
       Lorem Ipsum is simply dummy text of the printing and typesetting industry
     </div>
@@ -275,14 +275,14 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-izEbhJ bGwRLr"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
     <span
-      className="sc-hKOiFN gaezwE"
+      className="sc-hKFoFe dapHDn"
     >
       <svg
-        className="sc-dvwKko"
+        className="sc-dvEHMn"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -297,34 +297,34 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
       </svg>
     </span>
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Two lines item
     </div>
     <div
-      className="sc-jMKfon hKlVJK"
+      className="sc-jLVyhk cLuvsA"
     >
       <div
-        className="sc-bHfcXc bgmhn"
+        className="sc-bHnazb disPFx"
       >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry
       </div>
     </div>
   </div>
   <div
-    className="sc-izEbhJ bGwRLr"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Two lines item
     </div>
     <span
-      className="sc-dSqHuY gerape"
+      className="sc-dSyEWX bRxauf"
     >
       <svg
-        className="sc-dvwKko"
+        className="sc-dvEHMn"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -339,24 +339,24 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
       </svg>
     </span>
     <div
-      className="sc-jMKfon hKlVJK"
+      className="sc-jLVyhk cLuvsA"
     >
       <div
-        className="sc-bHfcXc bgmhn"
+        className="sc-bHnazb disPFx"
       >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry
       </div>
     </div>
   </div>
   <div
-    className="sc-izEbhJ bGwRLr"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
     <span
-      className="sc-hKOiFN gaezwE"
+      className="sc-hKFoFe dapHDn"
     >
       <svg
-        className="sc-dvwKko"
+        className="sc-dvEHMn"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -371,15 +371,15 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
       </svg>
     </span>
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Two lines item
     </div>
     <span
-      className="sc-dSqHuY gerape"
+      className="sc-dSyEWX bRxauf"
     >
       <svg
-        className="sc-dvwKko"
+        className="sc-dvEHMn"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -394,34 +394,34 @@ exports[`List Item renders Two Line Items with Icon 1`] = `
       </svg>
     </span>
     <div
-      className="sc-jMKfon hKlVJK"
+      className="sc-jLVyhk cLuvsA"
     >
       <div
-        className="sc-bHfcXc bgmhn"
+        className="sc-bHnazb disPFx"
       >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry
       </div>
     </div>
   </div>
   <div
-    className="sc-izEbhJ hyGbfQ"
+    className="sc-iAbQMe ijLvMW"
     size="medium"
   >
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Two lines item
     </div>
     <span
-      className="sc-fzCEhR eqjylo"
+      className="sc-fztKhi elXLNp"
     >
       Meta
     </span>
     <div
-      className="sc-jMKfon hKlVJK"
+      className="sc-jLVyhk cLuvsA"
     >
       <div
-        className="sc-bHfcXc bgmhn"
+        className="sc-bHnazb disPFx"
       >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry
       </div>
@@ -435,38 +435,38 @@ exports[`List Item renders Two Line Items with different Sizes 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-izEbhJ iYBQvd"
+    className="sc-iAbQMe jRNstL"
     size="large"
   >
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Large
     </div>
     <div
-      className="sc-jMKfon hKlVJK"
+      className="sc-jLVyhk cLuvsA"
     >
       <div
-        className="sc-bHfcXc bgmhn"
+        className="sc-bHnazb disPFx"
       >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry
       </div>
     </div>
   </div>
   <div
-    className="sc-izEbhJ bGwRLr"
+    className="sc-iAbQMe cnvqeZ"
     size="medium"
   >
     <div
-      className="sc-fUmEdy cYOkmf"
+      className="sc-fTOOzd fNHdNG"
     >
       Medium
     </div>
     <div
-      className="sc-jMKfon hKlVJK"
+      className="sc-jLVyhk cLuvsA"
     >
       <div
-        className="sc-bHfcXc bgmhn"
+        className="sc-bHnazb disPFx"
       >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry
       </div>

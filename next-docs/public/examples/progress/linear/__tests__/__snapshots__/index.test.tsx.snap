@@ -3,14 +3,14 @@
 exports[`Linear Progress renders 1`] = `
 Array [
   <div
-    className="sc-igYsKa bKwHZT"
+    className="sc-ihhmKJ GA-Dxv"
   >
     <div
-      className="sc-hyyKtA dykZqV"
+      className="sc-hznrA-D fRZDBG"
       value={30}
     />
     <div
-      className="sc-dZUlvJ kmAVzT"
+      className="sc-easbae gRLPZm"
     >
       <span>
         Progress
@@ -18,15 +18,15 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-igYsKa bKwHZT"
+    className="sc-ihhmKJ GA-Dxv"
   >
     <div
-      className="sc-hyyKtA WFeRC"
+      className="sc-hznrA-D gapvxV"
       height={5}
       value={30}
     />
     <div
-      className="sc-dZUlvJ RRYKM"
+      className="sc-easbae ceyuep"
     >
       <span>
         Progress

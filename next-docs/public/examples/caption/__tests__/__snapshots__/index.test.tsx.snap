@@ -2,7 +2,7 @@
 
 exports[`Caption renders 1`] = `
 <span
-  className="sc-bhpuBD dsvMCK"
+  className="sc-bhhwZE bPinnG"
 >
   Caption
 </span>
@@ -11,24 +11,24 @@ exports[`Caption renders 1`] = `
 exports[`Caption renders colors 1`] = `
 Array [
   <span
-    className="sc-bhpuBD dsvMCK"
+    className="sc-bhhwZE bPinnG"
   >
     Default color is Bulma
   </span>,
   <span
-    className="sc-bhpuBD gLQgnT"
+    className="sc-bhhwZE dYHvdL"
     color="piccolo.100"
   >
     Piccolo
   </span>,
   <span
-    className="sc-bhpuBD fqFmGF"
+    className="sc-bhhwZE cGfEXR"
     color="trunks.100"
   >
     Trunks
   </span>,
   <span
-    className="sc-bhpuBD tjFun"
+    className="sc-bhhwZE feDBmn"
     color="krillin.100"
   >
     Krillin
@@ -39,12 +39,12 @@ Array [
 exports[`Caption renders font weights 1`] = `
 Array [
   <span
-    className="sc-bhpuBD dsvMCK"
+    className="sc-bhhwZE bPinnG"
   >
     Default font-weight is bold
   </span>,
   <span
-    className="sc-bhpuBD fAtJzr"
+    className="sc-bhhwZE faNPDb"
   >
     Font-weight is regular
   </span>,
@@ -54,17 +54,17 @@ Array [
 exports[`Caption renders semantic tags 1`] = `
 Array [
   <span
-    className="sc-bhpuBD dsvMCK"
+    className="sc-bhhwZE bPinnG"
   >
     Span is a default tag
   </span>,
   <p
-    className="sc-bhpuBD dsvMCK"
+    className="sc-bhhwZE bPinnG"
   >
     Paragraph tag
   </p>,
   <label
-    className="sc-bhpuBD dsvMCK"
+    className="sc-bhhwZE bPinnG"
   >
     Label tag
   </label>,
@@ -74,12 +74,12 @@ Array [
 exports[`Caption renders sizes 1`] = `
 Array [
   <span
-    className="sc-bhpuBD dsvMCK"
+    className="sc-bhhwZE bPinnG"
   >
     Default font-size is 10px
   </span>,
   <span
-    className="sc-bhpuBD eKHSTX"
+    className="sc-bhhwZE fqxAGv"
     size={9}
   >
     Size is 9px
@@ -90,17 +90,17 @@ Array [
 exports[`Caption renders text-align 1`] = `
 Array [
   <span
-    className="sc-bhpuBD dsvMCK"
+    className="sc-bhhwZE bPinnG"
   >
     Text-align is not specified
   </span>,
   <span
-    className="sc-bhpuBD kcEpRx"
+    className="sc-bhhwZE kHqBKJ"
   >
     Centered text
   </span>,
   <span
-    className="sc-bhpuBD bmZoJm"
+    className="sc-bhhwZE iFKAOO"
   >
     Right alignment
   </span>,
