@@ -2,28 +2,28 @@
 
 exports[`Banner renders 1`] = `
 <div
-  className="sc-ibsmuj iTTpRA"
+  className="sc-ibkoSk cUYSGy"
 >
   <div
-    className="sc-gZhsbI iWUurw"
+    className="sc-gZVZiL cpDtKq"
   >
     <div
-      className="sc-kerCdx byxckT"
+      className="sc-keiIcO kbDdQF"
     >
       <div
-        className="sc-laxFgQ edUeFl"
+        className="sc-laFCIP hWmyeq"
       >
         Title here
       </div>
     </div>
     <div
-      className="sc-EdmDu bkKoak"
+      className="sc-EmgEd jjawzM"
     >
       Lorem ipsum dolor...
     </div>
   </div>
   <div
-    className="sc-dhaItB mqTnK"
+    className="sc-dhyxXW DFqrx"
   />
 </div>
 `;
@@ -230,24 +230,24 @@ exports[`Banner renders with buttons RTL 1`] = `
 
 exports[`Banner renders with header icon 1`] = `
 <div
-  className="sc-ibsmuj iTTpRA"
+  className="sc-ibkoSk cUYSGy"
 >
   <div
-    className="sc-gZhsbI iWUurw"
+    className="sc-gZVZiL cpDtKq"
   >
     <div
-      className="sc-kerCdx byxckT"
+      className="sc-keiIcO kbDdQF"
     >
       <div
-        className="sc-laxFgQ edUeFl"
+        className="sc-laFCIP hWmyeq"
       >
         Title here
       </div>
       <div
-        className="sc-iRPzmX fMRA-dR"
+        className="sc-iRaSfU lhfXBo"
       >
         <svg
-          className="sc-gScZFl"
+          className="sc-gSAPjG"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -264,7 +264,7 @@ exports[`Banner renders with header icon 1`] = `
       </div>
     </div>
     <div
-      className="sc-EdmDu bkKoak"
+      className="sc-EmgEd jjawzM"
     >
       Lorem ipsum dolor...
     </div>

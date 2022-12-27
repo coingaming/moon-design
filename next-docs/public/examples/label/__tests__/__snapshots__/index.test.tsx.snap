@@ -3,18 +3,18 @@
 exports[`Label renders with different Colours 1`] = `
 Array [
   <span
-    className="sc-bVhkf dPfTWV"
+    className="sc-bgA-dc hFCLOZ"
   >
     Xsmall
   </span>,
   <span
-    className="sc-bVhkf gDZLgS"
+    className="sc-bgA-dc bxSOEq"
     color="goten.100"
   >
     Xsmall
   </span>,
   <span
-    className="sc-bVhkf cKUxhS"
+    className="sc-bgA-dc jIDZvG"
     color="goten.100"
   >
     Xsmall
@@ -28,15 +28,15 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <span
-      className="sc-bVhkf htsRcu"
+      className="sc-bgA-dc gbski"
       size="twoxsmall"
     >
       <span
-        className="sc-fdCYqt hLoUOb"
+        className="sc-fduepK cWcCvs"
         size="twoxsmall"
       >
         <svg
-          className="sc-iqPaeV"
+          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -54,16 +54,16 @@ Array [
       Twoxsmall
     </span>
     <span
-      className="sc-bVhkf jHxzHi"
+      className="sc-bgA-dc iehwxe"
       size="twoxsmall"
     >
       Twoxsmall
       <span
-        className="sc-cmnYtw lmvjEb"
+        className="sc-cmvVVv fPVuqE"
         size="twoxsmall"
       >
         <svg
-          className="sc-gScZFl"
+          className="sc-gSAPjG"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -80,15 +80,15 @@ Array [
       </span>
     </span>
     <span
-      className="sc-bVhkf eFwDgw"
+      className="sc-bgA-dc iqlAPo"
       size="twoxsmall"
     >
       <span
-        className="sc-fdCYqt hLoUOb"
+        className="sc-fduepK cWcCvs"
         size="twoxsmall"
       >
         <svg
-          className="sc-iqPaeV"
+          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -105,11 +105,11 @@ Array [
       </span>
       Twoxsmall
       <span
-        className="sc-cmnYtw lmvjEb"
+        className="sc-cmvVVv fPVuqE"
         size="twoxsmall"
       >
         <svg
-          className="sc-gScZFl"
+          className="sc-gSAPjG"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -130,13 +130,13 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <span
-      className="sc-bVhkf KKEFb"
+      className="sc-bgA-dc hjTIDT"
     >
       <span
-        className="sc-fdCYqt fDbyIK"
+        className="sc-fduepK cHJErN"
       >
         <svg
-          className="sc-iqPaeV"
+          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -154,14 +154,14 @@ Array [
       Xsmall
     </span>
     <span
-      className="sc-bVhkf SJMNH"
+      className="sc-bgA-dc lcYaeH"
     >
       Xsmall
       <span
-        className="sc-cmnYtw hIEbba"
+        className="sc-cmvVVv kKLWYR"
       >
         <svg
-          className="sc-gScZFl"
+          className="sc-gSAPjG"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -178,13 +178,13 @@ Array [
       </span>
     </span>
     <span
-      className="sc-bVhkf feYzfR"
+      className="sc-bgA-dc kmgzHF"
     >
       <span
-        className="sc-fdCYqt fDbyIK"
+        className="sc-fduepK cHJErN"
       >
         <svg
-          className="sc-iqPaeV"
+          className="sc-iqGgem"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -201,10 +201,10 @@ Array [
       </span>
       Xsmall
       <span
-        className="sc-cmnYtw hIEbba"
+        className="sc-cmvVVv kKLWYR"
       >
         <svg
-          className="sc-gScZFl"
+          className="sc-gSAPjG"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -227,12 +227,12 @@ Array [
 exports[`Label renders with different LetterCases 1`] = `
 Array [
   <span
-    className="sc-bVhkf dPfTWV"
+    className="sc-bgA-dc hFCLOZ"
   >
     Default
   </span>,
   <span
-    className="sc-bVhkf VyqS"
+    className="sc-bgA-dc AowLm"
   >
     Lowercase
   </span>,
@@ -242,24 +242,24 @@ Array [
 exports[`Label renders with different Sizes 1`] = `
 Array [
   <span
-    className="sc-bVhkf eHXszk"
+    className="sc-bgA-dc dZNqZg"
     size="twoxsmall"
   >
     Twoxsmall
   </span>,
   <span
-    className="sc-bVhkf dPfTWV"
+    className="sc-bgA-dc hFCLOZ"
   >
     Xsmall
   </span>,
   <span
-    className="sc-bVhkf kOLVtt"
+    className="sc-bgA-dc jTEiiJ"
     size="twoxsmall"
   >
     Twoxsmall
   </span>,
   <span
-    className="sc-bVhkf VyqS"
+    className="sc-bgA-dc AowLm"
   >
     Xsmall
   </span>,

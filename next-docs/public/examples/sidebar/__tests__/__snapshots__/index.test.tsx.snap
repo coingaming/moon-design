@@ -2,15 +2,15 @@
 
 exports[`Sidebar renders 1`] = `
 <div
-  className="sc-dkrFOg kpgNVt"
+  className="sc-dkzDqf fRFbuZ"
   dir="ltr"
 >
   <div
-    className="sc-bcXHqe RfQim"
+    className="sc-bczRLJ ccYSDb"
     onClick={[Function]}
   >
     <svg
-      className="sc-AHaJN"
+      className="sc-BeQoi"
       fill="none"
       fontSize="1.5rem"
       height="1em"
@@ -27,7 +27,7 @@ exports[`Sidebar renders 1`] = `
     </svg>
   </div>
   <aside
-    className="sc-gswNZR kdKBkV"
+    className="sc-gsnTZi gxdmKS"
   >
     <ol>
       <li>
@@ -49,15 +49,15 @@ exports[`Sidebar renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="sc-dkrFOg eaJxSR"
+    className="sc-dkzDqf khFNOh"
     dir="rtl"
   >
     <div
-      className="sc-bcXHqe hcKRPr"
+      className="sc-bczRLJ fZgQPO"
       onClick={[Function]}
     >
       <svg
-        className="sc-hTBuwn"
+        className="sc-hTtwUo"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -74,11 +74,11 @@ exports[`Sidebar renders RTL 1`] = `
       </svg>
     </div>
     <div
-      className="sc-fIzWTo eKYhkb"
+      className="sc-fJoEar gVNoco"
       fontSize="2rem"
     >
       <svg
-        className="sc-bWWQYT ePxITC"
+        className="sc-bWijRQ eItcq"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -105,15 +105,15 @@ exports[`Sidebar renders RTL 1`] = `
 
 exports[`Sidebar renders initially closed 1`] = `
 <div
-  className="sc-dkrFOg eaJxSR"
+  className="sc-dkzDqf khFNOh"
   dir="ltr"
 >
   <div
-    className="sc-bcXHqe hcKRPr"
+    className="sc-bczRLJ fZgQPO"
     onClick={[Function]}
   >
     <svg
-      className="sc-hTBuwn"
+      className="sc-hTtwUo"
       fill="none"
       fontSize="1.5rem"
       height="1em"
@@ -130,11 +130,11 @@ exports[`Sidebar renders initially closed 1`] = `
     </svg>
   </div>
   <div
-    className="sc-fIzWTo eKYhkb"
+    className="sc-fJoEar gVNoco"
     fontSize="2rem"
   >
     <svg
-      className="sc-bWWQYT ePxITC"
+      className="sc-bWijRQ eItcq"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"
