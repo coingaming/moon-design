@@ -62,14 +62,14 @@ const Example = () => {
           {
             name: 'backgroundColor',
             type: 'string',
-            required: false,
+            required: 'false',
             default: 'bg-gohan',
             description: 'Container background colour',
           },
           {
             name: 'inputProps',
             type: '{ input1: TextInputTypes, input2: TextInputTypes }',
-            required: false,
+            required: 'false',
             default: "{ inputSize: 'md', type: 'text' }",
             description:
               'Props for the text input fields. See TextInput component',
@@ -77,14 +77,14 @@ const Example = () => {
           {
             name: 'isRtl',
             type: 'boolean',
-            required: false,
+            required: 'false',
             default: 'false',
             description: 'Text direction',
           },
           {
             name: 'orientation',
             type: 'vertical | horizontal',
-            required: false,
+            required: 'false',
             default: 'horizontal',
             description: 'How the fields are positioned with one another',
           },

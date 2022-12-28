@@ -67,14 +67,14 @@ const Example = () => {
           {
             name: 'open',
             type: 'boolean',
-            required: true,
+            required: 'true',
             default: '-',
             description: 'Whether the Modal is open or not.',
           },
           {
             name: 'onClose',
             type: '() => void',
-            required: true,
+            required: 'true',
             default: '-',
             description: 'Called when the Modal is dismissed.',
           },
@@ -87,7 +87,7 @@ const Example = () => {
           {
             name: 'className',
             type: 'string',
-            required: true,
+            required: 'true',
             default: '-',
             description: 'Tailwind classes for customization of Panel.',
           },
@@ -100,7 +100,7 @@ const Example = () => {
           {
             name: 'className',
             type: 'string',
-            required: true,
+            required: 'true',
             default: '-',
             description: 'Tailwind classes for customization of Backdrop.',
           },

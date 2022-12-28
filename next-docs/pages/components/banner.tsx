@@ -54,21 +54,21 @@ const PageBanner = () => {
           {
             name: 'description',
             type: 'string',
-            required: true,
+            required: 'true',
             default: '-',
             description: 'Main text content of the banner',
           },
           {
             name: 'title',
             type: 'string',
-            required: false,
+            required: 'false',
             default: '-',
             description: 'Text to appear on the header for multiline mode',
           },
           {
             name: 'iconHeader',
             type: 'React.ReactElement',
-            required: false,
+            required: 'false',
             default: '-',
             description:
               'Icon to appear at  the top end of the header for multiline',
@@ -76,14 +76,14 @@ const PageBanner = () => {
           {
             name: 'isMultiline',
             type: 'boolean',
-            required: false,
+            required: 'false',
             default: 'true',
             description: 'Controls whether the banner is in multiline mode',
           },
           {
             name: 'isMobile',
             type: 'boolean',
-            required: false,
+            required: 'false',
             default: 'false',
             description: 'Controls whether the banner is in mobile mode',
           },
