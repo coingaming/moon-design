@@ -44,6 +44,7 @@ const navigation = [
       { name: 'Table', href: '/core/table' },
       { name: 'Tabs', href: '/core/tabs' },
       { name: 'Tag', href: '/core/tag' },
+      { name: 'Textarea', href: '/core/textarea' },
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInputGroup', href: '/core/textInputGroup' },
       { name: 'Tooltip', href: '/core/tooltip' },
