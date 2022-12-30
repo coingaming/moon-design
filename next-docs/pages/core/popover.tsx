@@ -74,7 +74,7 @@ const Example = () => {
           {
             name: 'Render Props: ',
             type: '',
-            required: false,
+            required: undefined,
             default: '',
             description: '',
           },
@@ -101,7 +101,7 @@ const Example = () => {
           {
             name: 'Render Props: ',
             type: '',
-            required: false,
+            required: undefined,
             default: '',
             description: '',
           },

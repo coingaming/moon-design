@@ -1,4 +1,5 @@
 import React from 'react';
+import { ChartIcons } from '@heathmont/moon-charts';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
@@ -102,7 +103,7 @@ export default function PageLineChart() {
             name: 'icon',
             type: 'React.ReactNode',
             required: false,
-            default: '<ChartIcons.Devices />',
+            default: <ChartIcons.Devices />,
             description: 'Placeholder for chart icon component',
           },
           {

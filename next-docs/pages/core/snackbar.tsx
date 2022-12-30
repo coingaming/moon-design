@@ -91,7 +91,7 @@ const Example = () => {
             name: 'autoClose',
             type: 'number',
             required: false,
-            default: '5000',
+            default: 5000,
             description: 'Duration the snackbar takes in ms.',
           },
           {
