@@ -38,14 +38,14 @@ const Example = () => {
           {
             name: 'color',
             type: 'string',
-            required: 'false',
+            required: false,
             default: 'border-hit',
             description: 'Colour of loader',
           },
           {
             name: 'size',
             type: '2xs | xs | sm | md | lg',
-            required: 'false',
+            required: false,
             default: 'md',
             description: 'Size of loader',
           },

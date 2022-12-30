@@ -100,14 +100,14 @@ const Example = () => {
           {
             name: 'size',
             type: 'sm | md',
-            required: 'false',
+            required: false,
             default: 'md',
             description: 'Size',
           },
           {
             name: 'selectedIndex',
             type: 'number',
-            required: 'false',
+            required: false,
             default: '-',
             description:
               'The selected index if you want to use the Tabs component as a controlled component.',
@@ -115,7 +115,7 @@ const Example = () => {
           {
             name: 'onChange',
             type: '() => void;',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'A function called whenever the active tab changes.',
           },
@@ -128,14 +128,14 @@ const Example = () => {
           {
             name: 'disabled',
             type: 'boolean',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Whether or not the Tab is currently disabled.',
           },
           {
             name: 'className',
             type: 'string',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Tailwind classes for styling',
           },
@@ -148,14 +148,14 @@ const Example = () => {
           {
             name: 'disabled',
             type: 'boolean',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Whether or not the Tab is currently disabled.',
           },
           {
             name: 'className',
             type: 'string',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Tailwind classes for styling',
           },
@@ -168,7 +168,7 @@ const Example = () => {
           {
             name: 'className',
             type: 'string',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Tailwind classes for styling',
           },
@@ -181,7 +181,7 @@ const Example = () => {
           {
             name: 'className',
             type: 'string',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Tailwind classes for styling',
           },

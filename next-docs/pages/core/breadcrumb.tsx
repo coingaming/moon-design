@@ -43,7 +43,7 @@ const Example = () => {
           {
             name: 'breadcrumbs',
             type: 'React.ElementType[]',
-            required: 'true',
+            required: true,
             default: '-',
             description: 'Contents of breadcrumb',
           },

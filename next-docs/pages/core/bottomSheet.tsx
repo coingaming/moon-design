@@ -53,28 +53,28 @@ const Example = () => {
           {
             name: 'open',
             type: 'boolean',
-            required: 'true',
+            required: true,
             default: '-',
             description: 'Whether the BottomSheet is open or not.',
           },
           {
             name: 'onClose',
             type: '() => void',
-            required: 'true',
+            required: true,
             default: '-',
             description: 'Called when the BottomSheet is dismissed.',
           },
           {
             name: 'hasShadow',
             type: 'boolean',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Whether the BottomSheet has a shadow or not.',
           },
           {
             name: 'size',
             type: 'string',
-            required: 'false',
+            required: false,
             default: 'sm',
             description:
               'The size of the BottomSheet, sm, md, lg or custom pixel/percentage/rem value.',
@@ -87,7 +87,7 @@ const Example = () => {
           {
             name: 'children',
             type: 'BottomSheet.Draghandle',
-            required: 'false',
+            required: false,
             default: '-',
             description:
               'Optional title as a child to render text next to the drag handle.',
@@ -100,7 +100,7 @@ const Example = () => {
           {
             name: 'className',
             type: 'string',
-            required: 'false',
+            required: false,
             default: '-',
             description:
               'Tailwind classes for customization of BottomSheet Title.',
@@ -113,7 +113,7 @@ const Example = () => {
           {
             name: 'className',
             type: 'string',
-            required: 'false',
+            required: false,
             default: '-',
             description:
               'Tailwind classes for customization of BottomSheet Panel.',
@@ -126,7 +126,7 @@ const Example = () => {
           {
             name: 'className',
             type: 'string',
-            required: 'false',
+            required: false,
             default: '-',
             description:
               'Tailwind classes for customization of BottomSheet Backdrop.',

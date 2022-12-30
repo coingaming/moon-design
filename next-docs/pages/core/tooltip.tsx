@@ -72,7 +72,7 @@ const Example = () => {
           {
             name: 'className',
             type: 'string',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Tailwind classes for customization',
           },
@@ -84,14 +84,14 @@ const Example = () => {
           {
             name: 'className',
             type: 'string',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Tailwind classes for customization',
           },
           {
             name: 'position',
             type: 'top-start | top-center | top-end | bottom-start | bottom-center | bottom-end | right | left',
-            required: 'false',
+            required: false,
             default: 'top-center',
             description: 'Position of Tooltip',
           },
@@ -103,7 +103,7 @@ const Example = () => {
           {
             name: 'className',
             type: 'string',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Tailwind classes for customization',
           },
