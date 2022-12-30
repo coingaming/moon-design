@@ -52,14 +52,14 @@ const PageAuthCodeGroup = () => {
           {
             name: 'length',
             type: 'number',
-            required: false,
+            required: 'false',
             default: '6',
             description: 'Number of inputs for inserting single values.',
           },
           {
             name: 'onlyDigits',
             type: 'boolean',
-            required: false,
+            required: 'false',
             default: 'false',
             description:
               'If true, inputs would allow only digit values. Default is alphanumeric.',
@@ -67,7 +67,7 @@ const PageAuthCodeGroup = () => {
           {
             name: 'stretch',
             type: 'boolean',
-            required: false,
+            required: 'false',
             default: 'false',
             description:
               'If true, inputs would get streched to fill the available width',
@@ -75,14 +75,14 @@ const PageAuthCodeGroup = () => {
           {
             name: 'placeholder',
             type: 'string',
-            required: false,
+            required: 'false',
             default: '-',
             description: 'Default placeholder for input elements.',
           },
           {
             name: 'errorMessage',
             type: 'string',
-            required: false,
+            required: 'false',
             default: '-',
             description:
               'Puts element in error state and displays the message.',
@@ -90,7 +90,7 @@ const PageAuthCodeGroup = () => {
           {
             name: 'onChange',
             type: 'function',
-            required: false,
+            required: 'false',
             default: '-',
             description:
               'Callback function that gets triggered on single value change.',
@@ -98,7 +98,7 @@ const PageAuthCodeGroup = () => {
           {
             name: 'onSubmit',
             type: 'function',
-            required: false,
+            required: 'false',
             default: '-',
             description:
               'Callback function that gets triggered when all single values are entered.',

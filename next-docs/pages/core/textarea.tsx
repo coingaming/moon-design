@@ -35,14 +35,14 @@ const Example = () => {
           {
             name: 'disabled',
             type: 'boolean',
-            required: false,
+            required: 'false',
             default: '-',
             description: 'Disables textarea',
           },
           {
             name: 'className',
             type: 'string',
-            required: false,
+            required: 'false',
             default: '-',
             description: 'Tailwind classes for customization',
           },

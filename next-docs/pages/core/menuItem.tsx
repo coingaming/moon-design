@@ -113,14 +113,14 @@ const Example = () => {
           {
             name: 'as',
             type: 'a | button',
-            required: false,
+            required: 'false',
             default: 'button',
             description: 'Rendered HTML element',
           },
           {
             name: 'isActive',
             type: 'boolean',
-            required: false,
+            required: 'false',
             default: 'false',
             description:
               'Is MenuItem checked/unchecked. For radio and checkbox variant.',
@@ -128,7 +128,7 @@ const Example = () => {
           {
             name: 'className',
             type: 'string',
-            required: true,
+            required: 'true',
             default: '-',
             description: 'Tailwind classes for customization of wrapper.',
           },

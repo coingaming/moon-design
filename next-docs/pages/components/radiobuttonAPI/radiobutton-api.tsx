@@ -35,7 +35,7 @@ export default function RadioButtonPage() {
           {
             name: 'id',
             type: 'string',
-            required: false,
+            required: 'false',
             default: '-',
             description: `Unique element's identifier (the same id as for RadioButtonInput)`,
           },
@@ -48,28 +48,28 @@ export default function RadioButtonPage() {
           {
             name: 'id',
             type: 'string',
-            required: false,
+            required: 'false',
             default: '-',
             description: `Unique element's identifier (the same id as for RadioButtonLabel)`,
           },
           {
             name: 'label',
             type: 'JSX.Element | string',
-            required: false,
+            required: 'false',
             default: '-',
             description: 'Represent a caption for an item',
           },
           {
             name: 'name',
             type: 'string',
-            required: false,
+            required: 'false',
             default: '-',
             description: 'Represent name for an item',
           },
           {
             name: 'ariaLabel',
             type: 'string',
-            required: false,
+            required: 'false',
             default: '-',
             description:
               'Defines a string value that labels the current element',
@@ -77,7 +77,7 @@ export default function RadioButtonPage() {
           {
             name: 'disabled',
             type: 'boolean',
-            required: false,
+            required: 'false',
             default: 'false',
             description:
               'A Boolean indicating whether or not this radio button is desabled',
@@ -85,7 +85,7 @@ export default function RadioButtonPage() {
           {
             name: 'checked',
             type: 'boolean',
-            required: false,
+            required: 'false',
             default: 'false',
             description:
               'A Boolean indicating whether or not this radio button is the default-selected item in the group',
@@ -93,7 +93,7 @@ export default function RadioButtonPage() {
           {
             name: 'onClick',
             type: '-',
-            required: false,
+            required: 'false',
             default: '-',
             description: 'Event handler',
           },
