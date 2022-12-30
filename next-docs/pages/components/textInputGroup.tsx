@@ -84,7 +84,7 @@ const PageTextInputGroup = () => {
           {
             name: 'inputProps',
             type: 'object { input1: TextInputTypes, input2: TextInputTypes }',
-            required: 'true',
+            required: true,
             default: "object { inputSize: 'xlarge', type: 'text' }",
             description:
               'Props for the text input fields. See TextInput component',
@@ -92,14 +92,14 @@ const PageTextInputGroup = () => {
           {
             name: 'orientation',
             type: 'vertical | horizontal',
-            required: 'false',
+            required: false,
             default: 'horizontal',
             description: 'How the fields are positioned with one another',
           },
           {
             name: 'isRtl',
             type: 'boolean',
-            required: 'false',
+            required: false,
             default: 'false',
             description: 'Text direction',
           },
@@ -112,7 +112,7 @@ const PageTextInputGroup = () => {
           {
             name: 'selectProps',
             type: 'object { input1: SelectProps, input2: SelectProps }',
-            required: 'true',
+            required: true,
             default: 'object {}',
             description:
               'Props for the select fields. See Single Select and Multi Select components',
@@ -120,14 +120,14 @@ const PageTextInputGroup = () => {
           {
             name: 'orientation',
             type: 'vertical | horizontal',
-            required: 'false',
+            required: false,
             default: 'horizontal',
             description: 'How the fields are positioned with one another',
           },
           {
             name: 'isRtl',
             type: 'boolean',
-            required: 'false',
+            required: false,
             default: 'false',
             description: 'Text direction',
           },

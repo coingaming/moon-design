@@ -35,14 +35,14 @@ const PageLoader = () => {
           {
             name: 'color',
             type: 'ColorProps',
-            required: 'false',
+            required: false,
             default: 'bulma',
             description: 'Colour of Loader',
           },
           {
             name: 'size',
             type: 'twoxsmall | xsmall | small | medium | large',
-            required: 'false',
+            required: false,
             default: 'medium',
             description: 'Size of Loader',
           },

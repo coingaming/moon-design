@@ -89,28 +89,28 @@ const PageDatepicker = () => {
           {
             name: 'date',
             type: 'Date',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Day (initialDate) that should appear as selected.',
           },
           {
             name: 'onDateChange',
             type: '({ date }: { date?: Date }) => void',
-            required: 'true',
+            required: true,
             default: '-',
             description: 'Event handler when the user clicks on a day cell.',
           },
           {
             name: 'config',
             type: 'Config',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'An object of calendar configuration',
           },
           {
             name: 'hasClickedOutside',
             type: 'boolean',
-            required: 'false',
+            required: false,
             default: 'false',
             description: 'Used with useClickOutside() hook',
           },
@@ -122,35 +122,35 @@ const PageDatepicker = () => {
           {
             name: 'weekStartsOn',
             type: '0 | 1 | 2 | 3 | 4 | 5 | 6',
-            required: 'false',
+            required: false,
             default: '1',
             description: 'Overwrites the first day of the week.',
           },
           {
             name: 'monthLabelFormat',
             type: 'string',
-            required: 'false',
+            required: false,
             default: 'MMMM',
             description: 'Sets formatted month label according to the pattern',
           },
           {
             name: 'yearLabelFormat',
             type: 'string',
-            required: 'false',
+            required: false,
             default: 'yyyy',
             description: 'Sets formatted year label according to the pattern',
           },
           {
             name: 'disabledDays',
             type: 'Date | Date[] | DisabledDaysRange: { from?: Date; to?: Date; }',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Day(s) that should appear as disabled',
           },
           {
             name: 'yearsRange',
             type: '{ min?: number; max?: number; }',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Sets possible choosing years range',
           },
@@ -165,7 +165,7 @@ const PageDatepicker = () => {
           {
             name: 'isOpenByDefault',
             type: 'boolean',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Sets is Calendar open by default',
           },
@@ -175,7 +175,7 @@ const PageDatepicker = () => {
                 placeholder: string | JSX.Element; apply: 
                 string | JSX.Element; 
                 reset: string | JSX.Element; }`,
-            required: 'true',
+            required: true,
             default: '-',
             description:
               'An object with with preset translations for button and calendar ',
@@ -188,7 +188,7 @@ const PageDatepicker = () => {
           {
             name: 'format',
             type: 'string',
-            required: 'false',
+            required: false,
             default: 'yyyy-MM-dd',
             description:
               'Sets formatted placeholder for button according to the pattern',

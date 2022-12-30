@@ -25,14 +25,14 @@ export default function PageDialogOverlay() {
           {
             name: 'isOpen',
             type: 'boolean',
-            required: 'false',
+            required: false,
             default: 'false',
             description: 'Is dialog open',
           },
           {
             name: 'onDismiss',
             type: 'function',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Function that triggers on dismissing dialog',
           },

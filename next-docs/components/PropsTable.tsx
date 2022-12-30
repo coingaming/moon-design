@@ -1,11 +1,8 @@
-import React from 'react';
-import { Table } from '@heathmont/moon-table-tw';
-
 type Data = {
   name: string;
   type: string;
-  required: 'true' | 'false';
-  default: string;
+  required: boolean | undefined;
+  default: string | React.ReactNode;
   description: string;
 };
 
@@ -14,35 +11,78 @@ type TableProps = {
   title?: string;
 };
 
-const PropsTable = ({ data, title }: TableProps) => {
-  const columns = [
-    {
-      Header: 'Name',
-      accessor: 'name',
-    },
-    {
-      Header: 'Type',
-      accessor: 'type',
-    },
-    {
-      Header: 'Required',
-      accessor: 'required',
-    },
-    {
-      Header: 'Default',
-      accessor: 'default',
-    },
-    {
-      Header: 'Description',
-      accessor: 'description',
-    },
-  ];
-  return (
-    <section className="flex flex-col gap-6">
-      {title && <h2 className="text-moon-24 font-medium">{title}</h2>}
-      <Table columns={columns} data={data} />
-    </section>
-  );
-};
+const PropsTable = ({ data, title }: TableProps) => (
+  <section className="flex flex-col gap-6">
+    {title && <h2 className="text-moon-24 font-medium">{title}</h2>}
+    <div className="overflow-x-auto">
+      <table className="min-w-full divide-y divide-beerus">
+        <thead className="bg-goku">
+          <tr>
+            <th
+              scope="col"
+              className="px-4 py-3 text-start text-xs font-medium text-trunk uppercase tracking-wider"
+            >
+              Name
+            </th>
+
+            <th
+              scope="col"
+              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
+            >
+              Type
+            </th>
+            <th
+              scope="col"
+              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
+            >
+              Required
+            </th>
+            <th
+              scope="col"
+              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
+            >
+              Default
+            </th>
+            <th
+              scope="col"
+              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
+            >
+              Description
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          {data.map((prop: Data, propIdx: number) => (
+            <tr
+              key={prop.name}
+              className={propIdx % 2 === 0 ? 'bg-gohan' : 'bg-goku'}
+            >
+              <td className="px-4 py-4 whitespace-nowrap text-sm font-medium text-bulma">
+                {prop.name}
+              </td>
+
+              <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
+                {prop.type}
+              </td>
+              <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
+                {typeof prop.required === 'boolean'
+                  ? prop.required
+                    ? 'Yes'
+                    : 'No'
+                  : ''}
+              </td>
+              <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
+                {prop.default}
+              </td>
+              <td className="px-4 py-4 text-sm text-bulma">
+                {prop.description}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+);
 
 export default PropsTable;

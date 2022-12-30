@@ -47,21 +47,21 @@ const PageAccordion = () => {
           {
             name: 'checked',
             type: 'boolean',
-            required: 'false',
+            required: false,
             default: 'false',
             description: 'Preset value for checkbox state',
           },
           {
             name: 'disabled',
             type: 'boolean',
-            required: 'false',
+            required: false,
             default: 'false',
             description: 'Checkbox disabled state',
           },
           {
             name: 'readOnly',
             type: 'boolean',
-            required: 'false',
+            required: false,
             default: 'false',
             description:
               "Checkbox isn't disabled but its value can't be changed",
@@ -69,7 +69,7 @@ const PageAccordion = () => {
           {
             name: 'label',
             type: 'string',
-            required: 'false',
+            required: false,
             default: '-',
             description: 'Label that describes checkbox purpose',
           },
