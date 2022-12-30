@@ -1,13 +1,11 @@
 import React from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
-import Loader from '../../../loader/Loader';
-import type { ButtonSettingsProps } from '../types/ButtonProps';
+import Loader from '../../../../loader/Loader';
+import type { IconButtonSettingsProps } from '../../types/IconButtonProps';
 
-const AnimationContent: React.FC<ButtonSettingsProps> = ({
+const AnimationContent: React.FC<IconButtonSettingsProps> = ({
   children,
-  iconLeft,
-  iconRight,
-  iconOnly,
+  icon,
   animation,
 }) => (
   <span className="block relative h-full pointer-events-none">
@@ -18,10 +16,8 @@ const AnimationContent: React.FC<ButtonSettingsProps> = ({
       )}
     </span>
     <span className="block opacity-0">
-      {iconLeft}
+      {icon}
       {children}
-      {iconRight}
-      {iconOnly}
     </span>
   </span>
 );

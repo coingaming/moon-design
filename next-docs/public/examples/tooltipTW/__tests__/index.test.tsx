@@ -12,8 +12,6 @@ import {
 import ArrowPositions from '../ArrowPositions';
 import Default from '../Default';
 import Customization from '../Customization';
-import WithoutArrow from '../WithoutArrow';
-import WithoutShadow from '../WithoutShadow';
 
 const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -42,18 +40,6 @@ describe('TextInput in Light Theme', () => {
     );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders WithoutArrow', () => {
-    const testRenderer = renderer.create(
-      renderWithLightTheme(<WithoutArrow />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders WithoutShadow', () => {
-    const testRenderer = renderer.create(
-      renderWithLightTheme(<WithoutShadow />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
 });
 
 describe('TextInput in Dark Theme', () => {
@@ -73,16 +59,6 @@ describe('TextInput in Dark Theme', () => {
     );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders WithoutArrow', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<WithoutArrow />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders WithoutShadow', () => {
-    const testRenderer = renderer.create(
-      renderWithDarkTheme(<WithoutShadow />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
 });
 
 describe('TextInput in RTL', () => {
@@ -96,14 +72,6 @@ describe('TextInput in RTL', () => {
   });
   it('renders Customization', () => {
     const testRenderer = renderer.create(renderWithRtl(<Customization />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders WithoutArrow', () => {
-    const testRenderer = renderer.create(renderWithRtl(<WithoutArrow />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders WithoutShadow', () => {
-    const testRenderer = renderer.create(renderWithRtl(<WithoutShadow />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

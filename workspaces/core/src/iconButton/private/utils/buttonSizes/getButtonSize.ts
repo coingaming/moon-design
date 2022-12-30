@@ -1,6 +1,6 @@
-import type { IconButtonSettingsProps } from '../types/IconButtonProps';
+import type { IconButtonSettingsProps } from '../../types/IconButtonProps';
 
-const buttonSizes = ({ size }: IconButtonSettingsProps): string => {
+const getButtonSize = ({ size }: IconButtonSettingsProps): string => {
   if (size === 'xs') {
     return 'h-6 p-1 gap-1 text-moon-12 rounded-moon-i-xs';
   }
@@ -16,4 +16,4 @@ const buttonSizes = ({ size }: IconButtonSettingsProps): string => {
   return 'h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm';
 };
 
-export default buttonSizes;
+export default getButtonSize;

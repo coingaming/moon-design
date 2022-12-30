@@ -4,7 +4,7 @@ exports[`Snackbar in Dark Theme renders AutoClose 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -70,7 +70,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -103,7 +103,7 @@ exports[`Snackbar in Dark Theme renders Customization 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -169,7 +169,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -197,7 +197,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -225,7 +225,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -253,7 +253,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -281,7 +281,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -313,7 +313,7 @@ Array [
 exports[`Snackbar in Dark Theme renders Default 1`] = `
 <div>
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -383,7 +383,7 @@ exports[`Snackbar in Dark Theme renders Options 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -449,7 +449,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -477,7 +477,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -505,7 +505,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -533,7 +533,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -561,7 +561,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -594,7 +594,7 @@ exports[`Snackbar in Dark Theme renders Positions 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -660,7 +660,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -688,7 +688,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -716,7 +716,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -744,7 +744,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -772,7 +772,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -805,7 +805,7 @@ exports[`Snackbar in Dark Theme renders Semantics 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -871,7 +871,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -899,7 +899,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -932,7 +932,7 @@ exports[`Snackbar in Light Theme renders AutoClose 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -998,7 +998,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1031,7 +1031,7 @@ exports[`Snackbar in Light Theme renders Customization 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1097,7 +1097,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1125,7 +1125,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1153,7 +1153,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1181,7 +1181,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1209,7 +1209,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1241,7 +1241,7 @@ Array [
 exports[`Snackbar in Light Theme renders Default 1`] = `
 <div>
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -1311,7 +1311,7 @@ exports[`Snackbar in Light Theme renders Options 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1377,7 +1377,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1405,7 +1405,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1433,7 +1433,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1461,7 +1461,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1489,7 +1489,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1522,7 +1522,7 @@ exports[`Snackbar in Light Theme renders Positions 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1588,7 +1588,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1616,7 +1616,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1644,7 +1644,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1672,7 +1672,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1700,7 +1700,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1733,7 +1733,7 @@ exports[`Snackbar in Light Theme renders Semantics 1`] = `
 Array [
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1799,7 +1799,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1827,7 +1827,7 @@ Array [
   </div>,
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1862,7 +1862,7 @@ exports[`Snackbar in RTL renders AutoClose 1`] = `
 >
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1928,7 +1928,7 @@ exports[`Snackbar in RTL renders AutoClose 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1963,7 +1963,7 @@ exports[`Snackbar in RTL renders Customization 1`] = `
 >
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2029,7 +2029,7 @@ exports[`Snackbar in RTL renders Customization 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2057,7 +2057,7 @@ exports[`Snackbar in RTL renders Customization 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2085,7 +2085,7 @@ exports[`Snackbar in RTL renders Customization 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2113,7 +2113,7 @@ exports[`Snackbar in RTL renders Customization 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2141,7 +2141,7 @@ exports[`Snackbar in RTL renders Customization 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2176,7 +2176,7 @@ exports[`Snackbar in RTL renders Default 1`] = `
 >
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2249,7 +2249,7 @@ exports[`Snackbar in RTL renders Options 1`] = `
 >
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2315,7 +2315,7 @@ exports[`Snackbar in RTL renders Options 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2343,7 +2343,7 @@ exports[`Snackbar in RTL renders Options 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2371,7 +2371,7 @@ exports[`Snackbar in RTL renders Options 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2399,7 +2399,7 @@ exports[`Snackbar in RTL renders Options 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2427,7 +2427,7 @@ exports[`Snackbar in RTL renders Options 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2462,7 +2462,7 @@ exports[`Snackbar in RTL renders Positions 1`] = `
 >
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2528,7 +2528,7 @@ exports[`Snackbar in RTL renders Positions 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2556,7 +2556,7 @@ exports[`Snackbar in RTL renders Positions 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2584,7 +2584,7 @@ exports[`Snackbar in RTL renders Positions 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2612,7 +2612,7 @@ exports[`Snackbar in RTL renders Positions 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2640,7 +2640,7 @@ exports[`Snackbar in RTL renders Positions 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2675,7 +2675,7 @@ exports[`Snackbar in RTL renders Semantics 1`] = `
 >
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2741,7 +2741,7 @@ exports[`Snackbar in RTL renders Semantics 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -2769,7 +2769,7 @@ exports[`Snackbar in RTL renders Semantics 1`] = `
   </div>
   <div>
     <button
-      className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}

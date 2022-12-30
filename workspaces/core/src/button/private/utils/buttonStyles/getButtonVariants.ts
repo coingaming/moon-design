@@ -1,6 +1,6 @@
-import type { ButtonSettingsProps } from '../types/ButtonProps';
+import type ButtonSettingsProps from '../../types/ButtonSettingsProps';
 
-const buttonVariants = ({ variant }: ButtonSettingsProps) => {
+const getButtonVariants = ({ variant }: ButtonSettingsProps): string => {
   if (variant === 'secondary') {
     return 'btn-secondary';
   }
@@ -13,4 +13,4 @@ const buttonVariants = ({ variant }: ButtonSettingsProps) => {
   return 'btn-primary';
 };
 
-export default buttonVariants;
+export default getButtonVariants;

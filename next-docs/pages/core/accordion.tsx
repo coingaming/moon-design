@@ -55,7 +55,7 @@ const Example = () => {
       <Preview
         title="One item open at a time"
         preview={<Single />}
-        code={examples ? examples.ContentHeader : 'Loading'}
+        code={examples ? examples.Single : 'Loading'}
       />
       <Preview
         title="Disabled"
