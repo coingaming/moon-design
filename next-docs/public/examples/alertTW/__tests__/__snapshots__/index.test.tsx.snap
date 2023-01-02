@@ -4,6 +4,7 @@ exports[`Alert in Dark Theme renders Customization 1`] = `
 Array [
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <p
       className="flex gap-3"
@@ -51,6 +52,7 @@ Array [
   </div>,
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
+    role="alert"
   >
     <p
       className="flex gap-3 text-roshi"
@@ -98,6 +100,7 @@ Array [
   </div>,
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma bg-roshi-10"
+    role="alert"
   >
     <p
       className="flex gap-3 text-roshi"
@@ -149,6 +152,7 @@ Array [
 exports[`Alert in Dark Theme renders Default 1`] = `
 <div
   className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+  role="alert"
 >
   Default alert
 </div>
@@ -158,6 +162,7 @@ exports[`Alert in Dark Theme renders WithClose 1`] = `
 Array [
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+    role="alert"
   >
     Alert with close
     <button
@@ -187,6 +192,7 @@ Array [
   </div>,
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+    role="alert"
   >
     <h6
       className="flex gap-3 font-medium"
@@ -230,6 +236,7 @@ exports[`Alert in Dark Theme renders WithIcon 1`] = `
 Array [
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <p
       className="flex gap-3"
@@ -253,6 +260,7 @@ Array [
   </div>,
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <h6
       className="flex gap-3 font-medium"
@@ -286,6 +294,7 @@ exports[`Alert in Dark Theme renders WithIconAndClose 1`] = `
 Array [
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <p
       className="flex gap-3"
@@ -333,6 +342,7 @@ Array [
   </div>,
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <h6
       className="flex gap-3 font-medium"
@@ -389,6 +399,7 @@ Array [
 exports[`Alert in Dark Theme renders WithTitle 1`] = `
 <div
   className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+  role="alert"
 >
   <h6
     className="flex gap-3 font-medium"
@@ -407,6 +418,7 @@ exports[`Alert in Light Theme renders Customization 1`] = `
 Array [
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <p
       className="flex gap-3"
@@ -454,6 +466,7 @@ Array [
   </div>,
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
+    role="alert"
   >
     <p
       className="flex gap-3 text-roshi"
@@ -501,6 +514,7 @@ Array [
   </div>,
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma bg-roshi-10"
+    role="alert"
   >
     <p
       className="flex gap-3 text-roshi"
@@ -552,6 +566,7 @@ Array [
 exports[`Alert in Light Theme renders Default 1`] = `
 <div
   className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+  role="alert"
 >
   Default alert
 </div>
@@ -561,6 +576,7 @@ exports[`Alert in Light Theme renders WithClose 1`] = `
 Array [
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+    role="alert"
   >
     Alert with close
     <button
@@ -590,6 +606,7 @@ Array [
   </div>,
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+    role="alert"
   >
     <h6
       className="flex gap-3 font-medium"
@@ -633,6 +650,7 @@ exports[`Alert in Light Theme renders WithIcon 1`] = `
 Array [
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <p
       className="flex gap-3"
@@ -656,6 +674,7 @@ Array [
   </div>,
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <h6
       className="flex gap-3 font-medium"
@@ -689,6 +708,7 @@ exports[`Alert in Light Theme renders WithIconAndClose 1`] = `
 Array [
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <p
       className="flex gap-3"
@@ -736,6 +756,7 @@ Array [
   </div>,
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <h6
       className="flex gap-3 font-medium"
@@ -792,6 +813,7 @@ Array [
 exports[`Alert in Light Theme renders WithTitle 1`] = `
 <div
   className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+  role="alert"
 >
   <h6
     className="flex gap-3 font-medium"
@@ -812,6 +834,7 @@ exports[`Alert in RTL renders Customization 1`] = `
 >
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <p
       className="flex gap-3"
@@ -859,6 +882,7 @@ exports[`Alert in RTL renders Customization 1`] = `
   </div>
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma bg-transparent outline outline-1 outline-offset-[-1px] outline-roshi"
+    role="alert"
   >
     <p
       className="flex gap-3 text-roshi"
@@ -906,6 +930,7 @@ exports[`Alert in RTL renders Customization 1`] = `
   </div>
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm text-moon-14 text-bulma bg-roshi-10"
+    role="alert"
   >
     <p
       className="flex gap-3 text-roshi"
@@ -960,6 +985,7 @@ exports[`Alert in RTL renders Default 1`] = `
 >
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     Default alert
   </div>
@@ -972,6 +998,7 @@ exports[`Alert in RTL renders WithClose 1`] = `
 >
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+    role="alert"
   >
     Alert with close
     <button
@@ -1001,6 +1028,7 @@ exports[`Alert in RTL renders WithClose 1`] = `
   </div>
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+    role="alert"
   >
     <h6
       className="flex gap-3 font-medium"
@@ -1046,6 +1074,7 @@ exports[`Alert in RTL renders WithIcon 1`] = `
 >
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <p
       className="flex gap-3"
@@ -1069,6 +1098,7 @@ exports[`Alert in RTL renders WithIcon 1`] = `
   </div>
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <h6
       className="flex gap-3 font-medium"
@@ -1104,6 +1134,7 @@ exports[`Alert in RTL renders WithIconAndClose 1`] = `
 >
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <p
       className="flex gap-3"
@@ -1151,6 +1182,7 @@ exports[`Alert in RTL renders WithIconAndClose 1`] = `
   </div>
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <h6
       className="flex gap-3 font-medium"
@@ -1210,6 +1242,7 @@ exports[`Alert in RTL renders WithTitle 1`] = `
 >
   <div
     className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma"
+    role="alert"
   >
     <h6
       className="flex gap-3 font-medium"
