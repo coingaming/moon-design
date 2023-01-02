@@ -1,5 +1,5 @@
 import { useCallback, useReducer } from 'react';
-import stateReducer from '../../../private/utils/stateReducer';
+import stateReducer from './stateReducer';
 
 const useRegisterChild = () => {
   const [state, dispatch] = useReducer(stateReducer, {
