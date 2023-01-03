@@ -3,7 +3,7 @@
 exports[`Icons in Dark Theme renders Customization 1`] = `
 Array [
   <svg
-    className="text-moon-24 text-chiChi"
+    className="text-moon-24 text-chichi"
     fill="none"
     height="1em"
     viewBox="0 0 32 32"
@@ -101,7 +101,7 @@ exports[`Icons in Dark Theme renders Default 1`] = `
 exports[`Icons in Light Theme renders Customization 1`] = `
 Array [
   <svg
-    className="text-moon-24 text-chiChi"
+    className="text-moon-24 text-chichi"
     fill="none"
     height="1em"
     viewBox="0 0 32 32"
@@ -201,7 +201,7 @@ exports[`Icons in RTL renders Customization 1`] = `
   dir="rtl"
 >
   <svg
-    className="text-moon-24 text-chiChi"
+    className="text-moon-24 text-chichi"
     fill="none"
     height="1em"
     viewBox="0 0 32 32"

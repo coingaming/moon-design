@@ -4,7 +4,7 @@ exports[`Switch in Dark Theme renders CustomBg 1`] = `
 Array [
   <button
     aria-checked={true}
-    className="block relative isolate cursor-pointer rounded-full transition focus:outline-none w-[3.75rem] h-8 p-1 bg-chiChi"
+    className="block relative isolate cursor-pointer rounded-full transition focus:outline-none w-[3.75rem] h-8 p-1 bg-chichi"
     id="headlessui-switch-:rg:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -420,7 +420,7 @@ exports[`Switch in Light Theme renders CustomBg 1`] = `
 Array [
   <button
     aria-checked={true}
-    className="block relative isolate cursor-pointer rounded-full transition focus:outline-none w-[3.75rem] h-8 p-1 bg-chiChi"
+    className="block relative isolate cursor-pointer rounded-full transition focus:outline-none w-[3.75rem] h-8 p-1 bg-chichi"
     id="headlessui-switch-:r4:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -838,7 +838,7 @@ exports[`Switch in RTL renders CustomBg 1`] = `
 >
   <button
     aria-checked={true}
-    className="block relative isolate cursor-pointer rounded-full transition focus:outline-none w-[3.75rem] h-8 p-1 bg-chiChi"
+    className="block relative isolate cursor-pointer rounded-full transition focus:outline-none w-[3.75rem] h-8 p-1 bg-chichi"
     id="headlessui-switch-:rs:"
     onClick={[Function]}
     onKeyPress={[Function]}

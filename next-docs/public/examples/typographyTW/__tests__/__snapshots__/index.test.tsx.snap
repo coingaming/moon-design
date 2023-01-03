@@ -35,9 +35,9 @@ Array [
     Roshi
   </p>,
   <p
-    className="text-chiChi"
+    className="text-chichi"
   >
-    chiChi
+    Chichi
   </p>,
 ]
 `;
@@ -221,9 +221,9 @@ Array [
     Roshi
   </p>,
   <p
-    className="text-chiChi"
+    className="text-chichi"
   >
-    chiChi
+    Chichi
   </p>,
 ]
 `;
@@ -413,9 +413,9 @@ exports[`Typography in RTL renders Colors 1`] = `
     Roshi
   </p>
   <p
-    className="text-chiChi"
+    className="text-chichi"
   >
-    chiChi
+    Chichi
   </p>
 </div>
 `;
