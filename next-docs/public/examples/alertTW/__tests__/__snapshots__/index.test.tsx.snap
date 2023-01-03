@@ -164,6 +164,42 @@ exports[`Alert in Dark Theme renders Default 1`] = `
 </div>
 `;
 
+exports[`Alert in Dark Theme renders HandleClose 1`] = `
+<div
+  className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+  role="alert"
+>
+  Click the Close button to hide the Alert
+  <button
+    aria-label="close"
+    className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    <svg
+      fill="none"
+      height="1em"
+      role="presentation"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+</div>
+`;
+
 exports[`Alert in Dark Theme renders WithClose 1`] = `
 Array [
   <div
@@ -589,6 +625,42 @@ exports[`Alert in Light Theme renders Default 1`] = `
   role="alert"
 >
   Default alert
+</div>
+`;
+
+exports[`Alert in Light Theme renders HandleClose 1`] = `
+<div
+  className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+  role="alert"
+>
+  Click the Close button to hide the Alert
+  <button
+    aria-label="close"
+    className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    <svg
+      fill="none"
+      height="1em"
+      role="presentation"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+        stroke="currentColor"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      />
+    </svg>
+    <span
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
 </div>
 `;
 
@@ -1022,6 +1094,46 @@ exports[`Alert in RTL renders Default 1`] = `
     role="alert"
   >
     Default alert
+  </div>
+</div>
+`;
+
+exports[`Alert in RTL renders HandleClose 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="relative flex flex-col w-full gap-x-3 gap-y-1 p-4 rounded-moon-s-sm bg-gohan text-moon-14 text-bulma ltr:pr-[52px] rtl:pl-[52px]"
+    role="alert"
+  >
+    Click the Close button to hide the Alert
+    <button
+      aria-label="close"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        role="presentation"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
   </div>
 </div>
 `;
