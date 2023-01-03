@@ -15,6 +15,7 @@ import WithClose from '../WithClose';
 import WithIcon from '../WithIcon';
 import WithTitle from '../WithTitle';
 import WithIconAndClose from '../WithIconAndClose';
+import HandleClose from '../HandleClose';
 
 const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -57,6 +58,10 @@ describe('Alert in Light Theme', () => {
     );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders HandleClose', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<HandleClose />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 });
 
 describe('Alert in Dark Theme', () => {
@@ -88,6 +93,10 @@ describe('Alert in Dark Theme', () => {
     );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders HandleClose', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<HandleClose />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 });
 
 describe('Alert in RTL', () => {
@@ -113,6 +122,10 @@ describe('Alert in RTL', () => {
   });
   it('renders WithIconAndClose', () => {
     const testRenderer = renderer.create(renderWithRtl(<WithIconAndClose />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders HandleClose', () => {
+    const testRenderer = renderer.create(renderWithRtl(<HandleClose />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

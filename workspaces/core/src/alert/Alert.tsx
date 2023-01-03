@@ -42,7 +42,11 @@ const Message: React.FC<TextProps> = ({ className, children }) => (
   <p className={mergeClassnames('flex gap-3', className)}>{children}</p>
 );
 
-const Close: React.FC<CloseProps> = ({ className }) => {
+const Close: React.FC<CloseProps> = ({
+  className,
+  ariaLabel = 'close',
+  onClick,
+}) => {
   const { registerChild } = useAlertContext('Alert.Close');
   useEffect(() => {
     registerChild && registerChild('Close');
@@ -51,11 +55,13 @@ const Close: React.FC<CloseProps> = ({ className }) => {
     <IconButton
       size="xs"
       variant="ghost"
+      aria-label={ariaLabel}
       className={mergeClassnames(
         'absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma',
         className
       )}
-      icon={<ControlsClose />}
+      onClick={onClick}
+      icon={<ControlsClose role="presentation" />}
     />
   );
 };

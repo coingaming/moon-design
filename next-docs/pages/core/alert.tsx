@@ -4,6 +4,7 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/alertTW/Customization';
 import Default from '../../public/examples/alertTW/Default';
+import HandleClose from '../../public/examples/alertTW/HandleClose';
 import WithClose from '../../public/examples/alertTW/WithClose';
 import WithIcon from '../../public/examples/alertTW/WithIcon';
 import WithIconAndClose from '../../public/examples/alertTW/WithIconAndClose';
@@ -14,7 +15,12 @@ const Example = () => {
   const examples = useExamples('alertTW');
   return (
     <>
-      <ComponentPageDescription title="Alert" isInProgress isRtlSupport isAriaSupport>
+      <ComponentPageDescription
+        title="Alert"
+        isInProgress
+        isRtlSupport
+        isAriaSupport
+      >
         <p>
           A way of informing the user of important changes in a prominent way.
         </p>
@@ -50,6 +56,11 @@ const Example = () => {
         title="With icon and close"
         preview={<WithIconAndClose />}
         code={examples ? examples.WithIconAndClose : 'Loading'}
+      />
+      <Preview
+        title="Handle close"
+        preview={<HandleClose />}
+        code={examples ? examples.HandleClose : 'Loading'}
       />
       <Preview
         title="Customization"

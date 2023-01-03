@@ -1,6 +1,5 @@
 import React from 'react';
 import { Alert } from '@heathmont/moon-core-tw';
-import { OtherFrame } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <>

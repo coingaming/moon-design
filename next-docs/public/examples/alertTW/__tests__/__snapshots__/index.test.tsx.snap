@@ -26,6 +26,7 @@ Array [
       Generic style with coloured icon
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -34,6 +35,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -74,6 +76,7 @@ Array [
       Outline style
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -82,6 +85,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -122,6 +126,7 @@ Array [
       Colourful style
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -130,6 +135,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -166,6 +172,7 @@ Array [
   >
     Alert with close
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -174,6 +181,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -205,6 +213,7 @@ Array [
       Alert message
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -213,6 +222,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -316,6 +326,7 @@ Array [
       Alert with icon
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -324,6 +335,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -369,6 +381,7 @@ Array [
       Alert message
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -377,6 +390,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -440,6 +454,7 @@ Array [
       Generic style with coloured icon
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -448,6 +463,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -488,6 +504,7 @@ Array [
       Outline style
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -496,6 +513,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -536,6 +554,7 @@ Array [
       Colourful style
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -544,6 +563,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -580,6 +600,7 @@ Array [
   >
     Alert with close
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -588,6 +609,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -619,6 +641,7 @@ Array [
       Alert message
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -627,6 +650,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -730,6 +754,7 @@ Array [
       Alert with icon
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -738,6 +763,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -783,6 +809,7 @@ Array [
       Alert message
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -791,6 +818,7 @@ Array [
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -856,6 +884,7 @@ exports[`Alert in RTL renders Customization 1`] = `
       Generic style with coloured icon
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -864,6 +893,7 @@ exports[`Alert in RTL renders Customization 1`] = `
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -904,6 +934,7 @@ exports[`Alert in RTL renders Customization 1`] = `
       Outline style
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -912,6 +943,7 @@ exports[`Alert in RTL renders Customization 1`] = `
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -952,6 +984,7 @@ exports[`Alert in RTL renders Customization 1`] = `
       Colourful style
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -960,6 +993,7 @@ exports[`Alert in RTL renders Customization 1`] = `
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -1002,6 +1036,7 @@ exports[`Alert in RTL renders WithClose 1`] = `
   >
     Alert with close
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1010,6 +1045,7 @@ exports[`Alert in RTL renders WithClose 1`] = `
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -1041,6 +1077,7 @@ exports[`Alert in RTL renders WithClose 1`] = `
       Alert message
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1049,6 +1086,7 @@ exports[`Alert in RTL renders WithClose 1`] = `
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -1156,6 +1194,7 @@ exports[`Alert in RTL renders WithIconAndClose 1`] = `
       Alert with icon
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1164,6 +1203,7 @@ exports[`Alert in RTL renders WithIconAndClose 1`] = `
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
@@ -1209,6 +1249,7 @@ exports[`Alert in RTL renders WithIconAndClose 1`] = `
       Alert message
     </p>
     <button
+      aria-label="close"
       className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1217,6 +1258,7 @@ exports[`Alert in RTL renders WithIconAndClose 1`] = `
       <svg
         fill="none"
         height="1em"
+        role="presentation"
         viewBox="0 0 32 32"
         width="1em"
         xmlns="http://www.w3.org/2000/svg"
