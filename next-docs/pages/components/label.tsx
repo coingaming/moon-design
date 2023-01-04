@@ -2,14 +2,14 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Colours from '../../public/examples/label/Colours';
-import Icons from '../../public/examples/label/Icons';
-import LetterCases from '../../public/examples/label/LetterCases';
-import Sizes from '../../public/examples/label/Sizes';
+import Colours from '../../public/examples/styled/label/Colours';
+import Icons from '../../public/examples/styled/label/Icons';
+import LetterCases from '../../public/examples/styled/label/LetterCases';
+import Sizes from '../../public/examples/styled/label/Sizes';
 import useExamples from '../../utils/useExamples';
 
 const PageLabel = () => {
-  const examples = useExamples('label');
+  const examples = useExamples('label', 'styled');
   return (
     <>
       <ComponentPageDescription title="Label">

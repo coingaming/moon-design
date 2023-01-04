@@ -3,18 +3,18 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import EmailBgColor from '../../../public/examples/textInput/email/EmailBgColor';
-import EmailDisabled from '../../../public/examples/textInput/email/EmailDisabled';
-import EmailError from '../../../public/examples/textInput/email/EmailError';
-import EmailReadonly from '../../../public/examples/textInput/email/EmailReadonly';
-import EmailWithHint from '../../../public/examples/textInput/email/EmailWithHint';
-import EmailWithLabel from '../../../public/examples/textInput/email/EmailWithLabel';
-import EmailWithLabelRtl from '../../../public/examples/textInput/email/EmailWithLabelRtl';
-import EmailWithoutLabel from '../../../public/examples/textInput/email/EmailWithoutLabel';
+import EmailBgColor from '../../../public/examples/styled/textInput/email/EmailBgColor';
+import EmailDisabled from '../../../public/examples/styled/textInput/email/EmailDisabled';
+import EmailError from '../../../public/examples/styled/textInput/email/EmailError';
+import EmailReadonly from '../../../public/examples/styled/textInput/email/EmailReadonly';
+import EmailWithHint from '../../../public/examples/styled/textInput/email/EmailWithHint';
+import EmailWithLabel from '../../../public/examples/styled/textInput/email/EmailWithLabel';
+import EmailWithLabelRtl from '../../../public/examples/styled/textInput/email/EmailWithLabelRtl';
+import EmailWithoutLabel from '../../../public/examples/styled/textInput/email/EmailWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTextInput() {
-  const examples = useExamples('textInput/email');
+  const examples = useExamples('textInput/email', 'styled');
   return (
     <>
       <ComponentPageDescription title="Email">

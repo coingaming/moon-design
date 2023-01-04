@@ -1,9 +1,10 @@
 import useSWR from 'swr';
 
-const API_ENDPOINT = 'examples';
+type Tech = 'styled' | 'tailwind';
 
-const useExamples = (componentName: string) => {
+const useExamples = (componentName: string, tech: Tech = 'tailwind') => {
   const fetcher = (url: string) => fetch(url).then((res) => res.json());
+  const API_ENDPOINT = tech === 'tailwind' ? 'examples' : 'styledExamples';
   const { data } = useSWR(
     `/api/${API_ENDPOINT}?component=${encodeURIComponent(componentName)}`,
     fetcher

@@ -3,12 +3,12 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import Default from '../../../public/examples/progress/circular/Default';
-import Rtl from '../../../public/examples/progress/circular/Rtl';
+import Default from '../../../public/examples/styled/progress/circular/Default';
+import Rtl from '../../../public/examples/styled/progress/circular/Rtl';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageProgressLinear() {
-  const examples = useExamples('progress/circular');
+  const examples = useExamples('progress/circular', 'styled');
   return (
     <>
       <ComponentPageDescription title="Circular">

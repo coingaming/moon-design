@@ -2,18 +2,18 @@ import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
-import Disabled from '../../../public/examples/select/multiReactSelect/Disabled';
-import Error from '../../../public/examples/select/multiReactSelect/Error';
-import Hint from '../../../public/examples/select/multiReactSelect/Hint';
-import ListWidth from '../../../public/examples/select/multiReactSelect/ListWidth';
-import OptionsContent from '../../../public/examples/select/multiReactSelect/OptionsContent';
-import WithCounter from '../../../public/examples/select/multiReactSelect/WithCounter';
-import WithLabel from '../../../public/examples/select/multiReactSelect/WithLabel';
-import WithoutLabel from '../../../public/examples/select/multiReactSelect/WithoutLabel';
+import Disabled from '../../../public/examples/styled/select/multiReactSelect/Disabled';
+import Error from '../../../public/examples/styled/select/multiReactSelect/Error';
+import Hint from '../../../public/examples/styled/select/multiReactSelect/Hint';
+import ListWidth from '../../../public/examples/styled/select/multiReactSelect/ListWidth';
+import OptionsContent from '../../../public/examples/styled/select/multiReactSelect/OptionsContent';
+import WithCounter from '../../../public/examples/styled/select/multiReactSelect/WithCounter';
+import WithLabel from '../../../public/examples/styled/select/multiReactSelect/WithLabel';
+import WithoutLabel from '../../../public/examples/styled/select/multiReactSelect/WithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {
-  const examples = useExamples('select/multiReactSelect');
+  const examples = useExamples('select/multiReactSelect', 'styled');
   return (
     <>
       <ComponentPageDescription title="Multi Select">

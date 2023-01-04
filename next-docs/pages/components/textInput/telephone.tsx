@@ -3,18 +3,18 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import TelephoneBgColor from '../../../public/examples/textInput/telephone/TelephoneBgColor';
-import TelephoneDisabled from '../../../public/examples/textInput/telephone/TelephoneDisabled';
-import TelephoneError from '../../../public/examples/textInput/telephone/TelephoneError';
-import TelephoneReadonly from '../../../public/examples/textInput/telephone/TelephoneReadonly';
-import TelephoneWithHint from '../../../public/examples/textInput/telephone/TelephoneWithHint';
-import TelephoneWithLabel from '../../../public/examples/textInput/telephone/TelephoneWithLabel';
-import TelephoneWithLabelRtl from '../../../public/examples/textInput/telephone/TelephoneWithLabelRtl';
-import TelephoneWithoutLabel from '../../../public/examples/textInput/telephone/TelephoneWithoutLabel';
+import TelephoneBgColor from '../../../public/examples/styled/textInput/telephone/TelephoneBgColor';
+import TelephoneDisabled from '../../../public/examples/styled/textInput/telephone/TelephoneDisabled';
+import TelephoneError from '../../../public/examples/styled/textInput/telephone/TelephoneError';
+import TelephoneReadonly from '../../../public/examples/styled/textInput/telephone/TelephoneReadonly';
+import TelephoneWithHint from '../../../public/examples/styled/textInput/telephone/TelephoneWithHint';
+import TelephoneWithLabel from '../../../public/examples/styled/textInput/telephone/TelephoneWithLabel';
+import TelephoneWithLabelRtl from '../../../public/examples/styled/textInput/telephone/TelephoneWithLabelRtl';
+import TelephoneWithoutLabel from '../../../public/examples/styled/textInput/telephone/TelephoneWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTelephoneInput() {
-  const examples = useExamples('textInput/text');
+  const examples = useExamples('textInput/text', 'styled');
   return (
     <>
       <ComponentPageDescription title="Telephone">

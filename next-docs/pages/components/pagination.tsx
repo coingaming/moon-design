@@ -2,11 +2,11 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/examples/pagination/Default';
+import Default from '../../public/examples/styled/pagination/Default';
 import useExamples from '../../utils/useExamples';
 
 const PagePagination = () => {
-  const examples = useExamples('pagination');
+  const examples = useExamples('pagination', 'styled');
   return (
     <>
       <ComponentPageDescription title="Pagination">

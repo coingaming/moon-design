@@ -3,18 +3,18 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import SearchBgColor from '../../../public/examples/textInput/search/SearchBgColor';
-import SearchDisabled from '../../../public/examples/textInput/search/SearchDisabled';
-import SearchError from '../../../public/examples/textInput/search/SearchError';
-import SearchReadonly from '../../../public/examples/textInput/search/SearchReadonly';
-import SearchWithHint from '../../../public/examples/textInput/search/SearchWithHint';
-import SearchWithLabel from '../../../public/examples/textInput/search/SearchWithLabel';
-import SearchWithLabelRtl from '../../../public/examples/textInput/search/SearchWithLabelRtl';
-import SearchWithoutLabel from '../../../public/examples/textInput/search/SearchWithoutLabel';
+import SearchBgColor from '../../../public/examples/styled/textInput/search/SearchBgColor';
+import SearchDisabled from '../../../public/examples/styled/textInput/search/SearchDisabled';
+import SearchError from '../../../public/examples/styled/textInput/search/SearchError';
+import SearchReadonly from '../../../public/examples/styled/textInput/search/SearchReadonly';
+import SearchWithHint from '../../../public/examples/styled/textInput/search/SearchWithHint';
+import SearchWithLabel from '../../../public/examples/styled/textInput/search/SearchWithLabel';
+import SearchWithLabelRtl from '../../../public/examples/styled/textInput/search/SearchWithLabelRtl';
+import SearchWithoutLabel from '../../../public/examples/styled/textInput/search/SearchWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSearchInput() {
-  const examples = useExamples('textInput/search');
+  const examples = useExamples('textInput/search', 'styled');
   return (
     <>
       <ComponentPageDescription title="Search">

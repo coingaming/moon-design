@@ -1,11 +1,11 @@
 import Preview from '../../components/codePreview/Preview';
-import Closed from '../../public/examples/sidebar/Closed';
-import Default from '../../public/examples/sidebar/Default';
-import Rtl from '../../public/examples/sidebar/Rtl';
+import Closed from '../../public/examples/styled/sidebar/Closed';
+import Default from '../../public/examples/styled/sidebar/Default';
+import Rtl from '../../public/examples/styled/sidebar/Rtl';
 import useExamples from '../../utils/useExamples';
 
 export default function PageSidebar() {
-  const examples = useExamples('sidebar');
+  const examples = useExamples('sidebar', 'styled');
 
   return (
     <>

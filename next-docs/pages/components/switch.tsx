@@ -2,12 +2,12 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Buttons from '../../public/examples/switch/Buttons';
-import Default from '../../public/examples/switch/Default';
-import Disabled from '../../public/examples/switch/Disabled';
-import Rtl from '../../public/examples/switch/Rtl';
-import Sizes from '../../public/examples/switch/Sizes';
-import Theme from '../../public/examples/switch/Theme';
+import Buttons from '../../public/examples/styled/switch/Buttons';
+import Default from '../../public/examples/styled/switch/Default';
+import Disabled from '../../public/examples/styled/switch/Disabled';
+import Rtl from '../../public/examples/styled/switch/Rtl';
+import Sizes from '../../public/examples/styled/switch/Sizes';
+import Theme from '../../public/examples/styled/switch/Theme';
 import useExamples from '../../utils/useExamples';
 
 type Props = {
@@ -15,7 +15,7 @@ type Props = {
 };
 
 export default function PageSwitch({ isRtl }: Props) {
-  const examples = useExamples('switch');
+  const examples = useExamples('switch', 'styled');
   return (
     <>
       <ComponentPageDescription title="Switch">

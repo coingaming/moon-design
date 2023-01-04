@@ -3,18 +3,18 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import NumberBgColor from '../../../public/examples/textInput/number/NumberBgColor';
-import NumberDisabled from '../../../public/examples/textInput/number/NumberDisabled';
-import NumberError from '../../../public/examples/textInput/number/NumberError';
-import NumberReadonly from '../../../public/examples/textInput/number/NumberReadonly';
-import NumberWithHint from '../../../public/examples/textInput/number/NumberWithHint';
-import NumberWithLabel from '../../../public/examples/textInput/number/NumberWithLabel';
-import NumberWithLabelRtl from '../../../public/examples/textInput/number/NumberWithLabelRtl';
-import NumberWithoutLabel from '../../../public/examples/textInput/number/NumberWithoutLabel';
+import NumberBgColor from '../../../public/examples/styled/textInput/number/NumberBgColor';
+import NumberDisabled from '../../../public/examples/styled/textInput/number/NumberDisabled';
+import NumberError from '../../../public/examples/styled/textInput/number/NumberError';
+import NumberReadonly from '../../../public/examples/styled/textInput/number/NumberReadonly';
+import NumberWithHint from '../../../public/examples/styled/textInput/number/NumberWithHint';
+import NumberWithLabel from '../../../public/examples/styled/textInput/number/NumberWithLabel';
+import NumberWithLabelRtl from '../../../public/examples/styled/textInput/number/NumberWithLabelRtl';
+import NumberWithoutLabel from '../../../public/examples/styled/textInput/number/NumberWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageNumberInput() {
-  const examples = useExamples('textInput/number');
+  const examples = useExamples('textInput/number', 'styled');
 
   return (
     <>

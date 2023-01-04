@@ -2,15 +2,15 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Active from '../../public/examples/chip/Active';
-import Icons from '../../public/examples/chip/Icons';
-import IconsWithStroke from '../../public/examples/chip/IconsWithStroke';
-import Sizes from '../../public/examples/chip/Sizes';
-import Stroke from '../../public/examples/chip/Stroke';
+import Active from '../../public/examples/styled/chip/Active';
+import Icons from '../../public/examples/styled/chip/Icons';
+import IconsWithStroke from '../../public/examples/styled/chip/IconsWithStroke';
+import Sizes from '../../public/examples/styled/chip/Sizes';
+import Stroke from '../../public/examples/styled/chip/Stroke';
 import useExamples from '../../utils/useExamples';
 
 const PageChip = () => {
-  const examples = useExamples('chip');
+  const examples = useExamples('chip', 'styled');
   return (
     <>
       <ComponentPageDescription title="Chip">

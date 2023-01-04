@@ -3,18 +3,18 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import UrlBgColor from '../../../public/examples/textInput/url/UrlBgColor';
-import UrlDisabled from '../../../public/examples/textInput/url/UrlDisabled';
-import UrlError from '../../../public/examples/textInput/url/UrlError';
-import UrlReadonly from '../../../public/examples/textInput/url/UrlReadonly';
-import UrlWithHint from '../../../public/examples/textInput/url/UrlWithHint';
-import UrlWithLabel from '../../../public/examples/textInput/url/UrlWithLabel';
-import UrlWithLabelRtl from '../../../public/examples/textInput/url/UrlWithLabelRtl';
-import UrlWithoutLabel from '../../../public/examples/textInput/url/UrlWithoutLabel';
+import UrlBgColor from '../../../public/examples/styled/textInput/url/UrlBgColor';
+import UrlDisabled from '../../../public/examples/styled/textInput/url/UrlDisabled';
+import UrlError from '../../../public/examples/styled/textInput/url/UrlError';
+import UrlReadonly from '../../../public/examples/styled/textInput/url/UrlReadonly';
+import UrlWithHint from '../../../public/examples/styled/textInput/url/UrlWithHint';
+import UrlWithLabel from '../../../public/examples/styled/textInput/url/UrlWithLabel';
+import UrlWithLabelRtl from '../../../public/examples/styled/textInput/url/UrlWithLabelRtl';
+import UrlWithoutLabel from '../../../public/examples/styled/textInput/url/UrlWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageUrlInput() {
-  const examples = useExamples('textInput/text');
+  const examples = useExamples('textInput/text', 'styled');
   return (
     <>
       <ComponentPageDescription title="Url">

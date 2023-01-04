@@ -3,21 +3,21 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Calendar from '../../public/examples/table/Calendar';
-import ClickableRows from '../../public/examples/table/ClickableRows';
-import CustomColors from '../../public/examples/table/CustomColors';
-import CustomContent from '../../public/examples/table/CustomContent';
-import DeepTable from '../../public/examples/table/DeepTable';
-import Default from '../../public/examples/table/Default';
-import ExpandedRow from '../../public/examples/table/ExpandedRow';
-import MiniMap from '../../public/examples/table/MiniMap';
-import SelectableCheckboxes from '../../public/examples/table/SelectableCheckboxes';
-import SelectableRows from '../../public/examples/table/SelectableRows';
-import Sorting from '../../public/examples/table/Sorting';
+import Calendar from '../../public/examples/styled/table/Calendar';
+import ClickableRows from '../../public/examples/styled/table/ClickableRows';
+import CustomColors from '../../public/examples/styled/table/CustomColors';
+import CustomContent from '../../public/examples/styled/table/CustomContent';
+import DeepTable from '../../public/examples/styled/table/DeepTable';
+import Default from '../../public/examples/styled/table/Default';
+import ExpandedRow from '../../public/examples/styled/table/ExpandedRow';
+import MiniMap from '../../public/examples/styled/table/MiniMap';
+import SelectableCheckboxes from '../../public/examples/styled/table/SelectableCheckboxes';
+import SelectableRows from '../../public/examples/styled/table/SelectableRows';
+import Sorting from '../../public/examples/styled/table/Sorting';
 import useExamples from '../../utils/useExamples';
 
 export default function PageTable() {
-  const examples = useExamples('table');
+  const examples = useExamples('table', 'styled');
   return (
     <>
       <ComponentPageDescription title="Table">

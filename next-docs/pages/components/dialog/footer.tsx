@@ -3,13 +3,13 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import ButtonMd from '../../../public/examples/dialog/footer/ButtonMd';
-import ButtonSm from '../../../public/examples/dialog/footer/ButtonSm';
-import Size from '../../../public/examples/dialog/footer/Size';
+import ButtonMd from '../../../public/examples/styled/dialog/footer/ButtonMd';
+import ButtonSm from '../../../public/examples/styled/dialog/footer/ButtonSm';
+import Size from '../../../public/examples/styled/dialog/footer/Size';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogFooter() {
-  const examples = useExamples('dialog/footer');
+  const examples = useExamples('dialog/footer', 'styled');
   return (
     <>
       <ComponentPageDescription title="Dialog Footer">

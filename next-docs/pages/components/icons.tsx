@@ -5,27 +5,27 @@ import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import IconsBlock from '../../components/IconsBlock';
 import IconsImportHelper from '../../components/IconsImportHelper';
 import PageSection from '../../components/PageSection';
-import Arrows from '../../public/examples/icons/Arrows';
-import Chart from '../../public/examples/icons/Chart';
-import Chat from '../../public/examples/icons/Chat';
-import Controls from '../../public/examples/icons/Controls';
-import DefaultIconSet from '../../public/examples/icons/DefaultIconSet';
-import Devices from '../../public/examples/icons/Devices';
-import Files from '../../public/examples/icons/Files';
-import Generic from '../../public/examples/icons/Generic';
-import Mail from '../../public/examples/icons/Mail';
-import Maps from '../../public/examples/icons/Maps';
-import Media from '../../public/examples/icons/Media';
-import Notifications from '../../public/examples/icons/Notifications';
-import Other from '../../public/examples/icons/Other';
-import Security from '../../public/examples/icons/Security';
-import Shop from '../../public/examples/icons/Shop';
-import Software from '../../public/examples/icons/Software';
-import Sport from '../../public/examples/icons/Sport';
-import Text from '../../public/examples/icons/Text';
-import Time from '../../public/examples/icons/Time';
-import Travel from '../../public/examples/icons/Travel';
-import Type from '../../public/examples/icons/Type';
+import Arrows from '../../public/examples/styled/icons/Arrows';
+import Chart from '../../public/examples/styled/icons/Chart';
+import Chat from '../../public/examples/styled/icons/Chat';
+import Controls from '../../public/examples/styled/icons/Controls';
+import DefaultIconSet from '../../public/examples/styled/icons/DefaultIconSet';
+import Devices from '../../public/examples/styled/icons/Devices';
+import Files from '../../public/examples/styled/icons/Files';
+import Generic from '../../public/examples/styled/icons/Generic';
+import Mail from '../../public/examples/styled/icons/Mail';
+import Maps from '../../public/examples/styled/icons/Maps';
+import Media from '../../public/examples/styled/icons/Media';
+import Notifications from '../../public/examples/styled/icons/Notifications';
+import Other from '../../public/examples/styled/icons/Other';
+import Security from '../../public/examples/styled/icons/Security';
+import Shop from '../../public/examples/styled/icons/Shop';
+import Software from '../../public/examples/styled/icons/Software';
+import Sport from '../../public/examples/styled/icons/Sport';
+import Text from '../../public/examples/styled/icons/Text';
+import Time from '../../public/examples/styled/icons/Time';
+import Travel from '../../public/examples/styled/icons/Travel';
+import Type from '../../public/examples/styled/icons/Type';
 import useExamples from '../../utils/useExamples';
 
 const PageIcons = () => {
@@ -45,7 +45,7 @@ const PageIcons = () => {
   const onClick = (iconName: string) =>
     setSelectedIcons(toggleSelectedIcons(iconName));
   const wrapperProps = { onClick, selectedIcons };
-  const examples = useExamples('icons');
+  const examples = useExamples('icons', 'styled');
   return (
     <>
       <ComponentPageDescription title="Icons">

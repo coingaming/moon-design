@@ -3,11 +3,11 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import Default from '../../../public/examples/progress/linear/Default';
+import Default from '../../../public/examples/styled/progress/linear/Default';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageProgressLinear() {
-  const examples = useExamples('progress/linear');
+  const examples = useExamples('progress/linear', 'styled');
 
   return (
     <>

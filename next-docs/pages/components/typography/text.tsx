@@ -2,18 +2,18 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import Colors from '../../../public/examples/text/Colors';
-import FontWeight from '../../../public/examples/text/FontWeight';
-import LineHeight from '../../../public/examples/text/LineHeight';
-import SemanticTags from '../../../public/examples/text/SemanticTags';
-import Sizes from '../../../public/examples/text/Sizes';
-import TextAlign from '../../../public/examples/text/TextAlign';
-import Underline from '../../../public/examples/text/Underline';
-import Uppercase from '../../../public/examples/text/Uppercase';
+import Colors from '../../../public/examples/styled/text/Colors';
+import FontWeight from '../../../public/examples/styled/text/FontWeight';
+import LineHeight from '../../../public/examples/styled/text/LineHeight';
+import SemanticTags from '../../../public/examples/styled/text/SemanticTags';
+import Sizes from '../../../public/examples/styled/text/Sizes';
+import TextAlign from '../../../public/examples/styled/text/TextAlign';
+import Underline from '../../../public/examples/styled/text/Underline';
+import Uppercase from '../../../public/examples/styled/text/Uppercase';
 import useExamples from '../../../utils/useExamples';
 
 const PageText = () => {
-  const examples = useExamples('text');
+  const examples = useExamples('text', 'styled');
   return (
     <>
       <ComponentPageDescription title="Text">

@@ -2,15 +2,15 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import ActiveStatus from '../../public/examples/avatar/ActiveStatus';
-import Colours from '../../public/examples/avatar/Colours';
-import Sizes from '../../public/examples/avatar/Sizes';
-import StatusOrigin from '../../public/examples/avatar/StatusOrigin';
-import Variants from '../../public/examples/avatar/Variants';
+import ActiveStatus from '../../public/examples/styled/avatar/ActiveStatus';
+import Colours from '../../public/examples/styled/avatar/Colours';
+import Sizes from '../../public/examples/styled/avatar/Sizes';
+import StatusOrigin from '../../public/examples/styled/avatar/StatusOrigin';
+import Variants from '../../public/examples/styled/avatar/Variants';
 import useExamples from '../../utils/useExamples';
 
 const PageAvatar = () => {
-  const examples = useExamples('avatar');
+  const examples = useExamples('avatar', 'styled');
   return (
     <>
       <ComponentPageDescription title="Avatar">

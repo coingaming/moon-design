@@ -3,21 +3,21 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import AccessValues from '../../public/examples/textInputGroup/AccessValues';
-import Combined from '../../public/examples/textInputGroup/Combined';
-import CombinedVertical from '../../public/examples/textInputGroup/CombinedVertical';
-import Default from '../../public/examples/textInputGroup/Default';
-import EventListenerSelect from '../../public/examples/textInputGroup/EventListenerSelect';
-import MultiSelect from '../../public/examples/textInputGroup/MultiSelect';
-import Rtl from '../../public/examples/textInputGroup/Rtl';
-import SingleSelect from '../../public/examples/textInputGroup/SingleSelect';
-import SingleSelectRtl from '../../public/examples/textInputGroup/SingleSelectRtl';
-import SingleSelectVertical from '../../public/examples/textInputGroup/SingleSelectVertical';
-import Types from '../../public/examples/textInputGroup/Types';
+import AccessValues from '../../public/examples/styled/textInputGroup/AccessValues';
+import Combined from '../../public/examples/styled/textInputGroup/Combined';
+import CombinedVertical from '../../public/examples/styled/textInputGroup/CombinedVertical';
+import Default from '../../public/examples/styled/textInputGroup/Default';
+import EventListenerSelect from '../../public/examples/styled/textInputGroup/EventListenerSelect';
+import MultiSelect from '../../public/examples/styled/textInputGroup/MultiSelect';
+import Rtl from '../../public/examples/styled/textInputGroup/Rtl';
+import SingleSelect from '../../public/examples/styled/textInputGroup/SingleSelect';
+import SingleSelectRtl from '../../public/examples/styled/textInputGroup/SingleSelectRtl';
+import SingleSelectVertical from '../../public/examples/styled/textInputGroup/SingleSelectVertical';
+import Types from '../../public/examples/styled/textInputGroup/Types';
 import useExamples from '../../utils/useExamples';
 
 const PageTextInputGroup = () => {
-  const examples = useExamples('textInputGroup');
+  const examples = useExamples('textInputGroup', 'styled');
   return (
     <>
       <ComponentPageDescription title="TextInput Group">
