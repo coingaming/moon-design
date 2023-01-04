@@ -3,12 +3,12 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/examples/styled/authCode/Default';
-import ErrorState from '../../public/examples/styled/authCode/ErrorState';
-import ErrorStateCentered from '../../public/examples/styled/authCode/ErrorStateCentered';
-import FourChars from '../../public/examples/styled/authCode/FourChars';
-import OnlyDigits from '../../public/examples/styled/authCode/OnlyDigits';
-import Stretch from '../../public/examples/styled/authCode/Stretch';
+import Default from '../../public/styledExamples/authCode/Default';
+import ErrorState from '../../public/styledExamples/authCode/ErrorState';
+import ErrorStateCentered from '../../public/styledExamples/authCode/ErrorStateCentered';
+import FourChars from '../../public/styledExamples/authCode/FourChars';
+import OnlyDigits from '../../public/styledExamples/authCode/OnlyDigits';
+import Stretch from '../../public/styledExamples/authCode/Stretch';
 import useExamples from '../../utils/useExamples';
 
 const PageAuthCodeGroup = () => {

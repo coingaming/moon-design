@@ -3,17 +3,17 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Calendar from '../../public/examples/styled/table/Calendar';
-import ClickableRows from '../../public/examples/styled/table/ClickableRows';
-import CustomColors from '../../public/examples/styled/table/CustomColors';
-import CustomContent from '../../public/examples/styled/table/CustomContent';
-import DeepTable from '../../public/examples/styled/table/DeepTable';
-import Default from '../../public/examples/styled/table/Default';
-import ExpandedRow from '../../public/examples/styled/table/ExpandedRow';
-import MiniMap from '../../public/examples/styled/table/MiniMap';
-import SelectableCheckboxes from '../../public/examples/styled/table/SelectableCheckboxes';
-import SelectableRows from '../../public/examples/styled/table/SelectableRows';
-import Sorting from '../../public/examples/styled/table/Sorting';
+import Calendar from '../../public/styledExamples/table/Calendar';
+import ClickableRows from '../../public/styledExamples/table/ClickableRows';
+import CustomColors from '../../public/styledExamples/table/CustomColors';
+import CustomContent from '../../public/styledExamples/table/CustomContent';
+import DeepTable from '../../public/styledExamples/table/DeepTable';
+import Default from '../../public/styledExamples/table/Default';
+import ExpandedRow from '../../public/styledExamples/table/ExpandedRow';
+import MiniMap from '../../public/styledExamples/table/MiniMap';
+import SelectableCheckboxes from '../../public/styledExamples/table/SelectableCheckboxes';
+import SelectableRows from '../../public/styledExamples/table/SelectableRows';
+import Sorting from '../../public/styledExamples/table/Sorting';
 import useExamples from '../../utils/useExamples';
 
 export default function PageTable() {

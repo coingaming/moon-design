@@ -3,7 +3,7 @@ import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
-import Default from '../../../public/examples/styled/charts/geoMapChart/Default';
+import Default from '../../../public/styledExamples/charts/geoMapChart/Default';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageGeoMapChart() {

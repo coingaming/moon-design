@@ -54,7 +54,7 @@ const getFilesFromDirectory = async (dirPath: string) => {
 
 export default async (req: NextApiRequest, res: NextApiResponse<Data>) => {
   const { component } = req.query;
-  const dirRelativeToPublicFolder = 'examples/styled';
+  const dirRelativeToPublicFolder = 'styledExamples';
 
   const dirPath = path.resolve(
     './public',

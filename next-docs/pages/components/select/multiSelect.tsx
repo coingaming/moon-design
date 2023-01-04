@@ -2,14 +2,14 @@ import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
-import Disabled from '../../../public/examples/styled/select/multiReactSelect/Disabled';
-import Error from '../../../public/examples/styled/select/multiReactSelect/Error';
-import Hint from '../../../public/examples/styled/select/multiReactSelect/Hint';
-import ListWidth from '../../../public/examples/styled/select/multiReactSelect/ListWidth';
-import OptionsContent from '../../../public/examples/styled/select/multiReactSelect/OptionsContent';
-import WithCounter from '../../../public/examples/styled/select/multiReactSelect/WithCounter';
-import WithLabel from '../../../public/examples/styled/select/multiReactSelect/WithLabel';
-import WithoutLabel from '../../../public/examples/styled/select/multiReactSelect/WithoutLabel';
+import Disabled from '../../../public/styledExamples/select/multiReactSelect/Disabled';
+import Error from '../../../public/styledExamples/select/multiReactSelect/Error';
+import Hint from '../../../public/styledExamples/select/multiReactSelect/Hint';
+import ListWidth from '../../../public/styledExamples/select/multiReactSelect/ListWidth';
+import OptionsContent from '../../../public/styledExamples/select/multiReactSelect/OptionsContent';
+import WithCounter from '../../../public/styledExamples/select/multiReactSelect/WithCounter';
+import WithLabel from '../../../public/styledExamples/select/multiReactSelect/WithLabel';
+import WithoutLabel from '../../../public/styledExamples/select/multiReactSelect/WithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {

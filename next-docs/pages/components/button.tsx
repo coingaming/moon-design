@@ -2,12 +2,12 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Animations from '../../public/examples/styled/button/Animations';
-import Disabled from '../../public/examples/styled/button/Disabled';
-import FullWidth from '../../public/examples/styled/button/FullWidth';
-import Icons from '../../public/examples/styled/button/Icons';
-import Sizes from '../../public/examples/styled/button/Sizes';
-import Variants from '../../public/examples/styled/button/Variants';
+import Animations from '../../public/styledExamples/button/Animations';
+import Disabled from '../../public/styledExamples/button/Disabled';
+import FullWidth from '../../public/styledExamples/button/FullWidth';
+import Icons from '../../public/styledExamples/button/Icons';
+import Sizes from '../../public/styledExamples/button/Sizes';
+import Variants from '../../public/styledExamples/button/Variants';
 import useExamples from '../../utils/useExamples';
 
 const PageButton = () => {

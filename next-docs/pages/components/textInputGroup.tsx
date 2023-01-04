@@ -3,17 +3,17 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import AccessValues from '../../public/examples/styled/textInputGroup/AccessValues';
-import Combined from '../../public/examples/styled/textInputGroup/Combined';
-import CombinedVertical from '../../public/examples/styled/textInputGroup/CombinedVertical';
-import Default from '../../public/examples/styled/textInputGroup/Default';
-import EventListenerSelect from '../../public/examples/styled/textInputGroup/EventListenerSelect';
-import MultiSelect from '../../public/examples/styled/textInputGroup/MultiSelect';
-import Rtl from '../../public/examples/styled/textInputGroup/Rtl';
-import SingleSelect from '../../public/examples/styled/textInputGroup/SingleSelect';
-import SingleSelectRtl from '../../public/examples/styled/textInputGroup/SingleSelectRtl';
-import SingleSelectVertical from '../../public/examples/styled/textInputGroup/SingleSelectVertical';
-import Types from '../../public/examples/styled/textInputGroup/Types';
+import AccessValues from '../../public/styledExamples/textInputGroup/AccessValues';
+import Combined from '../../public/styledExamples/textInputGroup/Combined';
+import CombinedVertical from '../../public/styledExamples/textInputGroup/CombinedVertical';
+import Default from '../../public/styledExamples/textInputGroup/Default';
+import EventListenerSelect from '../../public/styledExamples/textInputGroup/EventListenerSelect';
+import MultiSelect from '../../public/styledExamples/textInputGroup/MultiSelect';
+import Rtl from '../../public/styledExamples/textInputGroup/Rtl';
+import SingleSelect from '../../public/styledExamples/textInputGroup/SingleSelect';
+import SingleSelectRtl from '../../public/styledExamples/textInputGroup/SingleSelectRtl';
+import SingleSelectVertical from '../../public/styledExamples/textInputGroup/SingleSelectVertical';
+import Types from '../../public/styledExamples/textInputGroup/Types';
 import useExamples from '../../utils/useExamples';
 
 const PageTextInputGroup = () => {

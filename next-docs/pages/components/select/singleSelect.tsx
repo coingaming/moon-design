@@ -3,14 +3,14 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import Disabled from '../../../public/examples/styled/select/singleReactSelect/Disabled';
-import Error from '../../../public/examples/styled/select/singleReactSelect/Error';
-import Hint from '../../../public/examples/styled/select/singleReactSelect/Hint';
-import ListWidth from '../../../public/examples/styled/select/singleReactSelect/ListWidth';
-import Options from '../../../public/examples/styled/select/singleReactSelect/Options';
-import OptionsContent from '../../../public/examples/styled/select/singleReactSelect/OptionsContent';
-import WithLabel from '../../../public/examples/styled/select/singleReactSelect/WithLabel';
-import WithoutLabel from '../../../public/examples/styled/select/singleReactSelect/WithoutLabel';
+import Disabled from '../../../public/styledExamples/select/singleReactSelect/Disabled';
+import Error from '../../../public/styledExamples/select/singleReactSelect/Error';
+import Hint from '../../../public/styledExamples/select/singleReactSelect/Hint';
+import ListWidth from '../../../public/styledExamples/select/singleReactSelect/ListWidth';
+import Options from '../../../public/styledExamples/select/singleReactSelect/Options';
+import OptionsContent from '../../../public/styledExamples/select/singleReactSelect/OptionsContent';
+import WithLabel from '../../../public/styledExamples/select/singleReactSelect/WithLabel';
+import WithoutLabel from '../../../public/styledExamples/select/singleReactSelect/WithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {

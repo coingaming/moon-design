@@ -2,11 +2,11 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import Colors from '../../../public/examples/styled/caption/Colors';
-import FontWeight from '../../../public/examples/styled/caption/FontWeight';
-import SemanticTags from '../../../public/examples/styled/caption/SemanticTags';
-import Sizes from '../../../public/examples/styled/caption/Sizes';
-import TextAlign from '../../../public/examples/styled/caption/TextAlign';
+import Colors from '../../../public/styledExamples/caption/Colors';
+import FontWeight from '../../../public/styledExamples/caption/FontWeight';
+import SemanticTags from '../../../public/styledExamples/caption/SemanticTags';
+import Sizes from '../../../public/styledExamples/caption/Sizes';
+import TextAlign from '../../../public/styledExamples/caption/TextAlign';
 import useExamples from '../../../utils/useExamples';
 
 const PageCaption = () => {

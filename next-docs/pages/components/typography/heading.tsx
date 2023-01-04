@@ -2,14 +2,14 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import Colors from '../../../public/examples/styled/heading/Colors';
-import FontWeight from '../../../public/examples/styled/heading/FontWeight';
-import LineHeight from '../../../public/examples/styled/heading/LineHeight';
-import SemanticTags from '../../../public/examples/styled/heading/SemanticTags';
-import Sizes from '../../../public/examples/styled/heading/Sizes';
-import TextAlign from '../../../public/examples/styled/heading/TextAlign';
-import Underline from '../../../public/examples/styled/heading/Underline';
-import Uppercase from '../../../public/examples/styled/heading/Uppercase';
+import Colors from '../../../public/styledExamples/heading/Colors';
+import FontWeight from '../../../public/styledExamples/heading/FontWeight';
+import LineHeight from '../../../public/styledExamples/heading/LineHeight';
+import SemanticTags from '../../../public/styledExamples/heading/SemanticTags';
+import Sizes from '../../../public/styledExamples/heading/Sizes';
+import TextAlign from '../../../public/styledExamples/heading/TextAlign';
+import Underline from '../../../public/styledExamples/heading/Underline';
+import Uppercase from '../../../public/styledExamples/heading/Uppercase';
 import useExamples from '../../../utils/useExamples';
 
 const PageHeading = () => {

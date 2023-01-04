@@ -2,10 +2,10 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Colours from '../../public/examples/styled/label/Colours';
-import Icons from '../../public/examples/styled/label/Icons';
-import LetterCases from '../../public/examples/styled/label/LetterCases';
-import Sizes from '../../public/examples/styled/label/Sizes';
+import Colours from '../../public/styledExamples/label/Colours';
+import Icons from '../../public/styledExamples/label/Icons';
+import LetterCases from '../../public/styledExamples/label/LetterCases';
+import Sizes from '../../public/styledExamples/label/Sizes';
 import useExamples from '../../utils/useExamples';
 
 const PageLabel = () => {

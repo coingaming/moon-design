@@ -2,11 +2,11 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Checked from '../../public/examples/styled/checkbox/Checked';
-import Default from '../../public/examples/styled/checkbox/Default';
-import Disabled from '../../public/examples/styled/checkbox/Disabled';
-import NoLabel from '../../public/examples/styled/checkbox/NoLabel';
-import Readonly from '../../public/examples/styled/checkbox/Readonly';
+import Checked from '../../public/styledExamples/checkbox/Checked';
+import Default from '../../public/styledExamples/checkbox/Default';
+import Disabled from '../../public/styledExamples/checkbox/Disabled';
+import NoLabel from '../../public/styledExamples/checkbox/NoLabel';
+import Readonly from '../../public/styledExamples/checkbox/Readonly';
 import useExamples from '../../utils/useExamples';
 
 const PageAccordion = () => {

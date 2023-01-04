@@ -3,10 +3,10 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Checked from '../../public/examples/styled/radiobutton/radiobutton/Checked';
-import Default from '../../public/examples/styled/radiobutton/radiobutton/Default';
-import Disabled from '../../public/examples/styled/radiobutton/radiobutton/Disabled';
-import NoLabel from '../../public/examples/styled/radiobutton/radiobutton/NoLabel';
+import Checked from '../../public/styledExamples/radiobutton/radiobutton/Checked';
+import Default from '../../public/styledExamples/radiobutton/radiobutton/Default';
+import Disabled from '../../public/styledExamples/radiobutton/radiobutton/Disabled';
+import NoLabel from '../../public/styledExamples/radiobutton/radiobutton/NoLabel';
 import useExamples from '../../utils/useExamples';
 
 export default function RadioButtonPage() {

@@ -2,17 +2,17 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import RangeCalendar from '../../public/examples/styled/datePickerRange/RangeCalendar';
-import RangeCalendarDisabled from '../../public/examples/styled/datePickerRange/RangeCalendarDisabled';
-import RangeCalendarDisabled2 from '../../public/examples/styled/datePickerRange/RangeCalendarDisabled2';
-import RangeCalendarDisabled3 from '../../public/examples/styled/datePickerRange/RangeCalendarDisabled3';
-import RangeCalendarDisabled4 from '../../public/examples/styled/datePickerRange/RangeCalendarDisabled4';
-import RangeCalendarOneMonth from '../../public/examples/styled/datePickerRange/RangeCalendarOneMonth';
-import RangeCalendarOnlyDate from '../../public/examples/styled/datePickerRange/RangeCalendarOnlyDate';
-import RangeCalendarRtl from '../../public/examples/styled/datePickerRange/RangeCalendarRtl';
-import RangeCalendarWithChip from '../../public/examples/styled/datePickerRange/RangeCalendarWithChip';
-import RangeCalendarWithoutFooter from '../../public/examples/styled/datePickerRange/RangeCalendarWithoutFooter';
-import RangeCalendarWithPeriod from '../../public/examples/styled/datePickerRange/RangeCalendarWithPeriod';
+import RangeCalendar from '../../public/styledExamples/datePickerRange/RangeCalendar';
+import RangeCalendarDisabled from '../../public/styledExamples/datePickerRange/RangeCalendarDisabled';
+import RangeCalendarDisabled2 from '../../public/styledExamples/datePickerRange/RangeCalendarDisabled2';
+import RangeCalendarDisabled3 from '../../public/styledExamples/datePickerRange/RangeCalendarDisabled3';
+import RangeCalendarDisabled4 from '../../public/styledExamples/datePickerRange/RangeCalendarDisabled4';
+import RangeCalendarOneMonth from '../../public/styledExamples/datePickerRange/RangeCalendarOneMonth';
+import RangeCalendarOnlyDate from '../../public/styledExamples/datePickerRange/RangeCalendarOnlyDate';
+import RangeCalendarRtl from '../../public/styledExamples/datePickerRange/RangeCalendarRtl';
+import RangeCalendarWithChip from '../../public/styledExamples/datePickerRange/RangeCalendarWithChip';
+import RangeCalendarWithoutFooter from '../../public/styledExamples/datePickerRange/RangeCalendarWithoutFooter';
+import RangeCalendarWithPeriod from '../../public/styledExamples/datePickerRange/RangeCalendarWithPeriod';
 import useExamples from '../../utils/useExamples';
 
 const PageDatepicker = () => {

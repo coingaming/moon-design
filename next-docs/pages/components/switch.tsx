@@ -2,12 +2,12 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Buttons from '../../public/examples/styled/switch/Buttons';
-import Default from '../../public/examples/styled/switch/Default';
-import Disabled from '../../public/examples/styled/switch/Disabled';
-import Rtl from '../../public/examples/styled/switch/Rtl';
-import Sizes from '../../public/examples/styled/switch/Sizes';
-import Theme from '../../public/examples/styled/switch/Theme';
+import Buttons from '../../public/styledExamples/switch/Buttons';
+import Default from '../../public/styledExamples/switch/Default';
+import Disabled from '../../public/styledExamples/switch/Disabled';
+import Rtl from '../../public/styledExamples/switch/Rtl';
+import Sizes from '../../public/styledExamples/switch/Sizes';
+import Theme from '../../public/styledExamples/switch/Theme';
 import useExamples from '../../utils/useExamples';
 
 type Props = {

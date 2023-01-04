@@ -3,7 +3,7 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import Default from '../../../public/examples/styled/dialog/dialogOverlay/Default';
+import Default from '../../../public/styledExamples/dialog/dialogOverlay/Default';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogOverlay() {

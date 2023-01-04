@@ -4,8 +4,8 @@ import CodeSnippet from '../../../components/CodeSnippet';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PageSection from '../../../components/PageSection';
 import PropsTable from '../../../components/PropsTable';
-import Default from '../../../public/examples/styled/charts/lineChart/Default';
-import Loading from '../../../public/examples/styled/charts/lineChart/Loading';
+import Default from '../../../public/styledExamples/charts/lineChart/Default';
+import Loading from '../../../public/styledExamples/charts/lineChart/Loading';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageLineChart() {

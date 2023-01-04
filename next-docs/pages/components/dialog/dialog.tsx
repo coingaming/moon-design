@@ -4,11 +4,11 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import Default from '../../../public/examples/styled/dialog/dialog/Default';
-import DialogHeader from '../../../public/examples/styled/dialog/dialog/DialogHeader';
-import DialogHeader2 from '../../../public/examples/styled/dialog/dialog/DialogHeader2';
-import NoBackground from '../../../public/examples/styled/dialog/dialog/NoBackground';
-import NoClose from '../../../public/examples/styled/dialog/dialog/NoClose';
+import Default from '../../../public/styledExamples/dialog/dialog/Default';
+import DialogHeader from '../../../public/styledExamples/dialog/dialog/DialogHeader';
+import DialogHeader2 from '../../../public/styledExamples/dialog/dialog/DialogHeader2';
+import NoBackground from '../../../public/styledExamples/dialog/dialog/NoBackground';
+import NoClose from '../../../public/styledExamples/dialog/dialog/NoClose';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialog() {

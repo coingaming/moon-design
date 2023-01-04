@@ -3,14 +3,14 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import TimeBgColor from '../../../public/examples/styled/textInput/time/TimeBgColor';
-import TimeDisabled from '../../../public/examples/styled/textInput/time/TimeDisabled';
-import TimeError from '../../../public/examples/styled/textInput/time/TimeError';
-import TimeReadonly from '../../../public/examples/styled/textInput/time/TimeReadonly';
-import TimeWithHint from '../../../public/examples/styled/textInput/time/TimeWithHint';
-import TimeWithLabel from '../../../public/examples/styled/textInput/time/TimeWithLabel';
-import TimeWithLabelRtl from '../../../public/examples/styled/textInput/time/TimeWithLabelRtl';
-import TimeWithoutLabel from '../../../public/examples/styled/textInput/time/TimeWithoutLabel';
+import TimeBgColor from '../../../public/styledExamples/textInput/time/TimeBgColor';
+import TimeDisabled from '../../../public/styledExamples/textInput/time/TimeDisabled';
+import TimeError from '../../../public/styledExamples/textInput/time/TimeError';
+import TimeReadonly from '../../../public/styledExamples/textInput/time/TimeReadonly';
+import TimeWithHint from '../../../public/styledExamples/textInput/time/TimeWithHint';
+import TimeWithLabel from '../../../public/styledExamples/textInput/time/TimeWithLabel';
+import TimeWithLabelRtl from '../../../public/styledExamples/textInput/time/TimeWithLabelRtl';
+import TimeWithoutLabel from '../../../public/styledExamples/textInput/time/TimeWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTimeInput() {

@@ -2,11 +2,11 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Active from '../../public/examples/styled/chip/Active';
-import Icons from '../../public/examples/styled/chip/Icons';
-import IconsWithStroke from '../../public/examples/styled/chip/IconsWithStroke';
-import Sizes from '../../public/examples/styled/chip/Sizes';
-import Stroke from '../../public/examples/styled/chip/Stroke';
+import Active from '../../public/styledExamples/chip/Active';
+import Icons from '../../public/styledExamples/chip/Icons';
+import IconsWithStroke from '../../public/styledExamples/chip/IconsWithStroke';
+import Sizes from '../../public/styledExamples/chip/Sizes';
+import Stroke from '../../public/styledExamples/chip/Stroke';
 import useExamples from '../../utils/useExamples';
 
 const PageChip = () => {

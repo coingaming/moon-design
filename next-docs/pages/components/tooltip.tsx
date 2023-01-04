@@ -3,9 +3,9 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Content from '../../public/examples/styled/tooltip/Content';
-import Default from '../../public/examples/styled/tooltip/Default';
-import Positions from '../../public/examples/styled/tooltip/Positions';
+import Content from '../../public/styledExamples/tooltip/Content';
+import Default from '../../public/styledExamples/tooltip/Default';
+import Positions from '../../public/styledExamples/tooltip/Positions';
 import useExamples from '../../utils/useExamples';
 
 export default function PageTooltip() {

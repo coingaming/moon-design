@@ -3,16 +3,16 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import TextBgColor from '../../../public/examples/styled/textInput/text/TextBgColor';
-import TextBgColorRtl from '../../../public/examples/styled/textInput/text/TextBgColorRtl';
-import TextDisabled from '../../../public/examples/styled/textInput/text/TextDisabled';
-import TextError from '../../../public/examples/styled/textInput/text/TextError';
-import TextErrorRtl from '../../../public/examples/styled/textInput/text/TextErrorRtl';
-import TextReadonly from '../../../public/examples/styled/textInput/text/TextReadonly';
-import TextReadonlyRtl from '../../../public/examples/styled/textInput/text/TextReadonlyRtl';
-import TextWithHint from '../../../public/examples/styled/textInput/text/TextWithHint';
-import TextWithLabel from '../../../public/examples/styled/textInput/text/TextWithLabel';
-import TextWithoutLabel from '../../../public/examples/styled/textInput/text/TextWithoutLabel';
+import TextBgColor from '../../../public/styledExamples/textInput/text/TextBgColor';
+import TextBgColorRtl from '../../../public/styledExamples/textInput/text/TextBgColorRtl';
+import TextDisabled from '../../../public/styledExamples/textInput/text/TextDisabled';
+import TextError from '../../../public/styledExamples/textInput/text/TextError';
+import TextErrorRtl from '../../../public/styledExamples/textInput/text/TextErrorRtl';
+import TextReadonly from '../../../public/styledExamples/textInput/text/TextReadonly';
+import TextReadonlyRtl from '../../../public/styledExamples/textInput/text/TextReadonlyRtl';
+import TextWithHint from '../../../public/styledExamples/textInput/text/TextWithHint';
+import TextWithLabel from '../../../public/styledExamples/textInput/text/TextWithLabel';
+import TextWithoutLabel from '../../../public/styledExamples/textInput/text/TextWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTextInput() {

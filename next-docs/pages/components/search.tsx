@@ -2,9 +2,9 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import OmitResults from '../../public/examples/styled/search/OmitResults';
-import PreviewSearch from '../../public/examples/styled/search/PreviewSearch';
-import PreviewSearchLoading from '../../public/examples/styled/search/PreviewSearchLoading';
+import OmitResults from '../../public/styledExamples/search/OmitResults';
+import PreviewSearch from '../../public/styledExamples/search/PreviewSearch';
+import PreviewSearchLoading from '../../public/styledExamples/search/PreviewSearchLoading';
 import useExamples from '../../utils/useExamples';
 
 export default function PageSearch() {

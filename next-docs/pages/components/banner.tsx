@@ -1,11 +1,11 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Buttons from '../../public/examples/styled/banner/Buttons';
-import Default from '../../public/examples/styled/banner/Default';
-import HeaderIcon from '../../public/examples/styled/banner/HeaderIcon';
-import Mobile from '../../public/examples/styled/banner/Mobile';
-import Singleline from '../../public/examples/styled/banner/Singleline';
+import Buttons from '../../public/styledExamples/banner/Buttons';
+import Default from '../../public/styledExamples/banner/Default';
+import HeaderIcon from '../../public/styledExamples/banner/HeaderIcon';
+import Mobile from '../../public/styledExamples/banner/Mobile';
+import Singleline from '../../public/styledExamples/banner/Singleline';
 import useExamples from '../../utils/useExamples';
 
 const PageBanner = () => {

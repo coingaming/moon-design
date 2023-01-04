@@ -2,11 +2,11 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import ActiveStatus from '../../public/examples/styled/avatar/ActiveStatus';
-import Colours from '../../public/examples/styled/avatar/Colours';
-import Sizes from '../../public/examples/styled/avatar/Sizes';
-import StatusOrigin from '../../public/examples/styled/avatar/StatusOrigin';
-import Variants from '../../public/examples/styled/avatar/Variants';
+import ActiveStatus from '../../public/styledExamples/avatar/ActiveStatus';
+import Colours from '../../public/styledExamples/avatar/Colours';
+import Sizes from '../../public/styledExamples/avatar/Sizes';
+import StatusOrigin from '../../public/styledExamples/avatar/StatusOrigin';
+import Variants from '../../public/styledExamples/avatar/Variants';
 import useExamples from '../../utils/useExamples';
 
 const PageAvatar = () => {

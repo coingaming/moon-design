@@ -3,14 +3,14 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import DateTimeBgColor from '../../../public/examples/styled/textInput/datetime/DateTimeBgColor';
-import DateTimeDisabled from '../../../public/examples/styled/textInput/datetime/DateTimeDisabled';
-import DateTimeError from '../../../public/examples/styled/textInput/datetime/DateTimeError';
-import DateTimeReadonly from '../../../public/examples/styled/textInput/datetime/DateTimeReadonly';
-import DateTimeWithHint from '../../../public/examples/styled/textInput/datetime/DateTimeWithHint';
-import DateTimeWithLabel from '../../../public/examples/styled/textInput/datetime/DateTimeWithLabel';
-import DateTimeWithLabelRtl from '../../../public/examples/styled/textInput/datetime/DateTimeWithLabelRtl';
-import DateTimeWithoutLabel from '../../../public/examples/styled/textInput/datetime/DateTimeWithoutLabel';
+import DateTimeBgColor from '../../../public/styledExamples/textInput/datetime/DateTimeBgColor';
+import DateTimeDisabled from '../../../public/styledExamples/textInput/datetime/DateTimeDisabled';
+import DateTimeError from '../../../public/styledExamples/textInput/datetime/DateTimeError';
+import DateTimeReadonly from '../../../public/styledExamples/textInput/datetime/DateTimeReadonly';
+import DateTimeWithHint from '../../../public/styledExamples/textInput/datetime/DateTimeWithHint';
+import DateTimeWithLabel from '../../../public/styledExamples/textInput/datetime/DateTimeWithLabel';
+import DateTimeWithLabelRtl from '../../../public/styledExamples/textInput/datetime/DateTimeWithLabelRtl';
+import DateTimeWithoutLabel from '../../../public/styledExamples/textInput/datetime/DateTimeWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDateInput() {

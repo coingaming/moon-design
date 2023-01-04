@@ -2,7 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/examples/styled/pagination/Default';
+import Default from '../../public/styledExamples/pagination/Default';
 import useExamples from '../../utils/useExamples';
 
 const PagePagination = () => {

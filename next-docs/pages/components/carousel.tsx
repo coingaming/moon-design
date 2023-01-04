@@ -2,11 +2,11 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import CustomizedArrow from '../../public/examples/styled/carousel/CustomizedArrow';
-import Default from '../../public/examples/styled/carousel/Default';
-import Rtl from '../../public/examples/styled/carousel/Rtl';
-import Space from '../../public/examples/styled/carousel/Space';
-import VisibleIndex from '../../public/examples/styled/carousel/VisibleIndex';
+import CustomizedArrow from '../../public/styledExamples/carousel/CustomizedArrow';
+import Default from '../../public/styledExamples/carousel/Default';
+import Rtl from '../../public/styledExamples/carousel/Rtl';
+import Space from '../../public/styledExamples/carousel/Space';
+import VisibleIndex from '../../public/styledExamples/carousel/VisibleIndex';
 import useExamples from '../../utils/useExamples';
 
 export default function PageCarousel() {

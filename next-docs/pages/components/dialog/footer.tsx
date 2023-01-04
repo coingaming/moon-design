@@ -3,9 +3,9 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import ButtonMd from '../../../public/examples/styled/dialog/footer/ButtonMd';
-import ButtonSm from '../../../public/examples/styled/dialog/footer/ButtonSm';
-import Size from '../../../public/examples/styled/dialog/footer/Size';
+import ButtonMd from '../../../public/styledExamples/dialog/footer/ButtonMd';
+import ButtonSm from '../../../public/styledExamples/dialog/footer/ButtonSm';
+import Size from '../../../public/styledExamples/dialog/footer/Size';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogFooter() {

@@ -3,11 +3,11 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/examples/styled/tabs/Default';
-import HorizontalVariants from '../../public/examples/styled/tabs/HorizontalVariants';
-import Small from '../../public/examples/styled/tabs/Small';
-import Variant from '../../public/examples/styled/tabs/Variant';
-import VerticalVariants from '../../public/examples/styled/tabs/VerticalVariants';
+import Default from '../../public/styledExamples/tabs/Default';
+import HorizontalVariants from '../../public/styledExamples/tabs/HorizontalVariants';
+import Small from '../../public/styledExamples/tabs/Small';
+import Variant from '../../public/styledExamples/tabs/Variant';
+import VerticalVariants from '../../public/styledExamples/tabs/VerticalVariants';
 import useExamples from '../../utils/useExamples';
 
 const PageTabsNew = () => {

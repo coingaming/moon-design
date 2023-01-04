@@ -3,11 +3,11 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import Example1 from '../../../public/examples/styled/dialog/header/Example1';
-import Example2 from '../../../public/examples/styled/dialog/header/Example2';
-import Example3 from '../../../public/examples/styled/dialog/header/Example3';
-import Example4 from '../../../public/examples/styled/dialog/header/Example4';
-import Example5 from '../../../public/examples/styled/dialog/header/Example5';
+import Example1 from '../../../public/styledExamples/dialog/header/Example1';
+import Example2 from '../../../public/styledExamples/dialog/header/Example2';
+import Example3 from '../../../public/styledExamples/dialog/header/Example3';
+import Example4 from '../../../public/styledExamples/dialog/header/Example4';
+import Example5 from '../../../public/styledExamples/dialog/header/Example5';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogHeader() {

@@ -2,9 +2,9 @@ import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import CodeSnippet from '../../../components/CodeSnippet';
 import PropsTable from '../../../components/PropsTable';
-import Default from '../../../public/examples/styled/select/multiSelect/Default';
-import Disabled from '../../../public/examples/styled/select/multiSelect/Disabled';
-import Error from '../../../public/examples/styled/select/multiSelect/Error';
+import Default from '../../../public/styledExamples/select/multiSelect/Default';
+import Disabled from '../../../public/styledExamples/select/multiSelect/Disabled';
+import Error from '../../../public/styledExamples/select/multiSelect/Error';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageMultiSelect() {

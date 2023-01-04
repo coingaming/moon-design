@@ -3,14 +3,14 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import PasswordBgColor from '../../../public/examples/styled/textInput/password/PasswordBgColor';
-import PasswordDisabled from '../../../public/examples/styled/textInput/password/PasswordDisabled';
-import PasswordError from '../../../public/examples/styled/textInput/password/PasswordError';
-import PasswordReadonly from '../../../public/examples/styled/textInput/password/PasswordReadonly';
-import PasswordWithHint from '../../../public/examples/styled/textInput/password/PasswordWithHint';
-import PasswordWithLabel from '../../../public/examples/styled/textInput/password/PasswordWithLabel';
-import PasswordWithLabelRtl from '../../../public/examples/styled/textInput/password/PasswordWithLabelRtl';
-import PasswordWithoutLabel from '../../../public/examples/styled/textInput/password/PasswordWithoutLabel';
+import PasswordBgColor from '../../../public/styledExamples/textInput/password/PasswordBgColor';
+import PasswordDisabled from '../../../public/styledExamples/textInput/password/PasswordDisabled';
+import PasswordError from '../../../public/styledExamples/textInput/password/PasswordError';
+import PasswordReadonly from '../../../public/styledExamples/textInput/password/PasswordReadonly';
+import PasswordWithHint from '../../../public/styledExamples/textInput/password/PasswordWithHint';
+import PasswordWithLabel from '../../../public/styledExamples/textInput/password/PasswordWithLabel';
+import PasswordWithLabelRtl from '../../../public/styledExamples/textInput/password/PasswordWithLabelRtl';
+import PasswordWithoutLabel from '../../../public/styledExamples/textInput/password/PasswordWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTextInput() {

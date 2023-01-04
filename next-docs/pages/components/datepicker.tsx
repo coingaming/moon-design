@@ -2,12 +2,12 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Calendar from '../../public/examples/styled/datePicker/Calendar';
-import CalendarDisabledDay from '../../public/examples/styled/datePicker/CalendarDisabledDay';
-import CalendarDisabledDays from '../../public/examples/styled/datePicker/CalendarDisabledDays';
-import CalendarDisabledRange from '../../public/examples/styled/datePicker/CalendarDisabledRange';
-import CalendarDisabledRange2 from '../../public/examples/styled/datePicker/CalendarDisabledRange2';
-import DatePicker from '../../public/examples/styled/datePicker/DatePicker';
+import Calendar from '../../public/styledExamples/datePicker/Calendar';
+import CalendarDisabledDay from '../../public/styledExamples/datePicker/CalendarDisabledDay';
+import CalendarDisabledDays from '../../public/styledExamples/datePicker/CalendarDisabledDays';
+import CalendarDisabledRange from '../../public/styledExamples/datePicker/CalendarDisabledRange';
+import CalendarDisabledRange2 from '../../public/styledExamples/datePicker/CalendarDisabledRange2';
+import DatePicker from '../../public/styledExamples/datePicker/DatePicker';
 import useExamples from '../../utils/useExamples';
 
 const PageDatepicker = () => {
