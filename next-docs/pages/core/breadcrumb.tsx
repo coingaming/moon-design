@@ -1,14 +1,14 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Collapsed from '../../public/examples/breadcrumbsTW/Collapsed';
-import FourItems from '../../public/examples/breadcrumbsTW/FourItems';
-import OneItem from '../../public/examples/breadcrumbsTW/OneItem';
-import TwoItems from '../../public/examples/breadcrumbsTW/TwoItems';
+import Collapsed from '../../public/examples/breadcrumbs/Collapsed';
+import FourItems from '../../public/examples/breadcrumbs/FourItems';
+import OneItem from '../../public/examples/breadcrumbs/OneItem';
+import TwoItems from '../../public/examples/breadcrumbs/TwoItems';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('breadcrumbsTW');
+  const examples = useExamples('breadcrumbs');
   return (
     <>
       <ComponentPageDescription title="Breadcrumb" isInProgress isRtlSupport>

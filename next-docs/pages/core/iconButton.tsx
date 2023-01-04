@@ -2,16 +2,16 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Animations from '../../public/examples/iconButtonTW/Animations';
-import AsLink from '../../public/examples/iconButtonTW/AsLink';
-import Default from '../../public/examples/iconButtonTW/Default';
-import Disabled from '../../public/examples/iconButtonTW/Disabled';
-import Sizes from '../../public/examples/iconButtonTW/Sizes';
-import Variants from '../../public/examples/iconButtonTW/Variants';
+import Animations from '../../public/examples/iconButton/Animations';
+import AsLink from '../../public/examples/iconButton/AsLink';
+import Default from '../../public/examples/iconButton/Default';
+import Disabled from '../../public/examples/iconButton/Disabled';
+import Sizes from '../../public/examples/iconButton/Sizes';
+import Variants from '../../public/examples/iconButton/Variants';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('iconButtonTW');
+  const examples = useExamples('iconButton');
   return (
     <>
       <ComponentPageDescription title="IconButton" isInProgress>

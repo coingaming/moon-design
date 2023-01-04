@@ -1,20 +1,20 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Background from '../../public/examples/accordionTW/Background';
-import ContentHeader from '../../public/examples/accordionTW/ContentHeader';
-import ContentOutside from '../../public/examples/accordionTW/ContentOutside';
-import ContentOutsideSizes from '../../public/examples/accordionTW/ContentOutsideSizes';
-import Default from '../../public/examples/accordionTW/Default';
-import Disabled from '../../public/examples/accordionTW/Disabled';
-import Divider from '../../public/examples/accordionTW/Divider';
-import OpenDefault from '../../public/examples/accordionTW/OpenDefault';
-import Single from '../../public/examples/accordionTW/Single';
-import Sizes from '../../public/examples/accordionTW/Sizes';
+import Background from '../../public/examples/accordion/Background';
+import ContentHeader from '../../public/examples/accordion/ContentHeader';
+import ContentOutside from '../../public/examples/accordion/ContentOutside';
+import ContentOutsideSizes from '../../public/examples/accordion/ContentOutsideSizes';
+import Default from '../../public/examples/accordion/Default';
+import Disabled from '../../public/examples/accordion/Disabled';
+import Divider from '../../public/examples/accordion/Divider';
+import OpenDefault from '../../public/examples/accordion/OpenDefault';
+import Single from '../../public/examples/accordion/Single';
+import Sizes from '../../public/examples/accordion/Sizes';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('accordionTW');
+  const examples = useExamples('accordion');
   return (
     <>
       <ComponentPageDescription

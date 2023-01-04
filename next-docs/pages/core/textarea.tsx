@@ -2,13 +2,13 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Customization from '../../public/examples/textareaTW/Customization';
-import Default from '../../public/examples/textareaTW/Default';
-import Disabled from '../../public/examples/textareaTW/Disabled';
+import Customization from '../../public/examples/textarea/Customization';
+import Default from '../../public/examples/textarea/Default';
+import Disabled from '../../public/examples/textarea/Disabled';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('textareaTW');
+  const examples = useExamples('textarea');
   return (
     <>
       <ComponentPageDescription title="Textarea" isInProgress isRtlSupport>

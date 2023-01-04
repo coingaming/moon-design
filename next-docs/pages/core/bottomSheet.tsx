@@ -2,13 +2,13 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import CustomHeight from '../../public/examples/bottomSheetTW/CustomHeight';
-import Default from '../../public/examples/bottomSheetTW/Default';
-import LargeWithOptionalExtras from '../../public/examples/bottomSheetTW/LargeWithOptionalExtras';
+import CustomHeight from '../../public/examples/bottomSheet/CustomHeight';
+import Default from '../../public/examples/bottomSheet/Default';
+import LargeWithOptionalExtras from '../../public/examples/bottomSheet/LargeWithOptionalExtras';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('bottomSheetTW');
+  const examples = useExamples('bottomSheet');
   return (
     <>
       <ComponentPageDescription title="BottomSheet" isInProgress>
