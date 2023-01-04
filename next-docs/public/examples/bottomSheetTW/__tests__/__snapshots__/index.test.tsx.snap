@@ -3,7 +3,7 @@
 exports[`BottomSheet in Dark Theme renders CustomHeight 1`] = `
 Array [
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -11,6 +11,7 @@ Array [
   >
     Initialize uncloaking
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -875,7 +876,7 @@ Array [
           className="p-2"
         >
           <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma w-full"
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2] w-full"
             onClick={[Function]}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
@@ -883,6 +884,7 @@ Array [
           >
             I don't wanna see this
             <span
+              aria-hidden="true"
               className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
@@ -896,7 +898,7 @@ Array [
 exports[`BottomSheet in Dark Theme renders Default 1`] = `
 Array [
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -904,6 +906,7 @@ Array [
   >
     My mind is ready
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -941,7 +944,7 @@ Array [
           className="p-4"
         >
           <button
-            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
+            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] w-full"
             onClick={[Function]}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
@@ -949,6 +952,7 @@ Array [
           >
             I'm honestly done
             <span
+              aria-hidden="true"
               className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
@@ -962,7 +966,7 @@ Array [
 exports[`BottomSheet in Dark Theme renders LargeWithOptionalExtras 1`] = `
 Array [
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -970,6 +974,7 @@ Array [
   >
     Show it to me!
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -1039,7 +1044,7 @@ Array [
           className="p-2"
         >
           <button
-            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary w-full"
+            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-tertiary focus:ring-piccolo/[.2] w-full"
             onClick={[Function]}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
@@ -1047,6 +1052,7 @@ Array [
           >
             Send
             <span
+              aria-hidden="true"
               className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
@@ -1100,7 +1106,7 @@ Array [
 exports[`BottomSheet in Light Theme renders CustomHeight 1`] = `
 Array [
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -1108,6 +1114,7 @@ Array [
   >
     Initialize uncloaking
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -1972,7 +1979,7 @@ Array [
           className="p-2"
         >
           <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma w-full"
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2] w-full"
             onClick={[Function]}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
@@ -1980,6 +1987,7 @@ Array [
           >
             I don't wanna see this
             <span
+              aria-hidden="true"
               className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
@@ -1993,7 +2001,7 @@ Array [
 exports[`BottomSheet in Light Theme renders Default 1`] = `
 Array [
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -2001,6 +2009,7 @@ Array [
   >
     My mind is ready
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -2038,7 +2047,7 @@ Array [
           className="p-4"
         >
           <button
-            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
+            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] w-full"
             onClick={[Function]}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
@@ -2046,6 +2055,7 @@ Array [
           >
             I'm honestly done
             <span
+              aria-hidden="true"
               className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
@@ -2059,7 +2069,7 @@ Array [
 exports[`BottomSheet in Light Theme renders LargeWithOptionalExtras 1`] = `
 Array [
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -2067,6 +2077,7 @@ Array [
   >
     Show it to me!
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -2136,7 +2147,7 @@ Array [
           className="p-2"
         >
           <button
-            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary w-full"
+            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-tertiary focus:ring-piccolo/[.2] w-full"
             onClick={[Function]}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
@@ -2144,6 +2155,7 @@ Array [
           >
             Send
             <span
+              aria-hidden="true"
               className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
@@ -2199,7 +2211,7 @@ exports[`BottomSheet in RTL renders CustomHeight 1`] = `
   dir="rtl"
 >
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -2207,6 +2219,7 @@ exports[`BottomSheet in RTL renders CustomHeight 1`] = `
   >
     Initialize uncloaking
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -3071,7 +3084,7 @@ exports[`BottomSheet in RTL renders CustomHeight 1`] = `
           className="p-2"
         >
           <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma w-full"
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2] w-full"
             onClick={[Function]}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
@@ -3079,6 +3092,7 @@ exports[`BottomSheet in RTL renders CustomHeight 1`] = `
           >
             I don't wanna see this
             <span
+              aria-hidden="true"
               className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
@@ -3094,7 +3108,7 @@ exports[`BottomSheet in RTL renders Default 1`] = `
   dir="rtl"
 >
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -3102,6 +3116,7 @@ exports[`BottomSheet in RTL renders Default 1`] = `
   >
     My mind is ready
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -3139,7 +3154,7 @@ exports[`BottomSheet in RTL renders Default 1`] = `
           className="p-4"
         >
           <button
-            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
+            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] w-full"
             onClick={[Function]}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
@@ -3147,6 +3162,7 @@ exports[`BottomSheet in RTL renders Default 1`] = `
           >
             I'm honestly done
             <span
+              aria-hidden="true"
               className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
@@ -3162,7 +3178,7 @@ exports[`BottomSheet in RTL renders LargeWithOptionalExtras 1`] = `
   dir="rtl"
 >
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -3170,6 +3186,7 @@ exports[`BottomSheet in RTL renders LargeWithOptionalExtras 1`] = `
   >
     Show it to me!
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -3239,7 +3256,7 @@ exports[`BottomSheet in RTL renders LargeWithOptionalExtras 1`] = `
           className="p-2"
         >
           <button
-            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary w-full"
+            className="px-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-tertiary focus:ring-piccolo/[.2] w-full"
             onClick={[Function]}
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
@@ -3247,6 +3264,7 @@ exports[`BottomSheet in RTL renders LargeWithOptionalExtras 1`] = `
           >
             Send
             <span
+              aria-hidden="true"
               className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>

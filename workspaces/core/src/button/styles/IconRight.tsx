@@ -5,6 +5,7 @@ import type ButtonSettingsProps from '../private/types/ButtonSettingsProps';
 
 const IconRight = ({ fullWidth, iconRight, size }: ButtonSettingsProps) => (
   <span
+    aria-hidden="true"
     className={
       fullWidth
         ? mergeClassNames(

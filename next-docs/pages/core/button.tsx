@@ -16,7 +16,12 @@ const Example = () => {
   const examples = useExamples('buttonTW');
   return (
     <>
-      <ComponentPageDescription title="Button" isInProgress isRtlSupport>
+      <ComponentPageDescription
+        title="Button"
+        isInProgress
+        isRtlSupport
+        isAriaSupport
+      >
         <p>
           Buttons allow users to take actions, and make choices, with a single
           tap.
