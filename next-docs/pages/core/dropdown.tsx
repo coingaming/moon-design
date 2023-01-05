@@ -132,6 +132,13 @@ const Example = () => {
             default: '-',
             description: 'Whether or not the Listbox is open.',
           },
+          {
+            name: 'multiple',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether multiple options can be selected or not.',
+          },
         ]}
       />
 
