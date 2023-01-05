@@ -25,10 +25,10 @@ const Example = () => {
       <Preview
         title="Sizes"
         preview={<Sizes />}
-        code={examples ? examples.Default : 'Loading'}
+        code={examples ? examples.Sizes : 'Loading'}
       />
       <Preview
-        title="Colors"
+        title="Colours"
         preview={<Colors />}
         code={examples ? examples.Colors : 'Loading'}
       />
