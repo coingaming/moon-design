@@ -6,9 +6,9 @@ const Example = () => (
       <Tooltip.Trigger>
         <Chip>Trigger</Chip>
       </Tooltip.Trigger>
-      <Tooltip.Content className="bg-chiChi-10">
+      <Tooltip.Content className="bg-chichi-10">
         Custom background colour
-        <Tooltip.Arrow className="bg-chiChi-10" />
+        <Tooltip.Arrow className="bg-chichi-10" />
       </Tooltip.Content>
     </Tooltip>
     <Tooltip>
@@ -24,9 +24,15 @@ const Example = () => (
       <Tooltip.Trigger>
         <Chip>Trigger</Chip>
       </Tooltip.Trigger>
-      <Tooltip.Content className="bg-roshi-10 text-piccolo">
-        All custom colours
-        <Tooltip.Arrow className="bg-roshi-10" />
+      <Tooltip.Content>Without arrow</Tooltip.Content>
+    </Tooltip>
+    <Tooltip>
+      <Tooltip.Trigger>
+        <Chip>Trigger</Chip>
+      </Tooltip.Trigger>
+      <Tooltip.Content className="shadow-none drop-shadow-none">
+        Without shadow
+        <Tooltip.Arrow />
       </Tooltip.Content>
     </Tooltip>
   </>

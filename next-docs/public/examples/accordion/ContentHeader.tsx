@@ -4,14 +4,14 @@ import {
   ChatComment,
   ChatCommentAdd,
   ChatDoubleBubble,
-  ControlsChevronRight,
+  ControlsChevronDown,
 } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <Accordion>
       <Accordion.Item value="item-3">
         <Accordion.Header>
-          <Accordion.Button className="moon-open:[&_span_svg]:rotate-90">
+          <Accordion.Button className="moon-open:[&_span_svg]:rotate-180">
             <span className='grow'>Test accordion</span>
             <div className="flex text-moon-24 text-trunks items-center">
               <ChatChat />
@@ -20,8 +20,8 @@ const Example = () => (
               <ChatDoubleBubble />
             </div>
             <span className='flex justify-center w-6'>
-              <ControlsChevronRight
-                className="text-trunks text-moon-16 transition-transform transition-200"
+              <ControlsChevronDown
+                className="text-trunks text-moon-16 transition-transform duration-200"
               />
             </span>
           </Accordion.Button>

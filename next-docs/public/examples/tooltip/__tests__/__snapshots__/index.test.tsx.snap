@@ -191,48 +191,26 @@ Array [
       Trigger
     </button>
   </button>,
+  <button
+    className=""
+    data-state="closed"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onPointerDown={[Function]}
+    onPointerLeave={[Function]}
+    onPointerMove={[Function]}
+  >
+    <button
+      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+    >
+      Trigger
+    </button>
+  </button>,
 ]
 `;
 
 exports[`TextInput in Dark Theme renders Default 1`] = `
-<button
-  className=""
-  data-state="closed"
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onPointerDown={[Function]}
-  onPointerLeave={[Function]}
-  onPointerMove={[Function]}
->
-  <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-  >
-    Trigger
-  </button>
-</button>
-`;
-
-exports[`TextInput in Dark Theme renders WithoutArrow 1`] = `
-<button
-  className=""
-  data-state="closed"
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onPointerDown={[Function]}
-  onPointerLeave={[Function]}
-  onPointerMove={[Function]}
->
-  <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-  >
-    Trigger
-  </button>
-</button>
-`;
-
-exports[`TextInput in Dark Theme renders WithoutShadow 1`] = `
 <button
   className=""
   data-state="closed"
@@ -442,48 +420,26 @@ Array [
       Trigger
     </button>
   </button>,
+  <button
+    className=""
+    data-state="closed"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onPointerDown={[Function]}
+    onPointerLeave={[Function]}
+    onPointerMove={[Function]}
+  >
+    <button
+      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+    >
+      Trigger
+    </button>
+  </button>,
 ]
 `;
 
 exports[`TextInput in Light Theme renders Default 1`] = `
-<button
-  className=""
-  data-state="closed"
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onPointerDown={[Function]}
-  onPointerLeave={[Function]}
-  onPointerMove={[Function]}
->
-  <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-  >
-    Trigger
-  </button>
-</button>
-`;
-
-exports[`TextInput in Light Theme renders WithoutArrow 1`] = `
-<button
-  className=""
-  data-state="closed"
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onPointerDown={[Function]}
-  onPointerLeave={[Function]}
-  onPointerMove={[Function]}
->
-  <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-  >
-    Trigger
-  </button>
-</button>
-`;
-
-exports[`TextInput in Light Theme renders WithoutShadow 1`] = `
 <button
   className=""
   data-state="closed"
@@ -697,56 +653,26 @@ exports[`TextInput in RTL renders Customization 1`] = `
       Trigger
     </button>
   </button>
+  <button
+    className=""
+    data-state="closed"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onPointerDown={[Function]}
+    onPointerLeave={[Function]}
+    onPointerMove={[Function]}
+  >
+    <button
+      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+    >
+      Trigger
+    </button>
+  </button>
 </div>
 `;
 
 exports[`TextInput in RTL renders Default 1`] = `
-<div
-  dir="rtl"
->
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>
-</div>
-`;
-
-exports[`TextInput in RTL renders WithoutArrow 1`] = `
-<div
-  dir="rtl"
->
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>
-</div>
-`;
-
-exports[`TextInput in RTL renders WithoutShadow 1`] = `
 <div
   dir="rtl"
 >

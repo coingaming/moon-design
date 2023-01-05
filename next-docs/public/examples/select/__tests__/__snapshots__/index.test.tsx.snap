@@ -304,7 +304,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
       </div>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Informative message holder
@@ -367,7 +367,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
       </div>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Informative message holder
@@ -430,7 +430,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
       </div>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Informative message holder
@@ -493,7 +493,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
       </div>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Informative message holder
@@ -2016,7 +2016,7 @@ exports[`Select in Light Theme renders Error 1`] = `
       </div>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Informative message holder
@@ -2079,7 +2079,7 @@ exports[`Select in Light Theme renders Error 1`] = `
       </div>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Informative message holder
@@ -2142,7 +2142,7 @@ exports[`Select in Light Theme renders Error 1`] = `
       </div>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Informative message holder
@@ -2205,7 +2205,7 @@ exports[`Select in Light Theme renders Error 1`] = `
       </div>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Informative message holder
@@ -3735,7 +3735,7 @@ exports[`Select in RTL renders Error 1`] = `
         </div>
       </div>
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
       >
         Informative message holder
@@ -3798,7 +3798,7 @@ exports[`Select in RTL renders Error 1`] = `
         </div>
       </div>
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
       >
         Informative message holder
@@ -3861,7 +3861,7 @@ exports[`Select in RTL renders Error 1`] = `
         </div>
       </div>
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
       >
         Informative message holder
@@ -3924,7 +3924,7 @@ exports[`Select in RTL renders Error 1`] = `
         </div>
       </div>
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
       >
         Informative message holder

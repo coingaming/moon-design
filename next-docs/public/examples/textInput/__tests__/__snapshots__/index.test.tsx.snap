@@ -134,7 +134,7 @@ exports[`TextInput in Dark Theme renders Error 1`] = `
       type="text"
     />
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Error message
@@ -158,7 +158,7 @@ exports[`TextInput in Dark Theme renders Error 1`] = `
       </label>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Error message
@@ -660,7 +660,7 @@ exports[`TextInput in Light Theme renders Error 1`] = `
       type="text"
     />
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Error message
@@ -684,7 +684,7 @@ exports[`TextInput in Light Theme renders Error 1`] = `
       </label>
     </div>
     <p
-      className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
       role="alert"
     >
       Error message
@@ -1201,7 +1201,7 @@ exports[`TextInput in RTL renders Error 1`] = `
         type="text"
       />
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
       >
         Error message
@@ -1225,7 +1225,7 @@ exports[`TextInput in RTL renders Error 1`] = `
         </label>
       </div>
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
       >
         Error message

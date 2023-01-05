@@ -562,7 +562,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
         }
       />
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
       >
         Informative message holder
@@ -865,13 +865,14 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
           onKeyUp={[Function]}
         >
           <button
-            className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             type="button"
           >
             Select name
             <span
+              aria-hidden="true"
               className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
@@ -1504,7 +1505,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
         }
       />
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
       >
         Informative message holder
@@ -1807,13 +1808,14 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
           onKeyUp={[Function]}
         >
           <button
-            className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             type="button"
           >
             Select name
             <span
+              aria-hidden="true"
               className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
             />
           </button>
@@ -2461,7 +2463,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
           }
         />
         <p
-          className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+          className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
           role="alert"
         >
           Informative message holder
@@ -2768,13 +2770,14 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
             onKeyUp={[Function]}
           >
             <button
-              className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               type="button"
             >
               Select name
               <span
+                aria-hidden="true"
                 className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
               />
             </button>

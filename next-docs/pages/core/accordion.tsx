@@ -1,4 +1,5 @@
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Background from '../../public/examples/accordion/Background';
@@ -42,6 +43,22 @@ const Example = () => {
           .
         </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>
+        {`<Accordion>
+  <Accordion.Item>
+    <Accordion.Header>
+      <Accordion.Button>...</Accordion.Button>
+    </Accordion.Header>
+    <Accordion.Content>...</Accordion.Content>
+  </Accordion.Item>
+  <Accordion.Item>
+    <Accordion.Header>
+      <Accordion.Button>...</Accordion.Button>
+    </Accordion.Header>
+    <Accordion.ContentOutside>...</Accordion.ContentOutside>
+  </Accordion.Item>
+</Accordion>`}
+      </ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
@@ -55,7 +72,7 @@ const Example = () => {
       <Preview
         title="One item open at a time"
         preview={<Single />}
-        code={examples ? examples.ContentHeader : 'Loading'}
+        code={examples ? examples.Single : 'Loading'}
       />
       <Preview
         title="Disabled"

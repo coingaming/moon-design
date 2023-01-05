@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import mergeClassnames from '../utils/mergeClassnames';
-import AnimationContent from './private/buttonAnimations/AnimationContent';
+import Hover from '../button/styles/Hover';
+import AnimationContent from './private/utils/buttonAnimations/AnimationContent';
 import IconButtonComponent from './styles/IconButtonComponent';
 import type ButtonVariants from '../button/private/types/ButtonVariants';
 import type IconButtonProps from './private/types/IconButtonProps';
@@ -49,12 +49,7 @@ const IconButton = <C extends React.ElementType = 'button'>({
           {children}
         </>
       )}
-      <span
-        className={mergeClassnames(
-          'z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]',
-          isHover && 'bg-bulma/[.07]'
-        )}
-      />
+      <Hover isHover={isHover} />
     </IconButtonComponent>
   );
 };

@@ -1,15 +1,15 @@
 import { Accordion } from '@heathmont/moon-core-tw';
-import { ControlsChevronRight } from '@heathmont/moon-icons-tw';
+import { ControlsChevronDown } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <>
     <Accordion itemSize="xl">
       <Accordion.Item value="item-1">
-        <Accordion.Header className="moon-open:[&_svg]:rotate-90">
+        <Accordion.Header className="moon-open:[&_svg]:rotate-180">
           <Accordion.Button>
             <span>X Large (xl)</span>
-            <ControlsChevronRight
-              className="text-trunks text-moon-16 transition-transform transition-200"
+            <ControlsChevronDown
+              className="text-trunks text-moon-16 transition-transform duration-200"
             />
           </Accordion.Button>
         </Accordion.Header>
@@ -23,11 +23,11 @@ const Example = () => (
     </Accordion>
     <Accordion itemSize="lg">
       <Accordion.Item value="item-2">
-        <Accordion.Header className="moon-open:[&_svg]:rotate-90">
+        <Accordion.Header className="moon-open:[&_svg]:rotate-180">
           <Accordion.Button>
             <span>Large (lg)</span>
-            <ControlsChevronRight
-              className="text-trunks text-moon-16 transition-transform transition-200"
+            <ControlsChevronDown
+              className="text-trunks text-moon-16 transition-transform duration-200"
             />
           </Accordion.Button>
         </Accordion.Header>
@@ -41,11 +41,11 @@ const Example = () => (
     </Accordion>
     <Accordion>
       <Accordion.Item value="item-3">
-        <Accordion.Header className="moon-open:[&_svg]:rotate-90">
+        <Accordion.Header className="moon-open:[&_svg]:rotate-180">
           <Accordion.Button>
             <span>Medium is default (md)</span>
-            <ControlsChevronRight
-              className="text-trunks text-moon-16 transition-transform transition-200"
+            <ControlsChevronDown
+              className="text-trunks text-moon-16 transition-transform duration-200"
             />
           </Accordion.Button>
         </Accordion.Header>
@@ -59,11 +59,11 @@ const Example = () => (
     </Accordion>
     <Accordion itemSize="sm">
       <Accordion.Item value="item-4">
-        <Accordion.Header className="moon-open:[&_svg]:rotate-90">
+        <Accordion.Header className="moon-open:[&_svg]:rotate-180">
           <Accordion.Button>
             <span>Small (sm)</span>
-            <ControlsChevronRight
-              className="text-trunks text-moon-16 transition-transform transition-200"
+            <ControlsChevronDown
+              className="text-trunks text-moon-16 transition-transform duration-200"
             />
           </Accordion.Button>
         </Accordion.Header>

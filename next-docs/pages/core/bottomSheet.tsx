@@ -33,14 +33,14 @@ const Example = () => {
         </p>
       </ComponentPageDescription>
       <Preview
-        title="Large with all optional extras"
-        preview={<LargeWithOptionalExtras />}
-        code={examples ? examples.LargeWithOptionalExtras : 'Loading'}
-      />
-      <Preview
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Large with all optional extras"
+        preview={<LargeWithOptionalExtras />}
+        code={examples ? examples.LargeWithOptionalExtras : 'Loading'}
       />
       <Preview
         title="Custom height"

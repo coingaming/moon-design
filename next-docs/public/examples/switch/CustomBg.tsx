@@ -8,7 +8,7 @@ const Example = () => {
       <Switch
         checked={state}
         onChange={setState}
-        onBgColor="bg-chiChi"
+        onBgColor="bg-chichi"
         offBgColor="bg-krillin"
       />
       <Switch

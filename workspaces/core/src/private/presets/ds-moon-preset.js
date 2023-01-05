@@ -1,11 +1,9 @@
 //as Variant of using rgba color with opacity
-function withOpacityValue(rgbColor) {
-  return ({ opacityValue }) => {
-    if (opacityValue === undefined) {
-      return `rgb(var(${rgbColor}))`;
-    }
-    return `rgb(var(${rgbColor}) / ${opacityValue})`;
-  };
+function withOpacityValue(rgbColor, opacityValue) {
+  if (opacityValue === undefined) {
+    return `rgb(var(${rgbColor}))`;
+  }
+  return `rgb(var(${rgbColor}) / ${opacityValue})`;
 }
 
 const plugin = require('tailwindcss/plugin');
@@ -247,7 +245,7 @@ module.exports = {
           60: withOpacityValue('--krillin-60'),
           10: withOpacityValue('--krillin-10'),
         },
-        chiChi: {
+        chichi: {
           DEFAULT: withOpacityValue('--chichi'),
           60: withOpacityValue('--chichi-60'),
           10: withOpacityValue('--chichi-10'),

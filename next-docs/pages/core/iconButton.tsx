@@ -14,7 +14,7 @@ const Example = () => {
   const examples = useExamples('iconButton');
   return (
     <>
-      <ComponentPageDescription title="IconButton" isInProgress>
+      <ComponentPageDescription title="IconButton" isInProgress isAriaSupport>
         <p>
           Buttons allow users to take actions, and make choices, with a single
           tap.

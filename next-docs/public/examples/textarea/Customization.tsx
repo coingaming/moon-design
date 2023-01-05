@@ -10,7 +10,7 @@ const Example = () => (
       />
       <Textarea
         placeholder="Custom border colours"
-        className="outline-chiChi hover:outline-piccolo focus:outline-krillin"
+        className="outline-chichi hover:outline-piccolo focus:outline-krillin"
         rows={1}
       />
       <Textarea

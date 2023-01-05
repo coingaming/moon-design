@@ -1,14 +1,14 @@
 import { Accordion } from '@heathmont/moon-core-tw';
-import { ControlsChevronRight } from '@heathmont/moon-icons-tw';
+import { ControlsChevronDown } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <Accordion>
       <Accordion.Item value="item-3">
         <Accordion.Header className="border-b">
-          <Accordion.Button className="moon-open:[&_svg]:rotate-90">
+          <Accordion.Button className="moon-open:[&_svg]:rotate-180">
             <span>Test accordion</span>
-            <ControlsChevronRight
-              className="text-trunks text-moon-16 transition-transform transition-200"
+            <ControlsChevronDown
+              className="text-trunks text-moon-16 transition-transform duration-200"
             />
           </Accordion.Button>
         </Accordion.Header>
