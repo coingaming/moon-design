@@ -4,7 +4,7 @@ const Example = () => (
   <>
     <Avatar />
     <Avatar color="text-goten" bgColor="bg-piccolo" />
-    <Avatar color="text-goten" bgColor="bg-chiChi" />
+    <Avatar color="text-goten" bgColor="bg-chichi" />
   </>
 );
 

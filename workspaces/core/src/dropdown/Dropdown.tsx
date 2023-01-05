@@ -284,7 +284,7 @@ const Hint: React.FC<{ children?: ReactNode }> = ({ children }) => {
       role="alert"
       className={mergeClassnames(
         'inline-block mt-2 ps-4 text-moon-12',
-        isError ? 'text-chiChi' : 'text-trunks',
+        isError ? 'text-chichi' : 'text-trunks',
         disabled && 'opacity-30 cursor-not-allowed'
       )}
     >

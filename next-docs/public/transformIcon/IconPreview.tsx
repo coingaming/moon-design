@@ -50,7 +50,7 @@ const IconPreview: React.FC<IconPreviewProps> = ({
 
   if (error)
     return (
-      <div className="flex flex-col gap-6 text-chiChi">
+      <div className="flex flex-col gap-6 text-chichi">
         <GenericClose fontSize="2rem" />
         <span className="text-moon-16">
           Corrupted file or file type is not supported

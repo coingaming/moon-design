@@ -65,7 +65,7 @@ const Example = () => {
           Error
         </Button>
         <Snackbar isOpen={snackbar === 'error'} setSnackbar={setSnackbar}>
-          <Snackbar.Icon className="h-10 bg-chiChi-10 text-chiChi">
+          <Snackbar.Icon className="h-10 bg-chichi-10 text-chichi">
             <GenericInfo />
           </Snackbar.Icon>
           <Snackbar.Content>

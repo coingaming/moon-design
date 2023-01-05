@@ -562,7 +562,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
         }
       />
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
       >
         Informative message holder
@@ -1505,7 +1505,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
         }
       />
       <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
       >
         Informative message holder
@@ -2463,7 +2463,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
           }
         />
         <p
-          className="inline-block mt-2 ps-4 text-moon-12 text-chiChi"
+          className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
           role="alert"
         >
           Informative message holder

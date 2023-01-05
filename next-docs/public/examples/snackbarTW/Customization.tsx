@@ -104,7 +104,7 @@ const Example = () => {
         </Button>
         <Snackbar isOpen={snackbar === 'fonts'} setSnackbar={setSnackbar}>
           <Snackbar.Content>
-            <Snackbar.Message className="text-moon-24 text-chiChi">
+            <Snackbar.Message className="text-moon-24 text-chichi">
               Custom fonts.
             </Snackbar.Message>
             <Snackbar.Message className="text-moon-12 font-medium">

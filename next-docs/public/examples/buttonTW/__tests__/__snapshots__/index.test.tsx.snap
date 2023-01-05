@@ -104,7 +104,7 @@ Array [
     />
   </button>,
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chiChi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -618,7 +618,7 @@ Array [
     />
   </button>,
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chiChi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1134,7 +1134,7 @@ exports[`Button in RTL renders Animations 1`] = `
     />
   </button>
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chiChi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"

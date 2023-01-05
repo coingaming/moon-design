@@ -185,7 +185,7 @@ exports[`AuthCode in Dark Theme renders ErrorState 1`] = `
     data-testid="undefined-error"
   >
     <p
-      className="text-moon-12 text-chiChi"
+      className="text-moon-12 text-chichi"
     >
       Provided value is not valid!
     </p>
@@ -507,7 +507,7 @@ exports[`AuthCode in Light Theme renders ErrorState 1`] = `
     data-testid="undefined-error"
   >
     <p
-      className="text-moon-12 text-chiChi"
+      className="text-moon-12 text-chichi"
     >
       Provided value is not valid!
     </p>
@@ -836,7 +836,7 @@ exports[`AuthCode in RTL renders ErrorState 1`] = `
       data-testid="undefined-error"
     >
       <p
-        className="text-moon-12 text-chiChi"
+        className="text-moon-12 text-chichi"
       >
         Provided value is not valid!
       </p>

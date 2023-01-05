@@ -11,7 +11,7 @@ Array [
       rows={1}
     />
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] transition-all focus:outline-2 focus:outline-offset-[-2px] hover:outline-1 hover:outline-offset-[-1px] outline-chiChi hover:outline-piccolo focus:outline-krillin"
+      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] transition-all focus:outline-2 focus:outline-offset-[-2px] hover:outline-1 hover:outline-offset-[-1px] outline-chichi hover:outline-piccolo focus:outline-krillin"
       placeholder="Custom border colours"
       rows={1}
     />
@@ -68,7 +68,7 @@ Array [
       rows={1}
     />
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] transition-all focus:outline-2 focus:outline-offset-[-2px] hover:outline-1 hover:outline-offset-[-1px] outline-chiChi hover:outline-piccolo focus:outline-krillin"
+      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] transition-all focus:outline-2 focus:outline-offset-[-2px] hover:outline-1 hover:outline-offset-[-1px] outline-chichi hover:outline-piccolo focus:outline-krillin"
       placeholder="Custom border colours"
       rows={1}
     />
@@ -127,7 +127,7 @@ exports[`Tag in RTL renders Customization 1`] = `
       rows={1}
     />
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] transition-all focus:outline-2 focus:outline-offset-[-2px] hover:outline-1 hover:outline-offset-[-1px] outline-chiChi hover:outline-piccolo focus:outline-krillin"
+      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] transition-all focus:outline-2 focus:outline-offset-[-2px] hover:outline-1 hover:outline-offset-[-1px] outline-chichi hover:outline-piccolo focus:outline-krillin"
       placeholder="Custom border colours"
       rows={1}
     />
