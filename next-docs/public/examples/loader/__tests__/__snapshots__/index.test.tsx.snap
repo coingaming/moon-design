@@ -3,10 +3,13 @@
 exports[`Loader in Dark Theme renders Colors 1`] = `
 Array [
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -15,6 +18,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -23,6 +27,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -31,13 +36,17 @@ Array [
     />
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -46,6 +55,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -54,6 +64,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -62,13 +73,17 @@ Array [
     />
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -77,6 +92,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -85,6 +101,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -93,6 +110,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
 ]
@@ -100,10 +118,13 @@ Array [
 
 exports[`Loader in Dark Theme renders Default 1`] = `
 <div
+  aria-busy="true"
+  aria-label="loading"
   className="w-10 h-10 relative rounded-full"
 >
   <div
     className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    role="presentation"
     style={
       Object {
         "animationDelay": "-0.45s",
@@ -112,6 +133,7 @@ exports[`Loader in Dark Theme renders Default 1`] = `
   />
   <div
     className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    role="presentation"
     style={
       Object {
         "animationDelay": "-0.3s",
@@ -120,6 +142,7 @@ exports[`Loader in Dark Theme renders Default 1`] = `
   />
   <div
     className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    role="presentation"
     style={
       Object {
         "animationDelay": "-0.15s",
@@ -128,6 +151,7 @@ exports[`Loader in Dark Theme renders Default 1`] = `
   />
   <div
     className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    role="presentation"
   />
 </div>
 `;
@@ -135,10 +159,13 @@ exports[`Loader in Dark Theme renders Default 1`] = `
 exports[`Loader in Dark Theme renders Sizes 1`] = `
 Array [
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-4 h-4 relative rounded-full"
   >
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -147,6 +174,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -155,6 +183,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -163,13 +192,17 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-6 h-6 relative rounded-full"
   >
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -178,6 +211,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -186,6 +220,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -194,13 +229,17 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-8 h-8 relative rounded-full"
   >
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -209,6 +248,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -217,6 +257,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -225,13 +266,17 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -240,6 +285,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -248,6 +294,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -256,13 +303,17 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-12 h-12 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -271,6 +322,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -279,6 +331,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -287,6 +340,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
 ]
@@ -295,10 +349,13 @@ Array [
 exports[`Loader in Light Theme renders Colors 1`] = `
 Array [
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -307,6 +364,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -315,6 +373,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -323,13 +382,17 @@ Array [
     />
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -338,6 +401,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -346,6 +410,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -354,13 +419,17 @@ Array [
     />
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -369,6 +438,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -377,6 +447,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -385,6 +456,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
 ]
@@ -392,10 +464,13 @@ Array [
 
 exports[`Loader in Light Theme renders Default 1`] = `
 <div
+  aria-busy="true"
+  aria-label="loading"
   className="w-10 h-10 relative rounded-full"
 >
   <div
     className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    role="presentation"
     style={
       Object {
         "animationDelay": "-0.45s",
@@ -404,6 +479,7 @@ exports[`Loader in Light Theme renders Default 1`] = `
   />
   <div
     className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    role="presentation"
     style={
       Object {
         "animationDelay": "-0.3s",
@@ -412,6 +488,7 @@ exports[`Loader in Light Theme renders Default 1`] = `
   />
   <div
     className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    role="presentation"
     style={
       Object {
         "animationDelay": "-0.15s",
@@ -420,6 +497,7 @@ exports[`Loader in Light Theme renders Default 1`] = `
   />
   <div
     className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+    role="presentation"
   />
 </div>
 `;
@@ -427,10 +505,13 @@ exports[`Loader in Light Theme renders Default 1`] = `
 exports[`Loader in Light Theme renders Sizes 1`] = `
 Array [
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-4 h-4 relative rounded-full"
   >
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -439,6 +520,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -447,6 +529,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -455,13 +538,17 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-6 h-6 relative rounded-full"
   >
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -470,6 +557,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -478,6 +566,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -486,13 +575,17 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-8 h-8 relative rounded-full"
   >
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -501,6 +594,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -509,6 +603,7 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -517,13 +612,17 @@ Array [
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -532,6 +631,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -540,6 +640,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -548,13 +649,17 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-12 h-12 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -563,6 +668,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -571,6 +677,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -579,6 +686,7 @@ Array [
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>,
 ]
@@ -589,10 +697,13 @@ exports[`Loader in RTL renders Colors 1`] = `
   dir="rtl"
 >
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -601,6 +712,7 @@ exports[`Loader in RTL renders Colors 1`] = `
     />
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -609,6 +721,7 @@ exports[`Loader in RTL renders Colors 1`] = `
     />
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -617,13 +730,17 @@ exports[`Loader in RTL renders Colors 1`] = `
     />
     <div
       className="border-4 border-solid border-dodoria block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -632,6 +749,7 @@ exports[`Loader in RTL renders Colors 1`] = `
     />
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -640,6 +758,7 @@ exports[`Loader in RTL renders Colors 1`] = `
     />
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -648,13 +767,17 @@ exports[`Loader in RTL renders Colors 1`] = `
     />
     <div
       className="border-4 border-solid border-trunks block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -663,6 +786,7 @@ exports[`Loader in RTL renders Colors 1`] = `
     />
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -671,6 +795,7 @@ exports[`Loader in RTL renders Colors 1`] = `
     />
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -679,6 +804,7 @@ exports[`Loader in RTL renders Colors 1`] = `
     />
     <div
       className="border-4 border-solid border-raditz block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>
 </div>
@@ -689,10 +815,13 @@ exports[`Loader in RTL renders Default 1`] = `
   dir="rtl"
 >
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -701,6 +830,7 @@ exports[`Loader in RTL renders Default 1`] = `
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -709,6 +839,7 @@ exports[`Loader in RTL renders Default 1`] = `
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -717,6 +848,7 @@ exports[`Loader in RTL renders Default 1`] = `
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>
 </div>
@@ -727,10 +859,13 @@ exports[`Loader in RTL renders Sizes 1`] = `
   dir="rtl"
 >
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-4 h-4 relative rounded-full"
   >
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -739,6 +874,7 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -747,6 +883,7 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -755,13 +892,17 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-6 h-6 relative rounded-full"
   >
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -770,6 +911,7 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -778,6 +920,7 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -786,13 +929,17 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-8 h-8 relative rounded-full"
   >
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -801,6 +948,7 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -809,6 +957,7 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -817,13 +966,17 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-2 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-10 h-10 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -832,6 +985,7 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -840,6 +994,7 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -848,13 +1003,17 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>
   <div
+    aria-busy="true"
+    aria-label="loading"
     className="w-12 h-12 relative rounded-full"
   >
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.45s",
@@ -863,6 +1022,7 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.3s",
@@ -871,6 +1031,7 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
       style={
         Object {
           "animationDelay": "-0.15s",
@@ -879,6 +1040,7 @@ exports[`Loader in RTL renders Sizes 1`] = `
     />
     <div
       className="border-4 border-solid border-hit block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+      role="presentation"
     />
   </div>
 </div>

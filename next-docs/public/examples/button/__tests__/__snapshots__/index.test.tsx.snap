@@ -3,7 +3,7 @@
 exports[`Button in Dark Theme renders Animations 1`] = `
 Array [
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -15,10 +15,13 @@ Array [
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <div
+          aria-busy="true"
+          aria-label="loading"
           className="w-6 h-6 relative rounded-full"
         >
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.45s",
@@ -27,6 +30,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.3s",
@@ -35,6 +39,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.15s",
@@ -43,6 +48,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
           />
         </div>
       </span>
@@ -53,11 +59,12 @@ Array [
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -69,6 +76,7 @@ Array [
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <svg
+          aria-label="Success"
           className="text-moon-24"
           fill="none"
           height="1em"
@@ -91,28 +99,31 @@ Array [
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary bg-chiChi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Error
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] anim-pulse animate-[pulse2_1.5s_infinite]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Pulse
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -121,13 +132,14 @@ Array [
 
 exports[`Button in Dark Theme renders AsLink 1`] = `
 <a
-  className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
   href="/core/button"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   Link HTML element
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </a>
@@ -135,13 +147,14 @@ exports[`Button in Dark Theme renders AsLink 1`] = `
 
 exports[`Button in Dark Theme renders Default 1`] = `
 <button
-  className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   type="button"
 >
   Default
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
@@ -149,7 +162,7 @@ exports[`Button in Dark Theme renders Default 1`] = `
 
 exports[`Button in Dark Theme renders Disabled 1`] = `
 <button
-  className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus opacity-30 cursor-not-allowed btn-primary"
+  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 opacity-30 cursor-not-allowed btn-primary focus:ring-piccolo/[.2]"
   disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -157,6 +170,7 @@ exports[`Button in Dark Theme renders Disabled 1`] = `
 >
   Disabled
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
@@ -164,30 +178,36 @@ exports[`Button in Dark Theme renders Disabled 1`] = `
 
 exports[`Button in Dark Theme renders FullWidth 1`] = `
 <button
-  className="py-2 ps-4 pe-2 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
+  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] w-full"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   type="button"
 >
   Full width
-  <svg
-    className="text-moon-24"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-      stroke="currentColor"
-    />
-    <path
-      d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-      stroke="currentColor"
-    />
-  </svg>
   <span
+    aria-hidden="true"
+    className="absolute block top-1/2 translate-y-[-50%] ltr:right-2 rtl:left-2"
+  >
+    <svg
+      className="text-moon-24"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+  </span>
+  <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
@@ -196,58 +216,70 @@ exports[`Button in Dark Theme renders FullWidth 1`] = `
 exports[`Button in Dark Theme renders Icons 1`] = `
 Array [
   <button
-    className="py-2 ps-2 pe-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     IconLeft
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 ps-4 pe-2 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     IconRight
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
     <span
+      aria-hidden="true"
+      className=""
+    >
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -257,142 +289,172 @@ Array [
 exports[`Button in Dark Theme renders Sizes 1`] = `
 Array [
   <button
-    className="p-1 pe-2 h-6 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-16"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-16"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     XS Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="p-1 pe-3 h-8 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     SM Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 ps-2 pe-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     MD Button is default
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-3 ps-3 pe-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     LG Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-4 ps-4 pe-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     XL Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -402,46 +464,50 @@ Array [
 exports[`Button in Dark Theme renders Variants 1`] = `
 Array [
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Primary is default
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Secondary
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-tertiary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Tertiary
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Ghost
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -451,7 +517,7 @@ Array [
 exports[`Button in Light Theme renders Animations 1`] = `
 Array [
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -463,10 +529,13 @@ Array [
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <div
+          aria-busy="true"
+          aria-label="loading"
           className="w-6 h-6 relative rounded-full"
         >
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.45s",
@@ -475,6 +544,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.3s",
@@ -483,6 +553,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.15s",
@@ -491,6 +562,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
           />
         </div>
       </span>
@@ -501,11 +573,12 @@ Array [
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -517,6 +590,7 @@ Array [
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <svg
+          aria-label="Success"
           className="text-moon-24"
           fill="none"
           height="1em"
@@ -539,28 +613,31 @@ Array [
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary bg-chiChi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Error
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] anim-pulse animate-[pulse2_1.5s_infinite]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Pulse
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -569,13 +646,14 @@ Array [
 
 exports[`Button in Light Theme renders AsLink 1`] = `
 <a
-  className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
   href="/core/button"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
 >
   Link HTML element
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </a>
@@ -583,13 +661,14 @@ exports[`Button in Light Theme renders AsLink 1`] = `
 
 exports[`Button in Light Theme renders Default 1`] = `
 <button
-  className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   type="button"
 >
   Default
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
@@ -597,7 +676,7 @@ exports[`Button in Light Theme renders Default 1`] = `
 
 exports[`Button in Light Theme renders Disabled 1`] = `
 <button
-  className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus opacity-30 cursor-not-allowed btn-primary"
+  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 opacity-30 cursor-not-allowed btn-primary focus:ring-piccolo/[.2]"
   disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -605,6 +684,7 @@ exports[`Button in Light Theme renders Disabled 1`] = `
 >
   Disabled
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
@@ -612,30 +692,36 @@ exports[`Button in Light Theme renders Disabled 1`] = `
 
 exports[`Button in Light Theme renders FullWidth 1`] = `
 <button
-  className="py-2 ps-4 pe-2 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
+  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] w-full"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   type="button"
 >
   Full width
-  <svg
-    className="text-moon-24"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-      stroke="currentColor"
-    />
-    <path
-      d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-      stroke="currentColor"
-    />
-  </svg>
   <span
+    aria-hidden="true"
+    className="absolute block top-1/2 translate-y-[-50%] ltr:right-2 rtl:left-2"
+  >
+    <svg
+      className="text-moon-24"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+  </span>
+  <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
@@ -644,58 +730,70 @@ exports[`Button in Light Theme renders FullWidth 1`] = `
 exports[`Button in Light Theme renders Icons 1`] = `
 Array [
   <button
-    className="py-2 ps-2 pe-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     IconLeft
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 ps-4 pe-2 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     IconRight
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
     <span
+      aria-hidden="true"
+      className=""
+    >
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -705,142 +803,172 @@ Array [
 exports[`Button in Light Theme renders Sizes 1`] = `
 Array [
   <button
-    className="p-1 pe-2 h-6 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-16"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-16"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     XS Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="p-1 pe-3 h-8 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     SM Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 ps-2 pe-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     MD Button is default
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-3 ps-3 pe-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     LG Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-4 ps-4 pe-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     XL Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -850,46 +978,50 @@ Array [
 exports[`Button in Light Theme renders Variants 1`] = `
 Array [
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Primary is default
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Secondary
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-tertiary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Tertiary
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Ghost
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -901,7 +1033,7 @@ exports[`Button in RTL renders Animations 1`] = `
   dir="rtl"
 >
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -913,10 +1045,13 @@ exports[`Button in RTL renders Animations 1`] = `
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <div
+          aria-busy="true"
+          aria-label="loading"
           className="w-6 h-6 relative rounded-full"
         >
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.45s",
@@ -925,6 +1060,7 @@ exports[`Button in RTL renders Animations 1`] = `
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.3s",
@@ -933,6 +1069,7 @@ exports[`Button in RTL renders Animations 1`] = `
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.15s",
@@ -941,6 +1078,7 @@ exports[`Button in RTL renders Animations 1`] = `
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
           />
         </div>
       </span>
@@ -951,11 +1089,12 @@ exports[`Button in RTL renders Animations 1`] = `
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -967,6 +1106,7 @@ exports[`Button in RTL renders Animations 1`] = `
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <svg
+          aria-label="Success"
           className="text-moon-24"
           fill="none"
           height="1em"
@@ -989,28 +1129,31 @@ exports[`Button in RTL renders Animations 1`] = `
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary bg-chiChi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Error
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] anim-pulse animate-[pulse2_1.5s_infinite]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Pulse
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -1022,13 +1165,14 @@ exports[`Button in RTL renders AsLink 1`] = `
   dir="rtl"
 >
   <a
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     href="/core/button"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
   >
     Link HTML element
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </a>
@@ -1040,13 +1184,14 @@ exports[`Button in RTL renders Default 1`] = `
   dir="rtl"
 >
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Default
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -1058,7 +1203,7 @@ exports[`Button in RTL renders Disabled 1`] = `
   dir="rtl"
 >
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus opacity-30 cursor-not-allowed btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 opacity-30 cursor-not-allowed btn-primary focus:ring-piccolo/[.2]"
     disabled={true}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -1066,6 +1211,7 @@ exports[`Button in RTL renders Disabled 1`] = `
   >
     Disabled
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -1077,30 +1223,36 @@ exports[`Button in RTL renders FullWidth 1`] = `
   dir="rtl"
 >
   <button
-    className="py-2 ps-4 pe-2 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary w-full"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] w-full"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Full width
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
     <span
+      aria-hidden="true"
+      className="absolute block top-1/2 translate-y-[-50%] ltr:right-2 rtl:left-2"
+    >
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -1112,58 +1264,70 @@ exports[`Button in RTL renders Icons 1`] = `
   dir="rtl"
 >
   <button
-    className="py-2 ps-2 pe-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     IconLeft
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="py-2 ps-4 pe-2 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-4 pe-2 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     IconRight
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
     <span
+      aria-hidden="true"
+      className=""
+    >
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
+    <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -1175,142 +1339,172 @@ exports[`Button in RTL renders Sizes 1`] = `
   dir="rtl"
 >
   <button
-    className="p-1 pe-2 h-6 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-1 pe-2 h-6 py-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-16"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-16"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     XS Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="p-1 pe-3 h-8 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-1 pe-3 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     SM Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="py-2 ps-2 pe-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-2 pe-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     MD Button is default
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="py-3 ps-3 pe-4 h-12 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-3 pe-4 h-12 py-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     LG Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="py-4 ps-4 pe-6 h-14 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="ps-4 pe-6 h-14 py-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
-    <svg
-      className="text-moon-24"
-      fill="none"
-      height="1em"
-      viewBox="0 0 32 32"
-      width="1em"
-      xmlns="http://www.w3.org/2000/svg"
+    <span
+      aria-hidden="true"
+      className=""
     >
-      <path
-        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
-        stroke="currentColor"
-      />
-      <path
-        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
-        stroke="currentColor"
-      />
-    </svg>
+      <svg
+        className="text-moon-24"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+          stroke="currentColor"
+        />
+        <path
+          d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+          stroke="currentColor"
+        />
+      </svg>
+    </span>
     XL Button
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -1322,46 +1516,50 @@ exports[`Button in RTL renders Variants 1`] = `
   dir="rtl"
 >
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Primary is default
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Secondary
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-tertiary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Tertiary
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="py-2 px-4 h-10 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
   >
     Ghost
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
