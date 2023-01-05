@@ -62,6 +62,7 @@ type DropdownRootProps = {
   isError?: boolean;
   disabled?: boolean;
   size?: 'sm' | 'md' | 'lg' | 'xl' | string;
+  multiple?: boolean;
 };
 
 type WithChildren<T = {}> = T & { children?: ReactNode };
@@ -73,6 +74,7 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
   isError,
   disabled,
   size = 'md',
+  multiple,
   ...rest
 }) => {
   const referenceElement = useRef(null);
@@ -115,6 +117,7 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
           value={value}
           onChange={onChange}
           disabled={disabled}
+          multiple={multiple}
           {...rest}
         >
           {({ open }) => (
