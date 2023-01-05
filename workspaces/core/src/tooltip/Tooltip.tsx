@@ -1,10 +1,10 @@
 import React, { useEffect } from 'react';
 import * as RadixTooltip from '@radix-ui/react-tooltip';
+import useRegisterChild from '../private/utils/useRegisterChild';
 import mergeClassnames from '../utils/mergeClassnames';
 import getAlign from './private/utils/getAlign';
 import getSide from './private/utils/getSide';
 import TooltipContext from './private/utils/TooltipContext';
-import useRegisterChild from './private/utils/useRegisterChild';
 import useTooltipContext from './private/utils/useTooltipContext';
 import type ArrowProps from './private/types/ArrowProps';
 import type ContentProps from './private/types/ContentProps';
