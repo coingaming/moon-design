@@ -27,7 +27,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -48,6 +48,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -77,7 +78,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -98,6 +99,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -127,7 +129,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -148,6 +150,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -172,7 +175,7 @@ exports[`Alert in Dark Theme renders HandleClose 1`] = `
   Click the Close button to hide the Alert
   <button
     aria-label="close"
-    className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+    className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -194,6 +197,7 @@ exports[`Alert in Dark Theme renders HandleClose 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -209,7 +213,7 @@ Array [
     Alert with close
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -230,6 +234,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -250,7 +255,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -271,6 +276,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -363,7 +369,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -384,6 +390,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -418,7 +425,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -439,6 +446,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -491,7 +499,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -512,6 +520,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -541,7 +550,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -562,6 +571,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -591,7 +601,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -612,6 +622,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -636,7 +647,7 @@ exports[`Alert in Light Theme renders HandleClose 1`] = `
   Click the Close button to hide the Alert
   <button
     aria-label="close"
-    className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+    className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
     onClick={[Function]}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -658,6 +669,7 @@ exports[`Alert in Light Theme renders HandleClose 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -673,7 +685,7 @@ Array [
     Alert with close
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -694,6 +706,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -714,7 +727,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -735,6 +748,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -827,7 +841,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -848,6 +862,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -882,7 +897,7 @@ Array [
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -903,6 +918,7 @@ Array [
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -957,7 +973,7 @@ exports[`Alert in RTL renders Customization 1`] = `
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -978,6 +994,7 @@ exports[`Alert in RTL renders Customization 1`] = `
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -1007,7 +1024,7 @@ exports[`Alert in RTL renders Customization 1`] = `
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -1028,6 +1045,7 @@ exports[`Alert in RTL renders Customization 1`] = `
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -1057,7 +1075,7 @@ exports[`Alert in RTL renders Customization 1`] = `
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -1078,6 +1096,7 @@ exports[`Alert in RTL renders Customization 1`] = `
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -1109,7 +1128,7 @@ exports[`Alert in RTL renders HandleClose 1`] = `
     Click the Close button to hide the Alert
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onClick={[Function]}
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1131,6 +1150,7 @@ exports[`Alert in RTL renders HandleClose 1`] = `
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -1149,7 +1169,7 @@ exports[`Alert in RTL renders WithClose 1`] = `
     Alert with close
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -1170,6 +1190,7 @@ exports[`Alert in RTL renders WithClose 1`] = `
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -1190,7 +1211,7 @@ exports[`Alert in RTL renders WithClose 1`] = `
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -1211,6 +1232,7 @@ exports[`Alert in RTL renders WithClose 1`] = `
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -1307,7 +1329,7 @@ exports[`Alert in RTL renders WithIconAndClose 1`] = `
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -1328,6 +1350,7 @@ exports[`Alert in RTL renders WithIconAndClose 1`] = `
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
@@ -1362,7 +1385,7 @@ exports[`Alert in RTL renders WithIconAndClose 1`] = `
     </p>
     <button
       aria-label="close"
-      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus bg-transparent hover:text-bulma absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
+      className="h-6 p-1 gap-1 rounded-moon-i-xs z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 bg-transparent hover:text-bulma focus:ring-bulma/[.2] absolute ltr:right-4 rtl:left-4 top:4 text-moon-16 text-bulma"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
       type="button"
@@ -1383,6 +1406,7 @@ exports[`Alert in RTL renders WithIconAndClose 1`] = `
         />
       </svg>
       <span
+        aria-hidden="true"
         className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
       />
     </button>
