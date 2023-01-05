@@ -6,8 +6,6 @@ import PropsTable from '../../components/PropsTable';
 import ArrowPositions from '../../public/examples/tooltipTW/ArrowPositions';
 import Customization from '../../public/examples/tooltipTW/Customization';
 import Default from '../../public/examples/tooltipTW/Default';
-import WithoutArrow from '../../public/examples/tooltipTW/WithoutArrow';
-import WithoutShadow from '../../public/examples/tooltipTW/WithoutShadow';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -50,16 +48,6 @@ const Example = () => {
         title="Arrow positions"
         preview={<ArrowPositions />}
         code={examples ? examples.ArrowPositions : 'Loading'}
-      />
-      <Preview
-        title="Without arrow"
-        preview={<WithoutArrow />}
-        code={examples ? examples.WithoutArrow : 'Loading'}
-      />
-      <Preview
-        title="Without shadow"
-        preview={<WithoutShadow />}
-        code={examples ? examples.WithoutShadow : 'Loading'}
       />
       <Preview
         title="Customization"

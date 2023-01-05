@@ -4,6 +4,8 @@
 
 export { default as Accordion } from './accordion/Accordion';
 export * from './accordion/Accordion';
+export { default as Alert } from './alert/Alert';
+export * from './alert/Alert';
 export { default as AuthCode } from './authCode/AuthCode';
 export * from './authCode/AuthCode';
 export { default as Avatar } from './avatar/Avatar';
