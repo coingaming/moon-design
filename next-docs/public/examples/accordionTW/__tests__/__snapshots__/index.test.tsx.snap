@@ -10,7 +10,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-90 bg-beerus"
+      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
       data-state="closed"
     >
       <button
@@ -27,7 +27,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
           Test accordion with backgound
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -35,7 +35,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -65,7 +65,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-90 bg-beerus"
+      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
       data-state="closed"
     >
       <button
@@ -82,7 +82,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
           Test accordion with backgound: content outside
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -90,7 +90,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -134,7 +134,7 @@ exports[`Accordion in Dark Theme renders ContentHeader 1`] = `
       <button
         aria-controls="radix-:r1n:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-90"
+        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r1m:"
@@ -204,7 +204,7 @@ exports[`Accordion in Dark Theme renders ContentHeader 1`] = `
           className="flex justify-center w-6"
         >
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -212,7 +212,7 @@ exports[`Accordion in Dark Theme renders ContentHeader 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -251,7 +251,7 @@ exports[`Accordion in Dark Theme renders ContentOutside 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="closed"
     >
       <button
@@ -268,7 +268,7 @@ exports[`Accordion in Dark Theme renders ContentOutside 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -276,7 +276,7 @@ exports[`Accordion in Dark Theme renders ContentOutside 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -315,7 +315,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -332,7 +332,7 @@ Array [
             X Large (xl)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -340,7 +340,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -375,7 +375,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -392,7 +392,7 @@ Array [
             Large (lg)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -400,7 +400,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -435,7 +435,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -452,7 +452,7 @@ Array [
             Medium is default (md)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -460,7 +460,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -495,7 +495,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -512,7 +512,7 @@ Array [
             Small (sm)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -520,7 +520,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -559,7 +559,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="closed"
     >
       <button
@@ -576,7 +576,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
           Default
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -584,7 +584,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -614,7 +614,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="closed"
     >
       <button
@@ -631,7 +631,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -639,7 +639,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -678,7 +678,7 @@ exports[`Accordion in Dark Theme renders Disabled 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-disabled=""
       data-state="closed"
     >
@@ -698,7 +698,7 @@ exports[`Accordion in Dark Theme renders Disabled 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -706,7 +706,7 @@ exports[`Accordion in Dark Theme renders Disabled 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -751,7 +751,7 @@ exports[`Accordion in Dark Theme renders Divider 1`] = `
       <button
         aria-controls="radix-:r1d:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-90"
+        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-180"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r1c:"
@@ -762,7 +762,7 @@ exports[`Accordion in Dark Theme renders Divider 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -770,7 +770,7 @@ exports[`Accordion in Dark Theme renders Divider 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -808,7 +808,7 @@ exports[`Accordion in Dark Theme renders OpenDefault 1`] = `
     data-state="open"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="open"
     >
       <button
@@ -825,7 +825,7 @@ exports[`Accordion in Dark Theme renders OpenDefault 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -833,7 +833,7 @@ exports[`Accordion in Dark Theme renders OpenDefault 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -873,7 +873,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="closed"
     >
       <button
@@ -890,7 +890,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -898,7 +898,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -928,7 +928,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="closed"
     >
       <button
@@ -945,7 +945,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -953,7 +953,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -992,7 +992,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -1009,7 +1009,7 @@ Array [
             X Large (xl)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1017,7 +1017,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -1052,7 +1052,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -1069,7 +1069,7 @@ Array [
             Large (lg)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1077,7 +1077,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -1112,7 +1112,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -1129,7 +1129,7 @@ Array [
             Medium is default (md)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1137,7 +1137,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -1172,7 +1172,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -1189,7 +1189,7 @@ Array [
             Small (sm)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1197,7 +1197,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -1236,7 +1236,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-90 bg-beerus"
+      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
       data-state="closed"
     >
       <button
@@ -1253,7 +1253,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
           Test accordion with backgound
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1261,7 +1261,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -1291,7 +1291,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-90 bg-beerus"
+      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
       data-state="closed"
     >
       <button
@@ -1308,7 +1308,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
           Test accordion with backgound: content outside
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1316,7 +1316,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -1360,7 +1360,7 @@ exports[`Accordion in Light Theme renders ContentHeader 1`] = `
       <button
         aria-controls="radix-:rh:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-90"
+        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:rg:"
@@ -1430,7 +1430,7 @@ exports[`Accordion in Light Theme renders ContentHeader 1`] = `
           className="flex justify-center w-6"
         >
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1438,7 +1438,7 @@ exports[`Accordion in Light Theme renders ContentHeader 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -1477,7 +1477,7 @@ exports[`Accordion in Light Theme renders ContentOutside 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="closed"
     >
       <button
@@ -1494,7 +1494,7 @@ exports[`Accordion in Light Theme renders ContentOutside 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1502,7 +1502,7 @@ exports[`Accordion in Light Theme renders ContentOutside 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -1541,7 +1541,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -1558,7 +1558,7 @@ Array [
             X Large (xl)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1566,7 +1566,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -1601,7 +1601,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -1618,7 +1618,7 @@ Array [
             Large (lg)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1626,7 +1626,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -1661,7 +1661,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -1678,7 +1678,7 @@ Array [
             Medium is default (md)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1686,7 +1686,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -1721,7 +1721,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -1738,7 +1738,7 @@ Array [
             Small (sm)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -1746,7 +1746,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -1785,7 +1785,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="closed"
     >
       <button
@@ -1802,7 +1802,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
           Default
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1810,7 +1810,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -1840,7 +1840,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="closed"
     >
       <button
@@ -1857,7 +1857,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1865,7 +1865,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -1904,7 +1904,7 @@ exports[`Accordion in Light Theme renders Disabled 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-disabled=""
       data-state="closed"
     >
@@ -1924,7 +1924,7 @@ exports[`Accordion in Light Theme renders Disabled 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1932,7 +1932,7 @@ exports[`Accordion in Light Theme renders Disabled 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -1977,7 +1977,7 @@ exports[`Accordion in Light Theme renders Divider 1`] = `
       <button
         aria-controls="radix-:r7:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-90"
+        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-180"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r6:"
@@ -1988,7 +1988,7 @@ exports[`Accordion in Light Theme renders Divider 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1996,7 +1996,7 @@ exports[`Accordion in Light Theme renders Divider 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -2034,7 +2034,7 @@ exports[`Accordion in Light Theme renders OpenDefault 1`] = `
     data-state="open"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="open"
     >
       <button
@@ -2051,7 +2051,7 @@ exports[`Accordion in Light Theme renders OpenDefault 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2059,7 +2059,7 @@ exports[`Accordion in Light Theme renders OpenDefault 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -2099,7 +2099,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="closed"
     >
       <button
@@ -2116,7 +2116,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2124,7 +2124,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -2154,7 +2154,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-state="closed"
     >
       <button
@@ -2171,7 +2171,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
           Test accordion
         </span>
         <svg
-          className="text-trunks text-moon-16 transition-transform transition-200"
+          className="text-trunks text-moon-16 transition-transform duration-200"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2179,7 +2179,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
           xmlns="http://www.w3.org/2000/svg"
         >
           <path
-            d="M11.5 7l9 9-9 9"
+            d="M25 11.5l-9 9-9-9"
             stroke="currentColor"
             strokeLinecap="round"
             strokeLinejoin="round"
@@ -2218,7 +2218,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -2235,7 +2235,7 @@ Array [
             X Large (xl)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2243,7 +2243,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -2278,7 +2278,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -2295,7 +2295,7 @@ Array [
             Large (lg)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2303,7 +2303,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -2338,7 +2338,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -2355,7 +2355,7 @@ Array [
             Medium is default (md)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2363,7 +2363,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -2398,7 +2398,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -2415,7 +2415,7 @@ Array [
             Small (sm)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2423,7 +2423,7 @@ Array [
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -2465,7 +2465,7 @@ exports[`Accordion in RTL renders Background 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-90 bg-beerus"
+        className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
         data-state="closed"
       >
         <button
@@ -2482,7 +2482,7 @@ exports[`Accordion in RTL renders Background 1`] = `
             Test accordion with backgound
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2490,7 +2490,7 @@ exports[`Accordion in RTL renders Background 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -2520,7 +2520,7 @@ exports[`Accordion in RTL renders Background 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-90 bg-beerus"
+        className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
         data-state="closed"
       >
         <button
@@ -2537,7 +2537,7 @@ exports[`Accordion in RTL renders Background 1`] = `
             Test accordion with backgound: content outside
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2545,7 +2545,7 @@ exports[`Accordion in RTL renders Background 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -2593,7 +2593,7 @@ exports[`Accordion in RTL renders ContentHeader 1`] = `
         <button
           aria-controls="radix-:r2t:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-90"
+          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r2s:"
@@ -2663,7 +2663,7 @@ exports[`Accordion in RTL renders ContentHeader 1`] = `
             className="flex justify-center w-6"
           >
             <svg
-              className="text-trunks text-moon-16 transition-transform transition-200"
+              className="text-trunks text-moon-16 transition-transform duration-200"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -2671,7 +2671,7 @@ exports[`Accordion in RTL renders ContentHeader 1`] = `
               xmlns="http://www.w3.org/2000/svg"
             >
               <path
-                d="M11.5 7l9 9-9 9"
+                d="M25 11.5l-9 9-9-9"
                 stroke="currentColor"
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -2714,7 +2714,7 @@ exports[`Accordion in RTL renders ContentOutside 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -2731,7 +2731,7 @@ exports[`Accordion in RTL renders ContentOutside 1`] = `
             Test accordion
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2739,7 +2739,7 @@ exports[`Accordion in RTL renders ContentOutside 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -2781,7 +2781,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -2798,7 +2798,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
             X Large (xl)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2806,7 +2806,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -2841,7 +2841,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -2858,7 +2858,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
             Large (lg)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2866,7 +2866,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -2901,7 +2901,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -2918,7 +2918,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
             Medium is default (md)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2926,7 +2926,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -2961,7 +2961,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -2978,7 +2978,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
             Small (sm)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2986,7 +2986,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -3028,7 +3028,7 @@ exports[`Accordion in RTL renders Default 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -3045,7 +3045,7 @@ exports[`Accordion in RTL renders Default 1`] = `
             Default
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3053,7 +3053,7 @@ exports[`Accordion in RTL renders Default 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -3083,7 +3083,7 @@ exports[`Accordion in RTL renders Default 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -3100,7 +3100,7 @@ exports[`Accordion in RTL renders Default 1`] = `
             Test accordion
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3108,7 +3108,7 @@ exports[`Accordion in RTL renders Default 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -3151,7 +3151,7 @@ exports[`Accordion in RTL renders Disabled 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-disabled=""
         data-state="closed"
       >
@@ -3171,7 +3171,7 @@ exports[`Accordion in RTL renders Disabled 1`] = `
             Test accordion
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3179,7 +3179,7 @@ exports[`Accordion in RTL renders Disabled 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -3228,7 +3228,7 @@ exports[`Accordion in RTL renders Divider 1`] = `
         <button
           aria-controls="radix-:r2j:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-90"
+          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-180"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r2i:"
@@ -3239,7 +3239,7 @@ exports[`Accordion in RTL renders Divider 1`] = `
             Test accordion
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3247,7 +3247,7 @@ exports[`Accordion in RTL renders Divider 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -3289,7 +3289,7 @@ exports[`Accordion in RTL renders OpenDefault 1`] = `
       data-state="open"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="open"
       >
         <button
@@ -3306,7 +3306,7 @@ exports[`Accordion in RTL renders OpenDefault 1`] = `
             Test accordion
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3314,7 +3314,7 @@ exports[`Accordion in RTL renders OpenDefault 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -3358,7 +3358,7 @@ exports[`Accordion in RTL renders Single 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -3375,7 +3375,7 @@ exports[`Accordion in RTL renders Single 1`] = `
             Test accordion
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3383,7 +3383,7 @@ exports[`Accordion in RTL renders Single 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -3413,7 +3413,7 @@ exports[`Accordion in RTL renders Single 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -3430,7 +3430,7 @@ exports[`Accordion in RTL renders Single 1`] = `
             Test accordion
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3438,7 +3438,7 @@ exports[`Accordion in RTL renders Single 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -3480,7 +3480,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -3497,7 +3497,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
             X Large (xl)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3505,7 +3505,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -3540,7 +3540,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -3557,7 +3557,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
             Large (lg)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3565,7 +3565,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -3600,7 +3600,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -3617,7 +3617,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
             Medium is default (md)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3625,7 +3625,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
@@ -3660,7 +3660,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-90"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-state="closed"
       >
         <button
@@ -3677,7 +3677,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
             Small (sm)
           </span>
           <svg
-            className="text-trunks text-moon-16 transition-transform transition-200"
+            className="text-trunks text-moon-16 transition-transform duration-200"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -3685,7 +3685,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M11.5 7l9 9-9 9"
+              d="M25 11.5l-9 9-9-9"
               stroke="currentColor"
               strokeLinecap="round"
               strokeLinejoin="round"
