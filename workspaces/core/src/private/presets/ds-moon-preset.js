@@ -1,11 +1,9 @@
 //as Variant of using rgba color with opacity
-function withOpacityValue(rgbColor) {
-  return ({ opacityValue }) => {
-    if (opacityValue === undefined) {
-      return `rgb(var(${rgbColor}))`;
-    }
-    return `rgb(var(${rgbColor}) / ${opacityValue})`;
-  };
+function withOpacityValue(rgbColor, opacityValue) {
+  if (opacityValue === undefined) {
+    return `rgb(var(${rgbColor}))`;
+  }
+  return `rgb(var(${rgbColor}) / ${opacityValue})`;
 }
 
 const plugin = require('tailwindcss/plugin');

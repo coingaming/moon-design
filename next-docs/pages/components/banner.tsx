@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import Buttons from '../../public/examples/banner/Buttons';
 import Default from '../../public/examples/banner/Default';
@@ -13,15 +14,7 @@ const PageBanner = () => {
   return (
     <>
       <ComponentPageDescription title="Banner">
-        <p>
-          Banners are used to show users important, succinct messages, or space
-          alerts, that users should know about. They can interact or ignore
-          banners at any time, as they are non-modal. What to take note of when
-          using banners Only one banner should be shown at a time. Banners
-          require user action in order to be dismissed. Messages should consist
-          of no longer than one headline, one description sentence and one short
-          call-to-action.
-        </p>
+        <DeprecationWarning href="/core/alert" name="Alert" />
       </ComponentPageDescription>
       <Preview
         title="Default"

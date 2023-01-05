@@ -1,20 +1,5 @@
 import React from 'react';
-import type ButtonAnimations from './ButtonAnimations';
-import type ButtonIcons from './ButtonIcons';
-import type ButtonSizes from './ButtonSizes';
-import type ButtonVariants from './ButtonVariants';
-
-export type ButtonSettingsProps = {
-  icon?: ButtonIcons;
-  children?: React.ReactNode;
-  size?: ButtonSizes;
-  iconLeft?: JSX.Element | boolean;
-  iconRight?: JSX.Element | boolean;
-  iconOnly?: JSX.Element | boolean;
-  animation?: ButtonAnimations;
-  disabled?: boolean;
-  variant?: ButtonVariants;
-};
+import type ButtonSettingsProps from './ButtonSettingsProps';
 
 type ButtonProps<C extends React.ElementType> = {
   as?: C;

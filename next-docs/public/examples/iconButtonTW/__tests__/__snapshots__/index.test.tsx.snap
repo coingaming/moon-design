@@ -3,7 +3,7 @@
 exports[`IconButton in Dark Theme renders Animations 1`] = `
 Array [
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -15,10 +15,13 @@ Array [
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <div
+          aria-busy="true"
+          aria-label="loading"
           className="w-6 h-6 relative rounded-full"
         >
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.45s",
@@ -27,6 +30,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.3s",
@@ -35,6 +39,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.15s",
@@ -43,6 +48,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
           />
         </div>
       </span>
@@ -69,11 +75,12 @@ Array [
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -85,6 +92,7 @@ Array [
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <svg
+          aria-label="Success"
           className="text-moon-24"
           fill="none"
           height="1em"
@@ -123,11 +131,12 @@ Array [
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -150,11 +159,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] anim-pulse animate-[pulse2_1.5s_infinite]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -177,6 +187,7 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -185,7 +196,7 @@ Array [
 
 exports[`IconButton in Dark Theme renders AsLink 1`] = `
 <a
-  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
   href="/core/button"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -208,6 +219,7 @@ exports[`IconButton in Dark Theme renders AsLink 1`] = `
     />
   </svg>
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </a>
@@ -215,7 +227,7 @@ exports[`IconButton in Dark Theme renders AsLink 1`] = `
 
 exports[`IconButton in Dark Theme renders Default 1`] = `
 <button
-  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   type="button"
@@ -238,6 +250,7 @@ exports[`IconButton in Dark Theme renders Default 1`] = `
     />
   </svg>
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
@@ -245,7 +258,7 @@ exports[`IconButton in Dark Theme renders Default 1`] = `
 
 exports[`IconButton in Dark Theme renders Disabled 1`] = `
 <button
-  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus opacity-30 cursor-not-allowed btn-primary"
+  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 opacity-30 cursor-not-allowed btn-primary focus:ring-piccolo/[.2]"
   disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -269,6 +282,7 @@ exports[`IconButton in Dark Theme renders Disabled 1`] = `
     />
   </svg>
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
@@ -277,7 +291,7 @@ exports[`IconButton in Dark Theme renders Disabled 1`] = `
 exports[`IconButton in Dark Theme renders Sizes 1`] = `
 Array [
   <button
-    className="h-6 p-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-6 p-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -300,11 +314,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-8 p-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-8 p-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -327,11 +342,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -354,11 +370,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-12 p-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-12 p-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -381,11 +398,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-14 p-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-14 p-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -408,6 +426,7 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -417,7 +436,7 @@ Array [
 exports[`IconButton in Dark Theme renders Variants 1`] = `
 Array [
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -440,11 +459,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -467,11 +487,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-tertiary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -494,11 +515,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -521,6 +543,7 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -530,7 +553,7 @@ Array [
 exports[`IconButton in Light Theme renders Animations 1`] = `
 Array [
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -542,10 +565,13 @@ Array [
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <div
+          aria-busy="true"
+          aria-label="loading"
           className="w-6 h-6 relative rounded-full"
         >
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.45s",
@@ -554,6 +580,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.3s",
@@ -562,6 +589,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.15s",
@@ -570,6 +598,7 @@ Array [
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
           />
         </div>
       </span>
@@ -596,11 +625,12 @@ Array [
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -612,6 +642,7 @@ Array [
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <svg
+          aria-label="Success"
           className="text-moon-24"
           fill="none"
           height="1em"
@@ -650,11 +681,12 @@ Array [
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -677,11 +709,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] anim-pulse animate-[pulse2_1.5s_infinite]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -704,6 +737,7 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -712,7 +746,7 @@ Array [
 
 exports[`IconButton in Light Theme renders AsLink 1`] = `
 <a
-  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
   href="/core/button"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -735,6 +769,7 @@ exports[`IconButton in Light Theme renders AsLink 1`] = `
     />
   </svg>
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </a>
@@ -742,7 +777,7 @@ exports[`IconButton in Light Theme renders AsLink 1`] = `
 
 exports[`IconButton in Light Theme renders Default 1`] = `
 <button
-  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
   type="button"
@@ -765,6 +800,7 @@ exports[`IconButton in Light Theme renders Default 1`] = `
     />
   </svg>
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
@@ -772,7 +808,7 @@ exports[`IconButton in Light Theme renders Default 1`] = `
 
 exports[`IconButton in Light Theme renders Disabled 1`] = `
 <button
-  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus opacity-30 cursor-not-allowed btn-primary"
+  className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 opacity-30 cursor-not-allowed btn-primary focus:ring-piccolo/[.2]"
   disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -796,6 +832,7 @@ exports[`IconButton in Light Theme renders Disabled 1`] = `
     />
   </svg>
   <span
+    aria-hidden="true"
     className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
   />
 </button>
@@ -804,7 +841,7 @@ exports[`IconButton in Light Theme renders Disabled 1`] = `
 exports[`IconButton in Light Theme renders Sizes 1`] = `
 Array [
   <button
-    className="h-6 p-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-6 p-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -827,11 +864,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-8 p-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-8 p-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -854,11 +892,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -881,11 +920,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-12 p-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-12 p-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -908,11 +948,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-14 p-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-14 p-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -935,6 +976,7 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -944,7 +986,7 @@ Array [
 exports[`IconButton in Light Theme renders Variants 1`] = `
 Array [
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -967,11 +1009,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -994,11 +1037,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-tertiary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1021,11 +1065,12 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1048,6 +1093,7 @@ Array [
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>,
@@ -1059,7 +1105,7 @@ exports[`IconButton in RTL renders Animations 1`] = `
   dir="rtl"
 >
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1071,10 +1117,13 @@ exports[`IconButton in RTL renders Animations 1`] = `
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <div
+          aria-busy="true"
+          aria-label="loading"
           className="w-6 h-6 relative rounded-full"
         >
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.45s",
@@ -1083,6 +1132,7 @@ exports[`IconButton in RTL renders Animations 1`] = `
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.3s",
@@ -1091,6 +1141,7 @@ exports[`IconButton in RTL renders Animations 1`] = `
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
             style={
               Object {
                 "animationDelay": "-0.15s",
@@ -1099,6 +1150,7 @@ exports[`IconButton in RTL renders Animations 1`] = `
           />
           <div
             className="border-2 border-solid currentColor block absolute w-full h-full rounded-[50%] animate-[rotation_1.2s_cubic-bezier(0.5,0,0.5,1)_infinite] border-r-transparent border-b-transparent border-l-transparent"
+            role="presentation"
           />
         </div>
       </span>
@@ -1125,11 +1177,12 @@ exports[`IconButton in RTL renders Animations 1`] = `
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1141,6 +1194,7 @@ exports[`IconButton in RTL renders Animations 1`] = `
         className="flex absolute top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] content-center justify-center"
       >
         <svg
+          aria-label="Success"
           className="text-moon-24"
           fill="none"
           height="1em"
@@ -1179,11 +1233,12 @@ exports[`IconButton in RTL renders Animations 1`] = `
       </span>
     </span>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] bg-chichi text-goten animate-[error_0.82s_cubic-bezier(0.36,0.07,0.19,0.97)_1_both] anim-error"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1206,11 +1261,12 @@ exports[`IconButton in RTL renders Animations 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary anim-pulse animate-[pulse2_1.5s_infinite]"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2] anim-pulse animate-[pulse2_1.5s_infinite]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1233,6 +1289,7 @@ exports[`IconButton in RTL renders Animations 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -1244,7 +1301,7 @@ exports[`IconButton in RTL renders AsLink 1`] = `
   dir="rtl"
 >
   <a
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     href="/core/button"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -1267,6 +1324,7 @@ exports[`IconButton in RTL renders AsLink 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </a>
@@ -1278,7 +1336,7 @@ exports[`IconButton in RTL renders Default 1`] = `
   dir="rtl"
 >
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1301,6 +1359,7 @@ exports[`IconButton in RTL renders Default 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -1312,7 +1371,7 @@ exports[`IconButton in RTL renders Disabled 1`] = `
   dir="rtl"
 >
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus opacity-30 cursor-not-allowed btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 opacity-30 cursor-not-allowed btn-primary focus:ring-piccolo/[.2]"
     disabled={true}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -1336,6 +1395,7 @@ exports[`IconButton in RTL renders Disabled 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -1347,7 +1407,7 @@ exports[`IconButton in RTL renders Sizes 1`] = `
   dir="rtl"
 >
   <button
-    className="h-6 p-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-6 p-1 gap-1 text-moon-12 rounded-moon-i-xs relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1370,11 +1430,12 @@ exports[`IconButton in RTL renders Sizes 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="h-8 p-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-8 p-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1397,11 +1458,12 @@ exports[`IconButton in RTL renders Sizes 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1424,11 +1486,12 @@ exports[`IconButton in RTL renders Sizes 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="h-12 p-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-12 p-3 gap-2 text-moon-16 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1451,11 +1514,12 @@ exports[`IconButton in RTL renders Sizes 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="h-14 p-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-14 p-4 gap-2 text-moon-16 rounded-moon-i-md relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1478,6 +1542,7 @@ exports[`IconButton in RTL renders Sizes 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
@@ -1489,7 +1554,7 @@ exports[`IconButton in RTL renders Variants 1`] = `
   dir="rtl"
 >
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-primary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1512,11 +1577,12 @@ exports[`IconButton in RTL renders Variants 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-secondary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1539,11 +1605,12 @@ exports[`IconButton in RTL renders Variants 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus btn-tertiary"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-tertiary focus:ring-piccolo/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1566,11 +1633,12 @@ exports[`IconButton in RTL renders Variants 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>
   <button
-    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+    className="h-10 p-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
     type="button"
@@ -1593,6 +1661,7 @@ exports[`IconButton in RTL renders Variants 1`] = `
       />
     </svg>
     <span
+      aria-hidden="true"
       className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
     />
   </button>

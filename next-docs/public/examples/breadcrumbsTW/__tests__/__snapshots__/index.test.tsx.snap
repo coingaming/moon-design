@@ -41,7 +41,7 @@ exports[`Breadcrumb in Dark Theme renders collapsed 1`] = `
       className="relative"
     >
       <button
-        className="p-1 h-8 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+        className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
@@ -62,6 +62,7 @@ exports[`Breadcrumb in Dark Theme renders collapsed 1`] = `
           />
         </svg>
         <span
+          aria-hidden="true"
           className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
         />
       </button>
@@ -353,7 +354,7 @@ exports[`Breadcrumb in Light Theme renders collapsed 1`] = `
       className="relative"
     >
       <button
-        className="p-1 h-8 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+        className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
@@ -374,6 +375,7 @@ exports[`Breadcrumb in Light Theme renders collapsed 1`] = `
           />
         </svg>
         <span
+          aria-hidden="true"
           className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
         />
       </button>
@@ -668,7 +670,7 @@ exports[`Breadcrumb in RTL renders collapsed 1`] = `
         className="relative"
       >
         <button
-          className="p-1 h-8 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus-visible:shadow-focus text-trunks bg-transparent hover:text-bulma"
+          className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
           onClick={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}
@@ -689,6 +691,7 @@ exports[`Breadcrumb in RTL renders collapsed 1`] = `
             />
           </svg>
           <span
+            aria-hidden="true"
             className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
           />
         </button>

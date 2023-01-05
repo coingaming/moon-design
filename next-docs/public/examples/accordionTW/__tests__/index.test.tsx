@@ -8,7 +8,7 @@ import {
   moonDesignLight,
   ThemeProvider,
 } from '@heathmont/moon-themes';
-import renderer, { act } from 'react-test-renderer';
+import renderer from 'react-test-renderer';
 import Background from '../Background';
 import Default from '../Default';
 import ContentOutside from '../ContentOutside';
