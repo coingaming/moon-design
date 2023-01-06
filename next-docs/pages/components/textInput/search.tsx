@@ -3,18 +3,18 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import SearchBgColor from '../../../public/examples/textInput/search/SearchBgColor';
-import SearchDisabled from '../../../public/examples/textInput/search/SearchDisabled';
-import SearchError from '../../../public/examples/textInput/search/SearchError';
-import SearchReadonly from '../../../public/examples/textInput/search/SearchReadonly';
-import SearchWithHint from '../../../public/examples/textInput/search/SearchWithHint';
-import SearchWithLabel from '../../../public/examples/textInput/search/SearchWithLabel';
-import SearchWithLabelRtl from '../../../public/examples/textInput/search/SearchWithLabelRtl';
-import SearchWithoutLabel from '../../../public/examples/textInput/search/SearchWithoutLabel';
+import SearchBgColor from '../../../public/styledExamples/textInput/search/SearchBgColor';
+import SearchDisabled from '../../../public/styledExamples/textInput/search/SearchDisabled';
+import SearchError from '../../../public/styledExamples/textInput/search/SearchError';
+import SearchReadonly from '../../../public/styledExamples/textInput/search/SearchReadonly';
+import SearchWithHint from '../../../public/styledExamples/textInput/search/SearchWithHint';
+import SearchWithLabel from '../../../public/styledExamples/textInput/search/SearchWithLabel';
+import SearchWithLabelRtl from '../../../public/styledExamples/textInput/search/SearchWithLabelRtl';
+import SearchWithoutLabel from '../../../public/styledExamples/textInput/search/SearchWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSearchInput() {
-  const examples = useExamples('textInput/search');
+  const examples = useExamples('textInput/search', 'styled');
   return (
     <>
       <ComponentPageDescription title="Search">

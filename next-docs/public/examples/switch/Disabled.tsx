@@ -1,24 +1,10 @@
-import React from 'react';
-import { Switch } from '@heathmont/moon-core';
+import { Switch } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   return (
     <>
-      <Switch
-        id="test-switch-disabled-checked"
-        checked={true}
-        disabled={true}
-        onChange={() => {
-          console.log('da li radi disabled!');
-        }}
-      />
-
-      <Switch
-        id="test-switch-disabled"
-        checked={false}
-        disabled={true}
-        onChange={() => {}}
-      />
+      <Switch checked disabled />
+      <Switch checked={false} disabled />
     </>
   );
 };

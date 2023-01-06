@@ -54,7 +54,7 @@ const mergeClassnames = extendTailwindMerge({
               'goten',
               'popo',
               { krillin: ['100', '60', '10'] },
-              { chiChi: ['100', '60', '10'] },
+              { chichi: ['100', '60', '10'] },
               { roshi: ['100', '60', '10'] },
               { dodoria: ['100', '60', '10'] },
               { cell: ['100', '60', '10'] },

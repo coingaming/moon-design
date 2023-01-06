@@ -1682,7 +1682,7 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(var(--bulma) / var(--tw-border-opacity));
 }
-.border-chiChi {
+.border-chichi {
   --tw-border-opacity: 1;
   border-color: rgb(var(--chichi) / var(--tw-border-opacity));
 }
@@ -1759,7 +1759,7 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(var(--piccolo) / var(--tw-bg-opacity));
 }
-.bg-chiChi {
+.bg-chichi {
   --tw-bg-opacity: 1;
   background-color: rgb(var(--chichi) / var(--tw-bg-opacity));
 }
@@ -1822,7 +1822,7 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(var(--krillin-10) / var(--tw-bg-opacity));
 }
-.bg-chiChi-10 {
+.bg-chichi-10 {
   --tw-bg-opacity: 1;
   background-color: rgb(var(--chichi-10) / var(--tw-bg-opacity));
 }
@@ -2409,7 +2409,7 @@ video {
 .tracking-wide {
   letter-spacing: 0.025em;
 }
-.text-chiChi {
+.text-chichi {
   --tw-text-opacity: 1;
   color: rgb(var(--chichi) / var(--tw-text-opacity));
 }

@@ -3,20 +3,20 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import TextBgColor from '../../../public/examples/textInput/text/TextBgColor';
-import TextBgColorRtl from '../../../public/examples/textInput/text/TextBgColorRtl';
-import TextDisabled from '../../../public/examples/textInput/text/TextDisabled';
-import TextError from '../../../public/examples/textInput/text/TextError';
-import TextErrorRtl from '../../../public/examples/textInput/text/TextErrorRtl';
-import TextReadonly from '../../../public/examples/textInput/text/TextReadonly';
-import TextReadonlyRtl from '../../../public/examples/textInput/text/TextReadonlyRtl';
-import TextWithHint from '../../../public/examples/textInput/text/TextWithHint';
-import TextWithLabel from '../../../public/examples/textInput/text/TextWithLabel';
-import TextWithoutLabel from '../../../public/examples/textInput/text/TextWithoutLabel';
+import TextBgColor from '../../../public/styledExamples/textInput/text/TextBgColor';
+import TextBgColorRtl from '../../../public/styledExamples/textInput/text/TextBgColorRtl';
+import TextDisabled from '../../../public/styledExamples/textInput/text/TextDisabled';
+import TextError from '../../../public/styledExamples/textInput/text/TextError';
+import TextErrorRtl from '../../../public/styledExamples/textInput/text/TextErrorRtl';
+import TextReadonly from '../../../public/styledExamples/textInput/text/TextReadonly';
+import TextReadonlyRtl from '../../../public/styledExamples/textInput/text/TextReadonlyRtl';
+import TextWithHint from '../../../public/styledExamples/textInput/text/TextWithHint';
+import TextWithLabel from '../../../public/styledExamples/textInput/text/TextWithLabel';
+import TextWithoutLabel from '../../../public/styledExamples/textInput/text/TextWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageTextInput() {
-  const examples = useExamples('textInput/text');
+  const examples = useExamples('textInput/text', 'styled');
   return (
     <>
       <ComponentPageDescription title="Text">

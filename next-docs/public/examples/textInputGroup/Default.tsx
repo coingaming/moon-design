@@ -1,35 +1,25 @@
-import React from 'react';
-import { TextInputGroup } from '@heathmont/moon-core';
+import { TextInputGroup } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   const inputProps1 = {
     type: 'text',
-    inputSize: 'xlarge',
+    inputSize: 'md',
     placeholder: 'Country',
   };
 
   const inputProps2 = {
     type: 'text',
-    inputSize: 'xlarge',
+    inputSize: 'md',
     placeholder: 'Phone',
   };
 
   return (
-    <div className="flex flex-col lg:flex-row justify-around items-center w-full gap-2">
-      <TextInputGroup
-        inputProps={{
-          input1: inputProps1,
-          input2: inputProps2,
-        }}
-      />
-      <TextInputGroup
-        inputProps={{
-          input1: inputProps1,
-          input2: inputProps2,
-        }}
-        orientation="vertical"
-      />
-    </div>
+    <TextInputGroup
+      inputProps={{
+        input1: inputProps1,
+        input2: inputProps2,
+      }}
+    />
   );
 };
 

@@ -2,18 +2,17 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-
-import DefaultCode from '../../public/examples/switchTW/codeExamples/DefaultCode';
-import CustomBg from '../../public/examples/switchTW/CustomBg';
-import Default from '../../public/examples/switchTW/Default';
-import Disabled from '../../public/examples/switchTW/Disabled';
-import Form from '../../public/examples/switchTW/Form';
-import Sizes from '../../public/examples/switchTW/Sizes';
-import WithIcons from '../../public/examples/switchTW/WithIcons';
+import DefaultCode from '../../public/examples/switch/codeExamples/DefaultCode';
+import CustomBg from '../../public/examples/switch/CustomBg';
+import Default from '../../public/examples/switch/Default';
+import Disabled from '../../public/examples/switch/Disabled';
+import Form from '../../public/examples/switch/Form';
+import Sizes from '../../public/examples/switch/Sizes';
+import WithIcons from '../../public/examples/switch/WithIcons';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('switchTW');
+  const examples = useExamples('switch');
   const examplesCode = useExamples('switchTW/codeExamples');
   return (
     <>

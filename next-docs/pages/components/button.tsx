@@ -2,16 +2,16 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Animations from '../../public/examples/button/Animations';
-import Disabled from '../../public/examples/button/Disabled';
-import FullWidth from '../../public/examples/button/FullWidth';
-import Icons from '../../public/examples/button/Icons';
-import Sizes from '../../public/examples/button/Sizes';
-import Variants from '../../public/examples/button/Variants';
+import Animations from '../../public/styledExamples/button/Animations';
+import Disabled from '../../public/styledExamples/button/Disabled';
+import FullWidth from '../../public/styledExamples/button/FullWidth';
+import Icons from '../../public/styledExamples/button/Icons';
+import Sizes from '../../public/styledExamples/button/Sizes';
+import Variants from '../../public/styledExamples/button/Variants';
 import useExamples from '../../utils/useExamples';
 
 const PageButton = () => {
-  const examples = useExamples('button');
+  const examples = useExamples('button', 'styled');
   return (
     <>
       <ComponentPageDescription title="Button">

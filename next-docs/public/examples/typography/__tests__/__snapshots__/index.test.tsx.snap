@@ -1,0 +1,573 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography in Dark Theme renders Caption 1`] = `
+<div
+  className="flex flex-col gap-2 w-full"
+>
+  <span
+    className="text-moon-9-caption uppercase transition-colors"
+  >
+    Size 9
+  </span>
+  <span
+    className="text-moon-10-caption uppercase transition-colors"
+  >
+    Size 10
+  </span>
+</div>
+`;
+
+exports[`Typography in Dark Theme renders Colors 1`] = `
+Array [
+  <p
+    className="text-trunks"
+  >
+    Trunks
+  </p>,
+  <p
+    className="text-piccolo"
+  >
+    Piccolo
+  </p>,
+  <p
+    className="text-roshi"
+  >
+    Roshi
+  </p>,
+  <p
+    className="text-chichi"
+  >
+    Chichi
+  </p>,
+]
+`;
+
+exports[`Typography in Dark Theme renders Heading 1`] = `
+<div
+  className="flex flex-col gap-2 w-full"
+>
+  <h3
+    className="text-moon-9 font-medium transition-colors"
+  >
+    Size 9
+  </h3>
+  <h3
+    className="text-moon-10 font-medium transition-colors"
+  >
+    Size 10
+  </h3>
+  <h3
+    className="text-moon-12 font-medium transition-colors"
+  >
+    Size 12
+  </h3>
+  <h3
+    className="text-moon-14 font-medium transition-colors"
+  >
+    Size 14
+  </h3>
+  <h3
+    className="text-moon-16 font-medium transition-colors"
+  >
+    Size 16
+  </h3>
+  <h3
+    className="text-moon-18 font-medium transition-colors"
+  >
+    Size 18
+  </h3>
+  <h3
+    className="text-moon-20 font-medium transition-colors"
+  >
+    Size 20
+  </h3>
+  <h3
+    className="text-moon-24 font-medium transition-colors"
+  >
+    Size 24
+  </h3>
+  <h3
+    className="text-moon-32 font-medium transition-colors"
+  >
+    Size 32
+  </h3>
+  <h3
+    className="text-moon-48 font-medium transition-colors"
+  >
+    Size 48
+  </h3>
+  <h3
+    className="text-moon-56 font-medium transition-colors"
+  >
+    Size 56
+  </h3>
+  <h3
+    className="text-moon-64 font-medium transition-colors"
+  >
+    Size 64
+  </h3>
+  <h3
+    className="text-moon-72 font-medium transition-colors"
+  >
+    Size 72
+  </h3>
+</div>
+`;
+
+exports[`Typography in Dark Theme renders Text 1`] = `
+<div
+  className="flex flex-col gap-2 w-full"
+>
+  <p
+    className="text-moon-9 transition-colors"
+  >
+    Size 9
+  </p>
+  <p
+    className="text-moon-10 transition-colors"
+  >
+    Size 10
+  </p>
+  <p
+    className="text-moon-12 transition-colors"
+  >
+    Size 12
+  </p>
+  <p
+    className="text-moon-14 transition-colors"
+  >
+    Size 14
+  </p>
+  <p
+    className="text-moon-16 transition-colors"
+  >
+    Size 16
+  </p>
+  <p
+    className="text-moon-18 transition-colors"
+  >
+    Size 18
+  </p>
+  <p
+    className="text-moon-20 transition-colors"
+  >
+    Size 20
+  </p>
+  <p
+    className="text-moon-24 transition-colors"
+  >
+    Size 24
+  </p>
+  <p
+    className="text-moon-32 transition-colors"
+  >
+    Size 32
+  </p>
+  <p
+    className="text-moon-48 transition-colors"
+  >
+    Size 48
+  </p>
+  <p
+    className="text-moon-56 transition-colors"
+  >
+    Size 56
+  </p>
+  <p
+    className="text-moon-64 transition-colors"
+  >
+    Size 64
+  </p>
+  <p
+    className="text-moon-72 transition-colors"
+  >
+    Size 72
+  </p>
+</div>
+`;
+
+exports[`Typography in Light Theme renders Caption 1`] = `
+<div
+  className="flex flex-col gap-2 w-full"
+>
+  <span
+    className="text-moon-9-caption uppercase transition-colors"
+  >
+    Size 9
+  </span>
+  <span
+    className="text-moon-10-caption uppercase transition-colors"
+  >
+    Size 10
+  </span>
+</div>
+`;
+
+exports[`Typography in Light Theme renders Colors 1`] = `
+Array [
+  <p
+    className="text-trunks"
+  >
+    Trunks
+  </p>,
+  <p
+    className="text-piccolo"
+  >
+    Piccolo
+  </p>,
+  <p
+    className="text-roshi"
+  >
+    Roshi
+  </p>,
+  <p
+    className="text-chichi"
+  >
+    Chichi
+  </p>,
+]
+`;
+
+exports[`Typography in Light Theme renders Heading 1`] = `
+<div
+  className="flex flex-col gap-2 w-full"
+>
+  <h3
+    className="text-moon-9 font-medium transition-colors"
+  >
+    Size 9
+  </h3>
+  <h3
+    className="text-moon-10 font-medium transition-colors"
+  >
+    Size 10
+  </h3>
+  <h3
+    className="text-moon-12 font-medium transition-colors"
+  >
+    Size 12
+  </h3>
+  <h3
+    className="text-moon-14 font-medium transition-colors"
+  >
+    Size 14
+  </h3>
+  <h3
+    className="text-moon-16 font-medium transition-colors"
+  >
+    Size 16
+  </h3>
+  <h3
+    className="text-moon-18 font-medium transition-colors"
+  >
+    Size 18
+  </h3>
+  <h3
+    className="text-moon-20 font-medium transition-colors"
+  >
+    Size 20
+  </h3>
+  <h3
+    className="text-moon-24 font-medium transition-colors"
+  >
+    Size 24
+  </h3>
+  <h3
+    className="text-moon-32 font-medium transition-colors"
+  >
+    Size 32
+  </h3>
+  <h3
+    className="text-moon-48 font-medium transition-colors"
+  >
+    Size 48
+  </h3>
+  <h3
+    className="text-moon-56 font-medium transition-colors"
+  >
+    Size 56
+  </h3>
+  <h3
+    className="text-moon-64 font-medium transition-colors"
+  >
+    Size 64
+  </h3>
+  <h3
+    className="text-moon-72 font-medium transition-colors"
+  >
+    Size 72
+  </h3>
+</div>
+`;
+
+exports[`Typography in Light Theme renders Text 1`] = `
+<div
+  className="flex flex-col gap-2 w-full"
+>
+  <p
+    className="text-moon-9 transition-colors"
+  >
+    Size 9
+  </p>
+  <p
+    className="text-moon-10 transition-colors"
+  >
+    Size 10
+  </p>
+  <p
+    className="text-moon-12 transition-colors"
+  >
+    Size 12
+  </p>
+  <p
+    className="text-moon-14 transition-colors"
+  >
+    Size 14
+  </p>
+  <p
+    className="text-moon-16 transition-colors"
+  >
+    Size 16
+  </p>
+  <p
+    className="text-moon-18 transition-colors"
+  >
+    Size 18
+  </p>
+  <p
+    className="text-moon-20 transition-colors"
+  >
+    Size 20
+  </p>
+  <p
+    className="text-moon-24 transition-colors"
+  >
+    Size 24
+  </p>
+  <p
+    className="text-moon-32 transition-colors"
+  >
+    Size 32
+  </p>
+  <p
+    className="text-moon-48 transition-colors"
+  >
+    Size 48
+  </p>
+  <p
+    className="text-moon-56 transition-colors"
+  >
+    Size 56
+  </p>
+  <p
+    className="text-moon-64 transition-colors"
+  >
+    Size 64
+  </p>
+  <p
+    className="text-moon-72 transition-colors"
+  >
+    Size 72
+  </p>
+</div>
+`;
+
+exports[`Typography in RTL renders Caption 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col gap-2 w-full"
+  >
+    <span
+      className="text-moon-9-caption uppercase transition-colors"
+    >
+      Size 9
+    </span>
+    <span
+      className="text-moon-10-caption uppercase transition-colors"
+    >
+      Size 10
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Typography in RTL renders Colors 1`] = `
+<div
+  dir="rtl"
+>
+  <p
+    className="text-trunks"
+  >
+    Trunks
+  </p>
+  <p
+    className="text-piccolo"
+  >
+    Piccolo
+  </p>
+  <p
+    className="text-roshi"
+  >
+    Roshi
+  </p>
+  <p
+    className="text-chichi"
+  >
+    Chichi
+  </p>
+</div>
+`;
+
+exports[`Typography in RTL renders Heading 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col gap-2 w-full"
+  >
+    <h3
+      className="text-moon-9 font-medium transition-colors"
+    >
+      Size 9
+    </h3>
+    <h3
+      className="text-moon-10 font-medium transition-colors"
+    >
+      Size 10
+    </h3>
+    <h3
+      className="text-moon-12 font-medium transition-colors"
+    >
+      Size 12
+    </h3>
+    <h3
+      className="text-moon-14 font-medium transition-colors"
+    >
+      Size 14
+    </h3>
+    <h3
+      className="text-moon-16 font-medium transition-colors"
+    >
+      Size 16
+    </h3>
+    <h3
+      className="text-moon-18 font-medium transition-colors"
+    >
+      Size 18
+    </h3>
+    <h3
+      className="text-moon-20 font-medium transition-colors"
+    >
+      Size 20
+    </h3>
+    <h3
+      className="text-moon-24 font-medium transition-colors"
+    >
+      Size 24
+    </h3>
+    <h3
+      className="text-moon-32 font-medium transition-colors"
+    >
+      Size 32
+    </h3>
+    <h3
+      className="text-moon-48 font-medium transition-colors"
+    >
+      Size 48
+    </h3>
+    <h3
+      className="text-moon-56 font-medium transition-colors"
+    >
+      Size 56
+    </h3>
+    <h3
+      className="text-moon-64 font-medium transition-colors"
+    >
+      Size 64
+    </h3>
+    <h3
+      className="text-moon-72 font-medium transition-colors"
+    >
+      Size 72
+    </h3>
+  </div>
+</div>
+`;
+
+exports[`Typography in RTL renders Text 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col gap-2 w-full"
+  >
+    <p
+      className="text-moon-9 transition-colors"
+    >
+      Size 9
+    </p>
+    <p
+      className="text-moon-10 transition-colors"
+    >
+      Size 10
+    </p>
+    <p
+      className="text-moon-12 transition-colors"
+    >
+      Size 12
+    </p>
+    <p
+      className="text-moon-14 transition-colors"
+    >
+      Size 14
+    </p>
+    <p
+      className="text-moon-16 transition-colors"
+    >
+      Size 16
+    </p>
+    <p
+      className="text-moon-18 transition-colors"
+    >
+      Size 18
+    </p>
+    <p
+      className="text-moon-20 transition-colors"
+    >
+      Size 20
+    </p>
+    <p
+      className="text-moon-24 transition-colors"
+    >
+      Size 24
+    </p>
+    <p
+      className="text-moon-32 transition-colors"
+    >
+      Size 32
+    </p>
+    <p
+      className="text-moon-48 transition-colors"
+    >
+      Size 48
+    </p>
+    <p
+      className="text-moon-56 transition-colors"
+    >
+      Size 56
+    </p>
+    <p
+      className="text-moon-64 transition-colors"
+    >
+      Size 64
+    </p>
+    <p
+      className="text-moon-72 transition-colors"
+    >
+      Size 72
+    </p>
+  </div>
+</div>
+`;

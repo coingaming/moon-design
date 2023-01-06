@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   TextAncor,
   TextAttach,
@@ -25,7 +24,7 @@ import {
   TextTable,
   TextTableAlternative,
   TextUnderline,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -34,7 +33,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

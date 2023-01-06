@@ -3,41 +3,108 @@
  */
 
 import React from 'react';
-import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
+import {
+  moonDesignDark,
+  moonDesignLight,
+  ThemeProvider,
+} from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
 import Default from '../Default';
+import WithLabel from '../WithLabel';
 import Checked from '../Checked';
+import Customize from '../Customize';
 import Disabled from '../Disabled';
-import NoLabel from '../NoLabel';
-import Readonly from '../Readonly';
+import ReadOnly from '../ReadOnly';
 
-const renderWithTheme = (component: JSX.Element) => (
+const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
 
-describe('Checkbox', () => {
-  it('renders default', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Default />));
+const renderWithDarkTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
+);
+
+const renderWithRtl = (component: JSX.Element) => (
+  <div dir="rtl">{component}</div>
+);
+
+describe('Checkbox in Light Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
+  it('renders WithLabel', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<WithLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
   it('renders Checked', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Checked />));
+    const testRenderer = renderer.create(renderWithLightTheme(<Checked />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders No label', () => {
-    const testRenderer = renderer.create(renderWithTheme(<NoLabel />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
   it('renders Disabled', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Disabled />));
+    const testRenderer = renderer.create(renderWithLightTheme(<Disabled />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders ReadOnly', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<ReadOnly />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Customize', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Customize />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
 
-  it('renders Read only', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Readonly />));
+describe('Checkbox in Dark Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders WithLabel', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<WithLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Checked', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Checked />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Disabled', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders ReadOnly', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<ReadOnly />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Customize', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Customize />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
+
+describe('Checkbox in RTL', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders WithLabel', () => {
+    const testRenderer = renderer.create(renderWithRtl(<WithLabel />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Checked', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Checked />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Disabled', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Disabled />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders ReadOnly', () => {
+    const testRenderer = renderer.create(renderWithRtl(<ReadOnly />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Customize', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Customize />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

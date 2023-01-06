@@ -1,8 +1,8 @@
-import { Button } from '@heathmont/moon-core';
-import { GenericSettings } from '@heathmont/moon-icons';
+import { Button } from '@heathmont/moon-core-tw';
+import { GenericSettings } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
-  <Button iconRight={<GenericSettings />} fullWidth>
+  <Button iconRight={<GenericSettings className="text-moon-24" />} fullWidth>
     Full width
   </Button>
 );

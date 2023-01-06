@@ -1,0 +1,108 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popover renders 1`] = `
+Array [
+  <div
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="menu"
+    tabIndex={-1}
+  >
+    <button
+      className="sc-bhpuBD bJBXpN"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      size="medium"
+    >
+      Toggle Popover
+      <div
+        className="sc-ctuRtO hAGojo"
+      />
+    </button>
+  </div>,
+  <div
+    className="box"
+    tabIndex={-1}
+  >
+    <div
+      className="sc-bczRLJ gVNVRl"
+    >
+      <div>
+        <div
+          className="p-8 space-y-4"
+        >
+          <h3
+            className="sc-dYtREw fcdcYL"
+            size={20}
+          >
+            Agents
+          </h3>
+          <p
+            className="sc-dDaJoQ ilPuZd"
+            size={14}
+          >
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          </p>
+        </div>
+        <div
+          className="sc-hfufsb fQxmkL"
+          size="small"
+        >
+          <div
+            className="sc-dmWEhm jyUzvI"
+          >
+            <div
+              className="sc-eirfIE mRtlB"
+            >
+              <button
+                className="sc-bhpuBD bgxfP"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                size="small"
+              >
+                OK
+                <div
+                  className="sc-ctuRtO hAGojo"
+                />
+              </button>
+            </div>
+            <div
+              className="sc-eirfIE mRtlB"
+            >
+              <button
+                className="sc-bhpuBD eelIJA"
+                onClick={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                size="small"
+              >
+                Cansel
+                <div
+                  className="sc-ctuRtO hAGojo"
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            className="sc-eirfIE mRtlB"
+          >
+            <button
+              className="sc-bhpuBD cLuZSu"
+              onClick={[Function]}
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              size="small"
+            >
+              Decline
+              <div
+                className="sc-ctuRtO hAGojo"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

@@ -2,17 +2,17 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import AccessValues from '../../public/examples/textInputGroupTW/AccessValues';
-import Default from '../../public/examples/textInputGroupTW/Default';
-import Error from '../../public/examples/textInputGroupTW/Error';
-import Rtl from '../../public/examples/textInputGroupTW/Rtl';
-import Sizes from '../../public/examples/textInputGroupTW/Sizes';
-import Types from '../../public/examples/textInputGroupTW/Types';
-import Vertical from '../../public/examples/textInputGroupTW/Vertical';
+import AccessValues from '../../public/examples/textInputGroup/AccessValues';
+import Default from '../../public/examples/textInputGroup/Default';
+import Error from '../../public/examples/textInputGroup/Error';
+import Rtl from '../../public/examples/textInputGroup/Rtl';
+import Sizes from '../../public/examples/textInputGroup/Sizes';
+import Types from '../../public/examples/textInputGroup/Types';
+import Vertical from '../../public/examples/textInputGroup/Vertical';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('textInputGroupTW');
+  const examples = useExamples('textInputGroup');
   return (
     <>
       <ComponentPageDescription title="TextInputGroup" isInProgress>

@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   DevicesBluetooth,
   DevicesJoystick,
@@ -10,7 +9,7 @@ import {
   DevicesPhone,
   DevicesSmartphone,
   DevicesTvBox,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -19,7 +18,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

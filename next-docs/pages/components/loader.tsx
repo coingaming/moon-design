@@ -2,13 +2,13 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Colours from '../../public/examples/loader/Colours';
-import Default from '../../public/examples/loader/Default';
-import Sizes from '../../public/examples/loader/Sizes';
+import Colours from '../../public/styledExamples/loader/Colours';
+import Default from '../../public/styledExamples/loader/Default';
+import Sizes from '../../public/styledExamples/loader/Sizes';
 import useExamples from '../../utils/useExamples';
 
 const PageLoader = () => {
-  const examples = useExamples('loader');
+  const examples = useExamples('loader', 'styled');
   return (
     <>
       <ComponentPageDescription title="Loader">

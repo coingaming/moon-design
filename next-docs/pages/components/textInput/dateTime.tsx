@@ -3,18 +3,18 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import DateTimeBgColor from '../../../public/examples/textInput/datetime/DateTimeBgColor';
-import DateTimeDisabled from '../../../public/examples/textInput/datetime/DateTimeDisabled';
-import DateTimeError from '../../../public/examples/textInput/datetime/DateTimeError';
-import DateTimeReadonly from '../../../public/examples/textInput/datetime/DateTimeReadonly';
-import DateTimeWithHint from '../../../public/examples/textInput/datetime/DateTimeWithHint';
-import DateTimeWithLabel from '../../../public/examples/textInput/datetime/DateTimeWithLabel';
-import DateTimeWithLabelRtl from '../../../public/examples/textInput/datetime/DateTimeWithLabelRtl';
-import DateTimeWithoutLabel from '../../../public/examples/textInput/datetime/DateTimeWithoutLabel';
+import DateTimeBgColor from '../../../public/styledExamples/textInput/datetime/DateTimeBgColor';
+import DateTimeDisabled from '../../../public/styledExamples/textInput/datetime/DateTimeDisabled';
+import DateTimeError from '../../../public/styledExamples/textInput/datetime/DateTimeError';
+import DateTimeReadonly from '../../../public/styledExamples/textInput/datetime/DateTimeReadonly';
+import DateTimeWithHint from '../../../public/styledExamples/textInput/datetime/DateTimeWithHint';
+import DateTimeWithLabel from '../../../public/styledExamples/textInput/datetime/DateTimeWithLabel';
+import DateTimeWithLabelRtl from '../../../public/styledExamples/textInput/datetime/DateTimeWithLabelRtl';
+import DateTimeWithoutLabel from '../../../public/styledExamples/textInput/datetime/DateTimeWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDateInput() {
-  const examples = useExamples('textInput/datetime');
+  const examples = useExamples('textInput/datetime', 'styled');
   return (
     <>
       <ComponentPageDescription title="Date Time">

@@ -2,16 +2,16 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Calendar from '../../public/examples/datePicker/Calendar';
-import CalendarDisabledDay from '../../public/examples/datePicker/CalendarDisabledDay';
-import CalendarDisabledDays from '../../public/examples/datePicker/CalendarDisabledDays';
-import CalendarDisabledRange from '../../public/examples/datePicker/CalendarDisabledRange';
-import CalendarDisabledRange2 from '../../public/examples/datePicker/CalendarDisabledRange2';
-import DatePicker from '../../public/examples/datePicker/DatePicker';
+import Calendar from '../../public/styledExamples/datePicker/Calendar';
+import CalendarDisabledDay from '../../public/styledExamples/datePicker/CalendarDisabledDay';
+import CalendarDisabledDays from '../../public/styledExamples/datePicker/CalendarDisabledDays';
+import CalendarDisabledRange from '../../public/styledExamples/datePicker/CalendarDisabledRange';
+import CalendarDisabledRange2 from '../../public/styledExamples/datePicker/CalendarDisabledRange2';
+import DatePicker from '../../public/styledExamples/datePicker/DatePicker';
 import useExamples from '../../utils/useExamples';
 
 const PageDatepicker = () => {
-  const examples = useExamples('datePicker');
+  const examples = useExamples('datePicker', 'styled');
   return (
     <>
       <ComponentPageDescription title="Single Date">

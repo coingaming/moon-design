@@ -3,15 +3,13 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import ArrowPositions from '../../public/examples/tooltipTW/ArrowPositions';
-import Customization from '../../public/examples/tooltipTW/Customization';
-import Default from '../../public/examples/tooltipTW/Default';
-import WithoutArrow from '../../public/examples/tooltipTW/WithoutArrow';
-import WithoutShadow from '../../public/examples/tooltipTW/WithoutShadow';
+import ArrowPositions from '../../public/examples/tooltip/ArrowPositions';
+import Customization from '../../public/examples/tooltip/Customization';
+import Default from '../../public/examples/tooltip/Default';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('tooltipTW');
+  const examples = useExamples('tooltip');
   return (
     <>
       <ComponentPageDescription title="Tooltip" isInProgress>
@@ -52,16 +50,6 @@ const Example = () => {
         code={examples ? examples.ArrowPositions : 'Loading'}
       />
       <Preview
-        title="Without arrow"
-        preview={<WithoutArrow />}
-        code={examples ? examples.WithoutArrow : 'Loading'}
-      />
-      <Preview
-        title="Without shadow"
-        preview={<WithoutShadow />}
-        code={examples ? examples.WithoutShadow : 'Loading'}
-      />
-      <Preview
         title="Customization"
         preview={<Customization />}
         code={examples ? examples.Customization : 'Loading'}
@@ -94,13 +82,6 @@ const Example = () => {
             required: false,
             default: 'top-center',
             description: 'Position of Tooltip',
-          },
-          {
-            name: 'withShadow',
-            type: 'boolean',
-            required: false,
-            default: 'true',
-            description: 'Shows Tooltip shadow',
           },
         ]}
       />

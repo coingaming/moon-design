@@ -1,5 +1,5 @@
-import React, { createRef, useEffect, useState } from 'react';
-import { TextInputGroup, Label } from '@heathmont/moon-core';
+import { createRef, useEffect, useState } from 'react';
+import { TextInputGroup, Tag } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   var ref1 = createRef<HTMLInputElement>();
@@ -10,12 +10,14 @@ const Example = () => {
 
   const inputProps1 = {
     type: 'text',
+    inputSize: 'medium',
     placeholder: 'Country',
     ref: ref1,
   };
 
   const inputProps2 = {
     type: 'text',
+    inputSize: 'medium',
     placeholder: 'Phone',
     ref: ref2,
   };
@@ -47,12 +49,12 @@ const Example = () => {
           input2: inputProps2,
         }}
       />
-      <Label size="xsmall" backgroundColor="trunks.100">
+      <Tag size="xsmall" backgroundColor="bg-trunks">
         Country: {country}
-      </Label>
-      <Label size="xsmall" backgroundColor="trunks.100">
+      </Tag>
+      <Tag size="xsmall" backgroundColor="bg-trunks">
         Phone: {phone}
-      </Label>
+      </Tag>
     </div>
   );
 };

@@ -1,20 +1,21 @@
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Background from '../../public/examples/accordionTW/Background';
-import ContentHeader from '../../public/examples/accordionTW/ContentHeader';
-import ContentOutside from '../../public/examples/accordionTW/ContentOutside';
-import ContentOutsideSizes from '../../public/examples/accordionTW/ContentOutsideSizes';
-import Default from '../../public/examples/accordionTW/Default';
-import Disabled from '../../public/examples/accordionTW/Disabled';
-import Divider from '../../public/examples/accordionTW/Divider';
-import OpenDefault from '../../public/examples/accordionTW/OpenDefault';
-import Single from '../../public/examples/accordionTW/Single';
-import Sizes from '../../public/examples/accordionTW/Sizes';
+import Background from '../../public/examples/accordion/Background';
+import ContentHeader from '../../public/examples/accordion/ContentHeader';
+import ContentOutside from '../../public/examples/accordion/ContentOutside';
+import ContentOutsideSizes from '../../public/examples/accordion/ContentOutsideSizes';
+import Default from '../../public/examples/accordion/Default';
+import Disabled from '../../public/examples/accordion/Disabled';
+import Divider from '../../public/examples/accordion/Divider';
+import OpenDefault from '../../public/examples/accordion/OpenDefault';
+import Single from '../../public/examples/accordion/Single';
+import Sizes from '../../public/examples/accordion/Sizes';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('accordionTW');
+  const examples = useExamples('accordion');
   return (
     <>
       <ComponentPageDescription
@@ -42,6 +43,22 @@ const Example = () => {
           .
         </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>
+        {`<Accordion>
+  <Accordion.Item>
+    <Accordion.Header>
+      <Accordion.Button>...</Accordion.Button>
+    </Accordion.Header>
+    <Accordion.Content>...</Accordion.Content>
+  </Accordion.Item>
+  <Accordion.Item>
+    <Accordion.Header>
+      <Accordion.Button>...</Accordion.Button>
+    </Accordion.Header>
+    <Accordion.ContentOutside>...</Accordion.ContentOutside>
+  </Accordion.Item>
+</Accordion>`}
+      </ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
@@ -55,7 +72,7 @@ const Example = () => {
       <Preview
         title="One item open at a time"
         preview={<Single />}
-        code={examples ? examples.ContentHeader : 'Loading'}
+        code={examples ? examples.Single : 'Loading'}
       />
       <Preview
         title="Disabled"

@@ -1,12 +1,12 @@
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
+import { Table } from '@heathmont/moon-table-tw';
 
 const Example = () => {
   const columnsInitial = [
     {
       Header: '',
-      accessor: 'date',
       sticky: 'left',
+      accessor: 'date',
       width: 160,
       withRowSpan: true,
     },
@@ -25,8 +25,8 @@ const Example = () => {
     },
     {
       Header: 'Status',
-      width: 100,
       accessor: 'status',
+      width: 100,
     },
     {
       Header: 'Profile Progress',
@@ -51,14 +51,14 @@ const Example = () => {
   const defaultColumn = React.useMemo(
     () => ({
       minWidth: 100,
-      width: 260,
+      width: 150,
       maxWidth: 400,
     }),
     []
   );
 
   const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(30), []);
+  const data = React.useMemo(() => makeData(40), []);
 
   return (
     <Table
@@ -67,9 +67,9 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
+      getOnRowClickHandler={(row: any) => () => {}}
       variant="calendar"
-      getOnRowClickHandler={(row) => () => {}}
-      headerBackgroundColor="gohan.100"
+      headerBackgroundColor="gohan"
       defaultRowBackgroundColor="gohan.40"
       evenRowBackgroundColor="gohan.80"
     />

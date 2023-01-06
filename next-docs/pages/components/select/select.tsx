@@ -2,13 +2,13 @@ import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
-import Default from '../../../public/examples/select/select/Default';
-import Label from '../../../public/examples/select/select/Label';
-import Rtl from '../../../public/examples/select/select/Rtl';
+import Default from '../../../public/styledExamples/select/select/Default';
+import Label from '../../../public/styledExamples/select/select/Label';
+import Rtl from '../../../public/styledExamples/select/select/Rtl';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelect() {
-  const examples = useExamples('select/select');
+  const examples = useExamples('select/select', 'styled');
   return (
     <>
       <ComponentPageDescription title="Select">

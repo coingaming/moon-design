@@ -2,17 +2,17 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Disabled from '../../public/examples/selectTw/single/Disabled';
-import Error from '../../public/examples/selectTw/single/Error';
-import Hint from '../../public/examples/selectTw/single/Hint';
-import Options from '../../public/examples/selectTw/single/Options';
-import OptionsWidth from '../../public/examples/selectTw/single/OptionsWidth';
-import WithLabel from '../../public/examples/selectTw/single/WithLabel';
-import WithoutLabel from '../../public/examples/selectTw/single/WithoutLabel';
+import Disabled from '../../public/examples/select/Disabled';
+import Error from '../../public/examples/select/Error';
+import Hint from '../../public/examples/select/Hint';
+import Options from '../../public/examples/select/Options';
+import OptionsWidth from '../../public/examples/select/OptionsWidth';
+import WithLabel from '../../public/examples/select/WithLabel';
+import WithoutLabel from '../../public/examples/select/WithoutLabel';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('selectTw/single');
+  const examples = useExamples('select');
   return (
     <>
       <ComponentPageDescription title="Select" isInProgress>

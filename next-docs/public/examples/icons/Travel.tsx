@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   TravelAirplane,
   TravelAirplaneDown,
@@ -18,7 +17,7 @@ import {
   TravelSuitcase,
   TravelSwimmingPool,
   TravelWiFi,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -27,7 +26,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

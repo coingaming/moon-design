@@ -3,53 +3,80 @@
  */
 
 import React from 'react';
-import { moonDesignLight, ThemeProvider } from '@heathmont/moon-themes';
+import {
+  moonDesignDark,
+  moonDesignLight,
+  ThemeProvider,
+} from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
 import Default from '../Default';
-import Calendar from '../Calendar';
-import CustomContent from '../CustomContent';
-import DeepTable from '../DeepTable';
-import ExpandedRow from '../ExpandedRow';
-import MiniMap from '../MiniMap';
-import Sorting from '../Sorting';
+import CellBorder from '../CellBorder';
+import RowGaps from '../RowGaps';
+import RowSizes from '../RowSizes';
 
-const renderWithTheme = (component: JSX.Element) => (
+const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
 );
+const renderWithDarkTheme = (component: JSX.Element) => (
+  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
+);
+const renderWithRtl = (component: JSX.Element) => (
+  <div dir="rtl">{component}</div>
+);
 
-describe('Table', () => {
-  it('renders', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Default />));
+describe('Table in Light Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders Calendar', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Calendar />));
+  it('renders CellBorder', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<CellBorder />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders with Custom Content', () => {
-    const testRenderer = renderer.create(renderWithTheme(<CustomContent />));
+  it('renders RowGaps', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<RowGaps />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders Deep Table', () => {
-    const testRenderer = renderer.create(renderWithTheme(<DeepTable />));
+  it('renders RowSizes', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<RowSizes />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+});
 
-  it('renders with Expanded Row', () => {
-    const testRenderer = renderer.create(renderWithTheme(<ExpandedRow />));
+describe('Table in Dark Theme', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-
-  it('renders with Mini Map', () => {
-    const testRenderer = renderer.create(renderWithTheme(<MiniMap />));
+  it('renders CellBorder', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<CellBorder />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders RowGaps', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<RowGaps />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders RowSizes', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<RowSizes />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+});
 
-  it('renders with Sorting', () => {
-    const testRenderer = renderer.create(renderWithTheme(<Sorting />));
+describe('Table in RTL mode', () => {
+  it('renders Default', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders CellBorder', () => {
+    const testRenderer = renderer.create(renderWithRtl(<CellBorder />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders RowGaps', () => {
+    const testRenderer = renderer.create(renderWithRtl(<RowGaps />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders RowSizes', () => {
+    const testRenderer = renderer.create(renderWithRtl(<RowSizes />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

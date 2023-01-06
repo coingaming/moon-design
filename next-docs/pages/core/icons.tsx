@@ -4,27 +4,27 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import IconsBlock from '../../components/IconsBlock';
 import IconsImportHelper from '../../components/IconsImportHelper';
 import PageSection from '../../components/PageSection';
-import Arrows from '../../public/examples/iconsTW/Arrows';
-import Chart from '../../public/examples/iconsTW/Chart';
-import Chat from '../../public/examples/iconsTW/Chat';
-import Controls from '../../public/examples/iconsTW/Controls';
-import Customization from '../../public/examples/iconsTW/Customization';
-import Default from '../../public/examples/iconsTW/Default';
-import Devices from '../../public/examples/iconsTW/Devices';
-import Files from '../../public/examples/iconsTW/Files';
-import Generic from '../../public/examples/iconsTW/Generic';
-import Mail from '../../public/examples/iconsTW/Mail';
-import Maps from '../../public/examples/iconsTW/Maps';
-import Media from '../../public/examples/iconsTW/Media';
-import Notifications from '../../public/examples/iconsTW/Notifications';
-import Other from '../../public/examples/iconsTW/Other';
-import Security from '../../public/examples/iconsTW/Security';
-import Shop from '../../public/examples/iconsTW/Shop';
-import Software from '../../public/examples/iconsTW/Software';
-import Sport from '../../public/examples/iconsTW/Sport';
-import Text from '../../public/examples/iconsTW/Text';
-import Time from '../../public/examples/iconsTW/Time';
-import Travel from '../../public/examples/iconsTW/Travel';
+import Arrows from '../../public/examples/icons/Arrows';
+import Chart from '../../public/examples/icons/Chart';
+import Chat from '../../public/examples/icons/Chat';
+import Controls from '../../public/examples/icons/Controls';
+import Customization from '../../public/examples/icons/Customization';
+import Default from '../../public/examples/icons/Default';
+import Devices from '../../public/examples/icons/Devices';
+import Files from '../../public/examples/icons/Files';
+import Generic from '../../public/examples/icons/Generic';
+import Mail from '../../public/examples/icons/Mail';
+import Maps from '../../public/examples/icons/Maps';
+import Media from '../../public/examples/icons/Media';
+import Notifications from '../../public/examples/icons/Notifications';
+import Other from '../../public/examples/icons/Other';
+import Security from '../../public/examples/icons/Security';
+import Shop from '../../public/examples/icons/Shop';
+import Software from '../../public/examples/icons/Software';
+import Sport from '../../public/examples/icons/Sport';
+import Text from '../../public/examples/icons/Text';
+import Time from '../../public/examples/icons/Time';
+import Travel from '../../public/examples/icons/Travel';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -44,7 +44,7 @@ const Example = () => {
   const onClick = (iconName: string) =>
     setSelectedIcons(toggleSelectedIcons(iconName));
   const wrapperProps = { onClick, selectedIcons };
-  const examples = useExamples('iconsTW');
+  const examples = useExamples('icons');
   return (
     <>
       <ComponentPageDescription title="Icons" isInProgress>

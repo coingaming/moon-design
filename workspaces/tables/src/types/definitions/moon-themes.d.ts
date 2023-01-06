@@ -22,8 +22,8 @@ declare module '@heathmont/moon-themes-tw' {
     | 'trunks.100'
     | 'krillin.100'
     | 'krillin.10'
-    | 'chiChi.100'
-    | 'chiChi.10'
+    | 'chichi.100'
+    | 'chichi.10'
     | 'roshi.100'
     | 'roshi.10'
     | 'dodoria.100'
@@ -57,7 +57,7 @@ declare module '@heathmont/moon-themes-tw' {
 
   export interface ColorShared {
     krillin: SupportingColor; // Warning colors
-    chiChi: SupportingColor; // Error colors
+    chichi: SupportingColor; // Error colors
     roshi: SupportingColor; // Success colors
     dodoria: SupportingColor;
     cell: SupportingColor;

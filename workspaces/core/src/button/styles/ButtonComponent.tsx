@@ -1,9 +1,9 @@
 import React from 'react';
 import mergeClassnames from '../../utils/mergeClassnames';
-import errorAnimation from '../private/buttonAnimations/errorAnimation';
-import buttonSizes from '../private/buttonSizes/buttonSizes';
-import buttonCommonStyles from '../private/buttonStyles/buttonCommonStyles';
-import buttonVariants from '../private/buttonStyles/buttonVariants';
+import getAnimation from '../private/utils/buttonAnimations/getAnimation';
+import getButtonSize from '../private/utils/buttonSizes/getButtonSize';
+import getButtonCommonStyles from '../private/utils/buttonStyles/getButtonCommonStyles';
+import getButtonVariants from '../private/utils/buttonStyles/getButtonVariants';
 import type ButtonProps from '../private/types/ButtonProps';
 
 const ButtonComponent = <C extends React.ElementType>({
@@ -24,11 +24,11 @@ const ButtonComponent = <C extends React.ElementType>({
   return (
     <Component
       className={mergeClassnames(
-        buttonSizes({ size, icon, iconLeft, iconRight, iconOnly }),
-        buttonCommonStyles({ disabled }),
-        buttonVariants({ variant }),
-        animation === 'pulse' && 'anim-pulse animate-[pulse2_1.5s_infinite]',
-        animation === 'error' && errorAnimation(),
+        getButtonSize({ size, icon, iconLeft, iconRight, iconOnly, fullWidth }),
+        getButtonCommonStyles({ disabled }),
+        getButtonVariants({ variant }),
+        animation === 'pulse' && getAnimation('pulse'),
+        animation === 'error' && getAnimation('error'),
         fullWidth && !iconOnly && 'w-full',
         customClassName
       )}

@@ -1,7 +1,7 @@
-import React from 'react';
 import {
   Other3Dots,
   Other3DotsHorizontal,
+  OtherClaps,
   OtherFrame,
   OtherFreebet,
   OtherId,
@@ -16,7 +16,7 @@ import {
   OtherSmile,
   OtherSun,
   OtherWater,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -25,7 +25,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 
@@ -36,6 +36,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="Other3DotsHorizontal">
       <Other3DotsHorizontal {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="OtherClaps">
+      <OtherClaps {...props} />
     </Icon>
     <Icon {...wrapperProps} name="OtherFrame">
       <OtherFrame {...props} />

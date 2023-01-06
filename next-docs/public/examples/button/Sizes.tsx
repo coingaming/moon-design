@@ -1,12 +1,23 @@
-import { Button } from '@heathmont/moon-core';
+import { Button } from '@heathmont/moon-core-tw';
+import { GenericSettings } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <>
-    <Button size="xsmall">xSmall</Button>
-    <Button size="small">Small</Button>
-    <Button>Medium is default</Button>
-    <Button size="large">Large</Button>
-    <Button size="xlarge">xLarge</Button>
+    <Button size="xs" iconLeft={<GenericSettings className="text-moon-16" />}>
+      XS Button
+    </Button>
+    <Button size="sm" iconLeft={<GenericSettings className="text-moon-24" />}>
+      SM Button
+    </Button>
+    <Button iconLeft={<GenericSettings className="text-moon-24" />}>
+      MD Button is default
+    </Button>
+    <Button size="lg" iconLeft={<GenericSettings className="text-moon-24" />}>
+      LG Button
+    </Button>
+    <Button size="xl" iconLeft={<GenericSettings className="text-moon-24" />}>
+      XL Button
+    </Button>
   </>
 );
 

@@ -1,18 +1,9 @@
-import React from 'react';
 import { useState } from 'react';
-import { Switch } from '@heathmont/moon-core';
+import { Switch } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   const [state, setState] = useState(true);
-  return (
-    <Switch
-      id="test-switch-1"
-      checked={state}
-      onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
-        setState(e.target.checked)
-      }
-    />
-  );
+  return <Switch checked={state} onChange={setState} data-tests="test-id" />;
 };
 
 export default Example;

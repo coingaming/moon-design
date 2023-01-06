@@ -3,11 +3,11 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import Default from '../../../public/examples/dialog/dialogContent/Default';
+import Default from '../../../public/styledExamples/dialog/dialogContent/Default';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDialogContent() {
-  const examples = useExamples('dialog/dialogContent');
+  const examples = useExamples('dialog/dialogContent', 'styled');
 
   return (
     <>
