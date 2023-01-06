@@ -1,5 +1,5 @@
+import { Table } from '@heathmont/moon-table-tw';
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
 
 const Example = () => {
   const columnsInitial = [
@@ -32,11 +32,6 @@ const Example = () => {
         {
           Header: 'Activity',
           accessor: 'activity',
-        },
-        {
-          Header: 'Status',
-          width: 60,
-          accessor: 'status',
         },
       ],
     },

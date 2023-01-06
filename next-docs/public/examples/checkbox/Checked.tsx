@@ -1,4 +1,4 @@
-import { Checkbox } from '@heathmont/moon-core';
+import { Checkbox } from '@heathmont/moon-core-tw';
 import { useState } from 'react';
 
 const Example = () => {
@@ -6,8 +6,12 @@ const Example = () => {
   return (
     <Checkbox
       checked={isChecked}
-      label="Checkbox with checked state by default"
       onClick={() => setIsChecked(!isChecked)}
+      onChange={() => {
+        console.log('isChecked:', isChecked);
+      }}
+      label="Checked"
+      id="checked"
     />
   );
 };

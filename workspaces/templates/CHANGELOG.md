@@ -1,5 +1,23 @@
 # @heathmont/moon-templates
 
+## 9.17.0
+
+### Minor Changes
+
+- Add Textarea and Alert
+
+## 9.16.1
+
+### Patch Changes
+
+- Update Tooltip
+
+## 9.16.0
+
+### Minor Changes
+
+- Accordeion, Tag, Tooltip
+
 ## 9.15.2
 
 ### Patch Changes

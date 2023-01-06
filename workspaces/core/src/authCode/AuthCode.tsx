@@ -193,7 +193,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
       </div>
       {!!errorMessage && (
         <div className="px-2" data-testid={`${testId}-error`}>
-          <p className="text-moon-12 text-chiChi">{errorMessage}</p>
+          <p className="text-moon-12 text-chichi">{errorMessage}</p>
         </div>
       )}
     </div>

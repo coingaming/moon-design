@@ -1,5 +1,5 @@
-import { Checkbox } from '@heathmont/moon-core';
+import { Checkbox } from '@heathmont/moon-core-tw';
 
-const Example = () => <Checkbox label="Default Checkbox" />;
+const Example = () => <Checkbox />;
 
 export default Example;

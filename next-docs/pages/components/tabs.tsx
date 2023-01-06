@@ -3,15 +3,15 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/examples/tabs/Default';
-import HorizontalVariants from '../../public/examples/tabs/HorizontalVariants';
-import Small from '../../public/examples/tabs/Small';
-import Variant from '../../public/examples/tabs/Variant';
-import VerticalVariants from '../../public/examples/tabs/VerticalVariants';
+import Default from '../../public/styledExamples/tabs/Default';
+import HorizontalVariants from '../../public/styledExamples/tabs/HorizontalVariants';
+import Small from '../../public/styledExamples/tabs/Small';
+import Variant from '../../public/styledExamples/tabs/Variant';
+import VerticalVariants from '../../public/styledExamples/tabs/VerticalVariants';
 import useExamples from '../../utils/useExamples';
 
 const PageTabsNew = () => {
-  const examples = useExamples('tabs');
+  const examples = useExamples('tabs', 'styled');
   return (
     <>
       <ComponentPageDescription title="Tabs">

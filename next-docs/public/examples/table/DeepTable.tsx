@@ -1,5 +1,5 @@
+import { Table } from '@heathmont/moon-table-tw';
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
 
 const Example = () => {
   const columnsInitial = [
@@ -87,7 +87,7 @@ const Example = () => {
       height={400}
       defaultRowBackgroundColor="gohan.40"
       evenRowBackgroundColor="gohan.80"
-      getOnRowClickHandler={(row) => () => {
+      getOnRowClickHandler={(row: any) => () => {
         (row as any).canExpand
           ? () => (row as any).toggleRowExpanded()
           : undefined;

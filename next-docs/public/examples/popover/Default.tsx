@@ -1,76 +1,54 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import { Popover } from '@heathmont/moon-popover';
-import { Footer, Heading, Text, Button } from '@heathmont/moon-core';
+import React from 'react';
+import { Popover, Button, MenuItem } from '@heathmont/moon-core-tw';
+import {
+  GenericTrophy,
+  MediaMegaphone,
+  MediaTuner,
+} from '@heathmont/moon-icons-tw';
 
 const Example = () => {
-  const [open, setOpen] = useState(false);
-
-  const HandlerOpen = useCallback(
-    (e) => {
-      e.preventDefault();
-      setOpen(false);
-    },
-    [open]
-  );
-
   return (
-    <Popover
-      padding={0}
-      placement="bottom"
-      isOpen={open}
-      onVisibilityChange={(status) => {
-        setOpen(status);
-        console.log('status: ', status);
-      }}
-      content={
-        <div>
-          <div className="p-8 space-y-4">
-            <Heading size={20}>Agents</Heading>
-            <Text size={14}>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
-            </Text>
-          </div>
-
-          <Footer
-            primButton={
-              <Button fullWidth size="small" onClick={HandlerOpen}>
-                OK
-              </Button>
-            }
-            secButton={
-              <Button
-                fullWidth
-                variant="secondary"
-                size="small"
-                onClick={HandlerOpen}
-              >
-                Cansel
-              </Button>
-            }
-            tertButton={
-              <Button
-                fullWidth
-                variant="tertiary"
-                size="small"
-                onClick={HandlerOpen}
-              >
-                Decline
-              </Button>
-            }
-            isDivider
-            size="small"
-          />
-        </div>
-      }
-    >
-      <Button>Toggle Popover</Button>
+    <Popover>
+      <Popover.Trigger>
+        <Button>Toggle Popover</Button>
+      </Popover.Trigger>
+      <Popover.Panel>
+        <Content />
+      </Popover.Panel>
     </Popover>
   );
 };
+
+const Content: React.FC = () => (
+  <div className="p-6 flex flex-col gap-6">
+    <MenuItem>
+      <span className="flex w-11 h-11 bg-goku items-center justify-center rounded-lg">
+        <GenericTrophy className="text-bulma text-[1.5rem]" />
+      </span>
+      <MenuItem.MultiTitle
+        title="Tournaments"
+        text={<span>Best tournaments with streamers</span>}
+      />
+    </MenuItem>
+    <MenuItem>
+      <span className="flex w-11 h-11 bg-goku items-center justify-center">
+        <MediaMegaphone className="text-bulma text-[1.5rem]" />
+      </span>
+      <MenuItem.MultiTitle
+        title="Promotions"
+        text={<span> Your favourite games</span>}
+      />
+    </MenuItem>
+    <MenuItem>
+      <span className="flex w-11 h-11 bg-goku items-center justify-center">
+        <MediaTuner className="text-bulma text-[1.5rem]" />
+      </span>
+      <MenuItem.MultiTitle
+        title="Providers"
+        text={<span> Your favourite games</span>}
+      />
+    </MenuItem>
+  </div>
+);
 
 export default Example;

@@ -1,10 +1,10 @@
-import { Avatar } from '@heathmont/moon-core';
+import { Avatar } from '@heathmont/moon-core-tw';
 
 const Example = () => (
   <>
     <Avatar />
-    <Avatar color="goten.100" backgroundColor="piccolo.100" />
-    <Avatar color="goten.100" backgroundColor="chiChi.100" />
+    <Avatar color="text-goten" bgColor="bg-piccolo" />
+    <Avatar color="text-goten" bgColor="bg-chichi" />
   </>
 );
 

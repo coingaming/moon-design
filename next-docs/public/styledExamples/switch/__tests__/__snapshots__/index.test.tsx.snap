@@ -1,0 +1,368 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch renders 1`] = `
+<div
+  className="sc-joKenV ggSTxM"
+  dir="ltr"
+  style={
+    Object {
+      "overflow": "visible",
+    }
+  }
+>
+  <label
+    className="sc-gaqsZu bAOcRT"
+    size="small"
+  >
+    <input
+      checked={true}
+      className="sc-jSNUkj cepMuN"
+      id="test-switch-1"
+      onChange={[Function]}
+      size="small"
+      type="checkbox"
+    />
+    <span
+      checked={true}
+      className="sc-knTjpY ktreCY"
+      size="small"
+    />
+  </label>
+</div>
+`;
+
+exports[`Switch renders Buttons 1`] = `
+Array [
+  <div
+    className="sc-joKenV ggSTxM"
+    dir="ltr"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <label
+      className="sc-gaqsZu fzXlVO"
+      size="medium"
+    >
+      <input
+        checked={true}
+        className="sc-jSNUkj cepMuN"
+        id="button-switch-1"
+        onChange={[Function]}
+        size="medium"
+        type="checkbox"
+      />
+      <span
+        checked={true}
+        className="sc-knTjpY jWdWfP"
+        size="medium"
+      >
+        <span
+          className="sc-dMmSzc YtCxt"
+        >
+          <p
+            className="sc-hZiMVj iUhvAi"
+            size={14}
+          >
+            Off
+          </p>
+          <p
+            className="sc-hZiMVj iUhvAi"
+            size={14}
+          >
+            On
+          </p>
+        </span>
+      </span>
+    </label>
+  </div>,
+  <div
+    className="sc-joKenV ggSTxM"
+    dir="ltr"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <label
+      className="sc-gaqsZu fZlCEN"
+      size="large"
+    >
+      <input
+        checked={true}
+        className="sc-jSNUkj cepMuN"
+        id="button-switch-2"
+        onChange={[Function]}
+        size="large"
+        type="checkbox"
+      />
+      <span
+        checked={true}
+        className="sc-knTjpY jWdWfP"
+        size="large"
+      >
+        <span
+          className="sc-dMmSzc YtCxt"
+        >
+          <p
+            className="sc-hZiMVj iUhvAi"
+            size={14}
+          >
+            Off
+          </p>
+          <p
+            className="sc-hZiMVj iUhvAi"
+            size={14}
+          >
+            On
+          </p>
+        </span>
+      </span>
+    </label>
+  </div>,
+]
+`;
+
+exports[`Switch renders Disabled state 1`] = `
+Array [
+  <div
+    className="sc-joKenV ggSTxM"
+    dir="ltr"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <label
+      className="sc-gaqsZu fVSsoK"
+      disabled={true}
+      size="small"
+    >
+      <input
+        checked={true}
+        className="sc-jSNUkj cepMuN"
+        id="test-switch-disabled-checked"
+        onChange={[Function]}
+        size="small"
+        type="checkbox"
+      />
+      <span
+        checked={true}
+        className="sc-knTjpY ktreCY"
+        size="small"
+      />
+    </label>
+  </div>,
+  <div
+    className="sc-joKenV ggSTxM"
+    dir="ltr"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <label
+      className="sc-gaqsZu fVSsoK"
+      disabled={true}
+      size="small"
+    >
+      <input
+        checked={false}
+        className="sc-jSNUkj cepMuN"
+        id="test-switch-disabled"
+        onChange={[Function]}
+        size="small"
+        type="checkbox"
+      />
+      <span
+        checked={false}
+        className="sc-knTjpY hMQKok"
+        size="small"
+      />
+    </label>
+  </div>,
+]
+`;
+
+exports[`Switch renders Theme variant 1`] = `
+Array [
+  <div
+    className="sc-joKenV ggSTxM"
+    dir="ltr"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <label
+      className="sc-gaqsZu fKlyx"
+      size="twoxsmall"
+    >
+      <input
+        checked={true}
+        className="sc-jSNUkj GRmsA"
+        id="test-switch-1"
+        onChange={[Function]}
+        size="twoxsmall"
+        type="checkbox"
+      />
+      <span
+        checked={true}
+        className="sc-knTjpY dCKgNX"
+        size="twoxsmall"
+      />
+    </label>
+  </div>,
+  <div
+    className="sc-joKenV ggSTxM"
+    dir="ltr"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <label
+      className="sc-gaqsZu lnlRpu"
+      size="xsmall"
+    >
+      <input
+        checked={true}
+        className="sc-jSNUkj cPFXGI"
+        id="test-switch-2"
+        onChange={[Function]}
+        size="xsmall"
+        type="checkbox"
+      />
+      <span
+        checked={true}
+        className="sc-knTjpY hSlovE"
+        size="xsmall"
+      />
+    </label>
+  </div>,
+  <div
+    className="sc-joKenV ggSTxM"
+    dir="ltr"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <label
+      className="sc-gaqsZu bAOcRT"
+      size="small"
+    >
+      <input
+        checked={true}
+        className="sc-jSNUkj cPFXGI"
+        id="test-switch-3"
+        onChange={[Function]}
+        size="small"
+        type="checkbox"
+      />
+      <span
+        checked={true}
+        className="sc-knTjpY dUaYFn"
+        size="small"
+      />
+    </label>
+  </div>,
+]
+`;
+
+exports[`Switch renders different Sizes 1`] = `
+Array [
+  <div
+    className="sc-joKenV ggSTxM"
+    dir="ltr"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <label
+      className="sc-gaqsZu fKlyx"
+      size="twoxsmall"
+    >
+      <input
+        checked={true}
+        className="sc-jSNUkj ddOnvt"
+        id="test-switch-1"
+        onChange={[Function]}
+        size="twoxsmall"
+        type="checkbox"
+      />
+      <span
+        checked={true}
+        className="sc-knTjpY hPOeBQ"
+        size="twoxsmall"
+      />
+    </label>
+  </div>,
+  <div
+    className="sc-joKenV ggSTxM"
+    dir="ltr"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <label
+      className="sc-gaqsZu lnlRpu"
+      size="xsmall"
+    >
+      <input
+        checked={true}
+        className="sc-jSNUkj cepMuN"
+        id="test-switch-2"
+        onChange={[Function]}
+        size="xsmall"
+        type="checkbox"
+      />
+      <span
+        checked={true}
+        className="sc-knTjpY hyPXpD"
+        size="xsmall"
+      />
+    </label>
+  </div>,
+  <div
+    className="sc-joKenV ggSTxM"
+    dir="ltr"
+    style={
+      Object {
+        "overflow": "visible",
+      }
+    }
+  >
+    <label
+      className="sc-gaqsZu bAOcRT"
+      size="small"
+    >
+      <input
+        checked={true}
+        className="sc-jSNUkj cepMuN"
+        id="test-switch-3"
+        onChange={[Function]}
+        size="small"
+        type="checkbox"
+      />
+      <span
+        checked={true}
+        className="sc-knTjpY ktreCY"
+        size="small"
+      />
+    </label>
+  </div>,
+]
+`;

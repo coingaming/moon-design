@@ -1,9 +1,9 @@
 import React from 'react';
-import errorAnimation from '../../button/private/buttonAnimations/errorAnimation';
-import buttonCommonStyles from '../../button/private/buttonStyles/buttonCommonStyles';
-import buttonVariants from '../../button/private/buttonStyles/buttonVariants';
+import getAnimation from '../../button/private/utils/buttonAnimations/getAnimation';
+import getButtonCommonStyles from '../../button/private/utils/buttonStyles/getButtonCommonStyles';
+import getButtonVariants from '../../button/private/utils/buttonStyles/getButtonVariants';
 import mergeClassnames from '../../utils/mergeClassnames';
-import buttonSizes from '../private/buttonSizes/buttonSizes';
+import getButtonSize from '../private/utils/buttonSizes/getButtonSize';
 import type IconButtonProps from '../private/types/IconButtonProps';
 
 const IconButtonComponent = <C extends React.ElementType>({
@@ -20,11 +20,11 @@ const IconButtonComponent = <C extends React.ElementType>({
   return (
     <Component
       className={mergeClassnames(
-        buttonSizes({ size }),
-        buttonCommonStyles({ disabled }),
-        buttonVariants({ variant }),
-        animation === 'pulse' && 'anim-pulse animate-[pulse2_1.5s_infinite]',
-        animation === 'error' && errorAnimation(),
+        getButtonSize({ size }),
+        getButtonCommonStyles({ disabled }),
+        getButtonVariants({ variant }),
+        animation === 'pulse' && getAnimation('pulse'),
+        animation === 'error' && getAnimation('error'),
         customClassName
       )}
       {...((!as || as === 'button') && { type: 'button' })}

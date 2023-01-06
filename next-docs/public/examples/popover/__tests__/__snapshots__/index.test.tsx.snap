@@ -1,108 +1,797 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Popover renders 1`] = `
-Array [
-  <div
-    onClick={[Function]}
-    onKeyDown={[Function]}
-    role="menu"
-    tabIndex={-1}
-  >
-    <button
-      className="sc-bhpuBD bJBXpN"
-      onMouseEnter={[Function]}
-      onMouseLeave={[Function]}
-      size="medium"
-    >
-      Toggle Popover
-      <div
-        className="sc-ctuRtO hAGojo"
-      />
-    </button>
-  </div>,
-  <div
-    className="box"
-    tabIndex={-1}
-  >
+exports[`Dropdown in Dark Theme renders Default 1`] = `
+<div>
+  <div>
     <div
-      className="sc-bczRLJ gVNVRl"
+      className="relative"
     >
-      <div>
-        <div
-          className="p-8 space-y-4"
-        >
-          <h3
-            className="sc-dYtREw fcdcYL"
-            size={20}
+      <div
+        aria-expanded={false}
+        id="headlessui-popover-button-:rg:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <button
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
           >
-            Agents
-          </h3>
-          <p
-            className="sc-dDaJoQ ilPuZd"
-            size={14}
-          >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-          </p>
+            Toggle Popover
+            <span
+              aria-hidden="true"
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in Dark Theme renders Position 1`] = `
+<div
+  className="flex align-middle justify-around items-center w-full gap-2"
+>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
         <div
-          className="sc-hfufsb fQxmkL"
-          size="small"
+          aria-expanded={false}
+          id="headlessui-popover-button-:ro:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
         >
-          <div
-            className="sc-dmWEhm jyUzvI"
-          >
-            <div
-              className="sc-eirfIE mRtlB"
-            >
-              <button
-                className="sc-bhpuBD bgxfP"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                size="small"
-              >
-                OK
-                <div
-                  className="sc-ctuRtO hAGojo"
-                />
-              </button>
-            </div>
-            <div
-              className="sc-eirfIE mRtlB"
-            >
-              <button
-                className="sc-bhpuBD eelIJA"
-                onClick={[Function]}
-                onMouseEnter={[Function]}
-                onMouseLeave={[Function]}
-                size="small"
-              >
-                Cansel
-                <div
-                  className="sc-ctuRtO hAGojo"
-                />
-              </button>
-            </div>
-          </div>
-          <div
-            className="sc-eirfIE mRtlB"
-          >
+          <div>
             <button
-              className="sc-bhpuBD cLuZSu"
-              onClick={[Function]}
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
-              size="small"
+              type="button"
             >
-              Decline
-              <div
-                className="sc-ctuRtO hAGojo"
+              Top
+              <span
+                aria-hidden="true"
+                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
               />
             </button>
           </div>
         </div>
       </div>
     </div>
-  </div>,
-]
+  </div>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:rq:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <button
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              Right
+              <span
+                aria-hidden="true"
+                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:rs:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <button
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              Left
+              <span
+                aria-hidden="true"
+                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
+<div
+  className="flex align-middle justify-around items-center w-full gap-2"
+>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:ri:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <button
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              Button
+              <span
+                aria-hidden="true"
+                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:rk:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <button
+              className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              <svg
+                className="text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:rm:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <span
+              className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+            >
+              Open popover
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in Dark Theme renders WithClose 1`] = `
+<div>
+  <div>
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        id="headlessui-popover-button-:ru:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <button
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            Toggle Popover
+            <span
+              aria-hidden="true"
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in RTL renders Default 1`] = `
+<div
+  dir="rtl"
+>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:r10:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <button
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              Toggle Popover
+              <span
+                aria-hidden="true"
+                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in RTL renders Position 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex align-middle justify-around items-center w-full gap-2"
+  >
+    <div>
+      <div>
+        <div
+          className="relative"
+        >
+          <div
+            aria-expanded={false}
+            id="headlessui-popover-button-:r18:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <div>
+              <button
+                className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                Top
+                <span
+                  aria-hidden="true"
+                  className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div
+          className="relative"
+        >
+          <div
+            aria-expanded={false}
+            id="headlessui-popover-button-:r1a:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <div>
+              <button
+                className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                Right
+                <span
+                  aria-hidden="true"
+                  className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div
+          className="relative"
+        >
+          <div
+            aria-expanded={false}
+            id="headlessui-popover-button-:r1c:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <div>
+              <button
+                className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                Left
+                <span
+                  aria-hidden="true"
+                  className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in RTL renders TriggerElements 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex align-middle justify-around items-center w-full gap-2"
+  >
+    <div>
+      <div>
+        <div
+          className="relative"
+        >
+          <div
+            aria-expanded={false}
+            id="headlessui-popover-button-:r12:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <div>
+              <button
+                className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                type="button"
+              >
+                Button
+                <span
+                  aria-hidden="true"
+                  className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div
+          className="relative"
+        >
+          <div
+            aria-expanded={false}
+            id="headlessui-popover-button-:r14:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <div>
+              <button
+                className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+              >
+                <svg
+                  className="text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5l-9 9-9-9"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div>
+        <div
+          className="relative"
+        >
+          <div
+            aria-expanded={false}
+            id="headlessui-popover-button-:r16:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <div>
+              <span
+                className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+              >
+                Open popover
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in RTL renders WithClose 1`] = `
+<div
+  dir="rtl"
+>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:r1e:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <button
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              Toggle Popover
+              <span
+                aria-hidden="true"
+                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Popover in Light Theme renders Default 1`] = `
+<div>
+  <div>
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        id="headlessui-popover-button-:r0:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <button
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            Toggle Popover
+            <span
+              aria-hidden="true"
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Popover in Light Theme renders Position 1`] = `
+<div
+  className="flex align-middle justify-around items-center w-full gap-2"
+>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:r8:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <button
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              Top
+              <span
+                aria-hidden="true"
+                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:ra:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <button
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              Right
+              <span
+                aria-hidden="true"
+                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:rc:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <button
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              Left
+              <span
+                aria-hidden="true"
+                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Popover in Light Theme renders TriggerElements 1`] = `
+<div
+  className="flex align-middle justify-around items-center w-full gap-2"
+>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:r2:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <button
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              type="button"
+            >
+              Button
+              <span
+                aria-hidden="true"
+                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:r4:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <button
+              className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              <svg
+                className="text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+    <div>
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          id="headlessui-popover-button-:r6:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <span
+              className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+            >
+              Open popover
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Popover in Light Theme renders WithClose 1`] = `
+<div>
+  <div>
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        id="headlessui-popover-button-:re:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <button
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            Toggle Popover
+            <span
+              aria-hidden="true"
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 `;

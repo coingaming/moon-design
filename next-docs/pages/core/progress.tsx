@@ -1,14 +1,14 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Colors from '../../public/examples/progressTw/Colors';
-import Default from '../../public/examples/progressTw/Default';
-import Sizes from '../../public/examples/progressTw/Sizes';
-import Values from '../../public/examples/progressTw/Values';
+import Colors from '../../public/examples/progress/Colors';
+import Default from '../../public/examples/progress/Default';
+import Sizes from '../../public/examples/progress/Sizes';
+import Values from '../../public/examples/progress/Values';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('progressTW');
+  const examples = useExamples('progress');
   return (
     <>
       <ComponentPageDescription

@@ -1,11 +1,13 @@
-import { Chip } from '@heathmont/moon-core';
+import { Chip } from '@heathmont/moon-core-tw';
 
 const Example = () => (
   <>
-    <Chip isActive size="small">
+    <Chip isActive size="sm">
       Active
     </Chip>
-    <Chip isActive>Active</Chip>
+    <Chip isActive isStroke>
+      Active
+    </Chip>
   </>
 );
 

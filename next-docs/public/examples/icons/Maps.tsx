@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   MapsCompas,
   MapsLocation,
@@ -9,7 +8,7 @@ import {
   MapsPinAdd,
   MapsPinLocation,
   MapsWorld,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -18,7 +17,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

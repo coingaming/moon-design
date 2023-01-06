@@ -2,15 +2,15 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/examples/authCodeTW/Default';
-import ErrorState from '../../public/examples/authCodeTW/ErrorState';
-import FourChars from '../../public/examples/authCodeTW/FourChars';
-import OnlyDigits from '../../public/examples/authCodeTW/OnlyDigits';
-import Stretch from '../../public/examples/authCodeTW/Stretch';
+import Default from '../../public/examples/authCode/Default';
+import ErrorState from '../../public/examples/authCode/ErrorState';
+import FourChars from '../../public/examples/authCode/FourChars';
+import OnlyDigits from '../../public/examples/authCode/OnlyDigits';
+import Stretch from '../../public/examples/authCode/Stretch';
 import useExamples from '../../utils/useExamples';
 
 const PageAuthCodeGroup = () => {
-  const examples = useExamples('authCodeTW');
+  const examples = useExamples('authCode');
 
   return (
     <>

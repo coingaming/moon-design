@@ -1,18 +1,19 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Content from '../../public/examples/tooltip/Content';
-import Default from '../../public/examples/tooltip/Default';
-import Positions from '../../public/examples/tooltip/Positions';
+import Content from '../../public/styledExamples/tooltip/Content';
+import Default from '../../public/styledExamples/tooltip/Default';
+import Positions from '../../public/styledExamples/tooltip/Positions';
 import useExamples from '../../utils/useExamples';
 
 export default function PageTooltip() {
-  const examples = useExamples('tooltip');
+  const examples = useExamples('tooltip', 'styled');
   return (
     <>
       <ComponentPageDescription title="Tooltip">
-        <p>Tooltips offer further contextual information to users.</p>
+        <DeprecationWarning href="/core/tooltip" name="Tooltip" />
       </ComponentPageDescription>
       <Preview
         title="Default"

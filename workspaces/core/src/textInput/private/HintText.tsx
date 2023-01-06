@@ -6,7 +6,7 @@ const HintText: React.FC<{ isError?: boolean }> = ({ children, isError }) => (
     role="alert"
     className={mergeClassnames(
       'inline-block mt-2 ps-4 text-moon-12',
-      isError ? 'text-chiChi' : 'text-trunks'
+      isError ? 'text-chichi' : 'text-trunks'
     )}
   >
     {children}

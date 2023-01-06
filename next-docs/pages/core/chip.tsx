@@ -1,18 +1,18 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Active from '../../public/examples/chipTW/Active';
-import Default from '../../public/examples/chipTW/Default';
-import Icons from '../../public/examples/chipTW/Icons';
-import IsStroke from '../../public/examples/chipTW/IsStroke';
-import IsStrokeIcons from '../../public/examples/chipTW/IsStrokeIcons';
-import OnClick from '../../public/examples/chipTW/OnClick';
-import Sizes from '../../public/examples/chipTW/Sizes';
-import Variants from '../../public/examples/chipTW/Variants';
+import Active from '../../public/examples/chip/Active';
+import Default from '../../public/examples/chip/Default';
+import Icons from '../../public/examples/chip/Icons';
+import IsStroke from '../../public/examples/chip/IsStroke';
+import IsStrokeIcons from '../../public/examples/chip/IsStrokeIcons';
+import OnClick from '../../public/examples/chip/OnClick';
+import Sizes from '../../public/examples/chip/Sizes';
+import Variants from '../../public/examples/chip/Variants';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('chipTW');
+  const examples = useExamples('chip');
   return (
     <>
       <ComponentPageDescription title="Chip" isInProgress isRtlSupport>

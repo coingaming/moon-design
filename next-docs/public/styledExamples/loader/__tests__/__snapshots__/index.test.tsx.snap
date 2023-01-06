@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Loader renders 1`] = `
+<div
+  className="sc-ctuRtO bTwosi"
+  size="medium"
+>
+  <div />
+  <div />
+  <div />
+  <div />
+</div>
+`;
+
+exports[`Loader renders with different colours 1`] = `
+Array [
+  <div
+    className="sc-ctuRtO bTwosi"
+    size="medium"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>,
+  <div
+    className="sc-ctuRtO gmslfC"
+    color="dodoria.100"
+    size="medium"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>,
+  <div
+    className="sc-ctuRtO ksRaWq"
+    color="trunks.100"
+    size="medium"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>,
+  <div
+    className="sc-ctuRtO hWDLGa"
+    color="raditz.100"
+    size="medium"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>,
+]
+`;
+
+exports[`Loader renders with sizes 1`] = `
+Array [
+  <div
+    className="sc-ctuRtO aVbDn"
+    size="twoxsmall"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>,
+  <div
+    className="sc-ctuRtO eDfVTn"
+    size="xsmall"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>,
+  <div
+    className="sc-ctuRtO fkHmer"
+    size="small"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>,
+  <div
+    className="sc-ctuRtO bTwosi"
+    size="medium"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>,
+  <div
+    className="sc-ctuRtO UoysO"
+    size="large"
+  >
+    <div />
+    <div />
+    <div />
+    <div />
+  </div>,
+]
+`;

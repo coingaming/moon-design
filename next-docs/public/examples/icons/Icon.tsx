@@ -1,4 +1,3 @@
-import React from 'react';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
 
 export interface IconProps {
@@ -18,7 +17,7 @@ const Icon: React.FC<IconProps> = ({
     <div
       onClick={() => onClick(name)}
       className={mergeClassnames(
-        'relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active',
+        'relative flex flex-col items-center text-sm cursor-pointer rounded-md hover:bg-active-80 hover:text-active transition-colors',
         isShown ? 'text-active bg-active-80' : 'text-gray-400'
       )}
     >

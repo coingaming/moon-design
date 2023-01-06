@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   ChartArea,
   ChartBar,
@@ -10,7 +9,7 @@ import {
   ChartPieChart,
   ChartRelation,
   ChartRound,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 
 import Icon from './Icon';
 
@@ -20,7 +19,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

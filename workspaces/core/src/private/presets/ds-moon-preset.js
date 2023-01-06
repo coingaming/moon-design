@@ -1,11 +1,9 @@
 //as Variant of using rgba color with opacity
-function withOpacityValue(rgbColor) {
-  return ({ opacityValue }) => {
-    if (opacityValue === undefined) {
-      return `rgb(var(${rgbColor}))`;
-    }
-    return `rgb(var(${rgbColor}) / ${opacityValue})`;
-  };
+function withOpacityValue(rgbColor, opacityValue) {
+  if (opacityValue === undefined) {
+    return `rgb(var(${rgbColor}))`;
+  }
+  return `rgb(var(${rgbColor}) / ${opacityValue})`;
 }
 
 const plugin = require('tailwindcss/plugin');
@@ -247,7 +245,7 @@ module.exports = {
           60: withOpacityValue('--krillin-60'),
           10: withOpacityValue('--krillin-10'),
         },
-        chiChi: {
+        chichi: {
           DEFAULT: withOpacityValue('--chichi'),
           60: withOpacityValue('--chichi-60'),
           10: withOpacityValue('--chichi-10'),
@@ -447,7 +445,7 @@ module.exports = {
       });
     }),
     plugin(function ({ addVariant }) {
-      for (let state of ['open', 'checked', 'selected', 'active', 'disabled']) {
+      for (let state of ['checked', 'selected', 'active', 'disabled']) {
         addVariant(`moon-${state}`, [
           `&[aria-${state}="true"]`,
           `:where([aria-${state}="true"]) &`,
@@ -457,6 +455,12 @@ module.exports = {
           `:where([aria-${state}="false"]) &`,
         ]);
       }
+      addVariant(`moon-open`, [
+        `&[aria-open="true"]`,
+        `:where([aria-open="true"]) &`,
+        `&[data-state="open"]`,
+        `:where([data-state="open"]) &`,
+      ]);
     }),
   ],
 };

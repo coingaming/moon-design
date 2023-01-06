@@ -1,6 +1,6 @@
 import React, { ReactNode, useEffect, useState } from 'react';
 import { Switch } from '@heathmont/moon-core';
-import { Button, Accordion } from '@heathmont/moon-core-tw';
+import { Button, IconButton, Accordion } from '@heathmont/moon-core-tw';
 
 import {
   ControlsChevronDown,
@@ -151,22 +151,13 @@ const Vip = () => {
         }
         subtitle={
           <Subtitle
-            classes="break-words items-center mt-3 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
+            classes="break-words items-center mt-3 mb-6 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
             text=" Join the VIP Bitcasino Club - An exclusive world of crypto leaders
                 and high-rollers who dare to take risks and enjoy life to its
                 fullest."
           />
         }
-        button={
-          <Button
-            variant="primary"
-            width={124}
-            height={48}
-            className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:mx-0 sm:px-0 sm:self-start w-full sm:w-[124px] "
-          >
-            Sign up now
-          </Button>
-        }
+        button={<Button variant="primary">Sign up now</Button>}
         wrapperClasses="sm:bg-[url('/templates/bitcasino/pattern.png')]"
         heroImage={
           <Image
@@ -270,12 +261,13 @@ const Vip = () => {
             </p>
           </div>
           <div className="mt-3 mb-3">
-            <Button
-              className="flex justify-center items-center cursor-pointer bg-gohan w-[32px] h-[32px] rounded-full"
+            <IconButton
+              variant="tertiary"
+              size="sm"
               onClick={() => console.log('Read More')}
             >
-              <ControlsChevronDown />
-            </Button>
+              <ControlsChevronDown className="text-moon-24" />
+            </IconButton>
           </div>
         </div>
         <div className="p-0 mx-6 md:mr-auto  lg:p-5 lg:mx-auto md:w-full xxl:w-[1262px] ">

@@ -1160,7 +1160,7 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(var(--trunks) / var(--tw-border-opacity));
 }
-.border-chiChi {
+.border-chichi {
   --tw-border-opacity: 1;
   border-color: rgb(var(--chichi) / var(--tw-border-opacity));
 }
@@ -1212,7 +1212,7 @@ video {
 .bg-transparent {
   background-color: initial;
 }
-.bg-chiChi {
+.bg-chichi {
   --tw-bg-opacity: 1;
   background-color: rgb(var(--chichi) / var(--tw-bg-opacity));
 }
@@ -1464,7 +1464,7 @@ video {
 .text-transparent {
   color: #0000;
 }
-.text-chiChi {
+.text-chichi {
   --tw-text-opacity: 1;
   color: rgb(var(--chichi) / var(--tw-text-opacity));
 }
@@ -1551,7 +1551,7 @@ video {
 .outline-1 {
   outline-width: 1px;
 }
-.outline-chiChi {
+.outline-chichi {
   outline-color: rgb(var(--chichi));
 }
 .blur {

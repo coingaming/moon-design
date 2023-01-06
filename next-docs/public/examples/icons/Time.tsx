@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   TimeAlarm,
   TimeCalendar,
@@ -13,7 +12,7 @@ import {
   TimeStopwatchTimer,
   TimeTime,
   TimeWatch,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -22,7 +21,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

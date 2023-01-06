@@ -452,6 +452,8 @@ export { default as Other3Dots } from './icons/Other3Dots';
 export * from './icons/Other3Dots';
 export { default as Other3DotsHorizontal } from './icons/Other3DotsHorizontal';
 export * from './icons/Other3DotsHorizontal';
+export { default as OtherClaps } from './icons/OtherClaps';
+export * from './icons/OtherClaps';
 export { default as OtherFrame } from './icons/OtherFrame';
 export * from './icons/OtherFrame';
 export { default as OtherFreebet } from './icons/OtherFreebet';

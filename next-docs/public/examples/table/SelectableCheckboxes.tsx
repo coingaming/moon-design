@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
+import { Table } from '@heathmont/moon-table-tw';
 
 const Example = () => {
   const columnsInitial = [

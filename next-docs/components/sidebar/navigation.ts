@@ -11,6 +11,7 @@ const navigation = [
     name: 'Tailwind',
     children: [
       { name: 'Accordion', href: '/core/accordion' },
+      { name: 'Alert', href: '/core/alert' },
       { name: 'AuthCode', href: '/core/authCode' },
       { name: 'Avatar', href: '/core/avatar' },
       { name: 'BottomSheet', href: '/core/bottomSheet' },
@@ -44,8 +45,10 @@ const navigation = [
       { name: 'Table', href: '/core/table' },
       { name: 'Tabs', href: '/core/tabs' },
       { name: 'Tag', href: '/core/tag' },
+      { name: 'Textarea', href: '/core/textarea' },
       { name: 'TextInput', href: '/core/textInput' },
       { name: 'TextInputGroup', href: '/core/textInputGroup' },
+      { name: 'Tooltip', href: '/core/tooltip' },
     ],
   },
   {

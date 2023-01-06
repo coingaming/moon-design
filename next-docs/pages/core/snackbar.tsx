@@ -3,17 +3,17 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import AutoClose from '../../public/examples/snackbarTW/AutoClose';
-import Customization from '../../public/examples/snackbarTW/Customization';
-import Default from '../../public/examples/snackbarTW/Default';
-import Options from '../../public/examples/snackbarTW/Options';
-import Positions from '../../public/examples/snackbarTW/Positions';
-import Semantics from '../../public/examples/snackbarTW/Semantics';
-import SnackbarQueue from '../../public/examples/snackbarTW/SnackbarQueue';
+import AutoClose from '../../public/examples/snackbar/AutoClose';
+import Customization from '../../public/examples/snackbar/Customization';
+import Default from '../../public/examples/snackbar/Default';
+import Options from '../../public/examples/snackbar/Options';
+import Positions from '../../public/examples/snackbar/Positions';
+import Semantics from '../../public/examples/snackbar/Semantics';
+import SnackbarQueue from '../../public/examples/snackbar/SnackbarQueue';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('snackbarTW');
+  const examples = useExamples('snackbar');
   return (
     <>
       <ComponentPageDescription

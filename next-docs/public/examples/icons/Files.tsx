@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   FilesAdd,
   FilesCase,
@@ -27,7 +26,7 @@ import {
   FilesStickers,
   FilesTable,
   FilesText,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -36,7 +35,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

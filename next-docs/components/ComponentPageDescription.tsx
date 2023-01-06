@@ -30,7 +30,7 @@ const ComponentPageDescription: React.FC<Props> = ({
           {isLabelsVisible && (
             <div className="flex items-start gap-2">
               {isDeprecated && (
-                <Tag size="2xs" bgColor="bg-chiChi-60" color="text-popo">
+                <Tag size="2xs" bgColor="bg-chichi-60" color="text-popo">
                   Deprecated
                 </Tag>
               )}

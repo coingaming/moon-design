@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   ArrowsBoost,
   ArrowsBottomLeft,
@@ -26,7 +25,7 @@ import {
   ArrowsTransfer,
   ArrowsUp,
   ArrowsUpdate,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 
 import Icon from './Icon';
 
@@ -36,7 +35,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

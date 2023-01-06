@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   SoftwareBug,
   SoftwareClear,
@@ -17,7 +16,7 @@ import {
   SoftwareShutdown,
   SoftwareSorting,
   SoftwareWrench,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -26,7 +25,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 
