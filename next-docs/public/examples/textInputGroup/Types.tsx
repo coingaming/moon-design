@@ -1,13 +1,14 @@
-import React from 'react';
-import { TextInputGroup } from '@heathmont/moon-core';
+import { TextInputGroup } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   const inputProps1 = {
+    inputSize: 'md',
     placeholder: 'Email',
     type: 'email',
   };
 
   const inputProps2 = {
+    inputSize: 'md',
     placeholder: 'Password',
     type: 'password',
   };

@@ -1,13 +1,12 @@
-import React from 'react';
-import { Loader } from '@heathmont/moon-core';
+import { Loader } from '@heathmont/moon-core-tw';
 
 const Example = () => (
   <>
-    <Loader size="twoxsmall" />
-    <Loader size="xsmall" />
-    <Loader size="small" />
+    <Loader size="2xs" />
+    <Loader size="xs" />
+    <Loader size="sm" />
     <Loader />
-    <Loader size="large" />
+    <Loader size="lg" />
   </>
 );
 

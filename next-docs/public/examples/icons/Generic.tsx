@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   GenericAbout,
   GenericAlarm,
@@ -52,7 +51,7 @@ import {
   GenericUpload,
   GenericUser,
   GenericUsers,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -61,7 +60,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

@@ -1,27 +1,20 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Buttons from '../../public/examples/banner/Buttons';
-import Default from '../../public/examples/banner/Default';
-import HeaderIcon from '../../public/examples/banner/HeaderIcon';
-import Mobile from '../../public/examples/banner/Mobile';
-import Singleline from '../../public/examples/banner/Singleline';
+import Buttons from '../../public/styledExamples/banner/Buttons';
+import Default from '../../public/styledExamples/banner/Default';
+import HeaderIcon from '../../public/styledExamples/banner/HeaderIcon';
+import Mobile from '../../public/styledExamples/banner/Mobile';
+import Singleline from '../../public/styledExamples/banner/Singleline';
 import useExamples from '../../utils/useExamples';
 
 const PageBanner = () => {
-  const examples = useExamples('banner');
+  const examples = useExamples('banner', 'styled');
   return (
     <>
       <ComponentPageDescription title="Banner">
-        <p>
-          Banners are used to show users important, succinct messages, or space
-          alerts, that users should know about. They can interact or ignore
-          banners at any time, as they are non-modal. What to take note of when
-          using banners Only one banner should be shown at a time. Banners
-          require user action in order to be dismissed. Messages should consist
-          of no longer than one headline, one description sentence and one short
-          call-to-action.
-        </p>
+        <DeprecationWarning href="/core/alert" name="Alert" />
       </ComponentPageDescription>
       <Preview
         title="Default"

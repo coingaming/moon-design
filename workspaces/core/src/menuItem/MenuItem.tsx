@@ -1,12 +1,6 @@
-import React, {
-  createContext,
-  useContext,
-  useEffect,
-  useReducer,
-  useCallback,
-} from 'react';
+import React, { createContext, useContext, useEffect } from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
-import stateReducer from '../private/utils/stateReducer';
+import useRegisterChild from '../private/utils/useRegisterChild';
 import mergeClassnames from '../utils/mergeClassnames';
 
 type MenuItemProps = {
@@ -72,17 +66,7 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
       selected: isSelected,
       active: isActive,
     };
-
-    const [state, dispatch] = useReducer(stateReducer, {
-      childrens: [],
-    });
-
-    const registerChild = useCallback((child: string) => {
-      dispatch && dispatch({ type: 'RegisterChild', children: child });
-      return () =>
-        dispatch && dispatch({ type: 'UnregisterChild', children: child });
-    }, []);
-
+    const { state, registerChild } = useRegisterChild();
     const isNoBg = state.childrens?.find(
       (name) => name === 'Radio' || name === 'Checkbox'
     );

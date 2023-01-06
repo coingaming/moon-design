@@ -1,13 +1,13 @@
 import Preview from '../components/codePreview/Preview';
 import ComponentPageDescription from '../components/ComponentPageDescription';
-import Caption from '../public/examples/typographyTW/Caption';
-import Colors from '../public/examples/typographyTW/Colors';
-import Heading from '../public/examples/typographyTW/Heading';
-import Text from '../public/examples/typographyTW/Text';
+import Caption from '../public/examples/typography/Caption';
+import Colors from '../public/examples/typography/Colors';
+import Heading from '../public/examples/typography/Heading';
+import Text from '../public/examples/typography/Text';
 import useExamples from '../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('typographyTW');
+  const examples = useExamples('typography');
   return (
     <>
       <ComponentPageDescription title="Typography">

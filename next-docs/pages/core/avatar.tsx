@@ -1,17 +1,17 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Active from '../../public/examples/avatarTW/Active';
-import Colours from '../../public/examples/avatarTW/Colours';
-import Default from '../../public/examples/avatarTW/Default';
-import Rounded from '../../public/examples/avatarTW/Rounded';
-import Sizes from '../../public/examples/avatarTW/Sizes';
-import StatusOrigin from '../../public/examples/avatarTW/StatusOrigin';
-import Variants from '../../public/examples/avatarTW/Variants';
+import Active from '../../public/examples/avatar/Active';
+import Colours from '../../public/examples/avatar/Colours';
+import Default from '../../public/examples/avatar/Default';
+import Rounded from '../../public/examples/avatar/Rounded';
+import Sizes from '../../public/examples/avatar/Sizes';
+import StatusOrigin from '../../public/examples/avatar/StatusOrigin';
+import Variants from '../../public/examples/avatar/Variants';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('avatarTW');
+  const examples = useExamples('avatar');
   return (
     <>
       <ComponentPageDescription title="Avatar" isInProgress isRtlSupport>

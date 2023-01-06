@@ -2,18 +2,18 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import Colors from '../../../public/examples/heading/Colors';
-import FontWeight from '../../../public/examples/heading/FontWeight';
-import LineHeight from '../../../public/examples/heading/LineHeight';
-import SemanticTags from '../../../public/examples/heading/SemanticTags';
-import Sizes from '../../../public/examples/heading/Sizes';
-import TextAlign from '../../../public/examples/heading/TextAlign';
-import Underline from '../../../public/examples/heading/Underline';
-import Uppercase from '../../../public/examples/heading/Uppercase';
+import Colors from '../../../public/styledExamples/heading/Colors';
+import FontWeight from '../../../public/styledExamples/heading/FontWeight';
+import LineHeight from '../../../public/styledExamples/heading/LineHeight';
+import SemanticTags from '../../../public/styledExamples/heading/SemanticTags';
+import Sizes from '../../../public/styledExamples/heading/Sizes';
+import TextAlign from '../../../public/styledExamples/heading/TextAlign';
+import Underline from '../../../public/styledExamples/heading/Underline';
+import Uppercase from '../../../public/styledExamples/heading/Uppercase';
 import useExamples from '../../../utils/useExamples';
 
 const PageHeading = () => {
-  const examples = useExamples('heading');
+  const examples = useExamples('heading', 'styled');
   return (
     <>
       <ComponentPageDescription title="Heading">

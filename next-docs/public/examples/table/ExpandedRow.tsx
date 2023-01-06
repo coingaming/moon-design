@@ -1,5 +1,7 @@
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
+import { Table } from '@heathmont/moon-table-tw';
+import { BodyTR } from '@heathmont/moon-table-tw';
+import { TD } from '@heathmont/moon-table-tw';
 
 interface HeaderProps {
   isAllRowsExpanded: boolean;
@@ -13,8 +15,7 @@ const Example = () => {
       sticky: 'left',
       columns: [
         {
-          // Build our expander column
-          id: 'expander', // Make sure it has an ID
+          id: 'expander',
           Header: ({
             getToggleAllRowsExpandedProps,
             isAllRowsExpanded,
@@ -24,15 +25,10 @@ const Example = () => {
             </span>
           ),
           Cell: ({ row }: any) =>
-            // Use the row.canExpand and row.getToggleRowExpandedProps prop getter
-            // to build the toggle for expanding a row
             row.canExpand ? (
               <span
                 {...row.getToggleRowExpandedProps({
                   style: {
-                    // We can even use the row.depth property
-                    // and paddingLeft to indicate the depth
-                    // of the row
                     paddingLeft: `${row.depth * 2}rem`,
                   },
                 })}
@@ -131,8 +127,9 @@ const Example = () => {
       defaultColumn={defaultColumn}
       width={800}
       height={400}
-      defaultRowBackgroundColor="gohan.40"
-      evenRowBackgroundColor="gohan.80"
+      defaultRowBackgroundColor="gohan"
+      evenRowBackgroundColor="trunks"
+      isExpanded
     />
   );
 };

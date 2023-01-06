@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   ControlsChevronDown,
   ControlsChevronDownSmall,
@@ -21,7 +20,7 @@ import {
   ControlsMinus,
   ControlsPlus,
   ControlsVerticalDoubleChevron,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -30,7 +29,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

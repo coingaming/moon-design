@@ -1,14 +1,14 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Colors from '../../public/examples/circularProgressTw/Colors';
-import Default from '../../public/examples/circularProgressTw/Default';
-import Sizes from '../../public/examples/circularProgressTw/Sizes';
-import Values from '../../public/examples/circularProgressTw/Values';
+import Colors from '../../public/examples/circularProgress/Colors';
+import Default from '../../public/examples/circularProgress/Default';
+import Sizes from '../../public/examples/circularProgress/Sizes';
+import Values from '../../public/examples/circularProgress/Values';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('circularProgressTW');
+  const examples = useExamples('circularProgress');
   return (
     <>
       <ComponentPageDescription

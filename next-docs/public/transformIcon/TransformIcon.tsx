@@ -56,7 +56,7 @@ const TransformIcon: React.FC = () => {
       <div
         ref={divRef}
         className={`${
-          dragging ? 'border-bulma' : error ? 'border-chiChi' : 'border-beerus'
+          dragging ? 'border-bulma' : error ? 'border-chichi' : 'border-beerus'
         } flex flex-col gap-4 items-center py-12 px-6 rounded-moon-s-md border-2 border-dashed text-trunks transition-colors duration-200`}
       >
         <GenericPicture className="text-moon-48" />
@@ -78,7 +78,7 @@ const TransformIcon: React.FC = () => {
       </div>
 
       {error && (
-        <div className="flex gap-2 items-center text-chiChi">
+        <div className="flex gap-2 items-center text-chichi">
           <GenericClose className="text-moon-32" />
           <span className="text-moon-16">File type is not supported</span>
         </div>

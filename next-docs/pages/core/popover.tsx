@@ -3,14 +3,14 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/examples/popoverTW/Default';
-import Position from '../../public/examples/popoverTW/Position';
-import TriggerElements from '../../public/examples/popoverTW/TriggerElements';
-import WithClose from '../../public/examples/popoverTW/WithClose';
+import Default from '../../public/examples/popover/Default';
+import Position from '../../public/examples/popover/Position';
+import TriggerElements from '../../public/examples/popover/TriggerElements';
+import WithClose from '../../public/examples/popover/WithClose';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('popoverTW');
+  const examples = useExamples('popover');
   return (
     <>
       <ComponentPageDescription title="Popover" isInProgress>

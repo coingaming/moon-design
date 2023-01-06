@@ -1,21 +1,13 @@
-import { Button } from '@heathmont/moon-core';
-import { GenericSettings } from '@heathmont/moon-icons';
+import { Button } from '@heathmont/moon-core-tw';
+import { GenericSettings } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <>
-    <Button iconLeft={<GenericSettings />}>IconLeft</Button>
-    <Button iconLeft>
-      <GenericSettings />
+    <Button iconLeft={<GenericSettings className="text-moon-24" />}>
       IconLeft
     </Button>
-    <Button iconRight={<GenericSettings />}>IconRight</Button>
-    <Button iconRight>
+    <Button iconRight={<GenericSettings className="text-moon-24" />}>
       IconRight
-      <GenericSettings />
-    </Button>
-    <Button iconOnly={<GenericSettings />} />
-    <Button iconOnly>
-      <GenericSettings />
     </Button>
   </>
 );

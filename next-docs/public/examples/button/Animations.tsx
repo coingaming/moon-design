@@ -1,4 +1,4 @@
-import { Button } from '@heathmont/moon-core';
+import { Button } from '@heathmont/moon-core-tw';
 
 const Example = () => (
   <>

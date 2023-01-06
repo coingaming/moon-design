@@ -2,18 +2,18 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import ContentOutside from '../../public/examples/accordionNew/ContentOutside';
-import Default from '../../public/examples/accordionNew/Default';
-import DisableOpen from '../../public/examples/accordionNew/DisableOpen';
-import HeaderContent from '../../public/examples/accordionNew/HeaderContent';
-import OpenByDefault from '../../public/examples/accordionNew/OpenByDefault';
-import Sizes from '../../public/examples/accordionNew/Sizes';
-import SizesContentOutside from '../../public/examples/accordionNew/SizesContentOutside';
-import WithoutButton from '../../public/examples/accordionNew/WithoutButton';
+import ContentOutside from '../../public/styledExamples/accordionNew/ContentOutside';
+import Default from '../../public/styledExamples/accordionNew/Default';
+import DisableOpen from '../../public/styledExamples/accordionNew/DisableOpen';
+import HeaderContent from '../../public/styledExamples/accordionNew/HeaderContent';
+import OpenByDefault from '../../public/styledExamples/accordionNew/OpenByDefault';
+import Sizes from '../../public/styledExamples/accordionNew/Sizes';
+import SizesContentOutside from '../../public/styledExamples/accordionNew/SizesContentOutside';
+import WithoutButton from '../../public/styledExamples/accordionNew/WithoutButton';
 import useExamples from '../../utils/useExamples';
 
 const PageAccordion = () => {
-  const examples = useExamples('accordionNew');
+  const examples = useExamples('accordionNew', 'styled');
   return (
     <>
       <ComponentPageDescription title="Accordion">

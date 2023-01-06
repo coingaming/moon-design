@@ -1997,7 +1997,7 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(var(--trunks) / var(--tw-bg-opacity));
 }
-.bg-chiChi {
+.bg-chichi {
   --tw-bg-opacity: 1;
   background-color: rgb(var(--chichi) / var(--tw-bg-opacity));
 }
@@ -2467,7 +2467,7 @@ video {
 .text-transparent {
   color: #0000;
 }
-.text-chiChi {
+.text-chichi {
   --tw-text-opacity: 1;
   color: rgb(var(--chichi) / var(--tw-text-opacity));
 }

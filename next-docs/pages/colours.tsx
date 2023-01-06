@@ -82,20 +82,20 @@ const PageColours = () => (
         ]}
       />
       <ColoursPalette
-        title="Chi Chi"
+        title="Chichi"
         description="Error colour"
         colors={[
           {
-            name: 'bg-chiChi',
-            description: 'chiChi',
+            name: 'bg-chichi',
+            description: 'chichi',
           },
           {
-            name: 'bg-chiChi-60',
-            description: 'chiChi-60',
+            name: 'bg-chichi-60',
+            description: 'chichi-60',
           },
           {
-            name: 'bg-chiChi-10',
-            description: 'chiChi-10',
+            name: 'bg-chichi-10',
+            description: 'chichi-10',
           },
         ]}
       />

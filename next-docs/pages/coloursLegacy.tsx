@@ -176,13 +176,13 @@ export default function PageColours() {
         </section>
 
         <section className="mt-8">
-          <ColorName>chiChi</ColorName>
+          <ColorName>Chichi</ColorName>
           <ColorUsage>Error colours</ColorUsage>
           <div className="mt-4">
             <Palette
               colors={[
-                { className: 'bg-chiChi', value: 100 },
-                { className: 'bg-chiChi-10', value: 10 },
+                { className: 'bg-chichi', value: 100 },
+                { className: 'bg-chichi-10', value: 10 },
               ]}
             />
           </div>

@@ -1,4 +1,4 @@
-import { Avatar } from '@heathmont/moon-core';
+import { Avatar } from '@heathmont/moon-core-tw';
 
 const Example = () => (
   <>

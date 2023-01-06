@@ -1,0 +1,2871 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snackbar in Dark Theme renders AutoClose 1`] = `
+Array [
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Close after 1 sec
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Close after 3 sec
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Dark Theme renders Customization 1`] = `
+Array [
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Border radius
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Background
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Width
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always light
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always dark
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Fonts
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Dark Theme renders Default 1`] = `
+<div>
+  <button
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    Default
+    <span
+      aria-hidden="true"
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+  <div
+    aria-label="Notifications (F8)"
+    role="region"
+    style={
+      Object {
+        "pointerEvents": undefined,
+      }
+    }
+    tabIndex={-1}
+  >
+    <span
+      aria-hidden={true}
+      onFocus={[Function]}
+      style={
+        Object {
+          "border": 0,
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "whiteSpace": "nowrap",
+          "width": 1,
+          "wordWrap": "normal",
+        }
+      }
+      tabIndex={0}
+    />
+    <ol
+      tabIndex={-1}
+    />
+    <span
+      aria-hidden={true}
+      onFocus={[Function]}
+      style={
+        Object {
+          "border": 0,
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "whiteSpace": "nowrap",
+          "width": 1,
+          "wordWrap": "normal",
+        }
+      }
+      tabIndex={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`Snackbar in Dark Theme renders Options 1`] = `
+Array [
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Multi Line
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Header
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Close
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Icon
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Multi Line with Icon
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Close and Icon
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Dark Theme renders Positions 1`] = `
+Array [
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Top left
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Top center
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Top right
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom left
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom center
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom right
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Dark Theme renders Semantics 1`] = `
+Array [
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Success
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Warning
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Error
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Light Theme renders AutoClose 1`] = `
+Array [
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Close after 1 sec
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Close after 3 sec
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Light Theme renders Customization 1`] = `
+Array [
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Border radius
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Background
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Width
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always light
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always dark
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Fonts
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Light Theme renders Default 1`] = `
+<div>
+  <button
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="button"
+  >
+    Default
+    <span
+      aria-hidden="true"
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+  <div
+    aria-label="Notifications (F8)"
+    role="region"
+    style={
+      Object {
+        "pointerEvents": undefined,
+      }
+    }
+    tabIndex={-1}
+  >
+    <span
+      aria-hidden={true}
+      onFocus={[Function]}
+      style={
+        Object {
+          "border": 0,
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "whiteSpace": "nowrap",
+          "width": 1,
+          "wordWrap": "normal",
+        }
+      }
+      tabIndex={0}
+    />
+    <ol
+      tabIndex={-1}
+    />
+    <span
+      aria-hidden={true}
+      onFocus={[Function]}
+      style={
+        Object {
+          "border": 0,
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "whiteSpace": "nowrap",
+          "width": 1,
+          "wordWrap": "normal",
+        }
+      }
+      tabIndex={0}
+    />
+  </div>
+</div>
+`;
+
+exports[`Snackbar in Light Theme renders Options 1`] = `
+Array [
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Multi Line
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Header
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Close
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Icon
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Multi Line with Icon
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Close and Icon
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Light Theme renders Positions 1`] = `
+Array [
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Top left
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Top center
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Top right
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom left
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom center
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom right
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in Light Theme renders Semantics 1`] = `
+Array [
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Success
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Warning
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Error
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Snackbar in RTL renders AutoClose 1`] = `
+<div
+  dir="rtl"
+>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Close after 1 sec
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Close after 3 sec
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snackbar in RTL renders Customization 1`] = `
+<div
+  dir="rtl"
+>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Border radius
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Background
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Width
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always light
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Always dark
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Fonts
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snackbar in RTL renders Default 1`] = `
+<div
+  dir="rtl"
+>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Default
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snackbar in RTL renders Options 1`] = `
+<div
+  dir="rtl"
+>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Multi Line
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Header
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Close
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Icon
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Multi Line with Icon
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      With Close and Icon
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snackbar in RTL renders Positions 1`] = `
+<div
+  dir="rtl"
+>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Top left
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Top center
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Top right
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom left
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom center
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Bottom right
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Snackbar in RTL renders Semantics 1`] = `
+<div
+  dir="rtl"
+>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Success
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": undefined,
+        }
+      }
+      tabIndex={-1}
+    >
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+      <ol
+        tabIndex={-1}
+      />
+      <span
+        aria-hidden={true}
+        onFocus={[Function]}
+        style={
+          Object {
+            "border": 0,
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "whiteSpace": "nowrap",
+            "width": 1,
+            "wordWrap": "normal",
+          }
+        }
+        tabIndex={0}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Warning
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+  <div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-secondary focus:ring-bulma/[.2]"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      Error
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      aria-label="Notifications (F8)"
+      role="region"
+      style={
+        Object {
+          "pointerEvents": "none",
+        }
+      }
+      tabIndex={-1}
+    >
+      <ol
+        tabIndex={-1}
+      />
+    </div>
+  </div>
+</div>
+`;

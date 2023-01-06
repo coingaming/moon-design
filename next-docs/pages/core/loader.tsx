@@ -2,13 +2,13 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Colors from '../../public/examples/loaderTW/Colors';
-import Default from '../../public/examples/loaderTW/Default';
-import Sizes from '../../public/examples/loaderTW/Sizes';
+import Colors from '../../public/examples/loader/Colors';
+import Default from '../../public/examples/loader/Default';
+import Sizes from '../../public/examples/loader/Sizes';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('loaderTW');
+  const examples = useExamples('loader');
   return (
     <>
       <ComponentPageDescription title="Loader" isInProgress>
@@ -25,10 +25,10 @@ const Example = () => {
       <Preview
         title="Sizes"
         preview={<Sizes />}
-        code={examples ? examples.Default : 'Loading'}
+        code={examples ? examples.Sizes : 'Loading'}
       />
       <Preview
-        title="Colors"
+        title="Colours"
         preview={<Colors />}
         code={examples ? examples.Colors : 'Loading'}
       />
