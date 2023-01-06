@@ -3,15 +3,15 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/examples/dropdownTW/Default';
-import OptionsVariants from '../../public/examples/dropdownTW/OptionsVariants';
-import Select from '../../public/examples/dropdownTW/Select';
-import SelectStates from '../../public/examples/dropdownTW/SelectStates';
-import TriggerElements from '../../public/examples/dropdownTW/TriggerElements';
+import Default from '../../public/examples/dropdown/Default';
+import OptionsVariants from '../../public/examples/dropdown/OptionsVariants';
+import Select from '../../public/examples/dropdown/Select';
+import SelectStates from '../../public/examples/dropdown/SelectStates';
+import TriggerElements from '../../public/examples/dropdown/TriggerElements';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('dropdownTW');
+  const examples = useExamples('dropdown');
   return (
     <>
       <ComponentPageDescription title="Dropdown" isInProgress>

@@ -2,15 +2,15 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Colours from '../../public/examples/tagTW/Colours';
-import Default from '../../public/examples/tagTW/Default';
-import Icons from '../../public/examples/tagTW/Icons';
-import LetterCases from '../../public/examples/tagTW/LetterCases';
-import Sizes from '../../public/examples/tagTW/Sizes';
+import Colours from '../../public/examples/tag/Colours';
+import Default from '../../public/examples/tag/Default';
+import Icons from '../../public/examples/tag/Icons';
+import LetterCases from '../../public/examples/tag/LetterCases';
+import Sizes from '../../public/examples/tag/Sizes';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('tagTW');
+  const examples = useExamples('tag');
   return (
     <>
       <ComponentPageDescription title="Tag" isInProgress>

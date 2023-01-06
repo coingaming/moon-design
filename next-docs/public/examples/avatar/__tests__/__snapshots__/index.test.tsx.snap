@@ -1,19 +1,87 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Avatar renders different Colours 1`] = `
+exports[`Avatar in Dark Theme renders Active 1`] = `
 Array [
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP ODWIJ"
-      color="bulma.100"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
     >
       <svg
-        className="sc-hjQCSK eYtRFW"
+        className="text-moon-24 text-bulma"
         fill="none"
-        fontSize="1.5rem"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      md
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+        }
+      }
+    />
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
+  </div>,
+]
+`;
+
+exports[`Avatar in Dark Theme renders Colours 1`] = `
+Array [
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
         height="1em"
         viewBox="0 0 32 32"
         width="1em"
@@ -27,17 +95,19 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP eoCsww"
-      color="goten.100"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-goten bg-piccolo h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
     >
       <svg
-        className="sc-hjQCSK hENHlG"
+        className="text-moon-24 text-goten"
         fill="none"
-        fontSize="1.5rem"
         height="1em"
         viewBox="0 0 32 32"
         width="1em"
@@ -51,17 +121,19 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP kggxai"
-      color="goten.100"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-goten bg-chichi h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
     >
       <svg
-        className="sc-hjQCSK hENHlG"
+        className="text-moon-24 text-goten"
         fill="none"
-        fontSize="1.5rem"
         height="1em"
         viewBox="0 0 32 32"
         width="1em"
@@ -77,23 +149,111 @@ Array [
 ]
 `;
 
-exports[`Avatar renders different Sizes 1`] = `
+exports[`Avatar in Dark Theme renders Default 1`] = `
+<div
+  className="relative"
+>
+  <div
+    className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+    style={
+      Object {
+        "backgroundImage": "url('')",
+      }
+    }
+  >
+    <svg
+      className="text-moon-24 text-bulma"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Avatar in Dark Theme renders Rounded 1`] = `
+Array [
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-full"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-full"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      md
+    </div>
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-full"
+      style={
+        Object {
+          "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`Avatar in Dark Theme renders Sizes 1`] = `
 Array [
   <div
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP bNtYNF"
-        color="bulma.100"
-        size="xsmall"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
         <svg
-          className="sc-hjQCSK eYtRFW"
+          className="text-moon-16 text-bulma"
           fill="none"
-          fontSize="1rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -107,17 +267,19 @@ Array [
       </div>
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP fluloG"
-        color="bulma.100"
-        size="small"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
         <svg
-          className="sc-hjQCSK eYtRFW"
+          className="text-moon-24 text-bulma"
           fill="none"
-          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -131,17 +293,19 @@ Array [
       </div>
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP ODWIJ"
-        color="bulma.100"
-        size="medium"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
         <svg
-          className="sc-hjQCSK eYtRFW"
+          className="text-moon-24 text-bulma"
           fill="none"
-          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -155,17 +319,19 @@ Array [
       </div>
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP OknjA"
-        color="bulma.100"
-        size="large"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
         <svg
-          className="sc-hjQCSK eYtRFW"
+          className="text-moon-24 text-bulma"
           fill="none"
-          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -179,17 +345,19 @@ Array [
       </div>
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP bFNtgw"
-        color="bulma.100"
-        size="xlarge"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
         <svg
-          className="sc-hjQCSK eYtRFW"
+          className="text-moon-24 text-bulma"
           fill="none"
-          fontSize="1.5rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -203,17 +371,19 @@ Array [
       </div>
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP liOAJC"
-        color="bulma.100"
-        size="twoxlarge"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
         <svg
-          className="sc-hjQCSK eYtRFW"
+          className="text-moon-32 text-bulma"
           fill="none"
-          fontSize="2rem"
           height="1em"
           viewBox="0 0 32 32"
           width="1em"
@@ -231,69 +401,87 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP bNtYNF"
-        color="bulma.100"
-        size="xsmall"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
-        JS
+        xs
       </div>
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP fluloG"
-        color="bulma.100"
-        size="small"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
-        JS
+        sm
       </div>
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP ODWIJ"
-        color="bulma.100"
-        size="medium"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
-        JS
+        md
       </div>
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP OknjA"
-        color="bulma.100"
-        size="large"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
-        JS
+        lg
       </div>
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP bFNtgw"
-        color="bulma.100"
-        size="xlarge"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
-        JS
+        xl
       </div>
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP liOAJC"
-        color="bulma.100"
-        size="twoxlarge"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
       >
-        JS
+        2xl
       </div>
     </div>
   </div>,
@@ -301,77 +489,97 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP fQbFFh"
-        color="bulma.100"
-        size="xsmall"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
       />
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP gycOrm"
-        color="bulma.100"
-        size="small"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
       />
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP gFeSwR"
-        color="bulma.100"
-        size="medium"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
       />
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP cdbCpk"
-        color="bulma.100"
-        size="large"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
       />
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP hGhUFQ"
-        color="bulma.100"
-        size="xlarge"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
       />
     </div>
     <div
-      className="sc-kxCoLp dJOUNO"
+      className="relative"
     >
       <div
-        className="sc-dvogsP djTTfC"
-        color="bulma.100"
-        size="twoxlarge"
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
       />
     </div>
   </div>,
 ]
 `;
 
-exports[`Avatar renders different Variants 1`] = `
+exports[`Avatar in Dark Theme renders StatusOrigin 1`] = `
 Array [
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP ODWIJ"
-      color="bulma.100"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
     >
       <svg
-        className="sc-hjQCSK eYtRFW"
+        className="text-moon-24 text-bulma"
         fill="none"
-        fontSize="1.5rem"
         height="1em"
         viewBox="0 0 32 32"
         width="1em"
@@ -383,44 +591,116 @@ Array [
         />
       </svg>
     </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
   </div>,
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP ODWIJ"
-      color="bulma.100"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
     >
-      JS
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
     </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0 w-3 h-3 border-2"
+    />
   </div>,
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP gFeSwR"
-      color="bulma.100"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0 w-3 h-3 border-2"
     />
   </div>,
 ]
 `;
 
-exports[`Avatar supports different status origins 1`] = `
+exports[`Avatar in Dark Theme renders Variants 1`] = `
 Array [
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP ODWIJ"
-      color="bulma.100"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
     >
       <svg
-        className="sc-hjQCSK eYtRFW"
+        className="text-moon-24 text-bulma"
         fill="none"
-        fontSize="1.5rem"
         height="1em"
         viewBox="0 0 32 32"
         width="1em"
@@ -432,136 +712,52 @@ Array [
         />
       </svg>
     </div>
-    <div
-      className="sc-gFeNAA dWWpVa"
-      size="medium"
-    />
   </div>,
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP ODWIJ"
-      color="bulma.100"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
     >
-      <svg
-        className="sc-hjQCSK eYtRFW"
-        fill="none"
-        fontSize="1.5rem"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
-          fill="currentColor"
-        />
-      </svg>
+      md
     </div>
-    <div
-      className="sc-gFeNAA kXJfpR"
-      size="medium"
-    />
   </div>,
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP ODWIJ"
-      color="bulma.100"
-      size="medium"
-    >
-      <svg
-        className="sc-hjQCSK eYtRFW"
-        fill="none"
-        fontSize="1.5rem"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
-    <div
-      className="sc-gFeNAA dcKEqy"
-      size="medium"
-    />
-  </div>,
-  <div
-    className="sc-kxCoLp dJOUNO"
-  >
-    <div
-      className="sc-dvogsP ODWIJ"
-      color="bulma.100"
-      size="medium"
-    >
-      <svg
-        className="sc-hjQCSK eYtRFW"
-        fill="none"
-        fontSize="1.5rem"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
-    <div
-      className="sc-gFeNAA kICoWd"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+        }
+      }
     />
   </div>,
 ]
 `;
 
-exports[`Avatar supports different statuses 1`] = `
+exports[`Avatar in Light Theme renders Active 1`] = `
 Array [
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP ODWIJ"
-      color="bulma.100"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
     >
       <svg
-        className="sc-hjQCSK eYtRFW"
+        className="text-moon-24 text-bulma"
         fill="none"
-        fontSize="1.5rem"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
-          fill="currentColor"
-        />
-      </svg>
-    </div>
-  </div>,
-  <div
-    className="sc-kxCoLp dJOUNO"
-  >
-    <div
-      className="sc-dvogsP ODWIJ"
-      color="bulma.100"
-      size="medium"
-    >
-      <svg
-        className="sc-hjQCSK eYtRFW"
-        fill="none"
-        fontSize="1.5rem"
         height="1em"
         viewBox="0 0 32 32"
         width="1em"
@@ -574,31 +770,1474 @@ Array [
       </svg>
     </div>
     <div
-      className="sc-gFeNAA dcKEqy"
-      size="medium"
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
     />
   </div>,
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP gFeSwR"
-      color="bulma.100"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      md
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
     />
   </div>,
   <div
-    className="sc-kxCoLp dJOUNO"
+    className="relative"
   >
     <div
-      className="sc-dvogsP gFeSwR"
-      color="bulma.100"
-      size="medium"
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+        }
+      }
     />
     <div
-      className="sc-gFeNAA dcKEqy"
-      size="medium"
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
     />
   </div>,
 ]
+`;
+
+exports[`Avatar in Light Theme renders Colours 1`] = `
+Array [
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-goten bg-piccolo h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-goten"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-goten bg-chichi h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-goten"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Avatar in Light Theme renders Default 1`] = `
+<div
+  className="relative"
+>
+  <div
+    className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+    style={
+      Object {
+        "backgroundImage": "url('')",
+      }
+    }
+  >
+    <svg
+      className="text-moon-24 text-bulma"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+</div>
+`;
+
+exports[`Avatar in Light Theme renders Rounded 1`] = `
+Array [
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-full"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-full"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      md
+    </div>
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-full"
+      style={
+        Object {
+          "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`Avatar in Light Theme renders Sizes 1`] = `
+Array [
+  <div
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-16 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-24 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-24 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-24 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-24 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-32 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        xs
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        sm
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        md
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        lg
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        xl
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        2xl
+      </div>
+    </div>
+  </div>,
+  <div
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Avatar in Light Theme renders StatusOrigin 1`] = `
+Array [
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0 w-3 h-3 border-2"
+    />
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0 w-3 h-3 border-2"
+    />
+  </div>,
+]
+`;
+
+exports[`Avatar in Light Theme renders Variants 1`] = `
+Array [
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      md
+    </div>
+  </div>,
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+        }
+      }
+    />
+  </div>,
+]
+`;
+
+exports[`Avatar in RTL renders Active 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
+  </div>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      md
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
+  </div>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+        }
+      }
+    />
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar in RTL renders Colours 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-goten bg-piccolo h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-goten"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-goten bg-chichi h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-goten"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar in RTL renders Default 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar in RTL renders Rounded 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-full"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-full"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      md
+    </div>
+  </div>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-full"
+      style={
+        Object {
+          "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+        }
+      }
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar in RTL renders Sizes 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-16 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-24 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-24 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-24 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-24 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        <svg
+          className="text-moon-32 text-bulma"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        xs
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        sm
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        md
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        lg
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        xl
+      </div>
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md"
+        style={
+          Object {
+            "backgroundImage": "url('')",
+          }
+        }
+      >
+        2xl
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex flex-wrap items-center justify-around gap-2 w-full"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-6 w-6 text-moon-10-caption rounded-moon-i-xs"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-8 w-8 text-moon-12 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-12 w-12 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-14 w-14 text-moon-16 rounded-moon-i-sm"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+    <div
+      className="relative"
+    >
+      <div
+        className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-16 w-16 text-moon-20 rounded-moon-i-md"
+        style={
+          Object {
+            "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+          }
+        }
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Avatar in RTL renders StatusOrigin 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
+  </div>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi top-0 ltr:left-0 rtl:right-0 w-3 h-3 border-2"
+    />
+  </div>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:right-0 rtl:left-0 w-3 h-3 border-2"
+    />
+  </div>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+    <div
+      className="absolute border-solid border-beerus rounded-full bg-roshi bottom-0 ltr:left-0 rtl:right-0 w-3 h-3 border-2"
+    />
+  </div>
+</div>
+`;
+
+exports[`Avatar in RTL renders Variants 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      <svg
+        className="text-moon-24 text-bulma"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M24.006 23.659l.264.424-.264-.424zm-16.013 0l.264-.425-.264.425zm-.756-1.603l.498.043-.498-.043zm17.524 0l-.498.043.498-.043zm-.695-2.453l-.456.205.456-.205zm-16.134 0l-.456-.205.456.205zm11.952-8.718a3.885 3.885 0 01-3.885 3.884v1a4.885 4.885 0 004.885-4.884h-1zm-3.885 3.884a3.885 3.885 0 01-3.884-3.884h-1a4.885 4.885 0 004.884 4.884v-1zm-3.884-3.884A3.885 3.885 0 0115.999 7V6a4.885 4.885 0 00-4.884 4.885h1zM15.999 7a3.885 3.885 0 013.885 3.885h1A4.885 4.885 0 0015.999 6v1zm7.743 16.234c-1.08.67-3.49 1.766-7.743 1.766v1c4.434 0 7.029-1.145 8.27-1.917l-.527-.85zM15.999 25c-4.252 0-6.663-1.095-7.742-1.766l-.528.85c1.242.77 3.836 1.916 8.27 1.916v-1zm-9.26-2.986c-.07.804.265 1.62.99 2.07l.528-.85c-.362-.225-.563-.652-.522-1.135l-.996-.085zm17.524.085c.042.483-.16.91-.521 1.135l.527.85c.725-.45 1.06-1.266.99-2.07l-.996.085zm-.653-2.291c.302.671.585 1.491.653 2.291l.996-.085c-.082-.958-.413-1.895-.737-2.616l-.912.41zM7.735 22.099c.069-.8.352-1.62.654-2.291l-.913-.41c-.324.721-.655 1.658-.737 2.616l.996.085zm13.968-4.407H10.296v1h11.407v-1zM8.389 19.808c.313-.699 1.058-1.116 1.907-1.116v-1c-1.157 0-2.312.576-2.82 1.706l.913.41zm16.133-.41c-.507-1.13-1.663-1.706-2.82-1.706v1c.85 0 1.594.417 1.908 1.116l.912-.41z"
+          fill="currentColor"
+        />
+      </svg>
+    </div>
+  </div>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('')",
+        }
+      }
+    >
+      md
+    </div>
+  </div>
+  <div
+    className="relative"
+  >
+    <div
+      className="overflow-hidden uppercase font-medium flex items-center justify-center bg-cover text-bulma bg-gohan h-10 w-10 text-moon-14 rounded-moon-i-sm"
+      style={
+        Object {
+          "backgroundImage": "url('https://www.fillmurray.com/200/200')",
+        }
+      }
+    />
+  </div>
+</div>
 `;

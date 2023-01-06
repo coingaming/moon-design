@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   ChatChat,
   ChatComment,
@@ -10,7 +9,7 @@ import {
   ChatCommentText,
   ChatDoubleBubble,
   ChatStatsChat,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -19,7 +18,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

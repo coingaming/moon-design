@@ -1,1317 +1,128 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TextInputGroup renders 1`] = `
-<div
-  className="flex flex-col lg:flex-row justify-around items-center w-full gap-2"
->
-  <div
-    className="sc-evnJpU iVDOLJ"
-    dir="ltr"
-    orientation="horizontal"
-  >
-    <div
-      className="sc-dDaJoQ khFMuk"
-    >
-      <div
-        className="sc-hhICeM fOxxeU"
-      >
-        <input
-          className="sc-eZkcaX cSPEhM"
-          dir="ltr"
-          placeholder="Country"
-          type="text"
-        />
-        <label
-          className="sc-eqKtKx aGCUy"
-        />
-      </div>
-    </div>
-    <div
-      className="sc-dDaJoQ kGGCnw"
-    >
-      <div
-        className="sc-hhICeM fOxxeU"
-      >
-        <input
-          className="sc-eZkcaX kZDcrE"
-          dir="ltr"
-          placeholder="Phone"
-          type="text"
-        />
-        <label
-          className="sc-eqKtKx aGCUy"
-        />
-      </div>
-    </div>
-  </div>
-  <div
-    className="sc-evnJpU doSUFe"
-    dir="ltr"
-    orientation="vertical"
-  >
-    <div
-      className="sc-dDaJoQ gGyfOk"
-    >
-      <div
-        className="sc-hhICeM fOxxeU"
-      >
-        <input
-          className="sc-eZkcaX SsorE"
-          dir="ltr"
-          placeholder="Country"
-          type="text"
-        />
-        <label
-          className="sc-eqKtKx aGCUy"
-        />
-      </div>
-    </div>
-    <div
-      className="sc-dDaJoQ gnMcrM"
-    >
-      <div
-        className="sc-hhICeM fOxxeU"
-      >
-        <input
-          className="sc-eZkcaX boWljU"
-          dir="ltr"
-          placeholder="Phone"
-          type="text"
-        />
-        <label
-          className="sc-eqKtKx aGCUy"
-        />
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`TextInputGroup renders RTL 1`] = `
-<div
-  className="sc-evnJpU iVDOLJ"
-  dir="rtl"
-  orientation="horizontal"
->
-  <div
-    className="sc-dDaJoQ kGGCnw"
-  >
-    <div
-      className="sc-hhICeM fOxxeU"
-    >
-      <input
-        className="sc-eZkcaX kZDcrE"
-        dir="rtl"
-        placeholder="Country"
-        type="text"
-      />
-      <label
-        className="sc-eqKtKx uXXXN"
-      />
-    </div>
-  </div>
-  <div
-    className="sc-dDaJoQ khFMuk"
-  >
-    <div
-      className="sc-hhICeM fOxxeU"
-    >
-      <input
-        className="sc-eZkcaX cSPEhM"
-        dir="rtl"
-        placeholder="Phone"
-        type="text"
-      />
-      <label
-        className="sc-eqKtKx uXXXN"
-      />
-    </div>
-  </div>
-</div>
-`;
-
-exports[`TextInputGroup renders and allows access to DOM and values for text field 1`] = `
+exports[`TextInputGroup in Dark Theme renders AccessValues 1`] = `
 <div
   className="flex flex-col justify-around items-center w-full gap-2"
 >
   <div
-    className="sc-evnJpU iVDOLJ"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
-    orientation="horizontal"
   >
     <div
-      className="sc-dDaJoQ khFMuk"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
-      <div
-        className="sc-hhICeM fOxxeU"
-      >
-        <input
-          className="sc-eZkcaX cSPEhM"
-          dir="ltr"
-          placeholder="Country"
-          type="text"
-        />
-        <label
-          className="sc-eqKtKx aGCUy"
-        />
-      </div>
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
     </div>
     <div
-      className="sc-dDaJoQ kGGCnw"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
-      <div
-        className="sc-hhICeM fOxxeU"
-      >
-        <input
-          className="sc-eZkcaX kZDcrE"
-          dir="ltr"
-          placeholder="Phone"
-          type="text"
-        />
-        <label
-          className="sc-eqKtKx aGCUy"
-        />
-      </div>
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
     </div>
   </div>
-  <span
-    className="sc-bgA-dc bxSOEq"
-    size="xsmall"
+  <div
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
   >
     Country: 
     Estonia
-  </span>
-  <span
-    className="sc-bgA-dc bxSOEq"
-    size="xsmall"
+  </div>
+  <div
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
   >
     Phone: 
     +372 45678901
-  </span>
-</div>
-`;
-
-exports[`TextInputGroup renders and allows event listeners for the select fields 1`] = `
-<div
-  className="flex flex-col justify-around items-center w-full gap-2"
->
-  <div
-    className="sc-iCxJSg knyxdN"
-    dir="ltr"
-    orientation="horizontal"
-  >
-    <div
-      className="sc-egFLrJ VkFNq"
-    >
-      <div
-        className=" css-1tsy5a7-container"
-        onKeyDown={[Function]}
-      >
-        <span
-          className="css-1f43avz-a11yText-A11yText"
-          id="react-select-10-live-region"
-        />
-        <span
-          aria-atomic="false"
-          aria-live="polite"
-          aria-relevant="additions text"
-          className="css-1f43avz-a11yText-A11yText"
-        />
-        <div
-          className=" css-18kgzmi-control"
-          onMouseDown={[Function]}
-          onTouchEnd={[Function]}
-        >
-          <div
-            className=" css-1f3h6sw-ValueContainer"
-          >
-            <div
-              className="sc-bGpPMD bObwJT"
-            />
-            <div
-              className="sc-iSyBji iXAXqI"
-            >
-              <div
-                className=" css-wuj7bk-placeholder"
-                id="react-select-10-placeholder"
-              >
-                <div
-                  className="sc-hJbaOH cMfEVc"
-                >
-                  Country
-                </div>
-              </div>
-              <input
-                aria-autocomplete="list"
-                aria-describedby="react-select-10-placeholder"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-readonly={true}
-                className="css-mohuvp-dummyInput-DummyInput"
-                disabled={false}
-                id="react-select-10-input"
-                inputMode="none"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                tabIndex={0}
-                value=""
-              />
-            </div>
-          </div>
-          <div
-            className=" css-1hb7zxy-IndicatorsContainer"
-          >
-            <svg
-              className="sc-jywedQ"
-              fill="none"
-              fontSize="1.5rem"
-              height="1em"
-              style={
-                Object {
-                  "marginInlineEnd": "0.5rem",
-                }
-              }
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div
-      className="sc-gchOna bVCBle"
-    >
-      <div
-        className=" css-1tsy5a7-container"
-        onKeyDown={[Function]}
-      >
-        <span
-          className="css-1f43avz-a11yText-A11yText"
-          id="react-select-11-live-region"
-        />
-        <span
-          aria-atomic="false"
-          aria-live="polite"
-          aria-relevant="additions text"
-          className="css-1f43avz-a11yText-A11yText"
-        />
-        <div
-          className=" css-91yr6k-control"
-          onMouseDown={[Function]}
-          onTouchEnd={[Function]}
-        >
-          <div
-            className=" css-1f3h6sw-ValueContainer"
-          >
-            <div
-              className="sc-bGpPMD bObwJT"
-            />
-            <div
-              className="sc-iSyBji iXAXqI"
-            >
-              <div
-                className=" css-wuj7bk-placeholder"
-                id="react-select-11-placeholder"
-              >
-                <div
-                  className="sc-hJbaOH cMfEVc"
-                >
-                  Vehicle
-                </div>
-              </div>
-              <input
-                aria-autocomplete="list"
-                aria-describedby="react-select-11-placeholder"
-                aria-expanded={false}
-                aria-haspopup={true}
-                aria-readonly={true}
-                className="css-mohuvp-dummyInput-DummyInput"
-                disabled={false}
-                id="react-select-11-input"
-                inputMode="none"
-                onBlur={[Function]}
-                onChange={[Function]}
-                onFocus={[Function]}
-                role="combobox"
-                tabIndex={0}
-                value=""
-              />
-            </div>
-          </div>
-          <div
-            className=" css-1hb7zxy-IndicatorsContainer"
-          >
-            <svg
-              className="sc-jywedQ"
-              fill="none"
-              fontSize="1.5rem"
-              height="1em"
-              style={
-                Object {
-                  "marginInlineEnd": "0.5rem",
-                }
-              }
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
-  <span
-    className="sc-bgA-dc bxSOEq"
-    size="xsmall"
-  >
-    Country: 
-  </span>
-  <span
-    className="sc-bgA-dc bxSOEq"
-    size="xsmall"
-  >
-    Vehicle: 
-  </span>
 </div>
 `;
 
-exports[`TextInputGroup renders different types 1`] = `
+exports[`TextInputGroup in Dark Theme renders Default 1`] = `
 <div
-  className="sc-evnJpU iVDOLJ"
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
   dir="ltr"
-  orientation="horizontal"
 >
   <div
-    className="sc-dDaJoQ khFMuk"
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
   >
-    <div
-      className="sc-hhICeM fOxxeU"
-    >
-      <input
-        className="sc-eZkcaX cSPEhM"
-        dir="ltr"
-        placeholder="Email"
-        type="email"
-      />
-      <label
-        className="sc-eqKtKx aGCUy"
-      />
-    </div>
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+      dir="ltr"
+      placeholder="Country"
+      type="text"
+    />
   </div>
   <div
-    className="sc-dDaJoQ kGGCnw"
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
   >
-    <div
-      className="sc-hhICeM fOxxeU"
-    >
-      <input
-        className="sc-eZkcaX epngZk"
-        dir="ltr"
-        placeholder="Password"
-        type="password"
-      />
-      <label
-        className="sc-eqKtKx aGCUy"
-      />
-      <div
-        className="sc-futMm ktwkcM"
-        onClick={[Function]}
-      />
-    </div>
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+      dir="ltr"
+      placeholder="Phone"
+      type="text"
+    />
   </div>
 </div>
 `;
 
-exports[`TextInputGroup renders multi select 1`] = `
+exports[`TextInputGroup in Dark Theme renders Rtl 1`] = `
 <div
-  className="sc-iCxJSg knyxdN"
-  dir="ltr"
-  orientation="horizontal"
->
-  <div
-    className="sc-egFLrJ VkFNq"
-  >
-    <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
-    >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-4-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
-      <div
-        className=" css-18kgzmi-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
-      >
-        <div
-          className=" css-112g2nh-ValueContainer"
-        >
-          <div
-            className="sc-bGpPMD bObwJT"
-          >
-            xLarge
-          </div>
-          <div
-            className="sc-kzriHz beWVnq"
-          >
-            <div
-              className=" css-jexdti-placeholder"
-              id="react-select-4-placeholder"
-            >
-              <div
-                className="sc-hJbaOH cMfEVc"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-describedby="react-select-4-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-4-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
-        </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-jywedQ"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="sc-gchOna bVCBle"
-  >
-    <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
-    >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-5-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
-      <div
-        className=" css-91yr6k-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
-      >
-        <div
-          className=" css-112g2nh-ValueContainer"
-        >
-          <div
-            className="sc-bGpPMD bObwJT"
-          >
-            xLarge
-          </div>
-          <div
-            className="sc-kzriHz beWVnq"
-          >
-            <div
-              className=" css-jexdti-placeholder"
-              id="react-select-5-placeholder"
-            >
-              <div
-                className="sc-hJbaOH cMfEVc"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-describedby="react-select-5-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-5-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
-        </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-jywedQ"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`TextInputGroup renders single select 1`] = `
-<div
-  className="sc-iCxJSg knyxdN"
-  dir="ltr"
-  orientation="horizontal"
->
-  <div
-    className="sc-egFLrJ VkFNq"
-  >
-    <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
-    >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-2-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
-      <div
-        className=" css-18kgzmi-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
-      >
-        <div
-          className=" css-1f3h6sw-ValueContainer"
-        >
-          <div
-            className="sc-bGpPMD bObwJT"
-          />
-          <div
-            className="sc-iSyBji iXAXqI"
-          >
-            <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-2-placeholder"
-            >
-              <div
-                className="sc-hJbaOH cMfEVc"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-describedby="react-select-2-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-2-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
-        </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-jywedQ"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="sc-gchOna bVCBle"
-  >
-    <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
-    >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-3-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
-      <div
-        className=" css-91yr6k-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
-      >
-        <div
-          className=" css-1f3h6sw-ValueContainer"
-        >
-          <div
-            className="sc-bGpPMD bObwJT"
-          />
-          <div
-            className="sc-iSyBji iXAXqI"
-          >
-            <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-3-placeholder"
-            >
-              <div
-                className="sc-hJbaOH cMfEVc"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-describedby="react-select-3-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-3-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
-        </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-jywedQ"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`TextInputGroup renders single select RTL 1`] = `
-<div
-  className="sc-iCxJSg knyxdN"
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
   dir="rtl"
-  orientation="horizontal"
 >
   <div
-    className="sc-egFLrJ VkFNq"
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
   >
-    <div
-      className=" css-9ebu9r-container"
-      onKeyDown={[Function]}
-    >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-8-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
-      <div
-        className=" css-91yr6k-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
-      >
-        <div
-          className=" css-1f3h6sw-ValueContainer"
-        >
-          <div
-            className="sc-bGpPMD bObwJT"
-          />
-          <div
-            className="sc-iSyBji iXAXqI"
-          >
-            <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-8-placeholder"
-            >
-              <div
-                className="sc-hJbaOH cMfEVc"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-describedby="react-select-8-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-8-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
-        </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-jywedQ"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+      dir="rtl"
+      placeholder="Country"
+      type="text"
+    />
   </div>
   <div
-    className="sc-gchOna bVCBle"
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
   >
-    <div
-      className=" css-9ebu9r-container"
-      onKeyDown={[Function]}
-    >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-9-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
-      <div
-        className=" css-18kgzmi-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
-      >
-        <div
-          className=" css-1f3h6sw-ValueContainer"
-        >
-          <div
-            className="sc-bGpPMD bObwJT"
-          >
-            xLarge
-          </div>
-          <div
-            className="sc-iSyBji iXAXqI"
-          >
-            <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-9-placeholder"
-            >
-              <div
-                className="sc-hJbaOH cMfEVc"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-describedby="react-select-9-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-9-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
-        </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-jywedQ"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+      dir="rtl"
+      placeholder="Phone"
+      type="text"
+    />
   </div>
 </div>
 `;
 
-exports[`TextInputGroup renders single select vertical 1`] = `
-<div
-  className="sc-iCxJSg YzOvG"
-  dir="ltr"
-  orientation="vertical"
->
-  <div
-    className="sc-egFLrJ VkFNq"
-  >
-    <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
-    >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-6-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
-      <div
-        className=" css-1lbmnj-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
-      >
-        <div
-          className=" css-1f3h6sw-ValueContainer"
-        >
-          <div
-            className="sc-bGpPMD bObwJT"
-          >
-            xLarge
-          </div>
-          <div
-            className="sc-iSyBji iXAXqI"
-          >
-            <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-6-placeholder"
-            >
-              <div
-                className="sc-hJbaOH cMfEVc"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-describedby="react-select-6-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-6-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
-        </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-jywedQ"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="sc-gchOna bVCBle"
-  >
-    <div
-      className=" css-1tsy5a7-container"
-      onKeyDown={[Function]}
-    >
-      <span
-        className="css-1f43avz-a11yText-A11yText"
-        id="react-select-7-live-region"
-      />
-      <span
-        aria-atomic="false"
-        aria-live="polite"
-        aria-relevant="additions text"
-        className="css-1f43avz-a11yText-A11yText"
-      />
-      <div
-        className=" css-ouirde-control"
-        onMouseDown={[Function]}
-        onTouchEnd={[Function]}
-      >
-        <div
-          className=" css-1f3h6sw-ValueContainer"
-        >
-          <div
-            className="sc-bGpPMD bObwJT"
-          >
-            xLarge
-          </div>
-          <div
-            className="sc-iSyBji iXAXqI"
-          >
-            <div
-              className=" css-wuj7bk-placeholder"
-              id="react-select-7-placeholder"
-            >
-              <div
-                className="sc-hJbaOH cMfEVc"
-              >
-                Choose an option
-              </div>
-            </div>
-            <input
-              aria-autocomplete="list"
-              aria-describedby="react-select-7-placeholder"
-              aria-expanded={false}
-              aria-haspopup={true}
-              aria-readonly={true}
-              className="css-mohuvp-dummyInput-DummyInput"
-              disabled={false}
-              id="react-select-7-input"
-              inputMode="none"
-              onBlur={[Function]}
-              onChange={[Function]}
-              onFocus={[Function]}
-              role="combobox"
-              tabIndex={0}
-              value=""
-            />
-          </div>
-        </div>
-        <div
-          className=" css-1hb7zxy-IndicatorsContainer"
-        >
-          <svg
-            className="sc-jywedQ"
-            fill="none"
-            fontSize="1.5rem"
-            height="1em"
-            style={
-              Object {
-                "marginInlineEnd": "0.5rem",
-              }
-            }
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`TextInputGroup renders sizes 1`] = `
-<div
-  className="flex flex-col justify-around items-center w-full gap-2"
->
-  <div
-    className="sc-evnJpU bGLxDk"
-    dir="ltr"
-    orientation="horizontal"
-  >
-    <div
-      className="sc-dDaJoQ khFMuk"
-    >
-      <input
-        className="sc-eZkcaX dVtoOw"
-        dir="ltr"
-        placeholder="Country"
-        type="text"
-      />
-    </div>
-    <div
-      className="sc-dDaJoQ kGGCnw"
-    >
-      <input
-        className="sc-eZkcaX kqKzXs"
-        dir="ltr"
-        placeholder="Phone"
-        type="text"
-      />
-    </div>
-  </div>
-  <div
-    className="sc-evnJpU bGLxDk"
-    dir="ltr"
-    orientation="horizontal"
-  >
-    <div
-      className="sc-dDaJoQ khFMuk"
-    >
-      <input
-        className="sc-eZkcaX ghTsdT"
-        dir="ltr"
-        placeholder="Country"
-        type="text"
-      />
-    </div>
-    <div
-      className="sc-dDaJoQ kGGCnw"
-    >
-      <input
-        className="sc-eZkcaX bxJuez"
-        dir="ltr"
-        placeholder="Phone"
-        type="text"
-      />
-    </div>
-  </div>
-  <div
-    className="sc-evnJpU iVDOLJ"
-    dir="ltr"
-    orientation="horizontal"
-  >
-    <div
-      className="sc-dDaJoQ khFMuk"
-    >
-      <div
-        className="sc-hhICeM fOxxeU"
-      >
-        <input
-          className="sc-eZkcaX cSPEhM"
-          dir="ltr"
-          placeholder="Country"
-          type="text"
-        />
-        <label
-          className="sc-eqKtKx aGCUy"
-        />
-      </div>
-    </div>
-    <div
-      className="sc-dDaJoQ kGGCnw"
-    >
-      <div
-        className="sc-hhICeM fOxxeU"
-      >
-        <input
-          className="sc-eZkcaX kZDcrE"
-          dir="ltr"
-          placeholder="Phone"
-          type="text"
-        />
-        <label
-          className="sc-eqKtKx aGCUy"
-        />
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`TextInputGroup renders vertical 1`] = `
+exports[`TextInputGroup in Dark Theme renders Sizes 1`] = `
 <div
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-evnJpU iAQxqz"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
-    orientation="vertical"
   >
     <div
-      className="sc-dDaJoQ gGyfOk"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
       <input
-        className="sc-eZkcaX jKiXwo"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
         dir="ltr"
         placeholder="Country"
         type="text"
       />
     </div>
     <div
-      className="sc-dDaJoQ gnMcrM"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
     >
       <input
-        className="sc-eZkcaX jVuqw"
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
         dir="ltr"
         placeholder="Phone"
         type="text"
@@ -1319,42 +130,806 @@ exports[`TextInputGroup renders vertical 1`] = `
     </div>
   </div>
   <div
-    className="sc-evnJpU doSUFe"
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
     dir="ltr"
-    orientation="vertical"
   >
     <div
-      className="sc-dDaJoQ gGyfOk"
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="ltr"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="sc-hhICeM fOxxeU"
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
       >
         <input
-          className="sc-eZkcaX SsorE"
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
           dir="ltr"
           placeholder="Country"
           type="text"
         />
         <label
-          className="sc-eqKtKx aGCUy"
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
         />
       </div>
     </div>
     <div
-      className="sc-dDaJoQ gnMcrM"
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
     >
       <div
-        className="sc-hhICeM fOxxeU"
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
       >
         <input
-          className="sc-eZkcaX boWljU"
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
           dir="ltr"
           placeholder="Phone"
           type="text"
         />
         <label
-          className="sc-eqKtKx aGCUy"
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
         />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in Dark Theme renders Types 1`] = `
+<div
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+  dir="ltr"
+>
+  <div
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+  >
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+      dir="ltr"
+      placeholder="Email"
+      type="email"
+    />
+  </div>
+  <div
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        dir="ltr"
+        placeholder="Password"
+        type="password"
+      />
+      <div
+        className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer rtl:left-4 ltr:right-4"
+        onClick={[Function]}
+        role="alert"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in Dark Theme renders Vertical 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="ltr"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-bl-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-bbb-hidden"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-tr-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-tbb-hidden"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="ltr"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    >
+      <div
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-bl-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-bbb-hidden"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        />
+      </div>
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    >
+      <div
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tl-none rounded-tr-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-tbb-hidden"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in Light Theme renders AccessValues 1`] = `
+<div
+  className="flex flex-col justify-around items-center w-full gap-2"
+>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="ltr"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+  >
+    Country: 
+    Estonia
+  </div>
+  <div
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+  >
+    Phone: 
+    +372 45678901
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in Light Theme renders Default 1`] = `
+<div
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+  dir="ltr"
+>
+  <div
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+  >
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+      dir="ltr"
+      placeholder="Country"
+      type="text"
+    />
+  </div>
+  <div
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+  >
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+      dir="ltr"
+      placeholder="Phone"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in Light Theme renders Rtl 1`] = `
+<div
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+  dir="rtl"
+>
+  <div
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+  >
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+      dir="rtl"
+      placeholder="Country"
+      type="text"
+    />
+  </div>
+  <div
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+  >
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+      dir="rtl"
+      placeholder="Phone"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in Light Theme renders Sizes 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="ltr"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="ltr"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="ltr"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    >
+      <div
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        />
+      </div>
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    >
+      <div
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in Light Theme renders Types 1`] = `
+<div
+  className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+  dir="ltr"
+>
+  <div
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+  >
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+      dir="ltr"
+      placeholder="Email"
+      type="email"
+    />
+  </div>
+  <div
+    className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        dir="ltr"
+        placeholder="Password"
+        type="password"
+      />
+      <div
+        className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer rtl:left-4 ltr:right-4"
+        onClick={[Function]}
+        role="alert"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in Light Theme renders Vertical 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="ltr"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-bl-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-bbb-hidden"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-tr-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-tbb-hidden"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="ltr"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    >
+      <div
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-bl-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-bbb-hidden"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        />
+      </div>
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+    >
+      <div
+        className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tl-none rounded-tr-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-tbb-hidden"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in RTL renders AccessValues 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col justify-around items-center w-full gap-2"
+  >
+    <div
+      className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      dir="ltr"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+      </div>
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    >
+      Country: 
+      Estonia
+    </div>
+    <div
+      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    >
+      Phone: 
+      +372 45678901
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in RTL renders Default 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="ltr"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in RTL renders Rtl 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="rtl"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+        dir="rtl"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+        dir="rtl"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in RTL renders Sizes 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      dir="ltr"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+      </div>
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      dir="ltr"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+      </div>
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      dir="ltr"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+            dir="ltr"
+            placeholder="Country"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          />
+        </div>
+      </div>
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+            dir="ltr"
+            placeholder="Phone"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in RTL renders Types 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex border-none shadow-input relative h-fit flex-row bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+    dir="ltr"
+  >
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tr-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-rsb-hidden"
+        dir="ltr"
+        placeholder="Email"
+        type="email"
+      />
+    </div>
+    <div
+      className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-xs"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-bl-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-lsb-hidden"
+          dir="ltr"
+          placeholder="Password"
+          type="password"
+        />
+        <div
+          className="text-moon-14 text-bulma absolute top-2/4 mt-[-0.75rem] z-[3] underline cursor-pointer rtl:left-4 ltr:right-4"
+          onClick={[Function]}
+          role="alert"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup in RTL renders Vertical 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      dir="ltr"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-bl-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-bbb-hidden"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+      </div>
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared rounded-tl-none rounded-tr-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-tbb-hidden"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+      </div>
+    </div>
+    <div
+      className="flex border-none shadow-input relative h-fit flex-col bg-gohan rounded-moon-i-md after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
+      dir="ltr"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-bl-none rounded-br-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-bbb-hidden"
+            dir="ltr"
+            placeholder="Country"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          />
+        </div>
+      </div>
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared rounded-tl-none rounded-tr-none invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err input-tbb-hidden"
+            dir="ltr"
+            placeholder="Phone"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          />
+        </div>
       </div>
     </div>
   </div>

@@ -3,17 +3,17 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import SingleLineItem from '../../public/examples/listItem/SingleLineItem';
-import SingleLineItemIcon from '../../public/examples/listItem/SingleLineItemIcon';
-import SingleLineItemSize from '../../public/examples/listItem/SingleLineItemSize';
-import TwoLineItems from '../../public/examples/listItem/TwoLineItems';
-import TwoLineItemsCheckbox from '../../public/examples/listItem/TwoLineItemsCheckbox';
-import TwoLineItemsIcon from '../../public/examples/listItem/TwoLineItemsIcon';
-import TwoLineItemsSize from '../../public/examples/listItem/TwoLineItemsSize';
+import SingleLineItem from '../../public/styledExamples/listItem/SingleLineItem';
+import SingleLineItemIcon from '../../public/styledExamples/listItem/SingleLineItemIcon';
+import SingleLineItemSize from '../../public/styledExamples/listItem/SingleLineItemSize';
+import TwoLineItems from '../../public/styledExamples/listItem/TwoLineItems';
+import TwoLineItemsCheckbox from '../../public/styledExamples/listItem/TwoLineItemsCheckbox';
+import TwoLineItemsIcon from '../../public/styledExamples/listItem/TwoLineItemsIcon';
+import TwoLineItemsSize from '../../public/styledExamples/listItem/TwoLineItemsSize';
 import useExamples from '../../utils/useExamples';
 
 export default function PageListItem() {
-  const examples = useExamples('listItem');
+  const examples = useExamples('listItem', 'styled');
   return (
     <>
       <ComponentPageDescription title="List item">

@@ -4,11 +4,11 @@ import CodeSnippet from '../../components/CodeSnippet';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/examples/popover/Default';
+import Default from '../../public/styledExamples/popover/Default';
 import useExamples from '../../utils/useExamples';
 
 const PagePopover = () => {
-  const examples = useExamples('popover');
+  const examples = useExamples('popover', 'styled');
   return (
     <>
       <ComponentPageDescription title="Popover">

@@ -3,14 +3,14 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import BigContent from '../../public/examples/modalTW/BigContent';
-import Default from '../../public/examples/modalTW/Default';
-import StyledContent from '../../public/examples/modalTW/StyledContent';
-import WithSelect from '../../public/examples/modalTW/WithSelect';
+import BigContent from '../../public/examples/modal/BigContent';
+import Default from '../../public/examples/modal/Default';
+import StyledContent from '../../public/examples/modal/StyledContent';
+import WithSelect from '../../public/examples/modal/WithSelect';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('modalTW');
+  const examples = useExamples('modal');
   return (
     <>
       <ComponentPageDescription title="Modal" isInProgress>

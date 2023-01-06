@@ -1,5 +1,5 @@
 import React from 'react';
-import { AuthCode } from '@heathmont/moon-core';
+import { AuthCode } from '@heathmont/moon-core-tw';
 
 const Example = () => (
   <AuthCode

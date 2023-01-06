@@ -2,18 +2,18 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Animations from '../../public/examples/buttonTW/Animations';
-import AsLink from '../../public/examples/buttonTW/AsLink';
-import Default from '../../public/examples/buttonTW/Default';
-import Disabled from '../../public/examples/buttonTW/Disabled';
-import FullWidth from '../../public/examples/buttonTW/FullWidth';
-import Icons from '../../public/examples/buttonTW/Icons';
-import Sizes from '../../public/examples/buttonTW/Sizes';
-import Variants from '../../public/examples/buttonTW/Variants';
+import Animations from '../../public/examples/button/Animations';
+import AsLink from '../../public/examples/button/AsLink';
+import Default from '../../public/examples/button/Default';
+import Disabled from '../../public/examples/button/Disabled';
+import FullWidth from '../../public/examples/button/FullWidth';
+import Icons from '../../public/examples/button/Icons';
+import Sizes from '../../public/examples/button/Sizes';
+import Variants from '../../public/examples/button/Variants';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('buttonTW');
+  const examples = useExamples('button');
   return (
     <>
       <ComponentPageDescription

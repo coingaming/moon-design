@@ -2,17 +2,17 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Customization from '../../public/examples/alertTW/Customization';
-import Default from '../../public/examples/alertTW/Default';
-import HandleClose from '../../public/examples/alertTW/HandleClose';
-import WithClose from '../../public/examples/alertTW/WithClose';
-import WithIcon from '../../public/examples/alertTW/WithIcon';
-import WithIconAndClose from '../../public/examples/alertTW/WithIconAndClose';
-import WithTitle from '../../public/examples/alertTW/WithTitle';
+import Customization from '../../public/examples/alert/Customization';
+import Default from '../../public/examples/alert/Default';
+import HandleClose from '../../public/examples/alert/HandleClose';
+import WithClose from '../../public/examples/alert/WithClose';
+import WithIcon from '../../public/examples/alert/WithIcon';
+import WithIconAndClose from '../../public/examples/alert/WithIconAndClose';
+import WithTitle from '../../public/examples/alert/WithTitle';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('alertTW');
+  const examples = useExamples('alert');
   return (
     <>
       <ComponentPageDescription

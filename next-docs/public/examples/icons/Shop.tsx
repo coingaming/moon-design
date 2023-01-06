@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   ShopBag,
   ShopBank,
@@ -10,7 +9,7 @@ import {
   ShopCryptoCoin,
   ShopWallet,
   ShopWirelessPay,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -19,7 +18,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

@@ -1,0 +1,148 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox renders Checked 1`] = `
+<label
+  className="sc-jnWwQn dTEycW"
+>
+  <input
+    checked={true}
+    className="sc-DJmSI knOmFg"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <div
+    className="sc-ewgOdx gsVWQl"
+  >
+    <span
+      className="sc-bQRcPC kesCjG"
+    >
+      <div
+        checked={true}
+        className="sc-fJoEar bxdTOd"
+      />
+    </span>
+    <p
+      className="sc-hZiMVj iUhvAi"
+      size={14}
+    >
+      Checkbox with checked state by default
+    </p>
+  </div>
+</label>
+`;
+
+exports[`Checkbox renders Disabled 1`] = `
+<label
+  className="sc-jnWwQn dTEycW"
+>
+  <input
+    className="sc-DJmSI knOmFg"
+    disabled={true}
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <div
+    className="sc-ewgOdx gsVWQl"
+  >
+    <span
+      className="sc-bQRcPC kesCjG"
+    >
+      <div
+        checked={false}
+        className="sc-fJoEar iyEIfo"
+      />
+    </span>
+    <p
+      className="sc-hZiMVj iUhvAi"
+      size={14}
+    >
+      Disabled Checkbox
+    </p>
+  </div>
+</label>
+`;
+
+exports[`Checkbox renders No label 1`] = `
+<label
+  className="sc-jnWwQn dTEycW"
+>
+  <input
+    className="sc-DJmSI knOmFg"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <div
+    className="sc-ewgOdx gsVWQl"
+  >
+    <span
+      className="sc-bQRcPC kesCjG"
+    >
+      <div
+        checked={false}
+        className="sc-fJoEar iyEIfo"
+      />
+    </span>
+  </div>
+</label>
+`;
+
+exports[`Checkbox renders Read only 1`] = `
+<label
+  className="sc-jnWwQn dTEycW"
+>
+  <input
+    className="sc-DJmSI knOmFg"
+    onClick={[Function]}
+    readOnly={true}
+    type="checkbox"
+  />
+  <div
+    className="sc-ewgOdx gsVWQl"
+  >
+    <span
+      className="sc-bQRcPC kesCjG"
+    >
+      <div
+        checked={false}
+        className="sc-fJoEar iyEIfo"
+      />
+    </span>
+    <p
+      className="sc-hZiMVj iUhvAi"
+      size={14}
+    >
+      Readonly checkbox
+    </p>
+  </div>
+</label>
+`;
+
+exports[`Checkbox renders default 1`] = `
+<label
+  className="sc-jnWwQn dTEycW"
+>
+  <input
+    className="sc-DJmSI knOmFg"
+    onClick={[Function]}
+    type="checkbox"
+  />
+  <div
+    className="sc-ewgOdx gsVWQl"
+  >
+    <span
+      className="sc-bQRcPC kesCjG"
+    >
+      <div
+        checked={false}
+        className="sc-fJoEar iyEIfo"
+      />
+    </span>
+    <p
+      className="sc-hZiMVj iUhvAi"
+      size={14}
+    >
+      Default Checkbox
+    </p>
+  </div>
+</label>
+`;

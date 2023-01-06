@@ -3,19 +3,19 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import AsLink from '../../public/examples/menuItemTW/AsLink';
-import Checkbox from '../../public/examples/menuItemTW/Checkbox';
-import Default from '../../public/examples/menuItemTW/Default';
-import ExpandCollapse from '../../public/examples/menuItemTW/ExpandCollapse';
-import MultiLine from '../../public/examples/menuItemTW/MultiLine';
-import MultiTitle from '../../public/examples/menuItemTW/MultiTitle';
-import Radio from '../../public/examples/menuItemTW/Radio';
-import WithIcon from '../../public/examples/menuItemTW/WithIcon';
-import WithMeta from '../../public/examples/menuItemTW/WithMeta';
+import AsLink from '../../public/examples/menuItem/AsLink';
+import Checkbox from '../../public/examples/menuItem/Checkbox';
+import Default from '../../public/examples/menuItem/Default';
+import ExpandCollapse from '../../public/examples/menuItem/ExpandCollapse';
+import MultiLine from '../../public/examples/menuItem/MultiLine';
+import MultiTitle from '../../public/examples/menuItem/MultiTitle';
+import Radio from '../../public/examples/menuItem/Radio';
+import WithIcon from '../../public/examples/menuItem/WithIcon';
+import WithMeta from '../../public/examples/menuItem/WithMeta';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('menuItemTW');
+  const examples = useExamples('menuItem');
   return (
     <>
       <ComponentPageDescription title="MenuItem" isInProgress>

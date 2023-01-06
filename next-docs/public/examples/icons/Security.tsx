@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   SecurityBetIncurance,
   SecurityKey,
@@ -14,7 +13,7 @@ import {
   SecurityUnlock,
   SecurityVerified,
   SecurityVerifiedFace,
-} from '@heathmont/moon-icons';
+} from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
 interface Props {
@@ -23,7 +22,7 @@ interface Props {
     selectedIcons: string[];
   };
   props: {
-    fontSize: string;
+    className: string;
   };
 }
 

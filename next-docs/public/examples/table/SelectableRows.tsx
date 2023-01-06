@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table } from '@heathmont/moon-table';
+import { Table } from '@heathmont/moon-table-tw';
 
 const Example = () => {
   const columnsInitial = [
@@ -87,7 +87,7 @@ const Example = () => {
   );
 
   const columns = React.useMemo(() => columnsInitial, []);
-  const data = React.useMemo(() => makeData(40), []);
+  const data = React.useMemo(() => makeData(5), []);
 
   return (
     <Table

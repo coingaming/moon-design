@@ -3,16 +3,16 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/examples/tabsTW/Default';
-import DefaultPills from '../../public/examples/tabsTW/DefaultPills';
-import NoPanels from '../../public/examples/tabsTW/NoPanels';
-import Sizes from '../../public/examples/tabsTW/Sizes';
-import WithCustomStyles from '../../public/examples/tabsTW/WithCustomStyles';
-import WithHandler from '../../public/examples/tabsTW/WithHandler';
+import Default from '../../public/examples/tabs/Default';
+import DefaultPills from '../../public/examples/tabs/DefaultPills';
+import NoPanels from '../../public/examples/tabs/NoPanels';
+import Sizes from '../../public/examples/tabs/Sizes';
+import WithCustomStyles from '../../public/examples/tabs/WithCustomStyles';
+import WithHandler from '../../public/examples/tabs/WithHandler';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('tabsTW');
+  const examples = useExamples('tabs');
   return (
     <>
       <ComponentPageDescription title="Tabs" isInProgress>

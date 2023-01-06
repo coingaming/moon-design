@@ -2,19 +2,19 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Bg from '../../public/examples/textInputTW/Bg';
-import Default from '../../public/examples/textInputTW/Default';
-import Disabled from '../../public/examples/textInputTW/Disabled';
-import Error from '../../public/examples/textInputTW/Error';
-import Hint from '../../public/examples/textInputTW/Hint';
-import Readonly from '../../public/examples/textInputTW/Readonly';
-import Sizes from '../../public/examples/textInputTW/Sizes';
-import Types from '../../public/examples/textInputTW/Types';
-import WithoutLabel from '../../public/examples/textInputTW/WithoutLabel';
+import Bg from '../../public/examples/textInput/Bg';
+import Default from '../../public/examples/textInput/Default';
+import Disabled from '../../public/examples/textInput/Disabled';
+import Error from '../../public/examples/textInput/Error';
+import Hint from '../../public/examples/textInput/Hint';
+import Readonly from '../../public/examples/textInput/Readonly';
+import Sizes from '../../public/examples/textInput/Sizes';
+import Types from '../../public/examples/textInput/Types';
+import WithoutLabel from '../../public/examples/textInput/WithoutLabel';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('textInputTW');
+  const examples = useExamples('textInput');
   return (
     <>
       <ComponentPageDescription title="TextInput" isInProgress>

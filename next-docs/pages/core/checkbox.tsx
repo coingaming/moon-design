@@ -2,16 +2,16 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Checked from '../../public/examples/checkboxTW/Checked';
-import Customize from '../../public/examples/checkboxTW/Customize';
-import Default from '../../public/examples/checkboxTW/Default';
-import Disabled from '../../public/examples/checkboxTW/Disabled';
-import ReadOnly from '../../public/examples/checkboxTW/ReadOnly';
-import WithLabel from '../../public/examples/checkboxTW/WithLabel';
+import Checked from '../../public/examples/checkbox/Checked';
+import Customize from '../../public/examples/checkbox/Customize';
+import Default from '../../public/examples/checkbox/Default';
+import Disabled from '../../public/examples/checkbox/Disabled';
+import ReadOnly from '../../public/examples/checkbox/ReadOnly';
+import WithLabel from '../../public/examples/checkbox/WithLabel';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('checkboxTW');
+  const examples = useExamples('checkbox');
   return (
     <>
       <ComponentPageDescription

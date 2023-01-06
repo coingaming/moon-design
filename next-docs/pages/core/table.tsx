@@ -2,24 +2,24 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Calendar from '../../public/examples/tableTW/Calendar';
-import CellBorder from '../../public/examples/tableTW/CellBorder';
-import ClickableRows from '../../public/examples/tableTW/ClickableRows';
-import CustomColors from '../../public/examples/tableTW/CustomColors';
-import CustomContent from '../../public/examples/tableTW/CustomContent';
-import DeepTable from '../../public/examples/tableTW/DeepTable';
-import Default from '../../public/examples/tableTW/Default';
-import ExpandedRow from '../../public/examples/tableTW/ExpandedRow';
-import MiniMap from '../../public/examples/tableTW/MiniMap';
-import RowGaps from '../../public/examples/tableTW/RowGaps';
-import RowSizes from '../../public/examples/tableTW/RowSizes';
-import SelectableCheckboxes from '../../public/examples/tableTW/SelectableCheckboxes';
-import SelectableRows from '../../public/examples/tableTW/SelectableRows';
-import Sorting from '../../public/examples/tableTW/Sorting';
+import Calendar from '../../public/examples/table/Calendar';
+import CellBorder from '../../public/examples/table/CellBorder';
+import ClickableRows from '../../public/examples/table/ClickableRows';
+import CustomColors from '../../public/examples/table/CustomColors';
+import CustomContent from '../../public/examples/table/CustomContent';
+import DeepTable from '../../public/examples/table/DeepTable';
+import Default from '../../public/examples/table/Default';
+import ExpandedRow from '../../public/examples/table/ExpandedRow';
+import MiniMap from '../../public/examples/table/MiniMap';
+import RowGaps from '../../public/examples/table/RowGaps';
+import RowSizes from '../../public/examples/table/RowSizes';
+import SelectableCheckboxes from '../../public/examples/table/SelectableCheckboxes';
+import SelectableRows from '../../public/examples/table/SelectableRows';
+import Sorting from '../../public/examples/table/Sorting';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('tableTW');
+  const examples = useExamples('table');
   return (
     <>
       <ComponentPageDescription title="Table" isRtlSupport isInProgress>

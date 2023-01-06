@@ -1,23 +1,23 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import PropsTable from '../../../components/PropsTable';
-import Default from '../../../public/examples/select/singleSelect/Default';
-import DefaultValue from '../../../public/examples/select/singleSelect/DefaultValue';
-import Disabled from '../../../public/examples/select/singleSelect/Disabled';
-import Hint from '../../../public/examples/select/singleSelect/Hint';
-import InputSize from '../../../public/examples/select/singleSelect/InputSize';
-import Label from '../../../public/examples/select/singleSelect/Label';
-import OptionsAsList from '../../../public/examples/select/singleSelect/OptionsAsList';
-import OptionsAsList2 from '../../../public/examples/select/singleSelect/OptionsAsList2';
-import OptionsAsList3 from '../../../public/examples/select/singleSelect/OptionsAsList3';
-import Placeholders from '../../../public/examples/select/singleSelect/Placeholders';
-import Secondary from '../../../public/examples/select/singleSelect/Secondary';
-import Slot from '../../../public/examples/select/singleSelect/Slot';
-import Ssr from '../../../public/examples/select/singleSelect/Ssr';
+import Default from '../../../public/styledExamples/select/singleSelect/Default';
+import DefaultValue from '../../../public/styledExamples/select/singleSelect/DefaultValue';
+import Disabled from '../../../public/styledExamples/select/singleSelect/Disabled';
+import Hint from '../../../public/styledExamples/select/singleSelect/Hint';
+import InputSize from '../../../public/styledExamples/select/singleSelect/InputSize';
+import Label from '../../../public/styledExamples/select/singleSelect/Label';
+import OptionsAsList from '../../../public/styledExamples/select/singleSelect/OptionsAsList';
+import OptionsAsList2 from '../../../public/styledExamples/select/singleSelect/OptionsAsList2';
+import OptionsAsList3 from '../../../public/styledExamples/select/singleSelect/OptionsAsList3';
+import Placeholders from '../../../public/styledExamples/select/singleSelect/Placeholders';
+import Secondary from '../../../public/styledExamples/select/singleSelect/Secondary';
+import Slot from '../../../public/styledExamples/select/singleSelect/Slot';
+import Ssr from '../../../public/styledExamples/select/singleSelect/Ssr';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageSelectSingle() {
-  const examples = useExamples('select/singleSelect');
+  const examples = useExamples('select/singleSelect', 'styled');
 
   return (
     <>

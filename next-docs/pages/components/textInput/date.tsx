@@ -3,18 +3,18 @@ import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
-import DateBgColor from '../../../public/examples/textInput/date/DateBgColor';
-import DateDisabled from '../../../public/examples/textInput/date/DateDisabled';
-import DateError from '../../../public/examples/textInput/date/DateError';
-import DateReadonly from '../../../public/examples/textInput/date/DateReadonly';
-import DateWithHint from '../../../public/examples/textInput/date/DateWithHint';
-import DateWithLabel from '../../../public/examples/textInput/date/DateWithLabel';
-import DateWithLabelRtl from '../../../public/examples/textInput/date/DateWithLabelRtl';
-import DateWithoutLabel from '../../../public/examples/textInput/date/DateWithoutLabel';
+import DateBgColor from '../../../public/styledExamples/textInput/date/DateBgColor';
+import DateDisabled from '../../../public/styledExamples/textInput/date/DateDisabled';
+import DateError from '../../../public/styledExamples/textInput/date/DateError';
+import DateReadonly from '../../../public/styledExamples/textInput/date/DateReadonly';
+import DateWithHint from '../../../public/styledExamples/textInput/date/DateWithHint';
+import DateWithLabel from '../../../public/styledExamples/textInput/date/DateWithLabel';
+import DateWithLabelRtl from '../../../public/styledExamples/textInput/date/DateWithLabelRtl';
+import DateWithoutLabel from '../../../public/styledExamples/textInput/date/DateWithoutLabel';
 import useExamples from '../../../utils/useExamples';
 
 export default function PageDateInput() {
-  const examples = useExamples('textInput/date');
+  const examples = useExamples('textInput/date', 'styled');
   return (
     <>
       <ComponentPageDescription title="Date">

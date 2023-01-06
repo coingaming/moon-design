@@ -1,0 +1,1362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextInputGroup renders 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-center w-full gap-2"
+>
+  <div
+    className="sc-evnJpU iVDOLJ"
+    dir="ltr"
+    orientation="horizontal"
+  >
+    <div
+      className="sc-dDaJoQ khFMuk"
+    >
+      <div
+        className="sc-hhICeM fOxxeU"
+      >
+        <input
+          className="sc-eZkcaX cSPEhM"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+        <label
+          className="sc-eqKtKx aGCUy"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-dDaJoQ kGGCnw"
+    >
+      <div
+        className="sc-hhICeM fOxxeU"
+      >
+        <input
+          className="sc-eZkcaX kZDcrE"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+        <label
+          className="sc-eqKtKx aGCUy"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-evnJpU doSUFe"
+    dir="ltr"
+    orientation="vertical"
+  >
+    <div
+      className="sc-dDaJoQ gGyfOk"
+    >
+      <div
+        className="sc-hhICeM fOxxeU"
+      >
+        <input
+          className="sc-eZkcaX SsorE"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+        <label
+          className="sc-eqKtKx aGCUy"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-dDaJoQ gnMcrM"
+    >
+      <div
+        className="sc-hhICeM fOxxeU"
+      >
+        <input
+          className="sc-eZkcaX boWljU"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+        <label
+          className="sc-eqKtKx aGCUy"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup renders RTL 1`] = `
+<div
+  className="sc-evnJpU iVDOLJ"
+  dir="rtl"
+  orientation="horizontal"
+>
+  <div
+    className="sc-dDaJoQ kGGCnw"
+  >
+    <div
+      className="sc-hhICeM fOxxeU"
+    >
+      <input
+        className="sc-eZkcaX kZDcrE"
+        dir="rtl"
+        placeholder="Country"
+        type="text"
+      />
+      <label
+        className="sc-eqKtKx uXXXN"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-dDaJoQ khFMuk"
+  >
+    <div
+      className="sc-hhICeM fOxxeU"
+    >
+      <input
+        className="sc-eZkcaX cSPEhM"
+        dir="rtl"
+        placeholder="Phone"
+        type="text"
+      />
+      <label
+        className="sc-eqKtKx uXXXN"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup renders and allows access to DOM and values for text field 1`] = `
+<div
+  className="flex flex-col justify-around items-center w-full gap-2"
+>
+  <div
+    className="sc-evnJpU iVDOLJ"
+    dir="ltr"
+    orientation="horizontal"
+  >
+    <div
+      className="sc-dDaJoQ khFMuk"
+    >
+      <div
+        className="sc-hhICeM fOxxeU"
+      >
+        <input
+          className="sc-eZkcaX cSPEhM"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+        <label
+          className="sc-eqKtKx aGCUy"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-dDaJoQ kGGCnw"
+    >
+      <div
+        className="sc-hhICeM fOxxeU"
+      >
+        <input
+          className="sc-eZkcaX kZDcrE"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+        <label
+          className="sc-eqKtKx aGCUy"
+        />
+      </div>
+    </div>
+  </div>
+  <span
+    className="sc-bgA-dc bxSOEq"
+    size="xsmall"
+  >
+    Country: 
+    Estonia
+  </span>
+  <span
+    className="sc-bgA-dc bxSOEq"
+    size="xsmall"
+  >
+    Phone: 
+    +372 45678901
+  </span>
+</div>
+`;
+
+exports[`TextInputGroup renders and allows event listeners for the select fields 1`] = `
+<div
+  className="flex flex-col justify-around items-center w-full gap-2"
+>
+  <div
+    className="sc-iCxJSg knyxdN"
+    dir="ltr"
+    orientation="horizontal"
+  >
+    <div
+      className="sc-egFLrJ VkFNq"
+    >
+      <div
+        className=" css-1tsy5a7-container"
+        onKeyDown={[Function]}
+      >
+        <span
+          className="css-1f43avz-a11yText-A11yText"
+          id="react-select-10-live-region"
+        />
+        <span
+          aria-atomic="false"
+          aria-live="polite"
+          aria-relevant="additions text"
+          className="css-1f43avz-a11yText-A11yText"
+        />
+        <div
+          className=" css-18kgzmi-control"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+        >
+          <div
+            className=" css-1f3h6sw-ValueContainer"
+          >
+            <div
+              className="sc-bGpPMD bObwJT"
+            />
+            <div
+              className="sc-iSyBji iXAXqI"
+            >
+              <div
+                className=" css-wuj7bk-placeholder"
+                id="react-select-10-placeholder"
+              >
+                <div
+                  className="sc-hJbaOH cMfEVc"
+                >
+                  Country
+                </div>
+              </div>
+              <input
+                aria-autocomplete="list"
+                aria-describedby="react-select-10-placeholder"
+                aria-expanded={false}
+                aria-haspopup={true}
+                aria-readonly={true}
+                className="css-mohuvp-dummyInput-DummyInput"
+                disabled={false}
+                id="react-select-10-input"
+                inputMode="none"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                role="combobox"
+                tabIndex={0}
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            className=" css-1hb7zxy-IndicatorsContainer"
+          >
+            <svg
+              className="sc-jywedQ"
+              fill="none"
+              fontSize="1.5rem"
+              height="1em"
+              style={
+                Object {
+                  "marginInlineEnd": "0.5rem",
+                }
+              }
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="sc-gchOna bVCBle"
+    >
+      <div
+        className=" css-1tsy5a7-container"
+        onKeyDown={[Function]}
+      >
+        <span
+          className="css-1f43avz-a11yText-A11yText"
+          id="react-select-11-live-region"
+        />
+        <span
+          aria-atomic="false"
+          aria-live="polite"
+          aria-relevant="additions text"
+          className="css-1f43avz-a11yText-A11yText"
+        />
+        <div
+          className=" css-91yr6k-control"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+        >
+          <div
+            className=" css-1f3h6sw-ValueContainer"
+          >
+            <div
+              className="sc-bGpPMD bObwJT"
+            />
+            <div
+              className="sc-iSyBji iXAXqI"
+            >
+              <div
+                className=" css-wuj7bk-placeholder"
+                id="react-select-11-placeholder"
+              >
+                <div
+                  className="sc-hJbaOH cMfEVc"
+                >
+                  Vehicle
+                </div>
+              </div>
+              <input
+                aria-autocomplete="list"
+                aria-describedby="react-select-11-placeholder"
+                aria-expanded={false}
+                aria-haspopup={true}
+                aria-readonly={true}
+                className="css-mohuvp-dummyInput-DummyInput"
+                disabled={false}
+                id="react-select-11-input"
+                inputMode="none"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                role="combobox"
+                tabIndex={0}
+                value=""
+              />
+            </div>
+          </div>
+          <div
+            className=" css-1hb7zxy-IndicatorsContainer"
+          >
+            <svg
+              className="sc-jywedQ"
+              fill="none"
+              fontSize="1.5rem"
+              height="1em"
+              style={
+                Object {
+                  "marginInlineEnd": "0.5rem",
+                }
+              }
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <span
+    className="sc-bgA-dc bxSOEq"
+    size="xsmall"
+  >
+    Country: 
+  </span>
+  <span
+    className="sc-bgA-dc bxSOEq"
+    size="xsmall"
+  >
+    Vehicle: 
+  </span>
+</div>
+`;
+
+exports[`TextInputGroup renders different types 1`] = `
+<div
+  className="sc-evnJpU iVDOLJ"
+  dir="ltr"
+  orientation="horizontal"
+>
+  <div
+    className="sc-dDaJoQ khFMuk"
+  >
+    <div
+      className="sc-hhICeM fOxxeU"
+    >
+      <input
+        className="sc-eZkcaX cSPEhM"
+        dir="ltr"
+        placeholder="Email"
+        type="email"
+      />
+      <label
+        className="sc-eqKtKx aGCUy"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-dDaJoQ kGGCnw"
+  >
+    <div
+      className="sc-hhICeM fOxxeU"
+    >
+      <input
+        className="sc-eZkcaX epngZk"
+        dir="ltr"
+        placeholder="Password"
+        type="password"
+      />
+      <label
+        className="sc-eqKtKx aGCUy"
+      />
+      <div
+        className="sc-futMm ktwkcM"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup renders multi select 1`] = `
+<div
+  className="sc-iCxJSg knyxdN"
+  dir="ltr"
+  orientation="horizontal"
+>
+  <div
+    className="sc-egFLrJ VkFNq"
+  >
+    <div
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
+    >
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-4-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-18kgzmi-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className=" css-112g2nh-ValueContainer"
+        >
+          <div
+            className="sc-bGpPMD bObwJT"
+          >
+            xLarge
+          </div>
+          <div
+            className="sc-kzriHz beWVnq"
+          >
+            <div
+              className=" css-jexdti-placeholder"
+              id="react-select-4-placeholder"
+            >
+              <div
+                className="sc-hJbaOH cMfEVc"
+              >
+                Choose an option
+              </div>
+            </div>
+            <input
+              aria-autocomplete="list"
+              aria-describedby="react-select-4-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-4-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-jywedQ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
+              }
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gchOna bVCBle"
+  >
+    <div
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
+    >
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-5-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-91yr6k-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className=" css-112g2nh-ValueContainer"
+        >
+          <div
+            className="sc-bGpPMD bObwJT"
+          >
+            xLarge
+          </div>
+          <div
+            className="sc-kzriHz beWVnq"
+          >
+            <div
+              className=" css-jexdti-placeholder"
+              id="react-select-5-placeholder"
+            >
+              <div
+                className="sc-hJbaOH cMfEVc"
+              >
+                Choose an option
+              </div>
+            </div>
+            <input
+              aria-autocomplete="list"
+              aria-describedby="react-select-5-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-5-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-jywedQ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
+              }
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup renders single select 1`] = `
+<div
+  className="sc-iCxJSg knyxdN"
+  dir="ltr"
+  orientation="horizontal"
+>
+  <div
+    className="sc-egFLrJ VkFNq"
+  >
+    <div
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
+    >
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-2-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-18kgzmi-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className=" css-1f3h6sw-ValueContainer"
+        >
+          <div
+            className="sc-bGpPMD bObwJT"
+          />
+          <div
+            className="sc-iSyBji iXAXqI"
+          >
+            <div
+              className=" css-wuj7bk-placeholder"
+              id="react-select-2-placeholder"
+            >
+              <div
+                className="sc-hJbaOH cMfEVc"
+              >
+                Choose an option
+              </div>
+            </div>
+            <input
+              aria-autocomplete="list"
+              aria-describedby="react-select-2-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-2-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-jywedQ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
+              }
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gchOna bVCBle"
+  >
+    <div
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
+    >
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-3-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-91yr6k-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className=" css-1f3h6sw-ValueContainer"
+        >
+          <div
+            className="sc-bGpPMD bObwJT"
+          />
+          <div
+            className="sc-iSyBji iXAXqI"
+          >
+            <div
+              className=" css-wuj7bk-placeholder"
+              id="react-select-3-placeholder"
+            >
+              <div
+                className="sc-hJbaOH cMfEVc"
+              >
+                Choose an option
+              </div>
+            </div>
+            <input
+              aria-autocomplete="list"
+              aria-describedby="react-select-3-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-3-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-jywedQ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
+              }
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup renders single select RTL 1`] = `
+<div
+  className="sc-iCxJSg knyxdN"
+  dir="rtl"
+  orientation="horizontal"
+>
+  <div
+    className="sc-egFLrJ VkFNq"
+  >
+    <div
+      className=" css-9ebu9r-container"
+      onKeyDown={[Function]}
+    >
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-8-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-91yr6k-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className=" css-1f3h6sw-ValueContainer"
+        >
+          <div
+            className="sc-bGpPMD bObwJT"
+          />
+          <div
+            className="sc-iSyBji iXAXqI"
+          >
+            <div
+              className=" css-wuj7bk-placeholder"
+              id="react-select-8-placeholder"
+            >
+              <div
+                className="sc-hJbaOH cMfEVc"
+              >
+                Choose an option
+              </div>
+            </div>
+            <input
+              aria-autocomplete="list"
+              aria-describedby="react-select-8-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-8-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-jywedQ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
+              }
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gchOna bVCBle"
+  >
+    <div
+      className=" css-9ebu9r-container"
+      onKeyDown={[Function]}
+    >
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-9-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-18kgzmi-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className=" css-1f3h6sw-ValueContainer"
+        >
+          <div
+            className="sc-bGpPMD bObwJT"
+          >
+            xLarge
+          </div>
+          <div
+            className="sc-iSyBji iXAXqI"
+          >
+            <div
+              className=" css-wuj7bk-placeholder"
+              id="react-select-9-placeholder"
+            >
+              <div
+                className="sc-hJbaOH cMfEVc"
+              >
+                Choose an option
+              </div>
+            </div>
+            <input
+              aria-autocomplete="list"
+              aria-describedby="react-select-9-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-9-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-jywedQ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
+              }
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup renders single select vertical 1`] = `
+<div
+  className="sc-iCxJSg YzOvG"
+  dir="ltr"
+  orientation="vertical"
+>
+  <div
+    className="sc-egFLrJ VkFNq"
+  >
+    <div
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
+    >
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-6-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-1lbmnj-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className=" css-1f3h6sw-ValueContainer"
+        >
+          <div
+            className="sc-bGpPMD bObwJT"
+          >
+            xLarge
+          </div>
+          <div
+            className="sc-iSyBji iXAXqI"
+          >
+            <div
+              className=" css-wuj7bk-placeholder"
+              id="react-select-6-placeholder"
+            >
+              <div
+                className="sc-hJbaOH cMfEVc"
+              >
+                Choose an option
+              </div>
+            </div>
+            <input
+              aria-autocomplete="list"
+              aria-describedby="react-select-6-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-6-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-jywedQ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
+              }
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="sc-gchOna bVCBle"
+  >
+    <div
+      className=" css-1tsy5a7-container"
+      onKeyDown={[Function]}
+    >
+      <span
+        className="css-1f43avz-a11yText-A11yText"
+        id="react-select-7-live-region"
+      />
+      <span
+        aria-atomic="false"
+        aria-live="polite"
+        aria-relevant="additions text"
+        className="css-1f43avz-a11yText-A11yText"
+      />
+      <div
+        className=" css-ouirde-control"
+        onMouseDown={[Function]}
+        onTouchEnd={[Function]}
+      >
+        <div
+          className=" css-1f3h6sw-ValueContainer"
+        >
+          <div
+            className="sc-bGpPMD bObwJT"
+          >
+            xLarge
+          </div>
+          <div
+            className="sc-iSyBji iXAXqI"
+          >
+            <div
+              className=" css-wuj7bk-placeholder"
+              id="react-select-7-placeholder"
+            >
+              <div
+                className="sc-hJbaOH cMfEVc"
+              >
+                Choose an option
+              </div>
+            </div>
+            <input
+              aria-autocomplete="list"
+              aria-describedby="react-select-7-placeholder"
+              aria-expanded={false}
+              aria-haspopup={true}
+              aria-readonly={true}
+              className="css-mohuvp-dummyInput-DummyInput"
+              disabled={false}
+              id="react-select-7-input"
+              inputMode="none"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              role="combobox"
+              tabIndex={0}
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className=" css-1hb7zxy-IndicatorsContainer"
+        >
+          <svg
+            className="sc-jywedQ"
+            fill="none"
+            fontSize="1.5rem"
+            height="1em"
+            style={
+              Object {
+                "marginInlineEnd": "0.5rem",
+              }
+            }
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup renders sizes 1`] = `
+<div
+  className="flex flex-col justify-around items-center w-full gap-2"
+>
+  <div
+    className="sc-evnJpU bGLxDk"
+    dir="ltr"
+    orientation="horizontal"
+  >
+    <div
+      className="sc-dDaJoQ khFMuk"
+    >
+      <input
+        className="sc-eZkcaX dVtoOw"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-dDaJoQ kGGCnw"
+    >
+      <input
+        className="sc-eZkcaX kqKzXs"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-evnJpU bGLxDk"
+    dir="ltr"
+    orientation="horizontal"
+  >
+    <div
+      className="sc-dDaJoQ khFMuk"
+    >
+      <input
+        className="sc-eZkcaX ghTsdT"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-dDaJoQ kGGCnw"
+    >
+      <input
+        className="sc-eZkcaX bxJuez"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-evnJpU iVDOLJ"
+    dir="ltr"
+    orientation="horizontal"
+  >
+    <div
+      className="sc-dDaJoQ khFMuk"
+    >
+      <div
+        className="sc-hhICeM fOxxeU"
+      >
+        <input
+          className="sc-eZkcaX cSPEhM"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+        <label
+          className="sc-eqKtKx aGCUy"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-dDaJoQ kGGCnw"
+    >
+      <div
+        className="sc-hhICeM fOxxeU"
+      >
+        <input
+          className="sc-eZkcaX kZDcrE"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+        <label
+          className="sc-eqKtKx aGCUy"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInputGroup renders vertical 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="sc-evnJpU iAQxqz"
+    dir="ltr"
+    orientation="vertical"
+  >
+    <div
+      className="sc-dDaJoQ gGyfOk"
+    >
+      <input
+        className="sc-eZkcaX jKiXwo"
+        dir="ltr"
+        placeholder="Country"
+        type="text"
+      />
+    </div>
+    <div
+      className="sc-dDaJoQ gnMcrM"
+    >
+      <input
+        className="sc-eZkcaX jVuqw"
+        dir="ltr"
+        placeholder="Phone"
+        type="text"
+      />
+    </div>
+  </div>
+  <div
+    className="sc-evnJpU doSUFe"
+    dir="ltr"
+    orientation="vertical"
+  >
+    <div
+      className="sc-dDaJoQ gGyfOk"
+    >
+      <div
+        className="sc-hhICeM fOxxeU"
+      >
+        <input
+          className="sc-eZkcaX SsorE"
+          dir="ltr"
+          placeholder="Country"
+          type="text"
+        />
+        <label
+          className="sc-eqKtKx aGCUy"
+        />
+      </div>
+    </div>
+    <div
+      className="sc-dDaJoQ gnMcrM"
+    >
+      <div
+        className="sc-hhICeM fOxxeU"
+      >
+        <input
+          className="sc-eZkcaX boWljU"
+          dir="ltr"
+          placeholder="Phone"
+          type="text"
+        />
+        <label
+          className="sc-eqKtKx aGCUy"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -2,15 +2,15 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
-import Buttons from '../../public/examples/banner/Buttons';
-import Default from '../../public/examples/banner/Default';
-import HeaderIcon from '../../public/examples/banner/HeaderIcon';
-import Mobile from '../../public/examples/banner/Mobile';
-import Singleline from '../../public/examples/banner/Singleline';
+import Buttons from '../../public/styledExamples/banner/Buttons';
+import Default from '../../public/styledExamples/banner/Default';
+import HeaderIcon from '../../public/styledExamples/banner/HeaderIcon';
+import Mobile from '../../public/styledExamples/banner/Mobile';
+import Singleline from '../../public/styledExamples/banner/Singleline';
 import useExamples from '../../utils/useExamples';
 
 const PageBanner = () => {
-  const examples = useExamples('banner');
+  const examples = useExamples('banner', 'styled');
   return (
     <>
       <ComponentPageDescription title="Banner">

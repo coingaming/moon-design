@@ -1,0 +1,425 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button renders Full width property 1`] = `
+<button
+  className="sc-kSzVC leCAQT"
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  size="medium"
+>
+  Full width
+  <svg
+    className="sc-bTMaZy"
+    fill="none"
+    height="1em"
+    viewBox="0 0 32 32"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+      stroke="currentColor"
+    />
+    <path
+      d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+      stroke="currentColor"
+    />
+  </svg>
+  <div
+    className="sc-jNxMLV lesvys"
+  />
+</button>
+`;
+
+exports[`Button renders different animations 1`] = `
+Array [
+  <button
+    className="sc-kSzVC kdrggf"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <div
+      className="sc-dpRLZP bbClry"
+    >
+      <div
+        className="sc-bgnbwU hukGBL"
+      >
+        <div
+          className="sc-ctuRtO jMCLfn"
+          color="currentColor"
+          size="xsmall"
+        >
+          <div />
+          <div />
+          <div />
+          <div />
+        </div>
+      </div>
+      <div
+        className="sc-ccJWcV dkTibN"
+      >
+        Progress
+      </div>
+    </div>
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC kdrggf"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <div
+      className="sc-dpRLZP bbClry"
+    >
+      <div
+        className="sc-bgnbwU hukGBL"
+      >
+        <svg
+          className="sc-jmNpzm"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7 14.941L13.667 22 25 10"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </div>
+      <div
+        className="sc-ccJWcV dkTibN"
+      >
+        Success
+      </div>
+    </div>
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC iJjfqZ"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Error
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC cwmsEH"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Pulse
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+]
+`;
+
+exports[`Button renders different icons 1`] = `
+Array [
+  <button
+    className="sc-kSzVC hFHfaw"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <svg
+      className="sc-bTMaZy"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    IconLeft
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC hFHfaw"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <svg
+      className="sc-bTMaZy"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    IconLeft
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC eoCOuw"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    IconRight
+    <svg
+      className="sc-bTMaZy"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC eoCOuw"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    IconRight
+    <svg
+      className="sc-bTMaZy"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC kFvvzY"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <svg
+      className="sc-bTMaZy"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC kFvvzY"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    <svg
+      className="sc-bTMaZy"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M16 6.5c1.21 0 2.192.982 2.192 2.192 0 .2.13.374.317.442.194.071.385.15.57.237.182.084.397.052.538-.089a2.192 2.192 0 113.1 3.1.475.475 0 00-.088.538c.087.186.166.377.237.57a.475.475 0 00.442.318 2.192 2.192 0 110 4.384c-.2 0-.374.13-.442.317-.071.194-.15.385-.237.57a.475.475 0 00.088.538 2.192 2.192 0 11-3.1 3.1.475.475 0 00-.537-.088 7.287 7.287 0 01-.57.237.475.475 0 00-.318.442 2.192 2.192 0 11-4.384 0c0-.2-.13-.374-.317-.442a7.269 7.269 0 01-.57-.237.475.475 0 00-.538.088 2.192 2.192 0 11-3.1-3.1.475.475 0 00.088-.537 7.279 7.279 0 01-.237-.57.475.475 0 00-.442-.318 2.192 2.192 0 110-4.384c.2 0 .374-.13.442-.317a7.26 7.26 0 01.237-.57.475.475 0 00-.089-.538 2.192 2.192 0 013.1-3.1c.142.14.357.172.538.088.186-.087.377-.166.57-.237a.475.475 0 00.318-.442c0-1.21.981-2.192 2.192-2.192z"
+        stroke="currentColor"
+      />
+      <path
+        d="M20.222 16a4.222 4.222 0 11-8.444 0 4.222 4.222 0 018.444 0z"
+        stroke="currentColor"
+      />
+    </svg>
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+]
+`;
+
+exports[`Button renders different sizes 1`] = `
+Array [
+  <button
+    className="sc-kSzVC coBRnc"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="xsmall"
+  >
+    xSmall
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC imKwpK"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="small"
+  >
+    Small
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC kdrggf"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Medium is default
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC fhdsRS"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="large"
+  >
+    Large
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC kCSgXq"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="xlarge"
+  >
+    xLarge
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+]
+`;
+
+exports[`Button renders different variants 1`] = `
+Array [
+  <button
+    className="sc-kSzVC kdrggf"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Primary is default
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC bACYNk"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Secondary
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC dnsacS"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Tertiary
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+  <button
+    className="sc-kSzVC beWSOj"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    size="medium"
+  >
+    Ghost
+    <div
+      className="sc-jNxMLV lesvys"
+    />
+  </button>,
+]
+`;
+
+exports[`Button renders disabled state 1`] = `
+<button
+  className="sc-kSzVC gAYONL"
+  disabled={true}
+  onMouseEnter={[Function]}
+  onMouseLeave={[Function]}
+  size="medium"
+>
+  Disabled
+  <div
+    className="sc-jNxMLV lesvys"
+  />
+</button>
+`;

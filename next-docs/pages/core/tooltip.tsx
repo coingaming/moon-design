@@ -3,13 +3,13 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import ArrowPositions from '../../public/examples/tooltipTW/ArrowPositions';
-import Customization from '../../public/examples/tooltipTW/Customization';
-import Default from '../../public/examples/tooltipTW/Default';
+import ArrowPositions from '../../public/examples/tooltip/ArrowPositions';
+import Customization from '../../public/examples/tooltip/Customization';
+import Default from '../../public/examples/tooltip/Default';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('tooltipTW');
+  const examples = useExamples('tooltip');
   return (
     <>
       <ComponentPageDescription title="Tooltip" isInProgress>

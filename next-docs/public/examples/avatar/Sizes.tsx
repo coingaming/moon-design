@@ -1,30 +1,30 @@
-import { Avatar } from '@heathmont/moon-core';
+import { Avatar } from '@heathmont/moon-core-tw';
 
 const Example = () => (
   <>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Avatar size="xsmall" />
-      <Avatar size="small" />
+      <Avatar size="xs" />
+      <Avatar size="sm" />
       <Avatar />
-      <Avatar size="large" />
-      <Avatar size="xlarge" />
-      <Avatar size="twoxlarge" />
+      <Avatar size="lg" />
+      <Avatar size="xl" />
+      <Avatar size="2xl" />
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Avatar name="JS" size="xsmall" />
-      <Avatar name="JS" size="small" />
-      <Avatar name="JS" />
-      <Avatar name="JS" size="large" />
-      <Avatar name="JS" size="xlarge" />
-      <Avatar name="JS" size="twoxlarge" />
+      <Avatar name="xs" size="xs" />
+      <Avatar name="sm" size="sm" />
+      <Avatar name="md" />
+      <Avatar name="lg" size="lg" />
+      <Avatar name="xl" size="xl" />
+      <Avatar name="2xl" size="2xl" />
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="xsmall" />
-      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="small" />
+      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="xs" />
+      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="sm" />
       <Avatar imageUrl="https://www.fillmurray.com/200/200" />
-      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="large" />
-      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="xlarge" />
-      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="twoxlarge" />
+      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="lg" />
+      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="xl" />
+      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="2xl" />
     </div>
   </>
 );

@@ -1,8 +1,8 @@
 import React from 'react';
-import { AuthCode } from '@heathmont/moon-core';
+import { AuthCode } from '@heathmont/moon-core-tw';
 
 const Example = () => (
-  <div className="flex flex-col justify-around items-stretch w-full gap-2">
+  <div className="flex flex-col items-stretch justify-around w-full gap-2">
     <AuthCode
       length={6}
       stretch={true}
