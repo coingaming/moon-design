@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.17.0
+
+### Minor Changes
+
+- Add Textarea and Alert
+
 ## 9.16.1
 
 ### Patch Changes

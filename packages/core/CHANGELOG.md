@@ -1,5 +1,20 @@
 # Change Log
 
+## 9.17.0
+
+### Minor Changes
+
+- Add Textarea and Alert
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.17.0
+  - @heathmont/moon-components@9.17.0
+  - @heathmont/moon-icons@9.17.0
+  - @heathmont/moon-themes@9.17.0
+  - @heathmont/moon-utils@9.17.0
+
 ## 9.16.1
 
 ### Patch Changes
