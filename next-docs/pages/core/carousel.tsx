@@ -3,11 +3,11 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import CustomizedArrow from '../../public/examples/carouselTW/CustomizedArrow';
-import Default from '../../public/examples/carouselTW/Default';
-import Indicators from '../../public/examples/carouselTW/Indicators';
-import Spaces from '../../public/examples/carouselTW/Spaces';
-import VisibleIndex from '../../public/examples/carouselTW/VisibleIndex';
+import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
+import Default from '../../public/examples/carousel/Default';
+import Indicators from '../../public/examples/carousel/Indicators';
+import Spaces from '../../public/examples/carousel/Spaces';
+import VisibleIndex from '../../public/examples/carousel/VisibleIndex';
 import useExamples from '../../utils/useExamples';
 
 export default function PageCarousel() {
@@ -80,11 +80,13 @@ export default function PageCarousel() {
             default: '-',
             description: 'Index of selected item',
           },
-        ]}
-      />
-      <PropsTable
-        title="Carousel render props"
-        data={[
+          {
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
           {
             name: 'scrollLeftToStep',
             type: '() => void',
