@@ -3,22 +3,23 @@ import { useFormContext, useFormItemContext } from '../form/Form';
 import mergeClassnames from '../utils/mergeClassnames';
 import getSizeStyles from './private/getSizeStyles';
 
-type InputProps = {
+interface InputProps
+  extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'size'> {
   className?: string;
   type?: React.HTMLInputTypeAttribute;
-  inputSize?: 'sm' | 'md' | 'lg';
+  size?: 'sm' | 'md' | 'lg';
   error?: boolean;
   isRtl?: boolean;
   disabled?: boolean;
   id?: string;
-};
+}
 
 const Input = forwardRef<HTMLInputElement, InputProps>(
   (
     {
       className,
       type,
-      inputSize,
+      size: inputSize,
       error: inputError,
       disabled: inputDisabled,
       isRtl,

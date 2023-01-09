@@ -2,19 +2,19 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Bg from '../../public/examples/inputTW/Bg';
-import Default from '../../public/examples/inputTW/Default';
-import Disabled from '../../public/examples/inputTW/Disabled';
-import Error from '../../public/examples/inputTW/Error';
-import Hint from '../../public/examples/inputTW/Hint';
-import Readonly from '../../public/examples/inputTW/Readonly';
-import Sizes from '../../public/examples/inputTW/Sizes';
-import Types from '../../public/examples/inputTW/Types';
-import WithoutLabel from '../../public/examples/inputTW/WithoutLabel';
+import Bg from '../../public/examples/input/Bg';
+import Default from '../../public/examples/input/Default';
+import Disabled from '../../public/examples/input/Disabled';
+import Error from '../../public/examples/input/Error';
+import Hint from '../../public/examples/input/Hint';
+import Readonly from '../../public/examples/input/Readonly';
+import Sizes from '../../public/examples/input/Sizes';
+import Types from '../../public/examples/input/Types';
+import WithoutLabel from '../../public/examples/input/WithoutLabel';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('inputTW');
+  const examples = useExamples('input');
   return (
     <>
       <ComponentPageDescription title="Input" isInProgress>

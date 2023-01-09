@@ -1,28 +1,36 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { useFormItemContext } from '../form/Form';
 import mergeClassnames from '../utils/mergeClassnames';
 
-type Props = {
+interface TextareaProps
+  extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {
   className?: string;
   disabled?: boolean;
-} & React.TextareaHTMLAttributes<HTMLTextAreaElement>;
+  error?: boolean;
+}
 
-const Textarea: React.FC<Props> = ({ className, disabled, ...rest }) => {
-  const { disabled: formItemDisabled } = useFormItemContext('Label');
-  return (
-    <textarea
-      disabled={disabled || formItemDisabled}
-      className={mergeClassnames(
-        'appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm',
-        'placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus',
-        'transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo',
-        'hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12]',
-        disabled && 'opacity-30 cursor-not-allowed',
-        className
-      )}
-      {...rest}
-    />
-  );
-};
+const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
+  ({ className, disabled, error: textareaError, ...rest }, ref) => {
+    const { disabled: formItemDisabled, error: formItemError } =
+      useFormItemContext('Textarea');
+    const error = textareaError || formItemError;
+    return (
+      <textarea
+        ref={ref}
+        disabled={disabled || formItemDisabled}
+        className={mergeClassnames(
+          'block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks',
+          'transition-shadow shadow-input hover:shadow-input-hov',
+          'focus:shadow-input-focus focus:outline-none',
+          error &&
+            'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+          disabled && 'opacity-30 cursor-not-allowed',
+          className
+        )}
+        {...rest}
+      />
+    );
+  }
+);
 
 export default Textarea;
