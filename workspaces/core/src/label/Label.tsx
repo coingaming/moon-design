@@ -1,6 +1,6 @@
 import React, { forwardRef, ReactNode } from 'react';
-import mergeClassnames from '../../utils/mergeClassnames';
-import { useFormContext, useFormItemContext } from '../Form';
+import { useFormContext, useFormItemContext } from '../form/Form';
+import mergeClassnames from '../utils/mergeClassnames';
 import getLabelSize from './private/getLabelSize';
 
 type WithChildren<T = {}> = T & { children?: ReactNode };

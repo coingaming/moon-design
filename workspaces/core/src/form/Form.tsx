@@ -101,24 +101,3 @@ const Item: React.FC<ItemProps> = ({
 const Form = Object.assign(FormRoot, { Item });
 
 export default Form;
-
-{
-  /* <Form size="sm" className="flex gap-4 justify-between p-5">
-<Form.Item>
-  <Label for="test-1" className="text-piccolo">
-    Label
-  </Label>
-  <Input
-    placeholder="tkgmrtkhmrt"
-    id="test-1"
-    className="rounded-none"
-  />
-  <Hint error>Informative message holder</Hint>
-</Form.Item>
-<Form.Item>
-  <Label>Label</Label>
-  <Input placeholder="tkgmrtkhmrt" />
-  <Hint>Informative message holder</Hint>
-</Form.Item>
-</Form> */
-}
