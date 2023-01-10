@@ -1,8 +1,16 @@
 import React from 'react';
-import { Form, Label, Hint, Input, Textarea } from '@heathmont/moon-core-tw';
+import {
+  Form,
+  Label,
+  Hint,
+  Input,
+  InsetInput,
+  Textarea,
+} from '@heathmont/moon-core-tw';
+import { TravelNoSuitcase } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
-  <Form size="lg" className="p-5">
+  <Form size="lg" className="p-5 flex flex-col gap-4">
     <div className="flex gap-4 justify-between pb-2">
       <Form.Item>
         <Label for="name">First name</Label>
@@ -18,6 +26,12 @@ const Example = () => (
     <Form.Item>
       <Label for="info">Additional information</Label>
       <Textarea placeholder="Add additional information..." id="info" />
+      <Hint>Informative message holder</Hint>
+    </Form.Item>
+    <Form.Item>
+      <InsetInput placeholder="Your last name..." isLabel={true}>
+        <InsetInput.Label>Last name</InsetInput.Label>
+      </InsetInput>
       <Hint>Informative message holder</Hint>
     </Form.Item>
   </Form>

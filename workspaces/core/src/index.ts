@@ -32,6 +32,8 @@ export { default as IconButton } from './iconButton/IconButton';
 export * from './iconButton/IconButton';
 export { default as Input } from './input/Input';
 export * from './input/Input';
+export { default as InsetInput } from './insetInput/InsetInput';
+export * from './insetInput/InsetInput';
 export { default as Label } from './label/Label';
 export * from './label/Label';
 export { default as Loader } from './loader/Loader';
