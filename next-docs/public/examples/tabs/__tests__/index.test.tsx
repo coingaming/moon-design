@@ -12,6 +12,7 @@ import {
 import Default from '../Default';
 import DefaultPills from '../DefaultPills';
 import NoPanels from '../NoPanels';
+import Segment from '../Segment';
 import Sizes from '../Sizes';
 import WithCustomStyles from '../WithCustomStyles';
 import WithHandler from '../WithHandler';
@@ -29,6 +30,10 @@ const renderWithRtl = (component: JSX.Element) => (
 describe('Tabs in Light Theme', () => {
   it('renders Default', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Segment', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Segment />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Sizes', () => {
@@ -62,6 +67,10 @@ describe('Tabs in Dark Theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders Segment', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Segment />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
   it('renders Sizes', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Sizes />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
@@ -89,6 +98,10 @@ describe('Tabs in Dark Theme', () => {
 describe('Tabs in RTL', () => {
   it('renders Default', () => {
     const testRenderer = renderer.create(renderWithRtl(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Segment', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Segment />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Sizes', () => {

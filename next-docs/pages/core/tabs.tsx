@@ -6,6 +6,7 @@ import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
 import DefaultPills from '../../public/examples/tabs/DefaultPills';
 import NoPanels from '../../public/examples/tabs/NoPanels';
+import Segment from '../../public/examples/tabs/Segment';
 import Sizes from '../../public/examples/tabs/Sizes';
 import WithCustomStyles from '../../public/examples/tabs/WithCustomStyles';
 import WithHandler from '../../public/examples/tabs/WithHandler';
@@ -15,7 +16,12 @@ const Example = () => {
   const examples = useExamples('tabs');
   return (
     <>
-      <ComponentPageDescription title="Tabs" isInProgress>
+      <ComponentPageDescription
+        title="Tabs"
+        isInProgress
+        isAriaSupport
+        isRtlSupport
+      >
         <p>
           Tabs to allow users to navigate easily between views within the same
           context.
@@ -68,32 +74,32 @@ const Example = () => {
         preview={<DefaultPills />}
         code={examples ? examples.DefaultPills : 'Loading'}
       />
-
       <Preview
-        title="Only tabs view"
+        title="tabs only view"
         preview={<NoPanels />}
         code={examples ? examples.NoPanels : 'Loading'}
       />
-
+      <Preview
+        title="Segment control view"
+        preview={<Segment />}
+        code={examples ? examples.Segment : 'Loading'}
+      />
       <Preview
         title="Sizes"
         preview={<Sizes />}
         code={examples ? examples.Sizes : 'Loading'}
       />
-
       <Preview
         title="WithHandler"
         preview={<WithHandler />}
         code={examples ? examples.WithHandler : 'Loading'}
       />
-
       <Preview
         title="With custom styles"
         description="There are two ways to add a custom style for the `selected` state: 1) with help of the render prop `selected` or 2) with help of the tailwind prefix `moon-selected: `."
         preview={<WithCustomStyles />}
         code={examples ? examples.WithCustomStyles : 'Loading'}
       />
-
       <PropsTable
         title="Tabs"
         data={[
@@ -121,7 +127,6 @@ const Example = () => {
           },
         ]}
       />
-
       <PropsTable
         title="Tabs.Tab"
         data={[
@@ -141,7 +146,6 @@ const Example = () => {
           },
         ]}
       />
-
       <PropsTable
         title="Tabs.Pill"
         data={[
@@ -161,7 +165,6 @@ const Example = () => {
           },
         ]}
       />
-
       <PropsTable
         title="Tabs.Panels"
         data={[
@@ -174,7 +177,6 @@ const Example = () => {
           },
         ]}
       />
-
       <PropsTable
         title="Tabs.Panel"
         data={[
