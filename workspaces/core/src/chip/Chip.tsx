@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import setPadding from './private/utils/setPadding';
 import type ChipProps from './private/types/ChipProps';
 

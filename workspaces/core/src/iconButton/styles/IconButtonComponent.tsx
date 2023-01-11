@@ -2,7 +2,7 @@ import React from 'react';
 import getAnimation from '../../button/private/utils/buttonAnimations/getAnimation';
 import getButtonCommonStyles from '../../button/private/utils/buttonStyles/getButtonCommonStyles';
 import getButtonVariants from '../../button/private/utils/buttonStyles/getButtonVariants';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import getButtonSize from '../private/utils/buttonSizes/getButtonSize';
 import type IconButtonProps from '../private/types/IconButtonProps';
 

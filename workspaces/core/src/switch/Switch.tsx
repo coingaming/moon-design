@@ -1,6 +1,6 @@
 import React, { FC, useState, useEffect } from 'react';
 import { Switch as HeadlessSwitch } from '@headlessui/react';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import getSwitchSize from './private/utils/getSwitchSize';
 import getSwitchSpanSize from './private/utils/getSwitchSpanSize';
 import type SwitchProps from './private/types/SwitchProps';

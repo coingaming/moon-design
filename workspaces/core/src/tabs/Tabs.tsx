@@ -1,6 +1,6 @@
 import React from 'react';
 import { Tab as HeadlesssTab } from '@headlessui/react';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import getTabSize from './private/utils/getTabSize';
 import TabsContext from './private/utils/TabsContext';
 import useTabsContext from './private/utils/useTabsContext';
