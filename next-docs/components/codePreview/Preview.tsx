@@ -9,9 +9,10 @@ type Props = {
   preview: React.ReactNode;
   code?: string;
   description?: string;
+  className?: string;
 };
 
-const Preview = ({ title, description, preview, code }: Props) => {
+const Preview = ({ title, description, preview, code, className }: Props) => {
   const [isPreviewActive, setActive] = useState(true);
   const setPreviewActive = () => setActive(true);
   const setCodeActive = () => setActive(false);
@@ -35,7 +36,8 @@ const Preview = ({ title, description, preview, code }: Props) => {
       <div
         className={mergeClassnames(
           'flex bg-goku text-moon-14 rounded-moon-s-sm preview',
-          isPreviewActive ? `p-4` : 'theme-moon-dark'
+          isPreviewActive ? `p-4` : 'theme-moon-dark',
+          className
         )}
       >
         {isPreviewActive ? (
