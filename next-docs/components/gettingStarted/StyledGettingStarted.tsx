@@ -3,6 +3,12 @@ import PageSection from '../PageSection';
 
 const ScGettingStarted = () => (
   <>
+    <p>
+      <p className="text-krillin font-medium">
+        NB! Packages built with Styled Components will be deprecated soon.
+      </p>
+      Please check out a new implementation built with Tailwind.
+    </p>
     <PageSection title="Installation">
       <p>using npm</p>
       <CodeSnippet>{`npm i @heathmont/moon-themes @heathmont/moon-core @heathmont/moon-components`}</CodeSnippet>

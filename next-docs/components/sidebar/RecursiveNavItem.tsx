@@ -11,11 +11,7 @@ type Props = {
 
 const RecursiveNavItem: React.FC<Props> = ({ item, pathname, onClick }) => {
   const { name, href, children } = item;
-  const gettingStartedPathname =
-    pathname === '/gettingStartedDevs' || pathname === '/gettingStartedSc'
-      ? '/gettingStarted'
-      : pathname;
-  const isCurrent = href === gettingStartedPathname;
+  const isCurrent = href === pathname;
   if (children) {
     return (
       <Accordion>
