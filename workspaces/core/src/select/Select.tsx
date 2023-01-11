@@ -28,7 +28,7 @@ type Placement =
 
 export type SelectSize = 'sm' | 'md' | 'lg' | 'xl';
 export type SelectProps<T extends readonly object[], BaseOptionType> = {
-  size?: SelectSize | string;
+  size?: SelectSize;
   label?: JSX.Element | string;
   placeholder?: JSX.Element | string;
   isError?: boolean;
