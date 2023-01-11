@@ -138,7 +138,7 @@ const Title: React.FC<TitleProps> = ({ children, className }) => (
     <Dialog.Title
       as="h3"
       className={mergeClassnames(
-        'text-moon-18 text-bulma font-semibold',
+        'text-moon-18 text-bulma font-medium',
         className
       )}
     >

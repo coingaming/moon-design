@@ -1,7 +1,8 @@
 type Data = {
   name: string;
-  key: string;
-  value: number | string;
+  className: string;
+  variable: string;
+  value: string;
 };
 
 type TokenTableProps = {
@@ -18,20 +19,25 @@ const TokenTable = ({ data, title }: TokenTableProps) => (
           <tr>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
+              className="px-4 py-3 text-start text-moon-12 font-medium text-bulma uppercase"
             >
               Property
             </th>
-
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
+              className="px-4 py-3 text-start text-moon-12 font-medium text-bulma uppercase"
             >
-              Key
+              CSS Variable
             </th>
             <th
               scope="col"
-              className="px-4 py-3 text-start text-xs font-medium text-bulma uppercase tracking-wider"
+              className="px-4 py-3 text-start text-moon-12 font-medium text-bulma uppercase"
+            >
+              Classname
+            </th>
+            <th
+              scope="col"
+              className="px-4 py-3 text-start text-moon-12 font-medium text-bulma uppercase"
             >
               Value
             </th>
@@ -40,18 +46,21 @@ const TokenTable = ({ data, title }: TokenTableProps) => (
         <tbody>
           {data.map((prop: Data, propIdx: number) => (
             <tr
-              key={prop.key}
+              key={prop.className}
               className={propIdx % 2 === 0 ? 'bg-gohan' : 'bg-goku'}
             >
-              <td className="px-4 py-4 whitespace-nowrap text-sm font-medium text-bulma">
+              <td className="px-4 py-4 whitespace-nowrap text-moon-14 font-medium text-bulma">
                 {prop.name}
               </td>
-
-              <td className="px-4 py-4 whitespace-nowrap text-sm text-bulma">
-                {prop.key}
+              <td className="px-4 py-4 whitespace-nowrap text-moon-14 text-bulma">
+                {prop.variable}
               </td>
-
-              <td className="px-4 py-4 text-sm text-bulma">{prop.value}</td>
+              <td className="px-4 py-4 whitespace-nowrap text-moon-14 text-bulma">
+                {prop.className}
+              </td>
+              <td className="px-4 py-4 whitespace-nowrap text-moon-14 text-bulma">
+                {prop.value}
+              </td>
             </tr>
           ))}
         </tbody>
