@@ -291,62 +291,61 @@ const TailwindGettingStarted = () => (
         Dark mode, you need to change classes.
       </p>
       <p>
-        Below is an example of a CSS file configured for the Sportsbet.io page:
+        Below is an example of a CSS file configured for the moon.io website:
       </p>
-      <CodeSnippet>{`:root,
-:root.theme-sb-light,
-.theme-sb-light {
-  --piccolo: 12 207 97; /* #0ccf61 */
-  --hit: 223 224 226; /* #dfe0e2 */
-  --beerus: 230, 230, 230; /* #e6e6e6 */
-  --goku: 255 255 255; /* #ffffff */
-  --gohan: 247 247 247; /* #f7f7f7 */
-  --bulma: 26 33 42; /* #1a212a */
-  --trunks: 96 118 128; /* #607680 */
+      <CodeSnippet>{`:root.theme-light,
+.theme-light {
+  --piccolo: 78 70 180; /* #4e46b4 */
+  --hit: 64 166 159; /* #40a69f */
+  --beerus: 235 235 235; /* #ebebeb */
+  --gohan: 255 255 255; /* #ffffff */
   --goten: 255 255 255; /* #ffffff */
+  --goku: 245 245 245; /* #f5f5f5 */
+  --bulma: 0 0 0; /* #000000 */
+  --trunks: 153 156 160; /* #999ca0 */
   --popo: 0 0 0; /* #000000 */
 
   /* support-colors  */
-  --krillin: 255 179 25; /* #ffb319 */
-  --krillin-60: 255 198 82; /* #ffc652 */
-  --krillin-10: 255 217 141; /* #ffd98d */
+  --krillin: 255 179 25; /* #ff9800 */
+  --krillin-60: 255 179 25 / 0.56; /* #ff9800 */
+  --krillin-10: 255 179 25 / 0.08; /* #ff9800 */
 
   --chichi: 255 78 100; /* #ff4e64 */
-  --chichi-60: 255 118 135; /* #ff7687 */
-  --chichi-10: 255 150 163; /* #ff96a3 */
+  --chichi-60: 255 78 100 / 0.56; /* #ff4e64 */
+  --chichi-10: 255 78 100 / 0.08; /* #ff4e64 */
 
-  --roshi: 74 209 95; /* #4ad15f */
-  --roshi-60: 100 220 119; /* #64dc77 */
-  --roshi-10: 127 242 145; /* #7ff291 */
+  --roshi: 46 125 50; /* #2e7d32 */
+  --roshi-60: 46 125 50 / 0.56; /* #2e7d32 */
+  --roshi-10: 46 125 50 / 0.08; /* #2e7d32 */
 
   --dodoria: 211 48 48; /* #d33030 */
-  --dodoria-60: 219 78 78; /* #db4e4e */
-  --dodoria-10: 240 103 103; /* #f06767 */
+  --dodoria-60: 211 48 48 / 0.56; /* #d33030 */
+  --dodoria-10: 211 48 48 / 0.08; /* #d33030 */
 
   --cell: 149 241 213; /* #95f1d5 */
-  --cell-60: 162 250 223; /* #a2fadf */
-  --cell-10: 191 255 236; /* #bfffec */
+  --cell-60: 149 241 213 / 0.56; /* #95f1d5 */
+  --cell-10: 149 241 213 / 0.08; /* #95f1d5 */
 
   --raditz: 179 128 74; /* #b3804a */
-  --raditz-60: 193 145 93; /* #c1915d */
-  --raditz-10: 214 169 121; /* #d6a979 */
+  --raditz-60: 179 128 74 / 0.56; /* #b3804a */
+  --raditz-10: 179 128 74 / 0.08; /* #b3804a */
 
   --whis: 52 72 240; /* #3448f0 */
-  --whis-60: 103 119 248; /* #6777f8 */
-  --whis-10: 132 144 249; /* #8490f9 */
+  --whis-60: 52 72 240 / 0.56; /* #3448f0 */
+  --whis-10: 52 72 240 / 0.08; /* #3448f0 */
 
   --frieza: 92 51 207; /* #5c33cf */
-  --frieza-60: 115 77 222; /* #734dde */
-  --frieza-10: 146 113 239; /* #9271ef */
+  --frieza-60: 92 51 207 / 0.56; /* #5c33cf */
+  --frieza-10: 92 51 207 / 0.08; /* #5c33cf */
 
   --nappa: 114 85 80; /* #725550 */
-  --nappa-60: 133 106 102; /* #856a66 */
-  --nappa-10: 161 134 129; /* #a18681 */
+  --nappa-60: 114 85 80 / 0.56; /* #725550 */
+  --nappa-10: 114 85 80 / 0.08; /* #725550 */
 
   /* border-radius */
-  --radius-i-xs: 624.938rem; /* 9999px */
-  --radius-i-sm: 624.938rem; /* 9999px */
-  --radius-i-md: 624.938rem; /* 9999px */
+  --radius-i-xs: 0.25rem; /* 4px */
+  --radius-i-sm: 0.5rem; /* 8px */
+  --radius-i-md: 0.75rem; /* 12px */
   --radius-s-xs: 0.25rem; /* 4px */
   --radius-s-sm: 0.5rem; /* 8px */
   --radius-s-md: 0.75rem; /* 12px */
@@ -355,29 +354,105 @@ const TailwindGettingStarted = () => (
   /* border-width */
   --border-width: 0.0625rem; /* 1px */
   --border-i-width: 0.125rem; /* 2px */
+
+  /* opacity */
+  --opacity-moon: 0.32;
+
+  /* fonts */
+  --averta: 'Averta Std';
+
+  /* box-shadow */
+  --shadow-xs: 0px 4px 12px -6px rgb(0 0 0 / 0.06);
+  --shadow-sm: 0 6px 6px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 12px 12px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4);
+  --shadow-lg: 0 8px 24px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4);
+  --shadow-xl: 0px 32px 32px -8px rgb(0 0 0 / 0.08),
+    0px 0px 32px -8px rgb(0 0 0 / 0.12), 0px 0px 1px rgb(0 0 0 / 0.2);
 }
 
-:root.theme-sb-dark,
-.theme-sb-dark {
-  --piccolo: 12 207 97; /* #0ccf61 */
-  --hit: 57 62 71; /* #393e47 */
-  --beerus: 49 55 63; /* #31373f */
-  --goku: 35 42 51; /* #232a33 */
-  --gohan: 26 33 42; /* #1a212a */
-  --bulma: 255 255 255; /* #ffffff */
-  --trunks: 134 151 162; /* #8697a2 */
+:root.theme-dark,
+.theme-dark {
+  --piccolo: 91 80 238; /* #5b50ee */
+  --hit: 64 166 159; /* #40a69f */
+  --beerus: 68 68 68; /* #444444 */
+  --gohan: 31 31 31; /* #1f1f1f */
   --goten: 255 255 255; /* #ffffff */
+  --goku: 11 11 11; /* #0b0b0b */
+  --bulma: 255 255 255; /* #ffffff */
+  --trunks: 153 156 160; /* #999ca0 */
   --popo: 0 0 0; /* #000000 */
 
-  --radius-i-xs: 624.938rem; /* 9999px */
-  --radius-i-sm: 624.938rem; /* 9999px */
-  --radius-i-md: 624.938rem; /* 9999px */
+  /* support-colors  */
+  --krillin: 255 179 25; /* #ff9800 */
+  --krillin-60: 255 179 25 / 0.56; /* #ff9800 */
+  --krillin-10: 255 179 25 / 0.08; /* #ff9800 */
+
+  --chichi: 255 78 100; /* #ff4e64 */
+  --chichi-60: 255 78 100 / 0.56; /* #ff4e64 */
+  --chichi-10: 255 78 100 / 0.08; /* #ff4e64 */
+
+  --roshi: 46 125 50; /* #2e7d32 */
+  --roshi-60: 46 125 50 / 0.56; /* #2e7d32 */
+  --roshi-10: 46 125 50 / 0.08; /* #2e7d32 */
+
+  --dodoria: 211 48 48; /* #d33030 */
+  --dodoria-60: 211 48 48 / 0.56; /* #d33030 */
+  --dodoria-10: 211 48 48 / 0.08; /* #d33030 */
+
+  --cell: 149 241 213; /* #95f1d5 */
+  --cell-60: 149 241 213 / 0.56; /* #95f1d5 */
+  --cell-10: 149 241 213 / 0.08; /* #95f1d5 */
+
+  --raditz: 179 128 74; /* #b3804a */
+  --raditz-60: 179 128 74 / 0.56; /* #b3804a */
+  --raditz-10: 179 128 74 / 0.08; /* #b3804a */
+
+  --whis: 52 72 240; /* #3448f0 */
+  --whis-60: 52 72 240 / 0.56; /* #3448f0 */
+  --whis-10: 52 72 240 / 0.08; /* #3448f0 */
+
+  --frieza: 92 51 207; /* #5c33cf */
+  --frieza-60: 92 51 207 / 0.56; /* #5c33cf */
+  --frieza-10: 92 51 207 / 0.08; /* #5c33cf */
+
+  --nappa: 114 85 80; /* #725550 */
+  --nappa-60: 114 85 80 / 0.56; /* #725550 */
+  --nappa-10: 114 85 80 / 0.08; /* #725550 */
+
+  /* border-radius */
+  --radius-i-xs: 0.25rem; /* 4px */
+  --radius-i-sm: 0.5rem; /* 8px */
+  --radius-i-md: 0.75rem; /* 12px */
+  --radius-s-xs: 0.25rem; /* 4px */
+  --radius-s-sm: 0.5rem; /* 8px */
+  --radius-s-md: 0.75rem; /* 12px */
+  --radius-s-lg: 1rem; /* 16px */
+
+  /* border-width */
+  --border-width: 0.0625rem; /* 1px */
+  --border-i-width: 0.125rem; /* 2px */
+
+  /* opacity */
+  --opacity-moon: 0.32;
+
+  /* fonts */
+  --averta: 'Averta Std';
+
+  /* box-shadow */
+  --shadow-xs: 0px 4px 12px -6px rgb(0 0 0 / 0.64);
+  --shadow-sm: 0px 6px 6px -6px rgb(0 0 0 / 0.64), 0px 0px 1px rgb(0 0 0 / 0.56);
+  --shadow-md: 0px 12px 12px -6px rgb(0 0 0 / 0.64),
+    0px 0px 1px rgb(0 0 0 / 0.56);
+  --shadow-lg: 0px 24px 24px -6px rgb(0 0 0 / 0.64),
+    0px 0px 1px rgb(0 0 0 / 0.56);
+  --shadow-xl: 0px 48px 48px -6px rgb(0 0 0 / 0.88),
+    0px 0px 1px rgb(0 0 0 / 0.72);
 }
 `}</CodeSnippet>
       <p className="font-medium">NB! Setting up themes is optional.</p>
       <p>It is up to you how to set up themes inside your project.</p>
       <p>For example, you can do the following:</p>
-      <CodeSnippet>{`@import '@heathmont/moon-themes-tw/lib/sportsbet.css';`}</CodeSnippet>
+      <CodeSnippet>{`@import '@heathmont/moon-themes-tw/lib/moon.css';`}</CodeSnippet>
       <p>
         Alternatively, you can copy-paste the tokens from{' '}
         <a
