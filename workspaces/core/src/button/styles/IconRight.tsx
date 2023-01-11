@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassNames from '../../utils/mergeClassnames';
+import mergeClassNames from '../../mergeClassnames/mergeClassnames';
 import getIconHorizontalPosition from '../private/utils/buttonStyles/getIconHorizontalPosition';
 import type ButtonSettingsProps from '../private/types/ButtonSettingsProps';
 

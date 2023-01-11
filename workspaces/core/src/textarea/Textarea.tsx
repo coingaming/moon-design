@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 type Props = {
   className?: string;

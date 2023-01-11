@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import getAnimation from '../private/utils/buttonAnimations/getAnimation';
 import getButtonSize from '../private/utils/buttonSizes/getButtonSize';
 import getButtonCommonStyles from '../private/utils/buttonStyles/getButtonCommonStyles';

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Listbox } from '@headlessui/react';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 
 export type BaseOptionType = {
   id: number;

@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import getSize from './private/utils/getSize';
 import type Props from './private/types/Props';
 

@@ -6,7 +6,7 @@ import {
   ControlsChevronUp,
   ControlsChevronUpSmall,
 } from '@heathmont/moon-icons-tw';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 type SelectButtonState = {
   open?: boolean;
