@@ -38,7 +38,7 @@ const Example = () => {
               placeholder="Choose an option"
               data-test="data-test"
             >
-              <div className="flex bg-chichi w-full h-gull">{option?.name}</div>
+              {option?.name}
             </Dropdown.Select>
 
             <Dropdown.Options>
@@ -140,7 +140,6 @@ const Example = () => {
               label="xLarge"
               placeholder="Choose an option"
               data-test="data-test"
-              className="bg-chichi"
             >
               {option4?.name}
             </Dropdown.Select>
