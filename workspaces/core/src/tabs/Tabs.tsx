@@ -27,7 +27,7 @@ const List: React.FC<ListProps> = ({ children, className, size = 'md' }) => {
     <TabsContext.Provider value={states}>
       <HeadlesssTab.List
         className={mergeClassnames(
-          'flex items-center justify-center gap-2',
+          'flex items-center justify-center w-fit gap-2',
           className
         )}
       >
@@ -45,7 +45,7 @@ const Segment: React.FC<ListProps> = ({ children, className, size = 'md' }) => {
     <TabsContext.Provider value={states}>
       <HeadlesssTab.List
         className={mergeClassnames(
-          'flex items-center justify-center gap-1 p-1 bg-goku',
+          'flex items-center justify-center w-fit gap-1 p-1 bg-goku',
           size === 'md' ? 'rounded-moon-s-md' : 'rounded-moon-s-sm',
           className
         )}
@@ -65,9 +65,9 @@ const Tab: React.FC<TabProps> = React.forwardRef(
         className={({ selected }) =>
           mergeClassnames(
             getTabSize(size),
-            'relative flex items-center justify-center text-moon-14 text-bulma font-medium',
-            'cursor-pointer after:content-[""] after:absolute after:left-0 after:bottom-0',
-            'after:w-full after:h-[2px] after:bg-piccolo after:transition-transform',
+            'relative flex items-center justify-center w-full whitespace-nowrap text-moon-14',
+            'text-bulma font-medium cursor-pointer after:content-[""] after:absolute after:left-0',
+            'after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform',
             'after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100',
             'hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo',
             'focus:outline-none',
@@ -96,8 +96,9 @@ const Pill: React.FC<TabProps> = React.forwardRef(
         className={({ selected }) =>
           mergeClassnames(
             getTabSize(size),
-            'flex items-center justify-center text-moon-14 text-bulma font-medium',
-            'rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none',
+            'flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma',
+            'font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan',
+            'focus:outline-none',
             selected && 'bg-gohan',
             typeof className === 'function'
               ? className({ selected: selected })

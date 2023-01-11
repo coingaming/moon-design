@@ -75,7 +75,7 @@ const Example = () => {
         code={examples ? examples.DefaultPills : 'Loading'}
       />
       <Preview
-        title="tabs only view"
+        title="Tabs only view"
         preview={<NoPanels />}
         code={examples ? examples.NoPanels : 'Loading'}
       />
@@ -83,6 +83,7 @@ const Example = () => {
         title="Segment control view"
         preview={<Segment />}
         code={examples ? examples.Segment : 'Loading'}
+        className="bg-gohan border border-beerus"
       />
       <Preview
         title="Sizes"
@@ -104,11 +105,11 @@ const Example = () => {
         title="Tabs"
         data={[
           {
-            name: 'size',
-            type: 'sm | md',
+            name: 'onChange',
+            type: '() => void;',
             required: false,
-            default: 'md',
-            description: 'Size',
+            default: '-',
+            description: 'A function called whenever the active tab changes.',
           },
           {
             name: 'selectedIndex',
@@ -118,12 +119,43 @@ const Example = () => {
             description:
               'The selected index if you want to use the Tabs component as a controlled component.',
           },
+        ]}
+      />
+      <PropsTable
+        title="Tabs.List"
+        data={[
           {
-            name: 'onChange',
-            type: '() => void;',
+            name: 'className',
+            type: 'string',
             required: false,
             default: '-',
-            description: 'A function called whenever the active tab changes.',
+            description: 'Tailwind classes for styling',
+          },
+          {
+            name: 'size',
+            type: 'sm | md',
+            required: false,
+            default: 'md',
+            description: 'Size of tabs',
+          },
+        ]}
+      />
+      <PropsTable
+        title="Tabs.Segment"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for styling',
+          },
+          {
+            name: 'size',
+            type: 'sm | md',
+            required: false,
+            default: 'md',
+            description: 'Size of tabs',
           },
         ]}
       />
@@ -131,18 +163,18 @@ const Example = () => {
         title="Tabs.Tab"
         data={[
           {
-            name: 'disabled',
-            type: 'boolean',
-            required: false,
-            default: '-',
-            description: 'Whether or not the Tab is currently disabled.',
-          },
-          {
             name: 'className',
             type: 'string',
             required: false,
             default: '-',
             description: 'Tailwind classes for styling',
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the Tab is currently disabled.',
           },
         ]}
       />
@@ -150,18 +182,18 @@ const Example = () => {
         title="Tabs.Pill"
         data={[
           {
-            name: 'disabled',
-            type: 'boolean',
-            required: false,
-            default: '-',
-            description: 'Whether or not the Tab is currently disabled.',
-          },
-          {
             name: 'className',
             type: 'string',
             required: false,
             default: '-',
             description: 'Tailwind classes for styling',
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the Tab is currently disabled.',
           },
         ]}
       />
