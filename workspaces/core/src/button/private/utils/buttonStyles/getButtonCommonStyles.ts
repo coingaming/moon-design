@@ -1,4 +1,4 @@
-import mergeClassnames from '../../../../utils/mergeClassnames';
+import mergeClassnames from '../../../../mergeClassnames/mergeClassnames';
 import type ButtonSettingsProps from '../../types/ButtonSettingsProps';
 
 const getButtonCommonStyles = ({ disabled }: ButtonSettingsProps): string =>

@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import Container from './Container';
 import HintText from './HintText';
 import Input from './Input';

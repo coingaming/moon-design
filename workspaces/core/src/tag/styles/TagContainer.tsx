@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import setFontSize from '../private/utils/setFontSize';
 import setHeight from '../private/utils/setHeight';
 import setSpacing from '../private/utils/setSpacing';

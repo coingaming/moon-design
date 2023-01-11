@@ -1,7 +1,7 @@
 import React from 'react';
 import { Listbox } from '@headlessui/react';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import type { SelectSize } from '../Select';
 
 type InputBtnProps = {

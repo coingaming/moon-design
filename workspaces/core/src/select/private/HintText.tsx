@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 
 const HintText: React.FC<{ isError?: boolean }> = ({ children, isError }) => (
   <p

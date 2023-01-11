@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import type Props from './private/types/Props';
 
 const RadioButton = forwardRef<HTMLInputElement, Props>(

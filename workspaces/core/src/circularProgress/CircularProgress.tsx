@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import Path from './private/Path';
 import getPathRatio from './private/utils/getPathRatio';
 import getSize from './private/utils/getSize';

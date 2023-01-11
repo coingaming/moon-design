@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
-import useThemeTW from '../../components/themes/useThemesTW';
 import CodeSnippet from '../CodeSnippet';
 import PreviewSwitch from './PreviewSwitch';
 
@@ -19,8 +18,6 @@ const Preview = ({ title, description, preview, code, className }: Props) => {
   const copyCode = () => {
     if (navigator?.clipboard) navigator.clipboard.writeText(code ? code : '');
   };
-  const { getTheme } = useThemeTW();
-  const themeClassName = getTheme();
   return (
     <section className="flex flex-col gap-6">
       <div className="flex flex-row items-center justify-between">
@@ -33,21 +30,19 @@ const Preview = ({ title, description, preview, code, className }: Props) => {
         />
       </div>
       {description && <p className="text-moon-16">{description}</p>}
-      <div
-        className={mergeClassnames(
-          'flex bg-goku text-moon-14 rounded-moon-s-sm preview',
-          isPreviewActive ? `p-4` : 'theme-moon-dark',
-          className
-        )}
-      >
-        {isPreviewActive ? (
-          <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-            {preview}
-          </div>
-        ) : (
-          <>{code && <CodeSnippet>{code}</CodeSnippet>}</>
-        )}
-      </div>
+      {isPreviewActive ? (
+        <div
+          className={mergeClassnames(
+            'flex flex-wrap items-center justify-around p-4 gap-2 w-full bg-goku text-moon-14',
+            'rounded-moon-s-sm',
+            className
+          )}
+        >
+          {preview}
+        </div>
+      ) : (
+        code && <CodeSnippet>{code}</CodeSnippet>
+      )}
     </section>
   );
 };

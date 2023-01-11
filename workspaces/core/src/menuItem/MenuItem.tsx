@@ -1,7 +1,7 @@
 import React, { createContext, useContext, useEffect } from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import useRegisterChild from '../private/utils/useRegisterChild';
-import mergeClassnames from '../utils/mergeClassnames';
 
 type MenuItemProps = {
   width?: string;

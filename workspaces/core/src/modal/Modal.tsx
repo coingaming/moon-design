@@ -1,6 +1,6 @@
 import React, { ReactNode, forwardRef } from 'react';
 import { Dialog } from '@headlessui/react';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 type WithChildren<T = {}> = T & { children?: ReactNode };
 
