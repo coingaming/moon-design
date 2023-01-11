@@ -79,7 +79,7 @@ const SelectButtonRoot: React.FC<SelectButtonProps> = ({
   );
 };
 
-const Input: React.FC = ({ children }) => {
+const Input: React.FC<{ className?: string }> = ({ children, className }) => {
   const { size, isError, idDisabled, ...rest } =
     useSelectButtonContext('SelectButton.Input');
   return (
@@ -93,7 +93,8 @@ const Input: React.FC = ({ children }) => {
         getSelectSize(size),
         isError &&
           'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-        idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input'
+        idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input',
+        className && className
       )}
     >
       <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
