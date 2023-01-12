@@ -1,14 +1,10 @@
 import { Button } from '@heathmont/moon-core-tw';
-import { GenericSettings } from '@heathmont/moon-icons-tw';
+import { OtherFrame } from '@heathmont/moon-icons-tw';
 
 const Example = () => (
   <>
-    <Button iconLeft={<GenericSettings className="text-moon-24" />}>
-      IconLeft
-    </Button>
-    <Button iconRight={<GenericSettings className="text-moon-24" />}>
-      IconRight
-    </Button>
+    <Button iconLeft={<OtherFrame />}>IconLeft</Button>
+    <Button iconRight={<OtherFrame />}>IconRight</Button>
   </>
 );
 

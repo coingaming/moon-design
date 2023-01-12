@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.18.0
+
+### Minor Changes
+
+- Deploy minor version
+
 ## 9.17.0
 
 ### Minor Changes

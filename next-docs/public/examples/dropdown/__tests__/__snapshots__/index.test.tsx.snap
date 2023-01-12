@@ -865,7 +865,7 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
           onKeyUp={[Function]}
         >
           <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             type="button"
@@ -1808,7 +1808,7 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
           onKeyUp={[Function]}
         >
           <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
             onMouseEnter={[Function]}
             onMouseLeave={[Function]}
             type="button"
@@ -2770,7 +2770,7 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
             onKeyUp={[Function]}
           >
             <button
-              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
               onMouseEnter={[Function]}
               onMouseLeave={[Function]}
               type="button"

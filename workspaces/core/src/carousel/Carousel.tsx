@@ -105,7 +105,8 @@ const Reel: React.FC<SubcomponentProps> = ({ children, className }) => {
     <ul
       className={mergeClassnames(
         'flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4',
-        '[-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar]',
+        '[-webkit-overflow-scrolling:touch] [scrollbar-width:none]',
+        '[-ms-overflow-style:-ms-autohiding-scrollbar]',
         '[&>li]:list-none [&>li]:before:absolute [&>li]:before:content-["\\200B"]',
         '[&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto',
         'snap-x snap-mandatory',
@@ -149,9 +150,15 @@ const CarouselControl: React.FC<ControlProps> = ({
   return (
     <button
       className={mergeClassnames(
+<<<<<<< HEAD
         'max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan',
         'text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5',
         'disabled:opacity-moon disabled:cursor-not-allowed',
+=======
+        'max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks',
+        'text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2',
+        'origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed',
+>>>>>>> origin/develop
         className
       )}
       onClick={onClick}

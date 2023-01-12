@@ -1,5 +1,18 @@
 # @heathmont/moon-select
 
+## 9.18.0
+
+### Minor Changes
+
+- Deploy minor version
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.18.0
+  - @heathmont/moon-themes@9.18.0
+  - @heathmont/moon-utils@9.18.0
+
 ## 9.17.0
 
 ### Minor Changes
