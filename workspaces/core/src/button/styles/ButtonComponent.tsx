@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import getAnimation from '../private/utils/buttonAnimations/getAnimation';
 import getButtonSize from '../private/utils/buttonSizes/getButtonSize';
 import getButtonCommonStyles from '../private/utils/buttonStyles/getButtonCommonStyles';
@@ -24,9 +24,16 @@ const ButtonComponent = <C extends React.ElementType>({
   return (
     <Component
       className={mergeClassnames(
-        getButtonSize({ size, icon, iconLeft, iconRight, iconOnly, fullWidth }),
-        getButtonCommonStyles({ disabled }),
-        getButtonVariants({ variant }),
+        getButtonSize({
+          size,
+          icon,
+          iconLeft,
+          iconRight,
+          iconOnly,
+          fullWidth,
+        }),
+        getButtonCommonStyles(disabled),
+        getButtonVariants(variant),
         animation === 'pulse' && getAnimation('pulse'),
         animation === 'error' && getAnimation('error'),
         fullWidth && !iconOnly && 'w-full',

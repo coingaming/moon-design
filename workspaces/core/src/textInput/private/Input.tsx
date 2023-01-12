@@ -1,5 +1,5 @@
 import React, { forwardRef } from 'react';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import getSizeStyles from '../private/utils/getSizeStyles';
 import makeBorder from '../private/utils/makeBorder';
 import type TextInputProps from '../private/types/TextInputProps';

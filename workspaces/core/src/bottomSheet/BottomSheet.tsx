@@ -1,6 +1,6 @@
 import React, { ReactNode, useCallback, useEffect, useReducer } from 'react';
 import { Dialog } from '@headlessui/react';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import BottomSheetContext, { useBottomSheetContext } from './private/context';
 import stateReducer from './private/stateReducer';
 import useDrag from './private/useDrag';
@@ -138,7 +138,7 @@ const Title: React.FC<TitleProps> = ({ children, className }) => (
     <Dialog.Title
       as="h3"
       className={mergeClassnames(
-        'text-moon-18 text-bulma font-semibold',
+        'text-moon-18 text-bulma font-medium',
         className
       )}
     >

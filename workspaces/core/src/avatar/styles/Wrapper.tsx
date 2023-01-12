@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import setBorderRadius from '../private/utils/setBorderRadius';
 import setWrapperSize from '../private/utils/setWrapperSize';
 import type AvatarProps from '../private/types/AvatarProps';

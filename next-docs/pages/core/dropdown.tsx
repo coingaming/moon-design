@@ -119,6 +119,13 @@ const Example = () => {
             description: 'Size',
           },
           {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
+          },
+          {
             name: 'Render Props: ',
             type: '',
             required: undefined,
@@ -144,6 +151,13 @@ const Example = () => {
             required: false,
             default: '-',
             description: 'Tailwind class for custom options container width.',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles.',
           },
         ]}
       />
@@ -199,6 +213,14 @@ const Example = () => {
             required: false,
             default: '-',
             description: 'Placeholder',
+          },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description:
+              'Tailwind classes for custom styles (only for button).',
           },
         ]}
       />

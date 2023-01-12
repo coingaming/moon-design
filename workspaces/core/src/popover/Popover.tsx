@@ -1,60 +1,12 @@
-import React, { createContext, useContext, ReactNode } from 'react';
+import React from 'react';
 import { Popover as HeadlessPopover } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import mergeClassnames from '../utils/mergeClassnames';
-
-type Placement =
-  | 'top-start'
-  | 'top-end'
-  | 'bottom-start'
-  | 'bottom-end'
-  | 'right-start'
-  | 'right-end'
-  | 'left-start'
-  | 'left-end'
-  | 'top'
-  | 'bottom'
-  | 'right'
-  | 'left';
-type PopoverRootProps = {
-  position?: Placement;
-};
-
-type CallableChildren = (data: {
-  open?: boolean;
-  close?: (
-    focusableElement?:
-      | HTMLElement
-      | React.MutableRefObject<HTMLElement | null>
-      | undefined
-  ) => void;
-}) => ReactNode;
-
-type PopoverState = {
-  popper?: {
-    styles?: { [key: string]: React.CSSProperties };
-    attributes?: { [key: string]: { [key: string]: string } | undefined };
-    setAnchor: React.Dispatch<React.SetStateAction<Element | null | undefined>>;
-    setPopper: React.Dispatch<
-      React.SetStateAction<HTMLElement | null | undefined>
-    >;
-  };
-};
-
-const PopoverContext = createContext<PopoverState>({});
-PopoverContext.displayName = 'PopoverContext';
-
-const usePopoverContext = (component: string) => {
-  const context = useContext(PopoverContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <Popover /> component.`
-    );
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, usePopoverContext);
-    throw err;
-  }
-  return context;
-};
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import PopoverContext from './private/utils/PopoverContext';
+import usePopoverContext from './private/utils/usePopoverContext';
+import type CallableChildren from './private/types/CallableChildren';
+import type PanelProps from './private/types/PanelProps';
+import type PopoverRootProps from './private/types/PopoverRootProps';
 
 const PopoverRoot: React.FC<PopoverRootProps> = ({
   children,
@@ -104,7 +56,6 @@ const PopoverRoot: React.FC<PopoverRootProps> = ({
   );
 };
 
-//Popover.Trigger
 const Trigger: React.FC = ({ children }) => {
   const { popper } = usePopoverContext('Popover.Trigger');
   return (
@@ -114,10 +65,6 @@ const Trigger: React.FC = ({ children }) => {
   );
 };
 
-//Popover.Panel
-type PanelProps = {
-  className?: string;
-};
 const Panel: React.FC<PanelProps> = ({ children, className }) => {
   const { popper } = usePopoverContext('Popover.Trigger');
   const childrens = React.Children.toArray(children);
@@ -129,7 +76,8 @@ const Panel: React.FC<PanelProps> = ({ children, className }) => {
       style={popper?.styles?.popper}
       {...popper?.attributes?.popper}
       className={mergeClassnames(
-        'w-72 z-[999999] p-1 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none',
+        'w-72 z-[999999] rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
+        'focus:outline-none',
         className && className
       )}
     >
@@ -144,16 +92,12 @@ const Panel: React.FC<PanelProps> = ({ children, className }) => {
   );
 };
 
-type GroupProps = {
-  className?: string;
-};
-const Group: React.FC<GroupProps> = ({ children, className }) => (
+const Group: React.FC<PanelProps> = ({ children, className }) => (
   <HeadlessPopover.Group className={className}>
     {children}
   </HeadlessPopover.Group>
 );
 
-//Popover
 const Popover = Object.assign(PopoverRoot, { Trigger, Panel, Group });
 
 export default Popover;
