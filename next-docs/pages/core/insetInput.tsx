@@ -1,19 +1,19 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Bg from '../../public/examples/input/Bg';
-import Default from '../../public/examples/input/Default';
-import Sizes from '../../public/examples/input/Sizes';
-import States from '../../public/examples/input/States';
-import Types from '../../public/examples/input/Types';
+import Bg from '../../public/examples/insetInput/Bg';
+import Default from '../../public/examples/insetInput/Default';
+import States from '../../public/examples/insetInput/States';
+import Types from '../../public/examples/insetInput/Types';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('input');
+  const examples = useExamples('insetInput');
   return (
     <>
-      <ComponentPageDescription title="Input" isInProgress>
+      <ComponentPageDescription title="InsetInput" isInProgress>
         <p>
           Text input fields allow users to enter text and can be used to collect
           user feedback or enter information in data entry forms.
@@ -23,15 +23,15 @@ const Example = () => {
           with other inputs such as number entry, date picker, etc.
         </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>{`
+    <InsetInput>
+      <InsetInput.Label>...</InsetInput.Label>
+    </InsetInput>
+      `}</ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
-      />
-      <Preview
-        title="Sizes"
-        preview={<Sizes />}
-        code={examples ? examples.Sizes : 'Loading'}
       />
       <Preview
         title="Different states"
@@ -49,15 +49,8 @@ const Example = () => {
         code={examples ? examples.Types : 'Loading'}
       />
       <PropsTable
-        title="Input props"
+        title="InsetInput"
         data={[
-          {
-            name: 'size',
-            type: 'sm | md | lg | xl',
-            required: false,
-            default: 'md',
-            description: 'Input size',
-          },
           {
             name: 'type',
             type: 'date | datetime-local | email | number | password | search | tel | text | time | url | string',
@@ -93,6 +86,19 @@ const Example = () => {
             default: '-',
             description: 'RTL/LTR direction of label',
           },
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for customization',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="InsetInput.Label"
+        data={[
           {
             name: 'className',
             type: 'string',

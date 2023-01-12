@@ -24,15 +24,21 @@ export const useFormContext = (component: string) => {
 type FormProps = {
   size: 'sm' | 'md' | 'lg';
   className?: string;
+  onSubmit?: () => void;
 };
 const FormRoot = forwardRef<HTMLFormElement, WithChildren<FormProps>>(
-  ({ children, size, className, ...rest }) => {
+  ({ children, size, className, onSubmit, ...rest }, ref) => {
     const state = {
       size: size,
     };
     return (
       <FormContext.Provider value={state}>
-        <form {...rest} className={mergeClassnames(className)}>
+        <form
+          {...rest}
+          className={mergeClassnames(className)}
+          onSubmit={onSubmit}
+          ref={ref}
+        >
           {children}
         </form>
       </FormContext.Provider>

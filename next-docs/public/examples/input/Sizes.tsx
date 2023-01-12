@@ -6,7 +6,7 @@ const Example = () => (
       <Label for="test-1" size="sm">
         Small (sm)
       </Label>
-      <Input type="text" inputSize="sm" placeholder="Placeholder" id="test-1" />
+      <Input type="text" size="sm" placeholder="Placeholder" id="test-1" />
     </div>
     <div className="w-full">
       <Label for="test-2">Medium (Default: md)</Label>
@@ -14,11 +14,11 @@ const Example = () => (
     </div>
     <div className="w-full">
       <Label for="test-3">Large (lg)</Label>
-      <Input type="text" inputSize="lg" placeholder="Placeholder" id="test-3" />
+      <Input type="text" size="lg" placeholder="Placeholder" id="test-3" />
     </div>
     <div className="w-full">
       <Label for="test-4">Xlarge (xl)</Label>
-      <Input type="text" inputSize="xl" id="test-4" placeholder="Placeholder" />
+      <Input type="text" size="xl" id="test-4" placeholder="Placeholder" />
     </div>
   </div>
 );

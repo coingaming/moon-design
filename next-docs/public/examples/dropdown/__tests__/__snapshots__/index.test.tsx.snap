@@ -28,7 +28,7 @@ exports[`Dropdown in Dark Theme renders Default 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -70,7 +70,7 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -105,7 +105,7 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -140,7 +140,7 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -222,7 +222,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -303,7 +303,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -384,7 +384,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -465,7 +465,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -552,7 +552,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -628,7 +628,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -701,7 +701,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -775,7 +775,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -837,7 +837,7 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -879,7 +879,7 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -929,7 +929,7 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -971,7 +971,7 @@ exports[`Dropdown in Light Theme renders Default 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1013,7 +1013,7 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1048,7 +1048,7 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1083,7 +1083,7 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1165,7 +1165,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1246,7 +1246,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1327,7 +1327,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1408,7 +1408,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1495,7 +1495,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1571,7 +1571,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1644,7 +1644,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1718,7 +1718,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1780,7 +1780,7 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1822,7 +1822,7 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1872,7 +1872,7 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
         </div>
       </div>
       <div
-        className="z-5 absolute"
+        className="z-1000 absolute"
         style={
           Object {
             "left": "0",
@@ -1917,7 +1917,7 @@ exports[`Dropdown in RTL renders Default 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -1963,7 +1963,7 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -1998,7 +1998,7 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2033,7 +2033,7 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2119,7 +2119,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2200,7 +2200,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2281,7 +2281,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2362,7 +2362,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2453,7 +2453,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2529,7 +2529,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2602,7 +2602,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2676,7 +2676,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2742,7 +2742,7 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2784,7 +2784,7 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",
@@ -2834,7 +2834,7 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
           </div>
         </div>
         <div
-          className="z-5 absolute"
+          className="z-1000 absolute"
           style={
             Object {
               "left": "0",

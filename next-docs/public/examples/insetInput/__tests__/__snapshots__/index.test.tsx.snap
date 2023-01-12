@@ -1,0 +1,918 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InsetInput in Light Theme renders Default 1`] = `
+<div
+  className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+>
+  <input
+    className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+    placeholder="Placeholder"
+  />
+  <label
+    className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+  >
+    Label
+  </label>
+</div>
+`;
+
+exports[`InsetInput in Light Theme renders Types 1`] = `
+Array [
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-number-clear input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. 12345"
+          type="number"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Number
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-d input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          type="date"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Date
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-t input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          type="time"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Time
+        </label>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-d input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          type="datetime-local"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Datetime local
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. john.doe@domain.com"
+          type="email"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Email
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="Password"
+          type="password"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Password
+        </label>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. Search something"
+          type="search"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Search
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. +372 123 4567"
+          type="tel"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Tel
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. https://domain.com"
+          type="url"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Url
+        </label>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`InsetInput in Light Theme renders different states 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan opacity-30 cursor-not-allowed"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        disabled={true}
+        placeholder="Placeholder"
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Label
+      </label>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Placeholder"
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Label
+      </label>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+      role="alert"
+    >
+      Error message
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Placeholder"
+        readOnly={true}
+        value="Read only text"
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Label
+      </label>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`InsetInput in Light Theme renders with custom styles 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-beerus [&_input]:text-piccolo"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Placeholder"
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-piccolo"
+      >
+        Label
+      </label>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-piccolo"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`TextInput in Dark Theme renders Default 1`] = `
+<div
+  className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+>
+  <input
+    className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+    placeholder="Placeholder"
+  />
+  <label
+    className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+  >
+    Label
+  </label>
+</div>
+`;
+
+exports[`TextInput in Dark Theme renders Types 1`] = `
+Array [
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-number-clear input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. 12345"
+          type="number"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Number
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-d input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          type="date"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Date
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-t input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          type="time"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Time
+        </label>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-d input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          type="datetime-local"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Datetime local
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. john.doe@domain.com"
+          type="email"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Email
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="Password"
+          type="password"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Password
+        </label>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. Search something"
+          type="search"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Search
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. +372 123 4567"
+          type="tel"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Tel
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. https://domain.com"
+          type="url"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Url
+        </label>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextInput in Dark Theme renders different states 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan opacity-30 cursor-not-allowed"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        disabled={true}
+        placeholder="Placeholder"
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Label
+      </label>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Placeholder"
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Label
+      </label>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+      role="alert"
+    >
+      Error message
+    </p>
+  </div>
+  <div
+    className="w-full"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Placeholder"
+        readOnly={true}
+        value="Read only text"
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Label
+      </label>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`TextInput in Dark Theme renders with custom styles 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-beerus [&_input]:text-piccolo"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Placeholder"
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-piccolo"
+      >
+        Label
+      </label>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-piccolo"
+      role="alert"
+    >
+      Informative message holder
+    </p>
+  </div>
+</div>
+`;
+
+exports[`TextInput in RTL renders Default 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+  >
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+      placeholder="Placeholder"
+    />
+    <label
+      className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+    >
+      Label
+    </label>
+  </div>
+</div>
+`;
+
+exports[`TextInput in RTL renders Types 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-number-clear input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. 12345"
+          type="number"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Number
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-d input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          type="date"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Date
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-t input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          type="time"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Time
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-d input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          type="datetime-local"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Datetime local
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. john.doe@domain.com"
+          type="email"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Email
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="Password"
+          type="password"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Password
+        </label>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. Search something"
+          type="search"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Search
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. +372 123 4567"
+          type="tel"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Tel
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="e.g. https://domain.com"
+          type="url"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Url
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput in RTL renders different states 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan opacity-30 cursor-not-allowed"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={true}
+          placeholder="Placeholder"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Label
+        </label>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="Placeholder"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Label
+        </label>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+        role="alert"
+      >
+        Error message
+      </p>
+    </div>
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="Placeholder"
+          readOnly={true}
+          value="Read only text"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Label
+        </label>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TextInput in RTL renders with custom styles 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-beerus [&_input]:text-piccolo"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="Placeholder"
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4 text-piccolo"
+        >
+          Label
+        </label>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-piccolo"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
