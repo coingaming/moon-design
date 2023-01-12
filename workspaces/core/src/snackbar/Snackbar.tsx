@@ -1,7 +1,7 @@
 import React from 'react';
 import { ControlsCloseSmall } from '@heathmont/moon-icons-tw';
 import * as ToastPrimitive from '@radix-ui/react-toast';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 type Props = {
   autoClose?: number;

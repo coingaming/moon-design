@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import setStatusSize from '../private/utils/setStatusSize';
 import type AvatarProps from '../private/types/AvatarProps';
 

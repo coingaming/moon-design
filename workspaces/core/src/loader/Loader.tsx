@@ -1,5 +1,5 @@
 import React from 'react';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import setDivBorder from './private/utils/setDivBorder';
 import setSize from './private/utils/setSize';
 import type LoaderProps from './private/types/LoaderProps';

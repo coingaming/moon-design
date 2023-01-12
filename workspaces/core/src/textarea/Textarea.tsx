@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import { useFormItemContext } from '../form/Form';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 interface TextareaProps
   extends React.TextareaHTMLAttributes<HTMLTextAreaElement> {

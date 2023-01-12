@@ -23,6 +23,7 @@ const navigation = [
           { name: 'IconButton', href: '/core/iconButton' },
         ],
       },
+      { name: 'Carousel', href: '/core/carousel' },
       { name: 'Checkbox', href: '/core/checkbox' },
       { name: 'Chip', href: '/core/chip' },
       { name: 'Dropdown', href: '/core/dropdown' },

@@ -10,7 +10,7 @@ import React, {
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton } from '../index';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 type DropdownState = {
   value?: any;
@@ -62,6 +62,7 @@ type DropdownRootProps = {
   isError?: boolean;
   disabled?: boolean;
   size?: 'sm' | 'md' | 'lg' | 'xl' | string;
+  className?: string;
 };
 
 type WithChildren<T = {}> = T & { children?: ReactNode };
@@ -73,6 +74,7 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
   isError,
   disabled,
   size = 'md',
+  className,
   ...rest
 }) => {
   const referenceElement = useRef(null);
@@ -110,7 +112,7 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
     typeof children === 'function' && (children as CallableChildren);
   return (
     <DropdownContext.Provider value={states}>
-      <div className="w-full">
+      <div className={mergeClassnames('w-full', className && className)}>
         <Listbox
           value={value}
           onChange={onChange}
@@ -134,11 +136,13 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
 //Dropdown.Options
 type OptionsProps = {
   menuWidth?: string;
+  className?: string;
 };
 
 const Options: React.FC<WithChildren<OptionsProps>> = ({
   children,
   menuWidth,
+  className,
   ...rest
 }) => {
   const { pooper } = useDropdownContext('Dropdown.Options');
@@ -152,7 +156,8 @@ const Options: React.FC<WithChildren<OptionsProps>> = ({
       <Listbox.Options
         className={mergeClassnames(
           menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
-          'z-1 p-1 my-2 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none'
+          'z-1 p-1 my-2 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none',
+          className && className
         )}
         {...rest}
       >
@@ -190,6 +195,7 @@ type SelectProps = {
   open?: boolean;
   value?: undefined;
   innerLabel?: boolean;
+  className?: string;
 };
 
 const Select: React.FC<WithChildren<SelectProps>> = ({
@@ -198,6 +204,7 @@ const Select: React.FC<WithChildren<SelectProps>> = ({
   label,
   placeholder,
   children,
+  className,
   ...rest
 }) => {
   const { size, pooper, isError, disabled } =
@@ -214,7 +221,7 @@ const Select: React.FC<WithChildren<SelectProps>> = ({
               idDisabled={disabled}
               {...rest}
             >
-              <SelectButton.Input>
+              <SelectButton.Input className={className}>
                 <SelectButton.FloatingLabel>{label}</SelectButton.FloatingLabel>
                 {children ? (
                   <SelectButton.Value>{children}</SelectButton.Value>
@@ -247,7 +254,7 @@ const Select: React.FC<WithChildren<SelectProps>> = ({
               idDisabled={disabled}
               {...rest}
             >
-              <SelectButton.Input>
+              <SelectButton.Input className={className}>
                 {children ? (
                   <SelectButton.Value>{children}</SelectButton.Value>
                 ) : (
@@ -265,19 +272,25 @@ const Select: React.FC<WithChildren<SelectProps>> = ({
 };
 
 //Dropdown.Trigger
-const Trigger: React.FC<{ children?: ReactNode }> = ({ children }) => {
+const Trigger: React.FC<{ children?: ReactNode; className?: string }> = ({
+  children,
+  className,
+}) => {
   const { pooper } = useDropdownContext('Dropdown.Trigger');
   return (
     <div ref={pooper?.referenceElement}>
       <Listbox.Button as={Fragment}>
-        <div>{children}</div>
+        <div className={className && className}>{children}</div>
       </Listbox.Button>
     </div>
   );
 };
 
 //Dropdown.Hint
-const Hint: React.FC<{ children?: ReactNode }> = ({ children }) => {
+const Hint: React.FC<{ children?: ReactNode; className?: string }> = ({
+  children,
+  className,
+}) => {
   const { isError, disabled } = useDropdownContext('Dropdown.Input');
   return (
     <p
@@ -285,7 +298,8 @@ const Hint: React.FC<{ children?: ReactNode }> = ({ children }) => {
       className={mergeClassnames(
         'inline-block mt-2 ps-4 text-moon-12',
         isError ? 'text-chichi' : 'text-trunks',
-        disabled && 'opacity-30 cursor-not-allowed'
+        disabled && 'opacity-30 cursor-not-allowed',
+        className && className
       )}
     >
       {children}

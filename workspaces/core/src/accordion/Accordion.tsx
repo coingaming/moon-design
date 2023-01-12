@@ -1,8 +1,8 @@
 import React, { createContext, useContext, useRef } from 'react';
 import * as RadixAccordion from '@radix-ui/react-accordion';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import AccordionItemState from './private/types/AccordionItemState';
-import AccordionProps from "./private/types/AccordionProps";
+import AccordionProps from './private/types/AccordionProps';
 import AccordionRootProps from './private/types/AccordionRootProps';
 import AccordionSizes from './private/types/AccordionSizes';
 import ButtonProps from './private/types/ButtonProps';
@@ -24,7 +24,7 @@ const AccordionSingle = ({
   >
     {children}
   </RadixAccordion.Root>
-)
+);
 
 const AccordionMultiple = ({
   children,
@@ -38,9 +38,9 @@ const AccordionMultiple = ({
   >
     {children}
   </RadixAccordion.Root>
-)
+);
 
-const AccordionContext = createContext<{itemSize?: AccordionSizes}>({});
+const AccordionContext = createContext<{ itemSize?: AccordionSizes }>({});
 AccordionContext.displayName = 'AccordionContext';
 
 const useAccordionContext = (component: string) => {
@@ -62,16 +62,18 @@ const AccordionRoot = ({
   defaultValue,
 }: AccordionProps) => {
   const RadixAccordionRoot = singleOpen ? AccordionSingle : AccordionMultiple;
-  
-  return <RadixAccordionRoot
-    className={mergeClassnames('flex w-full gap-2 flex-col', className)}
-    defaultValue={defaultValue}
-  >
-    <AccordionContext.Provider value={{ itemSize }}>
-      {children}
-    </AccordionContext.Provider>
-  </RadixAccordionRoot>
-}
+
+  return (
+    <RadixAccordionRoot
+      className={mergeClassnames('flex w-full gap-2 flex-col', className)}
+      defaultValue={defaultValue}
+    >
+      <AccordionContext.Provider value={{ itemSize }}>
+        {children}
+      </AccordionContext.Provider>
+    </RadixAccordionRoot>
+  );
+};
 
 const AccordionItemContext = createContext<AccordionItemState>({});
 AccordionItemContext.displayName = 'AccordionItemContext';
@@ -87,20 +89,29 @@ const useAccordionItemContext = (component: string) => {
   return context;
 };
 
-const Item: React.FC<ItemProps> = ({ children, value, className, disabled }) => {
+const Item: React.FC<ItemProps> = ({
+  children,
+  value,
+  className,
+  disabled,
+}) => {
   const { itemSize } = useAccordionContext('Accordion.Item');
   const contentElement = useRef<HTMLDivElement>(null);
-  return <RadixAccordion.Item
-    value={value}
-    className={mergeClassnames('w-full', className)}
-    key={value}
-    disabled={disabled}
-  >
-    <AccordionItemContext.Provider value={{ size: itemSize, contentElement, disabled }}>
-      { children }
-    </AccordionItemContext.Provider>
-  </RadixAccordion.Item>
-}
+  return (
+    <RadixAccordion.Item
+      value={value}
+      className={mergeClassnames('w-full', className)}
+      key={value}
+      disabled={disabled}
+    >
+      <AccordionItemContext.Provider
+        value={{ size: itemSize, contentElement, disabled }}
+      >
+        {children}
+      </AccordionItemContext.Provider>
+    </RadixAccordion.Item>
+  );
+};
 
 type HeaderProps = {
   className?: string;
@@ -110,11 +121,13 @@ type HeaderProps = {
 const Header: React.FC<HeaderProps> = ({ children, className }) => {
   const { contentElement } = useAccordionItemContext('Accordion.Header');
   return (
-    <RadixAccordion.Header className={mergeClassnames(
-      'w-full rounded-moon-s-sm bg-gohan',
-      contentElement?.current && 'moon-open:rounded-b-none',
-      className
-    )}>
+    <RadixAccordion.Header
+      className={mergeClassnames(
+        'w-full rounded-moon-s-sm bg-gohan',
+        contentElement?.current && 'moon-open:rounded-b-none',
+        className
+      )}
+    >
       {children}
     </RadixAccordion.Header>
   );
@@ -123,13 +136,16 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => {
 const Button: React.FC<ButtonProps> = ({ children, className }) => {
   const { size, disabled } = useAccordionItemContext('Accordion.Button');
   return (
-    <RadixAccordion.Trigger disabled={disabled} className={mergeClassnames(
-      setPadding(true, size),
-      setFont(size),
-      'w-full justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start',
-      'data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 ',
-      className,
-    )}>
+    <RadixAccordion.Trigger
+      disabled={disabled}
+      className={mergeClassnames(
+        setPadding(true, size),
+        setFont(size),
+        'w-full justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start',
+        'data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 ',
+        className
+      )}
+    >
       {children}
     </RadixAccordion.Trigger>
   );
@@ -150,11 +166,18 @@ const Content: React.FC<{ className?: string }> = ({ children, className }) => {
   );
 };
 
-const ContentOutside: React.FC<{ className?: string }> = ({ children, className }) => {
+const ContentOutside: React.FC<{ className?: string }> = ({
+  children,
+  className,
+}) => {
   const { size } = useAccordionItemContext('Accordion.ContentOutside');
   return (
     <RadixAccordion.Content
-      className={mergeClassnames(setMargin(size), 'overflow-hidden w-full text-bulma text-moon-14', className)}
+      className={mergeClassnames(
+        setMargin(size),
+        'overflow-hidden w-full text-bulma text-moon-14',
+        className
+      )}
     >
       {children}
     </RadixAccordion.Content>

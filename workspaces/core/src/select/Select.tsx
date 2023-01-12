@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import HintText from './private/HintText';
 import InputBtn from './private/InputBtn';
 import Options from './private/Options';
@@ -28,7 +28,7 @@ type Placement =
 
 export type SelectSize = 'sm' | 'md' | 'lg' | 'xl';
 export type SelectProps<T extends readonly object[], BaseOptionType> = {
-  size?: SelectSize | string;
+  size?: SelectSize;
   label?: JSX.Element | string;
   placeholder?: JSX.Element | string;
   isError?: boolean;

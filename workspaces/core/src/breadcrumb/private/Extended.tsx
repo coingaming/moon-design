@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowsRight } from '@heathmont/moon-icons-tw';
-import mergeClassnames from '../../utils/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 import type BreadcrumbProps from './types/BreadcrumbProps';
 
 const Extended: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => (

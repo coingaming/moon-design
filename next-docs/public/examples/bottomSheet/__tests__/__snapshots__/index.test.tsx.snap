@@ -46,7 +46,7 @@ Array [
               className="p-4 border-b-2 border-beerus"
             >
               <h3
-                className="text-moon-18 text-bulma font-semibold text-center"
+                className="text-moon-18 text-bulma font-medium text-center"
                 id="headlessui-dialog-title-:rk:"
               >
                 I am gonna show you some data whether you like it or not!
@@ -929,7 +929,7 @@ Array [
           className="p-4 border-b-2 border-beerus"
         >
           <h3
-            className="text-moon-18 text-bulma font-semibold"
+            className="text-moon-18 text-bulma font-medium"
             id="headlessui-dialog-title-:rd:"
           >
             Do you wear skinny jeans?
@@ -1009,7 +1009,7 @@ Array [
               className="p-4 border-b-2 border-beerus"
             >
               <h3
-                className="text-moon-18 text-bulma font-semibold text-center"
+                className="text-moon-18 text-bulma font-medium text-center"
                 id="headlessui-dialog-title-:rg:"
               >
                 Forgot password?
@@ -1084,7 +1084,7 @@ Array [
                 className="px-2"
               >
                 <p
-                  className="font-semibold text-bulma"
+                  className="font-medium text-bulma"
                 >
                   Email us
                 </p>
@@ -1149,7 +1149,7 @@ Array [
               className="p-4 border-b-2 border-beerus"
             >
               <h3
-                className="text-moon-18 text-bulma font-semibold text-center"
+                className="text-moon-18 text-bulma font-medium text-center"
                 id="headlessui-dialog-title-:r9:"
               >
                 I am gonna show you some data whether you like it or not!
@@ -2032,7 +2032,7 @@ Array [
           className="p-4 border-b-2 border-beerus"
         >
           <h3
-            className="text-moon-18 text-bulma font-semibold"
+            className="text-moon-18 text-bulma font-medium"
             id="headlessui-dialog-title-:r2:"
           >
             Do you wear skinny jeans?
@@ -2112,7 +2112,7 @@ Array [
               className="p-4 border-b-2 border-beerus"
             >
               <h3
-                className="text-moon-18 text-bulma font-semibold text-center"
+                className="text-moon-18 text-bulma font-medium text-center"
                 id="headlessui-dialog-title-:r5:"
               >
                 Forgot password?
@@ -2187,7 +2187,7 @@ Array [
                 className="px-2"
               >
                 <p
-                  className="font-semibold text-bulma"
+                  className="font-medium text-bulma"
                 >
                   Email us
                 </p>
@@ -2254,7 +2254,7 @@ exports[`BottomSheet in RTL renders CustomHeight 1`] = `
               className="p-4 border-b-2 border-beerus"
             >
               <h3
-                className="text-moon-18 text-bulma font-semibold text-center"
+                className="text-moon-18 text-bulma font-medium text-center"
                 id="headlessui-dialog-title-:rv:"
               >
                 I am gonna show you some data whether you like it or not!
@@ -3139,7 +3139,7 @@ exports[`BottomSheet in RTL renders Default 1`] = `
           className="p-4 border-b-2 border-beerus"
         >
           <h3
-            className="text-moon-18 text-bulma font-semibold"
+            className="text-moon-18 text-bulma font-medium"
             id="headlessui-dialog-title-:ro:"
           >
             Do you wear skinny jeans?
@@ -3221,7 +3221,7 @@ exports[`BottomSheet in RTL renders LargeWithOptionalExtras 1`] = `
               className="p-4 border-b-2 border-beerus"
             >
               <h3
-                className="text-moon-18 text-bulma font-semibold text-center"
+                className="text-moon-18 text-bulma font-medium text-center"
                 id="headlessui-dialog-title-:rr:"
               >
                 Forgot password?
@@ -3296,7 +3296,7 @@ exports[`BottomSheet in RTL renders LargeWithOptionalExtras 1`] = `
                 className="px-2"
               >
                 <p
-                  className="font-semibold text-bulma"
+                  className="font-medium text-bulma"
                 >
                   Email us
                 </p>

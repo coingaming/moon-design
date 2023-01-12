@@ -535,6 +535,8 @@ importers:
       '@radix-ui/react-toast': 1.1.1
       '@radix-ui/react-tooltip': 1.0.2
       react-popper: ^2.3.0
+      scroll-into-view-if-needed: 2.2.22
+      smooth-scroll-into-view-if-needed: 1.1.27
       tailwind-merge: 1.8.0
       tailwindcss-radix: ^2.6.1
     dependencies:
@@ -545,6 +547,8 @@ importers:
       '@radix-ui/react-toast': 1.1.1_biqbaboplfbrettd7655fr4n2y
       '@radix-ui/react-tooltip': 1.0.2_biqbaboplfbrettd7655fr4n2y
       react-popper: 2.3.0_r6q5zrenym2zg7je7hgi674bti
+      scroll-into-view-if-needed: 2.2.22
+      smooth-scroll-into-view-if-needed: 1.1.27
       tailwind-merge: 1.8.0
       tailwindcss-radix: 2.6.1
 

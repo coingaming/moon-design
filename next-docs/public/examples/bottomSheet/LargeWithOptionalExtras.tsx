@@ -45,7 +45,7 @@ const Example = () => {
               <div className="flex mt-2">
                 <MailEnvelope className="text-moon-48 text-bulma" />
                 <div className="px-2">
-                  <p className="font-semibold text-bulma">Email us</p>
+                  <p className="font-medium text-bulma">Email us</p>
                   <p className="text-xs text-trunks">Contact us via email</p>
                 </div>
               </div>

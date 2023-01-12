@@ -1,21 +1,17 @@
 import React from 'react';
 import { Listbox } from '@headlessui/react';
-import {
-  ControlsChevronDown,
-  ControlsChevronDownSmall,
-  ControlsChevronUp,
-  ControlsChevronUpSmall,
-} from '@heathmont/moon-icons-tw';
-import mergeClassnames from '../../utils/mergeClassnames';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
+import type { SelectSize } from '../Select';
 
 type InputBtnProps = {
-  size?: 'md' | 'lg' | 'xl' | string;
+  size: SelectSize;
   isError?: boolean;
   open?: boolean;
   disabled?: boolean;
 };
 
-const getSelectSize = (size?: 'sm' | 'md' | 'lg' | 'xl' | string) => {
+const getSelectSize = (size?: SelectSize) => {
   switch (size) {
     case 'xl':
       return 'h-14 py-2 px-4 rounded-moon-i-md';
@@ -23,7 +19,6 @@ const getSelectSize = (size?: 'sm' | 'md' | 'lg' | 'xl' | string) => {
       return 'h-12 py-3 px-4 rounded-moon-i-sm';
     case 'sm':
       return 'h-8 py-1 p-3 rounded-moon-i-xs';
-    case 'md':
     default:
       return 'h-10 py-2 px-3 rounded-moon-i-sm';
   }
@@ -39,30 +34,22 @@ const InputBtn: React.FC<InputBtnProps> = ({
   <Listbox.Button
     {...rest}
     className={mergeClassnames(
-      'flex items-center justify-between',
-      'w-full bg-gohan border-beerus',
-      'shadow-input hover:shadow-input-hov transition-shadow duration-200',
-      'focus:shadow-input-focus focus:outline-none',
+      'flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200',
+      'transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none',
       getSelectSize(size),
       isError &&
         'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-      disabled && 'opacity-30 cursor-not-allowed'
+      disabled && 'cursor-not-allowed'
     )}
   >
     {children}
-    <div className="flex-shrink-0">
-      {open ? (
-        size === 'sm' ? (
-          <ControlsChevronUpSmall className="text-[1.5rem] text-trunks" />
-        ) : (
-          <ControlsChevronUp className="text-[1.5rem] text-trunks" />
-        )
-      ) : size === 'sm' ? (
-        <ControlsChevronDownSmall className="text-[1.5rem] text-trunks" />
-      ) : (
-        <ControlsChevronDown className="text-[1.5rem] text-trunks" />
+    <ControlsChevronDownSmall
+      className={mergeClassnames(
+        'flex-shrink-0 transition-transform',
+        size === 'sm' ? 'text-moon-16' : 'text-moon-24',
+        open && 'rotate-[-180deg]'
       )}
-    </div>
+    />
   </Listbox.Button>
 );
 

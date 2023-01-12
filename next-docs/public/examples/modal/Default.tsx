@@ -12,7 +12,7 @@ const Example = () => {
         <Modal.Backdrop />
         <Modal.Panel>
           <div className="p-4 border-b-2 border-beerus">
-            <h3 className="text-moon-18 text-bulma font-semibold">
+            <h3 className="text-moon-18 text-bulma font-medium">
               Payment successful
             </h3>
           </div>

@@ -1,4 +1,4 @@
-import mergeClassnames from '../../../../utils/mergeClassnames';
+import mergeClassnames from '../../../../mergeClassnames/mergeClassnames';
 import getLgPadding from './getLgPadding';
 import getMdPadding from './getMdPadding';
 import getSmPadding from './getSmPadding';
