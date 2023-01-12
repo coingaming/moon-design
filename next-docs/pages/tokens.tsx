@@ -33,8 +33,8 @@ const PageTokensNew = () => (
         <li>
           Create your product{' '}
           <a
-            href="https://github.com/coingaming/moon-design/tree/develop/packages/themes/src"
-            target="_black"
+            href="https://github.com/coingaming/moon-design/tree/develop/workspaces/themes/src"
+            target="_blank"
             rel="noreferrer"
             className="underline"
           >
@@ -57,267 +57,85 @@ const PageTokensNew = () => (
       </ul>
     </ComponentPageDescription>
     <TokenTable
-      title="Border Radius"
+      title="Border radius"
       data={[
         {
-          name: 'none',
-          key: 'borderRadius.none',
-          value: 0,
-        },
-        {
-          name: 'twoxsmall',
-          key: 'borderRadius.twoxsmall',
-          value: '2px',
-        },
-        {
-          name: 'xsmall',
-          key: 'borderRadius.xsmall',
+          name: 'XS interactive border radius',
+          variable: '--radius-i-xs',
+          className: 'rounded-moon-i-xs',
           value: '4px',
         },
         {
-          name: 'small',
-          key: 'borderRadius.small',
-          value: '6px',
-        },
-        {
-          name: 'medium',
-          key: 'borderRadius.medium',
+          name: 'SM interactive border radius',
+          variable: '--radius-i-sm',
+          className: 'rounded-moon-i-sm',
           value: '8px',
         },
         {
-          name: 'large',
-          key: 'borderRadius.large',
+          name: 'MD interactive border radius',
+          variable: '--radius-i-md',
+          className: 'rounded-moon-i-md',
           value: '12px',
         },
         {
-          name: 'xlarge',
-          key: 'borderRadius.xlarge',
-          value: '16px',
-        },
-        {
-          name: 'twoxlarge',
-          key: 'borderRadius.twoxlarge',
-          value: '24px',
-        },
-        {
-          name: 'full',
-          key: 'borderRadius.full',
-          value: '9999px',
-        },
-        {
-          name: 'interactive',
-          key: 'borderRadius.interactive',
-          value: '9999px',
-        },
-      ]}
-    />
-    <TokenTable
-      title="Breakpoint"
-      data={[
-        {
-          name: 'small',
-          key: 'breakpoint.small',
-          value: '640px',
-        },
-        {
-          name: 'medium',
-          key: 'breakpoint.medium',
-          value: '768px',
-        },
-        {
-          name: 'large',
-          key: 'breakpoint.large',
-          value: '1024px',
-        },
-        {
-          name: 'xlarge',
-          key: 'breakpoint.xlarge',
-          value: '1280px',
-        },
-        {
-          name: 'twoxlarge',
-          key: 'breakpoint.twoxlarge',
-          value: '1536px',
-        },
-      ]}
-    />
-    <TokenTable
-      title="Border"
-      data={[
-        {
-          name: 'default',
-          key: 'border.default',
-          value: '1px solid',
-        },
-        {
-          name: 'interactive',
-          key: 'border.interactive',
-          value: '2px solid',
-        },
-        {
-          name: 'width.default',
-          key: 'border.width.default',
-          value: '1px',
-        },
-        {
-          name: 'width.interactive',
-          key: 'border.width.interactive',
-          value: '2px',
-        },
-        {
-          name: 'style',
-          key: 'border.style',
-          value: 'solid',
-        },
-      ]}
-    />
-    <TokenTable
-      title="Space"
-      data={[
-        {
-          name: 'threexsmall',
-          key: 'space.threexsmall',
+          name: 'XS surface border radius',
+          variable: '--radius-s-xs',
+          className: 'rounded-moon-s-xs',
           value: '4px',
         },
         {
-          name: 'twoxsmall',
-          key: 'space.twoxsmall',
+          name: 'SM surface border radius',
+          variable: '--radius-s-sm',
+          className: 'rounded-moon-s-sm',
           value: '8px',
         },
         {
-          name: 'xsmall',
-          key: 'space.xsmall',
+          name: 'MD surface border radius',
+          variable: '--radius-s-md',
+          className: 'rounded-moon-s-md',
           value: '12px',
         },
         {
-          name: 'small',
-          key: 'space.small',
+          name: 'LG surface border radius',
+          variable: '--radius-s-lg',
+          className: 'rounded-moon-s-lg',
           value: '16px',
         },
-        {
-          name: 'medium',
-          key: 'space.medium',
-          value: '24px',
-        },
-        {
-          name: 'large',
-          key: 'space.large',
-          value: '32px',
-        },
-        {
-          name: 'xlarge',
-          key: 'space.xlarge',
-          value: '40px',
-        },
-        {
-          name: 'twoxlarge',
-          key: 'space.twoxlarge',
-          value: '48px',
-        },
-        {
-          name: 'threexlarge',
-          key: 'space.threexlarge',
-          value: '56px',
-        },
       ]}
     />
     <TokenTable
-      title="Transition"
+      title="Box shadow"
       data={[
         {
-          name: 'slow',
-          key: 'transition.slow',
-          value: '0.4s ease-in-out',
+          name: 'XS box shadow',
+          variable: '--shadow-xs',
+          className: 'shadow-moon-xs',
+          value: '0 4px 12px -6px rgb(0 0 0 / 0.06)',
         },
         {
-          name: 'default',
-          key: 'transition.default',
-          value: '0.2s ease-in-out',
-        },
-      ]}
-    />
-    <TokenTable
-      title="zIndex"
-      data={[
-        {
-          name: 'carouselControl',
-          key: 'zIndex.carouselControl',
-          value: 5,
+          name: 'SM box shadow',
+          variable: '--shadow-sm',
+          className: 'shadow-moon-sm',
+          value: '0 6px 6px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4)',
         },
         {
-          name: 'dialog',
-          key: 'zIndex.dialog',
-          value: 10000,
+          name: 'MD box shadow',
+          variable: '--shadow-md',
+          className: 'shadow-moon-md',
+          value: '0 12px 12px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4)',
         },
         {
-          name: 'toggle',
-          key: 'zIndex.toggle',
-          value: 1,
+          name: 'LG box shadow',
+          variable: '--shadow-lg',
+          className: 'shadow-moon-lg',
+          value: '0 8px 24px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4)',
         },
-      ]}
-    />
-    <TokenTable
-      title="Box Shadow"
-      data={[
         {
-          name: 'small',
-          key: 'boxShadow.small',
+          name: 'XL box shadow',
+          variable: '--shadow-xl',
+          className: 'shadow-moon-xl',
           value:
-            '0 6px 6px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
-        },
-        {
-          name: 'medium',
-          key: 'boxShadow.medium',
-          value:
-            '0 12px 12px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
-        },
-        {
-          name: 'large',
-          key: 'boxShadow.large',
-          value:
-            '0 8px 24px -6px rgba(0, 0, 0, 0.16), 0 0 1px rgba(0, 0, 0, 0.4)',
-        },
-        {
-          name: 'xlarge',
-          key: 'boxShadow.xlarge',
-          value:
-            '0 32px  32px -8px rgba(0, 0, 0, 0.08), 0 0 32px -8px rgba(0, 0, 0, 0.12), 0 0 1px rgba(0, 0, 0, 0.2)',
-        },
-      ]}
-    />
-    <TokenTable
-      title="Font"
-      data={[
-        {
-          name: 'face',
-          key: 'font.face',
-          value: 'Returns CSS @font-face declaration',
-        },
-        {
-          name: 'family',
-          key: 'font.family',
-          value:
-            'Averta Std, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
-        },
-        {
-          name: 'size',
-          key: 'font.size',
-          value: '16px',
-        },
-        {
-          name: 'weight.normal',
-          key: 'font.weight.normal',
-          value: 400,
-        },
-        {
-          name: 'weight.semibold',
-          key: 'font.weight.semibold',
-          value: 500,
-        },
-        {
-          name: 'lineHeight',
-          key: 'font.lineHeight',
-          value: '24px',
+            '0 32px 32px -8px rgb(0 0 0 / 0.08), 0 0 32px -8px rgb(0 0 0 / 0.12), 0 0 1px rgb(0 0 0 / 0.2)',
         },
       ]}
     />
@@ -325,129 +143,10 @@ const PageTokensNew = () => (
       title="Opacity"
       data={[
         {
-          name: 'opacity',
-          key: 'opacity',
-          value: 0.32,
-        },
-      ]}
-    />
-    <TokenTable
-      title="Button"
-      data={[
-        {
-          name: 'primary',
-          key: 'button.primary',
-          value: 'To be done',
-        },
-        {
-          name: 'secondary',
-          key: 'button.secondary',
-          value: 'To be done',
-        },
-        {
-          name: 'tertiary',
-          key: 'button.tertiary',
-          value: 'To be done',
-        },
-      ]}
-    />
-    <TokenTable
-      title="p link"
-      data={[
-        {
-          name: 'fontWeight',
-          key: 'textLink.fontWeight',
-          value: 500,
-        },
-        {
-          name: 'color.default',
-          key: 'button.color.default',
-          value: 'piccolo',
-        },
-        {
-          name: 'color.hover',
-          key: 'button.color.hover',
-          value: 'hit',
-        },
-        {
-          name: 'color.visited',
-          key: 'button.color.visited',
-          value: 'hit',
-        },
-      ]}
-    />
-    <TokenTable
-      title="Hover"
-      data={[
-        {
-          name: 'primary',
-          key: 'hover.primary',
-          value: 'bulma, 12%',
-        },
-        {
-          name: 'secondary',
-          key: 'hover.secondary',
-          value: 'piccolo, 12%',
-        },
-      ]}
-    />
-    <TokenTable
-      title="Focus"
-      data={[
-        {
-          name: 'focus',
-          key: 'focus',
-          value: '0 0 0 4px piccolo, 20%',
-        },
-      ]}
-    />
-    <TokenTable
-      title="Transform"
-      data={[
-        {
-          name: 'transform',
-          key: 'transform',
-          value: 'scale(0.9)',
-        },
-      ]}
-    />
-    <TokenTable
-      title="Size"
-      data={[
-        {
-          name: 'twoxsmall',
-          key: 'size.twoxsmall',
-          value: '16px',
-        },
-        {
-          name: 'xsmall',
-          key: 'size.xsmall',
-          value: '24px',
-        },
-        {
-          name: 'small',
-          key: 'size.small',
-          value: '32px',
-        },
-        {
-          name: 'medium',
-          key: 'size.medium',
-          value: '40px',
-        },
-        {
-          name: 'large',
-          key: 'size.large',
-          value: '48px',
-        },
-        {
-          name: 'xlarge',
-          key: 'size.xlarge',
-          value: '56px',
-        },
-        {
-          name: 'twoxlarge',
-          key: 'size.twoxlarge',
-          value: '64px',
+          name: 'Opacity',
+          variable: '--opacity-moon',
+          className: 'opacity-moon',
+          value: '0.32',
         },
       ]}
     />

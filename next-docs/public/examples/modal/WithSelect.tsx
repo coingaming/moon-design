@@ -41,9 +41,7 @@ const Example = () => {
         <Modal.Backdrop />
         <Modal.Panel>
           <div className="border-b-[0.063rem] border-beerus pt-5 pb-4 px-6 relative">
-            <h3 className="text-moon-18 text-bulma font-semibold">
-              Modal title
-            </h3>
+            <h3 className="text-moon-18 text-bulma font-medium">Modal title</h3>
             <span
               className="absolute top-5 right-5 cursor-pointer"
               onClick={closeModal}
