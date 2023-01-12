@@ -65,7 +65,7 @@ const DataSelect: React.FC<{ options: any; label: string }> = ({
   options,
   label,
 }) => {
-  const [option, setOption] = useState(null);
+  const [option, setOption] = useState<{ name?: string } | null>(null);
   return (
     <>
       <Dropdown value={option} onChange={setOption}>
