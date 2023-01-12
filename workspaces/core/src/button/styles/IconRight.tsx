@@ -1,19 +1,20 @@
 import React from 'react';
-import mergeClassNames from '../../mergeClassnames/mergeClassnames';
+import mergeClassnames from '../../mergeClassnames/mergeClassnames';
+import getIconSize from '../private/utils/buttonSizes/getIconSize';
 import getIconHorizontalPosition from '../private/utils/buttonStyles/getIconHorizontalPosition';
 import type ButtonSettingsProps from '../private/types/ButtonSettingsProps';
 
 const IconRight = ({ fullWidth, iconRight, size }: ButtonSettingsProps) => (
   <span
     aria-hidden="true"
-    className={
-      fullWidth
-        ? mergeClassNames(
-            'absolute block top-1/2 translate-y-[-50%]',
-            getIconHorizontalPosition({ iconRight, size })
-          )
-        : ''
-    }
+    className={mergeClassnames(
+      getIconSize(size),
+      fullWidth &&
+        `absolute block top-1/2 translate-y-[-50%] ${getIconHorizontalPosition({
+          iconRight,
+          size,
+        })}`
+    )}
   >
     {iconRight}
   </span>

@@ -41,7 +41,7 @@ exports[`Breadcrumb in Dark Theme renders collapsed 1`] = `
       className="relative"
     >
       <button
-        className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
+        className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
@@ -354,7 +354,7 @@ exports[`Breadcrumb in Light Theme renders collapsed 1`] = `
       className="relative"
     >
       <button
-        className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
+        className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
         onClick={[Function]}
         onMouseEnter={[Function]}
         onMouseLeave={[Function]}
@@ -670,7 +670,7 @@ exports[`Breadcrumb in RTL renders collapsed 1`] = `
         className="relative"
       >
         <button
-          className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 text-trunks bg-transparent hover:text-bulma focus:ring-bulma/[.2]"
+          className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
           onClick={[Function]}
           onMouseEnter={[Function]}
           onMouseLeave={[Function]}

@@ -42,6 +42,7 @@ const IconButton = <C extends React.ElementType = 'button'>({
           icon={icon}
           children={children}
           animation={animation}
+          size={size}
         />
       ) : (
         <>
