@@ -16,6 +16,8 @@ export { default as Breadcrumb } from './breadcrumb/Breadcrumb';
 export * from './breadcrumb/Breadcrumb';
 export { default as Button } from './button/Button';
 export * from './button/Button';
+export { default as Carousel } from './carousel/Carousel';
+export * from './carousel/Carousel';
 export { default as Checkbox } from './checkbox/Checkbox';
 export * from './checkbox/Checkbox';
 export { default as Chip } from './chip/Chip';

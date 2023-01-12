@@ -442,6 +442,22 @@ module.exports = {
             padding: '0.5rem',
           },
         },
+        '.hidden-scroll': {
+          '&::-webkit-scrollbar': {
+            width: 12,
+            height: 12,
+            cursor: 'pointer',
+          },
+          '&::-webkit-scrollbar-thumb': {
+            backgroundColor: 'transparent',
+            backgroundClip: 'content-box',
+            borderRadius: '100px',
+            border: '3px solid transparent',
+          },
+          '&:hover::-webkit-scrollbar-thumb': {
+            backgroundColor: 'rgb(var(--goku))',
+          },
+        },
       });
     }),
     plugin(function ({ addVariant }) {
