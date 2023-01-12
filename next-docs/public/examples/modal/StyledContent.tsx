@@ -11,7 +11,7 @@ const Example = () => {
       <Button onClick={openModal}>Open dialog</Button>
       <Modal open={isOpen} onClose={closeModal}>
         <Modal.Backdrop />
-        <Modal.Panel className="lg:max-w-md bg-roshi-10 rounded-none">
+        <Modal.Panel className="lg:max-w-md bg-roshi text-goten rounded-none">
           <span
             className="absolute top-5 right-5 cursor-pointer"
             onClick={closeModal}
@@ -20,7 +20,7 @@ const Example = () => {
           </span>
           <div className=" p-4 pt-11">
             <div className="mt-2">
-              <h3 className="text-moon-24 text-bulma semibold text-center">
+              <h3 className="text-moon-24 text-goten font-medium text-center">
                 Your payment has been successfully submitted.
               </h3>
             </div>

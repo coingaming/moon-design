@@ -42,7 +42,7 @@ const scrollToIndex = (
     // scrollIntoViewSmoothly doesn't work for scrolling rtl in rtl mode
     if (itemRef.offsetLeft < 0) {
       console.log(itemRef, itemRef.offsetLeft);
-      itemRef.scrollIntoView({behavior: "smooth", inline: 'center'});
+      itemRef.scrollIntoView({ behavior: 'smooth', inline: 'center' });
     }
   }
 };
@@ -121,12 +121,10 @@ const showHideIndicator = (
     : setRightIndicator(false);
   firstVisibleIndex > 0 ? setLeftIndicator(true) : setLeftIndicator(false);
   if (firstVisibleIndex === -1) {
-    itemRefs.length > 0 ?
-    setLeftIndicator(true) : setLeftIndicator(false)
+    itemRefs.length > 0 ? setLeftIndicator(true) : setLeftIndicator(false);
   }
   if (lastVisibleIndex === -1) {
-    itemRefs.length > 0 ?
-    setRightIndicator(true) : setRightIndicator(false)
+    itemRefs.length > 0 ? setRightIndicator(true) : setRightIndicator(false);
   }
 };
 
@@ -169,7 +167,8 @@ export const withHorizontalScroll = (options: Options): any => {
       observer.observe(item);
     });
 
-    return () => itemRefs.forEach((item) => {
+    return () =>
+      itemRefs.forEach((item) => {
         observer.unobserve(item);
       });
   }, []);
@@ -204,7 +203,7 @@ export const withHorizontalScroll = (options: Options): any => {
         itemRefs[scrollTo + 1],
         scrollIntoViewSmoothly,
         scrollInContainer && containerRef && containerRef.current
-      )
+      );
     }
     // No point for scroll another extra item because that's the last one
     if (scrollTo && scrollTo === itemRefs.length - 1) {
@@ -212,7 +211,7 @@ export const withHorizontalScroll = (options: Options): any => {
         itemRefs[scrollTo],
         scrollIntoViewSmoothly,
         scrollInContainer && containerRef && containerRef.current
-      )
+      );
     }
   }, []);
 

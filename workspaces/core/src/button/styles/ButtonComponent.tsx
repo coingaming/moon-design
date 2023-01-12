@@ -24,9 +24,16 @@ const ButtonComponent = <C extends React.ElementType>({
   return (
     <Component
       className={mergeClassnames(
-        getButtonSize({ size, icon, iconLeft, iconRight, iconOnly, fullWidth }),
-        getButtonCommonStyles({ disabled }),
-        getButtonVariants({ variant }),
+        getButtonSize({
+          size,
+          icon,
+          iconLeft,
+          iconRight,
+          iconOnly,
+          fullWidth,
+        }),
+        getButtonCommonStyles(disabled),
+        getButtonVariants(variant),
         animation === 'pulse' && getAnimation('pulse'),
         animation === 'error' && getAnimation('error'),
         fullWidth && !iconOnly && 'w-full',

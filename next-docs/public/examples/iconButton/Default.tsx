@@ -1,8 +1,6 @@
 import { IconButton } from '@heathmont/moon-core-tw';
-import { GenericSettings } from '@heathmont/moon-icons-tw';
+import { OtherFrame } from '@heathmont/moon-icons-tw';
 
-const Example = () => (
-  <IconButton icon={<GenericSettings className="text-moon-24" />} />
-);
+const Example = () => <IconButton icon={<OtherFrame />} />;
 
 export default Example;
