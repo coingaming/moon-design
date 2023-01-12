@@ -1,6 +1,6 @@
 import React from 'react';
 import { useFormItemContext } from '../form/Form';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 type HintProps = {
   error?: boolean;

@@ -1,6 +1,6 @@
 import React, { forwardRef } from 'react';
 import { useFormContext, useFormItemContext } from '../form/Form';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import getSizeStyles from './private/getSizeStyles';
 
 interface InputProps

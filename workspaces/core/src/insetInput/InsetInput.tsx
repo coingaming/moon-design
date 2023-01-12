@@ -1,7 +1,7 @@
 import React, { forwardRef, createContext, useContext, useEffect } from 'react';
 import { useFormItemContext } from '../form/Form';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import useRegisterChild from '../private/utils/useRegisterChild';
-import mergeClassnames from '../utils/mergeClassnames';
 
 interface InsetInputProps extends React.InputHTMLAttributes<HTMLInputElement> {
   className?: string;

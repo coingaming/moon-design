@@ -1,5 +1,5 @@
 import React, { createContext, forwardRef, useContext, ReactNode } from 'react';
-import mergeClassnames from '../utils/mergeClassnames';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 type WithChildren<T = {}> = T & { children?: ReactNode };
 
