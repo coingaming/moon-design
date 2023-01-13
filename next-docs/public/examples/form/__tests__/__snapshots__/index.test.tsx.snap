@@ -293,7 +293,7 @@ exports[`Form in Dark Theme renders with Input 1`] = `
     />
   </div>
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
     form="login"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -399,7 +399,7 @@ exports[`Form in Dark Theme renders with InsetInput 1`] = `
     />
   </div>
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
     form="login"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -708,7 +708,7 @@ exports[`Form in Light Theme renders with Input 1`] = `
     />
   </div>
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
     form="login"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -814,7 +814,7 @@ exports[`Form in Light Theme renders with InsetInput  1`] = `
     />
   </div>
   <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
     form="login"
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}
@@ -1126,7 +1126,7 @@ exports[`Form in RTL renders with Input 1`] = `
       />
     </div>
     <button
-      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
       form="login"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
@@ -1236,7 +1236,7 @@ exports[`Form in RTL renders with InsetInput 1`] = `
       />
     </div>
     <button
-      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden select-none outline-none transition duration-200 active:scale-90 focus:ring-4 btn-primary focus:ring-piccolo/[.2]"
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
       form="login"
       onMouseEnter={[Function]}
       onMouseLeave={[Function]}
