@@ -1,4 +1,4 @@
-import React, { createContext, useContext, useEffect } from 'react';
+import React, { createContext, useContext, useEffect, ReactNode } from 'react';
 import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import useRegisterChild from '../private/utils/useRegisterChild';
@@ -91,7 +91,7 @@ const MenuItemRoot: MenuItemComponentProps = React.forwardRef(
   }
 );
 
-const Title: React.FC = ({ children }) => {
+const Title: React.FC<{ children?: ReactNode }> = ({ children }) => {
   const { registerChild } = useMenuItemContext('MenuItem.Title');
   useEffect(() => {
     registerChild && registerChild('Title');

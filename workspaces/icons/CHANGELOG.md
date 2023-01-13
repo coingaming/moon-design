@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.18.1
+
+### Patch Changes
+
+- Bump release
+
 ## 9.18.0
 
 ### Minor Changes
