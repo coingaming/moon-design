@@ -8,7 +8,7 @@ exports[`Accordion in RTL renders Default 1`] = `
     className="relative w-full"
   >
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
       disabled={true}
       onClick={[Function]}
     >
@@ -157,7 +157,7 @@ exports[`Accordion in RTL renders Default 1`] = `
       </li>
     </ul>
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
       disabled={true}
       onClick={[Function]}
     >
@@ -188,7 +188,7 @@ exports[`Accordion in RTL renders indicators 1`] = `
     className="relative w-[320px]"
   >
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
       disabled={true}
       onClick={[Function]}
     >
@@ -237,7 +237,7 @@ exports[`Accordion in RTL renders indicators 1`] = `
       </li>
     </ul>
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
       disabled={true}
       onClick={[Function]}
     >
@@ -271,7 +271,7 @@ exports[`Accordion in RTL renders visible index 1`] = `
     className="relative w-full"
   >
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
       disabled={true}
       onClick={[Function]}
     >
@@ -420,7 +420,7 @@ exports[`Accordion in RTL renders visible index 1`] = `
       </li>
     </ul>
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
       disabled={true}
       onClick={[Function]}
     >
@@ -603,7 +603,7 @@ exports[`Accordion in RTL renders with different Spaces 1`] = `
     className="relative w-full"
   >
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
       disabled={true}
       onClick={[Function]}
     >
@@ -652,7 +652,7 @@ exports[`Accordion in RTL renders with different Spaces 1`] = `
       </li>
     </ul>
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
       disabled={true}
       onClick={[Function]}
     >
@@ -680,7 +680,7 @@ exports[`Carousel in Dark Theme renders Default 1`] = `
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -829,7 +829,7 @@ exports[`Carousel in Dark Theme renders Default 1`] = `
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -856,7 +856,7 @@ exports[`Carousel in Dark Theme renders indicators 1`] = `
   className="relative w-[320px]"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -905,7 +905,7 @@ exports[`Carousel in Dark Theme renders indicators 1`] = `
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -935,7 +935,7 @@ exports[`Carousel in Dark Theme renders visible index 1`] = `
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -1084,7 +1084,7 @@ exports[`Carousel in Dark Theme renders visible index 1`] = `
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -1259,7 +1259,7 @@ exports[`Carousel in Dark Theme renders with different Spaces 1`] = `
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -1308,7 +1308,7 @@ exports[`Carousel in Dark Theme renders with different Spaces 1`] = `
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -1335,7 +1335,7 @@ exports[`Carousel in Light Theme renders Default 1`] = `
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -1484,7 +1484,7 @@ exports[`Carousel in Light Theme renders Default 1`] = `
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -1511,7 +1511,7 @@ exports[`Carousel in Light Theme renders indicators 1`] = `
   className="relative w-[320px]"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -1560,7 +1560,7 @@ exports[`Carousel in Light Theme renders indicators 1`] = `
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -1590,7 +1590,7 @@ exports[`Carousel in Light Theme renders visible index 1`] = `
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -1739,7 +1739,7 @@ exports[`Carousel in Light Theme renders visible index 1`] = `
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -1914,7 +1914,7 @@ exports[`Carousel in Light Theme renders with different Spaces 1`] = `
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
@@ -1963,7 +1963,7 @@ exports[`Carousel in Light Theme renders with different Spaces 1`] = `
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
     disabled={true}
     onClick={[Function]}
   >
