@@ -9,19 +9,22 @@ const Breadcrumbs = () => {
     <Link href="/">
       <a>Home</a>
     </Link>,
-    pages.length > 0 &&
-      pages.map((page) => (
-        <Link href={page}>
-          <a>{page && page[0].toUpperCase() + page.slice(1)}</a>
-        </Link>
-      )),
+    <>
+      {pages.length > 0
+        ? pages.map((page, index) => (
+            <Link href={page} key={index}>
+              <a>{page && page[0].toUpperCase() + page.slice(1)}</a>
+            </Link>
+          ))
+        : null}
+    </>,
   ];
   if (pathname === '/') {
     return null;
   }
   return (
     <div className="relative z-10 hidden lg:block pb-12">
-      <Breadcrumb breadcrumbs={breadcrumbsPath} />
+      <Breadcrumb breadcrumbs={breadcrumbsPath as any} />
     </div>
   );
 };
