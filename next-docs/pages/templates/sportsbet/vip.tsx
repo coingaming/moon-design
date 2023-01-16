@@ -167,12 +167,7 @@ const Vip = () => {
           />
         }
         button={
-          <Button
-            variant="primary"
-            width={124}
-            height={48}
-            className="btn-primary py-3 px-4 gap-1 text-moon-16 rounded-moon-i-sm mx-3 my-6 sm:mx-0 sm:px-0 sm:self-start w-full sm:w-[124px] "
-          >
+          <Button className="mx-3 my-6 sm:mx-0 sm:self-start w-full sm:w-auto">
             Sign up now
           </Button>
         }

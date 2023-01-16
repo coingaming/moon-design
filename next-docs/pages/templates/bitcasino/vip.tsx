@@ -335,82 +335,108 @@ const Vip = () => {
               </div>
             </div>
             <div className="flex flex-col md:hidden">
-              <div className=" mb-2">
-                <Accordion title={'Games'} isContentInside={true}>
-                  <p className="mb-0.5 text-trunks text-s leading-6">Slots</p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Roulette
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Live Baccarat
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Blackjack
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Live Casino
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Sportsbook
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Providers
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Live Poker
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Live Game Shows
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Casual Games
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Multiplayer
-                  </p>
-                </Accordion>
-              </div>
-              <div className=" mb-2">
-                <Accordion title={'About'} isContentInside={true}>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Loyalty Club
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">VIP</p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">Rewards</p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">Blog</p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Affiliates
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Help Centre
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Gaming License
-                  </p>
-                </Accordion>
-              </div>
-              <div className=" mb-2">
-                <Accordion title={'Info'} isContentInside={true}>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    General Terms and Conditions
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Reward Terms and Conditions
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Self-Exclusion Terms and Conditions
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Affiliate Terms & Conditions
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Privacy Policy
-                  </p>
-                  <p className="mb-0.5 text-trunks text-s leading-6">
-                    Responsible Gambling
-                  </p>
-                </Accordion>
-              </div>
+              <Accordion className="mb-2">
+                <Accordion.Item value="item-1">
+                  <Accordion.Header className="moon-open:[&_svg]:rotate-180">
+                    <Accordion.Button>
+                      <span>Games</span>
+                      <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+                    </Accordion.Button>
+                  </Accordion.Header>
+                  <Accordion.ContentOutside>
+                    <p className="mb-0.5 text-trunks text-s leading-6">Slots</p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Roulette
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Live Baccarat
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Blackjack
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Live Casino
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Sportsbook
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Providers
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Live Poker
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Live Game Shows
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Casual Games
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Multiplayer
+                    </p>
+                  </Accordion.ContentOutside>
+                </Accordion.Item>
+              </Accordion>
+              <Accordion className="mb-2">
+                <Accordion.Item value="item-1">
+                  <Accordion.Header className="moon-open:[&_svg]:rotate-180">
+                    <Accordion.Button>
+                      <span>About</span>
+                      <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+                    </Accordion.Button>
+                  </Accordion.Header>
+                  <Accordion.ContentOutside>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Loyalty Club
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">VIP</p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Rewards
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">Blog</p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Affiliates
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Help Centre
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Gaming License
+                    </p>
+                  </Accordion.ContentOutside>
+                </Accordion.Item>
+              </Accordion>
+              <Accordion className="mb-2">
+                <Accordion.Item value="item-1">
+                  <Accordion.Header className="moon-open:[&_svg]:rotate-180">
+                    <Accordion.Button>
+                      <span>Info</span>
+                      <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+                    </Accordion.Button>
+                  </Accordion.Header>
+                  <Accordion.ContentOutside>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      General Terms and Conditions
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Reward Terms and Conditions
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Self-Exclusion Terms and Conditions
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Affiliate Terms & Conditions
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Privacy Policy
+                    </p>
+                    <p className="mb-0.5 text-trunks text-s leading-6">
+                      Responsible Gambling
+                    </p>
+                  </Accordion.ContentOutside>
+                </Accordion.Item>
+              </Accordion>
             </div>
             <div className="grow-4 flex justify-center mt-6 sm:mt-0 sm:block ">
               <div className="hidden mb-4 justify-between items-center md:w-[65%] md:flex  ">
