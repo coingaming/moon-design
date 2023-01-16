@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import CustomizedArrow from '../../public/styledExamples/carousel/CustomizedArrow';
 import Default from '../../public/styledExamples/carousel/Default';
@@ -15,10 +16,7 @@ export default function PageCarousel() {
   return (
     <>
       <ComponentPageDescription title="Carousel">
-        <p>
-          An interactive extension of the Reel component to cycle through
-          content.
-        </p>
+        <DeprecationWarning href="/core/carousel" name="Carousel" />
       </ComponentPageDescription>
       <Preview
         title="Carousel"
