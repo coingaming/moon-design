@@ -9,15 +9,12 @@ const Breadcrumbs = () => {
     <Link href="/">
       <a>Home</a>
     </Link>,
-    <>
-      {pages.length > 0
-        ? pages.map((page, index) => (
-            <Link href={page} key={index}>
-              <a>{page && page[0].toUpperCase() + page.slice(1)}</a>
-            </Link>
-          ))
-        : null}
-    </>,
+    pages.length > 0 &&
+      pages.map((page, index) => (
+        <Link href={page} key={index}>
+          <a>{page && page[0].toUpperCase() + page.slice(1)}</a>
+        </Link>
+      )),
   ];
   if (pathname === '/') {
     return null;
