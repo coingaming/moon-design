@@ -106,7 +106,7 @@ const Example = () => {
         data={[
           {
             name: 'onChange',
-            type: '() => void;',
+            type: '(index: number) => void;',
             required: false,
             default: '-',
             description: 'A function called whenever the active tab changes.',
