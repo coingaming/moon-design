@@ -12,22 +12,22 @@ const PageTokensNew = () => (
         <span className="font-medium">
           all the values needed to construct and maintain a design system{' '}
         </span>
-        — spacing, color, typography, object styles, animation, etc.
+        — spacing, colour, typography, object styles, animation, etc.
       </p>
       <p>
-        These can represent anything defined by design: a color as a HEX value,
-        an opacity as a number, an animation ease as Bezier coordinates.
+        These can represent anything defined by design: colour as a HEX value,
+        opacity as a number, and animation ease as Bezier coordinates.
       </p>
       <p>
-        They're used in place of hard-coded values in order to ensure
-        flexibility and unity across all multi-product experiences.
+        They're used in place of hard-coded values to ensure flexibility and
+        unity across all multi-product experiences.
       </p>
       <p>
         Design tokens are directly integrated into our component libraries. They
-        cover the various options of platform scales, color themes, and more.
+        cover the various options of platform scales, colour themes, and more.
       </p>
       <h2 className="text-moon-20 font-medium">
-        How to create your own custom theme based and use it for your product.
+        How to create your custom theme based and use it for your product.
       </h2>
       <ul className="list-decimal list-inside">
         <li>
