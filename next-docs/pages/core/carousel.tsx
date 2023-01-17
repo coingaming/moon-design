@@ -15,10 +15,15 @@ export default function PageCarousel() {
 
   return (
     <>
-      <ComponentPageDescription title="Carousel">
+      <ComponentPageDescription title="Carousel" isInProgress>
         <p>
-          An interactive extension of the Reel component to cycle through
-          content.
+          Is an effective way of displaying multiple images or content in a
+          single space.
+        </p>
+        <p>
+          It not only helps in saving screen space, but also encourages visitors
+          to focus on important website content and improves the overall visual
+          appeal effectively.
         </p>
       </ComponentPageDescription>
       <ComponentAnatomy>
