@@ -162,7 +162,7 @@ const Vip = () => {
         }
         subtitle={
           <Subtitle
-            classes="break-words items-center mt-3 sm:px-0 sm:text-left sm:text-[18px] sm:leading-6 md:text-[24px] md:leading-8"
+            classes="break-words items-center mt-3 sm:px-0 sm:text-left sm:text-moon-18 sm:leading-6 md:text-moon-24 md:leading-8"
             text="Join the VIP Bitcasino Club - An exclusive world of crypto leaders and high-rollers who dare to take risks and enjoy life to its fullest."
           />
         }
@@ -272,10 +272,10 @@ const Vip = () => {
           }}
         >
           <div className="flex flex-col lg:items-start">
-            <p className="text-[24px] text-bulma !text-left leading-8 font-semibold sm:px-3 sm:text-left">
+            <p className="text-moon-24 text-bulma !text-left leading-8 font-semibold sm:px-3 sm:text-left">
               Enjoy BTC gaming at the best Bitcoin casino
             </p>
-            <p className="text-[18px] text-bulma opacity-60 !text-left !leading-8 my-2 sm:px-3 sm:text-left md:text-moon-16 lg:text-moon-16">
+            <p className="text-moon-18 text-bulma opacity-60 !text-left !leading-8 my-2 sm:px-3 sm:text-left md:text-moon-16 lg:text-moon-16">
               The future of gaming is here, we are the number one bitcoin casino
               in 2021 and into 2022. Our range of casino-slots consistently make
               the top ten across the bitcoin casino world. Read more.

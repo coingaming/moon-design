@@ -39,7 +39,7 @@ const Content: React.FC<RenderProps> = ({ open, close }) => {
     <div className="p-6 flex flex-col gap-6">
       <MenuItem>
         <span className="flex w-11 h-11 bg-goku items-center justify-center rounded-lg">
-          <GenericTrophy className="text-bulma text-[1.5rem]" />
+          <GenericTrophy className="text-bulma text-moon-24" />
         </span>
         <MenuItem.MultiTitle
           title="Tournaments"
@@ -48,7 +48,7 @@ const Content: React.FC<RenderProps> = ({ open, close }) => {
       </MenuItem>
       <MenuItem>
         <span className="flex w-11 h-11 bg-goku items-center justify-center">
-          <MediaMegaphone className="text-bulma text-[1.5rem]" />
+          <MediaMegaphone className="text-bulma text-moon-24" />
         </span>
         <MenuItem.MultiTitle
           title="Promotions"
@@ -57,7 +57,7 @@ const Content: React.FC<RenderProps> = ({ open, close }) => {
       </MenuItem>
       <MenuItem>
         <span className="flex w-11 h-11 bg-goku items-center justify-center">
-          <MediaTuner className="text-bulma text-[1.5rem]" />
+          <MediaTuner className="text-bulma text-moon-24" />
         </span>
         <MenuItem.MultiTitle
           title="Providers"

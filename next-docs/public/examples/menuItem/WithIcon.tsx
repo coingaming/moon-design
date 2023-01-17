@@ -5,14 +5,14 @@ const Example = () => (
   <>
     <div className="w-56">
       <MenuItem>
-        <SportBadminton className="text-[1.5rem]" />
+        <SportBadminton className="text-moon-24" />
         <MenuItem.Title>Your value</MenuItem.Title>
       </MenuItem>
     </div>
     <div className="w-56">
       <MenuItem>
         <MenuItem.Title>Your value</MenuItem.Title>
-        <SportBadminton className="text-[1.5rem]" />
+        <SportBadminton className="text-moon-24" />
       </MenuItem>
     </div>
   </>

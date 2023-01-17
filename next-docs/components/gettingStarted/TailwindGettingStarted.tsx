@@ -349,10 +349,10 @@ const TailwindGettingStarted = () => (
 
 const Example = () => (
   <div className="flex justify-around gap-2 flex-wrap items-center w-full">
-    <FilesCopy className="text-chichi text-[1rem]" />
-    <FilesCopy className="text-chichi text-[2rem]" />
-    <FilesCopy className="text-piccolo text-[3rem]" />
-    <FilesCopy className="text-cell text-[3rem]" />
+    <FilesCopy className="text-chichi text-moon-16" />
+    <FilesCopy className="text-chichi text-moon-32" />
+    <FilesCopy className="text-piccolo text-moon-48" />
+    <FilesCopy className="text-cell text-moon-48" />
   </div>
 );
 
