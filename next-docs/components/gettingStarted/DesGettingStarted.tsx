@@ -13,7 +13,7 @@ const DesGettingStarted = () => (
     </video>
     <PageSection title="Components usage" image={usage}>
       <p className="text-trunks">
-        Use search to find components, each component in the library has its own
+        Use search to find components, each component in the library has its
         unique name, which corresponds to the name in the code.
       </p>
       <p>
@@ -28,20 +28,19 @@ const DesGettingStarted = () => (
       </p>
     </PageSection>
     <PageSection title="Colour convention and rules" image={colourRules}>
-      <p className="text-trunks">What makes our color system different?</p>
-      <p>For that, we made a decision to give our colours unique names.</p>
+      <p className="text-trunks">What makes our colour system different?</p>
+      <p>For that, we decided to give our colours unique names.</p>
       <p>
         Meet the <span className="font-medium">Dragon Ball Z approach</span>.
       </p>
       <p>
-        Each color name is assigned for specific purpose and for each product
+        Each colour name is assigned for a specific purpose and for each product
         these values are different.
       </p>
     </PageSection>
     <PageSection title="Product colours" image={productColours}>
       <p className="text-trunks">
-        How to create your own custom colours based on the Moon colour
-        convention.
+        How to create your custom colours based on the Moon colour convention.
       </p>
       <ul className="list-disc ps-8">
         <li>
@@ -75,7 +74,7 @@ const DesGettingStarted = () => (
         <li>line height</li>
         <li>letter spacing</li>
       </ul>
-      <p>We also use 2 types of typo:</p>
+      <p>We also use 2 types of typography:</p>
       <ul className="list-disc ps-8">
         <li>
           <span className="font-medium">Paragraph</span> - for regular text
@@ -88,16 +87,16 @@ const DesGettingStarted = () => (
     </PageSection>
     <PageSection title="Product tokens" image={tokens}>
       <p className="text-trunks">
-        Design tokens are the collections of variables that customise Moon
+        Design tokens are collections of variables that customize Moon
         components for your product.
       </p>
       <ul className="list-disc ps-8">
         <li>
-          <span className="font-medium">Find</span> tokens page in your copy of
-          the components file
+          <span className="font-medium">Find</span> the tokens page in your copy
+          of the components file
         </li>
         <li>
-          <span className="font-medium">Change</span> the values to your product
+          <span className="font-medium">Change</span> the values of your product
           ones
         </li>
         <li>
