@@ -11,7 +11,7 @@ const Example = () => (
     </div>
     <div className="w-56">
       <MenuItem>
-        <ControlsChevronRight className="text-[1.5rem]" />
+        <ControlsChevronRight className="text-moon-24" />
         <MenuItem.Title>Your value</MenuItem.Title>
         <span className="text-moon-12 text-trunks">Meta</span>
       </MenuItem>
