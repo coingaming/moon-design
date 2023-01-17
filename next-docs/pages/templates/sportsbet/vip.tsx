@@ -468,88 +468,97 @@ const Vip = () => {
             </div>
           </div>
           <div className="flex flex-col lg:hidden">
-            <div className=" mb-2">
-              <Accordion
-                title={'List item'}
-                isContentInside={true}
-                backgroundColor="bg-gohan"
-              />
-            </div>
-            <div className=" mb-2">
-              <Accordion
-                title={'Casino'}
-                isContentInside={true}
-                backgroundColor="bg-gohan"
-              >
-                <div className="flex flex-col">
-                  <p className="mb-3 text-trunks text-xs">Casino</p>
-                  <p className="mb-3 text-trunks text-xs">Live Casino</p>
-                  <p className="mb-3 text-trunks text-xs">Bombay club</p>
-                </div>
-              </Accordion>
-            </div>
-            <div className=" mb-2">
-              <Accordion
-                backgroundColor="bg-gohan"
-                title={'Support'}
-                isContentInside={true}
-              >
-                <div className="flex flex-col">
-                  <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
-                  <p className="mb-3 text-trunks text-xs">
-                    General Betting Rules
-                  </p>
-                  <p className="mb-3 text-trunks text-xs">Help Centre</p>
-                  <p className="mb-3 text-trunks text-xs">Payment Options</p>
-                  <p className="mb-3 text-trunks text-xs">
-                    Responsible Gambling
-                  </p>
-                  <p className="mb-3 text-trunks text-xs">
-                    Reward Terms and Conditions
-                  </p>
-                  <p className="mb-3 text-trunks text-xs">
-                    Self-Exclusion Terms and Conditions
-                  </p>
-                  <p className="mb-3 text-trunks text-xs">The Clubhouse FAQ</p>
-                </div>
-              </Accordion>
-            </div>
-            <div className=" mb-2">
-              <Accordion
-                backgroundColor="bg-gohan"
-                title={'About'}
-                isContentInside={true}
-              >
-                <div className="flex flex-col">
-                  <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
-                  <p className="mb-3 text-trunks text-xs">Affiliates</p>
-                  <p className="mb-3 text-trunks text-xs">
-                    Affiliate Terms and Conditions
-                  </p>
-                  <p className="mb-3 text-trunks text-xs">
-                    Crypto Currency How To Guide
-                  </p>
-                  <p className="mb-3 text-trunks text-xs">Privacy Policy</p>
-                  <p className="mb-3 text-trunks text-xs">
-                    Sportsbet.io Partnerships
-                  </p>
-                  <p className="mb-3 text-trunks text-xs">
-                    Terms and Conditions
-                  </p>
-                  <p className="mb-3 text-trunks text-xs">
-                    The Clubhouse Terms and Conditions
-                  </p>
-                  <p className="mb-3 text-trunks text-xs">Vip</p>
-                </div>
-              </Accordion>
-            </div>
-            <div className=" mb-2">
-              <Accordion
-                backgroundColor="bg-gohan"
-                title={'Preferences'}
-                isContentInside={true}
-              >
-                <div className="flex flex-col">
+            <Accordion className="mb-2">
+              <Accordion.Item value="item-1">
+                <Accordion.Header className="moon-open:[&_svg]:rotate-180">
+                  <Accordion.Button>
+                    <span>Casino</span>
+                    <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+                  </Accordion.Button>
+                </Accordion.Header>
+                <Accordion.Content>
+                  <div className="flex flex-col">
+                    <p className="mb-3 text-trunks text-xs">Casino</p>
+                    <p className="mb-3 text-trunks text-xs">Live Casino</p>
+                    <p className="mb-3 text-trunks text-xs">Bombay club</p>
+                  </div>
+                </Accordion.Content>
+              </Accordion.Item>
+            </Accordion>
+            <Accordion className="mb-2">
+              <Accordion.Item value="item-1">
+                <Accordion.Header className="moon-open:[&_svg]:rotate-180">
+                  <Accordion.Button>
+                    <span>Support</span>
+                    <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+                  </Accordion.Button>
+                </Accordion.Header>
+                <Accordion.Content>
+                  <div className="flex flex-col">
+                    <p className="mb-3 text-trunks text-xs">Affiliate FAQ</p>
+                    <p className="mb-3 text-trunks text-xs">
+                      General Betting Rules
+                    </p>
+                    <p className="mb-3 text-trunks text-xs">Help Centre</p>
+                    <p className="mb-3 text-trunks text-xs">Payment Options</p>
+                    <p className="mb-3 text-trunks text-xs">
+                      Responsible Gambling
+                    </p>
+                    <p className="mb-3 text-trunks text-xs">
+                      Reward Terms and Conditions
+                    </p>
+                    <p className="mb-3 text-trunks text-xs">
+                      Self-Exclusion Terms and Conditions
+                    </p>
+                    <p className="mb-3 text-trunks text-xs">
+                      The Clubhouse FAQ
+                    </p>
+                  </div>
+                </Accordion.Content>
+              </Accordion.Item>
+            </Accordion>
+            <Accordion className="mb-2">
+              <Accordion.Item value="item-1">
+                <Accordion.Header className="moon-open:[&_svg]:rotate-180">
+                  <Accordion.Button>
+                    <span>About</span>
+                    <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+                  </Accordion.Button>
+                </Accordion.Header>
+                <Accordion.Content>
+                  <div className="flex flex-col">
+                    <p className="mb-3 text-trunks text-xs">Sportsbet app</p>
+                    <p className="mb-3 text-trunks text-xs">Affiliates</p>
+                    <p className="mb-3 text-trunks text-xs">
+                      Affiliate Terms and Conditions
+                    </p>
+                    <p className="mb-3 text-trunks text-xs">
+                      Crypto Currency How To Guide
+                    </p>
+                    <p className="mb-3 text-trunks text-xs">Privacy Policy</p>
+                    <p className="mb-3 text-trunks text-xs">
+                      Sportsbet.io Partnerships
+                    </p>
+                    <p className="mb-3 text-trunks text-xs">
+                      Terms and Conditions
+                    </p>
+                    <p className="mb-3 text-trunks text-xs">
+                      The Clubhouse Terms and Conditions
+                    </p>
+                    <p className="mb-3 text-trunks text-xs">Vip</p>
+                  </div>
+                </Accordion.Content>
+              </Accordion.Item>
+            </Accordion>
+            <Accordion className="mb-2">
+              <Accordion.Item value="item-1">
+                <Accordion.Header className="moon-open:[&_svg]:rotate-180">
+                  <Accordion.Button>
+                    <span>Preferences</span>
+                    <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+                  </Accordion.Button>
+                </Accordion.Header>
+                <Accordion.Content>
                   <div className="rounded-[100px] flex flex-col bg-beerus mb-4 ">
                     <div className="flex items-center justify-between my-[6px] ml-3 mr-[17px]">
                       <div className="flex items-center">
@@ -560,16 +569,18 @@ const Vip = () => {
                       </div>
                     </div>
                   </div>
-                </div>
-              </Accordion>
-            </div>
-            <div className=" mb-2">
-              <Accordion
-                backgroundColor="bg-gohan"
-                title={'Accapted Methods'}
-                isContentInside={true}
-              >
-                <div className="flex flex-col ">
+                </Accordion.Content>
+              </Accordion.Item>
+            </Accordion>
+            <Accordion className="mb-2">
+              <Accordion.Item value="item-1">
+                <Accordion.Header className="moon-open:[&_svg]:rotate-180">
+                  <Accordion.Button>
+                    <span>Accapted Methods</span>
+                    <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+                  </Accordion.Button>
+                </Accordion.Header>
+                <Accordion.Content>
                   <div className="flex w-[70%] flex-wrap items-center ">
                     <div className=" bg-[#345D9D] rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
                       <XAbove />
@@ -604,16 +615,18 @@ const Vip = () => {
                       <PlusFive />
                     </div>
                   </div>
-                </div>
-              </Accordion>
-            </div>
-            <div className=" mb-2">
-              <Accordion
-                backgroundColor="bg-gohan"
-                title={'Follow Sportsbook.io'}
-                isContentInside={true}
-              >
-                <div className="flex flex-col">
+                </Accordion.Content>
+              </Accordion.Item>
+            </Accordion>
+            <Accordion className="mb-2">
+              <Accordion.Item value="item-1">
+                <Accordion.Header className="moon-open:[&_svg]:rotate-180">
+                  <Accordion.Button>
+                    <span>Follow Sportsbook.io</span>
+                    <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+                  </Accordion.Button>
+                </Accordion.Header>
+                <Accordion.Content>
                   <div className="flex flex-wrap">
                     <div className="bg-[#27A4DB] rounded-full mr-2 mb-2  flex items-center justify-center w-[40px] h-[40px]">
                       <Telegram />
@@ -634,16 +647,18 @@ const Vip = () => {
                       <Tiktok />
                     </div>
                   </div>
-                </div>
-              </Accordion>
-            </div>
-            <div className=" mb-5">
-              <Accordion
-                backgroundColor="bg-gohan"
-                title={'Sponsorships'}
-                isContentInside={true}
-              >
-                <div className="flex flex-wrap">
+                </Accordion.Content>
+              </Accordion.Item>
+            </Accordion>
+            <Accordion className="mb-2">
+              <Accordion.Item value="item-1">
+                <Accordion.Header className="moon-open:[&_svg]:rotate-180">
+                  <Accordion.Button>
+                    <span>Sponsorships</span>
+                    <ControlsChevronDown className="text-trunks text-moon-16 transition-transform duration-200" />
+                  </Accordion.Button>
+                </Accordion.Header>
+                <Accordion.Content>
                   <div className="flex flex-wrap">
                     <div className="bg-beerus rounded-full mr-2 mb-2 flex items-center justify-center w-[40px] h-[40px]">
                       <Arsenal />
@@ -658,9 +673,9 @@ const Vip = () => {
                       <Watford />
                     </div>
                   </div>
-                </div>
-              </Accordion>
-            </div>
+                </Accordion.Content>
+              </Accordion.Item>
+            </Accordion>
           </div>
           <div className="flex justify-center mb-6 lg:hidden">
             <div className="rounded-[100px] bg-beerus flex justify-center items-center">

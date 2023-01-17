@@ -77,7 +77,7 @@ const IconPreview: React.FC<IconPreviewProps> = ({
           <img className="h-full w-full" src={iconSrc} alt="Icon preview" />
         </div>
         <CopyToClipboard text={data || ''} onCopy={() => setCopied(true)}>
-          <Button animation={copied && 'success'}>Copy</Button>
+          <Button animation={copied ? 'success' : undefined}>Copy</Button>
         </CopyToClipboard>
       </div>
       <CodeSnippet>{data}</CodeSnippet>
