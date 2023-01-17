@@ -28,13 +28,7 @@ const Example = () => {
         <Dropdown.Options>
           {people.map((person, index) => (
             <Dropdown.Option value={person} key={index}>
-              {({
-                selected,
-                active,
-              }: {
-                selected: boolean;
-                active: boolean;
-              }) => (
+              {({ selected, active }) => (
                 <MenuItem isActive={active} isSelected={selected}>
                   {person.name}
                 </MenuItem>
