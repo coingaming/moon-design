@@ -32,7 +32,7 @@ const PageHowToContribute = () => (
       </p>
       <CodeSnippet>{`pnpm run next dev`}</CodeSnippet>
       <p className="text-moon-16">
-        For Hot Module Replacement run in parallel in separate tab:
+        For Hot Module Replacement run in parallel in a separate tab:
       </p>
       <CodeSnippet>{`pnpm run watch`}</CodeSnippet>
       <p className="text-moon-16">

@@ -31,7 +31,7 @@ const Manifest = () => (
             isHighlighted
           />
           <ManifestCard
-            title="Validating ideas/hypothesis for stakeholders"
+            title="Validating ideas/hypotheses for stakeholders"
             contentItems={[
               'You can build your own UI app (Rapid Proto) faster and not from scratch',
               'Benefit for hackathons',
@@ -43,10 +43,10 @@ const Manifest = () => (
           <ManifestCard
             title="Reducing development costs"
             contentItems={[
-              "Devs from different teams don't need to implement the elements provided by CDS",
+              "Devs from different teams don't need to implement the elements provided by Moon DS",
               'There will be less time spent on discussions/alignment between devs and design',
               "Designers don't need to create new elements for every project/task",
-              'Well document components library',
+              'Well-documented components library',
               'Avoiding mistakes and bugs',
             ]}
           />
@@ -64,7 +64,7 @@ const Manifest = () => (
             contentItems={[
               'One place for all UI components (Source of truth)',
               'Consistent icons',
-              'Non-frontend developers could build nice UI with using CDS',
+              'Non-frontend developers could build nice UI using Moon DS',
             ]}
           />
         </div>

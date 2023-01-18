@@ -6,17 +6,17 @@ Array [
     className="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
   >
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] text-krillin placeholder:text-whis"
+      className="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none text-krillin placeholder:text-whis"
       placeholder="Custom text colours"
       rows={1}
     />
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] transition-all focus:outline-2 focus:outline-offset-[-2px] hover:outline-1 hover:outline-offset-[-1px] outline-chichi hover:outline-piccolo focus:outline-krillin"
+      className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
       placeholder="Custom border colours"
       rows={1}
     />
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] bg-roshi-10"
+      className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-roshi-10"
       placeholder="Custom background colour"
       rows={1}
     />
@@ -25,17 +25,17 @@ Array [
     className="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
   >
     <textarea
-      className="appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] resize-y"
+      className="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-y"
       placeholder="Resize vertically"
       rows={3}
     />
     <textarea
-      className="appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] resize-x"
+      className="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-x"
       placeholder="Resize horizontally"
       rows={3}
     />
     <textarea
-      className="appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] resize"
+      className="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize"
       placeholder="Resize vertically and horizontally"
       rows={3}
     />
@@ -45,13 +45,13 @@ Array [
 
 exports[`Tag in Dark Theme renders Deafult 1`] = `
 <textarea
-  className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12]"
+  className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
 />
 `;
 
 exports[`Tag in Dark Theme renders Disabled 1`] = `
 <textarea
-  className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] opacity-30 cursor-not-allowed"
+  className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none opacity-30 cursor-not-allowed"
   disabled={true}
   placeholder="Disabled"
 />
@@ -63,17 +63,17 @@ Array [
     className="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
   >
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] text-krillin placeholder:text-whis"
+      className="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none text-krillin placeholder:text-whis"
       placeholder="Custom text colours"
       rows={1}
     />
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] transition-all focus:outline-2 focus:outline-offset-[-2px] hover:outline-1 hover:outline-offset-[-1px] outline-chichi hover:outline-piccolo focus:outline-krillin"
+      className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
       placeholder="Custom border colours"
       rows={1}
     />
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] bg-roshi-10"
+      className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-roshi-10"
       placeholder="Custom background colour"
       rows={1}
     />
@@ -82,17 +82,17 @@ Array [
     className="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
   >
     <textarea
-      className="appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] resize-y"
+      className="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-y"
       placeholder="Resize vertically"
       rows={3}
     />
     <textarea
-      className="appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] resize-x"
+      className="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-x"
       placeholder="Resize horizontally"
       rows={3}
     />
     <textarea
-      className="appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] resize"
+      className="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize"
       placeholder="Resize vertically and horizontally"
       rows={3}
     />
@@ -102,13 +102,13 @@ Array [
 
 exports[`Tag in Light Theme renders Deafult 1`] = `
 <textarea
-  className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12]"
+  className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
 />
 `;
 
 exports[`Tag in Light Theme renders Disabled 1`] = `
 <textarea
-  className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] opacity-30 cursor-not-allowed"
+  className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none opacity-30 cursor-not-allowed"
   disabled={true}
   placeholder="Disabled"
 />
@@ -122,17 +122,17 @@ exports[`Tag in RTL renders Customization 1`] = `
     className="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
   >
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] text-krillin placeholder:text-whis"
+      className="block appearance-none resize-none w-full p-4 text-moon-16 bg-gohan rounded-moon-s-sm transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none text-krillin placeholder:text-whis"
       placeholder="Custom text colours"
       rows={1}
     />
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] transition-all focus:outline-2 focus:outline-offset-[-2px] hover:outline-1 hover:outline-offset-[-1px] outline-chichi hover:outline-piccolo focus:outline-krillin"
+      className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none outline-chichi hover:outline-piccolo focus:outline-krillin"
       placeholder="Custom border colours"
       rows={1}
     />
     <textarea
-      className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] bg-roshi-10"
+      className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-roshi-10"
       placeholder="Custom background colour"
       rows={1}
     />
@@ -141,17 +141,17 @@ exports[`Tag in RTL renders Customization 1`] = `
     className="flex flex-wrap md:flex-nowrap items-center justify-around gap-2 w-full"
   >
     <textarea
-      className="appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] resize-y"
+      className="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-y"
       placeholder="Resize vertically"
       rows={3}
     />
     <textarea
-      className="appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] resize-x"
+      className="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize-x"
       placeholder="Resize horizontally"
       rows={3}
     />
     <textarea
-      className="appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] resize"
+      className="block appearance-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none resize"
       placeholder="Resize vertically and horizontally"
       rows={3}
     />
@@ -164,7 +164,7 @@ exports[`Tag in RTL renders Deafult 1`] = `
   dir="rtl"
 >
   <textarea
-    className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12]"
+    className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
   />
 </div>
 `;
@@ -174,7 +174,7 @@ exports[`Tag in RTL renders Disabled 1`] = `
   dir="rtl"
 >
   <textarea
-    className="appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks outline outline-1 outline-offset-[-1px] outline-beerus transition-all focus:outline-2 focus:outline-offset-[-2px] focus:outline-piccolo hover:outline-1 hover:outline-offset-[-1px] hover:outline-bulma/[0.12] opacity-30 cursor-not-allowed"
+    className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none opacity-30 cursor-not-allowed"
     disabled={true}
     placeholder="Disabled"
   />

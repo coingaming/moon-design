@@ -26,7 +26,7 @@ const PageVision = () => (
       <VisionCard
         headerImage={vision_front_card_header_text_1}
         altHeaderImage="Efficiency, not consistency"
-        subtext="Consistency is a result of efficiency, not the other way around. When the system is intuitive and empowering to use, consistency becomes an automatic by-product of adoption. "
+        subtext="Consistency is a result of efficiency, not the other way around. When the system is intuitive and empowering, consistency becomes an automatic by-product of adoption. "
         innerCardText="A design system isn't a project. It's a product serving products."
         name="Nathan Curtis"
         company="EightShapes"
@@ -52,13 +52,13 @@ const PageVision = () => (
         subHeading="A Design System facilitates a product's agility by preventing stagnation on topics already discussed, agreed upon, documented and implemented."
         supportingTextItems={[
           'It shares the design and coding workload evenly between all team members.',
-          "It allows us to create prototypes, experiments and launch MVPs in less time. This makes sure elements like consistency and accessibility aren't ignored in the initial product in order to meet launch times.",
+          "It allows us to create prototypes, and experiments and launch MVPs in less time. This makes sure elements like consistency and accessibility aren't ignored in the initial product to meet launch times.",
         ]}
       />
       <VisionCard
         headerImage={vision_front_card_header_text_3}
         altHeaderImage="Quality over quantity"
-        subtext="Focus on the best solutions, quantity become as consolidation of Agility and Efficiency"
+        subtext="Focus on the best solutions, quantity becomes a consolidation of Agility and Efficiency"
         innerCardText="Styles come and go. Good design is a language, not a style."
         name="Massimo Vignelli"
         company="Italian Designer"
@@ -68,7 +68,7 @@ const PageVision = () => (
         supportingTextItems={[
           'Being in constant evolution through iterations means the quality of each component continues to improve over time, particularly in comparison to new components.',
           'The fact it is a modular, closed and versioned system reduces the risk of losses to both code and design.',
-          "It's easily isolated in order to assess its quality and measure its external integration.",
+          "It's easily isolated to assess its quality and measure its external integration.",
         ]}
       />
     </div>

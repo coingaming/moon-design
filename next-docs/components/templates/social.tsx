@@ -15,7 +15,7 @@ interface Props {
 const Social = ({ title, onClick }: Props) => {
   return (
     <div className="flex flex-col">
-      <p className="text-[32px] text-center font-semibold p-4 mb-4">{title}</p>
+      <p className="text-moon-32 text-center font-semibold p-4 mb-4">{title}</p>
       <div className="flex gap-2 self-center items-center">
         <Button
           iconOnly

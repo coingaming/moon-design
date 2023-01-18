@@ -156,7 +156,7 @@ const Options: React.FC<WithChildren<OptionsProps>> = ({
       ref={pooper?.popperElement}
       style={pooper?.styles?.popper}
       {...pooper?.attributes?.popper}
-      className="z-5 absolute"
+      className="z-1000 absolute"
     >
       <Listbox.Options
         className={mergeClassnames(
