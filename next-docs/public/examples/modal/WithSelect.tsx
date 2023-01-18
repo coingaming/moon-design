@@ -51,7 +51,7 @@ const Example = () => {
           </div>
           <div className="px-6 py-4 flex flex-col gap-3">
             <Dropdown value={size} onChange={setSize} size="xl">
-              {({ open }) => (
+              {({ open }: { open: boolean }) => (
                 <>
                   <Dropdown.Select
                     open={open}
@@ -65,7 +65,13 @@ const Example = () => {
                   <Dropdown.Options>
                     {sizes.map((size, index) => (
                       <Dropdown.Option value={size} key={index}>
-                        {({ selected, active }) => (
+                        {({
+                          selected,
+                          active,
+                        }: {
+                          selected: boolean;
+                          active: boolean;
+                        }) => (
                           <MenuItem isActive={active} isSelected={selected}>
                             {size.label}
                           </MenuItem>
@@ -77,7 +83,7 @@ const Example = () => {
               )}
             </Dropdown>
             <Dropdown value={color} onChange={setColor} size="xl">
-              {({ open }) => (
+              {({ open }: { open: boolean }) => (
                 <>
                   <Dropdown.Select
                     open={open}
@@ -91,7 +97,13 @@ const Example = () => {
                   <Dropdown.Options>
                     {colors.map((color, index) => (
                       <Dropdown.Option value={color} key={index}>
-                        {({ selected, active }) => (
+                        {({
+                          selected,
+                          active,
+                        }: {
+                          selected: boolean;
+                          active: boolean;
+                        }) => (
                           <MenuItem isActive={active} isSelected={selected}>
                             {color.value}
                           </MenuItem>
@@ -103,7 +115,7 @@ const Example = () => {
               )}
             </Dropdown>
             <Dropdown value={material} onChange={setMaterial} size="xl">
-              {({ open }) => (
+              {({ open }: { open: boolean }) => (
                 <>
                   <Dropdown.Select
                     open={open}
@@ -117,7 +129,13 @@ const Example = () => {
                   <Dropdown.Options>
                     {materials.map((material, index) => (
                       <Dropdown.Option value={material} key={index}>
-                        {({ selected, active }) => (
+                        {({
+                          selected,
+                          active,
+                        }: {
+                          selected: boolean;
+                          active: boolean;
+                        }) => (
                           <MenuItem isActive={active} isSelected={selected}>
                             {material.value}
                           </MenuItem>
