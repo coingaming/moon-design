@@ -51,11 +51,11 @@ const Example = () => {
         title="BottomSheet"
         data={[
           {
-            name: 'open',
+            name: 'hasShadow',
             type: 'boolean',
-            required: true,
+            required: false,
             default: '-',
-            description: 'Whether the BottomSheet is open or not.',
+            description: 'Whether the BottomSheet has a shadow or not.',
           },
           {
             name: 'onClose',
@@ -65,11 +65,11 @@ const Example = () => {
             description: 'Called when the BottomSheet is dismissed.',
           },
           {
-            name: 'hasShadow',
+            name: 'open',
             type: 'boolean',
-            required: false,
+            required: true,
             default: '-',
-            description: 'Whether the BottomSheet has a shadow or not.',
+            description: 'Whether the BottomSheet is open or not.',
           },
           {
             name: 'size',
@@ -86,7 +86,7 @@ const Example = () => {
         data={[
           {
             name: 'children',
-            type: 'BottomSheet.Draghandle',
+            type: 'ReactNode',
             required: false,
             default: '-',
             description:
@@ -117,6 +117,20 @@ const Example = () => {
             default: '-',
             description:
               'Tailwind classes for customization of BottomSheet Panel.',
+          },
+          {
+            name: 'hasShadow',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether the BottomSheet has a shadow or not.',
+          },
+          {
+            name: 'onClose',
+            type: '() => void',
+            required: false,
+            default: '-',
+            description: 'Called when the BottomSheet is dismissed.',
           },
         ]}
       />
