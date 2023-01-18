@@ -723,7 +723,7 @@ Array [
     >
       <span>
         <svg
-          className="text-[1.5rem]"
+          className="text-moon-24"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -777,7 +777,7 @@ Array [
         className="px-2"
       >
         <svg
-          className="text-[1.5rem]"
+          className="text-moon-24"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -908,7 +908,7 @@ Array [
       type="button"
     >
       <svg
-        className="text-[1.5rem]"
+        className="text-moon-24"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -942,7 +942,7 @@ Array [
         Your value
       </span>
       <svg
-        className="text-[1.5rem]"
+        className="text-moon-24"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -990,7 +990,7 @@ Array [
       type="button"
     >
       <svg
-        className="text-[1.5rem]"
+        className="text-moon-24"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -1742,7 +1742,7 @@ Array [
     >
       <span>
         <svg
-          className="text-[1.5rem]"
+          className="text-moon-24"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1796,7 +1796,7 @@ Array [
         className="px-2"
       >
         <svg
-          className="text-[1.5rem]"
+          className="text-moon-24"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -1927,7 +1927,7 @@ Array [
       type="button"
     >
       <svg
-        className="text-[1.5rem]"
+        className="text-moon-24"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -1961,7 +1961,7 @@ Array [
         Your value
       </span>
       <svg
-        className="text-[1.5rem]"
+        className="text-moon-24"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -2009,7 +2009,7 @@ Array [
       type="button"
     >
       <svg
-        className="text-[1.5rem]"
+        className="text-moon-24"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -2781,7 +2781,7 @@ exports[`Loader in RTL renders MultiTitle 1`] = `
     >
       <span>
         <svg
-          className="text-[1.5rem]"
+          className="text-moon-24"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2835,7 +2835,7 @@ exports[`Loader in RTL renders MultiTitle 1`] = `
         className="px-2"
       >
         <svg
-          className="text-[1.5rem]"
+          className="text-moon-24"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -2970,7 +2970,7 @@ exports[`Loader in RTL renders WithIcon 1`] = `
       type="button"
     >
       <svg
-        className="text-[1.5rem]"
+        className="text-moon-24"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -3004,7 +3004,7 @@ exports[`Loader in RTL renders WithIcon 1`] = `
         Your value
       </span>
       <svg
-        className="text-[1.5rem]"
+        className="text-moon-24"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -3054,7 +3054,7 @@ exports[`Loader in RTL renders WithMeta 1`] = `
       type="button"
     >
       <svg
-        className="text-[1.5rem]"
+        className="text-moon-24"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"

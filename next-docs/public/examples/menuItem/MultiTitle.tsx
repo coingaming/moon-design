@@ -9,7 +9,7 @@ const Example = () => {
       <div className="w-56">
         <MenuItem>
           <span>
-            <ControlsChevronRight className="text-[1.5rem]" />
+            <ControlsChevronRight className="text-moon-24" />
           </span>
           <MenuItem.MultiTitle
             title="Your value"
@@ -29,7 +29,7 @@ const Example = () => {
           onClick={useCallback(() => setActive(!active), [active])}
         >
           <span className="px-2">
-            <SportBadminton className="text-[1.5rem]" />
+            <SportBadminton className="text-moon-24" />
           </span>
           <MenuItem.MultiTitle
             title="Your value"
