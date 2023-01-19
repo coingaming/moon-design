@@ -17,7 +17,7 @@ const Example = () => {
   const [option, setOption] = useState<People | null>(null);
 
   return (
-    <div className="flex w-full max-w-sm items-center">
+    <div className="flex w-full max-w-sm items-center z-0">
       <Dropdown value={option} onChange={setOption}>
         {({ open }) => (
           <>

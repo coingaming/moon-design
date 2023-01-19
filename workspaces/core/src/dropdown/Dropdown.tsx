@@ -117,7 +117,9 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
     typeof children === 'function' && (children as CallableChildren);
   return (
     <DropdownContext.Provider value={states}>
-      <div className={mergeClassnames('w-full', className && className)}>
+      <div
+        className={mergeClassnames('w-full relative', className && className)}
+      >
         <Listbox
           value={value}
           onChange={onChange}
@@ -156,12 +158,12 @@ const Options: React.FC<WithChildren<OptionsProps>> = ({
       ref={pooper?.popperElement}
       style={pooper?.styles?.popper}
       {...pooper?.attributes?.popper}
-      className="z-1000 absolute"
+      className="z-5 absolute"
     >
       <Listbox.Options
         className={mergeClassnames(
           menuWidth ? menuWidth : 'w-full min-w-[18.75rem]',
-          'z-1 p-1 my-2 rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none',
+          'z-1 p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none',
           className && className
         )}
         {...rest}

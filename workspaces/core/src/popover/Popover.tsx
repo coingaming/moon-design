@@ -76,7 +76,7 @@ const Panel: React.FC<PanelProps> = ({ children, className }) => {
       style={popper?.styles?.popper}
       {...popper?.attributes?.popper}
       className={mergeClassnames(
-        'w-72 z-[999999] rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
+        'w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
         'focus:outline-none',
         className && className
       )}
