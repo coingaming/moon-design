@@ -27,6 +27,7 @@ const navigation = [
       { name: 'Checkbox', href: '/core/checkbox' },
       { name: 'Chip', href: '/core/chip' },
       { name: 'Dropdown', href: '/core/dropdown' },
+      { name: 'Form', href: '/core/form' },
       { name: 'Icons', href: '/core/icons' },
       {
         name: 'Input',
@@ -35,7 +36,6 @@ const navigation = [
           { name: 'InsetInput', href: '/core/insetInput' },
         ],
       },
-      { name: 'Form', href: '/core/form' },
       { name: 'Loader', href: '/core/loader' },
       { name: 'MenuItem', href: '/core/menuItem' },
       { name: 'Modal', href: '/core/modal' },

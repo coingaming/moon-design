@@ -1,7 +1,8 @@
 import React, { createContext, useContext } from 'react';
+import type Size from './types/Size';
 
 const BottomSheetContext = createContext<{
-  size?: 'sm' | 'md' | 'lg' | string;
+  size?: Size;
   registerChild?: (child: string) => () => void;
   bottomSheetChildren?: any[];
   draghandleRef?: React.RefObject<HTMLDivElement>;

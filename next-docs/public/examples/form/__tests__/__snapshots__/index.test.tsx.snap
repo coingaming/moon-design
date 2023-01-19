@@ -107,7 +107,7 @@ exports[`Form in Dark Theme renders with Input 1`] = `
           </div>
         </div>
         <div
-          className="z-1000 absolute"
+          className="z-5 absolute"
           style={
             Object {
               "left": "0",
@@ -179,7 +179,7 @@ exports[`Form in Dark Theme renders with Input 1`] = `
           </div>
         </div>
         <div
-          className="z-1000 absolute"
+          className="z-5 absolute"
           style={
             Object {
               "left": "0",
@@ -251,7 +251,7 @@ exports[`Form in Dark Theme renders with Input 1`] = `
           </div>
         </div>
         <div
-          className="z-1000 absolute"
+          className="z-5 absolute"
           style={
             Object {
               "left": "0",
@@ -522,7 +522,7 @@ exports[`Form in Light Theme renders with Input 1`] = `
           </div>
         </div>
         <div
-          className="z-1000 absolute"
+          className="z-5 absolute"
           style={
             Object {
               "left": "0",
@@ -594,7 +594,7 @@ exports[`Form in Light Theme renders with Input 1`] = `
           </div>
         </div>
         <div
-          className="z-1000 absolute"
+          className="z-5 absolute"
           style={
             Object {
               "left": "0",
@@ -666,7 +666,7 @@ exports[`Form in Light Theme renders with Input 1`] = `
           </div>
         </div>
         <div
-          className="z-1000 absolute"
+          className="z-5 absolute"
           style={
             Object {
               "left": "0",
@@ -940,7 +940,7 @@ exports[`Form in RTL renders with Input 1`] = `
             </div>
           </div>
           <div
-            className="z-1000 absolute"
+            className="z-5 absolute"
             style={
               Object {
                 "left": "0",
@@ -1012,7 +1012,7 @@ exports[`Form in RTL renders with Input 1`] = `
             </div>
           </div>
           <div
-            className="z-1000 absolute"
+            className="z-5 absolute"
             style={
               Object {
                 "left": "0",
@@ -1084,7 +1084,7 @@ exports[`Form in RTL renders with Input 1`] = `
             </div>
           </div>
           <div
-            className="z-1000 absolute"
+            className="z-5 absolute"
             style={
               Object {
                 "left": "0",

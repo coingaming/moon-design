@@ -30,13 +30,13 @@ exports[`TextInputGroup in Dark Theme renders AccessValues 1`] = `
     </div>
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-trunks"
   >
     Country: 
     Estonia
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-trunks"
   >
     Phone: 
     +372 45678901
@@ -334,13 +334,13 @@ exports[`TextInputGroup in Light Theme renders AccessValues 1`] = `
     </div>
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-trunks"
   >
     Country: 
     Estonia
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-trunks"
   >
     Phone: 
     +372 45678901
@@ -641,13 +641,13 @@ exports[`TextInputGroup in RTL renders AccessValues 1`] = `
       </div>
     </div>
     <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-trunks"
     >
       Country: 
       Estonia
     </div>
     <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-trunks"
     >
       Phone: 
       +372 45678901

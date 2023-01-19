@@ -1,5 +1,5 @@
 type BreadcrumbProps = {
-  breadcrumbs: React.ElementType[];
+  breadcrumbs: React.ReactNode[];
 };
 
 export default BreadcrumbProps;

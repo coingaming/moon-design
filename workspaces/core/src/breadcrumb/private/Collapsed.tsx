@@ -8,7 +8,7 @@ import type BreadcrumbProps from './types/BreadcrumbProps';
 const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
   const [isOpen, toggleDropdown] = useState(false);
   const [ref, hasClickedOutside] = useClickOutside();
-  const restBreadcrumbs: React.ElementType[] = [];
+  const restBreadcrumbs: React.ReactNode[] = [];
   const collapseBreadcrumbs = breadcrumbs
     .map((crumb, index) => {
       if (index === 0) return crumb;
