@@ -1,28 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tag in Dark Theme renders Colours 1`] = `
+exports[`Tag in Dark Theme renders Customization 1`] = `
 Array [
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
   >
-    Xsmall
+    Customized
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-goten bg-roshi"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
   >
-    Xsmall
+    Customized
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-goten bg-dodoria"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi-10 text-roshi"
   >
-    Xsmall
+    Customized
   </div>,
 ]
 `;
 
 exports[`Tag in Dark Theme renders Deafult 1`] = `
 <div
-  className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+  className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
 >
   Default
 </div>
@@ -31,13 +31,12 @@ exports[`Tag in Dark Theme renders Deafult 1`] = `
 exports[`Tag in Dark Theme renders Icons 1`] = `
 Array [
   <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
   >
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 ps-0.5 pe-2 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
+    <span
+      className="text-moon-16"
     >
       <svg
-        className="text-moon-12"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -45,132 +44,21 @@ Array [
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
+          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
           stroke="currentColor"
           strokeLinecap="round"
-          strokeLinejoin="round"
         />
       </svg>
-      Twoxsmall
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 ps-2 pe-0.5 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
-    >
-      Twoxsmall
-      <svg
-        className="text-moon-12"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-0.5 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
-    >
-      <svg
-        className="text-moon-12"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      Twoxsmall
-      <svg
-        className="text-moon-12"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
+    </span>
+    Left icon
   </div>,
   <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
   >
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 ps-1 pe-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    Right icon
+    <span
+      className="text-moon-16"
     >
-      <svg
-        className="text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      Xsmall
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 ps-2 pe-1 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
-    >
-      Xsmall
-      <svg
-        className="text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none p-1 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
-    >
-      <svg
-        className="text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      Xsmall
       <svg
         fill="none"
         height="1em"
@@ -185,7 +73,47 @@ Array [
           strokeLinejoin="round"
         />
       </svg>
-    </div>
+    </span>
+  </div>,
+  <div
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+  >
+    <span
+      className="text-moon-16"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+          stroke="currentColor"
+          strokeLinecap="round"
+        />
+      </svg>
+    </span>
+    Both icons
+    <span
+      className="text-moon-16"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
   </div>,
 ]
 `;
@@ -193,12 +121,12 @@ Array [
 exports[`Tag in Dark Theme renders LetterCases 1`] = `
 Array [
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
   >
     Default
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-12 h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
   >
     Lowercase
   </div>,
@@ -208,51 +136,41 @@ Array [
 exports[`Tag in Dark Theme renders Sizes 1`] = `
 Array [
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-2 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
   >
-    Twoxsmall (2xs)
+    2XS size
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
   >
-    Xsmall (xs)
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-2 text-moon-10 h-4 text-gohan bg-bulma"
-  >
-    Twoxsmall (2xs)
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-12 h-6 text-gohan bg-bulma"
-  >
-    Xsmall (xs)
+    XS size
   </div>,
 ]
 `;
 
-exports[`Tag in Light Theme renders Colours 1`] = `
+exports[`Tag in Light Theme renders Customization 1`] = `
 Array [
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
   >
-    Xsmall
+    Customized
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-goten bg-roshi"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
   >
-    Xsmall
+    Customized
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-goten bg-dodoria"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi-10 text-roshi"
   >
-    Xsmall
+    Customized
   </div>,
 ]
 `;
 
 exports[`Tag in Light Theme renders Deafult 1`] = `
 <div
-  className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+  className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
 >
   Default
 </div>
@@ -261,13 +179,12 @@ exports[`Tag in Light Theme renders Deafult 1`] = `
 exports[`Tag in Light Theme renders Icons 1`] = `
 Array [
   <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
   >
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 ps-0.5 pe-2 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
+    <span
+      className="text-moon-16"
     >
       <svg
-        className="text-moon-12"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -275,132 +192,21 @@ Array [
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
+          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
           stroke="currentColor"
           strokeLinecap="round"
-          strokeLinejoin="round"
         />
       </svg>
-      Twoxsmall
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 ps-2 pe-0.5 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
-    >
-      Twoxsmall
-      <svg
-        className="text-moon-12"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-0.5 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
-    >
-      <svg
-        className="text-moon-12"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      Twoxsmall
-      <svg
-        className="text-moon-12"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
+    </span>
+    Left icon
   </div>,
   <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
   >
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 ps-1 pe-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    Right icon
+    <span
+      className="text-moon-16"
     >
-      <svg
-        className="text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      Xsmall
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 ps-2 pe-1 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
-    >
-      Xsmall
-      <svg
-        className="text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none p-1 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
-    >
-      <svg
-        className="text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      Xsmall
       <svg
         fill="none"
         height="1em"
@@ -415,7 +221,47 @@ Array [
           strokeLinejoin="round"
         />
       </svg>
-    </div>
+    </span>
+  </div>,
+  <div
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+  >
+    <span
+      className="text-moon-16"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+          stroke="currentColor"
+          strokeLinecap="round"
+        />
+      </svg>
+    </span>
+    Both icons
+    <span
+      className="text-moon-16"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
   </div>,
 ]
 `;
@@ -423,12 +269,12 @@ Array [
 exports[`Tag in Light Theme renders LetterCases 1`] = `
 Array [
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
   >
     Default
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-12 h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
   >
     Lowercase
   </div>,
@@ -438,46 +284,36 @@ Array [
 exports[`Tag in Light Theme renders Sizes 1`] = `
 Array [
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-2 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
   >
-    Twoxsmall (2xs)
+    2XS size
   </div>,
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
   >
-    Xsmall (xs)
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-2 text-moon-10 h-4 text-gohan bg-bulma"
-  >
-    Twoxsmall (2xs)
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-12 h-6 text-gohan bg-bulma"
-  >
-    Xsmall (xs)
+    XS size
   </div>,
 ]
 `;
 
-exports[`Tag in RTL renders Colours 1`] = `
+exports[`Tag in RTL renders Customization 1`] = `
 <div
   dir="rtl"
 >
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
   >
-    Xsmall
+    Customized
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-goten bg-roshi"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
   >
-    Xsmall
+    Customized
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-goten bg-dodoria"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi-10 text-roshi"
   >
-    Xsmall
+    Customized
   </div>
 </div>
 `;
@@ -487,7 +323,7 @@ exports[`Tag in RTL renders Deafult 1`] = `
   dir="rtl"
 >
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
   >
     Default
   </div>
@@ -499,13 +335,12 @@ exports[`Tag in RTL renders Icons 1`] = `
   dir="rtl"
 >
   <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
   >
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 ps-0.5 pe-2 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
+    <span
+      className="text-moon-16"
     >
       <svg
-        className="text-moon-12"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -513,132 +348,21 @@ exports[`Tag in RTL renders Icons 1`] = `
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
+          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
           stroke="currentColor"
           strokeLinecap="round"
-          strokeLinejoin="round"
         />
       </svg>
-      Twoxsmall
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 ps-2 pe-0.5 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
-    >
-      Twoxsmall
-      <svg
-        className="text-moon-12"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-0.5 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
-    >
-      <svg
-        className="text-moon-12"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      Twoxsmall
-      <svg
-        className="text-moon-12"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
+    </span>
+    Left icon
   </div>
   <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
   >
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 ps-1 pe-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    Right icon
+    <span
+      className="text-moon-16"
     >
-      <svg
-        className="text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      Xsmall
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 ps-2 pe-1 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
-    >
-      Xsmall
-      <svg
-        className="text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </div>
-    <div
-      className="flex items-center rounded-moon-i-xs gap-1 select-none p-1 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
-    >
-      <svg
-        className="text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M16 21.278v-6.334m0-2.638v-1.584M25.5 16a9.5 9.5 0 11-19 0 9.5 9.5 0 0119 0z"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      Xsmall
       <svg
         fill="none"
         height="1em"
@@ -653,7 +377,47 @@ exports[`Tag in RTL renders Icons 1`] = `
           strokeLinejoin="round"
         />
       </svg>
-    </div>
+    </span>
+  </div>
+  <div
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+  >
+    <span
+      className="text-moon-16"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+          stroke="currentColor"
+          strokeLinecap="round"
+        />
+      </svg>
+    </span>
+    Both icons
+    <span
+      className="text-moon-16"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+    </span>
   </div>
 </div>
 `;
@@ -663,12 +427,12 @@ exports[`Tag in RTL renders LetterCases 1`] = `
   dir="rtl"
 >
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
   >
     Default
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-12 h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
   >
     Lowercase
   </div>
@@ -680,24 +444,14 @@ exports[`Tag in RTL renders Sizes 1`] = `
   dir="rtl"
 >
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-2 text-moon-9-caption uppercase font-medium h-4 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
   >
-    Twoxsmall (2xs)
+    2XS size
   </div>
   <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-10-caption uppercase font-medium h-6 text-gohan bg-bulma"
+    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
   >
-    Xsmall (xs)
-  </div>
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-0 px-2 text-moon-10 h-4 text-gohan bg-bulma"
-  >
-    Twoxsmall (2xs)
-  </div>
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 text-moon-12 h-6 text-gohan bg-bulma"
-  >
-    Xsmall (xs)
+    XS size
   </div>
 </div>
 `;
