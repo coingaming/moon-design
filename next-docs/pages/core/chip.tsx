@@ -63,7 +63,7 @@ const Example = () => {
         data={[
           {
             name: 'children',
-            type: 'JSX.Element',
+            type: 'JSX.Element | string',
             required: false,
             default: '-',
             description: 'Children content',

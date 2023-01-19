@@ -42,7 +42,7 @@ const Example = () => {
         data={[
           {
             name: 'breadcrumbs',
-            type: 'React.ElementType[]',
+            type: 'React.ReactNode[]',
             required: true,
             default: '-',
             description: 'Contents of breadcrumb',

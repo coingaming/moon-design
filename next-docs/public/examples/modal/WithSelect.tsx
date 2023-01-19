@@ -64,7 +64,7 @@ const Example = () => {
 
                   <Dropdown.Options>
                     {sizes.map((size, index) => (
-                      <Dropdown.Option value={size} index={index} key={index}>
+                      <Dropdown.Option value={size} key={index}>
                         {({
                           selected,
                           active,
@@ -96,7 +96,7 @@ const Example = () => {
 
                   <Dropdown.Options>
                     {colors.map((color, index) => (
-                      <Dropdown.Option value={color} index={index} key={index}>
+                      <Dropdown.Option value={color} key={index}>
                         {({
                           selected,
                           active,
@@ -128,11 +128,7 @@ const Example = () => {
 
                   <Dropdown.Options>
                     {materials.map((material, index) => (
-                      <Dropdown.Option
-                        value={material}
-                        index={index}
-                        key={index}
-                      >
+                      <Dropdown.Option value={material} key={index}>
                         {({
                           selected,
                           active,

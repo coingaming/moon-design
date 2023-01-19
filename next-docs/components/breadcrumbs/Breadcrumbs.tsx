@@ -21,7 +21,7 @@ const Breadcrumbs = () => {
   }
   return (
     <div className="relative z-10 hidden lg:block pb-12">
-      <Breadcrumb breadcrumbs={breadcrumbsPath as any} />
+      <Breadcrumb breadcrumbs={breadcrumbsPath} />
     </div>
   );
 };

@@ -3,7 +3,7 @@ import { RadioButton } from '@heathmont/moon-core-tw';
 
 const Example = () => {
   const [gender, setGender] = useState('option1');
-  const handleChange = (event: React.UIEvent<HTMLInputElement>) => {
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const target = event.target as HTMLInputElement;
     setGender(target.value);
   };
