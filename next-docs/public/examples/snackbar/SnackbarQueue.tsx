@@ -75,7 +75,7 @@ const Example = () => {
     },
     [list]
   );
-  const isOpen = options?.length && !isAnimated;
+  const isOpen = options?.length > 0 && !isAnimated;
   return (
     <div>
       <Button

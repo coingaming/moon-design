@@ -3,7 +3,7 @@ import { Listbox } from '@headlessui/react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 
 export type BaseOptionType = {
-  id: number;
+  id?: number;
   label: string;
   value: string | number;
 };
