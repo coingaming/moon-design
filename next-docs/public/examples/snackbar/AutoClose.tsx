@@ -29,7 +29,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'one-sec'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           autoClose={1000}
         >
           <Snackbar.Message>Snackbar message</Snackbar.Message>
@@ -44,7 +44,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'three-sec'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           autoClose={3000}
         >
           <Snackbar.Message>Snackbar message</Snackbar.Message>

@@ -28,7 +28,7 @@ const Example = () => {
         >
           Multi Line
         </Button>
-        <Snackbar isOpen={snackbar === 'mutliline'} setSnackbar={setSnackbar}>
+        <Snackbar isOpen={snackbar === 'mutliline'} onOpenChange={setSnackbar}>
           <Snackbar.Content>
             <Snackbar.Message>Snackbar message.</Snackbar.Message>
             <Snackbar.Message>
@@ -44,7 +44,10 @@ const Example = () => {
         >
           With Header
         </Button>
-        <Snackbar isOpen={snackbar === 'with-header'} setSnackbar={setSnackbar}>
+        <Snackbar
+          isOpen={snackbar === 'with-header'}
+          onOpenChange={setSnackbar}
+        >
           <Snackbar.Content>
             <Snackbar.Header>Info</Snackbar.Header>
             <Snackbar.Message>Snackbar message</Snackbar.Message>
@@ -58,7 +61,7 @@ const Example = () => {
         >
           With Close
         </Button>
-        <Snackbar isOpen={snackbar === 'with-close'} setSnackbar={setSnackbar}>
+        <Snackbar isOpen={snackbar === 'with-close'} onOpenChange={setSnackbar}>
           <Snackbar.Message>Snackbar message</Snackbar.Message>
           <Snackbar.Close />
         </Snackbar>
@@ -70,7 +73,7 @@ const Example = () => {
         >
           With Icon
         </Button>
-        <Snackbar isOpen={snackbar === 'with-icon'} setSnackbar={setSnackbar}>
+        <Snackbar isOpen={snackbar === 'with-icon'} onOpenChange={setSnackbar}>
           <Snackbar.Icon>
             <GenericInfo />
           </Snackbar.Icon>
@@ -86,7 +89,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'multiline-with-icon'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
         >
           <Snackbar.Icon className="h-10">
             <GenericInfo />
@@ -108,7 +111,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'with-close-and-icon'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
         >
           <Snackbar.Icon>
             <GenericInfo />

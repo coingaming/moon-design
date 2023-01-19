@@ -3,7 +3,12 @@ import { ControlsCloseSmall } from '@heathmont/moon-icons-tw';
 import * as ToastPrimitive from '@radix-ui/react-toast';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
-type Props = {
+type WithChildren<T = {}> = T & { children?: React.ReactNode };
+
+//TODO: Ask Oladetoun Temitayo Micheal:
+//why onOpenChange: (value: sting) => void, and not onOpenChange: (value: boolean) => void
+
+type SnackbarProps = {
   autoClose?: number;
   position?:
     | 'top-left'
@@ -15,12 +20,10 @@ type Props = {
   ref?: null;
   className?: string;
   isOpen: boolean;
-  onOpenChange: () => void;
-  children?: React.ReactNode;
-  ariaLabel?: string;
+  onOpenChange: (value: any) => void;
 };
 
-const SnackbarRoot: React.FC<Props> = ({
+const SnackbarRoot: React.FC<WithChildren<SnackbarProps>> = ({
   autoClose,
   position = 'top-right',
   children,
@@ -68,7 +71,10 @@ const SnackbarRoot: React.FC<Props> = ({
   </ToastPrimitive.Provider>
 );
 
-const Header: React.FC<Props> = ({ children, className }) => (
+const Header: React.FC<WithChildren<{ className?: string }>> = ({
+  children,
+  className,
+}) => (
   <p
     className={mergeClassnames(
       'w-full text-moon-14 font-medium transition-colors text-bulma',
@@ -79,7 +85,10 @@ const Header: React.FC<Props> = ({ children, className }) => (
   </p>
 );
 
-const Message: React.FC<Props> = ({ children, className }) => (
+const Message: React.FC<WithChildren<{ className?: string }>> = ({
+  children,
+  className,
+}) => (
   <p
     className={mergeClassnames(
       'w-full text-moon-14 transition-colors text-bulma',
@@ -90,11 +99,15 @@ const Message: React.FC<Props> = ({ children, className }) => (
   </p>
 );
 
-const Content: React.FC<Props> = ({ children, className }) => (
-  <div className={mergeClassnames('w-full', className)}>{children}</div>
-);
+const Content: React.FC<WithChildren<{ className?: string }>> = ({
+  children,
+  className,
+}) => <div className={mergeClassnames('w-full', className)}>{children}</div>;
 
-const Icon: React.FC<Props> = ({ children, className }) => (
+const Icon: React.FC<WithChildren<{ className?: string }>> = ({
+  children,
+  className,
+}) => (
   <div
     aria-hidden="true"
     className={mergeClassnames(
@@ -106,7 +119,10 @@ const Icon: React.FC<Props> = ({ children, className }) => (
   </div>
 );
 
-const Close: React.FC<Props> = ({ className, ariaLabel = 'Close' }) => (
+const Close: React.FC<{ className?: string; ariaLabel?: string }> = ({
+  className,
+  ariaLabel = 'Close',
+}) => (
   <ToastPrimitive.Close
     aria-label={ariaLabel}
     className={mergeClassnames(

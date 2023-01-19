@@ -7,7 +7,7 @@ import InputBtn from './private/InputBtn';
 import Options from './private/Options';
 
 export type BaseOptionType = {
-  id: number;
+  id?: number;
   label: string;
   value: string | number;
 };
