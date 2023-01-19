@@ -33,7 +33,7 @@ const Example = () => {
         label="Country"
         placeholder="Select your country"
         value={option}
-        onChange={setOption}
+        onChange={setOption as () => {}}
         formatOptionLabel={(data: any) => (
           <div className="flex ">
             <div className="me-4">{data.flag}</div>
@@ -46,7 +46,7 @@ const Example = () => {
         label="Country"
         placeholder="Select your country"
         value={option2}
-        onChange={setOption2}
+        onChange={setOption2 as () => {}}
         formatOptionLabel={(data: any) => (
           <div className="flex ">
             <div className="me-4">{data.flag}</div>
@@ -60,7 +60,7 @@ const Example = () => {
         label="Country"
         placeholder="Select your country"
         value={option3}
-        onChange={setOption3}
+        onChange={setOption3 as () => {}}
         formatOptionLabel={(data: any) => (
           <div className="flex ">
             <div className="me-4">{data.flag}</div>
@@ -74,7 +74,7 @@ const Example = () => {
         label="Country"
         placeholder="Select your country"
         value={option4}
-        onChange={setOption4}
+        onChange={setOption4 as () => {}}
         formatOptionLabel={(data: any) => (
           <div className="flex ">
             <div className="me-4">{data.flag}</div>
