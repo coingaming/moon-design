@@ -29,12 +29,12 @@ interface FormProps
     >,
     'size'
   > {
-  size: 'sm' | 'md' | 'lg';
+  size?: 'sm' | 'md' | 'lg';
   className?: string;
   onSubmit?: () => void;
 }
 const FormRoot = forwardRef<HTMLFormElement, WithChildren<FormProps>>(
-  ({ children, size, className, onSubmit, ...rest }, ref) => {
+  ({ children, size = 'md', className, onSubmit, ...rest }, ref) => {
     const state = {
       size: size,
     };
