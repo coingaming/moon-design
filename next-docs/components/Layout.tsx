@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Footer from './Footer';
 import Header from './Header';
-import ReactSettings from './settings/react/ReactSettings';
+import Settings from './Settings';
 import Sidebar from './sidebar/Sidebar';
 import SidebarTransition from './sidebar/SidebarTransition';
 
@@ -24,7 +24,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
           {/* Opens sidebar on mobile */}
           <Header openSidebar={openSidebar} />
           <main className="flex flex-col flex-1 relative focus:outline-none">
-            <ReactSettings />
+            <Settings />
             <div className="flex flex-col gap-12">{children}</div>
           </main>
           <Footer />

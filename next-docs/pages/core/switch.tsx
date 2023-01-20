@@ -13,10 +13,15 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('switch');
-  const examplesCode = useExamples('switchTW/codeExamples');
+  const examplesCode = useExamples('switch/codeExamples');
   return (
     <>
-      <ComponentPageDescription title="Switch" isInProgress>
+      <ComponentPageDescription
+        title="Switch"
+        isInProgress
+        isRtlSupport
+        isAriaSupport
+      >
         <p>
           Switch is a control that is used to quickly switch between two
           possible states.
@@ -136,7 +141,7 @@ const Example = () => {
           },
           {
             name: 'size',
-            type: '2xs | xs | sm | string',
+            type: '2xs | xs | sm',
             required: false,
             default: 'sm',
             description: `The option's value.`,
