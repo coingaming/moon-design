@@ -1,4 +1,4 @@
-import CommandPalette from "../components/CommandPalette";
+import Search from "../components/Search";
 import React, { Dispatch, SetStateAction, useEffect } from "react";
 import { Children, ReactNode } from "react";
 import { JsonStructure } from "../types";
@@ -88,19 +88,19 @@ function getLabelFromChildren(children: ReactNode) {
 
 export function renderJsonStructure(jsonStructure: JsonStructure) {
   return jsonStructure.map((list) => (
-    <CommandPalette.List heading={list.heading} key={list.id}>
+    <Search.List heading={list.heading} key={list.id}>
       {list.items.map(({ id, ...rest }) => (
-        <CommandPalette.ListItem
+        <Search.ListItem
           index={getItemIndex(jsonStructure, id)}
           key={id}
           {...rest}
         />
       ))}
-    </CommandPalette.List>
+    </Search.List>
   ));
 }
 
-export function useHandleOpenCommandPalette(
+export function useOpenSearch(
   setIsOpen: Dispatch<SetStateAction<boolean>>
 ) {
   useEffect(() => {

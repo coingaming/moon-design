@@ -1,80 +1,228 @@
-import React, { forwardRef, Fragment, Ref } from "react";
-// import { MagnifyingGlassIcon } from "@heroicons/react/24/outline";
-// import { XCircleIcon } from "@heroicons/react/24/solid";
+import FreeSearchAction from "./FreeSearchAction";
+import List from "./List";
+import ListItem from "./ListItem";
+import Page from "./Page";
+import React, { Fragment, ReactNode, useEffect, useRef, useState } from "react";
+import Input from "./Input";
+import {
+  OpenContext,
+  PageContext,
+  RenderLinkContext,
+  SearchContext,
+  SelectContext,
+} from "../utils/context";
+import { RenderLink } from "../types";
+import { Transition, Dialog } from "@headlessui/react";
+import { Backdrop } from "./Backdrop";
 
 interface SearchProps {
-  onChange: (value: string) => void;
+  onChangeSelected?: (value: number) => void;
+  onChangeSearch: (search: string) => void;
+  onChangeOpen: (isOpen: boolean) => void;
+  renderLink?: RenderLink;
   placeholder?: string;
-  prefix?: string[];
-  value: string;
+  children: ReactNode;
+  selected?: number;
+  isOpen: boolean;
+  search: string;
+  page?: string;
 }
 
-function Search(
-  { onChange, placeholder, prefix, value }: SearchProps,
-  ref: Ref<HTMLInputElement>
-) {
+function Search({
+  selected: selectedParent,
+  placeholder = "Search",
+  onChangeSelected,
+  onChangeSearch,
+  onChangeOpen,
+  renderLink,
+  children,
+  isOpen,
+  search,
+  page,
+}: SearchProps) {
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const [selected, setSelected] =
+    typeof selectedParent === "number" && onChangeSelected
+      ? [selectedParent, onChangeSelected]
+      : useState<number>(0);
+
+  const [searchPrefix, setSearchPrefix] = useState<string[] | undefined>();
+
+  function handleChangeSelected(direction?: "up" | "down") {
+    const items = document.querySelectorAll(".command-palette-list-item");
+
+    let index = 0;
+    let newIndex = 0;
+    let newItem: Element;
+
+    if (direction === "down") {
+      items.forEach((_, i) => {
+        if (i === selected) {
+          index = i;
+        }
+      });
+
+      newIndex = index === items.length - 1 ? 0 : index + 1;
+    } else if (direction === "up") {
+      items.forEach((_, i) => {
+        if (i === selected) {
+          index = i;
+        }
+      });
+
+      newIndex = !index ? items.length - 1 : index - 1;
+    } else {
+      setSelected(0);
+    }
+
+    newItem = items[newIndex];
+
+    if (newItem && typeof newIndex === "number") {
+      setSelected(newIndex);
+      newItem.scrollIntoView({
+        behavior: "smooth",
+        block: newIndex ? "center" : "end",
+      });
+    }
+  }
+
+  function handleSelect() {
+    const items = document.querySelectorAll(
+      ".command-palette-list-item"
+    ) as NodeListOf<HTMLButtonElement | HTMLAnchorElement>;
+
+    let index = 0;
+    let item: HTMLAnchorElement | HTMLButtonElement;
+
+    items.forEach((_, i) => {
+      if (i === selected) {
+        index = i;
+      }
+    });
+
+    item = items[index];
+
+    if (item) {
+      item.click();
+
+      if (
+        item.attributes.getNamedItem("data-close-on-select")?.value === "true"
+      ) {
+        onChangeOpen(false);
+      }
+    }
+  }
+
+  useEffect(() => {
+    handleChangeSelected();
+  }, [search]);
+
+  useEffect(() => {
+    setSelected(0);
+  }, [page]);
+
   return (
-    <div className="flex items-center space-x-1.5 pl-3">
-      {/* <MagnifyingGlassIcon className="w-4 pointer-events-none text-gray-400 dark:text-gray-600" /> */}
-      <span>SearchIcon</span>
-
-      {prefix?.length
-        ? prefix.map((p) => {
-            return (
-              <Fragment key={p}>
-                <span className="dark:text-white">{p}</span>
-                <span className="text-gray-500">/</span>
-              </Fragment>
-            );
-          })
-        : null}
-
-      <div className="flex-1 relative">
-        <input
-          ref={ref}
-          spellCheck={false}
-          className="py-4 px-0 border-none w-full focus:outline-none focus:border-none focus:ring-0 bg-transparent placeholder-gray-500 dark:text-white"
-          onChange={(e) => {
-            onChange(e.currentTarget.value);
+    <div
+      onKeyDown={(e) => {
+        if (
+          e.key === "ArrowDown" ||
+          (e.ctrlKey && e.key === "n") ||
+          (e.ctrlKey && e.key === "j")
+        ) {
+          e.preventDefault();
+          e.stopPropagation();
+          handleChangeSelected("down");
+        } else if (
+          e.key === "ArrowUp" ||
+          (e.ctrlKey && e.key === "p") ||
+          (e.ctrlKey && e.key === "k")
+        ) {
+          e.preventDefault();
+          e.stopPropagation();
+          handleChangeSelected("up");
+        } else if (e.key === "Enter") {
+          e.preventDefault();
+          e.stopPropagation();
+          handleSelect();
+        }
+      }}
+    >
+      <Transition appear show={isOpen} as={Fragment}>
+        <Dialog
+          initialFocus={inputRef}
+          as="div"
+          className="command-palette"
+          onClose={() => {
+            onChangeOpen(false);
           }}
-          onFocus={(e) => {
-            e.currentTarget.select();
-          }}
-          onKeyDown={(e) => {
-            if (e.key === "Escape" && value) {
-              e.preventDefault();
-              e.stopPropagation();
-              onChange("");
-            }
-          }}
-          id="command-palette-search-input"
-          placeholder={placeholder}
-          value={value}
-          type="text"
-          autoFocus
-        />
+        >
+          <div className="command-palette-content antialiased">
+            <Backdrop />
 
-        {value && (
-          <button
-            tabIndex={-1}
-            type="button"
-            onClick={() => {
-              onChange("");
-              const inputElement = document.getElementById(
-                "command-palette-search-input"
-              );
-              if (inputElement) {
-                inputElement.focus();
-              }
-            }}
-          >
-            <span>CloseIcon</span>
-            {/* <XCircleIcon className="w-5 text-gray-300 dark:text-gray-600 hover:text-gray-500 dark:hover:text-gray-300 transition absolute right-3 top-1/2 transform -translate-y-1/2" /> */}
-          </button>
-        )}
-      </div>
+            <div className="fixed inset-0 overflow-y-auto flex items-center justify-center">
+              <div className="flex w-full h-full md:h-[450px] items-start justify-center md:p-4">
+                <Transition.Child
+                  as={Fragment}
+                  enter="ease-out duration-300"
+                  enterFrom="opacity-0 scale-95"
+                  enterTo="opacity-100 scale-100"
+                  leave="ease-in duration-200"
+                  leaveFrom="opacity-100 scale-100"
+                  leaveTo="opacity-0 scale-95"
+                >
+                  <Dialog.Panel className="w-full max-h-full bg-gohan shadow-moon-md rounded-moon-s-md max-w-xl flex flex-col overflow-hidden divide-y dark:divide-beerus">
+                    <PageContext.Provider
+                      value={{
+                        setSearchPrefix,
+                        searchPrefix,
+                        page,
+                      }}
+                    >
+                      <Input
+                        onChange={onChangeSearch}
+                        placeholder={placeholder}
+                        prefix={searchPrefix}
+                        value={search}
+                        ref={inputRef}
+                      />
+                    </PageContext.Provider>
+
+                    <div
+                      className="flex-1 overflow-y-auto focus:outline-none p-2 space-y-4"
+                      tabIndex={-1}
+                    >
+                      <OpenContext.Provider value={{ isOpen, onChangeOpen }}>
+                        <PageContext.Provider
+                          value={{ page, searchPrefix, setSearchPrefix }}
+                        >
+                          <SearchContext.Provider value={{ search }}>
+                            <SelectContext.Provider value={{ selected }}>
+                              <RenderLinkContext.Provider
+                                value={{ renderLink }}
+                              >
+                                {children}
+                              </RenderLinkContext.Provider>
+                            </SelectContext.Provider>
+                          </SearchContext.Provider>
+                        </PageContext.Provider>
+                      </OpenContext.Provider>
+                    </div>
+                  </Dialog.Panel>
+                </Transition.Child>
+              </div>
+            </div>
+          </div>
+        </Dialog>
+      </Transition>
     </div>
   );
 }
 
-export default forwardRef(Search);
+Search.Page = Page;
+Search.List = List;
+Search.ListItem = ListItem;
+Search.FreeSearchAction = FreeSearchAction;
+Search.Backdrop = Backdrop;
+
+export default Search;

@@ -14,9 +14,8 @@ export default function FreeSearchAction({
   const { search } = useContext(SearchContext);
 
   return (
-    // TODO Icon search
     <ListItem index={0} showType={false} {...props}>
-      <span className="max-w-md truncate dark:text-white">
+      <span className="max-w-md truncate">
         {label} <span className="font-semibold">"{search}"</span>
       </span>
     </ListItem>

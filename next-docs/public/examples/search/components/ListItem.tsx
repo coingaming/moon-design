@@ -14,9 +14,9 @@ export type ListItemType = "Link" | "Action";
 
 function getListItemWrapperStyles(selected: boolean, disabled?: boolean) {
   return mergeClassnames(
-    "command-palette-list-item block w-full text-left px-3.5 py-2.5 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 focus:ring-1 focus:ring-gray-300 focus:outline-none flex items-center space-x-2.5 justify-between",
+    "command-palette-list-item block w-full text-left px-3.5 py-2.5 rounded-md hover:bg-goku focus:ring-1 focus:ring-gray-300 focus:outline-none flex items-center space-x-2.5 justify-between",
     selected && !disabled
-      ? "bg-gray-200/50 dark:bg-gray-800"
+      ? "bg-goku"
       : "bg-transparent",
     disabled
       ? "cursor-default pointer-events-none opacity-50"
@@ -170,21 +170,14 @@ function ListItemContent({
   return (
     <>
       <div className="flex w-full items-center space-x-2.5">
-        {/* {ListItemIcon &&
-          (typeof ListItemIcon === "string" ? (
-            <span>Icon</span>
-          ) : (
-            <ListItemIcon className="w-5 h-5 text-gray-500" />
-          ))} */}
-
         {typeof children === "string" ? (
-          <span className="truncate max-w-md dark:text-white">{children}</span>
+          <span className="truncate max-w-md text-bulma">{children}</span>
         ) : (
           children
         )}
       </div>
 
-      {type && <span className="text-gray-500 text-sm">{type}</span>}
+      {type && <span className="text-bulma text-sm">{type}</span>}
     </>
   );
 }
