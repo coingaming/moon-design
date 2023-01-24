@@ -7,7 +7,7 @@ import {
   TextLeftAlign,
   TextRightAlign,
 } from '@heathmont/moon-icons-tw';
-import useRtl from '../utils/useRtl';
+import { useRtl } from './rtl/RtlProvider';
 import { useDocsTheme } from './themes/DocsThemeProvider';
 import useThemeTW from './themes/useThemesTW';
 
@@ -15,7 +15,7 @@ const Settings = () => {
   const [isOpened, setIsOpened] = useState(false);
   const toggle = () => setIsOpened(!isOpened);
   const { toggleColorScheme } = useDocsTheme();
-  const { toggleRtl, isRtlEnabled } = useRtl();
+  const { rtlEnabled, toggleRtl } = useRtl();
   const { toggleMode: toggleModeTW, getMode } = useThemeTW();
   const isDarkThemeEnabled = getMode() === 'dark';
   const switchModeHandler = () => {
@@ -42,7 +42,7 @@ const Settings = () => {
             aria-label="Toggle light/dark themes"
           />
           <Switch
-            checked={isRtlEnabled}
+            checked={rtlEnabled}
             onChange={toggleRtl}
             size="xs"
             onIcon={<TextRightAlign />}

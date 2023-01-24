@@ -16,7 +16,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         <Sidebar closeSidebar={closeSidebar} />
       </SidebarTransition>
       {/* Static sidebar for desktop, hidden for mobile */}
-      <aside className="hidden fixed h-screen lg:flex lg:flex-shrink-0 w-80 flex-col">
+      <aside className="hidden fixed z-10 h-screen lg:flex lg:flex-shrink-0 w-80 flex-col">
         <Sidebar />
       </aside>
       <div className="min-h-screen lg:ms-80 bg-gohan flex-1 w-0 flex flex-col ltr:lg:rounded-tl-3xl rtl:lg:rounded-tr-3xl ltr:lg:rounded-bl-3xl rtl:lg:rounded-br-3xl px-5 xl:px-20 2xl:px-32 lg:pt-12">
