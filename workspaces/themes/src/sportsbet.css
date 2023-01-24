@@ -48,12 +48,12 @@
   --nappa-10: 161 134 129; /* #a18681 */
 
   /* border-radius */
-  --radius-i-xs: 624.938rem; /* 9999px */
-  --radius-i-sm: 624.938rem; /* 9999px */
-  --radius-i-md: 624.938rem; /* 9999px */
-  --radius-s-xs: 0.25rem; /* 4px */
-  --radius-s-sm: 0.5rem; /* 8px */
-  --radius-s-md: 0.75rem; /* 12px */
+  --radius-i-xs: 4px;
+  --radius-i-sm: 8px;
+  --radius-i-md: 12px;
+  --radius-s-xs: 4px;
+  --radius-s-sm: 8px;
+  --radius-s-md: 12px;
   --radius-s-lg: 1rem; /* 16px */
 
   /* border-width */
