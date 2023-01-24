@@ -82,7 +82,7 @@ const Example = () => {
         data={[
           {
             name: 'animation',
-            type: 'progress | success | error | pulse',
+            type: "'progress' | 'success' | 'error' | 'pulse' | boolean",
             required: false,
             default: '-',
             description: 'Animation of button',
