@@ -27,7 +27,7 @@ exports[`Tabs in Dark Theme renders Default 1`] = `
   >
     <button
       aria-selected={true}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
       id="headlessui-tabs-tab-:r1g:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -41,7 +41,7 @@ exports[`Tabs in Dark Theme renders Default 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:r1h:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -55,7 +55,7 @@ exports[`Tabs in Dark Theme renders Default 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:r1i:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -189,7 +189,7 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
   >
     <button
       aria-selected={true}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
       id="headlessui-tabs-tab-:r2e:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -203,7 +203,7 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:r2f:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -217,7 +217,7 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:r2g:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -468,7 +468,7 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
     >
       <button
         aria-selected={true}
-        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
         id="headlessui-tabs-tab-:r1s:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -482,7 +482,7 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:r1t:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -496,7 +496,7 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:r1u:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -534,7 +534,7 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
     >
       <button
         aria-selected={true}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
         id="headlessui-tabs-tab-:r1v:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -548,7 +548,7 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:r20:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -562,7 +562,7 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:r21:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -744,7 +744,7 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
   >
     <button
       aria-selected={true}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
       id="headlessui-tabs-tab-:r2k:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -758,7 +758,7 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 outline outline-1 outline-transparent focus-visible:ring appearance-none hover:text-hit after:bg-hit false"
       id="headlessui-tabs-tab-:r2l:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -772,7 +772,7 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 outline outline-1 outline-transparent focus-visible:ring appearance-none hover:text-hit after:bg-hit false"
       id="headlessui-tabs-tab-:r2m:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -893,7 +893,7 @@ exports[`Tabs in Dark Theme renders WithHandler 1`] = `
   >
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:r2q:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -907,7 +907,7 @@ exports[`Tabs in Dark Theme renders WithHandler 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:r2r:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -921,7 +921,7 @@ exports[`Tabs in Dark Theme renders WithHandler 1`] = `
     </button>
     <button
       aria-selected={true}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
       id="headlessui-tabs-tab-:r2s:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -973,7 +973,7 @@ exports[`Tabs in Light Theme renders Default 1`] = `
   >
     <button
       aria-selected={true}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
       id="headlessui-tabs-tab-:r0:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -987,7 +987,7 @@ exports[`Tabs in Light Theme renders Default 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:r1:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -1001,7 +1001,7 @@ exports[`Tabs in Light Theme renders Default 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:r2:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -1135,7 +1135,7 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
   >
     <button
       aria-selected={true}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
       id="headlessui-tabs-tab-:ru:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -1149,7 +1149,7 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:rv:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -1163,7 +1163,7 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:r10:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -1414,7 +1414,7 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
     >
       <button
         aria-selected={true}
-        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
         id="headlessui-tabs-tab-:rc:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -1428,7 +1428,7 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:rd:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -1442,7 +1442,7 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:re:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -1480,7 +1480,7 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
     >
       <button
         aria-selected={true}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
         id="headlessui-tabs-tab-:rf:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -1494,7 +1494,7 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:rg:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -1508,7 +1508,7 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:rh:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -1690,7 +1690,7 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
   >
     <button
       aria-selected={true}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
       id="headlessui-tabs-tab-:r14:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -1704,7 +1704,7 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 outline outline-1 outline-transparent focus-visible:ring appearance-none hover:text-hit after:bg-hit false"
       id="headlessui-tabs-tab-:r15:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -1718,7 +1718,7 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 outline outline-1 outline-transparent focus-visible:ring appearance-none hover:text-hit after:bg-hit false"
       id="headlessui-tabs-tab-:r16:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -1839,7 +1839,7 @@ exports[`Tabs in Light Theme renders WithHandler 1`] = `
   >
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:r1a:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -1853,7 +1853,7 @@ exports[`Tabs in Light Theme renders WithHandler 1`] = `
     </button>
     <button
       aria-selected={false}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
       id="headlessui-tabs-tab-:r1b:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -1867,7 +1867,7 @@ exports[`Tabs in Light Theme renders WithHandler 1`] = `
     </button>
     <button
       aria-selected={true}
-      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
       id="headlessui-tabs-tab-:r1c:"
       onClick={[Function]}
       onFocus={[Function]}
@@ -1922,7 +1922,7 @@ exports[`Tabs in RTL renders Default 1`] = `
     >
       <button
         aria-selected={true}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
         id="headlessui-tabs-tab-:r30:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -1936,7 +1936,7 @@ exports[`Tabs in RTL renders Default 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:r31:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -1950,7 +1950,7 @@ exports[`Tabs in RTL renders Default 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:r32:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -2092,7 +2092,7 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
     >
       <button
         aria-selected={true}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
         id="headlessui-tabs-tab-:r3u:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -2106,7 +2106,7 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:r3v:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -2120,7 +2120,7 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:r40:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -2377,7 +2377,7 @@ exports[`Tabs in RTL renders Sizes 1`] = `
       >
         <button
           aria-selected={true}
-          className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+          className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
           id="headlessui-tabs-tab-:r3c:"
           onClick={[Function]}
           onFocus={[Function]}
@@ -2391,7 +2391,7 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         </button>
         <button
           aria-selected={false}
-          className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
           id="headlessui-tabs-tab-:r3d:"
           onClick={[Function]}
           onFocus={[Function]}
@@ -2405,7 +2405,7 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         </button>
         <button
           aria-selected={false}
-          className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
           id="headlessui-tabs-tab-:r3e:"
           onClick={[Function]}
           onFocus={[Function]}
@@ -2443,7 +2443,7 @@ exports[`Tabs in RTL renders Sizes 1`] = `
       >
         <button
           aria-selected={true}
-          className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+          className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
           id="headlessui-tabs-tab-:r3f:"
           onClick={[Function]}
           onFocus={[Function]}
@@ -2457,7 +2457,7 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         </button>
         <button
           aria-selected={false}
-          className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
           id="headlessui-tabs-tab-:r3g:"
           onClick={[Function]}
           onFocus={[Function]}
@@ -2471,7 +2471,7 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         </button>
         <button
           aria-selected={false}
-          className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
           id="headlessui-tabs-tab-:r3h:"
           onClick={[Function]}
           onFocus={[Function]}
@@ -2657,7 +2657,7 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
     >
       <button
         aria-selected={true}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
         id="headlessui-tabs-tab-:r44:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -2671,7 +2671,7 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 outline outline-1 outline-transparent focus-visible:ring appearance-none hover:text-hit after:bg-hit false"
         id="headlessui-tabs-tab-:r45:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -2685,7 +2685,7 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 outline outline-1 outline-transparent focus-visible:ring appearance-none hover:text-hit after:bg-hit false"
         id="headlessui-tabs-tab-:r46:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -2810,7 +2810,7 @@ exports[`Tabs in RTL renders WithHandler 1`] = `
     >
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:r4a:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -2824,7 +2824,7 @@ exports[`Tabs in RTL renders WithHandler 1`] = `
       </button>
       <button
         aria-selected={false}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none"
         id="headlessui-tabs-tab-:r4b:"
         onClick={[Function]}
         onFocus={[Function]}
@@ -2838,7 +2838,7 @@ exports[`Tabs in RTL renders WithHandler 1`] = `
       </button>
       <button
         aria-selected={true}
-        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo outline outline-1 outline-transparent focus-visible:ring appearance-none after:origin-top-left after:scale-x-100 text-piccolo"
         id="headlessui-tabs-tab-:r4c:"
         onClick={[Function]}
         onFocus={[Function]}
