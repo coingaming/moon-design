@@ -1,5 +1,6 @@
 import React, { createContext, RefObject, useContext } from 'react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import useInterval from './private/utils/useInterval';
 import withHorizontalScroll from './private/utils/withHorizontalScroll';
 
 type CarouselState = {
@@ -34,15 +35,16 @@ type CarouselRootProps = {
   className?: string;
   step?: number;
   selectedIndex?: number;
+  autoSlideDelay?: number;
 };
 
-// TODO: add auto slide with slide indicator timer
 const CarouselRoot: React.FC<CarouselRootProps> = ({
   children,
   scrollTo,
   className,
   step,
   selectedIndex,
+  autoSlideDelay,
 }) => {
   const {
     itemRef,
@@ -55,7 +57,17 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
     itemsCount,
     firstVisibleIndex,
     lastVisibleIndex,
-  } = withHorizontalScroll({ scrollStep: step || 5, scrollTo });
+  } = withHorizontalScroll({ scrollStep: step || 5, scrollTo, scrollInContainer: true });
+
+  if (autoSlideDelay) {
+    useInterval(() => {
+      if (canScrollRight) {
+        scrollRightToStep();
+      } else {
+        scrollToIndex(0);
+      }
+    }, autoSlideDelay);
+  }
 
   React.useEffect(() => {
     if (!selectedIndex) {
@@ -109,7 +121,7 @@ const Reel: React.FC<SubcomponentProps> = ({ children, className }) => {
         '[-ms-overflow-style:-ms-autohiding-scrollbar]',
         '[&>li]:list-none [&>li]:before:absolute [&>li]:before:content-["\\200B"]',
         '[&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto',
-        'snap-x snap-mandatory',
+        'snap-x snap-mandatory rtl:flex-row-reverse',
         className
       )}
       ref={containerRef}
@@ -169,7 +181,7 @@ const LeftArrow: React.FC<SubcomponentProps> = ({ children, className }) => {
   return (
     <CarouselControl
       className={mergeClassnames(
-        'rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180',
+        '-left-3',
         className
       )}
       onClick={scrollLeftToStep}
@@ -187,7 +199,7 @@ const RightArrow: React.FC<SubcomponentProps> = ({ children, className }) => {
   return (
     <CarouselControl
       className={mergeClassnames(
-        'rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180',
+        '-right-3 left-auto',
         className
       )}
       onClick={scrollRightToStep}
@@ -198,6 +210,7 @@ const RightArrow: React.FC<SubcomponentProps> = ({ children, className }) => {
   );
 };
 
+// TODO: add slide indicator timer
 const Indicators: React.FC<SubcomponentProps> = ({ className }) => {
   const {
     itemsCount,
@@ -215,7 +228,7 @@ const Indicators: React.FC<SubcomponentProps> = ({ className }) => {
   return (
     <div
       className={mergeClassnames(
-        'flex absolute bottom-8 left-1/2 -translate-x-1/2',
+        'flex absolute bottom-8 left-1/2 -translate-x-1/2 rtl:flex-row-reverse',
         className
       )}
     >
