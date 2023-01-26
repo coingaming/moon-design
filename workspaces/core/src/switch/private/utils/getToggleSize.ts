@@ -1,6 +1,6 @@
-import type SwitchSizes from '../types/SwitchSizes';
+import type Size from '../types/Size';
 
-const getSwitchSpanSize = (size?: SwitchSizes) => {
+const getToggleSize = (size?: Size) => {
   switch (size) {
     case '2xs':
       return 'w-3 h-3';
@@ -12,4 +12,4 @@ const getSwitchSpanSize = (size?: SwitchSizes) => {
   }
 };
 
-export default getSwitchSpanSize;
+export default getToggleSize;

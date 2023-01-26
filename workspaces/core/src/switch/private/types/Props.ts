@@ -1,7 +1,7 @@
-import type SwitchSizes from './SwitchSizes';
+import type Size from './Size';
 
-type SwitchProps = {
-  size?: SwitchSizes;
+type Props = {
+  size?: Size;
   checked?: boolean;
   onChange?: (data: boolean) => void;
   disabled?: boolean;
@@ -11,6 +11,7 @@ type SwitchProps = {
   offBgColor?: string;
   onIcon?: JSX.Element | string;
   offIcon?: JSX.Element | string;
+  className?: string;
 };
 
-export default SwitchProps;
+export default Props;
