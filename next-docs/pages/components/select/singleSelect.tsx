@@ -18,7 +18,7 @@ export default function PageSelect() {
   return (
     <>
       <ComponentPageDescription title="Single Select">
-        <DeprecationWarning href="/core/select" name="Select" />
+        <DeprecationWarning href="/core/dropdown" name="Dropdown" />
       </ComponentPageDescription>
       <Preview
         title="With Label"

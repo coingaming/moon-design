@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/styledExamples/select/select/Default';
 import Label from '../../../public/styledExamples/select/select/Label';
@@ -12,11 +13,7 @@ export default function PageSelect() {
   return (
     <>
       <ComponentPageDescription title="Select">
-        <p>By default, Select stretches to full width on small devices.</p>
-        <p>
-          For Select inputs that need to remain full width on all devices, use
-          the fullWidth prop.
-        </p>
+        <DeprecationWarning href="/core/select" name="Select" />
       </ComponentPageDescription>
       <Preview
         title="Examples"
