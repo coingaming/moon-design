@@ -53,5 +53,3 @@ const Label = forwardRef<HTMLLabelElement, WithChildren<LabelProps>>(
 );
 
 export default Label;
-
-<Label htmlFor="name">Username</Label>;
