@@ -21,13 +21,20 @@ export const useFormContext = (component: string) => {
   return context;
 };
 
-type FormProps = {
-  size: 'sm' | 'md' | 'lg';
+interface FormProps
+  extends Omit<
+    React.DetailedHTMLProps<
+      React.FormHTMLAttributes<HTMLFormElement>,
+      HTMLFormElement
+    >,
+    'size'
+  > {
+  size?: 'sm' | 'md' | 'lg';
   className?: string;
   onSubmit?: () => void;
-};
+}
 const FormRoot = forwardRef<HTMLFormElement, WithChildren<FormProps>>(
-  ({ children, size, className, onSubmit, ...rest }, ref) => {
+  ({ children, size = 'md', className, onSubmit, ...rest }, ref) => {
     const state = {
       size: size,
     };

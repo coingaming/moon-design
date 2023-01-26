@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
+import DeprecationWarning from '../../../components/facing/DeprecationWarning';
 import PropsTable from '../../../components/PropsTable';
 import Disabled from '../../../public/styledExamples/select/multiReactSelect/Disabled';
 import Error from '../../../public/styledExamples/select/multiReactSelect/Error';
@@ -17,20 +18,7 @@ export default function PageSelect() {
   return (
     <>
       <ComponentPageDescription title="Multi Select">
-        <p>This Multi Select based on react-select library.</p>
-        <p>
-          Unlike a normal select, multiselect allows the user to select multiple
-          options at once.
-        </p>
-        <p>
-          As well as select Multi Select has two sizes with a different views:{' '}
-          <span className="font-medium">large</span> (by default) and{' '}
-          <span className="font-medium">xLarge</span>. Large size has label
-          outside input, xLarge has label inside the input. Also, you can set
-          multi-select view with counter. Just specify the amount of visible
-          options inside select with the help of{' '}
-          <span className="font-medium">amountOfVisibleItems</span> prop.
-        </p>
+        <DeprecationWarning href="/core/dropdown" name="Dropdown" />
       </ComponentPageDescription>
       <Preview
         title="Size"

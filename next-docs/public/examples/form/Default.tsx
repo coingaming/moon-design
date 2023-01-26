@@ -57,10 +57,6 @@ const Example = () => {
   );
 };
 
-type OptionRenderProps = {
-  selected: boolean;
-  active: boolean;
-};
 const DataSelect: React.FC<{ options: any; label: string }> = ({
   options,
   label,
@@ -69,7 +65,7 @@ const DataSelect: React.FC<{ options: any; label: string }> = ({
   return (
     <>
       <Dropdown value={option} onChange={setOption}>
-        {({ open }: { open: boolean }) => (
+        {({ open }) => (
           <>
             <Dropdown.Select open={open} label={label}>
               {option?.name}
@@ -77,7 +73,7 @@ const DataSelect: React.FC<{ options: any; label: string }> = ({
             <Dropdown.Options>
               {options.map((opt: any) => (
                 <Dropdown.Option value={opt} key={opt}>
-                  {({ selected, active }: OptionRenderProps) => (
+                  {({ selected, active }) => (
                     <MenuItem isActive={active} isSelected={selected}>
                       {opt.name}
                     </MenuItem>

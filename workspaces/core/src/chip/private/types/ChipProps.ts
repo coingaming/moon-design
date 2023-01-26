@@ -6,7 +6,7 @@ type ChipProps = {
   size?: 'sm' | 'md';
   isStroke?: boolean;
   variant?: 'default' | 'ghost';
-  children?: JSX.Element | string;
+  children?: React.ReactNode;
 } & React.DetailedHTMLProps<
   React.ButtonHTMLAttributes<HTMLButtonElement>,
   HTMLButtonElement
