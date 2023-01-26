@@ -79,8 +79,12 @@ const Example = () => {
         firstName: `Test ${index}`,
         lastName: `Test ${index}`,
         age: <span>{Math.floor(index + Math.ceil(Math.random() * 10))}</span>,
-        visits: <span>{Math.floor(index + Math.ceil(Math.random() * 10))}</span>,
-        progress: <span>{Math.floor(index + Math.ceil(Math.random() * 10))}</span>,
+        visits: (
+          <span>{Math.floor(index + Math.ceil(Math.random() * 10))}</span>
+        ),
+        progress: (
+          <span>{Math.floor(index + Math.ceil(Math.random() * 10))}</span>
+        ),
         status: Math.floor(index + Math.ceil(Math.random() * 10)),
         activity: Math.floor(index + Math.ceil(Math.random() * 10)),
       };

@@ -10,9 +10,9 @@ import Updates from '../components/facing/Updates';
 const Home = () => (
   <>
     <div className="relative z-5 flex flex-col gap-12">
-      <div className="self-start">
-        <Tag size="2xs">Open Source</Tag>
-      </div>
+      <Tag size="2xs" className="self-start">
+        Open Source
+      </Tag>
       <div className="flex flex-col gap-16">
         <PageTitle />
         <div className="flex flex-col lg:flex-row gap-4 3xl:fixed 3xl:top-12 ltr:3xl:right-12 rtl:3xl:left-12 3xl:z-10">

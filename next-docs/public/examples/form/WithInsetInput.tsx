@@ -16,13 +16,19 @@ const Example = () => {
       onSubmit={() => console.log('Submit')}
     >
       <Form.Item error>
-        <InsetInput placeholder="Your username...">
+        <InsetInput
+          placeholder="Your username..."
+          className="rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs  [&_input:hover]:rounded-moon-s-xs"
+        >
           <InsetInput.Label>Username</InsetInput.Label>
         </InsetInput>
         <Hint>Field is required</Hint>
       </Form.Item>
       <Form.Item>
-        <InsetInput placeholder="Your Email...">
+        <InsetInput
+          placeholder="Your Email..."
+          className="rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
+        >
           <InsetInput.Label>Email</InsetInput.Label>
         </InsetInput>
       </Form.Item>

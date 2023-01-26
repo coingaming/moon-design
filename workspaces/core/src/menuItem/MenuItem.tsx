@@ -149,7 +149,7 @@ const Checkbox: React.FC<CheckboxRadioProps> = ({ isSelected, className }) => {
       <span
         aria-checked={selected}
         className={mergeClassnames(
-          'absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo',
+          'absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo',
           className && className
         )}
         aria-hidden="true"

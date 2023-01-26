@@ -2,7 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
-import Colours from '../../public/examples/tag/Colours';
+import Customization from '../../public/examples/tag/Customization';
 import Default from '../../public/examples/tag/Default';
 import Icons from '../../public/examples/tag/Icons';
 import LetterCases from '../../public/examples/tag/LetterCases';
@@ -13,7 +13,7 @@ const Example = () => {
   const examples = useExamples('tag');
   return (
     <>
-      <ComponentPageDescription title="Tag" isInProgress>
+      <ComponentPageDescription title="Tag" isInProgress isRtlSupport>
         <p>
           Tag represent a set of interactive keywords that help organize and
           categorize objects.
@@ -24,11 +24,6 @@ const Example = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
-      />
-      <Preview
-        title="Colours"
-        preview={<Colours />}
-        code={examples ? examples.Colours : 'Loading'}
       />
       <Preview
         title="Sizes"
@@ -45,16 +40,14 @@ const Example = () => {
         preview={<LetterCases />}
         code={examples ? examples.LetterCases : 'Loading'}
       />
+      <Preview
+        title="Customization"
+        preview={<Customization />}
+        code={examples ? examples.Customization : 'Loading'}
+      />
       <PropsTable
         title="Tag props"
         data={[
-          {
-            name: 'bgColor',
-            type: 'string',
-            required: false,
-            default: 'bg-bulma',
-            description: 'Background colour',
-          },
           {
             name: 'children',
             type: 'React.ReactNode',
@@ -63,11 +56,11 @@ const Example = () => {
             description: 'Children content',
           },
           {
-            name: 'color',
+            name: 'className',
             type: 'string',
             required: false,
-            default: 'text-gohan',
-            description: 'Text colour',
+            default: '-',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'iconLeft',

@@ -47,7 +47,7 @@ exports[`Form in Dark Theme renders with Input 1`] = `
     className="w-full max-w-full relative grid gap-2 grid-cols-3 z-10"
   >
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
@@ -83,25 +83,21 @@ exports[`Form in Dark Theme renders with Input 1`] = `
                     className="text-moon-16 text-trunks"
                   />
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
@@ -119,7 +115,7 @@ exports[`Form in Dark Theme renders with Input 1`] = `
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
@@ -155,25 +151,21 @@ exports[`Form in Dark Theme renders with Input 1`] = `
                     className="text-moon-16 text-trunks"
                   />
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
@@ -191,7 +183,7 @@ exports[`Form in Dark Theme renders with Input 1`] = `
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
@@ -227,25 +219,21 @@ exports[`Form in Dark Theme renders with Input 1`] = `
                     className="text-moon-16 text-trunks"
                   />
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
@@ -320,7 +308,7 @@ exports[`Form in Dark Theme renders with InsetInput 1`] = `
     className="w-full max-w-full relative z-0"
   >
     <div
-      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -343,7 +331,7 @@ exports[`Form in Dark Theme renders with InsetInput 1`] = `
     className="w-full max-w-full relative z-0"
   >
     <div
-      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -462,7 +450,7 @@ exports[`Form in Light Theme renders with Input 1`] = `
     className="w-full max-w-full relative grid gap-2 grid-cols-3 z-10"
   >
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
@@ -498,25 +486,21 @@ exports[`Form in Light Theme renders with Input 1`] = `
                     className="text-moon-16 text-trunks"
                   />
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
@@ -534,7 +518,7 @@ exports[`Form in Light Theme renders with Input 1`] = `
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
@@ -570,25 +554,21 @@ exports[`Form in Light Theme renders with Input 1`] = `
                     className="text-moon-16 text-trunks"
                   />
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
@@ -606,7 +586,7 @@ exports[`Form in Light Theme renders with Input 1`] = `
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
@@ -642,25 +622,21 @@ exports[`Form in Light Theme renders with Input 1`] = `
                     className="text-moon-16 text-trunks"
                   />
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
@@ -735,7 +711,7 @@ exports[`Form in Light Theme renders with InsetInput  1`] = `
     className="w-full max-w-full relative z-0"
   >
     <div
-      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -758,7 +734,7 @@ exports[`Form in Light Theme renders with InsetInput  1`] = `
     className="w-full max-w-full relative z-0"
   >
     <div
-      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
     >
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -880,7 +856,7 @@ exports[`Form in RTL renders with Input 1`] = `
       className="w-full max-w-full relative grid gap-2 grid-cols-3 z-10"
     >
       <div
-        className="w-full"
+        className="w-full relative"
       >
         <div
           className="relative"
@@ -916,25 +892,21 @@ exports[`Form in RTL renders with Input 1`] = `
                       className="text-moon-16 text-trunks"
                     />
                   </span>
-                  <span
-                    className="flex-shrink-0"
+                  <svg
+                    className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    <svg
-                      className="text-[1.5rem] text-trunks"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M25 11.5l-9 9-9-9"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </span>
+                    <path
+                      d="M22 13l-6 6-6-6"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                 </button>
               </div>
             </div>
@@ -952,7 +924,7 @@ exports[`Form in RTL renders with Input 1`] = `
         </div>
       </div>
       <div
-        className="w-full"
+        className="w-full relative"
       >
         <div
           className="relative"
@@ -988,25 +960,21 @@ exports[`Form in RTL renders with Input 1`] = `
                       className="text-moon-16 text-trunks"
                     />
                   </span>
-                  <span
-                    className="flex-shrink-0"
+                  <svg
+                    className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    <svg
-                      className="text-[1.5rem] text-trunks"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M25 11.5l-9 9-9-9"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </span>
+                    <path
+                      d="M22 13l-6 6-6-6"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                 </button>
               </div>
             </div>
@@ -1024,7 +992,7 @@ exports[`Form in RTL renders with Input 1`] = `
         </div>
       </div>
       <div
-        className="w-full"
+        className="w-full relative"
       >
         <div
           className="relative"
@@ -1060,25 +1028,21 @@ exports[`Form in RTL renders with Input 1`] = `
                       className="text-moon-16 text-trunks"
                     />
                   </span>
-                  <span
-                    className="flex-shrink-0"
+                  <svg
+                    className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
                   >
-                    <svg
-                      className="text-[1.5rem] text-trunks"
-                      fill="none"
-                      height="1em"
-                      viewBox="0 0 32 32"
-                      width="1em"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        d="M25 11.5l-9 9-9-9"
-                        stroke="currentColor"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                      />
-                    </svg>
-                  </span>
+                    <path
+                      d="M22 13l-6 6-6-6"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                 </button>
               </div>
             </div>
@@ -1157,7 +1121,7 @@ exports[`Form in RTL renders with InsetInput 1`] = `
       className="w-full max-w-full relative z-0"
     >
       <div
-        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+        className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
       >
         <input
           className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
@@ -1180,7 +1144,7 @@ exports[`Form in RTL renders with InsetInput 1`] = `
       className="w-full max-w-full relative z-0"
     >
       <div
-        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+        className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
       >
         <input
           className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"

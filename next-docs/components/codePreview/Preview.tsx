@@ -20,7 +20,7 @@ const Preview = ({ title, description, preview, code, className }: Props) => {
   };
   return (
     <section className="flex flex-col gap-6">
-      <div className="flex flex-row items-center justify-between">
+      <div className="flex flex-row gap-3 items-center justify-between">
         <h2 className="text-moon-24 font-medium">{title}</h2>
         <PreviewSwitch
           isPreviewActive={isPreviewActive}

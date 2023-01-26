@@ -1,28 +1,34 @@
 import React from 'react';
-import TagContainer from './styles/TagContainer';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import getFontSize from './private/utils/getFontSize';
+import getIconSize from './private/utils/getIconSize';
+import getSize from './private/utils/getSize';
 import type TagProps from './private/types/TagProps';
 
 const Tag: React.FC<TagProps> = ({
   children,
-  color = 'text-gohan',
-  bgColor = 'bg-bulma',
+  color, // deprecated
+  bgColor, // deprecated
   iconLeft,
   iconRight,
   size = 'xs',
   isUppercase = true,
+  className,
 }) => (
-  <TagContainer
-    bgColor={bgColor}
-    color={color}
-    size={size}
-    isUppercase={isUppercase}
-    iconLeft={iconLeft}
-    iconRight={iconRight}
+  <div
+    className={mergeClassnames(
+      'flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma',
+      getSize({ size, iconRight, iconLeft }),
+      getFontSize({ isUppercase, size }),
+      color,
+      bgColor,
+      className
+    )}
   >
-    {iconLeft && iconLeft}
+    {iconLeft && <span className={getIconSize(size)}>{iconLeft}</span>}
     {children}
-    {iconRight && iconRight}
-  </TagContainer>
+    {iconRight && <span className={getIconSize(size)}>{iconRight}</span>}
+  </div>
 );
 
 export default Tag;

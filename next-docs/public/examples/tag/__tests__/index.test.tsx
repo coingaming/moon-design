@@ -9,7 +9,7 @@ import {
   ThemeProvider,
 } from '@heathmont/moon-themes';
 import renderer from 'react-test-renderer';
-import Colours from '../Colours';
+import Customization from '../Customization';
 import Sizes from '../Sizes';
 import Icons from '../Icons';
 import LetterCases from '../LetterCases';
@@ -32,8 +32,10 @@ describe('Tag in Light Theme', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Colours', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Colours />));
+  it('renders Customization', () => {
+    const testRenderer = renderer.create(
+      renderWithLightTheme(<Customization />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Sizes', () => {
@@ -55,8 +57,10 @@ describe('Tag in Dark Theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Colours', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Colours />));
+  it('renders Customization', () => {
+    const testRenderer = renderer.create(
+      renderWithDarkTheme(<Customization />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Sizes', () => {
@@ -78,8 +82,8 @@ describe('Tag in RTL', () => {
     const testRenderer = renderer.create(renderWithRtl(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Colours', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Colours />));
+  it('renders Customization', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Customization />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Sizes', () => {

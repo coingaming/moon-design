@@ -30,11 +30,11 @@ const PreviewSwitch = ({
         <Tabs.Segment>
           <Tabs.Pill>
             <ControlsEye className="text-moon-24" />
-            Preview
+            <span className="hidden md:block">Preview</span>
           </Tabs.Pill>
           <Tabs.Pill>
             <SoftwareCode className="text-moon-24" />
-            Code
+            <span className="hidden md:block">Code</span>
           </Tabs.Pill>
         </Tabs.Segment>
       </Tabs>

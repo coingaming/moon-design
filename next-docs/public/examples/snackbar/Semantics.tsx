@@ -28,7 +28,7 @@ const Example = () => {
         >
           Success
         </Button>
-        <Snackbar isOpen={snackbar === 'success'} setSnackbar={setSnackbar}>
+        <Snackbar isOpen={snackbar === 'success'} onOpenChange={setSnackbar}>
           <Snackbar.Icon className="h-10 bg-roshi-10 text-roshi">
             <GenericInfo />
           </Snackbar.Icon>
@@ -46,7 +46,7 @@ const Example = () => {
         >
           Warning
         </Button>
-        <Snackbar isOpen={snackbar === 'warning'} setSnackbar={setSnackbar}>
+        <Snackbar isOpen={snackbar === 'warning'} onOpenChange={setSnackbar}>
           <Snackbar.Icon className="h-10 bg-krillin-10 text-krillin">
             <GenericInfo />
           </Snackbar.Icon>
@@ -64,7 +64,7 @@ const Example = () => {
         >
           Error
         </Button>
-        <Snackbar isOpen={snackbar === 'error'} setSnackbar={setSnackbar}>
+        <Snackbar isOpen={snackbar === 'error'} onOpenChange={setSnackbar}>
           <Snackbar.Icon className="h-10 bg-chichi-10 text-chichi">
             <GenericInfo />
           </Snackbar.Icon>

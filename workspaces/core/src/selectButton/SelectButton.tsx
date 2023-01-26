@@ -1,16 +1,14 @@
-import React, { createContext, useContext } from 'react';
+import React, { createContext, useCallback, useContext } from 'react';
 import { Listbox } from '@headlessui/react';
 import {
-  ControlsChevronDown,
   ControlsChevronDownSmall,
-  ControlsChevronUp,
-  ControlsChevronUpSmall,
+  ControlsCloseSmall,
 } from '@heathmont/moon-icons-tw';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 
 type SelectButtonState = {
   open?: boolean;
-  size?: 'sm' | 'md' | 'lg' | 'xl' | string;
+  size?: 'sm' | 'md' | 'lg' | string;
   isError?: boolean;
   idDisabled?: boolean;
 };
@@ -31,7 +29,7 @@ const useSelectButtonContext = (component: string) => {
 };
 
 type SelectButtonProps = {
-  size?: 'md' | 'lg' | 'xl' | string;
+  size?: 'sm' | 'md' | 'lg' | string;
   isError?: boolean;
   open?: boolean;
   idDisabled?: boolean;
@@ -39,14 +37,12 @@ type SelectButtonProps = {
   placeholder?: JSX.Element | string;
 };
 
-const getSelectSize = (size?: 'sm' | 'md' | 'lg' | 'xl' | string) => {
+const getSelectSize = (size?: 'sm' | 'md' | 'lg' | string) => {
   switch (size) {
-    case 'xl':
-      return 'h-14 py-2 px-4 rounded-moon-i-md';
     case 'lg':
-      return 'h-12 py-3 px-4 rounded-moon-i-sm';
+      return 'h-12 p-3 rounded-moon-i-sm';
     case 'sm':
-      return 'h-8 py-1 p-3 rounded-moon-i-xs';
+      return 'h-8 py-1 px-2 rounded-moon-i-xs';
     case 'md':
     default:
       return 'h-10 py-2 px-3 rounded-moon-i-sm';
@@ -100,6 +96,33 @@ const Input: React.FC<{ className?: string }> = ({ children, className }) => {
       <span className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap">
         {children}
       </span>
+      <Control />
+    </button>
+  );
+};
+
+const InsetInput: React.FC<{ className?: string }> = ({
+  children,
+  className,
+}) => {
+  const { isError, idDisabled, ...rest } =
+    useSelectButtonContext('SelectButton.Input');
+  return (
+    <button
+      {...rest}
+      className={mergeClassnames(
+        'flex items-center justify-between',
+        'w-full bg-gohan border-beerus',
+        'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
+        'focus:shadow-input-focus focus:outline-none',
+        'h-14 py-2 px-4 rounded-moon-i-md',
+        isError &&
+          'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+        idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input',
+        className && className
+      )}
+    >
+      <span className="flex gap-2 items-center">{children}</span>
       <Control />
     </button>
   );
@@ -165,21 +188,49 @@ const Placeholder: React.FC = ({ children }) => {
 const Control: React.FC = () => {
   const { open, size } = useSelectButtonContext('SelectButton.Control');
   return (
-    <span className="flex-shrink-0">
-      {open ? (
-        size === 'sm' ? (
-          <ControlsChevronUpSmall className="text-[1.5rem] text-trunks" />
-        ) : (
-          <ControlsChevronUp className="text-[1.5rem] text-trunks" />
-        )
-      ) : size === 'sm' ? (
-        <ControlsChevronDownSmall className="text-[1.5rem] text-trunks" />
-      ) : (
-        <ControlsChevronDown className="text-[1.5rem] text-trunks" />
+    <ControlsChevronDownSmall
+      className={mergeClassnames(
+        'text-trunks flex-shrink-0 transition-transform',
+        size === 'sm' ? 'text-moon-16' : 'text-moon-24',
+        open && 'rotate-[-180deg]'
       )}
+    />
+  );
+};
+
+type ChipProps = { children: React.ReactNode; onClear?: () => void };
+const Chip: React.FC<ChipProps> = ({ children, onClear }) => {
+  const { size } = useSelectButtonContext('SelectButton.Control');
+
+  const cliclHandler = useCallback(
+    (e: any) => {
+      e.preventDefault();
+      onClear && onClear();
+    },
+    [onClear]
+  );
+
+  return (
+    <span
+      onClick={cliclHandler}
+      className={mergeClassnames(
+        'chip bg-bulma text-gohan flex items-center justify-center rounded-moon-s-xs cursor-pointer',
+        size === 'sm' ? 'text-moon-12 h-4 px-0.5' : 'text-moon-14 h-6 px-1'
+      )}
+    >
+      <span className={mergeClassnames(size === 'sm' ? 'px-0.5' : 'px-1')}>
+        {children}
+      </span>
+      <ControlsCloseSmall
+        className={mergeClassnames(
+          'text-gohan',
+          size === 'sm' ? 'text-moon-12' : 'text-moon-14'
+        )}
+      />
     </span>
   );
 };
+
 const SelectButton = Object.assign(SelectButtonRoot, {
   Label,
   FloatingLabel,
@@ -187,6 +238,8 @@ const SelectButton = Object.assign(SelectButtonRoot, {
   Control,
   Input,
   Value,
+  Chip,
+  InsetInput,
 });
 
 export default SelectButton;

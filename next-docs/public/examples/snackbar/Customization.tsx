@@ -29,7 +29,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'border-radius'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           className="rounded-none"
         >
           <Snackbar.Message>Custom border radius</Snackbar.Message>
@@ -44,7 +44,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'background'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           className="bg-roshi"
         >
           <Snackbar.Message>Custom background color</Snackbar.Message>
@@ -59,7 +59,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'width'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           className="w-72"
         >
           <Snackbar.Message>Custom width</Snackbar.Message>
@@ -74,7 +74,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'always-light'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           className="theme-moon-light"
         >
           <Snackbar.Message>Applying light theme</Snackbar.Message>
@@ -89,7 +89,7 @@ const Example = () => {
         </Button>
         <Snackbar
           isOpen={snackbar === 'always-dark'}
-          setSnackbar={setSnackbar}
+          onOpenChange={setSnackbar}
           className="theme-moon-dark"
         >
           <Snackbar.Message>Applying dark theme</Snackbar.Message>
@@ -102,7 +102,7 @@ const Example = () => {
         >
           Fonts
         </Button>
-        <Snackbar isOpen={snackbar === 'fonts'} setSnackbar={setSnackbar}>
+        <Snackbar isOpen={snackbar === 'fonts'} onOpenChange={setSnackbar}>
           <Snackbar.Content>
             <Snackbar.Message className="text-moon-24 text-chichi">
               Custom fonts.

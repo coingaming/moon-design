@@ -125,7 +125,7 @@ const Item: React.FC<SubcomponentProps> = ({ children, className }) => {
   return (
     <li
       className={mergeClassnames(
-        'snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center',
+        'snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center',
         className
       )}
       ref={itemRef}

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { useBottomSheetContext } from './context';
 
-const useDrag = (onClose: () => void) => {
+const useDrag = (onClose?: () => void) => {
   const draghandleRef = useRef<HTMLDivElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
   const contentRef = useRef<HTMLDivElement>(null);
@@ -30,7 +30,7 @@ const useDrag = (onClose: () => void) => {
       ref.style.transform = `translateY(${ref.clientHeight}px)`;
       setIsClosing(true);
       setTimeout(() => {
-        onClose();
+        onClose && onClose();
       }, 210);
     } else {
       setInitialCursorY(0);

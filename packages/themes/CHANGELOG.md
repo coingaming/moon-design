@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.20.0
+
+### Minor Changes
+
+- Bump minor version
+
 ## 9.19.0
 
 ### Minor Changes

@@ -4,14 +4,10 @@ import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import BottomSheetContext, { useBottomSheetContext } from './private/context';
 import stateReducer from './private/stateReducer';
 import useDrag from './private/useDrag';
-
-type BottomSheetRootProps = {
-  open: boolean;
-  onClose: () => void;
-  hasShadow?: boolean;
-  size?: 'sm' | 'md' | 'lg' | string;
-  children?: ReactNode;
-};
+import type BackdropProps from './private/types/BackdropProps';
+import type BottomSheetRootProps from './private/types/BottomSheetRootProps';
+import type PanelProps from './private/types/PanelProps';
+import type TitleProps from './private/types/TitleProps';
 
 const BottomSheetRoot: React.FC<BottomSheetRootProps> = ({
   open,
@@ -45,13 +41,6 @@ const BottomSheetRoot: React.FC<BottomSheetRootProps> = ({
       </Dialog>
     </BottomSheetContext.Provider>
   );
-};
-
-type PanelProps = {
-  className: string;
-  hasShadow?: boolean;
-  onClose: () => void;
-  children?: ReactNode;
 };
 
 const Panel: React.FC<PanelProps> = ({
@@ -118,20 +107,11 @@ const Draghandle = ({ children }: { children: ReactNode }) => {
   );
 };
 
-type BackdropProps = {
-  className?: string;
-};
-
 const Backdrop: React.FC<BackdropProps> = ({ className }) => (
   <div
     className={mergeClassnames('fixed inset-0 bg-black/[0.56]', className)}
   ></div>
 );
-
-type TitleProps = {
-  className?: string;
-  children?: ReactNode;
-};
 
 const Title: React.FC<TitleProps> = ({ children, className }) => (
   <div className="p-4 border-b-2 border-beerus">
