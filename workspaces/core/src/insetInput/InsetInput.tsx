@@ -3,7 +3,8 @@ import { useFormItemContext } from '../form/Form';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import useRegisterChild from '../private/utils/useRegisterChild';
 
-interface InsetInputProps extends React.InputHTMLAttributes<HTMLInputElement> {
+export interface InsetInputProps
+  extends React.InputHTMLAttributes<HTMLInputElement> {
   className?: string;
   type?: React.HTMLInputTypeAttribute;
   error?: boolean;
@@ -73,7 +74,9 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
               'focus:shadow-input-focus focus:outline-none',
               error &&
                 'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-              'h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm',
+              'h-14 leading-[3.5rem] rounded-moon-i-sm',
+              'rtl:hover:rounded-moon-i-sm rtl:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm',
+              'ltr:hover:rounded-moon-i-sm ltr:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm',
               'before:box-border after:box-border',
               'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
               'read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input',
