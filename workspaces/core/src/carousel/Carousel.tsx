@@ -58,11 +58,11 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
   } = withHorizontalScroll({ scrollStep: step || 5, scrollTo });
 
   React.useEffect(() => {
-    if (!selectedIndex) {
-      return;
+    if (selectedIndex !== undefined) {
+      scrollToIndex(selectedIndex);
     }
-    scrollToIndex(selectedIndex);
-  }, []);
+    
+  }, [selectedIndex]);
 
   return (
     <CarouselContext.Provider

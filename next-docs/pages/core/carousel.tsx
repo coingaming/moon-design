@@ -6,6 +6,7 @@ import PropsTable from '../../components/PropsTable';
 import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
 import Default from '../../public/examples/carousel/Default';
 import Indicators from '../../public/examples/carousel/Indicators';
+import SelectIndex from '../../public/examples/carousel/SelectIndex';
 import Spaces from '../../public/examples/carousel/Spaces';
 import VisibleIndex from '../../public/examples/carousel/VisibleIndex';
 import useExamples from '../../utils/useExamples';
@@ -60,6 +61,11 @@ export default function PageCarousel() {
         title="Visible indices"
         preview={<VisibleIndex />}
         code={examples ? examples.VisibleIndex : 'Loading'}
+      />
+      <Preview
+        title="Select index"
+        preview={<SelectIndex />}
+        code={examples ? examples.SelectIndex : 'Loading'}
       />
       <PropsTable
         title="Carousel props"
