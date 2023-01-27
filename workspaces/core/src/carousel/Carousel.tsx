@@ -14,6 +14,7 @@ type CarouselState = {
   itemsCount?: number;
   firstVisibleIndex?: number;
   lastVisibleIndex?: number;
+  autoSlideDelay?: number;
 };
 
 const CarouselContext = createContext<CarouselState>({});
@@ -89,6 +90,7 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
         itemsCount,
         firstVisibleIndex,
         lastVisibleIndex,
+        autoSlideDelay,
       }}
     >
       <div className={mergeClassnames('relative w-full', className)}>
@@ -112,7 +114,7 @@ type SubcomponentProps = {
 };
 
 const Reel: React.FC<SubcomponentProps> = ({ children, className }) => {
-  const { containerRef } = useCarouselContext('Carousel.Reel');
+  const { containerRef, autoSlideDelay } = useCarouselContext('Carousel.Reel');
   return (
     <ul
       className={mergeClassnames(
@@ -122,6 +124,7 @@ const Reel: React.FC<SubcomponentProps> = ({ children, className }) => {
         '[&>li]:list-none [&>li]:before:absolute [&>li]:before:content-["\\200B"]',
         '[&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto',
         'snap-x snap-mandatory rtl:flex-row-reverse',
+        autoSlideDelay && 'overflow-x-hidden',
         className
       )}
       ref={containerRef}
