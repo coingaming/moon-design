@@ -320,6 +320,89 @@ exports[`Accordion in RTL renders Default 1`] = `
 </div>
 `;
 
+exports[`Accordion in RTL renders SelectIndex 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col items-center gap-4"
+  >
+    <div
+      className="flex gap-1"
+    >
+      <button
+        className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04] px-4"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+    </div>
+    <div
+      className="relative w-[320px]"
+    >
+      <ul
+        className="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+      >
+        <li
+          className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          0
+        </li>
+        <li
+          className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          1
+        </li>
+        <li
+          className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          2
+        </li>
+        <li
+          className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          3
+        </li>
+        <li
+          className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          4
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Accordion in RTL renders indicators 1`] = `
 <div
   dir="rtl"
@@ -1127,6 +1210,85 @@ exports[`Carousel in Dark Theme renders Default 1`] = `
 </div>
 `;
 
+exports[`Carousel in Dark Theme renders SelectIndex 1`] = `
+<div
+  className="flex flex-col items-center gap-4"
+>
+  <div
+    className="flex gap-1"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04] px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+  </div>
+  <div
+    className="relative w-[320px]"
+  >
+    <ul
+      className="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+    >
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        0
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        1
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        2
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        3
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        4
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
 exports[`Carousel in Dark Theme renders indicators 1`] = `
 <div
   className="relative w-[320px]"
@@ -1915,6 +2077,85 @@ exports[`Carousel in Light Theme renders Default 1`] = `
       />
     </svg>
   </button>
+</div>
+`;
+
+exports[`Carousel in Light Theme renders SelectIndex 1`] = `
+<div
+  className="flex flex-col items-center gap-4"
+>
+  <div
+    className="flex gap-1"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04] px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+  </div>
+  <div
+    className="relative w-[320px]"
+  >
+    <ul
+      className="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+    >
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        0
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        1
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        2
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        3
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        4
+      </li>
+    </ul>
+  </div>
 </div>
 `;
 

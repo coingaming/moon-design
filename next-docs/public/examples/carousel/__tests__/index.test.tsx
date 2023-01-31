@@ -10,6 +10,7 @@ import Spaces from '../Spaces';
 import CustomizedArrow from '../CustomizedArrow';
 import VisibleIndex from '../VisibleIndex';
 import Indicators from '../Indicators';
+import SelectIndex from '../SelectIndex';
 import Autoslide from '../Autoslide';
 
 /**
@@ -93,6 +94,11 @@ describe('Carousel in Light Theme', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
+  it('renders SelectIndex', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<SelectIndex />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  
   it('renders Autoslide', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<Autoslide />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
@@ -129,6 +135,11 @@ describe('Carousel in Dark Theme', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
+  it('renders SelectIndex', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<SelectIndex />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  
   it('renders Autoslide', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Autoslide />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
@@ -165,6 +176,11 @@ describe('Accordion in RTL', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 
+  it('renders SelectIndex', () => {
+    const testRenderer = renderer.create(renderWithRtl(<SelectIndex />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  
   it('renders Autoslide', () => {
     const testRenderer = renderer.create(renderWithRtl(<Autoslide />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
