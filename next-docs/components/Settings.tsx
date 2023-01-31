@@ -29,7 +29,7 @@ const Settings = () => {
           aria-label="Toggle site settings"
         />
       </Popover.Trigger>
-      <Popover.Panel className="flex flex-col gap-1 p-3 bg-goku">
+      <Popover.Panel className="flex flex-col gap-1 p-3 bg-gohan">
         {isLocalhost && <BrandSwitcher />}
         <MenuItem as="div" className="cursor-default">
           {isDarkThemeEnabled ? 'Dark mode' : 'Light mode'}
