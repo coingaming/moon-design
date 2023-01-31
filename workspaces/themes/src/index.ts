@@ -7,3 +7,4 @@ import './moon.css';
 import './partners.css';
 import './sportsbet.css';
 import './tradeart.css';
+import './bombayClub.css';
