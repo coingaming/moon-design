@@ -180,6 +180,13 @@ const Example = () => {
             description: 'Tailwind classes for custom styles.',
           },
           {
+            name: 'position',
+            type: 'top-start | top-end | bottom-start | bottom-end | right-start | right-end | left-start| left-end | top | bottom | right| left',
+            required: false,
+            default: 'bottom',
+            description: 'Set placement for dropdown',
+          },
+          {
             name: 'Render Props: ',
             type: '',
             required: undefined,

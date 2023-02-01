@@ -71,11 +71,11 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
   }
 
   React.useEffect(() => {
-    if (!selectedIndex) {
-      return;
+    if (selectedIndex !== undefined) {
+      scrollToIndex(selectedIndex);
     }
-    scrollToIndex(selectedIndex);
-  }, []);
+    
+  }, [selectedIndex]);
 
   return (
     <CarouselContext.Provider
