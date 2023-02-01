@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useCallback, useState } from 'react';
 import { MenuItem } from '@heathmont/moon-core-tw';
-import useThemeTW, { Brand, themes } from '../themes/useThemesTW';
+import useTheme, { Brand, themes } from '../themes/useThemes';
 
 const THEMES = Object.keys(themes);
 
 const BrandSwitcher = () => {
-  const { setBrand, getBrand } = useThemeTW();
+  const { setBrand, getBrand } = useTheme();
   const [theme, setTheme] = useState(getBrand);
   const handleClick = (value: string) => {
     setTheme(value);
@@ -17,7 +17,7 @@ const BrandSwitcher = () => {
         <MenuItem
           role="radio"
           isSelected={theme === item}
-          onClick={() => handleClick(item)}
+          onClick={useCallback(() => handleClick(item), [item])}
         >
           <MenuItem.Title>{item}</MenuItem.Title>
           <MenuItem.Radio />

@@ -65,7 +65,7 @@ export const themes: Themes = {
 export type Brand = keyof Themes;
 export type Mode = keyof ColorModes;
 
-const useThemeTW = () => {
+const useTheme = () => {
   const [themeState, setThemeState] = React.useState({
     brand: 'moonDesign' as Brand,
     colorMode: 'light' as Mode,
@@ -155,4 +155,4 @@ const useThemeTW = () => {
   };
 };
 
-export default useThemeTW;
+export default useTheme;

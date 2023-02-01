@@ -1,15 +1,15 @@
 import { useRtl } from "../components/rtl/RtlProvider";
 import { useDocsTheme } from "../components/themes/DocsThemeProvider";
-import useThemeTW from "../components/themes/useThemesTW";
+import useTheme from "../components/themes/useThemes";
 
 const useSettings = () => {
   const { toggleColorScheme } = useDocsTheme();
   const { rtlEnabled, toggleRtl } = useRtl();
-  const { toggleMode: toggleModeTW, getMode } = useThemeTW();
+  const { toggleMode, getMode } = useTheme();
   const isDarkThemeEnabled = getMode() === 'dark';
   const switchModeHandler = () => {
     toggleColorScheme();
-    toggleModeTW();
+    toggleMode();
   };
   const origin =
     typeof window !== 'undefined' && window.location.origin
