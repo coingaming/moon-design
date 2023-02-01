@@ -38,12 +38,6 @@ const scrollToIndex = (
       behavior: 'smooth',
       boundary: containerRef,
     });
-
-    // scrollIntoViewSmoothly doesn't work for scrolling rtl in rtl mode
-    if (itemRef.offsetLeft < 0) {
-      console.log(itemRef, itemRef.offsetLeft);
-      itemRef.scrollIntoView({ behavior: 'smooth', inline: 'center' });
-    }
   }
 };
 
