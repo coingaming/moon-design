@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.20.1
+
+### Patch Changes
+
+- Bump fixes
+
 ## 9.20.0
 
 ### Minor Changes
