@@ -30,13 +30,7 @@ const Example = () => {
         <Dropdown.Options>
           {people.map((person, index) => (
             <Dropdown.Option value={person} key={index}>
-              {({
-                selected,
-                active,
-              }: {
-                selected: boolean;
-                active: boolean;
-              }) => (
+              {({ selected, active }) => (
                 <MenuItem isActive={active} isSelected={selected}>
                   {person.name}
                 </MenuItem>
@@ -54,13 +48,7 @@ const Example = () => {
         <Dropdown.Options>
           {people.map((person, index) => (
             <Dropdown.Option value={person} key={index}>
-              {({
-                selected,
-                active,
-              }: {
-                selected: boolean;
-                active: boolean;
-              }) => (
+              {({ selected, active }) => (
                 <MenuItem isActive={active} isSelected={selected}>
                   {person.name}
                 </MenuItem>
@@ -72,7 +60,7 @@ const Example = () => {
 
       {/** ***** Chip ***** */}
       <Dropdown value={option3} onChange={setOption3}>
-        {({ open }: { open: boolean }) => (
+        {({ open }) => (
           <>
             <Dropdown.Trigger>
               <Chip
@@ -90,13 +78,7 @@ const Example = () => {
             <Dropdown.Options>
               {people.map((person, index) => (
                 <Dropdown.Option value={person} key={index}>
-                  {({
-                    selected,
-                    active,
-                  }: {
-                    selected: boolean;
-                    active: boolean;
-                  }) => (
+                  {({ selected, active }) => (
                     <MenuItem isActive={active} isSelected={selected}>
                       {person.name}
                     </MenuItem>

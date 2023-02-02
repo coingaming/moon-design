@@ -16,7 +16,7 @@ const Example = () => {
             className="absolute top-5 right-5 cursor-pointer"
             onClick={closeModal}
           >
-            <ControlsClose className="text-[1.5rem]" />
+            <ControlsClose className="text-moon-24" />
           </span>
           <div className=" p-4 pt-11">
             <div className="mt-2">

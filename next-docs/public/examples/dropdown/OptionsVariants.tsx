@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Dropdown, MenuItem, Button, Chip } from '@heathmont/moon-core-tw';
+import { Dropdown, MenuItem, Chip } from '@heathmont/moon-core-tw';
 import {
   OtherWater,
   OtherLightning,
@@ -59,13 +59,7 @@ const Example = () => {
         <Dropdown.Options>
           {options.map((opt, index) => (
             <Dropdown.Option value={opt} key={index}>
-              {({
-                selected,
-                active,
-              }: {
-                selected: boolean;
-                active: boolean;
-              }) => (
+              {({ selected, active }) => (
                 <MenuItem isActive={active} isSelected={selected}>
                   {opt.icon}
                   <MenuItem.Title>{opt.name}</MenuItem.Title>
@@ -83,13 +77,7 @@ const Example = () => {
         <Dropdown.Options>
           {languages.map((opt, index) => (
             <Dropdown.Option value={opt} key={index}>
-              {({
-                selected,
-                active,
-              }: {
-                selected: boolean;
-                active: boolean;
-              }) => (
+              {({ selected, active }) => (
                 <MenuItem isActive={active} isSelected={selected}>
                   <MenuItem.Title>{opt.name}</MenuItem.Title>
                   <MenuItem.Radio />
@@ -107,13 +95,7 @@ const Example = () => {
         <Dropdown.Options>
           {countries.map((country, index) => (
             <Dropdown.Option value={country} key={index}>
-              {({
-                selected,
-                active,
-              }: {
-                selected: boolean;
-                active: boolean;
-              }) => (
+              {({ selected, active }) => (
                 <MenuItem isSelected={selected} isActive={active}>
                   <MenuItem.Title> {country.name}</MenuItem.Title>
                   <MenuItem.Checkbox />

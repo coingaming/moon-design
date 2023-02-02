@@ -11,6 +11,7 @@ import type PopoverRootProps from './private/types/PopoverRootProps';
 const PopoverRoot: React.FC<PopoverRootProps> = ({
   children,
   position = 'bottom',
+  className,
 }) => {
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
@@ -41,17 +42,15 @@ const PopoverRoot: React.FC<PopoverRootProps> = ({
     typeof children === 'function' && (children as CallableChildren);
   return (
     <PopoverContext.Provider value={states}>
-      <div>
-        <HeadlessPopover>
-          {({ open }) => (
-            <div className="relative">
-              {typeof children === 'function'
-                ? callableChildren && callableChildren({ open })
-                : childrens.map((ch) => ch)}
-            </div>
-          )}
-        </HeadlessPopover>
-      </div>
+      <HeadlessPopover className={className}>
+        {({ open }) => (
+          <div className="relative">
+            {typeof children === 'function'
+              ? callableChildren && callableChildren({ open })
+              : childrens.map((ch) => ch)}
+          </div>
+        )}
+      </HeadlessPopover>
     </PopoverContext.Provider>
   );
 };
@@ -76,17 +75,17 @@ const Panel: React.FC<PanelProps> = ({ children, className }) => {
       style={popper?.styles?.popper}
       {...popper?.attributes?.popper}
       className={mergeClassnames(
-        'w-72 z-[999999] rounded-moon-i-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
+        'w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
         'focus:outline-none',
         className && className
       )}
     >
       {({ open, close }) => (
-        <div className="relative">
+        <>
           {typeof children === 'function'
             ? callableChildren && callableChildren({ open, close })
             : childrens.map((ch) => ch)}
-        </div>
+        </>
       )}
     </HeadlessPopover.Panel>
   );

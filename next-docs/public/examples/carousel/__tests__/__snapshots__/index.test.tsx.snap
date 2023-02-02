@@ -1,5 +1,145 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Accordion in RTL renders Autoslide 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="relative w-full"
+  >
+    <ul
+      className="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+    >
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        0
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        1
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        2
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        3
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        4
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        5
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        6
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        7
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        8
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        9
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        10
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        11
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        12
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        13
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        14
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        15
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        16
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        17
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        18
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        19
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        20
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        21
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        22
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        23
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        24
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
 exports[`Accordion in RTL renders Default 1`] = `
 <div
   dir="rtl"
@@ -8,7 +148,7 @@ exports[`Accordion in RTL renders Default 1`] = `
     className="relative w-full"
   >
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
       disabled={true}
       onClick={[Function]}
     >
@@ -28,136 +168,136 @@ exports[`Accordion in RTL renders Default 1`] = `
       </svg>
     </button>
     <ul
-      className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+      className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
     >
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         0
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         2
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         3
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         4
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         5
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         6
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         7
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         8
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         9
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         10
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         11
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         12
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         13
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         14
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         15
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         16
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         17
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         18
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         19
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         20
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         21
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         22
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         23
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         24
       </li>
     </ul>
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
       disabled={true}
       onClick={[Function]}
     >
@@ -180,6 +320,89 @@ exports[`Accordion in RTL renders Default 1`] = `
 </div>
 `;
 
+exports[`Accordion in RTL renders SelectIndex 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col items-center gap-4"
+  >
+    <div
+      className="flex gap-1"
+    >
+      <button
+        className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04] px-4"
+        onClick={[Function]}
+        type="button"
+      >
+        0
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+        onClick={[Function]}
+        type="button"
+      >
+        1
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+        onClick={[Function]}
+        type="button"
+      >
+        2
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+        onClick={[Function]}
+        type="button"
+      >
+        3
+      </button>
+      <button
+        className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+        onClick={[Function]}
+        type="button"
+      >
+        4
+      </button>
+    </div>
+    <div
+      className="relative w-[320px]"
+    >
+      <ul
+        className="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+      >
+        <li
+          className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          0
+        </li>
+        <li
+          className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          1
+        </li>
+        <li
+          className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          2
+        </li>
+        <li
+          className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          3
+        </li>
+        <li
+          className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+        >
+          4
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
+
 exports[`Accordion in RTL renders indicators 1`] = `
 <div
   dir="rtl"
@@ -188,7 +411,7 @@ exports[`Accordion in RTL renders indicators 1`] = `
     className="relative w-[320px]"
   >
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
       disabled={true}
       onClick={[Function]}
     >
@@ -208,36 +431,36 @@ exports[`Accordion in RTL renders indicators 1`] = `
       </svg>
     </button>
     <ul
-      className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+      className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
     >
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         0
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         2
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         3
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         4
       </li>
     </ul>
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
       disabled={true}
       onClick={[Function]}
     >
@@ -257,7 +480,7 @@ exports[`Accordion in RTL renders indicators 1`] = `
       </svg>
     </button>
     <div
-      className="flex absolute bottom-8 left-1/2 -translate-x-1/2"
+      className="flex absolute bottom-8 left-1/2 -translate-x-1/2 rtl:flex-row-reverse"
     />
   </div>
 </div>
@@ -271,7 +494,7 @@ exports[`Accordion in RTL renders visible index 1`] = `
     className="relative w-full"
   >
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
       disabled={true}
       onClick={[Function]}
     >
@@ -291,136 +514,136 @@ exports[`Accordion in RTL renders visible index 1`] = `
       </svg>
     </button>
     <ul
-      className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+      className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
     >
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         -1--1
       </li>
     </ul>
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
       disabled={true}
       onClick={[Function]}
     >
@@ -457,130 +680,130 @@ exports[`Accordion in RTL renders with Customized Arrows 1`] = `
       Scroll to left
     </button>
     <ul
-      className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+      className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
     >
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         0
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         2
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         3
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         4
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         5
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         6
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         7
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         8
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         9
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         10
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         11
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         12
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         13
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         14
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         15
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         16
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         17
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         18
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         19
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         20
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         21
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         22
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         23
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         24
       </li>
@@ -603,7 +826,7 @@ exports[`Accordion in RTL renders with different Spaces 1`] = `
     className="relative w-full"
   >
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
       disabled={true}
       onClick={[Function]}
     >
@@ -623,36 +846,36 @@ exports[`Accordion in RTL renders with different Spaces 1`] = `
       </svg>
     </button>
     <ul
-      className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory gap-10"
+      className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse gap-10"
     >
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         0
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         1
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         2
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         3
       </li>
       <li
-        className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
       >
         4
       </li>
     </ul>
     <button
-      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+      className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
       disabled={true}
       onClick={[Function]}
     >
@@ -675,12 +898,148 @@ exports[`Accordion in RTL renders with different Spaces 1`] = `
 </div>
 `;
 
+exports[`Carousel in Dark Theme renders Autoslide 1`] = `
+<div
+  className="relative w-full"
+>
+  <ul
+    className="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+  >
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      0
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      1
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      2
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      3
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      4
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      5
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      6
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      7
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      8
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      9
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      10
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      11
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      12
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      13
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      14
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      15
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      16
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      17
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      18
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      19
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      20
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      21
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      22
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      23
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      24
+    </li>
+  </ul>
+</div>
+`;
+
 exports[`Carousel in Dark Theme renders Default 1`] = `
 <div
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
     disabled={true}
     onClick={[Function]}
   >
@@ -700,136 +1059,136 @@ exports[`Carousel in Dark Theme renders Default 1`] = `
     </svg>
   </button>
   <ul
-    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
   >
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       0
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       2
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       3
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       4
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       5
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       6
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       7
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       8
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       9
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       10
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       11
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       12
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       13
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       14
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       15
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       16
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       17
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       18
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       19
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       20
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       21
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       22
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       23
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       24
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
     disabled={true}
     onClick={[Function]}
   >
@@ -851,12 +1210,91 @@ exports[`Carousel in Dark Theme renders Default 1`] = `
 </div>
 `;
 
+exports[`Carousel in Dark Theme renders SelectIndex 1`] = `
+<div
+  className="flex flex-col items-center gap-4"
+>
+  <div
+    className="flex gap-1"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04] px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+  </div>
+  <div
+    className="relative w-[320px]"
+  >
+    <ul
+      className="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+    >
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        0
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        1
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        2
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        3
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        4
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
 exports[`Carousel in Dark Theme renders indicators 1`] = `
 <div
   className="relative w-[320px]"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
     disabled={true}
     onClick={[Function]}
   >
@@ -876,36 +1314,36 @@ exports[`Carousel in Dark Theme renders indicators 1`] = `
     </svg>
   </button>
   <ul
-    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
   >
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       0
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       2
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       3
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       4
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
     disabled={true}
     onClick={[Function]}
   >
@@ -925,7 +1363,7 @@ exports[`Carousel in Dark Theme renders indicators 1`] = `
     </svg>
   </button>
   <div
-    className="flex absolute bottom-8 left-1/2 -translate-x-1/2"
+    className="flex absolute bottom-8 left-1/2 -translate-x-1/2 rtl:flex-row-reverse"
   />
 </div>
 `;
@@ -935,7 +1373,7 @@ exports[`Carousel in Dark Theme renders visible index 1`] = `
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
     disabled={true}
     onClick={[Function]}
   >
@@ -955,136 +1393,136 @@ exports[`Carousel in Dark Theme renders visible index 1`] = `
     </svg>
   </button>
   <ul
-    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
   >
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
     disabled={true}
     onClick={[Function]}
   >
@@ -1117,130 +1555,130 @@ exports[`Carousel in Dark Theme renders with Customized Arrows 1`] = `
     Scroll to left
   </button>
   <ul
-    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
   >
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       0
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       2
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       3
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       4
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       5
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       6
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       7
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       8
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       9
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       10
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       11
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       12
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       13
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       14
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       15
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       16
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       17
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       18
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       19
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       20
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       21
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       22
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       23
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       24
     </li>
@@ -1259,7 +1697,7 @@ exports[`Carousel in Dark Theme renders with different Spaces 1`] = `
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
     disabled={true}
     onClick={[Function]}
   >
@@ -1279,36 +1717,36 @@ exports[`Carousel in Dark Theme renders with different Spaces 1`] = `
     </svg>
   </button>
   <ul
-    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory gap-10"
+    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse gap-10"
   >
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       0
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       2
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       3
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       4
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
     disabled={true}
     onClick={[Function]}
   >
@@ -1327,6 +1765,142 @@ exports[`Carousel in Dark Theme renders with different Spaces 1`] = `
       />
     </svg>
   </button>
+</div>
+`;
+
+exports[`Carousel in Light Theme renders Autoslide 1`] = `
+<div
+  className="relative w-full"
+>
+  <ul
+    className="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+  >
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      0
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      1
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      2
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      3
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      4
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      5
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      6
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      7
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      8
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      9
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      10
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      11
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      12
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      13
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      14
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      15
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      16
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      17
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      18
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      19
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      20
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      21
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      22
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      23
+    </li>
+    <li
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+    >
+      24
+    </li>
+  </ul>
 </div>
 `;
 
@@ -1335,7 +1909,7 @@ exports[`Carousel in Light Theme renders Default 1`] = `
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
     disabled={true}
     onClick={[Function]}
   >
@@ -1355,136 +1929,136 @@ exports[`Carousel in Light Theme renders Default 1`] = `
     </svg>
   </button>
   <ul
-    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
   >
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       0
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       2
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       3
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       4
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       5
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       6
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       7
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       8
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       9
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       10
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       11
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       12
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       13
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       14
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       15
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       16
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       17
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       18
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       19
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       20
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       21
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       22
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       23
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       24
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
     disabled={true}
     onClick={[Function]}
   >
@@ -1506,12 +2080,91 @@ exports[`Carousel in Light Theme renders Default 1`] = `
 </div>
 `;
 
+exports[`Carousel in Light Theme renders SelectIndex 1`] = `
+<div
+  className="flex flex-col items-center gap-4"
+>
+  <div
+    className="flex gap-1"
+  >
+    <button
+      className="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04] px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      0
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      1
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      2
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      3
+    </button>
+    <button
+      className="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full px-4"
+      onClick={[Function]}
+      type="button"
+    >
+      4
+    </button>
+  </div>
+  <div
+    className="relative w-[320px]"
+  >
+    <ul
+      className="flex overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse overflow-x-hidden"
+    >
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        0
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        1
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        2
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        3
+      </li>
+      <li
+        className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
+      >
+        4
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
 exports[`Carousel in Light Theme renders indicators 1`] = `
 <div
   className="relative w-[320px]"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
     disabled={true}
     onClick={[Function]}
   >
@@ -1531,36 +2184,36 @@ exports[`Carousel in Light Theme renders indicators 1`] = `
     </svg>
   </button>
   <ul
-    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
   >
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       0
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       2
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       3
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       4
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
     disabled={true}
     onClick={[Function]}
   >
@@ -1580,7 +2233,7 @@ exports[`Carousel in Light Theme renders indicators 1`] = `
     </svg>
   </button>
   <div
-    className="flex absolute bottom-8 left-1/2 -translate-x-1/2"
+    className="flex absolute bottom-8 left-1/2 -translate-x-1/2 rtl:flex-row-reverse"
   />
 </div>
 `;
@@ -1590,7 +2243,7 @@ exports[`Carousel in Light Theme renders visible index 1`] = `
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
     disabled={true}
     onClick={[Function]}
   >
@@ -1610,136 +2263,136 @@ exports[`Carousel in Light Theme renders visible index 1`] = `
     </svg>
   </button>
   <ul
-    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
   >
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       -1--1
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
     disabled={true}
     onClick={[Function]}
   >
@@ -1772,130 +2425,130 @@ exports[`Carousel in Light Theme renders with Customized Arrows 1`] = `
     Scroll to left
   </button>
   <ul
-    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory"
+    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll gap-4 [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse"
   >
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       0
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       2
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       3
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       4
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       5
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       6
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       7
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       8
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       9
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       10
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       11
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       12
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       13
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       14
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       15
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       16
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       17
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       18
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       19
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       20
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       21
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       22
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       23
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       24
     </li>
@@ -1914,7 +2567,7 @@ exports[`Carousel in Light Theme renders with different Spaces 1`] = `
   className="relative w-full"
 >
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-right-3 ltr:-left-3 rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -left-3"
     disabled={true}
     onClick={[Function]}
   >
@@ -1934,36 +2587,36 @@ exports[`Carousel in Light Theme renders with different Spaces 1`] = `
     </svg>
   </button>
   <ul
-    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory gap-10"
+    className="flex overflow-x-auto overflow-y-hidden h-auto hidden-scroll [-webkit-overflow-scrolling:touch] [scrollbar-width:none] [-ms-overflow-style:-ms-autohiding-scrollbar] [&>li]:list-none [&>li]:before:absolute [&>li]:before:content-[\\"\\\\200B\\"] [&>*]:flex-[0_0_auto] [&>img]:h-full [&>img]:basis-auto [&>img]:w-auto snap-x snap-mandatory rtl:flex-row-reverse gap-10"
   >
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       0
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       1
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       2
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       3
     </li>
     <li
-      className="snap-center flex bg-gohan rounded-moon-i-sm items-center justify-center w-80 h-48"
+      className="snap-center flex bg-gohan rounded-moon-s-sm items-center justify-center w-80 h-48"
     >
       4
     </li>
   </ul>
   <button
-    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top center] z-5 disabled:opacity-moon disabled:cursor-not-allowed rtl:-left-3 rtl:right-auto ltr:-right-3 ltr:left-auto rtl:[&_svg]:rotate-180"
+    className="max-sm:hidden p-2 align-middle shadow-moon-sm rounded-full bg-gohan text-trunks text-[8px] leading-[0] no-underline cursor-pointer absolute top-1/2 -translate-y-1/2 origin-[top_center] z-5 disabled:opacity-moon disabled:cursor-not-allowed -right-3 left-auto"
     disabled={true}
     onClick={[Function]}
   >

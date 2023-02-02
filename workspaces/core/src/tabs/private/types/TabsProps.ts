@@ -1,8 +1,6 @@
-import type Size from './Size';
-
 type TabsProps = {
   selectedIndex?: number;
-  onChange?: () => void;
+  onChange?: (index: number) => void;
 };
 
 export default TabsProps;

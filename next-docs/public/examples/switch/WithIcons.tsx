@@ -10,21 +10,21 @@ const Example = () => {
         checked={state}
         onChange={setState}
         size="2xs"
-        onIcon={<GenericCheckRounded className="text-goten text-moon-12" />}
-        offIcon={<GenericClose className="text-bulma text-moon-12" />}
+        onIcon={<GenericCheckRounded />}
+        offIcon={<GenericClose />}
       />
       <Switch
         checked={state}
         onChange={setState}
         size="xs"
-        onIcon={<GenericCheckRounded className="text-goten text-moon-16" />}
-        offIcon={<GenericClose className="text-bulma text-moon-16" />}
+        onIcon={<GenericCheckRounded />}
+        offIcon={<GenericClose />}
       />
       <Switch
         checked={state}
         onChange={setState}
-        onIcon={<GenericCheckRounded className="text-goten text-moon-24" />}
-        offIcon={<GenericClose className="text-bulma text-moon-24" />}
+        onIcon={<GenericCheckRounded />}
+        offIcon={<GenericClose />}
       />
     </>
   );

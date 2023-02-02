@@ -129,7 +129,6 @@ const Example = () => {
       height={400}
       defaultRowBackgroundColor="gohan"
       evenRowBackgroundColor="trunks"
-      isExpanded
     />
   );
 };

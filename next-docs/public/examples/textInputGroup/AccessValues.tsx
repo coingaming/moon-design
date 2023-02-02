@@ -10,14 +10,14 @@ const Example = () => {
 
   const inputProps1 = {
     type: 'text',
-    inputSize: 'medium',
+    inputSize: 'md',
     placeholder: 'Country',
     ref: ref1,
   };
 
   const inputProps2 = {
     type: 'text',
-    inputSize: 'medium',
+    inputSize: 'md',
     placeholder: 'Phone',
     ref: ref2,
   };
@@ -49,10 +49,10 @@ const Example = () => {
           input2: inputProps2,
         }}
       />
-      <Tag size="xsmall" backgroundColor="bg-trunks">
+      <Tag size="xs" bgColor="bg-trunks">
         Country: {country}
       </Tag>
-      <Tag size="xsmall" backgroundColor="bg-trunks">
+      <Tag size="xs" bgColor="bg-trunks">
         Phone: {phone}
       </Tag>
     </div>

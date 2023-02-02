@@ -1,5 +1,44 @@
 # Change Log
 
+## 9.20.1
+
+### Patch Changes
+
+- Bump fixes
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.20.1
+  - @heathmont/moon-table@9.20.1
+  - @heathmont/moon-themes@9.20.1
+  - @heathmont/moon-utils@9.20.1
+
+## 9.20.0
+
+### Minor Changes
+
+- Bump minor version
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.20.0
+  - @heathmont/moon-table@9.20.0
+  - @heathmont/moon-themes@9.20.0
+  - @heathmont/moon-utils@9.20.0
+
+## 9.19.0
+
+### Minor Changes
+
+- Bump minor version
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.19.0
+  - @heathmont/moon-table@9.19.0
+  - @heathmont/moon-themes@9.19.0
+  - @heathmont/moon-utils@9.19.0
+
 ## 9.18.1
 
 ### Patch Changes

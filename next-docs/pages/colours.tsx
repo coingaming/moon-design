@@ -9,15 +9,15 @@ const PageColours = () => (
     <ComponentPageDescription title="Colours" image={coloursImg}>
       <p>
         Our design system is decentralized and built for multi-product purposes.
-        Having different-color naming conventions and numbers etc... makes it
+        Having different-colour naming conventions and numbers etc... makes it
         harder to maintain it.
       </p>
-      <p>For that, we made a decision to give our colours unique names.</p>
+      <p>For that, we decided to give our colours unique names.</p>
       <p>
         Meet the <span className="font-medium">Dragon Ball Z approach</span>.
       </p>
       <p>
-        Each color name is assigned for specific purpose and for each product
+        Each colour name is assigned for a specific purpose and for each product
         these values are different.
       </p>
       <p>

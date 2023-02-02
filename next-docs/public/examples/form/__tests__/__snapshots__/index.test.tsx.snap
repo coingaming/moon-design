@@ -1,0 +1,1128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form in Dark Theme renders with Input 1`] = `
+<form
+  className="w-96 p-5 flex flex-col gap-4"
+  id="login"
+  method="get"
+  onSubmit={[Function]}
+>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <label
+      className="w-full block text-bulma pb-2 text-moon-16"
+      htmlFor="name"
+    >
+      Username
+    </label>
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+      id="name"
+      placeholder="Your username..."
+    />
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+      role="alert"
+    >
+      Field is required
+    </p>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <label
+      className="w-full block text-bulma pb-2 text-moon-16"
+      htmlFor="email"
+    >
+      Email
+    </label>
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+      id="email"
+      placeholder="Your Email..."
+    />
+  </div>
+  <div
+    className="w-full max-w-full relative grid gap-2 grid-cols-3 z-10"
+  >
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r9:"
+          onClick={[Function]}
+        >
+          Day
+        </label>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:ra:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                open={false}
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <span
+                    className="text-moon-16 text-trunks"
+                  />
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:rc:"
+          onClick={[Function]}
+        >
+          Month
+        </label>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:rd:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                open={false}
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <span
+                    className="text-moon-16 text-trunks"
+                  />
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:rf:"
+          onClick={[Function]}
+        >
+          Year
+        </label>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:rg:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                open={false}
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <span
+                    className="text-moon-16 text-trunks"
+                  />
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <label
+      className="w-full block text-bulma pb-2 text-moon-16"
+      htmlFor="password"
+    >
+      Password
+    </label>
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+      id="password"
+      type="password"
+    />
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <label
+      className="w-full block text-bulma pb-2 text-moon-16"
+      htmlFor="info"
+    >
+      Additional information
+    </label>
+    <textarea
+      className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+      id="info"
+    />
+  </div>
+  <button
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+    form="login"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="submit"
+    value="Submit"
+  >
+    Create account
+    <span
+      aria-hidden="true"
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+</form>
+`;
+
+exports[`Form in Dark Theme renders with InsetInput 1`] = `
+<form
+  className="w-96 p-5 flex flex-col gap-4"
+  id="login"
+  method="get"
+  onSubmit={[Function]}
+>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <div
+      className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Your username..."
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Username
+      </label>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+      role="alert"
+    >
+      Field is required
+    </p>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <div
+      className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Your Email..."
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Email
+      </label>
+    </div>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Your password..."
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Password
+      </label>
+    </div>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Repeat password..."
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Password
+      </label>
+    </div>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <textarea
+      className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+      placeholder="Additional information..."
+    />
+  </div>
+  <button
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+    form="login"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="submit"
+    value="Submit"
+  >
+    Create account
+    <span
+      aria-hidden="true"
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+</form>
+`;
+
+exports[`Form in Light Theme renders with Input 1`] = `
+<form
+  className="w-96 p-5 flex flex-col gap-4"
+  id="login"
+  method="get"
+  onSubmit={[Function]}
+>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <label
+      className="w-full block text-bulma pb-2 text-moon-16"
+      htmlFor="name"
+    >
+      Username
+    </label>
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+      id="name"
+      placeholder="Your username..."
+    />
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+      role="alert"
+    >
+      Field is required
+    </p>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <label
+      className="w-full block text-bulma pb-2 text-moon-16"
+      htmlFor="email"
+    >
+      Email
+    </label>
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+      id="email"
+      placeholder="Your Email..."
+    />
+  </div>
+  <div
+    className="w-full max-w-full relative grid gap-2 grid-cols-3 z-10"
+  >
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r0:"
+          onClick={[Function]}
+        >
+          Day
+        </label>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r1:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                open={false}
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <span
+                    className="text-moon-16 text-trunks"
+                  />
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r3:"
+          onClick={[Function]}
+        >
+          Month
+        </label>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r4:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                open={false}
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <span
+                    className="text-moon-16 text-trunks"
+                  />
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r6:"
+          onClick={[Function]}
+        >
+          Year
+        </label>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r7:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                open={false}
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <span
+                    className="text-moon-16 text-trunks"
+                  />
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <label
+      className="w-full block text-bulma pb-2 text-moon-16"
+      htmlFor="password"
+    >
+      Password
+    </label>
+    <input
+      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+      id="password"
+      type="password"
+    />
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <label
+      className="w-full block text-bulma pb-2 text-moon-16"
+      htmlFor="info"
+    >
+      Additional information
+    </label>
+    <textarea
+      className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+      id="info"
+    />
+  </div>
+  <button
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+    form="login"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="submit"
+    value="Submit"
+  >
+    Create account
+    <span
+      aria-hidden="true"
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+</form>
+`;
+
+exports[`Form in Light Theme renders with InsetInput  1`] = `
+<form
+  className="w-96 p-5 flex flex-col gap-4"
+  id="login"
+  method="get"
+  onSubmit={[Function]}
+>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <div
+      className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Your username..."
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Username
+      </label>
+    </div>
+    <p
+      className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+      role="alert"
+    >
+      Field is required
+    </p>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <div
+      className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Your Email..."
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Email
+      </label>
+    </div>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Your password..."
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Password
+      </label>
+    </div>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <div
+      className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+    >
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        placeholder="Repeat password..."
+      />
+      <label
+        className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+      >
+        Password
+      </label>
+    </div>
+  </div>
+  <div
+    className="w-full max-w-full relative z-0"
+  >
+    <textarea
+      className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+      placeholder="Additional information..."
+    />
+  </div>
+  <button
+    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+    form="login"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+    type="submit"
+    value="Submit"
+  >
+    Create account
+    <span
+      aria-hidden="true"
+      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    />
+  </button>
+</form>
+`;
+
+exports[`Form in RTL renders with Input 1`] = `
+<div
+  dir="rtl"
+>
+  <form
+    className="w-96 p-5 flex flex-col gap-4"
+    id="login"
+    method="get"
+    onSubmit={[Function]}
+  >
+    <div
+      className="w-full max-w-full relative z-0"
+    >
+      <label
+        className="w-full block text-bulma pb-2 text-moon-16"
+        htmlFor="name"
+      >
+        Username
+      </label>
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        id="name"
+        placeholder="Your username..."
+      />
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+        role="alert"
+      >
+        Field is required
+      </p>
+    </div>
+    <div
+      className="w-full max-w-full relative z-0"
+    >
+      <label
+        className="w-full block text-bulma pb-2 text-moon-16"
+        htmlFor="email"
+      >
+        Email
+      </label>
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        id="email"
+        placeholder="Your Email..."
+      />
+    </div>
+    <div
+      className="w-full max-w-full relative grid gap-2 grid-cols-3 z-10"
+    >
+      <div
+        className="w-full relative"
+      >
+        <div
+          className="relative"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-16"
+            id="headlessui-listbox-label-:ri:"
+            onClick={[Function]}
+          >
+            Day
+          </label>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:rj:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <div>
+              <div
+                className="relative"
+              >
+                <button
+                  className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  open={false}
+                >
+                  <span
+                    className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  >
+                    <span
+                      className="text-moon-16 text-trunks"
+                    />
+                  </span>
+                  <svg
+                    className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 13l-6 6-6-6"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="w-full relative"
+      >
+        <div
+          className="relative"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-16"
+            id="headlessui-listbox-label-:rl:"
+            onClick={[Function]}
+          >
+            Month
+          </label>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:rm:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <div>
+              <div
+                className="relative"
+              >
+                <button
+                  className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  open={false}
+                >
+                  <span
+                    className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  >
+                    <span
+                      className="text-moon-16 text-trunks"
+                    />
+                  </span>
+                  <svg
+                    className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 13l-6 6-6-6"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="w-full relative"
+      >
+        <div
+          className="relative"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-16"
+            id="headlessui-listbox-label-:ro:"
+            onClick={[Function]}
+          >
+            Year
+          </label>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:rp:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
+            <div>
+              <div
+                className="relative"
+              >
+                <button
+                  className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                  open={false}
+                >
+                  <span
+                    className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  >
+                    <span
+                      className="text-moon-16 text-trunks"
+                    />
+                  </span>
+                  <svg
+                    className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M22 13l-6 6-6-6"
+                      stroke="currentColor"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full max-w-full relative z-0"
+    >
+      <label
+        className="w-full block text-bulma pb-2 text-moon-16"
+        htmlFor="password"
+      >
+        Password
+      </label>
+      <input
+        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+        id="password"
+        type="password"
+      />
+    </div>
+    <div
+      className="w-full max-w-full relative z-0"
+    >
+      <label
+        className="w-full block text-bulma pb-2 text-moon-16"
+        htmlFor="info"
+      >
+        Additional information
+      </label>
+      <textarea
+        className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+        id="info"
+      />
+    </div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      form="login"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="submit"
+      value="Submit"
+    >
+      Create account
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+  </form>
+</div>
+`;
+
+exports[`Form in RTL renders with InsetInput 1`] = `
+<div
+  dir="rtl"
+>
+  <form
+    className="w-96 p-5 flex flex-col gap-4"
+    id="login"
+    method="get"
+    onSubmit={[Function]}
+  >
+    <div
+      className="w-full max-w-full relative z-0"
+    >
+      <div
+        className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="Your username..."
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Username
+        </label>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+        role="alert"
+      >
+        Field is required
+      </p>
+    </div>
+    <div
+      className="w-full max-w-full relative z-0"
+    >
+      <div
+        className="w-full max-w-full relative bg-gohan rounded-moon-s-xs [&_input]:rounded-moon-s-xs [&_input:focus]:rounded-moon-s-xs [&_input:hover]:rounded-moon-s-xs"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="Your Email..."
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Email
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full max-w-full relative z-0"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="Your password..."
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Password
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full max-w-full relative z-0"
+    >
+      <div
+        className="w-full max-w-full relative rounded-moon-i-sm bg-gohan"
+      >
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          placeholder="Repeat password..."
+        />
+        <label
+          className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+        >
+          Password
+        </label>
+      </div>
+    </div>
+    <div
+      className="w-full max-w-full relative z-0"
+    >
+      <textarea
+        className="block appearance-none resize-none w-full p-4 text-moon-16 text-bulma bg-gohan rounded-moon-s-sm placeholder:text-trunks transition-shadow shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none"
+        placeholder="Additional information..."
+      />
+    </div>
+    <button
+      className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      form="login"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="submit"
+      value="Submit"
+    >
+      Create account
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+  </form>
+</div>
+`;

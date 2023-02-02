@@ -16,7 +16,7 @@ exports[`Checkbox in Dark Theme renders Checked 1`] = `
   />
   <span
     aria-hidden="true"
-    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
   >
     <svg
       className="transition-opacity opacity-100"
@@ -53,7 +53,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -117,7 +117,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs peer-checked:shadow-none text-goten shadow-krillin"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -149,7 +149,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -185,7 +185,7 @@ exports[`Checkbox in Dark Theme renders Default 1`] = `
   />
   <span
     aria-hidden="true"
-    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
   >
     <svg
       className="transition-opacity opacity-0"
@@ -224,7 +224,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -260,7 +260,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
         className="transition-opacity opacity-100"
@@ -301,7 +301,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -337,7 +337,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
         className="transition-opacity opacity-100"
@@ -376,7 +376,7 @@ exports[`Checkbox in Dark Theme renders WithLabel 1`] = `
   />
   <span
     aria-hidden="true"
-    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
   >
     <svg
       className="transition-opacity opacity-0"
@@ -414,7 +414,7 @@ exports[`Checkbox in Light Theme renders Checked 1`] = `
   />
   <span
     aria-hidden="true"
-    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
   >
     <svg
       className="transition-opacity opacity-100"
@@ -451,7 +451,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -515,7 +515,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs peer-checked:shadow-none text-goten shadow-krillin"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -547,7 +547,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -583,7 +583,7 @@ exports[`Checkbox in Light Theme renders Default 1`] = `
   />
   <span
     aria-hidden="true"
-    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
   >
     <svg
       className="transition-opacity opacity-0"
@@ -622,7 +622,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -658,7 +658,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
         className="transition-opacity opacity-100"
@@ -699,7 +699,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -735,7 +735,7 @@ Array [
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
         className="transition-opacity opacity-100"
@@ -774,7 +774,7 @@ exports[`Checkbox in Light Theme renders WithLabel 1`] = `
   />
   <span
     aria-hidden="true"
-    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+    className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
   >
     <svg
       className="transition-opacity opacity-0"
@@ -815,7 +815,7 @@ exports[`Checkbox in RTL renders Checked 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
         className="transition-opacity opacity-100"
@@ -855,7 +855,7 @@ exports[`Checkbox in RTL renders Customize 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -919,7 +919,7 @@ exports[`Checkbox in RTL renders Customize 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs peer-checked:shadow-none text-goten shadow-krillin"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs peer-checked:shadow-none text-goten shadow-krillin"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -951,7 +951,7 @@ exports[`Checkbox in RTL renders Customize 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-krillin-60"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -990,7 +990,7 @@ exports[`Checkbox in RTL renders Default 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -1032,7 +1032,7 @@ exports[`Checkbox in RTL renders Disabled 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -1068,7 +1068,7 @@ exports[`Checkbox in RTL renders Disabled 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
         className="transition-opacity opacity-100"
@@ -1111,7 +1111,7 @@ exports[`Checkbox in RTL renders ReadOnly 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
         className="transition-opacity opacity-0"
@@ -1147,7 +1147,7 @@ exports[`Checkbox in RTL renders ReadOnly 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten bg-piccolo"
     >
       <svg
         className="transition-opacity opacity-100"
@@ -1189,7 +1189,7 @@ exports[`Checkbox in RTL renders WithLabel 1`] = `
     />
     <span
       aria-hidden="true"
-      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks peer-checked:shadow-none text-goten"
+      className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks peer-checked:shadow-none text-goten"
     >
       <svg
         className="transition-opacity opacity-0"

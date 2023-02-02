@@ -24,7 +24,7 @@ const SearchProvider: React.FC<{ children: React.ReactNode }> = ({
             <div className="overflow-hidden rounded-2xl border border-gray-100 bg-gray-50">
               <div className="flex items-center space-x-4 p-4">
                 <span className="block w-5">
-                  <GenericSearch className="text-[2rem]" />
+                  <GenericSearch className="text-moon-24" />
                 </span>
                 <KBarSearch className="h-8 w-full bg-transparent text-slate-600 placeholder-slate-400 focus:outline-none" />
                 <span

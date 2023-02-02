@@ -36,7 +36,7 @@ const Example = () => {
   <Tooltip.Content>
     ...
     <Tooltip.Arrow />
-  </Tooltip.Conten>
+  </Tooltip.Content>
 </Tooltip>`}
       </ComponentAnatomy>
       <Preview

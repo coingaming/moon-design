@@ -1,6 +1,6 @@
-import type SwitchSizes from '../types/SwitchSizes';
+import type Size from '../types/Size';
 
-const getSwitchSize = (size?: SwitchSizes) => {
+const getSwitchSize = (size?: Size) => {
   switch (size) {
     case '2xs':
       return 'w-8 h-4 p-0.5';

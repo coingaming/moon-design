@@ -14,6 +14,10 @@ import OptionsVariants from '../OptionsVariants';
 import Select from '../Select';
 import SelectStates from '../SelectStates';
 import TriggerElements from '../TriggerElements';
+import InsetSelect from '../InsetSelect';
+import InsetMultiSelect from '../InsetMultiSelect';
+import InsetSelectStates from '../InsetSelectStates';
+import MultiSelect from '../MultiSelect';
 
 const renderWithLightTheme = (component: JSX.Element) => (
   <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
@@ -54,6 +58,26 @@ describe('Dropdown in Light Theme', () => {
     );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders InsetSelect', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<InsetSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders InsetMultiSelect', () => {
+    const testRenderer = renderer.create(
+      renderWithLightTheme(<InsetMultiSelect />)
+    );
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders InsetSelectStates', () => {
+    const testRenderer = renderer.create(
+      renderWithLightTheme(<InsetSelectStates />)
+    );
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders MultiSelect', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<MultiSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 });
 
 describe('Dropdown in Dark Theme', () => {
@@ -81,6 +105,26 @@ describe('Dropdown in Dark Theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<SelectStates />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders InsetSelect', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<InsetSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders InsetMultiSelect', () => {
+    const testRenderer = renderer.create(
+      renderWithDarkTheme(<InsetMultiSelect />)
+    );
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders InsetSelectStates', () => {
+    const testRenderer = renderer.create(
+      renderWithDarkTheme(<InsetSelectStates />)
+    );
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders MultiSelect', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<MultiSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 });
 
 describe('Dropdown in RTL', () => {
@@ -102,6 +146,22 @@ describe('Dropdown in RTL', () => {
   });
   it('renders SelectStates', () => {
     const testRenderer = renderer.create(renderWithRtl(<SelectStates />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders InsetSelect', () => {
+    const testRenderer = renderer.create(renderWithRtl(<InsetSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders InsetMultiSelect', () => {
+    const testRenderer = renderer.create(renderWithRtl(<InsetMultiSelect />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders InsetSelectStates', () => {
+    const testRenderer = renderer.create(renderWithRtl(<InsetSelectStates />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders MultiSelect', () => {
+    const testRenderer = renderer.create(renderWithRtl(<MultiSelect />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

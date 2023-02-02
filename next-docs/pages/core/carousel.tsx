@@ -3,9 +3,11 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
+import Autoslide from '../../public/examples/carousel/Autoslide';
 import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
 import Default from '../../public/examples/carousel/Default';
 import Indicators from '../../public/examples/carousel/Indicators';
+import SelectIndex from '../../public/examples/carousel/SelectIndex';
 import Spaces from '../../public/examples/carousel/Spaces';
 import VisibleIndex from '../../public/examples/carousel/VisibleIndex';
 import useExamples from '../../utils/useExamples';
@@ -15,10 +17,15 @@ export default function PageCarousel() {
 
   return (
     <>
-      <ComponentPageDescription title="Carousel">
+      <ComponentPageDescription title="Carousel" isInProgress>
         <p>
-          An interactive extension of the Reel component to cycle through
-          content.
+          Is an effective way of displaying multiple images or content in a
+          single space.
+        </p>
+        <p>
+          It not only helps in saving screen space, but also encourages visitors
+          to focus on important website content and improves the overall visual
+          appeal effectively.
         </p>
       </ComponentPageDescription>
       <ComponentAnatomy>
@@ -55,6 +62,16 @@ export default function PageCarousel() {
         title="Visible indices"
         preview={<VisibleIndex />}
         code={examples ? examples.VisibleIndex : 'Loading'}
+      />
+      <Preview
+        title="Select index"
+        preview={<SelectIndex />}
+        code={examples ? examples.SelectIndex : 'Loading'}
+      />
+      <Preview
+        title="Autoslide"
+        preview={<Autoslide />}
+        code={examples ? examples.Autoslide : 'Loading'}
       />
       <PropsTable
         title="Carousel props"
@@ -128,6 +145,13 @@ export default function PageCarousel() {
             required: false,
             default: '-',
             description: 'Index of the last visible item',
+          },
+          {
+            name: 'autoSlideDelay',
+            type: 'number',
+            required: false,
+            default: '-',
+            description: 'Interval of auto sliding in milliseconds. No auto sliding if undefined',
           },
         ]}
       />
