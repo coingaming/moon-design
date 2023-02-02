@@ -47,7 +47,7 @@ function Input(
               onChange("");
             }
           }}
-          id="command-palette-search-input"
+          id="moon-search-input"
           placeholder={placeholder}
           value={value}
           type="text"
@@ -62,7 +62,7 @@ function Input(
             onClick={() => {
               onChange("");
               const inputElement = document.getElementById(
-                "command-palette-search-input"
+                "moon-search-input"
               );
               if (inputElement) {
                 inputElement.focus();

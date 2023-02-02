@@ -3,18 +3,16 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
+import Input from '../../public/examples/search/Input';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('select');
+  const examples = useExamples('search');
   return (
     <>
       <ComponentPageDescription title="Search" isInProgress>
         <p>
           Search
-        </p>
-        <p>
-
         </p>
       </ComponentPageDescription>
       <Preview
@@ -23,87 +21,100 @@ const Example = () => {
         code={examples ? examples.Default : 'Loading'}
       />
 
+      <Preview
+        title="HeadlessUI Combobox"
+        preview={<Input />}
+        code={examples ? examples.Input : 'Loading'}
+      />
 
       <PropsTable
-        title="Select props"
+        title="Search props"
         data={[
           {
-            name: 'formatOptionLabel',
-            type: '(data) => JSX.Element | string',
-            required: false,
-            default: '-',
-            description:
-              'Function to customize the list options (like rendering an element as JSX)',
-          },
-          {
-            name: 'hintText',
-            type: 'JSX.Element | string',
-            required: false,
-            default: '_',
-            description: 'Inform message under select',
-          },
-          {
-            name: 'disabled',
-            type: 'boolean',
-            required: false,
-            default: '_',
-            description: 'Set disabled/non-disabled select',
-          },
-          {
-            name: 'isError',
-            type: 'boolean',
-            required: false,
-            default: '_',
-            description: 'Set valid/non-valid select',
-          },
-          {
-            name: 'label',
-            type: 'JSX.Element | string',
-            required: false,
-            default: '-',
-            description: `Label title`,
-          },
-          {
-            name: 'menuWidth',
-            type: 'string',
-            required: false,
-            default: '_',
-            description: 'Tailwind class for custom options container width',
-          },
-          {
-            name: 'onChange',
-            type: '(value) => void',
-            required: false,
-            default: '-',
-            description: 'onChange event handler',
-          },
-          {
-            name: 'options',
-            type: '{ id: number, label: string, value: string | number }[]',
+            name: 'onChangeSearch',
+            type: '(value: string) => void',
             required: true,
             default: '-',
-            description: `List of options`,
+            description:
+              'Function for setting search value',
+          },
+          {
+            name: 'onChangeOpen',
+            type: '(value: boolean) => void',
+            required: true,
+            default: '_',
+            description: 'Function for setting open state',
+          },
+          {
+            name: 'children',
+            type: 'React.ReactNode',
+            required: true,
+            default: '_',
+            description: 'Children of command palette',
+          },
+          {
+            name: 'isOpen',
+            type: 'boolean',
+            required: true,
+            default: '_',
+            description: 'Open state',
+          },
+          {
+            name: 'search',
+            type: 'string',
+            required: true,
+            default: '_',
+            description: 'Search state',
           },
           {
             name: 'placeholder',
-            type: 'JSX.Element | string',
+            type: 'string',
             required: false,
-            default: '-',
-            description: 'Placeholder',
+            default: '"Search"',
+            description: 'Search field placeholder',
+          },
+
+          {
+            name: 'page',
+            type: 'string',
+            required: false,
+            default: '_',
+            description: 'The current page id',
           },
           {
-            name: 'size',
-            type: 'sm | md | lg | xl',
+            name: '',
+            type: '',
             required: false,
-            default: 'md',
-            description: `Size of select`,
+            default: '_',
+            description: '',
           },
           {
-            name: 'value',
-            type: '{ id: number, label: string, value: string | number }',
+            name: 'renderLink',
+            type: 'RenderLink',
             required: false,
-            default: '-',
-            description: 'Controled value',
+            default: '_',
+            description: 'Function for customizing rendering of links',
+          },
+          {
+            name: 'selected',
+            type: 'number',
+            required: false,
+            default: '_',
+            description: 'The current selected item index',
+          },
+          {
+            name: 'onChangeSelected',
+            type: '(value: number) => void',
+            required: false,
+            default: '_',
+            description: 'Function for setting selected item index',
+          },
+          {
+            name: '',
+            type: '',
+            required: false,
+            default: '_',
+            description: '',
           },
         ]}
       />

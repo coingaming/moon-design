@@ -1,12 +1,11 @@
-import Search from './components/Search';
-import { filterItems, getItemIndex } from "./utils/utils";
 import { useState } from "react";
+import { MenuItem, Search, searchFilterItems, searchGetItemIndex, useOpenSearch } from '@heathmont/moon-core-tw';
 
 const Example = () => {
     const [open, setOpen] = useState<boolean>(false);
     const [search, setSearch] = useState("");
 
-    const filteredItems = filterItems(
+    const filteredItems = searchFilterItems(
         [
             {
                 heading: "Home",
@@ -15,12 +14,12 @@ const Example = () => {
                     {
                         id: "home",
                         children: "Home",
-                        href: "#",
+                        href: "#home",
                     },
                     {
                         id: "settings",
                         children: "Settings",
-                        href: "#",
+                        href: "#settings",
                     },
                     {
                         id: "projects",
@@ -39,12 +38,12 @@ const Example = () => {
                     {
                         id: "developer-settings",
                         children: "Developer settings",
-                        href: "#",
+                        href: "#developer-settings",
                     },
                     {
                         id: "privacy-policy",
                         children: "Privacy policy",
-                        href: "#",
+                        href: "#privacy-policy",
                     },
                     {
                         id: "log-out",
@@ -59,28 +58,40 @@ const Example = () => {
         search
     );
 
-
+    // register listener that opens Search by pressing CMD+K
+    useOpenSearch(setOpen);
 
     return (
         <>
-            <button onClick={() => setOpen(true)}>
+            <Search.Trigger onClick={() => setOpen(true)}>
                 Search
-            </button>
+            </Search.Trigger>
             <Search
                 onChangeSearch={setSearch}
                 onChangeOpen={setOpen}
                 search={search}
                 isOpen={open}
+                backdrop={<Search.Backdrop />}
             >
                 {filteredItems.length ? (
-                    filteredItems.map((list) => (
-                        <Search.List key={list.id} heading={list.heading}>
-                            {list.items.map(({ id, ...rest }) => (
+                    filteredItems.map((list: any) => (
+                        <Search.List key={list.id}>
+                            <Search.ListHeading>{list.heading}</Search.ListHeading>
+                            {list.items.map(({ id, children, href, ...rest }: any) => (
                                 <Search.ListItem
                                     key={id}
-                                    index={getItemIndex(filteredItems, id)}
+                                    index={searchGetItemIndex(filteredItems, id)}
+                                    closeOnSelect={true}
                                     {...rest}
-                                />
+                                >
+                                    {(selected: boolean) => href ? <a href={href}><MenuItem isActive={selected}>
+                                        <MenuItem.Title>{children}</MenuItem.Title>
+                                        <span className="text-moon-12 text-trunks">{href}</span>
+                                    </MenuItem></a> : <MenuItem isActive={selected}>
+                                        <MenuItem.Title>{children}</MenuItem.Title>
+                                        <span className="text-moon-12 text-trunks">Action</span>
+                                    </MenuItem>}
+                                </Search.ListItem>
                             ))}
                         </Search.List>
                     ))

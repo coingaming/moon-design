@@ -8,21 +8,11 @@ import React, {
 } from "react";
 import { RenderLink } from "../types";
 import { OpenContext, RenderLinkContext, SelectContext } from "../utils/context";
-import { mergeClassnames } from '@heathmont/moon-core-tw';
+import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 
 export type ListItemType = "Link" | "Action";
 
-function getListItemWrapperStyles(selected: boolean, disabled?: boolean) {
-  return mergeClassnames(
-    "command-palette-list-item block w-full text-left px-3.5 py-2.5 rounded-md hover:bg-goku focus:ring-1 focus:ring-gray-300 focus:outline-none flex items-center space-x-2.5 justify-between",
-    selected && !disabled
-      ? "bg-goku"
-      : "bg-transparent",
-    disabled
-      ? "cursor-default pointer-events-none opacity-50"
-      : "cursor-pointer"
-  );
-}
+const commonClasses = "moon-search-list-item w-full";
 
 interface ListItemBaseProps {
   closeOnSelect?: boolean;
@@ -34,11 +24,12 @@ interface ListItemBaseProps {
 
 export interface LinkProps
   extends ListItemBaseProps,
-    DetailedHTMLProps<
-      AnchorHTMLAttributes<HTMLAnchorElement>,
-      HTMLAnchorElement
-    > {
+  DetailedHTMLProps<
+    AnchorHTMLAttributes<HTMLAnchorElement>,
+    HTMLAnchorElement
+  > {
   renderLink?: RenderLink;
+  children?: ReactNode | ((selected: boolean) => ReactNode)
 }
 
 export function Link({
@@ -59,17 +50,13 @@ export function Link({
   const renderLink = localRenderLink || globalRenderLink;
 
   function renderLinkContent() {
-    return (
-      <ListItemContent
-        type={showType ? "Link" : undefined}
-      >
-        {children}
-      </ListItemContent>
-    );
+    return <div>
+      {typeof children === 'function' ? children(selected === index) : children}
+    </div>
   }
 
   const styles = mergeClassnames(
-    getListItemWrapperStyles(selected === index, disabled),
+    commonClasses,
     className
   );
 
@@ -111,10 +98,12 @@ export function Link({
 
 export interface ButtonProps
   extends ListItemBaseProps,
-    DetailedHTMLProps<
-      ButtonHTMLAttributes<HTMLButtonElement>,
-      HTMLButtonElement
-    > {}
+  DetailedHTMLProps<
+    ButtonHTMLAttributes<HTMLButtonElement>,
+    HTMLButtonElement
+  > {
+  children?: ReactNode | ((selected: boolean) => ReactNode)
+}
 
 export function Button({
   closeOnSelect = true,
@@ -145,40 +134,12 @@ export function Button({
       data-close-on-select={closeOnSelect}
       onClick={clickAndClose}
       className={mergeClassnames(
-        getListItemWrapperStyles(selected === index, rest.disabled),
+        commonClasses,
         className
       )}
     >
-      <ListItemContent
-        type={showType ? "Action" : undefined}
-      >
-        {children}
-      </ListItemContent>
+      {typeof children === 'function' ? children(selected === index) : children}
     </button>
-  );
-}
-
-interface ListItemContentProps {
-  children: ReactNode;
-  type?: ListItemType;
-}
-
-function ListItemContent({
-  children,
-  type,
-}: ListItemContentProps) {
-  return (
-    <>
-      <div className="flex w-full items-center space-x-2.5">
-        {typeof children === "string" ? (
-          <span className="truncate max-w-md text-bulma">{children}</span>
-        ) : (
-          children
-        )}
-      </div>
-
-      {type && <span className="text-bulma text-sm">{type}</span>}
-    </>
   );
 }
 

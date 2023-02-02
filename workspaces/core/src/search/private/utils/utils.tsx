@@ -1,6 +1,6 @@
-import Search from "../components/Search";
-import React, { Dispatch, SetStateAction, useEffect } from "react";
-import { Children, ReactNode } from "react";
+import React, { Dispatch, SetStateAction, useEffect, Children, ReactNode } from "react";
+
+import { Search } from "../../private/components/Search";
 import { JsonStructure } from "../types";
 
 export function getItemIndex(
@@ -24,8 +24,8 @@ export function filterItems(
   }: {
     filterOnListHeading: boolean;
   } = {
-    filterOnListHeading: true,
-  }
+      filterOnListHeading: true,
+    }
 ) {
   return items
     .filter((list) => {
@@ -37,7 +37,7 @@ export function filterItems(
 
       return filterOnListHeading
         ? list.heading?.toLowerCase().includes(search.toLowerCase()) ||
-            listHasMatchingItem
+        listHasMatchingItem
         : listHasMatchingItem;
     })
     .map((list) => {
@@ -61,8 +61,8 @@ export function filterItems(
 function doesChildMatchSearch(search: string, children?: ReactNode) {
   return children
     ? getLabelFromChildren(children)
-        .toLowerCase()
-        .includes(search.toLowerCase())
+      .toLowerCase()
+      .includes(search.toLowerCase())
     : false;
 }
 
@@ -70,8 +70,8 @@ function doesKeywordsMatchSearch(search: string, keywords: string[]) {
   return keywords.includes("*")
     ? true
     : keywords.some((keyword) =>
-        keyword.toLowerCase().includes(search.toLowerCase())
-      );
+      keyword.toLowerCase().includes(search.toLowerCase())
+    );
 }
 
 function getLabelFromChildren(children: ReactNode) {
@@ -88,7 +88,7 @@ function getLabelFromChildren(children: ReactNode) {
 
 export function renderJsonStructure(jsonStructure: JsonStructure) {
   return jsonStructure.map((list) => (
-    <Search.List heading={list.heading} key={list.id}>
+    <Search.List key={list.id}>
       {list.items.map(({ id, ...rest }) => (
         <Search.ListItem
           index={getItemIndex(jsonStructure, id)}

@@ -1,8 +1,10 @@
+import React, { Fragment, MutableRefObject, ReactNode, Ref, useEffect, useRef, useState } from "react";
+import { Transition, Dialog } from "@headlessui/react";
+
 import FreeSearchAction from "./FreeSearchAction";
-import List from "./List";
+import List, { ListHeading } from "./List";
 import ListItem from "./ListItem";
 import Page from "./Page";
-import React, { Fragment, ReactNode, useEffect, useRef, useState } from "react";
 import Input from "./Input";
 import {
   OpenContext,
@@ -12,8 +14,8 @@ import {
   SelectContext,
 } from "../utils/context";
 import { RenderLink } from "../types";
-import { Transition, Dialog } from "@headlessui/react";
 import { Backdrop } from "./Backdrop";
+import { Trigger } from "./Trigger";
 
 interface SearchProps {
   onChangeSelected?: (value: number) => void;
@@ -26,9 +28,46 @@ interface SearchProps {
   isOpen: boolean;
   search: string;
   page?: string;
+  backdrop?: ReactNode;
 }
 
-function Search({
+const Modal: React.FC<{ isOpen: boolean; inputRef: React.RefObject<any>, onChangeOpen: (isOpen: boolean) => void; backdrop: ReactNode }> = ({ children, isOpen, inputRef, onChangeOpen, backdrop }) => {
+  return <Transition appear show={isOpen} as={Fragment}>
+    <Dialog
+      initialFocus={inputRef}
+      as="div"
+      className="moon"
+      onClose={() => {
+        onChangeOpen(false);
+      }}
+    >
+      <div className="moon-content antialiased">
+        {backdrop}
+
+        <div className="z-50 fixed inset-0 overflow-y-auto flex items-center justify-center">
+          <div className="flex w-screen h-screen sm:w-full sm:h-full sm:h-[450px] items-start justify-center md:p-4 z-50">
+            <Transition.Child
+              as={Fragment}
+              enter="ease-out duration-300"
+              enterFrom="opacity-0 scale-95"
+              enterTo="opacity-100 scale-100"
+              leave="ease-in duration-200"
+              leaveFrom="opacity-100 scale-100"
+              leaveTo="opacity-0 scale-95"
+            >
+              <Dialog.Panel className="w-full h-full bg-gohan shadow-moon-md rounded-moon-s-md sm:max-w-xl flex flex-col sm:overflow-hidden divide-y dark:divide-beerus">
+                {children}
+              </Dialog.Panel>
+            </Transition.Child>
+          </div>
+        </div>
+      </div>
+    </Dialog>
+  </Transition>
+
+}
+
+export function Search({
   selected: selectedParent,
   placeholder = "Search",
   onChangeSelected,
@@ -39,8 +78,9 @@ function Search({
   isOpen,
   search,
   page,
+  backdrop
 }: SearchProps) {
-  const inputRef = useRef<HTMLInputElement>(null);
+  const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
 
   const [selected, setSelected] =
     typeof selectedParent === "number" && onChangeSelected
@@ -50,7 +90,7 @@ function Search({
   const [searchPrefix, setSearchPrefix] = useState<string[] | undefined>();
 
   function handleChangeSelected(direction?: "up" | "down") {
-    const items = document.querySelectorAll(".command-palette-list-item");
+    const items = document.querySelectorAll(".moon-search-list-item");
 
     let index = 0;
     let newIndex = 0;
@@ -89,7 +129,7 @@ function Search({
 
   function handleSelect() {
     const items = document.querySelectorAll(
-      ".command-palette-list-item"
+      ".moon-search-list-item"
     ) as NodeListOf<HTMLButtonElement | HTMLAnchorElement>;
 
     let index = 0;
@@ -148,73 +188,46 @@ function Search({
         }
       }}
     >
-      <Transition appear show={isOpen} as={Fragment}>
-        <Dialog
-          initialFocus={inputRef}
-          as="div"
-          className="command-palette"
-          onClose={() => {
-            onChangeOpen(false);
-          }}
-        >
-          <div className="command-palette-content antialiased">
-            <Backdrop />
+      <Modal {...{ isOpen, inputRef, onChangeOpen, backdrop }}>
+        <div className="w-full h-full bg-gohan shadow-moon-md rounded-moon-s-md max-w-xl flex flex-col overflow-hidden divide-y dark:divide-beerus">
+          <PageContext.Provider
+            value={{
+              setSearchPrefix,
+              searchPrefix,
+              page,
+            }}
+          >
+            <Input
+              onChange={onChangeSearch}
+              placeholder={placeholder}
+              prefix={searchPrefix}
+              value={search}
+              ref={(inputRef as unknown as Ref<HTMLInputElement>)}
+            />
+          </PageContext.Provider>
 
-            <div className="fixed inset-0 overflow-y-auto flex items-center justify-center">
-              <div className="flex w-full h-full md:h-[450px] items-start justify-center md:p-4">
-                <Transition.Child
-                  as={Fragment}
-                  enter="ease-out duration-300"
-                  enterFrom="opacity-0 scale-95"
-                  enterTo="opacity-100 scale-100"
-                  leave="ease-in duration-200"
-                  leaveFrom="opacity-100 scale-100"
-                  leaveTo="opacity-0 scale-95"
-                >
-                  <Dialog.Panel className="w-full max-h-full bg-gohan shadow-moon-md rounded-moon-s-md max-w-xl flex flex-col overflow-hidden divide-y dark:divide-beerus">
-                    <PageContext.Provider
-                      value={{
-                        setSearchPrefix,
-                        searchPrefix,
-                        page,
-                      }}
+          <div
+            className="flex-1 overflow-y-auto focus:outline-none p-2 space-y-4"
+            tabIndex={-1}
+          >
+            <OpenContext.Provider value={{ isOpen, onChangeOpen }}>
+              <PageContext.Provider
+                value={{ page, searchPrefix, setSearchPrefix }}
+              >
+                <SearchContext.Provider value={{ search }}>
+                  <SelectContext.Provider value={{ selected }}>
+                    <RenderLinkContext.Provider
+                      value={{ renderLink }}
                     >
-                      <Input
-                        onChange={onChangeSearch}
-                        placeholder={placeholder}
-                        prefix={searchPrefix}
-                        value={search}
-                        ref={inputRef}
-                      />
-                    </PageContext.Provider>
-
-                    <div
-                      className="flex-1 overflow-y-auto focus:outline-none p-2 space-y-4"
-                      tabIndex={-1}
-                    >
-                      <OpenContext.Provider value={{ isOpen, onChangeOpen }}>
-                        <PageContext.Provider
-                          value={{ page, searchPrefix, setSearchPrefix }}
-                        >
-                          <SearchContext.Provider value={{ search }}>
-                            <SelectContext.Provider value={{ selected }}>
-                              <RenderLinkContext.Provider
-                                value={{ renderLink }}
-                              >
-                                {children}
-                              </RenderLinkContext.Provider>
-                            </SelectContext.Provider>
-                          </SearchContext.Provider>
-                        </PageContext.Provider>
-                      </OpenContext.Provider>
-                    </div>
-                  </Dialog.Panel>
-                </Transition.Child>
-              </div>
-            </div>
+                      {children}
+                    </RenderLinkContext.Provider>
+                  </SelectContext.Provider>
+                </SearchContext.Provider>
+              </PageContext.Provider>
+            </OpenContext.Provider>
           </div>
-        </Dialog>
-      </Transition>
+        </div>
+      </Modal>
     </div>
   );
 }
@@ -224,5 +237,7 @@ Search.List = List;
 Search.ListItem = ListItem;
 Search.FreeSearchAction = FreeSearchAction;
 Search.Backdrop = Backdrop;
+Search.ListHeading = ListHeading;
+Search.Trigger = Trigger;
 
-export default Search;
+
