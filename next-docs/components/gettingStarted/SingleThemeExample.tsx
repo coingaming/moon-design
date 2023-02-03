@@ -11,6 +11,9 @@ const SingleThemeExample = () => (
   --bulma: 0 0 0; /* #000000 */
   --trunks: 153 156 160; /* #999ca0 */
   --popo: 0 0 0; /* #000000 */
+  --jiren: 78 70 180 / 0.12; /* #4e46b4 */
+  --heles: 0 0 0 / 0.04; /* #000000 */
+  --zeno: 0 0 0 / 0.56; /* #000000 */
 
   /* support-colors  */
   --krillin: 255 179 25; /* #ff9800 */

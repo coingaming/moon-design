@@ -12,6 +12,9 @@ const DuoThemeExample = () => (
   --bulma: 0 0 0; /* #000000 */
   --trunks: 153 156 160; /* #999ca0 */
   --popo: 0 0 0; /* #000000 */
+  --jiren: 78 70 180 / 0.12; /* #4e46b4 */
+  --heles: 0 0 0 / 0.04; /* #000000 */
+  --zeno: 0 0 0 / 0.56; /* #000000 */
 
   /* support-colors  */
   --krillin: 255 179 25; /* #ff9800 */
@@ -89,6 +92,9 @@ const DuoThemeExample = () => (
   --bulma: 255 255 255; /* #ffffff */
   --trunks: 153 156 160; /* #999ca0 */
   --popo: 0 0 0; /* #000000 */
+  --jiren: 91 80 238 / 0.32; /* #5b50ee */
+  --heles: 255 255 255 / 0.12; /* #ffffff */
+  --zeno: 0 0 0 / 0.56; /* #000000 */
 
   /* support-colors  */
   --krillin: 255 179 25; /* #ff9800 */
