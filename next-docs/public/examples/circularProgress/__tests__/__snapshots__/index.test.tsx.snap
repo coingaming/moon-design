@@ -25,7 +25,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -42,7 +42,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -76,7 +76,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -93,7 +93,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -127,7 +127,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -144,7 +144,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -182,7 +182,7 @@ exports[`CircularProgress in Dark theme renders Default 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-    stroke-linecap="round"
+    strokeLinecap="round"
     style={
       Object {
         "fillOpacity": 0,
@@ -199,7 +199,7 @@ exports[`CircularProgress in Dark theme renders Default 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-    stroke-linecap="round"
+    strokeLinecap="round"
     style={
       Object {
         "fillOpacity": 0,
@@ -237,7 +237,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -254,7 +254,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -288,7 +288,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -305,7 +305,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -339,7 +339,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -356,7 +356,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -390,7 +390,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -407,7 +407,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -441,7 +441,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -458,7 +458,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -497,7 +497,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -514,7 +514,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -548,7 +548,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -565,7 +565,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -599,7 +599,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -616,7 +616,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -650,7 +650,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -667,7 +667,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -706,7 +706,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -723,7 +723,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -757,7 +757,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -774,7 +774,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -808,7 +808,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -825,7 +825,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -863,7 +863,7 @@ exports[`CircularProgress in Light theme renders Default 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-    stroke-linecap="round"
+    strokeLinecap="round"
     style={
       Object {
         "fillOpacity": 0,
@@ -880,7 +880,7 @@ exports[`CircularProgress in Light theme renders Default 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-    stroke-linecap="round"
+    strokeLinecap="round"
     style={
       Object {
         "fillOpacity": 0,
@@ -918,7 +918,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -935,7 +935,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -969,7 +969,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -986,7 +986,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1020,7 +1020,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1037,7 +1037,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1071,7 +1071,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1088,7 +1088,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1122,7 +1122,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1139,7 +1139,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1178,7 +1178,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1195,7 +1195,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1229,7 +1229,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1246,7 +1246,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1280,7 +1280,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1297,7 +1297,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1331,7 +1331,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1348,7 +1348,7 @@ Array [
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1389,7 +1389,7 @@ exports[`CircularProgress in RTL renders Colors 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1406,7 +1406,7 @@ exports[`CircularProgress in RTL renders Colors 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1440,7 +1440,7 @@ exports[`CircularProgress in RTL renders Colors 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1457,7 +1457,7 @@ exports[`CircularProgress in RTL renders Colors 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1491,7 +1491,7 @@ exports[`CircularProgress in RTL renders Colors 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1508,7 +1508,7 @@ exports[`CircularProgress in RTL renders Colors 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1549,7 +1549,7 @@ exports[`CircularProgress in RTL renders Default 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1566,7 +1566,7 @@ exports[`CircularProgress in RTL renders Default 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1607,7 +1607,7 @@ exports[`CircularProgress in RTL renders Sizes 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1624,7 +1624,7 @@ exports[`CircularProgress in RTL renders Sizes 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1658,7 +1658,7 @@ exports[`CircularProgress in RTL renders Sizes 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1675,7 +1675,7 @@ exports[`CircularProgress in RTL renders Sizes 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1709,7 +1709,7 @@ exports[`CircularProgress in RTL renders Sizes 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1726,7 +1726,7 @@ exports[`CircularProgress in RTL renders Sizes 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1760,7 +1760,7 @@ exports[`CircularProgress in RTL renders Sizes 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1777,7 +1777,7 @@ exports[`CircularProgress in RTL renders Sizes 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1811,7 +1811,7 @@ exports[`CircularProgress in RTL renders Sizes 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1828,7 +1828,7 @@ exports[`CircularProgress in RTL renders Sizes 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1869,7 +1869,7 @@ exports[`CircularProgress in RTL renders Values 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1886,7 +1886,7 @@ exports[`CircularProgress in RTL renders Values 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1920,7 +1920,7 @@ exports[`CircularProgress in RTL renders Values 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1937,7 +1937,7 @@ exports[`CircularProgress in RTL renders Values 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1971,7 +1971,7 @@ exports[`CircularProgress in RTL renders Values 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -1988,7 +1988,7 @@ exports[`CircularProgress in RTL renders Values 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -2022,7 +2022,7 @@ exports[`CircularProgress in RTL renders Values 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,
@@ -2039,7 +2039,7 @@ exports[`CircularProgress in RTL renders Values 1`] = `
       a 46,46 0 1 1 0,92
       a 46,46 0 1 1 0,-92
     "
-      stroke-linecap="round"
+      strokeLinecap="round"
       style={
         Object {
           "fillOpacity": 0,

@@ -48,7 +48,7 @@ const Path: React.FC<PathProps> = ({
   center,
 }) => (
   <path
-    stroke-linecap="round"
+    strokeLinecap="round"
     style={{
       ...style,
       ...getDashStyle({ pathRadius, dashRatio }),
