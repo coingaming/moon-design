@@ -59,16 +59,16 @@ exports[`Form in Dark Theme renders with Input 1`] = `
         >
           Day
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:ra:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:ra:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -102,6 +102,16 @@ exports[`Form in Dark Theme renders with Input 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
     <div
@@ -117,16 +127,16 @@ exports[`Form in Dark Theme renders with Input 1`] = `
         >
           Month
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:rd:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:rd:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -160,6 +170,16 @@ exports[`Form in Dark Theme renders with Input 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
     <div
@@ -175,16 +195,16 @@ exports[`Form in Dark Theme renders with Input 1`] = `
         >
           Year
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:rg:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:rg:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -218,6 +238,16 @@ exports[`Form in Dark Theme renders with Input 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
   </div>
@@ -432,16 +462,16 @@ exports[`Form in Light Theme renders with Input 1`] = `
         >
           Day
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r1:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r1:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -475,6 +505,16 @@ exports[`Form in Light Theme renders with Input 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
     <div
@@ -490,16 +530,16 @@ exports[`Form in Light Theme renders with Input 1`] = `
         >
           Month
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r4:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r4:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -533,6 +573,16 @@ exports[`Form in Light Theme renders with Input 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
     <div
@@ -548,16 +598,16 @@ exports[`Form in Light Theme renders with Input 1`] = `
         >
           Year
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r7:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r7:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -591,6 +641,16 @@ exports[`Form in Light Theme renders with Input 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
   </div>
@@ -808,16 +868,16 @@ exports[`Form in RTL renders with Input 1`] = `
           >
             Day
           </label>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:rj:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
-            <div>
+          <div>
+            <div
+              aria-expanded={false}
+              aria-haspopup={true}
+              disabled={false}
+              id="headlessui-listbox-button-:rj:"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+            >
               <div
                 className="relative"
               >
@@ -851,6 +911,16 @@ exports[`Form in RTL renders with Input 1`] = `
               </div>
             </div>
           </div>
+          <div
+            className="z-5 absolute"
+            style={
+              Object {
+                "left": "0",
+                "position": "absolute",
+                "top": "0",
+              }
+            }
+          />
         </div>
       </div>
       <div
@@ -866,16 +936,16 @@ exports[`Form in RTL renders with Input 1`] = `
           >
             Month
           </label>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:rm:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
-            <div>
+          <div>
+            <div
+              aria-expanded={false}
+              aria-haspopup={true}
+              disabled={false}
+              id="headlessui-listbox-button-:rm:"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+            >
               <div
                 className="relative"
               >
@@ -909,6 +979,16 @@ exports[`Form in RTL renders with Input 1`] = `
               </div>
             </div>
           </div>
+          <div
+            className="z-5 absolute"
+            style={
+              Object {
+                "left": "0",
+                "position": "absolute",
+                "top": "0",
+              }
+            }
+          />
         </div>
       </div>
       <div
@@ -924,16 +1004,16 @@ exports[`Form in RTL renders with Input 1`] = `
           >
             Year
           </label>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:rp:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
-            <div>
+          <div>
+            <div
+              aria-expanded={false}
+              aria-haspopup={true}
+              disabled={false}
+              id="headlessui-listbox-button-:rp:"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+            >
               <div
                 className="relative"
               >
@@ -967,6 +1047,16 @@ exports[`Form in RTL renders with Input 1`] = `
               </div>
             </div>
           </div>
+          <div
+            className="z-5 absolute"
+            style={
+              Object {
+                "left": "0",
+                "position": "absolute",
+                "top": "0",
+              }
+            }
+          />
         </div>
       </div>
     </div>

@@ -10,16 +10,16 @@ exports[`Dropdown in Dark Theme renders Default 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r1t:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r1t:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <span
             className="p-2 cursor-pointer hover:text-piccolo"
           >
@@ -27,6 +27,16 @@ exports[`Dropdown in Dark Theme renders Default 1`] = `
           </span>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
 </div>
@@ -42,16 +52,16 @@ exports[`Dropdown in Dark Theme renders InsetMultiSelect 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r32:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r32:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -99,6 +109,16 @@ exports[`Dropdown in Dark Theme renders InsetMultiSelect 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -120,16 +140,16 @@ exports[`Dropdown in Dark Theme renders InsetSelect 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r2v:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r2v:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -177,6 +197,16 @@ exports[`Dropdown in Dark Theme renders InsetSelect 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -198,16 +228,16 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r35:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r35:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -255,6 +285,16 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
@@ -269,12 +309,12 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-haspopup={true}
-        disabled={true}
-        id="headlessui-listbox-button-:r38:"
-      >
-        <div>
+      <div>
+        <div
+          aria-haspopup={true}
+          disabled={true}
+          id="headlessui-listbox-button-:r38:"
+        >
           <div
             className="relative"
           >
@@ -322,6 +362,16 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
         role="alert"
@@ -336,16 +386,16 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r3b:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r3b:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -391,6 +441,16 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -399,16 +459,16 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r3e:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r3e:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -456,6 +516,16 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -484,16 +554,16 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
       >
         Small
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r3i:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r3i:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -533,6 +603,16 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -554,16 +634,16 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
       >
         Medium
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r3l:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r3l:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -604,6 +684,16 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -625,16 +715,16 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
       >
         Large
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r3o:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r3o:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -674,6 +764,16 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -695,16 +795,16 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r25:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r25:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <button
             className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
           >
@@ -712,6 +812,16 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
           </button>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -720,16 +830,16 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r27:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r27:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <button
             className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
           >
@@ -737,6 +847,16 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
           </button>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -745,16 +865,16 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r29:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r29:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <button
             className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
           >
@@ -762,6 +882,16 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
           </button>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
 </div>
@@ -784,16 +914,16 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
       >
         Small
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r2c:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r2c:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -829,6 +959,16 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -850,16 +990,16 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
       >
         Medium
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r2f:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r2f:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -895,6 +1035,16 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -916,16 +1066,16 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
       >
         Large
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r2i:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r2i:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -961,6 +1111,16 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -989,16 +1149,16 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
       >
         Error
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r2l:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r2l:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -1034,6 +1194,16 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
@@ -1055,12 +1225,12 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
       >
         Disabled
       </label>
-      <div
-        aria-haspopup={true}
-        disabled={true}
-        id="headlessui-listbox-button-:r2o:"
-      >
-        <div>
+      <div>
+        <div
+          aria-haspopup={true}
+          disabled={true}
+          id="headlessui-listbox-button-:r2o:"
+        >
           <div
             className="relative"
           >
@@ -1096,6 +1266,16 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
         role="alert"
@@ -1110,16 +1290,16 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r2q:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r2q:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -1155,6 +1335,16 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -1170,16 +1360,16 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
       >
         List options width
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r2t:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r2t:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -1215,6 +1405,16 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -1236,16 +1436,16 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r1v:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r1v:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="w-10 h-10 bg-gohan rounded-moon-i-md flex align-middle justify-center items-center cursor-pointer transition-colors hover:bg-piccolo/20 "
           >
@@ -1267,6 +1467,16 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -1275,16 +1485,16 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r21:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r21:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <button
             className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
             onMouseEnter={[Function]}
@@ -1299,6 +1509,16 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
           </button>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -1307,16 +1527,16 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r23:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r23:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <button
             className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
           >
@@ -1339,6 +1559,16 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
           </button>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
 </div>
@@ -1354,16 +1584,16 @@ exports[`Dropdown in Light Theme renders Default 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r0:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r0:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <span
             className="p-2 cursor-pointer hover:text-piccolo"
           >
@@ -1371,6 +1601,16 @@ exports[`Dropdown in Light Theme renders Default 1`] = `
           </span>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
 </div>
@@ -1386,16 +1626,16 @@ exports[`Dropdown in Light Theme renders InsetMultiSelect 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r15:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r15:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -1443,6 +1683,16 @@ exports[`Dropdown in Light Theme renders InsetMultiSelect 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -1464,16 +1714,16 @@ exports[`Dropdown in Light Theme renders InsetSelect 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r12:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r12:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -1521,6 +1771,16 @@ exports[`Dropdown in Light Theme renders InsetSelect 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -1542,16 +1802,16 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r18:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r18:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -1599,6 +1859,16 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
@@ -1613,12 +1883,12 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-haspopup={true}
-        disabled={true}
-        id="headlessui-listbox-button-:r1b:"
-      >
-        <div>
+      <div>
+        <div
+          aria-haspopup={true}
+          disabled={true}
+          id="headlessui-listbox-button-:r1b:"
+        >
           <div
             className="relative"
           >
@@ -1666,6 +1936,16 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
         role="alert"
@@ -1680,16 +1960,16 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r1e:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r1e:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -1735,6 +2015,16 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -1743,16 +2033,16 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r1h:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r1h:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -1800,6 +2090,16 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -1828,16 +2128,16 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
       >
         Small
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r1l:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r1l:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -1877,6 +2177,16 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -1898,16 +2208,16 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
       >
         Medium
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r1o:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r1o:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -1948,6 +2258,16 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -1969,16 +2289,16 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
       >
         Large
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r1r:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r1r:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -2018,6 +2338,16 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -2039,16 +2369,16 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r8:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r8:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <button
             className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
           >
@@ -2056,6 +2386,16 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
           </button>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -2064,16 +2404,16 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:ra:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:ra:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <button
             className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
           >
@@ -2081,6 +2421,16 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
           </button>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -2089,16 +2439,16 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:rc:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:rc:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <button
             className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
           >
@@ -2106,6 +2456,16 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
           </button>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
 </div>
@@ -2128,16 +2488,16 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
       >
         Small
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:rf:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:rf:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -2173,6 +2533,16 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -2194,16 +2564,16 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
       >
         Medium
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:ri:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:ri:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -2239,6 +2609,16 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -2260,16 +2640,16 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
       >
         Large
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:rl:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:rl:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -2305,6 +2685,16 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -2333,16 +2723,16 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
       >
         Error
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:ro:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:ro:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -2378,6 +2768,16 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
@@ -2399,12 +2799,12 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
       >
         Disabled
       </label>
-      <div
-        aria-haspopup={true}
-        disabled={true}
-        id="headlessui-listbox-button-:rr:"
-      >
-        <div>
+      <div>
+        <div
+          aria-haspopup={true}
+          disabled={true}
+          id="headlessui-listbox-button-:rr:"
+        >
           <div
             className="relative"
           >
@@ -2440,6 +2840,16 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
         role="alert"
@@ -2454,16 +2864,16 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:rt:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:rt:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -2499,6 +2909,16 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -2514,16 +2934,16 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
       >
         List options width
       </label>
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r10:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r10:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="relative"
           >
@@ -2559,6 +2979,16 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -2580,16 +3010,16 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r2:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r2:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <div
             className="w-10 h-10 bg-gohan rounded-moon-i-md flex align-middle justify-center items-center cursor-pointer transition-colors hover:bg-piccolo/20 "
           >
@@ -2611,6 +3041,16 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
           </div>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -2619,16 +3059,16 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r4:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r4:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <button
             className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
             onMouseEnter={[Function]}
@@ -2643,6 +3083,16 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
           </button>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
   <div
@@ -2651,16 +3101,16 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
     <div
       className="relative"
     >
-      <div
-        aria-expanded={false}
-        aria-haspopup={true}
-        disabled={false}
-        id="headlessui-listbox-button-:r6:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-      >
-        <div>
+      <div>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r6:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
           <button
             className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
           >
@@ -2683,6 +3133,16 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
           </button>
         </div>
       </div>
+      <div
+        className="z-5 absolute"
+        style={
+          Object {
+            "left": "0",
+            "position": "absolute",
+            "top": "0",
+          }
+        }
+      />
     </div>
   </div>
 </div>
@@ -2701,16 +3161,16 @@ exports[`Dropdown in RTL renders Default 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r3q:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r3q:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <span
               className="p-2 cursor-pointer hover:text-piccolo"
             >
@@ -2718,6 +3178,16 @@ exports[`Dropdown in RTL renders Default 1`] = `
             </span>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
   </div>
@@ -2737,16 +3207,16 @@ exports[`Dropdown in RTL renders InsetMultiSelect 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r4v:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r4v:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -2794,6 +3264,16 @@ exports[`Dropdown in RTL renders InsetMultiSelect 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -2819,16 +3299,16 @@ exports[`Dropdown in RTL renders InsetSelect 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r4s:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r4s:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -2876,6 +3356,16 @@ exports[`Dropdown in RTL renders InsetSelect 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -2901,16 +3391,16 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r52:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r52:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -2958,6 +3448,16 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
           role="alert"
@@ -2972,12 +3472,12 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-haspopup={true}
-          disabled={true}
-          id="headlessui-listbox-button-:r55:"
-        >
-          <div>
+        <div>
+          <div
+            aria-haspopup={true}
+            disabled={true}
+            id="headlessui-listbox-button-:r55:"
+          >
             <div
               className="relative"
             >
@@ -3025,6 +3525,16 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
           role="alert"
@@ -3039,16 +3549,16 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r58:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r58:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -3094,6 +3604,16 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
     <div
@@ -3102,16 +3622,16 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r5b:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r5b:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -3159,6 +3679,16 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -3191,16 +3721,16 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
         >
           Small
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r5f:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r5f:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -3240,6 +3770,16 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -3261,16 +3801,16 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
         >
           Medium
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r5i:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r5i:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -3311,6 +3851,16 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -3332,16 +3882,16 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
         >
           Large
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r5l:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r5l:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -3381,6 +3931,16 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -3406,16 +3966,16 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r42:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r42:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <button
               className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
             >
@@ -3423,6 +3983,16 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
             </button>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
     <div
@@ -3431,16 +4001,16 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r44:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r44:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <button
               className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
             >
@@ -3448,6 +4018,16 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
             </button>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
     <div
@@ -3456,16 +4036,16 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r46:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r46:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <button
               className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
             >
@@ -3473,6 +4053,16 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
             </button>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
   </div>
@@ -3499,16 +4089,16 @@ exports[`Dropdown in RTL renders Select 1`] = `
         >
           Small
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r49:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r49:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -3544,6 +4134,16 @@ exports[`Dropdown in RTL renders Select 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -3565,16 +4165,16 @@ exports[`Dropdown in RTL renders Select 1`] = `
         >
           Medium
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r4c:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r4c:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -3610,6 +4210,16 @@ exports[`Dropdown in RTL renders Select 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -3631,16 +4241,16 @@ exports[`Dropdown in RTL renders Select 1`] = `
         >
           Large
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r4f:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r4f:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -3676,6 +4286,16 @@ exports[`Dropdown in RTL renders Select 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -3708,16 +4328,16 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
         >
           Error
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r4i:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r4i:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -3753,6 +4373,16 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
           role="alert"
@@ -3774,12 +4404,12 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
         >
           Disabled
         </label>
-        <div
-          aria-haspopup={true}
-          disabled={true}
-          id="headlessui-listbox-button-:r4l:"
-        >
-          <div>
+        <div>
+          <div
+            aria-haspopup={true}
+            disabled={true}
+            id="headlessui-listbox-button-:r4l:"
+          >
             <div
               className="relative"
             >
@@ -3815,6 +4445,16 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
           role="alert"
@@ -3829,16 +4469,16 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r4n:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r4n:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -3874,6 +4514,16 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
     <div
@@ -3889,16 +4539,16 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
         >
           List options width
         </label>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r4q:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r4q:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="relative"
             >
@@ -3934,6 +4584,16 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -3959,16 +4619,16 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r3s:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r3s:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <div
               className="w-10 h-10 bg-gohan rounded-moon-i-md flex align-middle justify-center items-center cursor-pointer transition-colors hover:bg-piccolo/20 "
             >
@@ -3990,6 +4650,16 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
             </div>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
     <div
@@ -3998,16 +4668,16 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r3u:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r3u:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <button
               className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
               onMouseEnter={[Function]}
@@ -4022,6 +4692,16 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
             </button>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
     <div
@@ -4030,16 +4710,16 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
       <div
         className="relative"
       >
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r40:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div>
+        <div>
+          <div
+            aria-expanded={false}
+            aria-haspopup={true}
+            disabled={false}
+            id="headlessui-listbox-button-:r40:"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+          >
             <button
               className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
             >
@@ -4062,6 +4742,16 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
             </button>
           </div>
         </div>
+        <div
+          className="z-5 absolute"
+          style={
+            Object {
+              "left": "0",
+              "position": "absolute",
+              "top": "0",
+            }
+          }
+        />
       </div>
     </div>
   </div>
