@@ -1,16 +1,16 @@
-:root.theme-partners-light,
-.theme-partners-light {
-  --piccolo: 66 150 89; /* #429659 */
-  --hit: 70 99 163; /* #4663a3 */
-  --beerus: 224 224 225; /* #e0e0e1 */
+:root.theme-hub88-light,
+.theme-hub88-light {
+  --piccolo: 26 91 255; /* #1a5bff */
+  --hit: 171 183 191; /* #abb7bf */
+  --beerus: 226 230 233; /* #e2e6e9 */
   --gohan: 255 255 255; /* #ffffff */
   --goten: 255 255 255; /* #ffffff */
-  --goku: 245 245 245; /* #f5f5f6 */
-  --bulma: 34 34 37; /* #222225 */
-  --trunks: 119 119 126; /* #77777e */
-  --popo: 34 34 37; /* #222225 */
-  --jiren: 66 150 89 / 0.2; /* #429659 */
-  --heles: 34 34 37 / 0.12; /* #222225 */
+  --goku: 243 245 246; /* #f3f5f6 */
+  --bulma: 1 9 19; /* #010913 */
+  --trunks: 134 151 162; /* #8697a2 */
+  --popo: 0 0 0; /* #000000 */
+  --jiren: 26 91 255 / 0.08; /* #1a5bff */
+  --heles: 0 0 0 / 0.08; /* #000000 */
   --zeno: 1 9 19 / 0.4; /* #010913 */
 
   /* support-colors  */
@@ -64,7 +64,7 @@
   --border-i-width: 0.125rem; /* 2px */
 
   /* opacity */
-  --opacity-partners: 0.32;
+  --opacity-moon: 0.32;
 
   /* fonts */
   --averta: 'Averta Std';
