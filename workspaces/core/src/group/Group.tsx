@@ -193,12 +193,6 @@ const InputLabel: React.FC<LabelProps> = ({ children, className }) => {
   return <InsetInput.Label className={className}>{children}</InsetInput.Label>;
 };
 
-const SelectLabel: React.FC<LabelProps> = ({ children, className }) => {
-  return (
-    <InsetSelect.Label className={className}>{children}</InsetSelect.Label>
-  );
-};
-
 const FirstSelect: React.FC<WithChildren<SelectProps>> = ({
   children,
   className,
@@ -230,7 +224,7 @@ const FirstSelect: React.FC<WithChildren<SelectProps>> = ({
   );
 };
 
-const FirstInsetSelectRoot: React.FC<WithChildren<InsetSelectProps>> = ({
+const FirstInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
   className,
   children,
   error: selectError,
@@ -260,7 +254,7 @@ const FirstInsetSelectRoot: React.FC<WithChildren<InsetSelectProps>> = ({
   );
 };
 
-const LastInsetSelectRoot: React.FC<WithChildren<InsetSelectProps>> = ({
+const LastInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
   className,
   children,
   error: selectError,
@@ -293,12 +287,7 @@ const FirstInsetInput = Object.assign(FirstInsetInputRoot, {
   Label: InputLabel,
 });
 const LastInsetInput = Object.assign(LastInsetInputRoot, { Label: InputLabel });
-const FirstInsetSelect = Object.assign(FirstInsetSelectRoot, {
-  Label: SelectLabel,
-});
-const LastInsetSelect = Object.assign(LastInsetSelectRoot, {
-  Label: SelectLabel,
-});
+
 const Group = Object.assign(GroupRoot, {
   FirstInput,
   LastInput,
