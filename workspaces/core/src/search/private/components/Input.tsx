@@ -8,12 +8,11 @@ interface SearchProps {
   placeholder?: string;
   prefix?: string[];
   value: string;
+  clear: string | React.ReactNode;
 }
 
-const Close = () => <span className="text-trunks text-sm">Clear</span>
-
 function Input(
-  { onChange, onFocus, onBlur, placeholder, prefix, value }: SearchProps,
+  { onChange, onFocus, onBlur, placeholder, prefix, value, clear }: SearchProps,
   ref: Ref<HTMLInputElement>
 ) {
   return (
@@ -76,9 +75,9 @@ function Input(
               }
             }}
           >
-            <div className="text-trunks transition absolute right-4 top-1/2 transform -translate-y-1/2" >
-              <Close />
-            </div>
+            <span className="text-trunks test-sm transition absolute right-4 top-1/2 transform -translate-y-1/2">
+              {clear && clear}
+            </span>
           </button>
         )}
       </div>

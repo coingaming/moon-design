@@ -58,6 +58,8 @@ const Example = () => {
         search
     );
 
+    const Clear = () => <span>Clear</span>;
+
     // register listener that opens SearchModal by pressing CMD+K
     useOpenSearch(setOpen);
 
@@ -72,6 +74,7 @@ const Example = () => {
                 search={search}
                 isOpen={open}
                 backdrop={<SearchModal.Backdrop />}
+                clear={Clear}
             >
                 {filteredItems.length ? (
                     filteredItems.map((list: any) => (

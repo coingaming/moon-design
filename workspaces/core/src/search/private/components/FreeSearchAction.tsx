@@ -5,7 +5,7 @@ import { SearchContext } from "../utils/context";
 
 interface FreeSearchActionProps extends Omit<ButtonProps & LinkProps, "index"> {
   index?: number;
-  label?: string;
+  label?: string | React.ReactNode;
 }
 
 export default function FreeSearchAction({

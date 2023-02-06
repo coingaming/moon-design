@@ -58,6 +58,8 @@ const Example = () => {
     search
   );
 
+  const Clear = () => <span>Clear</span>;
+
   return (
     <div className="w-full mx-32">
     <Search
@@ -65,6 +67,7 @@ const Example = () => {
       onChangeOpen={setOpen}
       search={search}
       isOpen={open}
+      clear={Clear}
     >
       {filteredItems.length ? (
         filteredItems.map((list: any) => (

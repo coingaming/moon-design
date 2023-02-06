@@ -1,4 +1,4 @@
-import React, { Fragment, MutableRefObject, ReactNode, Ref, useEffect, useRef, useState } from "react";
+import React, { Fragment, MutableRefObject, ReactNode, Ref, useCallback, useEffect, useRef, useState } from "react";
 import { Transition } from "@headlessui/react";
 
 import FreeSearchAction from "./FreeSearchAction";
@@ -31,6 +31,7 @@ interface SearchProps {
   page?: string;
   backdrop?: ReactNode;
   className?: string;
+  clear: string | ReactNode;
 }
 
 export function Search({
@@ -45,6 +46,7 @@ export function Search({
   search,
   page,
   className,
+  clear,
 }: SearchProps) {
   const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
   const [ref] = useClickOutside();
@@ -129,32 +131,34 @@ export function Search({
     setSelected(0);
   }, [page]);
 
+  const onKeyDown = useCallback((e) => {
+      if (
+        e.key === "ArrowDown" ||
+        (e.ctrlKey && e.key === "n") ||
+        (e.ctrlKey && e.key === "j")
+      ) {
+        e.preventDefault();
+        e.stopPropagation();
+        handleChangeSelected("down");
+      } else if (
+        e.key === "ArrowUp" ||
+        (e.ctrlKey && e.key === "p") ||
+        (e.ctrlKey && e.key === "k")
+      ) {
+        e.preventDefault();
+        e.stopPropagation();
+        handleChangeSelected("up");
+      } else if (e.key === "Enter") {
+        e.preventDefault();
+        e.stopPropagation();
+        handleSelect();
+      }
+  }, [handleChangeSelected, handleSelect]);
+
   return (
     <div
       ref={ref}
-      onKeyDown={(e) => {
-        if (
-          e.key === "ArrowDown" ||
-          (e.ctrlKey && e.key === "n") ||
-          (e.ctrlKey && e.key === "j")
-        ) {
-          e.preventDefault();
-          e.stopPropagation();
-          handleChangeSelected("down");
-        } else if (
-          e.key === "ArrowUp" ||
-          (e.ctrlKey && e.key === "p") ||
-          (e.ctrlKey && e.key === "k")
-        ) {
-          e.preventDefault();
-          e.stopPropagation();
-          handleChangeSelected("up");
-        } else if (e.key === "Enter") {
-          e.preventDefault();
-          e.stopPropagation();
-          handleSelect();
-        }
-      }}
+      onKeyDown={onKeyDown}
     >
       <div className={
           mergeClassnames(
@@ -183,6 +187,7 @@ export function Search({
             prefix={searchPrefix}
             value={search}
             ref={(inputRef as unknown as Ref<HTMLInputElement>)}
+            clear={clear}
           />
         </PageContext.Provider>
 
