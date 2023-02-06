@@ -61,7 +61,7 @@ const Example = () => {
   const Clear = () => <span>Clear</span>;
 
   return (
-    <div className="w-full mx-32">
+    <div className="w-full xl:mx-32">
     <Search
       onChangeSearch={setSearch}
       onChangeOpen={setOpen}

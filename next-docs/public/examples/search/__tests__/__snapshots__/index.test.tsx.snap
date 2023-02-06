@@ -2,7 +2,7 @@
 
 exports[`Search in Dark Theme renders Default 1`] = `
 <div
-  className="w-full mx-32"
+  className="w-full xl:mx-32"
 >
   <div
     onKeyDown={[Function]}
@@ -88,7 +88,7 @@ Array [
 
 exports[`Search in Light Theme renders Default 1`] = `
 <div
-  className="w-full mx-32"
+  className="w-full xl:mx-32"
 >
   <div
     onKeyDown={[Function]}
@@ -177,7 +177,7 @@ exports[`Search in RTL renders Default 1`] = `
   dir="rtl"
 >
   <div
-    className="w-full mx-32"
+    className="w-full xl:mx-32"
   >
     <div
       onKeyDown={[Function]}
