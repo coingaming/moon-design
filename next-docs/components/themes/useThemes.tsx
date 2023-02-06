@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
 import isStorageAvailable from '../../utils/isStorageAvailable';
 
-interface ColorModes {
+type ColorModes = {
   dark: string;
   light: string;
-}
+};
 
-interface Themes {
+type Themes = {
   sportsbet: ColorModes;
   bitcasino: ColorModes;
   betadda: ColorModes;
@@ -17,7 +17,10 @@ interface Themes {
   livecasino: ColorModes;
   partners: ColorModes;
   tradeart: ColorModes;
-}
+  hub88: ColorModes;
+  travel: ColorModes;
+  comms: ColorModes;
+};
 
 export const themes: Themes = {
   sportsbet: {
@@ -59,6 +62,18 @@ export const themes: Themes = {
   tradeart: {
     dark: 'theme-tradeart-dark',
     light: 'theme-tradeart-light',
+  },
+  hub88: {
+    dark: 'theme-hub88-light',
+    light: 'theme-hub88-light',
+  },
+  travel: {
+    dark: 'theme-travel-light',
+    light: 'theme-travel-light',
+  },
+  comms: {
+    dark: 'theme-comms-dark',
+    light: 'theme-comms-light',
   },
 };
 
