@@ -3,6 +3,8 @@ import { GenericSearch } from '@heathmont/moon-icons-tw';
 
 interface SearchProps {
   onChange: (value: string) => void;
+  onFocus?: () => void;
+  onBlur?: () => void;
   placeholder?: string;
   prefix?: string[];
   value: string;
@@ -11,7 +13,7 @@ interface SearchProps {
 const Close = () => <span className="text-trunks text-sm">Clear</span>
 
 function Input(
-  { onChange, placeholder, prefix, value }: SearchProps,
+  { onChange, onFocus, onBlur, placeholder, prefix, value }: SearchProps,
   ref: Ref<HTMLInputElement>
 ) {
   return (
@@ -20,13 +22,13 @@ function Input(
 
       {prefix?.length
         ? prefix.map((p) => {
-            return (
-              <Fragment key={p}>
-                <span className="dark:text-bulma">{p}</span>
-                <span className="text-bulma">/</span>
-              </Fragment>
-            );
-          })
+          return (
+            <Fragment key={p}>
+              <span className="dark:text-bulma">{p}</span>
+              <span className="text-bulma">/</span>
+            </Fragment>
+          );
+        })
         : null}
 
       <div className="flex-1 relative">
@@ -39,7 +41,11 @@ function Input(
           }}
           onFocus={(e) => {
             e.currentTarget.select();
+            if (typeof onFocus === 'function') {
+              onFocus();
+            }
           }}
+          onBlur={onBlur}
           onKeyDown={(e) => {
             if (e.key === "Escape" && value) {
               e.preventDefault();
@@ -52,6 +58,7 @@ function Input(
           value={value}
           type="text"
           autoFocus
+
         />
 
         {value && (
@@ -70,7 +77,7 @@ function Input(
             }}
           >
             <div className="text-trunks transition absolute right-4 top-1/2 transform -translate-y-1/2" >
-              <Close/>
+              <Close />
             </div>
           </button>
         )}

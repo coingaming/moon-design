@@ -1,6 +1,5 @@
 import React, { Dispatch, SetStateAction, useEffect, Children, ReactNode } from "react";
 
-import { Search } from "../../private/components/Search";
 import { JsonStructure } from "../types";
 
 export function getItemIndex(
@@ -84,20 +83,6 @@ function getLabelFromChildren(children: ReactNode) {
   });
 
   return label;
-}
-
-export function renderJsonStructure(jsonStructure: JsonStructure) {
-  return jsonStructure.map((list) => (
-    <Search.List key={list.id}>
-      {list.items.map(({ id, ...rest }) => (
-        <Search.ListItem
-          index={getItemIndex(jsonStructure, id)}
-          key={id}
-          {...rest}
-        />
-      ))}
-    </Search.List>
-  ));
 }
 
 export function useOpenSearch(

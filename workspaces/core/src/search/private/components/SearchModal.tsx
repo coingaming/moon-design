@@ -1,5 +1,5 @@
 import React, { Fragment, MutableRefObject, ReactNode, Ref, useEffect, useRef, useState } from "react";
-import { Transition } from "@headlessui/react";
+import { Transition, Dialog } from "@headlessui/react";
 
 import FreeSearchAction from "./FreeSearchAction";
 import List, { ListHeading } from "./List";
@@ -7,6 +7,7 @@ import ListItem from "./ListItem";
 import Page from "./Page";
 import Input from "./Input";
 import {
+  OpenContext,
   PageContext,
   RenderLinkContext,
   SearchContext,
@@ -15,8 +16,6 @@ import {
 import { RenderLink } from "../types";
 import { Backdrop } from "./Backdrop";
 import { Trigger } from "./Trigger";
-import useClickOutside from "../../../private/hooks/useClickOutside";
-import mergeClassnames from "../../../mergeClassnames/mergeClassnames";
 
 interface SearchProps {
   onChangeSelected?: (value: number) => void;
@@ -30,10 +29,45 @@ interface SearchProps {
   search: string;
   page?: string;
   backdrop?: ReactNode;
-  className?: string;
 }
 
-export function Search({
+const Modal: React.FC<{ isOpen: boolean; inputRef: React.RefObject<any>, onChangeOpen: (isOpen: boolean) => void; backdrop: ReactNode }> = ({ children, isOpen, inputRef, onChangeOpen, backdrop }) => {
+  return <Transition appear show={isOpen} as={Fragment}>
+    <Dialog
+      initialFocus={inputRef}
+      as="div"
+      className="moon"
+      onClose={() => {
+        onChangeOpen(false);
+      }}
+    >
+      <div className="moon-content antialiased">
+        {backdrop}
+
+        <div className="fixed z-50 inset-0 overflow-y-auto flex items-center justify-center">
+          <div className="flex w-screen h-screen sm:w-full sm:h-full sm:h-[450px] items-start justify-center md:p-4 z-50">
+            <Transition.Child
+              as={Fragment}
+              enter="ease-out duration-300"
+              enterFrom="opacity-0 scale-95"
+              enterTo="opacity-100 scale-100"
+              leave="ease-in duration-200"
+              leaveFrom="opacity-100 scale-100"
+              leaveTo="opacity-0 scale-95"
+            >
+              <Dialog.Panel className="w-full h-full bg-gohan shadow-moon-md rounded-moon-s-md sm:max-w-xl flex flex-col sm:overflow-hidden divide-y dark:divide-beerus">
+                {children}
+              </Dialog.Panel>
+            </Transition.Child>
+          </div>
+        </div>
+      </div>
+    </Dialog>
+  </Transition>
+
+}
+
+export function SearchModal({
   selected: selectedParent,
   placeholder = "Search",
   onChangeSelected,
@@ -44,10 +78,9 @@ export function Search({
   isOpen,
   search,
   page,
-  className,
+  backdrop
 }: SearchProps) {
   const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
-  const [ref] = useClickOutside();
 
   const [selected, setSelected] =
     typeof selectedParent === "number" && onChangeSelected
@@ -131,7 +164,6 @@ export function Search({
 
   return (
     <div
-      ref={ref}
       onKeyDown={(e) => {
         if (
           e.key === "ArrowDown" ||
@@ -156,80 +188,56 @@ export function Search({
         }
       }}
     >
-      <div className={
-          mergeClassnames(
-            "relative w-full h-full bg-gohan shadow-moon-md flex flex-col divide-y dark:divide-beerus",
-            isOpen ? 'rounded-t-moon-s-md' : 'rounded-moon-s-md',
-            className
-          )
-        }
-      >
-        <PageContext.Provider
-          value={{
-            setSearchPrefix,
-            searchPrefix,
-            page,
-          }}
-        >
-          <Input
-            onChange={onChangeSearch}
-            onFocus={() => {
-              onChangeOpen(true);
+      <Modal {...{ isOpen, inputRef, onChangeOpen, backdrop }}>
+        <div className="w-full h-full bg-gohan shadow-moon-md rounded-moon-s-md max-w-xl flex flex-col overflow-hidden divide-y dark:divide-beerus">
+          <PageContext.Provider
+            value={{
+              setSearchPrefix,
+              searchPrefix,
+              page,
             }}
-            onBlur={() => {
-              onChangeOpen(false);
-            }}
-            placeholder={placeholder}
-            prefix={searchPrefix}
-            value={search}
-            ref={(inputRef as unknown as Ref<HTMLInputElement>)}
-          />
-        </PageContext.Provider>
+          >
+            <Input
+              onChange={onChangeSearch}
+              placeholder={placeholder}
+              prefix={searchPrefix}
+              value={search}
+              ref={(inputRef as unknown as Ref<HTMLInputElement>)}
+            />
+          </PageContext.Provider>
 
-        <Transition
-          show={isOpen}
-          as={Fragment}
-          enter="ease-out duration-300"
-          enterFrom="opacity-0 scale-95"
-          enterTo="opacity-100 scale-100"
-          leave="ease-in duration-200"
-          leaveFrom="opacity-100 scale-100"
-          leaveTo="opacity-0 scale-95"
-        >
           <div
-            className={
-              mergeClassnames(
-                "absolute top-14 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md",
-                isOpen ? 'rounded-b-moon-s-md' : 'rounded-moon-s-md',
-              )
-            }
+            className="flex-1 overflow-y-auto focus:outline-none p-2 space-y-4"
             tabIndex={-1}
           >
-            <PageContext.Provider
-              value={{ page, searchPrefix, setSearchPrefix }}
-            >
-              <SearchContext.Provider value={{ search }}>
-                <SelectContext.Provider value={{ selected }}>
-                  <RenderLinkContext.Provider
-                    value={{ renderLink }}
-                  >
-                    {children}
-                  </RenderLinkContext.Provider>
-                </SelectContext.Provider>
-              </SearchContext.Provider>
-            </PageContext.Provider>
+            <OpenContext.Provider value={{ isOpen, onChangeOpen }}>
+              <PageContext.Provider
+                value={{ page, searchPrefix, setSearchPrefix }}
+              >
+                <SearchContext.Provider value={{ search }}>
+                  <SelectContext.Provider value={{ selected }}>
+                    <RenderLinkContext.Provider
+                      value={{ renderLink }}
+                    >
+                      {children}
+                    </RenderLinkContext.Provider>
+                  </SelectContext.Provider>
+                </SearchContext.Provider>
+              </PageContext.Provider>
+            </OpenContext.Provider>
           </div>
-        </Transition>
-      </div>
+        </div>
+      </Modal>
     </div>
-
   );
 }
 
-Search.Page = Page;
-Search.List = List;
-Search.ListItem = ListItem;
-Search.FreeSearchAction = FreeSearchAction;
-Search.Backdrop = Backdrop;
-Search.ListHeading = ListHeading;
-Search.Trigger = Trigger;
+SearchModal.Page = Page;
+SearchModal.List = List;
+SearchModal.ListItem = ListItem;
+SearchModal.FreeSearchAction = FreeSearchAction;
+SearchModal.Backdrop = Backdrop;
+SearchModal.ListHeading = ListHeading;
+SearchModal.Trigger = Trigger;
+
+

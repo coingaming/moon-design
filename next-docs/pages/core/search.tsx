@@ -3,7 +3,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
-import Input from '../../public/examples/search/Input';
+import Modal from '../../public/examples/search/Modal';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -20,11 +20,10 @@ const Example = () => {
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
-
       <Preview
-        title="HeadlessUI Combobox"
-        preview={<Input />}
-        code={examples ? examples.Input : 'Loading'}
+        title="Search Modal"
+        preview={<Modal />}
+        code={examples ? examples.Default : 'Loading'}
       />
 
       <PropsTable
