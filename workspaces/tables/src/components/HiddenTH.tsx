@@ -10,6 +10,7 @@ const HiddenTH: React.FC<HiddenTHProps> = ({ style, children }) => {
 
 type HiddenTHProps = {
   style: React.CSSProperties;
+  children?: React.ReactNode;
 };
 
 export default HiddenTH;

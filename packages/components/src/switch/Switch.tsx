@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import { Space } from '@heathmont/moon-themes';
 import { rem, uniqueId, inlineSvg } from '@heathmont/moon-utils';

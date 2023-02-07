@@ -10,6 +10,7 @@ type AvatarProps = {
   statusOrigin?: StatusOriginProps;
   isStatusActive?: boolean;
   isRounded?: boolean;
+  children?: React.ReactNode;
 };
 
 export default AvatarProps;

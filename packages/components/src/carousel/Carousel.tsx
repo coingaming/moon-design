@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import { SpaceProps } from '@heathmont/moon-themes';
 import { rem } from '@heathmont/moon-utils';

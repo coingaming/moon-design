@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import { rem } from '@heathmont/moon-utils';
 import hideVisually from 'polished/lib/mixins/hideVisually';

@@ -80,6 +80,7 @@ type ItemProps = {
   disabled?: boolean;
   error?: boolean;
   className?: string;
+  children?: React.ReactNode;
 };
 
 const Item: React.FC<ItemProps> = ({

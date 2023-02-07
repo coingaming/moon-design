@@ -53,7 +53,7 @@ const useDropdownContext = (component: string) => {
   return context;
 };
 
-type CallableChildren = (data: { open?: boolean }) => ReactNode;
+type CallableChildren = (data: { open?: boolean }) => React.ReactNode;
 
 type ReactNode =
   | CallableChildren
@@ -78,7 +78,7 @@ type DropdownRootProps = {
   position?: Placement;
 };
 
-type WithChildren<T = {}> = T & { children?: ReactNode };
+type WithChildren<T = {}> = T & { children?: React.ReactNode };
 
 const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
   children,
@@ -385,7 +385,7 @@ const InsetMultiSelect: React.FC<
 };
 
 //Dropdown.Trigger
-const Trigger: React.FC<{ children?: ReactNode; className?: string }> = ({
+const Trigger: React.FC<{ children?: React.ReactNode; className?: string }> = ({
   children,
   className,
 }) => {
@@ -398,7 +398,7 @@ const Trigger: React.FC<{ children?: ReactNode; className?: string }> = ({
 };
 
 //Dropdown.Hint
-const Hint: React.FC<{ children?: ReactNode; className?: string }> = ({
+const Hint: React.FC<{ children?: React.ReactNode; className?: string }> = ({
   children,
   className,
 }) => {

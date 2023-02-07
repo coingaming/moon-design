@@ -97,7 +97,7 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
   }
 );
 
-type LabelProps = { className?: string };
+type LabelProps = { className?: string; children?: React.ReactNode };
 const Label: React.FC<LabelProps> = ({ children, className }) => {
   const { registerChild } = useInsetInputContext('Label');
   useEffect(() => {

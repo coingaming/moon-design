@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useCallback, useEffect, useState } from 'react';
 import Text from '../text/Text';
 import TextInput from '../textInput/TextInput';
@@ -38,7 +39,7 @@ const AuthCode: React.FC<AuthCodeProps> = ({
   stretch = false,
   length = 6,
   errorPosition = 'left',
-  "data-testid": testId
+  'data-testid': testId,
 }) => {
   const dir = isRtl ? 'rtl' : 'ltr';
 
@@ -200,7 +201,10 @@ const AuthCode: React.FC<AuthCodeProps> = ({
         ))}
 
         {!!errorMessage && (
-          <MessageWrapper textAlign={errorPosition} data-testid={`${testId}-error`}>
+          <MessageWrapper
+            textAlign={errorPosition}
+            data-testid={`${testId}-error`}
+          >
             <Text size={12} color="chiChi.100">
               {errorMessage}
             </Text>

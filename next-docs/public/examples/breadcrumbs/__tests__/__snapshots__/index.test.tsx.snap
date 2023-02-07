@@ -14,9 +14,10 @@ exports[`Breadcrumb in Dark Theme renders collapsed 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Home
         </a>
@@ -89,9 +90,10 @@ exports[`Breadcrumb in Dark Theme renders collapsed 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Page 4
         </a>
@@ -141,9 +143,10 @@ exports[`Breadcrumb in Dark Theme renders four items 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Home
         </a>
@@ -171,9 +174,10 @@ exports[`Breadcrumb in Dark Theme renders four items 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Page 1
         </a>
@@ -201,9 +205,10 @@ exports[`Breadcrumb in Dark Theme renders four items 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Page 2
         </a>
@@ -275,9 +280,10 @@ exports[`Breadcrumb in Dark Theme renders two items 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Home
         </a>
@@ -327,9 +333,10 @@ exports[`Breadcrumb in Light Theme renders collapsed 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Home
         </a>
@@ -402,9 +409,10 @@ exports[`Breadcrumb in Light Theme renders collapsed 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Page 4
         </a>
@@ -454,9 +462,10 @@ exports[`Breadcrumb in Light Theme renders four items 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Home
         </a>
@@ -484,9 +493,10 @@ exports[`Breadcrumb in Light Theme renders four items 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Page 1
         </a>
@@ -514,9 +524,10 @@ exports[`Breadcrumb in Light Theme renders four items 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Page 2
         </a>
@@ -588,9 +599,10 @@ exports[`Breadcrumb in Light Theme renders two items 1`] = `
         className="text-trunks transition-colors duration-200 hover:text-bulma"
       >
         <a
-          href="/"
+          href=""
           onClick={[Function]}
           onMouseEnter={[Function]}
+          onTouchStart={[Function]}
         >
           Home
         </a>
@@ -643,9 +655,10 @@ exports[`Breadcrumb in RTL renders collapsed 1`] = `
           className="text-trunks transition-colors duration-200 hover:text-bulma"
         >
           <a
-            href="/"
+            href=""
             onClick={[Function]}
             onMouseEnter={[Function]}
+            onTouchStart={[Function]}
           >
             Home
           </a>
@@ -718,9 +731,10 @@ exports[`Breadcrumb in RTL renders collapsed 1`] = `
           className="text-trunks transition-colors duration-200 hover:text-bulma"
         >
           <a
-            href="/"
+            href=""
             onClick={[Function]}
             onMouseEnter={[Function]}
+            onTouchStart={[Function]}
           >
             Page 4
           </a>
@@ -774,9 +788,10 @@ exports[`Breadcrumb in RTL renders four items 1`] = `
           className="text-trunks transition-colors duration-200 hover:text-bulma"
         >
           <a
-            href="/"
+            href=""
             onClick={[Function]}
             onMouseEnter={[Function]}
+            onTouchStart={[Function]}
           >
             Home
           </a>
@@ -804,9 +819,10 @@ exports[`Breadcrumb in RTL renders four items 1`] = `
           className="text-trunks transition-colors duration-200 hover:text-bulma"
         >
           <a
-            href="/"
+            href=""
             onClick={[Function]}
             onMouseEnter={[Function]}
+            onTouchStart={[Function]}
           >
             Page 1
           </a>
@@ -834,9 +850,10 @@ exports[`Breadcrumb in RTL renders four items 1`] = `
           className="text-trunks transition-colors duration-200 hover:text-bulma"
         >
           <a
-            href="/"
+            href=""
             onClick={[Function]}
             onMouseEnter={[Function]}
+            onTouchStart={[Function]}
           >
             Page 2
           </a>
@@ -916,9 +933,10 @@ exports[`Breadcrumb in RTL renders two items 1`] = `
           className="text-trunks transition-colors duration-200 hover:text-bulma"
         >
           <a
-            href="/"
+            href=""
             onClick={[Function]}
             onMouseEnter={[Function]}
+            onTouchStart={[Function]}
           >
             Home
           </a>

@@ -9,6 +9,7 @@ type InputBtnProps = {
   isError?: boolean;
   open?: boolean;
   disabled?: boolean;
+  children?: React.ReactNode;
 };
 
 const getSelectSize = (size?: SelectSize) => {

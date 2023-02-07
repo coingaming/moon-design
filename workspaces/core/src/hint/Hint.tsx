@@ -6,6 +6,7 @@ type HintProps = {
   error?: boolean;
   className?: string;
   disabled?: boolean;
+  children?: React.ReactNode;
 };
 
 const Hint: React.FC<HintProps> = ({

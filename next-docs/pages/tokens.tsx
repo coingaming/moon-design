@@ -44,8 +44,8 @@ const PageTokensNew = () => (
         </li>
         <li>
           Check the{' '}
-          <NextLink href="/colours">
-            <a className="underline">guide for colours</a>
+          <NextLink href="/colours" className="underline">
+            guide for colours
           </NextLink>
           .
         </li>

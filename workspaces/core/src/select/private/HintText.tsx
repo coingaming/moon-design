@@ -1,7 +1,10 @@
 import React from 'react';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
 
-const HintText: React.FC<{ isError?: boolean }> = ({ children, isError }) => (
+const HintText: React.FC<{ isError?: boolean; children?: React.ReactNode }> = ({
+  children,
+  isError,
+}) => (
   <p
     role="alert"
     className={mergeClassnames(
