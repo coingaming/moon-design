@@ -55,7 +55,7 @@ const PopoverRoot: React.FC<PopoverRootProps> = ({
   );
 };
 
-const Trigger: React.FC = ({ children }: { children?: React.ReactNode }) => {
+const Trigger: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   const { popper } = usePopoverContext('Popover.Trigger');
   return (
     <HeadlessPopover.Button as={'div'} ref={popper?.setAnchor}>

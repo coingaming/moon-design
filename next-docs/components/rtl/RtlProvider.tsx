@@ -5,7 +5,7 @@ const RtlContext = createContext({
   toggleRtl: () => {},
 });
 
-const RtlProvider = ({ children }: { children: React.ReactNode }) => {
+const RtlProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [rtlEnabled, setRtlEnabled] = useState(false);
   const toggleRtl = () => {
     const htmlTag = document && document?.querySelectorAll('html')[0];
