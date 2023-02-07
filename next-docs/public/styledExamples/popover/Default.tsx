@@ -6,7 +6,7 @@ const Example = () => {
   const [open, setOpen] = useState(false);
 
   const HandlerOpen = useCallback(
-    (e) => {
+    (e: any) => {
       e.preventDefault();
       setOpen(false);
     },
