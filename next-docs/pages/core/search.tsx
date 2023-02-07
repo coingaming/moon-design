@@ -12,7 +12,8 @@ const Example = () => {
     <>
       <ComponentPageDescription title="Search" isInProgress>
         <p>
-          Search
+          Search enables users to specify a word or a phrase to find relevant
+          pieces of content without the use of navigation.
         </p>
       </ComponentPageDescription>
       <Preview
@@ -34,8 +35,7 @@ const Example = () => {
             type: '(value: string) => void',
             required: true,
             default: '-',
-            description:
-              'Function for setting search value',
+            description: 'Function for setting search value',
           },
           {
             name: 'onChangeOpen',
