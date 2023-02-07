@@ -52,6 +52,8 @@ export { default as Progress } from './progress/Progress';
 export * from './progress/Progress';
 export { default as RadioButton } from './radioButton/RadioButton';
 export * from './radioButton/RadioButton';
+export { default as Search } from './search/Search';
+export * from './search/Search';
 export { default as Select } from './select/Select';
 export * from './select/Select';
 export { default as SelectButton } from './selectButton/SelectButton';

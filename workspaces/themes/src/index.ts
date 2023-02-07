@@ -8,3 +8,6 @@ import './partners.css';
 import './sportsbet.css';
 import './tradeart.css';
 import './bombayClub.css';
+import './hub88.css';
+import './travel.css';
+import './comms.css';
