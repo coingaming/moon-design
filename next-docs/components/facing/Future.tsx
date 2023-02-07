@@ -27,16 +27,12 @@ const Future = () => (
         <ArrowsTopRight />
       </div>
     </div>
-    <div className="w-full md:h-full">
-      <Image
-        className="rounded-moon-s-lg object-left"
-        src={imageFutureBg}
-        layout="fill"
-        objectFit="cover"
-        quality={100}
-        alt="Want to contribute?"
-      />
-    </div>
+    <Image
+      className="absolute inset-0 h-full rounded-moon-s-lg object-left object-cover"
+      src={imageFutureBg}
+      quality={100}
+      alt="Want to contribute?"
+    />
   </Link>
 );
 
