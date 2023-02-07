@@ -1,5 +1,4 @@
 import React from 'react';
-
 const SoftwareSorting = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -16,5 +15,4 @@ const SoftwareSorting = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SoftwareSorting;

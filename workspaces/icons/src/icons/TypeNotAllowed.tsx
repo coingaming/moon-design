@@ -1,5 +1,4 @@
 import React from 'react';
-
 const TypeNotAllowed = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -63,5 +62,4 @@ const TypeNotAllowed = (props: React.SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default TypeNotAllowed;

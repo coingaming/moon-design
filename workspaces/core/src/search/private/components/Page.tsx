@@ -1,12 +1,12 @@
-import React, { ReactNode, useContext, useEffect } from "react";
-import { PageContext, SearchContext } from "../utils/context";
+import React, { ReactNode, useContext, useEffect } from 'react';
+import { PageContext, SearchContext } from '../utils/context';
 
-interface PageProps {
+type PageProps = {
   searchPrefix?: string[];
   onEscape?: () => void;
   children: ReactNode;
   id: string;
-}
+};
 
 export default function Page({
   searchPrefix,
@@ -22,21 +22,21 @@ export default function Page({
   useEffect(() => {
     if (onEscape && isActive) {
       const handleKeyDown = (e: KeyboardEvent) => {
-        if (e.key === "Escape") {
+        if (e.key === 'Escape') {
           e.preventDefault();
           e.stopPropagation();
           onEscape!();
-        } else if (e.key === "Backspace" && !search) {
+        } else if (e.key === 'Backspace' && !search) {
           e.preventDefault();
           e.stopPropagation();
           onEscape!();
         }
-      }
+      };
 
-      document.addEventListener("keydown", handleKeyDown);
+      document.addEventListener('keydown', handleKeyDown);
 
       return () => {
-        document.removeEventListener("keydown", handleKeyDown);
+        document.removeEventListener('keydown', handleKeyDown);
       };
     }
   }, [isActive, search]);

@@ -1,5 +1,4 @@
 import React from 'react';
-
 const OtherWater = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -16,5 +15,4 @@ const OtherWater = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default OtherWater;

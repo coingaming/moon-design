@@ -1,5 +1,4 @@
 import React from 'react';
-
 const MapsCompas = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -23,5 +22,4 @@ const MapsCompas = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default MapsCompas;

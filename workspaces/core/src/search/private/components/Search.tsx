@@ -1,24 +1,32 @@
-import React, { Fragment, MutableRefObject, ReactNode, Ref, useCallback, useEffect, useRef, useState } from "react";
-import { Transition } from "@headlessui/react";
-
-import FreeSearchAction from "./FreeSearchAction";
-import List, { ListHeading } from "./List";
-import ListItem from "./ListItem";
-import Page from "./Page";
-import Input from "./Input";
+import React, {
+  Fragment,
+  MutableRefObject,
+  ReactNode,
+  Ref,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+} from 'react';
+import { Transition } from '@headlessui/react';
+import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
+import useClickOutside from '../../../private/hooks/useClickOutside';
+import { RenderLink } from '../types';
 import {
   PageContext,
   RenderLinkContext,
   SearchContext,
   SelectContext,
-} from "../utils/context";
-import { RenderLink } from "../types";
-import { Backdrop } from "./Backdrop";
-import { Trigger } from "./Trigger";
-import useClickOutside from "../../../private/hooks/useClickOutside";
-import mergeClassnames from "../../../mergeClassnames/mergeClassnames";
+} from '../utils/context';
+import { Backdrop } from './Backdrop';
+import FreeSearchAction from './FreeSearchAction';
+import Input from './Input';
+import List, { ListHeading } from './List';
+import ListItem from './ListItem';
+import Page from './Page';
+import { Trigger } from './Trigger';
 
-interface SearchProps {
+type SearchProps = {
   onChangeSelected?: (value: number) => void;
   onChangeSearch: (search: string) => void;
   onChangeOpen: (isOpen: boolean) => void;
@@ -32,11 +40,11 @@ interface SearchProps {
   backdrop?: ReactNode;
   className?: string;
   clear: string | ReactNode;
-}
+};
 
 export function Search({
   selected: selectedParent,
-  placeholder = "Search",
+  placeholder = 'Search',
   onChangeSelected,
   onChangeSearch,
   onChangeOpen,
@@ -52,20 +60,20 @@ export function Search({
   const [ref] = useClickOutside();
 
   const [selected, setSelected] =
-    typeof selectedParent === "number" && onChangeSelected
+    typeof selectedParent === 'number' && onChangeSelected
       ? [selectedParent, onChangeSelected]
       : useState<number>(0);
 
   const [searchPrefix, setSearchPrefix] = useState<string[] | undefined>();
 
-  function handleChangeSelected(direction?: "up" | "down") {
-    const items = document.querySelectorAll(".moon-search-list-item");
+  function handleChangeSelected(direction?: 'up' | 'down') {
+    const items = document.querySelectorAll('.moon-search-list-item');
 
     let index = 0;
     let newIndex = 0;
     let newItem: Element;
 
-    if (direction === "down") {
+    if (direction === 'down') {
       items.forEach((_, i) => {
         if (i === selected) {
           index = i;
@@ -73,7 +81,7 @@ export function Search({
       });
 
       newIndex = index === items.length - 1 ? 0 : index + 1;
-    } else if (direction === "up") {
+    } else if (direction === 'up') {
       items.forEach((_, i) => {
         if (i === selected) {
           index = i;
@@ -87,18 +95,18 @@ export function Search({
 
     newItem = items[newIndex];
 
-    if (newItem && typeof newIndex === "number") {
+    if (newItem && typeof newIndex === 'number') {
       setSelected(newIndex);
       newItem.scrollIntoView({
-        behavior: "smooth",
-        block: newIndex ? "center" : "end",
+        behavior: 'smooth',
+        block: newIndex ? 'center' : 'end',
       });
     }
   }
 
   function handleSelect() {
     const items = document.querySelectorAll(
-      ".moon-search-list-item"
+      '.moon-search-list-item'
     ) as NodeListOf<HTMLButtonElement | HTMLAnchorElement>;
 
     let index = 0;
@@ -116,7 +124,7 @@ export function Search({
       item.click();
 
       if (
-        item.attributes.getNamedItem("data-close-on-select")?.value === "true"
+        item.attributes.getNamedItem('data-close-on-select')?.value === 'true'
       ) {
         onChangeOpen(false);
       }
@@ -131,42 +139,41 @@ export function Search({
     setSelected(0);
   }, [page]);
 
-  const onKeyDown = useCallback((e) => {
+  const onKeyDown = useCallback(
+    (e: React.KeyboardEvent) => {
       if (
-        e.key === "ArrowDown" ||
-        (e.ctrlKey && e.key === "n") ||
-        (e.ctrlKey && e.key === "j")
+        e.key === 'ArrowDown' ||
+        (e.ctrlKey && e.key === 'n') ||
+        (e.ctrlKey && e.key === 'j')
       ) {
         e.preventDefault();
         e.stopPropagation();
-        handleChangeSelected("down");
+        handleChangeSelected('down');
       } else if (
-        e.key === "ArrowUp" ||
-        (e.ctrlKey && e.key === "p") ||
-        (e.ctrlKey && e.key === "k")
+        e.key === 'ArrowUp' ||
+        (e.ctrlKey && e.key === 'p') ||
+        (e.ctrlKey && e.key === 'k')
       ) {
         e.preventDefault();
         e.stopPropagation();
-        handleChangeSelected("up");
-      } else if (e.key === "Enter") {
+        handleChangeSelected('up');
+      } else if (e.key === 'Enter') {
         e.preventDefault();
         e.stopPropagation();
         handleSelect();
       }
-  }, [handleChangeSelected, handleSelect]);
+    },
+    [handleChangeSelected, handleSelect]
+  );
 
   return (
-    <div
-      ref={ref}
-      onKeyDown={onKeyDown}
-    >
-      <div className={
-          mergeClassnames(
-            "relative w-full h-full bg-gohan shadow-moon-md flex flex-col divide-y dark:divide-beerus",
-            isOpen ? 'rounded-t-moon-s-md' : 'rounded-moon-s-md',
-            className
-          )
-        }
+    <div ref={ref} onKeyDown={onKeyDown}>
+      <div
+        className={mergeClassnames(
+          'relative w-full h-full bg-gohan shadow-moon-md flex flex-col divide-y dark:divide-beerus',
+          isOpen ? 'rounded-t-moon-s-md' : 'rounded-moon-s-md',
+          className
+        )}
       >
         <PageContext.Provider
           value={{
@@ -186,7 +193,7 @@ export function Search({
             placeholder={placeholder}
             prefix={searchPrefix}
             value={search}
-            ref={(inputRef as unknown as Ref<HTMLInputElement>)}
+            ref={inputRef as unknown as Ref<HTMLInputElement>}
             clear={clear}
           />
         </PageContext.Provider>
@@ -202,12 +209,10 @@ export function Search({
           leaveTo="opacity-0 scale-95"
         >
           <div
-            className={
-              mergeClassnames(
-                "absolute top-14 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md",
-                isOpen ? 'rounded-b-moon-s-md' : 'rounded-moon-s-md',
-              )
-            }
+            className={mergeClassnames(
+              'absolute top-14 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md',
+              isOpen ? 'rounded-b-moon-s-md' : 'rounded-moon-s-md'
+            )}
             tabIndex={-1}
           >
             <PageContext.Provider
@@ -215,9 +220,7 @@ export function Search({
             >
               <SearchContext.Provider value={{ search }}>
                 <SelectContext.Provider value={{ selected }}>
-                  <RenderLinkContext.Provider
-                    value={{ renderLink }}
-                  >
+                  <RenderLinkContext.Provider value={{ renderLink }}>
                     {children}
                   </RenderLinkContext.Provider>
                 </SelectContext.Provider>
@@ -227,7 +230,6 @@ export function Search({
         </Transition>
       </div>
     </div>
-
   );
 }
 

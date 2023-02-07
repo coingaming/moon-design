@@ -1,6 +1,5 @@
-import { SearchModal } from './private/components/SearchModal';
 import { Search } from './private/components/Search';
-
+import { SearchModal } from './private/components/SearchModal';
 import {
   filterItems as searchFilterItems,
   getItemIndex as searchGetItemIndex,

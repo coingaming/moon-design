@@ -1,7 +1,7 @@
-import React, { forwardRef, Fragment, Ref } from "react";
+import React, { forwardRef, Fragment, Ref } from 'react';
 import { GenericSearch } from '@heathmont/moon-icons-tw';
 
-interface SearchProps {
+type SearchProps = {
   onChange: (value: string) => void;
   onFocus?: () => void;
   onBlur?: () => void;
@@ -9,7 +9,7 @@ interface SearchProps {
   prefix?: string[];
   value: string;
   clear: string | React.ReactNode;
-}
+};
 
 function Input(
   { onChange, onFocus, onBlur, placeholder, prefix, value, clear }: SearchProps,
@@ -21,13 +21,13 @@ function Input(
 
       {prefix?.length
         ? prefix.map((p) => {
-          return (
-            <Fragment key={p}>
-              <span className="dark:text-bulma">{p}</span>
-              <span className="text-bulma">/</span>
-            </Fragment>
-          );
-        })
+            return (
+              <Fragment key={p}>
+                <span className="dark:text-bulma">{p}</span>
+                <span className="text-bulma">/</span>
+              </Fragment>
+            );
+          })
         : null}
 
       <div className="flex-1 relative">
@@ -46,10 +46,10 @@ function Input(
           }}
           onBlur={onBlur}
           onKeyDown={(e) => {
-            if (e.key === "Escape" && value) {
+            if (e.key === 'Escape' && value) {
               e.preventDefault();
               e.stopPropagation();
-              onChange("");
+              onChange('');
             }
           }}
           id="moon-search-input"
@@ -57,7 +57,6 @@ function Input(
           value={value}
           type="text"
           autoFocus
-
         />
 
         {value && (
@@ -66,10 +65,8 @@ function Input(
             type="button"
             className="cursor-pointer"
             onClick={() => {
-              onChange("");
-              const inputElement = document.getElementById(
-                "moon-search-input"
-              );
+              onChange('');
+              const inputElement = document.getElementById('moon-search-input');
               if (inputElement) {
                 inputElement.focus();
               }
@@ -84,6 +81,5 @@ function Input(
     </div>
   );
 }
-
 
 export default forwardRef(Input);

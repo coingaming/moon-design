@@ -1,5 +1,4 @@
 import React from 'react';
-
 const TypeText = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -79,5 +78,4 @@ const TypeText = (props: React.SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default TypeText;
