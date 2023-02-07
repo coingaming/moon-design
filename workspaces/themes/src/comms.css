@@ -1,20 +1,17 @@
-import CodeSnippet from '../CodeSnippet';
-
-const DuoThemeExample = () => (
-  <CodeSnippet>{`:root.theme-light,
-.theme-light {
-  --piccolo: 78 70 180; /* #4e46b4 */
-  --hit: 64 166 159; /* #40a69f */
+:root.theme-comms-light,
+.theme-comms-light {
+  --piccolo: 0 0 0; /* #000000 */
+  --hit: 92 51 207; /* #5c33cf */
   --beerus: 235 235 235; /* #ebebeb */
   --gohan: 255 255 255; /* #ffffff */
   --goten: 255 255 255; /* #ffffff */
-  --goku: 245 245 245; /* #f5f5f5 */
+  --goku: 241 243 243; /* #f1f3f3 */
   --bulma: 0 0 0; /* #000000 */
-  --trunks: 153 156 160; /* #999ca0 */
+  --trunks: 112 112 112; /* #707070 */
   --popo: 0 0 0; /* #000000 */
-  --jiren: 78 70 180 / 0.12; /* #4e46b4 */
+  --jiren: 92 51 207 / 0.12; /* #5c33cf */
   --heles: 0 0 0 / 0.04; /* #000000 */
-  --zeno: 0 0 0 / 0.56; /* #000000 */
+  --zeno: 39 45 54 / 0.56; /* #000000 */
 
   /* support-colors  */
   --krillin: 255 179 25; /* #ff9800 */
@@ -81,20 +78,20 @@ const DuoThemeExample = () => (
     0 0 32px -8px rgb(0 0 0 / 0.12), 0 0 1px rgb(0 0 0 / 0.2);
 }
 
-:root.theme-dark,
-.theme-dark {
-  --piccolo: 91 80 238; /* #5b50ee */
-  --hit: 64 166 159; /* #40a69f */
-  --beerus: 68 68 68; /* #444444 */
-  --gohan: 31 31 31; /* #1f1f1f */
+:root.theme-comms-dark,
+.theme-comms-dark {
+  --piccolo: 0 0 0; /* #000000 */
+  --hit: 39 45 54; /* #272d36 */
+  --beerus: 255 255 255 / 0.08; /* #ebebeb */
+  --gohan: 39 39 39; /* #272727 */
   --goten: 255 255 255; /* #ffffff */
-  --goku: 11 11 11; /* #0b0b0b */
+  --goku: 28 28 28; /* #1c1c1c */
   --bulma: 255 255 255; /* #ffffff */
-  --trunks: 153 156 160; /* #999ca0 */
+  --trunks: 112 112 112; /* #707070 */
   --popo: 0 0 0; /* #000000 */
-  --jiren: 91 80 238 / 0.32; /* #5b50ee */
-  --heles: 255 255 255 / 0.12; /* #ffffff */
-  --zeno: 0 0 0 / 0.56; /* #000000 */
+  --jiren: 255 255 255 / 0.2; /* #ffffff */
+  --heles: 255 255 255 / 0.08; /* #ffffff */
+  --zeno: 255 255 255 / 0.2; /* #ffffff */
 
   /* support-colors  */
   --krillin: 255 179 25; /* #ff9800 */
@@ -158,8 +155,4 @@ const DuoThemeExample = () => (
   --shadow-md: 0 12px 12px -6px rgb(0 0 0 / 0.64), 0 0 1px rgb(0 0 0 / 0.56);
   --shadow-lg: 0 24px 24px -6px rgb(0 0 0 / 0.64), 0 0 1px rgb(0 0 0 / 0.56);
   --shadow-xl: 0 48px 48px -6px rgb(0 0 0 / 0.88), 0 0 1px rgb(0 0 0 / 0.72);
-}  
-`}</CodeSnippet>
-);
-
-export default DuoThemeExample;
+}

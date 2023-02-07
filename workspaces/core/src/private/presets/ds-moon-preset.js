@@ -239,6 +239,15 @@ module.exports = {
         popo: {
           DEFAULT: withOpacityValue('--popo'),
         },
+        jiren: {
+          DEFAULT: withOpacityValue('--jiren'),
+        },
+        heles: {
+          DEFAULT: withOpacityValue('--heles'),
+        },
+        zeno: {
+          DEFAULT: withOpacityValue('--zeno'),
+        },
         // support colours
         krillin: {
           DEFAULT: withOpacityValue('--krillin'),
