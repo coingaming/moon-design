@@ -37,14 +37,16 @@ type CarouselRootProps = {
   step?: number;
   selectedIndex?: number;
   autoSlideDelay?: number;
-  children?: (data: {
-    scrollLeftToStep?: () => void;
-    scrollRightToStep?: () => void;
-    canScrollLeft?: boolean;
-    canScrollRight?: boolean;
-    firstVisibleIndex?: number;
-    lastVisibleIndex?: number;
-  }) => React.ReactElement;
+  children?:
+    | React.ReactNode
+    | ((data: {
+        scrollLeftToStep?: () => void;
+        scrollRightToStep?: () => void;
+        canScrollLeft?: boolean;
+        canScrollRight?: boolean;
+        firstVisibleIndex?: number;
+        lastVisibleIndex?: number;
+      }) => React.ReactElement);
 };
 
 const CarouselRoot: React.FC<CarouselRootProps> = ({

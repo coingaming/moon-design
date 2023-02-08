@@ -1,4 +1,4 @@
-import React, { ReactChild, ReactNode, useState } from 'react';
+import React, { ReactNode } from 'react';
 import '../styles/globals.css';
 import '../styles/themes.css';
 import '../styles/custom.css';
@@ -10,7 +10,7 @@ import SearchProvider from '../components/search/SearchProvider';
 import { DocsThemeProvider } from '../components/themes/DocsThemeProvider';
 import type { AppProps } from 'next/app';
 
-type GetLayout = (page: ReactNode) => ReactChild & ReactNode;
+type GetLayout = (page: ReactNode) => ReactNode;
 
 type Page<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: GetLayout;

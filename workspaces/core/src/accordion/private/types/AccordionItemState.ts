@@ -1,5 +1,5 @@
 import { MutableRefObject } from "react";
-import AccordionSizes from "./AccordionSizes";
+import type AccordionSizes from "./AccordionSizes";
 
 type AccordionItemState = {
   size?: AccordionSizes;

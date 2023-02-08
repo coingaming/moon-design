@@ -1,5 +1,5 @@
 type AccordionRootProps = {
-  children: React.ReactChild | React.ReactChild[];
+  children: React.ReactNode | React.ReactNode[];
   className?: string;
   defaultValue?: string;
 }
