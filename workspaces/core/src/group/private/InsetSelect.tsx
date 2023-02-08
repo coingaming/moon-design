@@ -20,11 +20,9 @@ const InsetSelect = forwardRef<
 >(
   (
     {
-      value,
       children,
       className,
       label,
-      placeholder,
       size: selectSize,
       error: selectError,
       disabled: selectDisabled,
@@ -41,6 +39,7 @@ const InsetSelect = forwardRef<
     const size = selectSize || formItemSize || formSize;
     const disabled = selectDisabled || formItemDisabled;
     const error = selectError || formItemError;
+
     return (
       <span
         className={mergeClassnames(
@@ -51,7 +50,6 @@ const InsetSelect = forwardRef<
       >
         <select
           ref={ref}
-          value={value}
           disabled={disabled}
           className={mergeClassnames(
             'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2]',
@@ -66,32 +64,23 @@ const InsetSelect = forwardRef<
             'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
             'rtl:hover:rounded-moon-i-sm rtl:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:hover:rounded-moon-i-sm ltr:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm',
             'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err',
-            '[&:focus~label]:text-[0.75rem] [&:focus~label]:leading-3 [&:focus~label]:top-3 [&:focus~label]:mt-0',
-            'pt-[1.125rem]',
-            placeholder && 'required:invalid:text-chichi'
+            'pt-[1.125rem]'
           )}
           {...rest}
         >
-          {/* {placeholder && (
-            <option className="hidden" disabled>
-              {placeholder}
-            </option>
-          )} */}
           {children}
         </select>
         <label
           className={mergeClassnames(
             'absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4',
-            !value
-              ? 'top-1/2 -mt-[0.438rem] text-[1rem] leading-4'
-              : 'text-[0.75rem] leading-3 top-3'
+            'text-[0.75rem] leading-3 top-3'
           )}
         >
           {label}
         </label>
         <ControlsChevronDownSmall
           className={mergeClassnames(
-            'absolute top-1/2 right-3 -translate-y-1/2 z-5 pointer-events-none',
+            'absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none',
             'text-trunks flex-shrink-0 transition-transform',
             size === 'sm' ? 'text-moon-16' : 'text-moon-24'
           )}

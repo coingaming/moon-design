@@ -9,9 +9,10 @@ type WithChildren<T = {}> = T & { children?: ReactNode };
 type Orientation = 'vertical' | 'horizontal';
 type Size = 'sm' | 'md' | 'lg';
 type GroupProps = {
-  orientation: Orientation;
+  orientation?: Orientation;
   size?: Size;
   error?: boolean;
+  className?: string;
 };
 type GroupComponentProps = (
   props: WithChildren<GroupProps>
@@ -38,10 +39,11 @@ const useGroupContext = (component: string) => {
 };
 
 const GroupRoot: GroupComponentProps = ({
-  orientation,
+  orientation = 'vertical',
   size = 'md',
   error,
   children,
+  className,
 }) => {
   const states = {
     orientation: orientation,
@@ -61,7 +63,8 @@ const GroupRoot: GroupComponentProps = ({
             'after:content-[""] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden',
           orientation === 'vertical' &&
             !error &&
-            'after:content-[""] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden'
+            'after:content-[""] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden',
+          className && className
         )}
       >
         {children}
@@ -82,7 +85,6 @@ const FirstInput: React.FC<InputProps> = ({
   } = useGroupContext('FirstInput');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
-
   const error = inputError || groupError;
   return (
     <Input
@@ -95,7 +97,7 @@ const FirstInput: React.FC<InputProps> = ({
           'rounded-bl-none rounded-br-none input-bbb-hidden',
         isHorizontal &&
           !error &&
-          'rtl:rounded-bl-none rtl:rounded-tl-none rtl:input-lsb-hidden ltr:rounded-br-none ltr:rounded-tr-none ltr:input-rsb-hidden',
+          'rtl:rounded-bl-none rtl:rounded-tl-none rtl:input-lsb-hidden ltr:rounded-br-none ltr:rounded-tr-none ltr:input-rsb-hidden flex-1 basis-1/2',
         className && className
       )}
       {...rest}
@@ -122,7 +124,7 @@ const LastInput: React.FC<InputProps> = ({
           'rounded-tl-none rounded-tr-none input-tbb-hidden',
         isHorizontal &&
           !error &&
-          'rtl:rounded-tr-none rtl:rounded-br-none rtl:input-rsb-hidden ltr:rounded-tl-none ltr:rounded-bl-none ltr:input-lsb-hidden',
+          'rtl:rounded-tr-none rtl:rounded-br-none rtl:input-rsb-hidden ltr:rounded-tl-none ltr:rounded-bl-none ltr:input-lsb-hidden flex-1 basis-1/2',
         className && className
       )}
       {...rest}
@@ -149,7 +151,7 @@ const FirstInsetInputRoot: React.FC<WithChildren<InsetInputProps>> = ({
           '[&_input]:rounded-bl-none [&_input]:rounded-br-none [&_input]:input-bbb-hidden',
         isHorizontal &&
           !error &&
-          'rtl:[&_input]:rounded-bl-none rtl:[&_input]:rounded-tl-none rtl:[&_input]:input-lsb-hidden ltr:[&_input]:rounded-br-none ltr:[&_input]:rounded-tr-none ltr:[&_input]:input-rsb-hidden',
+          'rtl:[&_input]:rounded-bl-none rtl:[&_input]:rounded-tl-none rtl:[&_input]:input-lsb-hidden ltr:[&_input]:rounded-br-none ltr:[&_input]:rounded-tr-none ltr:[&_input]:input-rsb-hidden flex-1 basis-1/2',
         className && className
       )}
       {...rest}
@@ -178,7 +180,7 @@ const LastInsetInputRoot: React.FC<WithChildren<InsetInputProps>> = ({
           '[&_input]:rounded-tl-none [&_input]:rounded-tr-none [&_input]:input-tbb-hidden',
         isHorizontal &&
           !error &&
-          'rtl:[&_input]:rounded-tr-none rtl:[&_input]:rounded-br-none rtl:[&_input]:input-rsb-hidden ltr:[&_input]:rounded-tl-none ltr:[&_input]:rounded-bl-none ltr:[&_input]:input-lsb-hidden',
+          'rtl:[&_input]:rounded-tr-none rtl:[&_input]:rounded-br-none rtl:[&_input]:input-rsb-hidden ltr:[&_input]:rounded-tl-none ltr:[&_input]:rounded-bl-none ltr:[&_input]:input-lsb-hidden flex-1 basis-1/2',
         className && className
       )}
       {...rest}
@@ -211,10 +213,41 @@ const FirstSelect: React.FC<WithChildren<SelectProps>> = ({
       className={mergeClassnames(
         isVertical &&
           !error &&
-          'rounded-bl-none rounded-br-none input-bbb-hidden',
+          '[&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden',
         isHorizontal &&
           !error &&
-          'rtl:rounded-bl-none rtl:rounded-tl-none rtl:input-lsb-hidden ltr:rounded-br-none ltr:rounded-tr-none ltr:input-rsb-hidden',
+          'rtl:[&_select]:rounded-bl-none rtl:[&_select]:rounded-tl-none rtl:[&_select]:input-lsb-hidden ltr:[&_select]:rounded-br-none ltr:[&_select]:rounded-tr-none ltr:[&_select]:input-rsb-hidden flex-1 basis-1/2',
+        className && className
+      )}
+      {...rest}
+    >
+      {children}
+    </Select>
+  );
+};
+
+const LastSelect: React.FC<WithChildren<SelectProps>> = ({
+  children,
+  className,
+  size,
+  error: selectError,
+  ...rest
+}) => {
+  const { orientation, error: groupError } = useGroupContext('LastSelect');
+  const isVertical = orientation === 'vertical';
+  const isHorizontal = orientation === 'horizontal';
+  const error = selectError || groupError;
+  return (
+    <Select
+      error={error}
+      size={size}
+      className={mergeClassnames(
+        isVertical &&
+          !error &&
+          '[&_select]:rounded-tl-none [&_select]:rounded-tr-none [&_select]:input-tbb-hidden',
+        isHorizontal &&
+          !error &&
+          'rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2',
         className && className
       )}
       {...rest}
@@ -244,7 +277,7 @@ const FirstInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
           '[&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden',
         isHorizontal &&
           !error &&
-          'rtl:[&_select]:rounded-bl-none rtl:[&_select]:rounded-tl-none rtl:[&_select]:input-lsb-hidden ltr:[&_select]:rounded-br-none ltr:[&_select]:rounded-tr-none ltr:[&_select]:input-rsb-hidden',
+          'rtl:[&_select]:rounded-bl-none rtl:[&_select]:rounded-tl-none rtl:[&_select]:input-lsb-hidden ltr:[&_select]:rounded-br-none ltr:[&_select]:rounded-tr-none ltr:[&_select]:input-rsb-hidden flex-1 basis-1/2',
         className && className
       )}
       {...rest}
@@ -273,7 +306,7 @@ const LastInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
           '[&_select]:rounded-tl-none [&_select]:rounded-tr-none [&_select]:input-tbb-hidden',
         isHorizontal &&
           !error &&
-          'rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden',
+          'rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2',
         className && className
       )}
       {...rest}
@@ -294,6 +327,7 @@ const Group = Object.assign(GroupRoot, {
   FirstInsetInput,
   LastInsetInput,
   FirstSelect,
+  LastSelect,
   FirstInsetSelect,
   LastInsetSelect,
 });

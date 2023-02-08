@@ -39,7 +39,8 @@ const Select = forwardRef<HTMLSelectElement, WithChildren<SelectProps>>(
       <span
         className={mergeClassnames(
           'block relative w-full',
-          disabled && 'opacity-30 cursor-not-allowed'
+          disabled && 'opacity-30 cursor-not-allowed',
+          className && className
         )}
       >
         <select
@@ -54,8 +55,7 @@ const Select = forwardRef<HTMLSelectElement, WithChildren<SelectProps>>(
             'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err',
             getSizeStyles(size as string),
             'before:box-border after:box-border',
-            'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
-            className && className
+            'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75'
           )}
           {...rest}
         >
@@ -63,7 +63,7 @@ const Select = forwardRef<HTMLSelectElement, WithChildren<SelectProps>>(
         </select>
         <ControlsChevronDownSmall
           className={mergeClassnames(
-            'absolute top-1/2 right-3 -translate-y-1/2 z-5',
+            'absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5',
             'text-trunks flex-shrink-0 transition-transform',
             size === 'sm' ? 'text-moon-16' : 'text-moon-24'
           )}

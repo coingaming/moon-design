@@ -4,7 +4,6 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import PropsTable from '../../components/PropsTable';
 import Bg from '../../public/examples/input/Bg';
 import Default from '../../public/examples/input/Default';
-import InputGroup from '../../public/examples/input/InputGroup';
 import Sizes from '../../public/examples/input/Sizes';
 import States from '../../public/examples/input/States';
 import Types from '../../public/examples/input/Types';
@@ -24,12 +23,6 @@ const Example = () => {
           with other inputs such as number entry, date picker, etc.
         </p>
       </ComponentPageDescription>
-      <Preview
-        title="InputGroup"
-        preview={<InputGroup />}
-        code={examples ? examples.InputGroup : 'Loading'}
-      />
-
       <Preview
         title="Default"
         preview={<Default />}
