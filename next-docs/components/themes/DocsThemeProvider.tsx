@@ -146,7 +146,7 @@ export const DocsThemeContext = React.createContext<DocsThemeContextFields>({
 
 export const useDocsTheme = () => React.useContext(DocsThemeContext);
 
-export const DocsThemeProvider: React.FC<{ children?: React.ReactNode }> = ({
+export const DocsThemeProvider: React.FC<{ children?: React.ReactElement }> = ({
   children,
 }) => {
   // TODO Save mode in local storage
