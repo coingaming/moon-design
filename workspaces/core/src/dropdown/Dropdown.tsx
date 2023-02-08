@@ -1,84 +1,16 @@
-import React, {
-  createContext,
-  useContext,
-  ReactChild,
-  ReactPortal,
-} from 'react';
+import React from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-type Placement =
-  | 'top-start'
-  | 'top-end'
-  | 'bottom-start'
-  | 'bottom-end'
-  | 'right-start'
-  | 'right-end'
-  | 'left-start'
-  | 'left-end'
-  | 'top'
-  | 'bottom'
-  | 'right'
-  | 'left';
-
-type DropdownState = {
-  value?: any;
-  isError?: boolean;
-  disabled?: boolean;
-  onClear?: () => void;
-  pooper?: {
-    styles?: { [key: string]: React.CSSProperties };
-    attributes?: { [key: string]: { [key: string]: string } | undefined };
-    setAnchor: React.Dispatch<React.SetStateAction<Element | null | undefined>>;
-    setPopper: React.Dispatch<
-      React.SetStateAction<HTMLElement | null | undefined>
-    >;
-  };
-  size?: 'sm' | 'md' | 'lg' | string;
-};
-
-const DropdownContext = createContext<DropdownState>({});
-DropdownContext.displayName = 'DropdownContext';
-
-const useDropdownContext = (component: string) => {
-  const context = useContext(DropdownContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <Dropdown /> component.`
-    );
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, useDropdownContext);
-    throw err;
-  }
-  return context;
-};
-
-type CallableChildren = (data: { open?: boolean }) => React.ReactNode;
-
-type ReactNode =
-  | CallableChildren
-  | ReactChild
-  | Iterable<ReactNode>
-  | ReadonlyArray<ReactNode>
-  | ReactPortal
-  | boolean
-  | null
-  | undefined;
-
-//Dropdown
-type DropdownRootProps = {
-  value: unknown;
-  onChange(value: unknown): void;
-  onClear?: () => void;
-  isError?: boolean;
-  disabled?: boolean;
-  size?: 'sm' | 'md' | 'lg' | 'xl' | string;
-  className?: string;
-  multiple?: boolean;
-  position?: Placement;
-};
-
-type WithChildren<T = {}> = T & { children?: React.ReactNode };
+import DropdownContext from './private/utils/DropdownContext';
+import useDropdownContext from './private/utils/useDropdownContext';
+import type CallableChildren from './private/types/CallableChildren';
+import type DropdownRootProps from './private/types/DropdownRootProps';
+import type OptionProps from './private/types/OptionProps';
+import type OptionsProps from './private/types/OptionsProps';
+import type SelectProps from './private/types/SelectProps';
+import type WithChildren from './private/types/WithChildren';
 
 const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
   children,
@@ -140,12 +72,6 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
   );
 };
 
-//Dropdown.Options
-type OptionsProps = {
-  menuWidth?: string;
-  className?: string;
-};
-
 const Options: React.FC<WithChildren<OptionsProps>> = ({
   children,
   menuWidth,
@@ -170,15 +96,6 @@ const Options: React.FC<WithChildren<OptionsProps>> = ({
   );
 };
 
-//Dropdown.Option
-type OptionProps = {
-  value?: unknown;
-  children: (data: {
-    selected?: boolean;
-    active?: boolean;
-  }) => React.ReactElement;
-};
-
 const Option: React.FC<OptionProps> = ({ children, value }) => {
   return (
     <Listbox.Option as="span" value={value}>
@@ -189,16 +106,6 @@ const Option: React.FC<OptionProps> = ({ children, value }) => {
       }
     </Listbox.Option>
   );
-};
-
-//Dropdown.Select
-type SelectProps = {
-  label?: JSX.Element | string;
-  placeholder?: JSX.Element | string;
-  open?: boolean;
-  value?: undefined;
-  innerLabel?: boolean;
-  className?: string;
 };
 
 const Select: React.FC<WithChildren<SelectProps>> = ({
