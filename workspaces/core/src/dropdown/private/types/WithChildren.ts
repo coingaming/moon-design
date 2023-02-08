@@ -1,3 +1,3 @@
-type WithChildren<T = {}> = T & { children?: React.ReactNode };
+type WithChildren<T = {}> = T & { children?: React.ReactElement };
 
 export default WithChildren
