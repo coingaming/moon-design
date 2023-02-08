@@ -24,6 +24,8 @@ export { default as Chip } from './chip/Chip';
 export * from './chip/Chip';
 export { default as CircularProgress } from './circularProgress/CircularProgress';
 export * from './circularProgress/CircularProgress';
+export { default as Combobox } from './combobox/Combobox';
+export * from './combobox/Combobox';
 export { default as Dropdown } from './dropdown/Dropdown';
 export * from './dropdown/Dropdown';
 export { default as Form } from './form/Form';
