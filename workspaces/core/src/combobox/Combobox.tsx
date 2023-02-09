@@ -8,6 +8,10 @@ import React, {
   useState,
 } from 'react';
 import { Combobox as HUICombobox, Transition } from '@headlessui/react';
+import {
+  ControlsChevronDownSmall,
+  ControlsCloseSmall,
+} from '@heathmont/moon-icons-tw';
 import { usePopper } from 'react-popper';
 import Checkbox from '../checkbox/Checkbox';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
@@ -32,6 +36,7 @@ type InputSize = 'sm' | 'md' | 'lg' | 'xl';
 
 type ComboboxState = {
   multiple: boolean;
+  withRadioIcon: boolean;
 };
 
 type CallableChildren = (data: { open?: boolean }) => ReactNode;
@@ -57,6 +62,7 @@ type ComboboxRootProps<T> = {
   children: ReactNode | CallableChildren;
   label?: string;
   placeholder?: string;
+  withRadioIcon?: boolean;
 };
 
 const ComboboxContext = createContext<ComboboxState | null>(null);
@@ -87,6 +93,7 @@ const ComboboxRoot = <T,>({
   label,
   placeholder,
   displayValue,
+  withRadioIcon = true,
 }: ComboboxRootProps<T>) => {
   const multiple = false;
   const [anchorEl, setAnchorEl] = useState<Element | null>(null);
@@ -98,6 +105,7 @@ const ComboboxRoot = <T,>({
 
   const states = {
     multiple,
+    withRadioIcon,
   };
 
   const callableChildren =
@@ -117,18 +125,32 @@ const ComboboxRoot = <T,>({
         >
           {({ open }) => (
             <>
-              <HUICombobox.Input
-                onChange={({ target: { value } }) => onQueryChange(value)}
-                as={TextInput}
-                displayValue={displayValue}
-                label={label}
-                placeholder={placeholder}
-                inputSize={size}
-                type="text"
-                disabled={disabled}
-                isError={isError}
-                ref={setAnchorEl}
-              />
+              <div className="relative" ref={setAnchorEl}>
+                <HUICombobox.Input
+                  onChange={({ target: { value } }) => onQueryChange(value)}
+                  as={TextInput}
+                  displayValue={displayValue}
+                  label={label}
+                  placeholder={placeholder}
+                  inputSize={size}
+                  type="text"
+                  disabled={disabled}
+                  isError={isError}
+                />
+                <HUICombobox.Button
+                  className={mergeClassnames(
+                    'text-bulma absolute top-4 flex-shrink-0 transition-transform',
+                    size === 'sm' ? 'text-moon-16' : 'text-moon-24',
+                    size === 'xl' && 'top-4 right-4',
+                    size == 'md' && 'top-10 right-2',
+                    size === 'lg' && 'top-11 right-2',
+                    size === 'sm' && 'top-10 right-2',
+                    open && 'rotate-[-180deg]'
+                  )}
+                >
+                  <ControlsChevronDownSmall />
+                </HUICombobox.Button>
+              </div>
               <Transition
                 as={Fragment}
                 leave="transition ease-in duration-100"
@@ -140,7 +162,9 @@ const ComboboxRoot = <T,>({
                   ref={setPopperEl}
                   style={styles}
                   {...attributes?.popper}
-                  className="z-5 w-full absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+                  className={mergeClassnames(
+                    'z-5 w-full absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none'
+                  )}
                 >
                   {typeof children === 'function'
                     ? callableChildren && callableChildren({ open })
@@ -156,7 +180,7 @@ const ComboboxRoot = <T,>({
 };
 
 /**
- * TODO: FIX WHIS
+ * TODO: FIX BULMA
  */
 const Option = ({
   value,
@@ -165,17 +189,16 @@ const Option = ({
   value: unknown;
   children?: ReactNode | CallableOptionChildren;
 }) => {
-  const { multiple } = useComboboxContext('Combobox.Option');
+  const { withRadioIcon } = useComboboxContext('Combobox.Option');
   const callableChildren =
     typeof children === 'function' && (children as CallableOptionChildren);
-
   return (
     <HUICombobox.Option value={value}>
       {({ active, disabled, selected }) => (
         <div
           className={mergeClassnames(
             'p-2 rounded-moon-s-xs flex items-center justify-between cursor-pointer',
-            active && 'bg-whis-10'
+            active && 'bg-bulma/[0.04]'
           )}
         >
           <div>
@@ -184,11 +207,7 @@ const Option = ({
                 callableChildren({ active, disabled, selected })
               : Children.toArray(children).map((ch) => ch)}
           </div>
-          {multiple ? (
-            <Checkbox checked={selected} />
-          ) : (
-            <RadioButton checked={selected} />
-          )}
+          {withRadioIcon && <RadioButton checked={selected} />}
         </div>
       )}
     </HUICombobox.Option>

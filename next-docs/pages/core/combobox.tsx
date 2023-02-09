@@ -12,7 +12,7 @@ const people: Person[] = [
 ];
 
 const Example = () => {
-  const [selected, setSelected] = useState<Person | null>(null);
+  const [selected, setSelected] = useState<Person | null>(people[0]);
   const [query, setQuery] = useState<string>('');
   const displayValue = (person: Person | null) => person?.name || '';
 
@@ -25,8 +25,10 @@ const Example = () => {
 
   const isError = !filteredPeople.length;
 
+  console.log('Current: ', selected);
+
   return (
-    <>
+    <div className="w-[400px]">
       <Combobox
         value={selected}
         onQueryChange={setQuery}
@@ -35,6 +37,7 @@ const Example = () => {
         placeholder="Choose your personas"
         isError={isError}
         displayValue={displayValue}
+        size="xl"
       >
         {filteredPeople.map((person) => (
           <Combobox.Option key={person.name} value={person}>
@@ -42,7 +45,7 @@ const Example = () => {
           </Combobox.Option>
         ))}
       </Combobox>
-    </>
+    </div>
   );
 };
 
