@@ -102,10 +102,10 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
                 className={mergeClassnames(
                   'text-bulma absolute top-4 flex-shrink-0 transition-transform',
                   size === 'sm' ? 'text-moon-16' : 'text-moon-24',
-                  size === 'xl' && 'top-4 right-4',
-                  size == 'md' && 'top-10 right-2',
-                  size === 'lg' && 'top-11 right-2',
-                  size === 'sm' && 'top-10 right-2',
+                  size === 'xl' && 'top-4 end-4',
+                  size == 'md' && 'top-10 end-2',
+                  size === 'lg' && 'top-11 end-2',
+                  size === 'sm' && 'top-10 end-2',
                   open && 'rotate-[-180deg]'
                 )}
               >
