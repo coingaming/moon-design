@@ -25,8 +25,6 @@ const Example = () => {
 
   const isError = !filteredPeople.length;
 
-  console.log('Current: ', selected);
-
   return (
     <div className="w-[400px]">
       <Combobox
