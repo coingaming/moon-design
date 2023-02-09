@@ -1,17 +1,12 @@
 import React, {
   Children,
   createContext,
-  forwardRef,
   Fragment,
   ReactNode,
-  useContext,
   useState,
 } from 'react';
 import { Combobox as HUICombobox, Transition } from '@headlessui/react';
-import {
-  ControlsChevronDownSmall,
-  ControlsCloseSmall,
-} from '@heathmont/moon-icons-tw';
+import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 import { usePopper } from 'react-popper';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import RadioButton from '../radioButton/RadioButton';
@@ -38,9 +33,9 @@ type ComboboxState = {
   withRadioIcon: boolean;
 };
 
-type CallableChildren = (data: { open?: boolean }) => ReactNode;
+type RenderProp = (data: { open?: boolean }) => ReactNode;
 
-type CallableOptionChildren = (data: {
+type OptionsRenderProp = (data: {
   active: boolean;
   selected: boolean;
   disabled: boolean;
@@ -57,25 +52,13 @@ type ComboboxRootProps<T> = {
   size?: InputSize;
   className?: string;
   position?: Placement;
-  children: ReactNode | CallableChildren;
+  children: ReactNode | RenderProp;
   label?: string;
   placeholder?: string;
-  withRadioIcon?: boolean;
 };
 
 const ComboboxContext = createContext<ComboboxState | null>(null);
 ComboboxContext.displayName = 'ComboboxContext';
-
-const useComboboxContext = (component: string) => {
-  const context = useContext(ComboboxContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <Combobox /> component.`
-    );
-    throw err;
-  }
-  return context;
-};
 
 const ComboboxRoot = <T,>({
   children,
@@ -86,12 +69,10 @@ const ComboboxRoot = <T,>({
   disabled = false,
   size = 'md',
   className,
-  onClear,
   position = 'bottom-start',
   label,
   placeholder,
   displayValue,
-  withRadioIcon = true,
 }: ComboboxRootProps<T>) => {
   const multiple = false;
   const [anchorEl, setAnchorEl] = useState<Element | null>(null);
@@ -101,108 +82,96 @@ const ComboboxRoot = <T,>({
     placement: position,
   });
 
-  const states = {
-    multiple,
-    withRadioIcon,
-  };
-
-  const callableChildren =
-    typeof children === 'function' && (children as CallableChildren);
+  const hasRenderProp = typeof children === 'function';
 
   return (
-    <ComboboxContext.Provider value={states}>
-      <div
-        className={mergeClassnames('w-full relative', className && className)}
+    <div className={mergeClassnames('w-full relative', className && className)}>
+      <HUICombobox
+        value={value}
+        onChange={onChange}
+        disabled={disabled}
+        multiple={multiple}
+        nullable
       >
-        <HUICombobox
-          value={value}
-          onChange={onChange}
-          disabled={disabled}
-          multiple={multiple}
-          nullable
-        >
-          {({ open }) => (
-            <>
-              <div className="relative" ref={setAnchorEl}>
-                <HUICombobox.Input
-                  onChange={({ target: { value } }) => onQueryChange(value)}
-                  as={TextInput}
-                  displayValue={displayValue}
-                  label={label}
-                  placeholder={placeholder}
-                  inputSize={size}
-                  type="text"
-                  disabled={disabled}
-                  isError={isError}
-                />
-                <HUICombobox.Button
-                  className={mergeClassnames(
-                    'text-bulma absolute top-4 flex-shrink-0 transition-transform',
-                    size === 'sm' ? 'text-moon-16' : 'text-moon-24',
-                    size === 'xl' && 'top-4 right-4',
-                    size == 'md' && 'top-10 right-2',
-                    size === 'lg' && 'top-11 right-2',
-                    size === 'sm' && 'top-10 right-2',
-                    open && 'rotate-[-180deg]'
-                  )}
-                >
-                  <ControlsChevronDownSmall />
-                </HUICombobox.Button>
-              </div>
-              <Transition
-                as={Fragment}
-                leave="transition ease-in duration-100"
-                leaveFrom="opacity-100"
-                leaveTo="opacity-0"
-                afterLeave={() => onQueryChange('')}
+        {({ open }) => (
+          <>
+            <div className="relative" ref={setAnchorEl}>
+              <HUICombobox.Input
+                onChange={({ target: { value } }) => onQueryChange(value)}
+                as={TextInput}
+                displayValue={displayValue}
+                label={label}
+                placeholder={placeholder}
+                inputSize={size}
+                type="text"
+                disabled={disabled}
+                isError={isError}
+              />
+              <HUICombobox.Button
+                className={mergeClassnames(
+                  'text-bulma absolute top-4 flex-shrink-0 transition-transform',
+                  size === 'sm' ? 'text-moon-16' : 'text-moon-24',
+                  size === 'xl' && 'top-4 right-4',
+                  size == 'md' && 'top-10 right-2',
+                  size === 'lg' && 'top-11 right-2',
+                  size === 'sm' && 'top-10 right-2',
+                  open && 'rotate-[-180deg]'
+                )}
               >
-                <HUICombobox.Options
-                  ref={setPopperEl}
-                  style={styles}
-                  {...attributes?.popper}
-                  className={mergeClassnames(
-                    'z-5 w-full absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none'
-                  )}
-                >
-                  {typeof children === 'function'
-                    ? callableChildren && callableChildren({ open })
-                    : Children.toArray(children).map((ch) => ch)}
-                </HUICombobox.Options>
-              </Transition>
-            </>
-          )}
-        </HUICombobox>
-      </div>
-    </ComboboxContext.Provider>
+                <ControlsChevronDownSmall />
+              </HUICombobox.Button>
+            </div>
+            <Transition
+              as={Fragment}
+              leave="transition ease-in duration-100"
+              leaveFrom="opacity-100"
+              leaveTo="opacity-0"
+              afterLeave={() => onQueryChange('')}
+            >
+              <HUICombobox.Options
+                ref={setPopperEl}
+                style={styles}
+                {...attributes?.popper}
+                className={mergeClassnames(
+                  'w-full min-w-[18.75rem] max-h-[18.75rem] z-1 py-2 px-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
+                  'focus:outline-none'
+                )}
+              >
+                {hasRenderProp ? children({ open }) : children}
+              </HUICombobox.Options>
+            </Transition>
+          </>
+        )}
+      </HUICombobox>
+    </div>
   );
 };
 
 const Option = ({
   value,
   children,
+  displayRadioIcon = false,
 }: {
   value: unknown;
-  children?: ReactNode | CallableOptionChildren;
+  displayRadioIcon?: boolean;
+  children?: ReactNode | OptionsRenderProp;
 }) => {
-  const { withRadioIcon } = useComboboxContext('Combobox.Option');
-  const callableChildren =
-    typeof children === 'function' && (children as CallableOptionChildren);
+  const hasRenderProp = typeof children === 'function';
   return (
     <HUICombobox.Option value={value}>
       {({ active, disabled, selected }) => (
         <div
           className={mergeClassnames(
-            'p-2 rounded-moon-s-xs flex items-center justify-between cursor-pointer',
+            'p-2 flex items-center justify-between cursor-pointer mb-1 last:mb-0 text-moon-14 text-bulma rounded-moon-s-sm hover:bg-goku',
             active && 'bg-goku'
           )}
         >
           <div>
-            {typeof children === 'function'
-              ? callableChildren &&
-                callableChildren({ active, disabled, selected })
-              : Children.toArray(children).map((ch) => ch)}
+            {hasRenderProp
+              ? children({ active, disabled, selected })
+              : children}
           </div>
-          {withRadioIcon && <RadioButton checked={selected} />}
+          {displayRadioIcon && <RadioButton checked={selected} />}
         </div>
       )}
     </HUICombobox.Option>
