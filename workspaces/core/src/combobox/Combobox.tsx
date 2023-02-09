@@ -1,4 +1,4 @@
-import React, { createContext, Fragment, ReactNode, useState } from 'react';
+import React, { Fragment, ReactNode, useState } from 'react';
 import { Combobox as HUICombobox, Transition } from '@headlessui/react';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 import { usePopper } from 'react-popper';
