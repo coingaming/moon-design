@@ -31,10 +31,10 @@ type OptionsRenderProp = (data: {
 
 type ComboboxRootProps = {
   value: BaseOptionType;
-  onChange(value: T): void;
+  onChange(value: BaseOptionType): void;
   onQueryChange(value: string): void;
   onClear?: () => void;
-  displayValue?: (value: T) => string;
+  displayValue?: (value: BaseOptionType) => string;
   isError?: boolean;
   disabled?: boolean;
   size?: InputSize;
@@ -128,7 +128,9 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
                   'focus:outline-none'
                 )}
               >
-                {hasRenderProp ? children?.({ open }) : children}
+                {hasRenderProp
+                  ? (children as RenderProp)?.({ open })
+                  : children}
               </HUICombobox.Options>
             </Transition>
           </>
@@ -155,7 +157,11 @@ const Option: React.FC<OptionProps> = ({
         >
           <div>
             {hasRenderProp
-              ? children?.({ active, disabled, selected })
+              ? (children as OptionsRenderProp)?.({
+                  active,
+                  disabled,
+                  selected,
+                })
               : children}
           </div>
           {displayRadioIcon && <RadioButton checked={selected} />}
