@@ -49,6 +49,7 @@ type OptionProps = {
   value: BaseOptionType;
   displayRadioIcon?: boolean;
   children?: ReactNode | OptionsRenderProp;
+  className?: string;
 };
 
 const ComboboxRoot: React.FC<ComboboxRootProps> = ({
@@ -59,7 +60,7 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
   isError = false,
   disabled = false,
   size = 'md',
-  className,
+  className = '',
   position = 'bottom-start',
   label,
   placeholder,
@@ -76,7 +77,7 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
   const hasRenderProp = typeof children === 'function';
 
   return (
-    <div className={mergeClassnames('w-full relative', className && className)}>
+    <div className={mergeClassnames('w-full relative', className)}>
       <HeadlessCombobox
         value={value}
         onChange={onChange}
@@ -144,6 +145,7 @@ const Option: React.FC<OptionProps> = ({
   value,
   children,
   displayRadioIcon = false,
+  className = '',
 }) => {
   const hasRenderProp = typeof children === 'function';
   return (
@@ -152,7 +154,8 @@ const Option: React.FC<OptionProps> = ({
         <div
           className={mergeClassnames(
             'p-2 flex items-center justify-between cursor-pointer mb-1 last:mb-0 text-moon-14 text-bulma rounded-moon-s-sm hover:bg-goku',
-            active && 'bg-goku'
+            active && 'bg-goku',
+            className
           )}
         >
           <div>

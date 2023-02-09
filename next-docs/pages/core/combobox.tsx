@@ -10,7 +10,9 @@ const people: BaseOptionType[] = [
 ];
 
 const Example = () => {
-  const [selected, setSelected] = useState<BaseOptionType | null>(people[0]);
+  const [selected, setSelected] = useState<BaseOptionType | undefined>(
+    people[0]
+  );
   const [query, setQuery] = useState<string>('');
   const displayValue = (person: BaseOptionType | null) => person?.label || '';
 
@@ -34,9 +36,14 @@ const Example = () => {
         isError={isError}
         displayValue={displayValue}
         size="xl"
+        className="mt-10"
       >
         {filteredPeople.map((person) => (
-          <Combobox.Option key={person.id} value={person}>
+          <Combobox.Option
+            className="text-emerald-700"
+            key={person.id}
+            value={person}
+          >
             {({ active, disabled, selected }) => <div>{person.label}</div>}
           </Combobox.Option>
         ))}
