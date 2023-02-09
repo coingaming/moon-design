@@ -1,5 +1,5 @@
 import React, { Fragment, ReactNode, useState } from 'react';
-import { Combobox as HUICombobox, Transition } from '@headlessui/react';
+import { Combobox as HeadlessCombobox, Transition } from '@headlessui/react';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 import { usePopper } from 'react-popper';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
@@ -30,7 +30,7 @@ type OptionsRenderProp = (data: {
 }) => ReactNode;
 
 type ComboboxRootProps = {
-  value: BaseOptionType;
+  value?: BaseOptionType;
   onChange(value: BaseOptionType): void;
   onQueryChange(value: string): void;
   onClear?: () => void;
@@ -77,7 +77,7 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
 
   return (
     <div className={mergeClassnames('w-full relative', className && className)}>
-      <HUICombobox
+      <HeadlessCombobox
         value={value}
         onChange={onChange}
         disabled={disabled}
@@ -87,7 +87,7 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
         {({ open }) => (
           <>
             <div className="relative" ref={setAnchorEl}>
-              <HUICombobox.Input
+              <HeadlessCombobox.Input
                 onChange={({ target: { value } }) => onQueryChange(value)}
                 as={TextInput}
                 displayValue={displayValue}
@@ -98,7 +98,7 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
                 disabled={disabled}
                 isError={isError}
               />
-              <HUICombobox.Button
+              <HeadlessCombobox.Button
                 className={mergeClassnames(
                   'text-bulma absolute top-4 flex-shrink-0 transition-transform',
                   size === 'sm' ? 'text-moon-16' : 'text-moon-24',
@@ -110,7 +110,7 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
                 )}
               >
                 <ControlsChevronDownSmall />
-              </HUICombobox.Button>
+              </HeadlessCombobox.Button>
             </div>
             <Transition
               as={Fragment}
@@ -119,7 +119,7 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
               leaveTo="opacity-0"
               afterLeave={() => onQueryChange('')}
             >
-              <HUICombobox.Options
+              <HeadlessCombobox.Options
                 ref={setPopperEl}
                 style={styles}
                 {...attributes?.popper}
@@ -131,11 +131,11 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
                 {hasRenderProp
                   ? (children as RenderProp)?.({ open })
                   : children}
-              </HUICombobox.Options>
+              </HeadlessCombobox.Options>
             </Transition>
           </>
         )}
-      </HUICombobox>
+      </HeadlessCombobox>
     </div>
   );
 };
@@ -147,7 +147,7 @@ const Option: React.FC<OptionProps> = ({
 }) => {
   const hasRenderProp = typeof children === 'function';
   return (
-    <HUICombobox.Option value={value}>
+    <HeadlessCombobox.Option value={value}>
       {({ active, disabled, selected }) => (
         <div
           className={mergeClassnames(
@@ -167,7 +167,7 @@ const Option: React.FC<OptionProps> = ({
           {displayRadioIcon && <RadioButton checked={selected} />}
         </div>
       )}
-    </HUICombobox.Option>
+    </HeadlessCombobox.Option>
   );
 };
 

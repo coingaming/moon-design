@@ -1,26 +1,24 @@
 import { useState } from 'react';
-import { Combobox } from '@heathmont/moon-core-tw';
+import { BaseOptionType, Combobox } from '@heathmont/moon-core-tw';
 
-type Person = { id: number; name: string };
-
-const people: Person[] = [
-  { id: 1, name: 'Durward Reynolds' },
-  { id: 2, name: 'Kenton Towne' },
-  { id: 3, name: 'Therese Wunsch' },
-  { id: 4, name: 'Benedict Kessler' },
-  { id: 5, name: 'Katelyn Rohan' },
+const people: BaseOptionType[] = [
+  { id: 1, label: 'Durward Reynolds', value: 'Durward Reynolds' },
+  { id: 2, label: 'Kenton Towne', value: 'Kenton Towne' },
+  { id: 3, label: 'Therese Wunsch', value: 'Therese Wunsch' },
+  { id: 4, label: 'Benedict Kessler', value: 'Benedict Kessler' },
+  { id: 5, label: 'Katelyn Rohan', value: 'Katelyn Rohan' },
 ];
 
 const Example = () => {
-  const [selected, setSelected] = useState<Person | null>(people[0]);
+  const [selected, setSelected] = useState<BaseOptionType | null>(people[0]);
   const [query, setQuery] = useState<string>('');
-  const displayValue = (person: Person | null) => person?.name || '';
+  const displayValue = (person: BaseOptionType | null) => person?.label || '';
 
   const filteredPeople =
     query === ''
       ? people
       : people.filter((person) => {
-          return person.name.toLowerCase().includes(query.toLowerCase());
+          return person.label.toLowerCase().includes(query.toLowerCase());
         });
 
   const isError = !filteredPeople.length;
@@ -38,8 +36,8 @@ const Example = () => {
         size="xl"
       >
         {filteredPeople.map((person) => (
-          <Combobox.Option key={person.name} value={person}>
-            {({ active, disabled, selected }) => <div>{person.name}</div>}
+          <Combobox.Option key={person.id} value={person}>
+            {({ active, disabled, selected }) => <div>{person.label}</div>}
           </Combobox.Option>
         ))}
       </Combobox>
