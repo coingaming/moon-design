@@ -1,15 +1,10 @@
-import React, {
-  Children,
-  createContext,
-  Fragment,
-  ReactNode,
-  useState,
-} from 'react';
+import React, { createContext, Fragment, ReactNode, useState } from 'react';
 import { Combobox as HUICombobox, Transition } from '@headlessui/react';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 import { usePopper } from 'react-popper';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import RadioButton from '../radioButton/RadioButton';
+import { BaseOptionType } from '../select/Select';
 import TextInput from '../textInput/TextInput';
 
 type Placement =
@@ -27,22 +22,15 @@ type Placement =
   | 'left';
 
 type InputSize = 'sm' | 'md' | 'lg' | 'xl';
-
-type ComboboxState = {
-  multiple: boolean;
-  withRadioIcon: boolean;
-};
-
 type RenderProp = (data: { open?: boolean }) => ReactNode;
-
 type OptionsRenderProp = (data: {
   active: boolean;
   selected: boolean;
   disabled: boolean;
 }) => ReactNode;
 
-type ComboboxRootProps<T> = {
-  value: T | null;
+type ComboboxRootProps = {
+  value: BaseOptionType;
   onChange(value: T): void;
   onQueryChange(value: string): void;
   onClear?: () => void;
@@ -57,10 +45,13 @@ type ComboboxRootProps<T> = {
   placeholder?: string;
 };
 
-const ComboboxContext = createContext<ComboboxState | null>(null);
-ComboboxContext.displayName = 'ComboboxContext';
+type OptionProps = {
+  value: BaseOptionType;
+  displayRadioIcon?: boolean;
+  children?: ReactNode | OptionsRenderProp;
+};
 
-const ComboboxRoot = <T,>({
+const ComboboxRoot: React.FC<ComboboxRootProps> = ({
   children,
   value,
   onChange,
@@ -73,7 +64,7 @@ const ComboboxRoot = <T,>({
   label,
   placeholder,
   displayValue,
-}: ComboboxRootProps<T>) => {
+}) => {
   const multiple = false;
   const [anchorEl, setAnchorEl] = useState<Element | null>(null);
   const [popperEl, setPopperEl] = useState<HTMLElement | null>(null);
@@ -137,7 +128,7 @@ const ComboboxRoot = <T,>({
                   'focus:outline-none'
                 )}
               >
-                {hasRenderProp ? children({ open }) : children}
+                {hasRenderProp ? children?.({ open }) : children}
               </HUICombobox.Options>
             </Transition>
           </>
@@ -147,14 +138,10 @@ const ComboboxRoot = <T,>({
   );
 };
 
-const Option = ({
+const Option: React.FC<OptionProps> = ({
   value,
   children,
   displayRadioIcon = false,
-}: {
-  value: unknown;
-  displayRadioIcon?: boolean;
-  children?: ReactNode | OptionsRenderProp;
 }) => {
   const hasRenderProp = typeof children === 'function';
   return (
@@ -168,7 +155,7 @@ const Option = ({
         >
           <div>
             {hasRenderProp
-              ? children({ active, disabled, selected })
+              ? children?.({ active, disabled, selected })
               : children}
           </div>
           {displayRadioIcon && <RadioButton checked={selected} />}
