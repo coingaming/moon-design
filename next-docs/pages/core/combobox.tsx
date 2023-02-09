@@ -1,54 +1,58 @@
-import { useState } from 'react';
-import { BaseOptionType, Combobox } from '@heathmont/moon-core-tw';
-
-const people: BaseOptionType[] = [
-  { id: 1, label: 'Durward Reynolds', value: 'Durward Reynolds' },
-  { id: 2, label: 'Kenton Towne', value: 'Kenton Towne' },
-  { id: 3, label: 'Therese Wunsch', value: 'Therese Wunsch' },
-  { id: 4, label: 'Benedict Kessler', value: 'Benedict Kessler' },
-  { id: 5, label: 'Katelyn Rohan', value: 'Katelyn Rohan' },
-];
+import React from 'react';
+import Preview from '../../components/codePreview/Preview';
+import ComponentPageDescription from '../../components/ComponentPageDescription';
+import PropsTable from '../../components/PropsTable';
+import Disabled from '../../public/examples/combobox/Disabled';
+import Error from '../../public/examples/combobox/Error';
+import Options from '../../public/examples/combobox/Options';
+import WithLabel from '../../public/examples/combobox/WithLabel';
+import WithoutLabel from '../../public/examples/combobox/WithoutLabel';
+import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const [selected, setSelected] = useState<BaseOptionType | undefined>(
-    people[0]
-  );
-  const [query, setQuery] = useState<string>('');
-  const displayValue = (person: BaseOptionType | null) => person?.label || '';
-
-  const filteredPeople =
-    query === ''
-      ? people
-      : people.filter((person) => {
-          return person.label.toLowerCase().includes(query.toLowerCase());
-        });
-
-  const isError = !filteredPeople.length;
-
+  const examples = useExamples('combobox');
   return (
-    <div className="w-[400px]">
-      <Combobox
-        value={selected}
-        onQueryChange={setQuery}
-        onChange={setSelected}
-        label="Testing label"
-        placeholder="Choose your personas"
-        isError={isError}
-        displayValue={displayValue}
-        size="xl"
-        className="mt-10"
-      >
-        {filteredPeople.map((person) => (
-          <Combobox.Option
-            className="text-emerald-700"
-            key={person.id}
-            value={person}
-          >
-            {({ active, disabled, selected }) => <div>{person.label}</div>}
-          </Combobox.Option>
-        ))}
-      </Combobox>
-    </div>
+    <>
+      <ComponentPageDescription title="Combobox" isInProgress>
+        <p>
+          Comboboxes are the foundation of accessible autocompletes and command
+          palettes for your app, complete with robust support for keyboard
+          navigation. You are completely in charge of how you filter the
+          results, whether it be with a fuzzy search library client-side or by
+          making server-side requests to an API. In these examples we will keep
+          the logic simple for demo purposes.
+        </p>
+      </ComponentPageDescription>
+      <Preview
+        title="With Label"
+        preview={<WithLabel />}
+        code={examples ? examples.WithLabel : 'Loading'}
+      />
+
+      <Preview
+        title="Formatted options"
+        preview={<Options />}
+        code={examples ? examples.Options : 'Loading'}
+      />
+
+      <Preview
+        title="Error"
+        preview={<Error />}
+        code={examples ? examples.Error : 'Loading'}
+      />
+
+      <Preview
+        title="Disabled"
+        preview={<Disabled />}
+        code={examples ? examples.Disabled : 'Loading'}
+      />
+
+      <Preview
+        title="Without label"
+        preview={<WithoutLabel />}
+        code={examples ? examples.WithoutLabel : 'Loading'}
+      />
+    </>
   );
 };
 

@@ -50,6 +50,7 @@ const navigation = [
       { name: 'RadioButton', href: '/core/radioButton' },
       { name: 'Search', href: '/core/search' },
       { name: 'Select', href: '/core/select' },
+      { name: 'Combobox', href: '/core/combobox' },
       { name: 'Snackbar', href: '/core/snackbar' },
       { name: 'Switch', href: '/core/switch' },
       { name: 'Table', href: '/core/table' },
