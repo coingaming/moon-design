@@ -14,6 +14,7 @@ const people: Person[] = [
 const Example = () => {
   const [selected, setSelected] = useState<Person | null>(null);
   const [query, setQuery] = useState<string>('');
+  const displayValue = (person: Person | null) => person?.name || '';
 
   const filteredPeople =
     query === ''
@@ -21,6 +22,8 @@ const Example = () => {
       : people.filter((person) => {
           return person.name.toLowerCase().includes(query.toLowerCase());
         });
+
+  const isError = !filteredPeople.length;
 
   return (
     <>
@@ -30,7 +33,8 @@ const Example = () => {
         onChange={setSelected}
         label="Testing label"
         placeholder="Choose your personas"
-        size="xl"
+        isError={isError}
+        displayValue={displayValue}
       >
         {filteredPeople.map((person) => (
           <Combobox.Option key={person.name} value={person}>

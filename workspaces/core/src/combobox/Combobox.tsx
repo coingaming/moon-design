@@ -1,6 +1,7 @@
 import React, {
   Children,
   createContext,
+  forwardRef,
   Fragment,
   ReactNode,
   useContext,
@@ -8,7 +9,9 @@ import React, {
 } from 'react';
 import { Combobox as HUICombobox, Transition } from '@headlessui/react';
 import { usePopper } from 'react-popper';
+import Checkbox from '../checkbox/Checkbox';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import RadioButton from '../radioButton/RadioButton';
 import TextInput from '../textInput/TextInput';
 
 type Placement =
@@ -28,22 +31,7 @@ type Placement =
 type InputSize = 'sm' | 'md' | 'lg' | 'xl';
 
 type ComboboxState = {
-  /**
-   * There must be some way we can have proper types for this.
-   */
-  value?: any;
-  isError: boolean;
-  disabled: boolean;
-  onClear?: () => void;
-  onQueryChange(value: string): void;
   multiple: boolean;
-  popper?: {
-    styles?: { [key: string]: React.CSSProperties };
-    attributes?: { [key: string]: { [key: string]: string } | undefined };
-    setAnchor: React.Dispatch<React.SetStateAction<Element | null>>;
-    setPopper: React.Dispatch<React.SetStateAction<HTMLElement | null>>;
-  };
-  size?: InputSize;
 };
 
 type CallableChildren = (data: { open?: boolean }) => ReactNode;
@@ -54,16 +42,17 @@ type CallableOptionChildren = (data: {
   disabled: boolean;
 }) => ReactNode;
 
-type ComboboxRootProps = {
-  value: unknown;
-  onChange(value: unknown): void;
+type ComboboxRootProps<T> = {
+  value: T | null;
+  onChange(value: T): void;
   onQueryChange(value: string): void;
   onClear?: () => void;
+  displayValue?: (value: T) => string;
   isError?: boolean;
   disabled?: boolean;
   size?: InputSize;
   className?: string;
-  multiple?: boolean;
+  // multiple?: boolean;
   position?: Placement;
   children: ReactNode | CallableChildren;
   label?: string;
@@ -84,7 +73,7 @@ const useComboboxContext = (component: string) => {
   return context;
 };
 
-const ComboboxRoot = ({
+const ComboboxRoot = <T,>({
   children,
   value,
   onChange,
@@ -95,10 +84,11 @@ const ComboboxRoot = ({
   className,
   onClear,
   position = 'bottom-start',
-  multiple = false,
   label,
   placeholder,
-}: ComboboxRootProps) => {
+  displayValue,
+}: ComboboxRootProps<T>) => {
+  const multiple = false;
   const [anchorEl, setAnchorEl] = useState<Element | null>(null);
   const [popperEl, setPopperEl] = useState<HTMLElement | null>(null);
 
@@ -106,28 +96,13 @@ const ComboboxRoot = ({
     placement: position,
   });
 
-  /**
-   * Does this update state when, for example, anchorEl gets updated?
-   */
   const states = {
-    value,
-    isError,
-    size,
-    disabled,
-    onClear,
     multiple,
-    onQueryChange,
-    popper: {
-      styles: styles,
-      attributes: attributes,
-      setAnchor: setAnchorEl,
-      setPopper: setPopperEl,
-    },
   };
 
-  const childrens = Children.toArray(children);
   const callableChildren =
     typeof children === 'function' && (children as CallableChildren);
+
   return (
     <ComboboxContext.Provider value={states}>
       <div
@@ -138,17 +113,21 @@ const ComboboxRoot = ({
           onChange={onChange}
           disabled={disabled}
           multiple={multiple}
+          nullable
         >
           {({ open }) => (
             <>
               <HUICombobox.Input
                 onChange={({ target: { value } }) => onQueryChange(value)}
                 as={TextInput}
+                displayValue={displayValue}
                 label={label}
                 placeholder={placeholder}
                 inputSize={size}
                 type="text"
                 disabled={disabled}
+                isError={isError}
+                ref={setAnchorEl}
               />
               <Transition
                 as={Fragment}
@@ -157,10 +136,15 @@ const ComboboxRoot = ({
                 leaveTo="opacity-0"
                 afterLeave={() => onQueryChange('')}
               >
-                <HUICombobox.Options className="absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
+                <HUICombobox.Options
+                  ref={setPopperEl}
+                  style={styles}
+                  {...attributes?.popper}
+                  className="z-5 w-full absolute p-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+                >
                   {typeof children === 'function'
                     ? callableChildren && callableChildren({ open })
-                    : childrens.map((ch) => ch)}
+                    : Children.toArray(children).map((ch) => ch)}
                 </HUICombobox.Options>
               </Transition>
             </>
@@ -171,26 +155,42 @@ const ComboboxRoot = ({
   );
 };
 
+/**
+ * TODO: FIX WHIS
+ */
 const Option = ({
   value,
   children,
 }: {
   value: unknown;
-  children: ReactNode | CallableOptionChildren;
+  children?: ReactNode | CallableOptionChildren;
 }) => {
-  const childrens = Children.toArray(children);
+  const { multiple } = useComboboxContext('Combobox.Option');
   const callableChildren =
     typeof children === 'function' && (children as CallableOptionChildren);
-  /**
-   * For some reason not showing >:()
-   */
+
   return (
     <HUICombobox.Option value={value}>
-      {({ active, disabled, selected }) => {
-        typeof children === 'function'
-          ? callableChildren && callableChildren({ active, disabled, selected })
-          : childrens.map((ch) => ch);
-      }}
+      {({ active, disabled, selected }) => (
+        <div
+          className={mergeClassnames(
+            'p-2 rounded-moon-s-xs flex items-center justify-between cursor-pointer',
+            active && 'bg-whis-10'
+          )}
+        >
+          <div>
+            {typeof children === 'function'
+              ? callableChildren &&
+                callableChildren({ active, disabled, selected })
+              : Children.toArray(children).map((ch) => ch)}
+          </div>
+          {multiple ? (
+            <Checkbox checked={selected} />
+          ) : (
+            <RadioButton checked={selected} />
+          )}
+        </div>
+      )}
     </HUICombobox.Option>
   );
 };
