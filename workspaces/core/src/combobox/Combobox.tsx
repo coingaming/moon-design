@@ -104,9 +104,16 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
                   'text-bulma absolute top-4 flex-shrink-0 transition-transform',
                   size === 'sm' ? 'text-moon-16' : 'text-moon-24',
                   size === 'xl' && 'top-4 end-4',
-                  size == 'md' && 'top-10 end-2',
-                  size === 'lg' && 'top-11 end-2',
-                  size === 'sm' && 'top-10 end-2',
+
+                  size === 'sm' && label && 'top-10 end-2',
+                  size == 'md' && label && 'top-10 end-2',
+                  size === 'lg' && label && 'top-11 end-2',
+                  size === 'xl' && !label && 'top-4 end-4',
+
+                  size === 'sm' && !label && 'top-2 end-2',
+                  size == 'md' && !label && 'top-2 end-2',
+                  size === 'lg' && !label && 'top-3 end-2',
+
                   open && 'rotate-[-180deg]'
                 )}
               >
@@ -125,7 +132,7 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
                 style={styles}
                 {...attributes?.popper}
                 className={mergeClassnames(
-                  'w-full min-w-[18.75rem] max-h-[18.75rem] z-1 py-2 px-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto',
+                  'w-full min-w-[18.75rem] max-h-[18.75rem] py-2 px-1 my-2 rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto z-5 absolute',
                   'focus:outline-none'
                 )}
               >
