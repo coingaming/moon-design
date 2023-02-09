@@ -13,7 +13,6 @@ import {
   ControlsCloseSmall,
 } from '@heathmont/moon-icons-tw';
 import { usePopper } from 'react-popper';
-import Checkbox from '../checkbox/Checkbox';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import RadioButton from '../radioButton/RadioButton';
 import TextInput from '../textInput/TextInput';
@@ -57,7 +56,6 @@ type ComboboxRootProps<T> = {
   disabled?: boolean;
   size?: InputSize;
   className?: string;
-  // multiple?: boolean;
   position?: Placement;
   children: ReactNode | CallableChildren;
   label?: string;
@@ -179,9 +177,6 @@ const ComboboxRoot = <T,>({
   );
 };
 
-/**
- * TODO: FIX BULMA
- */
 const Option = ({
   value,
   children,
@@ -198,7 +193,7 @@ const Option = ({
         <div
           className={mergeClassnames(
             'p-2 rounded-moon-s-xs flex items-center justify-between cursor-pointer',
-            active && 'bg-bulma/[0.04]'
+            active && 'bg-goku'
           )}
         >
           <div>
