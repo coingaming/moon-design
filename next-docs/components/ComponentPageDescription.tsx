@@ -7,6 +7,7 @@ type Props = {
   isAriaSupport?: boolean;
   isRtlSupport?: boolean;
   isInProgress?: boolean;
+  isInDevelopment?: boolean;
   isDeprecated?: boolean;
   children: React.ReactNode;
 };
