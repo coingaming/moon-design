@@ -170,8 +170,8 @@ export function Search({
     <div ref={ref} onKeyDown={onKeyDown}>
       <div
         className={mergeClassnames(
-          'relative w-full h-full bg-gohan shadow-moon-md flex flex-col divide-y dark:divide-beerus',
-          isOpen ? 'rounded-t-moon-s-md' : 'rounded-moon-s-md',
+          'relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus',
+          isOpen ? 'rounded-t-moon-s-sm' : 'rounded-moon-s-sm',
           className
         )}
       >
@@ -210,8 +210,8 @@ export function Search({
         >
           <div
             className={mergeClassnames(
-              'absolute top-14 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md',
-              isOpen ? 'rounded-b-moon-s-md' : 'rounded-moon-s-md'
+              'absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',
+              isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm'
             )}
             tabIndex={-1}
           >

@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.21.2
+
+### Patch Changes
+
+- Bump patch version
+
+## 9.21.1
+
+### Patch Changes
+
+- Bump patch
+
 ## 9.21.0
 
 ### Minor Changes

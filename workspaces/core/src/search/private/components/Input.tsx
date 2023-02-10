@@ -16,7 +16,7 @@ function Input(
   ref: Ref<HTMLInputElement>
 ) {
   return (
-    <div className="flex items-center space-x-1.5 pl-3">
+    <div className="flex items-center space-x-1.5 pl-3 moon-search-input">
       <GenericSearch className="w-6 h-6 pointer-events-none text-bulma" />
 
       {prefix?.length
@@ -34,7 +34,7 @@ function Input(
         <input
           ref={ref}
           spellCheck={false}
-          className="py-4 px-0 border-none w-full focus:outline-none focus:border-none focus:ring-0 bg-transparent placeholder-bulma text-bulma"
+          className="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
           onChange={(e) => {
             onChange(e.currentTarget.value);
           }}
