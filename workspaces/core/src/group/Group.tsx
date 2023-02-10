@@ -12,6 +12,8 @@ type GroupProps = {
   orientation?: Orientation;
   size?: Size;
   error?: boolean;
+  disabled?: boolean;
+  readOnly?: boolean;
   className?: string;
 };
 type GroupComponentProps = (
@@ -21,6 +23,8 @@ type GroupState = {
   orientation?: Orientation;
   size?: Size;
   error?: boolean;
+  disabled?: boolean;
+  readOnly?: boolean;
 };
 
 const GroupContext = createContext<GroupState>({});
@@ -44,11 +48,15 @@ const GroupRoot: GroupComponentProps = ({
   error,
   children,
   className,
+  disabled,
+  readOnly,
 }) => {
   const states = {
     orientation: orientation,
     size: size,
     error: error,
+    disabled,
+    readOnly,
   };
 
   return (
@@ -60,10 +68,12 @@ const GroupRoot: GroupComponentProps = ({
           size === 'sm' ? 'rounded-moon-i-xs' : 'rounded-moon-i-sm',
           orientation === 'horizontal' &&
             !error &&
-            'after:content-[""] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden',
+            'after:content-[""] after:absolute after:top-0 after:bottom-0 after:w-px after:left-1/2 after:translate-x-[-50%] after:bg-beerus after:x-[3] ',
           orientation === 'vertical' &&
             !error &&
-            'after:content-[""] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden',
+            'after:content-[""] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3]',
+          (!disabled || !readOnly) &&
+            'hover:after:hidden focus-within:after:hidden',
           className && className
         )}
       >
@@ -76,19 +86,27 @@ const GroupRoot: GroupComponentProps = ({
 const FirstInput: React.FC<InputProps> = ({
   className,
   error: inputError,
+  disabled: inputDisabled,
+  readOnly: inputReadOnly,
   ...rest
 }) => {
   const {
     orientation,
     size,
     error: groupError,
+    disabled: groupDisabled,
+    readOnly: groupReadOnly,
   } = useGroupContext('FirstInput');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
+  const disabled = inputDisabled || groupDisabled;
+  const readOnly = inputReadOnly || groupReadOnly;
   const error = inputError || groupError;
   return (
     <Input
       error={error}
+      disabled={disabled}
+      readOnly={readOnly}
       size={size}
       placeholder="Placeholder"
       className={mergeClassnames(
@@ -108,15 +126,27 @@ const FirstInput: React.FC<InputProps> = ({
 const LastInput: React.FC<InputProps> = ({
   className,
   error: inputError,
+  disabled: inputDisabled,
+  readOnly: inputReadOnly,
   ...rest
 }) => {
-  const { orientation, size, error: groupError } = useGroupContext('LastInput');
+  const {
+    orientation,
+    size,
+    error: groupError,
+    disabled: groupDisabled,
+    readOnly: groupReadOnly,
+  } = useGroupContext('LastInput');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
   const error = inputError || groupError;
+  const disabled = inputDisabled || groupDisabled;
+  const readOnly = inputReadOnly || groupReadOnly;
   return (
     <Input
       error={error}
+      disabled={disabled}
+      readOnly={readOnly}
       size={size}
       className={mergeClassnames(
         isVertical &&
@@ -136,15 +166,26 @@ const FirstInsetInputRoot: React.FC<WithChildren<InsetInputProps>> = ({
   className,
   children,
   error: inputError,
+  disabled: inputDisabled,
+  readOnly: inputReadOnly,
   ...rest
 }) => {
-  const { orientation, error: groupError } = useGroupContext('FirstInsetInput');
+  const {
+    orientation,
+    error: groupError,
+    disabled: groupDisabled,
+    readOnly: groupReadOnly,
+  } = useGroupContext('FirstInsetInput');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
   const error = inputError || groupError;
+  const disabled = inputDisabled || groupDisabled;
+  const readOnly = inputReadOnly || groupReadOnly;
   return (
     <InsetInput
       error={error}
+      disabled={disabled}
+      readOnly={readOnly}
       className={mergeClassnames(
         isVertical &&
           !error &&
@@ -165,15 +206,26 @@ const LastInsetInputRoot: React.FC<WithChildren<InsetInputProps>> = ({
   className,
   children,
   error: inputError,
+  disabled: inputDisabled,
+  readOnly: inputReadOnly,
   ...rest
 }) => {
-  const { orientation, error: groupError } = useGroupContext('LastInsetInput');
+  const {
+    orientation,
+    error: groupError,
+    disabled: groupDisabled,
+    readOnly: groupReadOnly,
+  } = useGroupContext('LastInsetInput');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
   const error = inputError || groupError;
+  const disabled = inputDisabled || groupDisabled;
+  const readOnly = inputReadOnly || groupReadOnly;
   return (
     <InsetInput
       error={error}
+      disabled={disabled}
+      readOnly={readOnly}
       className={mergeClassnames(
         isVertical &&
           !error &&
@@ -200,15 +252,22 @@ const FirstSelect: React.FC<WithChildren<SelectProps>> = ({
   className,
   size,
   error: selectError,
+  disabled: selectDisabled,
   ...rest
 }) => {
-  const { orientation, error: groupError } = useGroupContext('FirstSelect');
+  const {
+    orientation,
+    error: groupError,
+    disabled: groupDisabled,
+  } = useGroupContext('FirstSelect');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
   const error = selectError || groupError;
+  const disabled = selectDisabled || groupDisabled;
   return (
     <Select
       error={error}
+      disabled={disabled}
       size={size}
       className={mergeClassnames(
         isVertical &&
@@ -231,15 +290,22 @@ const LastSelect: React.FC<WithChildren<SelectProps>> = ({
   className,
   size,
   error: selectError,
+  disabled: selectDisabled,
   ...rest
 }) => {
-  const { orientation, error: groupError } = useGroupContext('LastSelect');
+  const {
+    orientation,
+    error: groupError,
+    disabled: groupDisabled,
+  } = useGroupContext('LastSelect');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
   const error = selectError || groupError;
+  const disabled = selectDisabled || groupDisabled;
   return (
     <Select
       error={error}
+      disabled={disabled}
       size={size}
       className={mergeClassnames(
         isVertical &&
@@ -261,16 +327,22 @@ const FirstInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
   className,
   children,
   error: selectError,
+  disabled: selectDisabled,
   ...rest
 }) => {
-  const { orientation, error: groupError } =
-    useGroupContext('FirstInsetSelect');
+  const {
+    orientation,
+    error: groupError,
+    disabled: groupDisabled,
+  } = useGroupContext('FirstInsetSelect');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
   const error = selectError || groupError;
+  const disabled = selectDisabled || groupDisabled;
   return (
     <InsetSelect
       error={error}
+      disabled={disabled}
       className={mergeClassnames(
         isVertical &&
           !error &&
@@ -291,15 +363,22 @@ const LastInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
   className,
   children,
   error: selectError,
+  disabled: selectDisabled,
   ...rest
 }) => {
-  const { orientation, error: groupError } = useGroupContext('LastInsetSelect');
+  const {
+    orientation,
+    error: groupError,
+    disabled: groupDisabled,
+  } = useGroupContext('LastInsetSelect');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
   const error = selectError || groupError;
+  const disabled = selectDisabled || groupDisabled;
   return (
     <InsetSelect
       error={error}
+      disabled={disabled}
       className={mergeClassnames(
         isVertical &&
           !error &&

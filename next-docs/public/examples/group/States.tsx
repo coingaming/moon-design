@@ -7,14 +7,14 @@ const Example = () => (
       <Group.LastInput placeholder="Password" type="password" />
     </Group>
 
-    <Group>
-      <Group.FirstInput placeholder="Username" disabled />
-      <Group.LastInput placeholder="Password" type="password" disabled />
+    <Group disabled>
+      <Group.FirstInput placeholder="Username" />
+      <Group.LastInput placeholder="Password" type="password" />
     </Group>
 
-    <Group>
-      <Group.FirstInput placeholder="Username" readOnly />
-      <Group.LastInput placeholder="Password" type="password" readOnly />
+    <Group readOnly>
+      <Group.FirstInput placeholder="Username" />
+      <Group.LastInput placeholder="Password" type="password" />
     </Group>
   </div>
 );
