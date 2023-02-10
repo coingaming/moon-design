@@ -17,16 +17,17 @@ const ComponentPageDescription: React.FC<Props> = ({
   isAriaSupport,
   isRtlSupport,
   isInProgress,
+  isInDevelopment,
   isDeprecated,
   children,
 }) => {
   const isLabelsVisible =
     isDeprecated || isInProgress || isAriaSupport || isRtlSupport;
   return (
-    <div className="flex flex-col lg:flex-row gap-4">
+    <div className="flex flex-col gap-4 lg:flex-row">
       <div className="flex flex-col gap-12 lg:basis-1/2">
         <div className="flex flex-col gap-2">
-          <h1 className="text-moon-32 font-medium">{title}</h1>
+          <h1 className="font-medium text-moon-32">{title}</h1>
           {isLabelsVisible && (
             <div className="flex items-start gap-2">
               {isDeprecated && (
@@ -37,6 +38,11 @@ const ComponentPageDescription: React.FC<Props> = ({
               {isInProgress && (
                 <Tag size="2xs" bgColor="bg-krillin" color="text-popo">
                   In progress
+                </Tag>
+              )}
+              {isInDevelopment && (
+                <Tag size="2xs" bgColor="bg-chichi" color="text-popo">
+                  In Development - Do not use for production
                 </Tag>
               )}
               {isAriaSupport && (
@@ -57,7 +63,7 @@ const ComponentPageDescription: React.FC<Props> = ({
         </div>
       </div>
       {image && (
-        <div className="flex lg:basis-1/2 items-center justify-center h-80 rounded-moon-s-md overflow-hidden">
+        <div className="flex items-center justify-center overflow-hidden lg:basis-1/2 h-80 rounded-moon-s-md">
           <Image src={image} alt={title} />
         </div>
       )}

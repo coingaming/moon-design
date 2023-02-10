@@ -13,7 +13,7 @@ const Example = () => {
   const examples = useExamples('combobox');
   return (
     <>
-      <ComponentPageDescription title="Combobox" isInProgress>
+      <ComponentPageDescription title="Combobox" isRtlSupport isInDevelopment>
         <p>
           Comboboxes are the foundation of accessible autocompletes and command
           palettes for your app, complete with robust support for keyboard
