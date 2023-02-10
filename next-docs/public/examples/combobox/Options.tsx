@@ -4,7 +4,7 @@ import { useState } from 'react';
 const options = [
   { label: 'English', value: 'en', flag: '🇬🇧' },
   { label: 'Japanese', value: 'ja', flag: '🇯🇵' },
-  { label: 'Russian', value: 'ru', flag: '🇷🇺' },
+  { label: 'Ukrainian', value: 'ua', flag: '🇺🇦' },
   { label: 'Portuguese', value: 'pt', flag: '🇧🇷' },
   { label: 'Chinese', value: 'zh', flag: '🇨🇳' },
   { label: 'Spanish', value: 'es', flag: '🇪🇸' },
