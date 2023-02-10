@@ -16,7 +16,7 @@ function Input(
   ref: Ref<HTMLInputElement>
 ) {
   return (
-    <div className="flex items-center space-x-1.5 pl-3">
+    <div className="flex items-center space-x-1.5 pl-3 moon-search-input">
       <GenericSearch className="w-6 h-6 pointer-events-none text-bulma" />
 
       {prefix?.length

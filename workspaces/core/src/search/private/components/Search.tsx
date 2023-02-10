@@ -211,7 +211,7 @@ export function Search({
         >
           <div
             className={mergeClassnames(
-              'absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md',
+              'absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',
               isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm'
             )}
             tabIndex={-1}

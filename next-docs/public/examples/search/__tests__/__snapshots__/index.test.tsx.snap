@@ -11,7 +11,7 @@ exports[`Search in Dark Theme renders Default 1`] = `
       className="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-moon-s-sm"
     >
       <div
-        className="flex items-center space-x-1.5 pl-3"
+        className="flex items-center space-x-1.5 pl-3 moon-search-input"
       >
         <svg
           className="w-6 h-6 pointer-events-none text-bulma"
@@ -97,7 +97,7 @@ exports[`Search in Light Theme renders Default 1`] = `
       className="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-moon-s-sm"
     >
       <div
-        className="flex items-center space-x-1.5 pl-3"
+        className="flex items-center space-x-1.5 pl-3 moon-search-input"
       >
         <svg
           className="w-6 h-6 pointer-events-none text-bulma"
@@ -186,7 +186,7 @@ exports[`Search in RTL renders Default 1`] = `
         className="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-moon-s-sm"
       >
         <div
-          className="flex items-center space-x-1.5 pl-3"
+          className="flex items-center space-x-1.5 pl-3 moon-search-input"
         >
           <svg
             className="w-6 h-6 pointer-events-none text-bulma"
