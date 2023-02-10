@@ -42,7 +42,7 @@ const ComponentPageDescription: React.FC<Props> = ({
               )}
               {isInDevelopment && (
                 <Tag size="2xs" bgColor="bg-chichi" color="text-popo">
-                  In Development - Do not use for production
+                  In Development - Do not use in production
                 </Tag>
               )}
               {isAriaSupport && (
