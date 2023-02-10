@@ -1,0 +1,3339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select in Dark Theme renders Disabled 1`] = `
+<div
+  className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14 opacity-30 cursor-not-allowed"
+          htmlFor="headlessui-combobox-input-:r1o:"
+        >
+          Small
+        </label>
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={true}
+          id="headlessui-combobox-input-:r1o:"
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+        disabled={true}
+        id="headlessui-combobox-button-:r1p:"
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+          htmlFor="headlessui-combobox-input-:r1q:"
+        >
+          Medium
+        </label>
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={true}
+          id="headlessui-combobox-input-:r1q:"
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+        disabled={true}
+        id="headlessui-combobox-button-:r1r:"
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+          htmlFor="headlessui-combobox-input-:r1s:"
+        >
+          Large
+        </label>
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={true}
+          id="headlessui-combobox-input-:r1s:"
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+        disabled={true}
+        id="headlessui-combobox-button-:r1t:"
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="headlessui-combobox-input-:r1u:"
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          >
+            xLarge
+          </label>
+        </div>
+      </div>
+      <button
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+        disabled={true}
+        id="headlessui-combobox-button-:r1v:"
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders Error 1`] = `
+<div
+  className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          htmlFor="headlessui-combobox-input-:r20:"
+        >
+          Small
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r20:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r21:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:r22:"
+        >
+          Medium
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r22:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r23:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:r24:"
+        >
+          Large
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r24:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r25:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r26:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          >
+            xLarge
+          </label>
+        </div>
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+        disabled={false}
+        id="headlessui-combobox-button-:r27:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders Options 1`] = `
+<div
+  className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          htmlFor="headlessui-combobox-input-:r28:"
+        >
+          Small
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r28:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r29:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:r2a:"
+        >
+          Medium
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r2a:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r2b:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:r2c:"
+        >
+          Large
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r2c:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r2d:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r2e:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          >
+            xLarge
+          </label>
+        </div>
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+        disabled={false}
+        id="headlessui-combobox-button-:r2f:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders WithLabel 1`] = `
+<div
+  className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          htmlFor="headlessui-combobox-input-:r18:"
+        >
+          Small
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r18:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r19:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:r1a:"
+        >
+          Medium
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r1a:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r1b:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:r1c:"
+        >
+          Large
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r1c:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r1d:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r1e:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          >
+            xLarge
+          </label>
+        </div>
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+        disabled={false}
+        id="headlessui-combobox-button-:r1f:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Dark Theme renders WithoutLabel 1`] = `
+<div
+  className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r1g:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-2 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r1h:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r1i:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-2 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r1j:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r1k:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-3 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r1l:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r1m:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          />
+        </div>
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 end-4 top-4 end-4"
+        disabled={false}
+        id="headlessui-combobox-button-:r1n:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders Disabled 1`] = `
+<div
+  className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14 opacity-30 cursor-not-allowed"
+          htmlFor="headlessui-combobox-input-:rg:"
+        >
+          Small
+        </label>
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={true}
+          id="headlessui-combobox-input-:rg:"
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+        disabled={true}
+        id="headlessui-combobox-button-:rh:"
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+          htmlFor="headlessui-combobox-input-:ri:"
+        >
+          Medium
+        </label>
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={true}
+          id="headlessui-combobox-input-:ri:"
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+        disabled={true}
+        id="headlessui-combobox-button-:rj:"
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+          htmlFor="headlessui-combobox-input-:rk:"
+        >
+          Large
+        </label>
+        <input
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={true}
+          id="headlessui-combobox-input-:rk:"
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+        disabled={true}
+        id="headlessui-combobox-button-:rl:"
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="headlessui-combobox-input-:rm:"
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          >
+            xLarge
+          </label>
+        </div>
+      </div>
+      <button
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+        disabled={true}
+        id="headlessui-combobox-button-:rn:"
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders Error 1`] = `
+<div
+  className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          htmlFor="headlessui-combobox-input-:ro:"
+        >
+          Small
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:ro:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:rp:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:rq:"
+        >
+          Medium
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:rq:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:rr:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:rs:"
+        >
+          Large
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:rs:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:rt:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:ru:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          >
+            xLarge
+          </label>
+        </div>
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+        disabled={false}
+        id="headlessui-combobox-button-:rv:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders Options 1`] = `
+<div
+  className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          htmlFor="headlessui-combobox-input-:r10:"
+        >
+          Small
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r10:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r11:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:r12:"
+        >
+          Medium
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r12:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r13:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:r14:"
+        >
+          Large
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r14:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r15:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r16:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          >
+            xLarge
+          </label>
+        </div>
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+        disabled={false}
+        id="headlessui-combobox-button-:r17:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders WithLabel 1`] = `
+<div
+  className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          htmlFor="headlessui-combobox-input-:r0:"
+        >
+          Small
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r0:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r1:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:r2:"
+        >
+          Medium
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r2:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r3:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          htmlFor="headlessui-combobox-input-:r4:"
+        >
+          Large
+        </label>
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r4:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r5:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r6:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          >
+            xLarge
+          </label>
+        </div>
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+        disabled={false}
+        id="headlessui-combobox-button-:r7:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in Light Theme renders WithoutLabel 1`] = `
+<div
+  className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:r8:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-2 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:r9:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:ra:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-2 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:rb:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+      >
+        <input
+          aria-expanded={false}
+          className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+          disabled={false}
+          id="headlessui-combobox-input-:rc:"
+          onChange={[Function]}
+          onKeyDown={[Function]}
+          placeholder="Choose an option"
+          role="combobox"
+          type="text"
+        />
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-3 end-2"
+        disabled={false}
+        id="headlessui-combobox-button-:rd:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+      >
+        <div
+          className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+        >
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:re:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+          <label
+            className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+          />
+        </div>
+      </div>
+      <button
+        aria-expanded={false}
+        aria-haspopup={true}
+        className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 end-4 top-4 end-4"
+        disabled={false}
+        id="headlessui-combobox-button-:rf:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        tabIndex={-1}
+        type="button"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M22 13l-6 6-6-6"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders Disabled 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+  >
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-14 opacity-30 cursor-not-allowed"
+            htmlFor="headlessui-combobox-input-:r30:"
+          >
+            Small
+          </label>
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="headlessui-combobox-input-:r30:"
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+          disabled={true}
+          id="headlessui-combobox-button-:r31:"
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+            htmlFor="headlessui-combobox-input-:r32:"
+          >
+            Medium
+          </label>
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="headlessui-combobox-input-:r32:"
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+          disabled={true}
+          id="headlessui-combobox-button-:r33:"
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+            htmlFor="headlessui-combobox-input-:r34:"
+          >
+            Large
+          </label>
+          <input
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={true}
+            id="headlessui-combobox-input-:r34:"
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+          disabled={true}
+          id="headlessui-combobox-button-:r35:"
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 opacity-30 cursor-not-allowed rounded-moon-i-sm"
+        >
+          <div
+            className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+          >
+            <input
+              className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+              disabled={true}
+              id="headlessui-combobox-input-:r36:"
+              placeholder="Choose an option"
+              role="combobox"
+              type="text"
+            />
+            <label
+              className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+            >
+              xLarge
+            </label>
+          </div>
+        </div>
+        <button
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+          disabled={true}
+          id="headlessui-combobox-button-:r37:"
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders Error 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+  >
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-14"
+            htmlFor="headlessui-combobox-input-:r38:"
+          >
+            Small
+          </label>
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r38:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r39:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-16"
+            htmlFor="headlessui-combobox-input-:r3a:"
+          >
+            Medium
+          </label>
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r3a:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r3b:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-16"
+            htmlFor="headlessui-combobox-input-:r3c:"
+          >
+            Large
+          </label>
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r3c:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r3d:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+        >
+          <div
+            className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+          >
+            <input
+              aria-expanded={false}
+              className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] focus:outline-none shadow-input-err hover:shadow-input-err focus:shadow-input-err bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+              disabled={false}
+              id="headlessui-combobox-input-:r3e:"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Choose an option"
+              role="combobox"
+              type="text"
+            />
+            <label
+              className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+            >
+              xLarge
+            </label>
+          </div>
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+          disabled={false}
+          id="headlessui-combobox-button-:r3f:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders Options 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+  >
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-14"
+            htmlFor="headlessui-combobox-input-:r3g:"
+          >
+            Small
+          </label>
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r3g:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r3h:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-16"
+            htmlFor="headlessui-combobox-input-:r3i:"
+          >
+            Medium
+          </label>
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r3i:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r3j:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-16"
+            htmlFor="headlessui-combobox-input-:r3k:"
+          >
+            Large
+          </label>
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r3k:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r3l:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+        >
+          <div
+            className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+          >
+            <input
+              aria-expanded={false}
+              className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+              disabled={false}
+              id="headlessui-combobox-input-:r3m:"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Choose an option"
+              role="combobox"
+              type="text"
+            />
+            <label
+              className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+            >
+              xLarge
+            </label>
+          </div>
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+          disabled={false}
+          id="headlessui-combobox-button-:r3n:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders WithLabel 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+  >
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-14"
+            htmlFor="headlessui-combobox-input-:r2g:"
+          >
+            Small
+          </label>
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r2g:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-10 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r2h:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-16"
+            htmlFor="headlessui-combobox-input-:r2i:"
+          >
+            Medium
+          </label>
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r2i:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-10 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r2j:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <label
+            className="block text-bulma pb-2 text-moon-16"
+            htmlFor="headlessui-combobox-input-:r2k:"
+          >
+            Large
+          </label>
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r2k:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-11 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r2l:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+        >
+          <div
+            className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+          >
+            <input
+              aria-expanded={false}
+              className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-xl pt-[1.125rem] input-xl-dt-label input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+              disabled={false}
+              id="headlessui-combobox-input-:r2m:"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Choose an option"
+              role="combobox"
+              type="text"
+            />
+            <label
+              className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+            >
+              xLarge
+            </label>
+          </div>
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-4 end-4"
+          disabled={false}
+          id="headlessui-combobox-button-:r2n:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select in RTL renders WithoutLabel 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col items-end justify-around w-full gap-2 lg:flex-row"
+  >
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-8 leading-8 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r2o:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-16 top-2 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r2p:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-10 leading-10 rounded-moon-i-xs hover:rounded-moon-i-xs focus:rounded-moon-i-xs invalid:rounded-moon-i-xs before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r2q:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-2 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r2r:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-xs"
+        >
+          <input
+            aria-expanded={false}
+            className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-gohan h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+            disabled={false}
+            id="headlessui-combobox-input-:r2s:"
+            onChange={[Function]}
+            onKeyDown={[Function]}
+            placeholder="Choose an option"
+            role="combobox"
+            type="text"
+          />
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 top-3 end-2"
+          disabled={false}
+          id="headlessui-combobox-button-:r2t:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          className="w-full max-w-full relative z-0 rounded-moon-i-sm"
+        >
+          <div
+            className="w-full max-w-full relative bg-gohan rounded-moon-i-sm"
+          >
+            <input
+              aria-expanded={false}
+              className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none bg-transparent h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-xl-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
+              disabled={false}
+              id="headlessui-combobox-input-:r2u:"
+              onChange={[Function]}
+              onKeyDown={[Function]}
+              placeholder="Choose an option"
+              role="combobox"
+              type="text"
+            />
+            <label
+              className="absolute text-[0.75rem] leading-3 text-trunks top-3 z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4"
+            />
+          </div>
+        </div>
+        <button
+          aria-expanded={false}
+          aria-haspopup={true}
+          className="text-bulma absolute flex-shrink-0 transition-transform text-moon-24 end-4 top-4 end-4"
+          disabled={false}
+          id="headlessui-combobox-button-:r2v:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          tabIndex={-1}
+          type="button"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M22 13l-6 6-6-6"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
