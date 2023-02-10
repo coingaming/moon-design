@@ -1,5 +1,13 @@
 # @heathmont/moon-table-tw
 
+## 9.21.2
+
+### Patch Changes
+
+- Bump patch version
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.21.2
+
 ## 9.21.1
 
 ### Patch Changes
