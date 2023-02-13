@@ -75,8 +75,8 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
               error &&
                 'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
               'h-14 leading-[3.5rem] rounded-moon-i-sm',
-              'rtl:hover:rounded-moon-i-sm rtl:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm',
-              'ltr:hover:rounded-moon-i-sm ltr:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm',
+              'rtl:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm',
+              'ltr:[&:not([disabled])]:[&:not([readonly])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:[&:not([readonly])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm',
               'before:box-border after:box-border',
               'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
               'read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input',
@@ -89,7 +89,8 @@ const InsetInputRoot = forwardRef<HTMLInputElement, InsetInputProps>(
               type === 'datetime-local' && isRtl && 'input-dt-local-rtl',
               'input-xl-dt-shared',
               isLabel && 'input-xl pt-[1.125rem] input-xl-dt-label',
-              'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err'
+              'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err',
+              disabled && 'opacity-30 cursor-not-allowed'
             )}
             {...rest}
           />

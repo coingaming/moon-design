@@ -72,7 +72,8 @@ const GroupRoot: GroupComponentProps = ({
           orientation === 'vertical' &&
             !error &&
             'after:content-[""] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3]',
-          (!disabled || !readOnly) &&
+          !disabled &&
+            !readOnly &&
             'hover:after:hidden focus-within:after:hidden',
           className && className
         )}
@@ -253,21 +254,25 @@ const FirstSelect: React.FC<WithChildren<SelectProps>> = ({
   size,
   error: selectError,
   disabled: selectDisabled,
+  readOnly: selectReadOnly,
   ...rest
 }) => {
   const {
     orientation,
     error: groupError,
     disabled: groupDisabled,
+    readOnly: groupReadOnly,
   } = useGroupContext('FirstSelect');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
   const error = selectError || groupError;
   const disabled = selectDisabled || groupDisabled;
+  const readOnly = selectReadOnly || groupReadOnly;
   return (
     <Select
       error={error}
       disabled={disabled}
+      readOnly={readOnly}
       size={size}
       className={mergeClassnames(
         isVertical &&
@@ -291,21 +296,25 @@ const LastSelect: React.FC<WithChildren<SelectProps>> = ({
   size,
   error: selectError,
   disabled: selectDisabled,
+  readOnly: selectReadOnly,
   ...rest
 }) => {
   const {
     orientation,
     error: groupError,
     disabled: groupDisabled,
+    readOnly: groupReadOnly,
   } = useGroupContext('LastSelect');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
   const error = selectError || groupError;
   const disabled = selectDisabled || groupDisabled;
+  const readOnly = selectReadOnly || groupReadOnly;
   return (
     <Select
       error={error}
       disabled={disabled}
+      readOnly={readOnly}
       size={size}
       className={mergeClassnames(
         isVertical &&
@@ -328,21 +337,25 @@ const FirstInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
   children,
   error: selectError,
   disabled: selectDisabled,
+  readOnly: selectReadOnly,
   ...rest
 }) => {
   const {
     orientation,
     error: groupError,
     disabled: groupDisabled,
+    readOnly: groupReadOnly,
   } = useGroupContext('FirstInsetSelect');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
   const error = selectError || groupError;
   const disabled = selectDisabled || groupDisabled;
+  const readOnly = selectReadOnly || groupReadOnly;
   return (
     <InsetSelect
       error={error}
       disabled={disabled}
+      readOnly={readOnly}
       className={mergeClassnames(
         isVertical &&
           !error &&
@@ -364,21 +377,25 @@ const LastInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
   children,
   error: selectError,
   disabled: selectDisabled,
+  readOnly: selectReadOnly,
   ...rest
 }) => {
   const {
     orientation,
     error: groupError,
     disabled: groupDisabled,
+    readOnly: groupReadOnly,
   } = useGroupContext('LastInsetSelect');
   const isVertical = orientation === 'vertical';
   const isHorizontal = orientation === 'horizontal';
   const error = selectError || groupError;
   const disabled = selectDisabled || groupDisabled;
+  const readOnly = selectReadOnly || groupReadOnly;
   return (
     <InsetSelect
       error={error}
       disabled={disabled}
+      readOnly={readOnly}
       className={mergeClassnames(
         isVertical &&
           !error &&

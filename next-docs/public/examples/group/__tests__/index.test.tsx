@@ -10,8 +10,9 @@ import {
   ThemeProvider,
 } from '@heathmont/moon-themes';
 import Default from '../Default';
+import Direction from '../Direction';
 import Sizes from '../Sizes';
-import Types from '../Variant';
+import Variant from '../Variant';
 import States from '../States';
 
 const renderWithLightTheme = (component: JSX.Element) => (
@@ -29,6 +30,10 @@ describe('Input in Light Theme', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<Default />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+  it('renders Direction', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Direction />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
   it('renders Sizes', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<Sizes />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
@@ -37,8 +42,8 @@ describe('Input in Light Theme', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<States />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Types', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Types />));
+  it('renders Variant', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Variant />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
@@ -46,6 +51,10 @@ describe('Input in Light Theme', () => {
 describe('Input in Dark Theme', () => {
   it('renders Default', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Direction', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Direction />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Sizes', () => {
@@ -56,8 +65,8 @@ describe('Input in Dark Theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<States />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Types', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Types />));
+  it('renders Variant', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Variant />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
@@ -65,6 +74,10 @@ describe('Input in Dark Theme', () => {
 describe('Input in RTL', () => {
   it('renders Default', () => {
     const testRenderer = renderer.create(renderWithRtl(<Default />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  it('renders Direction', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Direction />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Sizes', () => {
@@ -75,8 +88,8 @@ describe('Input in RTL', () => {
     const testRenderer = renderer.create(renderWithRtl(<States />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
-  it('renders Types', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Types />));
+  it('renders Variant', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Variant />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

@@ -12,6 +12,7 @@ export interface InsetSelectProps
   error?: boolean;
   disabled?: boolean;
   label?: React.ReactNode | string;
+  readOnly?: boolean;
 }
 
 const InsetSelect = forwardRef<
@@ -26,6 +27,7 @@ const InsetSelect = forwardRef<
       size: selectSize,
       error: selectError,
       disabled: selectDisabled,
+      readOnly,
       ...rest
     },
     ref
@@ -45,12 +47,13 @@ const InsetSelect = forwardRef<
         className={mergeClassnames(
           'w-full max-w-full relative bg-transparent rounded-moon-i-sm',
           disabled && 'opacity-30 cursor-not-allowed',
+          readOnly && 'cursor-not-allowed',
           className && className
         )}
       >
         <select
           ref={ref}
-          disabled={disabled}
+          disabled={disabled || readOnly}
           className={mergeClassnames(
             'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2]',
             'bg-transparent shadow-input hover:shadow-input-hov',
@@ -58,13 +61,13 @@ const InsetSelect = forwardRef<
             error &&
               'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
             'h-14 rounded-moon-i-sm',
-            'rtl:hover:rounded-moon-i-sm rtl:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm',
-            'ltr:hover:rounded-moon-i-sm ltr:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm',
+            'rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm',
+            'ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm',
             'before:box-border after:box-border',
             'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
-            'rtl:hover:rounded-moon-i-sm rtl:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:hover:rounded-moon-i-sm ltr:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm',
             'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err',
-            'pt-[1.125rem]'
+            'pt-[1.125rem]',
+            (disabled || readOnly) && 'cursor-not-allowed hover:shadow-input'
           )}
           {...rest}
         >

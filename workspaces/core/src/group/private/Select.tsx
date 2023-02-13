@@ -12,6 +12,7 @@ export interface SelectProps
   size?: 'sm' | 'md' | 'lg';
   error?: boolean;
   disabled?: boolean;
+  readOnly?: boolean;
 }
 const Select = forwardRef<HTMLSelectElement, WithChildren<SelectProps>>(
   (
@@ -21,6 +22,7 @@ const Select = forwardRef<HTMLSelectElement, WithChildren<SelectProps>>(
       size: selectSize,
       error: selectError,
       disabled: selectDisabled,
+      readOnly,
       ...rest
     },
     ref
@@ -40,12 +42,13 @@ const Select = forwardRef<HTMLSelectElement, WithChildren<SelectProps>>(
         className={mergeClassnames(
           'block relative w-full',
           disabled && 'opacity-30 cursor-not-allowed',
+          readOnly && 'cursor-not-allowed',
           className && className
         )}
       >
         <select
           ref={ref}
-          disabled={disabled}
+          disabled={disabled || readOnly}
           className={mergeClassnames(
             'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer',
             'bg-gohan shadow-input hover:shadow-input-hov',
@@ -55,7 +58,8 @@ const Select = forwardRef<HTMLSelectElement, WithChildren<SelectProps>>(
             'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err',
             getSizeStyles(size as string),
             'before:box-border after:box-border',
-            'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75'
+            'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
+            (disabled || readOnly) && 'cursor-not-allowed hover:shadow-input'
           )}
           {...rest}
         >
