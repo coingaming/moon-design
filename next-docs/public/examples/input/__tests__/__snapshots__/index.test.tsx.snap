@@ -15,7 +15,7 @@ exports[`Input in Dark Theme renders Sizes 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-14"
-      for="test-1"
+      htmlFor="test-1"
     >
       Small (sm)
     </label>
@@ -31,7 +31,7 @@ exports[`Input in Dark Theme renders Sizes 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-16"
-      for="test-2"
+      htmlFor="test-2"
     >
       Medium (Default: md)
     </label>
@@ -47,29 +47,13 @@ exports[`Input in Dark Theme renders Sizes 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-16"
-      for="test-3"
+      htmlFor="test-3"
     >
       Large (lg)
     </label>
     <input
       className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
       id="test-3"
-      placeholder="Placeholder"
-      type="text"
-    />
-  </div>
-  <div
-    className="w-full"
-  >
-    <label
-      className="w-full block text-bulma pb-2 text-moon-16"
-      for="test-4"
-    >
-      Xlarge (xl)
-    </label>
-    <input
-      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-      id="test-4"
       placeholder="Placeholder"
       type="text"
     />
@@ -226,7 +210,7 @@ exports[`Input in Dark Theme renders different states 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
-      for="dis-1"
+      htmlFor="dis-1"
     >
       Label
     </label>
@@ -249,7 +233,7 @@ exports[`Input in Dark Theme renders different states 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-16"
-      for="err-1"
+      htmlFor="err-1"
     >
       Label
     </label>
@@ -271,7 +255,7 @@ exports[`Input in Dark Theme renders different states 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-16"
-      for="dis-1"
+      htmlFor="dis-1"
     >
       Label
     </label>
@@ -302,7 +286,7 @@ exports[`Input in Dark Theme renders with custom styles 1`] = `
   >
     <label
       className="w-full block pb-2 text-moon-16 text-piccolo"
-      for="c-1"
+      htmlFor="c-1"
     >
       Medium (Default: md)
     </label>
@@ -337,7 +321,7 @@ exports[`Input in Light Theme renders Sizes 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-14"
-      for="test-1"
+      htmlFor="test-1"
     >
       Small (sm)
     </label>
@@ -353,7 +337,7 @@ exports[`Input in Light Theme renders Sizes 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-16"
-      for="test-2"
+      htmlFor="test-2"
     >
       Medium (Default: md)
     </label>
@@ -369,29 +353,13 @@ exports[`Input in Light Theme renders Sizes 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-16"
-      for="test-3"
+      htmlFor="test-3"
     >
       Large (lg)
     </label>
     <input
       className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
       id="test-3"
-      placeholder="Placeholder"
-      type="text"
-    />
-  </div>
-  <div
-    className="w-full"
-  >
-    <label
-      className="w-full block text-bulma pb-2 text-moon-16"
-      for="test-4"
-    >
-      Xlarge (xl)
-    </label>
-    <input
-      className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-      id="test-4"
       placeholder="Placeholder"
       type="text"
     />
@@ -548,7 +516,7 @@ exports[`Input in Light Theme renders different states 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
-      for="dis-1"
+      htmlFor="dis-1"
     >
       Label
     </label>
@@ -571,7 +539,7 @@ exports[`Input in Light Theme renders different states 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-16"
-      for="err-1"
+      htmlFor="err-1"
     >
       Label
     </label>
@@ -593,7 +561,7 @@ exports[`Input in Light Theme renders different states 1`] = `
   >
     <label
       className="w-full block text-bulma pb-2 text-moon-16"
-      for="dis-1"
+      htmlFor="dis-1"
     >
       Label
     </label>
@@ -624,7 +592,7 @@ exports[`Input in Light Theme renders with custom styles 1`] = `
   >
     <label
       className="w-full block pb-2 text-moon-16 text-piccolo"
-      for="c-1"
+      htmlFor="c-1"
     >
       Medium (Default: md)
     </label>
@@ -666,7 +634,7 @@ exports[`Input in RTL renders Sizes 1`] = `
     >
       <label
         className="w-full block text-bulma pb-2 text-moon-14"
-        for="test-1"
+        htmlFor="test-1"
       >
         Small (sm)
       </label>
@@ -682,7 +650,7 @@ exports[`Input in RTL renders Sizes 1`] = `
     >
       <label
         className="w-full block text-bulma pb-2 text-moon-16"
-        for="test-2"
+        htmlFor="test-2"
       >
         Medium (Default: md)
       </label>
@@ -698,29 +666,13 @@ exports[`Input in RTL renders Sizes 1`] = `
     >
       <label
         className="w-full block text-bulma pb-2 text-moon-16"
-        for="test-3"
+        htmlFor="test-3"
       >
         Large (lg)
       </label>
       <input
         className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 leading-[3rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-lg-dt-shared input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
         id="test-3"
-        placeholder="Placeholder"
-        type="text"
-      />
-    </div>
-    <div
-      className="w-full"
-    >
-      <label
-        className="w-full block text-bulma pb-2 text-moon-16"
-        for="test-4"
-      >
-        Xlarge (xl)
-      </label>
-      <input
-        className="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-gohan shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 leading-[3.5rem] rounded-moon-i-sm hover:rounded-moon-i-sm focus:rounded-moon-i-sm invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 read-only:outline-0 read-only:border-none read-only:cursor-not-allowed read-only:hover:shadow-input read-only:focus:shadow-input input-dt-shared invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err"
-        id="test-4"
         placeholder="Placeholder"
         type="text"
       />
@@ -883,7 +835,7 @@ exports[`Input in RTL renders different states 1`] = `
     >
       <label
         className="w-full block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
-        for="dis-1"
+        htmlFor="dis-1"
       >
         Label
       </label>
@@ -906,7 +858,7 @@ exports[`Input in RTL renders different states 1`] = `
     >
       <label
         className="w-full block text-bulma pb-2 text-moon-16"
-        for="err-1"
+        htmlFor="err-1"
       >
         Label
       </label>
@@ -928,7 +880,7 @@ exports[`Input in RTL renders different states 1`] = `
     >
       <label
         className="w-full block text-bulma pb-2 text-moon-16"
-        for="dis-1"
+        htmlFor="dis-1"
       >
         Label
       </label>
@@ -963,7 +915,7 @@ exports[`Input in RTL renders with custom styles 1`] = `
     >
       <label
         className="w-full block pb-2 text-moon-16 text-piccolo"
-        for="c-1"
+        htmlFor="c-1"
       >
         Medium (Default: md)
       </label>

@@ -1,5 +1,51 @@
 # @heathmont/moon-core-tw
 
+## 9.21.2
+
+### Patch Changes
+
+- Bump patch version
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.21.2
+
+## 9.21.1
+
+### Patch Changes
+
+- Bump patch
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.21.1
+
+## 9.21.0
+
+### Minor Changes
+
+- Add Search
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.21.0
+
+## 9.20.1
+
+### Patch Changes
+
+- Bump fixes
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.20.1
+
+## 9.20.0
+
+### Minor Changes
+
+- Bump minor version
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.20.0
+
 ## 9.19.0
 
 ### Minor Changes

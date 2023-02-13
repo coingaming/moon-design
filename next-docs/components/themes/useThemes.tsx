@@ -1,31 +1,28 @@
 import React, { useEffect } from 'react';
 import isStorageAvailable from '../../utils/isStorageAvailable';
 
-interface ColorModes {
+type ColorModes = {
   dark: string;
   light: string;
-}
+};
 
-interface Themes {
+type Themes = {
   sportsbet: ColorModes;
   bitcasino: ColorModes;
   betadda: ColorModes;
   moonDesign: ColorModes;
-  // luckyslots: ColorModes;
-  // livecasino: ColorModes;
-  // bombay: ColorModes;
-  // hub88: ColorModes;
-  // aposta10: ColorModes;
-  // missionsTool: ColorModes;
-  // slots: ColorModes;
-  // moneyball: ColorModes;
-  // comms: ColorModes;
-  // shangrila: ColorModes;
-  // empire: ColorModes;
-  // tajCasino: ColorModes;
-}
+  bombay: ColorModes;
+  empire: ColorModes;
+  lab: ColorModes;
+  livecasino: ColorModes;
+  partners: ColorModes;
+  tradeart: ColorModes;
+  hub88: ColorModes;
+  travel: ColorModes;
+  comms: ColorModes;
+};
 
-const themes: Themes = {
+export const themes: Themes = {
   sportsbet: {
     dark: 'theme-sb-dark',
     light: 'theme-sb-light',
@@ -42,60 +39,48 @@ const themes: Themes = {
     dark: 'theme-moon-dark',
     light: 'theme-moon-light',
   },
-  //   slots: {
-  //     dark: slotsDark,
-  //     light: slotsLight,
-  //   },
-  //   luckyslots: {
-  //     dark: luckyslots,
-  //     light: luckyslots,
-  //   },
-  //   livecasino: {
-  //     dark: livecasinoDark,
-  //     light: livecasinoLight,
-  //   },
-  //   bombay: {
-  //     dark: bombayClub,
-  //     light: bombayClub,
-  //   },
-  //   hub88: {
-  //     dark: hub88,
-  //     light: hub88,
-  //   },
-  //   aposta10: {
-  //     dark: aposta10Dark,
-  //     light: aposta10Light,
-  //   },
-  //   missionsTool: {
-  //     dark: missionsToolDark,
-  //     light: missionsToolLight,
-  //   },
-  //   moneyball: {
-  //     dark: moneyballDark,
-  //     light: moneyballLight,
-  //   },
-  //   comms: {
-  //     dark: commsDark,
-  //     light: commsLight,
-  //   },
-  //   shangrila: {
-  //     dark: shangrilaDark,
-  //     light: shangrilaLight,
-  //   },
-  //   empire: {
-  //     dark: empireDark,
-  //     light: empireLight,
-  //   },
-  //   tajCasino: {
-  //     dark: tajCasinoDark,
-  //     light: tajCasinoLight,
-  //   },
+  bombay: {
+    dark: 'theme-bombay-club',
+    light: 'theme-bombay-club',
+  },
+  empire: {
+    dark: 'theme-empire-dark',
+    light: 'theme-empire-light',
+  },
+  lab: {
+    dark: 'theme-lab-light',
+    light: 'theme-lab-light',
+  },
+  livecasino: {
+    dark: 'theme-livecasino-dark',
+    light: 'theme-livecasino-light',
+  },
+  partners: {
+    dark: 'theme-partners-light',
+    light: 'theme-partners-light',
+  },
+  tradeart: {
+    dark: 'theme-tradeart-dark',
+    light: 'theme-tradeart-light',
+  },
+  hub88: {
+    dark: 'theme-hub88-light',
+    light: 'theme-hub88-light',
+  },
+  travel: {
+    dark: 'theme-travel-light',
+    light: 'theme-travel-light',
+  },
+  comms: {
+    dark: 'theme-comms-dark',
+    light: 'theme-comms-light',
+  },
 };
 
 export type Brand = keyof Themes;
 export type Mode = keyof ColorModes;
 
-const useThemeTW = () => {
+const useTheme = () => {
   const [themeState, setThemeState] = React.useState({
     brand: 'moonDesign' as Brand,
     colorMode: 'light' as Mode,
@@ -117,20 +102,28 @@ const useThemeTW = () => {
       });
       previewElements[i].className += ` ${className}`;
     }
-    localStorage.setItem('themeCN', className);
+    localStorage.setItem('theme', className);
   };
 
   const getTheme = () => {
     if (!isStorageAvailable('localStorage')) {
       return '';
     }
-    const theme = localStorage.getItem('themeCN');
-    return theme;
+    return localStorage.getItem('theme');
+  };
+
+  const getBrand = () => {
+    if (!isStorageAvailable('localStorage')) {
+      return '';
+    }
+    return localStorage.getItem('brand');
   };
 
   useEffect(() => {
     const theme = getTheme();
+    const brand = getBrand();
     setTheme(theme || 'theme-moon-light');
+    setBrand((brand || 'moonDesign') as Brand);
   }, []);
 
   /**
@@ -165,14 +158,16 @@ const useThemeTW = () => {
       brand: brand,
       colorMode: themeState.colorMode,
     });
+    localStorage.setItem('brand', brand);
   };
 
   return {
     setBrand,
+    getBrand,
     toggleMode,
     getTheme,
     getMode,
   };
 };
 
-export default useThemeTW;
+export default useTheme;

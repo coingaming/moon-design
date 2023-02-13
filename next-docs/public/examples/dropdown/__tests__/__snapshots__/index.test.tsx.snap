@@ -5,21 +5,21 @@ exports[`Dropdown in Dark Theme renders Default 1`] = `
   className="w-56 h-80"
 >
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r15:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r1t:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <span
             className="p-2 cursor-pointer hover:text-piccolo"
           >
@@ -27,210 +27,512 @@ exports[`Dropdown in Dark Theme renders Default 1`] = `
           </span>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
     </div>
   </div>
 </div>
 `;
 
-exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
+exports[`Dropdown in Dark Theme renders InsetMultiSelect 1`] = `
 <div
-  className="flex flex-col lg:flex-row align-middle justify-around items-center w-full gap-2"
+  className="flex w-full max-w-sm items-center"
 >
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r1d:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <button
-            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r32:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
           >
-            Sort by
-          </button>
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md [&_>_span]:gap-4"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r33:"
+                    onClick={[Function]}
+                  >
+                    Select label
+                  </label>
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Choose an option
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r1f:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <button
-            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-          >
-            Select language
-          </button>
-        </div>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r1h:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <button
-            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-          >
-            Select countries
-          </button>
-        </div>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
     </div>
   </div>
 </div>
 `;
 
-exports[`Dropdown in Dark Theme renders Select 1`] = `
+exports[`Dropdown in Dark Theme renders InsetSelect 1`] = `
+<div
+  className="flex w-full max-w-sm items-center z-0"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r2v:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r30:"
+                    onClick={[Function]}
+                  >
+                    Select label
+                  </label>
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Choose an option
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-start w-full gap-2"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r35:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r36:"
+                    onClick={[Function]}
+                  >
+                    Error
+                  </label>
+                  <span
+                    className="text-moon-16 text-bulma"
+                  >
+                    Devon Webb
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-haspopup={true}
+        disabled={true}
+        id="headlessui-listbox-button-:r38:"
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r39:"
+                    onClick={[Function]}
+                  >
+                    Disabled
+                  </label>
+                  <span
+                    className="text-moon-16 text-bulma"
+                  >
+                    Wade Cooper
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r3b:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r3c:"
+                    onClick={[Function]}
+                  />
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Without Label and Hint message
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r3e:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r3f:"
+                    onClick={[Function]}
+                  >
+                    List options width
+                  </label>
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Choose an option
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
 <div
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
-        id="headlessui-listbox-label-:r1j:"
+        id="headlessui-listbox-label-:r3h:"
         onClick={[Function]}
       >
         Small
       </label>
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r1k:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r3i:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
-              data-test="data-test"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
               open={false}
             >
               <span
                 className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
               >
                 <span
-                  className="text-moon-14 text-trunks"
+                  className="flex gap-2 items-center"
                 >
-                  Choose an option
+                  <span
+                    className="text-moon-14 text-trunks"
+                  >
+                    Choose an option
+                  </span>
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M22 13l-6 6-6-6"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -240,28 +542,28 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
-        id="headlessui-listbox-label-:r1m:"
+        id="headlessui-listbox-label-:r3k:"
         onClick={[Function]}
       >
         Medium
       </label>
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r1n:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r3l:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
@@ -274,44 +576,34 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
                 className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
               >
                 <span
-                  className="text-moon-16 text-trunks"
+                  className="flex gap-2 items-center"
                 >
-                  Choose an option
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Choose an option
+                  </span>
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -321,78 +613,222 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
-        id="headlessui-listbox-label-:r1p:"
+        id="headlessui-listbox-label-:r3n:"
         onClick={[Function]}
       >
         Large
       </label>
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r1q:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r3o:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
-              data-test="data-test"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
               open={false}
             >
               <span
                 className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
               >
                 <span
-                  className="text-moon-16 text-trunks"
+                  className="flex gap-2 items-center"
                 >
-                  Choose an option
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Choose an option
+                  </span>
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
+<div
+  className="flex flex-col lg:flex-row align-middle justify-around items-center w-full gap-2"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
       <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r25:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <button
+            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Sort by
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r27:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <button
+            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Select language
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r29:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <button
+            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Select countries
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in Dark Theme renders Select 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:r2b:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r2c:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+              open={false}
+            >
+              <span
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <span
+                  className="text-moon-14 text-trunks"
+                >
+                  Choose an option
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -402,78 +838,129 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r1s:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r2e:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r2f:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
-              data-test="data-test"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
               open={false}
             >
               <span
                 className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
               >
-                <label
-                  className="block text-moon-12 text-trunks"
-                  id="headlessui-listbox-label-:r1t:"
-                  onClick={[Function]}
-                >
-                  xLarge
-                </label>
                 <span
                   className="text-moon-16 text-trunks"
                 >
                   Choose an option
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r2h:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
       <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r2i:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+              open={false}
+            >
+              <span
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <span
+                  className="text-moon-16 text-trunks"
+                >
+                  Choose an option
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -490,28 +977,28 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
   className="flex flex-col lg:flex-row justify-around items-center w-full gap-2"
 >
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
-        id="headlessui-listbox-label-:r1v:"
+        id="headlessui-listbox-label-:r2k:"
         onClick={[Function]}
       >
         Error
       </label>
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r20:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r2l:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
@@ -528,39 +1015,25 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
                   Devon Webb
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
@@ -570,24 +1043,24 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
       <label
         className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
-        id="headlessui-listbox-label-:r22:"
+        id="headlessui-listbox-label-:r2n:"
         onClick={[Function]}
       >
         Disabled
       </label>
-      <div>
-        <div
-          aria-haspopup={true}
-          disabled={true}
-          id="headlessui-listbox-button-:r23:"
-        >
+      <div
+        aria-haspopup={true}
+        disabled={true}
+        id="headlessui-listbox-button-:r2o:"
+      >
+        <div>
           <div
             className="relative"
           >
@@ -604,39 +1077,25 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
                   Wade Cooper
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
         role="alert"
@@ -646,21 +1105,21 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r25:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r2q:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
@@ -677,64 +1136,50 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
                   Without Label and Hint message
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
-        id="headlessui-listbox-label-:r27:"
+        id="headlessui-listbox-label-:r2s:"
         onClick={[Function]}
       >
         List options width
       </label>
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r28:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r2t:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
@@ -751,39 +1196,25 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
                   Choose an option
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -800,21 +1231,21 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
   className="flex flex-col lg:flex-row align-middle justify-around items-center w-full gap-2"
 >
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r17:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r1v:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="w-10 h-10 bg-gohan rounded-moon-i-md flex align-middle justify-center items-center cursor-pointer transition-colors hover:bg-piccolo/20 "
           >
@@ -836,34 +1267,24 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r19:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r21:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <button
             className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
             onMouseEnter={[Function]}
@@ -878,34 +1299,24 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
           </button>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r1b:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r23:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <button
             className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
           >
@@ -928,16 +1339,6 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
           </button>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
     </div>
   </div>
 </div>
@@ -948,21 +1349,21 @@ exports[`Dropdown in Light Theme renders Default 1`] = `
   className="w-56 h-80"
 >
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r0:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r0:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <span
             className="p-2 cursor-pointer hover:text-piccolo"
           >
@@ -970,210 +1371,512 @@ exports[`Dropdown in Light Theme renders Default 1`] = `
           </span>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
     </div>
   </div>
 </div>
 `;
 
-exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
+exports[`Dropdown in Light Theme renders InsetMultiSelect 1`] = `
 <div
-  className="flex flex-col lg:flex-row align-middle justify-around items-center w-full gap-2"
+  className="flex w-full max-w-sm items-center"
 >
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r8:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <button
-            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r15:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
           >
-            Sort by
-          </button>
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md [&_>_span]:gap-4"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r16:"
+                    onClick={[Function]}
+                  >
+                    Select label
+                  </label>
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Choose an option
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:ra:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <button
-            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-          >
-            Select language
-          </button>
-        </div>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:rc:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <button
-            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-          >
-            Select countries
-          </button>
-        </div>
-      </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
     </div>
   </div>
 </div>
 `;
 
-exports[`Dropdown in Light Theme renders Select 1`] = `
+exports[`Dropdown in Light Theme renders InsetSelect 1`] = `
+<div
+  className="flex w-full max-w-sm items-center z-0"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r12:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r13:"
+                    onClick={[Function]}
+                  >
+                    Select label
+                  </label>
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Choose an option
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-start w-full gap-2"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r18:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r19:"
+                    onClick={[Function]}
+                  >
+                    Error
+                  </label>
+                  <span
+                    className="text-moon-16 text-bulma"
+                  >
+                    Devon Webb
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-haspopup={true}
+        disabled={true}
+        id="headlessui-listbox-button-:r1b:"
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r1c:"
+                    onClick={[Function]}
+                  >
+                    Disabled
+                  </label>
+                  <span
+                    className="text-moon-16 text-bulma"
+                  >
+                    Wade Cooper
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r1e:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r1f:"
+                    onClick={[Function]}
+                  />
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Without Label and Hint message
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r1h:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              open={false}
+              size="md"
+            >
+              <span
+                className="flex gap-2 items-center"
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <label
+                    className="block text-moon-12 text-trunks"
+                    id="headlessui-listbox-label-:r1i:"
+                    onClick={[Function]}
+                  >
+                    List options width
+                  </label>
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Choose an option
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
 <div
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
-        id="headlessui-listbox-label-:re:"
+        id="headlessui-listbox-label-:r1k:"
         onClick={[Function]}
       >
         Small
       </label>
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:rf:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r1l:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
-              data-test="data-test"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
               open={false}
             >
               <span
                 className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
               >
                 <span
-                  className="text-moon-14 text-trunks"
+                  className="flex gap-2 items-center"
                 >
-                  Choose an option
+                  <span
+                    className="text-moon-14 text-trunks"
+                  >
+                    Choose an option
+                  </span>
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M22 13l-6 6-6-6"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -1183,28 +1886,28 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
-        id="headlessui-listbox-label-:rh:"
+        id="headlessui-listbox-label-:r1n:"
         onClick={[Function]}
       >
         Medium
       </label>
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:ri:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r1o:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
@@ -1217,44 +1920,34 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
                 className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
               >
                 <span
-                  className="text-moon-16 text-trunks"
+                  className="flex gap-2 items-center"
                 >
-                  Choose an option
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Choose an option
+                  </span>
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -1264,7 +1957,298 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:r1q:"
+        onClick={[Function]}
+      >
+        Large
+      </label>
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r1r:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+              open={false}
+            >
+              <span
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <span
+                  className="flex gap-2 items-center"
+                >
+                  <span
+                    className="text-moon-16 text-trunks"
+                  >
+                    Choose an option
+                  </span>
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
+<div
+  className="flex flex-col lg:flex-row align-middle justify-around items-center w-full gap-2"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r8:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <button
+            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Sort by
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:ra:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <button
+            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Select language
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:rc:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <button
+            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Select countries
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in Light Theme renders Select 1`] = `
+<div
+  className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-14"
+        id="headlessui-listbox-label-:re:"
+        onClick={[Function]}
+      >
+        Small
+      </label>
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:rf:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+              open={false}
+            >
+              <span
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <span
+                  className="text-moon-14 text-trunks"
+                >
+                  Choose an option
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
+  >
+    <div
+      className="relative"
+    >
+      <label
+        className="block text-bulma pb-2 text-moon-16"
+        id="headlessui-listbox-label-:rh:"
+        onClick={[Function]}
+      >
+        Medium
+      </label>
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:ri:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
+          <div
+            className="relative"
+          >
+            <button
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              open={false}
+            >
+              <span
+                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+              >
+                <span
+                  className="text-moon-16 text-trunks"
+                >
+                  Choose an option
+                </span>
+              </span>
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+        role="alert"
+      >
+        Informative message holder
+      </p>
+    </div>
+  </div>
+  <div
+    className="w-full relative"
   >
     <div
       className="relative"
@@ -1276,147 +2260,51 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
       >
         Large
       </label>
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:rl:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
-          <div
-            className="relative"
-          >
-            <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
-              data-test="data-test"
-              open={false}
-            >
-              <span
-                className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-              >
-                <span
-                  className="text-moon-16 text-trunks"
-                >
-                  Choose an option
-                </span>
-              </span>
-              <span
-                className="flex-shrink-0"
-              >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
-            </button>
-          </div>
-        </div>
-      </div>
       <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
-      <p
-        className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
-        role="alert"
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:rl:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
       >
-        Informative message holder
-      </p>
-    </div>
-  </div>
-  <div
-    className="w-full"
-  >
-    <div
-      className="relative"
-    >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:rn:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+        <div>
           <div
             className="relative"
           >
             <button
-              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
-              data-test="data-test"
+              className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
               open={false}
             >
               <span
                 className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
               >
-                <label
-                  className="block text-moon-12 text-trunks"
-                  id="headlessui-listbox-label-:ro:"
-                  onClick={[Function]}
-                >
-                  xLarge
-                </label>
                 <span
                   className="text-moon-16 text-trunks"
                 >
                   Choose an option
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -1433,28 +2321,28 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
   className="flex flex-col lg:flex-row justify-around items-center w-full gap-2"
 >
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
-        id="headlessui-listbox-label-:rq:"
+        id="headlessui-listbox-label-:rn:"
         onClick={[Function]}
       >
         Error
       </label>
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:rr:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:ro:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
@@ -1471,39 +2359,25 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
                   Devon Webb
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
         role="alert"
@@ -1513,24 +2387,24 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
       <label
         className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
-        id="headlessui-listbox-label-:rt:"
+        id="headlessui-listbox-label-:rq:"
         onClick={[Function]}
       >
         Disabled
       </label>
-      <div>
-        <div
-          aria-haspopup={true}
-          disabled={true}
-          id="headlessui-listbox-button-:ru:"
-        >
+      <div
+        aria-haspopup={true}
+        disabled={true}
+        id="headlessui-listbox-button-:rr:"
+      >
+        <div>
           <div
             className="relative"
           >
@@ -1547,39 +2421,25 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
                   Wade Cooper
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
         role="alert"
@@ -1589,21 +2449,21 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r10:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:rt:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
@@ -1620,64 +2480,50 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
                   Without Label and Hint message
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
-        id="headlessui-listbox-label-:r12:"
+        id="headlessui-listbox-label-:rv:"
         onClick={[Function]}
       >
         List options width
       </label>
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r13:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r10:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="relative"
           >
@@ -1694,39 +2540,25 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
                   Choose an option
                 </span>
               </span>
-              <span
-                className="flex-shrink-0"
+              <svg
+                className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <svg
-                  className="text-[1.5rem] text-trunks"
-                  fill="none"
-                  height="1em"
-                  viewBox="0 0 32 32"
-                  width="1em"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M25 11.5l-9 9-9-9"
-                    stroke="currentColor"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                  />
-                </svg>
-              </span>
+                <path
+                  d="M22 13l-6 6-6-6"
+                  stroke="currentColor"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
       <p
         className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
         role="alert"
@@ -1743,21 +2575,21 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
   className="flex flex-col lg:flex-row align-middle justify-around items-center w-full gap-2"
 >
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r2:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r2:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <div
             className="w-10 h-10 bg-gohan rounded-moon-i-md flex align-middle justify-center items-center cursor-pointer transition-colors hover:bg-piccolo/20 "
           >
@@ -1779,34 +2611,24 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
           </div>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r4:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r4:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <button
             className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
             onMouseEnter={[Function]}
@@ -1821,34 +2643,24 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
           </button>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
     </div>
   </div>
   <div
-    className="w-full"
+    className="w-full relative"
   >
     <div
       className="relative"
     >
-      <div>
-        <div
-          aria-expanded={false}
-          aria-haspopup={true}
-          disabled={false}
-          id="headlessui-listbox-button-:r6:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-        >
+      <div
+        aria-expanded={false}
+        aria-haspopup={true}
+        disabled={false}
+        id="headlessui-listbox-button-:r6:"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+      >
+        <div>
           <button
             className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
           >
@@ -1871,16 +2683,6 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
           </button>
         </div>
       </div>
-      <div
-        className="z-5 absolute"
-        style={
-          Object {
-            "left": "0",
-            "position": "absolute",
-            "top": "0",
-          }
-        }
-      />
     </div>
   </div>
 </div>
@@ -1894,21 +2696,21 @@ exports[`Dropdown in RTL renders Default 1`] = `
     className="w-56 h-80"
   >
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r2a:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r3q:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <span
               className="p-2 cursor-pointer hover:text-piccolo"
             >
@@ -1916,16 +2718,675 @@ exports[`Dropdown in RTL renders Default 1`] = `
             </span>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in RTL renders InsetMultiSelect 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex w-full max-w-sm items-center"
+  >
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
         <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r4v:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md [&_>_span]:gap-4"
+                open={false}
+                size="md"
+              >
+                <span
+                  className="flex gap-2 items-center"
+                >
+                  <span
+                    className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  >
+                    <label
+                      className="block text-moon-12 text-trunks"
+                      id="headlessui-listbox-label-:r50:"
+                      onClick={[Function]}
+                    >
+                      Select label
+                    </label>
+                    <span
+                      className="text-moon-16 text-trunks"
+                    >
+                      Choose an option
+                    </span>
+                  </span>
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p
+          className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+          role="alert"
+        >
+          Informative message holder
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in RTL renders InsetSelect 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex w-full max-w-sm items-center z-0"
+  >
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r4s:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+                open={false}
+                size="md"
+              >
+                <span
+                  className="flex gap-2 items-center"
+                >
+                  <span
+                    className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  >
+                    <label
+                      className="block text-moon-12 text-trunks"
+                      id="headlessui-listbox-label-:r4t:"
+                      onClick={[Function]}
+                    >
+                      Select label
+                    </label>
+                    <span
+                      className="text-moon-16 text-trunks"
+                    >
+                      Choose an option
+                    </span>
+                  </span>
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p
+          className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+          role="alert"
+        >
+          Informative message holder
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-start w-full gap-2"
+  >
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r52:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus transition-shadow duration-200 focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+                open={false}
+                size="md"
+              >
+                <span
+                  className="flex gap-2 items-center"
+                >
+                  <span
+                    className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  >
+                    <label
+                      className="block text-moon-12 text-trunks"
+                      id="headlessui-listbox-label-:r53:"
+                      onClick={[Function]}
+                    >
+                      Error
+                    </label>
+                    <span
+                      className="text-moon-16 text-bulma"
+                    >
+                      Devon Webb
+                    </span>
+                  </span>
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p
+          className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
+          role="alert"
+        >
+          Informative message holder
+        </p>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          aria-haspopup={true}
+          disabled={true}
+          id="headlessui-listbox-button-:r55:"
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md opacity-30 cursor-not-allowed hover:shadow-input"
+                open={false}
+                size="md"
+              >
+                <span
+                  className="flex gap-2 items-center"
+                >
+                  <span
+                    className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  >
+                    <label
+                      className="block text-moon-12 text-trunks"
+                      id="headlessui-listbox-label-:r56:"
+                      onClick={[Function]}
+                    >
+                      Disabled
+                    </label>
+                    <span
+                      className="text-moon-16 text-bulma"
+                    >
+                      Wade Cooper
+                    </span>
+                  </span>
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p
+          className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
+          role="alert"
+        >
+          Informative message holder
+        </p>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r58:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+                open={false}
+                size="md"
+              >
+                <span
+                  className="flex gap-2 items-center"
+                >
+                  <span
+                    className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  >
+                    <label
+                      className="block text-moon-12 text-trunks"
+                      id="headlessui-listbox-label-:r59:"
+                      onClick={[Function]}
+                    />
+                    <span
+                      className="text-moon-16 text-trunks"
+                    >
+                      Without Label and Hint message
+                    </span>
+                  </span>
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r5b:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+                open={false}
+                size="md"
+              >
+                <span
+                  className="flex gap-2 items-center"
+                >
+                  <span
+                    className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                  >
+                    <label
+                      className="block text-moon-12 text-trunks"
+                      id="headlessui-listbox-label-:r5c:"
+                      onClick={[Function]}
+                    >
+                      List options width
+                    </label>
+                    <span
+                      className="text-moon-16 text-trunks"
+                    >
+                      Choose an option
+                    </span>
+                  </span>
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p
+          className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+          role="alert"
+        >
+          Informative message holder
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Dropdown in RTL renders MultiSelect 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
+  >
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-14"
+          id="headlessui-listbox-label-:r5e:"
+          onClick={[Function]}
+        >
+          Small
+        </label>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r5f:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
+                open={false}
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <span
+                    className="flex gap-2 items-center"
+                  >
+                    <span
+                      className="text-moon-14 text-trunks"
+                    >
+                      Choose an option
+                    </span>
+                  </span>
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-16"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p
+          className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+          role="alert"
+        >
+          Informative message holder
+        </p>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r5h:"
+          onClick={[Function]}
+        >
+          Medium
+        </label>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r5i:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                data-test="data-test"
+                open={false}
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <span
+                    className="flex gap-2 items-center"
+                  >
+                    <span
+                      className="text-moon-16 text-trunks"
+                    >
+                      Choose an option
+                    </span>
+                  </span>
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p
+          className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+          role="alert"
+        >
+          Informative message holder
+        </p>
+      </div>
+    </div>
+    <div
+      className="w-full relative"
+    >
+      <div
+        className="relative"
+      >
+        <label
+          className="block text-bulma pb-2 text-moon-16"
+          id="headlessui-listbox-label-:r5k:"
+          onClick={[Function]}
+        >
+          Large
+        </label>
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r5l:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
+            <div
+              className="relative"
+            >
+              <button
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
+                open={false}
+              >
+                <span
+                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                >
+                  <span
+                    className="flex gap-2 items-center"
+                  >
+                    <span
+                      className="text-moon-16 text-trunks"
+                    >
+                      Choose an option
+                    </span>
+                  </span>
+                </span>
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <p
+          className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
+          role="alert"
+        >
+          Informative message holder
+        </p>
       </div>
     </div>
   </div>
@@ -1940,21 +3401,21 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
     className="flex flex-col lg:flex-row align-middle justify-around items-center w-full gap-2"
   >
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r2i:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r42:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <button
               className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
             >
@@ -1962,34 +3423,24 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
             </button>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r2k:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r44:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <button
               className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
             >
@@ -1997,34 +3448,24 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
             </button>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r2m:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r46:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <button
               className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
             >
@@ -2032,16 +3473,6 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
             </button>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
       </div>
     </div>
   </div>
@@ -2056,34 +3487,33 @@ exports[`Dropdown in RTL renders Select 1`] = `
     className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
   >
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
         <label
           className="block text-bulma pb-2 text-moon-14"
-          id="headlessui-listbox-label-:r2o:"
+          id="headlessui-listbox-label-:r48:"
           onClick={[Function]}
         >
           Small
         </label>
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r2p:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r49:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <div
               className="relative"
             >
               <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
-                data-test="data-test"
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-8 py-1 px-2 rounded-moon-i-xs"
                 open={false}
               >
                 <span
@@ -2095,39 +3525,25 @@ exports[`Dropdown in RTL renders Select 1`] = `
                     Choose an option
                   </span>
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-16"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M22 13l-6 6-6-6"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -2137,34 +3553,33 @@ exports[`Dropdown in RTL renders Select 1`] = `
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
-          id="headlessui-listbox-label-:r2r:"
+          id="headlessui-listbox-label-:r4b:"
           onClick={[Function]}
         >
           Medium
         </label>
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r2s:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r4c:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <div
               className="relative"
             >
               <button
                 className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
-                data-test="data-test"
                 open={false}
               >
                 <span
@@ -2176,39 +3591,25 @@ exports[`Dropdown in RTL renders Select 1`] = `
                     Choose an option
                   </span>
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -2218,159 +3619,63 @@ exports[`Dropdown in RTL renders Select 1`] = `
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
-          id="headlessui-listbox-label-:r2u:"
+          id="headlessui-listbox-label-:r4e:"
           onClick={[Function]}
         >
           Large
         </label>
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r2v:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
-            <div
-              className="relative"
-            >
-              <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
-                data-test="data-test"
-                open={false}
-              >
-                <span
-                  className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
-                >
-                  <span
-                    className="text-moon-16 text-trunks"
-                  >
-                    Choose an option
-                  </span>
-                </span>
-                <span
-                  className="flex-shrink-0"
-                >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
-              </button>
-            </div>
-          </div>
-        </div>
         <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
-        <p
-          className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
-          role="alert"
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r4f:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
         >
-          Informative message holder
-        </p>
-      </div>
-    </div>
-    <div
-      className="w-full"
-    >
-      <div
-        className="relative"
-      >
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r31:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+          <div>
             <div
               className="relative"
             >
               <button
-                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
-                data-test="data-test"
+                className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-12 p-3 rounded-moon-i-sm"
                 open={false}
               >
                 <span
                   className="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
                 >
-                  <label
-                    className="block text-moon-12 text-trunks"
-                    id="headlessui-listbox-label-:r32:"
-                    onClick={[Function]}
-                  >
-                    xLarge
-                  </label>
                   <span
                     className="text-moon-16 text-trunks"
                   >
                     Choose an option
                   </span>
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -2391,28 +3696,28 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
     className="flex flex-col lg:flex-row justify-around items-center w-full gap-2"
   >
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
-          id="headlessui-listbox-label-:r34:"
+          id="headlessui-listbox-label-:r4h:"
           onClick={[Function]}
         >
           Error
         </label>
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r35:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r4i:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <div
               className="relative"
             >
@@ -2429,39 +3734,25 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
                     Devon Webb
                   </span>
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-chichi"
           role="alert"
@@ -2471,24 +3762,24 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
         <label
           className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
-          id="headlessui-listbox-label-:r37:"
+          id="headlessui-listbox-label-:r4k:"
           onClick={[Function]}
         >
           Disabled
         </label>
-        <div>
-          <div
-            aria-haspopup={true}
-            disabled={true}
-            id="headlessui-listbox-button-:r38:"
-          >
+        <div
+          aria-haspopup={true}
+          disabled={true}
+          id="headlessui-listbox-button-:r4l:"
+        >
+          <div>
             <div
               className="relative"
             >
@@ -2505,39 +3796,25 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
                     Wade Cooper
                   </span>
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks opacity-30 cursor-not-allowed"
           role="alert"
@@ -2547,21 +3824,21 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r3a:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r4n:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <div
               className="relative"
             >
@@ -2578,64 +3855,50 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
                     Without Label and Hint message
                   </span>
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
-          id="headlessui-listbox-label-:r3c:"
+          id="headlessui-listbox-label-:r4p:"
           onClick={[Function]}
         >
           List options width
         </label>
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r3d:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r4q:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <div
               className="relative"
             >
@@ -2652,39 +3915,25 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
                     Choose an option
                   </span>
                 </span>
-                <span
-                  className="flex-shrink-0"
+                <svg
+                  className="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
-                  <svg
-                    className="text-[1.5rem] text-trunks"
-                    fill="none"
-                    height="1em"
-                    viewBox="0 0 32 32"
-                    width="1em"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      d="M25 11.5l-9 9-9-9"
-                      stroke="currentColor"
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                    />
-                  </svg>
-                </span>
+                  <path
+                    d="M22 13l-6 6-6-6"
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
               </button>
             </div>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
         <p
           className="inline-block mt-2 ps-4 text-moon-12 text-trunks"
           role="alert"
@@ -2705,21 +3954,21 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
     className="flex flex-col lg:flex-row align-middle justify-around items-center w-full gap-2"
   >
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r2c:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r3s:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <div
               className="w-10 h-10 bg-gohan rounded-moon-i-md flex align-middle justify-center items-center cursor-pointer transition-colors hover:bg-piccolo/20 "
             >
@@ -2741,34 +3990,24 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
             </div>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r2e:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r3u:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <button
               className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
               onMouseEnter={[Function]}
@@ -2783,34 +4022,24 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
             </button>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
       </div>
     </div>
     <div
-      className="w-full"
+      className="w-full relative"
     >
       <div
         className="relative"
       >
-        <div>
-          <div
-            aria-expanded={false}
-            aria-haspopup={true}
-            disabled={false}
-            id="headlessui-listbox-button-:r2g:"
-            onClick={[Function]}
-            onKeyDown={[Function]}
-            onKeyUp={[Function]}
-          >
+        <div
+          aria-expanded={false}
+          aria-haspopup={true}
+          disabled={false}
+          id="headlessui-listbox-button-:r40:"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+        >
+          <div>
             <button
               className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 ps-3 pe-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
             >
@@ -2833,16 +4062,6 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
             </button>
           </div>
         </div>
-        <div
-          className="z-5 absolute"
-          style={
-            Object {
-              "left": "0",
-              "position": "absolute",
-              "top": "0",
-            }
-          }
-        />
       </div>
     </div>
   </div>

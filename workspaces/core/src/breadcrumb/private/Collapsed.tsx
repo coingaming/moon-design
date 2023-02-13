@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { ArrowsRight, Other3DotsHorizontal } from '@heathmont/moon-icons-tw';
 import Button from '../../button/Button';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
-import useClickOutside from './hooks/useClickOutside';
+import useClickOutside from '../../private/hooks/useClickOutside';
 import type BreadcrumbProps from './types/BreadcrumbProps';
 
 const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {

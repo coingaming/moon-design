@@ -6,15 +6,28 @@ import getLabelSize from './private/getLabelSize';
 type WithChildren<T = {}> = T & { children?: ReactNode };
 
 interface LabelProps
-  extends Omit<React.InputHTMLAttributes<HTMLLabelElement>, 'size'> {
+  extends Omit<
+    React.DetailedHTMLProps<
+      React.LabelHTMLAttributes<HTMLLabelElement>,
+      HTMLLabelElement
+    >,
+    'size'
+  > {
   className?: string;
   type?: React.HTMLInputTypeAttribute;
   size?: 'sm' | 'md' | 'lg';
   disabled?: boolean;
 }
+
 const Label = forwardRef<HTMLLabelElement, WithChildren<LabelProps>>(
   (
-    { children, size: labelSize, disabled: labelDisabled, className, ...rest },
+    {
+      children,
+      size: labelSize,
+      disabled: labelDisabled,
+      className,
+      ...rest
+    }: LabelProps,
     ref
   ) => {
     const { size: formSize } = useFormContext('Label');

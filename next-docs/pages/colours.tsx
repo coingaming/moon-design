@@ -61,6 +61,14 @@ const PageColours = () => (
           { name: 'bg-popo', description: 'popo' },
         ]}
       />
+      <ColoursPalette
+        title="Hover and overlay colours"
+        colors={[
+          { name: 'bg-jiren', description: 'jiren' },
+          { name: 'bg-heles', description: 'heles' },
+          { name: 'bg-zeno', description: 'zeno' },
+        ]}
+      />
     </PageSection>
     <PageSection title="Supportive colours">
       <ColoursPalette

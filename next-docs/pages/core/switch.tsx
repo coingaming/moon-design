@@ -75,7 +75,7 @@ const Example = () => {
         code={examples ? examples.Form : 'Loading'}
       />
       <Preview
-        title="Code exemples for full cistomization"
+        title="Code examples for full customization"
         preview={<DefaultCode />}
         code={examplesCode ? examplesCode.DefaultCode : 'Loading'}
       />

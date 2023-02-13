@@ -45,18 +45,18 @@ const Example = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Exemple with big content"
+        title="Example with big content"
         preview={<BigContent />}
         code={examples ? examples.BigContent : 'Loading'}
       />
       <Preview
-        title="Exemple with styled content"
+        title="Example with styled content"
         preview={<StyledContent />}
         code={examples ? examples.StyledContent : 'Loading'}
       />
 
       <Preview
-        title="Exemple with Select"
+        title="Example with Select"
         preview={<WithSelect />}
         code={examples ? examples.WithSelect : 'Loading'}
       />

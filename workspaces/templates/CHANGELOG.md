@@ -1,5 +1,35 @@
 # @heathmont/moon-templates
 
+## 9.21.2
+
+### Patch Changes
+
+- Bump patch version
+
+## 9.21.1
+
+### Patch Changes
+
+- Bump patch
+
+## 9.21.0
+
+### Minor Changes
+
+- Add Search
+
+## 9.20.1
+
+### Patch Changes
+
+- Bump fixes
+
+## 9.20.0
+
+### Minor Changes
+
+- Bump minor version
+
 ## 9.19.0
 
 ### Minor Changes

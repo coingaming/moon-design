@@ -10,6 +10,8 @@ import Spaces from '../Spaces';
 import CustomizedArrow from '../CustomizedArrow';
 import VisibleIndex from '../VisibleIndex';
 import Indicators from '../Indicators';
+import SelectIndex from '../SelectIndex';
+import Autoslide from '../Autoslide';
 
 /**
  * Utility function that mocks the `IntersectionObserver` API. Necessary for components that rely
@@ -91,6 +93,16 @@ describe('Carousel in Light Theme', () => {
     const testRenderer = renderer.create(renderWithLightTheme(<Indicators />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+
+  it('renders SelectIndex', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<SelectIndex />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  
+  it('renders Autoslide', () => {
+    const testRenderer = renderer.create(renderWithLightTheme(<Autoslide />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 });
 
 describe('Carousel in Dark Theme', () => {
@@ -122,6 +134,16 @@ describe('Carousel in Dark Theme', () => {
     const testRenderer = renderer.create(renderWithDarkTheme(<Indicators />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
+
+  it('renders SelectIndex', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<SelectIndex />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  
+  it('renders Autoslide', () => {
+    const testRenderer = renderer.create(renderWithDarkTheme(<Autoslide />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
 });
 
 describe('Accordion in RTL', () => {
@@ -151,6 +173,16 @@ describe('Accordion in RTL', () => {
 
   it('renders indicators', () => {
     const testRenderer = renderer.create(renderWithRtl(<Indicators />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+
+  it('renders SelectIndex', () => {
+    const testRenderer = renderer.create(renderWithRtl(<SelectIndex />));
+    expect(testRenderer.toJSON()).toMatchSnapshot();
+  });
+  
+  it('renders Autoslide', () => {
+    const testRenderer = renderer.create(renderWithRtl(<Autoslide />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

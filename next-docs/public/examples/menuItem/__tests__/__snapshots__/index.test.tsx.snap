@@ -30,7 +30,7 @@ Array [
         <span
           aria-checked={false}
           aria-hidden="true"
-          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
         >
           <svg
             className="transition-opacity opacity-0"
@@ -820,7 +820,7 @@ Array [
         >
           <span
             aria-hidden="true"
-            className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+            className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
           >
             <svg
               className="transition-opacity opacity-0"
@@ -1049,7 +1049,7 @@ Array [
         <span
           aria-checked={false}
           aria-hidden="true"
-          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
         >
           <svg
             className="transition-opacity opacity-0"
@@ -1839,7 +1839,7 @@ Array [
         >
           <span
             aria-hidden="true"
-            className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+            className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
           >
             <svg
               className="transition-opacity opacity-0"
@@ -2074,7 +2074,7 @@ exports[`Loader in RTL renders Checkbox 1`] = `
         <span
           aria-checked={false}
           aria-hidden="true"
-          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+          className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
         >
           <svg
             className="transition-opacity opacity-0"
@@ -2878,7 +2878,7 @@ exports[`Loader in RTL renders MultiTitle 1`] = `
         >
           <span
             aria-hidden="true"
-            className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-i-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
+            className="absolute top-1 ltr:left-1 rtl:right-1 flex w-4 h-4 items-center justify-center shadow-[0_0_0_1px_inset] transition-colors text-moon-16 rounded-moon-s-xs shadow-trunks text-goten moon-checked:shadow-none moon-checked:bg-piccolo"
           >
             <svg
               className="transition-opacity opacity-0"
