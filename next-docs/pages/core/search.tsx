@@ -11,9 +11,7 @@ const Example = () => {
   return (
     <>
       <ComponentPageDescription title="Search" isInProgress>
-        <p>
-          Search
-        </p>
+        <p>Search</p>
       </ComponentPageDescription>
       <Preview
         title="Default"
@@ -34,8 +32,7 @@ const Example = () => {
             type: '(value: string) => void',
             required: true,
             default: '-',
-            description:
-              'Function for setting search value',
+            description: 'Function for setting search value',
           },
           {
             name: 'onChangeOpen',
@@ -81,11 +78,12 @@ const Example = () => {
             description: 'The current page id',
           },
           {
-            name: '',
-            type: '',
+            name: 'autoFocus',
+            type: 'boolean',
             required: false,
-            default: '_',
-            description: '',
+            default: 'false',
+            description:
+              'Specifies that an search should automatically get focus when the page loads',
           },
           {
             name: 'renderLink',
@@ -107,13 +105,6 @@ const Example = () => {
             required: false,
             default: '_',
             description: 'Function for setting selected item index',
-          },
-          {
-            name: '',
-            type: '',
-            required: false,
-            default: '_',
-            description: '',
           },
         ]}
       />
