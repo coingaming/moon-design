@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.22.1
+
+### Patch Changes
+
+- tw_v9.22.1
+
 ## 9.22.0
 
 ### Minor Changes

@@ -82,7 +82,7 @@ type ItemProps = {
   className?: string;
 };
 
-const Item: React.FC<ItemProps> = ({
+const Item: React.FC<WithChildren<ItemProps>> = ({
   children,
   size,
   disabled,
