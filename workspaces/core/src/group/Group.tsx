@@ -244,7 +244,10 @@ const LastInsetInputRoot: React.FC<WithChildren<InsetInputProps>> = ({
 };
 
 type LabelProps = { className?: string };
-const InputLabel: React.FC<LabelProps> = ({ children, className }) => {
+const InputLabel: React.FC<WithChildren<LabelProps>> = ({
+  children,
+  className,
+}) => {
   return <InsetInput.Label className={className}>{children}</InsetInput.Label>;
 };
 
