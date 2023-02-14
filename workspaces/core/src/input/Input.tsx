@@ -3,7 +3,7 @@ import { useFormContext, useFormItemContext } from '../form/Form';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import getSizeStyles from './private/getSizeStyles';
 
-interface InputProps
+export interface InputProps
   extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'size'> {
   className?: string;
   type?: React.HTMLInputTypeAttribute;
