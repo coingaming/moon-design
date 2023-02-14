@@ -1,5 +1,19 @@
 # Change Log
 
+## 9.22.0
+
+### Minor Changes
+
+- Text Input Group & Search Fixes
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.22.0
+  - @heathmont/moon-components@9.22.0
+  - @heathmont/moon-themes@9.22.0
+  - @heathmont/moon-utils@9.22.0
+
 ## 9.21.2
 
 ### Patch Changes
