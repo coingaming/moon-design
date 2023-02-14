@@ -1,5 +1,16 @@
 # @heathmont/moon-core-tw
 
+## 9.22.0
+
+### Minor Changes
+
+- Text Input Group & Search Fixes
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.22.0
+
 ## 9.21.2
 
 ### Patch Changes
