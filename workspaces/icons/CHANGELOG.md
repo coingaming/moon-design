@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.22.0
+
+### Minor Changes
+
+- Text Input Group & Search Fixes
+
 ## 9.21.2
 
 ### Patch Changes
