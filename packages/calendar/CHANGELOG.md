@@ -1,5 +1,16 @@
 # Change Log
 
+## 9.22.1
+
+### Patch Changes
+
+- tw_v9.22.1
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.22.1
+  - @heathmont/moon-core@9.22.1
+  - @heathmont/moon-themes@9.22.1
+  - @heathmont/moon-utils@9.22.1
+
 ## 9.22.0
 
 ### Minor Changes
