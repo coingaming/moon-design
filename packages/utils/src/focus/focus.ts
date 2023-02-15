@@ -11,7 +11,7 @@ export const focusReset: CSSObject = {
   },
 };
 
-export const focus = (color: string | undefined = supportColors.whis[100]) => ({
+export const focus = (color: string | undefined = supportColors.whis[100]): CSSObject => ({
   ...focusReset,
   '&:focus': {
     outline: 'none' /* Duplicate `:focus` doesn't spread nice */,
