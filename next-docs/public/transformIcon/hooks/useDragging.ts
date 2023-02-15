@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect, ReactEventHandler } from 'react';
 
 type UseDraggingProps = {
   divRef: React.RefObject<HTMLDivElement>;

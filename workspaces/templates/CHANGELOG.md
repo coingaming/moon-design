@@ -1,5 +1,17 @@
 # @heathmont/moon-templates
 
+## 9.22.1
+
+### Patch Changes
+
+- tw_v9.22.1
+
+## 9.22.0
+
+### Minor Changes
+
+- Text Input Group & Search Fixes
+
 ## 9.21.2
 
 ### Patch Changes

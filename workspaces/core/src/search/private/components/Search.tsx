@@ -40,6 +40,7 @@ type SearchProps = {
   backdrop?: ReactNode;
   className?: string;
   clear: string | ReactNode;
+  autoFocus?: boolean;
 };
 
 export function Search({
@@ -55,6 +56,7 @@ export function Search({
   page,
   className,
   clear,
+  autoFocus,
 }: SearchProps) {
   const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
   const [ref] = useClickOutside();
@@ -195,6 +197,7 @@ export function Search({
             value={search}
             ref={inputRef as unknown as Ref<HTMLInputElement>}
             clear={clear}
+            autoFocus={autoFocus}
           />
         </PageContext.Provider>
 

@@ -30,6 +30,8 @@ export { default as Dropdown } from './dropdown/Dropdown';
 export * from './dropdown/Dropdown';
 export { default as Form } from './form/Form';
 export * from './form/Form';
+export { default as Group } from './group/Group';
+export * from './group/Group';
 export { default as Hint } from './hint/Hint';
 export * from './hint/Hint';
 export { default as IconButton } from './iconButton/IconButton';

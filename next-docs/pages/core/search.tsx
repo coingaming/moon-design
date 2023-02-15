@@ -81,11 +81,12 @@ const Example = () => {
             description: 'The current page id',
           },
           {
-            name: '',
-            type: '',
+            name: 'autoFocus',
+            type: 'boolean',
             required: false,
-            default: '_',
-            description: '',
+            default: 'false',
+            description:
+              'Specifies that an search should automatically get focus when the page loads',
           },
           {
             name: 'renderLink',
@@ -107,13 +108,6 @@ const Example = () => {
             required: false,
             default: '_',
             description: 'Function for setting selected item index',
-          },
-          {
-            name: '',
-            type: '',
-            required: false,
-            default: '_',
-            description: '',
           },
         ]}
       />

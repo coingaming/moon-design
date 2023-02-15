@@ -83,7 +83,7 @@ type ItemProps = {
   children?: React.ReactNode;
 };
 
-const Item: React.FC<ItemProps> = ({
+const Item: React.FC<WithChildren<ItemProps>> = ({
   children,
   size,
   disabled,

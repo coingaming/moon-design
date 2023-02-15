@@ -9,10 +9,20 @@ type SearchProps = {
   prefix?: string[];
   value: string;
   clear: string | React.ReactNode;
+  autoFocus?: boolean;
 };
 
 function Input(
-  { onChange, onFocus, onBlur, placeholder, prefix, value, clear }: SearchProps,
+  {
+    onChange,
+    onFocus,
+    onBlur,
+    placeholder,
+    prefix,
+    value,
+    clear,
+    autoFocus,
+  }: SearchProps,
   ref: Ref<HTMLInputElement>
 ) {
   return (
@@ -56,7 +66,7 @@ function Input(
           placeholder={placeholder}
           value={value}
           type="text"
-          autoFocus
+          autoFocus={autoFocus}
         />
 
         {value && (

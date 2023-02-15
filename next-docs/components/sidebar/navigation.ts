@@ -34,6 +34,7 @@ const navigation = [
         children: [
           { name: 'Input', href: '/core/input' },
           { name: 'InsetInput', href: '/core/insetInput' },
+          { name: 'Group', href: '/core/group' },
         ],
       },
       { name: 'Loader', href: '/core/loader' },

@@ -73,7 +73,8 @@ const Example = () => {
         onChangeOpen={setOpen}
         search={search}
         isOpen={open}
-        clear={Clear()}
+        clear={Clear}
+        autoFocus={true}
       >
         {filteredItems.length ? (
           filteredItems.map((list: any) => (
