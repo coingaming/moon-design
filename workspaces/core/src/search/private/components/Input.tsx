@@ -4,7 +4,7 @@ import { GenericSearch } from '@heathmont/moon-icons-tw';
 type SearchProps = {
   onChange: (value: string) => void;
   onFocus?: () => void;
-  onBlur?: () => void;
+  onBlur?: (e: React.FocusEvent<HTMLElement>) => void;
   placeholder?: string;
   prefix?: string[];
   value: string;
