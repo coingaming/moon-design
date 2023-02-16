@@ -60,7 +60,7 @@ export function Search({
   autoFocus,
 }: SearchProps) {
   const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
-  const [ref] = useClickOutside();
+  const [ref, hasClickedOutside] = useClickOutside();
 
   const [selected, setSelected] =
     typeof selectedParent === 'number' && onChangeSelected
@@ -169,6 +169,12 @@ export function Search({
     [handleChangeSelected, handleSelect]
   );
 
+  React.useEffect(() => {
+    if (hasClickedOutside) {
+      onChangeOpen(false);
+    }
+  });
+
   return (
     <div ref={ref} onKeyDown={onKeyDown}>
       <div
@@ -189,9 +195,6 @@ export function Search({
             onChange={onChangeSearch}
             onFocus={() => {
               onChangeOpen(true);
-            }}
-            onBlur={() => {
-              onChangeOpen(false);
             }}
             placeholder={placeholder}
             prefix={searchPrefix}
