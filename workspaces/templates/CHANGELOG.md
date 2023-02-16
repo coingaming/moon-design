@@ -1,5 +1,11 @@
 # @heathmont/moon-templates
 
+## 9.22.2
+
+### Patch Changes
+
+- Search click inside fix
+
 ## 9.22.1
 
 ### Patch Changes
