@@ -2,8 +2,8 @@ import React, { useEffect } from 'react';
 import { Popover, Button, MenuItem } from '@heathmont/moon-core-tw';
 import {
   GenericTrophy,
-  MediaMegaphone,
   MediaTuner,
+  MediaMegaphone,
 } from '@heathmont/moon-icons-tw';
 
 type RenderProps = {
