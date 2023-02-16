@@ -1,5 +1,14 @@
 # Change Log
 
+## 9.22.2
+
+### Patch Changes
+
+- Search click inside fix
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.22.2
+  - @heathmont/moon-utils@9.22.2
+
 ## 9.22.1
 
 ### Patch Changes

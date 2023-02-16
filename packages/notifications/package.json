@@ -1,7 +1,7 @@
 {
   "name": "@heathmont/moon-notifications",
   "sideEffects": false,
-  "version": "9.22.1",
+  "version": "9.22.2",
   "files": [
     "lib"
   ],
@@ -20,8 +20,8 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@heathmont/moon-themes": "workspace:^9.22.1",
-    "@heathmont/moon-utils": "workspace:^9.22.1"
+    "@heathmont/moon-themes": "workspace:^9.22.2",
+    "@heathmont/moon-utils": "workspace:^9.22.2"
   },
   "peerDependencies": {
     "react": ">= 18.0.0",
