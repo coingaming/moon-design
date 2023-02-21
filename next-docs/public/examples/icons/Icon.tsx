@@ -1,10 +1,11 @@
 import { mergeClassnames } from '@heathmont/moon-core-tw';
 
-export interface IconProps {
+export type IconProps = {
   name: string;
   onClick: (v: string) => void;
   selectedIcons: string[];
-}
+  children?: React.ReactNode;
+};
 
 const Icon: React.FC<IconProps> = ({
   children,

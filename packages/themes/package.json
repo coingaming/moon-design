@@ -1,6 +1,6 @@
 {
   "name": "@heathmont/moon-themes",
-  "version": "9.22.2",
+  "version": "9.23.0",
   "sideEffects": false,
   "files": [
     "lib"
@@ -21,8 +21,8 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "react": ">= 18.0.0",
-    "react-dom": ">= 18.0.0",
+    "react": ">= 18.2.0",
+    "react-dom": ">= 18.2.0",
     "styled-components": ">= 5.3.5"
   }
 }

@@ -1,5 +1,5 @@
-import { RenderLink } from "../types";
 import { createContext, Dispatch, SetStateAction } from "react";
+import { RenderLink } from "../types";
 
 export const SelectContext = createContext<{ selected: number }>({
   selected: 0,

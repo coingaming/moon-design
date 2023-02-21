@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { ColorNames } from '@heathmont/moon-themes';
 import { rem, themed } from '@heathmont/moon-utils';
 import styled from 'styled-components';
@@ -21,11 +22,10 @@ export const PopoverContainer = styled.div<PopoverContainerProps>(
     maxWidth: rem(maxWidth),
     minWidth: rem(minWidth),
     padding: `${padding !== undefined ? rem(padding) : rem(24)}`,
-    background: `${
-      backgroundColor !== undefined
+    background: `${backgroundColor !== undefined
         ? themed('color', backgroundColor)(theme)
         : themed('color', 'gohan.100')(theme)
-    }`,
+      }`,
     outline: 'none',
     borderRadius: newTokens.borderRadius.surface.small,
     color: colorNew.bulma,

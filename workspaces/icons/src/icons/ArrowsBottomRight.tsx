@@ -1,5 +1,4 @@
 import React from 'react';
-
 const ArrowsBottomRight = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -17,5 +16,4 @@ const ArrowsBottomRight = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default ArrowsBottomRight;

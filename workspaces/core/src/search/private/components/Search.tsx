@@ -9,25 +9,24 @@ import React, {
   useState,
 } from 'react';
 import { Transition } from '@headlessui/react';
-
-import FreeSearchAction from './FreeSearchAction';
-import List, { ListHeading } from './List';
-import ListItem from './ListItem';
-import Page from './Page';
-import Input from './Input';
+import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
+import useClickOutside from '../../../private/hooks/useClickOutside';
+import { RenderLink } from '../types';
 import {
   PageContext,
   RenderLinkContext,
   SearchContext,
   SelectContext,
 } from '../utils/context';
-import { RenderLink } from '../types';
 import { Backdrop } from './Backdrop';
+import FreeSearchAction from './FreeSearchAction';
+import Input from './Input';
+import List, { ListHeading } from './List';
+import ListItem from './ListItem';
+import Page from './Page';
 import { Trigger } from './Trigger';
-import useClickOutside from '../../../private/hooks/useClickOutside';
-import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 
-interface SearchProps {
+type SearchProps = {
   onChangeSelected?: (value: number) => void;
   onChangeSearch: (search: string) => void;
   onChangeOpen: (isOpen: boolean) => void;
@@ -42,7 +41,7 @@ interface SearchProps {
   className?: string;
   clear: string | ReactNode;
   autoFocus?: boolean;
-}
+};
 
 export function Search({
   selected: selectedParent,
@@ -143,7 +142,7 @@ export function Search({
   }, [page]);
 
   const onKeyDown = useCallback(
-    (e) => {
+    (e: React.KeyboardEvent) => {
       if (
         e.key === 'ArrowDown' ||
         (e.ctrlKey && e.key === 'n') ||

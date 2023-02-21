@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import { uniqueId } from '@heathmont/moon-utils';
 import Inline from '../inline/Inline';

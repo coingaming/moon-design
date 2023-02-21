@@ -1,7 +1,7 @@
 import React, { forwardRef, Fragment, Ref } from 'react';
 import { GenericSearch } from '@heathmont/moon-icons-tw';
 
-interface SearchProps {
+type SearchProps = {
   onChange: (value: string) => void;
   onFocus?: () => void;
   onBlur?: (e: React.FocusEvent<HTMLElement>) => void;
@@ -10,7 +10,7 @@ interface SearchProps {
   value: string;
   clear: string | React.ReactNode;
   autoFocus?: boolean;
-}
+};
 
 function Input(
   {

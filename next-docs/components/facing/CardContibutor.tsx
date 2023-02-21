@@ -32,11 +32,9 @@ const CardContributor: React.FC<Props> = ({
         {title}
       </p>
       <Image
-        className="rounded-moon-s-lg"
+        className="h-full w-full rounded-moon-s-lg object-cover"
         alt={name}
         src={imageSrc}
-        layout="fill"
-        objectFit="cover"
       />
     </div>
     <p className="text-moon-24 mt-2 font-medium">{name}</p>

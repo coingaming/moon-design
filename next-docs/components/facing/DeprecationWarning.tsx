@@ -11,8 +11,11 @@ const DeprecationWarning: React.FC<Props> = ({ href, name }) => (
       NB! The component will be deprecated soon.
     </p>
     Please check out a new{' '}
-    <Link href={href}>
-      <a className="transition-colors underline hover:text-piccolo">{name}</a>
+    <Link
+      href={href}
+      className="transition-colors underline hover:text-piccolo"
+    >
+      {name}
     </Link>{' '}
     built with Tailwind.
   </p>

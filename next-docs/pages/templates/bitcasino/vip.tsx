@@ -162,8 +162,8 @@ const Vip = () => {
         heroImage={
           <Image
             src={KingKaka}
-            objectFit="contain"
             alt="Bitcasino VIP: For money can’t buy experiences!"
+            className="object-contain"
           />
         }
         bottomGradient="linear-gradient(180deg, rgba(36, 3, 63, 0)  0%, rgba(36, 3, 63, 0.55)  49.48%, #24033F 100%"

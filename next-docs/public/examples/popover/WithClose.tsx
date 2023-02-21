@@ -2,13 +2,13 @@ import React, { useEffect } from 'react';
 import { Popover, Button, MenuItem } from '@heathmont/moon-core-tw';
 import {
   GenericTrophy,
-  MediaMegaphone,
   MediaTuner,
+  MediaMegaphone,
 } from '@heathmont/moon-icons-tw';
 
 type RenderProps = {
-  open: boolean;
-  close: () => void;
+  open?: boolean;
+  close?: () => void;
 };
 const Example = () => {
   return (
@@ -17,9 +17,7 @@ const Example = () => {
         <Button>Toggle Popover</Button>
       </Popover.Trigger>
       <Popover.Panel className="!w-96">
-        {({ open, close }: RenderProps) => (
-          <Content close={close} open={open} />
-        )}
+        {({ open, close }) => <Content close={close} open={open} />}
       </Popover.Panel>
     </Popover>
   );

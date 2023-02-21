@@ -1,5 +1,4 @@
 import React from 'react';
-
 const MediaMonitor = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -15,5 +14,4 @@ const MediaMonitor = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default MediaMonitor;

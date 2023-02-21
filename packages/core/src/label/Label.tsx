@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from 'react';
 import IconLeftWrapper from './styles/IconLeftWrapper';
 import IconRightWrapper from './styles/IconRightWrapper';

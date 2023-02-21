@@ -5,32 +5,35 @@ import React, {
   Fragment,
   ReactNode,
   useContext,
-} from "react";
-import { RenderLink } from "../types";
-import { OpenContext, RenderLinkContext, SelectContext } from "../utils/context";
+} from 'react';
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
+import { RenderLink } from '../types';
+import {
+  OpenContext,
+  RenderLinkContext,
+  SelectContext,
+} from '../utils/context';
 
-export type ListItemType = "Link" | "Action";
+export type ListItemType = 'Link' | 'Action';
 
-const commonClasses = "moon-search-list-item w-full";
+const commonClasses = 'moon-search-list-item w-full';
 
-interface ListItemBaseProps {
+type ListItemBaseProps = {
   closeOnSelect?: boolean;
   showType?: boolean;
   disabled?: boolean;
   keywords?: string[];
   index: number;
-}
+};
 
-export interface LinkProps
-  extends ListItemBaseProps,
+export type LinkProps = ListItemBaseProps &
   DetailedHTMLProps<
     AnchorHTMLAttributes<HTMLAnchorElement>,
     HTMLAnchorElement
-  > {
-  renderLink?: RenderLink;
-  children?: ReactNode | ((selected: boolean) => ReactNode)
-}
+  > & {
+    renderLink?: RenderLink;
+    children?: ReactNode | ((selected: boolean) => ReactNode);
+  };
 
 export function Link({
   renderLink: localRenderLink,
@@ -50,15 +53,16 @@ export function Link({
   const renderLink = localRenderLink || globalRenderLink;
 
   function renderLinkContent() {
-    return <div>
-      {typeof children === 'function' ? children(selected === index) : children}
-    </div>
+    return (
+      <div>
+        {typeof children === 'function'
+          ? children(selected === index)
+          : children}
+      </div>
+    );
   }
 
-  const styles = mergeClassnames(
-    commonClasses,
-    className
-  );
+  const styles = mergeClassnames(commonClasses, className);
 
   function clickAndClose(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
     if (rest.href && !disabled) {
@@ -76,9 +80,9 @@ export function Link({
     <Fragment>
       {renderLink({
         ...rest,
-        "data-close-on-select": closeOnSelect,
+        'data-close-on-select': closeOnSelect,
         children: renderLinkContent(),
-        "aria-disabled": disabled,
+        'aria-disabled': disabled,
         onClick: clickAndClose,
         className: styles,
       })}
@@ -96,14 +100,13 @@ export function Link({
   );
 }
 
-export interface ButtonProps
-  extends ListItemBaseProps,
+export type ButtonProps = ListItemBaseProps &
   DetailedHTMLProps<
     ButtonHTMLAttributes<HTMLButtonElement>,
     HTMLButtonElement
-  > {
-  children?: ReactNode | ((selected: boolean) => ReactNode)
-}
+  > & {
+    children?: ReactNode | ((selected: boolean) => ReactNode);
+  };
 
 export function Button({
   closeOnSelect = true,
@@ -133,10 +136,7 @@ export function Button({
       aria-disabled={rest.disabled ?? false}
       data-close-on-select={closeOnSelect}
       onClick={clickAndClose}
-      className={mergeClassnames(
-        commonClasses,
-        className
-      )}
+      className={mergeClassnames(commonClasses, className)}
     >
       {typeof children === 'function' ? children(selected === index) : children}
     </button>

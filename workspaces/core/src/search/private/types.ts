@@ -1,7 +1,7 @@
 import { AnchorHTMLAttributes, DetailedHTMLProps, ReactNode } from "react";
 import { ButtonProps, LinkProps } from "./components/ListItem";
-export type { ButtonProps, LinkProps } from "./components/ListItem";
 
+export type { ButtonProps, LinkProps } from "./components/ListItem";
 
 export type JsonStructure = Array<{
   items: Array<JsonStructureItem>;

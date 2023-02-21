@@ -1,5 +1,4 @@
 import React from 'react';
-
 const MediaStop = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -12,5 +11,4 @@ const MediaStop = (props: React.SVGProps<SVGSVGElement>) => (
     <rect x={7} y={7} width={18} height={18} rx={4} stroke="currentColor" />
   </svg>
 );
-
 export default MediaStop;

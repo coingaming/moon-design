@@ -1,10 +1,10 @@
 import { Carousel } from '@heathmont/moon-core-tw';
 
 type RenderProps = {
-  scrollLeftToStep: () => void;
-  scrollRightToStep: () => void;
-  canScrollLeft: boolean;
-  canScrollRight: boolean;
+  scrollLeftToStep?: () => void;
+  scrollRightToStep?: () => void;
+  canScrollLeft?: boolean;
+  canScrollRight?: boolean;
 };
 
 const Example = () => {

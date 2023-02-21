@@ -255,11 +255,11 @@ const TailwindGettingStarted = () => (
       <p>
         For the description of all ready-to-use components with examples, see
         the{' '}
-        <Link href="/">
-          <a className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit">
-            {' '}
-            Moon Design System
-          </a>
+        <Link
+          href="/"
+          className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+        >
+          Moon Design System
         </Link>{' '}
         page, under Tailwind.
       </p>
@@ -361,10 +361,11 @@ export default Example;
       <p>
         For more information on <span className="font-medium">Moon DS</span>{' '}
         icons and icons preview, see:{' '}
-        <Link href="/core/icons">
-          <a className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit">
-            Moon Design System
-          </a>
+        <Link
+          href="/core/icons"
+          className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+        >
+          Moon Design System
         </Link>
       </p>
     </PageSection>

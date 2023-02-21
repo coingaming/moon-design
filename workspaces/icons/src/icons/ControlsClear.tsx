@@ -1,5 +1,4 @@
 import React from 'react';
-
 const ControlsClear = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -23,5 +22,4 @@ const ControlsClear = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default ControlsClear;

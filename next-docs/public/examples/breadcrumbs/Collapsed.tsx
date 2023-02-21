@@ -2,21 +2,11 @@ import { Breadcrumb } from '@heathmont/moon-core-tw';
 import Link from 'next/link';
 
 const breadcrumbs = [
-  <Link href="">
-    <a>Home</a>
-  </Link>,
-  <Link href="">
-    <a>Page 1</a>
-  </Link>,
-  <Link href="">
-    <a>Page 2</a>
-  </Link>,
-  <Link href="">
-    <a>Page 3</a>
-  </Link>,
-  <Link href="">
-    <a>Page 4</a>
-  </Link>,
+  <Link href="">Home</Link>,
+  <Link href="">Page 1</Link>,
+  <Link href="">Page 2</Link>,
+  <Link href="">Page 3</Link>,
+  <Link href="">Page 4</Link>,
   <span>Current page</span>,
 ];
 

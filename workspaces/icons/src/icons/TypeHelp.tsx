@@ -1,5 +1,4 @@
 import React from 'react';
-
 const TypeHelp = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -59,5 +58,4 @@ const TypeHelp = (props: React.SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default TypeHelp;

@@ -1,15 +1,14 @@
-import React, { useContext } from "react";
+import React, { useContext } from 'react';
+import { SearchContext } from '../utils/context';
+import ListItem, { ButtonProps, LinkProps } from './ListItem';
 
-import ListItem, { ButtonProps, LinkProps } from "./ListItem";
-import { SearchContext } from "../utils/context";
-
-interface FreeSearchActionProps extends Omit<ButtonProps & LinkProps, "index"> {
+interface FreeSearchActionProps extends Omit<ButtonProps & LinkProps, 'index'> {
   index?: number;
   label?: string | React.ReactNode;
 }
 
 export default function FreeSearchAction({
-  label = "Search for",
+  label = 'Search for',
   ...props
 }: FreeSearchActionProps) {
   const { search } = useContext(SearchContext);

@@ -9,7 +9,7 @@ type Props = {
 };
 
 const Link: React.FC<Props> = ({ href, children, isActive, onClick }) => (
-  <NextLink href={href} passHref>
+  <NextLink href={href} passHref legacyBehavior>
     <MenuItem as="a" isActive={isActive} onClick={onClick}>
       {children}
     </MenuItem>

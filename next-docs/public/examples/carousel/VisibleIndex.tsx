@@ -5,8 +5,8 @@ import {
 } from '@heathmont/moon-icons-tw';
 
 type RenderProps = {
-  firstVisibleIndex: number;
-  lastVisibleIndex: number;
+  firstVisibleIndex?: number;
+  lastVisibleIndex?: number;
 };
 
 const Example = () => {

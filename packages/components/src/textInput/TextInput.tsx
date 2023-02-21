@@ -59,8 +59,6 @@ const TextInput = forwardRef<HTMLInputElement, TextInputProps>((props, ref) => {
     disabled,
     type,
     placeholder,
-    rounded,
-    dir,
     ...rest,
   };
 

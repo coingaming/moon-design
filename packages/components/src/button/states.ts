@@ -10,18 +10,18 @@ type ButtonMockState = 'active' | 'focus' | 'hover';
  * a button's state for documentation / purely stylistic purposes.
  */
 const buttonMockStateClass = (state: ButtonMockState) =>
-  ({
-    active: 'is-active',
-    focus: 'has-focus',
-    hover: 'is-hover',
-  }[state]);
+({
+  active: 'is-active',
+  focus: 'has-focus',
+  hover: 'is-hover',
+}[state]);
 
 /**
  * buttonActive
  *
  * Wraps styles with the appropriate "active"-style selectors.
  */
-const buttonHover = (styles: CSSObject) => ({
+const buttonHover = (styles: CSSObject): CSSObject => ({
   [`
     &.${buttonMockStateClass('hover')},
     &:hover
@@ -37,7 +37,7 @@ const buttonHover = (styles: CSSObject) => ({
  *
  * Wraps styles with the appropriate "focus"-style selectors.
  */
-const buttonActive = (styles: CSSObject) => ({
+const buttonActive = (styles: CSSObject): CSSObject => ({
   [`
     &.${buttonMockStateClass('active')},
     &.${buttonMockStateClass('focus')},

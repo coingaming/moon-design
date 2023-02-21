@@ -1,5 +1,4 @@
 import React from 'react';
-
 const Other3Dots = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -16,5 +15,4 @@ const Other3Dots = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default Other3Dots;

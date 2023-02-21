@@ -1,6 +1,11 @@
-import React, { Dispatch, SetStateAction, useEffect, Children, ReactNode } from "react";
-
-import { JsonStructure } from "../types";
+import {
+  Dispatch,
+  SetStateAction,
+  useEffect,
+  Children,
+  ReactNode,
+} from 'react';
+import { JsonStructure } from '../types';
 
 export function getItemIndex(
   items: JsonStructure,
@@ -23,8 +28,8 @@ export function filterItems(
   }: {
     filterOnListHeading: boolean;
   } = {
-      filterOnListHeading: true,
-    }
+    filterOnListHeading: true,
+  }
 ) {
   return items
     .filter((list) => {
@@ -36,7 +41,7 @@ export function filterItems(
 
       return filterOnListHeading
         ? list.heading?.toLowerCase().includes(search.toLowerCase()) ||
-        listHasMatchingItem
+            listHasMatchingItem
         : listHasMatchingItem;
     })
     .map((list) => {
@@ -60,24 +65,24 @@ export function filterItems(
 function doesChildMatchSearch(search: string, children?: ReactNode) {
   return children
     ? getLabelFromChildren(children)
-      .toLowerCase()
-      .includes(search.toLowerCase())
+        .toLowerCase()
+        .includes(search.toLowerCase())
     : false;
 }
 
 function doesKeywordsMatchSearch(search: string, keywords: string[]) {
-  return keywords.includes("*")
+  return keywords.includes('*')
     ? true
     : keywords.some((keyword) =>
-      keyword.toLowerCase().includes(search.toLowerCase())
-    );
+        keyword.toLowerCase().includes(search.toLowerCase())
+      );
 }
 
 function getLabelFromChildren(children: ReactNode) {
-  let label = "";
+  let label = '';
 
   Children.map(children, (child) => {
-    if (typeof child === "string") {
+    if (typeof child === 'string') {
       label += child;
     }
   });
@@ -85,16 +90,14 @@ function getLabelFromChildren(children: ReactNode) {
   return label;
 }
 
-export function useOpenSearch(
-  setIsOpen: Dispatch<SetStateAction<boolean>>
-) {
+export function useOpenSearch(setIsOpen: Dispatch<SetStateAction<boolean>>) {
   useEffect(() => {
     function handleKeyDown(e: KeyboardEvent) {
       if (
-        (navigator?.platform?.toLowerCase().includes("mac")
+        (navigator?.platform?.toLowerCase().includes('mac')
           ? e.metaKey
           : e.ctrlKey) &&
-        e.key === "k"
+        e.key === 'k'
       ) {
         e.preventDefault();
         e.stopPropagation();
@@ -105,10 +108,10 @@ export function useOpenSearch(
       }
     }
 
-    document.addEventListener("keydown", handleKeyDown);
+    document.addEventListener('keydown', handleKeyDown);
 
     return () => {
-      document.removeEventListener("keydown", handleKeyDown);
+      document.removeEventListener('keydown', handleKeyDown);
     };
   }, []);
 }
