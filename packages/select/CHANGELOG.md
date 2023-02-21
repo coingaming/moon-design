@@ -1,5 +1,18 @@
 # @heathmont/moon-select
 
+## 9.23.0
+
+### Minor Changes
+
+- Update typescript and react to the latest versions
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.23.0
+  - @heathmont/moon-themes@9.23.0
+  - @heathmont/moon-utils@9.23.0
+
 ## 9.22.2
 
 ### Patch Changes
