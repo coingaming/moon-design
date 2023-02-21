@@ -1,5 +1,4 @@
 import React from 'react';
-
 const OtherOther = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -12,5 +11,4 @@ const OtherOther = (props: React.SVGProps<SVGSVGElement>) => (
     <path fill="#C4C4C4" d="M6 6h20v20H6z" />
   </svg>
 );
-
 export default OtherOther;

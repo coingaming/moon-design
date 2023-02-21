@@ -11,7 +11,10 @@ const Example = () => {
   return (
     <>
       <ComponentPageDescription title="Search" isInProgress>
-        <p>Search</p>
+        <p>
+          Search enables users to specify a word or a phrase to find relevant
+          pieces of content without the use of navigation.
+        </p>
       </ComponentPageDescription>
       <Preview
         title="Default"

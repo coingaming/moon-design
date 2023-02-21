@@ -116,6 +116,7 @@ const Item: React.FC<ItemProps> = ({
 type HeaderProps = {
   className?: string;
   disabled?: boolean;
+  children?: React.ReactNode;
 };
 
 const Header: React.FC<HeaderProps> = ({ children, className }) => {
@@ -141,7 +142,7 @@ const Button: React.FC<ButtonProps> = ({ children, className }) => {
       className={mergeClassnames(
         setPadding(true, size),
         setFont(size),
-        'w-full justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start',
+        'w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start',
         'data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 ',
         className
       )}
@@ -151,7 +152,12 @@ const Button: React.FC<ButtonProps> = ({ children, className }) => {
   );
 };
 
-const Content: React.FC<{ className?: string }> = ({ children, className }) => {
+type ContentProps = {
+  className?: string;
+  children?: React.ReactNode;
+};
+
+const Content: React.FC<ContentProps> = ({ children, className }) => {
   const { contentElement } = useAccordionItemContext('Accordion.Content');
   return (
     <RadixAccordion.Content
@@ -166,10 +172,7 @@ const Content: React.FC<{ className?: string }> = ({ children, className }) => {
   );
 };
 
-const ContentOutside: React.FC<{ className?: string }> = ({
-  children,
-  className,
-}) => {
+const ContentOutside: React.FC<ContentProps> = ({ children, className }) => {
   const { size } = useAccordionItemContext('Accordion.ContentOutside');
   return (
     <RadixAccordion.Content

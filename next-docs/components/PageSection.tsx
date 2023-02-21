@@ -8,7 +8,7 @@ type Props = {
   children: React.ReactNode;
 };
 
-const PageSection: React.FC<Props> = ({ title, id, image, children }) => (
+const PageSection: React.FC<Props> = ({ title = '', id, image, children }) => (
   <section className="flex flex-col lg:flex-row gap-6" id={id}>
     <div
       className={mergeClassnames(

@@ -1,5 +1,4 @@
 import React from 'react';
-
 const SportDota2 = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -16,5 +15,4 @@ const SportDota2 = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SportDota2;

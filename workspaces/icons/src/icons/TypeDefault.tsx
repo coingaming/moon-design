@@ -1,5 +1,4 @@
 import React from 'react';
-
 const TypeDefault = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -55,5 +54,4 @@ const TypeDefault = (props: React.SVGProps<SVGSVGElement>) => (
     </defs>
   </svg>
 );
-
 export default TypeDefault;

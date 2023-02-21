@@ -6,13 +6,11 @@ const Breadcrumbs = () => {
   const { pathname } = useRouter();
   const [_, ...pages] = pathname === '/' ? [] : pathname.split('/');
   const breadcrumbsPath = [
-    <Link href="/">
-      <a>Home</a>
-    </Link>,
+    <Link href="/">Home</Link>,
     pages.length > 0 &&
       pages.map((page, index) => (
         <Link href={page} key={index}>
-          <a>{page && page[0].toUpperCase() + page.slice(1)}</a>
+          {page && page[0].toUpperCase() + page.slice(1)}
         </Link>
       )),
   ];

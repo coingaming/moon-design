@@ -27,10 +27,11 @@ const ForDevelopers = () => {
         <GithubIcon />
         <h2 className="text-moon-24 grow 3xl:grow-0">For developers.</h2>
         <div className="absolute top-0 bottom-0 left-0 right-0 3xl:top-6 3xl:bottom-auto ltr:3xl:right-6 ltr:3xl:left-auto rtl:3xl:left-6 rtl:3xl:right-auto rtl:-rotate-90">
-          <Link href="/gettingStarted">
-            <a className="flex items-center justify-end h-full pe-6 3xl:pe-0 w-full rounded-moon-s-lg text-moon-32">
-              <ArrowsTopRight />
-            </a>
+          <Link
+            href="/gettingStarted"
+            className="flex items-center justify-end h-full pe-6 3xl:pe-0 w-full rounded-moon-s-lg text-moon-32"
+          >
+            <ArrowsTopRight />
           </Link>
         </div>
       </div>
@@ -44,12 +45,12 @@ const ForDevelopers = () => {
         >
           Github
         </Button>
-        <Link href="/gettingStarted" passHref>
+        <Link href="/gettingStarted" passHref legacyBehavior>
           <Button as="a" variant="secondary">
             Getting Started
           </Button>
         </Link>
-        <Link href="/tokens" passHref>
+        <Link href="/tokens" passHref legacyBehavior>
           <Button as="a" variant="secondary">
             Design Tokens
           </Button>
@@ -72,7 +73,7 @@ const ForDevelopers = () => {
         >
           Contribution
         </Button>
-        <Link href="/core/accordion" passHref>
+        <Link href="/core/accordion" passHref legacyBehavior>
           <Button as="a" variant="secondary">
             Components
           </Button>

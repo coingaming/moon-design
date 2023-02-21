@@ -9,12 +9,7 @@ import React, {
   useState,
 } from 'react';
 import { Transition, Dialog } from '@headlessui/react';
-
-import FreeSearchAction from './FreeSearchAction';
-import List, { ListHeading } from './List';
-import ListItem from './ListItem';
-import Page from './Page';
-import Input from './Input';
+import { RenderLink } from '../types';
 import {
   OpenContext,
   PageContext,
@@ -22,11 +17,15 @@ import {
   SearchContext,
   SelectContext,
 } from '../utils/context';
-import { RenderLink } from '../types';
 import { Backdrop } from './Backdrop';
+import FreeSearchAction from './FreeSearchAction';
+import Input from './Input';
+import List, { ListHeading } from './List';
+import ListItem from './ListItem';
+import Page from './Page';
 import { Trigger } from './Trigger';
 
-interface SearchProps {
+type SearchProps = {
   onChangeSelected?: (value: number) => void;
   onChangeSearch: (search: string) => void;
   onChangeOpen: (isOpen: boolean) => void;
@@ -39,13 +38,14 @@ interface SearchProps {
   page?: string;
   backdrop?: ReactNode;
   clear: string | ReactNode;
-}
+};
 
 const Modal: React.FC<{
   isOpen: boolean;
   inputRef: React.RefObject<any>;
   onChangeOpen: (isOpen: boolean) => void;
   backdrop: ReactNode;
+  children?: ReactNode;
 }> = ({ children, isOpen, inputRef, onChangeOpen, backdrop }) => {
   return (
     <Transition appear show={isOpen} as={Fragment}>
@@ -180,7 +180,7 @@ export function SearchModal({
   }, [page]);
 
   const onKeyDown = useCallback(
-    (e) => {
+    (e: React.KeyboardEvent) => {
       if (
         e.key === 'ArrowDown' ||
         (e.ctrlKey && e.key === 'n') ||

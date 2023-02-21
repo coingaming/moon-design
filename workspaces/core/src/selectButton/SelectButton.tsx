@@ -35,6 +35,7 @@ type SelectButtonProps = {
   idDisabled?: boolean;
   label?: JSX.Element | string;
   placeholder?: JSX.Element | string;
+  children?: React.ReactNode;
 };
 
 const getSelectSize = (size?: 'sm' | 'md' | 'lg' | string) => {
@@ -75,7 +76,10 @@ const SelectButtonRoot: React.FC<SelectButtonProps> = ({
   );
 };
 
-const Input: React.FC<{ className?: string }> = ({ children, className }) => {
+const Input: React.FC<{ className?: string; children?: React.ReactNode }> = ({
+  children,
+  className,
+}) => {
   const { size, isError, idDisabled, ...rest } =
     useSelectButtonContext('SelectButton.Input');
   return (
@@ -101,34 +105,32 @@ const Input: React.FC<{ className?: string }> = ({ children, className }) => {
   );
 };
 
-const InsetInput: React.FC<{ className?: string }> = ({
-  children,
-  className,
-}) => {
-  const { isError, idDisabled, ...rest } =
-    useSelectButtonContext('SelectButton.Input');
-  return (
-    <button
-      {...rest}
-      className={mergeClassnames(
-        'flex items-center justify-between',
-        'w-full bg-gohan border-beerus',
-        'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
-        'focus:shadow-input-focus focus:outline-none',
-        'h-14 py-2 px-4 rounded-moon-i-md',
-        isError &&
-          'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-        idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input',
-        className && className
-      )}
-    >
-      <span className="flex gap-2 items-center">{children}</span>
-      <Control />
-    </button>
-  );
-};
+const InsetInput: React.FC<{ className?: string; children?: React.ReactNode }> =
+  ({ children, className }) => {
+    const { isError, idDisabled, ...rest } =
+      useSelectButtonContext('SelectButton.Input');
+    return (
+      <button
+        {...rest}
+        className={mergeClassnames(
+          'flex items-center justify-between',
+          'w-full bg-gohan border-beerus',
+          'shadow-input hover:shadow-input-hov transition-shadow duration-200 ',
+          'focus:shadow-input-focus focus:outline-none',
+          'h-14 py-2 px-4 rounded-moon-i-md',
+          isError &&
+            'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
+          idDisabled && 'opacity-30 cursor-not-allowed hover:shadow-input',
+          className && className
+        )}
+      >
+        <span className="flex gap-2 items-center">{children}</span>
+        <Control />
+      </button>
+    );
+  };
 
-const Value: React.FC = ({ children }) => {
+const Value: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   const { size } = useSelectButtonContext('SelectButton.Value');
   return (
     <span
@@ -145,6 +147,7 @@ const Value: React.FC = ({ children }) => {
 type LabelProps = {
   labelSize?: 'sm' | 'md' | 'lg' | 'xl' | string;
   idDisabled?: boolean;
+  children?: React.ReactNode;
 };
 
 const Label: React.FC<LabelProps> = ({ children, labelSize, idDisabled }) => {
@@ -163,7 +166,9 @@ const Label: React.FC<LabelProps> = ({ children, labelSize, idDisabled }) => {
   );
 };
 
-const FloatingLabel: React.FC = ({ children }) => {
+const FloatingLabel: React.FC<{ children?: React.ReactNode }> = ({
+  children,
+}) => {
   return (
     <Listbox.Label className="block text-moon-12 text-trunks">
       {children}
@@ -171,7 +176,9 @@ const FloatingLabel: React.FC = ({ children }) => {
   );
 };
 
-const Placeholder: React.FC = ({ children }) => {
+const Placeholder: React.FC<{ children?: React.ReactNode }> = ({
+  children,
+}) => {
   const { size } = useSelectButtonContext('SelectButton.Placeholder');
   return (
     <span

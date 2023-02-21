@@ -2,7 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
-
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -35,7 +34,6 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     <path d="M22 12.148l4.998 2.903V9.916L22 12.148z" fill="#C9C1F7" />
   </svg>
 );
-
 type IconProps = {
   backgroundColor?: ColorProps,
   circleColor?: ColorProps,

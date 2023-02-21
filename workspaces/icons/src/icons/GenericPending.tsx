@@ -1,5 +1,4 @@
 import React from 'react';
-
 const GenericPending = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -20,5 +19,4 @@ const GenericPending = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default GenericPending;

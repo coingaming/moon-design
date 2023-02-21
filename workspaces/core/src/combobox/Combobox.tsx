@@ -22,12 +22,6 @@ type Placement =
   | 'left';
 
 type InputSize = 'sm' | 'md' | 'lg' | 'xl';
-type RenderProp = (data: { open?: boolean }) => ReactNode;
-type OptionsRenderProp = (data: {
-  active: boolean;
-  selected: boolean;
-  disabled: boolean;
-}) => ReactNode;
 
 type ComboboxRootProps = {
   value?: BaseOptionType;
@@ -40,7 +34,7 @@ type ComboboxRootProps = {
   size?: InputSize;
   className?: string;
   position?: Placement;
-  children: ReactNode | RenderProp;
+  children: ReactNode | (({ open }: { open: boolean }) => ReactNode);
   label?: string;
   placeholder?: string;
 };
@@ -48,7 +42,17 @@ type ComboboxRootProps = {
 type OptionProps = {
   value: BaseOptionType;
   displayRadioIcon?: boolean;
-  children?: ReactNode | OptionsRenderProp;
+  children?:
+    | ReactNode
+    | (({
+        active,
+        disabled,
+        selected,
+      }: {
+        active: boolean;
+        selected: boolean;
+        disabled: boolean;
+      }) => ReactNode);
   className?: string;
 };
 
@@ -73,8 +77,6 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
   const { styles, attributes } = usePopper(anchorEl, popperEl, {
     placement: position,
   });
-
-  const hasRenderProp = typeof children === 'function';
 
   return (
     <div className={mergeClassnames('w-full relative', className)}>
@@ -136,9 +138,7 @@ const ComboboxRoot: React.FC<ComboboxRootProps> = ({
                   'focus:outline-none'
                 )}
               >
-                {hasRenderProp
-                  ? (children as RenderProp)?.({ open })
-                  : children}
+                {typeof children === 'function' ? children({ open }) : children}
               </HeadlessCombobox.Options>
             </Transition>
           </>
@@ -154,7 +154,6 @@ const Option: React.FC<OptionProps> = ({
   displayRadioIcon = false,
   className = '',
 }) => {
-  const hasRenderProp = typeof children === 'function';
   return (
     <HeadlessCombobox.Option value={value}>
       {({ active, disabled, selected }) => (
@@ -166,12 +165,8 @@ const Option: React.FC<OptionProps> = ({
           )}
         >
           <div>
-            {hasRenderProp
-              ? (children as OptionsRenderProp)?.({
-                  active,
-                  disabled,
-                  selected,
-                })
+            {typeof children === 'function'
+              ? children({ active, disabled, selected })
               : children}
           </div>
           {displayRadioIcon && <RadioButton checked={selected} />}

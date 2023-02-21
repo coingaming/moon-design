@@ -3,20 +3,24 @@
 exports[`Accordion in Dark Theme renders Background 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r29:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r28:"
@@ -46,6 +50,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
     <div
       aria-labelledby="radix-:r28:"
       className="rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma bg-beerus"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r29:"
@@ -62,16 +67,19 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
   </div>
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r2b:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r2a:"
@@ -101,6 +109,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
     <div
       aria-labelledby="radix-:r2a:"
       className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r2b:"
@@ -121,20 +130,24 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
 exports[`Accordion in Dark Theme renders ContentHeader 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r1n:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r1m:"
@@ -224,6 +237,7 @@ exports[`Accordion in Dark Theme renders ContentHeader 1`] = `
     <div
       aria-labelledby="radix-:r1m:"
       className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r1n:"
@@ -244,20 +258,24 @@ exports[`Accordion in Dark Theme renders ContentHeader 1`] = `
 exports[`Accordion in Dark Theme renders ContentOutside 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r1l:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r1k:"
@@ -287,6 +305,7 @@ exports[`Accordion in Dark Theme renders ContentOutside 1`] = `
     <div
       aria-labelledby="radix-:r1k:"
       className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r1l:"
@@ -308,20 +327,24 @@ exports[`Accordion in Dark Theme renders ContentOutsideSizes 1`] = `
 Array [
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r21:"
           aria-expanded={false}
-          className="p-4 text-moon-16 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r20:"
@@ -351,6 +374,7 @@ Array [
       <div
         aria-labelledby="radix-:r20:"
         className="mt-4 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r21:"
@@ -368,20 +392,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r23:"
           aria-expanded={false}
-          className="p-3 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r22:"
@@ -411,6 +439,7 @@ Array [
       <div
         aria-labelledby="radix-:r22:"
         className="mt-3 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r23:"
@@ -428,20 +457,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r25:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r24:"
@@ -471,6 +504,7 @@ Array [
       <div
         aria-labelledby="radix-:r24:"
         className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r25:"
@@ -488,20 +522,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r27:"
           aria-expanded={false}
-          className="py-1 ps-3 pe-1 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r26:"
@@ -531,6 +569,7 @@ Array [
       <div
         aria-labelledby="radix-:r26:"
         className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r27:"
@@ -552,20 +591,24 @@ Array [
 exports[`Accordion in Dark Theme renders Default 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r17:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r16:"
@@ -595,6 +638,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
     <div
       aria-labelledby="radix-:r16:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r17:"
@@ -611,16 +655,19 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
   </div>
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r19:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r18:"
@@ -650,6 +697,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
     <div
       aria-labelledby="radix-:r18:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r19:"
@@ -670,23 +718,27 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
 exports[`Accordion in Dark Theme renders Disabled 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
     data-disabled=""
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-disabled=""
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r1j:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
         data-disabled=""
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         disabled={true}
@@ -718,6 +770,7 @@ exports[`Accordion in Dark Theme renders Disabled 1`] = `
       aria-labelledby="radix-:r1i:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
       data-disabled=""
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r1j:"
@@ -738,20 +791,24 @@ exports[`Accordion in Dark Theme renders Disabled 1`] = `
 exports[`Accordion in Dark Theme renders Divider 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan border-b"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r1d:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-180"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r1c:"
@@ -781,6 +838,7 @@ exports[`Accordion in Dark Theme renders Divider 1`] = `
     <div
       aria-labelledby="radix-:r1c:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 text-moon-14 overflow-hidden w-full text-bulma pt-2"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r1d:"
@@ -801,20 +859,24 @@ exports[`Accordion in Dark Theme renders Divider 1`] = `
 exports[`Accordion in Dark Theme renders OpenDefault 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="open"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="open"
     >
       <button
         aria-controls="radix-:r1b:"
         aria-expanded={true}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="open"
         id="radix-:r1a:"
@@ -844,6 +906,7 @@ exports[`Accordion in Dark Theme renders OpenDefault 1`] = `
     <div
       aria-labelledby="radix-:r1a:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      data-orientation="vertical"
       data-state="open"
       hidden={false}
       id="radix-:r1b:"
@@ -866,20 +929,24 @@ exports[`Accordion in Dark Theme renders OpenDefault 1`] = `
 exports[`Accordion in Dark Theme renders Single 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r1f:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r1e:"
@@ -909,6 +976,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
     <div
       aria-labelledby="radix-:r1e:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r1f:"
@@ -925,16 +993,19 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
   </div>
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r1h:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r1g:"
@@ -964,6 +1035,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
     <div
       aria-labelledby="radix-:r1g:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r1h:"
@@ -985,20 +1057,24 @@ exports[`Accordion in Dark Theme renders Sizes 1`] = `
 Array [
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r1p:"
           aria-expanded={false}
-          className="p-4 text-moon-16 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r1o:"
@@ -1028,6 +1104,7 @@ Array [
       <div
         aria-labelledby="radix-:r1o:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r1p:"
@@ -1045,20 +1122,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r1r:"
           aria-expanded={false}
-          className="p-3 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r1q:"
@@ -1088,6 +1169,7 @@ Array [
       <div
         aria-labelledby="radix-:r1q:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r1r:"
@@ -1105,20 +1187,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r1t:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r1s:"
@@ -1148,6 +1234,7 @@ Array [
       <div
         aria-labelledby="radix-:r1s:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r1t:"
@@ -1165,20 +1252,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r1v:"
           aria-expanded={false}
-          className="py-1 ps-3 pe-1 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r1u:"
@@ -1208,6 +1299,7 @@ Array [
       <div
         aria-labelledby="radix-:r1u:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r1v:"
@@ -1229,20 +1321,24 @@ Array [
 exports[`Accordion in Light Theme renders Background 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r13:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r12:"
@@ -1272,6 +1368,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
     <div
       aria-labelledby="radix-:r12:"
       className="rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma bg-beerus"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r13:"
@@ -1288,16 +1385,19 @@ exports[`Accordion in Light Theme renders Background 1`] = `
   </div>
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r15:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r14:"
@@ -1327,6 +1427,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
     <div
       aria-labelledby="radix-:r14:"
       className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r15:"
@@ -1347,20 +1448,24 @@ exports[`Accordion in Light Theme renders Background 1`] = `
 exports[`Accordion in Light Theme renders ContentHeader 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:rh:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:rg:"
@@ -1450,6 +1555,7 @@ exports[`Accordion in Light Theme renders ContentHeader 1`] = `
     <div
       aria-labelledby="radix-:rg:"
       className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:rh:"
@@ -1470,20 +1576,24 @@ exports[`Accordion in Light Theme renders ContentHeader 1`] = `
 exports[`Accordion in Light Theme renders ContentOutside 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:rf:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:re:"
@@ -1513,6 +1623,7 @@ exports[`Accordion in Light Theme renders ContentOutside 1`] = `
     <div
       aria-labelledby="radix-:re:"
       className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:rf:"
@@ -1534,20 +1645,24 @@ exports[`Accordion in Light Theme renders ContentOutsideSizes 1`] = `
 Array [
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:rr:"
           aria-expanded={false}
-          className="p-4 text-moon-16 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:rq:"
@@ -1577,6 +1692,7 @@ Array [
       <div
         aria-labelledby="radix-:rq:"
         className="mt-4 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:rr:"
@@ -1594,20 +1710,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:rt:"
           aria-expanded={false}
-          className="p-3 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:rs:"
@@ -1637,6 +1757,7 @@ Array [
       <div
         aria-labelledby="radix-:rs:"
         className="mt-3 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:rt:"
@@ -1654,20 +1775,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:rv:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:ru:"
@@ -1697,6 +1822,7 @@ Array [
       <div
         aria-labelledby="radix-:ru:"
         className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:rv:"
@@ -1714,20 +1840,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r11:"
           aria-expanded={false}
-          className="py-1 ps-3 pe-1 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r10:"
@@ -1757,6 +1887,7 @@ Array [
       <div
         aria-labelledby="radix-:r10:"
         className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r11:"
@@ -1778,20 +1909,24 @@ Array [
 exports[`Accordion in Light Theme renders Default 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r1:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r0:"
@@ -1821,6 +1956,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
     <div
       aria-labelledby="radix-:r0:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r1:"
@@ -1837,16 +1973,19 @@ exports[`Accordion in Light Theme renders Default 1`] = `
   </div>
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r3:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r2:"
@@ -1876,6 +2015,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
     <div
       aria-labelledby="radix-:r2:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r3:"
@@ -1896,23 +2036,27 @@ exports[`Accordion in Light Theme renders Default 1`] = `
 exports[`Accordion in Light Theme renders Disabled 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
     data-disabled=""
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
       data-disabled=""
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:rd:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
         data-disabled=""
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         disabled={true}
@@ -1944,6 +2088,7 @@ exports[`Accordion in Light Theme renders Disabled 1`] = `
       aria-labelledby="radix-:rc:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
       data-disabled=""
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:rd:"
@@ -1964,20 +2109,24 @@ exports[`Accordion in Light Theme renders Disabled 1`] = `
 exports[`Accordion in Light Theme renders Divider 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan border-b"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r7:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-180"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r6:"
@@ -2007,6 +2156,7 @@ exports[`Accordion in Light Theme renders Divider 1`] = `
     <div
       aria-labelledby="radix-:r6:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 text-moon-14 overflow-hidden w-full text-bulma pt-2"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r7:"
@@ -2027,20 +2177,24 @@ exports[`Accordion in Light Theme renders Divider 1`] = `
 exports[`Accordion in Light Theme renders OpenDefault 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="open"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="open"
     >
       <button
         aria-controls="radix-:r5:"
         aria-expanded={true}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="open"
         id="radix-:r4:"
@@ -2070,6 +2224,7 @@ exports[`Accordion in Light Theme renders OpenDefault 1`] = `
     <div
       aria-labelledby="radix-:r4:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      data-orientation="vertical"
       data-state="open"
       hidden={false}
       id="radix-:r5:"
@@ -2092,20 +2247,24 @@ exports[`Accordion in Light Theme renders OpenDefault 1`] = `
 exports[`Accordion in Light Theme renders Single 1`] = `
 <div
   className="flex w-full gap-2 flex-col"
+  data-orientation="vertical"
   onKeyDown={[Function]}
 >
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:r9:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:r8:"
@@ -2135,6 +2294,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
     <div
       aria-labelledby="radix-:r8:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:r9:"
@@ -2151,16 +2311,19 @@ exports[`Accordion in Light Theme renders Single 1`] = `
   </div>
   <div
     className="w-full"
+    data-orientation="vertical"
     data-state="closed"
   >
     <h3
       className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      data-orientation="vertical"
       data-state="closed"
     >
       <button
         aria-controls="radix-:rb:"
         aria-expanded={false}
-        className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+        data-orientation="vertical"
         data-radix-collection-item=""
         data-state="closed"
         id="radix-:ra:"
@@ -2190,6 +2353,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
     <div
       aria-labelledby="radix-:ra:"
       className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      data-orientation="vertical"
       data-state="closed"
       hidden={true}
       id="radix-:rb:"
@@ -2211,20 +2375,24 @@ exports[`Accordion in Light Theme renders Sizes 1`] = `
 Array [
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:rj:"
           aria-expanded={false}
-          className="p-4 text-moon-16 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:ri:"
@@ -2254,6 +2422,7 @@ Array [
       <div
         aria-labelledby="radix-:ri:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:rj:"
@@ -2271,20 +2440,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:rl:"
           aria-expanded={false}
-          className="p-3 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:rk:"
@@ -2314,6 +2487,7 @@ Array [
       <div
         aria-labelledby="radix-:rk:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:rl:"
@@ -2331,20 +2505,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:rn:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:rm:"
@@ -2374,6 +2552,7 @@ Array [
       <div
         aria-labelledby="radix-:rm:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:rn:"
@@ -2391,20 +2570,24 @@ Array [
   </div>,
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:rp:"
           aria-expanded={false}
-          className="py-1 ps-3 pe-1 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:ro:"
@@ -2434,6 +2617,7 @@ Array [
       <div
         aria-labelledby="radix-:ro:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:rp:"
@@ -2458,20 +2642,24 @@ exports[`Accordion in RTL renders Background 1`] = `
 >
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r3f:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r3e:"
@@ -2501,6 +2689,7 @@ exports[`Accordion in RTL renders Background 1`] = `
       <div
         aria-labelledby="radix-:r3e:"
         className="rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma bg-beerus"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r3f:"
@@ -2517,16 +2706,19 @@ exports[`Accordion in RTL renders Background 1`] = `
     </div>
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r3h:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r3g:"
@@ -2556,6 +2748,7 @@ exports[`Accordion in RTL renders Background 1`] = `
       <div
         aria-labelledby="radix-:r3g:"
         className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r3h:"
@@ -2580,20 +2773,24 @@ exports[`Accordion in RTL renders ContentHeader 1`] = `
 >
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r2t:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_span_svg]:rotate-180"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r2s:"
@@ -2683,6 +2880,7 @@ exports[`Accordion in RTL renders ContentHeader 1`] = `
       <div
         aria-labelledby="radix-:r2s:"
         className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r2t:"
@@ -2707,20 +2905,24 @@ exports[`Accordion in RTL renders ContentOutside 1`] = `
 >
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r2r:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r2q:"
@@ -2750,6 +2952,7 @@ exports[`Accordion in RTL renders ContentOutside 1`] = `
       <div
         aria-labelledby="radix-:r2q:"
         className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r2r:"
@@ -2774,20 +2977,24 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
 >
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r37:"
           aria-expanded={false}
-          className="p-4 text-moon-16 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r36:"
@@ -2817,6 +3024,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       <div
         aria-labelledby="radix-:r36:"
         className="mt-4 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r37:"
@@ -2834,20 +3042,24 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
   </div>
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r39:"
           aria-expanded={false}
-          className="p-3 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r38:"
@@ -2877,6 +3089,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       <div
         aria-labelledby="radix-:r38:"
         className="mt-3 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r39:"
@@ -2894,20 +3107,24 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
   </div>
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r3b:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r3a:"
@@ -2937,6 +3154,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       <div
         aria-labelledby="radix-:r3a:"
         className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r3b:"
@@ -2954,20 +3172,24 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
   </div>
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r3d:"
           aria-expanded={false}
-          className="py-1 ps-3 pe-1 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r3c:"
@@ -2997,6 +3219,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       <div
         aria-labelledby="radix-:r3c:"
         className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r3d:"
@@ -3021,20 +3244,24 @@ exports[`Accordion in RTL renders Default 1`] = `
 >
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r2d:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r2c:"
@@ -3064,6 +3291,7 @@ exports[`Accordion in RTL renders Default 1`] = `
       <div
         aria-labelledby="radix-:r2c:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r2d:"
@@ -3080,16 +3308,19 @@ exports[`Accordion in RTL renders Default 1`] = `
     </div>
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r2f:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r2e:"
@@ -3119,6 +3350,7 @@ exports[`Accordion in RTL renders Default 1`] = `
       <div
         aria-labelledby="radix-:r2e:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r2f:"
@@ -3143,23 +3375,27 @@ exports[`Accordion in RTL renders Disabled 1`] = `
 >
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
       data-disabled=""
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
         data-disabled=""
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r2p:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
           data-disabled=""
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           disabled={true}
@@ -3191,6 +3427,7 @@ exports[`Accordion in RTL renders Disabled 1`] = `
         aria-labelledby="radix-:r2o:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
         data-disabled=""
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r2p:"
@@ -3215,20 +3452,24 @@ exports[`Accordion in RTL renders Divider 1`] = `
 >
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan border-b"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r2j:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-180"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30 moon-open:[&_svg]:rotate-180"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r2i:"
@@ -3258,6 +3499,7 @@ exports[`Accordion in RTL renders Divider 1`] = `
       <div
         aria-labelledby="radix-:r2i:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 text-moon-14 overflow-hidden w-full text-bulma pt-2"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r2j:"
@@ -3282,20 +3524,24 @@ exports[`Accordion in RTL renders OpenDefault 1`] = `
 >
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="open"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="open"
       >
         <button
           aria-controls="radix-:r2h:"
           aria-expanded={true}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="open"
           id="radix-:r2g:"
@@ -3325,6 +3571,7 @@ exports[`Accordion in RTL renders OpenDefault 1`] = `
       <div
         aria-labelledby="radix-:r2g:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="open"
         hidden={false}
         id="radix-:r2h:"
@@ -3351,20 +3598,24 @@ exports[`Accordion in RTL renders Single 1`] = `
 >
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r2l:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r2k:"
@@ -3394,6 +3645,7 @@ exports[`Accordion in RTL renders Single 1`] = `
       <div
         aria-labelledby="radix-:r2k:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r2l:"
@@ -3410,16 +3662,19 @@ exports[`Accordion in RTL renders Single 1`] = `
     </div>
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r2n:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r2m:"
@@ -3449,6 +3704,7 @@ exports[`Accordion in RTL renders Single 1`] = `
       <div
         aria-labelledby="radix-:r2m:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r2n:"
@@ -3473,20 +3729,24 @@ exports[`Accordion in RTL renders Sizes 1`] = `
 >
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r2v:"
           aria-expanded={false}
-          className="p-4 text-moon-16 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-4 text-moon-16 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r2u:"
@@ -3516,6 +3776,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       <div
         aria-labelledby="radix-:r2u:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r2v:"
@@ -3533,20 +3794,24 @@ exports[`Accordion in RTL renders Sizes 1`] = `
   </div>
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r31:"
           aria-expanded={false}
-          className="p-3 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="p-3 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r30:"
@@ -3576,6 +3841,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       <div
         aria-labelledby="radix-:r30:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r31:"
@@ -3593,20 +3859,24 @@ exports[`Accordion in RTL renders Sizes 1`] = `
   </div>
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r33:"
           aria-expanded={false}
-          className="py-2 ps-3 pe-2 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-2 ps-3 pe-2 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r32:"
@@ -3636,6 +3906,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       <div
         aria-labelledby="radix-:r32:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r33:"
@@ -3653,20 +3924,24 @@ exports[`Accordion in RTL renders Sizes 1`] = `
   </div>
   <div
     className="flex w-full gap-2 flex-col"
+    data-orientation="vertical"
     onKeyDown={[Function]}
   >
     <div
       className="w-full"
+      data-orientation="vertical"
       data-state="closed"
     >
       <h3
         className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        data-orientation="vertical"
         data-state="closed"
       >
         <button
           aria-controls="radix-:r35:"
           aria-expanded={false}
-          className="py-1 ps-3 pe-1 text-moon-14 justify-between flex items-center relative w-full gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          className="py-1 ps-3 pe-1 text-moon-14 w-full justify-between flex items-center relative gap-1 cursor-pointer flex-1 font-medium text-bulma text-start data-[disabled]:cursor-not-allowed data-[disabled]:opacity-30"
+          data-orientation="vertical"
           data-radix-collection-item=""
           data-state="closed"
           id="radix-:r34:"
@@ -3696,6 +3971,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       <div
         aria-labelledby="radix-:r34:"
         className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        data-orientation="vertical"
         data-state="closed"
         hidden={true}
         id="radix-:r35:"

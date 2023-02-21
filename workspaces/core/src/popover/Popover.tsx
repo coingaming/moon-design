@@ -8,11 +8,11 @@ import type CallableChildren from './private/types/CallableChildren';
 import type PanelProps from './private/types/PanelProps';
 import type PopoverRootProps from './private/types/PopoverRootProps';
 
-const PopoverRoot: React.FC<PopoverRootProps> = ({
+const PopoverRoot = ({
   children,
   position = 'bottom',
   className,
-}) => {
+}: PopoverRootProps) => {
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
 
@@ -37,7 +37,8 @@ const PopoverRoot: React.FC<PopoverRootProps> = ({
     },
   };
 
-  const childrens = React.Children.toArray(children);
+  const childrens =
+    typeof children !== 'function' ? React.Children.toArray(children) : [];
   const callableChildren =
     typeof children === 'function' && (children as CallableChildren);
   return (
@@ -55,7 +56,7 @@ const PopoverRoot: React.FC<PopoverRootProps> = ({
   );
 };
 
-const Trigger: React.FC = ({ children }) => {
+const Trigger: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   const { popper } = usePopoverContext('Popover.Trigger');
   return (
     <HeadlessPopover.Button as={'div'} ref={popper?.setAnchor}>
@@ -64,9 +65,10 @@ const Trigger: React.FC = ({ children }) => {
   );
 };
 
-const Panel: React.FC<PanelProps> = ({ children, className }) => {
+const Panel = ({ children, className }: PanelProps) => {
   const { popper } = usePopoverContext('Popover.Trigger');
-  const childrens = React.Children.toArray(children);
+  const childrens =
+    typeof children !== 'function' ? React.Children.toArray(children) : [];
   const callableChildren =
     typeof children === 'function' && (children as CallableChildren);
   return (
@@ -91,7 +93,13 @@ const Panel: React.FC<PanelProps> = ({ children, className }) => {
   );
 };
 
-const Group: React.FC<PanelProps> = ({ children, className }) => (
+const Group = ({
+  children,
+  className,
+}: {
+  className?: string;
+  children: React.ReactNode;
+}) => (
   <HeadlessPopover.Group className={className}>
     {children}
   </HeadlessPopover.Group>

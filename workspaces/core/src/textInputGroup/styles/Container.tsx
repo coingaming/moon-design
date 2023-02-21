@@ -7,6 +7,7 @@ const Container: React.FC<{
   dir?: string;
   backgroundColor?: string;
   isError?: boolean;
+  children?: React.ReactNode;
 }> = ({ orientation, isXLarge, dir, backgroundColor, isError, children }) => (
   <div
     dir={dir}

@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useEffect } from 'react';
+import React, { useState, useCallback, useEffect, ReactEventHandler } from 'react';
 
 type UseDraggingProps = {
   divRef: React.RefObject<HTMLDivElement>;
@@ -8,7 +8,7 @@ type UseDraggingProps = {
 const useDragging = ({ divRef, handleChanges }: UseDraggingProps): boolean => {
   const [dragging, setDragging] = useState(false);
 
-  const handleDragIn = useCallback((ev) => {
+  const handleDragIn = useCallback((ev: any) => {
     ev.preventDefault();
     ev.stopPropagation();
     if (ev.dataTransfer.items && ev.dataTransfer.items.length !== 0) {
@@ -16,19 +16,19 @@ const useDragging = ({ divRef, handleChanges }: UseDraggingProps): boolean => {
     }
   }, []);
 
-  const handleDragOut = useCallback((ev) => {
+  const handleDragOut = useCallback((ev: any) => {
     ev.preventDefault();
     ev.stopPropagation();
     setDragging(false);
   }, []);
 
-  const handleDrag = useCallback((ev) => {
+  const handleDrag = useCallback((ev: any) => {
     ev.preventDefault();
     ev.stopPropagation();
   }, []);
 
   const handleDrop = useCallback(
-    (ev) => {
+    (ev: any) => {
       ev.preventDefault();
       ev.stopPropagation();
       setDragging(false);

@@ -19,9 +19,7 @@ const Header: React.FC<Props> = ({ openSidebar }) => (
         <GenericMenu className="text-moon-32" />
       </button>
       <Link href="/">
-        <a>
-          <LogoMoonDesignShort fontSize="2rem" />
-        </a>
+        <LogoMoonDesignShort fontSize="2rem" />
       </Link>
     </div>
     <Breadcrumbs />

@@ -1,5 +1,4 @@
 import React from 'react';
-
 const SecurityBetIncurance = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -21,5 +20,4 @@ const SecurityBetIncurance = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default SecurityBetIncurance;

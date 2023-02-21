@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
 import OmitResults from '../../public/styledExamples/search/OmitResults';
 import PreviewSearch from '../../public/styledExamples/search/PreviewSearch';
@@ -12,7 +13,7 @@ export default function PageSearch() {
   return (
     <>
       <ComponentPageDescription title="Search">
-        <p>An elegant search component.</p>
+        <DeprecationWarning href="/core/search" name="Search" />
       </ComponentPageDescription>
       <Preview
         title="Search component default values"

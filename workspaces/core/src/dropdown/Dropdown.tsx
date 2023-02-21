@@ -1,86 +1,17 @@
-import React, {
-  createContext,
-  useContext,
-  ReactChild,
-  ReactPortal,
-} from 'react';
+import React from 'react';
 import { Listbox } from '@headlessui/react';
 import { usePopper } from 'react-popper';
 import { SelectButton } from '../index';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-type Placement =
-  | 'top-start'
-  | 'top-end'
-  | 'bottom-start'
-  | 'bottom-end'
-  | 'right-start'
-  | 'right-end'
-  | 'left-start'
-  | 'left-end'
-  | 'top'
-  | 'bottom'
-  | 'right'
-  | 'left';
+import DropdownContext from './private/utils/DropdownContext';
+import useDropdownContext from './private/utils/useDropdownContext';
+import type DropdownRootProps from './private/types/DropdownRootProps';
+import type OptionProps from './private/types/OptionProps';
+import type OptionsProps from './private/types/OptionsProps';
+import type SelectProps from './private/types/SelectProps';
+import type WithChildren from './private/types/WithChildren';
 
-type DropdownState = {
-  value?: any;
-  isError?: boolean;
-  disabled?: boolean;
-  onClear?: () => void;
-  pooper?: {
-    styles?: { [key: string]: React.CSSProperties };
-    attributes?: { [key: string]: { [key: string]: string } | undefined };
-    setAnchor: React.Dispatch<React.SetStateAction<Element | null | undefined>>;
-    setPopper: React.Dispatch<
-      React.SetStateAction<HTMLElement | null | undefined>
-    >;
-  };
-  size?: 'sm' | 'md' | 'lg' | string;
-};
-
-const DropdownContext = createContext<DropdownState>({});
-DropdownContext.displayName = 'DropdownContext';
-
-const useDropdownContext = (component: string) => {
-  const context = useContext(DropdownContext);
-  if (context === null) {
-    const err = new Error(
-      `<${component}> is missing a parent <Dropdown /> component.`
-    );
-    // if (Error.captureStackTrace) Error.captureStackTrace(err, useDropdownContext);
-    throw err;
-  }
-  return context;
-};
-
-type CallableChildren = (data: { open?: boolean }) => ReactNode;
-
-type ReactNode =
-  | CallableChildren
-  | ReactChild
-  | Iterable<ReactNode>
-  | ReadonlyArray<ReactNode>
-  | ReactPortal
-  | boolean
-  | null
-  | undefined;
-
-//Dropdown
-type DropdownRootProps = {
-  value: unknown;
-  onChange(value: unknown): void;
-  onClear?: () => void;
-  isError?: boolean;
-  disabled?: boolean;
-  size?: 'sm' | 'md' | 'lg' | 'xl' | string;
-  className?: string;
-  multiple?: boolean;
-  position?: Placement;
-};
-
-type WithChildren<T = {}> = T & { children?: ReactNode };
-
-const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
+const DropdownRoot = ({
   children,
   value,
   onChange,
@@ -91,7 +22,7 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
   onClear,
   position = 'bottom-start',
   ...rest
-}) => {
+}: DropdownRootProps) => {
   const [anchorEl, setAnchorEl] = React.useState<Element | null>();
   const [popperEl, setPopperEl] = React.useState<HTMLElement | null>();
 
@@ -113,9 +44,9 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
     },
   };
 
-  const childrens = React.Children.toArray(children);
-  const callableChildren =
-    typeof children === 'function' && (children as CallableChildren);
+  const childrens =
+    typeof children !== 'function' ? React.Children.toArray(children) : [];
+  const callableChildren = typeof children === 'function' && children;
   return (
     <DropdownContext.Provider value={states}>
       <div
@@ -131,7 +62,7 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
             <div className="relative">
               {typeof children === 'function'
                 ? callableChildren && callableChildren({ open })
-                : childrens.map((ch) => ch)}
+                : childrens?.map((ch) => ch)}
             </div>
           )}
         </Listbox>
@@ -140,18 +71,12 @@ const DropdownRoot: React.FC<WithChildren<DropdownRootProps>> = ({
   );
 };
 
-//Dropdown.Options
-type OptionsProps = {
-  menuWidth?: string;
-  className?: string;
-};
-
-const Options: React.FC<WithChildren<OptionsProps>> = ({
+const Options = ({
   children,
   menuWidth,
   className,
   ...rest
-}) => {
+}: WithChildren<OptionsProps>) => {
   const { pooper } = useDropdownContext('Dropdown.Options');
   return (
     <Listbox.Options
@@ -170,16 +95,7 @@ const Options: React.FC<WithChildren<OptionsProps>> = ({
   );
 };
 
-//Dropdown.Option
-type OptionProps = {
-  value?: unknown;
-  children: (data: {
-    selected?: boolean;
-    active?: boolean;
-  }) => React.ReactElement;
-};
-
-const Option: React.FC<OptionProps> = ({ children, value }) => {
+const Option = ({ children, value }: OptionProps) => {
   return (
     <Listbox.Option as="span" value={value}>
       {({ selected, active }) =>
@@ -191,17 +107,7 @@ const Option: React.FC<OptionProps> = ({ children, value }) => {
   );
 };
 
-//Dropdown.Select
-type SelectProps = {
-  label?: JSX.Element | string;
-  placeholder?: JSX.Element | string;
-  open?: boolean;
-  value?: undefined;
-  innerLabel?: boolean;
-  className?: string;
-};
-
-const Select: React.FC<WithChildren<SelectProps>> = ({
+const Select = ({
   open,
   value,
   label,
@@ -209,7 +115,7 @@ const Select: React.FC<WithChildren<SelectProps>> = ({
   children,
   className,
   ...rest
-}) => {
+}: WithChildren<SelectProps>) => {
   const { size, pooper, isError, disabled } =
     useDropdownContext('Dropdown.Select');
   return (
@@ -245,7 +151,7 @@ const Select: React.FC<WithChildren<SelectProps>> = ({
 };
 
 //Dropdown.InsetSelect
-const InsetSelect: React.FC<WithChildren<SelectProps>> = ({
+const InsetSelect = ({
   open,
   value,
   label,
@@ -253,7 +159,7 @@ const InsetSelect: React.FC<WithChildren<SelectProps>> = ({
   children,
   className,
   ...rest
-}) => {
+}: WithChildren<SelectProps>) => {
   const { size, pooper, isError, disabled } = useDropdownContext(
     'Dropdown.InsetSelect'
   );
@@ -286,61 +192,7 @@ const InsetSelect: React.FC<WithChildren<SelectProps>> = ({
 };
 
 //Dropdown.MultiSelect
-const MultiSelect: React.FC<WithChildren<SelectProps & { counter?: number }>> =
-  ({
-    open,
-    value,
-    label,
-    placeholder,
-    children,
-    className,
-    counter = 0,
-    ...rest
-  }) => {
-    const { size, pooper, isError, disabled, onClear } = useDropdownContext(
-      'Dropdown.MultiSelect'
-    );
-    return (
-      <>
-        {label && (
-          <SelectButton.Label labelSize={size} idDisabled={disabled}>
-            {label}
-          </SelectButton.Label>
-        )}
-        <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
-          <div>
-            <SelectButton
-              size={size}
-              open={open}
-              isError={isError}
-              idDisabled={disabled}
-              {...rest}
-            >
-              <SelectButton.Input className={mergeClassnames(className)}>
-                <span className="flex gap-2 items-center">
-                  {counter > 0 && (
-                    <SelectButton.Value>
-                      <SelectButton.Chip onClear={onClear}>
-                        {counter}
-                      </SelectButton.Chip>
-                    </SelectButton.Value>
-                  )}
-                  <SelectButton.Placeholder>
-                    {placeholder}
-                  </SelectButton.Placeholder>
-                </span>
-              </SelectButton.Input>
-            </SelectButton>
-          </div>
-        </Listbox.Button>
-      </>
-    );
-  };
-
-//Dropdown.InsetMultiSelect
-const InsetMultiSelect: React.FC<
-  WithChildren<SelectProps & { counter?: number }>
-> = ({
+const MultiSelect = ({
   open,
   value,
   label,
@@ -349,7 +201,58 @@ const InsetMultiSelect: React.FC<
   className,
   counter = 0,
   ...rest
-}) => {
+}: WithChildren<SelectProps & { counter?: number }>) => {
+  const { size, pooper, isError, disabled, onClear } = useDropdownContext(
+    'Dropdown.MultiSelect'
+  );
+  return (
+    <>
+      {label && (
+        <SelectButton.Label labelSize={size} idDisabled={disabled}>
+          {label}
+        </SelectButton.Label>
+      )}
+      <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
+        <div>
+          <SelectButton
+            size={size}
+            open={open}
+            isError={isError}
+            idDisabled={disabled}
+            {...rest}
+          >
+            <SelectButton.Input className={mergeClassnames(className)}>
+              <span className="flex gap-2 items-center">
+                {counter > 0 && (
+                  <SelectButton.Value>
+                    <SelectButton.Chip onClear={onClear}>
+                      {counter}
+                    </SelectButton.Chip>
+                  </SelectButton.Value>
+                )}
+                <SelectButton.Placeholder>
+                  {placeholder}
+                </SelectButton.Placeholder>
+              </span>
+            </SelectButton.Input>
+          </SelectButton>
+        </div>
+      </Listbox.Button>
+    </>
+  );
+};
+
+//Dropdown.InsetMultiSelect
+const InsetMultiSelect = ({
+  open,
+  value,
+  label,
+  placeholder,
+  children,
+  className,
+  counter = 0,
+  ...rest
+}: WithChildren<SelectProps & { counter?: number }>) => {
   const { size, pooper, isError, disabled, onClear } = useDropdownContext(
     'Dropdown.InsetMultiSelect'
   );
@@ -385,10 +288,10 @@ const InsetMultiSelect: React.FC<
 };
 
 //Dropdown.Trigger
-const Trigger: React.FC<{ children?: ReactNode; className?: string }> = ({
+const Trigger = ({
   children,
   className,
-}) => {
+}: WithChildren<{ className?: string }>) => {
   const { pooper } = useDropdownContext('Dropdown.Trigger');
   return (
     <Listbox.Button as={'div'} ref={pooper?.setAnchor}>
@@ -398,10 +301,10 @@ const Trigger: React.FC<{ children?: ReactNode; className?: string }> = ({
 };
 
 //Dropdown.Hint
-const Hint: React.FC<{ children?: ReactNode; className?: string }> = ({
+const Hint = ({
   children,
   className,
-}) => {
+}: WithChildren<{ className?: string }>) => {
   const { isError, disabled } = useDropdownContext('Dropdown.Input');
   return (
     <p

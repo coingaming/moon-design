@@ -37,6 +37,16 @@ type CarouselRootProps = {
   step?: number;
   selectedIndex?: number;
   autoSlideDelay?: number;
+  children?:
+    | React.ReactNode
+    | ((data: {
+        scrollLeftToStep?: () => void;
+        scrollRightToStep?: () => void;
+        canScrollLeft?: boolean;
+        canScrollRight?: boolean;
+        firstVisibleIndex?: number;
+        lastVisibleIndex?: number;
+      }) => React.ReactElement);
 };
 
 const CarouselRoot: React.FC<CarouselRootProps> = ({
@@ -58,7 +68,11 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
     itemsCount,
     firstVisibleIndex,
     lastVisibleIndex,
-  } = withHorizontalScroll({ scrollStep: step || 5, scrollTo, scrollInContainer: true });
+  } = withHorizontalScroll({
+    scrollStep: step || 5,
+    scrollTo,
+    scrollInContainer: true,
+  });
 
   if (autoSlideDelay) {
     useInterval(() => {
@@ -74,7 +88,6 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
     if (selectedIndex !== undefined) {
       scrollToIndex(selectedIndex);
     }
-    
   }, [selectedIndex]);
 
   return (
@@ -111,6 +124,7 @@ const CarouselRoot: React.FC<CarouselRootProps> = ({
 
 type SubcomponentProps = {
   className?: string;
+  children?: React.ReactNode;
 };
 
 const Reel: React.FC<SubcomponentProps> = ({ children, className }) => {
@@ -154,6 +168,7 @@ type ControlProps = {
   className?: string;
   onClick: () => void;
   disabled?: boolean;
+  children?: React.ReactNode;
 };
 
 const CarouselControl: React.FC<ControlProps> = ({
@@ -183,10 +198,7 @@ const LeftArrow: React.FC<SubcomponentProps> = ({ children, className }) => {
     useCarouselContext('Carousel.LeftArrow');
   return (
     <CarouselControl
-      className={mergeClassnames(
-        '-left-3',
-        className
-      )}
+      className={mergeClassnames('-left-3', className)}
       onClick={scrollLeftToStep}
       disabled={!canScrollLeft}
     >
@@ -201,10 +213,7 @@ const RightArrow: React.FC<SubcomponentProps> = ({ children, className }) => {
   );
   return (
     <CarouselControl
-      className={mergeClassnames(
-        '-right-3 left-auto',
-        className
-      )}
+      className={mergeClassnames('-right-3 left-auto', className)}
       onClick={scrollRightToStep}
       disabled={!canScrollRight}
     >

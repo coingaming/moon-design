@@ -1,5 +1,4 @@
 import React from 'react';
-
 const TextClearFormatting = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -17,5 +16,4 @@ const TextClearFormatting = (props: React.SVGProps<SVGSVGElement>) => (
     />
   </svg>
 );
-
 export default TextClearFormatting;
