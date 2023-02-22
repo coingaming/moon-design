@@ -39,7 +39,7 @@ const Panel: React.FC<PanelProps> = ({
   >
     <Dialog.Panel
       className={mergeClassnames(
-        'fixed w-full bg-gohan shadow-moon-xl',
+        'fixed w-full bg-gohan text-bulma shadow-moon-xl',
         getPositionStyles(position),
         className
       )}

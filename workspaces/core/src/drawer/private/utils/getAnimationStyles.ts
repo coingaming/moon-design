@@ -16,12 +16,12 @@ const getAnimationStyles = (
       };
     case 'start':
       return {
-        initial: '-translate-x-full',
+        initial: 'ltr:-translate-x-full rtl:translate-x-full',
         rendered: 'translate-x-0',
       };
     default:
       return {
-        initial: 'translate-x-full',
+        initial: 'ltr:translate-x-full rtl:-translate-x-full',
         rendered: 'translate-x-0',
       };
   }

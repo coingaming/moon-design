@@ -14,7 +14,7 @@ const Example = () => {
       {isOpen && (
         <Drawer open={isOpen} setOpen={setIsOpen}>
           <Drawer.Panel>
-            <div className="flex justify-between items-center p-3 border-b">
+            <div className="flex justify-between items-center p-3 border-b border-trunks">
               <p>Header</p>
               <IconButton variant="ghost" onClick={handleClose}>
                 <ControlsCloseSmall />

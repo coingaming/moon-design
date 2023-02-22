@@ -11,12 +11,7 @@ const Example = () => {
       </Button>
       {isOpen && (
         <Drawer open={isOpen} setOpen={setIsOpen}>
-          <Drawer.Panel>
-            <div className="flex justify-between items-center p-3 border-b">
-              <p>Default Drawer</p>
-            </div>
-            <div className="p-3">Drawer content</div>
-          </Drawer.Panel>
+          <Drawer.Panel>Default Drawer</Drawer.Panel>
         </Drawer>
       )}
     </>
