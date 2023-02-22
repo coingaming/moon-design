@@ -1,5 +1,6 @@
 import './betadda.css';
 import './bitcasino.css';
+import './bitcasinoNew.css';
 import './empire.css';
 import './lab.css';
 import './livecasino.css';
