@@ -10,7 +10,7 @@ const Example = () => {
         Show default Drawer
       </Button>
       {isOpen && (
-        <Drawer isOpen={isOpen} setIsOpen={setIsOpen}>
+        <Drawer open={isOpen} setOpen={setIsOpen}>
           <Drawer.Panel>
             <div className="flex justify-between items-center p-3 border-b">
               <p>Default Drawer</p>

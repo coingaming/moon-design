@@ -24,8 +24,7 @@ Array [
     role="dialog"
   >
     <div
-      aria-hidden="true"
-      className="fixed -z-1 inset-0 bg-zeno"
+      className="fixed inset-0 bg-black/[0.56]"
     />
     <div
       className="fixed inset-0"
@@ -988,8 +987,7 @@ Array [
     role="dialog"
   >
     <div
-      aria-hidden="true"
-      className="fixed -z-1 inset-0 bg-zeno"
+      className="fixed inset-0 bg-black/[0.56]"
     />
     <div
       className="fixed inset-0"
@@ -1129,8 +1127,7 @@ Array [
     role="dialog"
   >
     <div
-      aria-hidden="true"
-      className="fixed -z-1 inset-0 bg-zeno"
+      className="fixed inset-0 bg-black/[0.56]"
     />
     <div
       className="fixed inset-0"
@@ -2093,8 +2090,7 @@ Array [
     role="dialog"
   >
     <div
-      aria-hidden="true"
-      className="fixed -z-1 inset-0 bg-zeno"
+      className="fixed inset-0 bg-black/[0.56]"
     />
     <div
       className="fixed inset-0"
@@ -2236,8 +2232,7 @@ exports[`BottomSheet in RTL renders CustomHeight 1`] = `
     role="dialog"
   >
     <div
-      aria-hidden="true"
-      className="fixed -z-1 inset-0 bg-zeno"
+      className="fixed inset-0 bg-black/[0.56]"
     />
     <div
       className="fixed inset-0"
@@ -3204,8 +3199,7 @@ exports[`BottomSheet in RTL renders LargeWithOptionalExtras 1`] = `
     role="dialog"
   >
     <div
-      aria-hidden="true"
-      className="fixed -z-1 inset-0 bg-zeno"
+      className="fixed inset-0 bg-black/[0.56]"
     />
     <div
       className="fixed inset-0"

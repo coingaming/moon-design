@@ -1,8 +1,8 @@
 type DrawerRootProps = {
   children?: React.ReactNode;
   className?: string;
-  isOpen: boolean;
-  setIsOpen: (value: boolean) => void;
+  open: boolean;
+  setOpen: (value: boolean) => void;
 }
 
 export default DrawerRootProps;

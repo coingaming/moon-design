@@ -69,14 +69,14 @@ const Example = () => {
             description: 'Tailwind classes for custom styles',
           },
           {
-            name: 'isOpen',
+            name: 'open',
             type: 'boolean',
             required: true,
             default: 'false',
             description: 'Whether or not the Drawer is opened',
           },
           {
-            name: 'setIsOpen',
+            name: 'setOpen',
             type: '(value: boolean) => void',
             required: true,
             default: '-',
@@ -85,7 +85,7 @@ const Example = () => {
         ]}
       />
       <PropsTable
-        title="Dropdown.Panel"
+        title="Drawer.Panel"
         data={[
           {
             name: 'className',
