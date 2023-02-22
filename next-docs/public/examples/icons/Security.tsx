@@ -1,5 +1,5 @@
 import {
-  SecurityBetIncurance,
+  SecurityBetInsurance,
   SecurityKey,
   SecurityLock,
   SecurityMagnet,
@@ -28,8 +28,8 @@ interface Props {
 
 const Example = ({ wrapperProps, props }: Props) => (
   <>
-    <Icon {...wrapperProps} name="SecurityBetIncurance">
-      <SecurityBetIncurance {...props} />
+    <Icon {...wrapperProps} name="SecurityBetInsurance">
+      <SecurityBetInsurance {...props} />
     </Icon>
     <Icon {...wrapperProps} name="SecurityKey">
       <SecurityKey {...props} />

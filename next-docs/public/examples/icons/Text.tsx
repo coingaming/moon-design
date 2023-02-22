@@ -9,8 +9,8 @@ import {
   TextCut,
   TextDescreaseIndent,
   TextHashtag,
-  TextIncertLine,
   TextIncreaseIndent,
+  TextInsertLine,
   TextItalic,
   TextLeftAlign,
   TextListView,
@@ -69,8 +69,8 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="TextHashtag">
       <TextHashtag {...props} />
     </Icon>
-    <Icon {...wrapperProps} name="TextIncertLine">
-      <TextIncertLine {...props} />
+    <Icon {...wrapperProps} name="TextInsertLine">
+      <TextInsertLine {...props} />
     </Icon>
     <Icon {...wrapperProps} name="TextIncreaseIndent">
       <TextIncreaseIndent {...props} />
