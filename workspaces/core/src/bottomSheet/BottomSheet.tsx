@@ -1,10 +1,10 @@
 import React, { ReactNode, useCallback, useEffect, useReducer } from 'react';
 import { Dialog } from '@headlessui/react';
+import Backdrop from '../backdrop/Backdrop';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import BottomSheetContext, { useBottomSheetContext } from './private/context';
 import stateReducer from './private/stateReducer';
 import useDrag from './private/useDrag';
-import type BackdropProps from './private/types/BackdropProps';
 import type BottomSheetRootProps from './private/types/BottomSheetRootProps';
 import type PanelProps from './private/types/PanelProps';
 import type TitleProps from './private/types/TitleProps';
@@ -106,12 +106,6 @@ const Draghandle = ({ children }: { children: ReactNode }) => {
     </div>
   );
 };
-
-const Backdrop: React.FC<BackdropProps> = ({ className }) => (
-  <div
-    className={mergeClassnames('fixed inset-0 bg-black/[0.56]', className)}
-  ></div>
-);
 
 const Title: React.FC<TitleProps> = ({ children, className }) => (
   <div className="p-4 border-b-2 border-beerus">
