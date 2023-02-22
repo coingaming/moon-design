@@ -4,4 +4,4 @@ type PanelProps = {
   position?: 'top' | 'bottom' | 'start' | 'end';
 }
 
-export default PanelProps
+export default PanelProps;

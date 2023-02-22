@@ -3,9 +3,9 @@ import type PanelProps from "../types/PanelProps"
 const getPositionStyles = (position?: PanelProps['position']) => {
   switch (position) {
     case 'top':
-      return 'top-0 h-4/5';
+      return 'top-0';
     case 'bottom':
-      return 'bottom-0 h-4/5';
+      return 'bottom-0';
     case 'start':
       return 'inset-y-0 ltr:left-0 rtl:right-0 max-w-md';
     default:
@@ -13,4 +13,4 @@ const getPositionStyles = (position?: PanelProps['position']) => {
   }
 }
 
-export default getPositionStyles
+export default getPositionStyles;

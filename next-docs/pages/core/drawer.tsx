@@ -1,7 +1,10 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import PropsTable from '../../components/PropsTable';
 import Backdrop from '../../public/examples/drawer/Backdrop';
+import Close from '../../public/examples/drawer/Close';
 import Default from '../../public/examples/drawer/Default';
 import Positions from '../../public/examples/drawer/Positions';
 import useExamples from '../../utils/useExamples';
@@ -29,6 +32,12 @@ const Example = () => {
           .
         </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>
+        {`<Drawer>
+  <Drawer.Panel>...</Drawer.Panel>
+  </Drawer.Backdrop>
+</Drawer>`}
+      </ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
@@ -43,6 +52,56 @@ const Example = () => {
         title="With Backdrop"
         preview={<Backdrop />}
         code={examples ? examples.Backdrop : 'Loading'}
+      />
+      <Preview
+        title="With Close"
+        preview={<Close />}
+        code={examples ? examples.Close : 'Loading'}
+      />
+      <PropsTable
+        title="Drawer"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles',
+          },
+          {
+            name: 'isOpen',
+            type: 'boolean',
+            required: true,
+            default: 'false',
+            description: 'Whether or not the Drawer is opened',
+          },
+          {
+            name: 'setIsOpen',
+            type: '(value: boolean) => void',
+            required: true,
+            default: '-',
+            description: 'Sets open state of the Drawer',
+          },
+        ]}
+      />
+      <PropsTable
+        title="Dropdown.Panel"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for custom styles',
+          },
+          {
+            name: 'position',
+            type: 'top | bottom | start | end',
+            required: false,
+            default: 'end',
+            description: 'The Drawer positions on screen',
+          },
+        ]}
       />
     </>
   );
