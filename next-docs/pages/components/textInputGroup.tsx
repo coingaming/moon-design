@@ -21,7 +21,7 @@ const PageTextInputGroup = () => {
   return (
     <>
       <ComponentPageDescription title="TextInput Group">
-        <DeprecationWarning href="/core/textInputGroup" name="TextInputGroup" />
+        <DeprecationWarning href="/core/group" name="Group" />
       </ComponentPageDescription>
       <Preview
         title="Default"

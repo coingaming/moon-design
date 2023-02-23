@@ -17,6 +17,7 @@ import {
   TravelSuitcase,
   TravelSwimmingPool,
   TravelWiFi,
+  TravelYacht,
 } from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
 
@@ -85,6 +86,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="TravelWiFi">
       <TravelWiFi {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="TravelYacht">
+      <TravelYacht {...props} />
     </Icon>
   </>
 );

@@ -17,6 +17,8 @@ import {
   ControlsExpandAlt,
   ControlsEye,
   ControlsEyeCrossed,
+  ControlsFullScreen,
+  ControlsFullScreenOut,
   ControlsMinus,
   ControlsPlus,
   ControlsVerticalDoubleChevron,
@@ -88,6 +90,12 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="ControlsEyeCrossed">
       <ControlsEyeCrossed {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="ControlsFullScreen">
+      <ControlsFullScreen {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="ControlsFullScreenOut">
+      <ControlsFullScreenOut {...props} />
     </Icon>
     <Icon {...wrapperProps} name="ControlsMinus">
       <ControlsMinus {...props} />

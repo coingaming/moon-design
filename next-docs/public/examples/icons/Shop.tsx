@@ -5,6 +5,7 @@ import {
   ShopBuyCrypto,
   ShopCard,
   ShopCart,
+  ShopCoins,
   ShopCrypto,
   ShopCryptoCoin,
   ShopWallet,
@@ -41,6 +42,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="ShopCart">
       <ShopCart {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="ShopCoins">
+      <ShopCoins {...props} />
     </Icon>
     <Icon {...wrapperProps} name="ShopCrypto">
       <ShopCrypto {...props} />
