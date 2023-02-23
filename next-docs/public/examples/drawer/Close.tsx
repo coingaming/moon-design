@@ -11,19 +11,17 @@ const Example = () => {
       <Button variant="secondary" onClick={handleClick}>
         Show Drawer with Close button
       </Button>
-      {isOpen && (
-        <Drawer open={isOpen} setOpen={setIsOpen}>
-          <Drawer.Panel>
-            <div className="flex justify-between items-center p-3 border-b border-trunks">
-              <p>Header</p>
-              <IconButton variant="ghost" onClick={handleClose}>
-                <ControlsCloseSmall />
-              </IconButton>
-            </div>
-            <div className="p-3">Drawer content</div>
-          </Drawer.Panel>
-        </Drawer>
-      )}
+      <Drawer open={isOpen} setOpen={setIsOpen}>
+        <Drawer.Panel>
+          <div className="flex justify-between items-center p-3 border-b border-trunks">
+            <p>Header</p>
+            <IconButton variant="ghost" onClick={handleClose}>
+              <ControlsCloseSmall />
+            </IconButton>
+          </div>
+          <div className="p-3">Drawer content</div>
+        </Drawer.Panel>
+      </Drawer>
     </>
   );
 };

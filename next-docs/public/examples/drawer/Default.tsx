@@ -9,11 +9,9 @@ const Example = () => {
       <Button variant="secondary" onClick={handleClick}>
         Show default Drawer
       </Button>
-      {isOpen && (
-        <Drawer open={isOpen} setOpen={setIsOpen}>
-          <Drawer.Panel>Default Drawer</Drawer.Panel>
-        </Drawer>
-      )}
+      <Drawer open={isOpen} setOpen={setIsOpen}>
+        <Drawer.Panel>Default Drawer</Drawer.Panel>
+      </Drawer>
     </>
   );
 };

@@ -19,36 +19,30 @@ const Example = () => {
       <Button variant="secondary" onClick={handleBottomClick}>
         Show Drawer at bottom of screen
       </Button>
-      {isStartOpen && (
-        <Drawer open={isStartOpen} setOpen={setIsStartOpen}>
-          <Drawer.Panel position="start">
-            <div className="flex justify-between items-center p-3 border-b border-trunks">
-              <p>Screen start aligned Drawer</p>
-            </div>
-            <div className="p-3">Drawer content</div>
-          </Drawer.Panel>
-        </Drawer>
-      )}
-      {isTopOpen && (
-        <Drawer open={isTopOpen} setOpen={setIsTopOpen}>
-          <Drawer.Panel position="top">
-            <div className="flex justify-between items-center p-3 border-b border-trunks">
-              <p>Screen top aligned Drawer</p>
-            </div>
-            <div className="p-3">Drawer content</div>
-          </Drawer.Panel>
-        </Drawer>
-      )}
-      {isBottomOpen && (
-        <Drawer open={isBottomOpen} setOpen={setIsBottomOpen}>
-          <Drawer.Panel position="bottom">
-            <div className="flex justify-between items-center p-3 border-b border-trunks">
-              <p>Screen bottom aligned Drawer</p>
-            </div>
-            <div className="p-3">Drawer content</div>
-          </Drawer.Panel>
-        </Drawer>
-      )}
+      <Drawer open={isStartOpen} setOpen={setIsStartOpen}>
+        <Drawer.Panel position="start">
+          <div className="flex justify-between items-center p-3 border-b border-trunks">
+            <p>Screen start aligned Drawer</p>
+          </div>
+          <div className="p-3">Drawer content</div>
+        </Drawer.Panel>
+      </Drawer>
+      <Drawer open={isTopOpen} setOpen={setIsTopOpen}>
+        <Drawer.Panel position="top">
+          <div className="flex justify-between items-center p-3 border-b border-trunks">
+            <p>Screen top aligned Drawer</p>
+          </div>
+          <div className="p-3">Drawer content</div>
+        </Drawer.Panel>
+      </Drawer>
+      <Drawer open={isBottomOpen} setOpen={setIsBottomOpen}>
+        <Drawer.Panel position="bottom">
+          <div className="flex justify-between items-center p-3 border-b border-trunks">
+            <p>Screen bottom aligned Drawer</p>
+          </div>
+          <div className="p-3">Drawer content</div>
+        </Drawer.Panel>
+      </Drawer>
     </>
   );
 };
