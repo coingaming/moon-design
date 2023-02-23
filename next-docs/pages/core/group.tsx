@@ -82,16 +82,18 @@ const Example = () => {
       />
       <p>
         * All the subComponents have the same props as{' '}
-        <Link href="/core/input">
-          <a className="transition-colors underline hover:text-piccolo">
-            Input
-          </a>
+        <Link
+          href="/core/input"
+          className="transition-colors underline hover:text-piccolo"
+        >
+          Input
         </Link>
         ,{' '}
-        <Link href="/core/insetInput">
-          <a className="transition-colors underline hover:text-piccolo">
-            InsetInput
-          </a>
+        <Link
+          href="/core/insetInput"
+          className="transition-colors underline hover:text-piccolo"
+        >
+          InsetInput
         </Link>
         , and Select
       </p>
