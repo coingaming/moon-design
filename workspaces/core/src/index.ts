@@ -10,6 +10,8 @@ export { default as AuthCode } from './authCode/AuthCode';
 export * from './authCode/AuthCode';
 export { default as Avatar } from './avatar/Avatar';
 export * from './avatar/Avatar';
+export { default as Backdrop } from './backdrop/Backdrop';
+export * from './backdrop/Backdrop';
 export { default as BottomSheet } from './bottomSheet/BottomSheet';
 export * from './bottomSheet/BottomSheet';
 export { default as Breadcrumb } from './breadcrumb/Breadcrumb';
@@ -26,6 +28,8 @@ export { default as CircularProgress } from './circularProgress/CircularProgress
 export * from './circularProgress/CircularProgress';
 export { default as Combobox } from './combobox/Combobox';
 export * from './combobox/Combobox';
+export { default as Drawer } from './drawer/Drawer';
+export * from './drawer/Drawer';
 export { default as Dropdown } from './dropdown/Dropdown';
 export * from './dropdown/Dropdown';
 export { default as Form } from './form/Form';
