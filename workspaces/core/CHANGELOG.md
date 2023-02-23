@@ -1,5 +1,16 @@
 # @heathmont/moon-core-tw
 
+## 9.24.0
+
+### Minor Changes
+
+- Update icons, add Drawer
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons-tw@9.24.0
+
 ## 9.23.0
 
 ### Minor Changes

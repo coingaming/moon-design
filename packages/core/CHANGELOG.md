@@ -1,5 +1,20 @@
 # Change Log
 
+## 9.24.0
+
+### Minor Changes
+
+- Update icons, add Drawer
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.24.0
+  - @heathmont/moon-components@9.24.0
+  - @heathmont/moon-icons@9.24.0
+  - @heathmont/moon-themes@9.24.0
+  - @heathmont/moon-utils@9.24.0
+
 ## 9.23.0
 
 ### Minor Changes

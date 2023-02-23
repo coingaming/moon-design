@@ -1,5 +1,18 @@
 # @heathmont/moon-select
 
+## 9.24.0
+
+### Minor Changes
+
+- Update icons, add Drawer
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core@9.24.0
+  - @heathmont/moon-themes@9.24.0
+  - @heathmont/moon-utils@9.24.0
+
 ## 9.23.0
 
 ### Minor Changes

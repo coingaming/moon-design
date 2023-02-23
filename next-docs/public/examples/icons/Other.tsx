@@ -1,14 +1,17 @@
 import {
   Other3Dots,
   Other3DotsHorizontal,
+  Other43Free,
+  Other66Free,
   OtherClaps,
+  OtherCrown,
+  OtherFlame,
   OtherFrame,
   OtherFreebet,
   OtherId,
   OtherLifebuoy,
   OtherLightning,
   OtherMoon,
-  OtherOther,
   OtherPlug,
   OtherRewards,
   OtherRocket,
@@ -37,8 +40,20 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="Other3DotsHorizontal">
       <Other3DotsHorizontal {...props} />
     </Icon>
+    <Icon {...wrapperProps} name="Other43Free">
+      <Other43Free {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="Other66Free">
+      <Other66Free {...props} />
+    </Icon>
     <Icon {...wrapperProps} name="OtherClaps">
       <OtherClaps {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="OtherCrown">
+      <OtherCrown {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="OtherFlame">
+      <OtherFlame {...props} />
     </Icon>
     <Icon {...wrapperProps} name="OtherFrame">
       <OtherFrame {...props} />
@@ -57,9 +72,6 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="OtherMoon">
       <OtherMoon {...props} />
-    </Icon>
-    <Icon {...wrapperProps} name="OtherOther">
-      <OtherOther {...props} />
     </Icon>
     <Icon {...wrapperProps} name="OtherPlug">
       <OtherPlug {...props} />

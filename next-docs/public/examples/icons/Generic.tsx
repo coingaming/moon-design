@@ -50,6 +50,7 @@ import {
   GenericTrophy,
   GenericUpload,
   GenericUser,
+  GenericUserSwapping,
   GenericUsers,
 } from '@heathmont/moon-icons-tw';
 import Icon from './Icon';
@@ -218,6 +219,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="GenericUser">
       <GenericUser {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="GenericUserSwapping">
+      <GenericUserSwapping {...props} />
     </Icon>
     <Icon {...wrapperProps} name="GenericUsers">
       <GenericUsers {...props} />

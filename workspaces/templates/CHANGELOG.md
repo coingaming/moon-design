@@ -1,5 +1,11 @@
 # @heathmont/moon-templates
 
+## 9.24.0
+
+### Minor Changes
+
+- Update icons, add Drawer
+
 ## 9.23.0
 
 ### Minor Changes
