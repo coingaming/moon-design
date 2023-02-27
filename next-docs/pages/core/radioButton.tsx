@@ -30,31 +30,6 @@ const Example = () => {
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
-      <Preview
-        title="With Label"
-        preview={<WithLabel />}
-        code={examples ? examples.WithLabel : 'Loading'}
-      />
-      <Preview
-        title="No Label"
-        preview={<NoLabel />}
-        code={examples ? examples.NoLabel : 'Loading'}
-      />
-      <Preview
-        title="Checked"
-        preview={<Checked />}
-        code={examples ? examples.Checked : 'Loading'}
-      />
-      <Preview
-        title="Disabled"
-        preview={<Disabled />}
-        code={examples ? examples.Disabled : 'Loading'}
-      />
-      <Preview
-        title="ReadOnly"
-        preview={<ReadOnly />}
-        code={examples ? examples.ReadOnly : 'Loading'}
-      />
       <PropsTable
         title="RadioButton props"
         data={[
