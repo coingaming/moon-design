@@ -1,14 +1,14 @@
 aliases:
   default: &default
     docker:
-      - image: cimg/node:18.14.2
+      - image: cimg/node:18.4.0
 
   enable_pnpm: &enable_pnpm
     run:
-      name: 'Using Corepack to install pnpm@7.28.0'
+      name: 'Using Corepack to install pnpm@7.3.0'
       command: |
         corepack enable
-        corepack prepare pnpm@7.28.0 --activate
+        corepack prepare pnpm@7.3.0 --activate
 
   install_deps: &install_deps
     run:
