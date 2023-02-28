@@ -2,7 +2,7 @@
 
 exports[`Accordion New collapses 1`] = `
 <div
-  className="sc-jbOfQH cewSYA"
+  className="sc-jbOfQH dhdswU"
   size="medium"
 >
   <div
@@ -56,7 +56,7 @@ exports[`Accordion New collapses 1`] = `
 
 exports[`Accordion New expands 1`] = `
 <div
-  className="sc-jbOfQH cewSYA"
+  className="sc-jbOfQH dhdswU"
   size="medium"
 >
   <div
@@ -110,7 +110,7 @@ exports[`Accordion New expands 1`] = `
 
 exports[`Accordion New renders 1`] = `
 <div
-  className="sc-jbOfQH cewSYA"
+  className="sc-jbOfQH dhdswU"
   size="medium"
 >
   <div
@@ -167,7 +167,7 @@ exports[`Accordion New renders RTL 1`] = `
   dir="rtl"
 >
   <div
-    className="sc-jbOfQH cewSYA"
+    className="sc-jbOfQH dhdswU"
     size="medium"
   >
     <div
@@ -222,7 +222,7 @@ exports[`Accordion New renders RTL 1`] = `
 
 exports[`Accordion New renders content outside 1`] = `
 <div
-  className="sc-jbOfQH bCSDrc"
+  className="sc-jbOfQH DroJg"
   size="medium"
 >
   <div
@@ -276,7 +276,7 @@ exports[`Accordion New renders content outside 1`] = `
 
 exports[`Accordion New renders disable open 1`] = `
 <div
-  className="sc-jbOfQH cewSYA"
+  className="sc-jbOfQH dhdswU"
   size="medium"
 >
   <div
@@ -331,7 +331,7 @@ exports[`Accordion New renders disable open 1`] = `
 
 exports[`Accordion New renders header content 1`] = `
 <div
-  className="sc-jbOfQH cewSYA"
+  className="sc-jbOfQH dhdswU"
   size="medium"
 >
   <div
@@ -447,7 +447,7 @@ exports[`Accordion New renders header content 1`] = `
 
 exports[`Accordion New renders open by default 1`] = `
 <div
-  className="sc-jbOfQH cewSYA"
+  className="sc-jbOfQH dhdswU"
   size="medium"
 >
   <div
@@ -502,7 +502,7 @@ exports[`Accordion New renders open by default 1`] = `
 exports[`Accordion New renders sizes variants 1`] = `
 Array [
   <div
-    className="sc-jbOfQH Nonqi"
+    className="sc-jbOfQH hWPoeS"
     size="xlarge"
   >
     <div
@@ -553,7 +553,7 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jbOfQH bLeoAn"
+    className="sc-jbOfQH egzQMz"
     size="large"
   >
     <div
@@ -604,7 +604,7 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jbOfQH cewSYA"
+    className="sc-jbOfQH dhdswU"
     size="medium"
   >
     <div
@@ -655,7 +655,7 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jbOfQH jqerC"
+    className="sc-jbOfQH eiXRDa"
     size="small"
   >
     <div
@@ -711,7 +711,7 @@ Array [
 exports[`Accordion New renders sizes variants with content outside 1`] = `
 Array [
   <div
-    className="sc-jbOfQH bCSDrc"
+    className="sc-jbOfQH DroJg"
     size="xlarge"
   >
     <div
@@ -762,7 +762,7 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jbOfQH bCSDrc"
+    className="sc-jbOfQH DroJg"
     size="large"
   >
     <div
@@ -813,7 +813,7 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jbOfQH bCSDrc"
+    className="sc-jbOfQH DroJg"
     size="medium"
   >
     <div
@@ -864,7 +864,7 @@ Array [
     </div>
   </div>,
   <div
-    className="sc-jbOfQH bCSDrc"
+    className="sc-jbOfQH DroJg"
     size="small"
   >
     <div
@@ -919,7 +919,7 @@ Array [
 
 exports[`Accordion New renders without button 1`] = `
 <div
-  className="sc-jbOfQH cewSYA"
+  className="sc-jbOfQH dhdswU"
   size="medium"
 >
   <div
