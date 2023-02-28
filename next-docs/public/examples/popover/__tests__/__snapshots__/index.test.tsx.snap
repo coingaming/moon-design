@@ -7,10 +7,11 @@ exports[`Dropdown in Dark Theme renders Default 1`] = `
   >
     <div
       aria-expanded={false}
-      id="headlessui-popover-button-:rg:"
+      id="headlessui-popover-button-:r18:"
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
+      onMouseDown={[Function]}
     >
       <div>
         <button
@@ -41,10 +42,11 @@ exports[`Dropdown in Dark Theme renders Position 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:ro:"
+        id="headlessui-popover-button-:r1s:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -69,10 +71,11 @@ exports[`Dropdown in Dark Theme renders Position 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:rq:"
+        id="headlessui-popover-button-:r21:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -97,10 +100,11 @@ exports[`Dropdown in Dark Theme renders Position 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:rs:"
+        id="headlessui-popover-button-:r26:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -132,10 +136,11 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:ri:"
+        id="headlessui-popover-button-:r1d:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -160,10 +165,11 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:rk:"
+        id="headlessui-popover-button-:r1i:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -195,10 +201,11 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:rm:"
+        id="headlessui-popover-button-:r1n:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <span
@@ -220,10 +227,11 @@ exports[`Dropdown in Dark Theme renders WithClose 1`] = `
   >
     <div
       aria-expanded={false}
-      id="headlessui-popover-button-:ru:"
+      id="headlessui-popover-button-:r2b:"
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
+      onMouseDown={[Function]}
     >
       <div>
         <button
@@ -254,10 +262,11 @@ exports[`Dropdown in RTL renders Default 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:r10:"
+        id="headlessui-popover-button-:r2g:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -292,10 +301,11 @@ exports[`Dropdown in RTL renders Position 1`] = `
       >
         <div
           aria-expanded={false}
-          id="headlessui-popover-button-:r18:"
+          id="headlessui-popover-button-:r34:"
           onClick={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
+          onMouseDown={[Function]}
         >
           <div>
             <button
@@ -320,10 +330,11 @@ exports[`Dropdown in RTL renders Position 1`] = `
       >
         <div
           aria-expanded={false}
-          id="headlessui-popover-button-:r1a:"
+          id="headlessui-popover-button-:r39:"
           onClick={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
+          onMouseDown={[Function]}
         >
           <div>
             <button
@@ -348,10 +359,11 @@ exports[`Dropdown in RTL renders Position 1`] = `
       >
         <div
           aria-expanded={false}
-          id="headlessui-popover-button-:r1c:"
+          id="headlessui-popover-button-:r3e:"
           onClick={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
+          onMouseDown={[Function]}
         >
           <div>
             <button
@@ -387,10 +399,11 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
       >
         <div
           aria-expanded={false}
-          id="headlessui-popover-button-:r12:"
+          id="headlessui-popover-button-:r2l:"
           onClick={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
+          onMouseDown={[Function]}
         >
           <div>
             <button
@@ -415,10 +428,11 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
       >
         <div
           aria-expanded={false}
-          id="headlessui-popover-button-:r14:"
+          id="headlessui-popover-button-:r2q:"
           onClick={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
+          onMouseDown={[Function]}
         >
           <div>
             <button
@@ -450,10 +464,11 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
       >
         <div
           aria-expanded={false}
-          id="headlessui-popover-button-:r16:"
+          id="headlessui-popover-button-:r2v:"
           onClick={[Function]}
           onKeyDown={[Function]}
           onKeyUp={[Function]}
+          onMouseDown={[Function]}
         >
           <div>
             <span
@@ -479,10 +494,11 @@ exports[`Dropdown in RTL renders WithClose 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:r1e:"
+        id="headlessui-popover-button-:r3j:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -515,6 +531,7 @@ exports[`Popover in Light Theme renders Default 1`] = `
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
+      onMouseDown={[Function]}
     >
       <div>
         <button
@@ -545,10 +562,11 @@ exports[`Popover in Light Theme renders Position 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:r8:"
+        id="headlessui-popover-button-:rk:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -573,10 +591,11 @@ exports[`Popover in Light Theme renders Position 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:ra:"
+        id="headlessui-popover-button-:rp:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -601,10 +620,11 @@ exports[`Popover in Light Theme renders Position 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:rc:"
+        id="headlessui-popover-button-:ru:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -636,10 +656,11 @@ exports[`Popover in Light Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:r2:"
+        id="headlessui-popover-button-:r5:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -664,10 +685,11 @@ exports[`Popover in Light Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:r4:"
+        id="headlessui-popover-button-:ra:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <button
@@ -699,10 +721,11 @@ exports[`Popover in Light Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        id="headlessui-popover-button-:r6:"
+        id="headlessui-popover-button-:rf:"
         onClick={[Function]}
         onKeyDown={[Function]}
         onKeyUp={[Function]}
+        onMouseDown={[Function]}
       >
         <div>
           <span
@@ -724,10 +747,11 @@ exports[`Popover in Light Theme renders WithClose 1`] = `
   >
     <div
       aria-expanded={false}
-      id="headlessui-popover-button-:re:"
+      id="headlessui-popover-button-:r13:"
       onClick={[Function]}
       onKeyDown={[Function]}
       onKeyUp={[Function]}
+      onMouseDown={[Function]}
     >
       <div>
         <button

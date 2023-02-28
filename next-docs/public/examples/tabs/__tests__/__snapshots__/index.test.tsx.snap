@@ -2,24 +2,6 @@
 
 exports[`Tabs in Dark Theme renders Default 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -82,24 +64,6 @@ exports[`Tabs in Dark Theme renders Default 1`] = `
 
 exports[`Tabs in Dark Theme renders DefaultPills 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -164,24 +128,6 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
 <div
   className="flex flex-col gap-4"
 >
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -230,24 +176,6 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
       Tab 3
     </button>
   </div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -301,24 +229,6 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
 
 exports[`Tabs in Dark Theme renders Segment 1`] = `
 Array [
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />,
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
@@ -367,24 +277,6 @@ Array [
       Tab 3
     </button>
   </div>,
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />,
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
@@ -443,24 +335,6 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
   <div
     className="flex justify-between w-full gap-10"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -509,24 +383,6 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
         Tab 3 (sm)
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -579,24 +435,6 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
   <div
     className="flex justify-between w-full gap-10"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -645,24 +483,6 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
         Tab 3 (sm)
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -719,24 +539,6 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
 <div
   className="flex flex-col gap-4"
 >
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -785,24 +587,6 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
       Tab 3
     </button>
   </div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -868,24 +652,6 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
 
 exports[`Tabs in Dark Theme renders WithHandler 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -948,24 +714,6 @@ exports[`Tabs in Dark Theme renders WithHandler 1`] = `
 
 exports[`Tabs in Light Theme renders Default 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1028,24 +776,6 @@ exports[`Tabs in Light Theme renders Default 1`] = `
 
 exports[`Tabs in Light Theme renders DefaultPills 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1110,24 +840,6 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
 <div
   className="flex flex-col gap-4"
 >
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1176,24 +888,6 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
       Tab 3
     </button>
   </div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1247,24 +941,6 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
 
 exports[`Tabs in Light Theme renders Segment 1`] = `
 Array [
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />,
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
@@ -1313,24 +989,6 @@ Array [
       Tab 3
     </button>
   </div>,
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />,
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
@@ -1389,24 +1047,6 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
   <div
     className="flex justify-between w-full gap-10"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -1455,24 +1095,6 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
         Tab 3 (sm)
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -1525,24 +1147,6 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
   <div
     className="flex justify-between w-full gap-10"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -1591,24 +1195,6 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
         Tab 3 (sm)
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -1665,24 +1251,6 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
 <div
   className="flex flex-col gap-4"
 >
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1731,24 +1299,6 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
       Tab 3
     </button>
   </div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1814,24 +1364,6 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
 
 exports[`Tabs in Light Theme renders WithHandler 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1897,24 +1429,6 @@ exports[`Tabs in RTL renders Default 1`] = `
   dir="rtl"
 >
   <div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -1981,24 +1495,6 @@ exports[`Tabs in RTL renders DefaultPills 1`] = `
   dir="rtl"
 >
   <div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -2067,24 +1563,6 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
   <div
     className="flex flex-col gap-4"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -2133,24 +1611,6 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
         Tab 3
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -2207,24 +1667,6 @@ exports[`Tabs in RTL renders Segment 1`] = `
 <div
   dir="rtl"
 >
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
@@ -2273,24 +1715,6 @@ exports[`Tabs in RTL renders Segment 1`] = `
       Tab 3
     </button>
   </div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
@@ -2352,24 +1776,6 @@ exports[`Tabs in RTL renders Sizes 1`] = `
     <div
       className="flex justify-between w-full gap-10"
     >
-      <button
-        onFocus={[Function]}
-        style={
-          Object {
-            "borderWidth": "0",
-            "clip": "rect(0, 0, 0, 0)",
-            "display": "none",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "absolute",
-            "whiteSpace": "nowrap",
-            "width": 1,
-          }
-        }
-        type="button"
-      />
       <div
         aria-orientation="horizontal"
         className="flex items-center justify-center w-fit gap-2"
@@ -2418,24 +1824,6 @@ exports[`Tabs in RTL renders Sizes 1`] = `
           Tab 3 (sm)
         </button>
       </div>
-      <button
-        onFocus={[Function]}
-        style={
-          Object {
-            "borderWidth": "0",
-            "clip": "rect(0, 0, 0, 0)",
-            "display": "none",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "absolute",
-            "whiteSpace": "nowrap",
-            "width": 1,
-          }
-        }
-        type="button"
-      />
       <div
         aria-orientation="horizontal"
         className="flex items-center justify-center w-fit gap-2"
@@ -2488,24 +1876,6 @@ exports[`Tabs in RTL renders Sizes 1`] = `
     <div
       className="flex justify-between w-full gap-10"
     >
-      <button
-        onFocus={[Function]}
-        style={
-          Object {
-            "borderWidth": "0",
-            "clip": "rect(0, 0, 0, 0)",
-            "display": "none",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "absolute",
-            "whiteSpace": "nowrap",
-            "width": 1,
-          }
-        }
-        type="button"
-      />
       <div
         aria-orientation="horizontal"
         className="flex items-center justify-center w-fit gap-2"
@@ -2554,24 +1924,6 @@ exports[`Tabs in RTL renders Sizes 1`] = `
           Tab 3 (sm)
         </button>
       </div>
-      <button
-        onFocus={[Function]}
-        style={
-          Object {
-            "borderWidth": "0",
-            "clip": "rect(0, 0, 0, 0)",
-            "display": "none",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "absolute",
-            "whiteSpace": "nowrap",
-            "width": 1,
-          }
-        }
-        type="button"
-      />
       <div
         aria-orientation="horizontal"
         className="flex items-center justify-center w-fit gap-2"
@@ -2632,24 +1984,6 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
   <div
     className="flex flex-col gap-4"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -2698,24 +2032,6 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
         Tab 3
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -2785,24 +2101,6 @@ exports[`Tabs in RTL renders WithHandler 1`] = `
   dir="rtl"
 >
   <div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
