@@ -14,7 +14,7 @@ export default function RadioButtonPage() {
   return (
     <>
       <ComponentPageDescription title="RadioButton">
-        <DeprecationWarning href="/core/radioButton" name="RadioButton" />
+        <DeprecationWarning href="/core/radio" name="Radio" />
       </ComponentPageDescription>
       <Preview
         title="RadioButton"

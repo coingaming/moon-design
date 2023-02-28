@@ -97,7 +97,7 @@ importers:
 
   next-docs:
     specifiers:
-      '@headlessui/react': 1.6.1
+      '@headlessui/react': 1.6.6
       '@heathmont/moon-accordion': workspace:^9.24.0
       '@heathmont/moon-assets': workspace:^9.24.0
       '@heathmont/moon-charts': workspace:^9.24.0
@@ -153,7 +153,7 @@ importers:
       tailwindcss-rtl: 0.9.0
       typescript: 4.9.5
     dependencies:
-      '@headlessui/react': 1.6.1_biqbaboplfbrettd7655fr4n2y
+      '@headlessui/react': 1.6.6_biqbaboplfbrettd7655fr4n2y
       '@heathmont/moon-accordion': link:../packages/accordion
       '@heathmont/moon-assets': link:../packages/assets
       '@heathmont/moon-charts': link:../packages/charts
@@ -528,24 +528,24 @@ importers:
 
   workspaces/core:
     specifiers:
-      '@headlessui/react': 1.6.1
+      '@headlessui/react': 1.6.6
       '@heathmont/moon-icons-tw': workspace:^9.24.0
       '@popperjs/core': ^2.11.6
-      '@radix-ui/react-accordion': ^1.0.1
-      '@radix-ui/react-toast': 1.1.1
-      '@radix-ui/react-tooltip': 1.0.2
+      '@radix-ui/react-accordion': ^1.1.0
+      '@radix-ui/react-toast': 1.1.2
+      '@radix-ui/react-tooltip': 1.0.4
       react-popper: ^2.3.0
       scroll-into-view-if-needed: 2.2.22
       smooth-scroll-into-view-if-needed: 1.1.27
       tailwind-merge: 1.8.0
       tailwindcss-radix: ^2.6.1
     dependencies:
-      '@headlessui/react': 1.6.1_biqbaboplfbrettd7655fr4n2y
+      '@headlessui/react': 1.6.6_biqbaboplfbrettd7655fr4n2y
       '@heathmont/moon-icons-tw': link:../icons
       '@popperjs/core': 2.11.6
       '@radix-ui/react-accordion': 1.1.0_biqbaboplfbrettd7655fr4n2y
-      '@radix-ui/react-toast': 1.1.1_biqbaboplfbrettd7655fr4n2y
-      '@radix-ui/react-tooltip': 1.0.2_biqbaboplfbrettd7655fr4n2y
+      '@radix-ui/react-toast': 1.1.2_biqbaboplfbrettd7655fr4n2y
+      '@radix-ui/react-tooltip': 1.0.4_biqbaboplfbrettd7655fr4n2y
       react-popper: 2.3.0_r6q5zrenym2zg7je7hgi674bti
       scroll-into-view-if-needed: 2.2.22
       smooth-scroll-into-view-if-needed: 1.1.27
@@ -2425,8 +2425,8 @@ packages:
       - '@types/react'
     dev: false
 
-  /@headlessui/react/1.6.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-gMd6uIs1U4Oz718Z5gFoV0o/vD43/4zvbyiJN9Dt7PK9Ubxn+TmJwTmYwyNJc5KxxU1t0CmgTNgwZX9+4NjCnQ==}
+  /@headlessui/react/1.6.6_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-MFJtmj9Xh/hhBMhLccGbBoSk+sk61BlP6sJe4uQcVMtXZhCgGqd2GyIQzzmsdPdTEWGSF434CBi8mnhR6um46Q==}
     engines: {node: '>=10'}
     peerDependencies:
       react: ^16 || ^17 || ^18
@@ -3287,8 +3287,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@radix-ui/react-popper/1.0.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-J4Vj7k3k+EHNWgcKrE+BLlQfpewxA7Zd76h5I0bIa+/EqaIZ3DuwrbPj49O3wqN+STnXsBuxiHLiF0iU3yfovw==}
+  /@radix-ui/react-popper/1.1.0_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-07U7jpI0dZcLRAxT7L9qs6HecSoPhDSJybF7mEGHJDBDv+ZoGCvIlva0s+WxMXwJEav+ckX3hAlXBtnHmuvlCQ==}
     peerDependencies:
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -3299,6 +3299,7 @@ packages:
       '@radix-ui/react-compose-refs': 1.0.0_react@18.2.0
       '@radix-ui/react-context': 1.0.0_react@18.2.0
       '@radix-ui/react-primitive': 1.0.1_biqbaboplfbrettd7655fr4n2y
+      '@radix-ui/react-use-callback-ref': 1.0.0_react@18.2.0
       '@radix-ui/react-use-layout-effect': 1.0.0_react@18.2.0
       '@radix-ui/react-use-rect': 1.0.0_react@18.2.0
       '@radix-ui/react-use-size': 1.0.0_react@18.2.0
@@ -3356,8 +3357,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@radix-ui/react-toast/1.1.1_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-0wNOO9/O1jNvJQOVJD62HoquYqsC8KhWvRgmZ2vlw/5PW/K88mcS2G0gKCrWtcAC33rLttPU1JPd4SF+qzCZ6A==}
+  /@radix-ui/react-toast/1.1.2_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-Kpr4BBYoP0O5A1UeDBmao87UnCMNdAKGNioQH5JzEm6OYTUVGhuDRbOwoZxPwOZ6vsjJHeIpdUrwbiHEB65CCw==}
     peerDependencies:
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -3379,8 +3380,8 @@ packages:
       react-dom: 18.2.0_react@18.2.0
     dev: false
 
-  /@radix-ui/react-tooltip/1.0.2_biqbaboplfbrettd7655fr4n2y:
-    resolution: {integrity: sha512-11gUlok2rv5mu+KBtxniOKKNKjqC/uTbgFHWoQdbF46vMV+zjDaBvCtVDK9+MTddlpmlisGPGvvojX7Qm0yr+g==}
+  /@radix-ui/react-tooltip/1.0.4_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-2h0BvJipRSv7nszzOCdAqb8fH7+Igz24GV1M4aCb/3UPfeMQ+clb1UM5/z2msW3Khir795OCQw2G74YGxjueWw==}
     peerDependencies:
       react: ^16.8 || ^17.0 || ^18.0
       react-dom: ^16.8 || ^17.0 || ^18.0
@@ -3391,7 +3392,7 @@ packages:
       '@radix-ui/react-context': 1.0.0_react@18.2.0
       '@radix-ui/react-dismissable-layer': 1.0.2_biqbaboplfbrettd7655fr4n2y
       '@radix-ui/react-id': 1.0.0_react@18.2.0
-      '@radix-ui/react-popper': 1.0.1_biqbaboplfbrettd7655fr4n2y
+      '@radix-ui/react-popper': 1.1.0_biqbaboplfbrettd7655fr4n2y
       '@radix-ui/react-portal': 1.0.1_biqbaboplfbrettd7655fr4n2y
       '@radix-ui/react-presence': 1.0.0_biqbaboplfbrettd7655fr4n2y
       '@radix-ui/react-primitive': 1.0.1_biqbaboplfbrettd7655fr4n2y

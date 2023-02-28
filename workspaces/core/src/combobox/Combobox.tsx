@@ -3,7 +3,7 @@ import { Combobox as HeadlessCombobox, Transition } from '@headlessui/react';
 import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 import { usePopper } from 'react-popper';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import RadioButton from '../radioButton/RadioButton';
+import Radio from '../radio/Radio';
 import { BaseOptionType } from '../select/Select';
 import TextInput from '../textInput/TextInput';
 
@@ -169,7 +169,7 @@ const Option: React.FC<OptionProps> = ({
               ? children({ active, disabled, selected })
               : children}
           </div>
-          {displayRadioIcon && <RadioButton checked={selected} />}
+          {displayRadioIcon && <Radio />}
         </div>
       )}
     </HeadlessCombobox.Option>
