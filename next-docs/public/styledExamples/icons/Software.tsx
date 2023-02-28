@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   SoftwareBug,
   SoftwareClear,
@@ -16,6 +15,7 @@ import {
   SoftwareSettings,
   SoftwareShutdown,
   SoftwareSorting,
+  SoftwareTurnOff,
   SoftwareWrench,
 } from '@heathmont/moon-icons';
 import Icon from './Icon';
@@ -79,6 +79,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="SoftwareSorting">
       <SoftwareSorting {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="SoftwareTurnOff">
+      <SoftwareTurnOff {...props} />
     </Icon>
     <Icon {...wrapperProps} name="SoftwareWrench">
       <SoftwareWrench {...props} />

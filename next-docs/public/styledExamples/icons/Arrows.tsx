@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   ArrowsBoost,
   ArrowsBottomLeft,
@@ -7,6 +6,7 @@ import {
   ArrowsChevronLeftDouble,
   ArrowsChevronRightDouble,
   ArrowsChevronUpDouble,
+  ArrowsCrossLines,
   ArrowsDiagonalsBltr,
   ArrowsDiagonalsTlbr,
   ArrowsDown,
@@ -15,6 +15,7 @@ import {
   ArrowsLeftCurved,
   ArrowsLeftShort,
   ArrowsRefresh,
+  ArrowsRefreshRound,
   ArrowsRemoveBoost,
   ArrowsReply,
   ArrowsRight,
@@ -63,6 +64,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="ArrowsChevronUpDouble">
       <ArrowsChevronUpDouble {...props} />
     </Icon>
+    <Icon {...wrapperProps} name="ArrowsCrossLines">
+      <ArrowsCrossLines {...props} />
+    </Icon>
     <Icon {...wrapperProps} name="ArrowsDiagonalsBltr">
       <ArrowsDiagonalsBltr {...props} />
     </Icon>
@@ -86,6 +90,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="ArrowsRefresh">
       <ArrowsRefresh {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="ArrowsRefreshRound">
+      <ArrowsRefreshRound {...props} />
     </Icon>
     <Icon {...wrapperProps} name="ArrowsRemoveBoost">
       <ArrowsRemoveBoost {...props} />

@@ -2,27 +2,27 @@
 
 exports[`Checkbox renders Checked 1`] = `
 <label
-  className="sc-jnWwQn dTEycW"
+  className="sc-ktyGiW eVxLVG"
 >
   <input
     checked={true}
-    className="sc-DJmSI knOmFg"
+    className="sc-cWAxUP fkvzqw"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-ewgOdx gsVWQl"
+    className="sc-gVflOg fpAlPI"
   >
     <span
-      className="sc-bQRcPC kesCjG"
+      className="sc-kNCMYV jVspKb"
     >
       <div
         checked={true}
-        className="sc-fJoEar bxdTOd"
+        className="sc-iinbLa knKgIF"
       />
     </span>
     <p
-      className="sc-hZiMVj iUhvAi"
+      className="sc-jUwIko gxSaBZ"
       size={14}
     >
       Checkbox with checked state by default
@@ -33,27 +33,27 @@ exports[`Checkbox renders Checked 1`] = `
 
 exports[`Checkbox renders Disabled 1`] = `
 <label
-  className="sc-jnWwQn dTEycW"
+  className="sc-ktyGiW eVxLVG"
 >
   <input
-    className="sc-DJmSI knOmFg"
+    className="sc-cWAxUP fkvzqw"
     disabled={true}
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-ewgOdx gsVWQl"
+    className="sc-gVflOg fpAlPI"
   >
     <span
-      className="sc-bQRcPC kesCjG"
+      className="sc-kNCMYV jVspKb"
     >
       <div
         checked={false}
-        className="sc-fJoEar iyEIfo"
+        className="sc-iinbLa ihCoag"
       />
     </span>
     <p
-      className="sc-hZiMVj iUhvAi"
+      className="sc-jUwIko gxSaBZ"
       size={14}
     >
       Disabled Checkbox
@@ -64,22 +64,22 @@ exports[`Checkbox renders Disabled 1`] = `
 
 exports[`Checkbox renders No label 1`] = `
 <label
-  className="sc-jnWwQn dTEycW"
+  className="sc-ktyGiW eVxLVG"
 >
   <input
-    className="sc-DJmSI knOmFg"
+    className="sc-cWAxUP fkvzqw"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-ewgOdx gsVWQl"
+    className="sc-gVflOg fpAlPI"
   >
     <span
-      className="sc-bQRcPC kesCjG"
+      className="sc-kNCMYV jVspKb"
     >
       <div
         checked={false}
-        className="sc-fJoEar iyEIfo"
+        className="sc-iinbLa ihCoag"
       />
     </span>
   </div>
@@ -88,27 +88,27 @@ exports[`Checkbox renders No label 1`] = `
 
 exports[`Checkbox renders Read only 1`] = `
 <label
-  className="sc-jnWwQn dTEycW"
+  className="sc-ktyGiW eVxLVG"
 >
   <input
-    className="sc-DJmSI knOmFg"
+    className="sc-cWAxUP fkvzqw"
     onClick={[Function]}
     readOnly={true}
     type="checkbox"
   />
   <div
-    className="sc-ewgOdx gsVWQl"
+    className="sc-gVflOg fpAlPI"
   >
     <span
-      className="sc-bQRcPC kesCjG"
+      className="sc-kNCMYV jVspKb"
     >
       <div
         checked={false}
-        className="sc-fJoEar iyEIfo"
+        className="sc-iinbLa ihCoag"
       />
     </span>
     <p
-      className="sc-hZiMVj iUhvAi"
+      className="sc-jUwIko gxSaBZ"
       size={14}
     >
       Readonly checkbox
@@ -119,26 +119,26 @@ exports[`Checkbox renders Read only 1`] = `
 
 exports[`Checkbox renders default 1`] = `
 <label
-  className="sc-jnWwQn dTEycW"
+  className="sc-ktyGiW eVxLVG"
 >
   <input
-    className="sc-DJmSI knOmFg"
+    className="sc-cWAxUP fkvzqw"
     onClick={[Function]}
     type="checkbox"
   />
   <div
-    className="sc-ewgOdx gsVWQl"
+    className="sc-gVflOg fpAlPI"
   >
     <span
-      className="sc-bQRcPC kesCjG"
+      className="sc-kNCMYV jVspKb"
     >
       <div
         checked={false}
-        className="sc-fJoEar iyEIfo"
+        className="sc-iinbLa ihCoag"
       />
     </span>
     <p
-      className="sc-hZiMVj iUhvAi"
+      className="sc-jUwIko gxSaBZ"
       size={14}
     >
       Default Checkbox
