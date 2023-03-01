@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.24.1
+
+### Patch Changes
+
+- Update SC icons, fix SC Accordion
+
 ## 9.24.0
 
 ### Minor Changes
