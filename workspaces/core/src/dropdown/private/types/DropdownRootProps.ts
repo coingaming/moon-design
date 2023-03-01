@@ -2,11 +2,8 @@ import type Placement from './Placement';
 
 interface DropdownRootProps
   extends Omit<
-    React.DetailedHTMLProps<
-      React.HTMLAttributes<HTMLDivElement>,
-      HTMLDivElement
-    >,
-    'children'
+    React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>,
+    'children' | 'ref'
   > {
   value: unknown;
   onChange(value: unknown): void;
@@ -18,6 +15,7 @@ interface DropdownRootProps
   multiple?: boolean;
   position?: Placement;
   children?: React.ReactNode | ((data: { open?: boolean }) => React.ReactNode);
+  ref?: React.Ref<React.ElementType>;
 }
 
 export default DropdownRootProps;

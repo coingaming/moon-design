@@ -1,31 +1,36 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import { RadioGroup } from '@headlessui/react';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
 import type OptionProps from './private/types/OptionProps';
 import type RadioProps from './private/types/RadioProps';
 
-const RadioRoot: React.FC<any> = ({
-  defaultValue,
-  // value,
-  // onChange,
-  children,
-  className,
-  disabled,
-  name,
-  ...rest
-}) => (
-  <RadioGroup
-    // defaultValue={defaultValue}
-    // value={value}
-    // onChange={onChange}
-    defaultValue={defaultValue}
-    className={className}
-    disabled={disabled}
-    name={name}
-    {...rest}
-  >
-    {children}
-  </RadioGroup>
+const RadioRoot = forwardRef<HTMLInputElement, RadioProps>(
+  (
+    {
+      defaultValue,
+      value,
+      onChange,
+      children,
+      className,
+      disabled,
+      name,
+      ...rest
+    },
+    ref
+  ) => (
+    <RadioGroup
+      ref={ref}
+      defaultValue={defaultValue}
+      value={value}
+      onChange={onChange}
+      className={className}
+      disabled={disabled}
+      name={name}
+      {...rest}
+    >
+      {children}
+    </RadioGroup>
+  )
 );
 
 const Option: React.FC<OptionProps> = ({
