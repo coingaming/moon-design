@@ -16,7 +16,7 @@ const AccordionWrapper = styled.div<Props>(
     height: 'max-content',
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'center',
+    alignItems: 'stretch',
   })
 );
 

@@ -25,7 +25,6 @@ import Sport from '../../public/styledExamples/icons/Sport';
 import Text from '../../public/styledExamples/icons/Text';
 import Time from '../../public/styledExamples/icons/Time';
 import Travel from '../../public/styledExamples/icons/Travel';
-import Type from '../../public/styledExamples/icons/Type';
 import useExamples from '../../utils/useExamples';
 
 const PageIcons = () => {
@@ -157,11 +156,6 @@ const PageIcons = () => {
       <PageSection title="Travel">
         <IconsBlock>
           <Travel wrapperProps={wrapperProps} props={props} />
-        </IconsBlock>
-      </PageSection>
-      <PageSection title="Type">
-        <IconsBlock>
-          <Type wrapperProps={wrapperProps} props={props} />
         </IconsBlock>
       </PageSection>
     </>

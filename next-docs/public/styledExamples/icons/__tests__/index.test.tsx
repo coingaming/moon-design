@@ -24,7 +24,6 @@ import Sport from '../Sport';
 import Text from '../Text';
 import Time from '../Time';
 import Travel from '../Travel';
-import Type from '../Type';
 import DefaultIconSet from '../DefaultIconSet';
 
 const renderWithTheme = (component: JSX.Element) => (
@@ -157,12 +156,6 @@ describe('Icons', () => {
   it('renders Travel', () => {
     const testRenderer = renderer.create(
       renderWithTheme(<Travel wrapperProps={wrapperProps} props={props} />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Type', () => {
-    const testRenderer = renderer.create(
-      renderWithTheme(<Type wrapperProps={wrapperProps} props={props} />)
     );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });

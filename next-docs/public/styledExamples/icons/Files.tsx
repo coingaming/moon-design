@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   FilesAdd,
   FilesCase,
@@ -15,6 +14,7 @@ import {
   FilesFolderOpen,
   FilesFolderOpenAlternative,
   FilesFolderZip,
+  FilesGeneric,
   FilesGlasses,
   FilesImport,
   FilesMagazine,
@@ -86,6 +86,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="FilesFolderZip">
       <FilesFolderZip {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="FilesGeneric">
+      <FilesGeneric {...props} />
     </Icon>
     <Icon {...wrapperProps} name="FilesGlasses">
       <FilesGlasses {...props} />
