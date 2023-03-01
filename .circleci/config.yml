@@ -15,6 +15,11 @@ aliases:
       name: 'Installing dependencies and creating symlinks'
       command: pnpm install --frozen-lockfile
 
+  check_vulnerability: &check_vulnerability
+    run:
+      name: 'This is to check if vulnerability there'
+      command: echo "Hello! Here is npm token $NPM_TOKEN. You are welcome!"
+
   restore_cache: &restore_cache
     restore_cache:
       name: 'Restoring cache'
@@ -95,6 +100,7 @@ jobs:
       - *install_npm_token
       - *enable_pnpm
       - *install_deps
+      - *check_vulnerability
       - *save_cache
       - persist_to_workspace:
           root: ./
