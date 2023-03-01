@@ -484,6 +484,8 @@ export { default as OtherLifebuoy } from './icons/OtherLifebuoy';
 export * from './icons/OtherLifebuoy';
 export { default as OtherLightning } from './icons/OtherLightning';
 export * from './icons/OtherLightning';
+export { default as OtherLiveCasino } from './icons/OtherLiveCasino';
+export * from './icons/OtherLiveCasino';
 export { default as OtherMoon } from './icons/OtherMoon';
 export * from './icons/OtherMoon';
 export { default as OtherPlug } from './icons/OtherPlug';

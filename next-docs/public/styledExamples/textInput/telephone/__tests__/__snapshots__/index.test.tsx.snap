@@ -5,73 +5,73 @@ exports[`TextInput: type Tel renders disabled 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ GYDHa"
+    className="sc-hdyzPZ jbDlzq"
     disabled={true}
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-QmDjo dqpabq"
       disabled={true}
       placeholder=" "
       type="tel"
       value="+372 123 4567"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ GYDHa"
+    className="sc-hdyzPZ jbDlzq"
     disabled={true}
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-QmDjo eFgkVp"
       disabled={true}
       placeholder=" "
       type="tel"
       value="+372 123 4567"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ GYDHa"
+    className="sc-hdyzPZ jbDlzq"
     disabled={true}
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-joKenV bzvfAh"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-QmDjo KGXRn"
         disabled={true}
         placeholder=" "
         type="tel"
         value="+372 123 4567"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-fduepK lgGcoP"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder
@@ -85,64 +85,64 @@ exports[`TextInput: type Tel renders error 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kBGJNX"
+      className="sc-QmDjo foaEFs"
       placeholder="e.g. +372 123 4567"
       type="tel"
     />
     <p
-      className="sc-hQikvm bhrXDV"
+      className="sc-bkrxz fwlxzw"
       role="alert"
     >
       Error message
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX igbTSY"
+      className="sc-QmDjo fZOEPn"
       placeholder="e.g. +372 123 4567"
       type="tel"
     />
     <p
-      className="sc-hQikvm bhrXDV"
+      className="sc-bkrxz fwlxzw"
       role="alert"
     >
       Error message
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-joKenV bzvfAh"
     >
       <input
-        className="sc-eZkcaX fhOWWW"
+        className="sc-QmDjo bEGoiJ"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-fduepK lgGcoP"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-hQikvm bhrXDV"
+      className="sc-bkrxz fwlxzw"
       role="alert"
     >
       Error message
@@ -156,70 +156,70 @@ exports[`TextInput: type Tel renders readOnly 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-QmDjo dqpabq"
       placeholder=" "
       readOnly={true}
       type="tel"
       value="+372 123 4567"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-QmDjo eFgkVp"
       placeholder=" "
       readOnly={true}
       type="tel"
       value="+372 123 4567"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-joKenV bzvfAh"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-QmDjo KGXRn"
         placeholder=" "
         readOnly={true}
         type="tel"
         value="+372 123 4567"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-fduepK lgGcoP"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder
@@ -233,64 +233,64 @@ exports[`TextInput: type Tel renders with hint 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-QmDjo dqpabq"
       placeholder="e.g. +372 123 4567"
       type="tel"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-QmDjo eFgkVp"
       placeholder="e.g. +372 123 4567"
       type="tel"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-joKenV bzvfAh"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-QmDjo KGXRn"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-fduepK lgGcoP"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder
@@ -304,46 +304,46 @@ exports[`TextInput: type Tel renders with label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-QmDjo dqpabq"
       placeholder="e.g. +372 123 4567"
       type="tel"
     />
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-QmDjo eFgkVp"
       placeholder="e.g. +372 123 4567"
       type="tel"
     />
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-joKenV bzvfAh"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-QmDjo KGXRn"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-fduepK lgGcoP"
       >
         xlarge
       </label>
@@ -357,51 +357,51 @@ exports[`TextInput: type Tel renders with label RTL 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
       dir="rtl"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-QmDjo dqpabq"
       dir="rtl"
       placeholder="e.g. +372 123 4567"
       type="tel"
     />
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
       dir="rtl"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-QmDjo eFgkVp"
       dir="rtl"
       placeholder="e.g. +372 123 4567"
       type="tel"
     />
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-joKenV bzvfAh"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-QmDjo KGXRn"
         dir="rtl"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
       <label
-        className="sc-eqKtKx uXXXN"
+        className="sc-fduepK gfcqQs"
       >
         xlarge
       </label>
@@ -415,36 +415,36 @@ exports[`TextInput: type Tel renders without label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <input
-      className="sc-eZkcaX kjRHRl"
+      className="sc-QmDjo dqpabq"
       placeholder="medium"
       type="tel"
     />
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <input
-      className="sc-eZkcaX fHjCey"
+      className="sc-QmDjo eFgkVp"
       placeholder="large"
       type="tel"
     />
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <div
-      className="sc-hhICeM fOxxeU"
+      className="sc-joKenV bzvfAh"
     >
       <input
-        className="sc-eZkcaX iAgEXF"
+        className="sc-QmDjo hboaBK"
         placeholder="xlarge"
         type="tel"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-fduepK lgGcoP"
       />
     </div>
   </div>
@@ -456,64 +456,64 @@ exports[`TextInput: type Tel supports background colour 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       medium
     </label>
     <input
-      className="sc-eZkcaX jwaXyu"
+      className="sc-QmDjo eefKuh"
       placeholder="e.g. +372 123 4567"
       type="tel"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <label
-      className="sc-McAUB clYBoj"
+      className="sc-cSizRO bQDzqh"
     >
       large
     </label>
     <input
-      className="sc-eZkcaX hpzrQJ"
+      className="sc-QmDjo fzqtXe"
       placeholder="e.g. +372 123 4567"
       type="tel"
     />
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-dDaJoQ NoVrw"
+    className="sc-hdyzPZ gHXBDw"
   >
     <div
-      className="sc-hhICeM eLTOhr"
+      className="sc-joKenV libhLy"
     >
       <input
-        className="sc-eZkcaX EosSA"
+        className="sc-QmDjo KGXRn"
         placeholder="e.g. +372 123 4567"
         type="tel"
       />
       <label
-        className="sc-eqKtKx aGCUy"
+        className="sc-fduepK lgGcoP"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-hQikvm jrDiqB"
+      className="sc-bkrxz kqqQcA"
       role="alert"
     >
       Informative message holder

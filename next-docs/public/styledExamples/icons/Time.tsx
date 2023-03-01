@@ -1,4 +1,3 @@
-import React from 'react';
 import {
   TimeAlarm,
   TimeCalendar,
@@ -6,7 +5,7 @@ import {
   TimeCalendarAlternative,
   TimeCalendarDate,
   TimeCalendarRemove,
-  TimeCalendarSucsess,
+  TimeCalendarSuccess,
   TimeClock,
   TimeSandglass,
   TimeStopwatch,
@@ -46,8 +45,8 @@ const Example = ({ wrapperProps, props }: Props) => (
     <Icon {...wrapperProps} name="TimeCalendarRemove">
       <TimeCalendarRemove {...props} />
     </Icon>
-    <Icon {...wrapperProps} name="TimeCalendarSucsess">
-      <TimeCalendarSucsess {...props} />
+    <Icon {...wrapperProps} name="TimeCalendarSuccess">
+      <TimeCalendarSuccess {...props} />
     </Icon>
     <Icon {...wrapperProps} name="TimeClock">
       <TimeClock {...props} />

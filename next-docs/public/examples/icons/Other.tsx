@@ -11,6 +11,7 @@ import {
   OtherId,
   OtherLifebuoy,
   OtherLightning,
+  OtherLiveCasino,
   OtherMoon,
   OtherPlug,
   OtherRewards,
@@ -69,6 +70,9 @@ const Example = ({ wrapperProps, props }: Props) => (
     </Icon>
     <Icon {...wrapperProps} name="OtherLightning">
       <OtherLightning {...props} />
+    </Icon>
+    <Icon {...wrapperProps} name="OtherLiveCasino">
+      <OtherLiveCasino {...props} />
     </Icon>
     <Icon {...wrapperProps} name="OtherMoon">
       <OtherMoon {...props} />
