@@ -1,12 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Dropdown in Dark Theme renders Default 1`] = `
-<div>
+<div
+  data-headlessui-state=""
+>
   <div
     className="relative"
   >
     <div
       aria-expanded={false}
+      data-headlessui-state=""
       id="headlessui-popover-button-:r18:"
       onClick={[Function]}
       onKeyDown={[Function]}
@@ -36,12 +39,15 @@ exports[`Dropdown in Dark Theme renders Position 1`] = `
 <div
   className="flex align-middle justify-around items-center w-full gap-2"
 >
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:r1s:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -65,12 +71,15 @@ exports[`Dropdown in Dark Theme renders Position 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:r21:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -94,12 +103,15 @@ exports[`Dropdown in Dark Theme renders Position 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:r26:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -130,12 +142,15 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
 <div
   className="flex align-middle justify-around items-center w-full gap-2"
 >
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:r1d:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -159,12 +174,15 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:r1i:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -195,12 +213,15 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:r1n:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -221,12 +242,15 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
 `;
 
 exports[`Dropdown in Dark Theme renders WithClose 1`] = `
-<div>
+<div
+  data-headlessui-state=""
+>
   <div
     className="relative"
   >
     <div
       aria-expanded={false}
+      data-headlessui-state=""
       id="headlessui-popover-button-:r2b:"
       onClick={[Function]}
       onKeyDown={[Function]}
@@ -256,12 +280,15 @@ exports[`Dropdown in RTL renders Default 1`] = `
 <div
   dir="rtl"
 >
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:r2g:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -295,12 +322,15 @@ exports[`Dropdown in RTL renders Position 1`] = `
   <div
     className="flex align-middle justify-around items-center w-full gap-2"
   >
-    <div>
+    <div
+      data-headlessui-state=""
+    >
       <div
         className="relative"
       >
         <div
           aria-expanded={false}
+          data-headlessui-state=""
           id="headlessui-popover-button-:r34:"
           onClick={[Function]}
           onKeyDown={[Function]}
@@ -324,12 +354,15 @@ exports[`Dropdown in RTL renders Position 1`] = `
         </div>
       </div>
     </div>
-    <div>
+    <div
+      data-headlessui-state=""
+    >
       <div
         className="relative"
       >
         <div
           aria-expanded={false}
+          data-headlessui-state=""
           id="headlessui-popover-button-:r39:"
           onClick={[Function]}
           onKeyDown={[Function]}
@@ -353,12 +386,15 @@ exports[`Dropdown in RTL renders Position 1`] = `
         </div>
       </div>
     </div>
-    <div>
+    <div
+      data-headlessui-state=""
+    >
       <div
         className="relative"
       >
         <div
           aria-expanded={false}
+          data-headlessui-state=""
           id="headlessui-popover-button-:r3e:"
           onClick={[Function]}
           onKeyDown={[Function]}
@@ -393,12 +429,15 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
   <div
     className="flex align-middle justify-around items-center w-full gap-2"
   >
-    <div>
+    <div
+      data-headlessui-state=""
+    >
       <div
         className="relative"
       >
         <div
           aria-expanded={false}
+          data-headlessui-state=""
           id="headlessui-popover-button-:r2l:"
           onClick={[Function]}
           onKeyDown={[Function]}
@@ -422,12 +461,15 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
         </div>
       </div>
     </div>
-    <div>
+    <div
+      data-headlessui-state=""
+    >
       <div
         className="relative"
       >
         <div
           aria-expanded={false}
+          data-headlessui-state=""
           id="headlessui-popover-button-:r2q:"
           onClick={[Function]}
           onKeyDown={[Function]}
@@ -458,12 +500,15 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
         </div>
       </div>
     </div>
-    <div>
+    <div
+      data-headlessui-state=""
+    >
       <div
         className="relative"
       >
         <div
           aria-expanded={false}
+          data-headlessui-state=""
           id="headlessui-popover-button-:r2v:"
           onClick={[Function]}
           onKeyDown={[Function]}
@@ -488,12 +533,15 @@ exports[`Dropdown in RTL renders WithClose 1`] = `
 <div
   dir="rtl"
 >
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:r3j:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -521,12 +569,15 @@ exports[`Dropdown in RTL renders WithClose 1`] = `
 `;
 
 exports[`Popover in Light Theme renders Default 1`] = `
-<div>
+<div
+  data-headlessui-state=""
+>
   <div
     className="relative"
   >
     <div
       aria-expanded={false}
+      data-headlessui-state=""
       id="headlessui-popover-button-:r0:"
       onClick={[Function]}
       onKeyDown={[Function]}
@@ -556,12 +607,15 @@ exports[`Popover in Light Theme renders Position 1`] = `
 <div
   className="flex align-middle justify-around items-center w-full gap-2"
 >
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:rk:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -585,12 +639,15 @@ exports[`Popover in Light Theme renders Position 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:rp:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -614,12 +671,15 @@ exports[`Popover in Light Theme renders Position 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:ru:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -650,12 +710,15 @@ exports[`Popover in Light Theme renders TriggerElements 1`] = `
 <div
   className="flex align-middle justify-around items-center w-full gap-2"
 >
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:r5:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -679,12 +742,15 @@ exports[`Popover in Light Theme renders TriggerElements 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:ra:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -715,12 +781,15 @@ exports[`Popover in Light Theme renders TriggerElements 1`] = `
       </div>
     </div>
   </div>
-  <div>
+  <div
+    data-headlessui-state=""
+  >
     <div
       className="relative"
     >
       <div
         aria-expanded={false}
+        data-headlessui-state=""
         id="headlessui-popover-button-:rf:"
         onClick={[Function]}
         onKeyDown={[Function]}
@@ -741,12 +810,15 @@ exports[`Popover in Light Theme renders TriggerElements 1`] = `
 `;
 
 exports[`Popover in Light Theme renders WithClose 1`] = `
-<div>
+<div
+  data-headlessui-state=""
+>
   <div
     className="relative"
   >
     <div
       aria-expanded={false}
+      data-headlessui-state=""
       id="headlessui-popover-button-:r13:"
       onClick={[Function]}
       onKeyDown={[Function]}
