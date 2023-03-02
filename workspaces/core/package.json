@@ -20,12 +20,12 @@
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
   },
   "dependencies": {
-    "@headlessui/react": "1.6.1",
+    "@headlessui/react": "1.7.12",
     "@heathmont/moon-icons-tw": "workspace:^9.24.1",
     "@popperjs/core": "^2.11.6",
-    "@radix-ui/react-accordion": "^1.0.1",
-    "@radix-ui/react-toast": "1.1.1",
-    "@radix-ui/react-tooltip": "1.0.2",
+    "@radix-ui/react-accordion": "^1.1.0",
+    "@radix-ui/react-toast": "1.1.2",
+    "@radix-ui/react-tooltip": "1.0.4",
     "react-popper": "^2.3.0",
     "scroll-into-view-if-needed": "2.2.22",
     "smooth-scroll-into-view-if-needed": "1.1.27",

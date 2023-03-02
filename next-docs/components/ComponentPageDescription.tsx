@@ -32,27 +32,27 @@ const ComponentPageDescription: React.FC<Props> = ({
           {isLabelsVisible && (
             <div className="flex items-start gap-2">
               {isDeprecated && (
-                <Tag size="2xs" bgColor="bg-chichi" color="text-popo">
+                <Tag size="2xs" className="bg-chichi text-popo">
                   Deprecated
                 </Tag>
               )}
               {isInProgress && (
-                <Tag size="2xs" bgColor="bg-krillin" color="text-popo">
+                <Tag size="2xs" className="bg-krillin text-popo">
                   In progress
                 </Tag>
               )}
               {isInDevelopment && (
-                <Tag size="2xs" bgColor="bg-chichi" color="text-popo">
+                <Tag size="2xs" className="bg-chichi text-popo">
                   In Development - Do not use in production
                 </Tag>
               )}
               {isAriaSupport && (
-                <Tag size="2xs" bgColor="bg-nappa" color="text-goten">
+                <Tag size="2xs" className="bg-nappa text-goten">
                   ARIA
                 </Tag>
               )}
               {isRtlSupport && (
-                <Tag size="2xs" bgColor="bg-whis" color="text-goten">
+                <Tag size="2xs" className="bg-whis text-goten">
                   RTL
                 </Tag>
               )}
