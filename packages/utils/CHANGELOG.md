@@ -1,5 +1,13 @@
 # Change Log
 
+## 9.24.1
+
+### Patch Changes
+
+- Update SC icons, fix SC Accordion
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.24.1
+
 ## 9.24.0
 
 ### Minor Changes

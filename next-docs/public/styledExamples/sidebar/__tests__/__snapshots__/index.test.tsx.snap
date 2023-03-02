@@ -10,7 +10,7 @@ exports[`Sidebar renders 1`] = `
     onClick={[Function]}
   >
     <svg
-      className="sc-BeQoi"
+      className="sc-kgUAyh"
       fill="none"
       fontSize="1.5rem"
       height="1em"
@@ -57,7 +57,7 @@ exports[`Sidebar renders RTL 1`] = `
       onClick={[Function]}
     >
       <svg
-        className="sc-hTtwUo"
+        className="sc-jgbSNz"
         fill="none"
         fontSize="1.5rem"
         height="1em"
@@ -74,11 +74,11 @@ exports[`Sidebar renders RTL 1`] = `
       </svg>
     </div>
     <div
-      className="sc-fJoEar gVNoco"
+      className="sc-iinbLa dZKYmY"
       fontSize="2rem"
     >
       <svg
-        className="sc-bWijRQ eItcq"
+        className="sc-dICTr jAVuHH"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -113,7 +113,7 @@ exports[`Sidebar renders initially closed 1`] = `
     onClick={[Function]}
   >
     <svg
-      className="sc-hTtwUo"
+      className="sc-jgbSNz"
       fill="none"
       fontSize="1.5rem"
       height="1em"
@@ -130,11 +130,11 @@ exports[`Sidebar renders initially closed 1`] = `
     </svg>
   </div>
   <div
-    className="sc-fJoEar gVNoco"
+    className="sc-iinbLa dZKYmY"
     fontSize="2rem"
   >
     <svg
-      className="sc-bWijRQ eItcq"
+      className="sc-dICTr jAVuHH"
       fill="none"
       height="1em"
       viewBox="0 0 32 32"

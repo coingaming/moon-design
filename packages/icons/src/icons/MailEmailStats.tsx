@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -12,8 +12,10 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
     {...props}
   >
     <path
-      d="M23.5 25.5v.5-.5zm-15 0v.5-.5zm17-12.667h.5a.5.5 0 00-.223-.416l-.277.416zm0 10.667h.5-.5zm-19-10.667l-.277-.416a.5.5 0 00-.223.416h.5zm0 10.667H7h-.5zm8.39-16.26l-.277-.416.278.416zm2.22 0l.277-.416-.278.416zm-3.566 11.072l.307-.395-.307.395zm4.912 0l-.307-.395.307.395zM23.5 25h-15v1h15v-1zM25 12.833V23.5h1V12.833h-1zm-19 0V23.5h1V12.833H6zM8.5 25A1.5 1.5 0 017 23.5H6A2.5 2.5 0 008.5 26v-1zm15 1a2.5 2.5 0 002.5-2.5h-1a1.5 1.5 0 01-1.5 1.5v1zM6.777 13.25l8.391-5.594-.555-.832-8.39 5.593.554.832zm10.055-5.594l8.39 5.593.555-.832-8.39-5.593-.555.832zm-1.664 0a1.5 1.5 0 011.664 0l.555-.832a2.5 2.5 0 00-2.774 0l.555.832zm-1.317 10.262l-7.044-5.48-.614.79 7.044 5.479.614-.79zm4.912.789l7.044-5.479-.614-.79-7.044 5.48.614.789zm-5.526 0a4.5 4.5 0 005.526 0l-.614-.79a3.5 3.5 0 01-4.298 0l-.614.79z"
-      fill="currentColor"
+      d="M25.5 12.833V23.5a2 2 0 01-2 2h-15a2 2 0 01-2-2V12.833m19 0L17.11 7.24a2 2 0 00-2.22 0L6.5 12.833m19 0l-7.044 5.48a4 4 0 01-4.912 0L6.5 12.832"
+      stroke="currentColor"
+      strokeLinecap="round"
+      strokeLinejoin="round"
     />
   </svg>
 );

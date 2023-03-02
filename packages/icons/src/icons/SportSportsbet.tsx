@@ -1,7 +1,7 @@
 import React from 'react';
-import styled from 'styled-components';
 import { ColorProps } from '@heathmont/moon-themes';
 import { themed } from '@heathmont/moon-utils';
+import styled from 'styled-components';
 const Svg = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     width="1em"
@@ -17,8 +17,10 @@ const Svg = (props: React.SVGProps<SVGSVGElement>) => (
       strokeMiterlimit={10}
     />
     <circle
+      cx={3.644}
+      cy={3.644}
       r={3.644}
-      transform="matrix(1 0 0 -1 10.144 10.674)"
+      transform="matrix(1 0 0 -1 6.5 14.318)"
       stroke="currentColor"
       strokeMiterlimit={10}
     />

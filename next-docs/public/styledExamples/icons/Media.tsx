@@ -1,5 +1,5 @@
-import React from 'react';
 import {
+  MediaAutoPlay,
   MediaCss,
   MediaCsv,
   MediaExe,
@@ -50,6 +50,9 @@ interface Props {
 
 const Example = ({ wrapperProps, props }: Props) => (
   <>
+    <Icon {...wrapperProps} name="MediaAutoPlay">
+      <MediaAutoPlay {...props} />
+    </Icon>
     <Icon {...wrapperProps} name="MediaCss">
       <MediaCss {...props} />
     </Icon>
