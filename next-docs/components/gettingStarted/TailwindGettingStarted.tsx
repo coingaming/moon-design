@@ -84,7 +84,7 @@ const TailwindGettingStarted = () => (
     </PageSection>
     <PageSection title="Installing Moon DS" id="install">
       <p>Run:</p>
-      <CodeSnippet>{`pnpm i @heathmont/moon-core-tw`}</CodeSnippet>
+      <CodeSnippet>pnpm i @heathmont/moon-core-tw</CodeSnippet>
     </PageSection>
     <PageSection title="Configuring the Project" id="config">
       <p>

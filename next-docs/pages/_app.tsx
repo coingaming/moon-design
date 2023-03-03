@@ -9,6 +9,7 @@ import RtlProvider from '../components/rtl/RtlProvider';
 import SearchProvider from '../components/search/SearchProvider';
 import { DocsThemeProvider } from '../components/themes/DocsThemeProvider';
 import type { AppProps } from 'next/app';
+import 'highlight.js/styles/monokai-sublime.css';
 
 type GetLayout = (page: ReactNode) => ReactNode;
 
