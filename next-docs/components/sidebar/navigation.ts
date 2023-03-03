@@ -49,7 +49,7 @@ const navigation = [
           { name: 'Progress', href: '/core/progress' },
         ],
       },
-      { name: 'RadioButton', href: '/core/radioButton' },
+      { name: 'Radio', href: '/core/radio' },
       { name: 'Search', href: '/core/search' },
       { name: 'Select', href: '/core/select' },
       { name: 'Snackbar', href: '/core/snackbar' },

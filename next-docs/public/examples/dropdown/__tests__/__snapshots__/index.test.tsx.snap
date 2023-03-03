@@ -12,7 +12,8 @@ exports[`Dropdown in Dark Theme renders Default 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r1t:"
         onClick={[Function]}
@@ -44,7 +45,9 @@ exports[`Dropdown in Dark Theme renders InsetMultiSelect 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r33: headlessui-listbox-button-:r32:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r32:"
         onClick={[Function]}
@@ -68,6 +71,7 @@ exports[`Dropdown in Dark Theme renders InsetMultiSelect 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state=""
                     id="headlessui-listbox-label-:r33:"
                     onClick={[Function]}
                   >
@@ -122,7 +126,9 @@ exports[`Dropdown in Dark Theme renders InsetSelect 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r30: headlessui-listbox-button-:r2v:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r2v:"
         onClick={[Function]}
@@ -146,6 +152,7 @@ exports[`Dropdown in Dark Theme renders InsetSelect 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state=""
                     id="headlessui-listbox-label-:r30:"
                     onClick={[Function]}
                   >
@@ -200,7 +207,9 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r36: headlessui-listbox-button-:r35:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r35:"
         onClick={[Function]}
@@ -224,6 +233,7 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state=""
                     id="headlessui-listbox-label-:r36:"
                     onClick={[Function]}
                   >
@@ -270,7 +280,9 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
       className="relative"
     >
       <div
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r39: headlessui-listbox-button-:r38:"
+        data-headlessui-state="disabled"
         disabled={true}
         id="headlessui-listbox-button-:r38:"
       >
@@ -291,6 +303,7 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state="disabled"
                     id="headlessui-listbox-label-:r39:"
                     onClick={[Function]}
                   >
@@ -338,7 +351,9 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r3c: headlessui-listbox-button-:r3b:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r3b:"
         onClick={[Function]}
@@ -362,6 +377,7 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state=""
                     id="headlessui-listbox-label-:r3c:"
                     onClick={[Function]}
                   />
@@ -401,7 +417,9 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r3f: headlessui-listbox-button-:r3e:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r3e:"
         onClick={[Function]}
@@ -425,6 +443,7 @@ exports[`Dropdown in Dark Theme renders InsetSelectStates 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state=""
                     id="headlessui-listbox-label-:r3f:"
                     onClick={[Function]}
                   >
@@ -479,6 +498,7 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r3h:"
         onClick={[Function]}
       >
@@ -486,7 +506,9 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r3h: headlessui-listbox-button-:r3i:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r3i:"
         onClick={[Function]}
@@ -549,6 +571,7 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r3k:"
         onClick={[Function]}
       >
@@ -556,7 +579,9 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r3k: headlessui-listbox-button-:r3l:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r3l:"
         onClick={[Function]}
@@ -620,6 +645,7 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r3n:"
         onClick={[Function]}
       >
@@ -627,7 +653,9 @@ exports[`Dropdown in Dark Theme renders MultiSelect 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r3n: headlessui-listbox-button-:r3o:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r3o:"
         onClick={[Function]}
@@ -697,7 +725,8 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r25:"
         onClick={[Function]}
@@ -722,7 +751,8 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r27:"
         onClick={[Function]}
@@ -747,7 +777,8 @@ exports[`Dropdown in Dark Theme renders OptionsVariants 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r29:"
         onClick={[Function]}
@@ -779,6 +810,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2b:"
         onClick={[Function]}
       >
@@ -786,7 +818,9 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r2b: headlessui-listbox-button-:r2c:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r2c:"
         onClick={[Function]}
@@ -845,6 +879,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2e:"
         onClick={[Function]}
       >
@@ -852,7 +887,9 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r2e: headlessui-listbox-button-:r2f:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r2f:"
         onClick={[Function]}
@@ -911,6 +948,7 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2h:"
         onClick={[Function]}
       >
@@ -918,7 +956,9 @@ exports[`Dropdown in Dark Theme renders Select 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r2h: headlessui-listbox-button-:r2i:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r2i:"
         onClick={[Function]}
@@ -984,6 +1024,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2k:"
         onClick={[Function]}
       >
@@ -991,7 +1032,9 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r2k: headlessui-listbox-button-:r2l:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r2l:"
         onClick={[Function]}
@@ -1050,13 +1093,16 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+        data-headlessui-state="disabled"
         id="headlessui-listbox-label-:r2n:"
         onClick={[Function]}
       >
         Disabled
       </label>
       <div
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r2n: headlessui-listbox-button-:r2o:"
+        data-headlessui-state="disabled"
         disabled={true}
         id="headlessui-listbox-button-:r2o:"
       >
@@ -1112,7 +1158,8 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r2q:"
         onClick={[Function]}
@@ -1165,6 +1212,7 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2s:"
         onClick={[Function]}
       >
@@ -1172,7 +1220,9 @@ exports[`Dropdown in Dark Theme renders SelectStates 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r2s: headlessui-listbox-button-:r2t:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r2t:"
         onClick={[Function]}
@@ -1238,7 +1288,8 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r1v:"
         onClick={[Function]}
@@ -1277,7 +1328,8 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r21:"
         onClick={[Function]}
@@ -1309,7 +1361,8 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r23:"
         onClick={[Function]}
@@ -1356,7 +1409,8 @@ exports[`Dropdown in Light Theme renders Default 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r0:"
         onClick={[Function]}
@@ -1388,7 +1442,9 @@ exports[`Dropdown in Light Theme renders InsetMultiSelect 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r16: headlessui-listbox-button-:r15:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r15:"
         onClick={[Function]}
@@ -1412,6 +1468,7 @@ exports[`Dropdown in Light Theme renders InsetMultiSelect 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state=""
                     id="headlessui-listbox-label-:r16:"
                     onClick={[Function]}
                   >
@@ -1466,7 +1523,9 @@ exports[`Dropdown in Light Theme renders InsetSelect 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r13: headlessui-listbox-button-:r12:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r12:"
         onClick={[Function]}
@@ -1490,6 +1549,7 @@ exports[`Dropdown in Light Theme renders InsetSelect 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state=""
                     id="headlessui-listbox-label-:r13:"
                     onClick={[Function]}
                   >
@@ -1544,7 +1604,9 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r19: headlessui-listbox-button-:r18:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r18:"
         onClick={[Function]}
@@ -1568,6 +1630,7 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state=""
                     id="headlessui-listbox-label-:r19:"
                     onClick={[Function]}
                   >
@@ -1614,7 +1677,9 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
       className="relative"
     >
       <div
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r1c: headlessui-listbox-button-:r1b:"
+        data-headlessui-state="disabled"
         disabled={true}
         id="headlessui-listbox-button-:r1b:"
       >
@@ -1635,6 +1700,7 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state="disabled"
                     id="headlessui-listbox-label-:r1c:"
                     onClick={[Function]}
                   >
@@ -1682,7 +1748,9 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r1f: headlessui-listbox-button-:r1e:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r1e:"
         onClick={[Function]}
@@ -1706,6 +1774,7 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state=""
                     id="headlessui-listbox-label-:r1f:"
                     onClick={[Function]}
                   />
@@ -1745,7 +1814,9 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r1i: headlessui-listbox-button-:r1h:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r1h:"
         onClick={[Function]}
@@ -1769,6 +1840,7 @@ exports[`Dropdown in Light Theme renders InsetSelectStates 1`] = `
                 >
                   <label
                     className="block text-moon-12 text-trunks"
+                    data-headlessui-state=""
                     id="headlessui-listbox-label-:r1i:"
                     onClick={[Function]}
                   >
@@ -1823,6 +1895,7 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r1k:"
         onClick={[Function]}
       >
@@ -1830,7 +1903,9 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r1k: headlessui-listbox-button-:r1l:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r1l:"
         onClick={[Function]}
@@ -1893,6 +1968,7 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r1n:"
         onClick={[Function]}
       >
@@ -1900,7 +1976,9 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r1n: headlessui-listbox-button-:r1o:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r1o:"
         onClick={[Function]}
@@ -1964,6 +2042,7 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r1q:"
         onClick={[Function]}
       >
@@ -1971,7 +2050,9 @@ exports[`Dropdown in Light Theme renders MultiSelect 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:r1q: headlessui-listbox-button-:r1r:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r1r:"
         onClick={[Function]}
@@ -2041,7 +2122,8 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r8:"
         onClick={[Function]}
@@ -2066,7 +2148,8 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:ra:"
         onClick={[Function]}
@@ -2091,7 +2174,8 @@ exports[`Dropdown in Light Theme renders OptionsVariants 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:rc:"
         onClick={[Function]}
@@ -2123,6 +2207,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:re:"
         onClick={[Function]}
       >
@@ -2130,7 +2215,9 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:re: headlessui-listbox-button-:rf:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:rf:"
         onClick={[Function]}
@@ -2189,6 +2276,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:rh:"
         onClick={[Function]}
       >
@@ -2196,7 +2284,9 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:rh: headlessui-listbox-button-:ri:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:ri:"
         onClick={[Function]}
@@ -2255,6 +2345,7 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:rk:"
         onClick={[Function]}
       >
@@ -2262,7 +2353,9 @@ exports[`Dropdown in Light Theme renders Select 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:rk: headlessui-listbox-button-:rl:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:rl:"
         onClick={[Function]}
@@ -2328,6 +2421,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:rn:"
         onClick={[Function]}
       >
@@ -2335,7 +2429,9 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:rn: headlessui-listbox-button-:ro:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:ro:"
         onClick={[Function]}
@@ -2394,13 +2490,16 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+        data-headlessui-state="disabled"
         id="headlessui-listbox-label-:rq:"
         onClick={[Function]}
       >
         Disabled
       </label>
       <div
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:rq: headlessui-listbox-button-:rr:"
+        data-headlessui-state="disabled"
         disabled={true}
         id="headlessui-listbox-button-:rr:"
       >
@@ -2456,7 +2555,8 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:rt:"
         onClick={[Function]}
@@ -2509,6 +2609,7 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:rv:"
         onClick={[Function]}
       >
@@ -2516,7 +2617,9 @@ exports[`Dropdown in Light Theme renders SelectStates 1`] = `
       </label>
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        aria-labelledby="headlessui-listbox-label-:rv: headlessui-listbox-button-:r10:"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r10:"
         onClick={[Function]}
@@ -2582,7 +2685,8 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r2:"
         onClick={[Function]}
@@ -2621,7 +2725,8 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r4:"
         onClick={[Function]}
@@ -2653,7 +2758,8 @@ exports[`Dropdown in Light Theme renders TriggerElements 1`] = `
     >
       <div
         aria-expanded={false}
-        aria-haspopup={true}
+        aria-haspopup="listbox"
+        data-headlessui-state=""
         disabled={false}
         id="headlessui-listbox-button-:r6:"
         onClick={[Function]}
@@ -2703,7 +2809,8 @@ exports[`Dropdown in RTL renders Default 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r3q:"
           onClick={[Function]}
@@ -2739,7 +2846,9 @@ exports[`Dropdown in RTL renders InsetMultiSelect 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r50: headlessui-listbox-button-:r4v:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r4v:"
           onClick={[Function]}
@@ -2763,6 +2872,7 @@ exports[`Dropdown in RTL renders InsetMultiSelect 1`] = `
                   >
                     <label
                       className="block text-moon-12 text-trunks"
+                      data-headlessui-state=""
                       id="headlessui-listbox-label-:r50:"
                       onClick={[Function]}
                     >
@@ -2821,7 +2931,9 @@ exports[`Dropdown in RTL renders InsetSelect 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r4t: headlessui-listbox-button-:r4s:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r4s:"
           onClick={[Function]}
@@ -2845,6 +2957,7 @@ exports[`Dropdown in RTL renders InsetSelect 1`] = `
                   >
                     <label
                       className="block text-moon-12 text-trunks"
+                      data-headlessui-state=""
                       id="headlessui-listbox-label-:r4t:"
                       onClick={[Function]}
                     >
@@ -2903,7 +3016,9 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r53: headlessui-listbox-button-:r52:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r52:"
           onClick={[Function]}
@@ -2927,6 +3042,7 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
                   >
                     <label
                       className="block text-moon-12 text-trunks"
+                      data-headlessui-state=""
                       id="headlessui-listbox-label-:r53:"
                       onClick={[Function]}
                     >
@@ -2973,7 +3089,9 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
         className="relative"
       >
         <div
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r56: headlessui-listbox-button-:r55:"
+          data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-listbox-button-:r55:"
         >
@@ -2994,6 +3112,7 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
                   >
                     <label
                       className="block text-moon-12 text-trunks"
+                      data-headlessui-state="disabled"
                       id="headlessui-listbox-label-:r56:"
                       onClick={[Function]}
                     >
@@ -3041,7 +3160,9 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r59: headlessui-listbox-button-:r58:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r58:"
           onClick={[Function]}
@@ -3065,6 +3186,7 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
                   >
                     <label
                       className="block text-moon-12 text-trunks"
+                      data-headlessui-state=""
                       id="headlessui-listbox-label-:r59:"
                       onClick={[Function]}
                     />
@@ -3104,7 +3226,9 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r5c: headlessui-listbox-button-:r5b:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r5b:"
           onClick={[Function]}
@@ -3128,6 +3252,7 @@ exports[`Dropdown in RTL renders InsetSelectStates 1`] = `
                   >
                     <label
                       className="block text-moon-12 text-trunks"
+                      data-headlessui-state=""
                       id="headlessui-listbox-label-:r5c:"
                       onClick={[Function]}
                     >
@@ -3186,6 +3311,7 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-14"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r5e:"
           onClick={[Function]}
         >
@@ -3193,7 +3319,9 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r5e: headlessui-listbox-button-:r5f:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r5f:"
           onClick={[Function]}
@@ -3256,6 +3384,7 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r5h:"
           onClick={[Function]}
         >
@@ -3263,7 +3392,9 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r5h: headlessui-listbox-button-:r5i:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r5i:"
           onClick={[Function]}
@@ -3327,6 +3458,7 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r5k:"
           onClick={[Function]}
         >
@@ -3334,7 +3466,9 @@ exports[`Dropdown in RTL renders MultiSelect 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r5k: headlessui-listbox-button-:r5l:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r5l:"
           onClick={[Function]}
@@ -3408,7 +3542,8 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r42:"
           onClick={[Function]}
@@ -3433,7 +3568,8 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r44:"
           onClick={[Function]}
@@ -3458,7 +3594,8 @@ exports[`Dropdown in RTL renders OptionsVariants 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r46:"
           onClick={[Function]}
@@ -3494,6 +3631,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-14"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r48:"
           onClick={[Function]}
         >
@@ -3501,7 +3639,9 @@ exports[`Dropdown in RTL renders Select 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r48: headlessui-listbox-button-:r49:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r49:"
           onClick={[Function]}
@@ -3560,6 +3700,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r4b:"
           onClick={[Function]}
         >
@@ -3567,7 +3708,9 @@ exports[`Dropdown in RTL renders Select 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r4b: headlessui-listbox-button-:r4c:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r4c:"
           onClick={[Function]}
@@ -3626,6 +3769,7 @@ exports[`Dropdown in RTL renders Select 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r4e:"
           onClick={[Function]}
         >
@@ -3633,7 +3777,9 @@ exports[`Dropdown in RTL renders Select 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r4e: headlessui-listbox-button-:r4f:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r4f:"
           onClick={[Function]}
@@ -3703,6 +3849,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r4h:"
           onClick={[Function]}
         >
@@ -3710,7 +3857,9 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r4h: headlessui-listbox-button-:r4i:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r4i:"
           onClick={[Function]}
@@ -3769,13 +3918,16 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16 opacity-30 cursor-not-allowed"
+          data-headlessui-state="disabled"
           id="headlessui-listbox-label-:r4k:"
           onClick={[Function]}
         >
           Disabled
         </label>
         <div
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r4k: headlessui-listbox-button-:r4l:"
+          data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-listbox-button-:r4l:"
         >
@@ -3831,7 +3983,8 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r4n:"
           onClick={[Function]}
@@ -3884,6 +4037,7 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r4p:"
           onClick={[Function]}
         >
@@ -3891,7 +4045,9 @@ exports[`Dropdown in RTL renders SelectStates 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r4p: headlessui-listbox-button-:r4q:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r4q:"
           onClick={[Function]}
@@ -3961,7 +4117,8 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r3s:"
           onClick={[Function]}
@@ -4000,7 +4157,8 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r3u:"
           onClick={[Function]}
@@ -4032,7 +4190,8 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
       >
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r40:"
           onClick={[Function]}

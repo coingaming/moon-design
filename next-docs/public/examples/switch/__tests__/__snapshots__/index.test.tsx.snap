@@ -5,6 +5,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-chichi"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rg:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -25,6 +26,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-roshi"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rh:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -49,6 +51,7 @@ exports[`Switch in Dark Theme renders Default 1`] = `
 <button
   aria-checked={true}
   className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+  data-headlessui-state="checked"
   data-tests="test-id"
   id="headlessui-switch-:rc:"
   onClick={[Function]}
@@ -74,6 +77,7 @@ Array [
   <button
     aria-checked={true}
     className="block rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
+    data-headlessui-state="checked"
     disabled={true}
     id="headlessui-switch-:rj:"
     role="switch"
@@ -92,6 +96,7 @@ Array [
   <button
     aria-checked={false}
     className="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
+    data-headlessui-state=""
     disabled={true}
     id="headlessui-switch-:rk:"
     role="switch"
@@ -125,11 +130,13 @@ exports[`Switch in Dark Theme renders Form 1`] = `
         "borderWidth": "0",
         "clip": "rect(0, 0, 0, 0)",
         "display": "none",
-        "height": 1,
+        "height": 0,
+        "left": 1,
         "margin": -1,
         "overflow": "hidden",
         "padding": 0,
-        "position": "absolute",
+        "position": "fixed",
+        "top": 1,
         "whiteSpace": "nowrap",
         "width": 1,
       }
@@ -140,6 +147,7 @@ exports[`Switch in Dark Theme renders Form 1`] = `
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:ri:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -165,6 +173,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-8 h-4 p-0.5 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rd:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -185,6 +194,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:re:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -205,6 +215,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rf:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -230,6 +241,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-8 h-4 p-0.5 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rl:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -297,6 +309,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rm:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -364,6 +377,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rn:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -436,6 +450,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-chichi"
+    data-headlessui-state="checked"
     id="headlessui-switch-:r4:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -456,6 +471,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-roshi"
+    data-headlessui-state="checked"
     id="headlessui-switch-:r5:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -480,6 +496,7 @@ exports[`Switch in Light Theme renders Default 1`] = `
 <button
   aria-checked={true}
   className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+  data-headlessui-state="checked"
   data-tests="test-id"
   id="headlessui-switch-:r0:"
   onClick={[Function]}
@@ -505,6 +522,7 @@ Array [
   <button
     aria-checked={true}
     className="block rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
+    data-headlessui-state="checked"
     disabled={true}
     id="headlessui-switch-:r7:"
     role="switch"
@@ -523,6 +541,7 @@ Array [
   <button
     aria-checked={false}
     className="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
+    data-headlessui-state=""
     disabled={true}
     id="headlessui-switch-:r8:"
     role="switch"
@@ -556,11 +575,13 @@ exports[`Switch in Light Theme renders Form 1`] = `
         "borderWidth": "0",
         "clip": "rect(0, 0, 0, 0)",
         "display": "none",
-        "height": 1,
+        "height": 0,
+        "left": 1,
         "margin": -1,
         "overflow": "hidden",
         "padding": 0,
-        "position": "absolute",
+        "position": "fixed",
+        "top": 1,
         "whiteSpace": "nowrap",
         "width": 1,
       }
@@ -571,6 +592,7 @@ exports[`Switch in Light Theme renders Form 1`] = `
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:r6:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -596,6 +618,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-8 h-4 p-0.5 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:r1:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -616,6 +639,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:r2:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -636,6 +660,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:r3:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -661,6 +686,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-8 h-4 p-0.5 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:r9:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -728,6 +754,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:ra:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -795,6 +822,7 @@ Array [
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rb:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -869,6 +897,7 @@ exports[`Switch in RTL renders CustomBg 1`] = `
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-chichi"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rs:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -889,6 +918,7 @@ exports[`Switch in RTL renders CustomBg 1`] = `
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-roshi"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rt:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -916,6 +946,7 @@ exports[`Switch in RTL renders Default 1`] = `
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     data-tests="test-id"
     id="headlessui-switch-:ro:"
     onClick={[Function]}
@@ -944,6 +975,7 @@ exports[`Switch in RTL renders Disabled 1`] = `
   <button
     aria-checked={true}
     className="block rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo opacity-30 cursor-not-allowed select-none"
+    data-headlessui-state="checked"
     disabled={true}
     id="headlessui-switch-:rv:"
     role="switch"
@@ -962,6 +994,7 @@ exports[`Switch in RTL renders Disabled 1`] = `
   <button
     aria-checked={false}
     className="block rounded-full transition w-[3.75rem] h-8 p-1 bg-beerus opacity-30 cursor-not-allowed select-none"
+    data-headlessui-state=""
     disabled={true}
     id="headlessui-switch-:r10:"
     role="switch"
@@ -998,11 +1031,13 @@ exports[`Switch in RTL renders Form 1`] = `
           "borderWidth": "0",
           "clip": "rect(0, 0, 0, 0)",
           "display": "none",
-          "height": 1,
+          "height": 0,
+          "left": 1,
           "margin": -1,
           "overflow": "hidden",
           "padding": 0,
-          "position": "absolute",
+          "position": "fixed",
+          "top": 1,
           "whiteSpace": "nowrap",
           "width": 1,
         }
@@ -1013,6 +1048,7 @@ exports[`Switch in RTL renders Form 1`] = `
     <button
       aria-checked={true}
       className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+      data-headlessui-state="checked"
       id="headlessui-switch-:ru:"
       onClick={[Function]}
       onKeyPress={[Function]}
@@ -1041,6 +1077,7 @@ exports[`Switch in RTL renders Sizes 1`] = `
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-8 h-4 p-0.5 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rp:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -1061,6 +1098,7 @@ exports[`Switch in RTL renders Sizes 1`] = `
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rq:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -1081,6 +1119,7 @@ exports[`Switch in RTL renders Sizes 1`] = `
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:rr:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -1108,6 +1147,7 @@ exports[`Switch in RTL renders WithIcons 1`] = `
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-8 h-4 p-0.5 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:r11:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -1175,6 +1215,7 @@ exports[`Switch in RTL renders WithIcons 1`] = `
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-11 h-6 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:r12:"
     onClick={[Function]}
     onKeyPress={[Function]}
@@ -1242,6 +1283,7 @@ exports[`Switch in RTL renders WithIcons 1`] = `
   <button
     aria-checked={true}
     className="block cursor-pointer rounded-full transition w-[3.75rem] h-8 p-1 bg-piccolo"
+    data-headlessui-state="checked"
     id="headlessui-switch-:r13:"
     onClick={[Function]}
     onKeyPress={[Function]}

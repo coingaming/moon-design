@@ -54,6 +54,7 @@ exports[`Form in Dark Theme renders with Input 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r9:"
           onClick={[Function]}
         >
@@ -61,7 +62,9 @@ exports[`Form in Dark Theme renders with Input 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r9: headlessui-listbox-button-:ra:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:ra:"
           onClick={[Function]}
@@ -112,6 +115,7 @@ exports[`Form in Dark Theme renders with Input 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:rc:"
           onClick={[Function]}
         >
@@ -119,7 +123,9 @@ exports[`Form in Dark Theme renders with Input 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:rc: headlessui-listbox-button-:rd:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:rd:"
           onClick={[Function]}
@@ -170,6 +176,7 @@ exports[`Form in Dark Theme renders with Input 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:rf:"
           onClick={[Function]}
         >
@@ -177,7 +184,9 @@ exports[`Form in Dark Theme renders with Input 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:rf: headlessui-listbox-button-:rg:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:rg:"
           onClick={[Function]}
@@ -427,6 +436,7 @@ exports[`Form in Light Theme renders with Input 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r0:"
           onClick={[Function]}
         >
@@ -434,7 +444,9 @@ exports[`Form in Light Theme renders with Input 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r0: headlessui-listbox-button-:r1:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1:"
           onClick={[Function]}
@@ -485,6 +497,7 @@ exports[`Form in Light Theme renders with Input 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r3:"
           onClick={[Function]}
         >
@@ -492,7 +505,9 @@ exports[`Form in Light Theme renders with Input 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r3: headlessui-listbox-button-:r4:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r4:"
           onClick={[Function]}
@@ -543,6 +558,7 @@ exports[`Form in Light Theme renders with Input 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r6:"
           onClick={[Function]}
         >
@@ -550,7 +566,9 @@ exports[`Form in Light Theme renders with Input 1`] = `
         </label>
         <div
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r6: headlessui-listbox-button-:r7:"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r7:"
           onClick={[Function]}
@@ -803,6 +821,7 @@ exports[`Form in RTL renders with Input 1`] = `
         >
           <label
             className="block text-bulma pb-2 text-moon-16"
+            data-headlessui-state=""
             id="headlessui-listbox-label-:ri:"
             onClick={[Function]}
           >
@@ -810,7 +829,9 @@ exports[`Form in RTL renders with Input 1`] = `
           </label>
           <div
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:ri: headlessui-listbox-button-:rj:"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:rj:"
             onClick={[Function]}
@@ -861,6 +882,7 @@ exports[`Form in RTL renders with Input 1`] = `
         >
           <label
             className="block text-bulma pb-2 text-moon-16"
+            data-headlessui-state=""
             id="headlessui-listbox-label-:rl:"
             onClick={[Function]}
           >
@@ -868,7 +890,9 @@ exports[`Form in RTL renders with Input 1`] = `
           </label>
           <div
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:rl: headlessui-listbox-button-:rm:"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:rm:"
             onClick={[Function]}
@@ -919,6 +943,7 @@ exports[`Form in RTL renders with Input 1`] = `
         >
           <label
             className="block text-bulma pb-2 text-moon-16"
+            data-headlessui-state=""
             id="headlessui-listbox-label-:ro:"
             onClick={[Function]}
           >
@@ -926,7 +951,9 @@ exports[`Form in RTL renders with Input 1`] = `
           </label>
           <div
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:ro: headlessui-listbox-button-:rp:"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:rp:"
             onClick={[Function]}

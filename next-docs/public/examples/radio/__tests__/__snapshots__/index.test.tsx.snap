@@ -1,0 +1,1044 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RadioButton in Dark Theme renders Checked 1`] = `
+Array [
+  <input
+    checked={true}
+    hidden={true}
+    name="Form Item"
+    readOnly={true}
+    style={
+      Object {
+        "borderWidth": "0",
+        "clip": "rect(0, 0, 0, 0)",
+        "display": "none",
+        "height": 0,
+        "left": 1,
+        "margin": -1,
+        "overflow": "hidden",
+        "padding": 0,
+        "position": "fixed",
+        "top": 1,
+        "whiteSpace": "nowrap",
+        "width": 1,
+      }
+    }
+    type="radio"
+    value=""
+  />,
+  <div
+    id="headlessui-radiogroup-:r17:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r18:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r19:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 2
+    </div>
+  </div>,
+]
+`;
+
+exports[`RadioButton in Dark Theme renders Default 1`] = `
+<div
+  id="headlessui-radiogroup-:ro:"
+  onKeyDown={[Function]}
+  role="radiogroup"
+>
+  <div
+    aria-checked="false"
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state=""
+    id="headlessui-radiogroup-option-:rp:"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    role="radio"
+    tabIndex={0}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+  </div>
+  <div
+    aria-checked="false"
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state=""
+    id="headlessui-radiogroup-option-:rq:"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+  </div>
+</div>
+`;
+
+exports[`RadioButton in Dark Theme renders Disabled 1`] = `
+<div
+  id="headlessui-radiogroup-:r1a:"
+  onKeyDown={[Function]}
+  role="radiogroup"
+>
+  <div
+    aria-checked="false"
+    aria-disabled={true}
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state="disabled"
+    id="headlessui-radiogroup-option-:r1b:"
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 1
+  </div>
+  <div
+    aria-checked="false"
+    aria-disabled={true}
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state="disabled"
+    id="headlessui-radiogroup-option-:r1c:"
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 2
+  </div>
+</div>
+`;
+
+exports[`RadioButton in Dark Theme renders NoLabel 1`] = `
+Array [
+  <div
+    className="flex gap-4"
+    id="headlessui-radiogroup-:ru:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:rv:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r10:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 2
+    </div>
+  </div>,
+  <div
+    id="headlessui-radiogroup-:r11:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r12:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      Option 1
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r13:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      Option 2
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+    </div>
+  </div>,
+  <div
+    id="headlessui-radiogroup-:r14:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r15:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 moon-checked:border-piccolo after:bg-piccolo border-chichi"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r16:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-nappa after:bg-nappa"
+      />
+      Option 2
+    </div>
+  </div>,
+]
+`;
+
+exports[`RadioButton in Dark Theme renders ReadOnly 1`] = `
+<div
+  id="headlessui-radiogroup-:r1d:"
+  onKeyDown={[Function]}
+  role="radiogroup"
+>
+  <div
+    aria-checked="false"
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state=""
+    id="headlessui-radiogroup-option-:r1e:"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 1
+  </div>
+  <div
+    aria-checked="true"
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state="checked"
+    id="headlessui-radiogroup-option-:r1f:"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    role="radio"
+    tabIndex={0}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 2
+  </div>
+</div>
+`;
+
+exports[`RadioButton in Dark Theme renders WithLabel 1`] = `
+<div
+  id="headlessui-radiogroup-:rr:"
+  onKeyDown={[Function]}
+  role="radiogroup"
+>
+  <div
+    aria-checked="false"
+    aria-disabled={true}
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state="disabled"
+    id="headlessui-radiogroup-option-:rs:"
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 1
+  </div>
+  <div
+    aria-checked="false"
+    aria-disabled={true}
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state="disabled"
+    id="headlessui-radiogroup-option-:rt:"
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 2
+  </div>
+</div>
+`;
+
+exports[`RadioButton in Light Theme renders Checked 1`] = `
+Array [
+  <input
+    checked={true}
+    hidden={true}
+    name="Form Item"
+    readOnly={true}
+    style={
+      Object {
+        "borderWidth": "0",
+        "clip": "rect(0, 0, 0, 0)",
+        "display": "none",
+        "height": 0,
+        "left": 1,
+        "margin": -1,
+        "overflow": "hidden",
+        "padding": 0,
+        "position": "fixed",
+        "top": 1,
+        "whiteSpace": "nowrap",
+        "width": 1,
+      }
+    }
+    type="radio"
+    value=""
+  />,
+  <div
+    id="headlessui-radiogroup-:rf:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:rg:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:rh:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 2
+    </div>
+  </div>,
+]
+`;
+
+exports[`RadioButton in Light Theme renders Default 1`] = `
+<div
+  id="headlessui-radiogroup-:r0:"
+  onKeyDown={[Function]}
+  role="radiogroup"
+>
+  <div
+    aria-checked="false"
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state=""
+    id="headlessui-radiogroup-option-:r1:"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    role="radio"
+    tabIndex={0}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+  </div>
+  <div
+    aria-checked="false"
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state=""
+    id="headlessui-radiogroup-option-:r2:"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+  </div>
+</div>
+`;
+
+exports[`RadioButton in Light Theme renders Disabled 1`] = `
+<div
+  id="headlessui-radiogroup-:ri:"
+  onKeyDown={[Function]}
+  role="radiogroup"
+>
+  <div
+    aria-checked="false"
+    aria-disabled={true}
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state="disabled"
+    id="headlessui-radiogroup-option-:rj:"
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 1
+  </div>
+  <div
+    aria-checked="false"
+    aria-disabled={true}
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state="disabled"
+    id="headlessui-radiogroup-option-:rk:"
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 2
+  </div>
+</div>
+`;
+
+exports[`RadioButton in Light Theme renders NoLabel 1`] = `
+Array [
+  <div
+    className="flex gap-4"
+    id="headlessui-radiogroup-:r6:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r7:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r8:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 2
+    </div>
+  </div>,
+  <div
+    id="headlessui-radiogroup-:r9:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:ra:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      Option 1
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:rb:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      Option 2
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+    </div>
+  </div>,
+  <div
+    id="headlessui-radiogroup-:rc:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:rd:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 moon-checked:border-piccolo after:bg-piccolo border-chichi"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:re:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-nappa after:bg-nappa"
+      />
+      Option 2
+    </div>
+  </div>,
+]
+`;
+
+exports[`RadioButton in Light Theme renders ReadOnly 1`] = `
+<div
+  id="headlessui-radiogroup-:rl:"
+  onKeyDown={[Function]}
+  role="radiogroup"
+>
+  <div
+    aria-checked="false"
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state=""
+    id="headlessui-radiogroup-option-:rm:"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 1
+  </div>
+  <div
+    aria-checked="true"
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state="checked"
+    id="headlessui-radiogroup-option-:rn:"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    role="radio"
+    tabIndex={0}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 2
+  </div>
+</div>
+`;
+
+exports[`RadioButton in Light Theme renders WithLabel 1`] = `
+<div
+  id="headlessui-radiogroup-:r3:"
+  onKeyDown={[Function]}
+  role="radiogroup"
+>
+  <div
+    aria-checked="false"
+    aria-disabled={true}
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state="disabled"
+    id="headlessui-radiogroup-option-:r4:"
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 1
+  </div>
+  <div
+    aria-checked="false"
+    aria-disabled={true}
+    className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+    data-headlessui-state="disabled"
+    id="headlessui-radiogroup-option-:r5:"
+    role="radio"
+    tabIndex={-1}
+  >
+    <div
+      className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+    />
+    Option 2
+  </div>
+</div>
+`;
+
+exports[`RadioButton in RTL renders Checked 1`] = `
+<div
+  dir="rtl"
+>
+  <input
+    checked={true}
+    hidden={true}
+    name="Form Item"
+    readOnly={true}
+    style={
+      Object {
+        "borderWidth": "0",
+        "clip": "rect(0, 0, 0, 0)",
+        "display": "none",
+        "height": 0,
+        "left": 1,
+        "margin": -1,
+        "overflow": "hidden",
+        "padding": 0,
+        "position": "fixed",
+        "top": 1,
+        "whiteSpace": "nowrap",
+        "width": 1,
+      }
+    }
+    type="radio"
+    value=""
+  />
+  <div
+    id="headlessui-radiogroup-:r1v:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r20:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r21:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioButton in RTL renders Default 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    id="headlessui-radiogroup-:r1g:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r1h:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r1i:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioButton in RTL renders Disabled 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    id="headlessui-radiogroup-:r22:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      aria-disabled={true}
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state="disabled"
+      id="headlessui-radiogroup-option-:r23:"
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="false"
+      aria-disabled={true}
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state="disabled"
+      id="headlessui-radiogroup-option-:r24:"
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioButton in RTL renders NoLabel 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex gap-4"
+    id="headlessui-radiogroup-:r1m:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r1n:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r1o:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 2
+    </div>
+  </div>
+  <div
+    id="headlessui-radiogroup-:r1p:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r1q:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      Option 1
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default w-48 p-2 justify-between hover:bg-gohan transition-colors rounded-moon-i-sm"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r1r:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      Option 2
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+    </div>
+  </div>
+  <div
+    id="headlessui-radiogroup-:r1s:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r1t:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 moon-checked:border-piccolo after:bg-piccolo border-chichi"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r1u:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-nappa after:bg-nappa"
+      />
+      Option 2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioButton in RTL renders ReadOnly 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    id="headlessui-radiogroup-:r25:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state=""
+      id="headlessui-radiogroup-option-:r26:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="true"
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state="checked"
+      id="headlessui-radiogroup-option-:r27:"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onFocus={[Function]}
+      role="radio"
+      tabIndex={0}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 2
+    </div>
+  </div>
+</div>
+`;
+
+exports[`RadioButton in RTL renders WithLabel 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    id="headlessui-radiogroup-:r1j:"
+    onKeyDown={[Function]}
+    role="radiogroup"
+  >
+    <div
+      aria-checked="false"
+      aria-disabled={true}
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state="disabled"
+      id="headlessui-radiogroup-option-:r1k:"
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 1
+    </div>
+    <div
+      aria-checked="false"
+      aria-disabled={true}
+      className="flex gap-2 cursor-pointer text-moon-14 text-bulma moon-disabled:opacity-30 moon-disabled:cursor-default"
+      data-headlessui-state="disabled"
+      id="headlessui-radiogroup-option-:r1l:"
+      role="radio"
+      tabIndex={-1}
+    >
+      <div
+        className="relative flex items-center justify-center w-4 h-4 aspect-square m-1 rounded-full border transition-colors after:content-[\\"\\"] after:absolute after:w-0 after:h-0 after:rounded-full after:top-1/2 after:left-1/2 after:-translate-x-1/2 after:-translate-y-1/2 after:transition-all moon-checked:after:w-2 moon-checked:after:h-2 border-trunks moon-checked:border-piccolo after:bg-piccolo"
+      />
+      Option 2
+    </div>
+  </div>
+</div>
+`;

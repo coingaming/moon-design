@@ -5,11 +5,10 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import Default from '../Default';
-import NoLabel from '../NoLabel';
 import Disabled from '../Disabled';
-import Checked from '../Checked';
-import ReadOnly from '../ReadOnly';
-import WithLabel from '../WithLabel';
+import Customization from '../Customization';
+import AsFormItem from '../AsFormItem';
+import Uncontrolled from '../Uncontrolled';
 import {
   moonDesignDark,
   moonDesignLight,
@@ -34,15 +33,17 @@ describe('RadioButton in Light Theme', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders WithLabel', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<WithLabel />));
+    const testRenderer = renderer.create(renderWithLightTheme(<Disabled />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders NoLabel', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<NoLabel />));
+    const testRenderer = renderer.create(
+      renderWithLightTheme(<Customization />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Checked', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Checked />));
+    const testRenderer = renderer.create(renderWithLightTheme(<AsFormItem />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Disabled', () => {
@@ -50,7 +51,9 @@ describe('RadioButton in Light Theme', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders ReadOnly', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<ReadOnly />));
+    const testRenderer = renderer.create(
+      renderWithLightTheme(<Uncontrolled />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
@@ -61,15 +64,17 @@ describe('RadioButton in Dark Theme', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders WithLabel', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<WithLabel />));
+    const testRenderer = renderer.create(renderWithDarkTheme(<Disabled />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders NoLabel', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<NoLabel />));
+    const testRenderer = renderer.create(
+      renderWithDarkTheme(<Customization />)
+    );
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Checked', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Checked />));
+    const testRenderer = renderer.create(renderWithDarkTheme(<AsFormItem />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Disabled', () => {
@@ -77,7 +82,7 @@ describe('RadioButton in Dark Theme', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders ReadOnly', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<ReadOnly />));
+    const testRenderer = renderer.create(renderWithDarkTheme(<Uncontrolled />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });
@@ -88,15 +93,15 @@ describe('RadioButton in RTL', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders WithLabel', () => {
-    const testRenderer = renderer.create(renderWithRtl(<WithLabel />));
+    const testRenderer = renderer.create(renderWithRtl(<Disabled />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders NoLabel', () => {
-    const testRenderer = renderer.create(renderWithRtl(<NoLabel />));
+    const testRenderer = renderer.create(renderWithRtl(<Customization />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Checked', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Checked />));
+    const testRenderer = renderer.create(renderWithRtl(<AsFormItem />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders Disabled', () => {
@@ -104,7 +109,7 @@ describe('RadioButton in RTL', () => {
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
   it('renders ReadOnly', () => {
-    const testRenderer = renderer.create(renderWithRtl(<ReadOnly />));
+    const testRenderer = renderer.create(renderWithRtl(<Uncontrolled />));
     expect(testRenderer.toJSON()).toMatchSnapshot();
   });
 });

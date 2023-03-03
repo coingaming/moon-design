@@ -57,12 +57,12 @@ const Segment: React.FC<ListProps> = ({ children, className, size = 'md' }) => {
 };
 
 const Tab: React.FC<TabProps> = React.forwardRef(
-  ({ children, disabled, as, className, ...rest }, ref) => {
+  ({ children, as = 'button', className, ...rest }, ref) => {
     const { size } = useTabsContext('Tabs.Tab');
+    const isDisabled = rest.disabled;
     return (
       <HeadlesssTab
-        disabled={disabled}
-        className={({ selected }) =>
+        className={({ selected }: { selected: boolean }) =>
           mergeClassnames(
             getTabSize(size),
             'relative flex items-center justify-center w-full whitespace-nowrap text-moon-14',
@@ -71,14 +71,15 @@ const Tab: React.FC<TabProps> = React.forwardRef(
             'after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100',
             'hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo',
             'focus:outline-none',
+            isDisabled && 'opacity-30 hover:after:scale-0 cursor-not-allowed',
             selected && 'after:origin-top-left after:scale-x-100 text-piccolo',
             typeof className === 'function'
               ? className({ selected: selected })
               : className
           )
         }
-        as={as || 'button'}
-        ref={ref}
+        as={as}
+        ref={ref as React.Ref<HTMLElement>}
         {...rest}
       >
         {children}
@@ -88,24 +89,26 @@ const Tab: React.FC<TabProps> = React.forwardRef(
 );
 
 const Pill: React.FC<TabProps> = React.forwardRef(
-  ({ children, disabled, className, ...rest }, ref) => {
+  ({ children, className, as = 'button', ...rest }, ref) => {
     const { size } = useTabsContext('Tabs.Pill');
+    const isDisabled = rest.disabled;
     return (
       <HeadlesssTab
-        disabled={disabled}
-        className={({ selected }) =>
+        className={({ selected }: { selected: boolean }) =>
           mergeClassnames(
             getTabSize(size),
             'flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma',
             'font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan',
             'focus:outline-none',
             selected && 'bg-gohan',
+            isDisabled && 'opacity-30 hover:bg-transparent cursor-not-allowed',
             typeof className === 'function'
               ? className({ selected: selected })
               : className
           )
         }
-        ref={ref}
+        as={as}
+        ref={ref as React.Ref<HTMLElement>}
         {...rest}
       >
         {children}

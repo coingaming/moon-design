@@ -12,6 +12,7 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state="disabled"
         id="headlessui-listbox-label-:r25:"
         onClick={[Function]}
       >
@@ -19,8 +20,10 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
       </label>
       <div>
         <button
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r25: headlessui-listbox-button-:r26:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs cursor-not-allowed"
+          data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-listbox-button-:r26:"
           type="button"
@@ -67,6 +70,7 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state="disabled"
         id="headlessui-listbox-label-:r27:"
         onClick={[Function]}
       >
@@ -74,8 +78,10 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
       </label>
       <div>
         <button
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r27: headlessui-listbox-button-:r28:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm cursor-not-allowed"
+          data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-listbox-button-:r28:"
           type="button"
@@ -122,6 +128,7 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state="disabled"
         id="headlessui-listbox-label-:r29:"
         onClick={[Function]}
       >
@@ -129,8 +136,10 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
       </label>
       <div>
         <button
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r29: headlessui-listbox-button-:r2a:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm cursor-not-allowed"
+          data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-listbox-button-:r2a:"
           type="button"
@@ -177,8 +186,10 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
     >
       <div>
         <button
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r2c: headlessui-listbox-button-:r2b:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md cursor-not-allowed"
+          data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-listbox-button-:r2b:"
           type="button"
@@ -188,6 +199,7 @@ exports[`Select in Dark Theme renders Disabled 1`] = `
           >
             <label
               className="block text-moon-12 text-trunks"
+              data-headlessui-state="disabled"
               id="headlessui-listbox-label-:r2c:"
               onClick={[Function]}
             >
@@ -239,6 +251,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2d:"
         onClick={[Function]}
       >
@@ -247,8 +260,10 @@ exports[`Select in Dark Theme renders Error 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r2d: headlessui-listbox-button-:r2e:"
           className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-8 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r2e:"
           onClick={[Function]}
@@ -298,6 +313,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2f:"
         onClick={[Function]}
       >
@@ -306,8 +322,10 @@ exports[`Select in Dark Theme renders Error 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r2f: headlessui-listbox-button-:r2g:"
           className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r2g:"
           onClick={[Function]}
@@ -357,6 +375,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2h:"
         onClick={[Function]}
       >
@@ -365,8 +384,10 @@ exports[`Select in Dark Theme renders Error 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r2h: headlessui-listbox-button-:r2i:"
           className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r2i:"
           onClick={[Function]}
@@ -417,8 +438,10 @@ exports[`Select in Dark Theme renders Error 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r2k: headlessui-listbox-button-:r2j:"
           className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r2j:"
           onClick={[Function]}
@@ -431,6 +454,7 @@ exports[`Select in Dark Theme renders Error 1`] = `
           >
             <label
               className="block text-moon-12 text-trunks"
+              data-headlessui-state=""
               id="headlessui-listbox-label-:r2k:"
               onClick={[Function]}
             >
@@ -482,6 +506,7 @@ exports[`Select in Dark Theme renders Hint 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r1t:"
         onClick={[Function]}
       >
@@ -490,8 +515,10 @@ exports[`Select in Dark Theme renders Hint 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r1t: headlessui-listbox-button-:r1u:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1u:"
           onClick={[Function]}
@@ -541,6 +568,7 @@ exports[`Select in Dark Theme renders Hint 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r1v:"
         onClick={[Function]}
       >
@@ -549,8 +577,10 @@ exports[`Select in Dark Theme renders Hint 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r1v: headlessui-listbox-button-:r20:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r20:"
           onClick={[Function]}
@@ -600,6 +630,7 @@ exports[`Select in Dark Theme renders Hint 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r21:"
         onClick={[Function]}
       >
@@ -608,8 +639,10 @@ exports[`Select in Dark Theme renders Hint 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r21: headlessui-listbox-button-:r22:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r22:"
           onClick={[Function]}
@@ -660,8 +693,10 @@ exports[`Select in Dark Theme renders Hint 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r24: headlessui-listbox-button-:r23:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r23:"
           onClick={[Function]}
@@ -674,6 +709,7 @@ exports[`Select in Dark Theme renders Hint 1`] = `
           >
             <label
               className="block text-moon-12 text-trunks"
+              data-headlessui-state=""
               id="headlessui-listbox-label-:r24:"
               onClick={[Function]}
             >
@@ -725,6 +761,7 @@ exports[`Select in Dark Theme renders Options 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2l:"
         onClick={[Function]}
       >
@@ -733,8 +770,10 @@ exports[`Select in Dark Theme renders Options 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r2l: headlessui-listbox-button-:r2m:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r2m:"
           onClick={[Function]}
@@ -789,6 +828,7 @@ exports[`Select in Dark Theme renders Options 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2n:"
         onClick={[Function]}
       >
@@ -797,8 +837,10 @@ exports[`Select in Dark Theme renders Options 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r2n: headlessui-listbox-button-:r2o:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r2o:"
           onClick={[Function]}
@@ -853,6 +895,7 @@ exports[`Select in Dark Theme renders Options 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2p:"
         onClick={[Function]}
       >
@@ -861,8 +904,10 @@ exports[`Select in Dark Theme renders Options 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r2p: headlessui-listbox-button-:r2q:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r2q:"
           onClick={[Function]}
@@ -918,8 +963,10 @@ exports[`Select in Dark Theme renders Options 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r2s: headlessui-listbox-button-:r2r:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r2r:"
           onClick={[Function]}
@@ -932,6 +979,7 @@ exports[`Select in Dark Theme renders Options 1`] = `
           >
             <label
               className="block text-moon-12 text-trunks"
+              data-headlessui-state=""
               id="headlessui-listbox-label-:r2s:"
               onClick={[Function]}
             >
@@ -992,8 +1040,9 @@ exports[`Select in Dark Theme renders OptionsWidth 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r2t:"
             onClick={[Function]}
@@ -1042,8 +1091,9 @@ exports[`Select in Dark Theme renders OptionsWidth 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r2u:"
             onClick={[Function]}
@@ -1092,8 +1142,9 @@ exports[`Select in Dark Theme renders OptionsWidth 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r2v:"
             onClick={[Function]}
@@ -1142,8 +1193,10 @@ exports[`Select in Dark Theme renders OptionsWidth 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r31: headlessui-listbox-button-:r30:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r30:"
             onClick={[Function]}
@@ -1156,6 +1209,7 @@ exports[`Select in Dark Theme renders OptionsWidth 1`] = `
             >
               <label
                 className="block text-moon-12 text-trunks"
+                data-headlessui-state=""
                 id="headlessui-listbox-label-:r31:"
                 onClick={[Function]}
               >
@@ -1202,6 +1256,7 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r1h:"
         onClick={[Function]}
       >
@@ -1210,8 +1265,10 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r1h: headlessui-listbox-button-:r1i:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1i:"
           onClick={[Function]}
@@ -1255,6 +1312,7 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r1j:"
         onClick={[Function]}
       >
@@ -1263,8 +1321,10 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r1j: headlessui-listbox-button-:r1k:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1k:"
           onClick={[Function]}
@@ -1308,6 +1368,7 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r1l:"
         onClick={[Function]}
       >
@@ -1316,8 +1377,10 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r1l: headlessui-listbox-button-:r1m:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1m:"
           onClick={[Function]}
@@ -1362,8 +1425,10 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r1o: headlessui-listbox-button-:r1n:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1n:"
           onClick={[Function]}
@@ -1376,6 +1441,7 @@ exports[`Select in Dark Theme renders WithLabel 1`] = `
           >
             <label
               className="block text-moon-12 text-trunks"
+              data-headlessui-state=""
               id="headlessui-listbox-label-:r1o:"
               onClick={[Function]}
             >
@@ -1422,8 +1488,9 @@ exports[`Select in Dark Theme renders WithoutLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1p:"
           onClick={[Function]}
@@ -1468,8 +1535,9 @@ exports[`Select in Dark Theme renders WithoutLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1q:"
           onClick={[Function]}
@@ -1514,8 +1582,9 @@ exports[`Select in Dark Theme renders WithoutLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1r:"
           onClick={[Function]}
@@ -1560,8 +1629,9 @@ exports[`Select in Dark Theme renders WithoutLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1s:"
           onClick={[Function]}
@@ -1612,6 +1682,7 @@ exports[`Select in Light Theme renders Disabled 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state="disabled"
         id="headlessui-listbox-label-:rk:"
         onClick={[Function]}
       >
@@ -1619,8 +1690,10 @@ exports[`Select in Light Theme renders Disabled 1`] = `
       </label>
       <div>
         <button
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:rk: headlessui-listbox-button-:rl:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs cursor-not-allowed"
+          data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-listbox-button-:rl:"
           type="button"
@@ -1667,6 +1740,7 @@ exports[`Select in Light Theme renders Disabled 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state="disabled"
         id="headlessui-listbox-label-:rm:"
         onClick={[Function]}
       >
@@ -1674,8 +1748,10 @@ exports[`Select in Light Theme renders Disabled 1`] = `
       </label>
       <div>
         <button
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:rm: headlessui-listbox-button-:rn:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm cursor-not-allowed"
+          data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-listbox-button-:rn:"
           type="button"
@@ -1722,6 +1798,7 @@ exports[`Select in Light Theme renders Disabled 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state="disabled"
         id="headlessui-listbox-label-:ro:"
         onClick={[Function]}
       >
@@ -1729,8 +1806,10 @@ exports[`Select in Light Theme renders Disabled 1`] = `
       </label>
       <div>
         <button
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:ro: headlessui-listbox-button-:rp:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm cursor-not-allowed"
+          data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-listbox-button-:rp:"
           type="button"
@@ -1777,8 +1856,10 @@ exports[`Select in Light Theme renders Disabled 1`] = `
     >
       <div>
         <button
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:rr: headlessui-listbox-button-:rq:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md cursor-not-allowed"
+          data-headlessui-state="disabled"
           disabled={true}
           id="headlessui-listbox-button-:rq:"
           type="button"
@@ -1788,6 +1869,7 @@ exports[`Select in Light Theme renders Disabled 1`] = `
           >
             <label
               className="block text-moon-12 text-trunks"
+              data-headlessui-state="disabled"
               id="headlessui-listbox-label-:rr:"
               onClick={[Function]}
             >
@@ -1839,6 +1921,7 @@ exports[`Select in Light Theme renders Error 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:rs:"
         onClick={[Function]}
       >
@@ -1847,8 +1930,10 @@ exports[`Select in Light Theme renders Error 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:rs: headlessui-listbox-button-:rt:"
           className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-8 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:rt:"
           onClick={[Function]}
@@ -1898,6 +1983,7 @@ exports[`Select in Light Theme renders Error 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:ru:"
         onClick={[Function]}
       >
@@ -1906,8 +1992,10 @@ exports[`Select in Light Theme renders Error 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:ru: headlessui-listbox-button-:rv:"
           className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:rv:"
           onClick={[Function]}
@@ -1957,6 +2045,7 @@ exports[`Select in Light Theme renders Error 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r10:"
         onClick={[Function]}
       >
@@ -1965,8 +2054,10 @@ exports[`Select in Light Theme renders Error 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r10: headlessui-listbox-button-:r11:"
           className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r11:"
           onClick={[Function]}
@@ -2017,8 +2108,10 @@ exports[`Select in Light Theme renders Error 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r13: headlessui-listbox-button-:r12:"
           className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r12:"
           onClick={[Function]}
@@ -2031,6 +2124,7 @@ exports[`Select in Light Theme renders Error 1`] = `
           >
             <label
               className="block text-moon-12 text-trunks"
+              data-headlessui-state=""
               id="headlessui-listbox-label-:r13:"
               onClick={[Function]}
             >
@@ -2082,6 +2176,7 @@ exports[`Select in Light Theme renders Hint 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:rc:"
         onClick={[Function]}
       >
@@ -2090,8 +2185,10 @@ exports[`Select in Light Theme renders Hint 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:rc: headlessui-listbox-button-:rd:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:rd:"
           onClick={[Function]}
@@ -2141,6 +2238,7 @@ exports[`Select in Light Theme renders Hint 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:re:"
         onClick={[Function]}
       >
@@ -2149,8 +2247,10 @@ exports[`Select in Light Theme renders Hint 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:re: headlessui-listbox-button-:rf:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:rf:"
           onClick={[Function]}
@@ -2200,6 +2300,7 @@ exports[`Select in Light Theme renders Hint 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:rg:"
         onClick={[Function]}
       >
@@ -2208,8 +2309,10 @@ exports[`Select in Light Theme renders Hint 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:rg: headlessui-listbox-button-:rh:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:rh:"
           onClick={[Function]}
@@ -2260,8 +2363,10 @@ exports[`Select in Light Theme renders Hint 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:rj: headlessui-listbox-button-:ri:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:ri:"
           onClick={[Function]}
@@ -2274,6 +2379,7 @@ exports[`Select in Light Theme renders Hint 1`] = `
           >
             <label
               className="block text-moon-12 text-trunks"
+              data-headlessui-state=""
               id="headlessui-listbox-label-:rj:"
               onClick={[Function]}
             >
@@ -2325,6 +2431,7 @@ exports[`Select in Light Theme renders Options 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r14:"
         onClick={[Function]}
       >
@@ -2333,8 +2440,10 @@ exports[`Select in Light Theme renders Options 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r14: headlessui-listbox-button-:r15:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r15:"
           onClick={[Function]}
@@ -2389,6 +2498,7 @@ exports[`Select in Light Theme renders Options 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r16:"
         onClick={[Function]}
       >
@@ -2397,8 +2507,10 @@ exports[`Select in Light Theme renders Options 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r16: headlessui-listbox-button-:r17:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r17:"
           onClick={[Function]}
@@ -2453,6 +2565,7 @@ exports[`Select in Light Theme renders Options 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r18:"
         onClick={[Function]}
       >
@@ -2461,8 +2574,10 @@ exports[`Select in Light Theme renders Options 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r18: headlessui-listbox-button-:r19:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r19:"
           onClick={[Function]}
@@ -2518,8 +2633,10 @@ exports[`Select in Light Theme renders Options 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r1b: headlessui-listbox-button-:r1a:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1a:"
           onClick={[Function]}
@@ -2532,6 +2649,7 @@ exports[`Select in Light Theme renders Options 1`] = `
           >
             <label
               className="block text-moon-12 text-trunks"
+              data-headlessui-state=""
               id="headlessui-listbox-label-:r1b:"
               onClick={[Function]}
             >
@@ -2592,8 +2710,9 @@ exports[`Select in Light Theme renders OptionsWidth 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r1c:"
             onClick={[Function]}
@@ -2642,8 +2761,9 @@ exports[`Select in Light Theme renders OptionsWidth 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r1d:"
             onClick={[Function]}
@@ -2692,8 +2812,9 @@ exports[`Select in Light Theme renders OptionsWidth 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r1e:"
             onClick={[Function]}
@@ -2742,8 +2863,10 @@ exports[`Select in Light Theme renders OptionsWidth 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r1g: headlessui-listbox-button-:r1f:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r1f:"
             onClick={[Function]}
@@ -2756,6 +2879,7 @@ exports[`Select in Light Theme renders OptionsWidth 1`] = `
             >
               <label
                 className="block text-moon-12 text-trunks"
+                data-headlessui-state=""
                 id="headlessui-listbox-label-:r1g:"
                 onClick={[Function]}
               >
@@ -2802,6 +2926,7 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-14"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r0:"
         onClick={[Function]}
       >
@@ -2810,8 +2935,10 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r0: headlessui-listbox-button-:r1:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r1:"
           onClick={[Function]}
@@ -2855,6 +2982,7 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r2:"
         onClick={[Function]}
       >
@@ -2863,8 +2991,10 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r2: headlessui-listbox-button-:r3:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r3:"
           onClick={[Function]}
@@ -2908,6 +3038,7 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
     >
       <label
         className="block text-bulma pb-2 text-moon-16"
+        data-headlessui-state=""
         id="headlessui-listbox-label-:r4:"
         onClick={[Function]}
       >
@@ -2916,8 +3047,10 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r4: headlessui-listbox-button-:r5:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r5:"
           onClick={[Function]}
@@ -2962,8 +3095,10 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
+          aria-labelledby="headlessui-listbox-label-:r7: headlessui-listbox-button-:r6:"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r6:"
           onClick={[Function]}
@@ -2976,6 +3111,7 @@ exports[`Select in Light Theme renders WithLabel 1`] = `
           >
             <label
               className="block text-moon-12 text-trunks"
+              data-headlessui-state=""
               id="headlessui-listbox-label-:r7:"
               onClick={[Function]}
             >
@@ -3022,8 +3158,9 @@ exports[`Select in Light Theme renders WithoutLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r8:"
           onClick={[Function]}
@@ -3068,8 +3205,9 @@ exports[`Select in Light Theme renders WithoutLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:r9:"
           onClick={[Function]}
@@ -3114,8 +3252,9 @@ exports[`Select in Light Theme renders WithoutLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:ra:"
           onClick={[Function]}
@@ -3160,8 +3299,9 @@ exports[`Select in Light Theme renders WithoutLabel 1`] = `
       <div>
         <button
           aria-expanded={false}
-          aria-haspopup={true}
+          aria-haspopup="listbox"
           className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+          data-headlessui-state=""
           disabled={false}
           id="headlessui-listbox-button-:rb:"
           onClick={[Function]}
@@ -3215,6 +3355,7 @@ exports[`Select in RTL renders Disabled 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-14"
+          data-headlessui-state="disabled"
           id="headlessui-listbox-label-:r3m:"
           onClick={[Function]}
         >
@@ -3222,8 +3363,10 @@ exports[`Select in RTL renders Disabled 1`] = `
         </label>
         <div>
           <button
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r3m: headlessui-listbox-button-:r3n:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs cursor-not-allowed"
+            data-headlessui-state="disabled"
             disabled={true}
             id="headlessui-listbox-button-:r3n:"
             type="button"
@@ -3270,6 +3413,7 @@ exports[`Select in RTL renders Disabled 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state="disabled"
           id="headlessui-listbox-label-:r3o:"
           onClick={[Function]}
         >
@@ -3277,8 +3421,10 @@ exports[`Select in RTL renders Disabled 1`] = `
         </label>
         <div>
           <button
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r3o: headlessui-listbox-button-:r3p:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm cursor-not-allowed"
+            data-headlessui-state="disabled"
             disabled={true}
             id="headlessui-listbox-button-:r3p:"
             type="button"
@@ -3325,6 +3471,7 @@ exports[`Select in RTL renders Disabled 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state="disabled"
           id="headlessui-listbox-label-:r3q:"
           onClick={[Function]}
         >
@@ -3332,8 +3479,10 @@ exports[`Select in RTL renders Disabled 1`] = `
         </label>
         <div>
           <button
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r3q: headlessui-listbox-button-:r3r:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm cursor-not-allowed"
+            data-headlessui-state="disabled"
             disabled={true}
             id="headlessui-listbox-button-:r3r:"
             type="button"
@@ -3380,8 +3529,10 @@ exports[`Select in RTL renders Disabled 1`] = `
       >
         <div>
           <button
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r3t: headlessui-listbox-button-:r3s:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md cursor-not-allowed"
+            data-headlessui-state="disabled"
             disabled={true}
             id="headlessui-listbox-button-:r3s:"
             type="button"
@@ -3391,6 +3542,7 @@ exports[`Select in RTL renders Disabled 1`] = `
             >
               <label
                 className="block text-moon-12 text-trunks"
+                data-headlessui-state="disabled"
                 id="headlessui-listbox-label-:r3t:"
                 onClick={[Function]}
               >
@@ -3446,6 +3598,7 @@ exports[`Select in RTL renders Error 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-14"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r3u:"
           onClick={[Function]}
         >
@@ -3454,8 +3607,10 @@ exports[`Select in RTL renders Error 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r3u: headlessui-listbox-button-:r3v:"
             className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-8 p-3 rounded-moon-i-xs shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r3v:"
             onClick={[Function]}
@@ -3505,6 +3660,7 @@ exports[`Select in RTL renders Error 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r40:"
           onClick={[Function]}
         >
@@ -3513,8 +3669,10 @@ exports[`Select in RTL renders Error 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r40: headlessui-listbox-button-:r41:"
             className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r41:"
             onClick={[Function]}
@@ -3564,6 +3722,7 @@ exports[`Select in RTL renders Error 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r42:"
           onClick={[Function]}
         >
@@ -3572,8 +3731,10 @@ exports[`Select in RTL renders Error 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r42: headlessui-listbox-button-:r43:"
             className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r43:"
             onClick={[Function]}
@@ -3624,8 +3785,10 @@ exports[`Select in RTL renders Error 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r45: headlessui-listbox-button-:r44:"
             className="flex items-center justify-between w-full bg-gohan border-beerus duration-200 transition-shadow focus:outline-none h-14 py-2 px-4 rounded-moon-i-md shadow-input-err hover:shadow-input-err focus:shadow-input-err"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r44:"
             onClick={[Function]}
@@ -3638,6 +3801,7 @@ exports[`Select in RTL renders Error 1`] = `
             >
               <label
                 className="block text-moon-12 text-trunks"
+                data-headlessui-state=""
                 id="headlessui-listbox-label-:r45:"
                 onClick={[Function]}
               >
@@ -3693,6 +3857,7 @@ exports[`Select in RTL renders Hint 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-14"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r3e:"
           onClick={[Function]}
         >
@@ -3701,8 +3866,10 @@ exports[`Select in RTL renders Hint 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r3e: headlessui-listbox-button-:r3f:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r3f:"
             onClick={[Function]}
@@ -3752,6 +3919,7 @@ exports[`Select in RTL renders Hint 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r3g:"
           onClick={[Function]}
         >
@@ -3760,8 +3928,10 @@ exports[`Select in RTL renders Hint 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r3g: headlessui-listbox-button-:r3h:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r3h:"
             onClick={[Function]}
@@ -3811,6 +3981,7 @@ exports[`Select in RTL renders Hint 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r3i:"
           onClick={[Function]}
         >
@@ -3819,8 +3990,10 @@ exports[`Select in RTL renders Hint 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r3i: headlessui-listbox-button-:r3j:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r3j:"
             onClick={[Function]}
@@ -3871,8 +4044,10 @@ exports[`Select in RTL renders Hint 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r3l: headlessui-listbox-button-:r3k:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r3k:"
             onClick={[Function]}
@@ -3885,6 +4060,7 @@ exports[`Select in RTL renders Hint 1`] = `
             >
               <label
                 className="block text-moon-12 text-trunks"
+                data-headlessui-state=""
                 id="headlessui-listbox-label-:r3l:"
                 onClick={[Function]}
               >
@@ -3940,6 +4116,7 @@ exports[`Select in RTL renders Options 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-14"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r46:"
           onClick={[Function]}
         >
@@ -3948,8 +4125,10 @@ exports[`Select in RTL renders Options 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r46: headlessui-listbox-button-:r47:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r47:"
             onClick={[Function]}
@@ -4004,6 +4183,7 @@ exports[`Select in RTL renders Options 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r48:"
           onClick={[Function]}
         >
@@ -4012,8 +4192,10 @@ exports[`Select in RTL renders Options 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r48: headlessui-listbox-button-:r49:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r49:"
             onClick={[Function]}
@@ -4068,6 +4250,7 @@ exports[`Select in RTL renders Options 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r4a:"
           onClick={[Function]}
         >
@@ -4076,8 +4259,10 @@ exports[`Select in RTL renders Options 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r4a: headlessui-listbox-button-:r4b:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r4b:"
             onClick={[Function]}
@@ -4133,8 +4318,10 @@ exports[`Select in RTL renders Options 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r4d: headlessui-listbox-button-:r4c:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r4c:"
             onClick={[Function]}
@@ -4147,6 +4334,7 @@ exports[`Select in RTL renders Options 1`] = `
             >
               <label
                 className="block text-moon-12 text-trunks"
+                data-headlessui-state=""
                 id="headlessui-listbox-label-:r4d:"
                 onClick={[Function]}
               >
@@ -4211,8 +4399,9 @@ exports[`Select in RTL renders OptionsWidth 1`] = `
           <div>
             <button
               aria-expanded={false}
-              aria-haspopup={true}
+              aria-haspopup="listbox"
               className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+              data-headlessui-state=""
               disabled={false}
               id="headlessui-listbox-button-:r4e:"
               onClick={[Function]}
@@ -4261,8 +4450,9 @@ exports[`Select in RTL renders OptionsWidth 1`] = `
           <div>
             <button
               aria-expanded={false}
-              aria-haspopup={true}
+              aria-haspopup="listbox"
               className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+              data-headlessui-state=""
               disabled={false}
               id="headlessui-listbox-button-:r4f:"
               onClick={[Function]}
@@ -4311,8 +4501,9 @@ exports[`Select in RTL renders OptionsWidth 1`] = `
           <div>
             <button
               aria-expanded={false}
-              aria-haspopup={true}
+              aria-haspopup="listbox"
               className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+              data-headlessui-state=""
               disabled={false}
               id="headlessui-listbox-button-:r4g:"
               onClick={[Function]}
@@ -4361,8 +4552,10 @@ exports[`Select in RTL renders OptionsWidth 1`] = `
           <div>
             <button
               aria-expanded={false}
-              aria-haspopup={true}
+              aria-haspopup="listbox"
+              aria-labelledby="headlessui-listbox-label-:r4i: headlessui-listbox-button-:r4h:"
               className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+              data-headlessui-state=""
               disabled={false}
               id="headlessui-listbox-button-:r4h:"
               onClick={[Function]}
@@ -4375,6 +4568,7 @@ exports[`Select in RTL renders OptionsWidth 1`] = `
               >
                 <label
                   className="block text-moon-12 text-trunks"
+                  data-headlessui-state=""
                   id="headlessui-listbox-label-:r4i:"
                   onClick={[Function]}
                 >
@@ -4425,6 +4619,7 @@ exports[`Select in RTL renders WithLabel 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-14"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r32:"
           onClick={[Function]}
         >
@@ -4433,8 +4628,10 @@ exports[`Select in RTL renders WithLabel 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r32: headlessui-listbox-button-:r33:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r33:"
             onClick={[Function]}
@@ -4478,6 +4675,7 @@ exports[`Select in RTL renders WithLabel 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r34:"
           onClick={[Function]}
         >
@@ -4486,8 +4684,10 @@ exports[`Select in RTL renders WithLabel 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r34: headlessui-listbox-button-:r35:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r35:"
             onClick={[Function]}
@@ -4531,6 +4731,7 @@ exports[`Select in RTL renders WithLabel 1`] = `
       >
         <label
           className="block text-bulma pb-2 text-moon-16"
+          data-headlessui-state=""
           id="headlessui-listbox-label-:r36:"
           onClick={[Function]}
         >
@@ -4539,8 +4740,10 @@ exports[`Select in RTL renders WithLabel 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r36: headlessui-listbox-button-:r37:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r37:"
             onClick={[Function]}
@@ -4585,8 +4788,10 @@ exports[`Select in RTL renders WithLabel 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
+            aria-labelledby="headlessui-listbox-label-:r39: headlessui-listbox-button-:r38:"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r38:"
             onClick={[Function]}
@@ -4599,6 +4804,7 @@ exports[`Select in RTL renders WithLabel 1`] = `
             >
               <label
                 className="block text-moon-12 text-trunks"
+                data-headlessui-state=""
                 id="headlessui-listbox-label-:r39:"
                 onClick={[Function]}
               >
@@ -4649,8 +4855,9 @@ exports[`Select in RTL renders WithoutLabel 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-8 p-3 rounded-moon-i-xs"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r3a:"
             onClick={[Function]}
@@ -4695,8 +4902,9 @@ exports[`Select in RTL renders WithoutLabel 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r3b:"
             onClick={[Function]}
@@ -4741,8 +4949,9 @@ exports[`Select in RTL renders WithoutLabel 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-12 py-3 px-4 rounded-moon-i-sm"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r3c:"
             onClick={[Function]}
@@ -4787,8 +4996,9 @@ exports[`Select in RTL renders WithoutLabel 1`] = `
         <div>
           <button
             aria-expanded={false}
-            aria-haspopup={true}
+            aria-haspopup="listbox"
             className="flex items-center justify-between w-full bg-gohan border-beerus shadow-input duration-200 transition-shadow hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 py-2 px-4 rounded-moon-i-md"
+            data-headlessui-state=""
             disabled={false}
             id="headlessui-listbox-button-:r3d:"
             onClick={[Function]}

@@ -2,24 +2,6 @@
 
 exports[`Tabs in Dark Theme renders Default 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -28,9 +10,9 @@ exports[`Tabs in Dark Theme renders Default 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r1g:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -42,9 +24,9 @@ exports[`Tabs in Dark Theme renders Default 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r1h:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -56,9 +38,9 @@ exports[`Tabs in Dark Theme renders Default 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r1i:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -70,36 +52,59 @@ exports[`Tabs in Dark Theme renders Default 1`] = `
   </div>
   <div>
     <div
+      data-headlessui-state="selected"
       id="headlessui-tabs-panel-:r1j:"
       role="tabpanel"
       tabIndex={0}
     >
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
     </div>
+    <span
+      id="headlessui-tabs-panel-:r1k:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
+    <span
+      id="headlessui-tabs-panel-:r1l:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
   </div>
 </div>
 `;
 
 exports[`Tabs in Dark Theme renders DefaultPills 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -108,9 +113,9 @@ exports[`Tabs in Dark Theme renders DefaultPills 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r28:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -122,9 +127,9 @@ exports[`Tabs in Dark Theme renders DefaultPills 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r29:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -136,9 +141,9 @@ exports[`Tabs in Dark Theme renders DefaultPills 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2a:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -150,12 +155,53 @@ exports[`Tabs in Dark Theme renders DefaultPills 1`] = `
   </div>
   <div>
     <div
+      data-headlessui-state="selected"
       id="headlessui-tabs-panel-:r2b:"
       role="tabpanel"
       tabIndex={0}
     >
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
     </div>
+    <span
+      id="headlessui-tabs-panel-:r2c:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
+    <span
+      id="headlessui-tabs-panel-:r2d:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
   </div>
 </div>
 `;
@@ -164,24 +210,6 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
 <div
   className="flex flex-col gap-4"
 >
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -190,9 +218,9 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r2e:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -204,9 +232,9 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2f:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -218,9 +246,9 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2g:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -230,24 +258,6 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
       Tab 3
     </button>
   </div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -256,9 +266,9 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r2h:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -270,9 +280,9 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2i:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -284,9 +294,9 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2j:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -301,24 +311,6 @@ exports[`Tabs in Dark Theme renders NoPanels 1`] = `
 
 exports[`Tabs in Dark Theme renders Segment 1`] = `
 Array [
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />,
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
@@ -327,9 +319,9 @@ Array [
     <button
       aria-selected={true}
       className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r1m:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -341,9 +333,9 @@ Array [
     <button
       aria-selected={false}
       className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r1n:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -355,9 +347,9 @@ Array [
     <button
       aria-selected={false}
       className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r1o:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -367,24 +359,6 @@ Array [
       Tab 3
     </button>
   </div>,
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />,
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
@@ -393,9 +367,9 @@ Array [
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r1p:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -407,9 +381,9 @@ Array [
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r1q:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -421,9 +395,9 @@ Array [
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r1r:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -443,24 +417,6 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
   <div
     className="flex justify-between w-full gap-10"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -469,9 +425,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={true}
         className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r1s:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -483,9 +439,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r1t:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -497,9 +453,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r1u:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -509,24 +465,6 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
         Tab 3 (sm)
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -535,9 +473,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={true}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r1v:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -549,9 +487,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r20:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -563,9 +501,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r21:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -579,24 +517,6 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
   <div
     className="flex justify-between w-full gap-10"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -605,9 +525,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={true}
         className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r22:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -619,9 +539,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r23:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -633,9 +553,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r24:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -645,24 +565,6 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
         Tab 3 (sm)
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -671,9 +573,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={true}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r25:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -685,9 +587,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r26:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -699,9 +601,9 @@ exports[`Tabs in Dark Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r27:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -719,24 +621,6 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
 <div
   className="flex flex-col gap-4"
 >
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -745,9 +629,9 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r2k:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -759,9 +643,9 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2l:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -773,9 +657,9 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2m:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -785,24 +669,6 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
       Tab 3
     </button>
   </div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -811,9 +677,9 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-gohan hover:bg-hit/30 moon-selected:bg-hit/30"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r2n:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -829,9 +695,9 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none hover:bg-hit/30 moon-selected:bg-hit/30"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2o:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -847,9 +713,9 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none hover:bg-hit/30 moon-selected:bg-hit/30"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2p:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -868,24 +734,6 @@ exports[`Tabs in Dark Theme renders WithCustomStyles 1`] = `
 
 exports[`Tabs in Dark Theme renders WithHandler 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -894,9 +742,9 @@ exports[`Tabs in Dark Theme renders WithHandler 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2q:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -908,9 +756,9 @@ exports[`Tabs in Dark Theme renders WithHandler 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2r:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -922,9 +770,9 @@ exports[`Tabs in Dark Theme renders WithHandler 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r2s:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -935,7 +783,48 @@ exports[`Tabs in Dark Theme renders WithHandler 1`] = `
     </button>
   </div>
   <div>
+    <span
+      id="headlessui-tabs-panel-:r2t:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
+    <span
+      id="headlessui-tabs-panel-:r2u:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
     <div
+      data-headlessui-state="selected"
       id="headlessui-tabs-panel-:r2v:"
       role="tabpanel"
       tabIndex={0}
@@ -948,24 +837,6 @@ exports[`Tabs in Dark Theme renders WithHandler 1`] = `
 
 exports[`Tabs in Light Theme renders Default 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -974,9 +845,9 @@ exports[`Tabs in Light Theme renders Default 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r0:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -988,9 +859,9 @@ exports[`Tabs in Light Theme renders Default 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r1:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1002,9 +873,9 @@ exports[`Tabs in Light Theme renders Default 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r2:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1016,36 +887,59 @@ exports[`Tabs in Light Theme renders Default 1`] = `
   </div>
   <div>
     <div
+      data-headlessui-state="selected"
       id="headlessui-tabs-panel-:r3:"
       role="tabpanel"
       tabIndex={0}
     >
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
     </div>
+    <span
+      id="headlessui-tabs-panel-:r4:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
+    <span
+      id="headlessui-tabs-panel-:r5:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
   </div>
 </div>
 `;
 
 exports[`Tabs in Light Theme renders DefaultPills 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1054,9 +948,9 @@ exports[`Tabs in Light Theme renders DefaultPills 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:ro:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1068,9 +962,9 @@ exports[`Tabs in Light Theme renders DefaultPills 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:rp:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1082,9 +976,9 @@ exports[`Tabs in Light Theme renders DefaultPills 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:rq:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1096,12 +990,53 @@ exports[`Tabs in Light Theme renders DefaultPills 1`] = `
   </div>
   <div>
     <div
+      data-headlessui-state="selected"
       id="headlessui-tabs-panel-:rr:"
       role="tabpanel"
       tabIndex={0}
     >
       Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
     </div>
+    <span
+      id="headlessui-tabs-panel-:rs:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
+    <span
+      id="headlessui-tabs-panel-:rt:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
   </div>
 </div>
 `;
@@ -1110,24 +1045,6 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
 <div
   className="flex flex-col gap-4"
 >
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1136,9 +1053,9 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:ru:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1150,9 +1067,9 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:rv:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1164,9 +1081,9 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r10:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1176,24 +1093,6 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
       Tab 3
     </button>
   </div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1202,9 +1101,9 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r11:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1216,9 +1115,9 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r12:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1230,9 +1129,9 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r13:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1247,24 +1146,6 @@ exports[`Tabs in Light Theme renders NoPanels 1`] = `
 
 exports[`Tabs in Light Theme renders Segment 1`] = `
 Array [
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />,
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
@@ -1273,9 +1154,9 @@ Array [
     <button
       aria-selected={true}
       className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r6:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1287,9 +1168,9 @@ Array [
     <button
       aria-selected={false}
       className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r7:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1301,9 +1182,9 @@ Array [
     <button
       aria-selected={false}
       className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r8:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1313,24 +1194,6 @@ Array [
       Tab 3
     </button>
   </div>,
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />,
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
@@ -1339,9 +1202,9 @@ Array [
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r9:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1353,9 +1216,9 @@ Array [
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:ra:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1367,9 +1230,9 @@ Array [
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:rb:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1389,24 +1252,6 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
   <div
     className="flex justify-between w-full gap-10"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -1415,9 +1260,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={true}
         className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:rc:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1429,9 +1274,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:rd:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1443,9 +1288,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:re:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1455,24 +1300,6 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
         Tab 3 (sm)
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -1481,9 +1308,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={true}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:rf:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1495,9 +1322,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:rg:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1509,9 +1336,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:rh:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1525,24 +1352,6 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
   <div
     className="flex justify-between w-full gap-10"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -1551,9 +1360,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={true}
         className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:ri:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1565,9 +1374,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:rj:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1579,9 +1388,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:rk:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1591,24 +1400,6 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
         Tab 3 (sm)
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -1617,9 +1408,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={true}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:rl:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1631,9 +1422,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:rm:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1645,9 +1436,9 @@ exports[`Tabs in Light Theme renders Sizes 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:rn:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1665,24 +1456,6 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
 <div
   className="flex flex-col gap-4"
 >
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1691,9 +1464,9 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r14:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1705,9 +1478,9 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r15:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1719,9 +1492,9 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r16:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1731,24 +1504,6 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
       Tab 3
     </button>
   </div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1757,9 +1512,9 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-gohan hover:bg-hit/30 moon-selected:bg-hit/30"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r17:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1775,9 +1530,9 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none hover:bg-hit/30 moon-selected:bg-hit/30"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r18:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1793,9 +1548,9 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none hover:bg-hit/30 moon-selected:bg-hit/30"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r19:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1814,24 +1569,6 @@ exports[`Tabs in Light Theme renders WithCustomStyles 1`] = `
 
 exports[`Tabs in Light Theme renders WithHandler 1`] = `
 <div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-2"
@@ -1840,9 +1577,9 @@ exports[`Tabs in Light Theme renders WithHandler 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r1a:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1854,9 +1591,9 @@ exports[`Tabs in Light Theme renders WithHandler 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r1b:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1868,9 +1605,9 @@ exports[`Tabs in Light Theme renders WithHandler 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r1c:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -1881,7 +1618,48 @@ exports[`Tabs in Light Theme renders WithHandler 1`] = `
     </button>
   </div>
   <div>
+    <span
+      id="headlessui-tabs-panel-:r1d:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
+    <span
+      id="headlessui-tabs-panel-:r1e:"
+      role="tabpanel"
+      style={
+        Object {
+          "borderWidth": "0",
+          "clip": "rect(0, 0, 0, 0)",
+          "height": 0,
+          "left": 1,
+          "margin": -1,
+          "overflow": "hidden",
+          "padding": 0,
+          "position": "fixed",
+          "top": 1,
+          "whiteSpace": "nowrap",
+          "width": 1,
+        }
+      }
+      tabIndex={-1}
+    />
     <div
+      data-headlessui-state="selected"
       id="headlessui-tabs-panel-:r1f:"
       role="tabpanel"
       tabIndex={0}
@@ -1897,24 +1675,6 @@ exports[`Tabs in RTL renders Default 1`] = `
   dir="rtl"
 >
   <div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -1923,9 +1683,9 @@ exports[`Tabs in RTL renders Default 1`] = `
       <button
         aria-selected={true}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r30:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1937,9 +1697,9 @@ exports[`Tabs in RTL renders Default 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r31:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1951,9 +1711,9 @@ exports[`Tabs in RTL renders Default 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r32:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -1965,12 +1725,53 @@ exports[`Tabs in RTL renders Default 1`] = `
     </div>
     <div>
       <div
+        data-headlessui-state="selected"
         id="headlessui-tabs-panel-:r33:"
         role="tabpanel"
         tabIndex={0}
       >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
       </div>
+      <span
+        id="headlessui-tabs-panel-:r34:"
+        role="tabpanel"
+        style={
+          Object {
+            "borderWidth": "0",
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 0,
+            "left": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "top": 1,
+            "whiteSpace": "nowrap",
+            "width": 1,
+          }
+        }
+        tabIndex={-1}
+      />
+      <span
+        id="headlessui-tabs-panel-:r35:"
+        role="tabpanel"
+        style={
+          Object {
+            "borderWidth": "0",
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 0,
+            "left": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "top": 1,
+            "whiteSpace": "nowrap",
+            "width": 1,
+          }
+        }
+        tabIndex={-1}
+      />
     </div>
   </div>
 </div>
@@ -1981,24 +1782,6 @@ exports[`Tabs in RTL renders DefaultPills 1`] = `
   dir="rtl"
 >
   <div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -2007,9 +1790,9 @@ exports[`Tabs in RTL renders DefaultPills 1`] = `
       <button
         aria-selected={true}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r3o:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2021,9 +1804,9 @@ exports[`Tabs in RTL renders DefaultPills 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r3p:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2035,9 +1818,9 @@ exports[`Tabs in RTL renders DefaultPills 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r3q:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2049,12 +1832,53 @@ exports[`Tabs in RTL renders DefaultPills 1`] = `
     </div>
     <div>
       <div
+        data-headlessui-state="selected"
         id="headlessui-tabs-panel-:r3r:"
         role="tabpanel"
         tabIndex={0}
       >
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
       </div>
+      <span
+        id="headlessui-tabs-panel-:r3s:"
+        role="tabpanel"
+        style={
+          Object {
+            "borderWidth": "0",
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 0,
+            "left": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "top": 1,
+            "whiteSpace": "nowrap",
+            "width": 1,
+          }
+        }
+        tabIndex={-1}
+      />
+      <span
+        id="headlessui-tabs-panel-:r3t:"
+        role="tabpanel"
+        style={
+          Object {
+            "borderWidth": "0",
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 0,
+            "left": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "top": 1,
+            "whiteSpace": "nowrap",
+            "width": 1,
+          }
+        }
+        tabIndex={-1}
+      />
     </div>
   </div>
 </div>
@@ -2067,24 +1891,6 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
   <div
     className="flex flex-col gap-4"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -2093,9 +1899,9 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
       <button
         aria-selected={true}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r3u:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2107,9 +1913,9 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r3v:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2121,9 +1927,9 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r40:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2133,24 +1939,6 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
         Tab 3
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -2159,9 +1947,9 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
       <button
         aria-selected={true}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r41:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2173,9 +1961,9 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r42:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2187,9 +1975,9 @@ exports[`Tabs in RTL renders NoPanels 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r43:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2207,24 +1995,6 @@ exports[`Tabs in RTL renders Segment 1`] = `
 <div
   dir="rtl"
 >
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-sm"
@@ -2233,9 +2003,9 @@ exports[`Tabs in RTL renders Segment 1`] = `
     <button
       aria-selected={true}
       className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r36:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -2247,9 +2017,9 @@ exports[`Tabs in RTL renders Segment 1`] = `
     <button
       aria-selected={false}
       className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r37:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -2261,9 +2031,9 @@ exports[`Tabs in RTL renders Segment 1`] = `
     <button
       aria-selected={false}
       className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r38:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -2273,24 +2043,6 @@ exports[`Tabs in RTL renders Segment 1`] = `
       Tab 3
     </button>
   </div>
-  <button
-    onFocus={[Function]}
-    style={
-      Object {
-        "borderWidth": "0",
-        "clip": "rect(0, 0, 0, 0)",
-        "display": "none",
-        "height": 1,
-        "margin": -1,
-        "overflow": "hidden",
-        "padding": 0,
-        "position": "absolute",
-        "whiteSpace": "nowrap",
-        "width": 1,
-      }
-    }
-    type="button"
-  />
   <div
     aria-orientation="horizontal"
     className="flex items-center justify-center w-fit gap-1 p-1 bg-goku rounded-moon-s-md"
@@ -2299,9 +2051,9 @@ exports[`Tabs in RTL renders Segment 1`] = `
     <button
       aria-selected={true}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+      data-headlessui-state="selected"
       id="headlessui-tabs-tab-:r39:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -2313,9 +2065,9 @@ exports[`Tabs in RTL renders Segment 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r3a:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -2327,9 +2079,9 @@ exports[`Tabs in RTL renders Segment 1`] = `
     <button
       aria-selected={false}
       className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+      data-headlessui-state=""
       id="headlessui-tabs-tab-:r3b:"
       onClick={[Function]}
-      onFocus={[Function]}
       onKeyDown={[Function]}
       onMouseDown={[Function]}
       role="tab"
@@ -2352,24 +2104,6 @@ exports[`Tabs in RTL renders Sizes 1`] = `
     <div
       className="flex justify-between w-full gap-10"
     >
-      <button
-        onFocus={[Function]}
-        style={
-          Object {
-            "borderWidth": "0",
-            "clip": "rect(0, 0, 0, 0)",
-            "display": "none",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "absolute",
-            "whiteSpace": "nowrap",
-            "width": 1,
-          }
-        }
-        type="button"
-      />
       <div
         aria-orientation="horizontal"
         className="flex items-center justify-center w-fit gap-2"
@@ -2378,9 +2112,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={true}
           className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+          data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r3c:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2392,9 +2126,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={false}
           className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
           id="headlessui-tabs-tab-:r3d:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2406,9 +2140,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={false}
           className="px-3 py-1 gap-1 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
           id="headlessui-tabs-tab-:r3e:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2418,24 +2152,6 @@ exports[`Tabs in RTL renders Sizes 1`] = `
           Tab 3 (sm)
         </button>
       </div>
-      <button
-        onFocus={[Function]}
-        style={
-          Object {
-            "borderWidth": "0",
-            "clip": "rect(0, 0, 0, 0)",
-            "display": "none",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "absolute",
-            "whiteSpace": "nowrap",
-            "width": 1,
-          }
-        }
-        type="button"
-      />
       <div
         aria-orientation="horizontal"
         className="flex items-center justify-center w-fit gap-2"
@@ -2444,9 +2160,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={true}
           className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+          data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r3f:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2458,9 +2174,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={false}
           className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
           id="headlessui-tabs-tab-:r3g:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2472,9 +2188,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={false}
           className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+          data-headlessui-state=""
           id="headlessui-tabs-tab-:r3h:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2488,24 +2204,6 @@ exports[`Tabs in RTL renders Sizes 1`] = `
     <div
       className="flex justify-between w-full gap-10"
     >
-      <button
-        onFocus={[Function]}
-        style={
-          Object {
-            "borderWidth": "0",
-            "clip": "rect(0, 0, 0, 0)",
-            "display": "none",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "absolute",
-            "whiteSpace": "nowrap",
-            "width": 1,
-          }
-        }
-        type="button"
-      />
       <div
         aria-orientation="horizontal"
         className="flex items-center justify-center w-fit gap-2"
@@ -2514,9 +2212,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={true}
           className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r3i:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2528,9 +2226,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={false}
           className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          data-headlessui-state=""
           id="headlessui-tabs-tab-:r3j:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2542,9 +2240,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={false}
           className="px-3 py-1 gap-1 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          data-headlessui-state=""
           id="headlessui-tabs-tab-:r3k:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2554,24 +2252,6 @@ exports[`Tabs in RTL renders Sizes 1`] = `
           Tab 3 (sm)
         </button>
       </div>
-      <button
-        onFocus={[Function]}
-        style={
-          Object {
-            "borderWidth": "0",
-            "clip": "rect(0, 0, 0, 0)",
-            "display": "none",
-            "height": 1,
-            "margin": -1,
-            "overflow": "hidden",
-            "padding": 0,
-            "position": "absolute",
-            "whiteSpace": "nowrap",
-            "width": 1,
-          }
-        }
-        type="button"
-      />
       <div
         aria-orientation="horizontal"
         className="flex items-center justify-center w-fit gap-2"
@@ -2580,9 +2260,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={true}
           className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none bg-gohan"
+          data-headlessui-state="selected"
           id="headlessui-tabs-tab-:r3l:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2594,9 +2274,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={false}
           className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          data-headlessui-state=""
           id="headlessui-tabs-tab-:r3m:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2608,9 +2288,9 @@ exports[`Tabs in RTL renders Sizes 1`] = `
         <button
           aria-selected={false}
           className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer hover:bg-gohan focus:outline-none"
+          data-headlessui-state=""
           id="headlessui-tabs-tab-:r3n:"
           onClick={[Function]}
-          onFocus={[Function]}
           onKeyDown={[Function]}
           onMouseDown={[Function]}
           role="tab"
@@ -2632,24 +2312,6 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
   <div
     className="flex flex-col gap-4"
   >
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -2658,9 +2320,9 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
       <button
         aria-selected={true}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none after:origin-top-left after:scale-x-100 hover:text-hit after:bg-hit text-hit"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r44:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2672,9 +2334,9 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r45:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2686,9 +2348,9 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 focus:outline-none hover:text-hit after:bg-hit false"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r46:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2698,24 +2360,6 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
         Tab 3
       </button>
     </div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -2724,9 +2368,9 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
       <button
         aria-selected={true}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none bg-gohan hover:bg-hit/30 moon-selected:bg-hit/30"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r47:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2742,9 +2386,9 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none hover:bg-hit/30 moon-selected:bg-hit/30"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r48:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2760,9 +2404,9 @@ exports[`Tabs in RTL renders WithCustomStyles 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium rounded-moon-i-sm transition-colors cursor-pointer focus:outline-none hover:bg-hit/30 moon-selected:bg-hit/30"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r49:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2785,24 +2429,6 @@ exports[`Tabs in RTL renders WithHandler 1`] = `
   dir="rtl"
 >
   <div>
-    <button
-      onFocus={[Function]}
-      style={
-        Object {
-          "borderWidth": "0",
-          "clip": "rect(0, 0, 0, 0)",
-          "display": "none",
-          "height": 1,
-          "margin": -1,
-          "overflow": "hidden",
-          "padding": 0,
-          "position": "absolute",
-          "whiteSpace": "nowrap",
-          "width": 1,
-        }
-      }
-      type="button"
-    />
     <div
       aria-orientation="horizontal"
       className="flex items-center justify-center w-fit gap-2"
@@ -2811,9 +2437,9 @@ exports[`Tabs in RTL renders WithHandler 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r4a:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2825,9 +2451,9 @@ exports[`Tabs in RTL renders WithHandler 1`] = `
       <button
         aria-selected={false}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 text-bulma font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:origin-top-left after:scale-x-0 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none"
+        data-headlessui-state=""
         id="headlessui-tabs-tab-:r4b:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2839,9 +2465,9 @@ exports[`Tabs in RTL renders WithHandler 1`] = `
       <button
         aria-selected={true}
         className="px-4 py-2 gap-2 relative flex items-center justify-center w-full whitespace-nowrap text-moon-14 font-medium cursor-pointer after:content-[\\"\\"] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-piccolo after:transition-transform after:duration-300 after:scale-y-100 hover:after:origin-top-left hover:after:scale-100 hover:text-piccolo focus:outline-none after:origin-top-left after:scale-x-100 text-piccolo"
+        data-headlessui-state="selected"
         id="headlessui-tabs-tab-:r4c:"
         onClick={[Function]}
-        onFocus={[Function]}
         onKeyDown={[Function]}
         onMouseDown={[Function]}
         role="tab"
@@ -2852,7 +2478,48 @@ exports[`Tabs in RTL renders WithHandler 1`] = `
       </button>
     </div>
     <div>
+      <span
+        id="headlessui-tabs-panel-:r4d:"
+        role="tabpanel"
+        style={
+          Object {
+            "borderWidth": "0",
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 0,
+            "left": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "top": 1,
+            "whiteSpace": "nowrap",
+            "width": 1,
+          }
+        }
+        tabIndex={-1}
+      />
+      <span
+        id="headlessui-tabs-panel-:r4e:"
+        role="tabpanel"
+        style={
+          Object {
+            "borderWidth": "0",
+            "clip": "rect(0, 0, 0, 0)",
+            "height": 0,
+            "left": 1,
+            "margin": -1,
+            "overflow": "hidden",
+            "padding": 0,
+            "position": "fixed",
+            "top": 1,
+            "whiteSpace": "nowrap",
+            "width": 1,
+          }
+        }
+        tabIndex={-1}
+      />
       <div
+        data-headlessui-state="selected"
         id="headlessui-tabs-panel-:r4f:"
         role="tabpanel"
         tabIndex={0}
