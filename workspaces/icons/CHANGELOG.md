@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.25.0
+
+### Minor Changes
+
+- Update Radio API
+
 ## 9.24.1
 
 ### Patch Changes
