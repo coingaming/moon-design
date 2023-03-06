@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.25.0
+
+### Minor Changes
+
+- Update Radio API
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.25.0
+  - @heathmont/moon-utils@9.25.0
+
 ## 9.24.1
 
 ### Patch Changes
