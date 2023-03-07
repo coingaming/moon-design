@@ -17,8 +17,8 @@ export default function PageTimeInput() {
   const examples = useExamples('textInput/text', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Time">
-        <DeprecationWarning href="/core/textInput" name="TextInput" />
+      <ComponentPageDescription title="Time" isDeprecated>
+        <DeprecationWarning href="/core/input" name="Input" />
       </ComponentPageDescription>
       <Preview
         title="Label"

@@ -14,7 +14,7 @@ const PageTabsNew = () => {
   const examples = useExamples('tabs', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Tabs">
+      <ComponentPageDescription title="Tabs" isDeprecated>
         <DeprecationWarning href="/core/tabs" name="Tabs" />
       </ComponentPageDescription>
       <Preview

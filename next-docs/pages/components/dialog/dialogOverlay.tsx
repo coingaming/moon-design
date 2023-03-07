@@ -11,7 +11,7 @@ export default function PageDialogOverlay() {
 
   return (
     <>
-      <ComponentPageDescription title="Dialog Overlay">
+      <ComponentPageDescription title="Dialog Overlay" isDeprecated>
         <DeprecationWarning href="/core/modal" name="Modal" />
       </ComponentPageDescription>
       <Preview

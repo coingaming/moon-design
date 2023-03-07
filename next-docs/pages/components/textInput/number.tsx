@@ -18,8 +18,8 @@ export default function PageNumberInput() {
 
   return (
     <>
-      <ComponentPageDescription title="Number">
-        <DeprecationWarning href="/core/textInput" name="TextInput" />
+      <ComponentPageDescription title="Number" isDeprecated>
+        <DeprecationWarning href="/core/input" name="Input" />
       </ComponentPageDescription>
       <Preview
         title="Label"

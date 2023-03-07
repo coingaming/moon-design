@@ -11,7 +11,7 @@ const PagePopover = () => {
   const examples = useExamples('popover', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Popover">
+      <ComponentPageDescription title="Popover" isDeprecated>
         <DeprecationWarning href="/core/popover" name="Popover" />
       </ComponentPageDescription>
       <Preview

@@ -17,8 +17,8 @@ export default function PageSearchInput() {
   const examples = useExamples('textInput/search', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Search">
-        <DeprecationWarning href="/core/textInput" name="TextInput" />
+      <ComponentPageDescription title="Search" isDeprecated>
+        <DeprecationWarning href="/core/input" name="Input" />
       </ComponentPageDescription>
       <Preview
         title="Label"

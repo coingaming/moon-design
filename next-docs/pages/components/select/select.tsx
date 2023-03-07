@@ -12,7 +12,7 @@ export default function PageSelect() {
   const examples = useExamples('select/select', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Select">
+      <ComponentPageDescription title="Select" isDeprecated>
         <DeprecationWarning href="/core/select" name="Select" />
       </ComponentPageDescription>
       <Preview

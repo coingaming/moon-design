@@ -12,7 +12,7 @@ const PageLabel = () => {
   const examples = useExamples('label', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Label">
+      <ComponentPageDescription title="Label" isDeprecated>
         <DeprecationWarning href="/core/tag" name="Tag" />
       </ComponentPageDescription>
       <Preview
