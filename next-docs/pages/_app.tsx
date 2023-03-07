@@ -2,6 +2,7 @@ import React, { ReactNode } from 'react';
 import '../styles/globals.css';
 import '../styles/themes.css';
 import '../styles/custom.css';
+import 'prismjs/themes/prism-okaidia.css';
 import { NextPage } from 'next';
 import Head from 'next/head';
 import Layout from '../components/Layout';
@@ -9,7 +10,6 @@ import RtlProvider from '../components/rtl/RtlProvider';
 import SearchProvider from '../components/search/SearchProvider';
 import { DocsThemeProvider } from '../components/themes/DocsThemeProvider';
 import type { AppProps } from 'next/app';
-import 'highlight.js/styles/monokai-sublime.css';
 
 type GetLayout = (page: ReactNode) => ReactNode;
 

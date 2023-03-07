@@ -1,7 +1,7 @@
 import CodeSnippet from '../CodeSnippet';
 
 const DuoThemeExample = () => (
-  <CodeSnippet>{`:root.theme-light,
+  <CodeSnippet language="css">{`:root.theme-light,
 .theme-light {
   --piccolo: 78 70 180; /* #4e46b4 */
   --hit: 64 166 159; /* #40a69f */
