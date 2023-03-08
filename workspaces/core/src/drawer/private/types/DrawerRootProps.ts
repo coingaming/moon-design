@@ -3,8 +3,6 @@ type DrawerRootProps = {
   className?: string;
   open: boolean;
   setOpen: (value: boolean) => void;
-}
+};
 
 export default DrawerRootProps;
-
-
