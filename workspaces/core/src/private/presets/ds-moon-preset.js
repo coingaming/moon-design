@@ -13,7 +13,7 @@ module.exports = {
     extend: {
       fontFamily: {
         averta:
-          'var(--averta) -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
+          'var(--averta), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
       },
       fontSize: {
         'moon-9': [
