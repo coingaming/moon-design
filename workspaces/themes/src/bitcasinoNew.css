@@ -1,0 +1,160 @@
+:root.theme-bitcasino-light,
+.theme-bitcasino-light {
+  --piccolo: 15 15 15; /* #0F0F0F */
+  --hit: 255 255 255; /* #FFFFFF */
+  --beerus: 232 232 232; /* #E8E8E8 */
+  --gohan: 242, 242, 242; /* #F2F2F2 */
+  --goten: 255 255 255; /* #FFFFFF */
+  --goku: 255 255 255; /* #FFFFFF */
+  --bulma: 27 20 20; /* #1B1414 */
+  --trunks: 133 133 133; /* #858585 */
+  --popo: 0 0 0; /* #000000 */
+  --jiren: 0 0 0 / 0.12; /* #0000001f */
+  --heles: 0 0 0 / 0.08; /* #000000 */
+  --zeno: 0 0 0 / 0.56; /* #000000 */
+
+  /* support-colors  */
+  --krillin: 255 179 25; /* #ffb319 */
+  --krillin-60: 255 203 99; /* #FFCB63 */
+  --krillin-10: 255 228 173; /* #FFE4AD */
+
+  --chichi: 255 78 100; /* #ff4e64 */
+  --chichi-60: 255 114 131; /* #FF7283 */
+  --chichi-10: 255 167 178; /* #FFA7B2 */
+
+  --roshi: 12 214 100; /* #0CD664 */
+  --roshi-60: 95 245 118; /* #5FF576 */
+  --roshi-10: 182 243 208; /* #B6F3D0 */
+
+  --dodoria: 211 48 48; /* #d33030 */
+  --dodoria-60: 241 89 89; /* #F15959 */
+  --dodoria-10: 233 151 151; /* #E99797 */
+
+  --cell: 10 183 88; /* #0AB758 */
+  --cell-60: 43 207 117; /* #2BCF75 */
+  --cell-10: 132 219 171; /* #84DBAB */
+
+  --raditz: 179 128 74; /* #b3804a */
+  --raditz-60: 215 157 97; /* #D79D61 */
+  --raditz-10: 217 191 164; /* #D9BFA4 */
+
+  --whis: 15 117 189; /* #0F75BD */
+  --whis-60: 56 142 217; /* #388ED9 */
+  --whis-10: 135 186 222; /* #87BADE */
+
+  --frieza: 92 51 207; /* #5c33cf */
+  --frieza-60: 124 82 240; /* #7C52F0 */
+  --frieza-10: 182 163 233; /* #B6A3E9 */
+
+  --nappa: 114 85 80; /* #725550 */
+  --nappa-60: 146 116 110; /* #92746E */
+  --nappa-10: 184 170 167; /* #B8AAA7 */
+
+  /* border-radius */
+  --radius-i-xs: 0.25rem; /* 4px */
+  --radius-i-sm: 0.5rem; /* 8px */
+  --radius-i-md: 0.75rem; /* 12px */
+  --radius-s-xs: 0.25rem; /* 4px */
+  --radius-s-sm: 0.5rem; /* 8px */
+  --radius-s-md: 0.75rem; /* 12px */
+  --radius-s-lg: 1rem; /* 16px */
+
+  /* border-width */
+  --border-width: 0.0625rem; /* 1px */
+  --border-i-width: 0.125rem; /* 2px */
+
+  /* opacity */
+  --opacity-moon: 0.32;
+
+  /* fonts */
+  --averta: 'Averta Std';
+  --fraunces: 'Fraunces', serif;
+
+  /* box-shadow */
+  --shadow-xs: 0 4px 12px -6px rgb(0 0 0 / 0.06);
+  --shadow-sm: 0 6px 6px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 12px 12px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4);
+  --shadow-lg: 0 8px 24px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4);
+  --shadow-xl: 0 32px 32px -8px rgb(0 0 0 / 0.08),
+    0 0 32px -8px rgb(0 0 0 / 0.12), 0 0 1px rgb(0 0 0 / 0.2);
+}
+
+:root.theme-bitcasino-dark,
+.theme-bitcasino-dark {
+  --piccolo: 255 255 255; /* #FFFFFF */
+  --hit: 0 0 0; /* #000000 */
+  --beerus: 52 52 52; /* #343434 */
+  --gohan: 30 30 30; /* #1E1E1E */
+  --goten: 255 255 255; /* #ffffff */
+  --goku: 16 16 16; /* #101010 */
+  --bulma: 255 255 255; /* #ffffff */
+  --trunks: 133 133 133; /* #858585 */
+  --popo: 0 0 0; /* #000000 */
+  --jiren: 255 255 255 / 0.32; /* #FFFFFF52 */
+  --heles: 255 255 255 / 0.08; /* #FFFFFF14 */
+  --zeno: 0 0 0 / 0.8; /* #000000CC */
+
+  /* support-colors  */
+  --krillin: 255 179 25; /* #ffb319 */
+  --krillin-60: 255 203 99; /* #FFCB63 */
+  --krillin-10: 255 228 173; /* #FFE4AD */
+
+  --chichi: 255 78 100; /* #ff4e64 */
+  --chichi-60: 255 114 131; /* #FF7283 */
+  --chichi-10: 255 167 178; /* #FFA7B2 */
+
+  --roshi: 12 214 100; /* #0CD664 */
+  --roshi-60: 95 245 118; /* #5FF576 */
+  --roshi-10: 182 243 208; /* #B6F3D0 */
+
+  --dodoria: 211 48 48; /* #d33030 */
+  --dodoria-60: 241 89 89; /* #F15959 */
+  --dodoria-10: 233 151 151; /* #E99797 */
+
+  --cell: 10 183 88; /* #0AB758 */
+  --cell-60: 43 207 117; /* #2BCF75 */
+  --cell-10: 132 219 171; /* #84DBAB */
+
+  --raditz: 179 128 74; /* #b3804a */
+  --raditz-60: 215 157 97; /* #D79D61 */
+  --raditz-10: 217 191 164; /* #D9BFA4 */
+
+  --whis: 15 117 189; /* #0F75BD */
+  --whis-60: 56 142 217; /* #388ED9 */
+  --whis-10: 135 186 222; /* #87BADE */
+
+  --frieza: 92 51 207; /* #5c33cf */
+  --frieza-60: 124 82 240; /* #7C52F0 */
+  --frieza-10: 182 163 233; /* #B6A3E9 */
+
+  --nappa: 114 85 80; /* #725550 */
+  --nappa-60: 146 116 110; /* #92746E */
+  --nappa-10: 184 170 167; /* #B8AAA7 */
+
+  /* border-radius */
+  --radius-i-xs: 0.25rem; /* 4px */
+  --radius-i-sm: 0.5rem; /* 8px */
+  --radius-i-md: 0.75rem; /* 12px */
+  --radius-s-xs: 0.25rem; /* 4px */
+  --radius-s-sm: 0.5rem; /* 8px */
+  --radius-s-md: 0.75rem; /* 12px */
+  --radius-s-lg: 1rem; /* 16px */
+
+  /* border-width */
+  --border-width: 0.0625rem; /* 1px */
+  --border-i-width: 0.125rem; /* 2px */
+
+  /* opacity */
+  --opacity-moon: 0.32;
+
+  /* fonts */
+  --averta: 'Averta Std';
+  --fraunces: 'Fraunces', serif;
+
+  /* box-shadow */
+  --shadow-xs: 0 4px 12px -6px rgb(0 0 0 / 0.64);
+  --shadow-sm: 0 6px 6px -6px rgb(0 0 0 / 0.64), 0 0 1px rgb(0 0 0 / 0.56);
+  --shadow-md: 0 12px 12px -6px rgb(0 0 0 / 0.64), 0 0 1px rgb(0 0 0 / 0.56);
+  --shadow-lg: 0 24px 24px -6px rgb(0 0 0 / 0.64), 0 0 1px rgb(0 0 0 / 0.56);
+  --shadow-xl: 0 48px 48px -6px rgb(0 0 0 / 0.88), 0 0 1px rgb(0 0 0 / 0.72);
+}
