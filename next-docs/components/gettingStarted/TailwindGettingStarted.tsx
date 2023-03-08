@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tabs } from '@heathmont/moon-core-tw';
 import Link from 'next/link';
-import CodeSnippet from '../CodeSnippet';
+import CodeSnippet from '../codePreview/CodeSnippet';
 import PageSection from '../PageSection';
 import DuoThemeExample from './DuoThemeExample';
 import SingleThemeExample from './SingleThemeExample';

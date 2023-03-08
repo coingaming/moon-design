@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChartIcons } from '@heathmont/moon-charts';
 import Preview from '../../../components/codePreview/Preview';
-import CodeSnippet from '../../../components/CodeSnippet';
+import CodeSnippet from '../../../components/codePreview/CodeSnippet';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PageSection from '../../../components/PageSection';
 import PropsTable from '../../../components/PropsTable';

@@ -1,4 +1,4 @@
-import CodeSnippet from '../CodeSnippet';
+import CodeSnippet from '../codePreview/CodeSnippet';
 
 const DuoThemeExample = () => (
   <CodeSnippet language="css">{`:root.theme-light,

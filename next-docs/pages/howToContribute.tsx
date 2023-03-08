@@ -1,4 +1,4 @@
-import CodeSnippet from '../components/CodeSnippet';
+import CodeSnippet from '../components/codePreview/CodeSnippet';
 import PageSection from '../components/PageSection';
 
 const PageHowToContribute = () => (
