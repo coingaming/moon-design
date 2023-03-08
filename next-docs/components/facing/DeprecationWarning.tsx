@@ -7,10 +7,8 @@ type Props = {
 
 const DeprecationWarning: React.FC<Props> = ({ href, name }) => (
   <p>
-    <p className="text-krillin font-medium">
-      NB! The component will be deprecated soon.
-    </p>
-    Please check out a new{' '}
+    <p className="text-chichi font-medium">NB! The component is deprecated.</p>
+    Please use a new{' '}
     <Link
       href={href}
       className="transition-colors underline hover:text-piccolo"

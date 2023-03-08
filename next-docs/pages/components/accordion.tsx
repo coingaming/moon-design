@@ -16,7 +16,7 @@ const PageAccordion = () => {
   const examples = useExamples('accordionNew', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Accordion">
+      <ComponentPageDescription title="Accordion" isDeprecated>
         <DeprecationWarning href="/core/accordion" name="Accordion" />
       </ComponentPageDescription>
       <Preview

@@ -16,7 +16,7 @@ const PageAuthCodeGroup = () => {
 
   return (
     <>
-      <ComponentPageDescription title="AuthCode">
+      <ComponentPageDescription title="AuthCode" isDeprecated>
         <DeprecationWarning href="/core/authCode" name="AuthCode" />
       </ComponentPageDescription>
       <Preview

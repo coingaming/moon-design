@@ -16,7 +16,7 @@ const PageText = () => {
   const examples = useExamples('text', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Text">
+      <ComponentPageDescription title="Text" isDeprecated>
         <DeprecationWarning href="/typography" name="Typography" />
       </ComponentPageDescription>
       <Preview

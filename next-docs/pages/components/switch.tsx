@@ -18,7 +18,7 @@ export default function PageSwitch({ isRtl }: Props) {
   const examples = useExamples('switch', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Switch">
+      <ComponentPageDescription title="Switch" isDeprecated>
         <DeprecationWarning href="/core/switch" name="Switch" />
       </ComponentPageDescription>
       <Preview

@@ -16,7 +16,7 @@ const PageHeading = () => {
   const examples = useExamples('heading', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Heading">
+      <ComponentPageDescription title="Heading" isDeprecated>
         <DeprecationWarning href="/typography" name="Typography" />
       </ComponentPageDescription>
       <Preview

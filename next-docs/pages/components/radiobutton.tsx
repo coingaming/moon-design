@@ -13,7 +13,7 @@ export default function RadioButtonPage() {
   const examples = useExamples('radiobutton/radiobutton', 'styled');
   return (
     <>
-      <ComponentPageDescription title="RadioButton">
+      <ComponentPageDescription title="RadioButton" isDeprecated>
         <DeprecationWarning href="/core/radio" name="Radio" />
       </ComponentPageDescription>
       <Preview

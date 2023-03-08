@@ -13,7 +13,7 @@ const PageCaption = () => {
   const examples = useExamples('caption', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Caption">
+      <ComponentPageDescription title="Caption" isDeprecated>
         <DeprecationWarning href="/typography" name="Typography" />
       </ComponentPageDescription>
       <Preview

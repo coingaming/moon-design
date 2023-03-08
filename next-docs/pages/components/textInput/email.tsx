@@ -17,8 +17,8 @@ export default function PageTextInput() {
   const examples = useExamples('textInput/email', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Email">
-        <DeprecationWarning href="/core/textInput" name="TextInput" />
+      <ComponentPageDescription title="Email" isDeprecated>
+        <DeprecationWarning href="/core/input" name="Input" />
       </ComponentPageDescription>
       <Preview
         title="Label"

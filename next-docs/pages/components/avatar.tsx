@@ -13,7 +13,7 @@ const PageAvatar = () => {
   const examples = useExamples('avatar', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Avatar">
+      <ComponentPageDescription title="Avatar" isDeprecated>
         <DeprecationWarning href="/core/avatar" name="Avatar" />
       </ComponentPageDescription>
       <Preview

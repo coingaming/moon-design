@@ -13,7 +13,7 @@ const PageAccordion = () => {
   const examples = useExamples('checkbox', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Checkbox">
+      <ComponentPageDescription title="Checkbox" isDeprecated>
         <DeprecationWarning href="/core/checkbox" name="Checkbox" />
       </ComponentPageDescription>
       <Preview

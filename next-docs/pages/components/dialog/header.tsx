@@ -14,7 +14,7 @@ export default function PageDialogHeader() {
   const examples = useExamples('dialog/header', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Dialog Header">
+      <ComponentPageDescription title="Dialog Header" isDeprecated>
         <DeprecationWarning href="/core/modal" name="Modal" />
       </ComponentPageDescription>
       <Preview

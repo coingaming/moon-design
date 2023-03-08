@@ -13,7 +13,7 @@ const PageChip = () => {
   const examples = useExamples('chip', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Chip">
+      <ComponentPageDescription title="Chip" isDeprecated>
         <DeprecationWarning href="/core/chip" name="Chip" />
       </ComponentPageDescription>
       <Preview

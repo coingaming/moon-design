@@ -17,7 +17,7 @@ export default function PageSelect() {
   const examples = useExamples('select/multiReactSelect', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Multi Select">
+      <ComponentPageDescription title="Multi Select" isDeprecated>
         <DeprecationWarning href="/core/dropdown" name="Dropdown" />
       </ComponentPageDescription>
       <Preview

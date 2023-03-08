@@ -13,7 +13,7 @@ const PageBanner = () => {
   const examples = useExamples('banner', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Banner">
+      <ComponentPageDescription title="Banner" isDeprecated>
         <DeprecationWarning href="/core/alert" name="Alert" />
       </ComponentPageDescription>
       <Preview

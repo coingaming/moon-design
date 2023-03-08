@@ -20,7 +20,7 @@ export default function PageTable() {
   const examples = useExamples('table', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Table">
+      <ComponentPageDescription title="Table" isDeprecated>
         <DeprecationWarning href="/core/table" name="Table" />
       </ComponentPageDescription>
       <Preview
