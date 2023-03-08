@@ -1,4 +1,4 @@
-import CodeSnippet from '../CodeSnippet';
+import CodeSnippet from '../codePreview/CodeSnippet';
 import PageSection from '../PageSection';
 
 const ScGettingStarted = () => (

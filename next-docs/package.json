@@ -13,7 +13,7 @@
     "analyze": "env ANALYZE=true next build"
   },
   "dependencies": {
-    "@headlessui/react": "1.6.6",
+    "@headlessui/react": "1.7.12",
     "@heathmont/moon-accordion": "workspace:^9.25.0",
     "@heathmont/moon-assets": "workspace:^9.25.0",
     "@heathmont/moon-charts": "workspace:^9.25.0",
@@ -62,13 +62,15 @@
     "swr": "1.0.1",
     "tailwindcss": "3.2.3",
     "tailwindcss-rtl": "0.9.0",
-    "typescript": "4.9.5"
+    "typescript": "4.9.5",
+    "react-syntax-highlighter": "15.5.0"
   },
   "devDependencies": {
     "@svgr/core": "6.2.1",
     "@svgr/plugin-jsx": "6.2.1",
     "@svgr/plugin-prettier": "6.1.2",
     "@types/lodash": "^4.14.182",
+    "@types/react-syntax-highlighter": "15.5.6",
     "snapshot-diff": "0.9.0"
   }
 }

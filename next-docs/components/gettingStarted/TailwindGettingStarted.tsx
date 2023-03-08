@@ -1,7 +1,7 @@
 import React from 'react';
 import { Tabs } from '@heathmont/moon-core-tw';
 import Link from 'next/link';
-import CodeSnippet from '../CodeSnippet';
+import CodeSnippet from '../codePreview/CodeSnippet';
 import PageSection from '../PageSection';
 import DuoThemeExample from './DuoThemeExample';
 import SingleThemeExample from './SingleThemeExample';
@@ -84,7 +84,7 @@ const TailwindGettingStarted = () => (
     </PageSection>
     <PageSection title="Installing Moon DS" id="install">
       <p>Run:</p>
-      <CodeSnippet>{`pnpm i @heathmont/moon-core-tw`}</CodeSnippet>
+      <CodeSnippet language="bash">pnpm i @heathmont/moon-core-tw</CodeSnippet>
     </PageSection>
     <PageSection title="Configuring the Project" id="config">
       <p>
@@ -147,7 +147,7 @@ const TailwindGettingStarted = () => (
         right-to-left orientation.
       </p>
       <p>1. Run:</p>
-      <CodeSnippet>{`npm i tailwindcss-rtl`}</CodeSnippet>
+      <CodeSnippet language="bash">{`npm i tailwindcss-rtl`}</CodeSnippet>
       <p>
         2. Add the plugin to your config{' '}
         <code className="bg-goku px-2 rounded-moon-s-xs">
@@ -245,7 +245,7 @@ const TailwindGettingStarted = () => (
         @heathmont/moon-core-tw
       </code>
       <p>Run:</p>
-      <CodeSnippet>{`pnpm i @heathmont/moon-core-tw`}</CodeSnippet>
+      <CodeSnippet language="bash">{`pnpm i @heathmont/moon-core-tw`}</CodeSnippet>
       <p>
         This package contains the core components of{' '}
         <span className="font-medium">Moon DS</span> and a reusable preset with
@@ -273,7 +273,7 @@ const TailwindGettingStarted = () => (
         @heathmont/moon-themes-tw
       </code>
       <p>Run:</p>
-      <CodeSnippet>{`pnpm i @heathmont/moon-themes-tw`}</CodeSnippet>
+      <CodeSnippet language="bash">{`pnpm i @heathmont/moon-themes-tw`}</CodeSnippet>
       <p>
         This package contains all available themes as CSS files with configured
         tokens as CSS variables: main colours, support colours, border radius,
@@ -338,7 +338,7 @@ const TailwindGettingStarted = () => (
         @heathmont/moon-icons-tw
       </code>
       <p>Run:</p>
-      <CodeSnippet>{`pnpm i @heathmont/moon-icons-tw`}</CodeSnippet>
+      <CodeSnippet language="bash">{`pnpm i @heathmont/moon-icons-tw`}</CodeSnippet>
       <p>
         This package contains all SVG assets that you might need to build an
         application. They are ready to work with Tailwind CSS, so you can change

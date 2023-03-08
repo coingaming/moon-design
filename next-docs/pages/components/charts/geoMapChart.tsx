@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../../components/codePreview/Preview';
-import CodeSnippet from '../../../components/CodeSnippet';
+import CodeSnippet from '../../../components/codePreview/CodeSnippet';
 import ComponentPageDescription from '../../../components/ComponentPageDescription';
 import PropsTable from '../../../components/PropsTable';
 import Default from '../../../public/styledExamples/charts/geoMapChart/Default';
