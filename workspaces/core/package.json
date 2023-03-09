@@ -14,7 +14,7 @@
   "scripts": {
     "build": "pnpm run build:index && pnpm run build:code",
     "build:index": "barrelsby --config ../../.config/barrelsby/barrelsby.json --directory src",
-    "build:code": "pnpm run build:js:es && pnpm run build:js:commonjs",
+    "build:code": "node build.js",
     "build:js:commonjs": "tsc --project tsconfig.cjs.json",
     "build:js:es": "tsc --project tsconfig.esm.json",
     "chokidar": "chokidar \"**/*.tsx\" \"**/*.ts\" -i \"lib/**/*.d.ts\" -c \"pnpm run build:code\" "
@@ -26,6 +26,7 @@
     "@radix-ui/react-accordion": "^1.0.1",
     "@radix-ui/react-toast": "1.1.1",
     "@radix-ui/react-tooltip": "1.0.2",
+    "async": "^3.2.4",
     "react-popper": "^2.3.0",
     "scroll-into-view-if-needed": "2.2.22",
     "smooth-scroll-into-view-if-needed": "1.1.27",
@@ -35,5 +36,8 @@
   "peerDependencies": {
     "react": ">= 18.2.0",
     "react-dom": ">= 18.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.17.11"
   }
 }
