@@ -14,7 +14,7 @@ const PageButton = () => {
   const examples = useExamples('button', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Button">
+      <ComponentPageDescription title="Button" isDeprecated>
         <DeprecationWarning href="/core/button" name="Button" />
       </ComponentPageDescription>
       <Preview

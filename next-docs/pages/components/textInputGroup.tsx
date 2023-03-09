@@ -20,7 +20,7 @@ const PageTextInputGroup = () => {
   const examples = useExamples('textInputGroup', 'styled');
   return (
     <>
-      <ComponentPageDescription title="TextInput Group">
+      <ComponentPageDescription title="TextInput Group" isDeprecated>
         <DeprecationWarning href="/core/group" name="Group" />
       </ComponentPageDescription>
       <Preview

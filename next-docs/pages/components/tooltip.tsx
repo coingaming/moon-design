@@ -12,7 +12,7 @@ export default function PageTooltip() {
   const examples = useExamples('tooltip', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Tooltip">
+      <ComponentPageDescription title="Tooltip" isDeprecated>
         <DeprecationWarning href="/core/tooltip" name="Tooltip" />
       </ComponentPageDescription>
       <Preview

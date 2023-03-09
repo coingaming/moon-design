@@ -12,7 +12,7 @@ export default function PageDialogFooter() {
   const examples = useExamples('dialog/footer', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Dialog Footer">
+      <ComponentPageDescription title="Dialog Footer" isDeprecated>
         <DeprecationWarning href="/core/modal" name="Modal" />
       </ComponentPageDescription>
       <Preview

@@ -11,7 +11,7 @@ const PageLoader = () => {
   const examples = useExamples('loader', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Loader">
+      <ComponentPageDescription title="Loader" isDeprecated>
         <DeprecationWarning href="/core/loader" name="Loader" />
       </ComponentPageDescription>
       <Preview

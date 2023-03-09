@@ -131,7 +131,7 @@ const Example = () => {
           </div>
           <div className="flex gap-2 p-4 justify-end pt-2">
             <Button variant="secondary" onClick={closeModal}>
-              Cansel
+              Cancel
             </Button>
             <Button onClick={closeModal}>Create</Button>
           </div>

@@ -17,8 +17,8 @@ export default function PageTelephoneInput() {
   const examples = useExamples('textInput/text', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Telephone">
-        <DeprecationWarning href="/core/textInput" name="TextInput" />
+      <ComponentPageDescription title="Telephone" isDeprecated>
+        <DeprecationWarning href="/core/input" name="Input" />
       </ComponentPageDescription>
       <Preview
         title="Label"

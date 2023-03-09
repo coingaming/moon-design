@@ -15,7 +15,7 @@ export default function PageCarousel() {
 
   return (
     <>
-      <ComponentPageDescription title="Carousel">
+      <ComponentPageDescription title="Carousel" isDeprecated>
         <DeprecationWarning href="/core/carousel" name="Carousel" />
       </ComponentPageDescription>
       <Preview

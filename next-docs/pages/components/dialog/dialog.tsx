@@ -15,7 +15,7 @@ export default function PageDialog() {
   const examples = useExamples('dialog/dialog', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Dialog">
+      <ComponentPageDescription title="Dialog" isDeprecated>
         <DeprecationWarning href="/core/modal" name="Modal" />
       </ComponentPageDescription>
       <Preview

@@ -1,6 +1,6 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
-import CodeSnippet from '../../components/CodeSnippet';
+import CodeSnippet from '../../components/codePreview/CodeSnippet';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import DeprecationWarning from '../../components/facing/DeprecationWarning';
 import PropsTable from '../../components/PropsTable';
@@ -11,7 +11,7 @@ const PagePopover = () => {
   const examples = useExamples('popover', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Popover">
+      <ComponentPageDescription title="Popover" isDeprecated>
         <DeprecationWarning href="/core/popover" name="Popover" />
       </ComponentPageDescription>
       <Preview

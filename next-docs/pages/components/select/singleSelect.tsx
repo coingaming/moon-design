@@ -17,7 +17,7 @@ export default function PageSelect() {
   const examples = useExamples('select/singleReactSelect', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Single Select">
+      <ComponentPageDescription title="Single Select" isDeprecated>
         <DeprecationWarning href="/core/dropdown" name="Dropdown" />
       </ComponentPageDescription>
       <Preview

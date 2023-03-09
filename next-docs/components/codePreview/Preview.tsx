@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { mergeClassnames } from '@heathmont/moon-core-tw';
-import CodeSnippet from '../CodeSnippet';
+import CodeSnippet from './CodeSnippet';
 import PreviewSwitch from './PreviewSwitch';
 
 type Props = {

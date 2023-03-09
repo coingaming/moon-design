@@ -12,7 +12,7 @@ export default function PageSearch() {
   const examples = useExamples('search', 'styled');
   return (
     <>
-      <ComponentPageDescription title="Search">
+      <ComponentPageDescription title="Search" isDeprecated>
         <DeprecationWarning href="/core/search" name="Search" />
       </ComponentPageDescription>
       <Preview

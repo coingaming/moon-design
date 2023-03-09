@@ -11,7 +11,7 @@ export default function PageDialogContent() {
 
   return (
     <>
-      <ComponentPageDescription title="Dialog Content">
+      <ComponentPageDescription title="Dialog Content" isDeprecated>
         <DeprecationWarning href="/core/modal" name="Modal" />
       </ComponentPageDescription>
       <Preview

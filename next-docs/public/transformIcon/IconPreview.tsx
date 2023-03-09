@@ -4,7 +4,7 @@ import useTransform from './hooks/useTransform';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import { camelCase, upperFirst } from 'lodash';
 import { GenericClose } from '@heathmont/moon-icons';
-import CodeSnippet from '../../components/CodeSnippet';
+import CodeSnippet from '../../components/codePreview/CodeSnippet';
 
 const DEFAULT_NAME = 'SvgComponent';
 

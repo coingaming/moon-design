@@ -16,7 +16,7 @@ export default function PageListItem() {
   const examples = useExamples('listItem', 'styled');
   return (
     <>
-      <ComponentPageDescription title="List item">
+      <ComponentPageDescription title="List item" isDeprecated>
         <DeprecationWarning href="/core/menuItem" name="MenuItem" />
       </ComponentPageDescription>
       <Preview

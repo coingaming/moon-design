@@ -1,7 +1,7 @@
-import CodeSnippet from '../CodeSnippet';
+import CodeSnippet from '../codePreview/CodeSnippet';
 
 const SingleThemeExample = () => (
-  <CodeSnippet>{`:root {
+  <CodeSnippet language="css">{`:root {
   --piccolo: 78 70 180; /* #4e46b4 */
   --hit: 64 166 159; /* #40a69f */
   --beerus: 235 235 235; /* #ebebeb */
