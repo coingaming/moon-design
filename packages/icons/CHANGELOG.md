@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.26.0
+
+### Minor Changes
+
+- SC deprecation, Syntax highlight
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.26.0
+  - @heathmont/moon-utils@9.26.0
+
 ## 9.25.0
 
 ### Minor Changes
