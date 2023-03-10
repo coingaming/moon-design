@@ -6,6 +6,8 @@ export { default as CrestArsenal } from './crests/CrestArsenal';
 export * from './crests/CrestArsenal';
 export { default as CrestFlamengo } from './crests/CrestFlamengo';
 export * from './crests/CrestFlamengo';
+export { default as CrestImperial } from './crests/CrestImperial';
+export * from './crests/CrestImperial';
 export { default as CrestSaoPaulo } from './crests/CrestSaoPaulo';
 export * from './crests/CrestSaoPaulo';
 export { default as CrestSouthampton } from './crests/CrestSouthampton';

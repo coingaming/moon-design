@@ -24,7 +24,7 @@ exports[`Switch renders 1`] = `
     />
     <span
       checked={true}
-      className="sc-eBOYpw dVaOpA"
+      className="sc-gvTkRN TjTWY"
       size="small"
     />
   </label>
@@ -56,7 +56,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw eVbWFD"
+        className="sc-gvTkRN evwkBX"
         size="medium"
       >
         <span
@@ -101,7 +101,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw eVbWFD"
+        className="sc-gvTkRN evwkBX"
         size="large"
       >
         <span
@@ -152,7 +152,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw dVaOpA"
+        className="sc-gvTkRN TjTWY"
         size="small"
       />
     </label>
@@ -181,7 +181,7 @@ Array [
       />
       <span
         checked={false}
-        className="sc-eBOYpw brNmPs"
+        className="sc-gvTkRN crDCbo"
         size="small"
       />
     </label>
@@ -214,7 +214,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw eHTVtG"
+        className="sc-gvTkRN cDkbRg"
         size="twoxsmall"
       />
     </label>
@@ -242,7 +242,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw bUcLsB"
+        className="sc-gvTkRN eGTbAv"
         size="xsmall"
       />
     </label>
@@ -270,7 +270,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw egLfwG"
+        className="sc-gvTkRN bDkXCw"
         size="small"
       />
     </label>
@@ -303,7 +303,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw crPFZw"
+        className="sc-gvTkRN gqCJAo"
         size="twoxsmall"
       />
     </label>
@@ -331,7 +331,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw fXgvDj"
+        className="sc-gvTkRN gRJwIr"
         size="xsmall"
       />
     </label>
@@ -359,7 +359,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw dVaOpA"
+        className="sc-gvTkRN TjTWY"
         size="small"
       />
     </label>
