@@ -2,7 +2,7 @@
 
 exports[`Geo Map Chart renders 1`] = `
 <div
-  className="sc-cQQOYb cSfGJe"
+  className="sc-hmINyy bFhDif"
   style={
     Object {
       "height": 446,
@@ -10,14 +10,14 @@ exports[`Geo Map Chart renders 1`] = `
   }
 >
   <div
-    className="sc-hmINyy dpeyan"
+    className="sc-eNVtYQ giHjjk"
   >
     <button
-      className="sc-iqroiM jWMhTr"
+      className="sc-cQQOYb ewJErF"
       onClick={[Function]}
     >
       <svg
-        className="sc-bBrHrO sc-eNVtYQ  boiaxu"
+        className="sc-bBrHrO sc-gHZGBh  bfFWNn"
         fill="none"
         height="1em"
         viewBox="0 0 32 32"
@@ -32,7 +32,7 @@ exports[`Geo Map Chart renders 1`] = `
     </button>
     <div />
     <button
-      className="sc-iqroiM jxMnDR"
+      className="sc-cQQOYb BtDZD"
       onClick={[Function]}
     >
       <svg
@@ -53,7 +53,7 @@ exports[`Geo Map Chart renders 1`] = `
       </svg>
     </button>
     <button
-      className="sc-iqroiM jxMnDR"
+      className="sc-cQQOYb BtDZD"
       onClick={[Function]}
     >
       <svg
@@ -75,10 +75,10 @@ exports[`Geo Map Chart renders 1`] = `
     </button>
   </div>
   <div
-    className="sc-jPzPiz bSNnIW"
+    className="sc-WywnD ksxoBC"
   >
     <div
-      className="sc-kTipSN hjDVwf"
+      className="sc-iiHhKi hjrie"
     >
       <svg
         fill="none"
@@ -149,23 +149,23 @@ exports[`Geo Map Chart renders 1`] = `
       </svg>
     </div>
     <p
-      className="sc-cUcmyX sc-jmpIuw dANdah iZNjpC"
+      className="sc-cUcmyX sc-kTipSN dANdah hLiDAN"
       size={20}
     >
       Top Countries
     </p>
     <div
-      className="sc-iiHhKi"
+      className="sc-jPzPiz"
     >
       <div
-        className="sc-gLZMPq EAlxX"
+        className="sc-isSunH exQRvw"
       >
         <button
-          className="sc-kvxsdh ciGwEg"
+          className="sc-gLZMPq hOScjR"
           onClick={[Function]}
         >
           <p
-            className="sc-cUcmyX sc-iOEKEQ kVeHNx cOTcXF"
+            className="sc-cUcmyX sc-kvxsdh kVeHNx cZnJBP"
             size={14}
           >
             by GGR
@@ -191,43 +191,43 @@ exports[`Geo Map Chart renders 1`] = `
     </div>
   </div>
   <div
-    className="sc-kLAKLF fpXlgY"
+    className="sc-dRWZNg gBLahd"
   >
     <div
-      className="sc-dRWZNg hClNiL"
+      className="sc-eJWhPD jzLJVh"
     >
       <div
-        className="sc-kzxyrq fovtzC"
+        className="sc-begbuL efiHze"
       >
         <div
-          className="sc-kbMABK kBFCkC"
+          className="sc-GvdFf dEQSIb"
         >
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <span
-              className="sc-flGrOw gCVQiR"
+              className="sc-hfKEqN gsEIYl"
             >
               1
             </span>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <div
-              className="sc-GvdFf fopfxW"
+              className="sc-flGrOw jlSyEM"
             >
               Estonia
             </div>
           </div>
           <div
-            className="sc-gHZGBh hOTIDH"
+            className="sc-kbMABK cXQAir"
           >
             <div
-              className="sc-begbuL bOweSb"
+              className="sc-gInMJo cpXXnU"
             >
               <div
-                className="sc-gInMJo fLkSNf"
+                className="sc-iCrZlF ipEjCX"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -239,40 +239,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <div
-              className="sc-hfKEqN bqIZqo"
+              className="sc-kzxyrq csQvwQ"
             >
               120
             </div>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <span
-              className="sc-flGrOw gCVQiR"
+              className="sc-hfKEqN gsEIYl"
             >
               2
             </span>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <div
-              className="sc-GvdFf fopfxW"
+              className="sc-flGrOw jlSyEM"
             >
               Russia
             </div>
           </div>
           <div
-            className="sc-gHZGBh hOTIDH"
+            className="sc-kbMABK cXQAir"
           >
             <div
-              className="sc-begbuL bOweSb"
+              className="sc-gInMJo cpXXnU"
             >
               <div
-                className="sc-gInMJo fLkSNf"
+                className="sc-iCrZlF ipEjCX"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -284,40 +284,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <div
-              className="sc-hfKEqN bqIZqo"
+              className="sc-kzxyrq csQvwQ"
             >
               100
             </div>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <span
-              className="sc-flGrOw gCVQiR"
+              className="sc-hfKEqN gsEIYl"
             >
               3
             </span>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <div
-              className="sc-GvdFf fopfxW"
+              className="sc-flGrOw jlSyEM"
             >
               Belarus
             </div>
           </div>
           <div
-            className="sc-gHZGBh hOTIDH"
+            className="sc-kbMABK cXQAir"
           >
             <div
-              className="sc-begbuL bOweSb"
+              className="sc-gInMJo cpXXnU"
             >
               <div
-                className="sc-gInMJo fLkSNf"
+                className="sc-iCrZlF ipEjCX"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -329,40 +329,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <div
-              className="sc-hfKEqN bqIZqo"
+              className="sc-kzxyrq csQvwQ"
             >
               80
             </div>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <span
-              className="sc-flGrOw gCVQiR"
+              className="sc-hfKEqN gsEIYl"
             >
               4
             </span>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <div
-              className="sc-GvdFf fopfxW"
+              className="sc-flGrOw jlSyEM"
             >
               Argentina
             </div>
           </div>
           <div
-            className="sc-gHZGBh hOTIDH"
+            className="sc-kbMABK cXQAir"
           >
             <div
-              className="sc-begbuL bOweSb"
+              className="sc-gInMJo cpXXnU"
             >
               <div
-                className="sc-gInMJo fLkSNf"
+                className="sc-iCrZlF ipEjCX"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -374,40 +374,40 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <div
-              className="sc-hfKEqN bqIZqo"
+              className="sc-kzxyrq csQvwQ"
             >
               60
             </div>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <span
-              className="sc-flGrOw gCVQiR"
+              className="sc-hfKEqN gsEIYl"
             >
               5
             </span>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <div
-              className="sc-GvdFf fopfxW"
+              className="sc-flGrOw jlSyEM"
             >
               USA
             </div>
           </div>
           <div
-            className="sc-gHZGBh hOTIDH"
+            className="sc-kbMABK cXQAir"
           >
             <div
-              className="sc-begbuL bOweSb"
+              className="sc-gInMJo cpXXnU"
             >
               <div
-                className="sc-gInMJo fLkSNf"
+                className="sc-iCrZlF ipEjCX"
                 style={
                   Object {
                     "background": "#ffb319",
@@ -419,10 +419,10 @@ exports[`Geo Map Chart renders 1`] = `
             </div>
           </div>
           <div
-            className="sc-gHZGBh kSwszk"
+            className="sc-kbMABK isZDho"
           >
             <div
-              className="sc-hfKEqN bqIZqo"
+              className="sc-kzxyrq csQvwQ"
             >
               40
             </div>
@@ -431,10 +431,10 @@ exports[`Geo Map Chart renders 1`] = `
       </div>
     </div>
     <div
-      className="sc-dUzpIp fFkXBi"
+      className="sc-iqroiM gpNzgV"
     >
       <div
-        className="sc-dwOrSJ brXRRa"
+        className="sc-hSGqtg cPrmUT"
         style={
           Object {
             "left": 0,
