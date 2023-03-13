@@ -5,73 +5,73 @@ exports[`TextInput: type Search renders disabled 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-hdyzPZ jbDlzq"
+    className="sc-cSizRO fbZkjB"
     disabled={true}
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       medium
     </label>
     <input
-      className="sc-QmDjo dqpabq"
+      className="sc-joKenV giDeyQ"
       disabled={true}
       placeholder=" "
       type="search"
       value="Text"
     />
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-hdyzPZ jbDlzq"
+    className="sc-cSizRO fbZkjB"
     disabled={true}
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       large
     </label>
     <input
-      className="sc-QmDjo eFgkVp"
+      className="sc-joKenV epIvjr"
       disabled={true}
       placeholder=" "
       type="search"
       value="Text"
     />
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-hdyzPZ jbDlzq"
+    className="sc-cSizRO fbZkjB"
     disabled={true}
   >
     <div
-      className="sc-joKenV bzvfAh"
+      className="sc-fduepK gIjyRP"
     >
       <input
-        className="sc-QmDjo KGXRn"
+        className="sc-joKenV ihpJux"
         disabled={true}
         placeholder=" "
         type="search"
         value="Text"
       />
       <label
-        className="sc-fduepK lgGcoP"
+        className="sc-cmvVVv keWJSg"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder
@@ -85,64 +85,64 @@ exports[`TextInput: type Search renders error 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       medium
     </label>
     <input
-      className="sc-QmDjo foaEFs"
+      className="sc-joKenV uPZDC"
       placeholder="e.g. EPL"
       type="search"
     />
     <p
-      className="sc-bkrxz fwlxzw"
+      className="sc-QmDjo yJQM"
       role="alert"
     >
       Error message
     </p>
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       large
     </label>
     <input
-      className="sc-QmDjo fZOEPn"
+      className="sc-joKenV jEnnXl"
       placeholder="e.g. EPL"
       type="search"
     />
     <p
-      className="sc-bkrxz fwlxzw"
+      className="sc-QmDjo yJQM"
       role="alert"
     >
       Error message
     </p>
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <div
-      className="sc-joKenV bzvfAh"
+      className="sc-fduepK gIjyRP"
     >
       <input
-        className="sc-QmDjo bEGoiJ"
+        className="sc-joKenV fKIZtH"
         placeholder="e.g. EPL"
         type="search"
       />
       <label
-        className="sc-fduepK lgGcoP"
+        className="sc-cmvVVv keWJSg"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-bkrxz fwlxzw"
+      className="sc-QmDjo yJQM"
       role="alert"
     >
       Error message
@@ -156,70 +156,70 @@ exports[`TextInput: type Search renders readOnly 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       medium
     </label>
     <input
-      className="sc-QmDjo dqpabq"
+      className="sc-joKenV giDeyQ"
       placeholder=" "
       readOnly={true}
       type="search"
       value="Read only text"
     />
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       large
     </label>
     <input
-      className="sc-QmDjo eFgkVp"
+      className="sc-joKenV epIvjr"
       placeholder=" "
       readOnly={true}
       type="search"
       value="Read only text"
     />
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <div
-      className="sc-joKenV bzvfAh"
+      className="sc-fduepK gIjyRP"
     >
       <input
-        className="sc-QmDjo KGXRn"
+        className="sc-joKenV ihpJux"
         placeholder=" "
         readOnly={true}
         type="search"
         value="Read only text"
       />
       <label
-        className="sc-fduepK lgGcoP"
+        className="sc-cmvVVv keWJSg"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder
@@ -233,64 +233,64 @@ exports[`TextInput: type Search renders with hint 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       medium
     </label>
     <input
-      className="sc-QmDjo dqpabq"
+      className="sc-joKenV giDeyQ"
       placeholder="e.g. EPL"
       type="search"
     />
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       large
     </label>
     <input
-      className="sc-QmDjo eFgkVp"
+      className="sc-joKenV epIvjr"
       placeholder="e.g. EPL"
       type="search"
     />
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <div
-      className="sc-joKenV bzvfAh"
+      className="sc-fduepK gIjyRP"
     >
       <input
-        className="sc-QmDjo KGXRn"
+        className="sc-joKenV ihpJux"
         placeholder="e.g. EPL"
         type="search"
       />
       <label
-        className="sc-fduepK lgGcoP"
+        className="sc-cmvVVv keWJSg"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder
@@ -304,46 +304,46 @@ exports[`TextInput: type Search renders with label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       medium
     </label>
     <input
-      className="sc-QmDjo dqpabq"
+      className="sc-joKenV giDeyQ"
       placeholder="e.g. EPL"
       type="search"
     />
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       large
     </label>
     <input
-      className="sc-QmDjo eFgkVp"
+      className="sc-joKenV epIvjr"
       placeholder="e.g. EPL"
       type="search"
     />
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <div
-      className="sc-joKenV bzvfAh"
+      className="sc-fduepK gIjyRP"
     >
       <input
-        className="sc-QmDjo KGXRn"
+        className="sc-joKenV ihpJux"
         placeholder="e.g. EPL"
         type="search"
       />
       <label
-        className="sc-fduepK lgGcoP"
+        className="sc-cmvVVv keWJSg"
       >
         xlarge
       </label>
@@ -357,51 +357,51 @@ exports[`TextInput: type Search renders with label RTL 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
       dir="rtl"
     >
       medium
     </label>
     <input
-      className="sc-QmDjo dqpabq"
+      className="sc-joKenV giDeyQ"
       dir="rtl"
       placeholder="e.g. EPL"
       type="search"
     />
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
       dir="rtl"
     >
       large
     </label>
     <input
-      className="sc-QmDjo eFgkVp"
+      className="sc-joKenV epIvjr"
       dir="rtl"
       placeholder="e.g. EPL"
       type="search"
     />
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <div
-      className="sc-joKenV bzvfAh"
+      className="sc-fduepK gIjyRP"
     >
       <input
-        className="sc-QmDjo KGXRn"
+        className="sc-joKenV ihpJux"
         dir="rtl"
         placeholder="e.g. EPL"
         type="search"
       />
       <label
-        className="sc-fduepK gfcqQs"
+        className="sc-cmvVVv bXkXQL"
       >
         xlarge
       </label>
@@ -415,36 +415,36 @@ exports[`TextInput: type Search renders without label 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <input
-      className="sc-QmDjo dqpabq"
+      className="sc-joKenV giDeyQ"
       placeholder="medium"
       type="search"
     />
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <input
-      className="sc-QmDjo eFgkVp"
+      className="sc-joKenV epIvjr"
       placeholder="large"
       type="search"
     />
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <div
-      className="sc-joKenV bzvfAh"
+      className="sc-fduepK gIjyRP"
     >
       <input
-        className="sc-QmDjo hboaBK"
+        className="sc-joKenV jimMqo"
         placeholder="xlarge"
         type="search"
       />
       <label
-        className="sc-fduepK lgGcoP"
+        className="sc-cmvVVv keWJSg"
       />
     </div>
   </div>
@@ -456,64 +456,64 @@ exports[`TextInput: type Search supports background colour 1`] = `
   className="flex flex-col lg:flex-row justify-around items-end w-full gap-2"
 >
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       medium
     </label>
     <input
-      className="sc-QmDjo eefKuh"
+      className="sc-joKenV aKByj"
       placeholder="e.g. EPL"
       type="search"
     />
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <label
-      className="sc-cSizRO bQDzqh"
+      className="sc-bkrxz eKqtUi"
     >
       large
     </label>
     <input
-      className="sc-QmDjo fzqtXe"
+      className="sc-joKenV fVMePs"
       placeholder="e.g. EPL"
       type="search"
     />
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder
     </p>
   </div>
   <div
-    className="sc-hdyzPZ gHXBDw"
+    className="sc-cSizRO hIzBtf"
   >
     <div
-      className="sc-joKenV libhLy"
+      className="sc-fduepK bLHNyM"
     >
       <input
-        className="sc-QmDjo KGXRn"
+        className="sc-joKenV ihpJux"
         placeholder="e.g. EPL"
         type="search"
       />
       <label
-        className="sc-fduepK lgGcoP"
+        className="sc-cmvVVv keWJSg"
       >
         xlarge
       </label>
     </div>
     <p
-      className="sc-bkrxz kqqQcA"
+      className="sc-QmDjo fzSmyg"
       role="alert"
     >
       Informative message holder

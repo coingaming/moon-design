@@ -3,18 +3,18 @@
 exports[`Label renders with different Colours 1`] = `
 Array [
   <span
-    className="sc-glENfF dkXpfz"
+    className="sc-gufDRV dUAUbL"
   >
     Xsmall
   </span>,
   <span
-    className="sc-glENfF jiIWYE"
+    className="sc-gufDRV gOfghM"
     color="goten.100"
   >
     Xsmall
   </span>,
   <span
-    className="sc-glENfF bMlGEI"
+    className="sc-gufDRV lkRgTk"
     color="goten.100"
   >
     Xsmall
@@ -28,15 +28,15 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <span
-      className="sc-glENfF jkPoUM"
+      className="sc-gufDRV ijAPfw"
       size="twoxsmall"
     >
       <span
-        className="sc-eAvjXz jlcewn"
+        className="sc-jcCVzU irbZWC"
         size="twoxsmall"
       >
         <svg
-          className="sc-jtcaXd"
+          className="sc-elYLMi"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -54,12 +54,12 @@ Array [
       Twoxsmall
     </span>
     <span
-      className="sc-glENfF hirpgw"
+      className="sc-gufDRV gtPcVE"
       size="twoxsmall"
     >
       Twoxsmall
       <span
-        className="sc-jcCVzU gnwIpx"
+        className="sc-glENfF illBuq"
         size="twoxsmall"
       >
         <svg
@@ -80,15 +80,15 @@ Array [
       </span>
     </span>
     <span
-      className="sc-glENfF dFOnGC"
+      className="sc-gufDRV eMmpDe"
       size="twoxsmall"
     >
       <span
-        className="sc-eAvjXz jlcewn"
+        className="sc-jcCVzU irbZWC"
         size="twoxsmall"
       >
         <svg
-          className="sc-jtcaXd"
+          className="sc-elYLMi"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -105,7 +105,7 @@ Array [
       </span>
       Twoxsmall
       <span
-        className="sc-jcCVzU gnwIpx"
+        className="sc-glENfF illBuq"
         size="twoxsmall"
       >
         <svg
@@ -130,13 +130,13 @@ Array [
     className="flex flex-wrap items-center justify-around gap-2 w-full"
   >
     <span
-      className="sc-glENfF hhFJkN"
+      className="sc-gufDRV bcppFV"
     >
       <span
-        className="sc-eAvjXz fksitS"
+        className="sc-jcCVzU hWoiib"
       >
         <svg
-          className="sc-jtcaXd"
+          className="sc-elYLMi"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -154,11 +154,11 @@ Array [
       Xsmall
     </span>
     <span
-      className="sc-glENfF igLeaF"
+      className="sc-gufDRV ZBtTx"
     >
       Xsmall
       <span
-        className="sc-jcCVzU hrXKnk"
+        className="sc-glENfF hdHXsL"
       >
         <svg
           className="sc-lbxAil"
@@ -178,13 +178,13 @@ Array [
       </span>
     </span>
     <span
-      className="sc-glENfF iTgvOD"
+      className="sc-gufDRV gaSprv"
     >
       <span
-        className="sc-eAvjXz fksitS"
+        className="sc-jcCVzU hWoiib"
       >
         <svg
-          className="sc-jtcaXd"
+          className="sc-elYLMi"
           fill="none"
           height="1em"
           viewBox="0 0 32 32"
@@ -201,7 +201,7 @@ Array [
       </span>
       Xsmall
       <span
-        className="sc-jcCVzU hrXKnk"
+        className="sc-glENfF hdHXsL"
       >
         <svg
           className="sc-lbxAil"
@@ -227,12 +227,12 @@ Array [
 exports[`Label renders with different LetterCases 1`] = `
 Array [
   <span
-    className="sc-glENfF dkXpfz"
+    className="sc-gufDRV dUAUbL"
   >
     Default
   </span>,
   <span
-    className="sc-glENfF gOSoxs"
+    className="sc-gufDRV hWfek"
   >
     Lowercase
   </span>,
@@ -242,24 +242,24 @@ Array [
 exports[`Label renders with different Sizes 1`] = `
 Array [
   <span
-    className="sc-glENfF kveMPy"
+    className="sc-gufDRV bPmHuy"
     size="twoxsmall"
   >
     Twoxsmall
   </span>,
   <span
-    className="sc-glENfF dkXpfz"
+    className="sc-gufDRV dUAUbL"
   >
     Xsmall
   </span>,
   <span
-    className="sc-glENfF iwbmjz"
+    className="sc-gufDRV jQZSgH"
     size="twoxsmall"
   >
     Twoxsmall
   </span>,
   <span
-    className="sc-glENfF gOSoxs"
+    className="sc-gufDRV hWfek"
   >
     Xsmall
   </span>,
