@@ -16,20 +16,18 @@ exports[`Dropdown in Dark Theme renders Default 1`] = `
       onKeyUp={[Function]}
       onMouseDown={[Function]}
     >
-      <div>
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Toggle Popover
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
+      <button
+        className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        type="button"
+      >
+        Toggle Popover
+        <span
+          aria-hidden="true"
+          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
     </div>
   </div>
 </div>
@@ -54,20 +52,18 @@ exports[`Dropdown in Dark Theme renders Position 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Top
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
+        <button
+          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
+        >
+          Top
+          <span
+            aria-hidden="true"
+            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
       </div>
     </div>
   </div>
@@ -86,20 +82,18 @@ exports[`Dropdown in Dark Theme renders Position 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Right
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
+        <button
+          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
+        >
+          Right
+          <span
+            aria-hidden="true"
+            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
       </div>
     </div>
   </div>
@@ -118,20 +112,18 @@ exports[`Dropdown in Dark Theme renders Position 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Left
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
+        <button
+          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
+        >
+          Left
+          <span
+            aria-hidden="true"
+            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
       </div>
     </div>
   </div>
@@ -157,20 +149,18 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Button
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
+        <button
+          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
+        >
+          Button
+          <span
+            aria-hidden="true"
+            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
       </div>
     </div>
   </div>
@@ -189,27 +179,25 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        <button
+          className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          <svg
+            className="text-moon-24"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              className="text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
-        </div>
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
       </div>
     </div>
   </div>
@@ -228,13 +216,11 @@ exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <span
-            className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
-          >
-            Open popover
-          </span>
-        </div>
+        <span
+          className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+        >
+          Open popover
+        </span>
       </div>
     </div>
   </div>
@@ -257,20 +243,18 @@ exports[`Dropdown in Dark Theme renders WithClose 1`] = `
       onKeyUp={[Function]}
       onMouseDown={[Function]}
     >
-      <div>
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Toggle Popover
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
+      <button
+        className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        type="button"
+      >
+        Toggle Popover
+        <span
+          aria-hidden="true"
+          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
     </div>
   </div>
 </div>
@@ -295,20 +279,18 @@ exports[`Dropdown in RTL renders Default 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Toggle Popover
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
+        <button
+          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
+        >
+          Toggle Popover
+          <span
+            aria-hidden="true"
+            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
       </div>
     </div>
   </div>
@@ -337,20 +319,18 @@ exports[`Dropdown in RTL renders Position 1`] = `
           onKeyUp={[Function]}
           onMouseDown={[Function]}
         >
-          <div>
-            <button
-              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
-              type="button"
-            >
-              Top
-              <span
-                aria-hidden="true"
-                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-              />
-            </button>
-          </div>
+          <button
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            Top
+            <span
+              aria-hidden="true"
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
         </div>
       </div>
     </div>
@@ -369,20 +349,18 @@ exports[`Dropdown in RTL renders Position 1`] = `
           onKeyUp={[Function]}
           onMouseDown={[Function]}
         >
-          <div>
-            <button
-              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
-              type="button"
-            >
-              Right
-              <span
-                aria-hidden="true"
-                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-              />
-            </button>
-          </div>
+          <button
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            Right
+            <span
+              aria-hidden="true"
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
         </div>
       </div>
     </div>
@@ -401,20 +379,18 @@ exports[`Dropdown in RTL renders Position 1`] = `
           onKeyUp={[Function]}
           onMouseDown={[Function]}
         >
-          <div>
-            <button
-              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
-              type="button"
-            >
-              Left
-              <span
-                aria-hidden="true"
-                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-              />
-            </button>
-          </div>
+          <button
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            Left
+            <span
+              aria-hidden="true"
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
         </div>
       </div>
     </div>
@@ -444,20 +420,18 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
           onKeyUp={[Function]}
           onMouseDown={[Function]}
         >
-          <div>
-            <button
-              className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-              onMouseEnter={[Function]}
-              onMouseLeave={[Function]}
-              type="button"
-            >
-              Button
-              <span
-                aria-hidden="true"
-                className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-              />
-            </button>
-          </div>
+          <button
+            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            type="button"
+          >
+            Button
+            <span
+              aria-hidden="true"
+              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
         </div>
       </div>
     </div>
@@ -476,27 +450,25 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
           onKeyUp={[Function]}
           onMouseDown={[Function]}
         >
-          <div>
-            <button
-              className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          <button
+            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            <svg
+              className="text-moon-24"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
             >
-              <svg
-                className="text-moon-24"
-                fill="none"
-                height="1em"
-                viewBox="0 0 32 32"
-                width="1em"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M25 11.5l-9 9-9-9"
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </button>
-          </div>
+              <path
+                d="M25 11.5l-9 9-9-9"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+          </button>
         </div>
       </div>
     </div>
@@ -515,13 +487,11 @@ exports[`Dropdown in RTL renders TriggerElements 1`] = `
           onKeyUp={[Function]}
           onMouseDown={[Function]}
         >
-          <div>
-            <span
-              className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
-            >
-              Open popover
-            </span>
-          </div>
+          <span
+            className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+          >
+            Open popover
+          </span>
         </div>
       </div>
     </div>
@@ -548,20 +518,18 @@ exports[`Dropdown in RTL renders WithClose 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Toggle Popover
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
+        <button
+          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
+        >
+          Toggle Popover
+          <span
+            aria-hidden="true"
+            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
       </div>
     </div>
   </div>
@@ -584,20 +552,18 @@ exports[`Popover in Light Theme renders Default 1`] = `
       onKeyUp={[Function]}
       onMouseDown={[Function]}
     >
-      <div>
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Toggle Popover
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
+      <button
+        className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        type="button"
+      >
+        Toggle Popover
+        <span
+          aria-hidden="true"
+          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
     </div>
   </div>
 </div>
@@ -622,20 +588,18 @@ exports[`Popover in Light Theme renders Position 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Top
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
+        <button
+          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
+        >
+          Top
+          <span
+            aria-hidden="true"
+            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
       </div>
     </div>
   </div>
@@ -654,20 +618,18 @@ exports[`Popover in Light Theme renders Position 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Right
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
+        <button
+          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
+        >
+          Right
+          <span
+            aria-hidden="true"
+            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
       </div>
     </div>
   </div>
@@ -686,20 +648,18 @@ exports[`Popover in Light Theme renders Position 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Left
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
+        <button
+          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
+        >
+          Left
+          <span
+            aria-hidden="true"
+            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
       </div>
     </div>
   </div>
@@ -725,20 +685,18 @@ exports[`Popover in Light Theme renders TriggerElements 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Button
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
+        <button
+          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
+          type="button"
+        >
+          Button
+          <span
+            aria-hidden="true"
+            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
       </div>
     </div>
   </div>
@@ -757,27 +715,25 @@ exports[`Popover in Light Theme renders TriggerElements 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <button
-            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        <button
+          className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          <svg
+            className="text-moon-24"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
           >
-            <svg
-              className="text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
-        </div>
+            <path
+              d="M25 11.5l-9 9-9-9"
+              stroke="currentColor"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            />
+          </svg>
+        </button>
       </div>
     </div>
   </div>
@@ -796,13 +752,11 @@ exports[`Popover in Light Theme renders TriggerElements 1`] = `
         onKeyUp={[Function]}
         onMouseDown={[Function]}
       >
-        <div>
-          <span
-            className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
-          >
-            Open popover
-          </span>
-        </div>
+        <span
+          className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+        >
+          Open popover
+        </span>
       </div>
     </div>
   </div>
@@ -825,20 +779,18 @@ exports[`Popover in Light Theme renders WithClose 1`] = `
       onKeyUp={[Function]}
       onMouseDown={[Function]}
     >
-      <div>
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Toggle Popover
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
+      <button
+        className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        type="button"
+      >
+        Toggle Popover
+        <span
+          aria-hidden="true"
+          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
     </div>
   </div>
 </div>

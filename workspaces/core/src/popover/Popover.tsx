@@ -60,7 +60,7 @@ const Trigger: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
   const { popper } = usePopoverContext('Popover.Trigger');
   return (
     <HeadlessPopover.Button as={'div'} ref={popper?.setAnchor}>
-      <div>{children}</div>
+      {children}
     </HeadlessPopover.Button>
   );
 };

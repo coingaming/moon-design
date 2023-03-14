@@ -1,7 +1,7 @@
-type ButtonProps = {
+type HeaderProps = {
   className?: string;
   disabled?: boolean;
   children?: React.ReactNode;
 };
 
-export default ButtonProps;
+export default HeaderProps;
