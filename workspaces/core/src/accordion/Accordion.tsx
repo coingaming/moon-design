@@ -10,6 +10,7 @@ import useAccordionContext from './private/utils/useAccordionContext';
 import useAccordionItemContext from './private/utils/useAccordionItemContext';
 import type AccordionProps from './private/types/AccordionProps';
 import type AccordionRootProps from './private/types/AccordionRootProps';
+import type ButtonProps from './private/types/ButtonProps';
 import type ContentProps from './private/types/ContentProps';
 import type HeaderProps from './private/types/HeaderProps';
 import type ItemProps from './private/types/ItemProps';
@@ -99,7 +100,7 @@ const Header: React.FC<HeaderProps> = ({ children, className }) => (
   </RadixAccordion.Header>
 );
 
-const Button: React.FC<HeaderProps> = ({ children, className }) => {
+const Button: React.FC<ButtonProps> = ({ children, className }) => {
   const { size, disabled } = useAccordionItemContext('Accordion.Button');
   return (
     <RadixAccordion.Trigger
