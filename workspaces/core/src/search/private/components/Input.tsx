@@ -1,5 +1,5 @@
 import React, { forwardRef, Fragment, Ref } from 'react';
-import { GenericSearch } from '@heathmont/moon-icons-tw';
+import GenericSearch from '../../../private/icons/GenericSearch';
 
 type SearchProps = {
   onChange: (value: string) => void;
