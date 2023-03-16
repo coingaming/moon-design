@@ -1,8 +1,8 @@
 import React, { Fragment, ReactNode, useState } from 'react';
 import { Combobox as HeadlessCombobox, Transition } from '@headlessui/react';
-import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 import { usePopper } from 'react-popper';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
 import Radio from '../radio/Radio';
 import { BaseOptionType } from '../select/Select';
 import TextInput from '../textInput/TextInput';

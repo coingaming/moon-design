@@ -533,7 +533,6 @@ importers:
   workspaces/core:
     specifiers:
       '@headlessui/react': 1.7.12
-      '@heathmont/moon-icons-tw': workspace:^9.26.0
       '@popperjs/core': ^2.11.6
       '@radix-ui/react-accordion': ^1.1.0
       '@radix-ui/react-toast': 1.1.2
@@ -545,7 +544,6 @@ importers:
       tailwindcss-radix: ^2.6.1
     dependencies:
       '@headlessui/react': 1.7.12_biqbaboplfbrettd7655fr4n2y
-      '@heathmont/moon-icons-tw': link:../icons
       '@popperjs/core': 2.11.6
       '@radix-ui/react-accordion': 1.1.0_biqbaboplfbrettd7655fr4n2y
       '@radix-ui/react-toast': 1.1.2_biqbaboplfbrettd7655fr4n2y
