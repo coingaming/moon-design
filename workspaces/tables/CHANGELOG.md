@@ -1,5 +1,13 @@
 # @heathmont/moon-table-tw
 
+## 9.26.1
+
+### Patch Changes
+
+- chore: bump moon version to 9.26.1
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.26.1
+
 ## 9.26.0
 
 ### Minor Changes

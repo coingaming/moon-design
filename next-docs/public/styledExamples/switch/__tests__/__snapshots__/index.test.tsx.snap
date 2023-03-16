@@ -2,7 +2,7 @@
 
 exports[`Switch renders 1`] = `
 <div
-  className="sc-hrtsrO fTFjtL"
+  className="sc-eAvjXz QEknh"
   dir="ltr"
   style={
     Object {
@@ -11,12 +11,12 @@ exports[`Switch renders 1`] = `
   }
 >
   <label
-    className="sc-OzCKV iHXfJD"
+    className="sc-ilxKZc jfDzsv"
     size="small"
   >
     <input
       checked={true}
-      className="sc-iopHby iajCpf"
+      className="sc-OzCKV cbVUlJ"
       id="test-switch-1"
       onChange={[Function]}
       size="small"
@@ -24,7 +24,7 @@ exports[`Switch renders 1`] = `
     />
     <span
       checked={true}
-      className="sc-eBOYpw dVaOpA"
+      className="sc-jPGeSq jyijxU"
       size="small"
     />
   </label>
@@ -34,7 +34,7 @@ exports[`Switch renders 1`] = `
 exports[`Switch renders Buttons 1`] = `
 Array [
   <div
-    className="sc-hrtsrO fTFjtL"
+    className="sc-eAvjXz QEknh"
     dir="ltr"
     style={
       Object {
@@ -43,12 +43,12 @@ Array [
     }
   >
     <label
-      className="sc-OzCKV juwdJy"
+      className="sc-ilxKZc cxDsbm"
       size="medium"
     >
       <input
         checked={true}
-        className="sc-iopHby iajCpf"
+        className="sc-OzCKV cbVUlJ"
         id="button-switch-1"
         onChange={[Function]}
         size="medium"
@@ -56,20 +56,20 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw eVbWFD"
+        className="sc-jPGeSq izwSpz"
         size="medium"
       >
         <span
-          className="sc-RryNr emqFcC"
+          className="sc-iopHby diOvjq"
         >
           <p
-            className="sc-jUwIko gxSaBZ"
+            className="sc-hdyzPZ bKlfuV"
             size={14}
           >
             Off
           </p>
           <p
-            className="sc-jUwIko gxSaBZ"
+            className="sc-hdyzPZ bKlfuV"
             size={14}
           >
             On
@@ -79,7 +79,7 @@ Array [
     </label>
   </div>,
   <div
-    className="sc-hrtsrO fTFjtL"
+    className="sc-eAvjXz QEknh"
     dir="ltr"
     style={
       Object {
@@ -88,12 +88,12 @@ Array [
     }
   >
     <label
-      className="sc-OzCKV hRLkNZ"
+      className="sc-ilxKZc cuuxbx"
       size="large"
     >
       <input
         checked={true}
-        className="sc-iopHby iajCpf"
+        className="sc-OzCKV cbVUlJ"
         id="button-switch-2"
         onChange={[Function]}
         size="large"
@@ -101,20 +101,20 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw eVbWFD"
+        className="sc-jPGeSq izwSpz"
         size="large"
       >
         <span
-          className="sc-RryNr emqFcC"
+          className="sc-iopHby diOvjq"
         >
           <p
-            className="sc-jUwIko gxSaBZ"
+            className="sc-hdyzPZ bKlfuV"
             size={14}
           >
             Off
           </p>
           <p
-            className="sc-jUwIko gxSaBZ"
+            className="sc-hdyzPZ bKlfuV"
             size={14}
           >
             On
@@ -129,7 +129,7 @@ Array [
 exports[`Switch renders Disabled state 1`] = `
 Array [
   <div
-    className="sc-hrtsrO fTFjtL"
+    className="sc-eAvjXz QEknh"
     dir="ltr"
     style={
       Object {
@@ -138,13 +138,13 @@ Array [
     }
   >
     <label
-      className="sc-OzCKV lZGku"
+      className="sc-ilxKZc cyQeMG"
       disabled={true}
       size="small"
     >
       <input
         checked={true}
-        className="sc-iopHby iajCpf"
+        className="sc-OzCKV cbVUlJ"
         id="test-switch-disabled-checked"
         onChange={[Function]}
         size="small"
@@ -152,13 +152,13 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw dVaOpA"
+        className="sc-jPGeSq jyijxU"
         size="small"
       />
     </label>
   </div>,
   <div
-    className="sc-hrtsrO fTFjtL"
+    className="sc-eAvjXz QEknh"
     dir="ltr"
     style={
       Object {
@@ -167,13 +167,13 @@ Array [
     }
   >
     <label
-      className="sc-OzCKV lZGku"
+      className="sc-ilxKZc cyQeMG"
       disabled={true}
       size="small"
     >
       <input
         checked={false}
-        className="sc-iopHby iajCpf"
+        className="sc-OzCKV cbVUlJ"
         id="test-switch-disabled"
         onChange={[Function]}
         size="small"
@@ -181,7 +181,7 @@ Array [
       />
       <span
         checked={false}
-        className="sc-eBOYpw brNmPs"
+        className="sc-jPGeSq gRHPjg"
         size="small"
       />
     </label>
@@ -192,7 +192,7 @@ Array [
 exports[`Switch renders Theme variant 1`] = `
 Array [
   <div
-    className="sc-hrtsrO fTFjtL"
+    className="sc-eAvjXz QEknh"
     dir="ltr"
     style={
       Object {
@@ -201,12 +201,12 @@ Array [
     }
   >
     <label
-      className="sc-OzCKV fKhUHt"
+      className="sc-ilxKZc ghknHF"
       size="twoxsmall"
     >
       <input
         checked={true}
-        className="sc-iopHby ikXcUm"
+        className="sc-OzCKV dmPacc"
         id="test-switch-1"
         onChange={[Function]}
         size="twoxsmall"
@@ -214,13 +214,13 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw eHTVtG"
+        className="sc-jPGeSq hNFYfY"
         size="twoxsmall"
       />
     </label>
   </div>,
   <div
-    className="sc-hrtsrO fTFjtL"
+    className="sc-eAvjXz QEknh"
     dir="ltr"
     style={
       Object {
@@ -229,12 +229,12 @@ Array [
     }
   >
     <label
-      className="sc-OzCKV cQYKLm"
+      className="sc-ilxKZc kpTvXq"
       size="xsmall"
     >
       <input
         checked={true}
-        className="sc-iopHby iYRahi"
+        className="sc-OzCKV hWYiLw"
         id="test-switch-2"
         onChange={[Function]}
         size="xsmall"
@@ -242,13 +242,13 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw bUcLsB"
+        className="sc-jPGeSq fxBJSj"
         size="xsmall"
       />
     </label>
   </div>,
   <div
-    className="sc-hrtsrO fTFjtL"
+    className="sc-eAvjXz QEknh"
     dir="ltr"
     style={
       Object {
@@ -257,12 +257,12 @@ Array [
     }
   >
     <label
-      className="sc-OzCKV iHXfJD"
+      className="sc-ilxKZc jfDzsv"
       size="small"
     >
       <input
         checked={true}
-        className="sc-iopHby iYRahi"
+        className="sc-OzCKV hWYiLw"
         id="test-switch-3"
         onChange={[Function]}
         size="small"
@@ -270,7 +270,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw egLfwG"
+        className="sc-jPGeSq jKXyFg"
         size="small"
       />
     </label>
@@ -281,7 +281,7 @@ Array [
 exports[`Switch renders different Sizes 1`] = `
 Array [
   <div
-    className="sc-hrtsrO fTFjtL"
+    className="sc-eAvjXz QEknh"
     dir="ltr"
     style={
       Object {
@@ -290,12 +290,12 @@ Array [
     }
   >
     <label
-      className="sc-OzCKV fKhUHt"
+      className="sc-ilxKZc ghknHF"
       size="twoxsmall"
     >
       <input
         checked={true}
-        className="sc-iopHby mXGFv"
+        className="sc-OzCKV gmUUnl"
         id="test-switch-1"
         onChange={[Function]}
         size="twoxsmall"
@@ -303,13 +303,13 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw crPFZw"
+        className="sc-jPGeSq boNASE"
         size="twoxsmall"
       />
     </label>
   </div>,
   <div
-    className="sc-hrtsrO fTFjtL"
+    className="sc-eAvjXz QEknh"
     dir="ltr"
     style={
       Object {
@@ -318,12 +318,12 @@ Array [
     }
   >
     <label
-      className="sc-OzCKV cQYKLm"
+      className="sc-ilxKZc kpTvXq"
       size="xsmall"
     >
       <input
         checked={true}
-        className="sc-iopHby iajCpf"
+        className="sc-OzCKV cbVUlJ"
         id="test-switch-2"
         onChange={[Function]}
         size="xsmall"
@@ -331,13 +331,13 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw fXgvDj"
+        className="sc-jPGeSq cxeCCb"
         size="xsmall"
       />
     </label>
   </div>,
   <div
-    className="sc-hrtsrO fTFjtL"
+    className="sc-eAvjXz QEknh"
     dir="ltr"
     style={
       Object {
@@ -346,12 +346,12 @@ Array [
     }
   >
     <label
-      className="sc-OzCKV iHXfJD"
+      className="sc-ilxKZc jfDzsv"
       size="small"
     >
       <input
         checked={true}
-        className="sc-iopHby iajCpf"
+        className="sc-OzCKV cbVUlJ"
         id="test-switch-3"
         onChange={[Function]}
         size="small"
@@ -359,7 +359,7 @@ Array [
       />
       <span
         checked={true}
-        className="sc-eBOYpw dVaOpA"
+        className="sc-jPGeSq jyijxU"
         size="small"
       />
     </label>

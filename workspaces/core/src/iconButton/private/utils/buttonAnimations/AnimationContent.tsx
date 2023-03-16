@@ -1,8 +1,8 @@
 import React from 'react';
-import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import getIconSize from '../../../../button/private/utils/buttonSizes/getIconSize';
 import getLoaderSize from '../../../../button/private/utils/buttonSizes/getLoaderSize';
 import Loader from '../../../../loader/Loader';
+import GenericCheckAlternative from '../../../../private/icons/GenericCheckAlternative';
 import type { IconButtonSettingsProps } from '../../types/IconButtonProps';
 
 const AnimationContent: React.FC<IconButtonSettingsProps> = ({

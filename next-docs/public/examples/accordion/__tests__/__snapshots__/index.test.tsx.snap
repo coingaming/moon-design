@@ -12,7 +12,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+      className="w-full rounded-moon-s-sm moon-open:rounded-b-none moon-open:[&_svg]:rotate-180 bg-beerus"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -49,7 +49,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r28:"
-      className="rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma bg-beerus"
+      className="moon-open:flex rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma bg-beerus"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -71,7 +71,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+      className="w-full rounded-moon-s-sm moon-open:rounded-b-none moon-open:[&_svg]:rotate-180 bg-beerus"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -108,7 +108,7 @@ exports[`Accordion in Dark Theme renders Background 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r2a:"
-      className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -139,7 +139,7 @@ exports[`Accordion in Dark Theme renders ContentHeader 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -237,7 +237,7 @@ exports[`Accordion in Dark Theme renders ContentHeader 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r1m:"
-      className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -268,7 +268,7 @@ exports[`Accordion in Dark Theme renders ContentOutside 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -305,7 +305,7 @@ exports[`Accordion in Dark Theme renders ContentOutside 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r1k:"
-      className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -337,7 +337,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -374,7 +374,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:r20:"
-        className="mt-4 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-4 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -402,7 +402,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -439,7 +439,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:r22:"
-        className="mt-3 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-3 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -467,7 +467,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -504,7 +504,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:r24:"
-        className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -532,7 +532,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -569,7 +569,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:r26:"
-        className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -601,7 +601,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -638,7 +638,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r16:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -660,7 +660,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -697,7 +697,7 @@ exports[`Accordion in Dark Theme renders Default 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r18:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -729,7 +729,7 @@ exports[`Accordion in Dark Theme renders Disabled 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-disabled=""
       data-orientation="vertical"
       data-state="closed"
@@ -769,7 +769,7 @@ exports[`Accordion in Dark Theme renders Disabled 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r1i:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-disabled=""
       data-orientation="vertical"
       data-state="closed"
@@ -801,7 +801,7 @@ exports[`Accordion in Dark Theme renders Divider 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan border-b"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none border-b"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -838,7 +838,7 @@ exports[`Accordion in Dark Theme renders Divider 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r1c:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 text-moon-14 overflow-hidden w-full text-bulma pt-2"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 text-moon-14 w-full text-bulma pt-2"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -869,7 +869,7 @@ exports[`Accordion in Dark Theme renders OpenDefault 1`] = `
     data-state="open"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="open"
     >
@@ -906,7 +906,7 @@ exports[`Accordion in Dark Theme renders OpenDefault 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r1a:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-orientation="vertical"
       data-state="open"
       hidden={false}
@@ -939,7 +939,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -976,7 +976,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r1e:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -998,7 +998,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -1035,7 +1035,7 @@ exports[`Accordion in Dark Theme renders Single 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r1g:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -1067,7 +1067,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -1104,7 +1104,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:r1o:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -1132,7 +1132,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -1169,7 +1169,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:r1q:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -1197,7 +1197,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -1234,7 +1234,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:r1s:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -1262,7 +1262,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -1299,7 +1299,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:r1u:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -1331,7 +1331,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+      className="w-full rounded-moon-s-sm moon-open:rounded-b-none moon-open:[&_svg]:rotate-180 bg-beerus"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -1368,7 +1368,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r12:"
-      className="rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma bg-beerus"
+      className="moon-open:flex rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma bg-beerus"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -1390,7 +1390,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+      className="w-full rounded-moon-s-sm moon-open:rounded-b-none moon-open:[&_svg]:rotate-180 bg-beerus"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -1427,7 +1427,7 @@ exports[`Accordion in Light Theme renders Background 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r14:"
-      className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -1458,7 +1458,7 @@ exports[`Accordion in Light Theme renders ContentHeader 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -1556,7 +1556,7 @@ exports[`Accordion in Light Theme renders ContentHeader 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:rg:"
-      className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -1587,7 +1587,7 @@ exports[`Accordion in Light Theme renders ContentOutside 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -1624,7 +1624,7 @@ exports[`Accordion in Light Theme renders ContentOutside 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:re:"
-      className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+      className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -1656,7 +1656,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -1693,7 +1693,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:rq:"
-        className="mt-4 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-4 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -1721,7 +1721,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -1758,7 +1758,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:rs:"
-        className="mt-3 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-3 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -1786,7 +1786,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -1823,7 +1823,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:ru:"
-        className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -1851,7 +1851,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -1888,7 +1888,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:r10:"
-        className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -1920,7 +1920,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -1957,7 +1957,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r0:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -1979,7 +1979,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -2016,7 +2016,7 @@ exports[`Accordion in Light Theme renders Default 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r2:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -2048,7 +2048,7 @@ exports[`Accordion in Light Theme renders Disabled 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-disabled=""
       data-orientation="vertical"
       data-state="closed"
@@ -2088,7 +2088,7 @@ exports[`Accordion in Light Theme renders Disabled 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:rc:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-disabled=""
       data-orientation="vertical"
       data-state="closed"
@@ -2120,7 +2120,7 @@ exports[`Accordion in Light Theme renders Divider 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan border-b"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none border-b"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -2157,7 +2157,7 @@ exports[`Accordion in Light Theme renders Divider 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r6:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 text-moon-14 overflow-hidden w-full text-bulma pt-2"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 text-moon-14 w-full text-bulma pt-2"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -2188,7 +2188,7 @@ exports[`Accordion in Light Theme renders OpenDefault 1`] = `
     data-state="open"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="open"
     >
@@ -2225,7 +2225,7 @@ exports[`Accordion in Light Theme renders OpenDefault 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r4:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-orientation="vertical"
       data-state="open"
       hidden={false}
@@ -2258,7 +2258,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -2295,7 +2295,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:r8:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -2317,7 +2317,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
     data-state="closed"
   >
     <h3
-      className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+      className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
       data-orientation="vertical"
       data-state="closed"
     >
@@ -2354,7 +2354,7 @@ exports[`Accordion in Light Theme renders Single 1`] = `
     </h3>
     <div
       aria-labelledby="radix-:ra:"
-      className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+      className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
       data-orientation="vertical"
       data-state="closed"
       hidden={true}
@@ -2386,7 +2386,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -2423,7 +2423,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:ri:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -2451,7 +2451,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -2488,7 +2488,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:rk:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -2516,7 +2516,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -2553,7 +2553,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:rm:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -2581,7 +2581,7 @@ Array [
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -2618,7 +2618,7 @@ Array [
       </h3>
       <div
         aria-labelledby="radix-:ro:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -2653,7 +2653,7 @@ exports[`Accordion in RTL renders Background 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+        className="w-full rounded-moon-s-sm moon-open:rounded-b-none moon-open:[&_svg]:rotate-180 bg-beerus"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -2690,7 +2690,7 @@ exports[`Accordion in RTL renders Background 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r3e:"
-        className="rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma bg-beerus"
+        className="moon-open:flex rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma bg-beerus"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -2712,7 +2712,7 @@ exports[`Accordion in RTL renders Background 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm moon-open:[&_svg]:rotate-180 bg-beerus"
+        className="w-full rounded-moon-s-sm moon-open:rounded-b-none moon-open:[&_svg]:rotate-180 bg-beerus"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -2749,7 +2749,7 @@ exports[`Accordion in RTL renders Background 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r3g:"
-        className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -2784,7 +2784,7 @@ exports[`Accordion in RTL renders ContentHeader 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -2882,7 +2882,7 @@ exports[`Accordion in RTL renders ContentHeader 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r2s:"
-        className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -2917,7 +2917,7 @@ exports[`Accordion in RTL renders ContentOutside 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -2954,7 +2954,7 @@ exports[`Accordion in RTL renders ContentOutside 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r2q:"
-        className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -2989,7 +2989,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3026,7 +3026,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r36:"
-        className="mt-4 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-4 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3054,7 +3054,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3091,7 +3091,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r38:"
-        className="mt-3 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-3 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3119,7 +3119,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3156,7 +3156,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r3a:"
-        className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3184,7 +3184,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3221,7 +3221,7 @@ exports[`Accordion in RTL renders ContentOutsideSizes 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r3c:"
-        className="mt-2 overflow-hidden w-full text-bulma text-moon-14"
+        className="mt-2 moon-open:flex w-full text-bulma text-moon-14"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3256,7 +3256,7 @@ exports[`Accordion in RTL renders Default 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3293,7 +3293,7 @@ exports[`Accordion in RTL renders Default 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r2c:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3315,7 +3315,7 @@ exports[`Accordion in RTL renders Default 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3352,7 +3352,7 @@ exports[`Accordion in RTL renders Default 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r2e:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3388,7 +3388,7 @@ exports[`Accordion in RTL renders Disabled 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-disabled=""
         data-orientation="vertical"
         data-state="closed"
@@ -3428,7 +3428,7 @@ exports[`Accordion in RTL renders Disabled 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r2o:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-disabled=""
         data-orientation="vertical"
         data-state="closed"
@@ -3464,7 +3464,7 @@ exports[`Accordion in RTL renders Divider 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan border-b"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none border-b"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3501,7 +3501,7 @@ exports[`Accordion in RTL renders Divider 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r2i:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 text-moon-14 overflow-hidden w-full text-bulma pt-2"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 text-moon-14 w-full text-bulma pt-2"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3536,7 +3536,7 @@ exports[`Accordion in RTL renders OpenDefault 1`] = `
       data-state="open"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="open"
       >
@@ -3573,7 +3573,7 @@ exports[`Accordion in RTL renders OpenDefault 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r2g:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="open"
         hidden={false}
@@ -3610,7 +3610,7 @@ exports[`Accordion in RTL renders Single 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3647,7 +3647,7 @@ exports[`Accordion in RTL renders Single 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r2k:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3669,7 +3669,7 @@ exports[`Accordion in RTL renders Single 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3706,7 +3706,7 @@ exports[`Accordion in RTL renders Single 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r2m:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3741,7 +3741,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3778,7 +3778,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r2u:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3806,7 +3806,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3843,7 +3843,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r30:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3871,7 +3871,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3908,7 +3908,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r32:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}
@@ -3936,7 +3936,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       data-state="closed"
     >
       <h3
-        className="w-full rounded-moon-s-sm bg-gohan moon-open:[&_svg]:rotate-180"
+        className="w-full rounded-moon-s-sm bg-gohan moon-open:rounded-b-none moon-open:[&_svg]:rotate-180"
         data-orientation="vertical"
         data-state="closed"
       >
@@ -3973,7 +3973,7 @@ exports[`Accordion in RTL renders Sizes 1`] = `
       </h3>
       <div
         aria-labelledby="radix-:r34:"
-        className="bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 overflow-hidden w-full text-bulma"
+        className="moon-open:flex bg-gohan rounded-moon-s-sm rounded-t-none p-2 py-2 ps-3 pe-2 pt-0 text-moon-14 w-full text-bulma"
         data-orientation="vertical"
         data-state="closed"
         hidden={true}

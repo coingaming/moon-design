@@ -234,6 +234,8 @@ export { default as GenericBlock } from './icons/GenericBlock';
 export * from './icons/GenericBlock';
 export { default as GenericBookmark } from './icons/GenericBookmark';
 export * from './icons/GenericBookmark';
+export { default as GenericBookmarkAlternative } from './icons/GenericBookmarkAlternative';
+export * from './icons/GenericBookmarkAlternative';
 export { default as GenericBrowser } from './icons/GenericBrowser';
 export * from './icons/GenericBrowser';
 export { default as GenericBurgerRegular } from './icons/GenericBurgerRegular';

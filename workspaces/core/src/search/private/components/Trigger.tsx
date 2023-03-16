@@ -1,5 +1,5 @@
 import React from 'react';
-import { GenericSearch } from '@heathmont/moon-icons-tw';
+import GenericSearch from '../../../private/icons/GenericSearch';
 
 export const Trigger: React.FC<{
   onClick: () => void;

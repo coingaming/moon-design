@@ -1,10 +1,8 @@
 import React, { createContext, useCallback, useContext } from 'react';
 import { Listbox } from '@headlessui/react';
-import {
-  ControlsChevronDownSmall,
-  ControlsCloseSmall,
-} from '@heathmont/moon-icons-tw';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
+import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
 
 type SelectButtonState = {
   open?: boolean;
