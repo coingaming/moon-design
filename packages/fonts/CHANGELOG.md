@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.26.1
+
+### Patch Changes
+
+- chore: bump moon version to 9.26.1
+
 ## 9.26.0
 
 ### Minor Changes
