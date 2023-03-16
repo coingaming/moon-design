@@ -1,7 +1,7 @@
 import React from 'react';
-import { ControlsCloseSmall } from '@heathmont/moon-icons-tw';
 import * as ToastPrimitive from '@radix-ui/react-toast';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import ControlsCloseSmall from '../private/icons/ControlsCloseSmall';
 
 type WithChildren<T = {}> = T & { children?: React.ReactNode };
 
