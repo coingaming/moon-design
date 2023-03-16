@@ -1,5 +1,11 @@
 # @heathmont/moon-templates
 
+## 9.26.2
+
+### Patch Changes
+
+- bump v9.26.2
+
 ## 9.26.1
 
 ### Patch Changes
