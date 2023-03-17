@@ -1,5 +1,11 @@
 # Change Log
 
+## 9.26.3
+
+### Patch Changes
+
+- Update docs
+
 ## 9.26.2
 
 ### Patch Changes

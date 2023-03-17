@@ -1,5 +1,31 @@
 # Change Log
 
+## 9.26.3
+
+### Patch Changes
+
+- Update docs
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.26.3
+  - @heathmont/moon-accordion@9.26.3
+  - @heathmont/moon-assets@9.26.3
+  - @heathmont/moon-charts@9.26.3
+  - @heathmont/moon-components@9.26.3
+  - @heathmont/moon-core@9.26.3
+  - @heathmont/moon-datepicker@9.26.3
+  - @heathmont/moon-draggabletable@9.26.3
+  - @heathmont/moon-icons@9.26.3
+  - @heathmont/moon-pagination@9.26.3
+  - @heathmont/moon-popover@9.26.3
+  - @heathmont/moon-select@9.26.3
+  - @heathmont/moon-sidebar@9.26.3
+  - @heathmont/moon-table@9.26.3
+  - @heathmont/moon-themes@9.26.3
+  - @heathmont/moon-utils@9.26.3
+  - @heathmont/moon-icons-tw@9.26.3
+  - @heathmont/moon-table-tw@9.26.3
+  - @heathmont/moon-themes-tw@9.26.3
+
 ## 9.26.2
 
 ### Patch Changes
