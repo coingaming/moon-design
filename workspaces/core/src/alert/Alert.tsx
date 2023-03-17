@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import { ControlsClose } from '@heathmont/moon-icons-tw';
 import IconButton from '../iconButton/IconButton';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import ControlsClose from '../private/icons/ControlsClose';
 import useRegisterChild from '../private/utils/useRegisterChild';
 import AlertContext from './private/utils/AlertContext';
 import useAlertContext from './private/utils/useTooltipContext';

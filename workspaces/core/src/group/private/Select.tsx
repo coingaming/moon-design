@@ -1,7 +1,7 @@
 import React, { ReactNode, forwardRef } from 'react';
-import { ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 import { useFormContext, useFormItemContext } from '../../form/Form';
 import mergeClassnames from '../../mergeClassnames/mergeClassnames';
+import ControlsChevronDownSmall from '../../private/icons/ControlsChevronDownSmall';
 import getSizeStyles from './getSizeStyles';
 
 type WithChildren<T = {}> = T & { children?: ReactNode };

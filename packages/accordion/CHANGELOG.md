@@ -1,5 +1,29 @@
 # Change Log
 
+## 9.26.2
+
+### Patch Changes
+
+- bump v9.26.2
+- Updated dependencies [undefined]
+  - @heathmont/moon-components@9.26.2
+  - @heathmont/moon-core@9.26.2
+  - @heathmont/moon-icons@9.26.2
+  - @heathmont/moon-themes@9.26.2
+  - @heathmont/moon-utils@9.26.2
+
+## 9.26.1
+
+### Patch Changes
+
+- chore: bump moon version to 9.26.1
+- Updated dependencies [undefined]
+  - @heathmont/moon-icons@9.26.1
+  - @heathmont/moon-themes@9.26.1
+  - @heathmont/moon-components@9.26.1
+  - @heathmont/moon-core@9.26.1
+  - @heathmont/moon-utils@9.26.1
+
 ## 9.26.0
 
 ### Minor Changes

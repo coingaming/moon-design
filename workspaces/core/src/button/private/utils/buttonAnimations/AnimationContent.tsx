@@ -1,7 +1,7 @@
 import React from 'react';
-import { GenericCheckAlternative } from '@heathmont/moon-icons-tw';
 import Loader from '../../../../loader/Loader';
 import mergeClassnames from '../../../../mergeClassnames/mergeClassnames';
+import GenericCheckAlternative from '../../../../private/icons/GenericCheckAlternative';
 import IconLeft from '../../../styles/IconLeft';
 import IconRight from '../../../styles/IconRight';
 import getIconSize from '../buttonSizes/getIconSize';

@@ -1,5 +1,21 @@
 # Change Log
 
+## 9.26.2
+
+### Patch Changes
+
+- bump v9.26.2
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.26.2
+
+## 9.26.1
+
+### Patch Changes
+
+- chore: bump moon version to 9.26.1
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.26.1
+
 ## 9.26.0
 
 ### Minor Changes
