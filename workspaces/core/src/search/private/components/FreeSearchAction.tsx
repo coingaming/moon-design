@@ -16,7 +16,7 @@ export default function FreeSearchAction({
   return (
     <ListItem index={0} showType={false} {...props}>
       <span className="max-w-md truncate text-bulma">
-        {label} <span className="font-semibold">"{search}"</span>
+        {label} <span className="font-medium">"{search}"</span>
       </span>
     </ListItem>
   );
