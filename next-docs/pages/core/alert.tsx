@@ -1,6 +1,7 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/alert/Customization';
 import Default from '../../public/examples/alert/Default';
@@ -13,17 +14,17 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('alert');
+  const { name, text, image } = getComponent('Alert');
   return (
     <>
       <ComponentPageDescription
-        title="Alert"
+        title={name}
+        image={image}
         isInProgress
         isRtlSupport
         isAriaSupport
       >
-        <p>
-          A way of informing the user of important changes in a prominent way.
-        </p>
+        <p>{text}</p>
       </ComponentPageDescription>
       <ComponentAnatomy>
         {`<Alert>

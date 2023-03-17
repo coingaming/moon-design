@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import IconsBlock from '../../components/IconsBlock';
 import IconsImportHelper from '../../components/IconsImportHelper';
 import PageSection from '../../components/PageSection';
@@ -45,10 +46,11 @@ const Example = () => {
     setSelectedIcons(toggleSelectedIcons(iconName));
   const wrapperProps = { onClick, selectedIcons };
   const examples = useExamples('icons');
+  const { name, text, image } = getComponent('Icons');
   return (
     <>
-      <ComponentPageDescription title="Icons" isInProgress>
-        <p>Icons are used in other components and user interfaces.</p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
       </ComponentPageDescription>
       <Preview
         title="Default"

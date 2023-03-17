@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import AutoClose from '../../public/examples/snackbar/AutoClose';
 import Customization from '../../public/examples/snackbar/Customization';
@@ -14,18 +15,17 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('snackbar');
+  const { name, text, image } = getComponent('Snackbar');
   return (
     <>
       <ComponentPageDescription
-        title="Snackbar"
+        title={name}
+        image={image}
         isInProgress
         isRtlSupport
         isAriaSupport
       >
-        <p>
-          A type of alert which appears in a layer above other content, visually
-          similar to a mobile or desktop push notification.
-        </p>
+        <p>{text}</p>
         <p>
           Based on{' '}
           <a

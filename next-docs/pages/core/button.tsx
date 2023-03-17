@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Animations from '../../public/examples/button/Animations';
 import AsLink from '../../public/examples/button/AsLink';
@@ -14,18 +15,17 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('button');
+  const { name, text, image } = getComponent('Button');
   return (
     <>
       <ComponentPageDescription
-        title="Button"
+        title={name}
+        image={image}
         isInProgress
         isRtlSupport
         isAriaSupport
       >
-        <p>
-          Buttons allow users to take actions, and make choices, with a single
-          tap.
-        </p>
+        <p>{text}</p>
         <p>
           Buttons communicate actions that users can take. They are typically
           placed throughout your UI, in places like:

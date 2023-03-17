@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Collapsed from '../../public/examples/breadcrumbs/Collapsed';
 import FourItems from '../../public/examples/breadcrumbs/FourItems';
@@ -9,13 +10,16 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('breadcrumbs');
+  const { name, text, image } = getComponent('Breadcrumb');
   return (
     <>
-      <ComponentPageDescription title="Breadcrumb" isInProgress isRtlSupport>
-        <p>
-          A list of links showing the location of the current page in the
-          navigational hierarchy.
-        </p>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+      >
+        <p>{text}</p>
       </ComponentPageDescription>
       <Preview
         title="Five and more items"

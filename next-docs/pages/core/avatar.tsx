@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/avatar/Active';
 import Colours from '../../public/examples/avatar/Colours';
@@ -12,13 +13,16 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('avatar');
+  const { name, text, image } = getComponent('Avatar');
   return (
     <>
-      <ComponentPageDescription title="Avatar" isInProgress isRtlSupport>
-        <p>
-          The Avatar component is typically used to display images, icons, or
-          initials representing people or other entities.
-        </p>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+      >
+        <p>{text}</p>
       </ComponentPageDescription>
       <Preview
         title="Default"

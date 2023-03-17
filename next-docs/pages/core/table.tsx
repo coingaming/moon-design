@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Calendar from '../../public/examples/table/Calendar';
 import CellBorder from '../../public/examples/table/CellBorder';
@@ -20,12 +21,16 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('table');
+  const { name, text, image } = getComponent('Table');
   return (
     <>
-      <ComponentPageDescription title="Table" isRtlSupport isInProgress>
-        <p>
-          A component for displaying large amounts of data in rows and columns.
-        </p>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+      >
+        <p>{text}</p>
         <p>
           Based on{' '}
           <a

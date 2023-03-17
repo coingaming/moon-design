@@ -1,6 +1,7 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Background from '../../public/examples/accordion/Background';
 import ContentHeader from '../../public/examples/accordion/ContentHeader';
@@ -16,20 +17,17 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('accordion');
+  const { name, text, image } = getComponent('Accordion');
   return (
     <>
       <ComponentPageDescription
-        title="Accordion"
+        title={name}
+        image={image}
         isInProgress
         isRtlSupport
         isAriaSupport
       >
-        <p>
-          An accordion is a vertical stack of interactive headings used to
-          toggle the display of further information; each item can be
-          'collapsed' with just a short label visible or 'expanded' to show the
-          full content.
-        </p>
+        <p>{text}</p>
         <p>
           Based on{' '}
           <a

@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Active from '../../public/examples/chip/Active';
 import Default from '../../public/examples/chip/Default';
@@ -13,10 +14,16 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('chip');
+  const { name, text, image } = getComponent('Chip');
   return (
     <>
-      <ComponentPageDescription title="Chip" isInProgress isRtlSupport>
-        <p>Chips help filter content, or trigger actions.</p>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+      >
+        <p>{text}</p>
       </ComponentPageDescription>
       <Preview
         title="Default"
