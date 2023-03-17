@@ -1,9 +1,9 @@
 import { Tag } from '@heathmont/moon-core-tw';
-import Image, { StaticImageData } from 'next/image';
+import Image from 'next/image';
 
 type Props = {
-  title: string;
-  image?: StaticImageData;
+  title?: string;
+  image?: string;
   isAriaSupport?: boolean;
   isRtlSupport?: boolean;
   isInProgress?: boolean;
@@ -64,9 +64,13 @@ const ComponentPageDescription: React.FC<Props> = ({
         </div>
       </div>
       {image && (
-        <div className="flex items-center justify-center overflow-hidden lg:basis-1/2 h-80 rounded-moon-s-md">
-          <Image src={image} alt={title} />
-        </div>
+        <Image
+          src={image}
+          alt={title as string}
+          width={408}
+          height={224}
+          className="flex md:basis-1/2"
+        />
       )}
     </div>
   );

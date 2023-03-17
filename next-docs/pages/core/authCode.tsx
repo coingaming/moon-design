@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/authCode/Default';
 import ErrorState from '../../public/examples/authCode/ErrorState';
@@ -11,15 +12,11 @@ import useExamples from '../../utils/useExamples';
 
 const PageAuthCodeGroup = () => {
   const examples = useExamples('authCode');
-
+  const { name, text, image } = getComponent('AuthCode');
   return (
     <>
-      <ComponentPageDescription title="AuthCode" isInProgress>
-        <p>
-          The AuthCode component consists of TextInput components with
-          additional logic that supports quick and easy one-time-password
-          handling.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
       </ComponentPageDescription>
       <Preview
         title="Default"

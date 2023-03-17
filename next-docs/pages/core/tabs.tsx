@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/tabs/Default';
 import DefaultPills from '../../public/examples/tabs/DefaultPills';
@@ -14,18 +15,17 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('tabs');
+  const { name, text, image } = getComponent('Tabs');
   return (
     <>
       <ComponentPageDescription
-        title="Tabs"
+        title={name}
+        image={image}
         isInProgress
-        isAriaSupport
         isRtlSupport
+        isAriaSupport
       >
-        <p>
-          Tabs to allow users to navigate easily between views within the same
-          context.
-        </p>
+        <p>{text}</p>
         <p>
           Each tab should contain content that is distinct from other tabs in a
           set for example, tabs can present different sections of news,

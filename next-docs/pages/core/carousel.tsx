@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Autoslide from '../../public/examples/carousel/Autoslide';
 import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
@@ -14,14 +15,11 @@ import useExamples from '../../utils/useExamples';
 
 export default function PageCarousel() {
   const examples = useExamples('carousel');
-
+  const { name, text, image } = getComponent('Carousel');
   return (
     <>
-      <ComponentPageDescription title="Carousel" isInProgress>
-        <p>
-          Is an effective way of displaying multiple images or content in a
-          single space.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
         <p>
           It not only helps in saving screen space, but also encourages visitors
           to focus on important website content and improves the overall visual
@@ -151,7 +149,8 @@ export default function PageCarousel() {
             type: 'number',
             required: false,
             default: '-',
-            description: 'Interval of auto sliding in milliseconds. No auto sliding if undefined',
+            description:
+              'Interval of auto sliding in milliseconds. No auto sliding if undefined',
           },
         ]}
       />

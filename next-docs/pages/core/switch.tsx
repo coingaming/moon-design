@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import DefaultCode from '../../public/examples/switch/codeExamples/DefaultCode';
 import CustomBg from '../../public/examples/switch/CustomBg';
@@ -14,18 +15,17 @@ import useExamples from '../../utils/useExamples';
 const Example = () => {
   const examples = useExamples('switch');
   const examplesCode = useExamples('switch/codeExamples');
+  const { name, text, image } = getComponent('Switch');
   return (
     <>
       <ComponentPageDescription
-        title="Switch"
+        title={name}
+        image={image}
         isInProgress
         isRtlSupport
         isAriaSupport
       >
-        <p>
-          Switch is a control that is used to quickly switch between two
-          possible states.
-        </p>
+        <p>{text}</p>
         <p>
           Switches are only used for these binary actions that occur immediately
           after the user “flips” the switch.

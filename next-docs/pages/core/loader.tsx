@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Colors from '../../public/examples/loader/Colors';
 import Default from '../../public/examples/loader/Default';
@@ -9,13 +10,11 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('loader');
+  const { name, text, image } = getComponent('Loader');
   return (
     <>
-      <ComponentPageDescription title="Loader" isInProgress>
-        <p>
-          Loaders provide a visual cue that an action is processing awaiting a
-          course of change or a result.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
       </ComponentPageDescription>
       <Preview
         title="Default"

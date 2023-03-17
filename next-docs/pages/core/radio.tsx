@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import AsFormItem from '../../public/examples/radio/AsFormItem';
 import Customization from '../../public/examples/radio/Customization';
@@ -12,18 +13,17 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('radio');
+  const { name, text, image } = getComponent('Radio');
   return (
     <>
       <ComponentPageDescription
-        title="Radio"
+        title={name}
+        image={image}
         isInProgress
-        isAriaSupport
         isRtlSupport
+        isAriaSupport
       >
-        <p>
-          Radio buttons are used to represent a group of choices whereby users
-          can only select one option.
-        </p>
+        <p>{text}</p>
         <p>
           The main difference between the radio button and the checkbox is,
           users are allowed to select single options whereas in the checkbox you

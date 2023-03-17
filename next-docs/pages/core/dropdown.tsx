@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/dropdown/Default';
 import InsetMultiSelect from '../../public/examples/dropdown/InsetMultiSelect';
@@ -16,13 +17,11 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('dropdown');
+  const { name, text, image } = getComponent('Dropdown');
   return (
     <>
-      <ComponentPageDescription title="Dropdown" isInProgress>
-        <p>
-          Dropdowns is a custom select component that allows users to make
-          single or multiple selections (Multi select not supported currently).
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
         <p>
           An option that's been selected can represent a corresponding value in
           forms or be used to filter/sort content.

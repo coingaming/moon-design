@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Bg from '../../public/examples/input/Bg';
 import Default from '../../public/examples/input/Default';
@@ -11,13 +12,11 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('input');
+  const { name, text, image } = getComponent('Input');
   return (
     <>
-      <ComponentPageDescription title="Input" isInProgress>
-        <p>
-          Text input fields allow users to enter text and can be used to collect
-          user feedback or enter information in data entry forms.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
         <p>
           These types of input fields are used on their own, or in combination
           with other inputs such as number entry, date picker, etc.

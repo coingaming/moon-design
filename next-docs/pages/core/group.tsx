@@ -2,24 +2,22 @@ import React from 'react';
 import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/group/Default';
 import Direction from '../../public/examples/group/Direction';
 import Sizes from '../../public/examples/group/Sizes';
 import States from '../../public/examples/group/States';
 import Variant from '../../public/examples/group/Variant';
-
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('group');
+  const { name, text, image } = getComponent('Group');
   return (
     <>
-      <ComponentPageDescription title="Input group" isInProgress>
-        <p>
-          Combine different types of inputs into groups to save vertical space
-          on your designs and also simplify form filling.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
       </ComponentPageDescription>
 
       <Preview

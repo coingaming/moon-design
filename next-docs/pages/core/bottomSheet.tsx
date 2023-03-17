@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import CustomHeight from '../../public/examples/bottomSheet/CustomHeight';
 import Default from '../../public/examples/bottomSheet/Default';
@@ -9,13 +10,11 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('bottomSheet');
+  const { name, text, image } = getComponent('BottomSheet');
   return (
     <>
-      <ComponentPageDescription title="BottomSheet" isInProgress>
-        <p>
-          The bottom sheet component is a modified dialog that slides from the
-          bottom of the screen, common pattern in mobile apps.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
         <p>
           Bottom sheets can contain any anything so let your imagination fly.
         </p>
