@@ -1,5 +1,6 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Colors from '../../public/examples/progress/Colors';
 import Default from '../../public/examples/progress/Default';
@@ -9,19 +10,17 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('progress');
+  const { name, text, image } = getComponent('Progress');
   return (
     <>
       <ComponentPageDescription
-        title="Progress"
-        isAriaSupport
+        title={name}
+        image={image}
+        isInProgress
         isRtlSupport
-        isInProgress // Added 01.11.2022
+        isAriaSupport
       >
-        <p>
-          A progress indicator is a visual representation of a user's progress
-          through a set of steps, guiding toward the completion of a specified
-          process.
-        </p>
+        <p>{text}</p>
       </ComponentPageDescription>
       <Preview
         title="Default"

@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/popover/Default';
 import Position from '../../public/examples/popover/Position';
@@ -11,13 +12,11 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('popover');
+  const { name, text, image } = getComponent('Popover');
   return (
     <>
-      <ComponentPageDescription title="Popover" isInProgress>
-        <p>
-          Popovers are perfect for floating panels with arbitrary content like
-          navigation menus, mobile menus and flyout menus.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
         <p>
           Based on{' '}
           <a

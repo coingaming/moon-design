@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import BigContent from '../../public/examples/modal/BigContent';
 import Default from '../../public/examples/modal/Default';
@@ -11,14 +12,11 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('modal');
+  const { name, text, image } = getComponent('Modal');
   return (
     <>
-      <ComponentPageDescription title="Modal" isInProgress>
-        <p>
-          A modal is an interface element that appears over other content. It
-          requires an interaction from the user before they can return to
-          whatever is underneath.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
         <p>
           Based on{' '}
           <a

@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/textarea/Customization';
 import Default from '../../public/examples/textarea/Default';
@@ -9,10 +10,16 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('textarea');
+  const { name, text, image } = getComponent('Textarea');
   return (
     <>
-      <ComponentPageDescription title="Textarea" isInProgress isRtlSupport>
-        <p>A form control for editing multi-line text.</p>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+      >
+        <p>{text}</p>
       </ComponentPageDescription>
       <Preview
         title="Default"

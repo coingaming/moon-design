@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/form/Default';
 import WithInsetInput from '../../public/examples/form/WithInsetInput';
@@ -9,13 +10,11 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('form');
+  const { name, text, image } = getComponent('Form');
   return (
     <>
-      <ComponentPageDescription title="Form" isInProgress>
-        <p>
-          {`Form is a small wrapper around an HTML <form/>`}. All props are
-          passed directly through to the DOM node.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
         <p>
           You can set the size prop for Form and this size will be applied to
           all children's components.

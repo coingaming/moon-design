@@ -2,11 +2,10 @@ import React from 'react';
 import NextLink from 'next/link';
 import ComponentPageDescription from '../components/ComponentPageDescription';
 import TokenTable from '../components/TokenTable';
-import tokenImg from '../public/illustartions/tokens.png';
 
 const PageTokensNew = () => (
   <>
-    <ComponentPageDescription title="Tokens" image={tokenImg}>
+    <ComponentPageDescription title="Tokens" image="/illustartions/tokens.png">
       <p>
         Design tokens are{' '}
         <span className="font-medium">

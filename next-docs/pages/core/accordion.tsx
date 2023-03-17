@@ -17,17 +17,17 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('accordion');
-  const { component, image } = getComponent('Accordion');
+  const { name, text, image } = getComponent('Accordion');
   return (
     <>
       <ComponentPageDescription
-        title={component?.name}
+        title={name}
         image={image}
         isInProgress
         isRtlSupport
         isAriaSupport
       >
-        <p>{component?.text}</p>
+        <p>{text}</p>
         <p>
           Based on{' '}
           <a
