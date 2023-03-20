@@ -38,7 +38,6 @@ const RecursiveNavItem: React.FC<Props> = ({ item, pathname, onClick }) => {
       </Accordion>
     );
   }
-  console.log('item', item);
   return (
     <Link key={name} href={href} isActive={isCurrent} onClick={onClick}>
       {name}

@@ -48,6 +48,7 @@ const navigation = [
       },
       getComponent('Radio'),
       getComponent('Search'),
+      getComponent('SearchModal'),
       getComponent('Select'),
       getComponent('Snackbar'),
       getComponent('Switch'),

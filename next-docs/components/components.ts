@@ -130,6 +130,11 @@ const components = [
     text: 'Search enables users to specify a word or a phrase to find relevant pieces of content without the use of navigation.',
   },
   {
+    name: 'SearchModal',
+    href: '/core/searchModal',
+    text: 'Search bla bla.',
+  },
+  {
     name: 'Select',
     href: '/core/select',
     text: 'A form input used for selecting a value: when collapsed it shows the currently selected option and when expanded, it shows a scrollable list of predefined options for the user to choose from.',
