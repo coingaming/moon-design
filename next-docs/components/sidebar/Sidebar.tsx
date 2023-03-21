@@ -19,7 +19,7 @@ const Sidebar: React.FC<Props> = ({ closeSidebar }) => {
         <LogoLink />
       </div>
       <div>
-        <SearchButton />
+        {/* <SearchButton /> */}
       </div>
       <nav
         className="flex-grow flex flex-col items-start gap-2"
