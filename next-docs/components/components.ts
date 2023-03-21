@@ -60,6 +60,11 @@ const components = [
   //   text: 'An input that behaves similarly to a select, with the addition of a free text input to filter options.',
   // },
   {
+    name: 'Combobox',
+    href: '/core/combobox',
+    text: 'The Combobox is an editable textbox, allowing the user to either type a value directly or select a value from the list.',
+  },
+  {
     name: 'Drawer',
     href: '/components/drawer',
     text: 'The Drawer component is a panel that slides out from the edge of the screen. It can be useful when you need users to complete a task or view some details without leaving the current page.',

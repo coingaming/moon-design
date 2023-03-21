@@ -23,6 +23,7 @@ const Example = () => {
       >
         <p>{text}</p>
       </ComponentPageDescription>
+
       <Preview
         title="With Label"
         preview={<WithLabel />}

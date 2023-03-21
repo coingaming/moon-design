@@ -1,0 +1,79 @@
+:root.theme-partners-light,
+.theme-partners-light {
+  --piccolo: 66 150 89; /* #429659 */
+  --hit: 70 99 163; /* #4663a3 */
+  --beerus: 224 224 225; /* #e0e0e1 */
+  --gohan: 255 255 255; /* #ffffff */
+  --goten: 255 255 255; /* #ffffff */
+  --goku: 245 245 245; /* #f5f5f6 */
+  --bulma: 34 34 37; /* #222225 */
+  --trunks: 119 119 126; /* #77777e */
+  --popo: 34 34 37; /* #222225 */
+  --jiren: 66 150 89 / 0.2; /* #429659 */
+  --heles: 34 34 37 / 0.12; /* #222225 */
+  --zeno: 1 9 19 / 0.4; /* #010913 */
+
+  /* support-colors  */
+  --krillin: 255 179 25; /* #ffb319 */
+  --krillin-60: 255 198 82; /* #ffc652 */
+  --krillin-10: 255 217 141; /* #ffd98d */
+
+  --chichi: 255 78 100; /* #ff4e64 */
+  --chichi-60: 255 118 135; /* #ff7687 */
+  --chichi-10: 255 150 163; /* #ff96a3 */
+
+  --roshi: 74 209 95; /* #4ad15f */
+  --roshi-60: 100 220 119; /* #64dc77 */
+  --roshi-10: 127 242 145; /* #7ff291 */
+
+  --dodoria: 211 48 48; /* #d33030 */
+  --dodoria-60: 219 78 78; /* #db4e4e */
+  --dodoria-10: 240 103 103; /* #f06767 */
+
+  --cell: 149 241 213; /* #95f1d5 */
+  --cell-60: 162 250 223; /* #a2fadf */
+  --cell-10: 191 255 236; /* #bfffec */
+
+  --raditz: 179 128 74; /* #b3804a */
+  --raditz-60: 193 145 93; /* #c1915d */
+  --raditz-10: 214 169 121; /* #d6a979 */
+
+  --whis: 52 72 240; /* #3448f0 */
+  --whis-60: 103 119 248; /* #6777f8 */
+  --whis-10: 132 144 249; /* #8490f9 */
+
+  --frieza: 92 51 207; /* #5c33cf */
+  --frieza-60: 115 77 222; /* #734dde */
+  --frieza-10: 146 113 239; /* #9271ef */
+
+  --nappa: 114 85 80; /* #725550 */
+  --nappa-60: 133 106 102; /* #856a66 */
+  --nappa-10: 161 134 129; /* #a18681 */
+
+  /* border-radius */
+  --radius-i-xs: 0.25rem; /* 4px */
+  --radius-i-sm: 0.5rem; /* 8px */
+  --radius-i-md: 0.75rem; /* 12px */
+  --radius-s-xs: 0.25rem; /* 4px */
+  --radius-s-sm: 0.5rem; /* 8px */
+  --radius-s-md: 0.75rem; /* 12px */
+  --radius-s-lg: 1rem; /* 16px */
+
+  /* border-width */
+  --border-width: 0.0625rem; /* 1px */
+  --border-i-width: 0.125rem; /* 2px */
+
+  /* opacity */
+  --opacity-partners: 0.32;
+
+  /* fonts */
+  --averta: 'Averta Std';
+
+  /* box-shadow */
+  --shadow-xs: 0 4px 12px -6px rgb(0 0 0 / 0.06);
+  --shadow-sm: 0 6px 6px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4);
+  --shadow-md: 0 12px 12px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4);
+  --shadow-lg: 0 8px 24px -6px rgb(0 0 0 / 0.16), 0 0 1px rgb(0 0 0 / 0.4);
+  --shadow-xl: 0 32px 32px -8px rgb(0 0 0 / 0.08),
+    0 0 32px -8px rgb(0 0 0 / 0.12), 0 0 1px rgb(0 0 0 / 0.2);
+}
