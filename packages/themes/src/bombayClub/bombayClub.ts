@@ -29,6 +29,15 @@ const colors = {
   trunks: {
     100: 'rgba(122, 122, 122, 1)',
   },
+  piccolo_sportsbet: {
+    100: 'rgba(73, 179, 86, 1)',
+  },
+  piccolo_livecasino: {
+    100: 'rgba(222, 13, 62, 1)',
+  },
+  piccolo_empire: {
+    100: 'rgba(255, 37, 168, 1)',
+  },
 };
 
 const colorNew = {
@@ -41,6 +50,9 @@ const colorNew = {
   trunks: '#7A7A7A',
   goten: '#ffffff',
   popo: '#000000',
+  piccoloSportsbet: '#49b356',
+  piccoloLivecasino: '#de0d3e',
+  piccoloEmpire: '#ff25a8',
 };
 
 const { hover: bombayClubHover } = bitcasinoLight;
