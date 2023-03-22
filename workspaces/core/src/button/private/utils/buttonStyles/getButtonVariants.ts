@@ -1,6 +1,10 @@
+import mergeClassnames from '../../../../mergeClassnames/mergeClassnames';
 import type ButtonSettingsProps from '../../types/ButtonSettingsProps';
 
-const getButtonVariants = (variant: ButtonSettingsProps['variant']): string => {
+const getButtonVariants = ({
+  variant,
+  disabled,
+}: ButtonSettingsProps): string => {
   if (variant === 'secondary') {
     return 'btn-secondary';
   }
@@ -8,7 +12,10 @@ const getButtonVariants = (variant: ButtonSettingsProps['variant']): string => {
     return 'btn-tertiary';
   }
   if (variant === 'ghost') {
-    return 'text-trunks bg-transparent hover:text-bulma';
+    return mergeClassnames(
+      'text-trunks bg-transparent',
+      !disabled && 'hover:text-bulma'
+    );
   }
   return 'btn-primary';
 };

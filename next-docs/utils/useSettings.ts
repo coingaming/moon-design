@@ -1,6 +1,6 @@
-import { useRtl } from "../components/rtl/RtlProvider";
-import { useDocsTheme } from "../components/themes/DocsThemeProvider";
-import useTheme from "../components/themes/useThemes";
+import { useRtl } from '../components/rtl/RtlProvider';
+import { useDocsTheme } from '../components/themes/DocsThemeProvider';
+import useTheme from '../components/themes/useThemes';
 
 const useSettings = () => {
   const { toggleColorScheme } = useDocsTheme();
@@ -11,18 +11,18 @@ const useSettings = () => {
     toggleColorScheme();
     toggleMode();
   };
-  const origin =
-    typeof window !== 'undefined' && window.location.origin
-      ? window.location.origin
+  const hostname =
+    typeof window !== 'undefined' && window.location.hostname
+      ? window.location.hostname
       : '';
-  const isLocalhost = origin === 'http://localhost:3000';
+  const isLocalhost = hostname === 'localhost';
   return {
     isDarkThemeEnabled,
     switchModeHandler,
     rtlEnabled,
     toggleRtl,
-    isLocalhost
-  }
-}
+    isLocalhost,
+  };
+};
 
-export default useSettings
+export default useSettings;
