@@ -15,8 +15,8 @@ const PageComponents = () => (
       </p>
     </div>
     <ComponentsPageSection title="Components">
-      {components.map((component) => (
-        <ComponentsPageCard title={component.name} />
+      {components.map((component, index) => (
+        <ComponentsPageCard key={index} title={component.name} />
       ))}
     </ComponentsPageSection>
   </>
