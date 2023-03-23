@@ -19,12 +19,16 @@ const AccordionSingle = ({
   children,
   className,
   defaultValue,
+  value,
+  onValueChange,
 }: AccordionRootProps) => (
   <RadixAccordion.Root
     type="single"
     collapsible
     className={className}
     defaultValue={defaultValue}
+    value={value as string}
+    onValueChange={onValueChange as (value: string) => void}
   >
     {children}
   </RadixAccordion.Root>
@@ -34,11 +38,15 @@ const AccordionMultiple = ({
   children,
   className,
   defaultValue = '',
+  value = '',
+  onValueChange,
 }: AccordionRootProps) => (
   <RadixAccordion.Root
     type="multiple"
     className={className}
     defaultValue={[defaultValue]}
+    value={value as string[]}
+    onValueChange={onValueChange as (value: string[]) => void}
   >
     {children}
   </RadixAccordion.Root>
