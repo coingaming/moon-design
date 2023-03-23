@@ -2,11 +2,10 @@ import React from 'react';
 import ColoursPalette from '../components/ColoursPalette';
 import ComponentPageDescription from '../components/ComponentPageDescription';
 import PageSection from '../components/PageSection';
-import coloursImg from '../public/illustartions/colors.png';
 
 const PageColours = () => (
   <>
-    <ComponentPageDescription title="Colours" image={coloursImg}>
+    <ComponentPageDescription title="Colours" image="/illustartions/colors.png">
       <p>
         Our design system is decentralized and built for multi-product purposes.
         Having different-colour naming conventions and numbers etc... makes it

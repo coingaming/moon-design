@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import ArrowPositions from '../../public/examples/tooltip/ArrowPositions';
 import Customization from '../../public/examples/tooltip/Customization';
@@ -10,13 +11,11 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('tooltip');
+  const { name, text, image } = getComponent('Tooltip');
   return (
     <>
-      <ComponentPageDescription title="Tooltip" isInProgress>
-        <p>
-          A means of displaying a description or extra information about an
-          element, usually on hover, but can also be on click or tap.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
         <p>
           Based on{' '}
           <a

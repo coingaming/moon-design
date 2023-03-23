@@ -13,8 +13,9 @@ const BrandSwitcher = () => {
   };
   return (
     <>
-      {THEMES.map((item) => (
+      {THEMES.map((item, index) => (
         <MenuItem
+          key={index}
           role="radio"
           isSelected={theme === item}
           onClick={useCallback(() => handleClick(item), [item])}

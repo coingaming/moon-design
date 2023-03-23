@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Checked from '../../public/examples/checkbox/Checked';
 import Customize from '../../public/examples/checkbox/Customize';
@@ -12,18 +13,17 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('checkbox');
+  const { name, text, image } = getComponent('Checkbox');
   return (
     <>
       <ComponentPageDescription
-        title="Checkbox"
+        title={name}
+        image={image}
         isInProgress
         isRtlSupport
         isAriaSupport
       >
-        <p>
-          The checkbox is shown as a square box that is ticked (checked) when
-          activated.
-        </p>
+        <p>{text}</p>
         <p>
           Checkboxes are used to let a user select one or more options of a
           limited number of choices.

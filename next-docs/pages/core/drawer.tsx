@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Backdrop from '../../public/examples/drawer/Backdrop';
 import Close from '../../public/examples/drawer/Close';
@@ -11,19 +12,17 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('drawer');
+  const { name, text, image } = getComponent('Drawer');
   return (
     <>
       <ComponentPageDescription
-        title="Drawer"
+        title={name}
+        image={image}
         isInProgress
-        isAriaSupport
         isRtlSupport
+        isAriaSupport
       >
-        <p>
-          The Drawer component is a panel that slides out from the edge of the
-          screen. It can be useful when you need users to complete a task or
-          view some details without leaving the current page.
-        </p>
+        <p>{text}</p>
         <p>
           Based on{' '}
           <a

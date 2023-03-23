@@ -1,4 +1,4 @@
-import { Accordion } from '@heathmont/moon-core-tw';
+import { Accordion, mergeClassnames } from '@heathmont/moon-core-tw';
 import { ControlsChevronRight } from '@heathmont/moon-icons-tw';
 import Link from './Link';
 import type ItemType from './ItemType';
@@ -19,11 +19,15 @@ const RecursiveNavItem: React.FC<Props> = ({ item, pathname, onClick }) => {
           <Accordion.Header className="moon-open:[&_svg]:rotate-90">
             <Accordion.Button>
               <span>{name}</span>
-              <ControlsChevronRight className="text-trunks text-moon-16 transition-transform transition-200" />
+              <ControlsChevronRight
+                className={mergeClassnames(
+                  'text-trunks text-moon-16 transition-transform transition-200'
+                )}
+              />
             </Accordion.Button>
           </Accordion.Header>
           <Accordion.ContentOutside>
-            <div className="flex flex-col items-start gap-2 ps-8">
+            <div className="flex w-full flex-col items-start gap-2 ps-8">
               {children.map((subItem: ItemType) => (
                 <RecursiveNavItem
                   key={subItem.name}

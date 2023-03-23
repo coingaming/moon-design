@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import AsLink from '../../public/examples/menuItem/AsLink';
 import Checkbox from '../../public/examples/menuItem/Checkbox';
@@ -16,13 +17,11 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('menuItem');
+  const { name, text, image } = getComponent('MenuItem');
   return (
     <>
-      <ComponentPageDescription title="MenuItem" isInProgress>
-        <p>
-          Menu items are used in such vertical menues and containers as
-          Popovers, Sidebars, Drawers, Dialogs etc.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
         <p>
           Menu item row heights can vary based on the amount of content in each
           row. The content in each row is flexible. By default, each menu item

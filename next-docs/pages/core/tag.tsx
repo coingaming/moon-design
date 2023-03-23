@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Customization from '../../public/examples/tag/Customization';
 import Default from '../../public/examples/tag/Default';
@@ -11,13 +12,16 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('tag');
+  const { name, text, image } = getComponent('Tag');
   return (
     <>
-      <ComponentPageDescription title="Tag" isInProgress isRtlSupport>
-        <p>
-          Tag represent a set of interactive keywords that help organize and
-          categorize objects.
-        </p>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+      >
+        <p>{text}</p>
         <p>Tags can be added or removed from an object.</p>
       </ComponentPageDescription>
       <Preview

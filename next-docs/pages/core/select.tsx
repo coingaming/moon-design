@@ -1,6 +1,7 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Disabled from '../../public/examples/select/Disabled';
 import Error from '../../public/examples/select/Error';
@@ -13,14 +14,11 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('select');
+  const { name, text, image } = getComponent('Select');
   return (
     <>
-      <ComponentPageDescription title="Select" isInProgress>
-        <p>
-          A form input used for selecting a value: when collapsed it shows the
-          currently selected option and when expanded, it shows a scrollable
-          list of predefined options for the user to choose from.
-        </p>
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
         <p>
           Moon.io supports two types of selects, one whichs opens browser's
           native styling option list and custom "Dropdown".
