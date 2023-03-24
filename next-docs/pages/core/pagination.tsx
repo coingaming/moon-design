@@ -2,6 +2,7 @@ import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/pagination/Default';
 import WithButtons from '../../public/examples/pagination/WithButtons';
@@ -9,14 +10,20 @@ import useExamples from '../../utils/useExamples';
 
 const Example = () => {
   const examples = useExamples('pagination');
+  const { name, text, image } = getComponent('Pagination');
 
   return (
     <>
-      <ComponentPageDescription title="Pagination" isInProgress>
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+      >
+        <p>{text}</p>
         <p>
-          Pagination is the process of splitting information over multiple pages
-          instead of showing it all on a single page; also the name for the
-          interface component used for navigating between these pages.
+          Also the name for the interface component used for navigating between
+          these pages.
         </p>
       </ComponentPageDescription>
       <ComponentAnatomy>

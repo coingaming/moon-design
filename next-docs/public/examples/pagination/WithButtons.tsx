@@ -20,7 +20,7 @@ const Example = () => {
         <Pagination.PrevButton as="div">
           {({ disabled }) => (
             <IconButton
-              icon={<ControlsChevronLeft />}
+              icon={<ControlsChevronLeft className="rtl:rotate-180" />}
               variant="secondary"
               size="sm"
               disabled={disabled}
@@ -31,7 +31,7 @@ const Example = () => {
         <Pagination.NextButton as="div">
           {({ disabled }) => (
             <IconButton
-              icon={<ControlsChevronRight />}
+              icon={<ControlsChevronRight className="rtl:rotate-180" />}
               variant="secondary"
               size="sm"
               disabled={disabled}
