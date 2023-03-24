@@ -1,5 +1,11 @@
 # @heathmont/moon-core-tw
 
+## 9.27.0
+
+### Minor Changes
+
+- Add Pagination component
+
 ## 9.26.3
 
 ### Patch Changes
