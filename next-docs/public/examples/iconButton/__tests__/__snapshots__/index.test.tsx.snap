@@ -234,7 +234,7 @@ exports[`IconButton in Dark Theme renders Default 1`] = `
 
 exports[`IconButton in Dark Theme renders Disabled 1`] = `
 <button
-  className="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 opacity-30 cursor-not-allowed btn-primary text-moon-24"
+  className="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-primary text-moon-24"
   disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -720,7 +720,7 @@ exports[`IconButton in Light Theme renders Default 1`] = `
 
 exports[`IconButton in Light Theme renders Disabled 1`] = `
 <button
-  className="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 opacity-30 cursor-not-allowed btn-primary text-moon-24"
+  className="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-primary text-moon-24"
   disabled={true}
   onMouseEnter={[Function]}
   onMouseLeave={[Function]}
@@ -1219,7 +1219,7 @@ exports[`IconButton in RTL renders Disabled 1`] = `
   dir="rtl"
 >
   <button
-    className="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 opacity-30 cursor-not-allowed btn-primary text-moon-24"
+    className="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-primary text-moon-24"
     disabled={true}
     onMouseEnter={[Function]}
     onMouseLeave={[Function]}

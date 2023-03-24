@@ -1,5 +1,17 @@
 # Change Log
 
+## 9.27.0
+
+### Minor Changes
+
+- Add Pagination component
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-themes@9.27.0
+  - @heathmont/moon-utils@9.27.0
+
 ## 9.26.3
 
 ### Patch Changes

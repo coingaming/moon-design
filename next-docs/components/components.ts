@@ -105,6 +105,11 @@ const components = [
     text: 'A modal is an interface element that appears over other content. It requires an interaction from the user before they can return to whatever is underneath.',
   },
   {
+    name: 'Pagination',
+    href: '/core/pagination',
+    text: 'Pagination is the process of splitting information over multiple pages instead of showing it all on a single page.',
+  },
+  {
     name: 'Popover',
     href: '/core/popover',
     text: 'Popovers are perfect for floating panels with arbitrary content like navigation menus, mobile menus and flyout menus.',

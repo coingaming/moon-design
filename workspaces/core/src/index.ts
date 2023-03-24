@@ -54,6 +54,8 @@ export { default as mergeClassnames } from './mergeClassnames/mergeClassnames';
 export * from './mergeClassnames/mergeClassnames';
 export { default as Modal } from './modal/Modal';
 export * from './modal/Modal';
+export { default as Pagination } from './pagination/Pagination';
+export * from './pagination/Pagination';
 export { default as Popover } from './popover/Popover';
 export * from './popover/Popover';
 export { default as Progress } from './progress/Progress';
