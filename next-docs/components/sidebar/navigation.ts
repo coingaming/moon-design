@@ -41,6 +41,7 @@ const navigation = [
       getComponent('Loader'),
       getComponent('MenuItem'),
       getComponent('Modal'),
+      getComponent('Pagination'),
       getComponent('Popover'),
       {
         name: 'Progress',
