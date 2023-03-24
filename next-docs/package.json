@@ -37,6 +37,7 @@
     "@next/bundle-analyzer": "^13.0.1",
     "@octokit/core": "3.5.1",
     "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "14.0.0",
     "@types/react": "18.0.28",
     "@types/react-copy-to-clipboard": "5.0.2",
     "@types/styled-components": "5.1.25",

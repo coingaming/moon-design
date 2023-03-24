@@ -1,209 +1,1925 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Modal in Dark Theme renders BigContent 1`] = `
-<button
-  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
-  type="button"
->
-  Open dialog
-  <span
-    aria-hidden="true"
-    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-  />
-</button>
-`;
-
-exports[`Modal in Dark Theme renders Default 1`] = `
-<button
-  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
-  type="button"
->
-  Open dialog
-  <span
-    aria-hidden="true"
-    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-  />
-</button>
-`;
-
-exports[`Modal in Dark Theme renders StyledContent 1`] = `
-<button
-  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
-  type="button"
->
-  Open dialog
-  <span
-    aria-hidden="true"
-    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-  />
-</button>
-`;
-
-exports[`Modal in Dark Theme renders WithSelect 1`] = `
-<button
-  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
-  type="button"
->
-  Open dialog
-  <span
-    aria-hidden="true"
-    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-  />
-</button>
-`;
-
-exports[`Modal in Light Theme renders BigContent 1`] = `
-<button
-  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
-  type="button"
->
-  Open dialog
-  <span
-    aria-hidden="true"
-    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-  />
-</button>
-`;
-
-exports[`Modal in Light Theme renders Default 1`] = `
-<button
-  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
-  type="button"
->
-  Open dialog
-  <span
-    aria-hidden="true"
-    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-  />
-</button>
-`;
-
-exports[`Modal in Light Theme renders StyledContent 1`] = `
-<button
-  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
-  type="button"
->
-  Open dialog
-  <span
-    aria-hidden="true"
-    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-  />
-</button>
-`;
-
-exports[`Modal in Light Theme renders WithSelect 1`] = `
-<button
-  className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-  onClick={[Function]}
-  onMouseEnter={[Function]}
-  onMouseLeave={[Function]}
-  type="button"
->
-  Open dialog
-  <span
-    aria-hidden="true"
-    className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-  />
-</button>
-`;
-
 exports[`Modal in RTL renders BigContent 1`] = `
-<div
-  dir="rtl"
->
-  <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    type="button"
-  >
-    Open dialog
-    <span
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div
+      id="headlessui-portal-root"
+    >
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      >
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+        <div>
+          <div
+            aria-modal="true"
+            class="relative z-10"
+            data-headlessui-state="open"
+            id="headlessui-dialog-:rj:"
+            role="dialog"
+          >
+            <div
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
+            />
+            <div
+              class="fixed inset-0 overflow-y-auto"
+            >
+              <div
+                class="flex min-h-full items-center justify-center p-4"
+              >
+                <div
+                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-panel-:rk:"
+                >
+                  <div
+                    class="p-4 border-b-2 border-beerus"
+                  >
+                    <h3
+                      class="text-moon-18 text-bulma font-medium"
+                    >
+                      Payment successful
+                    </h3>
+                  </div>
+                  <div
+                    class="p-4"
+                  >
+                    <p
+                      class="text-moon-sm text-trunks"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit massa at lorem fermentum volutpat. Aliquam varius faucibus turpis, in facilisis dui dictum ac. Nulla ac consequat enim. Ut lobortis ultricies mauris eget volutpat. Aliquam aliquam nisl in nulla sagittis, eget viverra est ullamcorper. Morbi vel eros sed mauris dignissim congue et nec ligula. Duis quis tellus a est facilisis finibus. Duis varius libero id arcu pretium, et ultrices diam tincidunt. Aenean laoreet, velit at tempus eleifend, lectus turpis interdum ipsum, ac porta elit libero at arcu. Nam maximus magna vel orci pulvinar, et dignissim mi egestas. Pellentesque dapibus rhoncus ex, a finibus tortor sagittis quis. In nunc mauris, scelerisque vitae elit pulvinar, consequat accumsan leo. Proin varius maximus erat sed convallis. Aliquam convallis turpis turpis, eget euismod justo elementum at. Curabitur ligula velit, volutpat eget lacus sed, congue hendrerit turpis. Ut justo felis, ultricies et ornare quis, finibus ac lectus. Nam scelerisque felis nec massa convallis, eu ornare mauris posuere. Vivamus lacinia feugiat odio. Mauris cursus eu libero sit amet sollicitudin. Proin urna lectus, sodales nec ultricies ut, pharetra a mauris. Cras quis pharetra velit. Pellentesque magna erat, bibendum volutpat facilisis vitae, euismod in odio. Donec id sem vehicula, mollis eros porttitor, mattis sem. Etiam augue ligula, consectetur lobortis ullamcorper a, ullamcorper a lectus. Nullam non auctor quam. Morbi a lorem ut eros lobortis ultricies vitae sed lacus. Proin auctor vestibulum lorem a porttitor. Nunc ullamcorper leo risus. Integer tincidunt erat leo, ut lacinia est volutpat sit amet. Nulla laoreet molestie pharetra. Suspendisse sed magna erat. Fusce et orci orci. Suspendisse sit amet finibus mi. Integer fringilla venenatis dolor, porttitor bibendum lorem mattis et. Maecenas nisl nisl, finibus sed dolor vel, rhoncus euismod lorem. Maecenas sit amet gravida nunc. Praesent iaculis nunc elit, ut viverra nisl aliquam non. Donec eget ex velit. Pellentesque sed laoreet nunc. Morbi eget augue cursus, laoreet lorem in, tempus magna. Aliquam quis auctor nibh, id ornare sapien. Aenean sem magna, tempus a tempus in, lobortis vitae nisi. Mauris lobortis tellus sit amet elit maximus ornare. Sed interdum ac purus quis feugiat. Praesent nunc quam, gravida placerat dui eget, tempus pharetra urna. Maecenas eros augue, rutrum vitae maximus dictum, consectetur ut orci. Phasellus ut consequat urna. Morbi pellentesque sapien mauris, quis ornare diam ultricies eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt lacus purus, sit amet ultricies elit dapibus et. Vestibulum at velit eu mauris tincidunt lobortis quis sed leo. Vivamus non rhoncus massa, et bibendum ligula. Sed pulvinar, tortor eu faucibus vestibulum, nunc magna laoreet leo, ut elementum diam ipsum vitae purus. Vestibulum egestas sit amet elit egestas auctor. Mauris vestibulum ex at erat viverra ultricies. Suspendisse et nisi enim. Aenean ut velit sit amet diam aliquet molestie non quis urna. Praesent nec arcu non nisl maximus tempus in in ligula. Sed sodales eu elit facilisis tempus. Suspendisse viverra porta velit, mollis tempor purus aliquam id. Vestibulum sit amet vehicula dolor. Vestibulum orci nulla, sodales vitae euismod at, aliquam egestas sapien. Pellentesque et massa et lectus imperdiet ullamcorper. Integer sit amet semper nisl, sed suscipit eros. Nunc quis quam leo. Pellentesque porttitor, ex vitae ultrices interdum, sapien tellus dictum lectus, quis convallis elit felis vitae nulla. Nulla volutpat cursus urna, sed facilisis nisi consectetur sed. Praesent ac euismod odio. Mauris laoreet id ante vel finibus. Nulla nec egestas mi. Aenean leo lacus, imperdiet at lobortis nec, egestas ac mi. Praesent ut molestie est. Sed est dui, rhoncus eget semper id, egestas in sapien. Vestibulum aliquet, orci eget ultricies placerat, felis leo euismod enim, efficitur lacinia nulla ipsum non odio. Etiam id urna ut tortor egestas mattis. Nullam eget urna ac massa facilisis auctor nec at diam. Aliquam imperdiet, tortor non dignissim semper, eros sem congue lacus, a vehicula diam tellus ut ligula. Sed eget porta nibh, nec interdum urna. In tempor placerat massa, at imperdiet leo tincidunt eget. Vestibulum eu laoreet nisl, et gravida mauris. Aliquam erat volutpat. Vivamus elit diam, fringilla varius congue quis, dignissim non sapien. Curabitur a magna vitae risus tempus vulputate. Ut metus metus, iaculis in tincidunt ullamcorper, eleifend vitae mauris. Aliquam erat volutpat. Nunc eu nisi placerat, feugiat eros non, fringilla purus. Aliquam erat volutpat. Morbi sit amet imperdiet felis, sit amet dapibus lacus. Sed aliquam ipsum vitae ipsum maximus convallis. Donec quis nulla placerat, scelerisque tellus ut, ullamcorper sapien. Pellentesque enim lacus, ornare mollis nisl vitae, rutrum tincidunt mauris. Sed suscipit, augue in venenatis ultrices, augue nunc viverra turpis, eget ornare tellus lectus sit amet felis. In aliquam ullamcorper nulla sit amet tristique. Pellentesque odio ipsum, pulvinar sit amet est eget, maximus accumsan leo. Aenean consequat tellus vel pulvinar bibendum. Suspendisse finibus volutpat nisl, id dictum est feugiat sit amet. Pellentesque euismod lectus leo. Integer imperdiet nisi egestas quam posuere, mollis imperdiet odio tincidunt. Nam non quam leo. Vivamus vulputate metus sed velit laoreet euismod id et turpis. Vestibulum dictum ac turpis quis ultrices. Vivamus non semper nunc. Nullam vitae dignissim augue. Aliquam mollis nibh enim, sit amet accumsan est suscipit ac. Cras dignissim aliquet turpis id aliquet. Mauris erat magna, mattis ut ligula eu, ultricies interdum dolor. Cras nec congue mi, vitae faucibus nisi. Fusce tincidunt ultrices eleifend. Vestibulum sit amet porta lectus. Fusce dapibus tortor in lectus vehicula lobortis. Vestibulum ac felis congue, consectetur nunc sed, porttitor lorem. Maecenas non ultrices diam, non molestie neque. Donec metus odio, bibendum nec facilisis vel, mattis ut ex. Morbi luctus ex eu est tincidunt lacinia. Sed commodo eget neque eget aliquet. Phasellus tincidunt justo imperdiet nunc scelerisque, sit amet interdum lorem dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </p>
+                  </div>
+                  <div
+                    class="p-4 border-t-2 border-beerus"
+                  >
+                    <button
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      type="button"
+                    >
+                      Got it, thanks!
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+      </div>
+    </div>
+    <div
       aria-hidden="true"
-      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-    />
-  </button>
-</div>
+    >
+      <div
+        dir="rtl"
+      >
+        <button
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          type="button"
+        >
+          Open dialog
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+        <div
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div
+    aria-hidden="true"
+  >
+    <div
+      dir="rtl"
+    >
+      <button
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        type="button"
+      >
+        Open dialog
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+      <div
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Modal in RTL renders Default 1`] = `
-<div
-  dir="rtl"
->
-  <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    type="button"
-  >
-    Open dialog
-    <span
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div
+      id="headlessui-portal-root"
+    >
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      >
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+        <div>
+          <div
+            aria-modal="true"
+            class="relative z-10"
+            data-headlessui-state="open"
+            id="headlessui-dialog-:rh:"
+            role="dialog"
+          >
+            <div
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
+            />
+            <div
+              class="fixed inset-0 overflow-y-auto"
+            >
+              <div
+                class="flex min-h-full items-center justify-center p-4"
+              >
+                <div
+                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-panel-:ri:"
+                >
+                  <div
+                    class="p-4 border-b-2 border-beerus"
+                  >
+                    <h3
+                      class="text-moon-18 text-bulma font-medium"
+                    >
+                      Payment successful
+                    </h3>
+                  </div>
+                  <div
+                    class="p-4"
+                  >
+                    <p
+                      class="text-moon-sm text-trunks"
+                    >
+                      Your payment has been successfully submitted. We’ve sent you an email with all of the details of your order. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit massa at lorem fermentum volutpat. Aliquam varius faucibus turpis, in facilisis dui dictum ac. Nulla ac consequat enim. Ut lobortis ultricies mauris eget volutpat. Aliquam aliquam nisl in nulla sagittis, eget viverra est ullamcorper.
+                    </p>
+                  </div>
+                  <div
+                    class="p-4 border-t-2 border-beerus"
+                  >
+                    <button
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      type="button"
+                    >
+                      Got it, thanks!
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+      </div>
+    </div>
+    <div
       aria-hidden="true"
-      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-    />
-  </button>
-</div>
+    >
+      <div
+        dir="rtl"
+      >
+        <button
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          type="button"
+        >
+          Open dialog
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+        <div
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div
+    aria-hidden="true"
+  >
+    <div
+      dir="rtl"
+    >
+      <button
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        type="button"
+      >
+        Open dialog
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+      <div
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Modal in RTL renders StyledContent 1`] = `
-<div
-  dir="rtl"
->
-  <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    type="button"
-  >
-    Open dialog
-    <span
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div
+      id="headlessui-portal-root"
+    >
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      >
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+        <div>
+          <div
+            aria-modal="true"
+            class="relative z-10"
+            data-headlessui-state="open"
+            id="headlessui-dialog-:rl:"
+            role="dialog"
+          >
+            <div
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
+            />
+            <div
+              class="fixed inset-0 overflow-y-auto"
+            >
+              <div
+                class="flex min-h-full items-center justify-center p-4"
+              >
+                <div
+                  class="w-full max-w-sm inline-block rounded-xl align-middle shadow-moon-lg transition-all lg:max-w-md bg-roshi text-goten rounded-none transition duration-300 ease-out transform scale-95 opacity-0"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-panel-:rm:"
+                >
+                  <span
+                    class="absolute top-5 right-5 cursor-pointer"
+                  >
+                    <svg
+                      class="text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                  <div
+                    class=" p-4 pt-11"
+                  >
+                    <div
+                      class="mt-2"
+                    >
+                      <h3
+                        class="text-moon-24 text-goten font-medium text-center"
+                      >
+                        Your payment has been successfully submitted.
+                      </h3>
+                    </div>
+                  </div>
+                  <div
+                    class="p-4 flex items-center justify-center"
+                  >
+                    <button
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      type="button"
+                    >
+                      Got it, thanks!
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+      </div>
+    </div>
+    <div
       aria-hidden="true"
-      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-    />
-  </button>
-</div>
+    >
+      <div
+        dir="rtl"
+      >
+        <button
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          type="button"
+        >
+          Open dialog
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+        <div
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div
+    aria-hidden="true"
+  >
+    <div
+      dir="rtl"
+    >
+      <button
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        type="button"
+      >
+        Open dialog
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+      <div
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Modal in RTL renders WithSelect 1`] = `
-<div
-  dir="rtl"
->
-  <button
-    className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-    onClick={[Function]}
-    onMouseEnter={[Function]}
-    onMouseLeave={[Function]}
-    type="button"
-  >
-    Open dialog
-    <span
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div
+      id="headlessui-portal-root"
+    >
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      >
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+        <div>
+          <div
+            aria-modal="true"
+            class="relative z-10"
+            data-headlessui-state="open"
+            id="headlessui-dialog-:rn:"
+            role="dialog"
+          >
+            <div
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
+            />
+            <div
+              class="fixed inset-0 overflow-y-auto"
+            >
+              <div
+                class="flex min-h-full items-center justify-center p-4"
+              >
+                <div
+                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-panel-:ro:"
+                >
+                  <div
+                    class="border-b-[0.063rem] border-beerus pt-5 pb-4 px-6 relative"
+                  >
+                    <h3
+                      class="text-moon-18 text-bulma font-medium"
+                    >
+                      Modal title
+                    </h3>
+                    <span
+                      class="absolute top-5 right-5 cursor-pointer"
+                    >
+                      <svg
+                        class="text-moon-24"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10 10l6 6m0 0l-6 6m6-6l6 6m-6-6l6-6"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div
+                    class="px-6 py-4 flex flex-col gap-3"
+                  >
+                    <div
+                      class="w-full relative"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <label
+                          class="block text-bulma pb-2 text-moon-16"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-label-:rp:"
+                        >
+                          xLarge
+                        </label>
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          aria-labelledby="headlessui-listbox-label-:rp: headlessui-listbox-button-:rq:"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-button-:rq:"
+                        >
+                          <div>
+                            <div
+                              class="relative"
+                            >
+                              <button
+                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                                data-test="data-test"
+                              >
+                                <span
+                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                >
+                                  <span
+                                    class="text-moon-16 text-trunks"
+                                  >
+                                    Choose size...
+                                  </span>
+                                </span>
+                                <svg
+                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                                  fill="none"
+                                  height="1em"
+                                  viewBox="0 0 32 32"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M22 13l-6 6-6-6"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="w-full relative"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <label
+                          class="block text-bulma pb-2 text-moon-16"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-label-:rs:"
+                        >
+                          xLarge
+                        </label>
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          aria-labelledby="headlessui-listbox-label-:rs: headlessui-listbox-button-:rt:"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-button-:rt:"
+                        >
+                          <div>
+                            <div
+                              class="relative"
+                            >
+                              <button
+                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                                data-test="data-test"
+                              >
+                                <span
+                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                >
+                                  <span
+                                    class="text-moon-16 text-trunks"
+                                  >
+                                    Choose color...
+                                  </span>
+                                </span>
+                                <svg
+                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                                  fill="none"
+                                  height="1em"
+                                  viewBox="0 0 32 32"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M22 13l-6 6-6-6"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="w-full relative"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <label
+                          class="block text-bulma pb-2 text-moon-16"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-label-:rv:"
+                        >
+                          xLarge
+                        </label>
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          aria-labelledby="headlessui-listbox-label-:rv: headlessui-listbox-button-:r10:"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-button-:r10:"
+                        >
+                          <div>
+                            <div
+                              class="relative"
+                            >
+                              <button
+                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                                data-test="data-test"
+                              >
+                                <span
+                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                >
+                                  <span
+                                    class="text-moon-16 text-trunks"
+                                  >
+                                    Choose material...
+                                  </span>
+                                </span>
+                                <svg
+                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                                  fill="none"
+                                  height="1em"
+                                  viewBox="0 0 32 32"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M22 13l-6 6-6-6"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex gap-2 p-4 justify-end pt-2"
+                  >
+                    <button
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      type="button"
+                    >
+                      Cancel
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
+                    <button
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      type="button"
+                    >
+                      Create
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+      </div>
+    </div>
+    <div
       aria-hidden="true"
-      className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+    >
+      <div
+        dir="rtl"
+      >
+        <button
+          class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+          type="button"
+        >
+          Open dialog
+          <span
+            aria-hidden="true"
+            class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+          />
+        </button>
+        <div
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div
+    aria-hidden="true"
+  >
+    <div
+      dir="rtl"
+    >
+      <button
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        type="button"
+      >
+        Open dialog
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+      <div
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Modal renders BigContent 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div
+      id="headlessui-portal-root"
+    >
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      >
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+        <div>
+          <div
+            aria-modal="true"
+            class="relative z-10"
+            data-headlessui-state="open"
+            id="headlessui-dialog-:r2:"
+            role="dialog"
+          >
+            <div
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
+            />
+            <div
+              class="fixed inset-0 overflow-y-auto"
+            >
+              <div
+                class="flex min-h-full items-center justify-center p-4"
+              >
+                <div
+                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-panel-:r3:"
+                >
+                  <div
+                    class="p-4 border-b-2 border-beerus"
+                  >
+                    <h3
+                      class="text-moon-18 text-bulma font-medium"
+                    >
+                      Payment successful
+                    </h3>
+                  </div>
+                  <div
+                    class="p-4"
+                  >
+                    <p
+                      class="text-moon-sm text-trunks"
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit massa at lorem fermentum volutpat. Aliquam varius faucibus turpis, in facilisis dui dictum ac. Nulla ac consequat enim. Ut lobortis ultricies mauris eget volutpat. Aliquam aliquam nisl in nulla sagittis, eget viverra est ullamcorper. Morbi vel eros sed mauris dignissim congue et nec ligula. Duis quis tellus a est facilisis finibus. Duis varius libero id arcu pretium, et ultrices diam tincidunt. Aenean laoreet, velit at tempus eleifend, lectus turpis interdum ipsum, ac porta elit libero at arcu. Nam maximus magna vel orci pulvinar, et dignissim mi egestas. Pellentesque dapibus rhoncus ex, a finibus tortor sagittis quis. In nunc mauris, scelerisque vitae elit pulvinar, consequat accumsan leo. Proin varius maximus erat sed convallis. Aliquam convallis turpis turpis, eget euismod justo elementum at. Curabitur ligula velit, volutpat eget lacus sed, congue hendrerit turpis. Ut justo felis, ultricies et ornare quis, finibus ac lectus. Nam scelerisque felis nec massa convallis, eu ornare mauris posuere. Vivamus lacinia feugiat odio. Mauris cursus eu libero sit amet sollicitudin. Proin urna lectus, sodales nec ultricies ut, pharetra a mauris. Cras quis pharetra velit. Pellentesque magna erat, bibendum volutpat facilisis vitae, euismod in odio. Donec id sem vehicula, mollis eros porttitor, mattis sem. Etiam augue ligula, consectetur lobortis ullamcorper a, ullamcorper a lectus. Nullam non auctor quam. Morbi a lorem ut eros lobortis ultricies vitae sed lacus. Proin auctor vestibulum lorem a porttitor. Nunc ullamcorper leo risus. Integer tincidunt erat leo, ut lacinia est volutpat sit amet. Nulla laoreet molestie pharetra. Suspendisse sed magna erat. Fusce et orci orci. Suspendisse sit amet finibus mi. Integer fringilla venenatis dolor, porttitor bibendum lorem mattis et. Maecenas nisl nisl, finibus sed dolor vel, rhoncus euismod lorem. Maecenas sit amet gravida nunc. Praesent iaculis nunc elit, ut viverra nisl aliquam non. Donec eget ex velit. Pellentesque sed laoreet nunc. Morbi eget augue cursus, laoreet lorem in, tempus magna. Aliquam quis auctor nibh, id ornare sapien. Aenean sem magna, tempus a tempus in, lobortis vitae nisi. Mauris lobortis tellus sit amet elit maximus ornare. Sed interdum ac purus quis feugiat. Praesent nunc quam, gravida placerat dui eget, tempus pharetra urna. Maecenas eros augue, rutrum vitae maximus dictum, consectetur ut orci. Phasellus ut consequat urna. Morbi pellentesque sapien mauris, quis ornare diam ultricies eu. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam tincidunt lacus purus, sit amet ultricies elit dapibus et. Vestibulum at velit eu mauris tincidunt lobortis quis sed leo. Vivamus non rhoncus massa, et bibendum ligula. Sed pulvinar, tortor eu faucibus vestibulum, nunc magna laoreet leo, ut elementum diam ipsum vitae purus. Vestibulum egestas sit amet elit egestas auctor. Mauris vestibulum ex at erat viverra ultricies. Suspendisse et nisi enim. Aenean ut velit sit amet diam aliquet molestie non quis urna. Praesent nec arcu non nisl maximus tempus in in ligula. Sed sodales eu elit facilisis tempus. Suspendisse viverra porta velit, mollis tempor purus aliquam id. Vestibulum sit amet vehicula dolor. Vestibulum orci nulla, sodales vitae euismod at, aliquam egestas sapien. Pellentesque et massa et lectus imperdiet ullamcorper. Integer sit amet semper nisl, sed suscipit eros. Nunc quis quam leo. Pellentesque porttitor, ex vitae ultrices interdum, sapien tellus dictum lectus, quis convallis elit felis vitae nulla. Nulla volutpat cursus urna, sed facilisis nisi consectetur sed. Praesent ac euismod odio. Mauris laoreet id ante vel finibus. Nulla nec egestas mi. Aenean leo lacus, imperdiet at lobortis nec, egestas ac mi. Praesent ut molestie est. Sed est dui, rhoncus eget semper id, egestas in sapien. Vestibulum aliquet, orci eget ultricies placerat, felis leo euismod enim, efficitur lacinia nulla ipsum non odio. Etiam id urna ut tortor egestas mattis. Nullam eget urna ac massa facilisis auctor nec at diam. Aliquam imperdiet, tortor non dignissim semper, eros sem congue lacus, a vehicula diam tellus ut ligula. Sed eget porta nibh, nec interdum urna. In tempor placerat massa, at imperdiet leo tincidunt eget. Vestibulum eu laoreet nisl, et gravida mauris. Aliquam erat volutpat. Vivamus elit diam, fringilla varius congue quis, dignissim non sapien. Curabitur a magna vitae risus tempus vulputate. Ut metus metus, iaculis in tincidunt ullamcorper, eleifend vitae mauris. Aliquam erat volutpat. Nunc eu nisi placerat, feugiat eros non, fringilla purus. Aliquam erat volutpat. Morbi sit amet imperdiet felis, sit amet dapibus lacus. Sed aliquam ipsum vitae ipsum maximus convallis. Donec quis nulla placerat, scelerisque tellus ut, ullamcorper sapien. Pellentesque enim lacus, ornare mollis nisl vitae, rutrum tincidunt mauris. Sed suscipit, augue in venenatis ultrices, augue nunc viverra turpis, eget ornare tellus lectus sit amet felis. In aliquam ullamcorper nulla sit amet tristique. Pellentesque odio ipsum, pulvinar sit amet est eget, maximus accumsan leo. Aenean consequat tellus vel pulvinar bibendum. Suspendisse finibus volutpat nisl, id dictum est feugiat sit amet. Pellentesque euismod lectus leo. Integer imperdiet nisi egestas quam posuere, mollis imperdiet odio tincidunt. Nam non quam leo. Vivamus vulputate metus sed velit laoreet euismod id et turpis. Vestibulum dictum ac turpis quis ultrices. Vivamus non semper nunc. Nullam vitae dignissim augue. Aliquam mollis nibh enim, sit amet accumsan est suscipit ac. Cras dignissim aliquet turpis id aliquet. Mauris erat magna, mattis ut ligula eu, ultricies interdum dolor. Cras nec congue mi, vitae faucibus nisi. Fusce tincidunt ultrices eleifend. Vestibulum sit amet porta lectus. Fusce dapibus tortor in lectus vehicula lobortis. Vestibulum ac felis congue, consectetur nunc sed, porttitor lorem. Maecenas non ultrices diam, non molestie neque. Donec metus odio, bibendum nec facilisis vel, mattis ut ex. Morbi luctus ex eu est tincidunt lacinia. Sed commodo eget neque eget aliquet. Phasellus tincidunt justo imperdiet nunc scelerisque, sit amet interdum lorem dignissim. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                    </p>
+                  </div>
+                  <div
+                    class="p-4 border-t-2 border-beerus"
+                  >
+                    <button
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      type="button"
+                    >
+                      Got it, thanks!
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+    >
+      <button
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        type="button"
+      >
+        Open dialog
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+      <div
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+      />
+    </div>
+  </body>,
+  "container": <div
+    aria-hidden="true"
+  >
+    <button
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      type="button"
+    >
+      Open dialog
+      <span
+        aria-hidden="true"
+        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
     />
-  </button>
-</div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Modal renders Default 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div
+      aria-hidden="true"
+    >
+      <button
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        type="button"
+      >
+        Open dialog
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+      <div
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+      />
+    </div>
+    <div
+      id="headlessui-portal-root"
+    >
+      <div
+        data-headlessui-portal=""
+      >
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+        <div>
+          <div
+            aria-modal="true"
+            class="relative z-10"
+            data-headlessui-state="open"
+            id="headlessui-dialog-:r0:"
+            role="dialog"
+          >
+            <div
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
+            />
+            <div
+              class="fixed inset-0 overflow-y-auto"
+            >
+              <div
+                class="flex min-h-full items-center justify-center p-4"
+              >
+                <div
+                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-panel-:r1:"
+                >
+                  <div
+                    class="p-4 border-b-2 border-beerus"
+                  >
+                    <h3
+                      class="text-moon-18 text-bulma font-medium"
+                    >
+                      Payment successful
+                    </h3>
+                  </div>
+                  <div
+                    class="p-4"
+                  >
+                    <p
+                      class="text-moon-sm text-trunks"
+                    >
+                      Your payment has been successfully submitted. We’ve sent you an email with all of the details of your order. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam blandit massa at lorem fermentum volutpat. Aliquam varius faucibus turpis, in facilisis dui dictum ac. Nulla ac consequat enim. Ut lobortis ultricies mauris eget volutpat. Aliquam aliquam nisl in nulla sagittis, eget viverra est ullamcorper.
+                    </p>
+                  </div>
+                  <div
+                    class="p-4 border-t-2 border-beerus"
+                  >
+                    <button
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      type="button"
+                    >
+                      Got it, thanks!
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div
+    aria-hidden="true"
+  >
+    <button
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      type="button"
+    >
+      Open dialog
+      <span
+        aria-hidden="true"
+        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Modal renders StyledContent 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div
+      id="headlessui-portal-root"
+    >
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      >
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+        <div>
+          <div
+            aria-modal="true"
+            class="relative z-10"
+            data-headlessui-state="open"
+            id="headlessui-dialog-:r4:"
+            role="dialog"
+          >
+            <div
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
+            />
+            <div
+              class="fixed inset-0 overflow-y-auto"
+            >
+              <div
+                class="flex min-h-full items-center justify-center p-4"
+              >
+                <div
+                  class="w-full max-w-sm inline-block rounded-xl align-middle shadow-moon-lg transition-all lg:max-w-md bg-roshi text-goten rounded-none transition duration-300 ease-out transform scale-95 opacity-0"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-panel-:r5:"
+                >
+                  <span
+                    class="absolute top-5 right-5 cursor-pointer"
+                  >
+                    <svg
+                      class="text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </span>
+                  <div
+                    class=" p-4 pt-11"
+                  >
+                    <div
+                      class="mt-2"
+                    >
+                      <h3
+                        class="text-moon-24 text-goten font-medium text-center"
+                      >
+                        Your payment has been successfully submitted.
+                      </h3>
+                    </div>
+                  </div>
+                  <div
+                    class="p-4 flex items-center justify-center"
+                  >
+                    <button
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      type="button"
+                    >
+                      Got it, thanks!
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+    >
+      <button
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        type="button"
+      >
+        Open dialog
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+      <div
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+      />
+    </div>
+  </body>,
+  "container": <div
+    aria-hidden="true"
+  >
+    <button
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      type="button"
+    >
+      Open dialog
+      <span
+        aria-hidden="true"
+        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Modal renders WithSelect 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div
+      id="headlessui-portal-root"
+    >
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      />
+      <div
+        data-headlessui-portal=""
+      >
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+        <div>
+          <div
+            aria-modal="true"
+            class="relative z-10"
+            data-headlessui-state="open"
+            id="headlessui-dialog-:r6:"
+            role="dialog"
+          >
+            <div
+              aria-hidden="true"
+              class="fixed -z-1 inset-0 bg-zeno ease-out duration-300 transition-opacity opacity-0"
+            />
+            <div
+              class="fixed inset-0 overflow-y-auto"
+            >
+              <div
+                class="flex min-h-full items-center justify-center p-4"
+              >
+                <div
+                  class="w-full max-w-sm inline-block rounded-xl bg-gohan align-middle shadow-moon-lg transition-all transition duration-300 ease-out transform scale-95 opacity-0"
+                  data-headlessui-state="open"
+                  id="headlessui-dialog-panel-:r7:"
+                >
+                  <div
+                    class="border-b-[0.063rem] border-beerus pt-5 pb-4 px-6 relative"
+                  >
+                    <h3
+                      class="text-moon-18 text-bulma font-medium"
+                    >
+                      Modal title
+                    </h3>
+                    <span
+                      class="absolute top-5 right-5 cursor-pointer"
+                    >
+                      <svg
+                        class="text-moon-24"
+                        fill="none"
+                        height="1em"
+                        viewBox="0 0 32 32"
+                        width="1em"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M10 10l6 6m0 0l-6 6m6-6l6 6m-6-6l6-6"
+                          stroke="currentColor"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </span>
+                  </div>
+                  <div
+                    class="px-6 py-4 flex flex-col gap-3"
+                  >
+                    <div
+                      class="w-full relative"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <label
+                          class="block text-bulma pb-2 text-moon-16"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-label-:r8:"
+                        >
+                          xLarge
+                        </label>
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          aria-labelledby="headlessui-listbox-label-:r8: headlessui-listbox-button-:r9:"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-button-:r9:"
+                        >
+                          <div>
+                            <div
+                              class="relative"
+                            >
+                              <button
+                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                                data-test="data-test"
+                              >
+                                <span
+                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                >
+                                  <span
+                                    class="text-moon-16 text-trunks"
+                                  >
+                                    Choose size...
+                                  </span>
+                                </span>
+                                <svg
+                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                                  fill="none"
+                                  height="1em"
+                                  viewBox="0 0 32 32"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M22 13l-6 6-6-6"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="w-full relative"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <label
+                          class="block text-bulma pb-2 text-moon-16"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-label-:rb:"
+                        >
+                          xLarge
+                        </label>
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          aria-labelledby="headlessui-listbox-label-:rb: headlessui-listbox-button-:rc:"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-button-:rc:"
+                        >
+                          <div>
+                            <div
+                              class="relative"
+                            >
+                              <button
+                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                                data-test="data-test"
+                              >
+                                <span
+                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                >
+                                  <span
+                                    class="text-moon-16 text-trunks"
+                                  >
+                                    Choose color...
+                                  </span>
+                                </span>
+                                <svg
+                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                                  fill="none"
+                                  height="1em"
+                                  viewBox="0 0 32 32"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M22 13l-6 6-6-6"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="w-full relative"
+                    >
+                      <div
+                        class="relative"
+                      >
+                        <label
+                          class="block text-bulma pb-2 text-moon-16"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-label-:re:"
+                        >
+                          xLarge
+                        </label>
+                        <div
+                          aria-expanded="false"
+                          aria-haspopup="listbox"
+                          aria-labelledby="headlessui-listbox-label-:re: headlessui-listbox-button-:rf:"
+                          data-headlessui-state=""
+                          id="headlessui-listbox-button-:rf:"
+                        >
+                          <div>
+                            <div
+                              class="relative"
+                            >
+                              <button
+                                class="flex items-center justify-between w-full bg-gohan border-beerus shadow-input hover:shadow-input-hov transition-shadow duration-200 focus:shadow-input-focus focus:outline-none h-10 py-2 px-3 rounded-moon-i-sm"
+                                data-test="data-test"
+                              >
+                                <span
+                                  class="flex flex-col items-start overflow-hidden text-ellipsis whitespace-nowrap"
+                                >
+                                  <span
+                                    class="text-moon-16 text-trunks"
+                                  >
+                                    Choose material...
+                                  </span>
+                                </span>
+                                <svg
+                                  class="text-trunks flex-shrink-0 transition-transform text-moon-24"
+                                  fill="none"
+                                  height="1em"
+                                  viewBox="0 0 32 32"
+                                  width="1em"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M22 13l-6 6-6-6"
+                                    stroke="currentColor"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                  />
+                                </svg>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="flex gap-2 p-4 justify-end pt-2"
+                  >
+                    <button
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary"
+                      type="button"
+                    >
+                      Cancel
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
+                    <button
+                      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                      type="button"
+                    >
+                      Create
+                      <span
+                        aria-hidden="true"
+                        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                      />
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          aria-hidden="true"
+          data-headlessui-focus-guard="true"
+          style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+          type="button"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+    >
+      <button
+        class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+        type="button"
+      >
+        Open dialog
+        <span
+          aria-hidden="true"
+          class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+      <div
+        style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+      />
+    </div>
+  </body>,
+  "container": <div
+    aria-hidden="true"
+  >
+    <button
+      class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+      type="button"
+    >
+      Open dialog
+      <span
+        aria-hidden="true"
+        class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+    <div
+      style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px; display: none;"
+    />
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
