@@ -1,5 +1,34 @@
 # Change Log
 
+## 9.27.0
+
+### Minor Changes
+
+- Add Pagination component
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-core-tw@9.27.0
+  - @heathmont/moon-themes-tw@9.27.0
+  - @heathmont/moon-accordion@9.27.0
+  - @heathmont/moon-assets@9.27.0
+  - @heathmont/moon-charts@9.27.0
+  - @heathmont/moon-components@9.27.0
+  - @heathmont/moon-core@9.27.0
+  - @heathmont/moon-datepicker@9.27.0
+  - @heathmont/moon-draggabletable@9.27.0
+  - @heathmont/moon-icons@9.27.0
+  - @heathmont/moon-pagination@9.27.0
+  - @heathmont/moon-popover@9.27.0
+  - @heathmont/moon-select@9.27.0
+  - @heathmont/moon-sidebar@9.27.0
+  - @heathmont/moon-table@9.27.0
+  - @heathmont/moon-themes@9.27.0
+  - @heathmont/moon-utils@9.27.0
+  - @heathmont/moon-icons-tw@9.27.0
+  - @heathmont/moon-table-tw@9.27.0
+
 ## 9.26.3
 
 ### Patch Changes
