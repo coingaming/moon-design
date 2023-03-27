@@ -1,797 +1,2817 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Dropdown in Dark Theme renders Default 1`] = `
-<div
-  data-headlessui-state=""
->
-  <div
-    className="relative"
-  >
-    <div
-      aria-expanded={false}
-      data-headlessui-state=""
-      id="headlessui-popover-button-:r18:"
-      onClick={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-    >
-      <button
-        className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        type="button"
-      >
-        Toggle Popover
-        <span
-          aria-hidden="true"
-          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-        />
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Dropdown in Dark Theme renders Position 1`] = `
-<div
-  className="flex align-middle justify-around items-center w-full gap-2"
->
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
+exports[`Popover in RTL renders Default 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
       <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:r1s:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Top
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
-    </div>
-  </div>
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
-      <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:r21:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Right
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
-    </div>
-  </div>
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
-      <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:r26:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Left
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Dropdown in Dark Theme renders TriggerElements 1`] = `
-<div
-  className="flex align-middle justify-around items-center w-full gap-2"
->
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
-      <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:r1d:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Button
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
-    </div>
-  </div>
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
-      <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:r1i:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <button
-          className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-        >
-          <svg
-            className="text-moon-24"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </button>
-      </div>
-    </div>
-  </div>
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
-      <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:r1n:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <span
-          className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
-        >
-          Open popover
-        </span>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Dropdown in Dark Theme renders WithClose 1`] = `
-<div
-  data-headlessui-state=""
->
-  <div
-    className="relative"
-  >
-    <div
-      aria-expanded={false}
-      data-headlessui-state=""
-      id="headlessui-popover-button-:r2b:"
-      onClick={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-    >
-      <button
-        className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        type="button"
-      >
-        Toggle Popover
-        <span
-          aria-hidden="true"
-          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-        />
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Dropdown in RTL renders Default 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
-      <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:r2g:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Toggle Popover
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Dropdown in RTL renders Position 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    className="flex align-middle justify-around items-center w-full gap-2"
-  >
-    <div
-      data-headlessui-state=""
-    >
-      <div
-        className="relative"
+        dir="rtl"
       >
         <div
-          aria-expanded={false}
-          data-headlessui-state=""
-          id="headlessui-popover-button-:r34:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
+          data-headlessui-state="open"
         >
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
+          <div
+            class="relative"
           >
-            Top
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
-      </div>
-    </div>
-    <div
-      data-headlessui-state=""
-    >
-      <div
-        className="relative"
-      >
-        <div
-          aria-expanded={false}
-          data-headlessui-state=""
-          id="headlessui-popover-button-:r39:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-        >
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Right
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
-      </div>
-    </div>
-    <div
-      data-headlessui-state=""
-    >
-      <div
-        className="relative"
-      >
-        <div
-          aria-expanded={false}
-          data-headlessui-state=""
-          id="headlessui-popover-button-:r3e:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-        >
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Left
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Dropdown in RTL renders TriggerElements 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    className="flex align-middle justify-around items-center w-full gap-2"
-  >
-    <div
-      data-headlessui-state=""
-    >
-      <div
-        className="relative"
-      >
-        <div
-          aria-expanded={false}
-          data-headlessui-state=""
-          id="headlessui-popover-button-:r2l:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-        >
-          <button
-            className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-            onMouseEnter={[Function]}
-            onMouseLeave={[Function]}
-            type="button"
-          >
-            Button
-            <span
-              aria-hidden="true"
-              className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-            />
-          </button>
-        </div>
-      </div>
-    </div>
-    <div
-      data-headlessui-state=""
-    >
-      <div
-        className="relative"
-      >
-        <div
-          aria-expanded={false}
-          data-headlessui-state=""
-          id="headlessui-popover-button-:r2q:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
-        >
-          <button
-            className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-          >
-            <svg
-              className="text-moon-24"
-              fill="none"
-              height="1em"
-              viewBox="0 0 32 32"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
+            <div
+              aria-controls="headlessui-popover-panel-:r1a:"
+              aria-expanded="true"
+              data-headlessui-state="open"
+              id="headlessui-popover-button-:r18:"
             >
-              <path
-                d="M25 11.5l-9 9-9-9"
-                stroke="currentColor"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              />
-            </svg>
-          </button>
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Toggle Popover
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+            <div
+              class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+              data-headlessui-state="open"
+              data-popper-escaped="true"
+              data-popper-placement="bottom"
+              data-popper-reference-hidden="true"
+              id="headlessui-popover-panel-:r1a:"
+              style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+              tabindex="-1"
+            >
+              <div
+                class="p-6 flex flex-col gap-6"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+                  >
+                    <svg
+                      class="text-bulma text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.206 24.813a.5.5 0 000 1v-1zm5.79 1a.5.5 0 100-1v1zm5.584-18.52a.5.5 0 000 1v-1zm.829.5v.5-.5zm1.415 2.512l-.452-.214.452.214zM5.11 9.628l-.46.197.001.002.46-.199zm1.086-1.835l-.002.5h.002v-.5zm1.224.5a.5.5 0 000-1v1zm8.543 10.27a.5.5 0 00.092-.995l-.092.995zM9.004 4v-.5a.5.5 0 00-.5.496l.5.004zm14.19 0l.5-.004a.5.5 0 00-.5-.496V4zm-7.046 13.567a.5.5 0 00.091.996l-.091-.995zm-2.942 8.246h5.79v-1h-5.79v1zM24.58 8.293h.829v-1h-.829v1zm.829 0c.179 0 .358.05.519.147l.519-.855a1.995 1.995 0 00-1.039-.292l.001 1zm.519.147c.161.098.302.243.403.423l.872-.49a2.155 2.155 0 00-.756-.788l-.52.855zm.403.423c.102.181.16.39.168.607l1-.033a2.33 2.33 0 00-.296-1.064l-.872.49zm.168.607c.008.217-.037.431-.127.62l.904.43c.16-.337.235-.71.223-1.083l-1 .033zm-.127.62c-1.444 3.046-4.556 7.605-10.194 7.605v1c6.264 0 9.624-5.068 11.098-8.176l-.904-.428zm-10.194 7.605h-.116v1h.116v-1zm-.116 0c-6.073 0-9.214-5.313-10.493-8.265l-.918.397c1.29 2.978 4.668 8.868 11.412 8.868v-1zM5.57 9.432a.888.888 0 01-.068-.403l-.998-.063c-.019.294.031.589.146.859l.92-.393zm-.068-.403a.868.868 0 01.117-.387l-.86-.509c-.15.253-.237.54-.255.833l.998.063zm.117-.387a.737.737 0 01.257-.261l-.509-.861c-.251.149-.46.36-.609.613l.86.51zm.257-.261a.62.62 0 01.318-.088l.003-1a1.62 1.62 0 00-.83.227l.51.86zm.32-.088H7.42v-1H6.196v1zm9.859 9.274c-1.6-.147-2.807-1.006-3.735-2.271-.936-1.276-1.57-2.944-1.993-4.63-.423-1.682-.63-3.35-.73-4.6a30.561 30.561 0 01-.092-1.92 11.79 11.79 0 01-.001-.14v-.002L9.004 4l-.5-.003v.159c.002.101.004.25.01.437.011.375.035.91.087 1.553.103 1.284.315 3.01.756 4.763.439 1.747 1.112 3.555 2.156 4.978 1.052 1.434 2.496 2.496 4.45 2.676l.092-.995zM9.004 4.5h14.19v-1H9.004v1zm14.19-.5l-.5.004v.034a14.04 14.04 0 01-.01.525c-.01.36-.033.879-.083 1.503-.1 1.25-.305 2.918-.727 4.6-.424 1.687-1.057 3.354-1.992 4.63-.928 1.265-2.135 2.124-3.734 2.271l.091.996c1.954-.18 3.398-1.242 4.45-2.676 1.043-1.423 1.716-3.23 2.154-4.978.44-1.753.652-3.48.755-4.764a31.558 31.558 0 00.095-1.99l.001-.116v-.031V4v-.003l-.5.003zM14.23 18.195l-.496.064v-.002-.001.009a2.386 2.386 0 01.002.281c-.01.204-.046.506-.153.872-.213.727-.71 1.727-1.87 2.734l.655.755c1.311-1.138 1.91-2.305 2.174-3.209.132-.45.18-.829.193-1.102a3.411 3.411 0 00-.007-.448l-.001-.01v-.004-.001-.001l-.497.063zm3.54 0l-.496-.063v.002l-.001.004-.001.01a1.348 1.348 0 00-.009.123 3.41 3.41 0 00.002.325c.014.273.061.653.193 1.102.264.904.863 2.071 2.174 3.21l.656-.756c-1.161-1.007-1.658-2.007-1.87-2.734a3.831 3.831 0 01-.154-.872 2.427 2.427 0 01.001-.281l.001-.01v.003l-.496-.063zm-7.08 4.835h10.823v-1H10.69v1zm10.823 0c.46 0 .82.365.82.8h1a1.81 1.81 0 00-1.82-1.8v1zm.82.8v2.87h1v-2.87h-1zm0 2.87c0 .435-.36.8-.82.8v1a1.81 1.81 0 001.82-1.8h-1zm-.82.8H10.69v1h10.824v-1zm-10.824 0a.81.81 0 01-.82-.8h-1c0 1.001.822 1.8 1.82 1.8v-1zm-.82-.8v-2.87h-1v2.87h1zm0-2.87c0-.435.36-.8.82-.8v-1a1.81 1.81 0 00-1.82 1.8h1z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    <span
+                      class="block text-bulma text-moon-14"
+                    >
+                      Tournaments
+                    </span>
+                    <span
+                      class="flex text-trunks text-moon-12"
+                    >
+                      <span
+                        class="flex-1 truncate"
+                      >
+                        <span>
+                          Best tournaments with streamers
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </button>
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="flex w-11 h-11 bg-goku items-center justify-center"
+                  >
+                    <svg
+                      class="text-bulma text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.039 19.065v4.312a1.591 1.591 0 01-3.172.183l-.52-4.495M7.5 17.394v-2.788a1.67 1.67 0 011.67-1.67h4.186a1 1 0 00.547-.163l6.503-4.25c1.33-.87 3.094.084 3.094 1.674v11.607c0 1.589-1.764 2.543-3.094 1.674l-6.503-4.25a1 1 0 00-.547-.163H9.171A1.672 1.672 0 017.5 17.394z"
+                        stroke="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    <span
+                      class="block text-bulma text-moon-14"
+                    >
+                      Promotions
+                    </span>
+                    <span
+                      class="flex text-trunks text-moon-12"
+                    >
+                      <span
+                        class="flex-1 truncate"
+                      >
+                        <span>
+                           Your favourite games
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </button>
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="flex w-11 h-11 bg-goku items-center justify-center"
+                  >
+                    <svg
+                      class="text-bulma text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.885 14.539V25.5m0-19v2.923m10.23 13.154V25.5m0-19v10.962M8.5 14.539h4.77a2 2 0 002-2v-1.116a2 2 0 00-2-2H8.5a2 2 0 00-2 2v1.116a2 2 0 002 2zm10.23 8.038h4.77a2 2 0 002-2V19.46a2 2 0 00-2-2h-4.77a2 2 0 00-2 2v1.116a2 2 0 002 2z"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    <span
+                      class="block text-bulma text-moon-14"
+                    >
+                      Providers
+                    </span>
+                    <span
+                      class="flex text-trunks text-moon-12"
+                    >
+                      <span
+                        class="flex-1 truncate"
+                      >
+                        <span>
+                           Your favourite games
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+  </body>,
+  "container": <div>
     <div
-      data-headlessui-state=""
+      dir="rtl"
     >
       <div
-        className="relative"
+        data-headlessui-state="open"
       >
         <div
-          aria-expanded={false}
-          data-headlessui-state=""
-          id="headlessui-popover-button-:r2v:"
-          onClick={[Function]}
-          onKeyDown={[Function]}
-          onKeyUp={[Function]}
-          onMouseDown={[Function]}
+          class="relative"
         >
-          <span
-            className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+          <div
+            aria-controls="headlessui-popover-panel-:r1a:"
+            aria-expanded="true"
+            data-headlessui-state="open"
+            id="headlessui-popover-button-:r18:"
           >
-            Open popover
-          </span>
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Toggle Popover
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+          <div
+            class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+            data-headlessui-state="open"
+            data-popper-escaped="true"
+            data-popper-placement="bottom"
+            data-popper-reference-hidden="true"
+            id="headlessui-popover-panel-:r1a:"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+            tabindex="-1"
+          >
+            <div
+              class="p-6 flex flex-col gap-6"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.206 24.813a.5.5 0 000 1v-1zm5.79 1a.5.5 0 100-1v1zm5.584-18.52a.5.5 0 000 1v-1zm.829.5v.5-.5zm1.415 2.512l-.452-.214.452.214zM5.11 9.628l-.46.197.001.002.46-.199zm1.086-1.835l-.002.5h.002v-.5zm1.224.5a.5.5 0 000-1v1zm8.543 10.27a.5.5 0 00.092-.995l-.092.995zM9.004 4v-.5a.5.5 0 00-.5.496l.5.004zm14.19 0l.5-.004a.5.5 0 00-.5-.496V4zm-7.046 13.567a.5.5 0 00.091.996l-.091-.995zm-2.942 8.246h5.79v-1h-5.79v1zM24.58 8.293h.829v-1h-.829v1zm.829 0c.179 0 .358.05.519.147l.519-.855a1.995 1.995 0 00-1.039-.292l.001 1zm.519.147c.161.098.302.243.403.423l.872-.49a2.155 2.155 0 00-.756-.788l-.52.855zm.403.423c.102.181.16.39.168.607l1-.033a2.33 2.33 0 00-.296-1.064l-.872.49zm.168.607c.008.217-.037.431-.127.62l.904.43c.16-.337.235-.71.223-1.083l-1 .033zm-.127.62c-1.444 3.046-4.556 7.605-10.194 7.605v1c6.264 0 9.624-5.068 11.098-8.176l-.904-.428zm-10.194 7.605h-.116v1h.116v-1zm-.116 0c-6.073 0-9.214-5.313-10.493-8.265l-.918.397c1.29 2.978 4.668 8.868 11.412 8.868v-1zM5.57 9.432a.888.888 0 01-.068-.403l-.998-.063c-.019.294.031.589.146.859l.92-.393zm-.068-.403a.868.868 0 01.117-.387l-.86-.509c-.15.253-.237.54-.255.833l.998.063zm.117-.387a.737.737 0 01.257-.261l-.509-.861c-.251.149-.46.36-.609.613l.86.51zm.257-.261a.62.62 0 01.318-.088l.003-1a1.62 1.62 0 00-.83.227l.51.86zm.32-.088H7.42v-1H6.196v1zm9.859 9.274c-1.6-.147-2.807-1.006-3.735-2.271-.936-1.276-1.57-2.944-1.993-4.63-.423-1.682-.63-3.35-.73-4.6a30.561 30.561 0 01-.092-1.92 11.79 11.79 0 01-.001-.14v-.002L9.004 4l-.5-.003v.159c.002.101.004.25.01.437.011.375.035.91.087 1.553.103 1.284.315 3.01.756 4.763.439 1.747 1.112 3.555 2.156 4.978 1.052 1.434 2.496 2.496 4.45 2.676l.092-.995zM9.004 4.5h14.19v-1H9.004v1zm14.19-.5l-.5.004v.034a14.04 14.04 0 01-.01.525c-.01.36-.033.879-.083 1.503-.1 1.25-.305 2.918-.727 4.6-.424 1.687-1.057 3.354-1.992 4.63-.928 1.265-2.135 2.124-3.734 2.271l.091.996c1.954-.18 3.398-1.242 4.45-2.676 1.043-1.423 1.716-3.23 2.154-4.978.44-1.753.652-3.48.755-4.764a31.558 31.558 0 00.095-1.99l.001-.116v-.031V4v-.003l-.5.003zM14.23 18.195l-.496.064v-.002-.001.009a2.386 2.386 0 01.002.281c-.01.204-.046.506-.153.872-.213.727-.71 1.727-1.87 2.734l.655.755c1.311-1.138 1.91-2.305 2.174-3.209.132-.45.18-.829.193-1.102a3.411 3.411 0 00-.007-.448l-.001-.01v-.004-.001-.001l-.497.063zm3.54 0l-.496-.063v.002l-.001.004-.001.01a1.348 1.348 0 00-.009.123 3.41 3.41 0 00.002.325c.014.273.061.653.193 1.102.264.904.863 2.071 2.174 3.21l.656-.756c-1.161-1.007-1.658-2.007-1.87-2.734a3.831 3.831 0 01-.154-.872 2.427 2.427 0 01.001-.281l.001-.01v.003l-.496-.063zm-7.08 4.835h10.823v-1H10.69v1zm10.823 0c.46 0 .82.365.82.8h1a1.81 1.81 0 00-1.82-1.8v1zm.82.8v2.87h1v-2.87h-1zm0 2.87c0 .435-.36.8-.82.8v1a1.81 1.81 0 001.82-1.8h-1zm-.82.8H10.69v1h10.824v-1zm-10.824 0a.81.81 0 01-.82-.8h-1c0 1.001.822 1.8 1.82 1.8v-1zm-.82-.8v-2.87h-1v2.87h1zm0-2.87c0-.435.36-.8.82-.8v-1a1.81 1.81 0 00-1.82 1.8h1z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Tournaments
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                        Best tournaments with streamers
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.039 19.065v4.312a1.591 1.591 0 01-3.172.183l-.52-4.495M7.5 17.394v-2.788a1.67 1.67 0 011.67-1.67h4.186a1 1 0 00.547-.163l6.503-4.25c1.33-.87 3.094.084 3.094 1.674v11.607c0 1.589-1.764 2.543-3.094 1.674l-6.503-4.25a1 1 0 00-.547-.163H9.171A1.672 1.672 0 017.5 17.394z"
+                      stroke="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Promotions
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                         Your favourite games
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.885 14.539V25.5m0-19v2.923m10.23 13.154V25.5m0-19v10.962M8.5 14.539h4.77a2 2 0 002-2v-1.116a2 2 0 00-2-2H8.5a2 2 0 00-2 2v1.116a2 2 0 002 2zm10.23 8.038h4.77a2 2 0 002-2V19.46a2 2 0 00-2-2h-4.77a2 2 0 00-2 2v1.116a2 2 0 002 2z"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Providers
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                         Your favourite games
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Dropdown in RTL renders WithClose 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
+exports[`Popover in RTL renders Position 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
       <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:r3j:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
+        dir="rtl"
       >
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
+        <div
+          class="flex align-middle justify-around items-center w-full gap-2"
         >
-          Toggle Popover
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Popover in Light Theme renders Default 1`] = `
-<div
-  data-headlessui-state=""
->
-  <div
-    className="relative"
-  >
-    <div
-      aria-expanded={false}
-      data-headlessui-state=""
-      id="headlessui-popover-button-:r0:"
-      onClick={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-    >
-      <button
-        className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        type="button"
-      >
-        Toggle Popover
-        <span
-          aria-hidden="true"
-          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-        />
-      </button>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Popover in Light Theme renders Position 1`] = `
-<div
-  className="flex align-middle justify-around items-center w-full gap-2"
->
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
-      <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:rk:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Top
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
-    </div>
-  </div>
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
-      <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:rp:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Right
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
-    </div>
-  </div>
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
-      <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:ru:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Left
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-`;
-
-exports[`Popover in Light Theme renders TriggerElements 1`] = `
-<div
-  className="flex align-middle justify-around items-center w-full gap-2"
->
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
-      <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:r5:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <button
-          className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
-        >
-          Button
-          <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </div>
-    </div>
-  </div>
-  <div
-    data-headlessui-state=""
-  >
-    <div
-      className="relative"
-    >
-      <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:ra:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
-      >
-        <button
-          className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-        >
-          <svg
-            className="text-moon-24"
-            fill="none"
-            height="1em"
-            viewBox="0 0 32 32"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+          <div
+            data-headlessui-state="open"
           >
-            <path
-              d="M25 11.5l-9 9-9-9"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </button>
+            <div
+              class="relative"
+            >
+              <div
+                aria-controls="headlessui-popover-panel-:r1u:"
+                aria-expanded="true"
+                data-headlessui-state="open"
+                id="headlessui-popover-button-:r1s:"
+              >
+                <button
+                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                  type="button"
+                >
+                  Top
+                  <span
+                    aria-hidden="true"
+                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  />
+                </button>
+              </div>
+              <button
+                aria-hidden="true"
+                data-headlessui-focus-guard="true"
+                id="headlessui-focus-sentinel-:r1t:"
+                style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+                type="button"
+              />
+              <button
+                aria-hidden="true"
+                data-headlessui-focus-guard="true"
+                id="headlessui-focus-sentinel-before-:r1v:"
+                style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+                type="button"
+              />
+              <div
+                class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+                data-headlessui-state="open"
+                data-popper-escaped="true"
+                data-popper-placement="top"
+                data-popper-reference-hidden="true"
+                id="headlessui-popover-panel-:r1u:"
+                style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
+                tabindex="-1"
+              >
+                <p
+                  class="p-4 text-moon-14"
+                >
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </p>
+              </div>
+              <button
+                aria-hidden="true"
+                data-headlessui-focus-guard="true"
+                id="headlessui-focus-sentinel-after-:r20:"
+                style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+                type="button"
+              />
+            </div>
+          </div>
+          <div
+            data-headlessui-state=""
+          >
+            <div
+              class="relative"
+            >
+              <div
+                aria-expanded="false"
+                data-headlessui-state=""
+                id="headlessui-popover-button-:r21:"
+              >
+                <button
+                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                  type="button"
+                >
+                  Right
+                  <span
+                    aria-hidden="true"
+                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            data-headlessui-state=""
+          >
+            <div
+              class="relative"
+            >
+              <div
+                aria-expanded="false"
+                data-headlessui-state=""
+                id="headlessui-popover-button-:r26:"
+              >
+                <button
+                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                  type="button"
+                >
+                  Left
+                  <span
+                    aria-hidden="true"
+                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  <div
-    data-headlessui-state=""
-  >
+  </body>,
+  "container": <div>
     <div
-      className="relative"
+      dir="rtl"
     >
       <div
-        aria-expanded={false}
-        data-headlessui-state=""
-        id="headlessui-popover-button-:rf:"
-        onClick={[Function]}
-        onKeyDown={[Function]}
-        onKeyUp={[Function]}
-        onMouseDown={[Function]}
+        class="flex align-middle justify-around items-center w-full gap-2"
       >
-        <span
-          className="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+        <div
+          data-headlessui-state="open"
         >
-          Open popover
-        </span>
+          <div
+            class="relative"
+          >
+            <div
+              aria-controls="headlessui-popover-panel-:r1u:"
+              aria-expanded="true"
+              data-headlessui-state="open"
+              id="headlessui-popover-button-:r1s:"
+            >
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Top
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+            <button
+              aria-hidden="true"
+              data-headlessui-focus-guard="true"
+              id="headlessui-focus-sentinel-:r1t:"
+              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+              type="button"
+            />
+            <button
+              aria-hidden="true"
+              data-headlessui-focus-guard="true"
+              id="headlessui-focus-sentinel-before-:r1v:"
+              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+              type="button"
+            />
+            <div
+              class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+              data-headlessui-state="open"
+              data-popper-escaped="true"
+              data-popper-placement="top"
+              data-popper-reference-hidden="true"
+              id="headlessui-popover-panel-:r1u:"
+              style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
+              tabindex="-1"
+            >
+              <p
+                class="p-4 text-moon-14"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <button
+              aria-hidden="true"
+              data-headlessui-focus-guard="true"
+              id="headlessui-focus-sentinel-after-:r20:"
+              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+              type="button"
+            />
+          </div>
+        </div>
+        <div
+          data-headlessui-state=""
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-expanded="false"
+              data-headlessui-state=""
+              id="headlessui-popover-button-:r21:"
+            >
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Right
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          data-headlessui-state=""
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-expanded="false"
+              data-headlessui-state=""
+              id="headlessui-popover-button-:r26:"
+            >
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Left
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Popover in Light Theme renders WithClose 1`] = `
-<div
-  data-headlessui-state=""
->
-  <div
-    className="relative"
-  >
-    <div
-      aria-expanded={false}
-      data-headlessui-state=""
-      id="headlessui-popover-button-:r13:"
-      onClick={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-    >
-      <button
-        className="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        type="button"
+exports[`Popover in RTL renders TriggerElements 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
       >
-        Toggle Popover
-        <span
-          aria-hidden="true"
-          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-        />
-      </button>
+        <div
+          class="flex align-middle justify-around items-center w-full gap-2"
+        >
+          <div
+            data-headlessui-state="open"
+          >
+            <div
+              class="relative"
+            >
+              <div
+                aria-controls="headlessui-popover-panel-:r1f:"
+                aria-expanded="true"
+                data-headlessui-state="open"
+                id="headlessui-popover-button-:r1d:"
+              >
+                <button
+                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                  type="button"
+                >
+                  Button
+                  <span
+                    aria-hidden="true"
+                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  />
+                </button>
+              </div>
+              <div
+                class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+                data-headlessui-state="open"
+                data-popper-escaped="true"
+                data-popper-placement="bottom"
+                data-popper-reference-hidden="true"
+                id="headlessui-popover-panel-:r1f:"
+                style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+                tabindex="-1"
+              >
+                <div>
+                  <button
+                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                    type="button"
+                  >
+                    Tournaments
+                  </button>
+                  <button
+                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                    type="button"
+                  >
+                    Promotions
+                  </button>
+                  <button
+                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                    type="button"
+                  >
+                    Providers
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            data-headlessui-state=""
+          >
+            <div
+              class="relative"
+            >
+              <div
+                aria-expanded="false"
+                data-headlessui-state=""
+                id="headlessui-popover-button-:r1i:"
+              >
+                <button
+                  class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+                >
+                  <svg
+                    class="text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M25 11.5l-9 9-9-9"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            data-headlessui-state=""
+          >
+            <div
+              class="relative"
+            >
+              <div
+                aria-expanded="false"
+                data-headlessui-state=""
+                id="headlessui-popover-button-:r1n:"
+              >
+                <span
+                  class="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+                >
+                  Open popover
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex align-middle justify-around items-center w-full gap-2"
+      >
+        <div
+          data-headlessui-state="open"
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-controls="headlessui-popover-panel-:r1f:"
+              aria-expanded="true"
+              data-headlessui-state="open"
+              id="headlessui-popover-button-:r1d:"
+            >
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Button
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+            <div
+              class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+              data-headlessui-state="open"
+              data-popper-escaped="true"
+              data-popper-placement="bottom"
+              data-popper-reference-hidden="true"
+              id="headlessui-popover-panel-:r1f:"
+              style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+              tabindex="-1"
+            >
+              <div>
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  Tournaments
+                </button>
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  Promotions
+                </button>
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  Providers
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          data-headlessui-state=""
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-expanded="false"
+              data-headlessui-state=""
+              id="headlessui-popover-button-:r1i:"
+            >
+              <button
+                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+              >
+                <svg
+                  class="text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5l-9 9-9-9"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          data-headlessui-state=""
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-expanded="false"
+              data-headlessui-state=""
+              id="headlessui-popover-button-:r1n:"
+            >
+              <span
+                class="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+              >
+                Open popover
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Popover in RTL renders WithClose 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          data-headlessui-state="open"
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-controls="headlessui-popover-panel-:r2d:"
+              aria-expanded="true"
+              data-headlessui-state="open"
+              id="headlessui-popover-button-:r2b:"
+            >
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Toggle Popover
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+            <div
+              class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none !w-96"
+              data-headlessui-state="open"
+              data-popper-escaped="true"
+              data-popper-placement="bottom"
+              data-popper-reference-hidden="true"
+              id="headlessui-popover-panel-:r2d:"
+              style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+              tabindex="-1"
+            >
+              <div
+                class="p-6 flex flex-col gap-6"
+              >
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+                  >
+                    <svg
+                      class="text-bulma text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.206 24.813a.5.5 0 000 1v-1zm5.79 1a.5.5 0 100-1v1zm5.584-18.52a.5.5 0 000 1v-1zm.829.5v.5-.5zm1.415 2.512l-.452-.214.452.214zM5.11 9.628l-.46.197.001.002.46-.199zm1.086-1.835l-.002.5h.002v-.5zm1.224.5a.5.5 0 000-1v1zm8.543 10.27a.5.5 0 00.092-.995l-.092.995zM9.004 4v-.5a.5.5 0 00-.5.496l.5.004zm14.19 0l.5-.004a.5.5 0 00-.5-.496V4zm-7.046 13.567a.5.5 0 00.091.996l-.091-.995zm-2.942 8.246h5.79v-1h-5.79v1zM24.58 8.293h.829v-1h-.829v1zm.829 0c.179 0 .358.05.519.147l.519-.855a1.995 1.995 0 00-1.039-.292l.001 1zm.519.147c.161.098.302.243.403.423l.872-.49a2.155 2.155 0 00-.756-.788l-.52.855zm.403.423c.102.181.16.39.168.607l1-.033a2.33 2.33 0 00-.296-1.064l-.872.49zm.168.607c.008.217-.037.431-.127.62l.904.43c.16-.337.235-.71.223-1.083l-1 .033zm-.127.62c-1.444 3.046-4.556 7.605-10.194 7.605v1c6.264 0 9.624-5.068 11.098-8.176l-.904-.428zm-10.194 7.605h-.116v1h.116v-1zm-.116 0c-6.073 0-9.214-5.313-10.493-8.265l-.918.397c1.29 2.978 4.668 8.868 11.412 8.868v-1zM5.57 9.432a.888.888 0 01-.068-.403l-.998-.063c-.019.294.031.589.146.859l.92-.393zm-.068-.403a.868.868 0 01.117-.387l-.86-.509c-.15.253-.237.54-.255.833l.998.063zm.117-.387a.737.737 0 01.257-.261l-.509-.861c-.251.149-.46.36-.609.613l.86.51zm.257-.261a.62.62 0 01.318-.088l.003-1a1.62 1.62 0 00-.83.227l.51.86zm.32-.088H7.42v-1H6.196v1zm9.859 9.274c-1.6-.147-2.807-1.006-3.735-2.271-.936-1.276-1.57-2.944-1.993-4.63-.423-1.682-.63-3.35-.73-4.6a30.561 30.561 0 01-.092-1.92 11.79 11.79 0 01-.001-.14v-.002L9.004 4l-.5-.003v.159c.002.101.004.25.01.437.011.375.035.91.087 1.553.103 1.284.315 3.01.756 4.763.439 1.747 1.112 3.555 2.156 4.978 1.052 1.434 2.496 2.496 4.45 2.676l.092-.995zM9.004 4.5h14.19v-1H9.004v1zm14.19-.5l-.5.004v.034a14.04 14.04 0 01-.01.525c-.01.36-.033.879-.083 1.503-.1 1.25-.305 2.918-.727 4.6-.424 1.687-1.057 3.354-1.992 4.63-.928 1.265-2.135 2.124-3.734 2.271l.091.996c1.954-.18 3.398-1.242 4.45-2.676 1.043-1.423 1.716-3.23 2.154-4.978.44-1.753.652-3.48.755-4.764a31.558 31.558 0 00.095-1.99l.001-.116v-.031V4v-.003l-.5.003zM14.23 18.195l-.496.064v-.002-.001.009a2.386 2.386 0 01.002.281c-.01.204-.046.506-.153.872-.213.727-.71 1.727-1.87 2.734l.655.755c1.311-1.138 1.91-2.305 2.174-3.209.132-.45.18-.829.193-1.102a3.411 3.411 0 00-.007-.448l-.001-.01v-.004-.001-.001l-.497.063zm3.54 0l-.496-.063v.002l-.001.004-.001.01a1.348 1.348 0 00-.009.123 3.41 3.41 0 00.002.325c.014.273.061.653.193 1.102.264.904.863 2.071 2.174 3.21l.656-.756c-1.161-1.007-1.658-2.007-1.87-2.734a3.831 3.831 0 01-.154-.872 2.427 2.427 0 01.001-.281l.001-.01v.003l-.496-.063zm-7.08 4.835h10.823v-1H10.69v1zm10.823 0c.46 0 .82.365.82.8h1a1.81 1.81 0 00-1.82-1.8v1zm.82.8v2.87h1v-2.87h-1zm0 2.87c0 .435-.36.8-.82.8v1a1.81 1.81 0 001.82-1.8h-1zm-.82.8H10.69v1h10.824v-1zm-10.824 0a.81.81 0 01-.82-.8h-1c0 1.001.822 1.8 1.82 1.8v-1zm-.82-.8v-2.87h-1v2.87h1zm0-2.87c0-.435.36-.8.82-.8v-1a1.81 1.81 0 00-1.82 1.8h1z"
+                        fill="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    <span
+                      class="block text-bulma text-moon-14"
+                    >
+                      Tournaments
+                    </span>
+                    <span
+                      class="flex text-trunks text-moon-12"
+                    >
+                      <span
+                        class="flex-1 truncate"
+                      >
+                        <span>
+                          Best tournaments with streamers
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </button>
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="flex w-11 h-11 bg-goku items-center justify-center"
+                  >
+                    <svg
+                      class="text-bulma text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M13.039 19.065v4.312a1.591 1.591 0 01-3.172.183l-.52-4.495M7.5 17.394v-2.788a1.67 1.67 0 011.67-1.67h4.186a1 1 0 00.547-.163l6.503-4.25c1.33-.87 3.094.084 3.094 1.674v11.607c0 1.589-1.764 2.543-3.094 1.674l-6.503-4.25a1 1 0 00-.547-.163H9.171A1.672 1.672 0 017.5 17.394z"
+                        stroke="currentColor"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    <span
+                      class="block text-bulma text-moon-14"
+                    >
+                      Promotions
+                    </span>
+                    <span
+                      class="flex text-trunks text-moon-12"
+                    >
+                      <span
+                        class="flex-1 truncate"
+                      >
+                        <span>
+                           Your favourite games
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </button>
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  <span
+                    class="flex w-11 h-11 bg-goku items-center justify-center"
+                  >
+                    <svg
+                      class="text-bulma text-moon-24"
+                      fill="none"
+                      height="1em"
+                      viewBox="0 0 32 32"
+                      width="1em"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.885 14.539V25.5m0-19v2.923m10.23 13.154V25.5m0-19v10.962M8.5 14.539h4.77a2 2 0 002-2v-1.116a2 2 0 00-2-2H8.5a2 2 0 00-2 2v1.116a2 2 0 002 2zm10.23 8.038h4.77a2 2 0 002-2V19.46a2 2 0 00-2-2h-4.77a2 2 0 00-2 2v1.116a2 2 0 002 2z"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                      />
+                    </svg>
+                  </span>
+                  <span
+                    class="block grow text-start text-bulma overflow-hidden"
+                  >
+                    <span
+                      class="block text-bulma text-moon-14"
+                    >
+                      Providers
+                    </span>
+                    <span
+                      class="flex text-trunks text-moon-12"
+                    >
+                      <span
+                        class="flex-1 truncate"
+                      >
+                        <span>
+                           Your favourite games
+                        </span>
+                      </span>
+                    </span>
+                  </span>
+                </button>
+                <button
+                  class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                  type="button"
+                >
+                  Close
+                  <span
+                    aria-hidden="true"
+                    class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        data-headlessui-state="open"
+      >
+        <div
+          class="relative"
+        >
+          <div
+            aria-controls="headlessui-popover-panel-:r2d:"
+            aria-expanded="true"
+            data-headlessui-state="open"
+            id="headlessui-popover-button-:r2b:"
+          >
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Toggle Popover
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+          <div
+            class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none !w-96"
+            data-headlessui-state="open"
+            data-popper-escaped="true"
+            data-popper-placement="bottom"
+            data-popper-reference-hidden="true"
+            id="headlessui-popover-panel-:r2d:"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+            tabindex="-1"
+          >
+            <div
+              class="p-6 flex flex-col gap-6"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.206 24.813a.5.5 0 000 1v-1zm5.79 1a.5.5 0 100-1v1zm5.584-18.52a.5.5 0 000 1v-1zm.829.5v.5-.5zm1.415 2.512l-.452-.214.452.214zM5.11 9.628l-.46.197.001.002.46-.199zm1.086-1.835l-.002.5h.002v-.5zm1.224.5a.5.5 0 000-1v1zm8.543 10.27a.5.5 0 00.092-.995l-.092.995zM9.004 4v-.5a.5.5 0 00-.5.496l.5.004zm14.19 0l.5-.004a.5.5 0 00-.5-.496V4zm-7.046 13.567a.5.5 0 00.091.996l-.091-.995zm-2.942 8.246h5.79v-1h-5.79v1zM24.58 8.293h.829v-1h-.829v1zm.829 0c.179 0 .358.05.519.147l.519-.855a1.995 1.995 0 00-1.039-.292l.001 1zm.519.147c.161.098.302.243.403.423l.872-.49a2.155 2.155 0 00-.756-.788l-.52.855zm.403.423c.102.181.16.39.168.607l1-.033a2.33 2.33 0 00-.296-1.064l-.872.49zm.168.607c.008.217-.037.431-.127.62l.904.43c.16-.337.235-.71.223-1.083l-1 .033zm-.127.62c-1.444 3.046-4.556 7.605-10.194 7.605v1c6.264 0 9.624-5.068 11.098-8.176l-.904-.428zm-10.194 7.605h-.116v1h.116v-1zm-.116 0c-6.073 0-9.214-5.313-10.493-8.265l-.918.397c1.29 2.978 4.668 8.868 11.412 8.868v-1zM5.57 9.432a.888.888 0 01-.068-.403l-.998-.063c-.019.294.031.589.146.859l.92-.393zm-.068-.403a.868.868 0 01.117-.387l-.86-.509c-.15.253-.237.54-.255.833l.998.063zm.117-.387a.737.737 0 01.257-.261l-.509-.861c-.251.149-.46.36-.609.613l.86.51zm.257-.261a.62.62 0 01.318-.088l.003-1a1.62 1.62 0 00-.83.227l.51.86zm.32-.088H7.42v-1H6.196v1zm9.859 9.274c-1.6-.147-2.807-1.006-3.735-2.271-.936-1.276-1.57-2.944-1.993-4.63-.423-1.682-.63-3.35-.73-4.6a30.561 30.561 0 01-.092-1.92 11.79 11.79 0 01-.001-.14v-.002L9.004 4l-.5-.003v.159c.002.101.004.25.01.437.011.375.035.91.087 1.553.103 1.284.315 3.01.756 4.763.439 1.747 1.112 3.555 2.156 4.978 1.052 1.434 2.496 2.496 4.45 2.676l.092-.995zM9.004 4.5h14.19v-1H9.004v1zm14.19-.5l-.5.004v.034a14.04 14.04 0 01-.01.525c-.01.36-.033.879-.083 1.503-.1 1.25-.305 2.918-.727 4.6-.424 1.687-1.057 3.354-1.992 4.63-.928 1.265-2.135 2.124-3.734 2.271l.091.996c1.954-.18 3.398-1.242 4.45-2.676 1.043-1.423 1.716-3.23 2.154-4.978.44-1.753.652-3.48.755-4.764a31.558 31.558 0 00.095-1.99l.001-.116v-.031V4v-.003l-.5.003zM14.23 18.195l-.496.064v-.002-.001.009a2.386 2.386 0 01.002.281c-.01.204-.046.506-.153.872-.213.727-.71 1.727-1.87 2.734l.655.755c1.311-1.138 1.91-2.305 2.174-3.209.132-.45.18-.829.193-1.102a3.411 3.411 0 00-.007-.448l-.001-.01v-.004-.001-.001l-.497.063zm3.54 0l-.496-.063v.002l-.001.004-.001.01a1.348 1.348 0 00-.009.123 3.41 3.41 0 00.002.325c.014.273.061.653.193 1.102.264.904.863 2.071 2.174 3.21l.656-.756c-1.161-1.007-1.658-2.007-1.87-2.734a3.831 3.831 0 01-.154-.872 2.427 2.427 0 01.001-.281l.001-.01v.003l-.496-.063zm-7.08 4.835h10.823v-1H10.69v1zm10.823 0c.46 0 .82.365.82.8h1a1.81 1.81 0 00-1.82-1.8v1zm.82.8v2.87h1v-2.87h-1zm0 2.87c0 .435-.36.8-.82.8v1a1.81 1.81 0 001.82-1.8h-1zm-.82.8H10.69v1h10.824v-1zm-10.824 0a.81.81 0 01-.82-.8h-1c0 1.001.822 1.8 1.82 1.8v-1zm-.82-.8v-2.87h-1v2.87h1zm0-2.87c0-.435.36-.8.82-.8v-1a1.81 1.81 0 00-1.82 1.8h1z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Tournaments
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                        Best tournaments with streamers
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.039 19.065v4.312a1.591 1.591 0 01-3.172.183l-.52-4.495M7.5 17.394v-2.788a1.67 1.67 0 011.67-1.67h4.186a1 1 0 00.547-.163l6.503-4.25c1.33-.87 3.094.084 3.094 1.674v11.607c0 1.589-1.764 2.543-3.094 1.674l-6.503-4.25a1 1 0 00-.547-.163H9.171A1.672 1.672 0 017.5 17.394z"
+                      stroke="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Promotions
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                         Your favourite games
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.885 14.539V25.5m0-19v2.923m10.23 13.154V25.5m0-19v10.962M8.5 14.539h4.77a2 2 0 002-2v-1.116a2 2 0 00-2-2H8.5a2 2 0 00-2 2v1.116a2 2 0 002 2zm10.23 8.038h4.77a2 2 0 002-2V19.46a2 2 0 00-2-2h-4.77a2 2 0 00-2 2v1.116a2 2 0 002 2z"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Providers
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                         Your favourite games
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Close
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Popover renders Default 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        data-headlessui-state="open"
+      >
+        <div
+          class="relative"
+        >
+          <div
+            aria-controls="headlessui-popover-panel-:r2:"
+            aria-expanded="true"
+            data-headlessui-state="open"
+            id="headlessui-popover-button-:r0:"
+          >
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Toggle Popover
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+          <div
+            class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+            data-headlessui-state="open"
+            data-popper-escaped="true"
+            data-popper-placement="bottom"
+            data-popper-reference-hidden="true"
+            id="headlessui-popover-panel-:r2:"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+            tabindex="-1"
+          >
+            <div
+              class="p-6 flex flex-col gap-6"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.206 24.813a.5.5 0 000 1v-1zm5.79 1a.5.5 0 100-1v1zm5.584-18.52a.5.5 0 000 1v-1zm.829.5v.5-.5zm1.415 2.512l-.452-.214.452.214zM5.11 9.628l-.46.197.001.002.46-.199zm1.086-1.835l-.002.5h.002v-.5zm1.224.5a.5.5 0 000-1v1zm8.543 10.27a.5.5 0 00.092-.995l-.092.995zM9.004 4v-.5a.5.5 0 00-.5.496l.5.004zm14.19 0l.5-.004a.5.5 0 00-.5-.496V4zm-7.046 13.567a.5.5 0 00.091.996l-.091-.995zm-2.942 8.246h5.79v-1h-5.79v1zM24.58 8.293h.829v-1h-.829v1zm.829 0c.179 0 .358.05.519.147l.519-.855a1.995 1.995 0 00-1.039-.292l.001 1zm.519.147c.161.098.302.243.403.423l.872-.49a2.155 2.155 0 00-.756-.788l-.52.855zm.403.423c.102.181.16.39.168.607l1-.033a2.33 2.33 0 00-.296-1.064l-.872.49zm.168.607c.008.217-.037.431-.127.62l.904.43c.16-.337.235-.71.223-1.083l-1 .033zm-.127.62c-1.444 3.046-4.556 7.605-10.194 7.605v1c6.264 0 9.624-5.068 11.098-8.176l-.904-.428zm-10.194 7.605h-.116v1h.116v-1zm-.116 0c-6.073 0-9.214-5.313-10.493-8.265l-.918.397c1.29 2.978 4.668 8.868 11.412 8.868v-1zM5.57 9.432a.888.888 0 01-.068-.403l-.998-.063c-.019.294.031.589.146.859l.92-.393zm-.068-.403a.868.868 0 01.117-.387l-.86-.509c-.15.253-.237.54-.255.833l.998.063zm.117-.387a.737.737 0 01.257-.261l-.509-.861c-.251.149-.46.36-.609.613l.86.51zm.257-.261a.62.62 0 01.318-.088l.003-1a1.62 1.62 0 00-.83.227l.51.86zm.32-.088H7.42v-1H6.196v1zm9.859 9.274c-1.6-.147-2.807-1.006-3.735-2.271-.936-1.276-1.57-2.944-1.993-4.63-.423-1.682-.63-3.35-.73-4.6a30.561 30.561 0 01-.092-1.92 11.79 11.79 0 01-.001-.14v-.002L9.004 4l-.5-.003v.159c.002.101.004.25.01.437.011.375.035.91.087 1.553.103 1.284.315 3.01.756 4.763.439 1.747 1.112 3.555 2.156 4.978 1.052 1.434 2.496 2.496 4.45 2.676l.092-.995zM9.004 4.5h14.19v-1H9.004v1zm14.19-.5l-.5.004v.034a14.04 14.04 0 01-.01.525c-.01.36-.033.879-.083 1.503-.1 1.25-.305 2.918-.727 4.6-.424 1.687-1.057 3.354-1.992 4.63-.928 1.265-2.135 2.124-3.734 2.271l.091.996c1.954-.18 3.398-1.242 4.45-2.676 1.043-1.423 1.716-3.23 2.154-4.978.44-1.753.652-3.48.755-4.764a31.558 31.558 0 00.095-1.99l.001-.116v-.031V4v-.003l-.5.003zM14.23 18.195l-.496.064v-.002-.001.009a2.386 2.386 0 01.002.281c-.01.204-.046.506-.153.872-.213.727-.71 1.727-1.87 2.734l.655.755c1.311-1.138 1.91-2.305 2.174-3.209.132-.45.18-.829.193-1.102a3.411 3.411 0 00-.007-.448l-.001-.01v-.004-.001-.001l-.497.063zm3.54 0l-.496-.063v.002l-.001.004-.001.01a1.348 1.348 0 00-.009.123 3.41 3.41 0 00.002.325c.014.273.061.653.193 1.102.264.904.863 2.071 2.174 3.21l.656-.756c-1.161-1.007-1.658-2.007-1.87-2.734a3.831 3.831 0 01-.154-.872 2.427 2.427 0 01.001-.281l.001-.01v.003l-.496-.063zm-7.08 4.835h10.823v-1H10.69v1zm10.823 0c.46 0 .82.365.82.8h1a1.81 1.81 0 00-1.82-1.8v1zm.82.8v2.87h1v-2.87h-1zm0 2.87c0 .435-.36.8-.82.8v1a1.81 1.81 0 001.82-1.8h-1zm-.82.8H10.69v1h10.824v-1zm-10.824 0a.81.81 0 01-.82-.8h-1c0 1.001.822 1.8 1.82 1.8v-1zm-.82-.8v-2.87h-1v2.87h1zm0-2.87c0-.435.36-.8.82-.8v-1a1.81 1.81 0 00-1.82 1.8h1z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Tournaments
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                        Best tournaments with streamers
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.039 19.065v4.312a1.591 1.591 0 01-3.172.183l-.52-4.495M7.5 17.394v-2.788a1.67 1.67 0 011.67-1.67h4.186a1 1 0 00.547-.163l6.503-4.25c1.33-.87 3.094.084 3.094 1.674v11.607c0 1.589-1.764 2.543-3.094 1.674l-6.503-4.25a1 1 0 00-.547-.163H9.171A1.672 1.672 0 017.5 17.394z"
+                      stroke="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Promotions
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                         Your favourite games
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.885 14.539V25.5m0-19v2.923m10.23 13.154V25.5m0-19v10.962M8.5 14.539h4.77a2 2 0 002-2v-1.116a2 2 0 00-2-2H8.5a2 2 0 00-2 2v1.116a2 2 0 002 2zm10.23 8.038h4.77a2 2 0 002-2V19.46a2 2 0 00-2-2h-4.77a2 2 0 00-2 2v1.116a2 2 0 002 2z"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Providers
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                         Your favourite games
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      data-headlessui-state="open"
+    >
+      <div
+        class="relative"
+      >
+        <div
+          aria-controls="headlessui-popover-panel-:r2:"
+          aria-expanded="true"
+          data-headlessui-state="open"
+          id="headlessui-popover-button-:r0:"
+        >
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            type="button"
+          >
+            Toggle Popover
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+        <div
+          class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+          data-headlessui-state="open"
+          data-popper-escaped="true"
+          data-popper-placement="bottom"
+          data-popper-reference-hidden="true"
+          id="headlessui-popover-panel-:r2:"
+          style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+          tabindex="-1"
+        >
+          <div
+            class="p-6 flex flex-col gap-6"
+          >
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.206 24.813a.5.5 0 000 1v-1zm5.79 1a.5.5 0 100-1v1zm5.584-18.52a.5.5 0 000 1v-1zm.829.5v.5-.5zm1.415 2.512l-.452-.214.452.214zM5.11 9.628l-.46.197.001.002.46-.199zm1.086-1.835l-.002.5h.002v-.5zm1.224.5a.5.5 0 000-1v1zm8.543 10.27a.5.5 0 00.092-.995l-.092.995zM9.004 4v-.5a.5.5 0 00-.5.496l.5.004zm14.19 0l.5-.004a.5.5 0 00-.5-.496V4zm-7.046 13.567a.5.5 0 00.091.996l-.091-.995zm-2.942 8.246h5.79v-1h-5.79v1zM24.58 8.293h.829v-1h-.829v1zm.829 0c.179 0 .358.05.519.147l.519-.855a1.995 1.995 0 00-1.039-.292l.001 1zm.519.147c.161.098.302.243.403.423l.872-.49a2.155 2.155 0 00-.756-.788l-.52.855zm.403.423c.102.181.16.39.168.607l1-.033a2.33 2.33 0 00-.296-1.064l-.872.49zm.168.607c.008.217-.037.431-.127.62l.904.43c.16-.337.235-.71.223-1.083l-1 .033zm-.127.62c-1.444 3.046-4.556 7.605-10.194 7.605v1c6.264 0 9.624-5.068 11.098-8.176l-.904-.428zm-10.194 7.605h-.116v1h.116v-1zm-.116 0c-6.073 0-9.214-5.313-10.493-8.265l-.918.397c1.29 2.978 4.668 8.868 11.412 8.868v-1zM5.57 9.432a.888.888 0 01-.068-.403l-.998-.063c-.019.294.031.589.146.859l.92-.393zm-.068-.403a.868.868 0 01.117-.387l-.86-.509c-.15.253-.237.54-.255.833l.998.063zm.117-.387a.737.737 0 01.257-.261l-.509-.861c-.251.149-.46.36-.609.613l.86.51zm.257-.261a.62.62 0 01.318-.088l.003-1a1.62 1.62 0 00-.83.227l.51.86zm.32-.088H7.42v-1H6.196v1zm9.859 9.274c-1.6-.147-2.807-1.006-3.735-2.271-.936-1.276-1.57-2.944-1.993-4.63-.423-1.682-.63-3.35-.73-4.6a30.561 30.561 0 01-.092-1.92 11.79 11.79 0 01-.001-.14v-.002L9.004 4l-.5-.003v.159c.002.101.004.25.01.437.011.375.035.91.087 1.553.103 1.284.315 3.01.756 4.763.439 1.747 1.112 3.555 2.156 4.978 1.052 1.434 2.496 2.496 4.45 2.676l.092-.995zM9.004 4.5h14.19v-1H9.004v1zm14.19-.5l-.5.004v.034a14.04 14.04 0 01-.01.525c-.01.36-.033.879-.083 1.503-.1 1.25-.305 2.918-.727 4.6-.424 1.687-1.057 3.354-1.992 4.63-.928 1.265-2.135 2.124-3.734 2.271l.091.996c1.954-.18 3.398-1.242 4.45-2.676 1.043-1.423 1.716-3.23 2.154-4.978.44-1.753.652-3.48.755-4.764a31.558 31.558 0 00.095-1.99l.001-.116v-.031V4v-.003l-.5.003zM14.23 18.195l-.496.064v-.002-.001.009a2.386 2.386 0 01.002.281c-.01.204-.046.506-.153.872-.213.727-.71 1.727-1.87 2.734l.655.755c1.311-1.138 1.91-2.305 2.174-3.209.132-.45.18-.829.193-1.102a3.411 3.411 0 00-.007-.448l-.001-.01v-.004-.001-.001l-.497.063zm3.54 0l-.496-.063v.002l-.001.004-.001.01a1.348 1.348 0 00-.009.123 3.41 3.41 0 00.002.325c.014.273.061.653.193 1.102.264.904.863 2.071 2.174 3.21l.656-.756c-1.161-1.007-1.658-2.007-1.87-2.734a3.831 3.831 0 01-.154-.872 2.427 2.427 0 01.001-.281l.001-.01v.003l-.496-.063zm-7.08 4.835h10.823v-1H10.69v1zm10.823 0c.46 0 .82.365.82.8h1a1.81 1.81 0 00-1.82-1.8v1zm.82.8v2.87h1v-2.87h-1zm0 2.87c0 .435-.36.8-.82.8v1a1.81 1.81 0 001.82-1.8h-1zm-.82.8H10.69v1h10.824v-1zm-10.824 0a.81.81 0 01-.82-.8h-1c0 1.001.822 1.8 1.82 1.8v-1zm-.82-.8v-2.87h-1v2.87h1zm0-2.87c0-.435.36-.8.82-.8v-1a1.81 1.81 0 00-1.82 1.8h1z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Tournaments
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                      Best tournaments with streamers
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.039 19.065v4.312a1.591 1.591 0 01-3.172.183l-.52-4.495M7.5 17.394v-2.788a1.67 1.67 0 011.67-1.67h4.186a1 1 0 00.547-.163l6.503-4.25c1.33-.87 3.094.084 3.094 1.674v11.607c0 1.589-1.764 2.543-3.094 1.674l-6.503-4.25a1 1 0 00-.547-.163H9.171A1.672 1.672 0 017.5 17.394z"
+                    stroke="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Promotions
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                       Your favourite games
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.885 14.539V25.5m0-19v2.923m10.23 13.154V25.5m0-19v10.962M8.5 14.539h4.77a2 2 0 002-2v-1.116a2 2 0 00-2-2H8.5a2 2 0 00-2 2v1.116a2 2 0 002 2zm10.23 8.038h4.77a2 2 0 002-2V19.46a2 2 0 00-2-2h-4.77a2 2 0 00-2 2v1.116a2 2 0 002 2z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Providers
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                       Your favourite games
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Popover renders Position 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex align-middle justify-around items-center w-full gap-2"
+      >
+        <div
+          data-headlessui-state="open"
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-controls="headlessui-popover-panel-:rm:"
+              aria-expanded="true"
+              data-headlessui-state="open"
+              id="headlessui-popover-button-:rk:"
+            >
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Top
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+            <button
+              aria-hidden="true"
+              data-headlessui-focus-guard="true"
+              id="headlessui-focus-sentinel-:rl:"
+              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+              type="button"
+            />
+            <button
+              aria-hidden="true"
+              data-headlessui-focus-guard="true"
+              id="headlessui-focus-sentinel-before-:rn:"
+              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+              type="button"
+            />
+            <div
+              class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+              data-headlessui-state="open"
+              data-popper-escaped="true"
+              data-popper-placement="top"
+              data-popper-reference-hidden="true"
+              id="headlessui-popover-panel-:rm:"
+              style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
+              tabindex="-1"
+            >
+              <p
+                class="p-4 text-moon-14"
+              >
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <button
+              aria-hidden="true"
+              data-headlessui-focus-guard="true"
+              id="headlessui-focus-sentinel-after-:ro:"
+              style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+              type="button"
+            />
+          </div>
+        </div>
+        <div
+          data-headlessui-state=""
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-expanded="false"
+              data-headlessui-state=""
+              id="headlessui-popover-button-:rp:"
+            >
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Right
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          data-headlessui-state=""
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-expanded="false"
+              data-headlessui-state=""
+              id="headlessui-popover-button-:ru:"
+            >
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Left
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex align-middle justify-around items-center w-full gap-2"
+    >
+      <div
+        data-headlessui-state="open"
+      >
+        <div
+          class="relative"
+        >
+          <div
+            aria-controls="headlessui-popover-panel-:rm:"
+            aria-expanded="true"
+            data-headlessui-state="open"
+            id="headlessui-popover-button-:rk:"
+          >
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Top
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+          <button
+            aria-hidden="true"
+            data-headlessui-focus-guard="true"
+            id="headlessui-focus-sentinel-:rl:"
+            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+            type="button"
+          />
+          <button
+            aria-hidden="true"
+            data-headlessui-focus-guard="true"
+            id="headlessui-focus-sentinel-before-:rn:"
+            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+            type="button"
+          />
+          <div
+            class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+            data-headlessui-state="open"
+            data-popper-escaped="true"
+            data-popper-placement="top"
+            data-popper-reference-hidden="true"
+            id="headlessui-popover-panel-:rm:"
+            style="position: absolute; left: 0px; top: 0px; bottom: 0px; transform: translate(0px, -8px);"
+            tabindex="-1"
+          >
+            <p
+              class="p-4 text-moon-14"
+            >
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+          </div>
+          <button
+            aria-hidden="true"
+            data-headlessui-focus-guard="true"
+            id="headlessui-focus-sentinel-after-:ro:"
+            style="position: fixed; top: 1px; left: 1px; width: 1px; height: 0px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; border-width: 0px;"
+            type="button"
+          />
+        </div>
+      </div>
+      <div
+        data-headlessui-state=""
+      >
+        <div
+          class="relative"
+        >
+          <div
+            aria-expanded="false"
+            data-headlessui-state=""
+            id="headlessui-popover-button-:rp:"
+          >
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Right
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        data-headlessui-state=""
+      >
+        <div
+          class="relative"
+        >
+          <div
+            aria-expanded="false"
+            data-headlessui-state=""
+            id="headlessui-popover-button-:ru:"
+          >
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Left
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Popover renders TriggerElements 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex align-middle justify-around items-center w-full gap-2"
+      >
+        <div
+          data-headlessui-state="open"
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-controls="headlessui-popover-panel-:r7:"
+              aria-expanded="true"
+              data-headlessui-state="open"
+              id="headlessui-popover-button-:r5:"
+            >
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Button
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+            <div
+              class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+              data-headlessui-state="open"
+              data-popper-escaped="true"
+              data-popper-placement="bottom"
+              data-popper-reference-hidden="true"
+              id="headlessui-popover-panel-:r7:"
+              style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+              tabindex="-1"
+            >
+              <div>
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  Tournaments
+                </button>
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  Promotions
+                </button>
+                <button
+                  class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                  type="button"
+                >
+                  Providers
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          data-headlessui-state=""
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-expanded="false"
+              data-headlessui-state=""
+              id="headlessui-popover-button-:ra:"
+            >
+              <button
+                class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+              >
+                <svg
+                  class="text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M25 11.5l-9 9-9-9"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          data-headlessui-state=""
+        >
+          <div
+            class="relative"
+          >
+            <div
+              aria-expanded="false"
+              data-headlessui-state=""
+              id="headlessui-popover-button-:rf:"
+            >
+              <span
+                class="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+              >
+                Open popover
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex align-middle justify-around items-center w-full gap-2"
+    >
+      <div
+        data-headlessui-state="open"
+      >
+        <div
+          class="relative"
+        >
+          <div
+            aria-controls="headlessui-popover-panel-:r7:"
+            aria-expanded="true"
+            data-headlessui-state="open"
+            id="headlessui-popover-button-:r5:"
+          >
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Button
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+          <div
+            class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none"
+            data-headlessui-state="open"
+            data-popper-escaped="true"
+            data-popper-placement="bottom"
+            data-popper-reference-hidden="true"
+            id="headlessui-popover-panel-:r7:"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+            tabindex="-1"
+          >
+            <div>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                Tournaments
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                Promotions
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                Providers
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        data-headlessui-state=""
+      >
+        <div
+          class="relative"
+        >
+          <div
+            aria-expanded="false"
+            data-headlessui-state=""
+            id="headlessui-popover-button-:ra:"
+          >
+            <button
+              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 center h-10 gap-2 p-2 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              <svg
+                class="text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25 11.5l-9 9-9-9"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        data-headlessui-state=""
+      >
+        <div
+          class="relative"
+        >
+          <div
+            aria-expanded="false"
+            data-headlessui-state=""
+            id="headlessui-popover-button-:rf:"
+          >
+            <span
+              class="text-moon-14 text-trunks cursor-pointer hover:text-piccolo"
+            >
+              Open popover
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Popover renders WithClose 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        data-headlessui-state="open"
+      >
+        <div
+          class="relative"
+        >
+          <div
+            aria-controls="headlessui-popover-panel-:r15:"
+            aria-expanded="true"
+            data-headlessui-state="open"
+            id="headlessui-popover-button-:r13:"
+          >
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Toggle Popover
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+          <div
+            class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none !w-96"
+            data-headlessui-state="open"
+            data-popper-escaped="true"
+            data-popper-placement="bottom"
+            data-popper-reference-hidden="true"
+            id="headlessui-popover-panel-:r15:"
+            style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+            tabindex="-1"
+          >
+            <div
+              class="p-6 flex flex-col gap-6"
+            >
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.206 24.813a.5.5 0 000 1v-1zm5.79 1a.5.5 0 100-1v1zm5.584-18.52a.5.5 0 000 1v-1zm.829.5v.5-.5zm1.415 2.512l-.452-.214.452.214zM5.11 9.628l-.46.197.001.002.46-.199zm1.086-1.835l-.002.5h.002v-.5zm1.224.5a.5.5 0 000-1v1zm8.543 10.27a.5.5 0 00.092-.995l-.092.995zM9.004 4v-.5a.5.5 0 00-.5.496l.5.004zm14.19 0l.5-.004a.5.5 0 00-.5-.496V4zm-7.046 13.567a.5.5 0 00.091.996l-.091-.995zm-2.942 8.246h5.79v-1h-5.79v1zM24.58 8.293h.829v-1h-.829v1zm.829 0c.179 0 .358.05.519.147l.519-.855a1.995 1.995 0 00-1.039-.292l.001 1zm.519.147c.161.098.302.243.403.423l.872-.49a2.155 2.155 0 00-.756-.788l-.52.855zm.403.423c.102.181.16.39.168.607l1-.033a2.33 2.33 0 00-.296-1.064l-.872.49zm.168.607c.008.217-.037.431-.127.62l.904.43c.16-.337.235-.71.223-1.083l-1 .033zm-.127.62c-1.444 3.046-4.556 7.605-10.194 7.605v1c6.264 0 9.624-5.068 11.098-8.176l-.904-.428zm-10.194 7.605h-.116v1h.116v-1zm-.116 0c-6.073 0-9.214-5.313-10.493-8.265l-.918.397c1.29 2.978 4.668 8.868 11.412 8.868v-1zM5.57 9.432a.888.888 0 01-.068-.403l-.998-.063c-.019.294.031.589.146.859l.92-.393zm-.068-.403a.868.868 0 01.117-.387l-.86-.509c-.15.253-.237.54-.255.833l.998.063zm.117-.387a.737.737 0 01.257-.261l-.509-.861c-.251.149-.46.36-.609.613l.86.51zm.257-.261a.62.62 0 01.318-.088l.003-1a1.62 1.62 0 00-.83.227l.51.86zm.32-.088H7.42v-1H6.196v1zm9.859 9.274c-1.6-.147-2.807-1.006-3.735-2.271-.936-1.276-1.57-2.944-1.993-4.63-.423-1.682-.63-3.35-.73-4.6a30.561 30.561 0 01-.092-1.92 11.79 11.79 0 01-.001-.14v-.002L9.004 4l-.5-.003v.159c.002.101.004.25.01.437.011.375.035.91.087 1.553.103 1.284.315 3.01.756 4.763.439 1.747 1.112 3.555 2.156 4.978 1.052 1.434 2.496 2.496 4.45 2.676l.092-.995zM9.004 4.5h14.19v-1H9.004v1zm14.19-.5l-.5.004v.034a14.04 14.04 0 01-.01.525c-.01.36-.033.879-.083 1.503-.1 1.25-.305 2.918-.727 4.6-.424 1.687-1.057 3.354-1.992 4.63-.928 1.265-2.135 2.124-3.734 2.271l.091.996c1.954-.18 3.398-1.242 4.45-2.676 1.043-1.423 1.716-3.23 2.154-4.978.44-1.753.652-3.48.755-4.764a31.558 31.558 0 00.095-1.99l.001-.116v-.031V4v-.003l-.5.003zM14.23 18.195l-.496.064v-.002-.001.009a2.386 2.386 0 01.002.281c-.01.204-.046.506-.153.872-.213.727-.71 1.727-1.87 2.734l.655.755c1.311-1.138 1.91-2.305 2.174-3.209.132-.45.18-.829.193-1.102a3.411 3.411 0 00-.007-.448l-.001-.01v-.004-.001-.001l-.497.063zm3.54 0l-.496-.063v.002l-.001.004-.001.01a1.348 1.348 0 00-.009.123 3.41 3.41 0 00.002.325c.014.273.061.653.193 1.102.264.904.863 2.071 2.174 3.21l.656-.756c-1.161-1.007-1.658-2.007-1.87-2.734a3.831 3.831 0 01-.154-.872 2.427 2.427 0 01.001-.281l.001-.01v.003l-.496-.063zm-7.08 4.835h10.823v-1H10.69v1zm10.823 0c.46 0 .82.365.82.8h1a1.81 1.81 0 00-1.82-1.8v1zm.82.8v2.87h1v-2.87h-1zm0 2.87c0 .435-.36.8-.82.8v1a1.81 1.81 0 001.82-1.8h-1zm-.82.8H10.69v1h10.824v-1zm-10.824 0a.81.81 0 01-.82-.8h-1c0 1.001.822 1.8 1.82 1.8v-1zm-.82-.8v-2.87h-1v2.87h1zm0-2.87c0-.435.36-.8.82-.8v-1a1.81 1.81 0 00-1.82 1.8h1z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Tournaments
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                        Best tournaments with streamers
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.039 19.065v4.312a1.591 1.591 0 01-3.172.183l-.52-4.495M7.5 17.394v-2.788a1.67 1.67 0 011.67-1.67h4.186a1 1 0 00.547-.163l6.503-4.25c1.33-.87 3.094.084 3.094 1.674v11.607c0 1.589-1.764 2.543-3.094 1.674l-6.503-4.25a1 1 0 00-.547-.163H9.171A1.672 1.672 0 017.5 17.394z"
+                      stroke="currentColor"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Promotions
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                         Your favourite games
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+                type="button"
+              >
+                <span
+                  class="flex w-11 h-11 bg-goku items-center justify-center"
+                >
+                  <svg
+                    class="text-bulma text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.885 14.539V25.5m0-19v2.923m10.23 13.154V25.5m0-19v10.962M8.5 14.539h4.77a2 2 0 002-2v-1.116a2 2 0 00-2-2H8.5a2 2 0 00-2 2v1.116a2 2 0 002 2zm10.23 8.038h4.77a2 2 0 002-2V19.46a2 2 0 00-2-2h-4.77a2 2 0 00-2 2v1.116a2 2 0 002 2z"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                    />
+                  </svg>
+                </span>
+                <span
+                  class="block grow text-start text-bulma overflow-hidden"
+                >
+                  <span
+                    class="block text-bulma text-moon-14"
+                  >
+                    Providers
+                  </span>
+                  <span
+                    class="flex text-trunks text-moon-12"
+                  >
+                    <span
+                      class="flex-1 truncate"
+                    >
+                      <span>
+                         Your favourite games
+                      </span>
+                    </span>
+                  </span>
+                </span>
+              </button>
+              <button
+                class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+                type="button"
+              >
+                Close
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      data-headlessui-state="open"
+    >
+      <div
+        class="relative"
+      >
+        <div
+          aria-controls="headlessui-popover-panel-:r15:"
+          aria-expanded="true"
+          data-headlessui-state="open"
+          id="headlessui-popover-button-:r13:"
+        >
+          <button
+            class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+            type="button"
+          >
+            Toggle Popover
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </div>
+        <div
+          class="w-72 z-[999999] rounded-moon-s-md box-border bg-gohan shadow-moon-lg overflow-y-auto focus:outline-none !w-96"
+          data-headlessui-state="open"
+          data-popper-escaped="true"
+          data-popper-placement="bottom"
+          data-popper-reference-hidden="true"
+          id="headlessui-popover-panel-:r15:"
+          style="position: absolute; left: 0px; top: 0px; transform: translate(0px, 8px);"
+          tabindex="-1"
+        >
+          <div
+            class="p-6 flex flex-col gap-6"
+          >
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center rounded-lg"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.206 24.813a.5.5 0 000 1v-1zm5.79 1a.5.5 0 100-1v1zm5.584-18.52a.5.5 0 000 1v-1zm.829.5v.5-.5zm1.415 2.512l-.452-.214.452.214zM5.11 9.628l-.46.197.001.002.46-.199zm1.086-1.835l-.002.5h.002v-.5zm1.224.5a.5.5 0 000-1v1zm8.543 10.27a.5.5 0 00.092-.995l-.092.995zM9.004 4v-.5a.5.5 0 00-.5.496l.5.004zm14.19 0l.5-.004a.5.5 0 00-.5-.496V4zm-7.046 13.567a.5.5 0 00.091.996l-.091-.995zm-2.942 8.246h5.79v-1h-5.79v1zM24.58 8.293h.829v-1h-.829v1zm.829 0c.179 0 .358.05.519.147l.519-.855a1.995 1.995 0 00-1.039-.292l.001 1zm.519.147c.161.098.302.243.403.423l.872-.49a2.155 2.155 0 00-.756-.788l-.52.855zm.403.423c.102.181.16.39.168.607l1-.033a2.33 2.33 0 00-.296-1.064l-.872.49zm.168.607c.008.217-.037.431-.127.62l.904.43c.16-.337.235-.71.223-1.083l-1 .033zm-.127.62c-1.444 3.046-4.556 7.605-10.194 7.605v1c6.264 0 9.624-5.068 11.098-8.176l-.904-.428zm-10.194 7.605h-.116v1h.116v-1zm-.116 0c-6.073 0-9.214-5.313-10.493-8.265l-.918.397c1.29 2.978 4.668 8.868 11.412 8.868v-1zM5.57 9.432a.888.888 0 01-.068-.403l-.998-.063c-.019.294.031.589.146.859l.92-.393zm-.068-.403a.868.868 0 01.117-.387l-.86-.509c-.15.253-.237.54-.255.833l.998.063zm.117-.387a.737.737 0 01.257-.261l-.509-.861c-.251.149-.46.36-.609.613l.86.51zm.257-.261a.62.62 0 01.318-.088l.003-1a1.62 1.62 0 00-.83.227l.51.86zm.32-.088H7.42v-1H6.196v1zm9.859 9.274c-1.6-.147-2.807-1.006-3.735-2.271-.936-1.276-1.57-2.944-1.993-4.63-.423-1.682-.63-3.35-.73-4.6a30.561 30.561 0 01-.092-1.92 11.79 11.79 0 01-.001-.14v-.002L9.004 4l-.5-.003v.159c.002.101.004.25.01.437.011.375.035.91.087 1.553.103 1.284.315 3.01.756 4.763.439 1.747 1.112 3.555 2.156 4.978 1.052 1.434 2.496 2.496 4.45 2.676l.092-.995zM9.004 4.5h14.19v-1H9.004v1zm14.19-.5l-.5.004v.034a14.04 14.04 0 01-.01.525c-.01.36-.033.879-.083 1.503-.1 1.25-.305 2.918-.727 4.6-.424 1.687-1.057 3.354-1.992 4.63-.928 1.265-2.135 2.124-3.734 2.271l.091.996c1.954-.18 3.398-1.242 4.45-2.676 1.043-1.423 1.716-3.23 2.154-4.978.44-1.753.652-3.48.755-4.764a31.558 31.558 0 00.095-1.99l.001-.116v-.031V4v-.003l-.5.003zM14.23 18.195l-.496.064v-.002-.001.009a2.386 2.386 0 01.002.281c-.01.204-.046.506-.153.872-.213.727-.71 1.727-1.87 2.734l.655.755c1.311-1.138 1.91-2.305 2.174-3.209.132-.45.18-.829.193-1.102a3.411 3.411 0 00-.007-.448l-.001-.01v-.004-.001-.001l-.497.063zm3.54 0l-.496-.063v.002l-.001.004-.001.01a1.348 1.348 0 00-.009.123 3.41 3.41 0 00.002.325c.014.273.061.653.193 1.102.264.904.863 2.071 2.174 3.21l.656-.756c-1.161-1.007-1.658-2.007-1.87-2.734a3.831 3.831 0 01-.154-.872 2.427 2.427 0 01.001-.281l.001-.01v.003l-.496-.063zm-7.08 4.835h10.823v-1H10.69v1zm10.823 0c.46 0 .82.365.82.8h1a1.81 1.81 0 00-1.82-1.8v1zm.82.8v2.87h1v-2.87h-1zm0 2.87c0 .435-.36.8-.82.8v1a1.81 1.81 0 001.82-1.8h-1zm-.82.8H10.69v1h10.824v-1zm-10.824 0a.81.81 0 01-.82-.8h-1c0 1.001.822 1.8 1.82 1.8v-1zm-.82-.8v-2.87h-1v2.87h1zm0-2.87c0-.435.36-.8.82-.8v-1a1.81 1.81 0 00-1.82 1.8h1z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Tournaments
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                      Best tournaments with streamers
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M13.039 19.065v4.312a1.591 1.591 0 01-3.172.183l-.52-4.495M7.5 17.394v-2.788a1.67 1.67 0 011.67-1.67h4.186a1 1 0 00.547-.163l6.503-4.25c1.33-.87 3.094.084 3.094 1.674v11.607c0 1.589-1.764 2.543-3.094 1.674l-6.503-4.25a1 1 0 00-.547-.163H9.171A1.672 1.672 0 017.5 17.394z"
+                    stroke="currentColor"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Promotions
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                       Your favourite games
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+            <button
+              class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
+              type="button"
+            >
+              <span
+                class="flex w-11 h-11 bg-goku items-center justify-center"
+              >
+                <svg
+                  class="text-bulma text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10.885 14.539V25.5m0-19v2.923m10.23 13.154V25.5m0-19v10.962M8.5 14.539h4.77a2 2 0 002-2v-1.116a2 2 0 00-2-2H8.5a2 2 0 00-2 2v1.116a2 2 0 002 2zm10.23 8.038h4.77a2 2 0 002-2V19.46a2 2 0 00-2-2h-4.77a2 2 0 00-2 2v1.116a2 2 0 002 2z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </span>
+              <span
+                class="block grow text-start text-bulma overflow-hidden"
+              >
+                <span
+                  class="block text-bulma text-moon-14"
+                >
+                  Providers
+                </span>
+                <span
+                  class="flex text-trunks text-moon-12"
+                >
+                  <span
+                    class="flex-1 truncate"
+                  >
+                    <span>
+                       Your favourite games
+                    </span>
+                  </span>
+                </span>
+              </span>
+            </button>
+            <button
+              class="px-4 h-10 py-2 gap-2 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary"
+              type="button"
+            >
+              Close
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

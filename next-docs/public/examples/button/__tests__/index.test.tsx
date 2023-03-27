@@ -2,13 +2,7 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import {
-  moonDesignDark,
-  moonDesignLight,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
-import renderer from 'react-test-renderer';
+import { cleanup, render } from '@testing-library/react';
 import Default from '../Default';
 import Variants from '../Variants';
 import Sizes from '../Sizes';
@@ -18,119 +12,76 @@ import Disabled from '../Disabled';
 import Animations from '../Animations';
 import AsLink from '../AsLink';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
-
-describe('Button in Light Theme', () => {
+describe('Button', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Default />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders AsLink', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<AsLink />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<AsLink />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Variants', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Variants />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Variants />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Sizes />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Icons', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Icons />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Icons />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders FullWidth', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<FullWidth />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<FullWidth />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Disabled', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Disabled />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Disabled />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Animations', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Animations />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('Button in Dark Theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders AsLink', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<AsLink />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Variants', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Variants />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Icons', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Icons />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders FullWidth', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<FullWidth />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Disabled', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Disabled />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Animations', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Animations />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Animations />);
+    expect(tree).toMatchSnapshot();
   });
 });
 
 describe('Button in RTL', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Default />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders AsLink', () => {
-    const testRenderer = renderer.create(renderWithRtl(<AsLink />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<AsLink />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Variants', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Variants />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Variants />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Sizes />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Icons', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Icons />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Icons />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders FullWidth', () => {
-    const testRenderer = renderer.create(renderWithRtl(<FullWidth />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<FullWidth />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Disabled', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Disabled />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Disabled />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Animations', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Animations />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Animations />));
+    expect(tree).toMatchSnapshot();
   });
 });
