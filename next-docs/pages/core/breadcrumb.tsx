@@ -3,6 +3,7 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Collapsed from '../../public/examples/breadcrumbs/Collapsed';
+import CustomDivider from '../../public/examples/breadcrumbs/CustomDivider';
 import FourItems from '../../public/examples/breadcrumbs/FourItems';
 import OneItem from '../../public/examples/breadcrumbs/OneItem';
 import TwoItems from '../../public/examples/breadcrumbs/TwoItems';
@@ -41,6 +42,11 @@ const Example = () => {
         preview={<OneItem />}
         code={examples ? examples.OneItem : 'Loading'}
       />
+      <Preview
+        title="Icon as starting item & custom divider"
+        preview={<CustomDivider />}
+        code={examples ? examples.CustomDivider : 'Loading'}
+      />
       <PropsTable
         title="Breadcrumb props"
         data={[
@@ -50,6 +56,13 @@ const Example = () => {
             required: true,
             default: '-',
             description: 'Contents of breadcrumb',
+          },
+          {
+            name: 'divider',
+            type: 'React.ReactNode',
+            required: false,
+            default: '-',
+            description: 'Custom divider element',
           },
         ]}
       />
