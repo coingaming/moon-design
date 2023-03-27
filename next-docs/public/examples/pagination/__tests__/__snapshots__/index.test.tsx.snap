@@ -1,0 +1,552 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pagination in Dark Theme renders Default 1`] = `
+<div
+  className="flex justify-center items-center w-full select-none"
+>
+  <button
+    aria-disabled={true}
+    className="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Previous
+  </button>
+  <nav
+    aria-label="pagination"
+    className="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+  >
+    <a
+      aria-label="page 1"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      1
+    </a>
+    <a
+      aria-label="page 2"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      2
+    </a>
+    <a
+      aria-label="page 3"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      3
+    </a>
+    <span
+      className="truncable flex justify-center min-w-[2rem]"
+    >
+      ...
+    </span>
+    <a
+      aria-label="page 11"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      11
+    </a>
+  </nav>
+  <button
+    aria-disabled={false}
+    className="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Next
+  </button>
+</div>
+`;
+
+exports[`Pagination in Dark Theme renders WithChildren 1`] = `
+<div
+  className="flex justify-center items-center w-full select-none"
+>
+  <div
+    aria-disabled={true}
+    className=""
+    disabled={true}
+    onClick={[Function]}
+  >
+    <button
+      className="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+      disabled={true}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      <svg
+        className="rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.5 25l-9-9 9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+  </div>
+  <nav
+    aria-label="pagination"
+    className="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+  >
+    <a
+      aria-label="page 1"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      1
+    </a>
+    <a
+      aria-label="page 2"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      2
+    </a>
+    <a
+      aria-label="page 3"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      3
+    </a>
+    <span
+      className="truncable flex justify-center min-w-[2rem]"
+    >
+      ...
+    </span>
+    <a
+      aria-label="page 26"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      26
+    </a>
+  </nav>
+  <div
+    aria-disabled={false}
+    className=""
+    disabled={false}
+    onClick={[Function]}
+  >
+    <button
+      className="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      <svg
+        className="rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Pagination in Light Theme renders Default 1`] = `
+<div
+  className="flex justify-center items-center w-full select-none"
+>
+  <button
+    aria-disabled={true}
+    className="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+    disabled={true}
+    onClick={[Function]}
+  >
+    Previous
+  </button>
+  <nav
+    aria-label="pagination"
+    className="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+  >
+    <a
+      aria-label="page 1"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      1
+    </a>
+    <a
+      aria-label="page 2"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      2
+    </a>
+    <a
+      aria-label="page 3"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      3
+    </a>
+    <span
+      className="truncable flex justify-center min-w-[2rem]"
+    >
+      ...
+    </span>
+    <a
+      aria-label="page 11"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      11
+    </a>
+  </nav>
+  <button
+    aria-disabled={false}
+    className="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+    disabled={false}
+    onClick={[Function]}
+  >
+    Next
+  </button>
+</div>
+`;
+
+exports[`Pagination in Light Theme renders WithChildren 1`] = `
+<div
+  className="flex justify-center items-center w-full select-none"
+>
+  <div
+    aria-disabled={true}
+    className=""
+    disabled={true}
+    onClick={[Function]}
+  >
+    <button
+      className="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+      disabled={true}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      <svg
+        className="rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.5 25l-9-9 9-9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+  </div>
+  <nav
+    aria-label="pagination"
+    className="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+  >
+    <a
+      aria-label="page 1"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      1
+    </a>
+    <a
+      aria-label="page 2"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      2
+    </a>
+    <a
+      aria-label="page 3"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      3
+    </a>
+    <span
+      className="truncable flex justify-center min-w-[2rem]"
+    >
+      ...
+    </span>
+    <a
+      aria-label="page 26"
+      className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+      onClick={[Function]}
+      tabIndex={0}
+    >
+      26
+    </a>
+  </nav>
+  <div
+    aria-disabled={false}
+    className=""
+    disabled={false}
+    onClick={[Function]}
+  >
+    <button
+      className="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      type="button"
+    >
+      <svg
+        className="rtl:rotate-180"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.5 7l9 9-9 9"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
+      <span
+        aria-hidden="true"
+        className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Pagination in RTL renders Default 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex justify-center items-center w-full select-none"
+  >
+    <button
+      aria-disabled={true}
+      className="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+      disabled={true}
+      onClick={[Function]}
+    >
+      Previous
+    </button>
+    <nav
+      aria-label="pagination"
+      className="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+    >
+      <a
+        aria-label="page 1"
+        className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+        onClick={[Function]}
+        tabIndex={0}
+      >
+        1
+      </a>
+      <a
+        aria-label="page 2"
+        className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+        onClick={[Function]}
+        tabIndex={0}
+      >
+        2
+      </a>
+      <a
+        aria-label="page 3"
+        className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+        onClick={[Function]}
+        tabIndex={0}
+      >
+        3
+      </a>
+      <span
+        className="truncable flex justify-center min-w-[2rem]"
+      >
+        ...
+      </span>
+      <a
+        aria-label="page 11"
+        className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+        onClick={[Function]}
+        tabIndex={0}
+      >
+        11
+      </a>
+    </nav>
+    <button
+      aria-disabled={false}
+      className="moon-disabled:cursor-not-allowed moon-disabled:opacity-30"
+      disabled={false}
+      onClick={[Function]}
+    >
+      Next
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Pagination in RTL renders WithChildren 1`] = `
+<div
+  dir="rtl"
+>
+  <div
+    className="flex justify-center items-center w-full select-none"
+  >
+    <div
+      aria-disabled={true}
+      className=""
+      disabled={true}
+      onClick={[Function]}
+    >
+      <button
+        className="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 opacity-30 cursor-not-allowed btn-secondary text-moon-24"
+        disabled={true}
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        type="button"
+      >
+        <svg
+          className="rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.5 25l-9-9 9-9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          aria-hidden="true"
+          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+    </div>
+    <nav
+      aria-label="pagination"
+      className="flex gap-1 items-center justify-center w-full h-10 text-sm flex-grow"
+    >
+      <a
+        aria-label="page 1"
+        className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-goten bg-piccolo"
+        onClick={[Function]}
+        tabIndex={0}
+      >
+        1
+      </a>
+      <a
+        aria-label="page 2"
+        className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+        onClick={[Function]}
+        tabIndex={0}
+      >
+        2
+      </a>
+      <a
+        aria-label="page 3"
+        className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+        onClick={[Function]}
+        tabIndex={0}
+      >
+        3
+      </a>
+      <span
+        className="truncable flex justify-center min-w-[2rem]"
+      >
+        ...
+      </span>
+      <a
+        aria-label="page 26"
+        className="flex items-center justify-center cursor-pointer w-8 h-8 rounded-moon-s-sm focus:outline-none text-bulma hover:bg-jiren focus:bg-jiren"
+        onClick={[Function]}
+        tabIndex={0}
+      >
+        26
+      </a>
+    </nav>
+    <div
+      aria-disabled={false}
+      className=""
+      disabled={false}
+      onClick={[Function]}
+    >
+      <button
+        className="h-8 p-1 gap-1 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-secondary text-moon-24"
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
+        type="button"
+      >
+        <svg
+          className="rtl:rotate-180"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M11.5 7l9 9-9 9"
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+        <span
+          aria-hidden="true"
+          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+        />
+      </button>
+    </div>
+  </div>
+</div>
+`;
