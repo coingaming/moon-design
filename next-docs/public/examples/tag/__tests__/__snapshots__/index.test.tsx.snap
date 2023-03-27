@@ -1,457 +1,1171 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tag in Dark Theme renders Customization 1`] = `
-Array [
-  <div
-    className="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
-  >
-    Customized
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
-  >
-    Customized
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi-10 text-roshi"
-  >
-    Customized
-  </div>,
-]
-`;
-
-exports[`Tag in Dark Theme renders Deafult 1`] = `
-<div
-  className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
->
-  Default
-</div>
-`;
-
-exports[`Tag in Dark Theme renders Icons 1`] = `
-Array [
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    <span
-      className="text-moon-16"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
-          stroke="currentColor"
-          strokeLinecap="round"
-        />
-      </svg>
-    </span>
-    Left icon
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    Right icon
-    <span
-      className="text-moon-16"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </span>
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    <span
-      className="text-moon-16"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
-          stroke="currentColor"
-          strokeLinecap="round"
-        />
-      </svg>
-    </span>
-    Both icons
-    <span
-      className="text-moon-16"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </span>
-  </div>,
-]
-`;
-
-exports[`Tag in Dark Theme renders LetterCases 1`] = `
-Array [
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    Default
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
-  >
-    Lowercase
-  </div>,
-]
-`;
-
-exports[`Tag in Dark Theme renders Sizes 1`] = `
-Array [
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
-  >
-    2XS size
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    XS size
-  </div>,
-]
-`;
-
-exports[`Tag in Light Theme renders Customization 1`] = `
-Array [
-  <div
-    className="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
-  >
-    Customized
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
-  >
-    Customized
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi-10 text-roshi"
-  >
-    Customized
-  </div>,
-]
-`;
-
-exports[`Tag in Light Theme renders Deafult 1`] = `
-<div
-  className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
->
-  Default
-</div>
-`;
-
-exports[`Tag in Light Theme renders Icons 1`] = `
-Array [
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    <span
-      className="text-moon-16"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
-          stroke="currentColor"
-          strokeLinecap="round"
-        />
-      </svg>
-    </span>
-    Left icon
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    Right icon
-    <span
-      className="text-moon-16"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </span>
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    <span
-      className="text-moon-16"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
-          stroke="currentColor"
-          strokeLinecap="round"
-        />
-      </svg>
-    </span>
-    Both icons
-    <span
-      className="text-moon-16"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </span>
-  </div>,
-]
-`;
-
-exports[`Tag in Light Theme renders LetterCases 1`] = `
-Array [
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    Default
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
-  >
-    Lowercase
-  </div>,
-]
-`;
-
-exports[`Tag in Light Theme renders Sizes 1`] = `
-Array [
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
-  >
-    2XS size
-  </div>,
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    XS size
-  </div>,
-]
-`;
-
 exports[`Tag in RTL renders Customization 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    className="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
-  >
-    Customized
-  </div>
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
-  >
-    Customized
-  </div>
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi-10 text-roshi"
-  >
-    Customized
-  </div>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+        >
+          Customized
+        </div>
+        <div
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+        >
+          Customized
+        </div>
+        <div
+          class="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi-10 text-roshi"
+        >
+          Customized
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+      >
+        Customized
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+      >
+        Customized
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi-10 text-roshi"
+      >
+        Customized
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Tag in RTL renders Deafult 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    Default
-  </div>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        >
+          Default
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      >
+        Default
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Tag in RTL renders Icons 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    <span
-      className="text-moon-16"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
       >
-        <path
-          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
-          stroke="currentColor"
-          strokeLinecap="round"
-        />
-      </svg>
-    </span>
-    Left icon
-  </div>
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    Right icon
-    <span
-      className="text-moon-16"
+        <div
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
+        >
+          <span
+            class="text-moon-16"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          Left icon
+        </div>
+        <div
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+        >
+          Right icon
+          <span
+            class="text-moon-16"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+        <div
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+        >
+          <span
+            class="text-moon-16"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+          </span>
+          Both icons
+          <span
+            class="text-moon-16"
+          >
+            <svg
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
     >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
       >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </span>
-  </div>
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    <span
-      className="text-moon-16"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+        <span
+          class="text-moon-16"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              stroke="currentColor"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+        Left icon
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
       >
-        <path
-          d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
-          stroke="currentColor"
-          strokeLinecap="round"
-        />
-      </svg>
-    </span>
-    Both icons
-    <span
-      className="text-moon-16"
-    >
-      <svg
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
+        Right icon
+        <span
+          class="text-moon-16"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
       >
-        <path
-          d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </span>
-  </div>
-</div>
+        <span
+          class="text-moon-16"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              stroke="currentColor"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+        Both icons
+        <span
+          class="text-moon-16"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Tag in RTL renders LetterCases 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    Default
-  </div>
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
-  >
-    Lowercase
-  </div>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        >
+          Default
+        </div>
+        <div
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+        >
+          Lowercase
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      >
+        Default
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+      >
+        Lowercase
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Tag in RTL renders Sizes 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
-  >
-    2XS size
-  </div>
-  <div
-    className="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
-  >
-    XS size
-  </div>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+        >
+          2XS size
+        </div>
+        <div
+          class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+        >
+          XS size
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+      >
+        2XS size
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      >
+        XS size
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tag renders Customization 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+      >
+        Customized
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+      >
+        Customized
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi-10 text-roshi"
+      >
+        Customized
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex items-center gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium rounded-none"
+    >
+      Customized
+    </div>
+    <div
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi"
+    >
+      Customized
+    </div>
+    <div
+      class="flex items-center rounded-moon-i-xs gap-1 select-none py-1 px-2 h-6 text-moon-10-caption uppercase font-medium bg-roshi-10 text-roshi"
+    >
+      Customized
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tag renders Deafult 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      >
+        Default
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+    >
+      Default
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tag renders Icons 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
+      >
+        <span
+          class="text-moon-16"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              stroke="currentColor"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+        Left icon
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+      >
+        Right icon
+        <span
+          class="text-moon-16"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+      >
+        <span
+          class="text-moon-16"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+              stroke="currentColor"
+              stroke-linecap="round"
+            />
+          </svg>
+        </span>
+        Both icons
+        <span
+          class="text-moon-16"
+        >
+          <svg
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-1 pe-2 h-6 text-moon-10-caption uppercase font-medium"
+    >
+      <span
+        class="text-moon-16"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+            stroke="currentColor"
+            stroke-linecap="round"
+          />
+        </svg>
+      </span>
+      Left icon
+    </div>
+    <div
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 ps-2 pe-1 h-6 text-moon-10-caption uppercase font-medium"
+    >
+      Right icon
+      <span
+        class="text-moon-16"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </span>
+    </div>
+    <div
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma p-1 h-6 text-moon-10-caption uppercase font-medium"
+    >
+      <span
+        class="text-moon-16"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M23.308 10.885a2.192 2.192 0 10-2.193-2.193m2.193 2.193a2.192 2.192 0 01-2.193-2.193m2.193 2.193v10.23M21.115 8.692h-10.23m10.23 14.616a2.192 2.192 0 102.193-2.193m-2.193 2.193c0-1.211.982-2.193 2.193-2.193m-2.193 2.193h-10.23m0-14.616c0 1.211-.982 2.193-2.193 2.193m2.193-2.193a2.192 2.192 0 10-2.193 2.193m0 0v10.23m2.193 2.193a2.192 2.192 0 11-2.193-2.193m2.193 2.193c0-1.211-.982-2.193-2.193-2.193"
+            stroke="currentColor"
+            stroke-linecap="round"
+          />
+        </svg>
+      </span>
+      Both icons
+      <span
+        class="text-moon-16"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7 7l9 9m0 0l-9 9m9-9l9 9m-9-9l9-9"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </span>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tag renders LetterCases 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      >
+        Default
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+      >
+        Lowercase
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+    >
+      Default
+    </div>
+    <div
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-12"
+    >
+      Lowercase
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tag renders Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+      >
+        2XS size
+      </div>
+      <div
+        class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+      >
+        XS size
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-0 px-2 h-4 text-moon-9-caption uppercase font-medium"
+    >
+      2XS size
+    </div>
+    <div
+      class="flex items-center rounded-moon-i-xs gap-1 select-none text-gohan bg-bulma py-1 px-2 h-6 text-moon-10-caption uppercase font-medium"
+    >
+      XS size
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

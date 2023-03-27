@@ -2,13 +2,7 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import {
-  moonDesignDark,
-  moonDesignLight,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
-import renderer from 'react-test-renderer';
+import { cleanup, render } from '@testing-library/react';
 import Default from '../Default';
 import AsLink from '../AsLink';
 import Checkbox from '../Checkbox';
@@ -19,135 +13,84 @@ import Radio from '../Radio';
 import WithIcon from '../WithIcon';
 import WithMeta from '../WithMeta';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
-
-describe('Loader in Light Theme', () => {
+describe('MenuItem', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Default />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders AsLink', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<AsLink />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<AsLink />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Checkbox', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Checkbox />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Checkbox />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Radio', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Radio />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Radio />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders ExpandCollapse', () => {
-    const testRenderer = renderer.create(
-      renderWithLightTheme(<ExpandCollapse />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<ExpandCollapse />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders MultiLine', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<MultiLine />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<MultiLine />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders MultiTitle', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<MultiTitle />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<MultiTitle />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders WithIcon', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<WithIcon />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<WithIcon />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders WithMeta', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<WithMeta />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<WithMeta />);
+    expect(tree).toMatchSnapshot();
   });
 });
 
-describe('Loader in Dark Theme', () => {
+describe('MenuItem in RTL', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Default />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders AsLink', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<AsLink />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<AsLink />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Checkbox', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Checkbox />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Checkbox />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Radio', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Radio />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Radio />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders ExpandCollapse', () => {
-    const testRenderer = renderer.create(
-      renderWithDarkTheme(<ExpandCollapse />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<ExpandCollapse />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders MultiLine', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<MultiLine />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<MultiLine />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders MultiTitle', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<MultiTitle />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<MultiTitle />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders WithIcon', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<WithIcon />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<WithIcon />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders WithMeta', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<WithMeta />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('Loader in RTL', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders AsLink', () => {
-    const testRenderer = renderer.create(renderWithRtl(<AsLink />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Checkbox', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Checkbox />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Radio', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Radio />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders ExpandCollapse', () => {
-    const testRenderer = renderer.create(renderWithRtl(<ExpandCollapse />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders MultiLine', () => {
-    const testRenderer = renderer.create(renderWithRtl(<MultiLine />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders MultiTitle', () => {
-    const testRenderer = renderer.create(renderWithRtl(<MultiTitle />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders WithIcon', () => {
-    const testRenderer = renderer.create(renderWithRtl(<WithIcon />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders WithMeta', () => {
-    const testRenderer = renderer.create(renderWithRtl(<WithMeta />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<WithMeta />));
+    expect(tree).toMatchSnapshot();
   });
 });

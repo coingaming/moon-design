@@ -2,92 +2,50 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import {
-  moonDesignDark,
-  moonDesignLight,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
-import renderer from 'react-test-renderer';
+import { cleanup, render } from '@testing-library/react';
 import Default from '../Default';
 import FourChars from '../FourChars';
 import OnlyDigits from '../OnlyDigits';
 import ErrorState from '../ErrorState';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
-
-describe('AuthCode in Light Theme', () => {
+describe('AuthCode', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Default />);
+    expect(tree).toMatchSnapshot();
   });
-
   it('renders FourChars', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<FourChars />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<FourChars />);
+    expect(tree).toMatchSnapshot();
   });
-
   it('renders OnlyDigits', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<OnlyDigits />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<OnlyDigits />);
+    expect(tree).toMatchSnapshot();
   });
-
   it('renders ErrorState', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<ErrorState />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('AuthCode in Dark Theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders FourChars', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<FourChars />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders OnlyDigits', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<OnlyDigits />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders ErrorState', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<ErrorState />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<ErrorState />);
+    expect(tree).toMatchSnapshot();
   });
 });
 
 describe('AuthCode in RTL', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Default />));
+    expect(tree).toMatchSnapshot();
   });
-
   it('renders FourChars', () => {
-    const testRenderer = renderer.create(renderWithRtl(<FourChars />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<FourChars />));
+    expect(tree).toMatchSnapshot();
   });
-
   it('renders OnlyDigits', () => {
-    const testRenderer = renderer.create(renderWithRtl(<OnlyDigits />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<OnlyDigits />));
+    expect(tree).toMatchSnapshot();
   });
-
   it('renders ErrorState', () => {
-    const testRenderer = renderer.create(renderWithRtl(<ErrorState />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<ErrorState />));
+    expect(tree).toMatchSnapshot();
   });
 });

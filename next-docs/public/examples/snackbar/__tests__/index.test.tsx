@@ -2,203 +2,92 @@
  * @jest-environment jsdom
  */
 
-import {
-  moonDesignDark,
-  moonDesignLight,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
-import React from 'react';
-import renderer, { act } from 'react-test-renderer';
+import { act, cleanup, fireEvent, render } from '@testing-library/react';
+import '../../../../__mocks__/resizeObserver';
 import Default from '../Default';
 import Positions from '../Positions';
 import Options from '../Options';
 import Semantics from '../Semantics';
 import Customization from '../Customization';
 import AutoClose from '../AutoClose';
+import Queue from '../Queue';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
-
-describe('Snackbar in Light Theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+describe('Snackbar', () => {
+  afterEach(cleanup);
+  it('renders Default', async () => {
+    const tree = render(<Default />);
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Positions', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Positions />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Positions', async () => {
+    const tree = render(<Positions />);
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Options', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Options />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Options', async () => {
+    const tree = render(<Options />);
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Semantics', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Semantics />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Semantics', async () => {
+    const tree = render(<Semantics />);
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders AutoClose', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<AutoClose />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders AutoClose', async () => {
+    const tree = render(<AutoClose />);
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Customization', () => {
-    const testRenderer = renderer.create(
-      renderWithLightTheme(<Customization />)
-    );
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Customization', async () => {
+    const tree = render(<Customization />);
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
   });
-});
-
-describe('Snackbar in Dark Theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Positions', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Positions />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Options', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Options />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Semantics', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Semantics />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders AutoClose', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<AutoClose />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Customization', () => {
-    const testRenderer = renderer.create(
-      renderWithDarkTheme(<Customization />)
-    );
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Queue', async () => {
+    const tree = render(<Queue />);
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
   });
 });
 
 describe('Snackbar in RTL', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  afterEach(cleanup);
+  it('renders Default', async () => {
+    const tree = render(withRtl(<Default />));
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Positions', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Positions />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Positions', async () => {
+    const tree = render(withRtl(<Positions />));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Options', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Options />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Options', async () => {
+    const tree = render(withRtl(<Options />));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Semantics', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Semantics />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Semantics', async () => {
+    const tree = render(withRtl(<Semantics />));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders AutoClose', () => {
-    const testRenderer = renderer.create(renderWithRtl(<AutoClose />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders AutoClose', async () => {
+    const tree = render(withRtl(<AutoClose />));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Customization', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Customization />));
-    const testInstance = testRenderer.root;
-    act(() => {
-      const button = testInstance.findAllByType('button')[0];
-      button && button?.props?.onClick();
-    });
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Customization', async () => {
+    const tree = render(withRtl(<Customization />));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders Queue', async () => {
+    const tree = render(withRtl(<Queue />));
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
   });
 });
