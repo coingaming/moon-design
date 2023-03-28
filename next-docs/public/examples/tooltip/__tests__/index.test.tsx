@@ -2,76 +2,48 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import renderer from 'react-test-renderer';
-import {
-  moonDesignDark,
-  moonDesignLight,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
+import { act, cleanup, fireEvent, render } from '@testing-library/react';
+import '../../../../__mocks__/resizeObserver';
 import ArrowPositions from '../ArrowPositions';
 import Default from '../Default';
 import Customization from '../Customization';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-describe('TextInput in Light Theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+describe('Tooltip', () => {
+  afterEach(cleanup);
+  it('renders Default', async () => {
+    const tree = render(<Default />);
+    await act(() => fireEvent.mouseEnter(tree.getByText('Trigger')));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders ArrowPositions', () => {
-    const testRenderer = renderer.create(
-      renderWithLightTheme(<ArrowPositions />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders ArrowPositions', async () => {
+    const tree = render(<ArrowPositions />);
+    await act(() => fireEvent.mouseEnter(tree.getAllByText('Trigger')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Customization', () => {
-    const testRenderer = renderer.create(
-      renderWithLightTheme(<Customization />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Customization', async () => {
+    const tree = render(<Customization />);
+    await act(() => fireEvent.mouseEnter(tree.getAllByText('Trigger')[0]));
+    expect(tree).toMatchSnapshot();
   });
 });
 
-describe('TextInput in Dark Theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+describe('Tooltip in RTL', () => {
+  afterEach(cleanup);
+  it('renders Default', async () => {
+    const tree = render(withRtl(<Default />));
+    await act(() => fireEvent.mouseEnter(tree.getByText('Trigger')));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders ArrowPositions', () => {
-    const testRenderer = renderer.create(
-      renderWithDarkTheme(<ArrowPositions />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders ArrowPositions', async () => {
+    const tree = render(withRtl(<ArrowPositions />));
+    await act(() => fireEvent.mouseEnter(tree.getAllByText('Trigger')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Customization', () => {
-    const testRenderer = renderer.create(
-      renderWithDarkTheme(<Customization />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('TextInput in RTL', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders ArrowPositions', () => {
-    const testRenderer = renderer.create(renderWithRtl(<ArrowPositions />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Customization', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Customization />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Customization', async () => {
+    const tree = render(withRtl(<Customization />));
+    await act(() => fireEvent.mouseEnter(tree.getAllByText('Trigger')[0]));
+    expect(tree).toMatchSnapshot();
   });
 });

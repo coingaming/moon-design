@@ -2,59 +2,32 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import renderer from 'react-test-renderer';
-import {
-  moonDesignDark,
-  moonDesignLight,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
+import { cleanup, render } from '@testing-library/react';
 import Default from '../Default';
 import WithInsetInput from '../WithInsetInput';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-describe('Form in Light Theme', () => {
-  it('renders with Input', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+describe('Form', () => {
+  afterEach(cleanup);
+  it('renders Default', () => {
+    const tree = render(<Default />);
+    expect(tree).toMatchSnapshot();
   });
-  it('renders with InsetInput ', () => {
-    const testRenderer = renderer.create(
-      renderWithLightTheme(<WithInsetInput />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('Form in Dark Theme', () => {
-  it('renders with Input', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders with InsetInput', () => {
-    const testRenderer = renderer.create(
-      renderWithDarkTheme(<WithInsetInput />)
-    );
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders WithInsetInput', () => {
+    const tree = render(<WithInsetInput />);
+    expect(tree).toMatchSnapshot();
   });
 });
 
 describe('Form in RTL', () => {
-  it('renders with Input', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  afterEach(cleanup);
+  it('renders Default', () => {
+    const tree = render(withRtl(<Default />));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders with InsetInput', () => {
-    const testRenderer = renderer.create(renderWithRtl(<WithInsetInput />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders WithInsetInput', () => {
+    const tree = render(withRtl(<WithInsetInput />));
+    expect(tree).toMatchSnapshot();
   });
 });

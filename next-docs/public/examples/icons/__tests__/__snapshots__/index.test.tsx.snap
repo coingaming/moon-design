@@ -1,343 +1,685 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Icons in Dark Theme renders Customization 1`] = `
-Array [
-  <svg
-    className="text-moon-24 text-chichi"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-  <svg
-    className="text-moon-24 text-trunks"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-  <svg
-    className="text-moon-32 text-roshi"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-  <svg
-    className="text-moon-32 text-piccolo"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-  <svg
-    className="text-moon-48 text-raditz"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-  <svg
-    className="text-moon-48 text-whis"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-]
-`;
-
-exports[`Icons in Dark Theme renders Default 1`] = `
-<svg
-  fill="none"
-  height="1em"
-  viewBox="0 0 32 32"
-  width="1em"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path
-    d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-    stroke="currentColor"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  />
-</svg>
-`;
-
-exports[`Icons in Light Theme renders Customization 1`] = `
-Array [
-  <svg
-    className="text-moon-24 text-chichi"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-  <svg
-    className="text-moon-24 text-trunks"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-  <svg
-    className="text-moon-32 text-roshi"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-  <svg
-    className="text-moon-32 text-piccolo"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-  <svg
-    className="text-moon-48 text-raditz"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-  <svg
-    className="text-moon-48 text-whis"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>,
-]
-`;
-
-exports[`Icons in Light Theme renders Default 1`] = `
-<svg
-  fill="none"
-  height="1em"
-  viewBox="0 0 32 32"
-  width="1em"
-  xmlns="http://www.w3.org/2000/svg"
->
-  <path
-    d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-    stroke="currentColor"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-  />
-</svg>
-`;
-
 exports[`Icons in RTL renders Customization 1`] = `
-<div
-  dir="rtl"
->
-  <svg
-    className="text-moon-24 text-chichi"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-  <svg
-    className="text-moon-24 text-trunks"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-  <svg
-    className="text-moon-32 text-roshi"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-  <svg
-    className="text-moon-32 text-piccolo"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-  <svg
-    className="text-moon-48 text-raditz"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-  <svg
-    className="text-moon-48 text-whis"
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <svg
+          class="text-moon-24 text-chichi"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          class="text-moon-24 text-trunks"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          class="text-moon-32 text-roshi"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          class="text-moon-32 text-piccolo"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          class="text-moon-48 text-raditz"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+        <svg
+          class="text-moon-48 text-whis"
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <svg
+        class="text-moon-24 text-chichi"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        class="text-moon-24 text-trunks"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        class="text-moon-32 text-roshi"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        class="text-moon-32 text-piccolo"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        class="text-moon-48 text-raditz"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        class="text-moon-48 text-whis"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Icons in RTL renders Default 1`] = `
-<div
-  dir="rtl"
->
-  <svg
-    fill="none"
-    height="1em"
-    viewBox="0 0 32 32"
-    width="1em"
-    xmlns="http://www.w3.org/2000/svg"
-  >
-    <path
-      d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
-      stroke="currentColor"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    />
-  </svg>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          viewBox="0 0 32 32"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <svg
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Icons renders Customization 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <svg
+        class="text-moon-24 text-chichi"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        class="text-moon-24 text-trunks"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        class="text-moon-32 text-roshi"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        class="text-moon-32 text-piccolo"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        class="text-moon-48 text-raditz"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+      <svg
+        class="text-moon-48 text-whis"
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+  </body>,
+  "container": <div>
+    <svg
+      class="text-moon-24 text-chichi"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+    <svg
+      class="text-moon-24 text-trunks"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+    <svg
+      class="text-moon-32 text-roshi"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+    <svg
+      class="text-moon-32 text-piccolo"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+    <svg
+      class="text-moon-48 text-raditz"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+    <svg
+      class="text-moon-48 text-whis"
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Icons renders Default 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <svg
+        fill="none"
+        height="1em"
+        viewBox="0 0 32 32"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+      </svg>
+    </div>
+  </body>,
+  "container": <div>
+    <svg
+      fill="none"
+      height="1em"
+      viewBox="0 0 32 32"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20.192 10.154h1.654a2 2 0 012 2V23.5a2 2 0 01-2 2h-7.692a2 2 0 01-2-2v-1.654m1.461-14.615v4.384H9.231m-.731-.93L12.627 6.5h5.565a2 2 0 012 2v11.346a2 2 0 01-2 2H10.5a2 2 0 01-2-2v-9.16z"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+    </svg>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

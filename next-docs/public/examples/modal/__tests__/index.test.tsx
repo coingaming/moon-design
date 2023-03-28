@@ -2,12 +2,12 @@
  * @jest-environment jsdom
  */
 
-import '../../../../__mocks__/ResizeObserver';
+import { act, cleanup, fireEvent, render } from '@testing-library/react';
+import '../../../../__mocks__/resizeObserver';
 import BigContent from '../BigContent';
 import Default from '../Default';
 import StyledContent from '../StyledContent';
 import WithSelect from '../WithSelect';
-import { act, cleanup, fireEvent, render } from '@testing-library/react';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 

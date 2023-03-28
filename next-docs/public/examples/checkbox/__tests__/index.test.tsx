@@ -2,13 +2,7 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import {
-  moonDesignDark,
-  moonDesignLight,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
-import renderer from 'react-test-renderer';
+import { cleanup, render } from '@testing-library/react';
 import Default from '../Default';
 import WithLabel from '../WithLabel';
 import Checked from '../Checked';
@@ -16,95 +10,60 @@ import Customize from '../Customize';
 import Disabled from '../Disabled';
 import ReadOnly from '../ReadOnly';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
-
-describe('Checkbox in Light Theme', () => {
+describe('Checkbox', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Default />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders WithLabel', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<WithLabel />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<WithLabel />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Checked', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Checked />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Checked />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Disabled', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Disabled />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Disabled />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders ReadOnly', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<ReadOnly />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<ReadOnly />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Customize', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Customize />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('Checkbox in Dark Theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders WithLabel', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<WithLabel />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Checked', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Checked />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Disabled', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Disabled />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders ReadOnly', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<ReadOnly />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Customize', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Customize />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Customize />);
+    expect(tree).toMatchSnapshot();
   });
 });
 
 describe('Checkbox in RTL', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Default />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders WithLabel', () => {
-    const testRenderer = renderer.create(renderWithRtl(<WithLabel />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<WithLabel />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Checked', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Checked />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Checked />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Disabled', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Disabled />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Disabled />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders ReadOnly', () => {
-    const testRenderer = renderer.create(renderWithRtl(<ReadOnly />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<ReadOnly />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Customize', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Customize />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Customize />));
+    expect(tree).toMatchSnapshot();
   });
 });

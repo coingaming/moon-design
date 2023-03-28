@@ -9,8 +9,8 @@ import Customization from '../../public/examples/snackbar/Customization';
 import Default from '../../public/examples/snackbar/Default';
 import Options from '../../public/examples/snackbar/Options';
 import Positions from '../../public/examples/snackbar/Positions';
+import Queue from '../../public/examples/snackbar/Queue';
 import Semantics from '../../public/examples/snackbar/Semantics';
-import SnackbarQueue from '../../public/examples/snackbar/SnackbarQueue';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -81,7 +81,7 @@ const Example = () => {
       />
       <Preview
         title="Snackbar Queue"
-        preview={<SnackbarQueue />}
+        preview={<Queue />}
         code={examples ? examples.SnackbarQueue : 'Loading'}
       />
       <PropsTable

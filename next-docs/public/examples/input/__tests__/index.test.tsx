@@ -2,94 +2,59 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import renderer from 'react-test-renderer';
-import {
-  moonDesignDark,
-  moonDesignLight,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
+import { cleanup, render } from '@testing-library/react';
 import Bg from '../Bg';
 import Default from '../Default';
 import Sizes from '../Sizes';
 import Types from '../Types';
 import States from '../States';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-describe('Input in Light Theme', () => {
+describe('Input', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Default />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Sizes />);
+    expect(tree).toMatchSnapshot();
   });
-  it('renders different states', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<States />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders States', () => {
+    const tree = render(<States />);
+    expect(tree).toMatchSnapshot();
   });
-  it('renders with custom styles', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Bg />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Types', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Types />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('Input in Dark Theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders different states', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<States />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders with custom styles', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Bg />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Bg', () => {
+    const tree = render(<Bg />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Types', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Types />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Types />);
+    expect(tree).toMatchSnapshot();
   });
 });
 
 describe('Input in RTL', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Default />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Sizes />));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders different states', () => {
-    const testRenderer = renderer.create(renderWithRtl(<States />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders States', () => {
+    const tree = render(withRtl(<States />));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders with custom styles', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Bg />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Bg', () => {
+    const tree = render(withRtl(<Bg />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Types', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Types />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Types />));
+    expect(tree).toMatchSnapshot();
   });
 });
