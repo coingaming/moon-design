@@ -7,6 +7,7 @@ import OneItem from '../OneItem';
 import TwoItems from '../TwoItems';
 import FourItems from '../FourItems';
 import Collapsed from '../Collapsed';
+import CustomDivider from '../CustomDivider';
 
 const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
@@ -28,6 +29,10 @@ describe('Breadcrumb', () => {
     const tree = render(<Collapsed />);
     expect(tree).toMatchSnapshot();
   });
+  it('renders with custom divider', () => {
+    const tree = render(<CustomDivider />);
+    expect(tree).toMatchSnapshot();
+  });
 });
 
 describe('Breadcrumb in RTL', () => {
@@ -46,6 +51,10 @@ describe('Breadcrumb in RTL', () => {
   });
   it('renders Collapsed', () => {
     const tree = render(withRtl(<Collapsed />));
+    expect(tree).toMatchSnapshot();
+  });
+  it('renders with custom divider', () => {
+    const tree = render(withRtl(<CustomDivider />));
     expect(tree).toMatchSnapshot();
   });
 });
