@@ -33,9 +33,9 @@ const navigation = [
       {
         name: 'Input',
         children: [
+          getComponent('Group'),
           getComponent('Input'),
           getComponent('InsetInput'),
-          getComponent('Group'),
         ],
       },
       getComponent('Loader'),
