@@ -3,6 +3,7 @@ import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
+import Default from '../../public/examples/combobox/Default';
 import Disabled from '../../public/examples/combobox/Disabled';
 import Error from '../../public/examples/combobox/Error';
 import Options from '../../public/examples/combobox/Options';
@@ -23,6 +24,12 @@ const Example = () => {
       >
         <p>{text}</p>
       </ComponentPageDescription>
+
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
 
       <Preview
         title="With Label"
