@@ -17,7 +17,7 @@ const Example = () => {
   const { name, text, image } = getComponent('Select');
   return (
     <>
-      <ComponentPageDescription title={name} image={image} isInProgress>
+      <ComponentPageDescription title={name} image={image} isDeprecated>
         <p>{text}</p>
         <p>
           Moon.io supports two types of selects, one whichs opens browser's
