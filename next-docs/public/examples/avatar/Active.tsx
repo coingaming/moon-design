@@ -4,7 +4,7 @@ const Example = () => (
   <>
     <Avatar isStatusActive />
     <Avatar name="md" isStatusActive />
-    <Avatar imageUrl="https://www.fillmurray.com/200/200" isStatusActive />
+    <Avatar imageUrl="../avatar.jpeg" isStatusActive />
   </>
 );
 

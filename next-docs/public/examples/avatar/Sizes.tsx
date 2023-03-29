@@ -19,12 +19,12 @@ const Example = () => (
       <Avatar name="2xl" size="2xl" />
     </div>
     <div className="flex flex-wrap items-center justify-around gap-2 w-full">
-      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="xs" />
-      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="sm" />
-      <Avatar imageUrl="https://www.fillmurray.com/200/200" />
-      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="lg" />
-      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="xl" />
-      <Avatar imageUrl="https://www.fillmurray.com/200/200" size="2xl" />
+      <Avatar imageUrl="../avatar.jpeg" size="xs" />
+      <Avatar imageUrl="../avatar.jpeg" size="sm" />
+      <Avatar imageUrl="../avatar.jpeg" />
+      <Avatar imageUrl="../avatar.jpeg" size="lg" />
+      <Avatar imageUrl="../avatar.jpeg" size="xl" />
+      <Avatar imageUrl="../avatar.jpeg" size="2xl" />
     </div>
   </>
 );
