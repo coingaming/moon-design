@@ -12,8 +12,9 @@ Object {
           class="flex flex-wrap items-center justify-around gap-2 w-full"
         >
           <button
+            aria-describedby="radix-:re:"
             class=""
-            data-state="closed"
+            data-state="instant-open"
           >
             <button
               class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -98,6 +99,39 @@ Object {
         </div>
       </div>
     </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
+    >
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        data-align="start"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
+      >
+        Top-start position
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:re:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          Top-start position
+        </span>
+      </div>
+    </div>
   </body>,
   "container": <div>
     <div
@@ -107,8 +141,9 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
+          aria-describedby="radix-:re:"
           class=""
-          data-state="closed"
+          data-state="instant-open"
         >
           <button
             class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -256,8 +291,9 @@ Object {
         dir="rtl"
       >
         <button
+          aria-describedby="radix-:rm:"
           class=""
-          data-state="closed"
+          data-state="instant-open"
         >
           <button
             class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -297,14 +333,48 @@ Object {
         </button>
       </div>
     </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
+    >
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] bg-chichi-10"
+        data-align="center"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
+      >
+        Custom background colour
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-chichi-10"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:rm:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          Custom background colour
+        </span>
+      </div>
+    </div>
   </body>,
   "container": <div>
     <div
       dir="rtl"
     >
       <button
+        aria-describedby="radix-:rm:"
         class=""
-        data-state="closed"
+        data-state="instant-open"
       >
         <button
           class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -407,8 +477,9 @@ Object {
         dir="rtl"
       >
         <button
+          aria-describedby="radix-:rd:"
           class=""
-          data-state="closed"
+          data-state="instant-open"
         >
           <button
             class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -418,14 +489,48 @@ Object {
         </button>
       </div>
     </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
+    >
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        data-align="center"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
+      >
+        This is the default tooltip
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:rd:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          This is the default tooltip
+        </span>
+      </div>
+    </div>
   </body>,
   "container": <div>
     <div
       dir="rtl"
     >
       <button
+        aria-describedby="radix-:rd:"
         class=""
-        data-state="closed"
+        data-state="instant-open"
       >
         <button
           class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -498,8 +603,9 @@ Object {
         class="flex flex-wrap items-center justify-around gap-2 w-full"
       >
         <button
+          aria-describedby="radix-:r1:"
           class=""
-          data-state="closed"
+          data-state="instant-open"
         >
           <button
             class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -583,14 +689,48 @@ Object {
         </button>
       </div>
     </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
+    >
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        data-align="start"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
+      >
+        Top-start position
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:r1:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          Top-start position
+        </span>
+      </div>
+    </div>
   </body>,
   "container": <div>
     <div
       class="flex flex-wrap items-center justify-around gap-2 w-full"
     >
       <button
+        aria-describedby="radix-:r1:"
         class=""
-        data-state="closed"
+        data-state="instant-open"
       >
         <button
           class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -734,8 +874,9 @@ Object {
   "baseElement": <body>
     <div>
       <button
+        aria-describedby="radix-:r9:"
         class=""
-        data-state="closed"
+        data-state="instant-open"
       >
         <button
           class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -774,11 +915,45 @@ Object {
         </button>
       </button>
     </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
+    >
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] bg-chichi-10"
+        data-align="center"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
+      >
+        Custom background colour
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-chichi-10"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:r9:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          Custom background colour
+        </span>
+      </div>
+    </div>
   </body>,
   "container": <div>
     <button
+      aria-describedby="radix-:r9:"
       class=""
-      data-state="closed"
+      data-state="instant-open"
     >
       <button
         class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -877,8 +1052,9 @@ Object {
   "baseElement": <body>
     <div>
       <button
+        aria-describedby="radix-:r0:"
         class=""
-        data-state="closed"
+        data-state="instant-open"
       >
         <button
           class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
@@ -887,11 +1063,45 @@ Object {
         </button>
       </button>
     </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
+    >
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        data-align="center"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
+      >
+        This is the default tooltip
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:r0:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          This is the default tooltip
+        </span>
+      </div>
+    </div>
   </body>,
   "container": <div>
     <button
+      aria-describedby="radix-:r0:"
       class=""
-      data-state="closed"
+      data-state="instant-open"
     >
       <button
         class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"

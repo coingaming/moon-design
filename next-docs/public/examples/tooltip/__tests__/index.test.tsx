@@ -14,17 +14,17 @@ describe('Tooltip', () => {
   afterEach(cleanup);
   it('renders Default', async () => {
     const tree = render(<Default />);
-    await act(() => fireEvent.mouseEnter(tree.getByText('Trigger')));
+    await act(() => fireEvent.focus(tree.getByText('Trigger')));
     expect(tree).toMatchSnapshot();
   });
   it('renders ArrowPositions', async () => {
     const tree = render(<ArrowPositions />);
-    await act(() => fireEvent.mouseEnter(tree.getAllByText('Trigger')[0]));
+    await act(() => fireEvent.focus(tree.getAllByText('Trigger')[0]));
     expect(tree).toMatchSnapshot();
   });
   it('renders Customization', async () => {
     const tree = render(<Customization />);
-    await act(() => fireEvent.mouseEnter(tree.getAllByText('Trigger')[0]));
+    await act(() => fireEvent.focus(tree.getAllByText('Trigger')[0]));
     expect(tree).toMatchSnapshot();
   });
 });
@@ -33,17 +33,17 @@ describe('Tooltip in RTL', () => {
   afterEach(cleanup);
   it('renders Default', async () => {
     const tree = render(withRtl(<Default />));
-    await act(() => fireEvent.mouseEnter(tree.getByText('Trigger')));
+    await act(() => fireEvent.focus(tree.getByText('Trigger')));
     expect(tree).toMatchSnapshot();
   });
   it('renders ArrowPositions', async () => {
     const tree = render(withRtl(<ArrowPositions />));
-    await act(() => fireEvent.mouseEnter(tree.getAllByText('Trigger')[0]));
+    await act(() => fireEvent.focus(tree.getAllByText('Trigger')[0]));
     expect(tree).toMatchSnapshot();
   });
   it('renders Customization', async () => {
     const tree = render(withRtl(<Customization />));
-    await act(() => fireEvent.mouseEnter(tree.getAllByText('Trigger')[0]));
+    await act(() => fireEvent.focus(tree.getAllByText('Trigger')[0]));
     expect(tree).toMatchSnapshot();
   });
 });
