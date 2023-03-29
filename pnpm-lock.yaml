@@ -605,9 +605,6 @@ importers:
       '@types/react-table': 7.7.12
       '@types/react-window': 1.8.5
 
-  workspaces/templates:
-    specifiers: {}
-
   workspaces/themes:
     specifiers: {}
 
