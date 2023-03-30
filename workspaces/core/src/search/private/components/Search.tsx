@@ -4,6 +4,7 @@ import React, {
   ReactNode,
   Ref,
   useCallback,
+  useContext,
   useEffect,
   useRef,
   useState,
@@ -25,7 +26,6 @@ type SearchProps = {
   onChangeSelected?: (value: number) => void;
   onChangeSearch: (search: string) => void;
   onChangeOpen: (isOpen: boolean) => void;
-  placeholder?: string;
   children: ReactNode;
   selected?: number;
   isOpen: boolean;
@@ -33,25 +33,19 @@ type SearchProps = {
   page?: string;
   backdrop?: ReactNode;
   className?: string;
-  clear: string | ReactNode;
-  autoFocus?: boolean;
 };
 
 export function Search({
   selected: selectedParent,
-  placeholder = 'Search',
   onChangeSelected,
   onChangeSearch,
   onChangeOpen,
   children,
   isOpen,
-  search,
   page,
   className,
-  clear,
-  autoFocus,
+  search,
 }: SearchProps) {
-  const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
   const [ref, hasClickedOutside] = useClickOutside();
 
   const [selected, setSelected] =
@@ -174,46 +168,70 @@ export function Search({
           className
         )}
       >
-        <Input
-          onChange={onChangeSearch}
-          onFocus={() => {
-            onChangeOpen(true);
-          }}
-          placeholder={placeholder}
-          value={search}
-          ref={inputRef as unknown as Ref<HTMLInputElement>}
-          clear={clear}
-          autoFocus={autoFocus}
-        />
-        <Transition
-          show={isOpen}
-          as={Fragment}
-          enter="ease-out duration-300"
-          enterFrom="opacity-0 scale-95"
-          enterTo="opacity-100 scale-100"
-          leave="ease-in duration-200"
-          leaveFrom="opacity-100 scale-100"
-          leaveTo="opacity-0 scale-95"
-        >
-          <div
-            className={mergeClassnames(
-              'absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',
-              isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm'
-            )}
-            tabIndex={-1}
-          >
-            <SearchContext.Provider value={{ search }}>
-              <SelectContext.Provider value={{ selected }}>
-                {children}
-              </SelectContext.Provider>
-            </SearchContext.Provider>
-          </div>
-        </Transition>
+        <SearchContext.Provider value={{ search, onChangeOpen, onChangeSearch }}>
+          <SelectContext.Provider value={{ selected }}>
+            {children}
+          </SelectContext.Provider>
+        </SearchContext.Provider>
       </div>
     </div>
   );
 }
 
+interface InputProps {
+  placeholder?: string;
+  // onChangeSearch: (search: string) => void;
+  clear: string | ReactNode;
+  autoFocus?: boolean;
+  // search: string;
+}
+
+const InnerInput = ({
+  placeholder = 'Search',
+  clear,
+  autoFocus,
+}: InputProps) => {
+  const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
+  const { search, onChangeOpen, onChangeSearch } = useContext(SearchContext);
+
+  return <Input
+    onChange={onChangeSearch}
+    onFocus={() => {
+      onChangeOpen(true);
+    }}
+    placeholder={placeholder}
+    value={search}
+    ref={inputRef as unknown as Ref<HTMLInputElement>}
+    clear={clear}
+    autoFocus={autoFocus}
+  />
+}
+
+const InTransition = ({ isOpen, children }: any) => {
+  return <Transition
+    show={isOpen}
+    as={Fragment}
+    enter="ease-out duration-300"
+    enterFrom="opacity-0 scale-95"
+    enterTo="opacity-100 scale-100"
+    leave="ease-in duration-200"
+    leaveFrom="opacity-100 scale-100"
+    leaveTo="opacity-0 scale-95"
+  >
+    <div
+      className={mergeClassnames(
+        'absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',
+        isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm'
+      )}
+      tabIndex={-1}
+    >
+      {children}
+    </div>
+  </Transition>
+}
+
+Search.Input = InnerInput
+Search.Transition = InTransition;
 Search.List = List;
 Search.ListItem = ListItem;
 Search.NoResults = NoResults;

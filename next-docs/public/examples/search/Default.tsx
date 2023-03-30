@@ -70,44 +70,48 @@ const Example = () => {
         onChangeOpen={setOpen}
         search={search}
         isOpen={open}
-        clear={<span>Clear</span>}
-        autoFocus={true}
       >
-        {filteredItems.length ? (
-          filteredItems.map((list: any) => (
-            <Search.List key={list.id}>
-              <Search.ListHeading>{list.heading}</Search.ListHeading>
-              {list.items.map(({ id, children, href, ...rest }: any) => (
-                <Search.ListItem
-                  key={id}
-                  index={searchGetItemIndex(filteredItems, id)}
-                  closeOnSelect={true}
-                  {...rest}
-                >
-                  {(selected: boolean) =>
-                    href ? (
-                      <a href={href}>
+        <Search.Input
+          clear={<span>Clear</span>}
+          autoFocus={true}
+        />
+        <Search.Transition isOpen={open}>
+          {filteredItems.length ? (
+            filteredItems.map((list: any) => (
+              <Search.List key={list.id}>
+                <Search.ListHeading>{list.heading}</Search.ListHeading>
+                {list.items.map(({ id, children, href, ...rest }: any) => (
+                  <Search.ListItem
+                    key={id}
+                    index={searchGetItemIndex(filteredItems, id)}
+                    closeOnSelect={true}
+                    {...rest}
+                  >
+                    {(selected: boolean) =>
+                      href ? (
+                        <a href={href}>
+                          <MenuItem isActive={selected}>
+                            <MenuItem.Title>{children}</MenuItem.Title>
+                            <span className="text-moon-12 text-trunks">
+                              {href}
+                            </span>
+                          </MenuItem>
+                        </a>
+                      ) : (
                         <MenuItem isActive={selected}>
                           <MenuItem.Title>{children}</MenuItem.Title>
-                          <span className="text-moon-12 text-trunks">
-                            {href}
-                          </span>
+                          <span className="text-moon-12 text-trunks">Action</span>
                         </MenuItem>
-                      </a>
-                    ) : (
-                      <MenuItem isActive={selected}>
-                        <MenuItem.Title>{children}</MenuItem.Title>
-                        <span className="text-moon-12 text-trunks">Action</span>
-                      </MenuItem>
-                    )
-                  }
-                </Search.ListItem>
-              ))}
-            </Search.List>
-          ))
-        ) : (
-          <Search.NoResults />
-        )}
+                      )
+                    }
+                  </Search.ListItem>
+                ))}
+              </Search.List>
+            ))
+          ) : (
+            <Search.NoResults />
+          )}
+        </Search.Transition>
       </Search>
     </div>
   );

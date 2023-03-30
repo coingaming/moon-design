@@ -1,4 +1,4 @@
-import { createContext, Dispatch, SetStateAction } from "react";
+import { createContext, Dispatch, SetStateAction } from 'react';
 
 export const SelectContext = createContext<{ selected: number }>({
   selected: 0,
@@ -13,8 +13,18 @@ export const PageContext = createContext<{
   page: undefined,
 });
 
-export const SearchContext = createContext<{ search: string }>({
-  search: "",
+export const SearchContext = createContext<{
+  search: string;
+  onChangeOpen: any;
+  onChangeSearch: any;
+}>({
+  search: '',
+  onChangeOpen: () => {
+    console.log('test onChangeOpen');
+  },
+  onChangeSearch: () => {
+    console.log('test onChangeSearch');
+  },
 });
 
 export const OpenContext = createContext<{
