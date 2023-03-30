@@ -1,29 +1,27 @@
 import React, { ReactNode, forwardRef } from 'react';
-import { useFormContext, useFormItemContext } from '../../form/Form';
-import mergeClassnames from '../../mergeClassnames/mergeClassnames';
-import ControlsChevronDownSmall from '../../private/icons/ControlsChevronDownSmall';
+import { useFormContext, useFormItemContext } from '../form/Form';
+import mergeClassnames from '../mergeClassnames/mergeClassnames';
+import ControlsChevronDownSmall from '../private/icons/ControlsChevronDownSmall';
+import getSizeStyles from './prvate/getSizeStyles';
 
 type WithChildren<T = {}> = T & { children?: ReactNode };
 
-export interface InsetSelectProps
+export interface NativeSelectProps
   extends Omit<React.SelectHTMLAttributes<HTMLSelectElement>, 'size'> {
   className?: string;
   size?: 'sm' | 'md' | 'lg';
   error?: boolean;
   disabled?: boolean;
-  label?: React.ReactNode | string;
   readOnly?: boolean;
 }
-
-const InsetSelect = forwardRef<
+const NativeSelect = forwardRef<
   HTMLSelectElement,
-  WithChildren<InsetSelectProps>
+  WithChildren<NativeSelectProps>
 >(
   (
     {
       children,
       className,
-      label,
       size: selectSize,
       error: selectError,
       disabled: selectDisabled,
@@ -32,12 +30,12 @@ const InsetSelect = forwardRef<
     },
     ref
   ) => {
-    const { size: formSize } = useFormContext('Input');
+    const { size: formSize } = useFormContext('Select');
     const {
       size: formItemSize,
       disabled: formItemDisabled,
       error: formItemError,
-    } = useFormItemContext('Input');
+    } = useFormItemContext('Select');
     const size = selectSize || formItemSize || formSize;
     const disabled = selectDisabled || formItemDisabled;
     const error = selectError || formItemError;
@@ -45,7 +43,7 @@ const InsetSelect = forwardRef<
     return (
       <span
         className={mergeClassnames(
-          'w-full max-w-full relative bg-transparent rounded-moon-i-sm',
+          'block relative w-full',
           disabled && 'opacity-30 cursor-not-allowed',
           readOnly && 'cursor-not-allowed',
           className && className
@@ -55,32 +53,21 @@ const InsetSelect = forwardRef<
           ref={ref}
           disabled={disabled || readOnly}
           className={mergeClassnames(
-            'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2]',
-            'bg-transparent shadow-input hover:shadow-input-hov',
+            'block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] cursor-pointer',
+            'bg-gohan shadow-input hover:shadow-input-hov',
             'focus:shadow-input-focus focus:outline-none',
             error &&
               'shadow-input-err hover:shadow-input-err focus:shadow-input-err',
-            'h-14 rounded-moon-i-sm',
-            'rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm',
-            'ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm',
+            'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err',
+            getSizeStyles(size as string),
             'before:box-border after:box-border',
             'placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75',
-            'invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err',
-            'pt-[1.125rem]',
             (disabled || readOnly) && 'cursor-not-allowed hover:shadow-input'
           )}
           {...rest}
         >
           {children}
         </select>
-        <label
-          className={mergeClassnames(
-            'absolute text-trunks z-[1] transition-all ease-in-out duration-200 rtl:right-4 ltr:left-4',
-            'text-[0.75rem] leading-3 top-3'
-          )}
-        >
-          {label}
-        </label>
         <ControlsChevronDownSmall
           className={mergeClassnames(
             'absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none',
@@ -93,4 +80,4 @@ const InsetSelect = forwardRef<
   }
 );
 
-export default InsetSelect;
+export default NativeSelect;

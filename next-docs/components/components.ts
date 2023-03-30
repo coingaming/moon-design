@@ -140,6 +140,16 @@ const components = [
     text: 'A form input used for selecting a value: when collapsed it shows the currently selected option and when expanded, it shows a scrollable list of predefined options for the user to choose from.',
   },
   {
+    name: 'NativeSelect',
+    href: '/core/nativeSelect',
+    text: 'A form input used for selecting a value.',
+  },
+  {
+    name: 'InsetNativeSelect',
+    href: '/core/insetNativeSelect',
+    text: 'A form input with label inside used for selecting a value.',
+  },
+  {
     name: 'Snackbar',
     href: '/core/snackbar',
     text: 'The snackbar component is a non-disruptive message that appears on the interface to provide quick, at-a-glance feedback on the outcome of an action.',
