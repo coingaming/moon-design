@@ -4,7 +4,7 @@ const Example = () => (
   <div className="flex flex-col lg:flex-row justify-around items-end w-full gap-2">
     <div className="w-full">
       <Label htmlFor="test-1" size="sm">
-        Country / Region
+        Small (sm)
       </Label>
       <NativeSelect id="test-1" size="sm">
         <option value="Italy">Italy</option>
