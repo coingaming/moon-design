@@ -7,6 +7,7 @@ import Default from '../../public/examples/combobox/Default';
 import Disabled from '../../public/examples/combobox/Disabled';
 import Error from '../../public/examples/combobox/Error';
 import Options from '../../public/examples/combobox/Options';
+import TriggerElements from '../../public/examples/combobox/TriggerElements';
 import WithLabel from '../../public/examples/combobox/WithLabel';
 import WithoutLabel from '../../public/examples/combobox/WithoutLabel';
 import useExamples from '../../utils/useExamples';
@@ -29,6 +30,12 @@ const Example = () => {
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+
+      <Preview
+        title="Trigger elements"
+        preview={<TriggerElements />}
+        code={examples ? examples.WithLabel : 'Loading'}
       />
 
       <Preview
