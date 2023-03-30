@@ -11,26 +11,20 @@ import React, {
 import { Transition } from '@headlessui/react';
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 import useClickOutside from '../../../private/hooks/useClickOutside';
-import { RenderLink } from '../types';
 import {
-  PageContext,
-  RenderLinkContext,
   SearchContext,
   SelectContext,
 } from '../utils/context';
-import { Backdrop } from './Backdrop';
-import FreeSearchAction from './FreeSearchAction';
+
+import NoResults from './NoResults';
 import Input from './Input';
 import List, { ListHeading } from './List';
 import ListItem from './ListItem';
-import Page from './Page';
-import { Trigger } from './Trigger';
 
 type SearchProps = {
   onChangeSelected?: (value: number) => void;
   onChangeSearch: (search: string) => void;
   onChangeOpen: (isOpen: boolean) => void;
-  renderLink?: RenderLink;
   placeholder?: string;
   children: ReactNode;
   selected?: number;
@@ -49,7 +43,6 @@ export function Search({
   onChangeSelected,
   onChangeSearch,
   onChangeOpen,
-  renderLink,
   children,
   isOpen,
   search,
@@ -65,8 +58,6 @@ export function Search({
     typeof selectedParent === 'number' && onChangeSelected
       ? [selectedParent, onChangeSelected]
       : useState<number>(0);
-
-  const [searchPrefix, setSearchPrefix] = useState<string[] | undefined>();
 
   function handleChangeSelected(direction?: 'up' | 'down') {
     const items = document.querySelectorAll('.moon-search-list-item');
@@ -183,27 +174,17 @@ export function Search({
           className
         )}
       >
-        <PageContext.Provider
-          value={{
-            setSearchPrefix,
-            searchPrefix,
-            page,
+        <Input
+          onChange={onChangeSearch}
+          onFocus={() => {
+            onChangeOpen(true);
           }}
-        >
-          <Input
-            onChange={onChangeSearch}
-            onFocus={() => {
-              onChangeOpen(true);
-            }}
-            placeholder={placeholder}
-            prefix={searchPrefix}
-            value={search}
-            ref={inputRef as unknown as Ref<HTMLInputElement>}
-            clear={clear}
-            autoFocus={autoFocus}
-          />
-        </PageContext.Provider>
-
+          placeholder={placeholder}
+          value={search}
+          ref={inputRef as unknown as Ref<HTMLInputElement>}
+          clear={clear}
+          autoFocus={autoFocus}
+        />
         <Transition
           show={isOpen}
           as={Fragment}
@@ -221,17 +202,11 @@ export function Search({
             )}
             tabIndex={-1}
           >
-            <PageContext.Provider
-              value={{ page, searchPrefix, setSearchPrefix }}
-            >
-              <SearchContext.Provider value={{ search }}>
-                <SelectContext.Provider value={{ selected }}>
-                  <RenderLinkContext.Provider value={{ renderLink }}>
-                    {children}
-                  </RenderLinkContext.Provider>
-                </SelectContext.Provider>
-              </SearchContext.Provider>
-            </PageContext.Provider>
+            <SearchContext.Provider value={{ search }}>
+              <SelectContext.Provider value={{ selected }}>
+                {children}
+              </SelectContext.Provider>
+            </SearchContext.Provider>
           </div>
         </Transition>
       </div>
@@ -239,10 +214,7 @@ export function Search({
   );
 }
 
-Search.Page = Page;
 Search.List = List;
 Search.ListItem = ListItem;
-Search.FreeSearchAction = FreeSearchAction;
-Search.Backdrop = Backdrop;
+Search.NoResults = NoResults;
 Search.ListHeading = ListHeading;
-Search.Trigger = Trigger;

@@ -4,7 +4,6 @@ import {
   Search,
   searchFilterItems,
   searchGetItemIndex,
-  useOpenSearch,
 } from '@heathmont/moon-core-tw';
 
 const Example = () => {
@@ -64,8 +63,6 @@ const Example = () => {
     search
   );
 
-  const Clear = () => <span>Clear</span>;
-
   return (
     <div className="w-full xl:mx-32">
       <Search
@@ -73,7 +70,7 @@ const Example = () => {
         onChangeOpen={setOpen}
         search={search}
         isOpen={open}
-        clear={Clear()}
+        clear={<span>Clear</span>}
         autoFocus={true}
       >
         {filteredItems.length ? (
@@ -109,7 +106,7 @@ const Example = () => {
             </Search.List>
           ))
         ) : (
-          <Search.FreeSearchAction />
+          <Search.NoResults />
         )}
       </Search>
     </div>

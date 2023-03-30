@@ -6,7 +6,6 @@ type SearchProps = {
   onFocus?: () => void;
   onBlur?: (e: React.FocusEvent<HTMLElement>) => void;
   placeholder?: string;
-  prefix?: string[];
   value: string;
   clear: string | React.ReactNode;
   autoFocus?: boolean;
@@ -18,7 +17,6 @@ function Input(
     onFocus,
     onBlur,
     placeholder,
-    prefix,
     value,
     clear,
     autoFocus,
@@ -28,17 +26,6 @@ function Input(
   return (
     <div className="flex items-center space-x-1.5 pl-3 moon-search-input">
       <GenericSearch className="w-6 h-6 pointer-events-none text-bulma" />
-
-      {prefix?.length
-        ? prefix.map((p) => {
-            return (
-              <Fragment key={p}>
-                <span className="dark:text-bulma">{p}</span>
-                <span className="text-bulma">/</span>
-              </Fragment>
-            );
-          })
-        : null}
 
       <div className="flex-1 relative">
         <input
