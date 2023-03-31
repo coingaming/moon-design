@@ -7,6 +7,7 @@ import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/combobox/Default';
 import OptionsVariants from '../../public/examples/combobox/OptionsVariants';
 import Select from '../../public/examples/combobox/Select';
+import SelectStates from '../../public/examples/combobox/SelectStates';
 import TriggerElements from '../../public/examples/combobox/TriggerElements';
 import useExamples from '../../utils/useExamples';
 
@@ -66,6 +67,12 @@ const Example = () => {
         title="Select"
         preview={<Select />}
         code={examples ? examples.Select : 'Loading'}
+      />
+
+      <Preview
+        title="Different states for Select"
+        preview={<SelectStates />}
+        code={examples ? examples.SelectStates : 'Loading'}
       />
     </>
   );
