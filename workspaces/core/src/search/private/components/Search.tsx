@@ -169,7 +169,6 @@ export function Search({
   );
 }
 
-
 const Transition = ({ isOpen, children }: { isOpen: boolean, children: ReactNode }) => {
   return <HeadlessTransition
     show={isOpen}
