@@ -7,6 +7,7 @@ import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/combobox/Default';
 import InsetSelect from '../../public/examples/combobox/InsetSelect';
 import InsetSelectStates from '../../public/examples/combobox/InsetSelectStates';
+import MultiSelect from '../../public/examples/combobox/MultiSelect';
 import OptionsVariants from '../../public/examples/combobox/OptionsVariants';
 import Select from '../../public/examples/combobox/Select';
 import SelectStates from '../../public/examples/combobox/SelectStates';
@@ -98,6 +99,23 @@ const Example = () => {
         preview={<InsetSelectStates />}
         code={examples ? examples.InsetSelectStates : 'Loading'}
       />
+
+      <ComponentAnatomy>
+        {`<Combobox>
+  <Combobox.MultiSelect>...</Combobox.MultiSelect>
+  <Combobox.Options>
+    <Combobox.Option>...</Combobox.Option>
+  </Combobox.Options>
+  <Combobox.Hint>...</Combobox.Hint>
+</Combobox>`}
+      </ComponentAnatomy>
+
+      <Preview
+        title="MultiSelect"
+        preview={<MultiSelect />}
+        code={examples ? examples.MultiSelect : 'Loading'}
+      />
+
     </>
   );
 };
