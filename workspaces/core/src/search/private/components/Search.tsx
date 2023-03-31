@@ -28,8 +28,6 @@ interface SearchProps {
   selected?: number;
   isOpen: boolean;
   search: string;
-  page?: string;
-  backdrop?: ReactNode;
   className?: string;
 };
 
@@ -40,7 +38,6 @@ export function Search({
   onChangeOpen,
   children,
   isOpen,
-  page,
   className,
   search,
 }: SearchProps) {
@@ -119,10 +116,6 @@ export function Search({
   useEffect(() => {
     handleChangeSelected();
   }, [search]);
-
-  useEffect(() => {
-    setSelected(0);
-  }, [page]);
 
   const onKeyDown = useCallback(
     (e: React.KeyboardEvent) => {
