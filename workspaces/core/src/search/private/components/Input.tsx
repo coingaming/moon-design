@@ -1,4 +1,4 @@
-import React, { forwardRef, Fragment, Ref } from 'react';
+import React, { forwardRef, Ref } from 'react';
 import GenericSearch from '../../../private/icons/GenericSearch';
 
 type SearchProps = {
@@ -9,6 +9,7 @@ type SearchProps = {
   value: string;
   clear: string | React.ReactNode;
   autoFocus?: boolean;
+  className?: string;
 };
 
 function Input(
@@ -20,13 +21,13 @@ function Input(
     value,
     clear,
     autoFocus,
+    className
   }: SearchProps,
   ref: Ref<HTMLInputElement>
 ) {
   return (
     <div className="flex items-center space-x-1.5 pl-3 moon-search-input">
       <GenericSearch className="w-6 h-6 pointer-events-none text-bulma" />
-
       <div className="flex-1 relative">
         <input
           ref={ref}

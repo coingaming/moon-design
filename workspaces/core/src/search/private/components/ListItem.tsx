@@ -54,8 +54,6 @@ export function Link({
     );
   }
 
-  const styles = mergeClassnames(commonClasses, className);
-
   function clickAndClose(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
     if (rest.href && !disabled) {
       if (onClick) {
@@ -72,7 +70,7 @@ export function Link({
     data-close-on-select={closeOnSelect}
     aria-disabled={disabled}
     onClick={clickAndClose}
-    className={styles}
+    className={mergeClassnames(commonClasses, className)}
     {...rest}
   >
     {renderLinkContent()}

@@ -22,7 +22,7 @@ import Input from './Input';
 import List, { ListHeading } from './List';
 import ListItem from './ListItem';
 
-type SearchProps = {
+interface SearchProps {
   onChangeSelected?: (value: number) => void;
   onChangeSearch: (search: string) => void;
   onChangeOpen: (isOpen: boolean) => void;
@@ -180,10 +180,8 @@ export function Search({
 
 interface InputProps {
   placeholder?: string;
-  // onChangeSearch: (search: string) => void;
   clear: string | ReactNode;
   autoFocus?: boolean;
-  // search: string;
 }
 
 const InnerInput = ({
@@ -207,7 +205,7 @@ const InnerInput = ({
   />
 }
 
-const InTransition = ({ isOpen, children }: any) => {
+const InTransition = ({ isOpen, children }: { isOpen: boolean, children: ReactNode }) => {
   return <Transition
     show={isOpen}
     as={Fragment}
