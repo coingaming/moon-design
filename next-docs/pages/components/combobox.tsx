@@ -6,6 +6,7 @@ import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/combobox/Default';
 import OptionsVariants from '../../public/examples/combobox/OptionsVariants';
+import Select from '../../public/examples/combobox/Select';
 import TriggerElements from '../../public/examples/combobox/TriggerElements';
 import useExamples from '../../utils/useExamples';
 
@@ -50,37 +51,22 @@ const Example = () => {
         preview={<OptionsVariants />}
         code={examples ? examples.OptionsVariants : 'Loading'}
       />
-{/*
-      <Preview
-        title="With Label"
-        preview={<WithLabel />}
-        code={examples ? examples.WithLabel : 'Loading'}
-      />
+
+      <ComponentAnatomy>
+        {`<Combobox>
+  <Combobox.Select>...</Combobox.Select>
+  <Combobox.Options>
+    <Combobox.Option>...</Combobox.Option>
+  </Combobox.Options>
+  <Combobox.Hint>...</Combobox.Hint>
+</Combobox>`}
+      </ComponentAnatomy>
 
       <Preview
-        title="Formatted options"
-        preview={<Options />}
-        code={examples ? examples.Options : 'Loading'}
+        title="Select"
+        preview={<Select />}
+        code={examples ? examples.Select : 'Loading'}
       />
-
-      <Preview
-        title="Error"
-        preview={<Error />}
-        code={examples ? examples.Error : 'Loading'}
-      />
-
-      <Preview
-        title="Disabled"
-        preview={<Disabled />}
-        code={examples ? examples.Disabled : 'Loading'}
-      />
-
-      <Preview
-        title="Without label"
-        preview={<WithoutLabel />}
-        code={examples ? examples.WithoutLabel : 'Loading'}
-      />
-  */}
     </>
   );
 };
