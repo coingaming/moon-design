@@ -1,25 +1,43 @@
+import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import DeprecationWarning from '../../components/facing/DeprecationWarning';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Checked from '../../public/styledExamples/checkbox/Checked';
-import Default from '../../public/styledExamples/checkbox/Default';
-import Disabled from '../../public/styledExamples/checkbox/Disabled';
-import NoLabel from '../../public/styledExamples/checkbox/NoLabel';
-import Readonly from '../../public/styledExamples/checkbox/Readonly';
+import Checked from '../../public/examples/checkbox/Checked';
+import Customize from '../../public/examples/checkbox/Customize';
+import Default from '../../public/examples/checkbox/Default';
+import Disabled from '../../public/examples/checkbox/Disabled';
+import ReadOnly from '../../public/examples/checkbox/ReadOnly';
+import WithLabel from '../../public/examples/checkbox/WithLabel';
 import useExamples from '../../utils/useExamples';
 
-const PageAccordion = () => {
-  const examples = useExamples('checkbox', 'styled');
+const Example = () => {
+  const examples = useExamples('checkbox');
+  const { name, text, image } = getComponent('Checkbox');
   return (
     <>
-      <ComponentPageDescription title="Checkbox" isDeprecated>
-        <DeprecationWarning href="/core/checkbox" name="Checkbox" />
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+        isAriaSupport
+      >
+        <p>{text}</p>
+        <p>
+          Checkboxes are used to let a user select one or more options of a
+          limited number of choices.
+        </p>
       </ComponentPageDescription>
       <Preview
-        title="Checkbox"
+        title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="With Label"
+        preview={<WithLabel />}
+        code={examples ? examples.WithLabel : 'Loading'}
       />
       <Preview
         title="Checked"
@@ -27,51 +45,85 @@ const PageAccordion = () => {
         code={examples ? examples.Checked : 'Loading'}
       />
       <Preview
-        title="No label"
-        preview={<NoLabel />}
-        code={examples ? examples.NoLabel : 'Loading'}
-      />
-      <Preview
         title="Disabled"
         preview={<Disabled />}
         code={examples ? examples.Disabled : 'Loading'}
       />
       <Preview
-        title="Readonly"
-        preview={<Readonly />}
-        code={examples ? examples.Readonly : 'Loading'}
+        title="ReadOnly"
+        preview={<ReadOnly />}
+        code={examples ? examples.ReadOnly : 'Loading'}
+      />
+      <Preview
+        title="Customization"
+        preview={<Customize />}
+        code={examples ? examples.Customize : 'Loading'}
       />
       <PropsTable
-        title="Props"
+        title="Checkbox props"
         data={[
+          {
+            name: 'ariaLabel',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'ARIA description of checkbox',
+          },
+          {
+            name: 'bgColor',
+            type: 'string',
+            required: false,
+            default: 'bg-piccolo',
+            description: 'Checked state of checkbox',
+          },
           {
             name: 'checked',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Preset value for checkbox state',
+            description: 'Checked state of checkbox',
           },
           {
             name: 'disabled',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Checkbox disabled state',
+            description: 'Disables checkbox',
+          },
+          {
+            name: 'id',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Unique id of checkbox',
+          },
+          {
+            name: 'label',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: "Describes checkbox's purpose",
+          },
+          {
+            name: 'onChange',
+            type: '(event) => void',
+            required: false,
+            default: '-',
+            description: 'Change event handler',
+          },
+          {
+            name: 'onClick',
+            type: '(event) => void',
+            required: false,
+            default: '-',
+            description: 'Click event handler',
           },
           {
             name: 'readOnly',
             type: 'boolean',
             required: false,
             default: 'false',
-            description:
-              "Checkbox isn't disabled but its value can't be changed",
-          },
-          {
-            name: 'label',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: 'Label that describes checkbox purpose',
+            description: "Value of checkbox can't be changed",
           },
         ]}
       />
@@ -79,4 +131,4 @@ const PageAccordion = () => {
   );
 };
 
-export default PageAccordion;
+export default Example;
