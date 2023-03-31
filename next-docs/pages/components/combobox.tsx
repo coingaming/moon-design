@@ -5,6 +5,8 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/combobox/Default';
+import InsetSelect from '../../public/examples/combobox/InsetSelect';
+import InsetSelectStates from '../../public/examples/combobox/InsetSelectStates';
 import OptionsVariants from '../../public/examples/combobox/OptionsVariants';
 import Select from '../../public/examples/combobox/Select';
 import SelectStates from '../../public/examples/combobox/SelectStates';
@@ -73,6 +75,28 @@ const Example = () => {
         title="Different states for Select"
         preview={<SelectStates />}
         code={examples ? examples.SelectStates : 'Loading'}
+      />
+
+      <ComponentAnatomy>
+        {`<Combobox>
+  <Combobox.InsetSelect>...</Combobox.InsetSelect>
+  <Combobox.Options>
+    <Combobox.Option>...</Combobox.Option>
+  </Combobox.Options>
+  <Combobox.Hint>...</Combobox.Hint>
+</Combobox>`}
+      </ComponentAnatomy>
+
+      <Preview
+        title="Select with inner label"
+        preview={<InsetSelect />}
+        code={examples ? examples.InsetSelect : 'Loading'}
+      />
+
+      <Preview
+        title="Different states for Select with inner label"
+        preview={<InsetSelectStates />}
+        code={examples ? examples.InsetSelectStates : 'Loading'}
       />
     </>
   );
