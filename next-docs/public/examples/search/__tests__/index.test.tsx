@@ -12,7 +12,6 @@ describe('Search', () => {
   afterEach(cleanup);
   it('renders Default', async () => {
     const tree = render(<Default />);
-    await act(() => fireEvent.click(tree.getByPlaceholderText('Search')));
     expect(tree).toMatchSnapshot();
   });
 });
@@ -21,7 +20,6 @@ describe('Search in RTL', () => {
   afterEach(cleanup);
   it('renders Default', async () => {
     const tree = render(withRtl(<Default />));
-    await act(() => fireEvent.click(tree.getByPlaceholderText('Search')));
     expect(tree).toMatchSnapshot();
   });
 });

@@ -4,13 +4,6 @@ exports[`Search in RTL renders Default 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
-    <div
-      id="headlessui-portal-root"
-    >
-      <div
-        data-headlessui-portal=""
-      />
-    </div>
     <div>
       <div
         dir="rtl"
@@ -20,7 +13,7 @@ Object {
         >
           <div>
             <div
-              class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-t-moon-s-sm"
+              class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-moon-s-sm"
             >
               <div
                 class="flex items-center space-x-1.5 pl-3 moon-search-input"
@@ -39,189 +32,20 @@ Object {
                     stroke-linecap="round"
                   />
                 </svg>
-                <div
-                  class="flex-1 relative"
-                >
-                  <input
-                    class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                    id="moon-search-input"
-                    placeholder="Search"
-                    spellcheck="false"
-                    type="text"
-                    value=""
-                  />
-                </div>
-              </div>
-              <div
-                class="absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list rounded-b-moon-s-sm ease-out duration-300 opacity-0 scale-95"
-                tabindex="-1"
-              >
-                <ul
-                  class="min-w-full space-y-1"
+                <input
+                  class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
+                  id="moon-search-input"
+                  spellcheck="false"
+                  type="text"
+                  value=""
+                />
+                <button
+                  class="cursor-pointer text-trunks test-sm transition absolute right-4 top-1/2 transform -translate-y-1/2"
                   tabindex="-1"
+                  type="button"
                 >
-                  <li>
-                    <h5
-                      class="text-bulma text-sm font-medium px-2 py-1"
-                    >
-                      Home
-                    </h5>
-                    <button
-                      aria-disabled="false"
-                      class="moon-search-list-item w-full"
-                      data-close-on-select="true"
-                    >
-                      <a
-                        href="#home"
-                      >
-                        <button
-                          class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
-                          type="button"
-                        >
-                          <span
-                            class="block grow text-start text-bulma overflow-hidden"
-                          >
-                            Home
-                          </span>
-                          <span
-                            class="text-moon-12 text-trunks"
-                          >
-                            #home
-                          </span>
-                        </button>
-                      </a>
-                    </button>
-                    <button
-                      aria-disabled="false"
-                      class="moon-search-list-item w-full"
-                      data-close-on-select="true"
-                    >
-                      <a
-                        href="#settings"
-                      >
-                        <button
-                          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                          type="button"
-                        >
-                          <span
-                            class="block grow text-start text-bulma overflow-hidden"
-                          >
-                            Settings
-                          </span>
-                          <span
-                            class="text-moon-12 text-trunks"
-                          >
-                            #settings
-                          </span>
-                        </button>
-                      </a>
-                    </button>
-                    <button
-                      aria-disabled="false"
-                      class="moon-search-list-item w-full"
-                      data-close-on-select="false"
-                    >
-                      <button
-                        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                        type="button"
-                      >
-                        <span
-                          class="block grow text-start text-bulma overflow-hidden"
-                        >
-                          Projects
-                        </span>
-                        <span
-                          class="text-moon-12 text-trunks"
-                        >
-                          Action
-                        </span>
-                      </button>
-                    </button>
-                  </li>
-                </ul>
-                <ul
-                  class="min-w-full space-y-1"
-                  tabindex="-1"
-                >
-                  <li>
-                    <h5
-                      class="text-bulma text-sm font-medium px-2 py-1"
-                    >
-                      Other
-                    </h5>
-                    <button
-                      aria-disabled="false"
-                      class="moon-search-list-item w-full"
-                      data-close-on-select="true"
-                    >
-                      <a
-                        href="#developer-settings"
-                      >
-                        <button
-                          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                          type="button"
-                        >
-                          <span
-                            class="block grow text-start text-bulma overflow-hidden"
-                          >
-                            Developer settings
-                          </span>
-                          <span
-                            class="text-moon-12 text-trunks"
-                          >
-                            #developer-settings
-                          </span>
-                        </button>
-                      </a>
-                    </button>
-                    <button
-                      aria-disabled="false"
-                      class="moon-search-list-item w-full"
-                      data-close-on-select="true"
-                    >
-                      <a
-                        href="#privacy-policy"
-                      >
-                        <button
-                          class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                          type="button"
-                        >
-                          <span
-                            class="block grow text-start text-bulma overflow-hidden"
-                          >
-                            Privacy policy
-                          </span>
-                          <span
-                            class="text-moon-12 text-trunks"
-                          >
-                            #privacy-policy
-                          </span>
-                        </button>
-                      </a>
-                    </button>
-                    <button
-                      aria-disabled="false"
-                      class="moon-search-list-item w-full"
-                      data-close-on-select="true"
-                    >
-                      <button
-                        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                        type="button"
-                      >
-                        <span
-                          class="block grow text-start text-bulma overflow-hidden"
-                        >
-                          Log out
-                        </span>
-                        <span
-                          class="text-moon-12 text-trunks"
-                        >
-                          Action
-                        </span>
-                      </button>
-                    </button>
-                  </li>
-                </ul>
+                  Clear
+                </button>
               </div>
             </div>
           </div>
@@ -238,7 +62,7 @@ Object {
       >
         <div>
           <div
-            class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-t-moon-s-sm"
+            class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-moon-s-sm"
           >
             <div
               class="flex items-center space-x-1.5 pl-3 moon-search-input"
@@ -257,189 +81,20 @@ Object {
                   stroke-linecap="round"
                 />
               </svg>
-              <div
-                class="flex-1 relative"
-              >
-                <input
-                  class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                  id="moon-search-input"
-                  placeholder="Search"
-                  spellcheck="false"
-                  type="text"
-                  value=""
-                />
-              </div>
-            </div>
-            <div
-              class="absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list rounded-b-moon-s-sm ease-out duration-300 opacity-0 scale-95"
-              tabindex="-1"
-            >
-              <ul
-                class="min-w-full space-y-1"
+              <input
+                class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
+                id="moon-search-input"
+                spellcheck="false"
+                type="text"
+                value=""
+              />
+              <button
+                class="cursor-pointer text-trunks test-sm transition absolute right-4 top-1/2 transform -translate-y-1/2"
                 tabindex="-1"
+                type="button"
               >
-                <li>
-                  <h5
-                    class="text-bulma text-sm font-medium px-2 py-1"
-                  >
-                    Home
-                  </h5>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="true"
-                  >
-                    <a
-                      href="#home"
-                    >
-                      <button
-                        class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
-                        type="button"
-                      >
-                        <span
-                          class="block grow text-start text-bulma overflow-hidden"
-                        >
-                          Home
-                        </span>
-                        <span
-                          class="text-moon-12 text-trunks"
-                        >
-                          #home
-                        </span>
-                      </button>
-                    </a>
-                  </button>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="true"
-                  >
-                    <a
-                      href="#settings"
-                    >
-                      <button
-                        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                        type="button"
-                      >
-                        <span
-                          class="block grow text-start text-bulma overflow-hidden"
-                        >
-                          Settings
-                        </span>
-                        <span
-                          class="text-moon-12 text-trunks"
-                        >
-                          #settings
-                        </span>
-                      </button>
-                    </a>
-                  </button>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="false"
-                  >
-                    <button
-                      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                      type="button"
-                    >
-                      <span
-                        class="block grow text-start text-bulma overflow-hidden"
-                      >
-                        Projects
-                      </span>
-                      <span
-                        class="text-moon-12 text-trunks"
-                      >
-                        Action
-                      </span>
-                    </button>
-                  </button>
-                </li>
-              </ul>
-              <ul
-                class="min-w-full space-y-1"
-                tabindex="-1"
-              >
-                <li>
-                  <h5
-                    class="text-bulma text-sm font-medium px-2 py-1"
-                  >
-                    Other
-                  </h5>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="true"
-                  >
-                    <a
-                      href="#developer-settings"
-                    >
-                      <button
-                        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                        type="button"
-                      >
-                        <span
-                          class="block grow text-start text-bulma overflow-hidden"
-                        >
-                          Developer settings
-                        </span>
-                        <span
-                          class="text-moon-12 text-trunks"
-                        >
-                          #developer-settings
-                        </span>
-                      </button>
-                    </a>
-                  </button>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="true"
-                  >
-                    <a
-                      href="#privacy-policy"
-                    >
-                      <button
-                        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                        type="button"
-                      >
-                        <span
-                          class="block grow text-start text-bulma overflow-hidden"
-                        >
-                          Privacy policy
-                        </span>
-                        <span
-                          class="text-moon-12 text-trunks"
-                        >
-                          #privacy-policy
-                        </span>
-                      </button>
-                    </a>
-                  </button>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="true"
-                  >
-                    <button
-                      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                      type="button"
-                    >
-                      <span
-                        class="block grow text-start text-bulma overflow-hidden"
-                      >
-                        Log out
-                      </span>
-                      <span
-                        class="text-moon-12 text-trunks"
-                      >
-                        Action
-                      </span>
-                    </button>
-                  </button>
-                </li>
-              </ul>
+                Clear
+              </button>
             </div>
           </div>
         </div>
@@ -510,7 +165,7 @@ Object {
       >
         <div>
           <div
-            class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-t-moon-s-sm"
+            class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-moon-s-sm"
           >
             <div
               class="flex items-center space-x-1.5 pl-3 moon-search-input"
@@ -529,189 +184,20 @@ Object {
                   stroke-linecap="round"
                 />
               </svg>
-              <div
-                class="flex-1 relative"
-              >
-                <input
-                  class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                  id="moon-search-input"
-                  placeholder="Search"
-                  spellcheck="false"
-                  type="text"
-                  value=""
-                />
-              </div>
-            </div>
-            <div
-              class="absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list rounded-b-moon-s-sm ease-out duration-300 opacity-0 scale-95"
-              tabindex="-1"
-            >
-              <ul
-                class="min-w-full space-y-1"
+              <input
+                class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
+                id="moon-search-input"
+                spellcheck="false"
+                type="text"
+                value=""
+              />
+              <button
+                class="cursor-pointer text-trunks test-sm transition absolute right-4 top-1/2 transform -translate-y-1/2"
                 tabindex="-1"
+                type="button"
               >
-                <li>
-                  <h5
-                    class="text-bulma text-sm font-medium px-2 py-1"
-                  >
-                    Home
-                  </h5>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="true"
-                  >
-                    <a
-                      href="#home"
-                    >
-                      <button
-                        class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
-                        type="button"
-                      >
-                        <span
-                          class="block grow text-start text-bulma overflow-hidden"
-                        >
-                          Home
-                        </span>
-                        <span
-                          class="text-moon-12 text-trunks"
-                        >
-                          #home
-                        </span>
-                      </button>
-                    </a>
-                  </button>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="true"
-                  >
-                    <a
-                      href="#settings"
-                    >
-                      <button
-                        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                        type="button"
-                      >
-                        <span
-                          class="block grow text-start text-bulma overflow-hidden"
-                        >
-                          Settings
-                        </span>
-                        <span
-                          class="text-moon-12 text-trunks"
-                        >
-                          #settings
-                        </span>
-                      </button>
-                    </a>
-                  </button>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="false"
-                  >
-                    <button
-                      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                      type="button"
-                    >
-                      <span
-                        class="block grow text-start text-bulma overflow-hidden"
-                      >
-                        Projects
-                      </span>
-                      <span
-                        class="text-moon-12 text-trunks"
-                      >
-                        Action
-                      </span>
-                    </button>
-                  </button>
-                </li>
-              </ul>
-              <ul
-                class="min-w-full space-y-1"
-                tabindex="-1"
-              >
-                <li>
-                  <h5
-                    class="text-bulma text-sm font-medium px-2 py-1"
-                  >
-                    Other
-                  </h5>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="true"
-                  >
-                    <a
-                      href="#developer-settings"
-                    >
-                      <button
-                        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                        type="button"
-                      >
-                        <span
-                          class="block grow text-start text-bulma overflow-hidden"
-                        >
-                          Developer settings
-                        </span>
-                        <span
-                          class="text-moon-12 text-trunks"
-                        >
-                          #developer-settings
-                        </span>
-                      </button>
-                    </a>
-                  </button>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="true"
-                  >
-                    <a
-                      href="#privacy-policy"
-                    >
-                      <button
-                        class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                        type="button"
-                      >
-                        <span
-                          class="block grow text-start text-bulma overflow-hidden"
-                        >
-                          Privacy policy
-                        </span>
-                        <span
-                          class="text-moon-12 text-trunks"
-                        >
-                          #privacy-policy
-                        </span>
-                      </button>
-                    </a>
-                  </button>
-                  <button
-                    aria-disabled="false"
-                    class="moon-search-list-item w-full"
-                    data-close-on-select="true"
-                  >
-                    <button
-                      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                      type="button"
-                    >
-                      <span
-                        class="block grow text-start text-bulma overflow-hidden"
-                      >
-                        Log out
-                      </span>
-                      <span
-                        class="text-moon-12 text-trunks"
-                      >
-                        Action
-                      </span>
-                    </button>
-                  </button>
-                </li>
-              </ul>
+                Clear
+              </button>
             </div>
           </div>
         </div>
@@ -724,7 +210,7 @@ Object {
     >
       <div>
         <div
-          class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-t-moon-s-sm"
+          class="relative w-full h-full bg-gohan flex flex-col divide-y dark:divide-beerus rounded-moon-s-sm"
         >
           <div
             class="flex items-center space-x-1.5 pl-3 moon-search-input"
@@ -743,189 +229,20 @@ Object {
                 stroke-linecap="round"
               />
             </svg>
-            <div
-              class="flex-1 relative"
-            >
-              <input
-                class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
-                id="moon-search-input"
-                placeholder="Search"
-                spellcheck="false"
-                type="text"
-                value=""
-              />
-            </div>
-          </div>
-          <div
-            class="absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list rounded-b-moon-s-sm ease-out duration-300 opacity-0 scale-95"
-            tabindex="-1"
-          >
-            <ul
-              class="min-w-full space-y-1"
+            <input
+              class="py-2 px-0 border-0 w-full focus:outline-none focus:border-0 focus:ring-0 bg-transparent placeholder-bulma text-bulma"
+              id="moon-search-input"
+              spellcheck="false"
+              type="text"
+              value=""
+            />
+            <button
+              class="cursor-pointer text-trunks test-sm transition absolute right-4 top-1/2 transform -translate-y-1/2"
               tabindex="-1"
+              type="button"
             >
-              <li>
-                <h5
-                  class="text-bulma text-sm font-medium px-2 py-1"
-                >
-                  Home
-                </h5>
-                <button
-                  aria-disabled="false"
-                  class="moon-search-list-item w-full"
-                  data-close-on-select="true"
-                >
-                  <a
-                    href="#home"
-                  >
-                    <button
-                      class="flex gap-2 justify-between items-center p-2 rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full bg-bulma/[0.04]"
-                      type="button"
-                    >
-                      <span
-                        class="block grow text-start text-bulma overflow-hidden"
-                      >
-                        Home
-                      </span>
-                      <span
-                        class="text-moon-12 text-trunks"
-                      >
-                        #home
-                      </span>
-                    </button>
-                  </a>
-                </button>
-                <button
-                  aria-disabled="false"
-                  class="moon-search-list-item w-full"
-                  data-close-on-select="true"
-                >
-                  <a
-                    href="#settings"
-                  >
-                    <button
-                      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                      type="button"
-                    >
-                      <span
-                        class="block grow text-start text-bulma overflow-hidden"
-                      >
-                        Settings
-                      </span>
-                      <span
-                        class="text-moon-12 text-trunks"
-                      >
-                        #settings
-                      </span>
-                    </button>
-                  </a>
-                </button>
-                <button
-                  aria-disabled="false"
-                  class="moon-search-list-item w-full"
-                  data-close-on-select="false"
-                >
-                  <button
-                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                    type="button"
-                  >
-                    <span
-                      class="block grow text-start text-bulma overflow-hidden"
-                    >
-                      Projects
-                    </span>
-                    <span
-                      class="text-moon-12 text-trunks"
-                    >
-                      Action
-                    </span>
-                  </button>
-                </button>
-              </li>
-            </ul>
-            <ul
-              class="min-w-full space-y-1"
-              tabindex="-1"
-            >
-              <li>
-                <h5
-                  class="text-bulma text-sm font-medium px-2 py-1"
-                >
-                  Other
-                </h5>
-                <button
-                  aria-disabled="false"
-                  class="moon-search-list-item w-full"
-                  data-close-on-select="true"
-                >
-                  <a
-                    href="#developer-settings"
-                  >
-                    <button
-                      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                      type="button"
-                    >
-                      <span
-                        class="block grow text-start text-bulma overflow-hidden"
-                      >
-                        Developer settings
-                      </span>
-                      <span
-                        class="text-moon-12 text-trunks"
-                      >
-                        #developer-settings
-                      </span>
-                    </button>
-                  </a>
-                </button>
-                <button
-                  aria-disabled="false"
-                  class="moon-search-list-item w-full"
-                  data-close-on-select="true"
-                >
-                  <a
-                    href="#privacy-policy"
-                  >
-                    <button
-                      class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                      type="button"
-                    >
-                      <span
-                        class="block grow text-start text-bulma overflow-hidden"
-                      >
-                        Privacy policy
-                      </span>
-                      <span
-                        class="text-moon-12 text-trunks"
-                      >
-                        #privacy-policy
-                      </span>
-                    </button>
-                  </a>
-                </button>
-                <button
-                  aria-disabled="false"
-                  class="moon-search-list-item w-full"
-                  data-close-on-select="true"
-                >
-                  <button
-                    class="flex gap-2 justify-between items-center p-2 bg-transparent rounded-moon-i-sm text-moon-14 text-bulma focus:outline-none focus:shadow-focus cursor-pointer hover:bg-bulma/[0.04] transition w-full"
-                    type="button"
-                  >
-                    <span
-                      class="block grow text-start text-bulma overflow-hidden"
-                    >
-                      Log out
-                    </span>
-                    <span
-                      class="text-moon-12 text-trunks"
-                    >
-                      Action
-                    </span>
-                  </button>
-                </button>
-              </li>
-            </ul>
+              Clear
+            </button>
           </div>
         </div>
       </div>

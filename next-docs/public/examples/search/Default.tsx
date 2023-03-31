@@ -70,6 +70,7 @@ const Example = () => {
         onChangeOpen={setOpen}
         search={search}
         isOpen={open}
+        data-testid="test-search"
       >
         <Search.Input>
           <Search.Input.Icon />
