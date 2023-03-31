@@ -15,6 +15,25 @@ const people: BaseOptionType[] = [
   { id: 6, label: 'Hellen Schmidt', value: 'Hellen Schmidt' },
 ];
 
+const countries = [
+  { label: 'English', value: 'en', flag: '🇬🇧' },
+  { label: 'Japanese', value: 'ja', flag: '🇯🇵' },
+  { label: 'Ukrainian', value: 'ua', flag: '🇺🇦' },
+  { label: 'Portuguese', value: 'pt', flag: '🇧🇷' },
+  { label: 'Chinese', value: 'zh', flag: '🇨🇳' },
+  { label: 'Spanish', value: 'es', flag: '🇪🇸' },
+  { label: 'Korean', value: 'ko', flag: '🇰🇷' },
+  { label: 'Thai', value: 'th', flag: '🇹🇭' },
+  { label: 'German', value: 'de', flag: '🇩🇪' },
+  { label: 'Turkish', value: 'tr', flag: '🇹🇷' },
+  { label: 'Estonian', value: 'et', flag: '🇪🇪' },
+  { label: 'Swedish', value: 'sv', flag: '🇸🇪' },
+  { label: 'French', value: 'fr', flag: '🇫🇷' },
+  { label: 'Finnish', value: 'fi', flag: '🇫🇮' },
+  { label: 'Vietnamese', value: 'vi', flag: '🇻🇳' },
+  { label: 'Not set', value: 'default', flag: '🏳️' },
+];
+
 const Example = () => {
   const [selected, setSelected] = useState<BaseOptionType | undefined>(
     people[0]

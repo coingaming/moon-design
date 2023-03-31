@@ -1,15 +1,12 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/combobox/Default';
-import Disabled from '../../public/examples/combobox/Disabled';
-import Error from '../../public/examples/combobox/Error';
-import Options from '../../public/examples/combobox/Options';
+import OptionsVariants from '../../public/examples/combobox/OptionsVariants';
 import TriggerElements from '../../public/examples/combobox/TriggerElements';
-import WithLabel from '../../public/examples/combobox/WithLabel';
-import WithoutLabel from '../../public/examples/combobox/WithoutLabel';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -26,6 +23,16 @@ const Example = () => {
         <p>{text}</p>
       </ComponentPageDescription>
 
+      <ComponentAnatomy>
+        {`<Combobox>
+  <Combobox.Trigger>...</Combobox.Trigger>
+  <Combobox.Options>
+    <Combobox.Option>...</Combobox.Option>
+  </Combobox.Options>
+  <Combobox.Hint>...</Combobox.Hint>
+</Combobox>`}
+      </ComponentAnatomy>
+
       <Preview
         title="Default"
         preview={<Default />}
@@ -35,9 +42,15 @@ const Example = () => {
       <Preview
         title="Trigger elements"
         preview={<TriggerElements />}
-        code={examples ? examples.WithLabel : 'Loading'}
+        code={examples ? examples.TriggerElements : 'Loading'}
       />
 
+      <Preview
+        title="Example layouts for options"
+        preview={<OptionsVariants />}
+        code={examples ? examples.OptionsVariants : 'Loading'}
+      />
+{/*
       <Preview
         title="With Label"
         preview={<WithLabel />}
@@ -67,6 +80,7 @@ const Example = () => {
         preview={<WithoutLabel />}
         code={examples ? examples.WithoutLabel : 'Loading'}
       />
+  */}
     </>
   );
 };

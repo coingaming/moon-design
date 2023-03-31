@@ -6,8 +6,8 @@ interface ComboboxRootProps
     React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>,
     'children' | 'ref'
   > {
-  value?: BaseOptionType;
-  displayValue?: (value: BaseOptionType) => string;
+  value?: BaseOptionType | BaseOptionType[];
+  displayValue?: (value: BaseOptionType | BaseOptionType[]) => string;
   label?: string;
   onChange(value: unknown): void;
   onQueryChange(value: string): void;
