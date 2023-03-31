@@ -49,6 +49,13 @@ const navigation = [
       },
       getComponent('Radio'),
       getComponent('Search'),
+      {
+        name: 'Select',
+        children: [
+          getComponent('NativeSelect'),
+          getComponent('InsetNativeSelect'),
+        ],
+      },
       getComponent('Snackbar'),
       getComponent('Switch'),
       getComponent('Table'),

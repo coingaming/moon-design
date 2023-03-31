@@ -651,7 +651,7 @@ Object {
                 </option>
               </select>
               <svg
-                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 text-trunks flex-shrink-0 transition-transform text-moon-24"
+                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -707,7 +707,7 @@ Object {
                 </option>
               </select>
               <svg
-                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 text-trunks flex-shrink-0 transition-transform text-moon-24"
+                class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
                 fill="none"
                 height="1em"
                 viewBox="0 0 32 32"
@@ -727,7 +727,7 @@ Object {
             class="flex border-none shadow-input relative h-fit bg-gohan flex-col rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
           >
             <span
-              class="w-full max-w-full relative bg-transparent rounded-moon-i-sm [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
+              class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
             >
               <select
                 class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
@@ -804,7 +804,7 @@ Object {
               </label>
             </div>
             <span
-              class="w-full max-w-full relative bg-transparent rounded-moon-i-sm rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2"
+              class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2"
             >
               <select
                 class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
@@ -955,7 +955,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1011,7 +1011,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1031,7 +1031,7 @@ Object {
           class="flex border-none shadow-input relative h-fit bg-gohan flex-col rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
         >
           <span
-            class="w-full max-w-full relative bg-transparent rounded-moon-i-sm [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
+            class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
           >
             <select
               class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
@@ -1108,7 +1108,7 @@ Object {
             </label>
           </div>
           <span
-            class="w-full max-w-full relative bg-transparent rounded-moon-i-sm rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2"
+            class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2"
           >
             <select
               class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
@@ -1829,7 +1829,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1885,7 +1885,7 @@ Object {
               </option>
             </select>
             <svg
-              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 text-trunks flex-shrink-0 transition-transform text-moon-24"
+              class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
               fill="none"
               height="1em"
               viewBox="0 0 32 32"
@@ -1905,7 +1905,7 @@ Object {
           class="flex border-none shadow-input relative h-fit bg-gohan flex-col rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
         >
           <span
-            class="w-full max-w-full relative bg-transparent rounded-moon-i-sm [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
+            class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
           >
             <select
               class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
@@ -1982,7 +1982,7 @@ Object {
             </label>
           </div>
           <span
-            class="w-full max-w-full relative bg-transparent rounded-moon-i-sm rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2"
+            class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2"
           >
             <select
               class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
@@ -2129,7 +2129,7 @@ Object {
             </option>
           </select>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2185,7 +2185,7 @@ Object {
             </option>
           </select>
           <svg
-            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 text-trunks flex-shrink-0 transition-transform text-moon-24"
+            class="absolute top-1/2 ltr:right-3 rtl:left-3 -translate-y-1/2 z-5 pointer-events-none text-trunks flex-shrink-0 transition-transform text-moon-24"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -2205,7 +2205,7 @@ Object {
         class="flex border-none shadow-input relative h-fit bg-gohan flex-col rounded-moon-i-sm after:content-[\\"\\"] after:absolute after:top-1/2 after:bottom-0 after:w-full after:h-px after:left-0 after:translate-y-[-50%] after:bg-beerus after:x-[3] hover:after:hidden focus-within:after:hidden"
       >
         <span
-          class="w-full max-w-full relative bg-transparent rounded-moon-i-sm [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
+          class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan [&_select]:rounded-bl-none [&_select]:rounded-br-none [&_select]:input-bbb-hidden"
         >
           <select
             class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"
@@ -2282,7 +2282,7 @@ Object {
           </label>
         </div>
         <span
-          class="w-full max-w-full relative bg-transparent rounded-moon-i-sm rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2"
+          class="block relative w-full max-w-full rounded-moon-i-sm bg-gohan rtl:[&_select]:rounded-tr-none rtl:[&_select]:rounded-br-none rtl:[&_select]:input-rsb-hidden ltr:[&_select]:rounded-tl-none ltr:[&_select]:rounded-bl-none ltr:[&_select]:input-lsb-hidden flex-1 basis-1/2"
         >
           <select
             class="block w-full max-w-full py-0 px-4 m-0 appearance-none text-[1rem] text-bulma transition-shadow box-border relative z-[2] bg-transparent shadow-input hover:shadow-input-hov focus:shadow-input-focus focus:outline-none h-14 rounded-moon-i-sm rtl:[&:not([disabled])]:hover:rounded-moon-i-sm rtl:[&:not([disabled])]:focus:rounded-moon-i-sm rtl:invalid:rounded-moon-i-sm ltr:[&:not([disabled])]:hover:rounded-moon-i-sm ltr:[&:not([disabled])]:focus:rounded-moon-i-sm ltr:invalid:rounded-moon-i-sm before:box-border after:box-border placeholder:text-trunks placeholder:opacity-100 placeholder:transition-opacity placeholder:delay-75 invalid:shadow-input-err invalid:hover:shadow-input-err invalid:focus:shadow-input-err pt-[1.125rem]"

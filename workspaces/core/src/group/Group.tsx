@@ -1,9 +1,11 @@
 import React, { createContext, ReactNode, useContext } from 'react';
 import Input, { InputProps } from '../input/Input';
 import InsetInput, { InsetInputProps } from '../insetInput/InsetInput';
+import InsetNativeSelect, {
+  InsetNativeSelectProps,
+} from '../insetNativeSelect/InsetNativeSelect';
 import mergeClassnames from '../mergeClassnames/mergeClassnames';
-import InsetSelect, { InsetSelectProps } from './private/InsetSelect';
-import Select, { SelectProps } from './private/Select';
+import NativeSelect, { NativeSelectProps } from '../nativeSelect/NativeSelect';
 
 type WithChildren<T = {}> = T & { children?: ReactNode };
 type Orientation = 'vertical' | 'horizontal';
@@ -251,7 +253,7 @@ const InputLabel: React.FC<WithChildren<LabelProps>> = ({
   return <InsetInput.Label className={className}>{children}</InsetInput.Label>;
 };
 
-const FirstSelect: React.FC<WithChildren<SelectProps>> = ({
+const FirstSelect: React.FC<WithChildren<NativeSelectProps>> = ({
   children,
   className,
   size,
@@ -272,7 +274,7 @@ const FirstSelect: React.FC<WithChildren<SelectProps>> = ({
   const disabled = selectDisabled || groupDisabled;
   const readOnly = selectReadOnly || groupReadOnly;
   return (
-    <Select
+    <NativeSelect
       error={error}
       disabled={disabled}
       readOnly={readOnly}
@@ -289,11 +291,11 @@ const FirstSelect: React.FC<WithChildren<SelectProps>> = ({
       {...rest}
     >
       {children}
-    </Select>
+    </NativeSelect>
   );
 };
 
-const LastSelect: React.FC<WithChildren<SelectProps>> = ({
+const LastSelect: React.FC<WithChildren<NativeSelectProps>> = ({
   children,
   className,
   size,
@@ -314,7 +316,7 @@ const LastSelect: React.FC<WithChildren<SelectProps>> = ({
   const disabled = selectDisabled || groupDisabled;
   const readOnly = selectReadOnly || groupReadOnly;
   return (
-    <Select
+    <NativeSelect
       error={error}
       disabled={disabled}
       readOnly={readOnly}
@@ -331,11 +333,11 @@ const LastSelect: React.FC<WithChildren<SelectProps>> = ({
       {...rest}
     >
       {children}
-    </Select>
+    </NativeSelect>
   );
 };
 
-const FirstInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
+const FirstInsetSelect: React.FC<WithChildren<InsetNativeSelectProps>> = ({
   className,
   children,
   error: selectError,
@@ -355,7 +357,7 @@ const FirstInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
   const disabled = selectDisabled || groupDisabled;
   const readOnly = selectReadOnly || groupReadOnly;
   return (
-    <InsetSelect
+    <InsetNativeSelect
       error={error}
       disabled={disabled}
       readOnly={readOnly}
@@ -371,11 +373,11 @@ const FirstInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
       {...rest}
     >
       {children}
-    </InsetSelect>
+    </InsetNativeSelect>
   );
 };
 
-const LastInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
+const LastInsetSelect: React.FC<WithChildren<InsetNativeSelectProps>> = ({
   className,
   children,
   error: selectError,
@@ -395,7 +397,7 @@ const LastInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
   const disabled = selectDisabled || groupDisabled;
   const readOnly = selectReadOnly || groupReadOnly;
   return (
-    <InsetSelect
+    <InsetNativeSelect
       error={error}
       disabled={disabled}
       readOnly={readOnly}
@@ -411,7 +413,7 @@ const LastInsetSelect: React.FC<WithChildren<InsetSelectProps>> = ({
       {...rest}
     >
       {children}
-    </InsetSelect>
+    </InsetNativeSelect>
   );
 };
 
