@@ -24,7 +24,7 @@ const Example = () => {
       <Combobox
         value={selected0}
         onChange={setSelected0}
-        onClear={useCallback(() => setSelected1([]), [setSelected1])}
+        onClear={useCallback(() => setSelected0([]), [setSelected0])}
         onQueryChange={setQuery0}
         size="sm"
         multiple
