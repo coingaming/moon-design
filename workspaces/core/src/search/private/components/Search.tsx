@@ -16,7 +16,6 @@ import {
 } from '../utils/context';
 
 import NoResults from './NoResults';
-// import Input from './Input';
 import List, { ListHeading } from './List';
 import ListItem from './ListItem';
 import { Input } from './Input';
