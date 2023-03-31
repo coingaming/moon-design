@@ -1,9 +1,9 @@
 import { useState } from 'react';
+import { Drawer } from '@heathmont/moon-core-tw';
 import Footer from './Footer';
 import Header from './Header';
 import Settings from './Settings';
 import Sidebar from './sidebar/Sidebar';
-import SidebarTransition from './sidebar/SidebarTransition';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -12,9 +12,12 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   return (
     <div className="layout bg-goku text-bulma flex">
       {/* Dynamic sidebar with transition for mobile */}
-      <SidebarTransition isOpen={isSidebarOpen} setIsOpen={setSidebarOpen}>
-        <Sidebar closeSidebar={closeSidebar} />
-      </SidebarTransition>
+      <Drawer open={isSidebarOpen} setOpen={setSidebarOpen}>
+        <Drawer.Panel position="start">
+          <Sidebar closeSidebar={closeSidebar} />
+        </Drawer.Panel>
+        <Drawer.Backdrop />
+      </Drawer>
       {/* Static sidebar for desktop, hidden for mobile */}
       <aside className="hidden fixed z-10 h-screen lg:flex lg:flex-shrink-0 w-80 flex-col">
         <Sidebar />

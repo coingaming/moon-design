@@ -11,7 +11,6 @@ type Props = {
 
 const RecursiveNavItem: React.FC<Props> = ({ item, pathname, onClick }) => {
   const { name, href, children } = item;
-  const isCurrent = href === pathname;
   if (children) {
     return (
       <Accordion>
@@ -43,7 +42,7 @@ const RecursiveNavItem: React.FC<Props> = ({ item, pathname, onClick }) => {
     );
   }
   return (
-    <Link key={name} href={href} isActive={isCurrent} onClick={onClick}>
+    <Link key={name} href={href} onClick={onClick}>
       {name}
     </Link>
   );
