@@ -2,14 +2,12 @@ import React, {
   Fragment,
   MutableRefObject,
   ReactNode,
-  Ref,
   useCallback,
-  useContext,
   useEffect,
   useRef,
   useState,
 } from 'react';
-import { Transition } from '@headlessui/react';
+import { Transition as HeadlessTransition } from '@headlessui/react';
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 import useClickOutside from '../../../private/hooks/useClickOutside';
 import {
@@ -18,9 +16,10 @@ import {
 } from '../utils/context';
 
 import NoResults from './NoResults';
-import Input from './Input';
+// import Input from './Input';
 import List, { ListHeading } from './List';
 import ListItem from './ListItem';
+import { Input } from './Input';
 
 interface SearchProps {
   onChangeSelected?: (value: number) => void;
@@ -47,7 +46,7 @@ export function Search({
   search,
 }: SearchProps) {
   const [ref, hasClickedOutside] = useClickOutside();
-
+  const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
   const [selected, setSelected] =
     typeof selectedParent === 'number' && onChangeSelected
       ? [selectedParent, onChangeSelected]
@@ -168,7 +167,7 @@ export function Search({
           className
         )}
       >
-        <SearchContext.Provider value={{ search, onChangeOpen, onChangeSearch }}>
+        <SearchContext.Provider value={{ search, onChangeOpen, onChangeSearch, inputRef }}>
           <SelectContext.Provider value={{ selected }}>
             {children}
           </SelectContext.Provider>
@@ -178,35 +177,9 @@ export function Search({
   );
 }
 
-interface InputProps {
-  placeholder?: string;
-  clear: string | ReactNode;
-  autoFocus?: boolean;
-}
 
-const InnerInput = ({
-  placeholder = 'Search',
-  clear,
-  autoFocus,
-}: InputProps) => {
-  const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
-  const { search, onChangeOpen, onChangeSearch } = useContext(SearchContext);
-
-  return <Input
-    onChange={onChangeSearch}
-    onFocus={() => {
-      onChangeOpen(true);
-    }}
-    placeholder={placeholder}
-    value={search}
-    ref={inputRef as unknown as Ref<HTMLInputElement>}
-    clear={clear}
-    autoFocus={autoFocus}
-  />
-}
-
-const InTransition = ({ isOpen, children }: { isOpen: boolean, children: ReactNode }) => {
-  return <Transition
+const Transition = ({ isOpen, children }: { isOpen: boolean, children: ReactNode }) => {
+  return <HeadlessTransition
     show={isOpen}
     as={Fragment}
     enter="ease-out duration-300"
@@ -225,11 +198,11 @@ const InTransition = ({ isOpen, children }: { isOpen: boolean, children: ReactNo
     >
       {children}
     </div>
-  </Transition>
+  </HeadlessTransition>
 }
 
-Search.Input = InnerInput
-Search.Transition = InTransition;
+Search.Input = Input;
+Search.Transition = Transition;
 Search.List = List;
 Search.ListItem = ListItem;
 Search.NoResults = NoResults;

@@ -1,4 +1,11 @@
-import { createContext, Dispatch, SetStateAction } from 'react';
+import {
+  createContext,
+  Dispatch,
+  MutableRefObject,
+  RefObject,
+  SetStateAction,
+  useRef,
+} from 'react';
 
 export const SelectContext = createContext<{ selected: number }>({
   selected: 0,
@@ -15,16 +22,18 @@ export const PageContext = createContext<{
 
 export const SearchContext = createContext<{
   search: string;
-  onChangeOpen: any;
-  onChangeSearch: any;
+  onChangeSearch: (search: string) => void;
+  onChangeOpen: (isOpen: boolean) => void;
+  inputRef: RefObject<MutableRefObject<HTMLInputElement>> | null;
 }>({
   search: '',
   onChangeOpen: () => {
-    console.log('test onChangeOpen');
+    console.log('onChangeOpen');
   },
   onChangeSearch: () => {
-    console.log('test onChangeSearch');
+    console.log('onChangeSearch');
   },
+  inputRef: null,
 });
 
 export const OpenContext = createContext<{

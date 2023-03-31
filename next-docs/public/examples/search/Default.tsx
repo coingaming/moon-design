@@ -71,10 +71,13 @@ const Example = () => {
         search={search}
         isOpen={open}
       >
-        <Search.Input
-          clear={<span>Clear</span>}
-          autoFocus={true}
-        />
+        <Search.Input>
+          <Search.Input.Icon />
+          <Search.Input.Input />
+          <Search.Input.ButtonClear>
+            Clear
+          </Search.Input.ButtonClear>
+        </Search.Input>
         <Search.Transition isOpen={open}>
           {filteredItems.length ? (
             filteredItems.map((list: any) => (
