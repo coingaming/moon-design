@@ -5,6 +5,7 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/combobox/Default';
+import InsetMultiSelect from '../../public/examples/combobox/InsetMultiSelect';
 import InsetSelect from '../../public/examples/combobox/InsetSelect';
 import InsetSelectStates from '../../public/examples/combobox/InsetSelectStates';
 import MultiSelect from '../../public/examples/combobox/MultiSelect';
@@ -116,6 +117,21 @@ const Example = () => {
         code={examples ? examples.MultiSelect : 'Loading'}
       />
 
+      <ComponentAnatomy>
+        {`<Combobox>
+  <Combobox.InsetMultiSelect>...</Combobox.InsetMultiSelect>
+  <Combobox.Options>
+    <Combobox.Option>...</Combobox.Option>
+  </Combobox.Options>
+  <Combobox.Hint>...</Combobox.Hint>
+</Combobox>`}
+      </ComponentAnatomy>
+
+      <Preview
+        title="MultiSelect with inner label"
+        preview={<InsetMultiSelect />}
+        code={examples ? examples.InsetMultiSelect : 'Loading'}
+      />
     </>
   );
 };
