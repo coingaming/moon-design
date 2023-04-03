@@ -2,71 +2,51 @@ import React, {
   Fragment,
   MutableRefObject,
   ReactNode,
-  Ref,
   useCallback,
   useEffect,
   useRef,
   useState,
 } from 'react';
-import { Transition } from '@headlessui/react';
+import { Transition as HeadlessTransition } from '@headlessui/react';
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
 import useClickOutside from '../../../private/hooks/useClickOutside';
-import { RenderLink } from '../types';
 import {
-  PageContext,
-  RenderLinkContext,
   SearchContext,
   SelectContext,
 } from '../utils/context';
-import { Backdrop } from './Backdrop';
-import FreeSearchAction from './FreeSearchAction';
-import Input from './Input';
+
+import NoResults from './NoResults';
 import List, { ListHeading } from './List';
 import ListItem from './ListItem';
-import Page from './Page';
-import { Trigger } from './Trigger';
+import { Input } from './Input';
 
-type SearchProps = {
+interface SearchProps {
   onChangeSelected?: (value: number) => void;
   onChangeSearch: (search: string) => void;
   onChangeOpen: (isOpen: boolean) => void;
-  renderLink?: RenderLink;
-  placeholder?: string;
   children: ReactNode;
   selected?: number;
   isOpen: boolean;
   search: string;
-  page?: string;
-  backdrop?: ReactNode;
   className?: string;
-  clear: string | ReactNode;
-  autoFocus?: boolean;
 };
 
 export function Search({
   selected: selectedParent,
-  placeholder = 'Search',
   onChangeSelected,
   onChangeSearch,
   onChangeOpen,
-  renderLink,
   children,
   isOpen,
-  search,
-  page,
   className,
-  clear,
-  autoFocus,
+  search,
 }: SearchProps) {
-  const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
   const [ref, hasClickedOutside] = useClickOutside();
-
+  const inputRef = useRef<MutableRefObject<HTMLInputElement>>(null);
   const [selected, setSelected] =
     typeof selectedParent === 'number' && onChangeSelected
       ? [selectedParent, onChangeSelected]
       : useState<number>(0);
-
-  const [searchPrefix, setSearchPrefix] = useState<string[] | undefined>();
 
   function handleChangeSelected(direction?: 'up' | 'down') {
     const items = document.querySelectorAll('.moon-search-list-item');
@@ -137,10 +117,6 @@ export function Search({
     handleChangeSelected();
   }, [search]);
 
-  useEffect(() => {
-    setSelected(0);
-  }, [page]);
-
   const onKeyDown = useCallback(
     (e: React.KeyboardEvent) => {
       if (
@@ -183,66 +159,42 @@ export function Search({
           className
         )}
       >
-        <PageContext.Provider
-          value={{
-            setSearchPrefix,
-            searchPrefix,
-            page,
-          }}
-        >
-          <Input
-            onChange={onChangeSearch}
-            onFocus={() => {
-              onChangeOpen(true);
-            }}
-            placeholder={placeholder}
-            prefix={searchPrefix}
-            value={search}
-            ref={inputRef as unknown as Ref<HTMLInputElement>}
-            clear={clear}
-            autoFocus={autoFocus}
-          />
-        </PageContext.Provider>
-
-        <Transition
-          show={isOpen}
-          as={Fragment}
-          enter="ease-out duration-300"
-          enterFrom="opacity-0 scale-95"
-          enterTo="opacity-100 scale-100"
-          leave="ease-in duration-200"
-          leaveFrom="opacity-100 scale-100"
-          leaveTo="opacity-0 scale-95"
-        >
-          <div
-            className={mergeClassnames(
-              'absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',
-              isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm'
-            )}
-            tabIndex={-1}
-          >
-            <PageContext.Provider
-              value={{ page, searchPrefix, setSearchPrefix }}
-            >
-              <SearchContext.Provider value={{ search }}>
-                <SelectContext.Provider value={{ selected }}>
-                  <RenderLinkContext.Provider value={{ renderLink }}>
-                    {children}
-                  </RenderLinkContext.Provider>
-                </SelectContext.Provider>
-              </SearchContext.Provider>
-            </PageContext.Provider>
-          </div>
-        </Transition>
+        <SearchContext.Provider value={{ search, onChangeOpen, onChangeSearch, inputRef }}>
+          <SelectContext.Provider value={{ selected }}>
+            {children}
+          </SelectContext.Provider>
+        </SearchContext.Provider>
       </div>
     </div>
   );
 }
 
-Search.Page = Page;
+const Transition = ({ isOpen, children }: { isOpen: boolean, children: ReactNode }) => {
+  return <HeadlessTransition
+    show={isOpen}
+    as={Fragment}
+    enter="ease-out duration-300"
+    enterFrom="opacity-0 scale-95"
+    enterTo="opacity-100 scale-100"
+    leave="ease-in duration-200"
+    leaveFrom="opacity-100 scale-100"
+    leaveTo="opacity-0 scale-95"
+  >
+    <div
+      className={mergeClassnames(
+        'absolute z-1 top-10 w-full flex-1 focus:outline-none p-2 space-y-4 bg-gohan shadow-moon-md moon-search-list',
+        isOpen ? 'rounded-b-moon-s-sm' : 'rounded-moon-s-sm'
+      )}
+      tabIndex={-1}
+    >
+      {children}
+    </div>
+  </HeadlessTransition>
+}
+
+Search.Input = Input;
+Search.Transition = Transition;
 Search.List = List;
 Search.ListItem = ListItem;
-Search.FreeSearchAction = FreeSearchAction;
-Search.Backdrop = Backdrop;
+Search.NoResults = NoResults;
 Search.ListHeading = ListHeading;
-Search.Trigger = Trigger;

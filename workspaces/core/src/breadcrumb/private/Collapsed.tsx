@@ -6,7 +6,7 @@ import ArrowsRight from '../../private/icons/ArrowsRight';
 import Other3DotsHorizontal from '../../private/icons/Other3DotsHorizontal';
 import type BreadcrumbProps from './types/BreadcrumbProps';
 
-const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
+const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs, divider }) => {
   const [isOpen, toggleDropdown] = useState(false);
   const [ref, hasClickedOutside] = useClickOutside();
   const restBreadcrumbs: React.ReactNode[] = [];
@@ -36,7 +36,7 @@ const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
           <span className="text-trunks transition-colors duration-200 hover:text-bulma">
             {collapseBreadcrumbs && collapseBreadcrumbs[0]}
           </span>
-          <ArrowsRight className="rtl:rotate-180" />
+          {divider ? divider : <ArrowsRight className="rtl:rotate-180" />}
         </li>
         {restBreadcrumbs?.length !== 0 && (
           <li key={'crumb' + 1} ref={ref} className="relative">
@@ -66,7 +66,7 @@ const Collapsed: React.FC<BreadcrumbProps> = ({ breadcrumbs }) => {
                 key={'crumb' + index + 1}
                 className="flex items-center gap-2 text-trunks"
               >
-                <ArrowsRight className="rtl:rotate-180" />
+                {divider ? divider : <ArrowsRight className="rtl:rotate-180" />}
                 <span
                   className={mergeClassnames(
                     'text-trunks transition-colors duration-200 hover:text-bulma',

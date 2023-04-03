@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.28.0
+
+### Minor Changes
+
+- Release 9.28
+
 ## 9.27.0
 
 ### Minor Changes

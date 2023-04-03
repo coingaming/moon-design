@@ -1,696 +1,1165 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TextInput in Dark Theme renders ArrowPositions 1`] = `
-Array [
-  <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
-  >
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
+exports[`Tooltip in RTL renders ArrowPositions 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          class="flex flex-wrap items-center justify-around gap-2 w-full"
+        >
+          <button
+            aria-describedby="radix-:re:"
+            class=""
+            data-state="instant-open"
+          >
+            <button
+              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              Trigger
+            </button>
+          </button>
+          <button
+            class=""
+            data-state="closed"
+          >
+            <button
+              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              Trigger
+            </button>
+          </button>
+          <button
+            class=""
+            data-state="closed"
+          >
+            <button
+              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              Trigger
+            </button>
+          </button>
+          <button
+            class=""
+            data-state="closed"
+          >
+            <button
+              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              Trigger
+            </button>
+          </button>
+        </div>
+        <div
+          class="flex flex-wrap items-center justify-around gap-2 w-full"
+        >
+          <button
+            class=""
+            data-state="closed"
+          >
+            <button
+              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              Trigger
+            </button>
+          </button>
+          <button
+            class=""
+            data-state="closed"
+          >
+            <button
+              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              Trigger
+            </button>
+          </button>
+          <button
+            class=""
+            data-state="closed"
+          >
+            <button
+              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              Trigger
+            </button>
+          </button>
+          <button
+            class=""
+            data-state="closed"
+          >
+            <button
+              class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+            >
+              Trigger
+            </button>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
+    >
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        data-align="start"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
+      >
+        Top-start position
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:re:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          Top-start position
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        class="flex flex-wrap items-center justify-around gap-2 w-full"
+      >
+        <button
+          aria-describedby="radix-:re:"
+          class=""
+          data-state="instant-open"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+      </div>
+      <div
+        class="flex flex-wrap items-center justify-around gap-2 w-full"
+      >
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tooltip in RTL renders Customization 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <button
+          aria-describedby="radix-:rm:"
+          class=""
+          data-state="instant-open"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+      </div>
+    </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
+    >
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] bg-chichi-10"
+        data-align="center"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
+      >
+        Custom background colour
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-chichi-10"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:rm:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          Custom background colour
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
     >
       <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        aria-describedby="radix-:rm:"
+        class=""
+        data-state="instant-open"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tooltip in RTL renders Default 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <button
+          aria-describedby="radix-:rd:"
+          class=""
+          data-state="instant-open"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+      </div>
+    </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
+    >
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        data-align="center"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
+      >
+        This is the default tooltip
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:rd:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          This is the default tooltip
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <button
+        aria-describedby="radix-:rd:"
+        class=""
+        data-state="instant-open"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tooltip renders ArrowPositions 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="flex flex-wrap items-center justify-around gap-2 w-full"
+      >
+        <button
+          aria-describedby="radix-:r1:"
+          class=""
+          data-state="instant-open"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+      </div>
+      <div
+        class="flex flex-wrap items-center justify-around gap-2 w-full"
+      >
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+        <button
+          class=""
+          data-state="closed"
+        >
+          <button
+            class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+          >
+            Trigger
+          </button>
+        </button>
+      </div>
+    </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
+    >
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        data-align="start"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
+      >
+        Top-start position
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:r1:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          Top-start position
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="flex flex-wrap items-center justify-around gap-2 w-full"
+    >
+      <button
+        aria-describedby="radix-:r1:"
+        class=""
+        data-state="instant-open"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+    </div>
+    <div
+      class="flex flex-wrap items-center justify-around gap-2 w-full"
+    >
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tooltip renders Customization 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <button
+        aria-describedby="radix-:r9:"
+        class=""
+        data-state="instant-open"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+      <button
+        class=""
+        data-state="closed"
+      >
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
+      </button>
+    </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
+    >
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)] bg-chichi-10"
+        data-align="center"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
+      >
+        Custom background colour
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-chichi-10"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:r9:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          Custom background colour
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <button
+      aria-describedby="radix-:r9:"
+      class=""
+      data-state="instant-open"
+    >
+      <button
+        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
       >
         Trigger
       </button>
     </button>
     <button
-      className=""
+      class=""
       data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
     >
       <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
       >
         Trigger
       </button>
     </button>
     <button
-      className=""
+      class=""
       data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
     >
       <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
       >
         Trigger
       </button>
     </button>
     <button
-      className=""
+      class=""
       data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
     >
       <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
       >
         Trigger
       </button>
     </button>
   </div>,
-  <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
-  >
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Tooltip renders Default 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
       <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        aria-describedby="radix-:r0:"
+        class=""
+        data-state="instant-open"
       >
-        Trigger
+        <button
+          class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        >
+          Trigger
+        </button>
       </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
+    </div>
+    <div
+      data-radix-popper-content-wrapper=""
+      style="position: fixed; left: 0px; top: 0px; transform: translate3d(0px, -4px, 0); min-width: max-content; --radix-popper-anchor-width: 0px; --radix-popper-anchor-height: 0px; --radix-popper-available-width: 0px; --radix-popper-available-height: -4px; --radix-popper-transform-origin: 0px 0px;"
     >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+      <div
+        class="p-3 rounded-moon-s-xs text-moon-12 text-bulma bg-gohan shadow-[0_6px_6px_-6px_rgba(0,0,0,0.16)] drop-shadow-[0_0_1px_rgba(0,0,0,0.4)]"
+        data-align="center"
+        data-side="top"
+        data-state="instant-open"
+        style="--radix-tooltip-content-transform-origin: var(--radix-popper-transform-origin); --radix-tooltip-content-available-width: var(--radix-popper-available-width); --radix-tooltip-content-available-height: var(--radix-popper-available-height); --radix-tooltip-trigger-width: var(--radix-popper-anchor-width); --radix-tooltip-trigger-height: var(--radix-popper-anchor-height);"
       >
-        Trigger
-      </button>
-    </button>
+        This is the default tooltip
+        <span
+          style="position: absolute; bottom: 0px; transform: translateY(100%); left: 0px;"
+        >
+          <div
+            class="relative top-[-7px] rotate-45 w-3 h-3 rounded-sm bg-gohan"
+            height="5"
+            preserveaspectratio="none"
+            style="display: block;"
+            viewbox="0 0 30 10"
+            width="10"
+          />
+        </span>
+        <span
+          id="radix-:r0:"
+          role="tooltip"
+          style="position: absolute; border: 0px; width: 1px; height: 1px; padding: 0px; margin: -1px; overflow: hidden; clip: rect(0px, 0px, 0px, 0px); white-space: nowrap; word-wrap: normal;"
+        >
+          This is the default tooltip
+        </span>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
     <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
+      aria-describedby="radix-:r0:"
+      class=""
+      data-state="instant-open"
     >
       <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
+        class="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
       >
         Trigger
       </button>
     </button>
   </div>,
-]
-`;
-
-exports[`TextInput in Dark Theme renders Customization 1`] = `
-Array [
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>,
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>,
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>,
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>,
-]
-`;
-
-exports[`TextInput in Dark Theme renders Default 1`] = `
-<button
-  className=""
-  data-state="closed"
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onPointerDown={[Function]}
-  onPointerLeave={[Function]}
-  onPointerMove={[Function]}
->
-  <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-  >
-    Trigger
-  </button>
-</button>
-`;
-
-exports[`TextInput in Light Theme renders ArrowPositions 1`] = `
-Array [
-  <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
-  >
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-  </div>,
-  <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
-  >
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-  </div>,
-]
-`;
-
-exports[`TextInput in Light Theme renders Customization 1`] = `
-Array [
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>,
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>,
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>,
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>,
-]
-`;
-
-exports[`TextInput in Light Theme renders Default 1`] = `
-<button
-  className=""
-  data-state="closed"
-  onBlur={[Function]}
-  onClick={[Function]}
-  onFocus={[Function]}
-  onPointerDown={[Function]}
-  onPointerLeave={[Function]}
-  onPointerMove={[Function]}
->
-  <button
-    className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-  >
-    Trigger
-  </button>
-</button>
-`;
-
-exports[`TextInput in RTL renders ArrowPositions 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
-  >
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-  </div>
-  <div
-    className="flex flex-wrap items-center justify-around gap-2 w-full"
-  >
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-    <button
-      className=""
-      data-state="closed"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onFocus={[Function]}
-      onPointerDown={[Function]}
-      onPointerLeave={[Function]}
-      onPointerMove={[Function]}
-    >
-      <button
-        className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-      >
-        Trigger
-      </button>
-    </button>
-  </div>
-</div>
-`;
-
-exports[`TextInput in RTL renders Customization 1`] = `
-<div
-  dir="rtl"
->
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>
-</div>
-`;
-
-exports[`TextInput in RTL renders Default 1`] = `
-<div
-  dir="rtl"
->
-  <button
-    className=""
-    data-state="closed"
-    onBlur={[Function]}
-    onClick={[Function]}
-    onFocus={[Function]}
-    onPointerDown={[Function]}
-    onPointerLeave={[Function]}
-    onPointerMove={[Function]}
-  >
-    <button
-      className="z-0 overflow-hidden flex flex-row items-center text-moon-14 relative rounded-moon-i-sm cursor-pointer transition duration-200 space-between h-10 gap-2 py-2 px-3 bg-gohan text-bulma hover:bg-piccolo/[.12] hover:text-piccolo"
-    >
-      Trigger
-    </button>
-  </button>
-</div>
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

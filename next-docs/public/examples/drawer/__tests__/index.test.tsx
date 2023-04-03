@@ -2,83 +2,59 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import renderer from 'react-test-renderer';
-import {
-  moonDesignDark,
-  moonDesignLight,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
+import { act, cleanup, fireEvent, render } from '@testing-library/react';
+import '../../../../__mocks__/resizeObserver';
 import Backdrop from '../Backdrop';
 import Close from '../Close';
 import Default from '../Default';
 import Positions from '../Positions';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
-
-describe('Drawer in Light Theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+describe('Drawer', () => {
+  afterEach(cleanup);
+  it('renders Default', async () => {
+    const tree = render(<Default />);
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Positions', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Positions />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Positions', async () => {
+    const tree = render(<Positions />);
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Backdrop', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Backdrop />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Backdrop', async () => {
+    const tree = render(<Backdrop />);
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Close', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Close />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('Drawer in Dark Theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Positions', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Positions />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Backdrop', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Backdrop />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Close', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Close />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Close', async () => {
+    const tree = render(<Close />);
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
   });
 });
 
 describe('Drawer in RTL', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  afterEach(cleanup);
+  it('renders Default', async () => {
+    const tree = render(withRtl(<Default />));
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Positions', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Positions />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Positions', async () => {
+    const tree = render(withRtl(<Positions />));
+    await act(() => fireEvent.click(tree.getAllByRole('button')[0]));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Backdrop', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Backdrop />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Backdrop', async () => {
+    const tree = render(withRtl(<Backdrop />));
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders Close', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Close />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Close', async () => {
+    const tree = render(withRtl(<Close />));
+    await act(() => fireEvent.click(tree.getByRole('button')));
+    expect(tree).toMatchSnapshot();
   });
 });

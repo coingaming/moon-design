@@ -1,32 +1,45 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import DeprecationWarning from '../../components/facing/DeprecationWarning';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import CustomizedArrow from '../../public/styledExamples/carousel/CustomizedArrow';
-import Default from '../../public/styledExamples/carousel/Default';
-import Rtl from '../../public/styledExamples/carousel/Rtl';
-import Space from '../../public/styledExamples/carousel/Space';
-import VisibleIndex from '../../public/styledExamples/carousel/VisibleIndex';
+import Autoslide from '../../public/examples/carousel/Autoslide';
+import CustomizedArrow from '../../public/examples/carousel/CustomizedArrow';
+import Default from '../../public/examples/carousel/Default';
+import Indicators from '../../public/examples/carousel/Indicators';
+import SelectIndex from '../../public/examples/carousel/SelectIndex';
+import Spaces from '../../public/examples/carousel/Spaces';
+import VisibleIndex from '../../public/examples/carousel/VisibleIndex';
 import useExamples from '../../utils/useExamples';
 
 export default function PageCarousel() {
-  const examples = useExamples('carousel', 'styled');
-
+  const examples = useExamples('carousel');
+  const { name, text, image } = getComponent('Carousel');
   return (
     <>
-      <ComponentPageDescription title="Carousel" isDeprecated>
-        <DeprecationWarning href="/core/carousel" name="Carousel" />
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
+        <p>
+          It not only helps in saving screen space, but also encourages visitors
+          to focus on important website content and improves the overall visual
+          appeal effectively.
+        </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>
+        {`<Carousel>
+  <Carousel.LeftArrow>...</Carousel.LeftArrow>
+  <Carousel.Reel>
+    <Carousel.Item>...</Carousel.Item>
+  <Carousel.Reel>
+  <Carousel.Indicators/>
+  </Carousel.RightArrow>...</Carousel.RightArrow>
+</Carousel>`}
+      </ComponentAnatomy>
       <Preview
         title="Carousel"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
-      />
-      <Preview
-        title="RTL Carousel"
-        preview={<Rtl />}
-        code={examples ? examples.Rtl : 'Loading'}
       />
       <Preview
         title="Customized Arrows"
@@ -34,45 +47,110 @@ export default function PageCarousel() {
         code={examples ? examples.CustomizedArrow : 'Loading'}
       />
       <Preview
-        title="Space"
-        preview={<Space />}
-        code={examples ? examples.Space : 'Loading'}
+        title="Indicators"
+        preview={<Indicators />}
+        code={examples ? examples.Indicators : 'Loading'}
+      />
+      <Preview
+        title="Spaces"
+        preview={<Spaces />}
+        code={examples ? examples.Spaces : 'Loading'}
       />
       <Preview
         title="Visible indices"
         preview={<VisibleIndex />}
         code={examples ? examples.VisibleIndex : 'Loading'}
       />
+      <Preview
+        title="Select index"
+        preview={<SelectIndex />}
+        code={examples ? examples.SelectIndex : 'Loading'}
+      />
+      <Preview
+        title="Autoslide"
+        preview={<Autoslide />}
+        code={examples ? examples.Autoslide : 'Loading'}
+      />
       <PropsTable
-        title="Props"
+        title="Carousel props"
         data={[
           {
-            name: 'space',
-            type: 'xlarge |',
+            name: 'scrollTo',
+            type: 'number',
             required: false,
-            default: '',
-            description: '-',
+            default: '-',
+            description: 'Index of item to scroll to',
           },
           {
-            name: 'items',
-            type: 'React.ReactNode',
+            name: 'step',
+            type: 'number',
             required: false,
-            default: '',
-            description: 'Items to display inside carousel',
+            default: '5',
+            description: 'Step of scroll',
           },
           {
-            name: 'scrollToLeftButton',
-            type: '({ scrollToStep, disabled }: { { scrollToStep: function, disabled: boolean } }) => React.ReactElement',
+            name: 'selectedIndex',
+            type: 'number',
             required: false,
-            default: '',
-            description: 'Scroll to left button',
+            default: '-',
+            description: 'Index of selected item',
           },
           {
-            name: 'scrollToRightButton',
-            type: '({ scrollToStep, disabled }: { { scrollToStep: function, disabled: boolean } }) => React.ReactElement',
-            required: false,
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
             default: '',
-            description: 'Scroll to right button',
+            description: '',
+          },
+          {
+            name: 'scrollLeftToStep',
+            type: '() => void',
+            required: false,
+            default: '-',
+            description: 'Scrolls left',
+          },
+          {
+            name: 'scrollRightToStep',
+            type: '() => void',
+            required: false,
+            default: '-',
+            description: 'Scrolls right',
+          },
+          {
+            name: 'canScrollLeft',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether can scroll left',
+          },
+          {
+            name: 'canScrollRight',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether can scroll right',
+          },
+          {
+            name: 'firstVisibleIndex',
+            type: 'number',
+            required: false,
+            default: '-',
+            description: 'Index of the first visible item',
+          },
+          {
+            name: 'lastVisibleIndex',
+            type: 'number',
+            required: false,
+            default: '-',
+            description: 'Index of the last visible item',
+          },
+          {
+            name: 'autoSlideDelay',
+            type: 'number',
+            required: false,
+            default: '-',
+            description:
+              'Interval of auto sliding in milliseconds. No auto sliding if undefined',
           },
         ]}
       />

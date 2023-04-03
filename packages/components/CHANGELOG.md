@@ -1,5 +1,19 @@
 # Change Log
 
+## 9.28.0
+
+### Minor Changes
+
+- Release 9.28
+
+### Patch Changes
+
+- Updated dependencies [undefined]
+  - @heathmont/moon-assets@9.28.0
+  - @heathmont/moon-icons@9.28.0
+  - @heathmont/moon-themes@9.28.0
+  - @heathmont/moon-utils@9.28.0
+
 ## 9.27.0
 
 ### Minor Changes

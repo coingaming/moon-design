@@ -1,22 +1,52 @@
+import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import DeprecationWarning from '../../components/facing/DeprecationWarning';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Animations from '../../public/styledExamples/button/Animations';
-import Disabled from '../../public/styledExamples/button/Disabled';
-import FullWidth from '../../public/styledExamples/button/FullWidth';
-import Icons from '../../public/styledExamples/button/Icons';
-import Sizes from '../../public/styledExamples/button/Sizes';
-import Variants from '../../public/styledExamples/button/Variants';
+import Animations from '../../public/examples/button/Animations';
+import AsLink from '../../public/examples/button/AsLink';
+import Default from '../../public/examples/button/Default';
+import Disabled from '../../public/examples/button/Disabled';
+import FullWidth from '../../public/examples/button/FullWidth';
+import Icons from '../../public/examples/button/Icons';
+import Sizes from '../../public/examples/button/Sizes';
+import Variants from '../../public/examples/button/Variants';
 import useExamples from '../../utils/useExamples';
 
-const PageButton = () => {
-  const examples = useExamples('button', 'styled');
+const Example = () => {
+  const examples = useExamples('button');
+  const { name, text, image } = getComponent('Button');
   return (
     <>
-      <ComponentPageDescription title="Button" isDeprecated>
-        <DeprecationWarning href="/core/button" name="Button" />
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+        isAriaSupport
+      >
+        <p>{text}</p>
+        <p>
+          Buttons communicate actions that users can take. They are typically
+          placed throughout your UI, in places like:
+        </p>
+        <ul className="list-disc ps-5">
+          <li>Modal windows</li>
+          <li>Forms</li>
+          <li>Cards</li>
+          <li>Toolbars</li>
+        </ul>
       </ComponentPageDescription>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="Button as a link HTML element"
+        preview={<AsLink />}
+        code={examples ? examples.AsLink : 'Loading'}
+      />
       <Preview
         title="Variants"
         preview={<Variants />}
@@ -48,63 +78,70 @@ const PageButton = () => {
         code={examples ? examples.Animations : 'Loading'}
       />
       <PropsTable
-        title="Props"
+        title="Button props"
         data={[
           {
-            name: 'variant',
-            type: 'primary | secondary | tertiary | ghost',
-            required: false,
-            default: 'primary',
-            description: 'Visual/Logical variant of Button',
-          },
-          {
-            name: 'size',
-            type: 'small | medium | large | xlarge',
-            required: false,
-            default: 'medium',
-            description: 'Size of Button',
-          },
-          {
-            name: 'iconLeft',
-            type: 'React.ReactElement',
+            name: 'animation',
+            type: "'progress' | 'success' | 'error' | 'pulse' | boolean",
             required: false,
             default: '-',
-            description: 'Left icon element',
+            description: 'Animation of button',
           },
           {
-            name: 'iconRight',
-            type: 'React.ReactElement',
+            name: 'as',
+            type: 'a | button',
+            required: false,
+            default: 'button',
+            description: 'Rendered HTML element',
+          },
+          {
+            name: 'children',
+            type: 'React.ReactNode;',
             required: false,
             default: '-',
-            description: 'Right icon element',
-          },
-          {
-            name: 'iconOnly',
-            type: 'React.ReactElement',
-            required: false,
-            default: '-',
-            description: 'Icon only element',
-          },
-          {
-            name: 'fullWidth',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description: 'Full width Button',
+            description: 'Children content',
           },
           {
             name: 'disabled',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Disabled Button',
+            description: 'Disabled button',
           },
           {
-            name: 'animation',
-            type: 'progress | success | error | pulse',
+            name: 'fullWidth',
+            type: 'boolean',
+            required: false,
+            default: 'false',
+            description: 'Full width button',
+          },
+          {
+            name: 'iconLeft',
+            type: 'JSX.Element',
             required: false,
             default: '-',
-            description: 'Animation of Button',
+            description: 'Left icon',
+          },
+          {
+            name: 'iconRight',
+            type: 'JSX.Element',
+            required: false,
+            default: '-',
+            description: 'Right icon',
+          },
+          {
+            name: 'size',
+            type: 'xs | sm | md | lg | xl',
+            required: false,
+            default: 'md',
+            description: 'Size of button',
+          },
+          {
+            name: 'variant',
+            type: 'primary | secondary | tertiary | ghost',
+            required: false,
+            default: 'primary',
+            description: 'Visual/Logical variant of button',
           },
         ]}
       />
@@ -112,4 +149,4 @@ const PageButton = () => {
   );
 };
 
-export default PageButton;
+export default Example;

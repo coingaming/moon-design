@@ -1,4 +1,3 @@
-import { AnchorHTMLAttributes, DetailedHTMLProps, ReactNode } from "react";
 import { ButtonProps, LinkProps } from "./components/ListItem";
 
 export type { ButtonProps, LinkProps } from "./components/ListItem";
@@ -14,9 +13,3 @@ export type JsonStructureItem = Omit<
   "index"
 >;
 
-export type RenderLink = (
-  props: DetailedHTMLProps<
-    AnchorHTMLAttributes<HTMLAnchorElement>,
-    HTMLAnchorElement
-  > & { "data-close-on-select"?: boolean }
-) => ReactNode;

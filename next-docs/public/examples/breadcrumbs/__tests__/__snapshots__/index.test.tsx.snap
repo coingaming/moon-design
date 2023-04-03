@@ -1,696 +1,1335 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Breadcrumb in Dark Theme renders collapsed 1`] = `
-<nav
-  aria-label="Breadcrumb"
->
-  <ol
-    className="flex flex-wrap gap-2 items-center text-moon-14"
-  >
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
+exports[`Breadcrumb in RTL renders Collapsed 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
       >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
+        <nav
+          aria-label="Breadcrumb"
         >
-          Home
-        </a>
-      </span>
-      <svg
-        className="rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </li>
-    <li
-      className="relative"
-    >
-      <button
-        className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        type="button"
-      >
-        <svg
-          className="text-moon-16"
-          fill="none"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
-            stroke="currentColor"
-            strokeLinecap="round"
-          />
-        </svg>
-        <span
-          aria-hidden="true"
-          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-        />
-      </button>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
-      >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
-        >
-          Page 4
-        </a>
-      </span>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
-      >
-        <span>
-          Current page
-        </span>
-      </span>
-    </li>
-  </ol>
-</nav>
-`;
-
-exports[`Breadcrumb in Dark Theme renders four items 1`] = `
-<nav
-  aria-label="Breadcrumb"
->
-  <ol
-    className="flex flex-wrap gap-2 items-center text-moon-14"
-  >
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
-      >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
-        >
-          Home
-        </a>
-      </span>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180 text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
-      >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
-        >
-          Page 1
-        </a>
-      </span>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180 text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
-      >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
-        >
-          Page 2
-        </a>
-      </span>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180 text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
-      >
-        <span>
-          Current page
-        </span>
-      </span>
-    </li>
-  </ol>
-</nav>
-`;
-
-exports[`Breadcrumb in Dark Theme renders one item 1`] = `
-<nav
-  aria-label="Breadcrumb"
->
-  <ol
-    className="flex flex-wrap gap-2 items-center text-moon-14"
-  >
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <span
-        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
-      >
-        <span>
-          Current page
-        </span>
-      </span>
-    </li>
-  </ol>
-</nav>
-`;
-
-exports[`Breadcrumb in Dark Theme renders two items 1`] = `
-<nav
-  aria-label="Breadcrumb"
->
-  <ol
-    className="flex flex-wrap gap-2 items-center text-moon-14"
-  >
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
-      >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
-        >
-          Home
-        </a>
-      </span>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180 text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
-      >
-        <span>
-          Current page
-        </span>
-      </span>
-    </li>
-  </ol>
-</nav>
-`;
-
-exports[`Breadcrumb in Light Theme renders collapsed 1`] = `
-<nav
-  aria-label="Breadcrumb"
->
-  <ol
-    className="flex flex-wrap gap-2 items-center text-moon-14"
-  >
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
-      >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
-        >
-          Home
-        </a>
-      </span>
-      <svg
-        className="rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    </li>
-    <li
-      className="relative"
-    >
-      <button
-        className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
-        onClick={[Function]}
-        onMouseEnter={[Function]}
-        onMouseLeave={[Function]}
-        type="button"
-      >
-        <svg
-          className="text-moon-16"
-          fill="none"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
-            stroke="currentColor"
-            strokeLinecap="round"
-          />
-        </svg>
-        <span
-          aria-hidden="true"
-          className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-        />
-      </button>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
-      >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
-        >
-          Page 4
-        </a>
-      </span>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
-      >
-        <span>
-          Current page
-        </span>
-      </span>
-    </li>
-  </ol>
-</nav>
-`;
-
-exports[`Breadcrumb in Light Theme renders four items 1`] = `
-<nav
-  aria-label="Breadcrumb"
->
-  <ol
-    className="flex flex-wrap gap-2 items-center text-moon-14"
-  >
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
-      >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
-        >
-          Home
-        </a>
-      </span>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180 text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
-      >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
-        >
-          Page 1
-        </a>
-      </span>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180 text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
-      >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
-        >
-          Page 2
-        </a>
-      </span>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180 text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
-      >
-        <span>
-          Current page
-        </span>
-      </span>
-    </li>
-  </ol>
-</nav>
-`;
-
-exports[`Breadcrumb in Light Theme renders one item 1`] = `
-<nav
-  aria-label="Breadcrumb"
->
-  <ol
-    className="flex flex-wrap gap-2 items-center text-moon-14"
-  >
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <span
-        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
-      >
-        <span>
-          Current page
-        </span>
-      </span>
-    </li>
-  </ol>
-</nav>
-`;
-
-exports[`Breadcrumb in Light Theme renders two items 1`] = `
-<nav
-  aria-label="Breadcrumb"
->
-  <ol
-    className="flex flex-wrap gap-2 items-center text-moon-14"
-  >
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <span
-        className="text-trunks transition-colors duration-200 hover:text-bulma"
-      >
-        <a
-          href=""
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onTouchStart={[Function]}
-        >
-          Home
-        </a>
-      </span>
-    </li>
-    <li
-      className="flex items-center gap-2 text-trunks"
-    >
-      <svg
-        className="rtl:rotate-180 text-moon-16"
-        fill="none"
-        height="1em"
-        viewBox="0 0 32 32"
-        width="1em"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-          stroke="currentColor"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-      <span
-        className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
-      >
-        <span>
-          Current page
-        </span>
-      </span>
-    </li>
-  </ol>
-</nav>
-`;
-
-exports[`Breadcrumb in RTL renders collapsed 1`] = `
-<div
-  dir="rtl"
->
-  <nav
-    aria-label="Breadcrumb"
-  >
-    <ol
-      className="flex flex-wrap gap-2 items-center text-moon-14"
-    >
-      <li
-        className="flex items-center gap-2 text-trunks"
-      >
-        <span
-          className="text-trunks transition-colors duration-200 hover:text-bulma"
-        >
-          <a
-            href=""
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onTouchStart={[Function]}
+          <ol
+            class="flex flex-wrap gap-2 items-center text-moon-14"
           >
-            Home
-          </a>
-        </span>
-        <svg
-          className="rtl:rotate-180"
-          fill="none"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-      </li>
-      <li
-        className="relative"
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <span
+                class="text-trunks transition-colors duration-200 hover:text-bulma"
+              >
+                <a
+                  href=""
+                >
+                  Home
+                </a>
+              </span>
+              <svg
+                class="rtl:rotate-180"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+            <li
+              class="relative"
+            >
+              <button
+                class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+                type="button"
+              >
+                <svg
+                  class="text-moon-16"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  />
+                </svg>
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </li>
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <svg
+                class="rtl:rotate-180"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="text-trunks transition-colors duration-200 hover:text-bulma"
+              >
+                <a
+                  href=""
+                >
+                  Page 4
+                </a>
+              </span>
+            </li>
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <svg
+                class="rtl:rotate-180"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+              >
+                <span>
+                  Current page
+                </span>
+              </span>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <nav
+        aria-label="Breadcrumb"
       >
-        <button
-          className="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
-          onClick={[Function]}
-          onMouseEnter={[Function]}
-          onMouseLeave={[Function]}
-          type="button"
+        <ol
+          class="flex flex-wrap gap-2 items-center text-moon-14"
         >
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Home
+              </a>
+            </span>
+            <svg
+              class="rtl:rotate-180"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+          <li
+            class="relative"
+          >
+            <button
+              class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+              type="button"
+            >
+              <svg
+                class="text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Page 4
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+            >
+              <span>
+                Current page
+              </span>
+            </span>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb in RTL renders FourItems 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <nav
+          aria-label="Breadcrumb"
+        >
+          <ol
+            class="flex flex-wrap gap-2 items-center text-moon-14"
+          >
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <span
+                class="text-trunks transition-colors duration-200 hover:text-bulma"
+              >
+                <a
+                  href=""
+                >
+                  Home
+                </a>
+              </span>
+            </li>
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <svg
+                class="rtl:rotate-180 text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="text-trunks transition-colors duration-200 hover:text-bulma"
+              >
+                <a
+                  href=""
+                >
+                  Page 1
+                </a>
+              </span>
+            </li>
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <svg
+                class="rtl:rotate-180 text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="text-trunks transition-colors duration-200 hover:text-bulma"
+              >
+                <a
+                  href=""
+                >
+                  Page 2
+                </a>
+              </span>
+            </li>
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <svg
+                class="rtl:rotate-180 text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+              >
+                <span>
+                  Current page
+                </span>
+              </span>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <nav
+        aria-label="Breadcrumb"
+      >
+        <ol
+          class="flex flex-wrap gap-2 items-center text-moon-14"
+        >
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Home
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180 text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Page 1
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180 text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Page 2
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180 text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+            >
+              <span>
+                Current page
+              </span>
+            </span>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb in RTL renders OneItem 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <nav
+          aria-label="Breadcrumb"
+        >
+          <ol
+            class="flex flex-wrap gap-2 items-center text-moon-14"
+          >
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <span
+                class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+              >
+                <span>
+                  Current page
+                </span>
+              </span>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <nav
+        aria-label="Breadcrumb"
+      >
+        <ol
+          class="flex flex-wrap gap-2 items-center text-moon-14"
+        >
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <span
+              class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+            >
+              <span>
+                Current page
+              </span>
+            </span>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb in RTL renders TwoItems 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <nav
+          aria-label="Breadcrumb"
+        >
+          <ol
+            class="flex flex-wrap gap-2 items-center text-moon-14"
+          >
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <span
+                class="text-trunks transition-colors duration-200 hover:text-bulma"
+              >
+                <a
+                  href=""
+                >
+                  Home
+                </a>
+              </span>
+            </li>
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <svg
+                class="rtl:rotate-180 text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+              >
+                <span>
+                  Current page
+                </span>
+              </span>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <nav
+        aria-label="Breadcrumb"
+      >
+        <ol
+          class="flex flex-wrap gap-2 items-center text-moon-14"
+        >
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Home
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180 text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+            >
+              <span>
+                Current page
+              </span>
+            </span>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb in RTL renders with custom divider 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <nav
+          aria-label="Breadcrumb"
+        >
+          <ol
+            class="flex flex-wrap gap-2 items-center text-moon-14"
+          >
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <span
+                class="text-trunks transition-colors duration-200 hover:text-bulma"
+              >
+                <a
+                  href=""
+                >
+                  <svg
+                    class="text-moon-24"
+                    fill="none"
+                    height="1em"
+                    viewBox="0 0 32 32"
+                    width="1em"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.5 16.524H7h-.5zm0 7.52H6h.5zM24.038 25.5V25v.5zm-16.076 0v.5-.5zM25.5 16.524H25h.5zm0 7.52h.5-.5zm-.773-9.494l-.367.34.367-.34zM18.15 7.44l-.367.34.367-.34zm-4.3 0l.367.34-.367-.34zM7.273 14.55l-.367-.34.367.34zm5.804 3.67h.5-.5zm0 6.552h-.5.5zm5.115.728V25v.5zm-4.384 0v.5-.5zm5.115-7.28h.5-.5zm0 6.552h-.5.5zm-.73-7.28v.5-.5zm-4.385 0v.5-.5zM6 16.523v7.52h1v-7.52H6zM24.038 25H7.962v1h16.076v-1zM25 16.524v7.52h1v-7.52h-1zm.094-2.313l-6.577-7.112-.734.68 6.576 7.11.735-.678zm-11.61-7.112l-6.578 7.112.734.679 6.577-7.112-.734-.679zm5.033 0a3.43 3.43 0 00-5.034 0l.734.68a2.43 2.43 0 013.566 0l.734-.68zM26 16.524c0-.858-.324-1.683-.906-2.313l-.735.679c.412.445.641 1.029.641 1.634h1zm-19 0c0-.605.228-1.189.64-1.634l-.734-.68A3.406 3.406 0 006 16.525h1zm-1 7.52C6 25.126 6.88 26 7.962 26v-1A.959.959 0 017 24.044H6zM24.038 26A1.959 1.959 0 0026 24.044h-1a.959.959 0 01-.962.956v1zm-11.461-7.78v6.552h1v-6.553h-1zM18.192 25h-4.384v1h4.384v-1zm.231-6.78v6.552h1V18.22h-1zm-.23-1.229h-4.385v1h4.384v-1zm1.23 1.229a1.23 1.23 0 00-1.23-1.229v1c.128 0 .23.104.23.229h1zm-5.846 0a.23.23 0 01.23-.229v-1a1.23 1.23 0 00-1.23 1.228h1zm-1 6.552c0 .68.553 1.228 1.23 1.228v-1a.23.23 0 01-.23-.228h-1zM18.192 26a1.23 1.23 0 001.231-1.228h-1a.23.23 0 01-.23.228v1z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </span>
+              <svg
+                class="text-moon-20"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.5 7l9 9-9 9"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+            <li
+              class="relative"
+            >
+              <button
+                class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+                type="button"
+              >
+                <svg
+                  class="text-moon-16"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                  />
+                </svg>
+                <span
+                  aria-hidden="true"
+                  class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+                />
+              </button>
+            </li>
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <svg
+                class="text-moon-20"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.5 7l9 9-9 9"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="text-trunks transition-colors duration-200 hover:text-bulma"
+              >
+                <a
+                  href=""
+                >
+                  Page 4
+                </a>
+              </span>
+            </li>
+            <li
+              class="flex items-center gap-2 text-trunks"
+            >
+              <svg
+                class="text-moon-20"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M11.5 7l9 9-9 9"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span
+                class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+              >
+                <span>
+                  Current page
+                </span>
+              </span>
+            </li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <nav
+        aria-label="Breadcrumb"
+      >
+        <ol
+          class="flex flex-wrap gap-2 items-center text-moon-14"
+        >
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                <svg
+                  class="text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.5 16.524H7h-.5zm0 7.52H6h.5zM24.038 25.5V25v.5zm-16.076 0v.5-.5zM25.5 16.524H25h.5zm0 7.52h.5-.5zm-.773-9.494l-.367.34.367-.34zM18.15 7.44l-.367.34.367-.34zm-4.3 0l.367.34-.367-.34zM7.273 14.55l-.367-.34.367.34zm5.804 3.67h.5-.5zm0 6.552h-.5.5zm5.115.728V25v.5zm-4.384 0v.5-.5zm5.115-7.28h.5-.5zm0 6.552h-.5.5zm-.73-7.28v.5-.5zm-4.385 0v.5-.5zM6 16.523v7.52h1v-7.52H6zM24.038 25H7.962v1h16.076v-1zM25 16.524v7.52h1v-7.52h-1zm.094-2.313l-6.577-7.112-.734.68 6.576 7.11.735-.678zm-11.61-7.112l-6.578 7.112.734.679 6.577-7.112-.734-.679zm5.033 0a3.43 3.43 0 00-5.034 0l.734.68a2.43 2.43 0 013.566 0l.734-.68zM26 16.524c0-.858-.324-1.683-.906-2.313l-.735.679c.412.445.641 1.029.641 1.634h1zm-19 0c0-.605.228-1.189.64-1.634l-.734-.68A3.406 3.406 0 006 16.525h1zm-1 7.52C6 25.126 6.88 26 7.962 26v-1A.959.959 0 017 24.044H6zM24.038 26A1.959 1.959 0 0026 24.044h-1a.959.959 0 01-.962.956v1zm-11.461-7.78v6.552h1v-6.553h-1zM18.192 25h-4.384v1h4.384v-1zm.231-6.78v6.552h1V18.22h-1zm-.23-1.229h-4.385v1h4.384v-1zm1.23 1.229a1.23 1.23 0 00-1.23-1.229v1c.128 0 .23.104.23.229h1zm-5.846 0a.23.23 0 01.23-.229v-1a1.23 1.23 0 00-1.23 1.228h1zm-1 6.552c0 .68.553 1.228 1.23 1.228v-1a.23.23 0 01-.23-.228h-1zM18.192 26a1.23 1.23 0 001.231-1.228h-1a.23.23 0 01-.23.228v1z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </span>
+            <svg
+              class="text-moon-20"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.5 7l9 9-9 9"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+          <li
+            class="relative"
+          >
+            <button
+              class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+              type="button"
+            >
+              <svg
+                class="text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="text-moon-20"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.5 7l9 9-9 9"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Page 4
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="text-moon-20"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.5 7l9 9-9 9"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+            >
+              <span>
+                Current page
+              </span>
+            </span>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb renders Collapsed 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        aria-label="Breadcrumb"
+      >
+        <ol
+          class="flex flex-wrap gap-2 items-center text-moon-14"
+        >
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Home
+              </a>
+            </span>
+            <svg
+              class="rtl:rotate-180"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+          <li
+            class="relative"
+          >
+            <button
+              class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+              type="button"
+            >
+              <svg
+                class="text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Page 4
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+            >
+              <span>
+                Current page
+              </span>
+            </span>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      aria-label="Breadcrumb"
+    >
+      <ol
+        class="flex flex-wrap gap-2 items-center text-moon-14"
+      >
+        <li
+          class="flex items-center gap-2 text-trunks"
+        >
+          <span
+            class="text-trunks transition-colors duration-200 hover:text-bulma"
+          >
+            <a
+              href=""
+            >
+              Home
+            </a>
+          </span>
           <svg
-            className="text-moon-16"
+            class="rtl:rotate-180"
             fill="none"
             height="1em"
             viewBox="0 0 32 32"
@@ -698,277 +1337,995 @@ exports[`Breadcrumb in RTL renders collapsed 1`] = `
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
+              d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
               stroke="currentColor"
-              strokeLinecap="round"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </li>
+        <li
+          class="relative"
+        >
+          <button
+            class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+            type="button"
+          >
+            <svg
+              class="text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </li>
+        <li
+          class="flex items-center gap-2 text-trunks"
+        >
+          <svg
+            class="rtl:rotate-180"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
             />
           </svg>
           <span
-            aria-hidden="true"
-            className="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
-          />
-        </button>
-      </li>
-      <li
-        className="flex items-center gap-2 text-trunks"
-      >
-        <svg
-          className="rtl:rotate-180"
-          fill="none"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-        <span
-          className="text-trunks transition-colors duration-200 hover:text-bulma"
-        >
-          <a
-            href=""
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onTouchStart={[Function]}
+            class="text-trunks transition-colors duration-200 hover:text-bulma"
           >
-            Page 4
-          </a>
-        </span>
-      </li>
-      <li
-        className="flex items-center gap-2 text-trunks"
-      >
-        <svg
-          className="rtl:rotate-180"
-          fill="none"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-        <span
-          className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
-        >
-          <span>
-            Current page
+            <a
+              href=""
+            >
+              Page 4
+            </a>
           </span>
-        </span>
-      </li>
-    </ol>
-  </nav>
-</div>
+        </li>
+        <li
+          class="flex items-center gap-2 text-trunks"
+        >
+          <svg
+            class="rtl:rotate-180"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+          >
+            <span>
+              Current page
+            </span>
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Breadcrumb in RTL renders four items 1`] = `
-<div
-  dir="rtl"
->
-  <nav
-    aria-label="Breadcrumb"
-  >
-    <ol
-      className="flex flex-wrap gap-2 items-center text-moon-14"
+exports[`Breadcrumb renders FourItems 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        aria-label="Breadcrumb"
+      >
+        <ol
+          class="flex flex-wrap gap-2 items-center text-moon-14"
+        >
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Home
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180 text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Page 1
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180 text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Page 2
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180 text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+            >
+              <span>
+                Current page
+              </span>
+            </span>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      aria-label="Breadcrumb"
     >
-      <li
-        className="flex items-center gap-2 text-trunks"
+      <ol
+        class="flex flex-wrap gap-2 items-center text-moon-14"
       >
-        <span
-          className="text-trunks transition-colors duration-200 hover:text-bulma"
+        <li
+          class="flex items-center gap-2 text-trunks"
         >
-          <a
-            href=""
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onTouchStart={[Function]}
+          <span
+            class="text-trunks transition-colors duration-200 hover:text-bulma"
           >
-            Home
-          </a>
-        </span>
-      </li>
-      <li
-        className="flex items-center gap-2 text-trunks"
-      >
-        <svg
-          className="rtl:rotate-180 text-moon-16"
-          fill="none"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-        <span
-          className="text-trunks transition-colors duration-200 hover:text-bulma"
-        >
-          <a
-            href=""
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onTouchStart={[Function]}
-          >
-            Page 1
-          </a>
-        </span>
-      </li>
-      <li
-        className="flex items-center gap-2 text-trunks"
-      >
-        <svg
-          className="rtl:rotate-180 text-moon-16"
-          fill="none"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-        <span
-          className="text-trunks transition-colors duration-200 hover:text-bulma"
-        >
-          <a
-            href=""
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onTouchStart={[Function]}
-          >
-            Page 2
-          </a>
-        </span>
-      </li>
-      <li
-        className="flex items-center gap-2 text-trunks"
-      >
-        <svg
-          className="rtl:rotate-180 text-moon-16"
-          fill="none"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-        <span
-          className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
-        >
-          <span>
-            Current page
+            <a
+              href=""
+            >
+              Home
+            </a>
           </span>
-        </span>
-      </li>
-    </ol>
-  </nav>
-</div>
+        </li>
+        <li
+          class="flex items-center gap-2 text-trunks"
+        >
+          <svg
+            class="rtl:rotate-180 text-moon-16"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            class="text-trunks transition-colors duration-200 hover:text-bulma"
+          >
+            <a
+              href=""
+            >
+              Page 1
+            </a>
+          </span>
+        </li>
+        <li
+          class="flex items-center gap-2 text-trunks"
+        >
+          <svg
+            class="rtl:rotate-180 text-moon-16"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            class="text-trunks transition-colors duration-200 hover:text-bulma"
+          >
+            <a
+              href=""
+            >
+              Page 2
+            </a>
+          </span>
+        </li>
+        <li
+          class="flex items-center gap-2 text-trunks"
+        >
+          <svg
+            class="rtl:rotate-180 text-moon-16"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+          >
+            <span>
+              Current page
+            </span>
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Breadcrumb in RTL renders one item 1`] = `
-<div
-  dir="rtl"
->
-  <nav
-    aria-label="Breadcrumb"
-  >
-    <ol
-      className="flex flex-wrap gap-2 items-center text-moon-14"
-    >
-      <li
-        className="flex items-center gap-2 text-trunks"
+exports[`Breadcrumb renders OneItem 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        aria-label="Breadcrumb"
       >
-        <span
-          className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+        <ol
+          class="flex flex-wrap gap-2 items-center text-moon-14"
         >
-          <span>
-            Current page
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <span
+              class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+            >
+              <span>
+                Current page
+              </span>
+            </span>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      aria-label="Breadcrumb"
+    >
+      <ol
+        class="flex flex-wrap gap-2 items-center text-moon-14"
+      >
+        <li
+          class="flex items-center gap-2 text-trunks"
+        >
+          <span
+            class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+          >
+            <span>
+              Current page
+            </span>
           </span>
-        </span>
-      </li>
-    </ol>
-  </nav>
-</div>
+        </li>
+      </ol>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
-exports[`Breadcrumb in RTL renders two items 1`] = `
-<div
-  dir="rtl"
->
-  <nav
-    aria-label="Breadcrumb"
-  >
-    <ol
-      className="flex flex-wrap gap-2 items-center text-moon-14"
-    >
-      <li
-        className="flex items-center gap-2 text-trunks"
+exports[`Breadcrumb renders TwoItems 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        aria-label="Breadcrumb"
       >
-        <span
-          className="text-trunks transition-colors duration-200 hover:text-bulma"
+        <ol
+          class="flex flex-wrap gap-2 items-center text-moon-14"
         >
-          <a
-            href=""
-            onClick={[Function]}
-            onMouseEnter={[Function]}
-            onTouchStart={[Function]}
+          <li
+            class="flex items-center gap-2 text-trunks"
           >
-            Home
-          </a>
-        </span>
-      </li>
-      <li
-        className="flex items-center gap-2 text-trunks"
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Home
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="rtl:rotate-180 text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+            >
+              <span>
+                Current page
+              </span>
+            </span>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      aria-label="Breadcrumb"
+    >
+      <ol
+        class="flex flex-wrap gap-2 items-center text-moon-14"
       >
-        <svg
-          className="rtl:rotate-180 text-moon-16"
-          fill="none"
-          height="1em"
-          viewBox="0 0 32 32"
-          width="1em"
-          xmlns="http://www.w3.org/2000/svg"
+        <li
+          class="flex items-center gap-2 text-trunks"
         >
-          <path
-            d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
-            stroke="currentColor"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-          />
-        </svg>
-        <span
-          className="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
-        >
-          <span>
-            Current page
+          <span
+            class="text-trunks transition-colors duration-200 hover:text-bulma"
+          >
+            <a
+              href=""
+            >
+              Home
+            </a>
           </span>
-        </span>
-      </li>
-    </ol>
-  </nav>
-</div>
+        </li>
+        <li
+          class="flex items-center gap-2 text-trunks"
+        >
+          <svg
+            class="rtl:rotate-180 text-moon-16"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 16.004L25.996 16m0 0l-5.383-5.386M25.996 16l-5.383 5.385"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+          >
+            <span>
+              Current page
+            </span>
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Breadcrumb renders with custom divider 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <nav
+        aria-label="Breadcrumb"
+      >
+        <ol
+          class="flex flex-wrap gap-2 items-center text-moon-14"
+        >
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                <svg
+                  class="text-moon-24"
+                  fill="none"
+                  height="1em"
+                  viewBox="0 0 32 32"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.5 16.524H7h-.5zm0 7.52H6h.5zM24.038 25.5V25v.5zm-16.076 0v.5-.5zM25.5 16.524H25h.5zm0 7.52h.5-.5zm-.773-9.494l-.367.34.367-.34zM18.15 7.44l-.367.34.367-.34zm-4.3 0l.367.34-.367-.34zM7.273 14.55l-.367-.34.367.34zm5.804 3.67h.5-.5zm0 6.552h-.5.5zm5.115.728V25v.5zm-4.384 0v.5-.5zm5.115-7.28h.5-.5zm0 6.552h-.5.5zm-.73-7.28v.5-.5zm-4.385 0v.5-.5zM6 16.523v7.52h1v-7.52H6zM24.038 25H7.962v1h16.076v-1zM25 16.524v7.52h1v-7.52h-1zm.094-2.313l-6.577-7.112-.734.68 6.576 7.11.735-.678zm-11.61-7.112l-6.578 7.112.734.679 6.577-7.112-.734-.679zm5.033 0a3.43 3.43 0 00-5.034 0l.734.68a2.43 2.43 0 013.566 0l.734-.68zM26 16.524c0-.858-.324-1.683-.906-2.313l-.735.679c.412.445.641 1.029.641 1.634h1zm-19 0c0-.605.228-1.189.64-1.634l-.734-.68A3.406 3.406 0 006 16.525h1zm-1 7.52C6 25.126 6.88 26 7.962 26v-1A.959.959 0 017 24.044H6zM24.038 26A1.959 1.959 0 0026 24.044h-1a.959.959 0 01-.962.956v1zm-11.461-7.78v6.552h1v-6.553h-1zM18.192 25h-4.384v1h4.384v-1zm.231-6.78v6.552h1V18.22h-1zm-.23-1.229h-4.385v1h4.384v-1zm1.23 1.229a1.23 1.23 0 00-1.23-1.229v1c.128 0 .23.104.23.229h1zm-5.846 0a.23.23 0 01.23-.229v-1a1.23 1.23 0 00-1.23 1.228h1zm-1 6.552c0 .68.553 1.228 1.23 1.228v-1a.23.23 0 01-.23-.228h-1zM18.192 26a1.23 1.23 0 001.231-1.228h-1a.23.23 0 01-.23.228v1z"
+                    fill="currentColor"
+                  />
+                </svg>
+              </a>
+            </span>
+            <svg
+              class="text-moon-20"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.5 7l9 9-9 9"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </li>
+          <li
+            class="relative"
+          >
+            <button
+              class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+              type="button"
+            >
+              <svg
+                class="text-moon-16"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                />
+              </svg>
+              <span
+                aria-hidden="true"
+                class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+              />
+            </button>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="text-moon-20"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.5 7l9 9-9 9"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="text-trunks transition-colors duration-200 hover:text-bulma"
+            >
+              <a
+                href=""
+              >
+                Page 4
+              </a>
+            </span>
+          </li>
+          <li
+            class="flex items-center gap-2 text-trunks"
+          >
+            <svg
+              class="text-moon-20"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M11.5 7l9 9-9 9"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span
+              class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+            >
+              <span>
+                Current page
+              </span>
+            </span>
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </body>,
+  "container": <div>
+    <nav
+      aria-label="Breadcrumb"
+    >
+      <ol
+        class="flex flex-wrap gap-2 items-center text-moon-14"
+      >
+        <li
+          class="flex items-center gap-2 text-trunks"
+        >
+          <span
+            class="text-trunks transition-colors duration-200 hover:text-bulma"
+          >
+            <a
+              href=""
+            >
+              <svg
+                class="text-moon-24"
+                fill="none"
+                height="1em"
+                viewBox="0 0 32 32"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M6.5 16.524H7h-.5zm0 7.52H6h.5zM24.038 25.5V25v.5zm-16.076 0v.5-.5zM25.5 16.524H25h.5zm0 7.52h.5-.5zm-.773-9.494l-.367.34.367-.34zM18.15 7.44l-.367.34.367-.34zm-4.3 0l.367.34-.367-.34zM7.273 14.55l-.367-.34.367.34zm5.804 3.67h.5-.5zm0 6.552h-.5.5zm5.115.728V25v.5zm-4.384 0v.5-.5zm5.115-7.28h.5-.5zm0 6.552h-.5.5zm-.73-7.28v.5-.5zm-4.385 0v.5-.5zM6 16.523v7.52h1v-7.52H6zM24.038 25H7.962v1h16.076v-1zM25 16.524v7.52h1v-7.52h-1zm.094-2.313l-6.577-7.112-.734.68 6.576 7.11.735-.678zm-11.61-7.112l-6.578 7.112.734.679 6.577-7.112-.734-.679zm5.033 0a3.43 3.43 0 00-5.034 0l.734.68a2.43 2.43 0 013.566 0l.734-.68zM26 16.524c0-.858-.324-1.683-.906-2.313l-.735.679c.412.445.641 1.029.641 1.634h1zm-19 0c0-.605.228-1.189.64-1.634l-.734-.68A3.406 3.406 0 006 16.525h1zm-1 7.52C6 25.126 6.88 26 7.962 26v-1A.959.959 0 017 24.044H6zM24.038 26A1.959 1.959 0 0026 24.044h-1a.959.959 0 01-.962.956v1zm-11.461-7.78v6.552h1v-6.553h-1zM18.192 25h-4.384v1h4.384v-1zm.231-6.78v6.552h1V18.22h-1zm-.23-1.229h-4.385v1h4.384v-1zm1.23 1.229a1.23 1.23 0 00-1.23-1.229v1c.128 0 .23.104.23.229h1zm-5.846 0a.23.23 0 01.23-.229v-1a1.23 1.23 0 00-1.23 1.228h1zm-1 6.552c0 .68.553 1.228 1.23 1.228v-1a.23.23 0 01-.23-.228h-1zM18.192 26a1.23 1.23 0 001.231-1.228h-1a.23.23 0 01-.23.228v1z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </span>
+          <svg
+            class="text-moon-20"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.5 7l9 9-9 9"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </li>
+        <li
+          class="relative"
+        >
+          <button
+            class="px-1 h-8 py-1 gap-1 text-moon-14 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 text-trunks bg-transparent hover:text-bulma"
+            type="button"
+          >
+            <svg
+              class="text-moon-16"
+              fill="none"
+              height="1em"
+              viewBox="0 0 32 32"
+              width="1em"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M24.222 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM8.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385zM16.163 18.414a2.192 2.192 0 110-4.385 2.192 2.192 0 010 4.385z"
+                stroke="currentColor"
+                stroke-linecap="round"
+              />
+            </svg>
+            <span
+              aria-hidden="true"
+              class="z-[-1] block absolute inset-0 pointer-events-none transition-[background-color_0.2s_ease-in-out]"
+            />
+          </button>
+        </li>
+        <li
+          class="flex items-center gap-2 text-trunks"
+        >
+          <svg
+            class="text-moon-20"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.5 7l9 9-9 9"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            class="text-trunks transition-colors duration-200 hover:text-bulma"
+          >
+            <a
+              href=""
+            >
+              Page 4
+            </a>
+          </span>
+        </li>
+        <li
+          class="flex items-center gap-2 text-trunks"
+        >
+          <svg
+            class="text-moon-20"
+            fill="none"
+            height="1em"
+            viewBox="0 0 32 32"
+            width="1em"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.5 7l9 9-9 9"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span
+            class="transition-colors duration-200 hover:text-bulma text-bulma font-medium"
+          >
+            <span>
+              Current page
+            </span>
+          </span>
+        </li>
+      </ol>
+    </nav>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

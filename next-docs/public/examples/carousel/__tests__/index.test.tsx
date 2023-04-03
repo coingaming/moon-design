@@ -2,9 +2,8 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import { moonDesignLight, moonDesignDark, ThemeProvider } from '@heathmont/moon-themes';
-import renderer from 'react-test-renderer';
+import { cleanup, render } from '@testing-library/react';
+import '../../../../__mocks__/intersectionObserver';
 import Default from '../Default';
 import Spaces from '../Spaces';
 import CustomizedArrow from '../CustomizedArrow';
@@ -13,176 +12,68 @@ import Indicators from '../Indicators';
 import SelectIndex from '../SelectIndex';
 import Autoslide from '../Autoslide';
 
-/**
- * Utility function that mocks the `IntersectionObserver` API. Necessary for components that rely
- * on it, otherwise the tests will crash. Recommended to execute inside `beforeEach`.
- * @param intersectionObserverMock - Parameter that is sent to the `Object.defineProperty`
- * overwrite method. `jest.fn()` mock functions can be passed here if the goal is to not only
- * mock the intersection observer, but its methods.
- */
-export function setupIntersectionObserverMock({
-  root = null,
-  rootMargin = '',
-  thresholds = [],
-  disconnect = () => null,
-  observe = () => null,
-  takeRecords = () => [],
-  unobserve = () => null,
-} = {}): void {
-  class MockIntersectionObserver implements IntersectionObserver {
-    readonly root: Element | null = root;
-    readonly rootMargin: string = rootMargin;
-    readonly thresholds: ReadonlyArray<number> = thresholds;
-    disconnect: () => void = disconnect;
-    observe: (target: Element) => void = observe;
-    takeRecords: () => IntersectionObserverEntry[] = takeRecords;
-    unobserve: (target: Element) => void = unobserve;
-  }
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-  Object.defineProperty(window, 'IntersectionObserver', {
-    writable: true,
-    configurable: true,
-    value: MockIntersectionObserver,
-  });
-
-  Object.defineProperty(global, 'IntersectionObserver', {
-    writable: true,
-    configurable: true,
-    value: MockIntersectionObserver,
-  });
-}
-
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
-
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
-
-describe('Carousel in Light Theme', () => {
-  beforeEach(() => {
-    setupIntersectionObserverMock();
-  });
-
+describe('Carousel', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Default />);
+    expect(tree).toMatchSnapshot();
   });
-
-  it('renders with different Spaces', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Spaces />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Spaces', () => {
+    const tree = render(<Spaces />);
+    expect(tree).toMatchSnapshot();
   });
-
-  it('renders with Customized Arrows', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<CustomizedArrow />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders CustomizedArrow', () => {
+    const tree = render(<CustomizedArrow />);
+    expect(tree).toMatchSnapshot();
   });
-
-  it('renders visible index', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<VisibleIndex />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders VisibleIndex', () => {
+    const tree = render(<VisibleIndex />);
+    expect(tree).toMatchSnapshot();
   });
-
-  it('renders indicators', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Indicators />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Indicators', () => {
+    const tree = render(<Indicators />);
+    expect(tree).toMatchSnapshot();
   });
-
   it('renders SelectIndex', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<SelectIndex />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<SelectIndex />);
+    expect(tree).toMatchSnapshot();
   });
-  
   it('renders Autoslide', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Autoslide />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Autoslide />);
+    expect(tree).toMatchSnapshot();
   });
 });
 
-describe('Carousel in Dark Theme', () => {
-  beforeEach(() => {
-    setupIntersectionObserverMock();
-  });
-
+describe('Carousel in RTL', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Default />));
+    expect(tree).toMatchSnapshot();
   });
-
-  it('renders with different Spaces', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Spaces />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Spaces', () => {
+    const tree = render(withRtl(<Spaces />));
+    expect(tree).toMatchSnapshot();
   });
-
-  it('renders with Customized Arrows', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<CustomizedArrow />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders CustomizedArrow', () => {
+    const tree = render(withRtl(<CustomizedArrow />));
+    expect(tree).toMatchSnapshot();
   });
-
-  it('renders visible index', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<VisibleIndex />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders VisibleIndex', () => {
+    const tree = render(withRtl(<VisibleIndex />));
+    expect(tree).toMatchSnapshot();
   });
-
-  it('renders indicators', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Indicators />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders Indicators', () => {
+    const tree = render(withRtl(<Indicators />));
+    expect(tree).toMatchSnapshot();
   });
-
   it('renders SelectIndex', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<SelectIndex />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<SelectIndex />));
+    expect(tree).toMatchSnapshot();
   });
-  
   it('renders Autoslide', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Autoslide />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('Accordion in RTL', () => {
-  beforeEach(() => {
-    setupIntersectionObserverMock();
-  });
-
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders with different Spaces', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Spaces />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders with Customized Arrows', () => {
-    const testRenderer = renderer.create(renderWithRtl(<CustomizedArrow />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders visible index', () => {
-    const testRenderer = renderer.create(renderWithRtl(<VisibleIndex />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders indicators', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Indicators />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-
-  it('renders SelectIndex', () => {
-    const testRenderer = renderer.create(renderWithRtl(<SelectIndex />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  
-  it('renders Autoslide', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Autoslide />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Autoslide />));
+    expect(tree).toMatchSnapshot();
   });
 });

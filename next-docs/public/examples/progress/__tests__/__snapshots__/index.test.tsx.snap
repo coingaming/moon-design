@@ -1,689 +1,1161 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Progress in Dark theme renders Colors 1`] = `
-Array [
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-whis h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-]
-`;
-
-exports[`Progress in Dark theme renders Default 1`] = `
-<div
-  aria-valuemax={100}
-  aria-valuemin={0}
-  aria-valuenow={0}
-  className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-  role="progressbar"
->
-  <span
-    className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-    style={
-      Object {
-        "width": "0%",
-      }
-    }
-  />
-</div>
-`;
-
-exports[`Progress in Dark theme renders Sizes 1`] = `
-Array [
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-]
-`;
-
-exports[`Progress in Dark theme renders Values 1`] = `
-Array [
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={25}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "25%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={50}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "50%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={100}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "100%",
-        }
-      }
-    />
-  </div>,
-]
-`;
-
-exports[`Progress in Light theme renders Colors 1`] = `
-Array [
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-whis h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-]
-`;
-
-exports[`Progress in Light theme renders Default 1`] = `
-<div
-  aria-valuemax={100}
-  aria-valuemin={0}
-  aria-valuenow={0}
-  className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-  role="progressbar"
->
-  <span
-    className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-    style={
-      Object {
-        "width": "0%",
-      }
-    }
-  />
-</div>
-`;
-
-exports[`Progress in Light theme renders Sizes 1`] = `
-Array [
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-]
-`;
-
-exports[`Progress in Light theme renders Values 1`] = `
-Array [
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={25}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "25%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={50}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "50%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>,
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={100}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "100%",
-        }
-      }
-    />
-  </div>,
-]
-`;
-
 exports[`Progress in RTL renders Colors 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-whis h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="w-full relative rounded-full overflow-hidden bg-trunks h-4"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            style="width: 75%;"
+          />
+        </div>
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="w-full relative rounded-full overflow-hidden bg-whis h-4"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
+            style="width: 75%;"
+          />
+        </div>
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
+            style="width: 75%;"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-whis h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
+          style="width: 75%;"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Progress in RTL renders Default 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={0}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "0%",
-        }
-      }
-    />
-  </div>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="0"
+          class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            style="width: 0%;"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="0"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 0%;"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Progress in RTL renders Sizes 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            style="width: 75%;"
+          />
+        </div>
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            style="width: 75%;"
+          />
+        </div>
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            style="width: 75%;"
+          />
+        </div>
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            style="width: 75%;"
+          />
+        </div>
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            style="width: 75%;"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
 
 exports[`Progress in RTL renders Values 1`] = `
-<div
-  dir="rtl"
->
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={25}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "25%",
-        }
-      }
-    />
-  </div>
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={50}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "50%",
-        }
-      }
-    />
-  </div>
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={75}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "75%",
-        }
-      }
-    />
-  </div>
-  <div
-    aria-valuemax={100}
-    aria-valuemin={0}
-    aria-valuenow={100}
-    className="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
-    role="progressbar"
-  >
-    <span
-      className="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
-      style={
-        Object {
-          "width": "100%",
-        }
-      }
-    />
-  </div>
-</div>
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        dir="rtl"
+      >
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="25"
+          class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            style="width: 25%;"
+          />
+        </div>
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="50"
+          class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            style="width: 50%;"
+          />
+        </div>
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="75"
+          class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            style="width: 75%;"
+          />
+        </div>
+        <div
+          aria-valuemax="100"
+          aria-valuemin="0"
+          aria-valuenow="100"
+          class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+          role="progressbar"
+        >
+          <span
+            class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      dir="rtl"
+    >
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="25"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 25%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="50"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 50%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="100"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 100%;"
+        />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Progress renders Colors 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-whis h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
+          style="width: 75%;"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="75"
+      class="w-full relative rounded-full overflow-hidden bg-trunks h-4"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        style="width: 75%;"
+      />
+    </div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="75"
+      class="w-full relative rounded-full overflow-hidden bg-whis h-4"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-dodoria"
+        style="width: 75%;"
+      />
+    </div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="75"
+      class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-roshi"
+        style="width: 75%;"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Progress renders Default 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="0"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 0%;"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="0"
+      class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        style="width: 0%;"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Progress renders Sizes 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="75"
+      class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-0.5"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        style="width: 75%;"
+      />
+    </div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="75"
+      class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-1"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        style="width: 75%;"
+      />
+    </div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="75"
+      class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-2"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        style="width: 75%;"
+      />
+    </div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="75"
+      class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-3"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        style="width: 75%;"
+      />
+    </div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="75"
+      class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        style="width: 75%;"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`Progress renders Values 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="25"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 25%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="50"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 50%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="75"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 75%;"
+        />
+      </div>
+      <div
+        aria-valuemax="100"
+        aria-valuemin="0"
+        aria-valuenow="100"
+        class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+        role="progressbar"
+      >
+        <span
+          class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+          style="width: 100%;"
+        />
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="25"
+      class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        style="width: 25%;"
+      />
+    </div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="50"
+      class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        style="width: 50%;"
+      />
+    </div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="75"
+      class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        style="width: 75%;"
+      />
+    </div>
+    <div
+      aria-valuemax="100"
+      aria-valuemin="0"
+      aria-valuenow="100"
+      class="w-full relative rounded-full overflow-hidden bg-trunks/[.24] h-4"
+      role="progressbar"
+    >
+      <span
+        class="block absolute h-full rounded-full ltr:left-0 rtl:right-0 transition-all bg-piccolo"
+        style="width: 100%;"
+      />
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;

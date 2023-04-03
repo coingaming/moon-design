@@ -2,83 +2,50 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import renderer from 'react-test-renderer';
+import { cleanup, render } from '@testing-library/react';
 import Default from '../Default';
 import Colors from '../Colors';
 import Values from '../Values';
 import Sizes from '../Sizes';
-import {
-  moonDesignDark,
-  moonDesignLight,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
-
-describe('CircularProgress in Light theme', () => {
+describe('CircularProgress', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Default />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Sizes />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Values', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Values />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Values />);
+    expect(tree).toMatchSnapshot();
   });
   it('renders Colors', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Colors />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('CircularProgress in Dark theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Values', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Values />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders Colors', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Colors />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Colors />);
+    expect(tree).toMatchSnapshot();
   });
 });
 
 describe('CircularProgress in RTL', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Default />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Sizes', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Sizes />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Sizes />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Values', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Values />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Values />));
+    expect(tree).toMatchSnapshot();
   });
   it('renders Colors', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Colors />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Colors />));
+    expect(tree).toMatchSnapshot();
   });
 });

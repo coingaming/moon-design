@@ -2,57 +2,32 @@
  * @jest-environment jsdom
  */
 
-import React from 'react';
-import {
-  moonDesignLight,
-  moonDesignDark,
-  ThemeProvider,
-} from '@heathmont/moon-themes';
-import renderer from 'react-test-renderer';
+import { cleanup, render } from '@testing-library/react';
 import Default from '../Default';
 import WithButtons from '../WithButtons';
 
-const renderWithLightTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignLight}>{component}</ThemeProvider>
-);
+const withRtl = (component: JSX.Element) => <div dir="rtl">{component}</div>;
 
-const renderWithDarkTheme = (component: JSX.Element) => (
-  <ThemeProvider theme={moonDesignDark}>{component}</ThemeProvider>
-);
-
-const renderWithRtl = (component: JSX.Element) => (
-  <div dir="rtl">{component}</div>
-);
-
-describe('Pagination in Light Theme', () => {
+describe('Pagination', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(<Default />);
+    expect(tree).toMatchSnapshot();
   });
-  it('renders WithChildren', () => {
-    const testRenderer = renderer.create(renderWithLightTheme(<WithButtons />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-});
-
-describe('Pagination in Dark Theme', () => {
-  it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
-  });
-  it('renders WithChildren', () => {
-    const testRenderer = renderer.create(renderWithDarkTheme(<WithButtons />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders WithButtons', () => {
+    const tree = render(<WithButtons />);
+    expect(tree).toMatchSnapshot();
   });
 });
 
 describe('Pagination in RTL', () => {
+  afterEach(cleanup);
   it('renders Default', () => {
-    const testRenderer = renderer.create(renderWithRtl(<Default />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+    const tree = render(withRtl(<Default />));
+    expect(tree).toMatchSnapshot();
   });
-  it('renders WithChildren', () => {
-    const testRenderer = renderer.create(renderWithRtl(<WithButtons />));
-    expect(testRenderer.toJSON()).toMatchSnapshot();
+  it('renders WithButtons', () => {
+    const tree = render(withRtl(<WithButtons />));
+    expect(tree).toMatchSnapshot();
   });
 });

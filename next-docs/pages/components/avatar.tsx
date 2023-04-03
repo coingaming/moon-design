@@ -1,62 +1,80 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import DeprecationWarning from '../../components/facing/DeprecationWarning';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import ActiveStatus from '../../public/styledExamples/avatar/ActiveStatus';
-import Colours from '../../public/styledExamples/avatar/Colours';
-import Sizes from '../../public/styledExamples/avatar/Sizes';
-import StatusOrigin from '../../public/styledExamples/avatar/StatusOrigin';
-import Variants from '../../public/styledExamples/avatar/Variants';
+import Active from '../../public/examples/avatar/Active';
+import Colours from '../../public/examples/avatar/Colours';
+import Default from '../../public/examples/avatar/Default';
+import Rounded from '../../public/examples/avatar/Rounded';
+import Sizes from '../../public/examples/avatar/Sizes';
+import StatusOrigin from '../../public/examples/avatar/StatusOrigin';
+import Variants from '../../public/examples/avatar/Variants';
 import useExamples from '../../utils/useExamples';
 
-const PageAvatar = () => {
-  const examples = useExamples('avatar', 'styled');
+const Example = () => {
+  const examples = useExamples('avatar');
+  const { name, text, image } = getComponent('Avatar');
   return (
     <>
-      <ComponentPageDescription title="Avatar" isDeprecated>
-        <DeprecationWarning href="/core/avatar" name="Avatar" />
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+      >
+        <p>{text}</p>
       </ComponentPageDescription>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
       <Preview
         title="Variants"
         preview={<Variants />}
         code={examples ? examples.Variants : 'Loading'}
       />
       <Preview
-        title="Different colours"
+        title="Rounded"
+        preview={<Rounded />}
+        code={examples ? examples.Rounded : 'Loading'}
+      />
+      <Preview
+        title="Custom colours"
         preview={<Colours />}
         code={examples ? examples.Colours : 'Loading'}
       />
       <Preview
-        title="Different sizes"
+        title="Sizes"
         preview={<Sizes />}
         code={examples ? examples.Sizes : 'Loading'}
       />
       <Preview
         title="Active status"
-        preview={<ActiveStatus />}
-        code={examples ? examples.ActiveStatus : 'Loading'}
+        preview={<Active />}
+        code={examples ? examples.Active : 'Loading'}
       />
       <Preview
-        title="Status Origin"
+        title="Status origin"
         preview={<StatusOrigin />}
         code={examples ? examples.StatusOrigin : 'Loading'}
       />
       <PropsTable
-        title="Props"
+        title="Avatar props"
         data={[
           {
-            name: 'size',
-            type: 'xsmall | small | medium | large | xlarge | twoxlarge',
+            name: 'bgColor',
+            type: 'string',
             required: false,
-            default: 'medium',
-            description: 'Size for avatar',
+            default: 'bg-gohan',
+            description: 'Background colour',
           },
           {
-            name: 'name',
-            type: 'string | JSX.Element',
+            name: 'color',
+            type: 'string',
             required: false,
-            default: '-',
-            description: 'Capital letters of name',
+            default: 'text-bulma',
+            description: 'Text colour',
           },
           {
             name: 'imageUrl',
@@ -66,32 +84,39 @@ const PageAvatar = () => {
             description: 'Path to the image',
           },
           {
-            name: 'statusOrigin',
-            type: 'StatusOrigin',
+            name: 'isRounded',
+            type: 'boolean',
             required: false,
-            default: 'bottom, right',
-            description: 'Position for status indication',
+            default: 'false',
+            description: 'Rounded border radius',
           },
           {
             name: 'isStatusActive',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Active state for status indication',
+            description: 'Active state of status indicator',
           },
           {
-            name: 'color',
-            type: 'ColorProps',
+            name: 'name',
+            type: 'string | JSX.Element',
             required: false,
-            default: 'bulma.100',
-            description: 'Text color',
+            default: '-',
+            description: 'Capital letters of name',
           },
           {
-            name: 'backgroundColor',
-            type: 'ColorProps',
+            name: 'size',
+            type: 'xs | sm | md | lg | xl | 2xl',
             required: false,
-            default: 'gohan.100',
-            description: 'Background color',
+            default: 'md',
+            description: 'Size of avatar',
+          },
+          {
+            name: 'statusOrigin',
+            type: "{ vertical: 'top' | 'bottom', horizontal: 'left' | 'right' }",
+            required: false,
+            default: "{ vertical: 'bottom', horizontal: 'right' }",
+            description: 'Position for status indicator',
           },
         ]}
       />
@@ -99,4 +124,4 @@ const PageAvatar = () => {
   );
 };
 
-export default PageAvatar;
+export default Example;
