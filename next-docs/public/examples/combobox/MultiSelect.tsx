@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from 'react';
-import { BaseOptionType, Combobox, MenuItem } from '@heathmont/moon-core-tw';
+import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
 
-const people: BaseOptionType[] = [
+const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
   { id: 2, label: 'Arlene Mccoy', value: 'Arlene Mccoy' },
   { id: 3, label: 'Devon Webb', value: 'Devon Webb' },
@@ -11,9 +11,9 @@ const people: BaseOptionType[] = [
 ];
 
 const Example = () => {
-  const [selected0, setSelected0] = useState<BaseOptionType[]>([]);
-  const [selected1, setSelected1] = useState<BaseOptionType[]>([]);
-  const [selected2, setSelected2] = useState<BaseOptionType[]>([]);
+  const [selected0, setSelected0] = useState([]);
+  const [selected1, setSelected1] = useState([]);
+  const [selected2, setSelected2] = useState([]);
 
   const [query0, setQuery0] = useState<string>('');
   const [query1, setQuery1] = useState<string>('');

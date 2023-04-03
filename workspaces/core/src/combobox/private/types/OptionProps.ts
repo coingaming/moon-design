@@ -1,7 +1,7 @@
-import { BaseOptionType } from "../../../select/Select";
+import InputValue from "./InputValue";
 
 type OptionProps = {
-  value?: BaseOptionType;
+  value?: InputValue;
   children: React.ReactElement | ((data: {
     selected?: boolean;
     disabled?: boolean;

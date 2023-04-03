@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
 import { Combobox, MenuItem, Button, Chip } from '@heathmont/moon-core-tw';
-import { BaseOptionType } from '@heathmont/moon-core-tw';
 import { ControlsChevronDown, ControlsChevronDownSmall } from '@heathmont/moon-icons-tw';
 
-const people: BaseOptionType[] = [
+const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
   { id: 2, label: 'Arlene Mccoy', value: 'Arlene Mccoy' },
   { id: 3, label: 'Devon Webb', value: 'Devon Webb' },
@@ -13,9 +12,9 @@ const people: BaseOptionType[] = [
 ];
 
 const Example = () => {
-  const [selected0, setSelected0] = useState<BaseOptionType | undefined>();
-  const [selected1, setSelected1] = useState<BaseOptionType | undefined>();
-  const [selected2, setSelected2] = useState<BaseOptionType | undefined>();
+  const [selected0, setSelected0] = useState();
+  const [selected1, setSelected1] = useState();
+  const [selected2, setSelected2] = useState();
 
   const [query0, setQuery0] = useState<string>('');
   const [query1, setQuery1] = useState<string>('');

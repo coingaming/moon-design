@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BaseOptionType, Combobox, MenuItem, Chip } from '@heathmont/moon-core-tw';
+import { Combobox, MenuItem, Chip } from '@heathmont/moon-core-tw';
 import { OtherWater, OtherLightning, OtherMoon, OtherSun } from '@heathmont/moon-icons-tw';
 
 const options = [
@@ -28,9 +28,9 @@ const countries = [
 ];
 
 const Example = () => {
-  const [option, setOption] = useState<BaseOptionType | undefined>();
-  const [language, setLanguage] = useState<BaseOptionType | undefined>();
-  const [selectedCountry, setSelectedCountry] = useState<BaseOptionType[] | undefined>([
+  const [option, setOption] = useState();
+  const [language, setLanguage] = useState();
+  const [selectedCountry, setSelectedCountry] = useState([
     countries[0],
     countries[3],
   ]);

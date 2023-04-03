@@ -1,4 +1,4 @@
-import { BaseOptionType } from "../../../select/Select";
+import InputValue from "./InputValue";
 import Placement from "./Placement";
 
 interface ComboboxRootProps
@@ -6,8 +6,8 @@ interface ComboboxRootProps
     React.DetailedHTMLProps<React.HTMLAttributes<HTMLElement>, HTMLElement>,
     'children' | 'ref'
   > {
-  value?: BaseOptionType | BaseOptionType[] | null;
-  displayValue?: (value: BaseOptionType | BaseOptionType[]) => string;
+  value?: InputValue;
+  displayValue?: (value: InputValue) => string;
   label?: string;
   onChange(value: unknown): void;
   onQueryChange(value: string): void;

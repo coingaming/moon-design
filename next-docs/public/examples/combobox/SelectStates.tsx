@@ -1,11 +1,7 @@
 import React, { useState } from 'react';
-import { BaseOptionType, Combobox, MenuItem } from '@heathmont/moon-core-tw';
+import { Combobox, MenuItem } from '@heathmont/moon-core-tw';
 
-type People = {
-  name?: string;
-};
-
-const people: BaseOptionType[] = [
+const people = [
   { id: 1, label: 'Wade Cooper', value: 'Wade Cooper' },
   { id: 2, label: 'Arlene Mccoy', value: 'Arlene Mccoy' },
   { id: 3, label: 'Devon Webb', value: 'Devon Webb' },
@@ -15,10 +11,10 @@ const people: BaseOptionType[] = [
 ];
 
 const Example = () => {
-  const [selected0, setSelected0] = useState<BaseOptionType | undefined>(people[2]);
-  const [selected1, setSelected1] = useState<BaseOptionType | undefined>(people[0]);
-  const [selected2, setSelected2] = useState<BaseOptionType | undefined | null>(null);
-  const [selected3, setSelected3] = useState<BaseOptionType | undefined | null>(null);
+  const [selected0, setSelected0] = useState(people[2]);
+  const [selected1, setSelected1] = useState(people[0]);
+  const [selected2, setSelected2] = useState(null);
+  const [selected3, setSelected3] = useState(null);
 
   const [query0, setQuery0] = useState<string>('');
   const [query1, setQuery1] = useState<string>('');
@@ -79,7 +75,7 @@ const Example = () => {
               open={open}
               placeholder="Without Label and Hint message"
             >
-              {selected2?.label}
+              {selected2 ? selected2['label'] : selected2}
             </Combobox.Select>
             <Combobox.Options>
               {people.map((person, index) => (
@@ -104,7 +100,7 @@ const Example = () => {
               label="List options width"
               placeholder="Choose an option"
             >
-              {selected3?.label}
+              {selected3 ? selected3['label'] : selected3}
             </Combobox.Select>
 
             <Combobox.Options menuWidth="w-40">

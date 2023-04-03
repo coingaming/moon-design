@@ -1,7 +1,8 @@
 import React from "react";
+import InputValue from "./InputValue";
 
 type ComboboxState = {
-  value?: any;
+  value?: InputValue;
   isError?: boolean;
   disabled?: boolean;
   onClear?: () => void;
