@@ -63,7 +63,7 @@ export const ButtonClear = ({ children }: { children: ReactNode }) => {
   return <button
     tabIndex={-1}
     type="button"
-    className="cursor-pointer text-trunks test-sm transition absolute right-4 top-1/2 transform -translate-y-1/2"
+    className="cursor-pointer text-trunks text-moon-14 transition absolute right-4 top-1/2 transform -translate-y-1/2"
     onClick={() => {
       onChangeSearch('');
       const inputElement = document.getElementById('moon-search-input');
