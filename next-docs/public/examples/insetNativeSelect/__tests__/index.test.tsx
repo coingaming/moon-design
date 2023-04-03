@@ -25,7 +25,7 @@ describe('InsetNativeSelect', () => {
   });
 });
 
-describe('Input in RTL', () => {
+describe('InsetNativeSelect in RTL', () => {
   afterEach(cleanup);
   it('renders Default', () => {
     const tree = render(withRtl(<Default />));

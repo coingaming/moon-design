@@ -387,7 +387,7 @@ Object {
       >
         <a
           class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
-          href="/core/button"
+          href="/components/button"
         >
           <svg
             fill="none"
@@ -416,7 +416,7 @@ Object {
     >
       <a
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
-        href="/core/button"
+        href="/components/button"
       >
         <svg
           fill="none"
@@ -1638,7 +1638,7 @@ Object {
     <div>
       <a
         class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
-        href="/core/button"
+        href="/components/button"
       >
         <svg
           fill="none"
@@ -1663,7 +1663,7 @@ Object {
   "container": <div>
     <a
       class="h-10 p-2 gap-2 rounded-moon-i-sm relative z-0 flex justify-center items-center font-medium no-underline overflow-hidden whitespace-nowrap select-none transition duration-200 active:scale-90 btn-primary text-moon-24"
-      href="/core/button"
+      href="/components/button"
     >
       <svg
         fill="none"

@@ -73,7 +73,7 @@ const ForDevelopers = () => {
         >
           Contribution
         </Button>
-        <Link href="/core/accordion" passHref legacyBehavior>
+        <Link href="/components/accordion" passHref legacyBehavior>
           <Button as="a" variant="secondary">
             Components
           </Button>

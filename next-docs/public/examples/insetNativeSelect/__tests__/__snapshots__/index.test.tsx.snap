@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Input in RTL renders Bg 1`] = `
+exports[`InsetNativeSelect in RTL renders Bg 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -197,7 +197,7 @@ Object {
 }
 `;
 
-exports[`Input in RTL renders Default 1`] = `
+exports[`InsetNativeSelect in RTL renders Default 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
@@ -364,7 +364,7 @@ Object {
 }
 `;
 
-exports[`Input in RTL renders States 1`] = `
+exports[`InsetNativeSelect in RTL renders States 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>

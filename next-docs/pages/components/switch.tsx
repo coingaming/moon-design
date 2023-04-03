@@ -1,25 +1,48 @@
+import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import DeprecationWarning from '../../components/facing/DeprecationWarning';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Buttons from '../../public/styledExamples/switch/Buttons';
-import Default from '../../public/styledExamples/switch/Default';
-import Disabled from '../../public/styledExamples/switch/Disabled';
-import Rtl from '../../public/styledExamples/switch/Rtl';
-import Sizes from '../../public/styledExamples/switch/Sizes';
-import Theme from '../../public/styledExamples/switch/Theme';
+import DefaultCode from '../../public/examples/switch/codeExamples/DefaultCode';
+import CustomBg from '../../public/examples/switch/CustomBg';
+import Default from '../../public/examples/switch/Default';
+import Disabled from '../../public/examples/switch/Disabled';
+import Form from '../../public/examples/switch/Form';
+import Sizes from '../../public/examples/switch/Sizes';
+import WithIcons from '../../public/examples/switch/WithIcons';
 import useExamples from '../../utils/useExamples';
 
-type Props = {
-  isRtl?: boolean;
-};
-
-export default function PageSwitch({ isRtl }: Props) {
-  const examples = useExamples('switch', 'styled');
+const Example = () => {
+  const examples = useExamples('switch');
+  const examplesCode = useExamples('switch/codeExamples');
+  const { name, text, image } = getComponent('Switch');
   return (
     <>
-      <ComponentPageDescription title="Switch" isDeprecated>
-        <DeprecationWarning href="/core/switch" name="Switch" />
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+        isAriaSupport
+      >
+        <p>{text}</p>
+        <p>
+          Switches are only used for these binary actions that occur immediately
+          after the user “flips” the switch.
+        </p>
+        <p>They are commonly used for “on/off” switches.</p>
+        <p>
+          Based on{' '}
+          <a
+            href="https://headlessui.com/"
+            className="transition-colors underline hover:text-piccolo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Headless UI
+          </a>
+          .
+        </p>
       </ComponentPageDescription>
       <Preview
         title="Default"
@@ -32,72 +55,109 @@ export default function PageSwitch({ isRtl }: Props) {
         code={examples ? examples.Sizes : 'Loading'}
       />
       <Preview
-        title="Dark &amp; Light mode"
-        preview={<Theme />}
-        code={examples ? examples.Theme : 'Loading'}
-      />
-      <Preview
         title="Disabled"
         preview={<Disabled />}
         code={examples ? examples.Disabled : 'Loading'}
       />
       <Preview
-        title="Buttons"
-        preview={<Buttons />}
-        code={examples ? examples.Buttons : 'Loading'}
+        title="With icons"
+        preview={<WithIcons />}
+        code={examples ? examples.WithIcons : 'Loading'}
       />
       <Preview
-        title="Right to left"
-        preview={<Rtl />}
-        code={examples ? examples.Rtl : 'Loading'}
+        title="Custom background colour"
+        preview={<CustomBg />}
+        code={examples ? examples.CustomBg : 'Loading'}
+      />
+      <Preview
+        title="Using with HTML forms"
+        preview={<Form />}
+        code={examples ? examples.Form : 'Loading'}
+      />
+      <Preview
+        title="Code examples for full customization"
+        preview={<DefaultCode />}
+        code={examplesCode ? examplesCode.DefaultCode : 'Loading'}
       />
       <PropsTable
-        title="Props"
+        title="Switch props"
         data={[
-          {
-            name: 'id',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: `Unique element's identifier`,
-          },
           {
             name: 'checked',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: `Is switch checked/unchecked`,
+            description: `Is switch checked/unchecked.`,
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: '_',
+            description: 'Set disabled/not disabled switch',
+          },
+          {
+            name: 'name',
+            type: 'string',
+            required: false,
+            default: '-',
+            description:
+              'The name used when using this component inside a form.',
+          },
+          {
+            name: 'offBgColor',
+            type: 'string',
+            required: false,
+            default: 'bg-beerus',
+            description: 'Tailwind class for custom off-state background color',
+          },
+          {
+            name: 'offIcon',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Set icon for unchecked state',
+          },
+          {
+            name: 'onBgColor',
+            type: 'string',
+            required: false,
+            default: 'bg-piccolo',
+            description: 'Tailwind class for custom on-state background color',
           },
           {
             name: 'onChange',
-            type: 'React.ChangeEvent',
+            type: '(data) => void',
             required: false,
             default: '-',
-            description: `Event that happens when you click on the switch`,
+            description: `The function to call when the switch is toggled.`,
           },
           {
-            name: 'captionUnchecked',
+            name: 'onIcon',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '-',
+            description: 'Set icon for checked state',
+          },
+          {
+            name: 'size',
+            type: '2xs | xs | sm',
+            required: false,
+            default: 'sm',
+            description: `The option's value.`,
+          },
+          {
+            name: 'value',
             type: 'string',
             required: false,
             default: '-',
-            description: `Displayed text when unchecked`,
-          },
-          {
-            name: 'captionChecked',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: `Displayed text when checked`,
-          },
-          {
-            name: 'isRtl',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description: `-`,
+            description:
+              'The value used when using this component inside a form, if it is checked.',
           },
         ]}
       />
     </>
   );
-}
+};
+
+export default Example;

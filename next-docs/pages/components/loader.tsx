@@ -1,18 +1,20 @@
+import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import DeprecationWarning from '../../components/facing/DeprecationWarning';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Colours from '../../public/styledExamples/loader/Colours';
-import Default from '../../public/styledExamples/loader/Default';
-import Sizes from '../../public/styledExamples/loader/Sizes';
+import Colors from '../../public/examples/loader/Colors';
+import Default from '../../public/examples/loader/Default';
+import Sizes from '../../public/examples/loader/Sizes';
 import useExamples from '../../utils/useExamples';
 
-const PageLoader = () => {
-  const examples = useExamples('loader', 'styled');
+const Example = () => {
+  const examples = useExamples('loader');
+  const { name, text, image } = getComponent('Loader');
   return (
     <>
-      <ComponentPageDescription title="Loader" isDeprecated>
-        <DeprecationWarning href="/core/loader" name="Loader" />
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
       </ComponentPageDescription>
       <Preview
         title="Default"
@@ -20,31 +22,31 @@ const PageLoader = () => {
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Colours"
-        preview={<Colours />}
-        code={examples ? examples.Colours : 'Loading'}
-      />
-      <Preview
         title="Sizes"
         preview={<Sizes />}
         code={examples ? examples.Sizes : 'Loading'}
       />
+      <Preview
+        title="Colours"
+        preview={<Colors />}
+        code={examples ? examples.Colors : 'Loading'}
+      />
       <PropsTable
-        title="Props"
+        title="Loader props"
         data={[
           {
             name: 'color',
-            type: 'ColorProps',
+            type: 'string',
             required: false,
-            default: 'bulma',
-            description: 'Colour of Loader',
+            default: 'border-hit',
+            description: 'Colour of loader',
           },
           {
             name: 'size',
-            type: 'twoxsmall | xsmall | small | medium | large',
+            type: '2xs | xs | sm | md | lg',
             required: false,
-            default: 'medium',
-            description: 'Size of Loader',
+            default: 'md',
+            description: 'Size of loader',
           },
         ]}
       />
@@ -52,4 +54,4 @@ const PageLoader = () => {
   );
 };
 
-export default PageLoader;
+export default Example;
