@@ -1,35 +1,49 @@
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import DeprecationWarning from '../../components/facing/DeprecationWarning';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Active from '../../public/styledExamples/chip/Active';
-import Icons from '../../public/styledExamples/chip/Icons';
-import IconsWithStroke from '../../public/styledExamples/chip/IconsWithStroke';
-import Sizes from '../../public/styledExamples/chip/Sizes';
-import Stroke from '../../public/styledExamples/chip/Stroke';
+import Active from '../../public/examples/chip/Active';
+import Default from '../../public/examples/chip/Default';
+import Icons from '../../public/examples/chip/Icons';
+import IsStroke from '../../public/examples/chip/IsStroke';
+import IsStrokeIcons from '../../public/examples/chip/IsStrokeIcons';
+import OnClick from '../../public/examples/chip/OnClick';
+import Sizes from '../../public/examples/chip/Sizes';
+import Variants from '../../public/examples/chip/Variants';
 import useExamples from '../../utils/useExamples';
 
-const PageChip = () => {
-  const examples = useExamples('chip', 'styled');
+const Example = () => {
+  const examples = useExamples('chip');
+  const { name, text, image } = getComponent('Chip');
   return (
     <>
-      <ComponentPageDescription title="Chip" isDeprecated>
-        <DeprecationWarning href="/core/chip" name="Chip" />
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+      >
+        <p>{text}</p>
       </ComponentPageDescription>
+      <Preview
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
+      />
       <Preview
         title="Sizes"
         preview={<Sizes />}
         code={examples ? examples.Sizes : 'Loading'}
       />
       <Preview
-        title="Active State"
-        preview={<Active />}
-        code={examples ? examples.Active : 'Loading'}
+        title="Variants"
+        preview={<Variants />}
+        code={examples ? examples.Variants : 'Loading'}
       />
       <Preview
-        title="IsStroke"
-        preview={<Stroke />}
-        code={examples ? examples.Stroke : 'Loading'}
+        title="Active"
+        preview={<Active />}
+        code={examples ? examples.Active : 'Loading'}
       />
       <Preview
         title="Icons"
@@ -37,40 +51,50 @@ const PageChip = () => {
         code={examples ? examples.Icons : 'Loading'}
       />
       <Preview
-        title="Icons with isStroke"
-        preview={<IconsWithStroke />}
-        code={examples ? examples.IconsWithStroke : 'Loading'}
+        title="Is Stroke"
+        preview={<IsStroke />}
+        code={examples ? examples.IsStroke : 'Loading'}
+      />
+      <Preview
+        title="Is Stroke with Icons"
+        preview={<IsStrokeIcons />}
+        code={examples ? examples.IsStrokeIcons : 'Loading'}
+      />
+      <Preview
+        title="With onClick"
+        preview={<OnClick />}
+        code={examples ? examples.OnClick : 'Loading'}
       />
       <PropsTable
-        title="Props"
+        title="Chip props"
         data={[
           {
-            name: 'size',
-            type: 'small | medium',
+            name: 'children',
+            type: 'JSX.Element | string',
             required: false,
-            default: 'medium',
-            description: 'Size of Chip',
+            default: '-',
+            description: 'Children content',
           },
           {
             name: 'iconLeft',
-            type: 'React.ReactElement',
+            type: 'JSX.Element | boolean',
             required: false,
             default: '-',
-            description: 'Left icon element',
-          },
-          {
-            name: 'iconRight',
-            type: 'React.ReactElement',
-            required: false,
-            default: '-',
-            description: 'Right icon element',
+            description: 'Left icon',
           },
           {
             name: 'iconOnly',
-            type: 'React.ReactElement',
+            type: 'JSX.Element | boolean',
             required: false,
             default: '-',
-            description: 'Icon only element',
+            description: 'Icon without text',
+          },
+          {
+            name: 'iconRight',
+            type: 'JSX.Element | boolean',
+            required: false,
+            default: '-',
+            description: 'Right icon',
           },
           {
             name: 'isActive',
@@ -84,7 +108,21 @@ const PageChip = () => {
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Show stroke on hover/active',
+            description: 'Shows stroke on hover/active',
+          },
+          {
+            name: 'size',
+            type: 'sm | md',
+            required: false,
+            default: 'md',
+            description: 'Size of chip',
+          },
+          {
+            name: 'variant',
+            type: 'default | ghost',
+            required: false,
+            default: 'default',
+            description: 'Visual/Logical variant of chip',
           },
         ]}
       />
@@ -92,4 +130,4 @@ const PageChip = () => {
   );
 };
 
-export default PageChip;
+export default Example;

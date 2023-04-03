@@ -362,7 +362,7 @@ export default Example;
         For more information on <span className="font-medium">Moon DS</span>{' '}
         icons and icons preview, see:{' '}
         <Link
-          href="/core/icons"
+          href="/components/icons"
           className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
         >
           Moon Design System

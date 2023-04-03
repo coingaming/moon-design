@@ -1,106 +1,176 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/styledExamples/pagination/Default';
+import Default from '../../public/examples/pagination/Default';
+import WithButtons from '../../public/examples/pagination/WithButtons';
 import useExamples from '../../utils/useExamples';
 
-const PagePagination = () => {
-  const examples = useExamples('pagination', 'styled');
+const Example = () => {
+  const examples = useExamples('pagination');
+  const { name, text, image } = getComponent('Pagination');
+
   return (
     <>
-      <ComponentPageDescription title="Pagination">
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+      >
+        <p>{text}</p>
         <p>
-          Pagination component based on{' '}
-          <a
-            href="https://github.com/AdeleD/react-paginate#readme"
-            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
-            target="_blank"
-            rel="noreferrer"
-          >
-            react-paginate
-          </a>
-          .
+          Also the name for the interface component used for navigating between
+          these pages.
         </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>
+        {`<Pagination>
+  <Pagination.PrevButton>...</Pagination.PrevButton>
+  <Pagination.Pages />
+  <Pagination.NextButton>...</Pagination.NextButton>
+</Pagination>`}
+      </ComponentAnatomy>
       <Preview
-        title="Pagination"
+        title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
+      <Preview
+        title="With button"
+        preview={<WithButtons />}
+        code={examples ? examples.WithButtons : 'Loading'}
+      />
+
       <PropsTable
-        title="Props"
+        title="Pagination"
         data={[
           {
-            name: 'pageCount',
+            name: 'currentPage',
             type: 'number',
             required: true,
             default: '-',
-            description: 'The total number of pages.',
+            description: 'The value of current page',
           },
           {
-            name: 'pageRangeDisplayed',
+            name: 'setCurrentPage',
+            type: '(page: number) => void',
+            required: true,
+            default: '-',
+            description: 'Callback function once a page is updated.',
+          },
+          {
+            name: 'totalPages',
             type: 'number',
             required: true,
             default: '-',
-            description: 'The range of pages displayed.',
+            description: 'The number pages.',
           },
           {
-            name: 'marginPagesDisplayed',
-            type: 'number',
-            required: true,
-            default: '-',
-            description: 'The number of pages to display for margins.',
-          },
-          {
-            name: 'previousButtonLabel',
-            type: 'string, JSX.Element',
+            name: 'className',
+            type: 'string',
             required: false,
             default: '-',
-            description: 'Label for "previous" button',
+            description: 'Tailwind classes for custom styles.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Pagination.PrevButton"
+        data={[
+          {
+            name: 'as',
+            type: 'string',
+            required: false,
+            default: 'button',
+            description: 'Rendered HTML element.',
           },
           {
-            name: 'nextButtonLabel',
-            type: 'string, JSX.Element',
+            name: 'className',
+            type: 'string',
             required: false,
             default: '-',
-            description: 'Label for "next" button',
+            description: 'Tailwind classes for custom styles.',
           },
           {
-            name: 'onChange',
-            type: 'function',
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
             required: false,
             default: '-',
             description:
-              'The method to call when a page is clicked. Exposes the current page object as an argument.',
+              'Disabled state for the prev button when were reached the first page.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Pagination.NextButton"
+        data={[
+          {
+            name: 'as',
+            type: 'string',
+            required: false,
+            default: 'button',
+            description: 'Rendered HTML element.',
           },
           {
-            name: 'pageNumber',
-            type: 'number',
+            name: 'className',
+            type: 'string',
             required: false,
             default: '-',
-            description: 'To override selected page with parent prop.',
+            description: 'Tailwind classes for custom styles.',
           },
           {
-            name: 'pageSizeSection',
-            type: 'JSX.Element',
-            required: false,
-            default: '-',
-            description: 'Placeholder for "page size" component.',
+            name: 'Render Props: ',
+            type: '',
+            required: undefined,
+            default: '',
+            description: '',
           },
           {
-            name: 'goToPageSection',
-            type: 'JSX.Element',
+            name: 'disabled',
+            type: 'boolean',
             required: false,
             default: '-',
-            description: 'Placeholder for "go to page" component',
+            description:
+              'Disabled state for the next button when were reached the last page.',
+          },
+        ]}
+      />
+
+      <PropsTable
+        title="Pagination.Pages"
+        data={[
+          {
+            name: 'as',
+            type: 'string',
+            required: false,
+            default: 'a',
+            description: 'Rendered HTML element.',
           },
           {
-            name: 'changePageSizeSection',
-            type: 'JSX.Element',
+            name: 'truncableText',
+            type: 'JSX.Element | string',
+            required: false,
+            default: '...',
+            description: 'Text to render if a one or more pages are truncated.',
+          },
+          {
+            name: 'className',
+            type: 'string',
             required: false,
             default: '-',
-            description: 'Placeholder for "change page size" component',
+            description: 'Tailwind classes for custom styles.',
           },
         ]}
       />
@@ -108,4 +178,4 @@ const PagePagination = () => {
   );
 };
 
-export default PagePagination;
+export default Example;

@@ -1,90 +1,103 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import DeprecationWarning from '../../components/facing/DeprecationWarning';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Content from '../../public/styledExamples/tooltip/Content';
-import Default from '../../public/styledExamples/tooltip/Default';
-import Positions from '../../public/styledExamples/tooltip/Positions';
+import ArrowPositions from '../../public/examples/tooltip/ArrowPositions';
+import Customization from '../../public/examples/tooltip/Customization';
+import Default from '../../public/examples/tooltip/Default';
 import useExamples from '../../utils/useExamples';
 
-export default function PageTooltip() {
-  const examples = useExamples('tooltip', 'styled');
+const Example = () => {
+  const examples = useExamples('tooltip');
+  const { name, text, image } = getComponent('Tooltip');
   return (
     <>
-      <ComponentPageDescription title="Tooltip" isDeprecated>
-        <DeprecationWarning href="/core/tooltip" name="Tooltip" />
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
+        <p>
+          Based on{' '}
+          <a
+            href="https://www.radix-ui.com/"
+            className="transition-colors underline hover:text-piccolo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Radix
+          </a>
+          .
+        </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>
+        {`<Tooltip>
+  <Tooltip.Trigger>...</Tooltip.Trigger>
+  <Tooltip.Content>
+    ...
+    <Tooltip.Arrow />
+  </Tooltip.Content>
+</Tooltip>`}
+      </ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Custom content"
-        preview={<Content />}
-        code={examples ? examples.Content : 'Loading'}
+        title="Arrow positions"
+        preview={<ArrowPositions />}
+        code={examples ? examples.ArrowPositions : 'Loading'}
       />
       <Preview
-        title="Positions"
-        preview={<Positions />}
-        code={examples ? examples.Positions : 'Loading'}
+        title="Customization"
+        preview={<Customization />}
+        code={examples ? examples.Customization : 'Loading'}
       />
       <PropsTable
-        title="Props for Tooltip component"
+        title="Tooltip.Trigger props"
         data={[
           {
-            name: 'children',
-            type: 'React.ReactElement',
-            required: true,
-            default: '-',
-            description: 'Component or element which Tooltip wraps around',
-          },
-          {
-            name: 'text',
+            name: 'className',
             type: 'string',
             required: false,
             default: '-',
-            description: 'Textual content for Tooltip',
+            description: 'Tailwind classes for customization',
           },
+        ]}
+      />
+      <PropsTable
+        title="Tooltip.Content props"
+        data={[
           {
-            name: 'icon',
-            type: 'React.ReactElement',
+            name: 'className',
+            type: 'string',
             required: false,
             default: '-',
-            description: 'Icon shown in the Tooltip',
-          },
-          {
-            name: 'content',
-            type: 'React.ReactElement',
-            required: false,
-            default: '-',
-            description: 'Custom component shown in the Tooltip',
+            description: 'Tailwind classes for customization',
           },
           {
             name: 'position',
-            type: "'top' | 'bottom' | 'left' | 'right'",
+            type: 'top-start | top-center | top-end | bottom-start | bottom-center | bottom-end | right | left',
             required: false,
-            default: 'top',
-            description: 'Where Tooltip will be shown',
+            default: 'top-center',
+            description: 'Position of Tooltip',
           },
+        ]}
+      />
+      <PropsTable
+        title="Tooltip.Arrow props"
+        data={[
           {
-            name: 'show',
-            type: 'boolean',
+            name: 'className',
+            type: 'string',
             required: false,
-            default: 'false',
-            description: 'Should Tooltip be shown persistently',
-          },
-          {
-            name: 'fixed',
-            type: 'boolean',
-            required: false,
-            default: 'true',
-            description:
-              'Should Tooltip be rendered relative to parent or body element',
+            default: '-',
+            description: 'Tailwind classes for customization',
           },
         ]}
       />
     </>
   );
-}
+};
+
+export default Example;

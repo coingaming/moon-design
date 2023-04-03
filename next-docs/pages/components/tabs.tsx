@@ -1,125 +1,223 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
+import ComponentAnatomy from '../../components/ComponentAnatomy';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import DeprecationWarning from '../../components/facing/DeprecationWarning';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Default from '../../public/styledExamples/tabs/Default';
-import HorizontalVariants from '../../public/styledExamples/tabs/HorizontalVariants';
-import Small from '../../public/styledExamples/tabs/Small';
-import Variant from '../../public/styledExamples/tabs/Variant';
-import VerticalVariants from '../../public/styledExamples/tabs/VerticalVariants';
+import Default from '../../public/examples/tabs/Default';
+import DefaultPills from '../../public/examples/tabs/DefaultPills';
+import NoPanels from '../../public/examples/tabs/NoPanels';
+import Segment from '../../public/examples/tabs/Segment';
+import Sizes from '../../public/examples/tabs/Sizes';
+import WithCustomStyles from '../../public/examples/tabs/WithCustomStyles';
+import WithHandler from '../../public/examples/tabs/WithHandler';
 import useExamples from '../../utils/useExamples';
 
-const PageTabsNew = () => {
-  const examples = useExamples('tabs', 'styled');
+const Example = () => {
+  const examples = useExamples('tabs');
+  const { name, text, image } = getComponent('Tabs');
   return (
     <>
-      <ComponentPageDescription title="Tabs" isDeprecated>
-        <DeprecationWarning href="/core/tabs" name="Tabs" />
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+        isAriaSupport
+      >
+        <p>{text}</p>
+        <p>
+          Each tab should contain content that is distinct from other tabs in a
+          set for example, tabs can present different sections of news,
+          different genres of music, or different themes of documents.
+        </p>
+        <p>
+          Based on{' '}
+          <a
+            href="https://headlessui.com/"
+            className="transition-colors underline hover:text-piccolo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Headless UI
+          </a>
+          .
+        </p>
       </ComponentPageDescription>
+      <ComponentAnatomy>
+        {`<Tabs>
+  <Tabs.List>
+    <Tabs.Tab>...</Tabs.Tab>
+  </Tabs.List>
+  <Tabs.Panels>
+    <Tabs.Panel>...</Tabs.Panel>
+  </Tabs.Panels>
+</Tabs>`}
+      </ComponentAnatomy>
       <Preview
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
       />
+      <ComponentAnatomy>
+        {`<Tabs>
+  <Tabs.List>
+    <Tabs.Pill>...</Tabs.Pill>
+  </Tabs.List>
+  <Tabs.Panels>
+    <Tabs.Panel>...</Tabs.Panel>
+  </Tabs.Panels>
+</Tabs>`}
+      </ComponentAnatomy>
       <Preview
-        title="Horizontal variants"
-        preview={<HorizontalVariants />}
-        code={examples ? examples.HorizontalVariants : 'Loading'}
+        title="Default"
+        preview={<DefaultPills />}
+        code={examples ? examples.DefaultPills : 'Loading'}
       />
       <Preview
-        title="Vertical variants"
-        preview={<VerticalVariants />}
-        code={examples ? examples.VerticalVariants : 'Loading'}
+        title="Tabs only view"
+        preview={<NoPanels />}
+        code={examples ? examples.NoPanels : 'Loading'}
       />
       <Preview
-        title="Size: 'small'"
-        preview={<Small />}
-        code={examples ? examples.Small : 'Loading'}
+        title="Segment control view"
+        preview={<Segment />}
+        code={examples ? examples.Segment : 'Loading'}
+        className="bg-gohan border border-beerus"
       />
       <Preview
-        title="Tabs with additional elements"
-        preview={<Variant />}
-        code={examples ? examples.Variant : 'Loading'}
+        title="Sizes"
+        preview={<Sizes />}
+        code={examples ? examples.Sizes : 'Loading'}
+      />
+      <Preview
+        title="WithHandler"
+        preview={<WithHandler />}
+        code={examples ? examples.WithHandler : 'Loading'}
+      />
+      <Preview
+        title="With custom styles"
+        description="There are two ways to add a custom style for the `selected` state: 1) with help of the render prop `selected` or 2) with help of the tailwind prefix `moon-selected: `."
+        preview={<WithCustomStyles />}
+        code={examples ? examples.WithCustomStyles : 'Loading'}
       />
       <PropsTable
-        title="Props for Tabs component"
+        title="Tabs"
         data={[
           {
-            name: 'items',
-            type: 'React.ReactElement[]',
-            required: true,
+            name: 'onChange',
+            type: '(index: number) => void;',
+            required: false,
+            default: '-',
+            description: 'A function called whenever the active tab changes.',
+          },
+          {
+            name: 'selectedIndex',
+            type: 'number',
+            required: false,
             default: '-',
             description:
-              'TabLink/TabLinkFill or any other component provide the tab interaction',
-          },
-          {
-            name: 'size',
-            type: 'small | medium',
-            required: false,
-            default: 'medium',
-            description: 'Small/medium size for tab items',
-          },
-          {
-            name: 'dir',
-            type: 'ltr | rtl | auto',
-            required: false,
-            default: 'auto',
-            description: 'Support right to left languages',
-          },
-          {
-            name: 'isTop',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description: 'Underline top view. Only for TabLink',
-          },
-          {
-            name: 'isContainer',
-            type: 'boolean',
-            required: false,
-            default: 'false',
-            description: 'Segment control view. Only for TabLinkFill',
+              'The selected index if you want to use the Tabs component as a controlled component.',
           },
         ]}
       />
       <PropsTable
-        title="Props for TabsLink/TabsLinkFill components"
+        title="Tabs.List"
         data={[
           {
-            name: 'elementLeft',
-            type: 'React.ReactElement',
-            required: false,
-            default: '-',
-            description: 'Left icon element',
-          },
-          {
-            name: 'count',
+            name: 'className',
             type: 'string',
             required: false,
             default: '-',
-            description: 'Rigth text element',
+            description: 'Tailwind classes for styling',
           },
           {
-            name: 'href',
+            name: 'size',
+            type: 'sm | md',
+            required: false,
+            default: 'md',
+            description: 'Size of tabs',
+          },
+        ]}
+      />
+      <PropsTable
+        title="Tabs.Segment"
+        data={[
+          {
+            name: 'className',
             type: 'string',
             required: false,
             default: '-',
-            description: `The href attribute specifies the link's destination`,
+            description: 'Tailwind classes for styling',
           },
           {
-            name: 'isActive',
+            name: 'size',
+            type: 'sm | md',
+            required: false,
+            default: 'md',
+            description: 'Size of tabs',
+          },
+        ]}
+      />
+      <PropsTable
+        title="Tabs.Tab"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for styling',
+          },
+          {
+            name: 'disabled',
             type: 'boolean',
             required: false,
             default: '-',
-            description: `Set item as active by default`,
+            description: 'Whether or not the Tab is currently disabled.',
           },
+        ]}
+      />
+      <PropsTable
+        title="Tabs.Pill"
+        data={[
           {
-            name: 'onClick',
-            type: 'function',
+            name: 'className',
+            type: 'string',
             required: false,
             default: '-',
-            description: `Handler on click action`,
+            description: 'Tailwind classes for styling',
+          },
+          {
+            name: 'disabled',
+            type: 'boolean',
+            required: false,
+            default: '-',
+            description: 'Whether or not the Tab is currently disabled.',
+          },
+        ]}
+      />
+      <PropsTable
+        title="Tabs.Panels"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for styling',
+          },
+        ]}
+      />
+      <PropsTable
+        title="Tabs.Panel"
+        data={[
+          {
+            name: 'className',
+            type: 'string',
+            required: false,
+            default: '-',
+            description: 'Tailwind classes for styling',
           },
         ]}
       />
@@ -127,4 +225,4 @@ const PageTabsNew = () => {
   );
 };
 
-export default PageTabsNew;
+export default Example;

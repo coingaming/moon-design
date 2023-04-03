@@ -1,32 +1,68 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import DeprecationWarning from '../../components/facing/DeprecationWarning';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Calendar from '../../public/styledExamples/table/Calendar';
-import ClickableRows from '../../public/styledExamples/table/ClickableRows';
-import CustomColors from '../../public/styledExamples/table/CustomColors';
-import CustomContent from '../../public/styledExamples/table/CustomContent';
-import DeepTable from '../../public/styledExamples/table/DeepTable';
-import Default from '../../public/styledExamples/table/Default';
-import ExpandedRow from '../../public/styledExamples/table/ExpandedRow';
-import MiniMap from '../../public/styledExamples/table/MiniMap';
-import SelectableCheckboxes from '../../public/styledExamples/table/SelectableCheckboxes';
-import SelectableRows from '../../public/styledExamples/table/SelectableRows';
-import Sorting from '../../public/styledExamples/table/Sorting';
+import Calendar from '../../public/examples/table/Calendar';
+import CellBorder from '../../public/examples/table/CellBorder';
+import ClickableRows from '../../public/examples/table/ClickableRows';
+import CustomColors from '../../public/examples/table/CustomColors';
+import CustomContent from '../../public/examples/table/CustomContent';
+import DeepTable from '../../public/examples/table/DeepTable';
+import Default from '../../public/examples/table/Default';
+import ExpandedRow from '../../public/examples/table/ExpandedRow';
+import MiniMap from '../../public/examples/table/MiniMap';
+import RowGaps from '../../public/examples/table/RowGaps';
+import RowSizes from '../../public/examples/table/RowSizes';
+import SelectableCheckboxes from '../../public/examples/table/SelectableCheckboxes';
+import SelectableRows from '../../public/examples/table/SelectableRows';
+import Sorting from '../../public/examples/table/Sorting';
 import useExamples from '../../utils/useExamples';
 
-export default function PageTable() {
-  const examples = useExamples('table', 'styled');
+const Example = () => {
+  const examples = useExamples('table');
+  const { name, text, image } = getComponent('Table');
   return (
     <>
-      <ComponentPageDescription title="Table" isDeprecated>
-        <DeprecationWarning href="/core/table" name="Table" />
+      <ComponentPageDescription
+        title={name}
+        image={image}
+        isInProgress
+        isRtlSupport
+      >
+        <p>{text}</p>
+        <p>
+          Based on{' '}
+          <a
+            href="https://github.com/tannerlinsley/react-table"
+            className="transition-colors underline hover:text-piccolo"
+            target="_blank"
+            rel="noreferrer"
+          >
+            react-table
+          </a>
+          .
+        </p>
       </ComponentPageDescription>
       <Preview
         title="Default"
         preview={<Default />}
         code={examples ? examples.Default : 'Loading'}
+      />
+      <Preview
+        title="With cell borders"
+        preview={<CellBorder />}
+        code={examples ? examples.CellBorder : 'Loading'}
+      />
+      <Preview
+        title="Different row gaps"
+        preview={<RowGaps />}
+        code={examples ? examples.RowGaps : 'Loading'}
+      />
+      <Preview
+        title="Different row sizes"
+        preview={<RowSizes />}
+        code={examples ? examples.RowSizes : 'Loading'}
       />
       <Preview
         title="Clickable rows"
@@ -41,7 +77,7 @@ export default function PageTable() {
       <Preview
         title="Selectable checkboxes"
         preview={<SelectableCheckboxes />}
-        code={examples ? examples.Default : 'Loading'}
+        code={examples ? examples.SelectableCheckboxes : 'Loading'}
       />
       <Preview
         title="Custom colors"
@@ -49,7 +85,7 @@ export default function PageTable() {
         code={examples ? examples.CustomColors : 'Loading'}
       />
       <Preview
-        title="Expanded Rows "
+        title="Expanded Rows"
         preview={<ExpandedRow />}
         code={examples ? examples.ExpandedRow : 'Loading'}
       />
@@ -79,14 +115,21 @@ export default function PageTable() {
         code={examples ? examples.Calendar : 'Loading'}
       />
       <PropsTable
-        title="Props"
+        title="Table props"
         data={[
           {
-            name: 'width',
-            type: 'string | number',
+            name: 'getOnRowClickHandler',
+            type: '(row) => (row) => void | () => void',
             required: false,
             default: '-',
-            description: 'Width of the table',
+            description: 'Callback on clicked row',
+          },
+          {
+            name: 'getOnRowSelect',
+            type: '(rows) => void | () => void',
+            required: false,
+            default: '-',
+            description: 'Callback on selected row',
           },
           {
             name: 'height',
@@ -96,11 +139,11 @@ export default function PageTable() {
             description: 'Height of the table',
           },
           {
-            name: 'maxWidth',
-            type: 'string | number',
+            name: 'isCellBorder',
+            type: 'boolean',
             required: false,
-            default: '-',
-            description: 'Max width of the table',
+            default: 'false',
+            description: 'Divider between cells',
           },
           {
             name: 'maxHeight',
@@ -110,11 +153,25 @@ export default function PageTable() {
             description: 'Max height of the table',
           },
           {
-            name: 'withFooter',
-            type: 'boolean',
+            name: 'maxWidth',
+            type: 'string | number',
             required: false,
             default: '-',
-            description: 'Display table footer',
+            description: 'Max width of the table',
+          },
+          {
+            name: 'rowGap',
+            type: 'gap-0 | gap-1 | gap-2 | gap-3 | gap-4',
+            required: false,
+            default: 'gap-1',
+            description: 'Gap between table body rows. TW class',
+          },
+          {
+            name: 'rowSize',
+            type: '2xs | xs | sm | md | lg | xl | 2xl',
+            required: false,
+            default: 'md',
+            description: 'Size of table rows',
           },
           {
             name: 'selectable',
@@ -124,21 +181,23 @@ export default function PageTable() {
             description: 'Allow rows to be selected',
           },
           {
-            name: 'getOnRowSelect',
-            type: 'function',
+            name: 'width',
+            type: 'string | number',
             required: false,
             default: '-',
-            description: 'Callback on selected row',
+            description: 'Width of the table',
           },
           {
-            name: 'getOnRowClickHandler',
-            type: 'function',
+            name: 'withFooter',
+            type: 'boolean',
             required: false,
             default: '-',
-            description: 'Callback on clicked row',
+            description: 'Display table footer',
           },
         ]}
       />
     </>
   );
-}
+};
+
+export default Example;

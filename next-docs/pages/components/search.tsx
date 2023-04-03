@@ -1,139 +1,117 @@
 import React from 'react';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
-import DeprecationWarning from '../../components/facing/DeprecationWarning';
+import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import OmitResults from '../../public/styledExamples/search/OmitResults';
-import PreviewSearch from '../../public/styledExamples/search/PreviewSearch';
-import PreviewSearchLoading from '../../public/styledExamples/search/PreviewSearchLoading';
+import Default from '../../public/examples/search/Default';
+import Modal from '../../public/examples/search/Modal';
 import useExamples from '../../utils/useExamples';
 
-export default function PageSearch() {
-  const examples = useExamples('search', 'styled');
+const Example = () => {
+  const examples = useExamples('search');
+  const { name, text, image } = getComponent('Search');
   return (
     <>
-      <ComponentPageDescription title="Search" isDeprecated>
-        <DeprecationWarning href="/core/search" name="Search" />
+      <ComponentPageDescription title={name} image={image} isInProgress>
+        <p>{text}</p>
       </ComponentPageDescription>
       <Preview
-        title="Search component default values"
-        preview={<PreviewSearch />}
-        code={examples ? examples.PreviewSearch : 'Loading'}
+        title="Default"
+        preview={<Default />}
+        code={examples ? examples.Default : 'Loading'}
       />
       <Preview
-        title="Search loading"
-        preview={<PreviewSearchLoading />}
-        code={examples ? examples.PreviewSearchLoading : 'Loading'}
+        title="Search Modal"
+        preview={<Modal />}
+        code={examples ? examples.Default : 'Loading'}
       />
-      <Preview
-        title="Without results"
-        preview={<OmitResults />}
-        code={examples ? examples.OmitResults : 'Loading'}
-      />
+
       <PropsTable
-        title="Props"
+        title="Search props"
         data={[
           {
-            name: 'placeholder',
-            type: 'string',
-            required: false,
+            name: 'onChangeSearch',
+            type: '(value: string) => void',
+            required: true,
             default: '-',
-            description: 'Search input placeholder',
+            description: 'Function for setting search value',
+          },
+          {
+            name: 'onChangeOpen',
+            type: '(value: boolean) => void',
+            required: true,
+            default: '_',
+            description: 'Function for setting open state',
+          },
+          {
+            name: 'children',
+            type: 'React.ReactNode',
+            required: true,
+            default: '_',
+            description: 'Children of command palette',
           },
           {
             name: 'isOpen',
             type: 'boolean',
-            required: false,
-            default: 'false',
-            description: 'Open/close search',
+            required: true,
+            default: '_',
+            description: 'Open state',
           },
           {
-            name: 'onSubmit',
-            type: 'React.ReactFormEvent',
-            required: false,
-            default: '-',
-            description: 'Event that happens on submit',
+            name: 'search',
+            type: 'string',
+            required: true,
+            default: '_',
+            description: 'Search state',
           },
           {
-            name: 'size',
-            type: 'SearchInputSize',
+            name: 'placeholder',
+            type: 'string',
             required: false,
-            default: '-',
-            description: 'Search input size',
+            default: '"Search"',
+            description: 'Search field placeholder',
+          },
+
+          {
+            name: 'page',
+            type: 'string',
+            required: false,
+            default: '_',
+            description: 'The current page id',
           },
           {
-            name: 'onChange',
-            type: 'React.ChangeEvent',
-            required: false,
-            default: '-',
-            description: 'Event that happens when user types something',
-          },
-          {
-            name: 'closeButton',
-            type: 'JSX.element',
-            required: false,
-            default: '-',
-            description: 'Specify close button',
-          },
-          {
-            name: 'hasBorder',
+            name: 'autoFocus',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Display border around search input',
-          },
-          {
-            name: 'onBlur',
-            type: 'React.FocusEvent',
-            required: false,
-            default: '-',
             description:
-              'Event that happens when user clicks outside of search input',
+              'Specifies that an search should automatically get focus when the page loads',
           },
           {
-            name: 'onClear',
-            type: 'React.MouseEvent',
+            name: 'renderLink',
+            type: 'RenderLink',
             required: false,
-            default: '-',
-            description: 'Event that happens when user clears search input',
+            default: '_',
+            description: 'Function for customizing rendering of links',
           },
           {
-            name: 'onFocus',
-            type: 'React.FocusEvent',
+            name: 'selected',
+            type: 'number',
             required: false,
-            default: '-',
-            description: 'Event that happens when user clicks on search input',
+            default: '_',
+            description: 'The current selected item index',
           },
           {
-            name: 'onKeyDown',
-            type: 'React.KeyboardEvent',
+            name: 'onChangeSelected',
+            type: '(value: number) => void',
             required: false,
-            default: '-',
-            description: 'Event that happens when user presses the key',
-          },
-          {
-            name: 'onKeyUp',
-            type: 'React.KeyboardEvent',
-            required: false,
-            default: '-',
-            description: 'Event that happens when user releases the key',
-          },
-          {
-            name: 'query',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: '-',
-          },
-          {
-            name: 'results',
-            type: 'JSX.Elements',
-            required: false,
-            default: '-',
-            description: 'Results from search query',
+            default: '_',
+            description: 'Function for setting selected item index',
           },
         ]}
       />
     </>
   );
-}
+};
+
+export default Example;
