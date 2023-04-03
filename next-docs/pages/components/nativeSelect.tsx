@@ -1,25 +1,34 @@
 import React from 'react';
+import Link from 'next/link';
 import Preview from '../../components/codePreview/Preview';
 import ComponentPageDescription from '../../components/ComponentPageDescription';
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
-import Bg from '../../public/examples/input/Bg';
-import Default from '../../public/examples/input/Default';
-import Sizes from '../../public/examples/input/Sizes';
-import States from '../../public/examples/input/States';
-import Types from '../../public/examples/input/Types';
+import Bg from '../../public/examples/nativeSelect/Bg';
+import Default from '../../public/examples/nativeSelect/Default';
+import Sizes from '../../public/examples/nativeSelect/Sizes';
+import States from '../../public/examples/nativeSelect/States';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
-  const examples = useExamples('input');
-  const { name, text, image } = getComponent('Input');
+  const examples = useExamples('nativeSelect');
+  const { name, text, image } = getComponent('NativeSelect');
   return (
     <>
       <ComponentPageDescription title={name} image={image} isInProgress>
         <p>{text}</p>
         <p>
-          These types of input fields are used on their own, or in combination
-          with other inputs such as number entry, date picker, etc.
+          When collapsed it shows the currently selected option and when
+          expanded, it shows a scrollable list of predefined options for the
+          user to choose from. Moon.io supports two types of selects, one whichs
+          opens browser(s) native styling option list and{' '}
+          <Link
+            href="/components/dropdown"
+            className="text-piccolo font-medium transition-colors duration-200 hover:text-hit visited:text-hit"
+          >
+            “Custom Dropdown”
+          </Link>
+          .
         </p>
       </ComponentPageDescription>
       <Preview
@@ -42,11 +51,7 @@ const Example = () => {
         preview={<Bg />}
         code={examples ? examples.Bg : 'Loading'}
       />
-      <Preview
-        title="TextInput types"
-        preview={<Types />}
-        code={examples ? examples.Types : 'Loading'}
-      />
+
       <PropsTable
         title="Input props"
         data={[
@@ -55,28 +60,14 @@ const Example = () => {
             type: 'sm | md | lg',
             required: false,
             default: 'md',
-            description: 'Input size',
-          },
-          {
-            name: 'type',
-            type: 'date | datetime-local | email | number | password | search | tel | text | time | url | string',
-            required: false,
-            default: 'text',
-            description: 'Input type',
-          },
-          {
-            name: 'placeholder',
-            type: 'string',
-            required: false,
-            default: '-',
-            description: 'Placeholder for input',
+            description: 'Select size',
           },
           {
             name: 'error',
             type: 'boolean',
             required: false,
             default: 'false',
-            description: 'Sets error state for input',
+            description: 'Sets error state for select',
           },
           {
             name: 'disabled',
@@ -84,13 +75,6 @@ const Example = () => {
             required: false,
             default: 'false',
             description: 'Set disabled/non-disabled',
-          },
-          {
-            name: 'dir',
-            type: 'ltr | rtl | auto',
-            required: false,
-            default: '-',
-            description: 'RTL/LTR direction of label',
           },
           {
             name: 'className',

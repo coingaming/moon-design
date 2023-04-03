@@ -1,5 +1,10 @@
-import { createContext, Dispatch, SetStateAction } from "react";
-import { RenderLink } from "../types";
+import {
+  createContext,
+  Dispatch,
+  MutableRefObject,
+  RefObject,
+  SetStateAction,
+} from 'react';
 
 export const SelectContext = createContext<{ selected: number }>({
   selected: 0,
@@ -14,14 +19,16 @@ export const PageContext = createContext<{
   page: undefined,
 });
 
-export const SearchContext = createContext<{ search: string }>({
-  search: "",
-});
-
-export const RenderLinkContext = createContext<{
-  renderLink?: RenderLink;
+export const SearchContext = createContext<{
+  search: string;
+  onChangeSearch: (search: string) => void;
+  onChangeOpen: (isOpen: boolean) => void;
+  inputRef: RefObject<MutableRefObject<HTMLInputElement>> | null;
 }>({
-  renderLink: undefined,
+  search: '',
+  onChangeOpen: () => {},
+  onChangeSearch: () => {},
+  inputRef: null,
 });
 
 export const OpenContext = createContext<{

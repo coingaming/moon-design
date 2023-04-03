@@ -7,7 +7,7 @@ interface FreeSearchActionProps extends Omit<ButtonProps & LinkProps, 'index'> {
   label?: string | React.ReactNode;
 }
 
-export default function FreeSearchAction({
+export default function NoResults({
   label = 'Search for',
   ...props
 }: FreeSearchActionProps) {
