@@ -19,21 +19,12 @@ const languages = [
 ];
 
 const countries = [
-  { id: 1, label: 'English', value: 'en', flag: '🇬🇧' },
-  { id: 2, label: 'Japanese', value: 'ja', flag: '🇯🇵' },
-  { id: 3, label: 'Ukrainian', value: 'ua', flag: '🇺🇦' },
-  { id: 4, label: 'Portuguese', value: 'pt', flag: '🇧🇷' },
-  { id: 5, label: 'Chinese', value: 'zh', flag: '🇨🇳' },
-  { id: 6, label: 'Spanish', value: 'es', flag: '🇪🇸' },
-  { id: 7, label: 'Korean', value: 'ko', flag: '🇰🇷' },
-  { id: 8, label: 'Thai', value: 'th', flag: '🇹🇭' },
-  { id: 9, label: 'German', value: 'de', flag: '🇩🇪' },
-  { id: 10, label: 'Turkish', value: 'tr', flag: '🇹🇷' },
-  { id: 11, label: 'Estonian', value: 'et', flag: '🇪🇪' },
-  { id: 12, label: 'Swedish', value: 'sv', flag: '🇸🇪' },
-  { id: 13, label: 'French', value: 'fr', flag: '🇫🇷' },
-  { id: 14, label: 'Finnish', value: 'fi', flag: '🇫🇮' },
-  { id: 15, label: 'Vietnamese', value: 'vi', flag: '🇻🇳' },
+  { id: 1, label: 'Australia', value: 'au', flag: '🇦🇺' },
+  { id: 2, label: 'Canada', value: 'ca', flag: '🇨🇦' },
+  { id: 3, label: 'China', value: 'cn', flag: '🇨🇳' },
+  { id: 4, label: 'Germany', value: 'de', flag: '🇩🇪' },
+  { id: 5, label: 'Hungary', value: 'hu', flag: '🇭🇺' },
+  { id: 6, label: 'Japan', value: 'jp', flag: '🇯🇵' },
 ];
 
 const Example = () => {
@@ -42,7 +33,6 @@ const Example = () => {
   const [selectedCountry, setSelectedCountry] = useState<BaseOptionType[] | undefined>([
     countries[0],
     countries[3],
-    countries[5],
   ]);
 
   const [query0, setQuery0] = useState<string>('');
