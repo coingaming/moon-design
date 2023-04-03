@@ -2,15 +2,12 @@ import React, {
   AnchorHTMLAttributes,
   ButtonHTMLAttributes,
   DetailedHTMLProps,
-  Fragment,
   ReactNode,
   useContext,
 } from 'react';
 import mergeClassnames from '../../../mergeClassnames/mergeClassnames';
-import { RenderLink } from '../types';
 import {
   OpenContext,
-  RenderLinkContext,
   SelectContext,
 } from '../utils/context';
 
@@ -31,12 +28,10 @@ export type LinkProps = ListItemBaseProps &
     AnchorHTMLAttributes<HTMLAnchorElement>,
     HTMLAnchorElement
   > & {
-    renderLink?: RenderLink;
     children?: ReactNode | ((selected: boolean) => ReactNode);
   };
 
 export function Link({
-  renderLink: localRenderLink,
   closeOnSelect = true,
   disabled = false,
   showType = true,
@@ -46,11 +41,8 @@ export function Link({
   index,
   ...rest
 }: LinkProps) {
-  const { renderLink: globalRenderLink } = useContext(RenderLinkContext);
   const { onChangeOpen } = useContext(OpenContext);
   const { selected } = useContext(SelectContext);
-
-  const renderLink = localRenderLink || globalRenderLink;
 
   function renderLinkContent() {
     return (
@@ -61,8 +53,6 @@ export function Link({
       </div>
     );
   }
-
-  const styles = mergeClassnames(commonClasses, className);
 
   function clickAndClose(e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
     if (rest.href && !disabled) {
@@ -76,28 +66,15 @@ export function Link({
     }
   }
 
-  return renderLink ? (
-    <Fragment>
-      {renderLink({
-        ...rest,
-        'data-close-on-select': closeOnSelect,
-        children: renderLinkContent(),
-        'aria-disabled': disabled,
-        onClick: clickAndClose,
-        className: styles,
-      })}
-    </Fragment>
-  ) : (
-    <a
-      {...rest}
-      data-close-on-select={closeOnSelect}
-      aria-disabled={disabled}
-      onClick={clickAndClose}
-      className={styles}
-    >
-      {renderLinkContent()}
-    </a>
-  );
+  return <a
+    data-close-on-select={closeOnSelect}
+    aria-disabled={disabled}
+    onClick={clickAndClose}
+    className={mergeClassnames(commonClasses, className)}
+    {...rest}
+  >
+    {renderLinkContent()}
+  </a>
 }
 
 export type ButtonProps = ListItemBaseProps &

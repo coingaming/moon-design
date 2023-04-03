@@ -1,7 +1,4 @@
 import {
-  Dispatch,
-  SetStateAction,
-  useEffect,
   Children,
   ReactNode,
 } from 'react';
@@ -88,30 +85,4 @@ function getLabelFromChildren(children: ReactNode) {
   });
 
   return label;
-}
-
-export function useOpenSearch(setIsOpen: Dispatch<SetStateAction<boolean>>) {
-  useEffect(() => {
-    function handleKeyDown(e: KeyboardEvent) {
-      if (
-        (navigator?.platform?.toLowerCase().includes('mac')
-          ? e.metaKey
-          : e.ctrlKey) &&
-        e.key === 'k'
-      ) {
-        e.preventDefault();
-        e.stopPropagation();
-
-        setIsOpen((currentValue) => {
-          return !currentValue;
-        });
-      }
-    }
-
-    document.addEventListener('keydown', handleKeyDown);
-
-    return () => {
-      document.removeEventListener('keydown', handleKeyDown);
-    };
-  }, []);
 }

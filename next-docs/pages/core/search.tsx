@@ -4,7 +4,6 @@ import ComponentPageDescription from '../../components/ComponentPageDescription'
 import getComponent from '../../components/getComponent';
 import PropsTable from '../../components/PropsTable';
 import Default from '../../public/examples/search/Default';
-import Modal from '../../public/examples/search/Modal';
 import useExamples from '../../utils/useExamples';
 
 const Example = () => {
@@ -18,11 +17,6 @@ const Example = () => {
       <Preview
         title="Default"
         preview={<Default />}
-        code={examples ? examples.Default : 'Loading'}
-      />
-      <Preview
-        title="Search Modal"
-        preview={<Modal />}
         code={examples ? examples.Default : 'Loading'}
       />
 
@@ -71,14 +65,6 @@ const Example = () => {
             default: '"Search"',
             description: 'Search field placeholder',
           },
-
-          {
-            name: 'page',
-            type: 'string',
-            required: false,
-            default: '_',
-            description: 'The current page id',
-          },
           {
             name: 'autoFocus',
             type: 'boolean',
@@ -86,13 +72,6 @@ const Example = () => {
             default: 'false',
             description:
               'Specifies that an search should automatically get focus when the page loads',
-          },
-          {
-            name: 'renderLink',
-            type: 'RenderLink',
-            required: false,
-            default: '_',
-            description: 'Function for customizing rendering of links',
           },
           {
             name: 'selected',
