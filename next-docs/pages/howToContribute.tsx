@@ -6,7 +6,7 @@ const PageHowToContribute = () => (
     <h1 className="text-moon-32 font-medium">How to contribute</h1>
     <PageSection title="Setup">
       <p className="text-moon-16">Install `pnpm`:</p>
-      <CodeSnippet language="bash">{`npm install -g pnpm`}</CodeSnippet>
+      <CodeSnippet language="bash">{`npm install -g pnpm@7.3.0`}</CodeSnippet>
       <p className="text-moon-16">
         Check{' '}
         <a
