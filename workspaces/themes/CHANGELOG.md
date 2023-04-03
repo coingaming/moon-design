@@ -1,5 +1,11 @@
 # @heathmont/moon-themes-tw
 
+## 9.28.1
+
+### Patch Changes
+
+- chore: bump moon version to 9.28.1
+
 ## 9.28.0
 
 ### Minor Changes
